@@ -1,3 +1,402 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ============================================================
+// Ported Obsidian callout + table snippets, re-keyed to Quartz's
+// callout DOM and theme variables (dark-mode safe).
+// Source: obsidian-vault/.obsidian/snippets/{callout-expand,
+//   callout-indent,callout-list-indent-undo,callout-wrapper,
+//   table-no-wrap}.css
+// ============================================================
+
+// --- [!expand-ui] : circular +/- toggle with a bottom separator ---
+.callout[data-callout="expand-ui"] {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid var(--lightgray) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 6px 0 !important;
+
+  &::before,
+  & .callout::before {
+    display: none !important;
+  }
+
+  & > .callout-title {
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: transparent !important;
+  }
+
+  & .callout-title-inner {
+    font-size: 0.95em;
+    font-weight: 500;
+    color: var(--gray) !important;
+    text-transform: uppercase;
+  }
+
+  & .callout-icon {
+    box-sizing: border-box; // keep it a fixed 24×24 circle, not an oval
+    flex: 0 0 24px; // override Quartz base `.callout-icon { flex: 0 0 var(--icon-size) }`
+    align-self: center; // don't stretch in the flex title row
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: 1.5px solid var(--gray);
+    border-radius: 50%;
+    position: relative;
+    background: none !important;
+    // Quartz masks .callout-icon to the callout type's lucide glyph; that mask
+    // clips our circle border + the +/- bars to that shape. Drop it.
+    mask: none !important;
+    -webkit-mask: none !important;
+
+    & svg {
+      display: none;
+    }
+
+    // horizontal bar (the "minus"); centered via inset + auto margins
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      width: 10px;
+      height: 1.5px;
+      background-color: var(--gray);
+    }
+  }
+
+  // vertical bar added only when collapsed -> together with ::after makes a "plus"
+  &.is-collapsed .callout-icon::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 1.5px;
+    height: 10px;
+    background-color: var(--gray);
+  }
+
+  &:not(.is-collapsed) .callout-icon {
+    background-color: var(--dark) !important;
+    border-color: var(--dark);
+
+    &::after {
+      background-color: var(--light);
+    }
+  }
+
+  // the circular +/- icon is the sole toggle indicator; hide Quartz's default fold chevron
+  & .callout-fold {
+    display: none !important;
+  }
+
+  & > .callout-content {
+    padding: 8px 0 0 36px !important;
+    color: var(--darkgray) !important;
+  }
+
+  // Fully hide collapsed content. Quartz's `0fr` grid-collapse can't shrink a
+  // nested callout's padding/border, so a child expand-ui's title/border peeks
+  // through; hiding the content outright avoids the peek.
+  &.is-collapsed > .callout-content {
+    display: none !important;
+  }
+}
+
+// --- [!expand] : blue clickable title with chevron, indented body ---
+.callout[data-callout="expand"] {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 4px 0 !important;
+
+  &::before,
+  & .callout-icon {
+    display: none !important;
+  }
+
+  & > .callout-title {
+    padding: 0 !important;
+    color: var(--secondary) !important;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  & .callout-fold {
+    display: flex !important;
+    color: var(--darkgray) !important;
+  }
+
+  & > .callout-content {
+    padding: 4px 0 4px 20px !important;
+    border-left: 1px solid var(--lightgray);
+  }
+}
+
+// --- [!indent] / [!list-indent-undo] / [!wrapper] : invisible layout wrappers ---
+.callout[data-callout="indent"],
+.callout[data-callout="list-indent-undo"],
+.callout[data-callout="wrapper"] {
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  color: inherit !important;
+
+  & > .callout-title {
+    display: none !important;
+  }
+
+  & > .callout-content {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.callout[data-callout="indent"] {
+  margin: 0 0 0 2.3em !important;
+}
+
+.callout[data-callout="list-indent-undo"] {
+  margin: 0 0 0 -2.3em !important;
+}
+
+.callout[data-callout="wrapper"] {
+  margin: 0 !important;
+}
+
+ul + .callout[data-callout="wrapper"],
+ol + .callout[data-callout="wrapper"] {
+  margin: 0 0 0 -2.3em !important;
+}
+
+// --- wide tables: no wrap + horizontal scroll (was .markdown-rendered/.cm-embed-block) ---
+article table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  & td,
+  & th {
+    white-space: nowrap !important;
+  }
+
+  // header cells: bold text (covers native + merge tables). The cell content is
+  // wrapped in a <p> that otherwise renders at normal weight, so bold descendants too.
+  & th,
+  & th * {
+    font-weight: 700;
+  }
+
+  // table border color (fixed blue-gray, both themes; base.scss uses the very-faint --lightgray)
+  & tr {
+    border-bottom-color: #c1c7d0;
+  }
+}
+
+// --- Excerpt: render inline, no box (matches the Obsidian excerpt plugin) ---
+// The wrapper exists only to carry the `^excerpt` block id for transclusion;
+// `display:contents` removes it from layout so the body reads as plain content.
+.excerpt {
+  display: contents;
+}
+
+// --- Transcluded excerpts: flatten Quartz's embed chrome so an embedded
+// excerpt reads as inline content of the host page (scoped to excerpts only,
+// so other transclusions keep Quartz's default embed styling). ---
+.transclude:has(.excerpt) {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  & > .transclude-inner {
+    margin: 0;
+    padding: 0;
+  }
+
+  // base.scss reduces lists to `padding-left: 1rem` inside any `.transclude`,
+  // assuming the blockquote's own 1rem padding makes up the rest. We zero that
+  // padding for seamlessness, so restore the normal (outside-excerpt) list
+  // indent — otherwise bullets sit too far left.
+  ul {
+    padding-left: 40px;
+  }
+
+  // hide the "Link to original" backlink Quartz appends to the embed
+  .transclude-src {
+    display: none;
+  }
+}
+
+// --- Merge tables (colspan/rowspan/per-cell bg; rich Markdown cells) ---
+.merge-table {
+  border-collapse: collapse;
+  margin: 1em 0;
+
+  // tables don't wrap text — long cells clip and the table scrolls horizontally
+  // (via `article table { overflow-x: auto }`). The cell content sits in a <p>
+  // that resets white-space, so target the text containers (not KaTeX spans).
+  th,
+  td,
+  th p,
+  td p,
+  th li,
+  td li {
+    white-space: nowrap !important;
+  }
+
+  th,
+  td {
+    border: 1px solid #c1c7d0;
+    padding: 0.4em 0.6em;
+    vertical-align: top;
+  }
+
+  // tighten margins of block content inside cells
+  th > :first-child,
+  td > :first-child {
+    margin-top: 0;
+  }
+  th > :last-child,
+  td > :last-child {
+    margin-bottom: 0;
+  }
+
+  // The source `bg` colors are light Confluence pastels; in dark mode the near-white
+  // body text would be unreadable on them. Force dark text on any cell carrying an
+  // explicit background so colored cells stay legible in both themes.
+  th[style*="background-color"],
+  td[style*="background-color"] {
+    color: #2b2b2b;
+    // links keep their normal (outside-table) color, not a cell-specific one
+  }
+}
+
+// --- Tabs ([!tabs] callout -> interactive tab widget) ---
+// Card look: bordered widget; active tab matches the page background, inactive
+// tabs sit a shade darker (a darkened --light, so it's darker in both themes).
+.tabs {
+  // inactive-tab surface: the page background, nudged a shade darker
+  --tabs-inactive: color-mix(in srgb, var(--light) 92%, #000);
+
+  margin: 1em 0;
+  border: 1px solid #c1c7d0; // match table border color
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tabs-nav {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--tabs-inactive);
+  border-bottom: 1px solid #c1c7d0;
+}
+
+.tabs-btn {
+  background: transparent; // shows the darker nav strip
+  border: none;
+  padding: 0.5em 1em;
+  font: inherit;
+  color: var(--gray);
+  cursor: pointer;
+
+  & + .tabs-btn {
+    border-left: 1px solid #c1c7d0;
+  }
+
+  &:hover {
+    color: var(--dark);
+  }
+
+  &.is-active {
+    background: var(--light); // same color as the page background
+    color: var(--dark);
+  }
+}
+
+.tabs-panel {
+  display: none;
+  padding: 0.8em 1em;
+
+  &.is-active {
+    display: block;
+  }
+
+  & > :first-child {
+    margin-top: 0;
+  }
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// --- Headings: more breathing room above document-level headers ---
+// (scoped to direct children of the content container, so headers nested in
+// lists / callouts / table cells keep their tighter spacing.)
+.markdown-preview-view {
+  & > h1,
+  & > h2,
+  & > h3,
+  & > h4,
+  & > h5,
+  & > h6 {
+    margin-top: 2rem;
+  }
+
+  & > :first-child {
+    margin-top: 0;
+  }
+}
+
+// --- Use Inter everywhere (override the active theme's system-font stack + the
+// empty --headerFont so headers stop falling back to Times). ---
+:root,
+html[saved-theme="light"],
+html[saved-theme="dark"] {
+  --font-default: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --bodyFont: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --headerFont: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+// The theme hardcodes a system font stack on text elements, so the variable
+// override above isn't enough. Force Inter across the whole site — but exclude
+// code/pre/kbd (monospace) and the KaTeX subtree (math fonts) so those survive.
+body,
+body :not(code):not(pre):not(kbd):not(.katex):not(.katex *) {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif !important;
+}
+
+// --- Generous whitespace at the bottom of every page (scroll buffer) ---
+article {
+  padding-bottom: 50vh;
+}
+
+// --- Left sidebar (explorer): no text wrap; scroll horizontally for long titles ---
+.explorer {
+  ul,
+  li,
+  .folder-outer,
+  .folder-container,
+  .folder-title,
+  & a {
+    white-space: nowrap;
+  }
+}
+
+.explorer-ul {
+  overflow-x: auto;
+
+  li {
+    width: max-content;
+    min-width: 100%; // short rows still fill the sidebar (consistent hover)
+  }
+}

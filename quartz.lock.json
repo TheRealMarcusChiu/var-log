@@ -31,6 +31,18 @@
       "commit": "2f7ec9a7ef80ad5128d18205548f1132a2cf150a",
       "installedAt": "2026-05-24T15:36:16.467Z"
     },
+    "callout-list-attach": {
+      "source": "./local-plugins/callout-list-attach",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/callout-list-attach",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.563Z"
+    },
+    "callout-wrapper-fix": {
+      "source": "./local-plugins/callout-wrapper-fix",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/callout-wrapper-fix",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.563Z"
+    },
     "canvas-page": {
       "source": "github:quartz-community/canvas-page",
       "resolved": "https://github.com/quartz-community/canvas-page.git",
@@ -91,6 +103,18 @@
       "commit": "dedd9606147e9d995a4376b0d03e469e39e94f85",
       "installedAt": "2026-05-24T15:36:16.475Z"
     },
+    "dataview": {
+      "source": "./local-plugins/dataview",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/dataview",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.563Z"
+    },
+    "dataview-index": {
+      "source": "./local-plugins/dataview-index",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/dataview-index",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.563Z"
+    },
     "description": {
       "source": "github:quartz-community/description",
       "resolved": "https://github.com/quartz-community/description.git",
@@ -102,6 +126,12 @@
       "resolved": "https://github.com/quartz-community/encrypted-pages.git",
       "commit": "e0e08e7afa40b97909fb24fd7509ddaa10116425",
       "installedAt": "2026-05-24T15:36:17.007Z"
+    },
+    "excerpt": {
+      "source": "./local-plugins/excerpt",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/excerpt",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.562Z"
     },
     "explicit-publish": {
       "source": "github:quartz-community/explicit-publish",
@@ -156,6 +186,18 @@
       "resolved": "https://github.com/quartz-community/latex.git",
       "commit": "3dcfedcb5ae5e28b71248a72665ccb881e82c185",
       "installedAt": "2026-05-24T15:36:16.994Z"
+    },
+    "math-adjacency": {
+      "source": "./local-plugins/math-adjacency",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/math-adjacency",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.562Z"
+    },
+    "merge-table": {
+      "source": "./local-plugins/merge-table",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/merge-table",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.563Z"
     },
     "note-properties": {
       "source": "github:quartz-community/note-properties",
@@ -258,6 +300,12 @@
       "commit": "4c25c048a7f788cb156dad0050d80c7ed88692f9",
       "installedAt": "2026-05-24T15:36:17.439Z"
     },
+    "tabs": {
+      "source": "./local-plugins/tabs",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/tabs",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.563Z"
+    },
     "tag-list": {
       "source": "github:quartz-community/tag-list",
       "resolved": "https://github.com/quartz-community/tag-list.git",
@@ -269,6 +317,12 @@
       "resolved": "https://github.com/quartz-community/tag-page.git",
       "commit": "82f8a6d5e774de5e075978651b6ca81f2ccb6812",
       "installedAt": "2026-05-24T15:36:17.446Z"
+    },
+    "transclude-resolve": {
+      "source": "./local-plugins/transclude-resolve",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/transclude-resolve",
+      "commit": "local",
+      "installedAt": "2026-06-04T21:40:04.563Z"
     },
     "unlisted-pages": {
       "source": "github:quartz-community/unlisted-pages",
