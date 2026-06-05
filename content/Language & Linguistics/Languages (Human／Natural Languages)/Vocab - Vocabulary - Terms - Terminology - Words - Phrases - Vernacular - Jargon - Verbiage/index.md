@@ -103,7 +103,7 @@ words are a starting point. without words, children can't talk about people, pla
 - [[Korean Wave (Hallyu) - The Rise of Korea's Cultural Economy & Pop Culture]]
 - [[LGBTQQIAAP]]
 - [[Mundane]]
-- [[Naïve vs Gullible]]
+- [[Naïve vs Gullible]]
 - [[Paradox of Choice]]
 - [[Perception／Perceive - Conception／Conceive]]
 - [[portmanteau - contraction]]

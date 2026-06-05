@@ -1,5 +1,5 @@
 ---
-title: "Transformations Between Metric Spaces (Ordinary Continuity ／ Continuous [at a point - everywhere] - Uniform／Uniformly／Sequential／Sequentially／Hölder／Lipschitz Continuous／Continuity)"
+title: "Transformations Between Metric Spaces (Ordinary Continuity ／ Continuous [at a point - everywhere] - Uniform／Uniformly／Sequential／Sequentially／Hölder／Lipschitz Continuous／Continuity)"
 created: 2023-06-22T20:39:20.272-05:00
 modified: 2023-07-07T19:50:02.130-05:00
 parent: "[[Transformations Between Metric Spaces]]"

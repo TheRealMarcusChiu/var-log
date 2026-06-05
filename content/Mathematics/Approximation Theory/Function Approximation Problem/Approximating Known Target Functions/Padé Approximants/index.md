@@ -1,5 +1,5 @@
 ---
-title: "Padé Approximants"
+title: "Padé Approximants"
 created: 2023-12-20T17:51:17.972-06:00
 modified: 2023-12-20T17:56:11.873-06:00
 parent: "[[Approximating Known Target Functions]]"
