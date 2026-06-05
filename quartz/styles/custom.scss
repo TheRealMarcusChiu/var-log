@@ -401,3 +401,41 @@ article {
     min-width: 100%; // short rows still fill the sidebar (consistent hover)
   }
 }
+
+// --- Recent Notes (left sidebar): match the Explorer's fonts, no dates, tighter rows ---
+// The plugin's own component CSS loads after this file, so for rules with equal
+// specificity (the list margins) we out-specify it (`li.recent-li`) or use
+// `!important`; the title size and date-hide have no competing rule.
+.recent-notes {
+  // heading: the Explorer header ("Explorer") and this heading already share the
+  // base heading font (headerFont / 1rem / bold / --dark); just drop the top
+  // margin so the two headers align identically.
+  & > h3 {
+    margin: 0;
+  }
+
+  & > ul.recent-ul {
+    margin-top: 0.5rem !important; // was 1rem — tighten heading-to-list gap
+
+    & > li.recent-li {
+      margin: 0.3rem 0; // was 1rem — pull entries closer together
+    }
+  }
+
+  // listed notes: match the Explorer folder-title font exactly
+  // (.folder-container div > a / button span)
+  .desc h3,
+  .desc h3 > a {
+    margin: 0;
+    font-family: var(--headerFont);
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--secondary);
+  }
+
+  // drop the per-note date line
+  .meta {
+    display: none;
+  }
+}

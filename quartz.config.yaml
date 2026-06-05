@@ -155,6 +155,9 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    options:
+      folderDefaultState: collapsed
+      useSavedState: true
     layout:
       position: left
       priority: 50
@@ -233,8 +236,13 @@ plugins:
   - source: github:quartz-community/recent-notes
     enabled: true
     options:
-      title: Recently Notes
-      linkToMore: true
+      title: Recent Notes
+      limit: 4
+      linkToMore: false
+      showTags: false
+    layout:
+      position: left
+      priority: 40
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -252,8 +260,6 @@ plugins:
     options:
       includeAll: false
       includedProperties:
-        - created
-        - modified
         - description
         - tags
         - aliases
