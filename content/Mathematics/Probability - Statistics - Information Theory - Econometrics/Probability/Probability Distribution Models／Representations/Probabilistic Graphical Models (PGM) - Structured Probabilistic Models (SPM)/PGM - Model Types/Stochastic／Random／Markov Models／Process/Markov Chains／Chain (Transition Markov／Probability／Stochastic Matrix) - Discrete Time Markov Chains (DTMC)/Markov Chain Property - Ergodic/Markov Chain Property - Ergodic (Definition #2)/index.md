@@ -1,11 +1,12 @@
 ---
+publish: true
 title: "Markov Chain Property - Ergodic (Definition #2)"
 created: 2025-09-15T01:59:04.790-05:00
 modified: 2026-05-15T18:20:59.321-05:00
-parent: "[[Markov Chain Property - Ergodic]]"
-children: []
 ---
-Based on: [https://www.youtube.com/watch?v=VCb2AMN87cg](https://www.youtube.com/watch?v=VCb2AMN87cg)
+
+Based on: <https://www.youtube.com/watch?v=VCb2AMN87cg>
+
 # Definition
 
 𝑋(𝑡) is ergodic if time-average = ensemble-average
@@ -32,20 +33,23 @@ Based on: [https://www.youtube.com/watch?v=VCb2AMN87cg](https://www.youtube.com/
   ]
 }
 ```
+
 # Birkhoff's Equality
-- state variable 𝜔\[𝑡\] - configuration at time 𝑡
+
+- state variable 𝜔\[𝑡] - configuration at time 𝑡
 - state space 𝛺 - set of all possible configurations
 - probability density function 𝑃(𝜔)
-- observable 𝑥(𝑡) = 𝑓(𝜔\[𝑡\])
-- dynamic 𝜔\[𝑡\] → 𝜔\[𝑡+1\]
+- observable 𝑥(𝑡) = 𝑓(𝜔\[𝑡])
+- dynamic 𝜔\[𝑡] → 𝜔\[𝑡+1]
 
-If 𝜔\[𝑡\] eventually visits all of 𝛺 regardless of 𝜔\[0\], then Birkhoff's equality holds:
+If 𝜔\[𝑡] eventually visits all of 𝛺 regardless of 𝜔\[0], then Birkhoff's equality holds:
+
 - $\underbrace{ lim_{T \rightarrow ∞} \frac{1}{T} \int_o^T f(\omega [t]) dt }_\text{average along a long trajectory} = \underbrace{ \int_𝛺 f(\omega)P(\omega) d\omega }_\text{average over all possible states}$
 
 # Ergodics Examples
 
 > [!expand-ui]- Trivial Sampling
-> Trivial sampling: 𝑥<sub>𝑛</sub>(𝑡) \~ 𝑋 for all 𝑛 and 𝑡
+> Trivial sampling: 𝑥<sub>𝑛</sub>(𝑡) ~ 𝑋 for all 𝑛 and 𝑡
 >
 > No dynamic dependence on initial condition.
 >
@@ -61,6 +65,7 @@ If 𝜔\[𝑡\] eventually visits all of 𝛺 regardless of 𝜔\[0\], then Birk
 > This process have weak path dependence. Forgets initial condition over time
 >
 > ![[Markov Chain Property - Ergodic (Definition #2)/07-ergodic-example-2.png]]
+
 # Ergodic Non-Examples
 
 > [!expand-ui]- Non-Example #1

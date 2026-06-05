@@ -1,17 +1,19 @@
 ---
-title: "Probability vs Fuzzy Set／Logic"
+publish: true
+title: Probability vs Fuzzy Set／Logic
 created: 2021-09-13T05:26:32.369-05:00
 modified: 2022-04-11T03:58:44.036-05:00
-parent: "[[Probability Definition]]"
-children: []
 ---
+
 [[Fuzzy／Uncertain Set Theory|fuzzy sets]]/[[Fuzzy Logic|fuzzy logic]] are not just a clever disguise for [[Probability|probability]]/statistical models:
+
 - <strong>probability</strong> - is the degree of belief (observed value is either true or false)
 - <strong>fuzzy</strong> - is the degree of truth (truth is fuzzy, no longer black-and-white)
 
 # Example
 
 Let the set of all liquids be the universe of objects, and let fuzzy subset 𝐿 = {all drinkable liquids}. Suppose you were in a desert thirsting for a drink and you came upon two bottles:
+
 - 𝐴 labeled with membership = 0.91
 - 𝐵 labeled with probability = 0.91
 

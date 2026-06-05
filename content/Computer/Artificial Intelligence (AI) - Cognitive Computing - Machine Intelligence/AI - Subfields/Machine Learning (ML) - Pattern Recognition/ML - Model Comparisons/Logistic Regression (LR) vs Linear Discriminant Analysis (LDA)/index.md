@@ -1,17 +1,19 @@
 ---
-title: "Logistic Regression (LR) vs Linear Discriminant Analysis (LDA)"
+publish: true
+title: Logistic Regression (LR) vs Linear Discriminant Analysis (LDA)
 created: 2021-08-15T22:45:14.461-05:00
 modified: 2023-09-20T13:38:01.276-05:00
-parent: "[[ML - Model Comparisons]]"
-children: []
 ---
+
 Comparing:
+
 - [[Logistic (Logit) Regression Model]]
 - [[Linear／Normal Discriminant／Discriminative Analysis (LDA／NDA)|Linear/Normal Discriminant/Discriminative Analysis (LDA/NDA)]]
 
 Logistic regression indeed does not assume any specific shapes of densities in the space of predictor variables, but LDA does. Here are some differences between the two analyses, briefly.
 
 <strong>Binary Logistic regression</strong> (BLR) vs <strong>Linear Discriminant analysis</strong> (with 2 groups: also known as Fisher's LDA):
+
 - <strong>BLR</strong>: Based on [[Maximum Likelihood Estimation (MLE)|Maximum Likelihood Estimation]]. <strong>LDA</strong>: Based on [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Least Squares Estimation]]; equivalent to [[Linear Regression (LR) Models|linear regression]] with binary predictand (coefficients are proportional and R-square = 1-Wilk's lambda)
 - <strong>BLR</strong>: Estimates probability (of group membership) immediately (the predictand is itself taken as probability, observed one) and conditionally. <strong>LDA</strong>: estimates probability mediately (the predictand is viewed as a binned continuous variable, the discriminant) via a classificatory device (such as naive Bayes) which uses both conditional and marginal information.
 - <strong>BLR</strong>: Not so exigent to the level of the scale and the form of the distribution in predictors. <strong>LDA</strong>: Predictors desirably interval level with multivariate normal distribution.

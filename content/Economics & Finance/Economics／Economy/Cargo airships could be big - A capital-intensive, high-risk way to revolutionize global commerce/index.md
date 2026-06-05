@@ -1,57 +1,60 @@
 ---
-title: "Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce"
+publish: true
+title: Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce
 created: 2023-09-11T19:12:19.613-05:00
 modified: 2023-09-11T19:22:38.004-05:00
-parent: "[[Economics／Economy]]"
-children: []
 ---
-Original article: [https://www.elidourado.com/p/cargo-airships](https://www.elidourado.com/p/cargo-airships)
+
+Original article: <https://www.elidourado.com/p/cargo-airships>
 
 A lot of people think that the Zeppelin era ended merely because the Hindenburg erupted into flames in front of newsreel cameras, killing 35 of the 97 people on board in the inferno.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/01.png|500]]While the 1937 accident certainly didn’t help, the writing was already on the wall for passenger airship service. In the late 1930s, airplanes were finally getting good. The DC-3, which is still technically in service today, was introduced in 1936. By 1939, you could cross the Atlantic in less than a day on Pan Am’s [Boeing 314 Clipper](https://en.wikipedia.org/wiki/Boeing_314_Clipper). And after World War II, the [Lockheed Constellation](https://en.wikipedia.org/wiki/Lockheed_Constellation), with its pressurized cabin, 5,400-mile range, and 340-mph cruise speed took over the transatlantic market.
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/01.png|500]]While the 1937 accident certainly didn’t help, the writing was already on the wall for passenger airship service. In the late 1930s, airplanes were finally getting good. The DC-3, which is still technically in service today, was introduced in 1936. By 1939, you could cross the Atlantic in less than a day on Pan Am’s [Boeing 314 Clipper](https://en.wikipedia.org/wiki/Boeing_314_Clipper). And after World War II, the [Lockheed Constellation](https://en.wikipedia.org/wiki/Lockheed_Constellation), with its pressurized cabin, 5,400-mile range, and 340-mph cruise speed took over the transatlantic market.
 
 Passenger airship demand was headed to zero no matter what. Airplanes won because they were faster.
 
 But there is another market that is not as sensitive to speed: freight. A shipping container doesn’t suffer detrimental health effects from sitting for hours on end. It doesn’t complain about yet another airplane meal. It doesn’t feel gross if it doesn’t get a shower. It doesn’t get bored on a long flight.
 
 Could airships make a comeback serving the freight market? The idea is compelling, but it faces serious obstacles. Along with my friends Ian McKay and Matt Sattler, I have spent a lot of time thinking about how to make cargo airships work. Here’s what we think.
+
 # Airship scaling laws
 
 The physics of airships are unbelievably seductive.
 
 All aircraft are subject to four forces: thrust and drag in the direction of travel, and lift and gravity in the vertical direction. For an aircraft in steady flight, the vertical and horizontal forces are in balance.
 
-A useful way to summarize the performance of an aircraft is via the lift-to-drag ratio. <sup>\[1\]</sup> If an aircraft can generate more lift and/or produce less drag, the performance of the aircraft is higher.For an airship, which gets lift from lifting gas (aerostatic lift) instead of from wings (aerodynamic lift), the amount of lift is proportional to the <em>volume</em> of lifting gas. The drag is proportional to some combination of cross-sectional area and [wetted area](https://en.wikipedia.org/wiki/Wetted_area)—in any case, it increases with <em>area</em>.
+A useful way to summarize the performance of an aircraft is via the lift-to-drag ratio. <sup>\[1]</sup> If an aircraft can generate more lift and/or produce less drag, the performance of the aircraft is higher.For an airship, which gets lift from lifting gas (aerostatic lift) instead of from wings (aerodynamic lift), the amount of lift is proportional to the <em>volume</em> of lifting gas. The drag is proportional to some combination of cross-sectional area and [wetted area](https://en.wikipedia.org/wiki/Wetted_area)—in any case, it increases with <em>area</em>.
 
 The performance of an airship, therefore, is proportional to volume divided by area. As an airship increases in size, both the volume and the area of the airship increase, but the volume always increases faster than the area. The volume is a function of length cubed, while the area is a function of length squared.This simple square-cube law means that, in principle, the performance of an airship gets better as it gets bigger. <em>Forever</em>.
 
 If your airship performance isn’t good enough, just double it in size. The lift will increase by a factor of 8, the drag will increase by a factor of 4, and the lift-to-drag ratio will therefore double. Still not good enough? Do it again. 🤯
 
 To do cargo airships right, we need to make the biggest flying objects ever created. A modern cargo airship would make the Hindenburg puny by comparison.
+
 # How big is the market for cargo airships?
 
 The market for cargo airships is massive if they can match the economic performance of trucks. To show this, let’s first look at the domestic freight market. I’ll use 2019 data so that the analysis isn’t skewed by Covid.According to the Bureau of Transportation Statistics, [average revenue per domestic ton-km](https://www.bts.gov/content/average-freight-revenue-ton-mile) is about 83¢ for air freight, 11¢ for trucks, and 2¢ for water transportation (in spite of the Jones Act). These modes are not equivalent in terms of the time it takes to get your goods—if they were, we would expect water transportation, which is cheapest, to take the whole market. Air freight will get cargo to your destination the same day, trucks will take a few days, and ships will take longer.
 
 What we observe under these conditions is that, domestically, most of both the tonnage and value of cargo is transported via truck. Trucks are neither the fastest nor the cheapest mode of transport, but they provide a great value proposition—you get your stuff in a few days for much cheaper than air freight.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/02.png|500]]
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/02.png|500]]
 
 In the international market, the situation is different.First, the costs are different. Both air and water freight are cheaper internationally than they are domestically. According [to Boeing](https://www.boeing.com/resources/boeingdotcom/market/assets/downloads/2020_WACF_PDF_Download.pdf), in 2019 the global air cargo industry carried about 264 billion revenue-ton-kms and earned about \$106 billion in revenue. This works out to about 40¢ per ton-km, less than half the cost of US domestic air freight. International water transportation is also cheaper than domestic, perhaps around 1¢ per ton-km.
 
 Second, some modes are missing because a lot of countries are not connected by land. Looking at US import and export data, and excluding Canada and Mexico where US roads, rail, and pipelines connect, water transportation has claimed the majority of both the tonnage and the value. Airplanes carry less than 1 percent of the tonnage but about 39 percent of the value.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/03.png|500]]
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/03.png|500]]
 
 What if we introduced a new international freight mode? Suppose that, like trucks, it could get you your stuff in a few days instead of in a month or more via container ship. Suppose also that, like trucks, it was several times cheaper than today’s air freight.By analogizing the international market with the domestic market, it seems possible that many customers, <em>perhaps the majority by both tonnage and value</em>, would choose the new truck-like mode.
 
 How big would the global market be? Eyeballing a chart from UNCTAD’s annual <em>[Review of Maritime Transport 2020](https://unctad.org/system/files/official-document/rmt2020_en.pdf)</em>, containerized international maritime trade is around 8 trillion ton-miles, or about 13 trillion ton-km (out of a total of about 96 trillion ton-km of total international maritime trade).
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/04.png|500]]Let’s say airships captured half of the 13 trillion ton-km currently served by container ships at a price of 10¢ per ton-km. That would equal \$650 billion in annual revenue for cargo airships, notably much bigger than the \$106 billion Boeing reports for the entire global air freight market. If one company owned the cargo airship market, taking only half of <em>only the container market</em>, it would be the biggest company in the world by revenue.
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/04.png|500]]Let’s say airships captured half of the 13 trillion ton-km currently served by container ships at a price of 10¢ per ton-km. That would equal \$650 billion in annual revenue for cargo airships, notably much bigger than the \$106 billion Boeing reports for the entire global air freight market. If one company owned the cargo airship market, taking only half of <em>only the container market</em>, it would be the biggest company in the world by revenue.
 
 How many airships would we need to fill that demand? A lot. If each airship can carry 500 tons, cruises at 90 km/h, and is utilized two-thirds of the time, that adds up to around 260 million ton-km per year per airship. To produce 6.5 trillion ton-km per year would require 25,000 such airships. This is about the number of airliners in the world today.
 
 None of this analysis yet assumes any expansion of the market from normal growth, from the availability of a new service class, or from the ability to go point-to-point rather than shipping between existing ports. But it’s easy to imagine new trading patterns and even new companies forming because cargo airships exist. Just as Uber and Lyft massively expanded the vehicle-for-hire market, the added supply chain flexibility afforded by airships would stimulate new demand.
+
 # Airship engineering basics
 
 Airships come in three flavors: blimps, rigid-body, and semi-rigid.
@@ -69,9 +72,11 @@ These days, the Goodyear “Blimp” is no longer a blimp at all, but rather a s
 Another airship design strategy that is trendy these days is to make the airship “hybrid,” meaning that it requires a combination of aerostatic and aerodynamic lift to fly, at least when it is fully laden. The hull itself is an airfoil that generates lift with forward motion. This allows the airship to lift more than it could with a given quantity of lifting gas, but it also means that the airship loses the ability to hover and station-keep. Like an airplane, it has to keep moving forward not to crash into the ground.
 
 In this post, I am considering only rigid-body non-hybrid airships as a possible solution for the intercontinental cargo market. We want massive scale and we don’t want to lose the option to come to a stop and float.
+
 # Trade study for a 500-ton airship
 
 To get a flavor for the performance of a cargo airship, we asked an extremely experienced aeronautical engineer to parametrically size an airship based on historical airship size and performance data. Our base requirements were as follows:
+
 - Range: 12,000 km
 - Payload: 500 metric tons
 - Cruise speed: 90 km/h
@@ -79,6 +84,7 @@ To get a flavor for the performance of a cargo airship, we asked an extremely ex
 - Lifting gas: helium, for conservatism
 
 Our engineer came back to us with the following design outputs:
+
 - Fineness ratio: 5
 - Length: 388 m
 - Diameter: 78 m
@@ -88,21 +94,21 @@ Our engineer came back to us with the following design outputs:
 - Fuel: 128,761 kg
 - Cruise shaft power: 3,435 kW
 
-This would be by far the biggest aircraft ever built. <sup>\[2\]</sup> A gross weight of 1,051 tons is 64% bigger than the 640-ton maximum takeoff weight of the late [Antonov An-225](https://en.wikipedia.org/wiki/Antonov_An-225_Mriya). A length of 388 meters is 58% bigger than the Hindenburg’s 245 meters. Lifting gas volume of 1,129,380 m³ is more than 5.6 <em>times</em> the Hindenburg’s measly 200,000 m³.As our engineer cheerfully noted, the fuselage of the Airbus A380, the world’s largest passenger aircraft, would not be out of place on our airship <em>as a gondola</em>. It is only 73 meters long.
+This would be by far the biggest aircraft ever built. <sup>\[2]</sup> A gross weight of 1,051 tons is 64% bigger than the 640-ton maximum takeoff weight of the late [Antonov An-225](https://en.wikipedia.org/wiki/Antonov_An-225_Mriya). A length of 388 meters is 58% bigger than the Hindenburg’s 245 meters. Lifting gas volume of 1,129,380 m³ is more than 5.6 <em>times</em> the Hindenburg’s measly 200,000 m³.As our engineer cheerfully noted, the fuselage of the Airbus A380, the world’s largest passenger aircraft, would not be out of place on our airship <em>as a gondola</em>. It is only 73 meters long.
 
 After sizing the vehicle, our engineer performed some trades, varying one free parameter at a time to see how it affects the other aircraft characteristics. Varying range scales the vehicle roughly linearly—if you want to increase the range to 15,000 km, you obviously need to carry more fuel, so the vehicle gets a little bigger and more powerful. For this 25% increase in range, you add about 2% in length, 5% in gas volume, and 4% in cruise shaft power. You also have to increase fuel by about 30%. All told, the 25% increase in design range reduces payload transport efficiency by about 3.5%.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/05.png|500]]
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/05.png|500]]
 
 The story is different when we vary payload instead of range. As I noted above, airships benefit from a square-cube law as they increase in size. Lift scales with volume and drag scales with area. This means that bigger airships are better, and smaller airships are much, much worse.
 
 Let’s look first at how the length of the airship varies with payload. As you can see below, there is a steep penalty for reducing airship size. To carry a payload that is only 40% as large as our 500 tons, you still have to make the airship 77.5% as long. To carry a payload that is only 10% as large as ours, you still have to make one about 56% as long! Meanwhile, to add 60% additional payload capacity, you only have to increase the length by 15%.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/06.png|500]]
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/06.png|500]]
 
 How does this affect transport efficiency? It’s a massive effect. You reduce transport efficiency by 36% if you reduce payload by 60%, and you reduce efficiency by 65% if you reduce payload by 90%. On the other hand, if you increase payload by 60%, you get a 21% improvement in transport efficiency.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/07.png|500]]
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/07.png|500]]
 
 For airships, bigger is clearly better.
 
@@ -110,14 +116,15 @@ Another important parameter to look at is design cruise speed. When I initially 
 
 The power needed to drive an airship is proportional to velocity cubed. Because the mission takes less time when the ship is moving faster, the total mission fuel required is proportional only to velocity squared. The net effect is that transport efficiency decreases quadratically with cruise speed.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/08.png|500]]
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/08.png|500]]
 
 Nevertheless, there are a couple of factors that still militate for a faster design cruise speed. I’ll discuss them in the next section.
+
 # Other cargo airship design considerations<strong>Autonomy.</strong> If you’re taking a load of cargo across the Pacific Ocean on a multi-day journey, you can’t expect a single crew to be awake and on duty the entire time. Making the airship unmanned not only saves you crew salaries, it lets you delete a lot of crew support infrastructure on the airship—the bunks and galleys and heads. This saves weight, money, and complexity.
 
 Cargo airships would probably be among the easiest vehicles to make unmanned. The sky is big and empty, but it’s especially empty over the ocean at the lowish altitudes, below airliners’ Class A airspace, where airships would fly. Even when you get over land and near landing facilities, airships are slow moving relative to other aircraft, so there is time for a remote pilot to take over if any off-nominal condition occurs.
 
-<strong>Lifting gas.</strong> In our study, we assumed helium as the lifting gas in order to be conservative. As I’ve noted in [a blog post for the CGO](https://www.thecgo.org/benchmark/bring-back-hydrogen-lifting-gas/), current FAA guidance disallows the use of hydrogen as a lifting gas. <sup>\[3\]</sup> Yes, hydrogen burns, and that can be hazardous, as the Hindenburg showed. But there were many, many horrible accidents in the early days of aviation, and we have dealt with the risks they uncovered through better engineering. In the last year or so, I have heard rumors of some European companies that want to use hydrogen lifting gas, so it’s possible that EASA could lead the way and FAA would eventually follow.
+<strong>Lifting gas.</strong> In our study, we assumed helium as the lifting gas in order to be conservative. As I’ve noted in [a blog post for the CGO](https://www.thecgo.org/benchmark/bring-back-hydrogen-lifting-gas/), current FAA guidance disallows the use of hydrogen as a lifting gas. <sup>\[3]</sup> Yes, hydrogen burns, and that can be hazardous, as the Hindenburg showed. But there were many, many horrible accidents in the early days of aviation, and we have dealt with the risks they uncovered through better engineering. In the last year or so, I have heard rumors of some European companies that want to use hydrogen lifting gas, so it’s possible that EASA could lead the way and FAA would eventually follow.
 
 Hydrogen has some significant benefits over helium as a lifting gas. First, it is lighter and supplies about 8% more gross lift. One thing that should be obvious from our trade study is that an improvement in gross lift would carry through the rest of the design. For given performance requirements, it would decrease the required volume of lifting gas, reduce the length and diameter of the structure, reduce total drag, reduce required shaft power, reduce empty weight, reduce fuel requirements, and increase transport efficiency.The other major benefit to hydrogen is that it is much cheaper than helium. The [USGS estimates](https://pubs.usgs.gov/periodicals/mcs2022/mcs2022-helium.pdf) the private sector price of helium to be \$7.57/m³, while hydrogen is sometimes available for \$0.11/m³. It would cost almost \$8 million to fill our 500-ton airship with helium, and just over \$100k to fill it with hydrogen. Lifting gas doesn’t get used up the same way as fuel does, but through leaks and venting, it wouldn’t be just a one-time charge. Hydrogen is cheap enough that you can design to vent it to help keep the ship trim.
 
@@ -151,7 +158,7 @@ The other approach would be to take a deliberate strategy of riding the winds. W
 
 A successful system for optimizing for winds would have a large benefit and could be a game changer.<strong>Mountains.</strong> Airships do not fly as high as airplanes, and therefore they are affected by terrain. In particular, the Andes, the Rockies, and the Himalayas could pose problems for cargo airships. Below is a map made by yours truly with all the places at an altitude above 1,500 meters blacked out. Those are possibly no-go zones.
 
-![[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/09.png|500]]
+![[Economics & Finance/Economics／Economy/Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce/09.png|500]]
 
 Possible solutions include using vectored-thrust electric fans for propulsion to get a bit more altitude at the cost of forward speed while crossing mountain ranges.
 
@@ -172,6 +179,7 @@ The fancier way to address the problem is to have a system onboard for compressi
 More important than the patent, compressor pumps may not be good enough yet to make this work. If you’ve ever seen a bouncy house get filled, think about how long that takes. And then think instead about compressing hundreds of thousands of cubic meters of lifting gas instead of a tiny amount of air to make a bouncy house rigid. The process would be too slow, the pumps would probably burn out, and the system as a whole could be too heavy.
 
 Still, if someone out there has invented a super-fast, light, reliable, and powerful compressor pump, it could have an application in cargo airships.<strong>Landing facilities.</strong> Landing facilities for cargo airships need not be super fancy. They would need to be big enough to fit an airship, say something like the size of four football fields laid end to end for the airship itself, plus additional room for other equipment and operations. Paraphernalia needed onsite would include:
+
 - Refueling equipment and supplies
 - Unloading equipment
 - Moorings and water ballast
@@ -182,13 +190,14 @@ There could be landing facilities all over the place, including one near each ma
 For landing facilities that are not on site for a single customer, you would need integration with trucking for last-mile delivery. Speedy unloading and transfer to trucks would be critical for a fast turnaround to let the airship go earn more money.<strong>Simplicity.</strong> To realize the vision of cargo airships, they should be simple and manufacturable in large numbers. There will always be a tendency to add on fancy systems that provide some safety or performance benefit. Keeping the airship as simple as possible is probably necessary to be able to manufacture them at a sufficiently low cost and in high-enough numbers to make the business work.
 
 Maintaining a commitment to simplicity in the face of FAA certification could be challenging. For example, the remote piloting capability would probably require the use of a triple-redundant satellite link. I think this is worth it for the ability to delete the entire crew, but what other safety system creep will there be? Obviously airships must be safe, but we need the simplest possible safe airship.
+
 # Are cargo airships startupable?
 
-We’ve been assuming a cargo airship can do 260 million ton-km/year at 10¢/ton-km for annual revenue of \$26 million/airship. The fuel cost of doing 260 million ton-km would be around \$4 million, leaving \$22 million/year for other costs including insurance, capex amortization, ground support, maintenance, and profit. This depends on a lot of assumptions, but if you can build the airship at rate production at a cost around \$100 million, the math is getting close to working. <sup>\[4\]</sup>
+We’ve been assuming a cargo airship can do 260 million ton-km/year at 10¢/ton-km for annual revenue of \$26 million/airship. The fuel cost of doing 260 million ton-km would be around \$4 million, leaving \$22 million/year for other costs including insurance, capex amortization, ground support, maintenance, and profit. This depends on a lot of assumptions, but if you can build the airship at rate production at a cost around \$100 million, the math is getting close to working. <sup>\[4]</sup>
 
 Can you build a 388-meter airship for that cost? I think the answer is definitely maybe. A high rate of production tends to drive costs down toward the cost of inputs. 25,000 units might not get us all the way there, but it will help. Keeping the design as simple as possible will help.
 
-On the design side, we have been conservative. Switching from helium to hydrogen lifting gas will help. Increasing speed to trade fuel burn for higher utilization could improve airship economics further. Doubling the payload to 1,000 tons could make the math work if 500 tons doesn’t do it. And on the demand side, charging 12¢ or 15¢ instead of 10¢ per ton-km may also be viable. <sup>\[5\]</sup>
+On the design side, we have been conservative. Switching from helium to hydrogen lifting gas will help. Increasing speed to trade fuel burn for higher utilization could improve airship economics further. Doubling the payload to 1,000 tons could make the math work if 500 tons doesn’t do it. And on the demand side, charging 12¢ or 15¢ instead of 10¢ per ton-km may also be viable. <sup>\[5]</sup>
 
 However, even if the math works in steady state, there’s still a question of whether the whole enterprise is startupable.<strong>Iterative design.</strong> One thing that makes new aerospace companies successful is iterative versus linear design. At an iterative design company like SpaceX, they fly the first version of the rocket as quickly as possible, expect some rate of failure, and learn from the failures. At a linear design company like Boeing, they design the rocket to the nth degree, and then expect it not to fail.
 
@@ -209,6 +218,7 @@ But if, instead, you want to get to intercontinental market scale as quickly as 
 Companies in this space generally land on linear design and a 20-to-60-ton aircraft design that isn’t economically compelling for a big market. Consequently, execution is slow and fundraising is challenging.
 
 However, I understand why they are doing it the way they are. My suggested approach would be more capital intensive while retaining a lot of risk until fairly late in development. I am not sure it’s fundable.
+
 # A better world
 
 In my experience, once you start thinking about giant cargo airships, it’s hard to stop.
@@ -216,6 +226,7 @@ In my experience, once you start thinking about giant cargo airships, it’s har
 Try to actually picture it in your mind—an object the size of the Empire State Building floating across the sky a thousand feet above your head. They would be so common that you would see them daily, driving commerce and extending the gains from trade further than ever before. They would, of course, obey every law of physics, but to our minds trained on today’s mundane reality, they would appear to defy gravity.
 
 For me, they would carry symbolic value. Every time I saw one, I’d remember that great things are possible.
+
 - [1](https://www.elidourado.com/p/cargo-airships#footnote-anchor-1-99182678) Strictly speaking, the lift-to-drag ratio is not only a property of an aircraft, but a property of an aircraft at a specific flight condition (for example, cruise altitude and speed). But we are going to be loosey-goosey in this post.
 - [2](https://www.elidourado.com/p/cargo-airships#footnote-anchor-2-99182678) The biggest aircraft <em>concept</em> I’m aware of is the [Lockheed CL-1201](https://en.wikipedia.org/wiki/Lockheed_CL-1201), a nuclear-powered flying aircraft carrier with a maximum takeoff weight of 5,375 metric tons. It was designed to be powered by a 1.83-GW nuclear reactor, and to stay aloft for 41 days. That’s impressive, but think about the airship you could build with a 1.83-GW reactor!
 - [3](https://www.elidourado.com/p/cargo-airships#footnote-anchor-3-99182678) If we want to get super-technical about it, current FAA guidance only applies to non-rigid airships, i.e., blimps. But that is probably mainly because nobody has tried to certify a hydrogen rigid-body airship in over 80 years.

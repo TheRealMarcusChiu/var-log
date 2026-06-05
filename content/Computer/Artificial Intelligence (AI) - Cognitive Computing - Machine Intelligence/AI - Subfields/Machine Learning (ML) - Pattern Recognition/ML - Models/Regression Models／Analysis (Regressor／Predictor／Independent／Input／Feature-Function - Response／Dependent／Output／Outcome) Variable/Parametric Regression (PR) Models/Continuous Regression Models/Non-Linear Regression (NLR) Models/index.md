@@ -1,16 +1,18 @@
 ---
-title: "Non-Linear Regression (NLR) Models"
+publish: true
+title: Non-Linear Regression (NLR) Models
 created: 2020-09-30T16:38:50.563-05:00
 modified: 2021-12-21T04:18:15.760-06:00
-parent: "[[Continuous Regression Models]]"
-children: []
 ---
+
 ###### Non-Linear Regression (NLR) Models
+
 - a type of [[Continuous Regression Models|continuous regression model]] whose function/estimator is non-linear with respect to the regression coefficients {𝜃<sub>1</sub>, ..., 𝜃<sub>𝑝</sub>}
 - provides greater flexibility to fit curves than [[Linear Regression (LR) Models|linear regression models]]
 - like [[Ordinary Least Squares (OLS)|OLS]], nonlinear regression estimates the parameters {𝜃<sub>1</sub>, ..., 𝜃<sub>𝑝</sub>} by [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|minimizing the SSE]]. However, nonlinear models use an iterative algorithm rather than the linear approach of solving them directly with matrix equations. What this means for you is that you need to worry about which algorithm to use, specifying good starting values, and the possibility of either not converging on a solution or converging on a local minimum rather than a global minimum SSE
 
 # NLR - Model Types
+
 ````excerpt
 [[Non-Linear Regression (NLR) Models|Non-Linear Regression Models]] - takes an input vector 𝑥∊ℝ<sup>𝑛</sup> as input and predicts the value of a <strong>scalar</strong> 𝑦∊ℝ as output (whose function/estimator is linear wrt the coefficients {𝜃<sub>0</sub>, ..., 𝜃<sub>𝑝</sub>})
 
@@ -54,4 +56,5 @@ children: []
 }
 ```
 ````
+
 ^excerpt

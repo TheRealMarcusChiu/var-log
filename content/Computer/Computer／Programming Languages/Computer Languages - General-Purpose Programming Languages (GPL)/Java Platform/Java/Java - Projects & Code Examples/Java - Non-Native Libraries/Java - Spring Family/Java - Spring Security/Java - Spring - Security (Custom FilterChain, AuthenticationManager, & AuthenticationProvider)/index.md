@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - Security (Custom FilterChain, AuthenticationManager, & AuthenticationProvider)"
+publish: true
+title: Java - Spring - Security (Custom FilterChain, AuthenticationManager, & AuthenticationProvider)
 created: 2022-10-07T02:13:43.237-05:00
 modified: 2022-10-07T02:46:06.731-05:00
-parent: "[[Java - Spring Security]]"
-children: []
 ---
+
 # Custom FilterChain, AuthenticationManager, & AuthenticationProvider
+
 ```
 @Component
 public class CustomAuthenticationProvider implements AuthenticationProvider {
@@ -29,6 +30,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
     }
 }
 ```
+
 ```
 @Configuration
 @EnableWebSecurity
@@ -70,7 +72,9 @@ public class SecurityConfig {
     }
 }
 ```
+
 # Rest API
+
 ```
 @RestController
 public class MultipleAuthController {
@@ -80,14 +84,17 @@ public class MultipleAuthController {
     }
 }
 ```
+
 # Test Authentication
 
 [[curl]] request
+
 ```
 curl --header "Accept:application/json" -i --user user1:user1Pass http://localhost:8080/api/ping
 ```
 
 curl response
+
 ```
 HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1

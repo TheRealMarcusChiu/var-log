@@ -1,24 +1,27 @@
 ---
-title: "DBMS - Query Multiple Nodes Each With Different WHERE Values"
+publish: true
+title: DBMS - Query Multiple Nodes Each With Different WHERE Values
 created: 2022-10-01T17:24:08.819-05:00
 modified: 2022-10-01T17:36:08.191-05:00
-parent: "[[DBMS - Create Your Own]]"
-children: []
 ---
+
 # Problem Statement
 
 Given a [[Neo4j|Neo4j DB]] with thousands of nodes:
+
 - <code><font style="color: rgb(122,134,154);">MERGE (n1:Node {id:1});</font></code>
 - <code><font style="color: rgb(122,134,154);">MERGE (n2:Node {id:2, first:"John", last:"Doe"});</font></code>
 - <code><font style="color: rgb(122,134,154);">etc</font></code>
 
 I want to construct a SCALABLE query that returns nodes if any 1 of the following conditions applies:
+
 - <code><font style="color: rgb(122,134,154);">(node.id = 12) OR (node.first = "Turkey" AND node.last = "Legs")</font></code>
 - <code><font style="color: rgb(122,134,154);">(node.id = 12) OR (node.first = "John" AND node.last = "Doe")</font></code>
 - <code><font style="color: rgb(122,134,154);">(node.id = 1) OR (node.first = "Jiggly" AND node.last = "Puff")</font></code>
 - <code><font style="color: rgb(122,134,154);">thousands more</font></code>
 
 I have come up with the following query but it threw an out-of-memory error when the number of conditions reached 10,000
+
 ```
 WITH [
    {id: 12, first: "Turkey", last: "Legs"},
@@ -32,7 +35,9 @@ RETURN collect(DISTINCT n)
 ```
 
 Just in case you are wondering, I have added indices and composite indices where needed
+
 # 10,000,000 Nodes is Queriable with Java Implementation
+
 ```java
 public class Main {
 

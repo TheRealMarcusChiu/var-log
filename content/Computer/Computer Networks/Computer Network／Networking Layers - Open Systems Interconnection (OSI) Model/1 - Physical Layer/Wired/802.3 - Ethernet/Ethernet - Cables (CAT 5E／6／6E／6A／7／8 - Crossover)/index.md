@@ -1,10 +1,10 @@
 ---
-title: "Ethernet - Cables (CAT 5E／6／6E／6A／7／8 - Crossover)"
+publish: true
+title: Ethernet - Cables (CAT 5E／6／6E／6A／7／8 - Crossover)
 created: 2021-09-18T12:50:08.195-05:00
 modified: 2026-01-07T22:14:14.605-06:00
-parent: "[[802.3 - Ethernet]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [
@@ -276,6 +276,7 @@ children: []
   ]
 }
 ```
+
 # Crossover vs Not Crossover
 
 ```merge-table

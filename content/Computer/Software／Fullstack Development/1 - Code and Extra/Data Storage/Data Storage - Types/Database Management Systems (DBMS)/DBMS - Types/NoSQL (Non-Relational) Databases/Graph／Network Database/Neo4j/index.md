@@ -1,19 +1,16 @@
 ---
-title: "Neo4j"
+publish: true
+title: Neo4j
 created: 2019-03-16T01:14:28.196-05:00
 modified: 2022-09-22T14:48:40.170-05:00
-parent: "[[Graph／Network Database]]"
-children:
-  - "[[Neo4j - APOC]]"
-  - "[[Neo4j - Embedded]]"
-  - "[[Neo4j - Other]]"
-  - "[[Neo4j - Stand-Alone]]"
 ---
-````excerpt
+
+```excerpt
 <strong>Neo4j</strong> is a [[Graph／Network Database|graph database management system]]
 
 [https://neo4j.com/](https://neo4j.com/)
-````
+```
+
 ^excerpt
 
 # Neo4j - Server Types
@@ -40,6 +37,7 @@ children:
   ]
 }
 ```
+
 # Neo4j - Other
 
 ![[Neo4j - Other#^excerpt]]

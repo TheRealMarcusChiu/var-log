@@ -1,10 +1,10 @@
 ---
-title: "Sapir-Whorf Hypothesis - Theory of Linguistic Relativity"
+publish: true
+title: Sapir-Whorf Hypothesis - Theory of Linguistic Relativity
 created: 2021-09-13T04:44:16.802-05:00
 modified: 2021-09-13T04:44:16.802-05:00
-parent: "[[Psycholinguistics - Psychology of Language]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

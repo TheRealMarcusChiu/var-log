@@ -1,10 +1,10 @@
 ---
-title: "Thought Experiments"
+publish: true
+title: Thought Experiments
 created: 2024-07-29T19:52:07.375-05:00
 modified: 2024-07-29T21:46:18.681-05:00
-parent: "[[ICE-BREAKER QUESTIONS]]"
-children: []
 ---
+
 - The Trolley Problem
 - Would you kill an innocent person and immediately forget about it for the rest of your life; or not kill an innocent person and constantly think that you killed an innocent person for the rest of your life?
 - If you could eliminate any crime - but you will have to commit that crime. what would it be?

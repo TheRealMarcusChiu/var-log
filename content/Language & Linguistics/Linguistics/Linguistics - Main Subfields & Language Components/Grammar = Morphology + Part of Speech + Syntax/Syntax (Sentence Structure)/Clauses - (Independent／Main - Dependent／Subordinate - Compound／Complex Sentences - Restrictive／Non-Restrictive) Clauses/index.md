@@ -1,10 +1,10 @@
 ---
-title: "Clauses - (Independent／Main - Dependent／Subordinate - Compound／Complex Sentences - Restrictive／Non-Restrictive) Clauses"
+publish: true
+title: Clauses - (Independent／Main - Dependent／Subordinate - Compound／Complex Sentences - Restrictive／Non-Restrictive) Clauses
 created: 2021-09-13T04:44:06.043-05:00
 modified: 2021-09-13T04:44:06.043-05:00
-parent: "[[Syntax (Sentence Structure)]]"
-children: []
 ---
+
 - <strong>clauses </strong>- is a group of words that has a [[Subject - Predicate (Verb - Object)|subject and a predicate]]
 
 ### Clause - Types
@@ -42,6 +42,7 @@ children: []
   ]
 }
 ```
+
 ### Sentence - Types
 
 ```merge-table
@@ -77,6 +78,7 @@ children: []
   ]
 }
 ```
+
 ### Dependent Clause - Types
 
 ```merge-table

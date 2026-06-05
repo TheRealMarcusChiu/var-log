@@ -1,13 +1,12 @@
 ---
-title: "Microprocessor without Interlocked Pipelined Stages (MIPS) Architecture"
+publish: true
+title: Microprocessor without Interlocked Pipelined Stages (MIPS) Architecture
 created: 2023-01-02T11:20:59.108-06:00
 modified: 2023-03-13T11:30:56.629-05:00
-parent: "[[Reduced Instruction Set Compute／Computer (RISC)]]"
-children:
-  - "[[MIPS Instruction Set]]"
-  - "[[MicroMIPS]]"
 ---
+
 ###### Microprocessor without Interlocked Pipelined Stages (MIPS) Architecture
+
 - is a family of [[Reduced Instruction Set Compute／Computer (RISC)|reduced instruction set compute (RISC)]] instruction set architectures (ISA)
 - developed by MIPS Computer Systems, now MIPS Technologies, based in the United States
 - is a <strong>load/store architecture</strong> (also known as a register-register architecture); except for the <strong>load/store instructions</strong> used to access memory
@@ -15,12 +14,8 @@ children:
 
 # Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 # MIPS - Versions
+
 - MIPS I, II, III, IV, and V
 - [[MicroMIPS]]
 
@@ -94,9 +89,11 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
   ]
 }
 ```
+
 # MIPS - Pipeline
 
 MIPS has 5 stages in pipeline instruction execution
+
 - <strong>fetch</strong> - pull the instruction from RAM into the processor
 - <strong>decode</strong> - determine the type of the instruction and extract the operands (e.g., the register indices, the immediate value, etc)
 - <strong>execute</strong> - if necessary, perform the arithmetic operation that is associated with the instruction

@@ -1,15 +1,17 @@
 ---
-title: "Single Data Rate (SDR) - Double Data Rate (DDR)"
+publish: true
+title: Single Data Rate (SDR) - Double Data Rate (DDR)
 created: 2026-04-30T00:59:33.074-05:00
 modified: 2026-04-30T01:03:54.608-05:00
-parent: "[[Random-Access Memory (RAM)]]"
-children: []
 ---
+
 ###### Single Data Rate (SDR) - Double Data Rate (DDR)
-````excerpt
+
+```excerpt
 - <strong>SDR</strong> - is the memory chip, send single amount of data in each clock signal
 - <strong>DDR</strong> - is the memory chip, sends double amount of data in each clock signal at rising and falling edge
-````
+```
+
 ^excerpt
 
 # DDR - Table

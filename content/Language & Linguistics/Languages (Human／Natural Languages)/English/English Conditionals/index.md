@@ -1,10 +1,10 @@
 ---
-title: "English Conditionals"
+publish: true
+title: English Conditionals
 created: 2021-09-13T04:43:46.437-05:00
 modified: 2021-09-13T04:43:46.437-05:00
-parent: "[[English]]"
-children: []
 ---
+
 ### English Conditionals
 
 ```merge-table
@@ -74,9 +74,11 @@ children: []
 ```
 
 note:
+
 - <strong>simple/perfect present/past/future </strong>- refer to [[Verb (Tense & Aspect)|Tense & Aspect]] post
 - <strong>present conditional</strong> - would/wouldn't + verb (bare form)
 - <strong>perfect conditional</strong> - would/wouldn't + have + past participle
 
 ### Related Articles
+
 - [[Conditional Statements - Antecedent - Consequent (Conditional - Converse - Inverse - Contrapositive - Biconditional)]]

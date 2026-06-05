@@ -1,19 +1,24 @@
 ---
-title: "Pearson's Chi-Square Test - Contingency Table Test - Statistical Independence Test"
+publish: true
+title: Pearson's Chi-Square Test - Contingency Table Test - Statistical Independence Test
 created: 2021-09-13T05:29:08.869-05:00
 modified: 2023-09-13T20:52:08.491-05:00
-parent: "[[Pearson's Chi-Square Test]]"
-children: []
 ---
+
 ###### Pearson's Chi-Square Test - Contingency Table Test - Statistical Independence Test
+
 - a type of [[Pearson's Chi-Square Test]] for independence
-````excerpt
+
+```excerpt
 - tests whether 2 categorical variables are statistically independent
-````
+```
+
 ^excerpt
 
 # Setup
+
 count observations on two categorical variables 𝐴 and 𝐵 obtained from a sample of 𝑛 subjects. Suppose:
+
 - the categories of 𝐴 are 𝑖 = 1, ..., 𝑎
 - the categories of 𝐵 are 𝑗 = 1, ..., 𝑏
 
@@ -117,31 +122,36 @@ The data are arranged in a 𝑎×𝑏[[Confusion Matrix - Contingency Table (Tru
   ]
 }
 ```
+
 # Chi-Square Test Statistic For Independence
 
 our hypothesis:
+
 - <strong>null hypothesis</strong> 𝐻<sub>0</sub>:
-	- variables 𝐴 and 𝐵 are statistically independent
+  - variables 𝐴 and 𝐵 are statistically independent
 - <strong>alternative hypothesis</strong> 𝐻<sub>1</sub>:
-	- variables 𝐴 and 𝐵 are NOT statistically independent
+  - variables 𝐴 and 𝐵 are NOT statistically independent
 
 To do a chi-square independence test, we compute:
-- <em>𝜒</em>² = 𝛴<sub>1≤𝑖≤𝑎</sub>𝛴<sub>1≤𝑗≤𝑏</sub> \[(𝑂<sub>𝑖𝑗</sub> - 𝐸<sub>𝑖𝑗</sub>)<sup>2</sup> / 𝐸<sub>𝑖𝑗</sub>\]
+
+- <em>𝜒</em>² = 𝛴<sub>1≤𝑖≤𝑎</sub>𝛴<sub>1≤𝑗≤𝑏</sub> \[(𝑂<sub>𝑖𝑗</sub> - 𝐸<sub>𝑖𝑗</sub>)<sup>2</sup> / 𝐸<sub>𝑖𝑗</sub>]
 
 now we need the expected counts 𝐸<sub>𝑖𝑗</sub> assuming that 𝐻<sub>0</sub> is true:
+
 > [!tabs]
 >
-> === known 𝑝's
+> \=== known 𝑝's
 >
 > 𝐸<sub>𝑖𝑗</sub>= 𝑝<sub>𝑖</sub>𝑝<sub>𝑗</sub>𝑛
 >
-> === unknown 𝑝's
+> \=== unknown 𝑝's
 >
 > 𝐸<sub>𝑖𝑗</sub>= 𝑝<sub>𝑖,𝑜𝑏𝑠</sub>𝑝<sub>𝑗,𝑜𝑏𝑠</sub>𝑛
 >
 > where:
-> - 𝑝<sub>𝑖,𝑜𝑏𝑠</sub> = (sum of row 𝑖) / 𝑛 = 𝛴<sub>1≤𝑗≤𝑏</sub>\[𝑂<sub>𝑖,𝑗</sub>/𝑛\] - fraction of observations of type 𝑖
-> - 𝑝<sub>𝑗,𝑜𝑏𝑠</sub> = (sum of column 𝑗) / 𝑛 𝛴<sub>1≤𝑖≤𝑎</sub>\[𝑂<sub>𝑖,𝑗</sub>/𝑛\] - fraction of observations of type 𝑗
+>
+> - 𝑝<sub>𝑖,𝑜𝑏𝑠</sub> = (sum of row 𝑖) / 𝑛 = 𝛴<sub>1≤𝑗≤𝑏</sub>\[𝑂<sub>𝑖,𝑗</sub>/𝑛] - fraction of observations of type 𝑖
+> - 𝑝<sub>𝑗,𝑜𝑏𝑠</sub> = (sum of column 𝑗) / 𝑛 𝛴<sub>1≤𝑖≤𝑎</sub>\[𝑂<sub>𝑖,𝑗</sub>/𝑛] - fraction of observations of type 𝑗
 
 # Degrees of Freedom
 
@@ -426,14 +436,17 @@ The number of [[Degrees of Freedom (DoF - df)|degrees of freedom (𝑑𝑓)]] 
 > ```
 >
 > next compute:
-> - <em>𝜒</em>² = 𝛴<sub>1≤𝑖≤𝑎</sub>𝛴<sub>1≤𝑗≤𝑏</sub> \[(𝑂<sub>𝑖𝑗</sub> - 𝐸<sub>𝑖𝑗</sub>)<sup>2</sup> / 𝐸<sub>𝑖𝑗</sub>\]
+>
+> - <em>𝜒</em>² = 𝛴<sub>1≤𝑖≤𝑎</sub>𝛴<sub>1≤𝑗≤𝑏</sub> \[(𝑂<sub>𝑖𝑗</sub> - 𝐸<sub>𝑖𝑗</sub>)<sup>2</sup> / 𝐸<sub>𝑖𝑗</sub>]
 >
 > with degrees of freedom:
+>
 > - 𝑑𝑓 = (<em>𝑎</em> − 1)(<em>𝑏</em> − 1)
 > - 𝑑𝑓 = (3 − 1)(3 − 1)
 > - 𝑑𝑓 = 4
 >
 > ###### R Code
+>
 > ```
 > x <- c(80, 100, 20, 99, 190, 96, 70, 30, 10)
 > xmat <- matrix(x, byrow=T, ncol=3)
@@ -448,6 +461,7 @@ The number of [[Degrees of Freedom (DoF - df)|degrees of freedom (𝑑𝑓)]] 
 > data: xmat
 > X-squared = 67.8015, df = 4, p-value = 6.606e-14
 > ```
+
 # Resources
 
-![](https://www.youtube.com/watch?v=hpWdDmgsIRE&list=PL1328115D3D8A2566&index=63)
+![](https://www.youtube.com/watch?v=hpWdDmgsIRE\&list=PL1328115D3D8A2566\&index=63)

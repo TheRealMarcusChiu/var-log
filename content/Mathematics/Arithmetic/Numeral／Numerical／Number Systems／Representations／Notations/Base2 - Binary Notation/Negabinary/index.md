@@ -1,14 +1,16 @@
 ---
-title: "Negabinary"
+publish: true
+title: Negabinary
 created: 2023-11-30T12:59:17.636-06:00
 modified: 2023-11-30T13:02:16.630-06:00
-parent: "[[Base2 - Binary Notation]]"
-children: []
 ---
+
 ###### Negabinary
-````excerpt
+
+```excerpt
 - like the [[Base2 - Binary Notation|binary numeral system]] with the crucial difference that powers of −2 are used rather than 2
-````
+```
+
 ^excerpt
 
 # Example

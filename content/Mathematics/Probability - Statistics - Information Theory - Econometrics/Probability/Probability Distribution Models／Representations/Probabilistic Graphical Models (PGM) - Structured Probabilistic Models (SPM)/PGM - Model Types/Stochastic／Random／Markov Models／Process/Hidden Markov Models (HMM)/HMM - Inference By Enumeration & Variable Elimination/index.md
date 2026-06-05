@@ -1,11 +1,12 @@
 ---
-title: "HMM - Inference By Enumeration & Variable Elimination"
+publish: true
+title: HMM - Inference By Enumeration & Variable Elimination
 created: 2021-09-13T05:27:02.776-05:00
 modified: 2026-05-21T03:59:54.864-05:00
-parent: "[[Hidden Markov Models (HMM)]]"
-children: []
 ---
-![[HMM - Inference By Enumeration & Variable Elimination/hidden-markov-model.png|301]]
+
+![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Probability/Probability Distribution Models／Representations/Probabilistic Graphical Models (PGM) - Structured Probabilistic Models (SPM)/PGM - Model Types/Stochastic／Random／Markov Models／Process/Hidden Markov Models (HMM)/HMM - Inference By Enumeration & Variable Elimination/hidden-markov-model.png|301]]
+
 # Inference Methods
 
 ```merge-table

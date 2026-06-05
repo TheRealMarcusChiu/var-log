@@ -1,10 +1,10 @@
 ---
-title: "C++ - Versions"
+publish: true
+title: C++ - Versions
 created: 2020-06-14T11:59:38.673-05:00
 modified: 2020-06-14T12:01:20.644-05:00
-parent: "[[C++]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

@@ -1,13 +1,10 @@
 ---
-title: "Cryptographic Function Type & Number of Keys Used"
+publish: true
+title: Cryptographic Function Type & Number of Keys Used
 created: 2019-11-19T17:47:15.858-06:00
 modified: 2025-12-19T23:37:39.403-06:00
-parent: "[[Encryption - Algorithm Classifications]]"
-children:
-  - "[[Asymmetric／Two／Public-Private Key Function]]"
-  - "[[Physical／Physically Unclonable Key／Function (PUK／PUF)]]"
-  - "[[Symmetric／Single／Secret Key Function]]"
 ---
+
 ````excerpt
 [[Encryption - Algorithms|Encryption Algorithms]] are classified in the following ways
 
@@ -68,4 +65,5 @@ children:
 }
 ```
 ````
+
 ^excerpt

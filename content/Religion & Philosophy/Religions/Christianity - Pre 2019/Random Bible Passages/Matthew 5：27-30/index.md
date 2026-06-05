@@ -1,10 +1,10 @@
 ---
-title: "Matthew 5：27-30"
+publish: true
+title: Matthew 5：27-30
 created: 2021-09-13T04:44:54.250-05:00
 modified: 2021-09-13T04:44:54.250-05:00
-parent: "[[Random Bible Passages]]"
-children: []
 ---
+
 27 “You have heard that it was said, ‘You shall not commit adultery.’ 28 But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart. 29 If your right eye causes you to stumble, gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. 30 And if your right hand causes you to stumble, cut it off and throw it away. It is better for you to lose one part of your body than for your whole body to go into hell.
 \~ Matthew 5:27-30
 

@@ -1,13 +1,14 @@
 ---
-title: "Assembly Language - Hello, world! Examples"
+publish: true
+title: Assembly Language - Hello, world! Examples
 created: 2020-01-04T15:29:02.450-06:00
 modified: 2023-01-02T11:33:16.931-06:00
-parent: "[[Assembly Languages]]"
-children: []
 ---
+
 # Examples
 
 > [!expand]- Linux - 32 bit example
+>
 > ```
 > section .text
 > 	global _start	; must be declared for linker (ld)
@@ -28,11 +29,13 @@ children: []
 > ```
 >
 > when the above code is "assembled" and executed, it produces the following result
+>
 > ```
 > Hello, world!
 > ```
 >
 > Compiling and Linking Assembly Program in NASM
+>
 > - to assemble program (an object file named ./hello.o will be created)
 > - <span style="white-space: pre-wrap"><code>nasm -f elf hello.asm</code></span>
 > - link the object file and create an executable file named ./hello)
@@ -41,6 +44,7 @@ children: []
 > - <span style="white-space: pre-wrap"><code>./hello</code></span>
 
 > [!expand]- Linux - 64 bit example
+>
 > ```
 > global _start
 > section .text
@@ -59,6 +63,7 @@ children: []
 >   msg: db "Hello, world!", 10
 >   msglen: equ $ - msg
 > ```
+>
 > ```
 > $ nasm -f elf64 -o hello.o hello.s
 > $ ld -o hello hello.o
@@ -67,6 +72,7 @@ children: []
 > ```
 
 > [!expand]- macOS - 32 bit example
+>
 > ```
 > ; /usr/local/bin/nasm -f macho 32.asm && ld -macosx_version_min 10.7.0 -o 32 32.o && ./32
 >
@@ -92,6 +98,7 @@ children: []
 > ```
 
 > [!expand]- macOS - 64 bit example
+>
 > ```
 > ; /usr/local/bin/nasm -f macho64 64.asm && ld -macosx_version_min 10.7.0 -lSystem -o 64 64.o && ./64
 >

@@ -1,10 +1,10 @@
 ---
-title: "SQL (Row／Relational) DB vs NoSQL (Non-Relational) DB"
+publish: true
+title: SQL (Row／Relational) DB vs NoSQL (Non-Relational) DB
 created: 2019-12-11T12:52:29.862-06:00
 modified: 2022-12-18T15:57:22.152-06:00
-parent: "[[DBMS - Type Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

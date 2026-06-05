@@ -1,10 +1,10 @@
 ---
-title: "Perception／Perceive - Conception／Conceive"
+publish: true
+title: Perception／Perceive - Conception／Conceive
 created: 2021-09-13T04:43:57.623-05:00
 modified: 2021-09-13T04:43:57.623-05:00
-parent: "[[Vocab - Vocabulary - Terms - Terminology - Words - Phrases - Vernacular - Jargon - Verbiage]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

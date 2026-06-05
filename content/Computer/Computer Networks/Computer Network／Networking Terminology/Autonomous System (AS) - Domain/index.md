@@ -1,38 +1,45 @@
 ---
-title: "Autonomous System (AS) - Domain"
+publish: true
+title: Autonomous System (AS) - Domain
 created: 2019-03-16T21:02:36.293-05:00
 modified: 2023-11-16T17:30:44.254-06:00
-parent: "[[Computer Network／Networking Terminology]]"
-children: []
 ---
+
 ###### Autonomous System (AS) or Domain
-````excerpt
+
+```excerpt
 - is a collection of networks or subnets that are in the same administrative domain
-````
+```
+
 ^excerpt
 
 # Autonomous System Number (ASN)
+
 each AS is assigned an Autonomous System Number (ASN) a 16-bit integer by the <em>Internet Network Information Center (InterNIC)</em>
 
 its 16-bit number are used in [[IPv4 - Multicast／Group／Class-D Addresses|IP GLOP addresses]]
 
 ASNs were just 16-bit numbers, but are now 32-bit numbers (because the internet grew to the point of running out of the 65,536 or 2^16 initial allocation)
+
 # Autonomous System & Network Protocols
 
 each AS is composed of routers that have 2 goals:
+
 - [[Routing Tables - Forwarding Tables|routing]] packets (building and maintaining routing tables) by utilizing [[Routing Protocols|routing protocols]]
+
 - [[Routing Tables - Forwarding Tables|forwarding]] packets (sending packet to destination) by utilizing [[Routed Protocols|routed protocols]]
 
 - [[Routing Protocols|routing protocols]] - are used to find all networks within and across multiple autonomous systems by updating and ensuring all routers have the same/correct <em>routing table</em>
-	- 2 types of routing protocols: dynamic and static
-		- static routing protocols - are rarely used
-		- [[Dynamic Routing Protocols|dynamic routing protocols]] - have 2 types:
-		- 
-			- [[Interior Gateway Protocols (IGP) or Intra-Domain Routing Protocols (IDRP)|IGP]] - routers communicating within an AS can run whatever [[Interior Gateway Protocols (IGP) or Intra-Domain Routing Protocols (IDRP)|IGP]] (e.g. [[Distant Vector Protocols]] and/or [[Link-State Protocols]] protocols)
-			- [[Exterior Gateway Protocols (EGPs) or Inter-Domain Routing Protocols (IDRP)|EGP]] - routers communicating across ASs must use the same [[Exterior Gateway Protocols (EGPs) or Inter-Domain Routing Protocols (IDRP)|EGP]] (e.g. [[Border Gateway Protocol (BGP)|Border Gateway Protocol]])
+  - 2 types of routing protocols: dynamic and static
+    - static routing protocols - are rarely used
+    - [[Dynamic Routing Protocols|dynamic routing protocols]] - have 2 types:
+    - - [[Interior Gateway Protocols (IGP) or Intra-Domain Routing Protocols (IDRP)|IGP]] - routers communicating within an AS can run whatever [[Interior Gateway Protocols (IGP) or Intra-Domain Routing Protocols (IDRP)|IGP]] (e.g. [[Distant Vector Protocols]] and/or [[Link-State Protocols]] protocols)
+      - [[Exterior Gateway Protocols (EGPs) or Inter-Domain Routing Protocols (IDRP)|EGP]] - routers communicating across ASs must use the same [[Exterior Gateway Protocols (EGPs) or Inter-Domain Routing Protocols (IDRP)|EGP]] (e.g. [[Border Gateway Protocol (BGP)|Border Gateway Protocol]])
+
 - [[Routed Protocols|routed protocols]] - with routing tables built by routing protocols, routers are able to determine the path to <em>forward</em> a packet within and between autonomous systems
 
-![[Autonomous System (AS) - Domain/1.png|708x250]]
+![[Computer/Computer Networks/Computer Network／Networking Terminology/Autonomous System (AS) - Domain/1.png|708x250]]
+
 # Autonomous System Types
 
 ```merge-table
@@ -75,6 +82,7 @@ each AS is composed of routers that have 2 goals:
   "tableStyle": "width: 98.3824%;"
 }
 ```
+
 # Autonomous System Relationships & Policies
 
 ```merge-table
@@ -117,4 +125,4 @@ each AS is composed of routers that have 2 goals:
 }
 ```
 
-![[Autonomous System (AS) - Domain/2.png|500]]
+![[Computer/Computer Networks/Computer Network／Networking Terminology/Autonomous System (AS) - Domain/2.png|500]]

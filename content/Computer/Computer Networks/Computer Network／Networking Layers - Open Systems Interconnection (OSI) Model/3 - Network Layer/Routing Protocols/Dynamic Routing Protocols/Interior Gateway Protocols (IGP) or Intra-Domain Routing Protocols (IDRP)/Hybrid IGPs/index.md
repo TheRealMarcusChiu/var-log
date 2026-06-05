@@ -1,11 +1,10 @@
 ---
-title: "Hybrid IGPs"
+publish: true
+title: Hybrid IGPs
 created: 2019-03-16T21:00:00.847-05:00
 modified: 2023-11-16T17:50:10.220-06:00
-parent: "[[Interior Gateway Protocols (IGP) or Intra-Domain Routing Protocols (IDRP)]]"
-children:
-  - "[[Enhanced Interior Gateway Routing Protocol (EIGRP)]]"
 ---
+
 # Hybrid [[Interior Gateway Protocols (IGP) or Intra-Domain Routing Protocols (IDRP)|IGPs]] Protocols
 
 ```merge-table

@@ -1,25 +1,24 @@
 ---
-title: "Generalized Least Squares (GLS)"
+publish: true
+title: Generalized Least Squares (GLS)
 created: 2021-09-13T05:27:47.388-05:00
 modified: 2021-12-20T15:03:21.339-06:00
-parent: "[[Linear Least Squares (LLS)]]"
-children:
-  - "[[Feasible Generalized Least Squares (fGLS) - For Correcting Heteroscedasticity]]"
-  - "[[Feasible Generalized Least Squares (fGLS) - For Correcting Serially／Auto Correlated Errors]]"
-  - "[[Weighted Least Squares (WLS)]]"
 ---
+
 ###### Generalized Least Squares (GLS)
-- is a technique of [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|parameter estimation]] that estimates the unknown [[Statistics - Terminology|parameters]] of a [[Ordinary Least Squares (OLS) Regression|linear regression model]] in cases where [[Ordinary Least Squares (OLS)|ordinary least squares (OLS)]] can be statistically [inefficient](https://en.wikipedia.org/wiki/Efficiency_(statistics)), no longer [[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)|BLUE]], and even give misleading [inferences](https://en.wikipedia.org/wiki/Statistical_inference)
+
+- is a technique of [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|parameter estimation]] that estimates the unknown [[Statistics - Terminology|parameters]] of a [[Ordinary Least Squares (OLS) Regression|linear regression model]] in cases where [[Ordinary Least Squares (OLS)|ordinary least squares (OLS)]] can be statistically [inefficient](https://en.wikipedia.org/wiki/Efficiency_\(statistics\)), no longer [[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)|BLUE]], and even give misleading [inferences](https://en.wikipedia.org/wiki/Statistical_inference)
 - these cases arise when there is:
-	- [[Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function|auto-correlation]] between the residuals/errors
-	- [[Heteroscedasticity - Homoscedasticity|heteroscedasticity]] - [[Pearson's Correlation Coefficient (R)|correlation]] between the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|residual/error]] and the regressors within the regression model
+  - [[Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function|auto-correlation]] between the residuals/errors
+  - [[Heteroscedasticity - Homoscedasticity|heteroscedasticity]] - [[Pearson's Correlation Coefficient (R)|correlation]] between the [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|residual/error]] and the regressors within the regression model
 
 # GLS - Resources
-- [Ben Lambert's Video Lectures](https://www.youtube.com/watch?v=wCJ8I-MtJdQ&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=128&ab_channel=BenLambert)
+
+- [Ben Lambert's Video Lectures](https://www.youtube.com/watch?v=wCJ8I-MtJdQ\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=128\&ab_channel=BenLambert)
 
 # GLS - Types
 
-![](https://www.youtube.com/watch?v=wCJ8I-MtJdQ&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=128&ab_channel=BenLambert&t=1s)
+![](https://www.youtube.com/watch?v=wCJ8I-MtJdQ\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=128\&ab_channel=BenLambert\&t=1s)
 
 ```merge-table
 {

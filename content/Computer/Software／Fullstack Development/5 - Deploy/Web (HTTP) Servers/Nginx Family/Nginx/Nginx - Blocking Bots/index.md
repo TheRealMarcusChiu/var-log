@@ -1,13 +1,14 @@
 ---
-title: "Nginx - Blocking Bots"
+publish: true
+title: Nginx - Blocking Bots
 created: 2020-09-19T16:11:21.971-05:00
 modified: 2020-09-19T16:19:22.271-05:00
-parent: "[[Nginx]]"
-children: []
 ---
+
 [buildersociety.com/threads/block-unwanted-bots-on-apache-nginx-constantly-updated.1898/](http://buildersociety.com/threads/block-unwanted-bots-on-apache-nginx-constantly-updated.1898/)
 
 inside http block (nginx.conf)
+
 ```
 http {
 map $http_user_agent $limit_bots {
@@ -39,6 +40,7 @@ map $http_user_agent $limit_bots {
 ```
 
 inside each server block (within your [example.com](http://example.com) file inside sites-available folder)
+
 ```
 server {
 	location / {

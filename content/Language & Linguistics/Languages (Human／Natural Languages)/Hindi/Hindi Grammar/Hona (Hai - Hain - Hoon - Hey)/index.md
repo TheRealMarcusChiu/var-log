@@ -1,10 +1,10 @@
 ---
-title: "Hona (Hai - Hain - Hoon - Hey)"
+publish: true
+title: Hona (Hai - Hain - Hoon - Hey)
 created: 2021-09-20T03:50:08.260-05:00
 modified: 2022-01-23T04:07:06.353-06:00
-parent: "[[Hindi Grammar]]"
-children: []
 ---
+
 Conjugation of the verb होना = (hona) = to be, to become, to happen
 
 ```merge-table

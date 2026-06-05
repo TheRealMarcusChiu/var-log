@@ -1,11 +1,12 @@
 ---
-title: "World Missions Society Church of God"
+publish: true
+title: World Missions Society Church of God
 created: 2021-09-13T04:45:02.771-05:00
 modified: 2021-09-13T04:45:02.771-05:00
-parent: "[[Religions]]"
-children: []
 ---
+
 If you encounter this group, simply ask these questions... don't let them get off topic from your question. They will most likely say these responses, 𝐒𝐓𝐈𝐂𝐊 𝐓𝐎 𝐓𝐇𝐄 𝐓𝐎𝐏𝐈𝐂, 𝐀𝐒𝐊 𝐓𝐇𝐄𝐌 𝐓𝐎 𝐀𝐍𝐒𝐖𝐄𝐑 𝐘𝐎𝐔𝐑 𝐐𝐔𝐄𝐒𝐓𝐈𝐎𝐍 𝐍𝐎𝐖!
+
 1. Well do you keep Sunday or Christmas...
 2. We will study about that later, did you know about this (they will proceed to change the topic)...
 3. Does your church keep the Passover?
@@ -42,8 +43,8 @@ Then mother in korea has then become the mother of Christ as well as the bride (
 
 "Where does it say Jerusalem mother god in the bible? Can you explain to me please?"
 
-6. Ask them, 
-"Did you know the world mission society IS NOT I REPEAT IS NOT THE ONLY CHURCH THAT CELEBRATES THE PASSOVER OR THE SEVEN FEASTS OF THREE TIMES?"
+6. Ask them,
+   "Did you know the world mission society IS NOT I REPEAT IS NOT THE ONLY CHURCH THAT CELEBRATES THE PASSOVER OR THE SEVEN FEASTS OF THREE TIMES?"
 
 7.. Ephesians 1:20-21. It says that his name, Jesus, is above EVERY name, not only in THIS WORLD, but also in that which is to COME.
 
@@ -65,7 +66,7 @@ How arrogant and insolent an act is this?
 
 Jeremiah 7:18-20: The children gather wood, the fathers light the fire, and the women knead the dough and make cakes of bread for the Queen of Heaven. They pour out drink offerings to other gods to provoke me to anger. But am I the one they are provoking? declares the LORD. Are they not rather harming themselves, to their own shame. Therefore this is what the Sovereign LORD says: My anger and my wrath will be poured out on this place, on man and beast, on the trees of the field and on the fruit of the ground, and it will burn and not be quenched.
 
-They will tell you this about the Roman Catholic Church worshipping Mary and false idols (which the dates in history do not add up to what the WMSCOG tell you in the Daniels prophecy from the evidence book, look in any history book...) but it becomes more clearer evidence against you guys... Ahnsahnghong wrote a book denying the existence of mother, but the church took those books away and made it not accessible for the members to purchase, I suggest you read that book cover to cover and see that Ahnsahngong wrote himself. Ahnsahnghong describes the idea of a “mother god” as “delusional” and “psychotic”\]
+They will tell you this about the Roman Catholic Church worshipping Mary and false idols (which the dates in history do not add up to what the WMSCOG tell you in the Daniels prophecy from the evidence book, look in any history book...) but it becomes more clearer evidence against you guys... Ahnsahnghong wrote a book denying the existence of mother, but the church took those books away and made it not accessible for the members to purchase, I suggest you read that book cover to cover and see that Ahnsahngong wrote himself. Ahnsahnghong describes the idea of a “mother god” as “delusional” and “psychotic”]
 
 There are only two conclusions I can draw from this, neither of which is good for the WMSCOG. Either:
 Ahnsahnghong told the truth in his book, and there is no 'Mother God' (which disproves the WMSCOG) or...
@@ -77,7 +78,7 @@ You can look up IRS and secretary of state documents (since they are public reco
 
 The church has gone after many ex members threatening to sue them (which is against the bible teaching, look up 1 Corinthians 6 the title is literally dont sue the brother) for speaking out against the church (they also make their pastoral staff members sign NDA's... I attached the link here:
 
-[https://www.nj.com/news/2018/08/secrecy_pact_keeps_ex-doomsday_cult_members_from_t.html](https://www.nj.com/news/2018/08/secrecy_pact_keeps_ex-doomsday_cult_members_from_t.html)
+<https://www.nj.com/news/2018/08/secrecy_pact_keeps_ex-doomsday_cult_members_from_t.html>
 
 The IRS have a clause on there that states "no blood relatives can be a beneficiary of a foundation that is connected to a church, basically a non profit"
 

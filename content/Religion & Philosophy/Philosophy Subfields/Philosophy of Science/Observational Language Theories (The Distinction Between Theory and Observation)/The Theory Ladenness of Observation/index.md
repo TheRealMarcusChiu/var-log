@@ -1,11 +1,12 @@
 ---
-title: "The Theory Ladenness of Observation"
+publish: true
+title: The Theory Ladenness of Observation
 created: 2021-09-13T04:44:36.177-05:00
 modified: 2021-09-13T04:44:36.177-05:00
-parent: "[[Observational Language Theories (The Distinction Between Theory and Observation)]]"
-children: []
 ---
+
 In the [[Philosophy of Science|philosophy of science]], <strong>observations</strong> are said to be "<strong>theory-laden</strong>" when they are affected by the theoreticalpresuppositions held by the investigator
+
 ### 2 Forms of Theory-Laden Observation
 
 ```merge-table

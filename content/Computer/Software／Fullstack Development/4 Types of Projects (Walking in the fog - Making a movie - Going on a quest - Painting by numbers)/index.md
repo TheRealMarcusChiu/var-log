@@ -1,10 +1,10 @@
 ---
-title: "4 Types of Projects (Walking in the fog - Making a movie - Going on a quest - Painting by numbers)"
+publish: true
+title: 4 Types of Projects (Walking in the fog - Making a movie - Going on a quest - Painting by numbers)
 created: 2022-01-13T23:12:21.485-06:00
 modified: 2022-01-14T00:19:14.098-06:00
-parent: "[[Software／Fullstack Development]]"
-children: []
 ---
+
 Eddie Obeng, a British educator, author, and motivational speaker, reckons there are four types of projects:
 
 ```merge-table

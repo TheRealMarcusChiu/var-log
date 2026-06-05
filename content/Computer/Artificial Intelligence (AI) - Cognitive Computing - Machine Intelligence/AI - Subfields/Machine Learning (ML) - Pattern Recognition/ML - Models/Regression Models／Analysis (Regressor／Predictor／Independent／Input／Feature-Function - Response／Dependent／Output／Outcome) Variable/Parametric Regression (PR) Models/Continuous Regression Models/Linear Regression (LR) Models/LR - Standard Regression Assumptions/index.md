@@ -1,10 +1,10 @@
 ---
-title: "LR - Standard Regression Assumptions"
+publish: true
+title: LR - Standard Regression Assumptions
 created: 2020-04-23T16:12:17.863-05:00
 modified: 2021-12-21T04:17:22.732-06:00
-parent: "[[Linear Regression (LR) Models]]"
-children: []
 ---
+
 ````excerpt
 ###### Standard Regression Assumptions
 - each observed response 𝑦<sup>(𝑖)</sup> are independent [[Univariate Normal／Gaussian／Gauss／Laplace-Gauss﻿ Distribution／Model／Process (Bell Curve)|Normal]] random variables with:
@@ -49,4 +49,5 @@ children: []
 - absence of outliers - outliers have been removed from the dataset
 - homogeneity of variance - population variances at different levels of each independent variable {𝑋<sub>1</sub>, ..., 𝑋<sub>𝑘</sub>} are equal
 ````
+
 ^excerpt

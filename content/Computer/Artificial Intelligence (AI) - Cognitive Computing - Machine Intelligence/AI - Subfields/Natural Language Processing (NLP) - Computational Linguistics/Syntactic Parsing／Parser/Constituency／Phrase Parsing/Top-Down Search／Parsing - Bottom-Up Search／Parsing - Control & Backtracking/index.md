@@ -1,10 +1,10 @@
 ---
-title: "Top-Down Search／Parsing - Bottom-Up Search／Parsing - Control & Backtracking"
+publish: true
+title: Top-Down Search／Parsing - Bottom-Up Search／Parsing - Control & Backtracking
 created: 2020-11-02T14:02:11.972-06:00
 modified: 2026-05-20T00:28:21.202-05:00
-parent: "[[Constituency／Phrase Parsing]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [
@@ -53,13 +53,16 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Constituency Parsing - Control
+
 - in both cases we left out how to keep track of the search space and how to make choices:
-	- which node to try to expand next (DFS vs BFS)
-	- which grammar rule to use to expand the node
+  - which node to try to expand next (DFS vs BFS)
+  - which grammar rule to use to expand the node
 - one approach is called <strong>back tracking</strong>: make a choice, if it doesn't work then back up and make a different choice
 
 # Constituency Parsing - With Backtracking
+
 - [[Depth First Search (DFS)|Depth-First Search]] - the states form a stack LIFO policy
 - [[Breadth First Search (BFS)|Breadth-First Search]] - the states form a queue FIFO policy
 
@@ -104,13 +107,16 @@ example backtracking
   ]
 }
 ```
+
 # Problems
 
 even with best filtering, backtracking methods are doomed because of two inter-related problems:
+
 - ambiguity -
 - shared sub-problems - no matter what kind of search (top-down or bottom-up or mixed):
-	- we don't want to redo work we have already done
-	- unfortunately, naive backtracking will lead to duplicated work
+  - we don't want to redo work we have already done
+  - unfortunately, naive backtracking will lead to duplicated work
 
 ###### Ambiguity
-![[Top-Down Search／Parsing - Bottom-Up Search／Parsing - Control & Backtracking/NLP9.png|400]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Top-Down Search／Parsing - Bottom-Up Search／Parsing - Control & Backtracking/NLP9.png|400]]

@@ -1,20 +1,21 @@
 ---
-title: "JavaScript - Regular Functions ／ Function Declarations - Anonymous Functions ／ Function Expressions - Arrow Functions"
+publish: true
+title: JavaScript - Regular Functions ／ Function Declarations - Anonymous Functions ／ Function Expressions - Arrow Functions
 created: 2019-12-18T17:06:39.847-06:00
 modified: 2024-01-06T17:35:26.950-06:00
-parent: "[[JavaScript - Native]]"
-children: []
 ---
+
 - <strong>Regular Functions / Function Declarations </strong>-
 - <strong>Anonymous Functions / Function Expressions</strong> are just function declarations without a name. Every time you write the function keyword, anywhere in your code, giving it a name right after is optional. Omitting the name makes the function, well, anonymous.
 - <strong>Arrow Functions</strong> provide lexical binding, meaning you get the control back on the value of this inside the function’s body. By getting the control back, I mean that it’s fairly easy to know which object this refers to just by looking at the code where your arrow function is defined (and not called)
 
 # Code Examples
+
 > [!tabs]
 >
-> === Intro
+> \=== Intro
 >
-> ```merge-table
+> ````merge-table
 > {
 >   "rows": [
 >     [
@@ -56,11 +57,11 @@ children: []
 >   ],
 >   "tableStyle": "width: 99.9012%;"
 > }
-> ```
+> ````
 >
-> === Simultaneously Function Define & Call
+> \=== Simultaneously Function Define & Call
 >
-> ```merge-table
+> ````merge-table
 > {
 >   "rows": [
 >     [
@@ -102,11 +103,11 @@ children: []
 >   ],
 >   "tableStyle": "width: 99.9012%;"
 > }
-> ```
+> ````
 >
-> === Simultaneously Function Define & Call & Capture
+> \=== Simultaneously Function Define & Call & Capture
 >
-> ```merge-table
+> ````merge-table
 > {
 >   "rows": [
 >     [
@@ -148,11 +149,12 @@ children: []
 >   ],
 >   "tableStyle": "width: 99.9012%;"
 > }
-> ```
+> ````
 
 # Differences Between Them
 
 arrow function does not do 'this' binding, as shown below
+
 ```js
 var user = { 
     name: "Marcus Chiu", 

@@ -1,13 +1,15 @@
 ---
-title: "Thinking Fast and Slow - 2 Systems"
+publish: true
+title: Thinking Fast and Slow - 2 Systems
 created: 2021-09-13T04:45:35.385-05:00
 modified: 2021-09-13T04:45:35.385-05:00
-parent: "[[Cognitive Biases]]"
-children: []
 ---
+
 # Thinking Fast and Slow - 2 Systems
+
 - the automatic System 1
 - the effortful System 2
+
 ```merge-table
 {
   "rows": [

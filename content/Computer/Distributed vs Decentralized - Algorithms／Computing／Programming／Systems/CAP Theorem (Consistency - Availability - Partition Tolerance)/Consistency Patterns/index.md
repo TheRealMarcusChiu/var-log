@@ -1,15 +1,17 @@
 ---
-title: "Consistency Patterns"
+publish: true
+title: Consistency Patterns
 created: 2025-04-26T22:13:26.161-05:00
 modified: 2025-04-27T09:36:40.696-05:00
-parent: "[[CAP Theorem (Consistency - Availability - Partition Tolerance)]]"
-children: []
 ---
+
 ###### Consistency Patterns
-````excerpt
+
+```excerpt
 - a property of CAP theorem
 - with multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data. Recall the definition of consistency from the CAP theorem - Every read receives the most recent write or an error.
-````
+```
+
 ^excerpt
 
 # Consistency Patterns

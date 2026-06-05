@@ -1,10 +1,10 @@
 ---
-title: "Dealing with Non-Literal Language"
+publish: true
+title: Dealing with Non-Literal Language
 created: 2020-10-15T23:28:43.962-05:00
 modified: 2020-10-15T23:31:24.547-05:00
-parent: "[[Natural Language Processing (NLP) - Computational Linguistics]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

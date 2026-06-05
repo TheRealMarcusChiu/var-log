@@ -1,20 +1,23 @@
 ---
-title: "DNS Query (Lookup - Recursive - Iterative - Non-Recursive)"
+publish: true
+title: DNS Query (Lookup - Recursive - Iterative - Non-Recursive)
 created: 2019-11-10T18:05:15.834-06:00
 modified: 2019-12-04T11:46:24.828-06:00
-parent: "[[Domain Name System／Service (DNS)]]"
-children: []
 ---
+
 ### DNS Lookup Types
+
 - <strong>forward lookup</strong> - given [[Host Name ／ Hostname - Domain Name - Fully Qualified Domain Name (FQDN) - Absolute Domain Name (ADN) - Partially Qualified Domain Name (PQDN) - Relative Domain Name (RDN)|FQDN]] find [[IPv4 - Address|IP Address]]
 - <strong>reverse/inverse lookup</strong> - given IP Address find FQDN
 
 ### DNS Lookup Commands
+
 - [[DNS Client]]
 
 ### DNS Query Resolver Methods
 
 a<em> lookup query</em> can be answered/resolved in 1 of 3 different ways:
+
 - recursive query
 - iterative query
 - non-recursive query

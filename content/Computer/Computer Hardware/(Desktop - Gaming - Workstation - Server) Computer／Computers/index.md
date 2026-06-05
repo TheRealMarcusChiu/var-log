@@ -1,13 +1,10 @@
 ---
-title: "(Desktop - Gaming - Workstation - Server) Computer／Computers"
+publish: true
+title: (Desktop - Gaming - Workstation - Server) Computer／Computers
 created: 2021-08-13T17:37:00.993-05:00
 modified: 2025-10-30T16:26:33.927-05:00
-parent: "[[Computer Hardware]]"
-children:
-  - "[[Desktop／Gaming／Workstation／PC／Computer Builds]]"
-  - "[[Drive／Storage Bay Servers／Computers]]"
-  - "[[Server Computers]]"
 ---
+
 ```merge-table
 {
   "rows": [
@@ -43,9 +40,5 @@ children:
   "tableStyle": "letter-spacing: 0.0px;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

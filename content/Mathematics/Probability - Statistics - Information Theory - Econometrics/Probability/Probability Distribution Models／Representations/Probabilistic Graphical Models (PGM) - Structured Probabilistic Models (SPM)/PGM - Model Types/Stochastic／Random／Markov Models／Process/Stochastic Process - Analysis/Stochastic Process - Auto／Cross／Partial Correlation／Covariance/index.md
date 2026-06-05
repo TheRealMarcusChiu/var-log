@@ -1,13 +1,10 @@
 ---
-title: "Stochastic Process - Auto／Cross／Partial Correlation／Covariance"
+publish: true
+title: Stochastic Process - Auto／Cross／Partial Correlation／Covariance
 created: 2021-09-13T05:27:10.592-05:00
 modified: 2025-09-13T15:11:05.464-05:00
-parent: "[[Stochastic Process - Analysis]]"
-children:
-  - "[[Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function]]"
-  - "[[Cross Correlation／Covariance]]"
-  - "[[Partial Correlation／Covariance]]"
 ---
+
 ```merge-table
 {
   "rows": [

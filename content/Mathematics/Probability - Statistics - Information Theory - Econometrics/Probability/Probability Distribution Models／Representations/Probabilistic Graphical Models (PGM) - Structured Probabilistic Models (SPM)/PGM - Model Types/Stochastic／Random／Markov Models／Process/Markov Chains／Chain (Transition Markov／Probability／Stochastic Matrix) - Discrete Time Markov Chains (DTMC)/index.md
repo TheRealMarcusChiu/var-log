@@ -1,26 +1,17 @@
 ---
-title: "Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)"
+publish: true
+title: Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)
 created: 2021-09-13T05:27:03.972-05:00
 modified: 2025-09-13T15:04:25.291-05:00
-parent: "[[Stochastic／Random／Markov Models／Process]]"
-children:
-  - "[[Markov Chain Property - Detailed Balance／Balanced]]"
-  - "[[Markov Chain Property - Ergodic]]"
-  - "[[Markov Chain Property - Irreducible／Irreducibility／Regular & Reducible／Reducibility]]"
-  - "[[Markov Chain Property - Periodic／Periodicity & Aperiodic／Aperiodicity]]"
-  - "[[Markov Chain Property - Reversibility]]"
-  - "[[Markov Chain Property - State Types (Transient／Positive／Null／Recurrent／Absorbing State)]]"
-  - "[[Markov Chain Property - Stationary／Stable／Invariant／Steady-State／Limiting／Marginal Probability Distribution Vector]]"
-  - "[[Markov Chain Property - Stochastic Matrix - Contains Eigenvalue 1 and all other Eigenvalues are Less than 1]]"
-  - "[[Markov Chain Property - Time Homogenous／Heterogenous]]"
-  - "[[Markov Chain Property - n-Step Transient-State Probability Distribution Vector]]"
 ---
+
 ###### Markov Chains
+
 - is a discrete state-space [[Stochastic／Random／Markov Models／Process|Markov Model]] used to model data sequences
 - is a one-dimensional [[Random Walk|random walk]] (see: [[Random Walk vs Markov Chain]])
 - is foundation for more complex models, e.g:
-	- [[Hidden Markov Models (HMM)|HMM]] - partially observable states
-	- [[Markov Decision Process (MDP)|MDP]] - agent with actions and rewards
+  - [[Hidden Markov Models (HMM)|HMM]] - partially observable states
+  - [[Markov Decision Process (MDP)|MDP]] - agent with actions and rewards
 - is often represented by a <strong>Transition Matrix </strong>sometimes called <strong>Markov/Stochastic/Probability Matrix</strong>
 - consists of 𝑛 state-values {𝑠<sub>1</sub>, ..., 𝑠<sub>𝑛</sub>}
 - at current time 𝑡 the markov chain is at state-value 𝑠<sup>(𝑡)</sup> which is can 1 of the 𝑛 state-values 𝑠<sub>𝑖</sub>
@@ -32,38 +23,40 @@ children:
 - the 𝑋s are called time-variables, where each 𝑋 holds 1 state-value
 
 ![](https://www.youtube.com/watch?v=Ws63I3F7Moc)
+
 # Markov Chains - Transition Markov/Probability/Stochastic Matrix
 
 at each time-step the <font style="color: rgb(255,0,0);"><strong>RANDOM</strong></font> choice of next state-value 𝑠<sub>𝑗</sub>can be characterized by a 𝑛x𝑛 transition matrix 𝑇 where:
-- each entry 𝑇\[𝑖,𝑗\]:
-	- contains a value between 0 and 1 (inclusive)
-	- denotes the probability of going from state 𝑠<sub>𝑖</sub>to 𝑠<sub>𝑗</sub><font style="color: rgb(128,128,128);">\# i.e. 𝐏(𝑋<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>|𝑋<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub>)</font>
+
+- each entry 𝑇\[𝑖,𝑗]:
+  - contains a value between 0 and 1 (inclusive)
+  - denotes the probability of going from state 𝑠<sub>𝑖</sub>to 𝑠<sub>𝑗</sub><font style="color: rgb(128,128,128);"># i.e. 𝐏(𝑋<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>|𝑋<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub>)</font>
 - each row of entries in 𝑇 must sum up to 1
 
 this transition matrix 𝑇 models a [[Stochastic／Random／Markov Models／Process|Markov Process]] having a [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|first-order markov assumption]]. We can model higher-order markov assumptions by increasing the dimension of 𝑇:
-- [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|first-order markov assumption]] - 𝑇 is a 𝑛x𝑛 [[Matrix／Matrices|matrix]]. where each entry 𝑇\[𝑖,𝑗\] represents 𝐏(𝑋<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>|𝑋<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub>)
-- [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|second-order markov assumption]] - 𝑇 is a 𝑛x𝑛x𝑛 [[Tensors|tensor]]. where each entry 𝑇\[𝑖,𝑗,𝑘\] represents 𝐏(𝑋<sup>(𝑡+1)</sup>=𝑠<sub>𝑘</sub>|𝑋<sup>(𝑡)</sup>=𝑠<sub>𝑗</sub>,𝑋<sup>(𝑡-1)</sup>=𝑠<sub>𝑖</sub>)
+
+- [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|first-order markov assumption]] - 𝑇 is a 𝑛x𝑛 [[Matrix／Matrices|matrix]]. where each entry 𝑇\[𝑖,𝑗] represents 𝐏(𝑋<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>|𝑋<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub>)
+- [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|second-order markov assumption]] - 𝑇 is a 𝑛x𝑛x𝑛 [[Tensors|tensor]]. where each entry 𝑇\[𝑖,𝑗,𝑘] represents 𝐏(𝑋<sup>(𝑡+1)</sup>=𝑠<sub>𝑘</sub>|𝑋<sup>(𝑡)</sup>=𝑠<sub>𝑗</sub>,𝑋<sup>(𝑡-1)</sup>=𝑠<sub>𝑖</sub>)
 - and so on....
 
 types of 𝑇:
+
 - entries of 𝑇 either:
-	- changes after each time-step (Markov Chain has [[Markov Chain Property - Time Homogenous／Heterogenous|time heterogenous]] property)
-	- remains static after each time-step (Markov Chain has [[Markov Chain Property - Time Homogenous／Heterogenous|time homogenous]] property)
+  - changes after each time-step (Markov Chain has [[Markov Chain Property - Time Homogenous／Heterogenous|time heterogenous]] property)
+  - remains static after each time-step (Markov Chain has [[Markov Chain Property - Time Homogenous／Heterogenous|time homogenous]] property)
 - right/left transition matrix
-	- right transition matrix means each row sums to 1 (more common)
-	- left transition matrix means each column sums to 1
+  - right transition matrix means each row sums to 1 (more common)
+  - left transition matrix means each column sums to 1
 
 stochastic matrix 𝑇 properties:
+
 - 𝑇 has eigenvalue 1 and all eigenvalues are at most 1
 - 𝑇<sup>𝑛</sup> is a stochastic matrix for all 𝑛
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Markov Chains - Visual/Graphical Representations
+
 given a Markov Chain there are 3 graphical representations:
+
 1. finite graphical representation of the transition matrix 𝑇 (nodes as state-values)
 2. finite graphical representation of a sequence of time-variables 𝑋's (nodes as time-variables)
 3. infinitely growing graphical representation of a sequence of time-variables 𝑋's (nodes as time-variables)
@@ -72,79 +65,80 @@ given a Markov Chain there are 3 graphical representations:
 
 > [!expand]- Click here to expand...
 > given a Markov Chain with [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|first-order markov assumption]] consisting of:
+>
 > - 2 state-values {𝑠<sub>1</sub>, 𝑠<sub>2</sub>}
 > - 2x2 transition matrix 𝑇
->     ```merge-table
->     {
->       "rows": [
->         [
->           {
->             "content": "𝑇",
->             "header": true,
->             "bg": "#F4F5F7",
->             "align": "center",
->             "colspan": 2,
->             "rowspan": 2
->           },
->           null,
->           {
->             "content": "to",
->             "header": true,
->             "bg": "#F4F5F7",
->             "align": "center",
->             "colspan": 2
->           },
->           null
->         ],
->         [
->           {
->             "content": "𝑠<sub>1</sub>",
->             "header": true,
->             "bg": "#F4F5F7",
->             "align": "center"
->           },
->           {
->             "content": "𝑠<sub>2</sub>",
->             "header": true,
->             "bg": "#F4F5F7"
->           }
->         ],
->         [
->           {
->             "content": "from",
->             "header": true,
->             "bg": "#F4F5F7",
->             "align": "center",
->             "rowspan": 2
->           },
->           {
->             "content": "𝑠<sub>1</sub>",
->             "header": true,
->             "bg": "#F4F5F7",
->             "align": "center"
->           },
->           {
->             "content": "0.6",
->             "align": "center"
->           },
->           "0.4"
->         ],
->         [
->           {
->             "content": "𝑠<sub>2</sub>",
->             "header": true,
->             "bg": "#F4F5F7",
->             "align": "center"
->           },
->           {
->             "content": "0.7",
->             "align": "center"
->           },
->           "0.3"
->         ]
+>   ```merge-table
+>   {
+>     "rows": [
+>       [
+>         {
+>           "content": "𝑇",
+>           "header": true,
+>           "bg": "#F4F5F7",
+>           "align": "center",
+>           "colspan": 2,
+>           "rowspan": 2
+>         },
+>         null,
+>         {
+>           "content": "to",
+>           "header": true,
+>           "bg": "#F4F5F7",
+>           "align": "center",
+>           "colspan": 2
+>         },
+>         null
+>       ],
+>       [
+>         {
+>           "content": "𝑠<sub>1</sub>",
+>           "header": true,
+>           "bg": "#F4F5F7",
+>           "align": "center"
+>         },
+>         {
+>           "content": "𝑠<sub>2</sub>",
+>           "header": true,
+>           "bg": "#F4F5F7"
+>         }
+>       ],
+>       [
+>         {
+>           "content": "from",
+>           "header": true,
+>           "bg": "#F4F5F7",
+>           "align": "center",
+>           "rowspan": 2
+>         },
+>         {
+>           "content": "𝑠<sub>1</sub>",
+>           "header": true,
+>           "bg": "#F4F5F7",
+>           "align": "center"
+>         },
+>         {
+>           "content": "0.6",
+>           "align": "center"
+>         },
+>         "0.4"
+>       ],
+>       [
+>         {
+>           "content": "𝑠<sub>2</sub>",
+>           "header": true,
+>           "bg": "#F4F5F7",
+>           "align": "center"
+>         },
+>         {
+>           "content": "0.7",
+>           "align": "center"
+>         },
+>         "0.3"
 >       ]
->     }
->     ```
+>     ]
+>   }
+>   ```
 >
 > this Markov Chain can be graphically represented in the following ways:
 >
@@ -246,5 +240,7 @@ given a Markov Chain there are 3 graphical representations:
 >   "tableStyle": "width: 100.0%;"
 > }
 > ```
+
 # Resources
+
 - [Coursera - Discrete Time Markov Chains (DTMC)](https://www.coursera.org/lecture/quantitative-model-checking/introduction-to-dtmcs-83cbb)

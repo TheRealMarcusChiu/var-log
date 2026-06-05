@@ -1,13 +1,14 @@
 ---
-title: "Java - Spring - Repository (Limiting Query Results)"
+publish: true
+title: Java - Spring - Repository (Limiting Query Results)
 created: 2021-03-14T23:43:04.245-05:00
 modified: 2021-03-14T23:44:33.112-05:00
-parent: "[[Java - Spring - Repository (Query Methods - Builtin)]]"
-children: []
 ---
+
 The results of query methods can be limited by using the <code>first</code> or <code>top</code> keywords, which can be used interchangeably. An optional numeric value can be appended to <code>top</code> or <code>first</code> to specify the maximum result size to be returned. If the number is left out, a result size of 1 is assumed. The following example shows how to limit the query size:
 
 Limiting the result size of a query with <code>Top</code> and <code>First</code>
+
 ```java
 User findFirstByOrderByLastnameAsc();
 

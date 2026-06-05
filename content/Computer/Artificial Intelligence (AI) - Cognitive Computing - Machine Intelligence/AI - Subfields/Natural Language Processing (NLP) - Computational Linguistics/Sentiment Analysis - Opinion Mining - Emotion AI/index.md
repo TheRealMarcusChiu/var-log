@@ -1,25 +1,25 @@
 ---
-title: "Sentiment Analysis - Opinion Mining - Emotion AI"
+publish: true
+title: Sentiment Analysis - Opinion Mining - Emotion AI
 created: 2019-10-20T11:17:06.312-05:00
 modified: 2020-11-02T22:24:09.037-06:00
-parent: "[[Natural Language Processing (NLP) - Computational Linguistics]]"
-children:
-  - "[[Word Polarity - Sentiment Lexicon]]"
 ---
+
 - <strong>Sentiment</strong> (opinion) - a view or attitude towards a situation or event
 - <strong>Sentiment Analysis</strong> (also known as <strong>Opinion Mining</strong> or <strong>E</strong><strong>motion AI</strong>)
-	- refers to the use of [[Natural Language Processing (NLP) - Computational Linguistics|natural language processing]], [text analysis](https://en.wikipedia.org/wiki/Text_analytics), [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics), and [biometrics](https://en.wikipedia.org/wiki/Biometrics) to systematically identify, extract, quantify, and study [[Affective／Emotion Science|affective]] states and subjective information
-	- is a kind of [[Text Classification]]
-	- is the detection of attitudes given a body of Text:
-		- Attitude Source/Holder
-		- Attitude Target/Aspect/Attribute
-		- Attitude Type - from either:
-			- a set of types (e.g. like, love, hate, value, desire, etc)
-			- weighted polarity (e.g. positive-neutral-negative, together with strength)
+  - refers to the use of [[Natural Language Processing (NLP) - Computational Linguistics|natural language processing]], [text analysis](https://en.wikipedia.org/wiki/Text_analytics), [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics), and [biometrics](https://en.wikipedia.org/wiki/Biometrics) to systematically identify, extract, quantify, and study [[Affective／Emotion Science|affective]] states and subjective information
+  - is a kind of [[Text Classification]]
+  - is the detection of attitudes given a body of Text:
+    - Attitude Source/Holder
+    - Attitude Target/Aspect/Attribute
+    - Attitude Type - from either:
+      - a set of types (e.g. like, love, hate, value, desire, etc)
+      - weighted polarity (e.g. positive-neutral-negative, together with strength)
 
 # <strong>Sentiment Analysis - Task Types</strong>
 
 increasing complexity:
+
 - is the attitude of text positive or negative
 - rank the attitude of test from 1 to 5
 - detect the target, source and/or attitude types
@@ -76,13 +76,9 @@ increasing complexity:
   ]
 }
 ```
+
 # <strong>Sentiment Analysis - Baseline Algorithm</strong>
 
 see: [[Text Classification]]'s Baseline Algorithm section
-# <strong>Other</strong>
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+# <strong>Other</strong>

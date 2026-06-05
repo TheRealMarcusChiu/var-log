@@ -1,10 +1,10 @@
 ---
-title: "Java - Spring - @Component Stereotypes (@Controller - @Service - @Repository)"
+publish: true
+title: Java - Spring - @Component Stereotypes (@Controller - @Service - @Repository)
 created: 2021-04-01T10:47:11.185-05:00
 modified: 2021-05-29T12:02:43.107-05:00
-parent: "[[Java - Spring - @Bean @Component]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

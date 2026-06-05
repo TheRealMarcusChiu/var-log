@@ -1,21 +1,26 @@
 ---
-title: "State Pattern"
+publish: true
+title: State Pattern
 created: 2021-07-10T10:34:21.146-05:00
 modified: 2026-01-11T00:00:08.344-06:00
-parent: "[[Behavioral Design Patterns]]"
-children: []
 ---
+
 ###### State Pattern
-````excerpt
+
+```excerpt
 - is a [[Behavioral Design Patterns|behavioral design pattern]] that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class
-````
+```
+
 ^excerpt
 
 # Structure
-![[State Pattern/state-pattern-structure.png|700]]
+
+![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Behavioral Design Patterns/State Pattern/state-pattern-structure.png|700]]
+
 # Code Examples
 
 > [!expand-ui]- Simple Example
+>
 > ```
 > interface State {
 >     void handle();
@@ -42,9 +47,12 @@ children: []
 > ctx.setState(new OffState());
 > ctx.request(); // "Turning OFF"
 > ```
+
 # Comparisons
 
 > [!expand]- Click here to expand...
 > ![[Strategy Pattern vs State Pattern#^excerpt]]
+
 # Resources
-- [https://refactoring.guru/design-patterns/state](https://refactoring.guru/design-patterns/state)
+
+- <https://refactoring.guru/design-patterns/state>

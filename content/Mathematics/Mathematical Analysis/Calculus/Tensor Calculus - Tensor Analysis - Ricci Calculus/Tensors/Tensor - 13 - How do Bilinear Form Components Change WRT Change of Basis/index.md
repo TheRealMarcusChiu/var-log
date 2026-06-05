@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 13 - How do Bilinear Form Components Change WRT Change of Basis"
+publish: true
+title: Tensor - 13 - How do Bilinear Form Components Change WRT Change of Basis
 created: 2023-08-02T12:44:07.146-05:00
 modified: 2023-08-02T21:00:04.260-05:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 > [!expand]- Detailed
 > Given
@@ -87,4 +87,5 @@ children: []
 > }
 > ```
 ````
+
 ^excerpt

@@ -1,16 +1,17 @@
 ---
-title: "Euler's Equation／Formula"
+publish: true
+title: Euler's Equation／Formula
 created: 2021-09-13T05:29:25.360-05:00
 modified: 2023-09-12T17:39:36.787-05:00
-parent: "[[Taylor Series vs Taylor Polynomial]]"
-children:
-  - "[[Euler Identity]]"
 ---
+
 ###### Euler's Equation/Formula
-````excerpt
+
+```excerpt
 - 𝑒<sup>𝑖</sup><sup>𝑥</sup> = 𝑐𝑜𝑠(𝑥) + 𝑖·𝑠𝑖𝑛(𝑥)
 - establishes the fundamental relationship between [[Trigonometric／Circular／Angle／Goniometric Functions (sine - cosine - tangent - cosecant - secant - cotangent)|trigonometric functions]] and [[Exponential Function|exponential functions]]
-````
+```
+
 ^excerpt
 
 # Euler's Equation - Formal Definitions
@@ -42,15 +43,19 @@ children:
   ]
 }
 ```
+
 # Euler's Equation - Intuition
 
 A key to understanding Euler’s formula lies in rewriting the formula as follows:
+
 - $(e^i)^x = cos(x) + i·sin(x)$
 
 where:
+
 - the right-hand expression can be thought of as the unit complex number with an angle
 - the left-hand expression can be thought of as the 1-radian unit complex number raised to
 
 # Resources
+
 - [https://xaktly.com/EulersEquation.html](https://xaktly.com/EulersEquation.html#:~:text=Nobel%20Prize%2Dwinning%20physicist%20Richard,more%20useful%20in%20higher%20math)
-- [https://mathvault.ca/euler-formula/](https://mathvault.ca/euler-formula/)
+- <https://mathvault.ca/euler-formula/>

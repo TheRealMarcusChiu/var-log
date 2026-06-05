@@ -1,17 +1,17 @@
 ---
-title: "Mathematical Spaces"
+publish: true
+title: Mathematical Spaces
 created: 2021-09-13T05:29:38.304-05:00
 modified: 2026-05-13T19:14:33.150-05:00
-parent: "[[Abstract Algebra - Modern Algebra - Structural Algebra]]"
-children:
-  - "[[Mathematical Spaces - Other]]"
-  - "[[Mathematical Spaces - Types]]"
 ---
+
 ###### Mathematical Spaces
-````excerpt
+
+```excerpt
 - is, informally, a collection/[[Set Theory|set]]/universe of [[Mathematical Object|mathematical objects]] that are treated as "points" with some selected structure/relationship(s) between these points
 - it is the relationships that define the nature of the space
-````
+```
+
 ^excerpt
 
 # Mathematical Spaces - Types of Relationships/Structure Between Points
@@ -177,68 +177,63 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # [[Mathematical Spaces - Other]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Mathematical Spaces - Other]].file.folder + "/" + [[Mathematical Spaces - Other]].file.name
-```
 
 # Mathematical Spaces - Transformations From 1 Space to Another
 
 see [[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms|Transformations/Operations/Operators/Mappings/Maps/Functions/Morphisms]]
+
 # [[Mathematical Spaces - Types]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Mathematical Spaces - Types]].file.folder + "/" + [[Mathematical Spaces - Types]].file.name
-```
 
 - [[Measurable Space - Borel space]]
-	- [[Measure Spaces]]
-		- [[Complete Measure Spaces]]
-		- [[Probability Spaces (Sample Space - Event Space - Probability Measure)]]
+  - [[Measure Spaces]]
+    - [[Complete Measure Spaces]]
+    - [[Probability Spaces (Sample Space - Event Space - Probability Measure)]]
 
 # Mathematical Spaces - Diagram
+
 An arrow from space 𝐴 to space <em>𝐵</em> implies that space <em>𝐴</em> is also a kind of space <em>𝐵</em> (e.g. a <em>normed [[Vector Spaces - Linear Spaces|vector space]]</em> is also a <em>[[Metric Spaces|metric space]]</em>)
 
 <code>------ [[Euclidean Vector Spaces - Euclidean Spaces|Euclidean Vector Space (ℝᴺ)]] ----------------
-     |                 |                               |
+    |                 |                               |
 
-     |                 |                               |
+    |                 |                               |
 
-     |                 v                               v
-
-     |           [[Banach Spaces]] \<---------------- [[Hilbert Spaces]]
-     |       ([[Norms - Semi-Norms|norm]] and [[Complete Metric Spaces (Completeness - Non-Completeness)|completeness]])    ([[Inner Products|inner-product]] and [[Complete Metric Spaces (Completeness - Non-Completeness)|completeness]])
-
-     |                 |                               |
-
-     |                 |                               |
-
-     |                 v                               v
-
-     |         [[Normed Vector Spaces - Normed Spaces|Normed Vector Space]] \<---------- [[Inner Product Spaces]]
-     |               ([[Norms - Semi-Norms|norm]])                      ([[Inner Products|inner product]])
-
-     |                 |\\\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |
-
-     |                 |                              \\|
-    
     |                 v                               v
 
-     |           [[Metric Spaces]]                 [[Locally Convex Topological Vector Spaces (LCTVS) - Locally Convex Spaces|Locally Convex Space]]
-     |         ([[Distance Measures／Metrics／Semi-Metrics／Functions|distance metric]])                  ([[Norms - Semi-Norms|semi-norm]])
+    |           [[Banach Spaces]] <---------------- [[Hilbert Spaces]]
+    |       ([[Norms - Semi-Norms|norm]] and [[Complete Metric Spaces (Completeness - Non-Completeness)|completeness]])    ([[Inner Products|inner-product]] and [[Complete Metric Spaces (Completeness - Non-Completeness)|completeness]])
 
-     |                 | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_/|
+    |                 |                               |
 
-     |                 |/                              |
+    |                 |                               |
+
+    |                 v                               v
+
+    |         [[Normed Vector Spaces - Normed Spaces|Normed Vector Space]] <---------- [[Inner Product Spaces]]
+    |               ([[Norms - Semi-Norms|norm]])                      ([[Inner Products|inner product]])
+
+    |                 |\\\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |
+
+    |                 |                              \\|
+
+    |                 v                               v
+
+    |           [[Metric Spaces]]                 [[Locally Convex Topological Vector Spaces (LCTVS) - Locally Convex Spaces|Locally Convex Space]]
+    |         ([[Distance Measures／Metrics／Semi-Metrics／Functions|distance metric]])                  ([[Norms - Semi-Norms|semi-norm]])
+
+    |                 | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_/|
+
+    |                 |/                              |
 
     v                 v                               v
 
-[[Manifolds (n-Dimensional Manifold (n-Manifold)|Manifold]] ---\> [[Topological Spaces]]                  [[Vector Spaces - Linear Spaces|Vector Space]]
+[[Manifolds (n-Dimensional Manifold (n-Manifold)|Manifold]] ---> [[Topological Spaces]]                  [[Vector Spaces - Linear Spaces|Vector Space]]
             ([[Topology|topology]] and [[Topological Spaces (Open Sets - Closed Sets - Clopen Sets - Closures)|open set]])           (linear combination)</code>
 
-![[Mathematical Spaces/space.png|600]]
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Mathematical Spaces/space.png|600]]
+
 # Resources
+
 - [The Bright Side of Mathematics's Lecture Series on Functional Analysis](https://www.youtube.com/playlist?list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr)

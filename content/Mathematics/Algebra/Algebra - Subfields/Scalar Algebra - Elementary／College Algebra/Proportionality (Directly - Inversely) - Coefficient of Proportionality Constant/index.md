@@ -1,17 +1,18 @@
 ---
-title: "Proportionality (Directly - Inversely) - Coefficient of Proportionality Constant"
+publish: true
+title: Proportionality (Directly - Inversely) - Coefficient of Proportionality Constant
 created: 2021-09-13T05:24:56.051-05:00
 modified: 2024-01-08T11:33:27.541-06:00
-parent: "[[Scalar Algebra - Elementary／College Algebra]]"
-children: []
 ---
+
 2 varying quantities are said to be in a relation of <strong>proportionality</strong> if they are multiplicatively connected to a constant
 
 The value of this constant is called the <strong>coefficient of proportionality</strong> or <strong>proportionality constant</strong>
 
-The relation is often denoted using the symbols "∝" or "\~":
+The relation is often denoted using the symbols "∝" or "~":
+
 - 𝑦 ∝ 𝑥
-- 𝑦 \~ 𝑥
+- 𝑦 ~ 𝑥
 
 # Proportion - Types
 

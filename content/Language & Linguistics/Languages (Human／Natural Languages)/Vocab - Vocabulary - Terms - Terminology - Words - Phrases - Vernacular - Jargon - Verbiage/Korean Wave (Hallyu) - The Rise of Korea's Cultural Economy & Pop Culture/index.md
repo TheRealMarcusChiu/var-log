@@ -1,11 +1,11 @@
 ---
-title: "Korean Wave (Hallyu) - The Rise of Korea's Cultural Economy & Pop Culture"
+publish: true
+title: Korean Wave (Hallyu) - The Rise of Korea's Cultural Economy & Pop Culture
 created: 2021-09-13T04:43:56.952-05:00
 modified: 2021-09-13T04:43:56.952-05:00
-parent: "[[Vocab - Vocabulary - Terms - Terminology - Words - Phrases - Vernacular - Jargon - Verbiage]]"
-children: []
 ---
-original article - [https://martinroll.com/resources/articles/asia/korean-wave-hallyu-the-rise-of-koreas-cultural-economy-pop-culture/](https://martinroll.com/resources/articles/asia/korean-wave-hallyu-the-rise-of-koreas-cultural-economy-pop-culture/)
+
+original article - <https://martinroll.com/resources/articles/asia/korean-wave-hallyu-the-rise-of-koreas-cultural-economy-pop-culture/>
 
 The Korean Wave (Hallyu) refers to the global popularity of South Korea’s cultural economy exporting pop culture, entertainment, music, TV dramas and movies.
 
@@ -18,6 +18,7 @@ Hallyu first spread to China and Japan, later to Southeast Asia and several coun
 Hallyu has been a blessing for Korea, its businesses, culture and country image. Since early 1999, Hallyu has become one of the biggest cultural phenomena across Asia. The Hallyu effect has been tremendous, contributing to 0.2% of Korea’s GDP in 2004, amounting to approximately USD 1.87 billion. More recently in 2014, Hallyu had an estimated USD 11.6 billion boost on the Korean economy.
 
 Over the last two decades, South Korea has become very rich and very futuristic. In 1965, Korea’s GDP per capita was less than that of Ghana. Today, South Korea is the world’s 12th largest economy.
+
 ### Origins of Hallyu
 
 The popular media in the region has attributed the origins of Hallyu to a couple of movies and TV soaps that were released in 1999. “Swiri”, an inspiring movie about the North Korea/South Korea espionage released in 1999, gave Hallyu the public face as it became hugely successful across South East Asian countries. It was followed by a soap opera called “Autumn in my heart” in 2000 that sustained the excitement created by Swiri. These were followed by “My Sassy girl” in 2001 and “Winter Sonata” in 2004. All of these became very popular not only in Korea but also in Singapore, Japan, Taiwan, Hong Kong, China and Vietnam. The success of these entertainment products created a tremendous buzz about the exploding popularity of Korean culture. Regional media sources were quick enough to pick up the cues and collectively announce the birth of Hallyu.
@@ -41,6 +42,7 @@ One of the biggest consequences of the crisis within Korea was its effect on the
 <strong>Increased focus on infrastructure:</strong> The Korean government has been and is spending significant funds to develop high-tech Internet infrastructure as it believes that every Korean citizen will benefit from being connected to the global world. In addition to this, Korea is one of the few countries worldwide that invests its funds into the nation’s start-ups. In 2012, government funds constituted over 25 percent of all venture capital money disbursed in Korea. One-third of all venture capital in Korea is spent on the entertainment industry.
 
 All the above things occurred at more or less during the same period in the mid-1990s. A potent talent base of young and energetic Koreans on one hand and a very conducive cultural environment in Korea backed up by operational excellence on the other, gave an excellent base for young Koreans to experiment with music, drama and movies. Movies with more controversial and never-before-tested topics were filmed, which gained popularity across the region. Family dramas with a common sensitivity and cultural background which appealed to a vast population of Asians also become very popular, increasing the overall craze for Korean entertainment products. Many young local singers and bands adapted the US rap music to suit the Korean taste and it emerged as a big rage. These entertainment products (music, movies and dramas) initiated the phenomenal growth of Hallyu.
+
 ### Growth of Hallyu
 
 Hallyu has consistently and exponentially grown since 1999, when it surfaced as a major cultural phenomenon. But the growth of this wave has not been totally spontaneous and unplanned. The five major factors discussed above shaped the cultural environment of Korea, which led to the birth of the Korean wave. In a similar fashion, the sustained growth and popularity of this wave has been well managed by all its chief stakeholders.
@@ -49,10 +51,12 @@ Five important factors have been crucial for maintaining the popularity of Hally
 
 <strong>Growing popularity of Korean brands: </strong>The Korean brands are doing the exact same thing to Japanese brands now, what the Japanese brands did to US brands during the 1960s and 1970s. Samsung and LG have been the forerunners in creating world class brands in the consumer electronics industry. In the recent annual 2017 ranking by Interbrand of the world’s top 100 brands, Samsung was listed as the 6th brand in the world with brand value of USD 56.2 billion. LG has transformed itself from a manufacturer of cheap products to a brand of repute. Hyundai and Kia brands are creating a similar revolution in the car industry. Hyundai, which was once the source of jokes in the US industry due to its horrible quality, is now touted as one of best quality cars in the market and is competing head on with the Japanese giants Toyota and Nissan. On a collective level, the acceptance of these brands in the international market has improved the overall perception of its country of origin – South Korea. Gradually the world is associating Korea with Samsung and Hyundai instead of the Korean War. This new interest in Korea has been a great driver of Hallyu.
 
-<strong>Increased R&D in design, production and overall quality:</strong> The popularity of leading Korean brands across the world including the US has highlighted certain key dimensions of success for Koreans – superior quality, cutting edge designs and a contemporary feel for the products and services. This lesson has been absorbed by almost all business sectors. This new emphasis has seen an increased investment in research and development in creating products of superior quality. The entertainment products like movies, music, soap operas have all been described as having excellent production quality. South Korean movies now are of Hollywood production value and quality. This new found focus on quality has enticed many new customers and helped sustain the popularity of movies, music and soaps, which are the main products driving the Korean wave.
+<strong>Increased R\&D in design, production and overall quality:</strong> The popularity of leading Korean brands across the world including the US has highlighted certain key dimensions of success for Koreans – superior quality, cutting edge designs and a contemporary feel for the products and services. This lesson has been absorbed by almost all business sectors. This new emphasis has seen an increased investment in research and development in creating products of superior quality. The entertainment products like movies, music, soap operas have all been described as having excellent production quality. South Korean movies now are of Hollywood production value and quality. This new found focus on quality has enticed many new customers and helped sustain the popularity of movies, music and soaps, which are the main products driving the Korean wave.
 
 As the popularity of these movies, music and soap operas increased manifold in the region, it has also resulted in increased creative output. Since 1999 to the present, many Korean movies with innovative and appealing themes have been released.
+
 ### The must-see Korean movies
+
 - Swiri (1999)
 - Joint Security Area (2000)
 - The virgin stripped bare by her bachelors (2000)
@@ -100,6 +104,7 @@ One of the strategies of managing Hallyu is the careful study of its target audi
 The Korean government has also been very active in managing Hallyu outside of Korea by conducting different cultural festivals displaying the Korean offerings, conducting PR campaigns to publicize Korean uniqueness and indirectly helping the entertainment industry by creating a very conducive environment. As of January 2016, the Korean Culture and Information Service has set up 28 Korean Cultural Centers in 24 countries across Africa, Asia-Pacific, Europe and America to promote Hallyu.
 
 According to the UNESCO Institute of Statistics, the global trade of cultural goods amounted to USD 190.5 billion in 2013, and the Korean government is eyeing a significant part of that pie moving forward. In her 2013 inaugural address, President Park Geun-hye announced the Creative Economy Policy Enforcement Process. The seven core strategies to lay the foundation for a creative economy are:
+
 - Creation of new markets and jobs
 - Development of software as a future growing business
 - Realization of the creative economy through opening and sharing
@@ -115,6 +120,7 @@ The Korean government has already embarked on building “K-Culture Valley”, a
 <strong>Lesser animosity towards Korea in Southeast Asian region:</strong> History, in a strange way, is positively aiding Korea and the growth of Hallyu. Most Asian countries were former colonies of Japan during the World War time. The direct result of this has been the continuing animosity towards Japan in many Asian countries, most notably in mainland China. This has been the main reason for Japanese music or lifestyle not becoming a rage in many Asian countries. Korea on the other hand has been a former colony of Japan and thus is on the same page as many other Asian countries. This has helped Korea both ways. The Japanese are able to identify with them as they are closer to Japan in terms of development and sophistication than any of the other Asian countries and therefore, Korean cultural exports have been huge in Japan.
 
 At the same time, being a former colony of Japan, Korea and China share the same history. The Chinese are able to relate more closely with Korean cultural products and relate without an underlying sense of animosity and hatred. This has been a major factor for the explosion of Korean culture in mainland China.
+
 ### The spillover effects of Hallyu
 
 The cumulative effect of movies, music, soap operas and games has been tremendously positive to the Korean economy and the Korean country image in the region. Hallyu contributed USD 11.6 billion to the Korean economy in 2014. Hallyu has contributed immensely to Korean tourism as well. An opinion survey conducted by the KTO in October 2013 found that almost 60% of tourists who visited Korea were influenced by Hallyu. With the Hallyu-wood theme park already built and with further upcoming developments, this traffic is expected to increase, which will in turn fuel the growth of the Korean wave.
@@ -134,6 +140,7 @@ Till very recently, South Korea evoked the images of the Korean War, the North-S
 All of that has started to change with the explosion of Hallyu. Hallyu has provided Korea with an excellent opportunity to showcase its diverse culture, people, its unique entertainment products, exotic locales and its own pan-Asian superstars to the rest of the world and thereby create a very strong brand Korea. With the maddening popularity of Korean movies and soap operas, the focus seems to have shifted towards Korean values, society, emotions and the beautiful locations projected in these movies. This in turn has given Korea a good chance to create new perceptions and images of itself across the world.
 
 All these factors have had the unstinting support from the Korean government, all the artists, businessmen as well as the Korean population. This collaborative effort has propelled Hallyu into a sustained cultural phenomenon rather than just a mere fad.
+
 ### Future challenges for Hallyu
 
 Although Hallyu has sustained and grown for the last many years, carrying on into the future will be very challenging. One of the main reasons for its popularity to explode across the region has been its novelty and newness. After all, there are only a certain number of emotions! Though the Korean government and all the others involved have shown great maturity in handling this Korean wave, sustaining it over long periods of time will truly be a challenge.
@@ -145,6 +152,7 @@ Some of the major challenges for the Korean Wave are discussed below:
 <strong>Avoiding over-exposure of Korean stars:</strong> The main players in the success of Hallyu have been the Korean stars like Yonsama, BoA and others. These celebrities have emerged as regional superstars with major companies – local and international – choosing them as their endorsers. The movies, soap operas and the various commercials are milking their popularity to a great extent. This may lead to an over-exposure of these celebrities. As the success of upcoming movies and soaps depend on these stars to a large extent, diluting their brand equity and image through over exposure would not be a very good idea. At the same time, controlling this over-exposure will be a great challenge for everyone involved from producers, companies to the celebrities themselves, as each one of them will want to maximize the star power.
 
 <strong>Sustained investment from the Korean government:</strong> The Korean government has been actively participating and supporting the growth of Hallyu. With the Discover Korea Your Way campaign by the KTO and other Hallyu-wood projects, the government will be called upon to invest heavily in the entire process. To sustain investing overall a long period of time and to see through projects thoroughly will indeed be a daunting task.
+
 ### Conclusion: Korea needs to tap on the massive potential of the Korean Wave
 
 All in all, there is no doubt that Hallyu has catapulted Korea on to the global stage. With so much international attention on Korea and its pop culture scene and its creative economy, it is imperative for the Korean government to leverage on all its entertainment and cultural products to further drive the brand equity of Korea as a country.

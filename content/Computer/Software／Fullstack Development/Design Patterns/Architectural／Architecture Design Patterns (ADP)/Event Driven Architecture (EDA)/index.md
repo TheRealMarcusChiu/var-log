@@ -1,12 +1,12 @@
 ---
-title: "Event Driven Architecture (EDA)"
+publish: true
+title: Event Driven Architecture (EDA)
 created: 2020-05-27T14:22:34.522-05:00
 modified: 2021-12-31T03:45:46.915-06:00
-parent: "[[Architectural／Architecture Design Patterns (ADP)]]"
-children:
-  - "[[Event Sourcing]]"
 ---
-![](https://www.youtube.com/watch?v=STKCRSUsyP0&t=613s)
+
+![](https://www.youtube.com/watch?v=STKCRSUsyP0\&t=613s)
+
 - <strong>event</strong> - just indicate a change without expecting any particular response
 - <strong>command</strong> - telling some service what to do
 

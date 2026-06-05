@@ -1,10 +1,10 @@
 ---
-title: "Vishnu"
+publish: true
+title: Vishnu
 created: 2021-09-13T04:44:58.922-05:00
 modified: 2021-09-13T04:44:58.922-05:00
-parent: "[[Hinduism - Gods]]"
-children: []
 ---
+
 Vishnu has 10 earthly incarnations
 
 <strong>1. The First Avatar: Matsya (The Fish)</strong>

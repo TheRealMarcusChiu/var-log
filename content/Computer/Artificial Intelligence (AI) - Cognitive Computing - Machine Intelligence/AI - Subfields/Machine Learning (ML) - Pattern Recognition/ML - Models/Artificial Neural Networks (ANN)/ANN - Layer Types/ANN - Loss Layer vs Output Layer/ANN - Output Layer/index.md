@@ -1,15 +1,17 @@
 ---
-title: "ANN - Output Layer"
+publish: true
+title: ANN - Output Layer
 created: 2024-09-23T09:16:25.582-05:00
 modified: 2024-09-23T09:46:28.084-05:00
-parent: "[[ANN - Loss Layer vs Output Layer]]"
-children: []
 ---
+
 ###### Output Layer
-````excerpt
+
+```excerpt
 - used for inference
 - generally not included when training model
-````
+```
+
 ^excerpt
 
 # Output Layer - Types
@@ -90,6 +92,7 @@ children: []
   ]
 }
 ```
+
 # Output Representations in Practice
 
 Do not add Output Layers to the model during training, most output transformations are not differentiable (or hard to differentiate)

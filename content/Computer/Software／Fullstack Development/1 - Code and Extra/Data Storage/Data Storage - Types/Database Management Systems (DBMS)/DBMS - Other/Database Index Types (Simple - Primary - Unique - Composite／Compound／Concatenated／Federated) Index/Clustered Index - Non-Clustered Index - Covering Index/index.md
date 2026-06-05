@@ -1,10 +1,10 @@
 ---
-title: "Clustered Index - Non-Clustered Index - Covering Index"
+publish: true
+title: Clustered Index - Non-Clustered Index - Covering Index
 created: 2019-12-09T21:34:30.651-06:00
 modified: 2026-04-23T14:23:03.456-05:00
-parent: "[[Database Index Types (Simple - Primary - Unique - Composite／Compound／Concatenated／Federated) Index]]"
-children: []
 ---
+
 # Clustered Index - Non-Clustered Index - Covering Index
 
 ```merge-table
@@ -35,10 +35,12 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Clustered vs Non-Clustered - Visual
 
 > [!expand]- Click here to expand...
 > given inserted data (first-name, last-name, birth-year):
+>
 > - ("Erina", "Chiu", 1995)
 > - ("Marcus", "Chiu", 1994)
 > - ("Christian", "Bale", 1974)
@@ -211,16 +213,21 @@ children: []
 >   ]
 > }
 > ```
+
 # Clustered vs Non-Clustered - Analogy
 
 > [!expand]- Click here to expand...
+>
 > ###### CLUSTERED INDEX
 >
-> If you walk into a public library, you will find that the books are all arranged in a particular order (most likely the Dewey Decimal System, or DDS). This corresponds to the <em>"clustered index"</em> of the books. If the DDS\# for the book you want was <code>005.7565 F736s</code>, you would start by locating the row of bookshelves that is labeled <code>001-099</code> or something like that. (This endcap sign at the end of the stack corresponds to an "intermediate node" in the index.) Eventually you would drill down to the specific shelf labelled <code>005.7450 - 005.7600</code>, then you would scan until you found the book with the specified DDS\#, and at that point <em>you have found your book.</em>
+> If you walk into a public library, you will find that the books are all arranged in a particular order (most likely the Dewey Decimal System, or DDS). This corresponds to the <em>"clustered index"</em> of the books. If the DDS# for the book you want was <code>005.7565 F736s</code>, you would start by locating the row of bookshelves that is labeled <code>001-099</code> or something like that. (This endcap sign at the end of the stack corresponds to an "intermediate node" in the index.) Eventually you would drill down to the specific shelf labelled <code>005.7450 - 005.7600</code>, then you would scan until you found the book with the specified DDS#, and at that point <em>you have found your book.</em>
+>
 > ###### NON-CLUSTERED INDEX
 >
-> But if you didn't come into the library with the DDS\# of your book memorized, then you would need a second index to assist you. In the olden days you would find at the front of the library a wonderful bureau of drawers known as the "Card Catalog". In it were thousands of 3x5 cards -- one for each book, sorted in alphabetical order (by title, perhaps). This corresponds to the <em>"non-clustered index"</em>. These card catalogs were organized in a hierarchical structure, so that each drawer would be labeled with the range of cards it contained (<code>Ka - Kl</code>, for example; i.e., the "intermediate node"). Once again, you would drill in until you found your book, but in <em>this</em> case, once you have found it (i.e, the "leaf node"), you don't have the book itself, but just a card with an <em>index</em> number (the DDS\#) with which you could find the actual book in the clustered index.
+> But if you didn't come into the library with the DDS# of your book memorized, then you would need a second index to assist you. In the olden days you would find at the front of the library a wonderful bureau of drawers known as the "Card Catalog". In it were thousands of 3x5 cards -- one for each book, sorted in alphabetical order (by title, perhaps). This corresponds to the <em>"non-clustered index"</em>. These card catalogs were organized in a hierarchical structure, so that each drawer would be labeled with the range of cards it contained (<code>Ka - Kl</code>, for example; i.e., the "intermediate node"). Once again, you would drill in until you found your book, but in <em>this</em> case, once you have found it (i.e, the "leaf node"), you don't have the book itself, but just a card with an <em>index</em> number (the DDS#) with which you could find the actual book in the clustered index.
 >
 > Of course, nothing would stop the librarian from photocopying all the cards and sorting them in a different order in a separate card catalog. (Typically there were at least two such catalogs: one sorted by author name, and one by title.) In principle, you could have as many of these "non-clustered" indexes as you want.
+
 # Resources
-- [https://www.giantstride.gr/sql-indexing-part2/](https://www.giantstride.gr/sql-indexing-part2/)
+
+- <https://www.giantstride.gr/sql-indexing-part2/>

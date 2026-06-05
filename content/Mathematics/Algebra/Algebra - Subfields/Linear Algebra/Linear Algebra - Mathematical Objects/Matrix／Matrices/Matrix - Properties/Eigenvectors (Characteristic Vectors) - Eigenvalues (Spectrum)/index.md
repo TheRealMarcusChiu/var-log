@@ -1,14 +1,10 @@
 ---
-title: "Eigenvectors (Characteristic Vectors) - Eigenvalues (Spectrum)"
+publish: true
+title: Eigenvectors (Characteristic Vectors) - Eigenvalues (Spectrum)
 created: 2021-09-13T05:25:55.197-05:00
 modified: 2026-05-21T14:57:57.066-05:00
-parent: "[[Matrix - Properties]]"
-children:
-  - "[[A matrix and its transpose have the same characteristic polynomial and eigenvalues]]"
-  - "[[Complex Eigenvalues - Complex Eigenvectors]]"
-  - "[[Eigenvalues are the roots of the Characteristic Polynomial]]"
-  - "[[Eigenvectors with Distinct Eigenvalues are Linearly Independent]]"
 ---
+
 - <strong>eigenvector or characteristic vector (𝑥)</strong> of a [[Linear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms) - Vector Space Homomorphism|linear transformation (𝐴𝑥)]] is a nonzero vector 𝑥 that changes at most by a scalar factor (𝑖.𝑒. 𝐴𝑥=𝜆𝑥) when that linear transformation is applied to it
 - <strong>eigenvalue (𝜆)</strong> is the factor by which the eigenvector is scaled
 - <strong>spectrum ({𝜆<sub>1</sub>, ..., 𝜆<sub>𝑟</sub>})</strong> - the set of eigenvalues of a matrix 𝐴
@@ -38,6 +34,7 @@ children:
   "tableStyle": "width: 68.3659%;"
 }
 ```
+
 # Eigenvalues & Eigenvectors - Complex Numbers
 
 ```merge-table
@@ -51,14 +48,11 @@ children:
   "tableStyle": "width: 66.3408%;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Resources
-- [https://brilliant.org/wiki/eigenvalues-and-eigenvectors/](https://brilliant.org/wiki/eigenvalues-and-eigenvectors/)
 
-![](https://www.youtube.com/watch?v=PFDu9oVAE-g&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=15&t=0s)![](https://www.youtube.com/watch?v=i8FukKfMKCI)![](https://www.youtube.com/watch?v=cdZnhQjJu4I&list=PLE7DDD91010BC51F8&index=22)
+- <https://brilliant.org/wiki/eigenvalues-and-eigenvectors/>
+
+![](https://www.youtube.com/watch?v=PFDu9oVAE-g\&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab\&index=15\&t=0s)![](https://www.youtube.com/watch?v=i8FukKfMKCI)![](https://www.youtube.com/watch?v=cdZnhQjJu4I\&list=PLE7DDD91010BC51F8\&index=22)

@@ -1,10 +1,10 @@
 ---
-title: "Real User Monitoring (RUM) vs Synthetic Monitoring (STM)"
+publish: true
+title: Real User Monitoring (RUM) vs Synthetic Monitoring (STM)
 created: 2021-03-27T12:25:24.842-05:00
 modified: 2021-03-27T14:05:47.226-05:00
-parent: "[[Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics - Other]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

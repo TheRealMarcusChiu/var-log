@@ -1,24 +1,17 @@
 ---
-title: "Cryptography & Cryptanalysis"
+publish: true
+title: Cryptography & Cryptanalysis
 created: 2019-08-19T10:50:25.353-05:00
 modified: 2025-12-19T23:36:36.803-06:00
-parent: "[[Computer]]"
-children:
-  - "[[Cryptocurrency - Crypto Currency]]"
-  - "[[Cryptographic Hash Function - Message Digest Function]]"
-  - "[[Cryptography - Video Lectures]]"
-  - "[[Digital Signatures - MAC／MIC]]"
-  - "[[Encryption]]"
-  - "[[Error - Detection & Correction]]"
-  - "[[Indistinguishability Obfuscation (IO／iO)]]"
-  - "[[MAC／MIC & Encryption]]"
-  - "[[Secure／Keyed Cryptographic Hash Function]]"
 ---
+
 - <strong>cryptography</strong> - the art of writing or solving codes
 - <strong>cryptanalysis</strong> - the art or process of deciphering coded messages without being told the key
 
 related to: [[Computer Security - Cybersecurity - IT Security]]
+
 # Video Lectures
+
 - [[Cryptography - Video Lectures]]
 
 # Subpages

@@ -1,13 +1,14 @@
 ---
-title: "Movies／Movie"
+publish: true
+title: Movies／Movie
 created: 2021-09-13T04:46:20.831-05:00
 modified: 2025-04-16T00:11:41.275-05:00
-parent: "[[Film／Films]]"
-children: []
 ---
+
 # Lists
-- [https://www.looper.com/473942/best-thrillers-all-time/](https://www.looper.com/473942/best-thrillers-all-time/)
-- [https://movieweb.com/movie-endings-best/](https://movieweb.com/movie-endings-best/)
+
+- <https://www.looper.com/473942/best-thrillers-all-time/>
+- <https://movieweb.com/movie-endings-best/>
 
 # Movies
 

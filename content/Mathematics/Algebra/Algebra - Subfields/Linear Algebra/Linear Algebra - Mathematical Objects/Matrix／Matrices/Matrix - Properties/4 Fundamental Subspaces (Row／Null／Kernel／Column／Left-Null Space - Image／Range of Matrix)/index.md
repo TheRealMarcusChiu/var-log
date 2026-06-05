@@ -1,11 +1,11 @@
 ---
-title: "4 Fundamental Subspaces (Row／Null／Kernel／Column／Left-Null Space - Image／Range of Matrix)"
+publish: true
+title: 4 Fundamental Subspaces (Row／Null／Kernel／Column／Left-Null Space - Image／Range of Matrix)
 created: 2021-09-13T05:25:52.390-05:00
 modified: 2023-09-19T18:27:12.765-05:00
-parent: "[[Matrix - Properties]]"
-children: []
 ---
-```merge-table
+
+````merge-table
 {
   "rows": [
     [
@@ -14,4 +14,4 @@ children: []
     ]
   ]
 }
-```
+````

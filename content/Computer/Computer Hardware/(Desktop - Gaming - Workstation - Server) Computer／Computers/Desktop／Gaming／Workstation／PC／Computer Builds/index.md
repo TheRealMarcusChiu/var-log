@@ -1,11 +1,12 @@
 ---
-title: "Desktop／Gaming／Workstation／PC／Computer Builds"
+publish: true
+title: Desktop／Gaming／Workstation／PC／Computer Builds
 created: 2022-06-29T01:20:40.606-05:00
 modified: 2022-06-29T01:22:30.354-05:00
-parent: "[[(Desktop - Gaming - Workstation - Server) Computer／Computers]]"
-children: []
 ---
-[https://www.amazon.com/product-reviews/B09K8HG9XX/ref=acr_dpx_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar](https://www.amazon.com/product-reviews/B09K8HG9XX/ref=acr_dpx_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar)
+
+<https://www.amazon.com/product-reviews/B09K8HG9XX/ref=acr_dpx_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar>
+
 ```
 Asus ROG Z690 Maximus Extreme Glacial
 Intel i9-12900K 5200MHz

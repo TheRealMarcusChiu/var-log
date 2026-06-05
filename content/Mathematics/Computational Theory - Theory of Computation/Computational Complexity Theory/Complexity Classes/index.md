@@ -1,34 +1,23 @@
 ---
-title: "Complexity Classes"
+publish: true
+title: Complexity Classes
 created: 2021-09-13T05:24:50.647-05:00
 modified: 2023-12-07T14:57:19.520-06:00
-parent: "[[Computational Complexity Theory]]"
-children:
-  - "[[BPP (Bounded-Error Probabilistic Polynomial Time)]]"
-  - "[[BQP (Bounded-Error Quantum Polynomial-Time)]]"
-  - "[[EXPSPACE]]"
-  - "[[EXPTIME - EXP - DEXPTIME]]"
-  - "[[L (LSPACE - DLOGSPACE)]]"
-  - "[[NEXPSPACE]]"
-  - "[[NEXPTIME - NEXP]]"
-  - "[[NL (Non-Deterministic Logarithmic-Space)]]"
-  - "[[NP (Non-Deterministic Polynomial Time)]]"
-  - "[[NPSPACE]]"
-  - "[[P (Polynomial Time - PTIME)]]"
-  - "[[P - NP - NPC - NPI - NPO - NPH]]"
-  - "[[PSPACE]]"
-  - "[[Polynomial-Time Bounded Reducibilities]]"
 ---
+
 ###### Complexity Classes
-````excerpt
+
+```excerpt
 - a <strong>complexity class</strong> contains a set of [[Problems|problems]] that take a similar range of time and space to solve
 - for example, a problem that belongs in the NP complexity class but not in the P complexity class CANNOT be solved with any [[Problems & Algorithms|algorithm]] whose [[Growth／Asymptotic Complexity／Analysis (Resource - Time／Space／Memory Complexity)|time complexity]] is polynomial-time bounded
-````
+```
+
 ^excerpt
 
 # Complexity Classes - Components
 
 A <strong>complexity class</strong> is defined by the following components:
+
 1. <strong>[[Computable／Computational Problems|Type of Computational Problem]]</strong> - e.g. [[Decision Problems - Optimization Problems|decision problems]], [[Decision Problems - Optimization Problems|optimization problems]], etc
 2. <strong>[[Model of Computation - Computational Model|Model of Computation]]</strong> - e.g. [[Deterministic Turing Machine (DTM)|Deterministic Turing Machine]], [[Non-Deterministic Turing Machine (NTM)|Non-Deterministic Turing Machine]], etc
 3. <strong>[[Growth／Asymptotic Complexity／Analysis (Resource - Time／Space／Memory Complexity)|Bounded Resource Type(s)]]</strong> - either TIME or MEMORY/SPACE
@@ -175,6 +164,8 @@ A <strong>complexity class</strong> is defined by the following components:
   "tableStyle": "width: 97.8661%;"
 }
 ```
+
 # Other
+
 - [[P - NP - NPC - NPI - NPO - NPH]]
 - [[Polynomial-Time Bounded Reducibilities]]

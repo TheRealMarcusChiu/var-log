@@ -1,10 +1,10 @@
 ---
-title: "Cross Correlation／Covariance"
+publish: true
+title: Cross Correlation／Covariance
 created: 2021-09-13T05:27:11.702-05:00
 modified: 2021-09-13T05:27:11.702-05:00
-parent: "[[Stochastic Process - Auto／Cross／Partial Correlation／Covariance]]"
-children: []
 ---
+
 <strong>cross correlation/covariance</strong>
 
 We often need to study more than one random process. For example, when investing in the stock market you consider several different stocks and you are interested in how they are related. In particular, you might be interested in finding out whether two stocks are positively or negatively correlated. A useful idea in these situations is to look at cross-correlation and cross-covariance functions

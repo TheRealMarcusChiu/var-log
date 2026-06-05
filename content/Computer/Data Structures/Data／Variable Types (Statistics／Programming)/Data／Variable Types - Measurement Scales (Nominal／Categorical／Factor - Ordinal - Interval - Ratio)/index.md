@@ -1,10 +1,10 @@
 ---
-title: "Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)"
+publish: true
+title: Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)
 created: 2019-05-02T12:41:49.117-05:00
 modified: 2023-07-12T23:37:51.189-05:00
-parent: "[[Data／Variable Types (Statistics／Programming)]]"
-children: []
 ---
+
 # 4 Measurement Scales
 
 ```merge-table
@@ -205,8 +205,11 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Interval vs Ratio
 
 When working with ratio variables, but not interval variables, the ratio of two measurements has a meaningful interpretation. For example, because weight is a ratio variable, a weight of 4 grams is twice as heavy as a weight of 2 grams. However, a temperature of 10 degrees C should not be considered twice as hot as 5 degrees C. If it were, a conflict would be created because 10 degrees C is 50 degrees F and 5 degrees C is 41 degrees F. Clearly, 50 degrees is not twice 41 degrees. Another example, a pH of 3 is not twice as acidic as a pH of 6, because pH is not a ratio variable
+
 # Diagram
-![[Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)/Ratio Interval Ordinal Nominal.png|500]]
+
+![[Computer/Data Structures/Data／Variable Types (Statistics／Programming)/Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)/Ratio Interval Ordinal Nominal.png|500]]

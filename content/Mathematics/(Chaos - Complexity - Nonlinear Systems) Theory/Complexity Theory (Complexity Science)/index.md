@@ -1,13 +1,13 @@
 ---
-title: "Complexity Theory (Complexity Science)"
+publish: true
+title: Complexity Theory (Complexity Science)
 created: 2021-09-13T05:24:49.730-05:00
 modified: 2026-05-21T14:21:29.535-05:00
-parent: "[[(Chaos - Complexity - Nonlinear Systems) Theory]]"
-children:
-  - "[[System - Complex System]]"
 ---
+
 ###### Complexity Theory (Complexity Science)
-````excerpt
+
+```excerpt
 - is the study of [complexity](https://en.wikipedia.org/wiki/Complexity) and of [[System - Complex System|complex systems]]
 - is a new approach to science studying how relationships between parts give rise to the collective behaviors of a system, and how the system interacts and forms relationships with its environment
 - tries to find a set of simple rules from where complexity emerges (assuming complexity stems from a set of simple rules)
@@ -23,14 +23,12 @@ children:
 	- [Complexity Economics](https://en.wikipedia.org/wiki/Complexity_economics) - the application of complexity theory to economics
 	- [[Complex Adaptive Systems|Complex Adaptive System]] - a special case of complex systems
 	- [[Computational Complexity Theory]] - a field in theoretical computer science and mathematics
-````
+```
+
 ^excerpt
 
 # Subpages
+
 - [[Reductionism vs Holism]]
+
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```

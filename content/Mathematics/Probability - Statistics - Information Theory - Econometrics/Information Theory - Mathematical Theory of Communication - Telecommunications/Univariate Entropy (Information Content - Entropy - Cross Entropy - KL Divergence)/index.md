@@ -1,25 +1,26 @@
 ---
-title: "Univariate Entropy (Information Content - Entropy - Cross Entropy - KL Divergence)"
+publish: true
+title: Univariate Entropy (Information Content - Entropy - Cross Entropy - KL Divergence)
 created: 2021-09-13T05:26:27.462-05:00
 modified: 2024-08-24T16:19:48.460-05:00
-parent: "[[Information Theory - Mathematical Theory of Communication - Telecommunications]]"
-children:
-  - "[[Maximum Entropy (Maxent) Models]]"
-  - "[[Modeling - KL Divergence vs Reverse KL Divergence]]"
 ---
+
 ###### Entropy
+
 - is a measure of how close a system is to equilibrium (higher means more equal)
 
 ###### Information Entropy
-- is a measure of the amount of disorder/stochasticity/noise in the distribution
-	- lower entropy implies distribution mass/density is on a few instances
-	- larger entropy implies distribution mass/density is more evenly spread out (similar to [[Uniform Distribution|uniform distribution]])
-- is the MINIMAL number of bits needed, on average, to encode the information produced by a:
-	- stochastic source of data
-	- stochastic/probability distribution
-	- random variable
 
-![](https://www.youtube.com/watch?v=ErfnhcEV1O8&t=5s)
+- is a measure of the amount of disorder/stochasticity/noise in the distribution
+  - lower entropy implies distribution mass/density is on a few instances
+  - larger entropy implies distribution mass/density is more evenly spread out (similar to [[Uniform Distribution|uniform distribution]])
+- is the MINIMAL number of bits needed, on average, to encode the information produced by a:
+  - stochastic source of data
+  - stochastic/probability distribution
+  - random variable
+
+![](https://www.youtube.com/watch?v=ErfnhcEV1O8\&t=5s)
+
 # Univariate Entropy (Information Content - Entropy - Cross Entropy - KL Divergence)
 
 ```merge-table
@@ -32,15 +33,13 @@ children:
   ]
 }
 ```
+
 # Multivariate Entropy
 
 see: [[Multivariate Entropy (Joint Entropy - Conditional Entropy - (Pointwise) Mutual Information ／ Information Gain - Variation of Information)|Multivariate Entropy (Joint Entropy - Conditional Entropy - (Pointwise) Mutual Information / Information Gain - Variation of Information)]]
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Resources
-- [https://colah.github.io/posts/2015-09-Visual-Information/#fn4](https://colah.github.io/posts/2015-09-Visual-Information/#fn4)
+
+- <https://colah.github.io/posts/2015-09-Visual-Information/#fn4>

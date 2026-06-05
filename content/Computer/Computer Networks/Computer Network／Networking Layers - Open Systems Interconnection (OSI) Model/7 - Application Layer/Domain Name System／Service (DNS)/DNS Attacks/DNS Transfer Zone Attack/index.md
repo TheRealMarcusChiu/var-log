@@ -1,11 +1,11 @@
 ---
-title: "DNS Transfer Zone Attack"
+publish: true
+title: DNS Transfer Zone Attack
 created: 2019-03-16T02:51:54.326-05:00
 modified: 2019-03-16T02:52:49.111-05:00
-parent: "[[DNS Attacks]]"
-children: []
 ---
-[https://security.stackexchange.com/questions/10452/dns-zone-transfer-attack](https://security.stackexchange.com/questions/10452/dns-zone-transfer-attack)
+
+<https://security.stackexchange.com/questions/10452/dns-zone-transfer-attack>
 
 DNS Zone transfer is the process where a DNS server passes a copy of part of it's database (which is called a "zone") to another DNS server. It's how you can have more than one DNS server able to answer queries about a particular zone; there is a Master DNS server, and one or more Slave DNS servers, and the slaves ask the master for a copy of the records for that zone.
 
@@ -18,6 +18,7 @@ An interesting fact about DNS zone transfers is that they usually rely on TCP po
 To actually complete a zone transfer on a vulnerable DNS server you could issue these commands:
 
 WINDOWS and MAC: nslookup
+
 ```bash
 server 
 set type=any
@@ -25,6 +26,7 @@ ls -d
 ```
 
 UNIX (nslookup is deprecated on UNIX):
+
 ```bash
 dig -axfr @ 
 dig @192.168.11.24 example.org -t AXFR

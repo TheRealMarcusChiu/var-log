@@ -1,13 +1,10 @@
 ---
-title: "Linear Algebra - Mathematical Objects"
+publish: true
+title: Linear Algebra - Mathematical Objects
 created: 2021-09-13T05:25:48.927-05:00
 modified: 2023-08-01T11:00:32.338-05:00
-parent: "[[Linear Algebra]]"
-children:
-  - "[[Matrix／Matrices]]"
-  - "[[Scalars]]"
-  - "[[Vectors]]"
 ---
+
 [[Mathematical Object|Mathematical Objects]] of [[Linear Algebra]]
 
 ```merge-table

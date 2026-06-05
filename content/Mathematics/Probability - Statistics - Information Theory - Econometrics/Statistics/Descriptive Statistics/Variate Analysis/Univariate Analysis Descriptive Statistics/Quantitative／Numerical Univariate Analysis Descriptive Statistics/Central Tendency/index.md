@@ -1,22 +1,17 @@
 ---
-title: "Central Tendency"
+publish: true
+title: Central Tendency
 created: 2021-09-13T05:28:46.928-05:00
 modified: 2024-02-07T13:28:22.421-06:00
-parent: "[[Quantitative／Numerical Univariate Analysis Descriptive Statistics]]"
-children:
-  - "[[Arithmetic Mean - Average - Location - Expected Value - Expectation Operator]]"
-  - "[[Geometric Mean (GM)]]"
-  - "[[Geometric Visual of (max - quadratic／arithmetic／geometric／harmonic mean - min)]]"
-  - "[[Harmonic Mean (HM)]]"
-  - "[[Mid Range]]"
-  - "[[Mode]]"
-  - "[[Root Mean Square (RMS) - Quadratic Mean (QM)﻿]]"
 ---
+
 ###### Central Tendency
+
 - is a type of [[Quantitative／Numerical Univariate Analysis Descriptive Statistics|Quantitative/Numerical Univariate Analysis Descriptive Statistics]]
 - answers: what are the most typical values?
 
 # Central Tendency - Types
+
 ````excerpt
 ```merge-table
 {
@@ -113,7 +108,9 @@ children:
 }
 ```
 ````
+
 ^excerpt
 
 # Central Tendency - Subpages
+
 - [[Geometric Visual of (max - quadratic／arithmetic／geometric／harmonic mean - min)|Geometric Visual of (max - quadratic/arithmetic/geometric/harmonic mean - min)]]

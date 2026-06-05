@@ -1,28 +1,24 @@
 ---
-title: "Java - Spring - ApplicationContext"
+publish: true
+title: Java - Spring - ApplicationContext
 created: 2020-10-20T14:51:58.149-05:00
 modified: 2021-07-04T23:28:30.904-05:00
-parent: "[[Java - Spring Framework - Core - Context (Beans／Components／Containers／etc)]]"
-children:
-  - "[[Java - Spring - ApplicationContext - Accessing ApplicationContext]]"
-  - "[[Java - Spring - ApplicationContext - Event／Events (ApplicationContextEvent)]]"
-  - "[[Java - Spring - ApplicationContext - Hierarchy (Parent & Child ApplicationContext)]]"
-  - "[[Java - Spring - ApplicationContext - WebApplicationContext]]"
-  - "[[Java - Spring - ApplicationContext - ＊ContextInitializer]]"
-  - "[[Java - Spring - Context - MessageSource & message.properties & Internationalization]]"
 ---
+
 # <strong>ApplicationContext - Responsibilities</strong>
 
 an <code><font style="color: rgb(51,102,255);">ApplicationContext</font></code> has the following responsibilities:
+
 - <code><font style="color: rgb(128,128,128);">BeanFactory</font></code> methods for accessing application beans/components
 - load file resources in a generic way
 - publish <code>[[Java - Spring - ApplicationContext - Event／Events (ApplicationContextEvent)|ApplicationContextEvent]]</code>s to registered listeners
 - resolve [[Java - Spring - Context - MessageSource & message.properties & Internationalization|messages and internationalization]]
 
 # <strong>ApplicationContext - Implementations/Types</strong>
+
 <code><font style="color: rgb(51,102,255);">ApplicationContext</font></code> has several implementations, such as:
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -75,10 +71,6 @@ an <code><font style="color: rgb(51,102,255);">ApplicationContext</font></code> 
     ]
   ]
 }
-```
+````
+
 # <strong>ApplicationContext - Other</strong>
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

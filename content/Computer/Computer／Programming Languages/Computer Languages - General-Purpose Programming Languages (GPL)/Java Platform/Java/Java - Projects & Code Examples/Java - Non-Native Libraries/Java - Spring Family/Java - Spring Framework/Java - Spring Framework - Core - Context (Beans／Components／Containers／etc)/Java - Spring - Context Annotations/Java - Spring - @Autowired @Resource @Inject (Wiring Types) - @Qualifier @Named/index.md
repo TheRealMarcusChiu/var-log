@@ -1,10 +1,10 @@
 ---
-title: "Java - Spring - @Autowired @Resource @Inject (Wiring Types) - @Qualifier @Named"
+publish: true
+title: Java - Spring - @Autowired @Resource @Inject (Wiring Types) - @Qualifier @Named
 created: 2019-12-08T20:17:15.730-06:00
 modified: 2021-04-22T16:55:55.329-05:00
-parent: "[[Java - Spring - Context Annotations]]"
-children: []
 ---
+
 # @Qualifier vs @Named
 
 ```merge-table
@@ -29,6 +29,7 @@ children: []
   ]
 }
 ```
+
 # @Autowired vs @Resource vs @Inject
 
 ```merge-table
@@ -69,6 +70,7 @@ children: []
   ]
 }
 ```
+
 # Which To Use
 
 ```merge-table
@@ -175,7 +177,9 @@ children: []
   ]
 }
 ```
+
 # Example Use
+
 ```
 @Bean
 @Qualifier("appContext1")
@@ -190,6 +194,7 @@ public com.context.AppContext appContext2() {
 ```
 
 given the configuration above, the following shows what's allowed and not:
+
 ```
 // type case
 @Autowired

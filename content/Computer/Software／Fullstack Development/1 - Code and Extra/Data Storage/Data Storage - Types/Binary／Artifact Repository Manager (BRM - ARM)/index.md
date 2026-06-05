@@ -1,11 +1,12 @@
 ---
-title: "Binary／Artifact Repository Manager (BRM - ARM)"
+publish: true
+title: Binary／Artifact Repository Manager (BRM - ARM)
 created: 2019-03-16T01:19:36.949-05:00
 modified: 2022-01-02T02:05:07.172-06:00
-parent: "[[Data Storage - Types]]"
-children: []
 ---
+
 ###### Binary/Artifact Repository Manager (BRM or ARM)
+
 - is a dedicated server application designed to manage repositories of binary components that are used and produced in software development
 
 # PRM/ARM Managers

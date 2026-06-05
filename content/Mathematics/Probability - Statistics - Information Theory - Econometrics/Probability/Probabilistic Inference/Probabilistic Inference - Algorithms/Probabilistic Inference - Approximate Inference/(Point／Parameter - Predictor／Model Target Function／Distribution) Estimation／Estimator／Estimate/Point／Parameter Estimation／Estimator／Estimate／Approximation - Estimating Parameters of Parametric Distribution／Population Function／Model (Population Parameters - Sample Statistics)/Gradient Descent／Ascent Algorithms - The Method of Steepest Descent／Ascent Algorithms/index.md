@@ -1,27 +1,17 @@
 ---
-title: "Gradient Descent／Ascent Algorithms - The Method of Steepest Descent／Ascent Algorithms"
+publish: true
+title: Gradient Descent／Ascent Algorithms - The Method of Steepest Descent／Ascent Algorithms
 created: 2021-09-13T05:27:55.616-05:00
 modified: 2024-09-12T11:45:58.919-05:00
-parent: "[[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)]]"
-children:
-  - "[[Adam Optimizer]]"
-  - "[[Adaptive Gradient Algorithm (AdaGrad)]]"
-  - "[[Batch Gradient Descent]]"
-  - "[[Broyden-Fletcher-Goldfarb-Shanno (BFGS)]]"
-  - "[[Conjugate Gradient Method／Algorithm]]"
-  - "[[Gradient Computation Algorithms - Algorithms Computing Gradients]]"
-  - "[[Gradient Descent／Ascent Algorithm - Bayesian Networks]]"
-  - "[[Gradient Descent／Ascent Algorithm - Data Preprocessing Tips]]"
-  - "[[Mini-Batch Gradient Descent]]"
-  - "[[MomentUm Orthogonalized by Newton-Schulz (Muon) Optimizer]]"
-  - "[[SGD+Nesterov Momentum]]"
-  - "[[Stochastic Gradient Descent (SGD)]]"
 ---
+
 ###### Gradient Descent/Ascent Algorithms - The Method of Steepest Descent/Ascent Algorithms
-````excerpt
+
+```excerpt
 - referred to as a first-order [[Mathematical Programming／Optimization - Solution Strategy／Strategies|optimization algorithm]] as it explicitly makes use of the first-order [[Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)|derivative/gradient/slope]] of the target [[Objective Function／Criterion - Cost／Loss／Error Function - Expected Cost／Loss／Error|objective function]]
 - Note, the <em>gradient descent algorithm</em> does not actually compute the gradients but uses them. To learn how to compute gradients see: [[Gradient Computation Algorithms - Algorithms Computing Gradients|Gradient Computation Algorithms]]
-````
+```
+
 ^excerpt
 
 # Gradient Descent/Ascent - Function Type
@@ -60,6 +50,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Gradient Descent/Ascent - Algorithm for a Function With Vector Input & Scalar Output
 
 ```merge-table
@@ -84,36 +75,35 @@ children:
   ]
 }
 ```
+
 - 𝑓<sub>𝑜𝑏𝑗</sub>(𝜃<sub>0</sub>, ..., 𝜃<sub>𝑘</sub>) - [[Objective Function／Criterion - Cost／Loss／Error Function - Expected Cost／Loss／Error|objective function]]
 - 𝛼 - learning rate
 - 𝜃 - parameter we are estimating
 
 # Gradient Descent/Ascent - Steps
+
 1. [[Gradient Descent／Ascent Algorithm - Data Preprocessing Tips|Preprocess the data]] (optional)
 2. Choose an [[Gradient Computation Algorithms - Algorithms Computing Gradients|algorithm to compute the gradients]]:
-	1. [[Batch Gradient Descent]] - at each step of gradient descent it uses ALL the training examples
-	2. [[Stochastic Gradient Descent (SGD)|Stochastic Gradient Descent]] - at each step of gradient descent it uses a SINGLE random training example
-	3. [[Mini-Batch Gradient Descent]] - at each step of gradient descent it uses a SUBSET of the entire training set
-	4. [[Back Propagation (BP)|Backpropagation]] - an algorithm to efficiently compute gradients of [[Composite Functions - Function Composition|composite functions]]
+   1. [[Batch Gradient Descent]] - at each step of gradient descent it uses ALL the training examples
+   2. [[Stochastic Gradient Descent (SGD)|Stochastic Gradient Descent]] - at each step of gradient descent it uses a SINGLE random training example
+   3. [[Mini-Batch Gradient Descent]] - at each step of gradient descent it uses a SUBSET of the entire training set
+   4. [[Back Propagation (BP)|Backpropagation]] - an algorithm to efficiently compute gradients of [[Composite Functions - Function Composition|composite functions]]
 3. Choose a <em>gradient descent algorithm</em> (see below)
 
 # Gradient Descent/Ascent - Variants
+
 - <strong>[[Conjugate Gradient Method／Algorithm|Conjugate Gradient Method]]</strong> -
 - <strong>[[Adaptive Gradient Algorithm (AdaGrad)|AdaGrad]]</strong> - the learning rate 𝛼 is adapted component-wise to the parameters by incorporating knowledge of past observations
-	- <strong>[[Root Mean Square Propagation (RMSP)|RMSP]]</strong> -
-	- <strong>[[AdaDelta]]</strong> -
+  - <strong>[[Root Mean Square Propagation (RMSP)|RMSP]]</strong> -
+  - <strong>[[AdaDelta]]</strong> -
 - <strong>[[Adam Optimizer|Adam]]</strong> -
 - <strong>[[Broyden-Fletcher-Goldfarb-Shanno (BFGS)|BFGS]]</strong> -
-	- <strong>[[Limited-Memory BFGS (L-BFGS or LM-BFGS)|LM-BFGS]]</strong> -
+  - <strong>[[Limited-Memory BFGS (L-BFGS or LM-BFGS)|LM-BFGS]]</strong> -
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 - [[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Gradient Descent)|Gradient Descent/Ascent Algorithm - Linear Regression]]
 
 # Resources
+
 - [[Gradient Descent - Some Notes.pdf]]

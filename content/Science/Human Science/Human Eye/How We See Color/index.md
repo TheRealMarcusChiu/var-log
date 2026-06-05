@@ -1,10 +1,10 @@
 ---
-title: "How We See Color"
+publish: true
+title: How We See Color
 created: 2021-09-13T04:45:24.172-05:00
 modified: 2021-09-13T04:45:24.172-05:00
-parent: "[[Human Eye]]"
-children: []
 ---
+
 [[Electromagnetic Energy／Spectrum／Waves／Radiation|Electromagnetic Energy/Spectrum/Waves/Radiation]] hitting our eyes![](https://www.youtube.com/watch?v=l8_fZPHasdo)![](https://www.youtube.com/watch?v=pvC9MQvqHMQ)
 
 Eyes are organs of vision that detect light. Some eyes just detect whether the surroundings are light or dark while more complex eyes can distinguish shapes and colors. In humans and most other vertebrates, the eye allows light to enter and projects it onto the retina at the rear of the eye. The retina consists of photoreceptor cells called rods and cones. The cones are at the center of the retina, and the rods are at the outer edge of the retina. There are about seven million cones and a hundred million rods. At the retina, the light is detected and converted to electrical signals. These signals are then transferred to the brain through the optic nerve. The brain converts these signals into our view of the world.

@@ -1,16 +1,18 @@
 ---
-title: "Kava - LinkedHashMap"
+publish: true
+title: Kava - LinkedHashMap
 created: 2022-06-05T22:38:32.979-05:00
 modified: 2022-06-05T22:49:50.733-05:00
-parent: "[[Java - Map (Associative Array)]]"
-children: []
 ---
+
 ###### LinkedHashMap
+
 - a subclass of [[Java - HashMap|HashMap]] that maintains the insertion and/or access order of keys
 
 # Insertion-Ordered LinkedHashMap
 
 A <code><font style="color: rgb(122,134,154);">LinkedHashMap</font></code>'s insertion order will always be maintained. We cannot make the same guarantee for a <code><font style="color: rgb(122,134,154);">HashMap</font></code>
+
 ```
 @Test
 public void givenLinkedHashMap_whenGetsOrderedKeyset_thenCorrect() {
@@ -29,14 +31,17 @@ public void givenLinkedHashMap_whenGetsOrderedKeyset_thenCorrect() {
     }
 }
 ```
+
 # Access-Ordered LinkedHashMap
 
 LinkedHashMap provides a special constructor which enables us to specify:
+
 - load factor (LF)
 - initial capacity
 - a different ordering mechanism/strategy called access-order
 
 See code below, notice how the order of elements in the key set is transformed as we perform access operations on the map
+
 ```
 @Test
 public void givenLinkedHashMap_whenAccessOrderWorks_thenCorrect() {

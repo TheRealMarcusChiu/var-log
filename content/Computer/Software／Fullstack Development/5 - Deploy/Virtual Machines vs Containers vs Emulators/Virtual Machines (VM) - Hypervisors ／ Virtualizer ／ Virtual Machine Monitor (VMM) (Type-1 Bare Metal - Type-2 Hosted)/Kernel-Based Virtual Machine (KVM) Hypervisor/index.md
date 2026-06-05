@@ -1,11 +1,12 @@
 ---
-title: "Kernel-Based Virtual Machine (KVM) Hypervisor"
+publish: true
+title: Kernel-Based Virtual Machine (KVM) Hypervisor
 created: 2019-12-23T16:55:22.564-06:00
 modified: 2023-06-10T11:01:54.904-05:00
-parent: "[[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)]]"
-children: []
 ---
+
 ###### Kernel-Based Virtual Machine (KVM) Hypervisor
+
 - The KVM kernel module turns Linux kernel into a type 1 bare-metal hypervisor, while the overall system could be categorized to type 2 because the host OS is still fully functional and the other VM's are standard Linux processes from its perspective
 - can run both Windows and Linux in virtual machines (VMs), where each VM has private, virtualized hardware: a network card, disk, graphics adapter, etc. Running several applications in VMs on a single system, enables you to save power and reduce costs, while at the same time, giving you the flexibility to build an agile and scalable software-defined data center, that meets your business demands
 - is a [[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)|type-2 hypervisor]] (installed on top of another OS, in this case, some flavor of Linux)

@@ -1,10 +1,10 @@
 ---
-title: "Partial Function - Total Function"
+publish: true
+title: Partial Function - Total Function
 created: 2023-07-03T16:21:05.085-05:00
 modified: 2023-07-03T16:22:48.103-05:00
-parent: "[[Transformations - Properties／Types]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

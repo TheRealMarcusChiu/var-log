@@ -1,10 +1,10 @@
 ---
-title: "Java - Spring - Property／Properties - @ConfigurationProperties @ConstructorBinding @EnableConfigurationProperties @ConfigurationPropertiesScan"
+publish: true
+title: Java - Spring - Property／Properties - @ConfigurationProperties @ConstructorBinding @EnableConfigurationProperties @ConfigurationPropertiesScan
 created: 2020-12-04T11:44:21.872-06:00
 modified: 2021-09-25T17:21:26.884-05:00
-parent: "[[Java - Spring - Property／Properties]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [
@@ -43,9 +43,11 @@ children: []
   ]
 }
 ```
+
 # @ConfigurationProperties & @ConstructorBinding Example
 
 Let's say you have properties in either: <code><font style="color: rgb(51,102,255);">application.yml</font></code> or <code><font style="color: rgb(51,102,255);">application.properties</font></code> that you want to map to POJOs
+
 ```
 additional.unit="hello world"
 additional.max=25
@@ -53,6 +55,7 @@ other=something
 ```
 
 First, we need to define our example properties class
+
 ```
 @ConfigurationProperties(prefix = "additional")
 public class AdditionalProperties {
@@ -63,6 +66,7 @@ public class AdditionalProperties {
 ```
 
 Above requires setter methods, if you want an immutable AdditionalProperties use <code><font style="color: rgb(128,128,0);">@ConstructorBinding</font></code>
+
 ```
 @ConstructorBinding
 @ConfigurationProperties(prefix = "additional")
@@ -78,10 +82,12 @@ public class AdditionalProperties {
     // standard getters
 }
 ```
+
 # Injecting a @ConfigurationProperties Annotated Class
+
 > [!tabs]
 >
-> === @EnableConfigurationProperties
+> \=== @EnableConfigurationProperties
 >
 > ```
 > @Configuration
@@ -95,9 +101,10 @@ public class AdditionalProperties {
 > }
 > ```
 >
-> === @ConfigurationPropertiesScan
+> \=== @ConfigurationPropertiesScan
 >
 > Place <code><font style="color: rgb(128,128,0);">@ConfigurationPropertiesScan</font></code> at a <code><font style="color: rgb(128,128,0);">@Configuration</font></code> class which would then scan all sub-packages for classes annotated with <code><font style="color: rgb(128,128,0);">@ConfigurationProperties</font></code>
+>
 > ```
 > @SpringBootApplication
 > @ConfigurationPropertiesScan
@@ -109,6 +116,7 @@ public class AdditionalProperties {
 > ```
 >
 > Inject the <code><font style="color: rgb(128,128,0);">@ConfigurationProperties</font></code> annotated class (e.g. <code><font style="color: rgb(122,134,154);">AdditionalProperties.class</font></code>) into any <code><font style="color: rgb(128,128,0);">@Component</font></code> for use
+>
 > ```
 > @Component
 > public class ExampleComponent {

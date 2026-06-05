@@ -1,14 +1,16 @@
 ---
-title: "C4 Model (Context - Components - Containers - Code)"
+publish: true
+title: C4 Model (Context - Components - Containers - Code)
 created: 2021-05-28T10:18:31.537-05:00
 modified: 2021-09-21T01:54:36.286-05:00
-parent: "[[Model vs Diagram]]"
-children: []
 ---
+
 ###### C4 Model ([c4model.com](https://c4model.com/))
+
 - is a type of [[Model vs Diagram|diagram]] for representing software systems
 
 ### Sections
+
 - core/static structure
 - supplemental diagrams
 - notation
@@ -17,9 +19,11 @@ children: []
 # 1 - C4 Model (Core/Static Structure)
 
 ![](https://www.youtube.com/watch?v=x2-rSnhpw0g)
+
 ###### The C4 model considers the static structures in terms of:
 
 > [!expand-ui]- Level 1 - Context
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -32,6 +36,7 @@ children: []
 > ```
 
 > [!expand-ui]- Level 2 - Containers
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -44,6 +49,7 @@ children: []
 > ```
 
 > [!expand-ui]- Level 3 - Components
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -56,6 +62,7 @@ children: []
 > ```
 
 > [!expand-ui]- Level 4 - Code (UML or ERD)
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -66,9 +73,11 @@ children: []
 >   ]
 > }
 > ```
+
 # 2 - C4 Model (Supplemental Diagrams) \*Optional
 
 > [!expand-ui]- System Landscape Diagram (Larger Context)
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -81,6 +90,7 @@ children: []
 > ```
 
 > [!expand-ui]- Dynamic Diagram
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -93,6 +103,7 @@ children: []
 > ```
 
 > [!expand-ui]- Deployment Diagram
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -103,14 +114,17 @@ children: []
 >   ]
 > }
 > ```
+
 # 3 - C4 Model (Notation/Syntax) \*Optional
 
 > [!expand-ui]- Icons Legend
-> ![[C4 Model (Context - Components - Containers - Code)/diagram-legend.png|600]]
+> ![[Computer/Computer Terms/Model vs Diagram/C4 Model (Context - Components - Containers - Code)/diagram-legend.png|600]]
 
 > [!expand-ui]- Icon Description Format
-> ![[C4 Model (Context - Components - Containers - Code)/Screen Shot 2021-05-28 at 11.20.22 AM.png|700]]
+> ![[Computer/Computer Terms/Model vs Diagram/C4 Model (Context - Components - Containers - Code)/Screen Shot 2021-05-28 at 11.20.22 AM.png|700]]
+
 # 4 - C4 Model (Software/Tooling) \*Optional
+
 - [Structurizr](https://structurizr.org/)
 - [Archi](https://www.archimatetool.com/blog/2020/04/18/c4-model-architecture-viewpoint-and-archi-4-7/)
 - IcePanel

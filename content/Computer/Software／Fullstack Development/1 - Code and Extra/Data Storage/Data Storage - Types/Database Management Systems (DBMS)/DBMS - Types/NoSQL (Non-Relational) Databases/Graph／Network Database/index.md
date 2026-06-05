@@ -1,21 +1,22 @@
 ---
-title: "Graph／Network Database"
+publish: true
+title: Graph／Network Database
 created: 2019-03-16T01:13:59.261-05:00
 modified: 2023-06-02T21:21:42.608-05:00
-parent: "[[NoSQL (Non-Relational) Databases]]"
-children:
-  - "[[InfiniteGraph]]"
-  - "[[Neo4j]]"
-  - "[[TigerGraph]]"
 ---
+
 ###### Graph/Network Database
-````excerpt
+
+```excerpt
 - is a type of [[NoSQL (Non-Relational) Databases]] that uses [[Graph Structures & Algorithms|graph structures]] for queries with nodes, edges, and properties to represent and store data
-````
+```
+
 ^excerpt
 
 Graph databases are purpose-built to store and navigate relationships. Relationships are first-class citizens in graph databases, and most of the value of graph databases is derived from these relationships. Graph databases use nodes to store data entities, and edges to store relationships between entities
+
 # Graph Database - Use Cases
+
 - for building [[Knowledge Graphs (KG)]]
 
 # Graph Database - Types
@@ -74,5 +75,7 @@ Graph databases are purpose-built to store and navigate relationships. Relations
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Graph Database - Other
+
 - [[Graph／Network Database Design Patterns (G／N-DDP)|Graph/Network Database Design Patterns (G/N-DDP)]]

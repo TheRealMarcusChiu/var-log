@@ -1,11 +1,12 @@
 ---
-title: "Java - Java Agent (Creating Agent)"
+publish: true
+title: Java - Java Agent (Creating Agent)
 created: 2021-03-18T20:06:36.206-05:00
 modified: 2021-03-18T20:16:24.484-05:00
-parent: "[[Java - Instrumentation API & Java Agents]]"
-children: []
 ---
+
 Since a java agent makes use of the Java Instrumentation API, let's see some of the most used methods:
+
 - <strong><em>addTransformer</em></strong> – adds a transformer to the instrumentation engine
 - <strong><em>getAllLoadedClasses</em></strong> – returns an array of all classes currently loaded by the JVM
 - <strong><em>retransformClasses</em></strong> – facilitates the instrumentation of already loaded classes by adding byte-code
@@ -13,11 +14,14 @@ Since a java agent makes use of the Java Instrumentation API, let's see some of
 - <strong><em>redefineClasses</em></strong> – redefine the supplied set of classes using the supplied class files, meaning that the class will be fully replaced, not modified as with <em>retransformClasses</em>
 
 ### <em>Creating an Agent</em>
+
 <em>every Java agent needs at least one of:</em>
+
 - <em>premain</em> - used to statically load an agent into JVM
 - <em>agentmain</em> - used to dynamically load an agent into JVM
 
 ### Example
+
 ```
 public class MyInstrumentationAgent {
     private static Logger LOGGER = LoggerFactory.getLogger(MyInstrumentationAgent.class);
@@ -73,5 +77,7 @@ public class MyInstrumentationAgent {
     }
 }
 ```
+
 ### Resources
-- [https://www.baeldung.com/java-instrumentation](https://www.baeldung.com/java-instrumentation)
+
+- <https://www.baeldung.com/java-instrumentation>

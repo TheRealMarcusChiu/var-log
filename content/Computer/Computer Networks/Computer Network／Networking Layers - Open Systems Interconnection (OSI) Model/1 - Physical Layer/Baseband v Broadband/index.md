@@ -1,10 +1,10 @@
 ---
-title: "Baseband v Broadband"
+publish: true
+title: Baseband v Broadband
 created: 2019-03-16T19:31:27.607-05:00
 modified: 2022-07-12T00:58:30.291-05:00
-parent: "[[1 - Physical Layer]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [
@@ -38,4 +38,4 @@ children: []
 }
 ```
 
-![[Baseband v Broadband/baseband-broadband.png|301]]
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/1 - Physical Layer/Baseband v Broadband/baseband-broadband.png|301]]

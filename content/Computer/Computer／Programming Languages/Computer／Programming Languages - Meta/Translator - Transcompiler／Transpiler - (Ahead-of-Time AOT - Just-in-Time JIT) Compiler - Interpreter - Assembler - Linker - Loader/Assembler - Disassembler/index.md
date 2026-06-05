@@ -1,11 +1,10 @@
 ---
-title: "Assembler - Disassembler"
+publish: true
+title: Assembler - Disassembler
 created: 2020-01-04T14:14:28.066-06:00
 modified: 2023-01-17T10:17:12.687-06:00
-parent: "[[Translator - Transcompiler／Transpiler - (Ahead-of-Time AOT - Just-in-Time JIT) Compiler - Interpreter - Assembler - Linker - Loader]]"
-children:
-  - "[[x64dbg]]"
 ---
+
 - <strong>assembler</strong> - converts [[Assembly Languages|assembly language]] into [[Machine Language／Code／Instruction|machine language]]
 - <strong>disassembler</strong> - converts [[Machine Language／Code／Instruction|machine language]] into [[Assembly Languages|assembly language]]
 
@@ -43,9 +42,5 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

@@ -1,10 +1,10 @@
 ---
-title: "(Level／Linear／Log-Level／Linear／Log) Regression Model"
+publish: true
+title: (Level／Linear／Log-Level／Linear／Log) Regression Model
 created: 2020-08-23T13:10:52.831-05:00
 modified: 2024-09-06T11:25:06.138-05:00
-parent: "[[Parametric Models - Types／Classes]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [
@@ -60,6 +60,7 @@ children: []
   ]
 }
 ```
+
 # Resources
 
-![](https://www.youtube.com/watch?v=aXBFKKh54Es&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=99)
+![](https://www.youtube.com/watch?v=aXBFKKh54Es\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=99)

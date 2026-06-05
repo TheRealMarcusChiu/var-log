@@ -1,21 +1,19 @@
 ---
-title: "First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory"
+publish: true
+title: First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory
 created: 2021-09-13T04:44:26.539-05:00
 modified: 2023-07-08T23:49:00.532-05:00
-parent: "[[Formal Logical Systems／Languages or Logic Classes]]"
-children:
-  - "[[Davidsonian Logic Forms]]"
-  - "[[Logic Forms + Semantic Relations]]"
-  - "[[Quantifiers (Universal Quantifier - For All - Existential Quantifier - There Exists)]]"
-  - "[[Selective Linear Definite Clause Resolution (SLD Resolution)]]"
 ---
+
 ###### First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory
-````excerpt
+
+```excerpt
 - the logic of predicate
 - expands on [[Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic|propositional logic]], by using [[Subject - Predicate (Verb - Object)|predicates]], functions, quantifiers & variables, and objects
 - allows the existence of <strong>objects</strong> and <strong>relations</strong>
 - does not make an <em>[[Formal Logical Systems／Languages or Logic Classes|ontological commitment]]</em> to categories, time, and events
-````
+```
+
 ^excerpt
 
 # First-Order Logic - Syntax & Semantics
@@ -90,9 +88,5 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

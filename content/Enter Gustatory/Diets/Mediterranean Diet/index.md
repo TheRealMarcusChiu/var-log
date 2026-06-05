@@ -1,11 +1,12 @@
 ---
-title: "Mediterranean Diet"
+publish: true
+title: Mediterranean Diet
 created: 2021-09-13T04:46:01.014-05:00
 modified: 2021-09-13T04:46:01.014-05:00
-parent: "[[Diets]]"
-children: []
 ---
+
 ### [Mediterranean Diet](https://www.healthline.com/nutrition/mediterranean-diet-meal-plan#bottom-line)
+
 - Vegetables: Carrots, onions, broccoli, spinach, kale, garlic, etc.
 - Fruits: Apples, bananas, oranges, grapes, etc.
 - Berries: Strawberries, blueberries, etc.

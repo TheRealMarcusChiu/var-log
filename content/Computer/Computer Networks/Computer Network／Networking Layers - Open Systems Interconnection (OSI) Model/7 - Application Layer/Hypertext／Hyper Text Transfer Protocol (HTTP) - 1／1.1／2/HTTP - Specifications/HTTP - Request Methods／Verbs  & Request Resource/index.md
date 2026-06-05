@@ -1,12 +1,13 @@
 ---
-title: "HTTP - Request Methods／Verbs  & Request Resource"
+publish: true
+title: HTTP - Request Methods／Verbs  & Request Resource
 created: 2019-12-17T21:54:00.529-06:00
 modified: 2022-01-24T22:19:49.610-06:00
-parent: "[[HTTP - Specifications]]"
-children: []
 ---
+
 - <font style="color: rgb(128,0,0);"><strong>HTTP Request Methods</strong></font><font style="color: rgb(128,0,0);"> or </font><strong><font style="color: rgb(128,0,0);">HTTP Verbs</font> </strong>to indicate the desired action to be performed for a given resource
 - <font style="color: rgb(255,102,0);"><strong>HTTP Request Resource</strong></font> - is identified by the [[Uniform Resource Locator (URL) - Uniform Resource Identifier (URI) - Uniform Resource Name (URN) - Path／Query／Anchor|URL]] path
+
 ```merge-table
 {
   "rows": [
@@ -30,6 +31,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # HTTP Request Method Types
 
 ```merge-table

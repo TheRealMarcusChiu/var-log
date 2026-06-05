@@ -1,12 +1,10 @@
 ---
-title: "Java - Spring - @ComponentScan @EnableAutoConfiguration @SpringBootApplication"
+publish: true
+title: Java - Spring - @ComponentScan @EnableAutoConfiguration @SpringBootApplication
 created: 2020-10-18T18:25:54.142-05:00
 modified: 2022-08-23T22:58:49.744-05:00
-parent: "[[Java - Spring - Context Annotations]]"
-children:
-  - "[[Java - Spring - @ComponentScan]]"
-  - "[[Java - Spring - @EnableAutoConfiguration]]"
 ---
+
 Annotations make it easier to configure the [[Dependency Injection (DI)|dependency injection]] in Spring. Instead of using XML configuration files, we can use Spring Bean annotations on classes and methods to define beans. After that, the Spring IoC container configures and manages the beans.
 
 ```merge-table

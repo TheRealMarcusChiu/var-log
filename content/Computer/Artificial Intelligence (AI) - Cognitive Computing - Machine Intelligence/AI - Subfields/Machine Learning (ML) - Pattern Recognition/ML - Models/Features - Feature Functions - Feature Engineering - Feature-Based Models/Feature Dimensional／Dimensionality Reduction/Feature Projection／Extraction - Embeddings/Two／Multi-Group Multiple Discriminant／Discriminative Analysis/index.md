@@ -1,15 +1,12 @@
 ---
-title: "Two／Multi-Group Multiple Discriminant／Discriminative Analysis"
+publish: true
+title: Two／Multi-Group Multiple Discriminant／Discriminative Analysis
 created: 2021-08-14T21:54:15.415-05:00
 modified: 2021-08-14T22:15:46.578-05:00
-parent: "[[Feature Projection／Extraction - Embeddings]]"
-children:
-  - "[[Generalized Discriminant／Discriminative Analysis (GDA)]]"
-  - "[[Linear／Normal Discriminant／Discriminative Analysis (LDA／NDA)]]"
-  - "[[Quadratic Discriminant／Discriminative Analysis (QDA)]]"
-  - "[[Regularized Discriminant／Discriminative Analysis (RDA)]]"
 ---
+
 ###### Discriminant/Discriminative Analysis
+
 - is a technique that is used by the researcher to analyze the research data when the criterion or the dependent variable is categorical and the predictor or the independent variable is interval in nature
 - it enables the researcher to examine whether significant differences exist among the groups, in terms of the predictor variables. It also evaluates the accuracy of the classification
 - <strong>Two-Group Discriminative Analysis</strong> - when dependent variable has exactly 2 categories
@@ -55,6 +52,8 @@ children:
   ]
 }
 ```
+
 # Discriminative Analysis - Resources
-- LDA, QDA, and RDA - [https://www.datascienceblog.net/post/machine-learning/linear-discriminant-analysis/](https://www.datascienceblog.net/post/machine-learning/linear-discriminant-analysis/)
-- LDA vs QDA - [http://uc-r.github.io/discriminant_analysis](http://uc-r.github.io/discriminant_analysis)
+
+- LDA, QDA, and RDA - <https://www.datascienceblog.net/post/machine-learning/linear-discriminant-analysis/>
+- LDA vs QDA - <http://uc-r.github.io/discriminant_analysis>

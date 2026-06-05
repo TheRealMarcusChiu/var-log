@@ -1,10 +1,10 @@
 ---
-title: "Geometric Distribution vs Binomial Distribution"
+publish: true
+title: Geometric Distribution vs Binomial Distribution
 created: 2021-11-07T23:14:41.166-06:00
 modified: 2021-11-07T23:22:09.510-06:00
-parent: "[[Probability Distribution - UPD Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

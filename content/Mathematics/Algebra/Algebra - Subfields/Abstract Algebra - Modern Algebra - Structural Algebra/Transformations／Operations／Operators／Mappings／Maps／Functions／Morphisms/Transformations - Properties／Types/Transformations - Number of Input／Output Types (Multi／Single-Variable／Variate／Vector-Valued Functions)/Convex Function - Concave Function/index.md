@@ -1,10 +1,10 @@
 ---
-title: "Convex Function - Concave Function"
+publish: true
+title: Convex Function - Concave Function
 created: 2021-11-05T17:58:00.462-05:00
 modified: 2024-09-12T09:33:23.343-05:00
-parent: "[[Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

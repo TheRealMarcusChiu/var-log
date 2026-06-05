@@ -1,12 +1,14 @@
 ---
-title: "WebRTC - Implementation 0 (You as Signaling Server) - 2 Browser Tabs (v1 - on same machine)"
+publish: true
+title: WebRTC - Implementation 0 (You as Signaling Server) - 2 Browser Tabs (v1 - on same machine)
 created: 2022-12-19T21:23:13.859-06:00
 modified: 2022-12-19T22:15:23.767-06:00
-parent: "[[Web Real-Time Communication (WebRTC)]]"
-children: []
 ---
+
 open 2 chrome browser tabs with console open on developer-tools
+
 # Browser Tab 1
+
 ```
 /*
 // you can specify a STUN and/or TURN servers here
@@ -42,7 +44,9 @@ localConnection.channel.onclose   = e => console.log("channel closed");
 
 localConnection.createOffer().then(offer => localConnection.setLocalDescription(offer));
 ```
+
 # Browser Tab 2
+
 ```
 const remoteConnection = new RTCPeerConnection();
 
@@ -69,23 +73,30 @@ await remoteConnection.createAnswer()
 
 // send the answer back the client tab 1
 ```
+
 # Browser Tab 1 (Open Connection)
+
 ```
 // set answer const answer = with browser-tab-2's most recent localDescription
 const answer = {"type":"offer","sdp":"v=0\r\no=-... REPLACE ME!!!!!!!!!!!!!!!
 // this also opens the channel connection
 localConnection.setRemoteDescription(answer).then(a => console.log("remote description set"));
 ```
+
 # Browser Tab 1 (Send Data To 2)
+
 ```
 localConnection.channel.send("test");
 ```
+
 # Browser Tab 2 (Send Data To 1)
+
 ```
 remoteConnection.channel.send("test");
 ```
+
 # Resources
 
-[https://github.com/hnasr/javascript_playground/tree/master/webrtc](https://github.com/hnasr/javascript_playground/tree/master/webrtc)
+<https://github.com/hnasr/javascript_playground/tree/master/webrtc>
 
-![](https://www.youtube.com/watch?v=FExZvpVvYxA&t=2610s)
+![](https://www.youtube.com/watch?v=FExZvpVvYxA\&t=2610s)

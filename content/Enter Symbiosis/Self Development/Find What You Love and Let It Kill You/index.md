@@ -1,11 +1,12 @@
 ---
-title: "Find What You Love and Let It Kill You"
+publish: true
+title: Find What You Love and Let It Kill You
 created: 2021-09-13T04:46:06.879-05:00
 modified: 2021-09-13T04:46:06.879-05:00
-parent: "[[Self Development]]"
-children: []
 ---
-original article: [https://getpocket.com/explore/item/find-what-you-love-and-let-it-kill-you?utm_source=pocket-newtab](https://getpocket.com/explore/item/find-what-you-love-and-let-it-kill-you?utm_source=pocket-newtab)
+
+original article: <https://getpocket.com/explore/item/find-what-you-love-and-let-it-kill-you?utm_source=pocket-newtab>
+
 ## The best things in life can sometimes be ugly. If you find what you love, then you’ll also find all the pain and struggle that comes with it.
 
 [Mark Manson](https://markmanson.net)
@@ -27,6 +28,7 @@ When we think about our own deaths we typically think about the final moments. T
 You could say that our death is a work-in-progress [over the course of our lives](https://markmanson.net/four-stages-of-life) — each breath, each bite, each swallow, each late night and missed traffic light, each laugh and scream and cry and crashing fist and lonely sigh — they each bring us one step closer to our own dramatic <em>denouement</em> from this world.
 
 So the better question isn’t when you’re going to die. It’s what are you choosing as your vehicle to get there? If everything you do each day brings you closer to death in its own unique and subtle way, <em>then what are you choosing to let kill you?</em>
+
 ## With Passion Comes Pain
 
 The title of this article is a quote from the author and poet Charles Bukowski. This entire article kind of doubles as an ode to him.
@@ -54,13 +56,15 @@ As Bukowski said, “What matters most is how well you walk through the fire.”
 Finding the [passion](https://markmanson.net/passion) and [purpose](https://markmanson.net/life-purpose) in your life is a trial-by-fire process. You don’t simply wake up one day and become happy doing one thing forever and ever. Like death, it’s a constant work-in-progress. You must [try something](https://markmanson.net/do-something), pay attention to how it feels, [adjust and then try again](https://markmanson.net/courses/build-a-better-life). Nobody gets it right on the first try, or the tenth or sometimes even the two-hundredth.
 
 And then, when you <em>do</em> get it right, it’s liable to one day change. [Because you change](https://markmanson.net/how-to-change-your-life).
+
 > “Writing is easy; all you have to do is sit staring at a blank sheet of paper until the drops of blood form on your forehead.”
-> 
+>
 > – Gene Fowler
 
 And what Bukowski understood more than most was that doing what you love is not always loving what you do. There’s an inherent sacrifice to it. Just like [choosing a spouse](https://markmanson.net/relationship-advice), it’s not choosing someone who makes you happy all the time, it’s [choosing somebody](https://markmanson.net/one-trait) who you want to be with even when they’re pissing you off.
 
 It’s something that feels like an inevitability, like you have no choice because this is simply who you are, dysfunction and all. It’s your chosen vehicle towards death. And you’re happy to let it take you there. But you’re under no illusions that it won’t be a bumpy ride or without surprises along the way.
+
 - Your study of speech therapy may lead you to voice acting which may turn into a career in children’s cartoons and then you may decide at age 55 that children’s cartoons are [corrupted by corporate interests](https://markmanson.net/insecurity) and you spend the rest of your days sketching comics you love but never publish.
 - Your interest in fitness may lead you to a deeper interest in posture and form which then gets you into coaching people on body language and sub-communication. This leads you into a consulting business, but after dealing with the surface level issues for years, you discover that the body molds itself to match [repressed emotions](https://markmanson.net/happiness-not-enough). So you take your big consulting pension, say fuck it, and open up an acupuncture and massage clinic where you dedicate the last of your days to promoting [mind-body awareness](https://markmanson.net/your-two-minds).
 

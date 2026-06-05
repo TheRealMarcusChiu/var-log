@@ -1,11 +1,11 @@
 ---
-title: "Branch And Bound (B&B) - On Infinite Domain"
+publish: true
+title: Branch And Bound (B&B) - On Infinite Domain
 created: 2021-09-13T05:26:12.622-05:00
 modified: 2021-09-13T05:26:12.622-05:00
-parent: "[[Branch And Bound (B&B)]]"
-children: []
 ---
-# <strong>B&B </strong><strong>Exhaustive </strong><strong>Search - Algorithm Description</strong>
+
+# <strong>B\&B </strong><strong>Exhaustive </strong><strong>Search - Algorithm Description</strong>
 
 > [!expand]- Click here to expand...
 > if the discrete variables have a INFINITE size domain (i.e. [Integer Linear Programming (ILP)](http://confluence.marcuschiu.com/display/NOT/Integer+Linear+Programming+%28ILP%29+-+Integer+Linear+Optimization) problems)
@@ -51,6 +51,7 @@ children: []
 > the Solver returns an optimal vector/point (x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>) = (a, b, ..., c) with value Z = something
 >
 > this optimal vector/point can be either:
+>
 > - vector values are all integers (i.e. a valid solution for ILP problem)
 > - vector values contain a non-integer value (i.e. not a valid solution for ILP)
 >
@@ -65,6 +66,7 @@ children: []
 > let's say the algorithm chooses to split on variable x<sub>2</sub> whose optimal value is 2.2
 >
 > now we introduce 2 new constraints:
+>
 > - x<sub>2</sub> ≤ floor(2.2) = 2
 > - x<sub>2</sub> ≥ ceiling(2.2) = 3
 >
@@ -96,7 +98,9 @@ children: []
 > then we recursively solve these 2 ILP subproblems
 >
 > the optimal solution to the original problem will be the better of the solutions to these 2 subproblems
-# <strong>B&B </strong><strong>Exhaustive </strong><strong>Search -</strong><strong> Algorithm Pseudocode</strong>
+
+# <strong>B\&B </strong><strong>Exhaustive </strong><strong>Search -</strong><strong> Algorithm Pseudocode</strong>
+
 ```
 b&b-solver(ilp-problem) {
 	relaxed-lp-problem = relax-integer-constraints(ilp-problem)
@@ -116,9 +120,11 @@ b&b-solver(ilp-problem) {
 			return (vector-2, value-2)
 }
 ```
-# <strong>B&B </strong><strong>Exhaustive </strong><strong>Search - With Memory - Algorithm Pseudocode</strong>
 
-extend <strong>B&B </strong><strong>Exhaustive </strong><strong>Search </strong>by keeping track of the biggest integer z-value seen so far
+# <strong>B\&B </strong><strong>Exhaustive </strong><strong>Search - With Memory - Algorithm Pseudocode</strong>
+
+extend <strong>B\&B </strong><strong>Exhaustive </strong><strong>Search </strong>by keeping track of the biggest integer z-value seen so far
+
 ```
 global current-max-z-value = -infinity
 
@@ -146,6 +152,7 @@ b&b-solver(ilp-problem) {
 				return (vector-2, value-2)
 }
 ```
-# <strong>B&B </strong><strong>Exhaustive </strong><strong>Search - With Upper Bound Function - Algorithm Pseudocode</strong>
+
+# <strong>B\&B </strong><strong>Exhaustive </strong><strong>Search - With Upper Bound Function - Algorithm Pseudocode</strong>
 
 TODO - similar to Upper Bound Function of: [[Branch And Bound (B&B) - On Finite Domain]]

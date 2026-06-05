@@ -1,10 +1,10 @@
 ---
-title: "F-Test"
+publish: true
+title: F-Test
 created: 2021-09-13T05:29:10.743-05:00
 modified: 2021-09-13T05:29:10.743-05:00
-parent: "[[Statistical Hypothesis Test - Types]]"
-children: []
 ---
+
 ### F-Tests - Ratio of Population Variances
 
 ```merge-table

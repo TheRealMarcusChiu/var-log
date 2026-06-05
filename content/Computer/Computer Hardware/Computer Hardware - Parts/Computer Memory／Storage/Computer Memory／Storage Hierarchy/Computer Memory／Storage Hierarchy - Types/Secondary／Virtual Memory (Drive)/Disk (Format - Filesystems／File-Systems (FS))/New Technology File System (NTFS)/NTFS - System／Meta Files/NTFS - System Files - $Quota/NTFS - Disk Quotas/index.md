@@ -1,10 +1,10 @@
 ---
-title: "NTFS - Disk Quotas"
+publish: true
+title: NTFS - Disk Quotas
 created: 2020-06-15T22:49:38.357-05:00
 modified: 2020-06-15T22:52:16.899-05:00
-parent: "[[NTFS - System Files - $Quota]]"
-children: []
 ---
+
 on NTFS the amount of space allowed for each user can be enforced at the file system level
 
 when a limit is set, it applies to all volumes

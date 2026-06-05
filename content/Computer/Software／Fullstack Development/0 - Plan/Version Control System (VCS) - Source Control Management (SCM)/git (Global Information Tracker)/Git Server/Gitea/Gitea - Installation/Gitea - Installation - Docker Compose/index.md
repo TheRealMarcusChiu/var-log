@@ -1,11 +1,12 @@
 ---
-title: "Gitea - Installation - Docker Compose"
+publish: true
+title: Gitea - Installation - Docker Compose
 created: 2025-05-20T11:54:26.335-05:00
 modified: 2025-05-20T11:56:57.843-05:00
-parent: "[[Gitea - Installation]]"
-children: []
 ---
+
 Create file <code><font style="color: rgb(122,134,154);">docker-compose.yml</font></code>:
+
 ```
 networks:
   gitea:
@@ -52,11 +53,13 @@ services:
 ```
 
 Run in background:
+
 ```
 sudo docker-compose up -d
 ```
 
 Check running processes
+
 ```
 $ sudo docker-compose ps
 NAME          IMAGE                           COMMAND                  SERVICE   CREATED              STATUS         PORTS
@@ -64,4 +67,4 @@ gitea         docker.gitea.com/gitea:1.23.8   "/usr/bin/entrypoint…"   server 
 gitea-mysql   docker.io/library/mysql:8       "docker-entrypoint.s…"   db        8 seconds ago        Up 5 seconds   3306/tcp, 33060/tcp
 ```
 
-Open in web browser: [http://SERVER-IP:3000/](http://SERVER-IP:3000/)
+Open in web browser: <http://SERVER-IP:3000/>

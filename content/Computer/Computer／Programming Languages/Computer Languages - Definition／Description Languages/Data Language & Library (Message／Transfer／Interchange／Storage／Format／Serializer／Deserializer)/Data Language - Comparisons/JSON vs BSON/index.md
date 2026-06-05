@@ -1,10 +1,10 @@
 ---
-title: "JSON vs BSON"
+publish: true
+title: JSON vs BSON
 created: 2019-12-11T13:20:08.500-06:00
 modified: 2019-12-11T13:20:57.262-06:00
-parent: "[[Data Language - Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

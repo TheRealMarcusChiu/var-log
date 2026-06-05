@@ -1,25 +1,29 @@
 ---
-title: "Flyweight Pattern"
+publish: true
+title: Flyweight Pattern
 created: 2021-07-10T12:08:58.045-05:00
 modified: 2026-01-10T17:18:53.469-06:00
-parent: "[[Creational Design Patterns]]"
-children: []
 ---
+
 ###### Flyweight Pattern
-````excerpt
+
+```excerpt
 - a type of [[Creational Design Patterns|creational design pattern]] that utilizes sharing to support large numbers of fine-grained objects efficiently
 - it's like a mix of [[Singleton Design Pattern|singleton]]/[[Multiton Design Pattern|multiton]] pattern
-````
+```
+
 ^excerpt
 
 # Real-World Example
 
 > [!expand-ui]- Magic Potions Example
 > Alchemist's shop has shelves full of magic potions. Many of the potions are the same so there is no need to create a new object for each of them. Instead, one object instance can represent multiple shelf items so the memory footprint remains small
+
 # Example Implementation
 
 > [!expand-ui]- Magic Potions Example (Simple)
 > Translating our alchemist shop example from above. First of all, we have different potion types:
+>
 > ```
 > public class HealingPotion {
 >   public void drink() { System.out.println("You feel healed. Potion=" + System.identityHashCode(this)); }
@@ -27,6 +31,7 @@ children: []
 > ```
 >
 > Then the actual Flyweight class <code><font style="color: rgb(122,134,154);">PotionFactory</font></code>, which is the factory for creating potions
+>
 > ```
 > public class PotionFactory {
 >   private HealingPotion potion = null;
@@ -41,6 +46,7 @@ children: []
 > ```
 >
 > <code><font style="color: rgb(122,134,154);">AlchemistShop</font></code> contains two shelves of magic potions. The potions are created using the aforementioned <code><font style="color: rgb(122,134,154);">PotionFactory</font></code>.
+>
 > ```
 > public class AlchemistShop {
 >
@@ -78,6 +84,7 @@ children: []
 > ```
 >
 > In our scenario, a brave visitor enters the alchemist shop and drinks all the potions.
+>
 > ```
 > // create the alchemist shop with the potions
 > var alchemistShop = new AlchemistShop();
@@ -86,6 +93,7 @@ children: []
 > ```
 >
 > Program output:
+>
 > ```
 > Drinking top shelf potions 
 > You feel healed. Potion=125130493
@@ -98,6 +106,7 @@ children: []
 
 > [!expand-ui]- Magic Potions Example (Complex)
 > Translating our alchemist shop example from above. First of all, we have different potion types:
+>
 > ```
 > public interface Potion {
 >   void drink();
@@ -115,6 +124,7 @@ children: []
 > ```
 >
 > Then the actual Flyweight class <code><font style="color: rgb(122,134,154);">PotionFactory</font></code>, which is the factory for creating potions
+>
 > ```
 > public class PotionFactory {
 >   private final Map<PotionType, Potion> potions = new EnumMap<>(PotionType.class);
@@ -145,6 +155,7 @@ children: []
 > ```
 >
 > <code><font style="color: rgb(122,134,154);">AlchemistShop</font></code> contains two shelves of magic potions. The potions are created using the aforementioned <code><font style="color: rgb(122,134,154);">PotionFactory</font></code>.
+>
 > ```
 > public class AlchemistShop {
 >
@@ -190,6 +201,7 @@ children: []
 > ```
 >
 > In our scenario, a brave visitor enters the alchemist shop and drinks all the potions.
+>
 > ```
 > // create the alchemist shop with the potions
 > var alchemistShop = new AlchemistShop();
@@ -198,6 +210,7 @@ children: []
 > ```
 >
 > Program output:
+>
 > ```
 > Drinking top shelf potions 
 > You become invisible. Potion=1509514333
@@ -215,9 +228,11 @@ children: []
 > You feel blessed. Potion=991505714
 > You feel blessed. Potion=991505714
 > ```
+
 # Applicability
 
 The Flyweight pattern's effectiveness depends heavily on how and where it's used. Apply the Flyweight pattern when all of the following are true:
+
 - An application uses a large number of objects.
 - Storage costs are high because of the sheer quantity of objects.
 - Most of the object states can be made extrinsic.
@@ -228,5 +243,7 @@ The Flyweight pattern's effectiveness depends heavily on how and where it's used
 
 > [!expand]- Click here to expand...
 > ![[Facade Pattern vs Flyweight Pattern#^excerpt]]
+
 # Resources
-- [https://java-design-patterns.com/patterns/flyweight/](https://java-design-patterns.com/patterns/flyweight/)
+
+- <https://java-design-patterns.com/patterns/flyweight/>

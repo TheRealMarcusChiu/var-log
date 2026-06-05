@@ -1,13 +1,14 @@
 ---
-title: "CI - Variance & Standard Deviation"
+publish: true
+title: CI - Variance & Standard Deviation
 created: 2021-09-13T05:29:15.026-05:00
 modified: 2026-05-21T15:23:41.898-05:00
-parent: "[[CI - 1 Sample]]"
-children: []
 ---
+
 read: [[Sampling Distribution of Sample Variance／Standard Deviation - Sample Variance／Standard-Deviation Distribution﻿|Sampling Distribution of Sample Variance/Standard Deviation]]
 
 for comparisons of 2 [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|variances]], see: [[f-distribution ｜ f-scores ｜ f-value ｜ f-table ｜ f-statistic|f-distribution]]
+
 # Confidence Interval for Population Variance
 
 ```merge-table
@@ -20,7 +21,9 @@ for comparisons of 2 [[Variance - Standard Deviation (Root Mean Square (RMS) Dev
   ]
 }
 ```
-# Confidence Interval for Population Standard Deviation
-A confidence interval for the population standard deviation 𝜎 = √𝜎<sup>2</sup> is just one step away 
 
-![[CI - Variance & Standard Deviation/standard-deviation-confidence-interval.png|301]]
+# Confidence Interval for Population Standard Deviation
+
+A confidence interval for the population standard deviation 𝜎 = √𝜎<sup>2</sup> is just one step away
+
+![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Statistics/Inferential Statistics/Interval Estimation/Confidence Interval (CI)/CI - 1 Sample/CI - Variance & Standard Deviation/standard-deviation-confidence-interval.png|301]]

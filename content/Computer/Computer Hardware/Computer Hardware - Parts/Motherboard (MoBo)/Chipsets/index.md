@@ -1,10 +1,10 @@
 ---
-title: "Chipsets"
+publish: true
+title: Chipsets
 created: 2023-07-11T20:41:39.399-05:00
 modified: 2023-07-11T20:43:44.340-05:00
-parent: "[[Motherboard (MoBo)]]"
-children: []
 ---
+
 # AMD
 
 ```merge-table
@@ -37,6 +37,7 @@ children: []
   ]
 }
 ```
+
 # Intel
 
 ```merge-table

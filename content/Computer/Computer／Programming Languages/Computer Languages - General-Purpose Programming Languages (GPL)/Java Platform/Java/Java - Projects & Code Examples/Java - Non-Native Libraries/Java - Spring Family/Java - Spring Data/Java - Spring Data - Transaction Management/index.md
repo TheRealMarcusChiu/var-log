@@ -1,21 +1,17 @@
 ---
-title: "Java - Spring Data - Transaction Management"
+publish: true
+title: Java - Spring Data - Transaction Management
 created: 2021-01-14T14:17:09.545-06:00
 modified: 2022-12-22T09:49:29.321-06:00
-parent: "[[Java - Spring Data]]"
-children:
-  - "[[Java - Spring - @EnableTransactionManagement & @Transactional]]"
-  - "[[Java - Spring - Logical Transaction vs Physical Transaction - Propagation Level]]"
-  - "[[Java - Spring - Transaction Bound Events - @TransactionalEventListener]]"
-  - "[[Java - Spring - TransactionManager (PlatformTransactionManager - ReactiveTransactionManager)]]"
-  - "[[Java - Spring - TransactionOperator]]"
-  - "[[Java - Spring - TransactionTemplate]]"
 ---
+
 Compared with the [[Java - Data - Transaction Management - Java Transaction API (JTA)|plain JDBC example]] (in [[Java - Data - Transaction Management - Java Transaction API (JTA)]]):
+
 - You do not have to mess with opening or closing database connections yourself (try-finally). Instead you use [Transaction Callbacks](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/transaction/support/TransactionCallback.html).
 - You also do not have to catch <code>SQLExceptions</code>, as Spring converts these exceptions to runtime exceptions for you
 
 # Transaction Configuration
+
 - <code>[[Java - Spring - TransactionManager (PlatformTransactionManager - ReactiveTransactionManager)|TransactionManager]]</code>
 
 # Transaction Creation
@@ -50,9 +46,12 @@ Compared with the [[Java - Data - Transaction Management - Java Transaction API
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Transaction - Other
+
 - [[Java - Spring - Logical Transaction vs Physical Transaction - Propagation Level]]
 - [[Java - Spring - Transaction Bound Events - @TransactionalEventListener]]
 
 # Resources
-- [https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#transaction](https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#transaction)
+
+- <https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#transaction>

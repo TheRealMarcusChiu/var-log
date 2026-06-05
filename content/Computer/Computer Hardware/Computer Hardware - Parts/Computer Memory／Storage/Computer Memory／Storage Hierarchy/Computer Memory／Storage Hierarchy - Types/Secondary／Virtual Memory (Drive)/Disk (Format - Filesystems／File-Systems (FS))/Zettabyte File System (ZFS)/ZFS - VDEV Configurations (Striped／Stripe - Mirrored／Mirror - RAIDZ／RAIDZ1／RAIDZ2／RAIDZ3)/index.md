@@ -1,15 +1,16 @@
 ---
-title: "ZFS - VDEV Configurations (Striped／Stripe - Mirrored／Mirror - RAIDZ／RAIDZ1／RAIDZ2／RAIDZ3)"
+publish: true
+title: ZFS - VDEV Configurations (Striped／Stripe - Mirrored／Mirror - RAIDZ／RAIDZ1／RAIDZ2／RAIDZ3)
 created: 2024-06-07T14:45:14.433-05:00
 modified: 2024-06-24T20:18:35.140-05:00
-parent: "[[Zettabyte File System (ZFS)]]"
-children: []
 ---
+
 - <strong>VDEV configurations</strong> for [[Zettabyte File System (ZFS)|ZFS]]
 
 # VDEV Configurations - Introduction
-- [https://www.truenas.com/blog/zfs-pool-performance-1/](https://www.truenas.com/blog/zfs-pool-performance-1/)
-- [https://www.truenas.com/blog/zfs-pool-performance-2/](https://www.truenas.com/blog/zfs-pool-performance-2/)
+
+- <https://www.truenas.com/blog/zfs-pool-performance-1/>
+- <https://www.truenas.com/blog/zfs-pool-performance-2/>
 
 # VDEV Configurations - Comparison Chart
 
@@ -232,8 +233,11 @@ children: []
   "tableStyle": "letter-spacing: 0.0px;"
 }
 ```
+
 # TODO
 
 ![](https://www.youtube.com/watch?v=_aACgNm8UCw)
+
 # Resources
-- [https://www.raidz-calculator.com/raidz-types-reference.aspx](https://www.raidz-calculator.com/raidz-types-reference.aspx)
+
+- <https://www.raidz-calculator.com/raidz-types-reference.aspx>

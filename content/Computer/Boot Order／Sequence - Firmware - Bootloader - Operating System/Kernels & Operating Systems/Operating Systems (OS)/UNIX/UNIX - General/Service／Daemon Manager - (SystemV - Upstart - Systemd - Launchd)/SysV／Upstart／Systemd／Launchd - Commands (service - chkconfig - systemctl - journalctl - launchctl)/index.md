@@ -1,11 +1,12 @@
 ---
-title: "SysV／Upstart／Systemd／Launchd - Commands (service - chkconfig - systemctl - journalctl - launchctl)"
+publish: true
+title: SysV／Upstart／Systemd／Launchd - Commands (service - chkconfig - systemctl - journalctl - launchctl)
 created: 2019-11-19T16:06:03.677-06:00
 modified: 2019-11-20T11:14:14.755-06:00
-parent: "[[Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)]]"
-children: []
 ---
+
 [[SysV]]/[[Upstart]]/[[Systemd]]/[[launchd - plist|Launchd]] are [[Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)|service managers]]
+
 ### Common Commands
 
 ```merge-table
@@ -121,6 +122,7 @@ children: []
   "tableStyle": "width: 99.8373%;"
 }
 ```
+
 ### Miscellaneous Commands
 
 ```merge-table
@@ -177,6 +179,7 @@ children: []
   "tableStyle": "width: 61.4321%;"
 }
 ```
+
 ### <strong>Systemd New Commands</strong>
 
 ```merge-table

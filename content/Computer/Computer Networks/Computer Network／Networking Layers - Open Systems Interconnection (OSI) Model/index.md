@@ -1,27 +1,17 @@
 ---
-title: "Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model"
+publish: true
+title: Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model
 created: 2019-04-03T16:33:26.974-05:00
 modified: 2024-06-27T13:09:30.185-05:00
-parent: "[[Computer Networks]]"
-children:
-  - "[[1 - Physical Layer]]"
-  - "[[2 - Data Link Layer]]"
-  - "[[2.5 - Logical Link Control (LLC) - Data Link Sublayer]]"
-  - "[[2／3 - Redundancy Protocols]]"
-  - "[[3 - Network Layer]]"
-  - "[[4 - Transport Layer]]"
-  - "[[5 - Session Layer]]"
-  - "[[6 - Presentation Layer]]"
-  - "[[7 - Application Layer]]"
-  - "[[Packets - Protocol Data Unit (PDU) - Maximum Transmission Unit (MTU) - Path MTU (PMTU) - Maximum Frame Size (MFS) - Maximum Datagram Size (MDS) - Maximum Segment Size (MSS)]]"
-  - "[[Uni-Directional／Unidirectional - Bi-Directional／Bidirectional - Half-Duplex - Full-Duplex - Unsolicited]]"
-  - "[[？ - Mixed／Other Layers]]"
 ---
+
 ###### Open Systems Interconnection (OSI) Model
-````excerpt
+
+```excerpt
 - is a model that describes seven layers that computer systems use to communicate over a network
 - it was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s
-````
+```
+
 ^excerpt
 
 # Network Layers
@@ -106,13 +96,18 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Inter-Layer Communication
+
 - [[Uni-Directional／Unidirectional - Bi-Directional／Bidirectional - Half-Duplex - Full-Duplex - Unsolicited|Uni-Directional/Unidirectional - Bi-Directional/Bidirectional - Half-Duplex - Full-Duplex - Unsolicited]]
 - [[Packets - Protocol Data Unit (PDU) - Maximum Transmission Unit (MTU) - Path MTU (PMTU) - Maximum Frame Size (MFS) - Maximum Datagram Size (MDS) - Maximum Segment Size (MSS)]]
 
 # Network Layer - Diagram
-![[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/4.png]]
-# Network Layer - Protocols Diagram
-![[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/1.jpg]]![[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/2.jpg|333x250]]
 
-![[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/3.jpg|400x250]]![[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/4.png]]
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/4.png]]
+
+# Network Layer - Protocols Diagram
+
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/1.jpg]]![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/2.jpg|333x250]]
+
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/3.jpg|400x250]]![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/4.png]]

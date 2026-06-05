@@ -1,18 +1,21 @@
 ---
-title: "Open-Closed Principle (OCP)"
+publish: true
+title: Open-Closed Principle (OCP)
 created: 2022-03-01T00:51:10.832-06:00
 modified: 2022-03-06T16:08:44.591-06:00
-parent: "[[Software Design／Development Paradigms／Principles]]"
-children: []
 ---
+
 ###### Open-Closed Principle (OCP)
+
 - states that software entities should be open for extension, but closed for modification
 
 # Ways to Implement OCP
 
 > [!expand-ui]- Interface Example
 > Interfaces are one way to follow OCP
+>
 > # Non-Compliant Way
+>
 > ```
 > public interface CalculatorOperation {}
 >
@@ -56,7 +59,9 @@ children: []
 > ```
 >
 > When a new requirement of adding multiplication or divide functionality comes in, we've no way besides changing the calculate method of the Calculator class
+>
 > # Compliant Way
+>
 > ```
 > public interface CalculatorOperation {
 >     void perform();
@@ -104,5 +109,7 @@ children: []
 
 > [!expand-ui]- Dependency Injection
 > see [[Dependency Injection Principle (DIP) - Inversion of Control (IoC)]]
+
 # Resources
-- [https://www.baeldung.com/java-open-closed-principle](https://www.baeldung.com/java-open-closed-principle)
+
+- <https://www.baeldung.com/java-open-closed-principle>

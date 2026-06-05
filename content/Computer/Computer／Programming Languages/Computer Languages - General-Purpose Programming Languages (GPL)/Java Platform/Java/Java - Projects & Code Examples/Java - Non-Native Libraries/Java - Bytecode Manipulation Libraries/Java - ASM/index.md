@@ -1,17 +1,19 @@
 ---
-title: "Java - ASM"
+publish: true
+title: Java - ASM
 created: 2022-06-05T16:07:59.745-05:00
 modified: 2022-06-07T02:09:13.908-05:00
-parent: "[[Java - Bytecode Manipulation Libraries]]"
-children: []
 ---
+
 ###### ASM
+
 - is a [[Java - Bytecode Manipulation Libraries|bytecode manipulation library]] for manipulating an existing Java class by adding fields, adding methods, and changing the behavior of existing methods
 - using ASM directly is not encouraged because it requires good knowledge of the [[Java Virtual Machine (JVM)|JVM]], including class file format and the instruction set. Consider using [[Java - Code Generation Library (CGLIB)|CGLIB]]
 
 # Dependencies
 
 > [!expand]- maven dependencies
+>
 > ```
 > <dependency>
 >     <groupId>org.ow2.asm</groupId>
@@ -24,15 +26,18 @@ children: []
 >     <version>6.0</version>
 > </dependency>
 > ```
+
 # ASM - 2 API Frameworks
 
 The ASM API provides 2 styles of interacting with Java classes for transformation and generation:
+
 - event-based
 - tree-based
 
 # ASM - Simple Code Example
 
 Creating a class, adding a method, writing byte-array to file, and executing java class.
+
 ```
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.MethodVisitor;
@@ -81,10 +86,13 @@ public class Main {
     }
 }
 ```
+
 ```
 > java GeneratedClass
 Hello world!
 ```
+
 # Resources
-- [https://www.baeldung.com/java-asm](https://www.baeldung.com/java-asm)
-- [https://supunsetunga.medium.com/introduction-to-java-bytecode-manipulation-with-asm-9ae71049c7e0](https://supunsetunga.medium.com/introduction-to-java-bytecode-manipulation-with-asm-9ae71049c7e0)
+
+- <https://www.baeldung.com/java-asm>
+- <https://supunsetunga.medium.com/introduction-to-java-bytecode-manipulation-with-asm-9ae71049c7e0>

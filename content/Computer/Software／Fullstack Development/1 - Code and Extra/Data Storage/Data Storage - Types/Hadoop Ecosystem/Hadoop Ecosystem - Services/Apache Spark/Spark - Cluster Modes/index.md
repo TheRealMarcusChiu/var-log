@@ -1,11 +1,12 @@
 ---
-title: "Spark - Cluster Modes"
+publish: true
+title: Spark - Cluster Modes
 created: 2020-05-22T22:28:12.419-05:00
 modified: 2020-05-22T22:30:01.265-05:00
-parent: "[[Apache Spark]]"
-children: []
 ---
+
 Apache Spark runs in the following cluster modes
+
 - Local
 - Standalone
 - YARN
@@ -26,6 +27,7 @@ In between YARN and Mesos, YARN is specially designed for Hadoop work loads wher
 <strong>Kubernetes</strong> - Open source system for automating deployment, scaling, and management of containerized applications. This mode is experimental state. So it used for running Spark applications in containerized fashion.
 
 <strong>Nomad</strong> - It is another open source system for running Spark applications. This cluster manager is not officially supported by the Spark project as a cluster manager.
+
 > Out of all above modes, Apache Mesos has better resource management capabilities.
 
-Please see this link, it contains a detailed explanation from expertise about Yarn vs Mesos. [http://www.quora.com/How-does-YARN-compare-to-Mesos](http://www.quora.com/How-does-YARN-compare-to-Mesos)
+Please see this link, it contains a detailed explanation from expertise about Yarn vs Mesos. <http://www.quora.com/How-does-YARN-compare-to-Mesos>

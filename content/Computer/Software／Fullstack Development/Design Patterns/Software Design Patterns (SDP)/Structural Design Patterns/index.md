@@ -1,17 +1,16 @@
 ---
-title: "Structural Design Patterns"
+publish: true
+title: Structural Design Patterns
 created: 2019-12-11T16:26:26.015-06:00
 modified: 2026-01-10T23:36:45.327-06:00
-parent: "[[Software Design Patterns (SDP)]]"
-children:
-  - "[[Composite Pattern - Object Tree Pattern]]"
-  - "[[Dependency Injection (DI)]]"
-  - "[[Wrapper Patterns]]"
 ---
+
 ###### Structural Design Patterns
-````excerpt
+
+```excerpt
 - explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient
-````
+```
+
 ^excerpt
 
 # Structural Design Patterns

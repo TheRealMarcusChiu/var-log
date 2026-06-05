@@ -1,12 +1,14 @@
 ---
-title: "Java - Spring - Running Logic on Startup - Bean Specific"
+publish: true
+title: Java - Spring - Running Logic on Startup - Bean Specific
 created: 2020-10-19T23:22:06.231-05:00
 modified: 2020-10-19T23:30:19.382-05:00
-parent: "[[Java - Spring - Running Logic on Startup]]"
-children: []
 ---
+
 ### Problem
+
 Here, we're trying to access an <em>autowired</em> field in the constructor. When the constructor is called, the Spring bean is not yet fully initialized. This is problematic because calling not yet initialized fields will of course result in <em>NullPointerException</em>s
+
 ```
 @Component
 public class InvalidInitExampleBean {
@@ -21,10 +23,12 @@ public class InvalidInitExampleBean {
     }
 }
 ```
+
 ### Solutions
+
 > [!tabs]
 >
-> === Constructor Injection
+> \=== Constructor Injection
 >
 > ```
 > @Component 
@@ -42,7 +46,7 @@ public class InvalidInitExampleBean {
 > }
 > ```
 >
-> === @PostConstruct
+> \=== @PostConstruct
 >
 > ```
 > @Component
@@ -60,7 +64,7 @@ public class InvalidInitExampleBean {
 > }
 > ```
 >
-> === InitializingBean
+> \=== InitializingBean
 >
 > ```
 > @Component
@@ -78,9 +82,10 @@ public class InvalidInitExampleBean {
 > }
 > ```
 >
-> === @Bean's initMethod
+> \=== @Bean's initMethod
 >
 > The<em> initMethod</em> property can be used to execute a method after a bean's initialization
+>
 > ```
 > @Bean(initMethod="init")
 > public InitMethodExampleBean exBean() {
@@ -89,6 +94,7 @@ public class InvalidInitExampleBean {
 > ```
 >
 > or
+>
 > ```
 > <bean id="initMethodExampleBean"
 >   class="com.baeldung.startup.InitMethodExampleBean"
@@ -97,6 +103,7 @@ public class InvalidInitExampleBean {
 > ```
 >
 > now we define the <code>init()</code> method in the Bean class
+>
 > ```
 > public class InitMethodExampleBean {
 >  
@@ -116,10 +123,12 @@ public class InvalidInitExampleBean {
 In order to achieve full control over your beans, you might want to combine the above mechanisms together.
 
 The order of execution is as follows:
+
 1. Constructor Injection
 2. <em>@PostConstruct</em> annotated methods
 3. InitializingBean's <em>afterPropertiesSet()</em> method
 4. @Bean's initMethod or <em>init-method</em> in XML
+
 ```
 @Component
 @Scope(value = "prototype")
@@ -149,6 +158,7 @@ public class AllStrategiesExampleBean implements InitializingBean {
 ```
 
 If you try to instantiate this bean, you will be able to see logs that match the order specified above:
+
 ```
 [main] INFO o.b.startup.AllStrategiesExampleBean - Constructor
 [main] INFO o.b.startup.AllStrategiesExampleBean - PostConstruct

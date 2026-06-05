@@ -1,11 +1,12 @@
 ---
-title: "Conversational Interview"
+publish: true
+title: Conversational Interview
 created: 2021-09-13T04:46:09.196-05:00
 modified: 2021-12-20T00:06:12.030-06:00
-parent: "[[Learning & Teaching - Reading, Listening, Writing, Speaking]]"
-children: []
 ---
+
 # Points of a Having a Conversational Interview
+
 All of this boils down to being interested in other people
 
 ```merge-table

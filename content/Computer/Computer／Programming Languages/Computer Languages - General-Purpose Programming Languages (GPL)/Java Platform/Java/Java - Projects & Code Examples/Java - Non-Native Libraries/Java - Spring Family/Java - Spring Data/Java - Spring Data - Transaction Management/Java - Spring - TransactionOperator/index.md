@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - TransactionOperator"
+publish: true
+title: Java - Spring - TransactionOperator
 created: 2021-04-12T23:42:12.341-05:00
 modified: 2021-04-12T23:49:11.459-05:00
-parent: "[[Java - Spring Data - Transaction Management]]"
-children: []
 ---
+
 ### 1 - Configuring ReactiveTransactionManager
+
 ```
 @Configuration
 public class TransactionConfig {
@@ -17,7 +18,9 @@ public class TransactionConfig {
 ```
 
 see: [[Java - Spring - TransactionManager (PlatformTransactionManager - ReactiveTransactionManager)]]
+
 ### 2 - Configuring & Using  TransactionalOperator
+
 ```
 public class SimpleService {
 
@@ -43,5 +46,7 @@ public class SimpleService {
     }
 }
 ```
+
 ### Resources
-- [https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-prog-operator](https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-prog-operator)
+
+- <https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-prog-operator>

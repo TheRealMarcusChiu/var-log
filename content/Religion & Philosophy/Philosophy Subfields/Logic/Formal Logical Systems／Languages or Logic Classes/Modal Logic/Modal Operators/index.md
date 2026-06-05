@@ -1,17 +1,19 @@
 ---
-title: "Modal Operators"
+publish: true
+title: Modal Operators
 created: 2021-09-13T04:44:28.530-05:00
 modified: 2021-09-13T04:44:28.530-05:00
-parent: "[[Modal Logic]]"
-children: []
 ---
+
 ###### Modal Operators
+
 1. Modal Operators of Necessity. Eg Should, must, ought to, have to, supposed to
 2. Modal Operators of Negative Necessity. Eg Shouldn’t, mustn’t etc
 3. Modal Operators of Probability. Eg Could, may, might, had better
 4. Modal Operators of Improbability. Eg Couldn’t, may not, might not
 5. Modal Operators of Possibility. Eg Able to, can, try, will
 6. Modal Operators of Impossibility. Eg Am not, can’t, try not, won’t
+
 ```merge-table
 {
   "rows": [

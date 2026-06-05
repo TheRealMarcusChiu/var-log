@@ -1,17 +1,16 @@
 ---
-title: "Arithmetic (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)"
+publish: true
+title: Arithmetic (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)
 created: 2021-09-13T05:24:54.965-05:00
 modified: 2024-01-11T13:27:57.984-06:00
-parent: "[[Transformations - Properties／Types]]"
-children:
-  - "[[Addition - Multiplication - Exponentiation - Tetration - Knuth's Up-Arrow Notation]]"
-  - "[[Arithmetic Product／Multiplication (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)]]"
-  - "[[Arithmetic Sum／Summation／Addition (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)]]"
 ---
+
 ###### Arithmetic (Transformations/Operations/Operators/Mappings/Maps/Functions/Morphisms)
-````excerpt
+
+```excerpt
 - a type of [[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms|transformation]] that takes [[Numbers Classes／Classification of Numbers|numbers]] as input and output
-````
+```
+
 ^excerpt
 
 # Arithmetic Transformation - Types
@@ -103,9 +102,5 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

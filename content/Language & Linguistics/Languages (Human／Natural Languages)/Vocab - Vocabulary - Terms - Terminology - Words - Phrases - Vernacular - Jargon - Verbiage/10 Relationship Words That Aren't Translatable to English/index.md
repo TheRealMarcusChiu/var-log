@@ -1,10 +1,10 @@
 ---
-title: "10 Relationship Words That Aren't Translatable to English"
+publish: true
+title: 10 Relationship Words That Aren't Translatable to English
 created: 2021-09-13T04:43:51.413-05:00
 modified: 2021-09-13T04:43:51.413-05:00
-parent: "[[Vocab - Vocabulary - Terms - Terminology - Words - Phrases - Vernacular - Jargon - Verbiage]]"
-children: []
 ---
+
 <strong>MAMIHLAPINATAPEI</strong> (YAGAN, AN INDIGENOUS LANGUAGE OF TIERRA DEL FUEGO):
 The wordless yet meaningful look shared by two people who desire to initiate something, but are both reluctant to start.
 

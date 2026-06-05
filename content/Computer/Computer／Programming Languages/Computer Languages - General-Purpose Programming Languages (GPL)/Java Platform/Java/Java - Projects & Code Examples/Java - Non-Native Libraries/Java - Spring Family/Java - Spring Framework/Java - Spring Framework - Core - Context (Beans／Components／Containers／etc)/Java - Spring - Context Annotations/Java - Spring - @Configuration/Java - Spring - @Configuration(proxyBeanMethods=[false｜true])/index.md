@@ -1,10 +1,10 @@
 ---
-title: "Java - Spring - @Configuration(proxyBeanMethods=[false｜true])"
+publish: true
+title: Java - Spring - @Configuration(proxyBeanMethods=[false｜true])
 created: 2021-01-06T12:18:34.884-06:00
 modified: 2021-01-06T12:26:08.957-06:00
-parent: "[[Java - Spring - @Configuration]]"
-children: []
 ---
+
 ```
 @Configuration(proxyBeanMethods=[false|true])
 public class TestConfig {
@@ -26,6 +26,7 @@ public class TestConfig {
     }
 }
 ```
+
 ```
 @SpringBootApplication
 public class SandboxApplication implements CommandLineRunner {
@@ -59,9 +60,10 @@ public class SandboxApplication implements CommandLineRunner {
    }
 }
 ```
+
 ### Differences in Output
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -83,4 +85,4 @@ public class SandboxApplication implements CommandLineRunner {
   ],
   "tableStyle": "width: 100.0%;"
 }
-```
+````

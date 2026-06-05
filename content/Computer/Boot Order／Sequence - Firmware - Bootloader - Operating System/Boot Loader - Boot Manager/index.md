@@ -1,21 +1,19 @@
 ---
-title: "Boot Loader - Boot Manager"
+publish: true
+title: Boot Loader - Boot Manager
 created: 2019-03-15T02:00:55.737-05:00
 modified: 2023-02-18T12:52:39.260-06:00
-parent: "[[Boot Order／Sequence - Firmware - Bootloader - Operating System]]"
-children:
-  - "[[Boot Camp Assistant]]"
-  - "[[GRand Unified Bootloader (GRUB 2)]]"
-  - "[[GRand Unified Bootloader (GRUB Legacy)]]"
-  - "[[rEFInd]]"
 ---
-````excerpt
+
+```excerpt
 - <strong>boot managers</strong> present a menu of boot options or provide some other way to control the boot process. The user can then select an option, and the boot manager passes control to the selected tool
 - <strong>boot loaders</strong> handle the task of loading an [[Operating Systems (OS)|OS]] kernel into memory, often along with support files such as a [[Linux]] [[initrd (Initial RAM Disk) vs initramfs (Initial RAM File System)|initial RAM disk (initrd)]] file, and starting the kernel running
-````
+```
+
 ^excerpt
 
 From an [[Extensible Firmware Interface (EFI)|EFI]]/[[Unified EFI (UEFI)|UEFI]] perspective, both <strong>boot loaders</strong> and <strong>boot managers</strong> are simply EFI/UEFI programs
+
 # Boot Loader and/or Boot Manager - Types
 
 ```merge-table

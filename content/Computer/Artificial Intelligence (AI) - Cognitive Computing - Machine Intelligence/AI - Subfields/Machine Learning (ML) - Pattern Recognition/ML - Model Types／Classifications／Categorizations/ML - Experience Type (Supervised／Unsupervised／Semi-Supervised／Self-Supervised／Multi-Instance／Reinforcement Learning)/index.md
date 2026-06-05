@@ -1,14 +1,12 @@
 ---
-title: "ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)"
+publish: true
+title: ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)
 created: 2019-08-23T16:38:26.457-05:00
 modified: 2026-01-01T01:14:17.455-06:00
-parent: "[[ML - Model Types／Classifications／Categorizations]]"
-children:
-  - "[[Self-Supervised Learning (SSL) - Contrastive Non-Contrastive Self-Supervised Learning (SSL)]]"
-  - "[[Semi-Supervised Learning]]"
-  - "[[Unsupervised Learning]]"
 ---
+
 most [[ML - Models|machine learning algorithms]] experience a dataset (i.e. [[ML - Training／Validation／Test Data／Set - Training／Validation／Test Error|training-set]])
+
 # Experience Types
 
 ```merge-table
@@ -83,6 +81,8 @@ most [[ML - Models|machine learning algorithms]] experience a dataset (i.e. [[M
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Experience - Solving 1 Experience Type With Another
+
 - by [[Probability (Product Rule - Chain Rule)|chain-rule]], we can solve the unsupervised problem of modeling 𝐏(𝑋<sub>1</sub>, ..., 𝑋<sub>𝑛</sub>) by splitting it into 𝑛 supervised learning problems
 - by [[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)|bayes-rule]], we can solve the supervised learning problem of learning 𝐏(𝑌|𝑋) by using unsupervised learning to learn the joint distribution 𝐏(𝑋,𝑌)

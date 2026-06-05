@@ -1,14 +1,15 @@
 ---
-title: "Chomsky-Normal Form (CNF)"
+publish: true
+title: Chomsky-Normal Form (CNF)
 created: 2021-09-13T05:25:06.298-05:00
 modified: 2021-09-13T05:25:06.298-05:00
-parent: "[[Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)]]"
-children: []
 ---
+
 ###### Chomsky-Normal Form (CNF) - Binary Form
+
 - are grammars rules are of the form:
-	- 𝐴 → 𝐵𝐶
-	- 𝐴 → 𝑎
+  - 𝐴 → 𝐵𝐶
+  - 𝐴 → 𝑎
 - that is, rules can expand to either 2 non-terminals or to a single terminal
 - any [[Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)|Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur/Normal Form (BNF)]] rules can be rewritten into <strong>Chomsky-Normal Form</strong>
 
@@ -51,6 +52,7 @@ children: []
   ]
 }
 ```
+
 ### Example Grammar Transformation
 
 ```merge-table

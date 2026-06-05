@@ -1,17 +1,18 @@
 ---
-title: "Java - Spring - AutoConfiguration - @ConditionalOn - Property／Class／Bean／Resource／WebApplication"
+publish: true
+title: Java - Spring - AutoConfiguration - @ConditionalOn - Property／Class／Bean／Resource／WebApplication
 created: 2021-01-22T16:20:11.918-06:00
 modified: 2022-08-23T22:27:14.183-05:00
-parent: "[[Java - Spring - AutoConfiguration]]"
-children: []
 ---
-- code: [https://github.com/SpringBootMarcusChiu/conditional-on-examples](https://github.com/SpringBootMarcusChiu/conditional-on-examples)
+
+- code: <https://github.com/SpringBootMarcusChiu/conditional-on-examples>
 
 # AutoConfiguration Annotations - Conditional Annotations
 
 <code><font style="color: rgb(128,128,0);">@Conditional</font></code> annotations are used in the [[Java - Spring - AutoConfiguration - Classes|auto-configuration class]].
 
 Spring Boot includes a number of <code><font style="color: rgb(128,128,0);">@Conditional</font></code> annotations that can be used on:
+
 - <code><font style="color: rgb(128,128,0);">@Configuration</font></code> classes
 - <code><font style="color: rgb(128,128,0);">@Bean</font></code> methods
 
@@ -101,9 +102,12 @@ These annotations are of the following types:
   ]
 }
 ```
+
 # Testing AutoConfiguration Annotations
 
-see: [https://www.baeldung.com/spring-boot-custom-auto-configuration#testing-the-auto-configuration](https://www.baeldung.com/spring-boot-custom-auto-configuration#testing-the-auto-configuration)
+see: <https://www.baeldung.com/spring-boot-custom-auto-configuration#testing-the-auto-configuration>
+
 # Resources
-- [https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-developing-auto-configuration](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-developing-auto-configuration)
-- [https://www.baeldung.com/spring-boot-custom-auto-configuration](https://www.baeldung.com/spring-boot-custom-auto-configuration)
+
+- <https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-developing-auto-configuration>
+- <https://www.baeldung.com/spring-boot-custom-auto-configuration>

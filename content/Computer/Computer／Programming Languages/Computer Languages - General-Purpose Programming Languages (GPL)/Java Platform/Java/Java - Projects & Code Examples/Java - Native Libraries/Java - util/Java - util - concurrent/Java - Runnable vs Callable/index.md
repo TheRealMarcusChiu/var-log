@@ -1,11 +1,11 @@
 ---
-title: "Java - Runnable vs Callable"
+publish: true
+title: Java - Runnable vs Callable
 created: 2021-04-23T18:17:37.103-05:00
 modified: 2022-01-31T01:45:13.049-06:00
-parent: "[[Java - util - concurrent]]"
-children: []
 ---
-```merge-table
+
+````merge-table
 {
   "rows": [
     [
@@ -26,9 +26,12 @@ children: []
     ]
   ]
 }
-```
+````
+
 # Other
+
 - [[Java - util - function (lambda) - (Runnable - Callable - Supplier - IntSupplier - Consumer - IntConsumer - Function - IntFunction - ToIntFunction)]]
 
 # Resources
-- [https://www.baeldung.com/java-runnable-callable](https://www.baeldung.com/java-runnable-callable)
+
+- <https://www.baeldung.com/java-runnable-callable>

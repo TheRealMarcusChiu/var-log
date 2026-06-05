@@ -1,20 +1,22 @@
 ---
-title: "External BGP (eBGP)"
+publish: true
+title: External BGP (eBGP)
 created: 2019-10-23T11:01:47.848-05:00
 modified: 2019-11-20T13:11:46.905-06:00
-parent: "[[Border Gateway Protocol (BGP)]]"
-children: []
 ---
+
 commonly referred as [[Border Gateway Protocol (BGP)]]
+
 ### How it Works
 
 consider the very simple example network in Figure 4.5
 
 assume that the providers are [[Autonomous System (AS) - Domain|transit autonomous system]] networks, while the customer networks are [[Autonomous System (AS) - Domain|stub autonomous system]] networks.
+
 - a BGP speaker for the AS of provider A (i.e. AS 2) would be able to advertise reachability information for each of the network numbers assigned to customers P and Q. Thus, it would say, in effect, “The networks 128.96, 192.4.153, 192.4.32, and 192.4.3 can be reached directly from AS 2.”
 - the backbone network, on receiving this advertisement, can advertise, “The networks 128.96, 192.4.153, 192.4.32, and 192.4.3 can be reached along the path ⟨AS 1, AS 2⟩.” Similarly, it could advertise, “The networks 192.12.69, 192.4.54, and 192.4.23 can be reached along the path ⟨AS 1, AS 3⟩.”
 
-![[External BGP (eBGP)/1.png|450]]
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/3 - Network Layer/Routing Protocols/Dynamic Routing Protocols/Exterior Gateway Protocols (EGPs) or Inter-Domain Routing Protocols (IDRP)/Border Gateway Protocol (BGP)/External BGP (eBGP)/1.png|450]]
 
 an important job of BGP is to prevent the establishment of looping paths. For example, consider the network illustrated in Figure 4.6.
 
@@ -24,4 +26,4 @@ Suppose AS 1 learns that it can reach network 128.96 through AS 2, so it adverti
 
 for loop prevention to work, AS are assigned unique 16-bit numbers
 
-![[External BGP (eBGP)/2.png|450]]
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/3 - Network Layer/Routing Protocols/Dynamic Routing Protocols/Exterior Gateway Protocols (EGPs) or Inter-Domain Routing Protocols (IDRP)/Border Gateway Protocol (BGP)/External BGP (eBGP)/2.png|450]]

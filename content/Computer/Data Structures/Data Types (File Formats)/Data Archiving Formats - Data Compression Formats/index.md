@@ -1,13 +1,10 @@
 ---
-title: "Data Archiving Formats - Data Compression Formats"
+publish: true
+title: Data Archiving Formats - Data Compression Formats
 created: 2019-08-29T00:04:08.398-05:00
 modified: 2023-11-16T22:13:08.587-06:00
-parent: "[[Data Types (File Formats)]]"
-children:
-  - "[[Data Compression]]"
-  - "[[ISO Image]]"
-  - "[[Zstandard]]"
 ---
+
 - <strong>data archiving</strong> is the process of collecting and storing a group of files and directories into one file
 - <strong>[[Data Compression|data compression]]</strong> is the act of shrinking the size of a file
 

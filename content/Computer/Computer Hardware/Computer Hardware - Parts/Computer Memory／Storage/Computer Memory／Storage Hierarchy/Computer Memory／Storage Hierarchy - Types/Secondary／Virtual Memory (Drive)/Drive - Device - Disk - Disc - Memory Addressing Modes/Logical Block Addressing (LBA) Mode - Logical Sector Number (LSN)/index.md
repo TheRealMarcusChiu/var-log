@@ -1,11 +1,12 @@
 ---
-title: "Logical Block Addressing (LBA) Mode - Logical Sector Number (LSN)"
+publish: true
+title: Logical Block Addressing (LBA) Mode - Logical Sector Number (LSN)
 created: 2020-06-09T23:10:41.180-05:00
 modified: 2022-09-11T15:28:17.021-05:00
-parent: "[[Drive - Device - Disk - Disc - Memory Addressing Modes]]"
-children: []
 ---
+
 ###### Logical block addressing (LBA) - Logical Sector Number (LSN)
+
 - also known as BIOS INT 13h extensions drive geometry translation
 - is a common scheme used for specifying the location of blocks of data stored on [[Computer Memory／Storage Devices|computer storage devices]] (e.g. [[Hard Disk Drives (HDD) - Fixed Disk|HDD]])
 - is a particularly simple [linear addressing](https://en.wikipedia.org/wiki/Linear_addressing) scheme; blocks are located by an integer index, with the first block being LBA 0, the second LBA 1, and so on
@@ -68,5 +69,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
+
 - [[LBA & CHS - Mappings／Conversion|LBA & VHS - Mappings/Conversion]]

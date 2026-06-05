@@ -1,10 +1,10 @@
 ---
-title: "SQL (Row／Relational) DB vs Document (Non-Relational) DB"
+publish: true
+title: SQL (Row／Relational) DB vs Document (Non-Relational) DB
 created: 2022-12-18T15:56:53.607-06:00
 modified: 2022-12-18T16:04:36.872-06:00
-parent: "[[DBMS - Type Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

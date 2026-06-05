@@ -1,20 +1,23 @@
 ---
-title: "XML Path Language (XPath)"
+publish: true
+title: XML Path Language (XPath)
 created: 2019-07-12T18:49:37.164-05:00
 modified: 2022-11-23T18:06:05.734-06:00
-parent: "[[Extensible Markup Language (XML)]]"
-children: []
 ---
+
 <strong>XML Path Language (XPath)</strong>
+
 - is an [[Extensible Markup Language (XML)|XML]]-based language for finding any element on the web page using XML path expression
-- [https://www.guru99.com/xpath-selenium.html#1](https://www.guru99.com/xpath-selenium.html#1)
+- <https://www.guru99.com/xpath-selenium.html#1>
 
 # XPath - Syntax Standard
 
 XPath contains the path of the element situated on the web page. The standard syntax for creating XPath is:
+
 ```
 Xpath=//tagname[@attribute='value']
 ```
+
 - <strong>// :</strong> Select current node.
 - <strong>Tagname: </strong>Tagname of the particular node
 - <strong>@:</strong> Select attribute
@@ -70,4 +73,4 @@ Xpath=//tagname[@attribute='value']
 }
 ```
 
-![[XML Path Language (XPath)/1.png]]
+![[Computer/Computer／Programming Languages/Computer Languages - Definition／Description Languages/Data Language & Library (Message／Transfer／Interchange／Storage／Format／Serializer／Deserializer)/Markup Language (ML)/Extensible Markup Language (XML)/XML Path Language (XPath)/1.png]]

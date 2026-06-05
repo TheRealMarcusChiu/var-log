@@ -1,18 +1,18 @@
 ---
-title: "KDE Plasma - KDE Desktop (K Desktop Environment)"
+publish: true
+title: KDE Plasma - KDE Desktop (K Desktop Environment)
 created: 2019-12-30T19:51:08.865-06:00
 modified: 2024-06-29T11:06:41.533-05:00
-parent: "[[Graphical Desktop Environments]]"
-children:
-  - "[[KDE Plasma 5]]"
-  - "[[KDE Plasma 6]]"
 ---
+
 ###### KDE Plasma - KDE Desktop (K Desktop Environment)
-````excerpt
+
+```excerpt
 - is one of many projects [[KDE Community|KDE community]] created
 - is a graphical [[Desktop Environments (DE)|desktop environment]] with customizable layouts and panels, supporting virtual desktops and widgets
 - uses Qt toolkit
-````
+```
+
 ^excerpt
 
 # KDE - Versions
@@ -100,5 +100,7 @@ children:
   ]
 }
 ```
+
 # Resources
-- [https://en.wikipedia.org/wiki/KDE](https://en.wikipedia.org/wiki/KDE)
+
+- <https://en.wikipedia.org/wiki/KDE>

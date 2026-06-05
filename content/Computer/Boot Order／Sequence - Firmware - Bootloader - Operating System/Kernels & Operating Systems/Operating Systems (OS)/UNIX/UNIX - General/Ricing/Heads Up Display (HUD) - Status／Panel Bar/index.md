@@ -1,34 +1,30 @@
 ---
-title: "Heads Up Display (HUD) - Status／Panel Bar"
+publish: true
+title: Heads Up Display (HUD) - Status／Panel Bar
 created: 2025-04-12T15:17:08.605-05:00
 modified: 2025-04-12T15:43:41.757-05:00
-parent: "[[Ricing]]"
-children:
-  - "[[conky]]"
-  - "[[dzen]]"
-  - "[[lemonbar]]"
 ---
+
 ###### Heads Up Display (HUD) - Status/Panel Bar
-````excerpt
+
+```excerpt
 - displays system informations on your screen
-````
+```
+
 ^excerpt
 
 # HUD - Introduction
 
-[https://blog.z3bra.org/2014/04/meeting-at-the-bar.html](https://blog.z3bra.org/2014/04/meeting-at-the-bar.html)
+<https://blog.z3bra.org/2014/04/meeting-at-the-bar.html>
+
 # HUD - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 - [[TMUX Status Bar]]
 
 # HUD - Fetching Information
 
 > [!expand-ui]- Current Date Time
+>
 > ```
 > date '+%Y-%m-%d %H:%M' # print current date and time: yyyy-mm-dd HH:MM
 > ```
@@ -37,12 +33,14 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > You could use the <code><font style="color: rgb(122,134,154);">acpi</font></code> tool.
 >
 > Or look into sys files
+>
 > ```
 > /sys/class/power_supply/BAT1/capacity   # contains a value from 0 to 100
 > /sys/class/power_supply/BAT1/status     # either "Charging" or "Discharging"
 > ```
 >
 > We will then be able to output the battery level, and do some action, depending on the battery state. To get the info:
+>
 > ```
 > BATC=/sys/class/power_supply/BAT1/capacity
 > BATS=/sys/class/power_supply/BAT1/status
@@ -57,7 +55,8 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > [!expand-ui]- Sound Level
 > This one is always a pain.. I will assume that you use ALSA as your sound system (because I have no idea how OSS or PulseAudio works).
 >
-> First, you need to know which channel your want to watch. Most of the time, 'Master' is a good choice. I personnally use alsamixer to navigate between the channels to see what they are related to. The alsa-utils packages (name may vary depending on the distribution) contains a utility named amixer to interact with the system. The special command amixer get \<CONTROL\> is used to query informations about a channel. But the output is awful to look at, so we'll need to format it. Example output:
+> First, you need to know which channel your want to watch. Most of the time, 'Master' is a good choice. I personnally use alsamixer to navigate between the channels to see what they are related to. The alsa-utils packages (name may vary depending on the distribution) contains a utility named amixer to interact with the system. The special command amixer get \<CONTROL> is used to query informations about a channel. But the output is awful to look at, so we'll need to format it. Example output:
+>
 > ```
 > ───── amixer get Master
 > Simple mixer control 'Master',0
@@ -68,6 +67,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ```
 >
 > You can notice that the info we're interested in sits at the end of the output. That will make things easier.
+>
 > ```
 > # parse amixer output to get ONLY the level. Will output "84%"
 > # we need `uniq` because on some hardware, The master is listed twice in
@@ -79,6 +79,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > There are many way to get the current CPU load. iostat is one of them, and as it's easy to parse its output, i'll go with a trickier approach, using ps and bc.
 >
 > To get the current CPU load used by every program, one can use this command:
+>
 > ```
 > # gives you the CPU load used by every running program
 > # 'args' is used here just so you can see the programs command lines
@@ -86,7 +87,8 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ps -eo pcpu,args
 > ```
 >
-> We don't care about idling programs that uses '0.0' load or the header '%CPU', so we can just remove them with <code>grep -vE '^\\s\*(0.0|%CPU)'</code>.
+> We don't care about idling programs that uses '0.0' load or the header '%CPU', so we can just remove them with <code>grep -vE '^\s\*(0.0|%CPU)'</code>.
+>
 > ```
 > ps -eo pcpu | grep -vE '^\s*(0.0|%CPU)'
 > ```
@@ -95,6 +97,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > The problem is: bash <em>CAN'T</em> perform floating point operations. And thus, we will need the help of the great <code>bc</code> to do so (if you don't have this installed, I recommend that you just get it right away!).
 >
 > <code>bc</code> takes operations from stdin, and outputs to stdout. Pretty simple. Pretty good. Thanks to [randomcrocodile](http://www.reddit.com/r/unixporn/comments/220diq/howto_create_an_informative_status_bar_for_your/cgi9hve) for pointing out the two digit problem (and other things)
+>
 > ```
 > # use the "here-line" feature.
 > # The whole line goes to bc which outputs the result
@@ -104,12 +107,14 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ```
 >
 > <strong>NOTE</strong>: <em>verkgw</em> on [irc.blinkenshell.org](http://irc.blinkenshell.org) proposed a faster <code>awk</code> alternative. I don't know awk enough to come up with this kind of line, so I'll just continue with <code>grep</code> and <code>sed</code>. See the comparison [here](http://i.imgur.com/Aefbl8U.png)
+>
 > ```
 > ps -eo pcpu | awk 'BEGIN {sum=0.0f} {sum+=$1} END {print sum}'
 > ```
 
 > [!expand-ui]- RAM Usage
 > To display RAM usage (percentage of RAM actually by the system), we will use another place of the filesystem: <code>/proc</code>. This will be easier to find memory usage here, than battery level in <code>/sys</code>:
+>
 > ```
 > ───── ls /proc/ | grep 'mem'
 > iomem
@@ -117,6 +122,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ```
 >
 > If you take a quick look at <code>iomem</code>, you'll understand that it's <strong>NOT</strong> the file we want here (I don't understand a bit of it)! Instead, let's take a look at meminfo:
+>
 > ```
 > ───── sed 8q /proc/meminfo 
 > MemTotal:        2748648 kB
@@ -130,6 +136,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ```
 >
 > Good, good, exactly the information we want! So let's just extract them, using <code>awk</code> to fetch <em>ONLY</em> the column containing the value (Yeah, that's why I use awk for mostly. I'll need to dive a little more in that language):
+>
 > ```
 > ───── grep -E 'Mem(Total|Free)' /proc/meminfo |awk '{print $2}'
 > 2748648
@@ -137,6 +144,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ```
 >
 > At this point, you might realise that those two number are not really useful. We will need to modify them a little by converting them to Mib, and making a ratio out of them. A neat alternative would be to ignore cached memory and buffers, to know exactly how much the applications are taking:
+>
 > ```
 > # store the total and free memory in two variables
 > read t f <<< `grep -E 'Mem(Total|Free)' /proc/meminfo |awk '{print $2}'`
@@ -148,6 +156,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 
 > [!expand-ui]- Network Connection State
 > Mmh, this one can be tricky! Ther are two cases here:
+>
 > - You have one interface
 > - You have more than one interface
 >
@@ -155,6 +164,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 >
 > Now what if you have, let's say two interfaces: ethernet, and wifi. Let's find out HOW to get the currently used.
 > We will need two tools for that: <code>ip</code> (from <code>iproute2</code>) and <code>iwconfig</code> (from <code>wireless\_tools</code>). We will get the interfaces with <code>ip</code>, and recognize the wifi interface using <code>iwconfig</code>. Sounds easy huh ?
+>
 > ```
 > # The following assumes you have 3 interfaces: loopback, ethernet, wifi
 > read lo int1 int2 <<< `ip link | sed -n 's/^[0-9]: \(.*\):.*$/\1/p'`
@@ -179,6 +189,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ```
 >
 > This is now the time to see if network is up or not. For that, a simple <code>ping</code> would do the trick:
+>
 > ```
 > # just output the interface name. Could obviously be done in the 'ping'
 > # query
@@ -193,6 +204,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 
 > [!expand-ui]- Window Manager Groups
 > Aaah, the information that has the most way to be fetched! The problem with this, is that every window manager provide a different way to fetch the number of workspaces, and the current one. If you're lucky, and that your WM is [EWMH](https://en.wikipedia.org/wiki/EWMH) compliant, <code>xprop</code> will be the way to go. For the others, you will need to find a proper way on your own. For exemple, to get the number of groups and the current group with ratpoison:
+>
 > ```
 > echo "`ratpoison -c groups| cut -sd'*' -f1`/`ratpoison -c groups| wc -l`"
 > ```
@@ -200,6 +212,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > Back to the topic, fetching current group out of all the groups. To make this a little more exiting, we will output something like "<code>==|=====</code>", '|' being the current desktop, '=' being the other desktops.
 >
 > The first step is to fetch the number of desktops, and the index of the current one. To do that, let's use <code>xprop</code>
+>
 > ```
 > cur=`xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}'
 > tot=`xprop -root _NET_NUMBER_OF_DESKTOPS | awk '{print $3}'
@@ -207,10 +220,12 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 >
 > If that enough for you, you can obviously just output <code>\$cur/\$tot</code> ;)
 > But now, the desktop indicator. To do that, there is two solutions:
+>
 > - cicle through all the groups and output either '=' or '|'
 > - ouput the correct number of '|' before and after '|'
 >
 > I tried both versions, and <code>time</code> reports that they are they're <em>almost</em> the same:
+>
 > ```
 > ───── time cicle.sh
 > ==|=======
@@ -228,6 +243,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > ```
 >
 > We will then use the 'fillup' one. To improve performances, we will first fill a variable with the 'group line', and then output it. It goes like this:
+>
 > ```
 > # Desktop numbers start at 0. if you want desktop 2 to be in second place,
 > # start counting from 1 instead of 0. But wou'll lose a group ;)
@@ -245,6 +261,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 
 > [!expand-ui]- MPD's Current Playing Song
 > After all that we did alredy, printing the current playing should bequite easy as:
+>
 > ```
 > cur=`mpc current`
 > test -n "$cur" && echo $cur || echo "- stopped -"
@@ -256,17 +273,19 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 > Don't worry, I wrote a small tool for that: [skroll](http://git.z3bra.org/skroll/log.html). You can see it in action [here](http://pub.z3bra.org/monochromatic/img/2014-03-28-skroll.gif).
 >
 > So now, our output has just become:
+>
 > ```
 > cur=`mpc current`
 > test -n "$cur" && echo $cur |skroll -n 20 -d0.5 -r || echo "- stopped -"
 > ```
 >
-> A small drawback with this approach: you can't put other infos in the same bar as a <code>skroll</code>ing output, because it uses a <code>\\n</code> or a <code>\\r</code> to print the output.
+> A small drawback with this approach: you can't put other infos in the same bar as a <code>skroll</code>ing output, because it uses a <code>\n</code> or a <code>\r</code> to print the output.
 
 Wrapping it up
 
 > [!expand-ui]- Wrapping it Up
 > Now that we have a whole bunch of informations, it's time to put them all in a script, that we will pipe later to our HUD.
+>
 > ```
 > #!/bin/sh
 > #

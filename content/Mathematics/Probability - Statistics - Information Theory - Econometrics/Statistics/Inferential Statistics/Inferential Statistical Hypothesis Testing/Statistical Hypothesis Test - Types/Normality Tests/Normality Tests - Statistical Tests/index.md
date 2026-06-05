@@ -1,14 +1,12 @@
 ---
-title: "Normality Tests - Statistical Tests"
+publish: true
+title: Normality Tests - Statistical Tests
 created: 2021-09-13T05:29:02.194-05:00
 modified: 2021-09-13T05:29:02.194-05:00
-parent: "[[Normality Tests]]"
-children:
-  - "[[Anderson-Darling Test]]"
-  - "[[D'Agostino's (K-squared／K2／K²) Test]]"
-  - "[[Shapiro-Wilk Test]]"
 ---
+
 <strong>Statistical Normality Tests</strong> are objective quantifications that measures the similarity of the distribution to a normal distribution
+
 # Normality Statistical Tests - Types
 
 ```merge-table
@@ -41,6 +39,7 @@ children:
   ]
 }
 ```
+
 # What to Do If Tests Fail?
 
 If the sample-data fail the normality test, try transforming sample-data into normal

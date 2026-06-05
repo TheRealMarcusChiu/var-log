@@ -1,18 +1,20 @@
 ---
-title: "Java - Neo4j - Embedded 4.x With APOC Plugin"
+publish: true
+title: Java - Neo4j - Embedded 4.x With APOC Plugin
 created: 2021-05-02T23:36:52.903-05:00
 modified: 2021-05-10T22:54:58.287-05:00
-parent: "[[Java - Neo4j - Embedded Examples]]"
-children: []
 ---
+
 # 1 - Overview
 
 this article sets up an <strong>Embedded Neo4j 4.x</strong> that is extended with Neo4j APOC Plugin
 
-code: [https://github.com/SpringBootMarcusChiu/neo4j-embedded-apoc-plugin-example](https://github.com/SpringBootMarcusChiu/neo4j-embedded-apoc-plugin-example)
+code: <https://github.com/SpringBootMarcusChiu/neo4j-embedded-apoc-plugin-example>
 
 for Embedded Neo4j 3.x see: [[Java - Neo4j - Embedded 3.x With APOC Plugin]]
+
 # 2 - Configure Embedded Neo4j
+
 ```
 <dependency>
    <groupId>org.neo4j</groupId>
@@ -20,6 +22,7 @@ for Embedded Neo4j 3.x see: [[Java - Neo4j - Embedded 3.x With APOC Plugin]]
    <version>4.0.0</version>
 </dependency>
 ```
+
 <span style="white-space: pre-wrap"><code>EmbeddedNeo4jServerConfig.java</code></span>
 
 ```
@@ -32,7 +35,9 @@ public GraphDatabaseService graphDatabaseService() {
     return graphDb;
 }
 ```
+
 # 3 - Extended Embedded Neo4j with APOC plugin
+
 ```
 <dependency>
    <groupId>org.neo4j.procedure</groupId>
@@ -42,6 +47,7 @@ public GraphDatabaseService graphDatabaseService() {
 ```
 
 add method into <code>EmbeddedNeo4jServerConfig.java</code>
+
 ```
 public static void registerProcedure(GraphDatabaseService db, Class<?>... procedures) {
     GlobalProcedures globalProcedures = ((GraphDatabaseAPI) db).getDependencyResolver().resolveDependency(GlobalProcedures.class);
@@ -58,13 +64,16 @@ public static void registerProcedure(GraphDatabaseService db, Class<?>... proced
 ```
 
 modify GraphDatabaseService bean, to call registerProcedure before returning
+
 ```
     // ...
     registerProcedure(graphDb, LoadCsv.class, Help.class);
     return graphDb;
 }
 ```
+
 # 4 - Test APOC
+
 ```
 @Autowired
 GraphDatabaseService graphDatabaseService;

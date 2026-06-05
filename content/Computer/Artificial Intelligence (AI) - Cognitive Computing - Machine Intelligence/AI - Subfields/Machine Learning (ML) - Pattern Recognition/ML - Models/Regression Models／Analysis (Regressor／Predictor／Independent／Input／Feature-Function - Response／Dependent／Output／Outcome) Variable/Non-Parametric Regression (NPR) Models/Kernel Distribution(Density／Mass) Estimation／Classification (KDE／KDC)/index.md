@@ -1,22 +1,24 @@
 ---
-title: "Kernel Distribution(Density／Mass) Estimation／Classification (KDE／KDC)"
+publish: true
+title: Kernel Distribution(Density／Mass) Estimation／Classification (KDE／KDC)
 created: 2020-06-01T12:49:45.503-05:00
 modified: 2021-12-26T16:20:46.196-06:00
-parent: "[[Non-Parametric Regression (NPR) Models]]"
-children:
-  - "[[Gaussian Process Regression (GPR) - Kriging]]"
-  - "[[KDE／KDC - Comparisons]]"
-  - "[[Kernel Regression]]"
 ---
+
 In [[Statistics|statistics]], <strong>KDE/KDC</strong> is a type of [[Non-Parametric Regression (NPR) Models|non-parametric regression]] to estimate the [[Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions|probability mass/density function]] of a random variable(s)
+
 # KDE/KDC - How it Works & Compared to Histogram
+
 <strong><font style="color: rgb(255,0,0);">Must See:</font> [[Histogram vs KDE]]</strong>
-- 𝐏ˆ(𝑋=𝑥) = 1/\[ℎ·𝑛\]・𝛴<sub>𝑥<sub>𝑖</sub>∊𝑎𝑙𝑙-𝑠𝑎𝑚𝑝𝑙𝑒𝑠</sub>𝑘(𝑥<sub>𝑖</sub>,𝑥)
-- 𝐏ˆ(𝑋=𝑥|𝑌=𝑦) = 1/\[ℎ·𝑐𝑜𝑢𝑛𝑡(𝑌=𝑦)\]・𝛴<sub>(</sub><sub>𝑥<sub>𝑖</sub>,𝑦<sub>𝑖</sub>)∊𝑎𝑙𝑙-𝑠𝑎𝑚𝑝𝑙𝑒𝑠</sub>𝑘\[(𝑥<sub>𝑖</sub>,𝑦<sub>𝑖</sub>),(𝑥,𝑦)\]
+
+- 𝐏ˆ(𝑋=𝑥) = 1/\[ℎ·𝑛]・𝛴<sub>𝑥<sub>𝑖</sub>∊𝑎𝑙𝑙-𝑠𝑎𝑚𝑝𝑙𝑒𝑠</sub>𝑘(𝑥<sub>𝑖</sub>,𝑥)
+- 𝐏ˆ(𝑋=𝑥|𝑌=𝑦) = 1/\[ℎ·𝑐𝑜𝑢𝑛𝑡(𝑌=𝑦)]・𝛴<sub>(</sub><sub>𝑥<sub>𝑖</sub>,𝑦<sub>𝑖</sub>)∊𝑎𝑙𝑙-𝑠𝑎𝑚𝑝𝑙𝑒𝑠</sub>𝑘\[(𝑥<sub>𝑖</sub>,𝑦<sub>𝑖</sub>),(𝑥,𝑦)]
 
 where:
-- ℎ \> 0 - bandwidth
+
+- ℎ > 0 - bandwidth
 - 𝑘() - the [kernel function](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=15600863)
+
 ```merge-table
 {
   "rows": [
@@ -44,6 +46,7 @@ where:
   "tableStyle": "width: 60.6343%;"
 }
 ```
+
 # KDE/KDC - Types
 
 ```merge-table
@@ -84,5 +87,7 @@ where:
   ]
 }
 ```
+
 # KDE/KDC - Resources
+
 - [Justin Esarey - Kernel Density Estimation & Kernel Regression](https://www.youtube.com/watch?v=QSNN0no4dSI)

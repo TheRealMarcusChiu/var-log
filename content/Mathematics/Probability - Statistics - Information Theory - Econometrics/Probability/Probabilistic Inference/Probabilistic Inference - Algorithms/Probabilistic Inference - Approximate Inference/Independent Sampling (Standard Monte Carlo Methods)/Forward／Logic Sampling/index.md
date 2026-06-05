@@ -1,13 +1,15 @@
 ---
-title: "Forward／Logic Sampling"
+publish: true
+title: Forward／Logic Sampling
 created: 2021-09-13T05:28:15.587-05:00
 modified: 2025-09-28T14:51:37.687-05:00
-parent: "[[Independent Sampling (Standard Monte Carlo Methods)]]"
-children: []
 ---
+
 ###### Forward/Logic Sampling
+
 - a sampling technique used in [[Bayesian Networks (BN)|Bayesian Networks]]
 - a special case of [[Likelihood Weighting Sampling]] where that solves probability queries with no evidence
+
 ```
 forward-sample(𝓑) {
 	// 𝓑 is the bayesian network
@@ -17,12 +19,14 @@ forward-sample(𝓑) {
 }
 ```
 
-this process generates a sample particle. We can now estimate a conditional probability 𝐏(𝑸=𝒒) by using <em>forward-sample</em> 𝑛 times to generate a set of sample particles {⟨𝑠𝑎𝑚𝑝𝑙𝑒\[1\], ..., 𝑠𝑎𝑚𝑝𝑙𝑒\[𝑛\]}. We then estimate:
-- 𝐏(𝑸=𝒒) ≈ 𝐏ˆ(𝑸=𝒒) = <font style="color: rgb(0,128,0);"><strong>\[</strong>𝛴<sub>1≤𝑖≤𝑛</sub> 𝐼{𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖\] = 𝒒}<strong>\]</strong></font> / <font style="color: rgb(128,0,0);"><strong>\[</strong>𝑛<strong>\]</strong></font>
+this process generates a sample particle. We can now estimate a conditional probability 𝐏(𝑸=𝒒) by using <em>forward-sample</em> 𝑛 times to generate a set of sample particles {⟨𝑠𝑎𝑚𝑝𝑙𝑒\[1], ..., 𝑠𝑎𝑚𝑝𝑙𝑒\[𝑛]}. We then estimate:
+
+- 𝐏(𝑸=𝒒) ≈ 𝐏ˆ(𝑸=𝒒) = <font style="color: rgb(0,128,0);"><strong>\[</strong>𝛴<sub>1≤𝑖≤𝑛</sub> 𝐼{𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖] = 𝒒}<strong>]</strong></font> / <font style="color: rgb(128,0,0);"><strong>\[</strong>𝑛<strong>]</strong></font>
 
 where:
-- 𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖\] - is a subset of 𝑠𝑎𝑚𝑝𝑙𝑒\[𝑖\] that contains variables 𝑸
-- 𝐼{𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖\] = 𝒒}\] - is an [[Indicator Functions - Characteristic Functions - Membership Functions|indicator function]] that equals 1 when 𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖\] is assigned 𝒒
+
+- 𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖] - is a subset of 𝑠𝑎𝑚𝑝𝑙𝑒\[𝑖] that contains variables 𝑸
+- 𝐼{𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖] = 𝒒}] - is an [[Indicator Functions - Characteristic Functions - Membership Functions|indicator function]] that equals 1 when 𝑠𝑎𝑚𝑝𝑙𝑒<sub>𝑸</sub>\[𝑖] is assigned 𝒒
 
 # Solving Posterior Conditional Probability Query
 

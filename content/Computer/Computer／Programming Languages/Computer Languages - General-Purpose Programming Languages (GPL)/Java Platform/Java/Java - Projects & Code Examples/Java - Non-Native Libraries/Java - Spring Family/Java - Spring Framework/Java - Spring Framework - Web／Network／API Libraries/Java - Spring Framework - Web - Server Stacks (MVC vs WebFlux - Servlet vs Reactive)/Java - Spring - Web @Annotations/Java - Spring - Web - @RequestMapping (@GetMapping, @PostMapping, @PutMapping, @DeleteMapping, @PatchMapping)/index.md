@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - Web - @RequestMapping (@GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PatchMapping)"
+publish: true
+title: Java - Spring - Web - @RequestMapping (@GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PatchMapping)
 created: 2021-06-14T18:38:34.719-05:00
 modified: 2021-06-14T18:39:23.969-05:00
-parent: "[[Java - Spring - Web @Annotations]]"
-children: []
 ---
+
 Simply put, [<em>@RequestMapping</em>](https://www.baeldung.com/spring-requestmapping) marks request handler methods inside <code><font style="color: rgb(128,128,0);">@Controller</font></code> classes; it can be configured using:
+
 - <em>path,</em> or its aliases, <em>name,</em> and <em>value:</em> which URL the method is mapped to
 - <em>method:</em> compatible HTTP methods
 - <em>params:</em> filters requests based on presence, absence, or value of HTTP parameters
@@ -14,6 +15,7 @@ Simply put, [<em>@RequestMapping</em>](https://www.baeldung.com/spring-requestm
 - <em>produces:</em> which media types the method can produce in the HTTP response body
 
 Here's a quick example of what that looks like:
+
 ```
 @Controller
 class VehicleController {
@@ -28,6 +30,7 @@ class VehicleController {
 We can provide default settings for all handler methods in a <code><font style="color: rgb(128,128,0);">@Controller</font></code> class if we apply this annotation on the class level. The only exception is the URL which Spring won't override with method level settings but appends the two path parts.
 
 For example, the following configuration has the same effect as the one above:
+
 ```
 @Controller
 @RequestMapping(value = "/vehicles", method = RequestMethod.GET)

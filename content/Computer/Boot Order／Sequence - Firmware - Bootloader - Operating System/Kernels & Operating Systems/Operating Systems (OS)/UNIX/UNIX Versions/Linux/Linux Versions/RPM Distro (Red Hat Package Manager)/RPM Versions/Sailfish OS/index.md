@@ -1,14 +1,16 @@
 ---
-title: "Sailfish OS"
+publish: true
+title: Sailfish OS
 created: 2026-05-21T17:48:11.238-05:00
 modified: 2026-05-21T17:51:26.999-05:00
-parent: "[[RPM Versions]]"
-children: []
 ---
+
 ###### Sailfish OS
-````excerpt
+
+```excerpt
 - is a [[Desktop／Phone／Pad／TV／Watch Operating Systems (OS)|phone operating system]]
-````
+```
+
 ^excerpt
 
 # Features

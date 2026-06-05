@@ -1,10 +1,10 @@
 ---
-title: "Conditional Random Field (CRF) vs Linear Chain CRF"
+publish: true
+title: Conditional Random Field (CRF) vs Linear Chain CRF
 created: 2021-09-13T05:26:53.474-05:00
 modified: 2021-09-13T05:26:53.474-05:00
-parent: "[[PGM - Model Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

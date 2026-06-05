@@ -1,15 +1,16 @@
 ---
-title: "Express Web Server"
+publish: true
+title: Express Web Server
 created: 2019-03-15T16:14:23.549-05:00
 modified: 2020-06-29T16:05:15.259-05:00
-parent: "[[Node.js Packages]]"
-children: []
 ---
+
 <strong>Express</strong> is a minimal and flexible [[Node.js]] web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node based Web applications. Following are some of the core features of Express framework
+
 # Installation & Setup
 
 > [!expand]- Click here to expand...
-> [http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
+> <http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/>
 >
 > How to set up Express Web Server for the first time
 >

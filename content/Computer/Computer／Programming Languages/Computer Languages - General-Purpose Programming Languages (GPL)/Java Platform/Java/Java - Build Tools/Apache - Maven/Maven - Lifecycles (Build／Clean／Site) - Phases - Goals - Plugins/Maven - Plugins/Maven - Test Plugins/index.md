@@ -1,13 +1,10 @@
 ---
-title: "Maven - Test Plugins"
+publish: true
+title: Maven - Test Plugins
 created: 2020-12-06T13:20:47.782-06:00
 modified: 2021-03-21T22:39:21.572-05:00
-parent: "[[Maven - Plugins]]"
-children:
-  - "[[Maven - Failsafe Plugin]]"
-  - "[[Maven - JaCoCo Plugin]]"
-  - "[[Maven - Surefire Plugin]]"
 ---
+
 see: [[Java - Testing Frameworks]]
 
 ```merge-table

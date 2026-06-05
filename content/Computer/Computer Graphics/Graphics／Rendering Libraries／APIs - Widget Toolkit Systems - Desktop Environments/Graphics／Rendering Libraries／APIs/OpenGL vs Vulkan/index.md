@@ -1,10 +1,10 @@
 ---
-title: "OpenGL vs Vulkan"
+publish: true
+title: OpenGL vs Vulkan
 created: 2021-09-02T23:00:56.485-05:00
 modified: 2021-09-03T09:59:16.325-05:00
-parent: "[[Graphics／Rendering Libraries／APIs]]"
-children: []
 ---
+
 Vulkan is replacing OpenGL
 
 ```merge-table
@@ -48,8 +48,7 @@ Vulkan is replacing OpenGL
 }
 ```
 
-TL;DR: Choose your tool based on your requirements.
----
+## TL;DR: Choose your tool based on your requirements.
 
 To get another analogy consider "Assembly vs C++" for now.
 
@@ -59,8 +58,7 @@ If you're simply programming in Assembly because "It can be faster", then you'
 
 Compilers are able to keep a much broader overview, than what we're able to visualize in our brain. So while we might be able to optimize something better than a compiler. In the grand scheme of things, the compiler will do a better job.
 
-LuaJIT is mostly written in C, but have parts written in Assembly. Those parts are written in Assembly, because the performance increase was that much greater. The price was however that LuaJIT has to have Assembly written for each architecture they wanted to support.
----
+## LuaJIT is mostly written in C, but have parts written in Assembly. Those parts are written in Assembly, because the performance increase was that much greater. The price was however that LuaJIT has to have Assembly written for each architecture they wanted to support.
 
 <em>The bottom line is...</em>
 
@@ -68,8 +66,7 @@ If you aren't going to take advantage of what Vulkan has to offer. Whether you n
 
 Say you need a small program doing some menial task. Say that program took 500 lines in Python and 500ms to execute. Would you still want to make it in C++, even if it in contrast required 5000 lines, but instead took 300ms to execute? Even though you just gain 200ms at the cost of 4500 lines?
 
-Sure, in terms of computer graphics, then every millisecond counts. But if you're making 2D side scrolling game. Then would it be important if the difference was 100fps, but you already got 200fps with OpenGL?
----
+## Sure, in terms of computer graphics, then every millisecond counts. But if you're making 2D side scrolling game. Then would it be important if the difference was 100fps, but you already got 200fps with OpenGL?
 
 Games such as [Battlefield 1](https://www.youtube.com/watch?v=c7nRTF2SowQ), can definitely benefit from Vulkan while also having the need. (<em>They would also have the time and money needed to make that a reality.</em>)
 

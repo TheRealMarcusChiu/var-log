@@ -1,11 +1,12 @@
 ---
-title: "Distance Covariance／Covariation - Java Code"
+publish: true
+title: Distance Covariance／Covariation - Java Code
 created: 2023-07-27T18:11:16.000-05:00
 modified: 2023-07-27T18:11:53.990-05:00
-parent: "[[Distance Covariance／Covariation]]"
-children: []
 ---
+
 [[Java]] code calculating [[Distance Covariance／Covariation|distance covariation]]
+
 ```
     private static double distanceCovariance(double[] x, double[] y) {
         int numSamples = x.length;

@@ -1,18 +1,21 @@
 ---
-title: "Brain Communication Study - Human vs Monkeys"
+publish: true
+title: Brain Communication Study - Human vs Monkeys
 created: 2021-09-13T04:44:00.104-05:00
 modified: 2021-09-13T04:44:00.104-05:00
-parent: "[[Linguistics - Human vs Animals]]"
-children: []
 ---
+
 past research centered around structural differences between the brains of humans and primates—the hardware—while differences in function and communication—the software—remained a mystery
+
 ### Conversing at Varying Levels of Language
+
 - when you pose a question to a group of people with entry level language capabilities, their answer would be simple and consistent. They would say the same thing.
 - when you pose the same question to a group of people of fluent speakers, their answer would be complex, but would be less consistent
 
 ### Brain Communication Study
 
 measuring two key aspects of communication between neurons:
+
 - <strong>robustness</strong> - the degree to which different neurons express the same signal at the same time, which helps create a reliable message
 - <strong>efficiency</strong> - refers to neurons delivering more varied signaling patterns while using less energy, which helps cultivate rich, complex communication within the brain
 

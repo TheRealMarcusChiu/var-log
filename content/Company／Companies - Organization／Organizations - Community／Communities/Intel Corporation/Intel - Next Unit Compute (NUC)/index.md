@@ -1,18 +1,22 @@
 ---
-title: "Intel - Next Unit Compute (NUC)"
+publish: true
+title: Intel - Next Unit Compute (NUC)
 created: 2024-06-24T20:18:53.874-05:00
 modified: 2024-06-24T20:20:31.730-05:00
-parent: "[[Intel Corporation]]"
-children: []
 ---
+
 ###### NUC
-````excerpt
+
+```excerpt
 - discontinued
-````
+```
+
 ^excerpt
 
 # NUC - Decoder
-- from: [https://lamw.github.io/intel-nuc-decoder/](https://lamw.github.io/intel-nuc-decoder/)
+
+- from: <https://lamw.github.io/intel-nuc-decoder/>
+
 ```merge-table
 {
   "rows": [

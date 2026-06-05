@@ -1,10 +1,10 @@
 ---
-title: "Chomsky Hierarchy Extended"
+publish: true
+title: Chomsky Hierarchy Extended
 created: 2021-09-13T05:25:04.599-05:00
 modified: 2022-01-16T18:26:32.548-06:00
-parent: "[[Formal Grammar - Formal Language]]"
-children: []
 ---
+
 ````excerpt
 <strong>Chomsky hierarchy extended</strong> - an extension to [[Formal Grammars - Chomsky Hierarchy|Chomsky hierarchy]]
 
@@ -23,4 +23,5 @@ children: []
 }
 ```
 ````
+
 ^excerpt

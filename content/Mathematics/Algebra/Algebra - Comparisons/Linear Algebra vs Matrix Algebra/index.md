@@ -1,10 +1,10 @@
 ---
-title: "Linear Algebra vs Matrix Algebra"
+publish: true
+title: Linear Algebra vs Matrix Algebra
 created: 2023-06-10T13:16:32.813-05:00
 modified: 2023-06-10T13:44:00.530-05:00
-parent: "[[Algebra - Comparisons]]"
-children: []
 ---
+
 ###### [[Linear Algebra]] vs [[Matrix Theory - Matrix Algebra|Matrix Algebra]]
 
 A [[Matrix／Matrices|matrix]] is just a list of numbers, and you're allowed to add and multiply matrices by combining those numbers in a certain way. When you talk about matrices, you're allowed to talk about things like the entry in the 3rd row and 4th column, and so forth. In this setting, matrices are useful for representing things like transition probabilities in a Markov chain, where each entry indicates the probability of transitioning from one state to another. You can do lots of interesting numerical things with matrices, and these interesting numerical things are very important because matrices show up a lot in engineering and the sciences.

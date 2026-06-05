@@ -1,27 +1,22 @@
 ---
-title: "Shading／Shader Languages"
+publish: true
+title: Shading／Shader Languages
 created: 2021-09-03T19:42:49.996-05:00
 modified: 2023-05-04T09:24:51.604-05:00
-parent: "[[Computer Languages - Graphics & UI]]"
-children:
-  - "[[High Level Shading／Shader Language (HLSL)]]"
-  - "[[Metal Shading／Shader Language (MSL)]]"
-  - "[[OpenGL ES Shading Language (ESSL)]]"
-  - "[[OpenGL Shading／Shader Language (GLSL)]]"
-  - "[[SPIRV-Cross - Transpiling Shading／Shader Languages]]"
-  - "[[Standard Portable Intermediate Representation (SPIR-V)]]"
-  - "[[Three.js Shading Language (TSL)]]"
-  - "[[WebGPU Shading／Shader Language (WGSL)]]"
 ---
+
 ###### Shading/Shader Languages
-````excerpt
+
+```excerpt
 - is a [[Computer Languages - Graphics & UI|graphics programming language]] adapted to programming shader effects (characterizing surfaces, volumes, and objects)
 - such language forms usually consist of special data types, like "vector", "matrix", "color" and "normal"
 - the shader language world is fragmented, but every language here is similar enough to [[C]] that one can easily switch between them
-````
+```
+
 ^excerpt
 
 # What are Shaders
+
 - [[(Vertex - Fragment／Graphic／Pixel - Compute) Shaders|(Vertex - Fragment/Graphic/Pixel - Compute) Shaders]]
 
 # Shader Languages - Low Level
@@ -51,6 +46,7 @@ children:
   ]
 }
 ```
+
 # Shader Languages - High Level
 
 ```merge-table
@@ -106,6 +102,7 @@ children:
   ]
 }
 ```
+
 # Transpiling Between High-Level Shader Languages
 
 see: [[SPIRV-Cross - Transpiling Shading／Shader Languages|SPIRV-Cross - Transpiling Shading/Shader Languages]]

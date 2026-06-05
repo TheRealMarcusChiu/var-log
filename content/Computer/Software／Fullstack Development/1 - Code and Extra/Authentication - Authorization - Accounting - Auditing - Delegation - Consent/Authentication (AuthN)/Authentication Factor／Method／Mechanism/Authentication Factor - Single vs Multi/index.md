@@ -1,12 +1,10 @@
 ---
-title: "Authentication Factor - Single vs Multi"
+publish: true
+title: Authentication Factor - Single vs Multi
 created: 2022-09-21T23:27:59.911-05:00
 modified: 2022-09-21T23:28:47.216-05:00
-parent: "[[Authentication Factor／Method／Mechanism]]"
-children:
-  - "[[Multi-Factor Authentication (MFA)]]"
-  - "[[Single-Factor Authentication (SFA)]]"
 ---
+
 # Authentication Factor - Single or Multi
 
 ```merge-table

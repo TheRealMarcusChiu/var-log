@@ -1,14 +1,16 @@
 ---
-title: "Strategy Pattern"
+publish: true
+title: Strategy Pattern
 created: 2021-04-24T16:49:11.855-05:00
 modified: 2026-01-10T23:54:16.351-06:00
-parent: "[[Behavioral Design Patterns]]"
-children: []
 ---
+
 ###### Strategy Pattern
-````excerpt
+
+```excerpt
 - is a [[Behavioral Design Patterns|behavioral design pattern]] that lets you define a family of algorithms that "solve" the same thing, put each of them into a separate class, and make their objects interchangeable
-````
+```
+
 ^excerpt
 
 # Code Structure
@@ -24,7 +26,9 @@ children: []
   "tableStyle": "width: 60.2941%;"
 }
 ```
+
 # Example Implementation
+
 ```
 // 1. Define the interface of the algorithm
 interface Strategy {
@@ -62,6 +66,7 @@ public static void main( String[] args ) {
     }
 }
 ```
+
 # Comparisons to Other Design Patterns
 
 > [!expand]- Click here to expand...
@@ -74,6 +79,8 @@ public static void main( String[] args ) {
 > ![[Command Pattern vs Strategy Pattern#^excerpt]]
 >
 > ![[Strategy Pattern vs Template Method Pattern#^excerpt]]
+
 # Resources
-- [https://en.wikipedia.org/wiki/Strategy_pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
-- [https://sourcemaking.com/design_patterns/strategy](https://sourcemaking.com/design_patterns/strategy)
+
+- <https://en.wikipedia.org/wiki/Strategy_pattern>
+- <https://sourcemaking.com/design_patterns/strategy>

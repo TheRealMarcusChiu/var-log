@@ -1,11 +1,12 @@
 ---
-title: "WebGL - Tutorial 1 - Simple"
+publish: true
+title: WebGL - Tutorial 1 - Simple
 created: 2021-09-03T20:16:21.909-05:00
 modified: 2021-09-03T20:47:55.467-05:00
-parent: "[[WebGL - Tutorials]]"
-children: []
 ---
+
 # HTML
+
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +18,9 @@ children: []
 </body>
 </html>
 ```
+
 # Javascript
+
 ```js
 function main() {
   const canvas = document.querySelector("#glCanvas");

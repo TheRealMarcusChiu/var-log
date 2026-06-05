@@ -1,14 +1,16 @@
 ---
-title: "Java - WeakHashMap"
+publish: true
+title: Java - WeakHashMap
 created: 2022-06-05T22:31:57.815-05:00
 modified: 2022-06-05T22:34:41.092-05:00
-parent: "[[Java - Map (Associative Array)]]"
-children: []
 ---
+
 ###### WeakHashMap
+
 - TODO
 
 # Example Code
+
 ```
 WeakHashMap<UniqueImageName, BigImage> map = new WeakHashMap<>();
 
@@ -29,5 +31,7 @@ System.gc(); // garbage collect
 await().atMost(10, TimeUnit.SECONDS).until(() -> map.size() == 1);
 await().atMost(10, TimeUnit.SECONDS).until(() -> map.containsKey(imageName2));
 ```
+
 # Resources
-- [https://www.baeldung.com/java-weakhashmap](https://www.baeldung.com/java-weakhashmap)
+
+- <https://www.baeldung.com/java-weakhashmap>

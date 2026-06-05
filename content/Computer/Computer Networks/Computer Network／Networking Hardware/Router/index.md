@@ -1,13 +1,12 @@
 ---
-title: "Router"
+publish: true
+title: Router
 created: 2019-03-16T23:27:50.632-05:00
 modified: 2023-02-19T15:50:11.203-06:00
-parent: "[[Computer Network／Networking Hardware]]"
-children:
-  - "[[Router Firmware]]"
-  - "[[Router Hardware]]"
 ---
+
 ###### Router
+
 - is a network gateway device that connects two or more networks
 - routers usually operate at the [[3 - Network Layer|network layer]] of the [[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model|OSI model]]
 
@@ -35,12 +34,8 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 - [[Raspberry Pi - Router]]
 - [[Switch & Router Implementation|router implementation]]

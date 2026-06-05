@@ -1,14 +1,16 @@
 ---
-title: "RAM Timings (Column Address Strobe Latency (CL／CAS Latency) - RAS to CAS Delay (tRCD) - Row Precharge Time (tRP) - Active to Precharge Delay (tRAS))"
+publish: true
+title: RAM Timings (Column Address Strobe Latency (CL／CAS Latency) - RAS to CAS Delay (tRCD) - Row Precharge Time (tRP) - Active to Precharge Delay (tRAS))
 created: 2025-10-16T14:03:12.062-05:00
 modified: 2025-10-16T14:08:09.223-05:00
-parent: "[[Random-Access Memory (RAM)]]"
-children: []
 ---
+
 ###### RAM Timings & Latency
-````excerpt
+
+```excerpt
 - wth
-````
+```
+
 ^excerpt
 
 # Timings Explained
@@ -77,6 +79,7 @@ children: []
   ]
 }
 ```
+
 # Timings Example
 
 So for <strong>CL30-38-38-96</strong>, that means

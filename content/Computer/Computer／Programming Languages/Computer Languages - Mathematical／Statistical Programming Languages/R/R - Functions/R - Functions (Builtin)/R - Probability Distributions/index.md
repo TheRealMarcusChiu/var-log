@@ -1,12 +1,12 @@
 ---
-title: "R - Probability Distributions"
+publish: true
+title: R - Probability Distributions
 created: 2021-08-21T13:01:07.945-05:00
 modified: 2021-08-30T09:20:39.709-05:00
-parent: "[[R - Functions (Builtin)]]"
-children:
-  - "[[R - Uniform Distribution]]"
 ---
+
 # Probability Distributions
+
 [[Univariate Probability Distribution|univariate probability distributions]]
 
 ```merge-table
@@ -222,9 +222,5 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

@@ -1,10 +1,10 @@
 ---
-title: "Amtrak California Zephyr"
+publish: true
+title: Amtrak California Zephyr
 created: 2021-09-13T04:46:14.844-05:00
 modified: 2021-09-13T04:46:14.844-05:00
-parent: "[[Travel]]"
-children: []
 ---
+
 - Chicago
 - Omaha
 - Denver

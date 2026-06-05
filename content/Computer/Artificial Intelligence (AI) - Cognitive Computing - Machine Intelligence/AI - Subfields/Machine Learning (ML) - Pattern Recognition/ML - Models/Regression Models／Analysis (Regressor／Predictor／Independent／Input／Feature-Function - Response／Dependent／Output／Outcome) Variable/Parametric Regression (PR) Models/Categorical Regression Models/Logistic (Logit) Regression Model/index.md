@@ -1,19 +1,17 @@
 ---
-title: "Logistic (Logit) Regression Model"
+publish: true
+title: Logistic (Logit) Regression Model
 created: 2020-04-22T13:25:14.949-05:00
 modified: 2022-10-01T20:05:02.523-05:00
-parent: "[[Categorical Regression Models]]"
-children:
-  - "[[Binomial／Binary Logistic Regression (BLR)]]"
-  - "[[Multinomial／N-nary Logistic Regression (MLR)]]"
-  - "[[Ordinal Logistic Regression]]"
 ---
+
 ###### Logistic (Logit) Regression Model
+
 - is a [[ML - Generative／Joint vs Discriminative／Conditional Models|discriminative]]-typed [[ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)|supervised]] classification algorithm that models the relationship between:
-	- a single discrete/categorical response/dependent variable 𝑌 (for continuous/scalar use [[Ordinary Least Squares (OLS) Regression|linear regression]])
-	- one or more explanatory/predictor/covariate/independent variables {𝑋<sub>1</sub>, ..., 𝑋<sub>𝑘</sub>}. predictor variable types:
-		- continuous/scalar/numerical predictor
-		- discrete/categorical predictor - itself can be either bi/multi-[nominal or ordinal](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=330786)
+  - a single discrete/categorical response/dependent variable 𝑌 (for continuous/scalar use [[Ordinary Least Squares (OLS) Regression|linear regression]])
+  - one or more explanatory/predictor/covariate/independent variables {𝑋<sub>1</sub>, ..., 𝑋<sub>𝑘</sub>}. predictor variable types:
+    - continuous/scalar/numerical predictor
+    - discrete/categorical predictor - itself can be either bi/multi-[nominal or ordinal](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=330786)
 - unlike [[Ordinary Least Squares (OLS) Regression|linear regression]] which outputs continuous number values, logistic regression transforms its output using the [[Logistic Function - Sigmoid Function (Standard Logistic Function)|logistic sigmoid function]] to return a [[Probability|probability]] value which can then be mapped to two or more discrete classes
 
 # Logistic Regression - Types
@@ -57,7 +55,9 @@ children:
   ]
 }
 ```
+
 # Logistic Regression - Other
+
 - [[Conditional Random Field (CRF) vs Logistic Regression Model]]
 - [[Naive Bayes Model vs Bayes Model vs Logistic Regression Model|Logistic Regression Model vs Naive Bayes Model vs Bayes Model]]
 - [[Logistic Regression Model vs Sequential Maximum Entropy Markov Model (MEMM)|Logistic Regression Model vs Maximum Entropy Markov Model]]

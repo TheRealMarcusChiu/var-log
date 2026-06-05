@@ -1,23 +1,23 @@
 ---
-title: "Differential Equations (DE) - Ordinary Differential Equations (ODEs) - Partial Differential Equations (PDEs)"
+publish: true
+title: Differential Equations (DE) - Ordinary Differential Equations (ODEs) - Partial Differential Equations (PDEs)
 created: 2021-09-13T05:25:07.827-05:00
 modified: 2025-10-01T11:29:00.284-05:00
-parent: "[[Calculus]]"
-children:
-  - "[[DE - Stable - Unstable - Meta／Semi Stable]]"
-  - "[[First-Order Differential Equations]]"
-  - "[[Second-Order Differential Equations]]"
 ---
+
 ###### Differential Equation (DE)
-````excerpt
+
+```excerpt
 - is an equation that relates one or more functions and their derivatives
 - is an equation with a function and one or more of its derivatives
 - <strong>Ordinary Differential Equations (ODEs)</strong> - deal with derivatives of a function with respect to a single independent variable
 - <strong> Partial Differential Equations (PDEs)</strong> - involve [[Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)|partial derivatives]] of a function with respect to multiple independent variables
-````
+```
+
 ^excerpt
 
 # DE - Tutorials
+
 - [Sal Khan's Series](https://www.khanacademy.org/math/differential-equations)
 - [3Brown1Blue](https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6)
 
@@ -33,19 +33,22 @@ The problem is to find an equation 𝑦(𝑡) or set of equations that satisfy t
 The solution is a class of functions of the form:
 
 > [!indent]
-> 𝑦(𝑡) = 𝑎·𝑒<sup>𝑟𝑡</sup><font style="color: rgb(128,128,128);">\# where 𝑎 can be any scalar value</font>
+> 𝑦(𝑡) = 𝑎·𝑒<sup>𝑟𝑡</sup><font style="color: rgb(128,128,128);"># where 𝑎 can be any scalar value</font>
 
 The differential equation above is of type <em>First-Order Linear Constant Coefficient Homogenous Differential Equation</em>.
 There are several other types as shown below.
 But there is no magic bullet to solve all Differential Equations
+
 # DE - Types
 
 dimensions:
+
 - <strong>order</strong> (1<sup>st</sup>-Order, 2<sup>nd</sup>-Order, ..., N<sup>th</sup>-Order)
 - <strong>linearity</strong> (linear or non-linear) - a differential equation is linear if the equation is a linear combination of {𝑦, 𝑦', ..., 𝑦<sup>(𝑛)</sup>}
 - <strong>separability</strong> (separable or non-separable) - a differential equation is separable the following 2 conditions are met:
-	- all the (𝑑𝑦 & 𝑦)'s can be moved to one side of the differential equation
-	- all the (𝑑𝑥 & 𝑥)'s can be moved to another side of the differential equation
+  - all the (𝑑𝑦 & 𝑦)'s can be moved to one side of the differential equation
+  - all the (𝑑𝑥 & 𝑥)'s can be moved to another side of the differential equation
+
 ```merge-table
 {
   "rows": [
@@ -94,6 +97,7 @@ dimensions:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # DE - Methods to Solve Differential Equations
 
 Below is from[Physics Students Need to Know These 5 Methods for Differential Equations](https://www.youtube.com/watch?v=0kY3Wpvutfs)
@@ -152,9 +156,5 @@ Below is from[Physics Students Need to Know These 5 Methods for Differential Equ
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # DE - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

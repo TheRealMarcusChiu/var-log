@@ -1,15 +1,17 @@
 ---
-title: "Residual Connections - Residual Networks (ResNet)"
+publish: true
+title: Residual Connections - Residual Networks (ResNet)
 created: 2024-09-28T16:30:48.339-05:00
 modified: 2024-09-29T11:03:40.841-05:00
-parent: "[[ANN - Layer Types]]"
-children: []
 ---
+
 ###### Residual Connections - Residual Networks (ResNet)
-````excerpt
+
+```excerpt
 - helps solve the [[Vanishing Gradient Problem|vanishing gradient problem]]
 - can train networks of up to 1000 layers
-````
+```
+
 ^excerpt
 
 # General Idea
@@ -45,12 +47,17 @@ children: []
   ]
 }
 ```
+
 # ResNet Block
-![[Residual Connections - Residual Networks (ResNet)/resnet-block.png]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Layer Types/Residual Connections - Residual Networks (ResNet)/resnet-block.png]]
+
 # ResNet Block Variants
-![[Residual Connections - Residual Networks (ResNet)/resnet-block-variants.png]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Layer Types/Residual Connections - Residual Networks (ResNet)/resnet-block-variants.png]]
+
 # What if Input and Output are Not the Same?
 
 Add a linear layer to reshape.
 
-![[Residual Connections - Residual Networks (ResNet)/residual-connections-differing-input-output-sizes.png|110]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Layer Types/Residual Connections - Residual Networks (ResNet)/residual-connections-differing-input-output-sizes.png|110]]

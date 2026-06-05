@@ -1,11 +1,12 @@
 ---
-title: "Current Workout Routine"
+publish: true
+title: Current Workout Routine
 created: 2026-05-01T16:34:14.194-05:00
 modified: 2026-05-31T20:41:35.264-05:00
-parent: "[[Enter Workout]]"
-children: []
 ---
+
 <strong>10 Things That Actually Matter in the Gym 💪</strong>
+
 1. Stop switching so early
 2. Progressive overload is king
 3. Intensity beats optimal
@@ -20,6 +21,7 @@ children: []
 <strong>Days 1 and 2</strong> have been adjusted for <strong>Power/Strength</strong>, focusing on heavy compound movements with lower rep ranges (5–8) and longer rest periods.
 
 <strong>Days 5 and 6</strong> have been adjusted for <strong>Hypertrophy/Metabolic Stress</strong>, focusing on higher rep ranges (12–20+), constant tension, and shorter rest periods to maximize the "pump."
+
 # Day 1: Push (Upper Chest & Strength)
 
 <em>Focus: Heavy loads, explosive concentric, controlled eccentric.</em>
@@ -112,6 +114,7 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Day 2: Pull (Lat Width & Strength)
 
 <em>Focus: Heavy pulling, full range of motion, grip strength.</em>
@@ -204,6 +207,7 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Day 3: Shoulders + Arms (High ROI Day)
 
 ```merge-table
@@ -294,6 +298,7 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Day 4: Legs (Foundation)
 
 ```merge-table
@@ -366,6 +371,7 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Day 5: Push (Chest + Shoulder Hypertrophy)
 
 <em>Focus: Muscle fiber exhaustion, high volume, short rest (60s).</em>
@@ -458,6 +464,7 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Day 6: Pull (Back + Arms Hypertrophy)
 
 <em>Focus: Mind-muscle connection, blood flow, 45-60s rest.</em>

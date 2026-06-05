@@ -1,16 +1,18 @@
 ---
-title: "Verb (Tense & Aspect)"
+publish: true
+title: Verb (Tense & Aspect)
 created: 2021-09-13T04:44:05.418-05:00
 modified: 2022-06-25T17:47:36.819-05:00
-parent: "[[Verbs]]"
-children: []
 ---
+
 # Tense & Aspect Chart
+
 - <strong><strong>simple/indefinite aspect</strong></strong> - verb expresses a fact
-	- does not make it clear whether the action is complete or habitual
+  - does not make it clear whether the action is complete or habitual
 - <strong><strong>perfect/perfective/complete aspect</strong></strong> - verb expresses a completed action
 - <strong>progressive/continuous aspect</strong> - verb expresses a habitual/continuous action
 - <strong>perfect progressive aspect</strong> - verb expresses the end of an ongoing action
+
 ```merge-table
 {
   "rows": [

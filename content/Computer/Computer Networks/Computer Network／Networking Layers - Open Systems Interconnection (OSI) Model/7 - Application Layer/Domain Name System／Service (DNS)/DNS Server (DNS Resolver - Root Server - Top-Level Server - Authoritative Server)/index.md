@@ -1,22 +1,20 @@
 ---
-title: "DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)"
+publish: true
+title: DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)
 created: 2019-03-16T22:57:39.201-05:00
 modified: 2026-05-24T20:10:53.925-05:00
-parent: "[[Domain Name System／Service (DNS)]]"
-children:
-  - "[[CoreDNS]]"
-  - "[[OpenDNS]]"
-  - "[[bind9 - Berkley Internet Naming Domain／Daemon (BIND)]]"
-  - "[[dnsmasq]]"
-  - "[[unbound]]"
 ---
+
 <strong>DNS Servers</strong> contains [[DNS Resource Records／Entries (DNS RR)|DNS Records]]
+
 # DNS Server Types
+
 - <strong>DNS Resolver</strong> - answers [[DNS Query (Lookup - Recursive - Iterative - Non-Recursive)|DNS queries]] by querying the High-Level Domain Servers and Authoritative Name Servers itself
 - <strong>High-Level Domain Servers</strong> - define which DNS Server is the Authoritative Name Server for a specific [[Host Name ／ Hostname - Domain Name - Fully Qualified Domain Name (FQDN) - Absolute Domain Name (ADN) - Partially Qualified Domain Name (PQDN) - Relative Domain Name (RDN)|hostname/domain name]]
-	- <strong>Root Domain Servers</strong> -
-	- <strong>Top-Level Domain Servers</strong> -
+  - <strong>Root Domain Servers</strong> -
+  - <strong>Top-Level Domain Servers</strong> -
 - <strong>Authoritative Name Servers (Name Server)</strong> - holds the up-to-date information for that hostname/domain name
+
 ```merge-table
 {
   "rows": [
@@ -64,9 +62,11 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # How a DNS Query Resolves
 
 The DNS Resolver is pre-configured with a set of 13 root server IP addresses which are permanently assigned. The resolving process for “[example.com](http://example.com)” would be as follows:
+
 1. DNS Resolver randomly selects one root server from the pre-configured root servers list and queries it.
 2. the Root Servers only maintain list of top level domain (TLD) with NS records. So, the response for the query will list out NS records for “com” TLD.
 3. the Resolver will read the NS records from the response and randomly pick one and repeat the same query.
@@ -75,14 +75,11 @@ The DNS Resolver is pre-configured with a set of 13 root server IP addresses whi
 6. The “[example.com](http://example.com)” DNS server which is hosting the zone will have the IP address configured for the zone as A record and will return the record as the final response.
 
 # Server Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # DNS Domain Servers Hierarchy
-![[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)/protocol-hostname-domainname-tld-file-path.png|360]]![[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)/dns-schema.png|301]]
+
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/7 - Application Layer/Domain Name System／Service (DNS)/DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)/protocol-hostname-domainname-tld-file-path.png|360]]![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/7 - Application Layer/Domain Name System／Service (DNS)/DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)/dns-schema.png|301]]
+
 # DNS Query Types
 
 ```merge-table

@@ -1,10 +1,10 @@
 ---
-title: "Generations of Hardware"
+publish: true
+title: Generations of Hardware
 created: 2021-07-25T12:12:18.679-05:00
 modified: 2025-10-30T16:51:40.179-05:00
-parent: "[[Computer Hardware]]"
-children: []
 ---
+
 # 5 Generations of Hardware
 
 ```merge-table
@@ -54,5 +54,7 @@ children: []
   "tableStyle": "width: 72.9478%;"
 }
 ```
+
 # Related
+
 - [[Generations of Software]]

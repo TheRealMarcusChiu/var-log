@@ -1,32 +1,36 @@
 ---
-title: "Nucleotides"
+publish: true
+title: Nucleotides
 created: 2021-09-13T04:45:46.311-05:00
 modified: 2021-09-13T04:45:46.311-05:00
-parent: "[[Biological Molecules & Compounds]]"
-children:
-  - "[[Polynucleotide]]"
 ---
+
 ### <strong>[[Biological Molecules & Compounds|Monomers]]</strong>
+
 - <strong>[[Nucleotides|nucleotides]]</strong> are monomers and comes in 2 varieties:
-	- deoxyribo nucleotide
-	- ribo nucleotide
+  - deoxyribo nucleotide
+  - ribo nucleotide
 
 ### [[Biological Molecules & Compounds|Polymers/Macromolecules]]
+
 - <strong>[[Polynucleotide|polynucleotide]]/<strong>nucleic acid</strong></strong> are polymers/macromolecules made out of <strong>nucleotides</strong> and comes in 2 varieties:
-	- deoxyribonucleic acid (DNA)
-	- ribonucleic acid (RNA)
+  - deoxyribonucleic acid (DNA)
+  - ribonucleic acid (RNA)
 
 ---
 
 <strong>Nucleotides</strong>
 
 each nucleotide is made up of 3 parts:
+
 - a [[Nucleotides|nitrogenous base]]
 - a [[Nucleotides|five-carbon sugar]]
 - at least one [[Nucleotides|phosphate group]]
 
-![[Nucleotides/nucleotides.png|375x250]]
+![[Science/Organic Chemistry/Biological Molecules & Compounds/Nucleotides/nucleotides.png|375x250]]
+
 ### Nitrogenous Base
+
 it's called a base because the nitrogens can be protonated (pick up an extra H<sup>+</sup> ion), which decreases the hydrogen ion concentration in a solution
 
 there are 5 possible nitrogenous bases
@@ -91,11 +95,14 @@ there are 5 possible nitrogenous bases
 }
 ```
 
-![[Nucleotides/nucleotides nitrogenbase.png|301]]
+![[Science/Organic Chemistry/Biological Molecules & Compounds/Nucleotides/nucleotides nitrogenbase.png|301]]
+
 ### Five-Carbon Sugar
+
 In addition to having slightly different sets of bases, DNA and RNA nucleotides also have slightly different sugars. The five-carbon sugar in DNA is called <strong>deoxyribose</strong>, while in RNA, the sugar is <strong>ribose</strong>. These two are very similar in structure, with just one difference: the second carbon of ribose bears a hydroxyl group, while the equivalent carbon of deoxyribose has a hydrogen instead. The carbon atoms of a nucleotide’s sugar molecule are numbered as 1′, 2′, 3′, 4′, and 5′ (1′ is read as “one prime”), as shown in the figure above. In a nucleotide, the sugar occupies a central position, with the base attached to its 1′ carbon and the phosphate group (or groups) attached to its 5′ carbon.
 
-![[Nucleotides/nucleotides sugar.png|300x301]]
+![[Science/Organic Chemistry/Biological Molecules & Compounds/Nucleotides/nucleotides sugar.png|300x301]]
+
 ### Phosphate Group
 
 Nucleotides may have a single [[Functional Groups|phosphate functional group]], or a chain of up to three phosphate groups, attached to the 5’ carbon of the sugar. Some chemistry sources use the term “nucleotide” only for the single-phosphate case, but in molecular biology, the broader definition is generally accepted

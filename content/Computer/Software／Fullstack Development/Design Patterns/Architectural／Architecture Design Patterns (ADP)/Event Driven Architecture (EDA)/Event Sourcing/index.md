@@ -1,13 +1,13 @@
 ---
-title: "Event Sourcing"
+publish: true
+title: Event Sourcing
 created: 2019-03-15T00:10:31.157-05:00
 modified: 2019-03-15T00:22:13.791-05:00
-parent: "[[Event Driven Architecture (EDA)]]"
-children: []
 ---
+
 from the site [http://eventuate.io](http://eventuate.io/)
 
-![[Event Sourcing/event-sourcing.png|569x250]]![[Event Sourcing/event-sourcing-2.png|488x250]]
+![[Computer/Software／Fullstack Development/Design Patterns/Architectural／Architecture Design Patterns (ADP)/Event Driven Architecture (EDA)/Event Sourcing/event-sourcing.png|569x250]]![[Computer/Software／Fullstack Development/Design Patterns/Architectural／Architecture Design Patterns (ADP)/Event Driven Architecture (EDA)/Event Sourcing/event-sourcing-2.png|488x250]]
 
 <strong>Context</strong>
 
@@ -18,6 +18,7 @@ You have applied the Saga pattern. In order to be reliable, services must atomic
 How to reliably/atomically publish events whenever state changes?
 
 <strong>Forces</strong>
+
 - 2PC is not an option
 
 <strong>Solution</strong>
@@ -37,6 +38,7 @@ The following diagram shows how it persist orders.
 Instead of simply storing the current state of each order as a row in an ORDERS table, the application persists each Order as a sequence of events. The CustomerService can subscribe to the order events and update its own state.
 
 Here is the Order aggregate:
+
 ```java
 public class Order extends ReflectiveMutableCommandProcessingAggregate<\Order, OrderCommand> {
  
@@ -70,6 +72,7 @@ public class Order extends ReflectiveMutableCommandProcessingAggregate<\Order, O
 ```
 
 Here is an example of an event handler in the CustomerService that subscribes to Order events:
+
 ```java
 @EventSubscriber(id = "customerWorkflow")
 public class CustomerWorkflow {
@@ -93,6 +96,7 @@ There are several example applications that illustrate how to use event sourcing
 <strong>Resulting context</strong>
 
 Event sourcing has several benefits:
+
 - It solves one of the key problems in implementing an event-driven architecture and makes it possible to reliably publish events whenever state changes.
 - Because it persists events rather than domain objects, it mostly avoids the object relational impedance mismatch problem.
 - It provides a 100% reliable audit log of the changes made to a business entity
@@ -100,15 +104,18 @@ Event sourcing has several benefits:
 - Event sourcing-based business logic consists of loosely coupled business entities that exchange events. This makes it a lot easier to migrate from a monolithic application to a microservice architecture.
 
 Event sourcing also has several drawbacks:
+
 - It is a different and unfamiliar style of programming and so there is a learning curve.
 - The event store is difficult to query since it requires typical queries to reconstruct the state of the business entities. That is likely to be complex and inefficient. As a result, the application must use Command Query Responsibility Segregation (CQRS) to implement queries. This in turn means that applications must handle eventually consistent data.
 
 <strong>Related patterns</strong>
+
 - The Saga pattern creates the need for this pattern.
 - The CQRS is often used with event sourcing.
 - Event sourcing implements the Audit logging pattern.
 
 <strong>See also</strong>
+
 - Eventuate, which is a platform for developing applications with Event Sourcing and CQRS
 - Articles about event sourcing and CQRS
 - How Eventuate implements snapshots

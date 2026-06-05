@@ -1,15 +1,12 @@
 ---
-title: "Capacity and／or Flow Assignment Problems"
+publish: true
+title: Capacity and／or Flow Assignment Problems
 created: 2021-09-13T05:25:18.387-05:00
 modified: 2021-09-13T05:25:18.387-05:00
-parent: "[[Graph Theory]]"
-children:
-  - "[[Capacity Assignment Problem]]"
-  - "[[Combined Capacity and Flow Assignment Problem]]"
-  - "[[Flow Assignment／Routing Problem]]"
-  - "[[Network Wide Mean Delay]]"
 ---
+
 consider network design problems in which the link capacities are also to be dimensioned and the flows of traffic are to be routed
+
 ### Variants of The Problem
 
 ```merge-table
@@ -43,7 +40,9 @@ consider network design problems in which the link capacities are also to be dim
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 ### Heuristic Algorithms For Capacity and/or Flow Assignment
+
 - branch exchange algorithm
 - cut saturation algorithm
 - routing with economies of scale

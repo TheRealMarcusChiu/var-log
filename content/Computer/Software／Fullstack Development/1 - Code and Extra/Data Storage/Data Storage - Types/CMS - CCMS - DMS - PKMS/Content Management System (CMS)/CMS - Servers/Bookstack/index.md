@@ -1,25 +1,30 @@
 ---
-title: "Bookstack"
+publish: true
+title: Bookstack
 created: 2025-06-01T17:46:24.924-05:00
 modified: 2025-06-01T20:07:22.078-05:00
-parent: "[[CMS - Servers]]"
-children: []
 ---
+
 ###### Bookstack
-````excerpt
+
+```excerpt
 - like an open-source version of [[Confluence]]
 - it uses the ideas of books to organize pages and store information
 - unfortunately [does not support multi sub level content](https://github.com/BookStackApp/BookStack/issues/95)
-````
+```
+
 ^excerpt
 
 # Screenshot
-![[Bookstack/bookstack.png|900]]
+
+![[Computer/Software／Fullstack Development/1 - Code and Extra/Data Storage/Data Storage - Types/CMS - CCMS - DMS - PKMS/Content Management System (CMS)/CMS - Servers/Bookstack/bookstack.png|900]]
+
 # Installation
 
-based on: [https://www.bookstackapp.com/docs/admin/installation/](https://www.bookstackapp.com/docs/admin/installation/)
+based on: <https://www.bookstackapp.com/docs/admin/installation/>
 
 > [!expand-ui]- Ubuntu 24.04
+>
 > ```
 > # Ensure you have read the above information about what this script does before executing these commands.
 >
@@ -34,6 +39,7 @@ based on: [https://www.bookstackapp.com/docs/admin/installation/](https://www.bo
 > ```
 >
 > Installation output:
+>
 > ```
 > This script installs a new BookStack instance on a fresh Ubuntu 24.04 server.
 > This script does not ensure system security.
@@ -64,5 +70,7 @@ based on: [https://www.bookstackapp.com/docs/admin/installation/](https://www.bo
 > - Install script log: /home/marcuschiu/bookstack_install_1748817943.log
 > ---------------------------------------------------------------
 > ```
+
 # Resources
+
 - [https://www.bookstackapp.com/docs](https://www.bookstackapp.com/docs/admin/installation/)

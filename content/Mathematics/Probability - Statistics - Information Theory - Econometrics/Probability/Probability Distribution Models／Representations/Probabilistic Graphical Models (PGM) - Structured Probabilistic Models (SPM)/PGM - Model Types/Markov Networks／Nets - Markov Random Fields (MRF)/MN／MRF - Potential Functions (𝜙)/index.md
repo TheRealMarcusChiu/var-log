@@ -1,10 +1,10 @@
 ---
-title: "MN／MRF - Potential Functions (𝜙)"
+publish: true
+title: MN／MRF - Potential Functions (𝜙)
 created: 2021-09-13T05:26:49.076-05:00
 modified: 2026-05-24T19:53:14.773-05:00
-parent: "[[Markov Networks／Nets - Markov Random Fields (MRF)]]"
-children: []
 ---
+
 ````excerpt
 rather than specifying [[Conditional Probability Table (CPT)|conditional probability tables (CPTs)]] like in [[Bayesian Networks (BN)|Bayesian Networks]], Markov Networks specifies (non-negative) <strong>potential functions </strong>or <strong>factors</strong> (𝜙) over sets of variables associated with each [[Graph Theory - Terminology|clique]] of the graph. Like CPTs, potential functions can be represented as a table, but it is not necessarily normalized
 
@@ -136,4 +136,5 @@ assuming each variable are boolean valued
 }
 ```
 ````
+
 ^excerpt

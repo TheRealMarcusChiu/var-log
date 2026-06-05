@@ -1,14 +1,15 @@
 ---
-title: "Custom Resource Definition - Example"
+publish: true
+title: Custom Resource Definition - Example
 created: 2025-01-19T23:13:56.150-06:00
 modified: 2025-01-19T23:28:38.423-06:00
-parent: "[[Kubernetes - Custom Resource Definition (CRD)]]"
-children: []
 ---
+
 > [!expand-ui]- Creating a CustomResourceDefinition
 > When you create a new CustomResourceDefinition (CRD), the Kubernetes API Server creates a new RESTful resource path for each version you specify.
 >
 > For example, if you save the following CustomResourceDefinition:
+>
 > ```
 > apiVersion: apiextensions.k8s.io/v1
 > kind: CustomResourceDefinition
@@ -53,11 +54,13 @@ children: []
 > ```
 >
 > and create it:
+>
 > ```
 > kubectl create -f my-custom-resource-definition.yaml
 > ```
 >
 > Then a new namespaced RESTful API endpoint is created at:
+>
 > ```
 > /apis/stable.example.com/v1/namespaces/*/crontabs/...
 > ```
@@ -68,6 +71,7 @@ children: []
 
 > [!expand-ui]- Creating a Custom Object
 > After the CustomResourceDefinition object has been created, you can create custom objects.
+>
 > ```
 > apiVersion: "stable.example.com/v1"
 > kind: CronTab
@@ -79,26 +83,31 @@ children: []
 > ```
 >
 > and create it:
+>
 > ```
 > kubectl apply -f my-crontab.yaml
 > ```
 >
 > You can then manage your CronTab objects using kubectl. For example:
+>
 > ```
 > kubectl get crontab
 > ```
 >
 > You could also view raw YAML
+>
 > ```
 > kubectl get ct -o yaml
 > ```
 
 > [!expand-ui]- Deleting a CustomResourceDefinition
 > When you delete a CustomResourceDefinition, the server will uninstall the RESTful API endpoint and delete all custom objects stored in it.
+>
 > ```
 > kubectl delete -f resourcedefinition.yaml
 > kubectl get crontabs
 > ```
+>
 > ```
 > Error from server (NotFound): Unable to list {"stable.example.com" "v1" "crontabs"}: the server could not
 > find the requested resource (get crontabs.stable.example.com)
@@ -107,15 +116,17 @@ children: []
 > If you later recreate the same CustomResourceDefinition, it will start out empty.
 
 > [!expand-ui]- Specifying a Structural Schema
-> [https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#specifying-a-structural-schema](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#specifying-a-structural-schema)
+> <https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#specifying-a-structural-schema>
 
 > [!expand-ui]- Field Pruning
-> [https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#field-pruning](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#field-pruning)
+> <https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#field-pruning>
 
 > [!expand-ui]- Controling Pruning
-> [https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#controlling-pruning](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#controlling-pruning)
+> <https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#controlling-pruning>
 
 > [!expand-ui]- Advanced Topics
-> [https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#advanced-topics](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#advanced-topics)
+> <https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#advanced-topics>
+
 # Resources
+
 - [https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#advanced-topics)

@@ -1,11 +1,12 @@
 ---
-title: "Derivative of Exponential Function (a^x and e^x)"
+publish: true
+title: Derivative of Exponential Function (a^x and e^x)
 created: 2021-11-19T06:25:20.494-06:00
 modified: 2023-08-27T23:47:53.943-05:00
-parent: "[[Differential／Derivative Calculus - Examples]]"
-children: []
 ---
+
 ###### Derivative of [[Power／Exponential Function|Power/Exponential Function]]
+
 - derivative of 𝑎<sup>𝑥</sup> is 𝑎<sup>𝑥</sup>·𝑙𝑛(𝑎), where 𝑎 is a constant
 - derivative of 𝑒<sup>𝑥</sup> is 𝑒<sup>𝑥</sup>·𝑙𝑛(𝑒)=𝑒<sup>𝑥</sup>, where 𝑒 is [[number e (Euler's number)|Euler's number]]
 

@@ -1,21 +1,23 @@
 ---
-title: "International Phonetic Alphabet (IPA)"
+publish: true
+title: International Phonetic Alphabet (IPA)
 created: 2021-09-13T04:43:48.089-05:00
 modified: 2024-01-09T01:42:04.129-06:00
-parent: "[[Languages (Human／Natural Languages)]]"
-children:
-  - "[[Places of Articulation]]"
 ---
+
 ###### International Phonetic Alphabet (IPA)
-````excerpt
+
+```excerpt
 - is an alphabetic system of phonetic notation based primarily on the [[Latin Alphabet (Roman Alphabet)|Latin alphabet]]
-````
+```
+
 ^excerpt
 
 # Sounds
-- [https://www.ipachart.com/](https://www.ipachart.com/)
-- IPA to Speech [https://www.antvaset.com/ipa-to-speech](https://www.antvaset.com/ipa-to-speech)
-- pronunciation with visuals [https://www.youtube.com/@GlossikaPhonics](https://www.youtube.com/@GlossikaPhonics)
+
+- <https://www.ipachart.com/>
+- IPA to Speech <https://www.antvaset.com/ipa-to-speech>
+- pronunciation with visuals <https://www.youtube.com/@GlossikaPhonics>
 
 # Consonants
 
@@ -711,9 +713,5 @@ children:
   "tableStyle": "width: 88.8235%;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

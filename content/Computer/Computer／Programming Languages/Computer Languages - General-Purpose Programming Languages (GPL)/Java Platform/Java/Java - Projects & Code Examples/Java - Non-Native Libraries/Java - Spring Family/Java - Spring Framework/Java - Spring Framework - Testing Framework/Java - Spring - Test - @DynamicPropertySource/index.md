@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - Test - @DynamicPropertySource"
+publish: true
+title: Java - Spring - Test - @DynamicPropertySource
 created: 2021-05-12T20:11:01.139-05:00
 modified: 2021-05-12T20:13:44.573-05:00
-parent: "[[Java - Spring Framework - Testing Framework]]"
-children: []
 ---
+
 # 1 - Code
+
 ```
 @Data
 @Component
@@ -14,6 +15,7 @@ public class PropertyUsingComponent {
 	private String stringOne;
 }
 ```
+
 ```
 @SpringBootTest
 class DynamicPropertySourceExampleTest {
@@ -42,6 +44,8 @@ class DynamicPropertySourceExampleTest {
     }
 }
 ```
+
 # 2 - Resources
-- article: [https://www.baeldung.com/spring-dynamicpropertysource](https://www.baeldung.com/spring-dynamicpropertysource)
-- code: [https://github.com/SpringBootMarcusChiu/test-framework-example-boot-2.2.11.git](https://github.com/SpringBootMarcusChiu/test-framework-example-boot-2.2.11.git)
+
+- article: <https://www.baeldung.com/spring-dynamicpropertysource>
+- code: <https://github.com/SpringBootMarcusChiu/test-framework-example-boot-2.2.11.git>

@@ -1,12 +1,14 @@
 ---
-title: "ILP - Ways Structuring Problem"
+publish: true
+title: ILP - Ways Structuring Problem
 created: 2021-09-13T05:26:15.431-05:00
 modified: 2021-09-13T05:26:15.431-05:00
-parent: "[[Integer／Discrete Linear Programming／Optimization (ILP)]]"
-children: []
 ---
+
 very similar to [[LP - Ways Structuring Problem|LP Structure]]
+
 ### General ILP Formulation
+
 - <strong>objective function:</strong>
   Z = c<sub>1</sub>x<sub>1</sub>+ c<sub>2</sub>x<sub>2</sub>+ ... + c<sub>n</sub>x<sub>n</sub>
 - <strong>linear constraints:</strong>

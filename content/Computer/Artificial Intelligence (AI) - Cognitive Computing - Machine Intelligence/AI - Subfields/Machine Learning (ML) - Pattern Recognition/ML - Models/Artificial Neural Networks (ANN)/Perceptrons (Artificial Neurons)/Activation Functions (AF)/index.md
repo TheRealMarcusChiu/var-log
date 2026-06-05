@@ -1,37 +1,32 @@
 ---
-title: "Activation Functions (AF)"
+publish: true
+title: Activation Functions (AF)
 created: 2020-01-18T14:15:27.180-06:00
 modified: 2024-08-14T23:12:18.012-05:00
-parent: "[[Perceptrons (Artificial Neurons)]]"
-children:
-  - "[[Linear Activation Function]]"
-  - "[[LogSigmoid Activation Function]]"
-  - "[[Maxout Unit Activation Function]]"
-  - "[[Rectified Linear Unit (ReLU) Activation Function]]"
-  - "[[Sigmoid Activation Function]]"
-  - "[[Softmax Activation Function]]"
-  - "[[Tanh Activation Function]]"
 ---
+
 A [[Perceptrons (Artificial Neurons)|perceptron]] contains 2 phases:
+
 1. <strong>weighted sum function</strong> (ideally linear) - calculate a “weighted sum” of its input and its bias/constant
 2. <strong>activation function</strong> (ideally non-linear) - then decide whether it should be “fired” or not
-	1. synonymous to [[ANN - Non-Linear Layer|non-linear layer]]
+   1. synonymous to [[ANN - Non-Linear Layer|non-linear layer]]
 
 # Weighted Sum Function
+
 - outputs a 𝑧 value ranging from (-∞ to +∞)
 - doesn't have a builtin mechanism whether to fire the perceptron or not, this is why we have activation functions
 
 example weighted sum function
 
 > [!indent]
-> 𝑧 = \[𝛴<sub>1≤𝑖≤𝑛</sub>(𝑤𝑒𝑖𝑔ℎ𝑡<sub>𝑖</sub>\* 𝑖𝑛𝑝𝑢𝑡<sub>𝑖</sub>)\] + \[𝑤𝑒𝑖𝑔ℎ𝑡<sub>0</sub> \* 𝑏𝑖𝑎𝑠/𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡\]
-> 𝑧 = \[𝛴<sub>1≤𝑖≤𝑛</sub>(𝑤<sub>𝑖</sub>\* 𝑥<sub>𝑖</sub>)\] + \[𝑤<sub>0</sub> \* 𝑥<sub>0</sub>\]
-> 𝑧 = \[𝛴<sub>0≤𝑖≤𝑛</sub>(𝑤<sub>𝑖</sub>\* 𝑥<sub>𝑖</sub>)\]
+> 𝑧 = \[𝛴<sub>1≤𝑖≤𝑛</sub>(𝑤𝑒𝑖𝑔ℎ𝑡<sub>𝑖</sub>\* 𝑖𝑛𝑝𝑢𝑡<sub>𝑖</sub>)] + \[𝑤𝑒𝑖𝑔ℎ𝑡<sub>0</sub> \* 𝑏𝑖𝑎𝑠/𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡]
+> 𝑧 = \[𝛴<sub>1≤𝑖≤𝑛</sub>(𝑤<sub>𝑖</sub>\* 𝑥<sub>𝑖</sub>)] + \[𝑤<sub>0</sub> \* 𝑥<sub>0</sub>]
+> 𝑧 = \[𝛴<sub>0≤𝑖≤𝑛</sub>(𝑤<sub>𝑖</sub>\* 𝑥<sub>𝑖</sub>)]
 > 𝑧 = 𝑤<sup>𝑇</sup>𝑥
 
 # Independent Activation Functions
 
-![[Activation Functions (AF)/perceptron.png|400]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/Perceptrons (Artificial Neurons)/Activation Functions (AF)/perceptron.png|400]]
 
 there are various types of activation functions each with there pros and cons
 
@@ -129,6 +124,7 @@ there are various types of activation functions each with there pros and cons
   "tableStyle": "width: 99.0494%;"
 }
 ```
+
 # Dependent Activation Functions
 
 ```merge-table
@@ -169,12 +165,9 @@ there are various types of activation functions each with there pros and cons
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Activation Functions Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Activation Functions (AF) - Comparisons]].file.folder + "/" + [[Activation Functions (AF) - Comparisons]].file.name
-```
 
 # Resources
-- [Imperial's Deep learning course: Activation Functions](https://www.youtube.com/watch?v=KQFDxhySz_M&list=PLut9dwe1z0dDOlSikFHe-HH4O3uxETj4m&index=13)
+
+- [Imperial's Deep learning course: Activation Functions](https://www.youtube.com/watch?v=KQFDxhySz_M\&list=PLut9dwe1z0dDOlSikFHe-HH4O3uxETj4m\&index=13)

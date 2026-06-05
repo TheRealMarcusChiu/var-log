@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - AOP - Determine whether method was invoked by @Scheduled"
+publish: true
+title: Java - Spring - AOP - Determine whether method was invoked by @Scheduled
 created: 2020-12-21T22:45:04.715-06:00
 modified: 2020-12-21T22:47:34.313-06:00
-parent: "[[Java - Spring Framework - Core - AOP Frameworks (AspectJ - Spring AOP)]]"
-children: []
 ---
-see: [https://stackoverflow.com/questions/65397019/spring-aop-determine-whether-method-was-invoked-by-scheduled/65402730#65402730](https://stackoverflow.com/questions/65397019/spring-aop-determine-whether-method-was-invoked-by-scheduled/65402730#65402730)
+
+see: <https://stackoverflow.com/questions/65397019/spring-aop-determine-whether-method-was-invoked-by-scheduled/65402730#65402730>
+
 ```
 package de.scrum_master.spring.q65397019;
 
@@ -15,6 +16,7 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MyAnnotation {}
 ```
+
 ```
 package de.scrum_master.spring.q65397019;
 
@@ -42,6 +44,7 @@ public class MyAspect {
   }
 }
 ```
+
 ```
 package de.scrum_master.spring.q65397019;
 
@@ -57,6 +60,7 @@ public class MyComponent {
   public void doSomething() {}
 }
 ```
+
 ```
 package de.scrum_master.spring.q65397019;
 
@@ -88,6 +92,7 @@ public class DemoApplication {
 ```
 
 this will print something like
+
 ```
 (...)
 2020-12-22 10:00:59.372  INFO 1620 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'

@@ -1,26 +1,17 @@
 ---
-title: "Random-Access Memory (RAM)"
+publish: true
+title: Random-Access Memory (RAM)
 created: 2019-08-27T13:34:02.386-05:00
 modified: 2026-04-30T01:05:57.668-05:00
-parent: "[[Semiconductor／Silicon／Transistor Memory／Storage]]"
-children:
-  - "[[1：1 Mode (Gear1 Mode - \"UCLK DIV1 Mode\" on \"UCLK==MEMCLK\") vs 1：2 Mode (Gear2 Mode)]]"
-  - "[[Direct Memory Access (DMA)]]"
-  - "[[Error-Correcting Codes (ECC)]]"
-  - "[[Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)]]"
-  - "[[RAM Slot Layout (Daisy Chain vs T-Topology)]]"
-  - "[[RAM Timings (Column Address Strobe Latency (CL／CAS Latency) - RAS to CAS Delay (tRCD) - Row Precharge Time (tRP) - Active to Precharge Delay (tRAS))]]"
-  - "[[RAM Types]]"
-  - "[[RAM／Memory (Ranks vs Channels vs x4／x8／x16)]]"
-  - "[[RDIMM - UDIMM - LRDIMM - MRDIMM]]"
-  - "[[SIMM - DIMM - SO-DIMM - RIMM]]"
-  - "[[Single Data Rate (SDR) - Double Data Rate (DDR)]]"
 ---
+
 ###### Random-Access Memory (RAM)
-````excerpt
+
+```excerpt
 - is a type of [[Semiconductor／Silicon／Transistor Memory／Storage|semiconductor memory]]
 - sometimes synonymous to [[Primary／Main／Physical Computer Memory／Storage|primary/main/physical memory]] when referred as [[Dynamic RAM (DRAM)|DRAM]]
-````
+```
+
 ^excerpt
 
 # RAM - Types
@@ -60,6 +51,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # RAM - Classifications
 
 ```merge-table
@@ -129,19 +121,16 @@ children:
 ```
 
 <strong>PC</strong> - is the memory module
+
 - <strong>PC2</strong> - indicates the module uses DDR2 memory
 - <strong>PC3</strong> - indicates the module uses DDR3 memory
 - <strong>PC4</strong> - indicates the module uses DDR4 memory
 - <strong>PC5</strong> - indicates the module uses DDR5 memory
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Resources
-- [https://forum-en.msi.com/index.php?threads/ram-explained-why-two-modules-are-better-than-four-single-vs-dual-rank-stability-testing.363139/](https://forum-en.msi.com/index.php?threads/ram-explained-why-two-modules-are-better-than-four-single-vs-dual-rank-stability-testing.363139/)
+
+- <https://forum-en.msi.com/index.php?threads/ram-explained-why-two-modules-are-better-than-four-single-vs-dual-rank-stability-testing.363139/>
 
 ![](https://www.youtube.com/watch?v=PVad0c2cljo)![](https://www.youtube.com/watch?v=7J7X7aZvMXQ)

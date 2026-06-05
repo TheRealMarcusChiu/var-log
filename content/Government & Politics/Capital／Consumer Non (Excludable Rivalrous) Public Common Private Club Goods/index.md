@@ -1,18 +1,21 @@
 ---
-title: "Capital／Consumer Non (Excludable Rivalrous) Public Common Private Club Goods"
+publish: true
+title: Capital／Consumer Non (Excludable Rivalrous) Public Common Private Club Goods
 created: 2022-03-01T04:29:24.839-06:00
 modified: 2022-03-01T04:37:09.212-06:00
-parent: "[[Government & Politics]]"
-children: []
 ---
+
 # Capital Goods
 
 Capital Goods are goods that produce other goods, rather than being bought by consumers
+
 # Consumer Goods
 
 Consumer Goods are goods that are bought by consumers
+
 - <strong>excludable</strong> - you can prevent consumers who haven't paid from accessing it
 - <strong>rivalrous</strong> - if someone consumes a good, it prevents someone else from consuming it
+
 ```merge-table
 {
   "rows": [

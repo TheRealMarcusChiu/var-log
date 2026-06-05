@@ -1,15 +1,10 @@
 ---
-title: "LR - Methods Estimating Unknown Regression Coefficients"
+publish: true
+title: LR - Methods Estimating Unknown Regression Coefficients
 created: 2020-06-09T13:33:41.151-05:00
 modified: 2023-09-05T15:31:33.086-05:00
-parent: "[[Linear Regression (LR) Models]]"
-children:
-  - "[[LR - Methods Estimating Unknown Coefficients - MAP (Bayesian Linear Regression)]]"
-  - "[[LR - Methods Estimating Unknown Coefficients - MLE]]"
-  - "[[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Gradient Descent)]]"
-  - "[[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Projection Matrix - Normal Equation - Pseudoinverse)]]"
-  - "[[LR - Methods Estimating Unknown Coefficients - Newton-Raphson (N-R) Technique]]"
 ---
+
 ````excerpt
 [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|Methods estimating unknown coefficients {𝜃0, ..., 𝜃𝑘}]] of 𝐄\[𝑌|𝑋<sub>1</sub>=𝑥<sub>1</sub>, ..., 𝑋<sub>𝑘</sub>=𝑥<sub>𝑘</sub>\] = ℎ(𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>) = 𝑦̂ = 𝜃<sub>0</sub>+ 𝜃<sub>1</sub>𝑓<sub>1</sub>(𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>) + ... + 𝜃<sub>𝑘</sub>𝑓<sub>𝑘</sub>(𝑥<sub>1</sub>, ..., 𝑥<sub>𝑘</sub>)
 
@@ -68,4 +63,5 @@ children:
 }
 ```
 ````
+
 ^excerpt

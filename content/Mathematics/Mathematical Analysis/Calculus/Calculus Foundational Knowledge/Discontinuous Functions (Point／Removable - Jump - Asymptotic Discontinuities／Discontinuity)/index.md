@@ -1,14 +1,16 @@
 ---
-title: "Discontinuous Functions (Point／Removable - Jump - Asymptotic Discontinuities／Discontinuity)"
+publish: true
+title: Discontinuous Functions (Point／Removable - Jump - Asymptotic Discontinuities／Discontinuity)
 created: 2023-08-09T17:04:46.922-05:00
 modified: 2023-08-09T17:11:38.400-05:00
-parent: "[[Calculus Foundational Knowledge]]"
-children: []
 ---
+
 ###### Discontinuous Functions
-````excerpt
+
+```excerpt
 - are functions that are NOT [[Continuous Functions (continuous at a point - continuous over／on an interval - continuous everywhere／over／on the entire domain)|continuous]]
-````
+```
+
 ^excerpt
 
 # Discontinuity Types

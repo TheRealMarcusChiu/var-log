@@ -1,10 +1,10 @@
 ---
-title: "Java - Versions"
+publish: true
+title: Java - Versions
 created: 2026-05-10T21:57:06.573-05:00
 modified: 2026-05-10T21:59:27.015-05:00
-parent: "[[Java]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

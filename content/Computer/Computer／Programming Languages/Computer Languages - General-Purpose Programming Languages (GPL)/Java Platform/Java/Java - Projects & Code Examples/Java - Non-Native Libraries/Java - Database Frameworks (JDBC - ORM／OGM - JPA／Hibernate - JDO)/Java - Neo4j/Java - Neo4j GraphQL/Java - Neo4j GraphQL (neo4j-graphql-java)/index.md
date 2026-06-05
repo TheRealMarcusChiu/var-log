@@ -1,13 +1,14 @@
 ---
-title: "Java - Neo4j GraphQL (neo4j-graphql-java)"
+publish: true
+title: Java - Neo4j GraphQL (neo4j-graphql-java)
 created: 2021-10-10T22:22:49.376-05:00
 modified: 2021-10-10T22:23:12.302-05:00
-parent: "[[Java - Neo4j GraphQL]]"
-children: []
 ---
+
 # Dependency
 
-GitHub: [https://github.com/neo4j-graphql/neo4j-graphql-java](https://github.com/neo4j-graphql/neo4j-graphql-java)
+GitHub: <https://github.com/neo4j-graphql/neo4j-graphql-java>
+
 ```
 <dependency>
 	<groupId>org.neo4j</groupId>
@@ -15,7 +16,9 @@ GitHub: [https://github.com/neo4j-graphql/neo4j-graphql-java](https://github.com
 	<version>1.4.0</version>
 </dependency>
 ```
+
 # Simple Setup
+
 ```java
 import graphql.schema.GraphQLSchema;
 import org.neo4j.graphql.*;

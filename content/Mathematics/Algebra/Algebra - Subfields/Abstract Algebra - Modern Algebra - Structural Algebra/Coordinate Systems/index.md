@@ -1,19 +1,16 @@
 ---
-title: "Coordinate Systems"
+publish: true
+title: Coordinate Systems
 created: 2021-09-13T05:29:37.069-05:00
 modified: 2025-05-27T12:28:33.987-05:00
-parent: "[[Abstract Algebra - Modern Algebra - Structural Algebra]]"
-children:
-  - "[[Cartesian Coordinate System]]"
-  - "[[Cylindrical Coordinate System]]"
-  - "[[Local Coordinate System]]"
-  - "[[Polar Coordinate System]]"
-  - "[[Spherical Coordinate System]]"
 ---
+
 ###### Coordinate System
-````excerpt
+
+```excerpt
 - a system that uses one or more [[Numbers Classes／Classification of Numbers|numbers]] (i.e. coordinates) to uniquely determine the position of (points or other geometric elements) on a [[Manifolds (n-Dimensional Manifold (n-Manifold)|manifold]] such as [[Euclidean Vector Spaces - Euclidean Spaces|Euclidean Space]]
-````
+```
+
 ^excerpt
 
 # Coordinate System - Number of Dimensions
@@ -54,5 +51,7 @@ children:
   ]
 }
 ```
+
 # Coordinate System - Others
+
 - [[Local Coordinate System]]

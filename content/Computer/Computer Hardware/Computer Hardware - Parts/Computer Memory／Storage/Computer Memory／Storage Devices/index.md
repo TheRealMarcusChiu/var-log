@@ -1,16 +1,12 @@
 ---
-title: "Computer Memory／Storage Devices"
+publish: true
+title: Computer Memory／Storage Devices
 created: 2019-03-15T01:46:07.749-05:00
 modified: 2026-05-30T23:29:35.567-05:00
-parent: "[[Computer Memory／Storage]]"
-children:
-  - "[[Computer Memory／Storage Companies (Samsung - Micron - SK Hynix - Kingston - G.Skill - Corsair - TeamGroup - Crucial - OLOy - Adata)]]"
-  - "[[Hard Disk Drives (HDD) - Fixed Disk]]"
-  - "[[Hybrid Hard Drives (HHD) - Solid-State Hybrid Drives (SSHD)]]"
-  - "[[Secure Digital (SD) Card]]"
-  - "[[Solid State Drives (SSD)]]"
 ---
+
 ###### Computer Memory/Storage Devices
+
 - is the implementation of one or more computer storage mediums
 
 # Computer Memory/Storage Devices - List
@@ -92,6 +88,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Computer Memory/Storage Devices - Network-Based
 
 ```merge-table

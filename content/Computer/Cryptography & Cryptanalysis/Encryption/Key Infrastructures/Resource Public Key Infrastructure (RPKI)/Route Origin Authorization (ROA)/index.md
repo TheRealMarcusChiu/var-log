@@ -1,16 +1,17 @@
 ---
-title: "Route Origin Authorization (ROA)"
+publish: true
+title: Route Origin Authorization (ROA)
 created: 2019-11-22T14:26:29.773-06:00
 modified: 2022-11-26T02:56:21.073-06:00
-parent: "[[Resource Public Key Infrastructure (RPKI)]]"
-children:
-  - "[[ROA - Examples]]"
 ---
+
 ###### Route Origin Authorization (ROA)
-````excerpt
+
+```excerpt
 - signed document mapping a certain network-prefix to a specific [AS](http://confluence.marcuschiu.com/display/NOT/Autonomous+System+%28AS%29+-+Domain)
 - is a cryptographically signed object that states which [Autonomous System (AS)](http://confluence.marcuschiu.com/display/NOT/Autonomous+System+%28AS%29+-+Domain) is authorized to originate a certain prefix
-````
+```
+
 ^excerpt
 
 # ROA Components
@@ -55,6 +56,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # ROA Examples
 
 refer to: [[ROA - Examples]]

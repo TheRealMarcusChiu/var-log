@@ -1,20 +1,21 @@
 ---
-title: "Causality (Necessary - Sufficient - Contributory)"
+publish: true
+title: Causality (Necessary - Sufficient - Contributory)
 created: 2021-09-13T04:44:23.870-05:00
 modified: 2025-10-11T12:15:36.690-05:00
-parent: "[[Logic]]"
-children:
-  - "[[Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws]]"
-  - "[[Retrocausality - Reverse／Backwards Causality／Causation]]"
 ---
+
 ###### Causality
-````excerpt
+
+```excerpt
 - causality is efficacy, by which one process or state, a cause, contributes to the production of another process or state, an effect, where the cause is partly responsible for the effect, and the effect is partly dependent on the cause
 - "we should not confuse relationships & laws with causes" \~ [VSauce](https://youtu.be/_WHRWLnVm_M?t=395)
-````
+```
+
 ^excerpt
 
 # Causality Types
+
 - <strong>Deterministic Causality</strong> - if 𝐴 causes 𝐵, then 𝐴 must always be followed by 𝐵 ([[Deterministic CPD]])
 - <strong>Non-Deterministic Causality</strong> - if 𝐴 causes 𝐵, then 𝐴 is followed by 𝐵 with some [[Probability|probability]] ([[Conditional Probability Distribution (CPD)|Conditional Probability Distribution]])
 
@@ -67,9 +68,5 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

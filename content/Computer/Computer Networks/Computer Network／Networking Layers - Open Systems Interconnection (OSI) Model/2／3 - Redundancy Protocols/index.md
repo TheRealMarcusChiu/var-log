@@ -1,16 +1,17 @@
 ---
-title: "2／3 - Redundancy Protocols"
+publish: true
+title: 2／3 - Redundancy Protocols
 created: 2025-08-27T13:38:51.561-05:00
 modified: 2025-08-27T13:45:54.106-05:00
-parent: "[[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model]]"
-children:
-  - "[[Virtual Router Redundancy Protocol (VRRP)]]"
 ---
+
 ###### Redundancy Protocols
-````excerpt
+
+```excerpt
 - are designed to ensure high availability for network devices or services, usually by providing backup paths or failover mechanisms
 - most operate at [[2 - Data Link Layer|Layer 2]] or [[3 - Network Layer|Layer 3]]
-````
+```
+
 ^excerpt
 
 # Spanning Tree Protocols (STP/RSTP/MSTP)
@@ -64,6 +65,7 @@ These operate at Layer 2 to provide loop-free redundant paths in Ethernet networ
   ]
 }
 ```
+
 # Link Aggregation / NIC Teaming
 
 Provides redundant links for bandwidth and failover.
@@ -107,6 +109,7 @@ Provides redundant links for bandwidth and failover.
   ]
 }
 ```
+
 # First Hop Redundancy Protocols (FHRP)
 
 These provide a highly available default gateway.

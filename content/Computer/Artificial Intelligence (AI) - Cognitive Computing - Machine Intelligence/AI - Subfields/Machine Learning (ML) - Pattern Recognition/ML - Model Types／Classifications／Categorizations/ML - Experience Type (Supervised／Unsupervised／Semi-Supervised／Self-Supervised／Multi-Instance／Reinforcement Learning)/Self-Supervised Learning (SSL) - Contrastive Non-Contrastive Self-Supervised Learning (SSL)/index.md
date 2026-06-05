@@ -1,15 +1,17 @@
 ---
-title: "Self-Supervised Learning (SSL) - Contrastive Non-Contrastive Self-Supervised Learning (SSL)"
+publish: true
+title: Self-Supervised Learning (SSL) - Contrastive Non-Contrastive Self-Supervised Learning (SSL)
 created: 2022-06-25T19:14:26.910-05:00
 modified: 2026-01-04T12:06:14.449-06:00
-parent: "[[ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)]]"
-children: []
 ---
+
 ###### Self-Supervised Learning (SSL) - Contrastive Non-Contrastive Self-Supervised Learning (SSL)
-````excerpt
+
+```excerpt
 - learns from unlabeled sample data
 - usually considered as a subset of [[Unsupervised Learning|unsupervised learning]]
-````
+```
+
 ^excerpt
 
 # SSL - Types
@@ -37,5 +39,7 @@ For a binary classification task, training data can be divided into positive exa
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # SSL - Use Cases
+
 - [[Contrastive Reinforcement Learning (CRL)]]

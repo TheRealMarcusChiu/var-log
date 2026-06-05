@@ -1,11 +1,10 @@
 ---
-title: "Java - Spring - Running Logic on Startup - ApplicationRunner & CommandLineRunner"
+publish: true
+title: Java - Spring - Running Logic on Startup - ApplicationRunner & CommandLineRunner
 created: 2020-10-19T22:55:37.340-05:00
 modified: 2021-06-15T17:15:35.502-05:00
-parent: "[[Java - Spring - Running Logic on Startup]]"
-children:
-  - "[[Prevent ApplicationRunner or CommandLineRunner From Executing During Junit Testing]]"
 ---
+
 # 1 - Differences
 
 ```merge-table
@@ -55,10 +54,12 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # 2 - Code Examples
+
 > [!tabs]
 >
-> === ApplicationRunner
+> \=== ApplicationRunner
 >
 > ```
 > @Component
@@ -71,7 +72,7 @@ children:
 > }
 > ```
 >
-> === CommandLineRunner
+> \=== CommandLineRunner
 >
 > ```
 > @Component
@@ -85,8 +86,3 @@ children:
 > ```
 
 # 3 - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

@@ -1,11 +1,12 @@
 ---
-title: "Windows Batch - Virus"
+publish: true
+title: Windows Batch - Virus
 created: 2019-03-15T16:58:38.873-05:00
 modified: 2019-03-15T16:59:46.372-05:00
-parent: "[[Windows Batch]]"
-children: []
 ---
+
 VirusBeginner.bat
+
 ```
 @echo off
 shutdown -s -t 30 -c "shutting down"
@@ -13,6 +14,7 @@ pause
 ```
 
 VirusPrank.vbs
+
 ```
 X=MsgBox("Error while opening computer. Do you want to fix this?",3+64,"Computer")
  

@@ -1,12 +1,12 @@
 ---
-title: "Entity-Relationship Model (ERM) - Entity-Relationship Diagram (ERD)"
+publish: true
+title: Entity-Relationship Model (ERM) - Entity-Relationship Diagram (ERD)
 created: 2020-11-26T21:39:25.241-06:00
 modified: 2022-01-24T18:16:26.212-06:00
-parent: "[[Model vs Diagram]]"
-children:
-  - "[[ERD Crow's Foot Notation]]"
 ---
+
 Both are used to represent interrelated things of interest (entities) in a specific domain of knowledge
+
 - <strong>Entity-Relationship Model (ERM)</strong> - was introduced by Peter Chen in 1976 (see [first](http://bit.csc.lsu.edu/~chen/pdf/erd-5-pages.pdf) and [second](http://bit.csc.lsu.edu/~chen/pdf/Chen_Pioneers.pdf) articles)
 - <strong>Entity-Relationship Diagram (ERD)</strong> - is a type of [[Model vs Diagram|diagram]] used to represent ERM (e.g. [[Data Models (Conceptual - Logical - Physical) Data Models|Data Models]])
 

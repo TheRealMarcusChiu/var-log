@@ -1,15 +1,17 @@
 ---
-title: "JavaScript - Promise"
+publish: true
+title: JavaScript - Promise
 created: 2019-12-18T15:54:04.377-06:00
 modified: 2022-02-14T20:18:50.933-06:00
-parent: "[[JavaScript - Native]]"
-children: []
 ---
+
 Promises are an abstraction of the flow of program execution which can be summed up as follows:
+
 - Asker: Whenever you're done doing what you're doing, would you call me back?
 - Answerer: Sure thing, I <strong>promise</strong>
 
 A JavaScript Promise can be:
+
 - <strong>fulfilled</strong> - the action relating to the promise succeeded
 - <strong>rejected</strong> - the action relating to the promise failed
 - <strong>pending</strong> - hasn't been fulfilled or rejected yet
@@ -18,6 +20,7 @@ A JavaScript Promise can be:
 # Simple Promise
 
 > [!expand]- Click here to expand...
+>
 > ```js
 > function simple_promise(random_message) {
 >   return new Promise(function(resolve, reject) {
@@ -31,6 +34,7 @@ A JavaScript Promise can be:
 > ```
 >
 > using it
+>
 > ```js
 > simple_promise('hello marcus').then(function(response) {
 >     console.log("PROMISE SUCCESS!", response);
@@ -38,9 +42,11 @@ A JavaScript Promise can be:
 >     console.error("PROMISE FAILED!", error);
 > });
 > ```
+
 # Complex Promise - Promisfying an XMLHttpRequest
 
 > [!expand]- Click here to expand...
+>
 > ```js
 > function get(url) {
 >   // Return a new promise.
@@ -75,6 +81,7 @@ A JavaScript Promise can be:
 > ```
 >
 > using it
+>
 > ```js
 > get('/web/fundamentals/primers/promises').then(function(response) {
 >     console.log("SUCCESS!", response);
@@ -82,10 +89,12 @@ A JavaScript Promise can be:
 >     console.error("FAILED!", error);
 > });
 > ```
+
 # Sugar Coating Error Handling
 
 > [!expand]- Click here to expand...
 > instead of
+>
 > ```js
 > simple_promise('hello marcus').then(function(response) {
 >     console.log("PROMISE SUCCESS!", response);
@@ -95,6 +104,7 @@ A JavaScript Promise can be:
 > ```
 >
 > you can do this
+>
 > ```js
 > simple_promise('hello marcus').then(function(response) {
 >     console.log("PROMISE SUCCESS!", response);
@@ -102,10 +112,12 @@ A JavaScript Promise can be:
 >     console.error("PROMISE FAILED!", error);
 > });
 > ```
+
 # Chaining then()'s
 
 > [!expand]- transforming values
 > transforming values
+>
 > ```
 > var promise = new Promise(function(resolve, reject) {
 >   resolve(1);
@@ -120,6 +132,7 @@ A JavaScript Promise can be:
 > ```
 
 > [!expand]- chaining multiple async things back-to-back
+>
 > ```
 > asyncThing1().then(function() {
 >   return asyncThing2();
@@ -140,4 +153,4 @@ A JavaScript Promise can be:
 >
 > flow chart
 >
-> ![[JavaScript - Promise/promise-chaining-async-with-catch.jpg|350]]
+> ![[Computer/Computer／Programming Languages/Computer Languages - Web Programming/JavaScript/JavaScript - Native - V8 Engine - Web／Browser APIs/JavaScript - Native/JavaScript - Promise/promise-chaining-async-with-catch.jpg|350]]

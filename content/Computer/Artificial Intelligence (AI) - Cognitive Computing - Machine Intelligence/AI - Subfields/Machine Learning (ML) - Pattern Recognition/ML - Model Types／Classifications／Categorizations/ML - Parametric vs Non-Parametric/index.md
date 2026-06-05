@@ -1,10 +1,10 @@
 ---
-title: "ML - Parametric vs Non-Parametric"
+publish: true
+title: ML - Parametric vs Non-Parametric
 created: 2019-08-21T23:01:29.592-05:00
 modified: 2021-08-14T15:53:36.752-05:00
-parent: "[[ML - Model Types／Classifications／Categorizations]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

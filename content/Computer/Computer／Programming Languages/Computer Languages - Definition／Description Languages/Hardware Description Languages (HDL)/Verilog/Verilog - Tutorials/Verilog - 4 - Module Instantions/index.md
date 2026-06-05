@@ -1,11 +1,12 @@
 ---
-title: "Verilog - 4 - Module Instantions"
+publish: true
+title: Verilog - 4 - Module Instantions
 created: 2023-03-13T14:44:42.829-05:00
 modified: 2023-03-13T14:57:11.760-05:00
-parent: "[[Verilog - Tutorials]]"
-children: []
 ---
+
 # Port Connection by Ordered List
+
 ```
 module mydesign(input x, y, z,
 				output o);
@@ -21,7 +22,9 @@ module root;
 									// c is at position 4 so it is connected to o
 endmodule
 ```
+
 # Port Connect by Name
+
 ```
 module mydesign(input x, y, z,
 				output o);
@@ -37,9 +40,11 @@ module root;
 				 .o(c));
 endmodule
 ```
+
 # Unconnected/Floating Ports
 
 ports that are not connected to any wire in the instantiating module will have a value of high-impedance
+
 ```
 module mydesign(input x, y, z,
 				output o);

@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - HTTP - YAML HttpMessageConverters"
+publish: true
+title: Java - Spring - HTTP - YAML HttpMessageConverters
 created: 2022-01-29T00:21:40.241-06:00
 modified: 2022-01-29T00:24:13.371-06:00
-parent: "[[Java - Spring Framework - Web - HTTP - HttpMessageConverters]]"
-children: []
 ---
+
 # Dependencies
+
 ```xml
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -23,9 +24,11 @@ children: []
 			<version>2.13.1</version>
 		</dependency>
 ```
+
 # Configuration
 
 Spring
+
 ```java
 @Configuration
 public class YamlConfiguration implements WebMvcConfigurer {
@@ -44,6 +47,7 @@ public class YamlConfiguration implements WebMvcConfigurer {
 ```
 
 Spring Boot
+
 ```java
 @Component
 public class YamlJackson2HttpMessageConverter extends AbstractJackson2HttpMessageConverter {
@@ -52,7 +56,9 @@ public class YamlJackson2HttpMessageConverter extends AbstractJackson2HttpMessag
     }
 }
 ```
+
 # Controller Example
+
 ```java
 @RestController
 @RequestMapping("/")

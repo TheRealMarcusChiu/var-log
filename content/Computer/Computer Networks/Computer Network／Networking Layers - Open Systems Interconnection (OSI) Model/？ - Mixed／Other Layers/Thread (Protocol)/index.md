@@ -1,15 +1,17 @@
 ---
-title: "Thread (Protocol)"
+publish: true
+title: Thread (Protocol)
 created: 2026-05-27T10:58:42.549-05:00
 modified: 2026-05-27T11:46:44.717-05:00
-parent: "[[？ - Mixed／Other Layers]]"
-children: []
 ---
+
 ###### Thread (Protocol)
-````excerpt
+
+```excerpt
 - doesn't fit into a single layer; it is a protocol stack that occupies the bottom layers of the OSI model (i.e. layers 1 to 4)
 - it is designed to be "[[7 - Application Layer|application-layer]] agnostic," meaning it doesn't define what the application does (like controlling a light or a thermostat), but rather how the data gets from point A to point B
-````
+```
+
 ^excerpt
 
 # How Thread maps to the OSI model
@@ -67,5 +69,7 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Other
+
 - [[Smart Home Automation - Network／Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)|Smart Home Automation - Network/Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)]]

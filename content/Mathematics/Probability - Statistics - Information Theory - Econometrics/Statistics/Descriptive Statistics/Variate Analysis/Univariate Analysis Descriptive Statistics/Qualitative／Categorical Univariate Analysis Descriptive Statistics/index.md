@@ -1,17 +1,18 @@
 ---
-title: "Qualitative／Categorical Univariate Analysis Descriptive Statistics"
+publish: true
+title: Qualitative／Categorical Univariate Analysis Descriptive Statistics
 created: 2021-09-13T05:28:45.829-05:00
 modified: 2021-09-13T05:28:45.829-05:00
-parent: "[[Univariate Analysis Descriptive Statistics]]"
-children:
-  - "[[Proportion]]"
 ---
+
 ###### Qualitative/Categorical Univariate Analysis Descriptive Statistics
+
 - a type of [[Univariate Analysis Descriptive Statistics]] whose variable is [[Data／Variable Types (Statistics／Programming)|qualitative]]
 
 # Statistics Terminology
 
 ![[Statistics - Terminology#^excerpt]]
+
 # Qualitative/Categorical Univariate Analysis Descriptive Statistics - Types
 
 ```merge-table
@@ -69,5 +70,7 @@ children:
   "tableStyle": "width: 1072.0px;"
 }
 ```
+
 # Resources
-- [http://uc-r.github.io/descriptives_categorical#top](http://uc-r.github.io/descriptives_categorical#top)
+
+- <http://uc-r.github.io/descriptives_categorical#top>

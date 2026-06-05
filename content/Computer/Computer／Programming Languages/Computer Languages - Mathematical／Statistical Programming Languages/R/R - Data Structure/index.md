@@ -1,11 +1,12 @@
 ---
-title: "R - Data Structure"
+publish: true
+title: R - Data Structure
 created: 2021-08-18T22:53:43.597-05:00
 modified: 2021-08-18T22:55:36.098-05:00
-parent: "[[R]]"
-children: []
 ---
+
 # Identifying Data Structure
+
 ```
 # different data structures
 vector <- 1:10
@@ -30,7 +31,9 @@ str(df)
 ##  $ item1: int  1 2 3 4 5 6 7 8 9 10 ...
 ##  $ item2: Factor w/ 18 levels "A","B","C","D",..: 1 2 3 4 5 6 7 8 9 10 ...
 ```
+
 # Data Structure - Attributes
+
 ```
 # assess attributes of an object
 attributes(df)

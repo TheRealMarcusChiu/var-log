@@ -1,10 +1,10 @@
 ---
-title: "Greek Alphabet"
+publish: true
+title: Greek Alphabet
 created: 2021-09-13T04:43:46.799-05:00
 modified: 2022-01-09T00:22:30.295-06:00
-parent: "[[Greek]]"
-children: []
 ---
+
 # 24 Characters
 
 ```merge-table

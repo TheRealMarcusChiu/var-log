@@ -1,24 +1,25 @@
 ---
-title: "Graphics／Image File Formats／Types"
+publish: true
+title: Graphics／Image File Formats／Types
 created: 2020-06-30T15:59:37.286-05:00
 modified: 2026-03-03T15:57:44.833-06:00
-parent: "[[Computer Graphics]]"
-children:
-  - "[[Raster Graphics (Bitmap Image)]]"
-  - "[[Vector Graphics]]"
 ---
+
 ###### Graphics/Image File Formats/Types
-````excerpt
+
+```excerpt
 - are [[Multimedia File Types／Formats|multimedia file formats]] for storing images
-````
+```
+
 ^excerpt
 
 # Intro
 
 ![](https://www.youtube.com/watch?v=W31xBdl5tNA)
+
 # Types
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -57,11 +58,14 @@ children:
   ],
   "tableStyle": "width: 100.0%;"
 }
-```
+````
+
 # Other
+
 - [[ffmpeg]]
 
 # Uncategorized
+
 - Dr. Halo CUT files
 - DDS files
 - EXR files

@@ -1,13 +1,10 @@
 ---
-title: "Emulators／Mediator"
+publish: true
+title: Emulators／Mediator
 created: 2023-01-08T23:03:48.169-06:00
 modified: 2023-01-08T23:31:34.559-06:00
-parent: "[[Virtual Machines vs Containers vs Emulators]]"
-children:
-  - "[[CrossOver]]"
-  - "[[QEMU]]"
-  - "[[Wine]]"
 ---
+
 # Operating System Emulators/Mediators
 
 ```merge-table
@@ -40,5 +37,7 @@ children:
   ]
 }
 ```
+
 # Network Emulators
+
 [[Computer Network／Networking Software Emulation／Emulator／Simulations／Simulator／Virtualization／Virtualizer|Computer Network/Networking Software Emulation/Emulator/Simulations/Simulator/Virtualization/Virtualizer]]

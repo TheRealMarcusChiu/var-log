@@ -1,11 +1,12 @@
 ---
-title: "Mormonism - What is Doesn't Teach in BoM"
+publish: true
+title: Mormonism - What is Doesn't Teach in BoM
 created: 2021-09-13T04:45:01.801-05:00
 modified: 2021-09-13T04:45:01.801-05:00
-parent: "[[Mormonism]]"
-children: []
 ---
+
 ### What the Book of Mormon Doesn't Teach
+
 - it doesn't mention that God was once a man, who, in turn had a father, etc
 - It doesn't mention that God has a body of flesh and bones
 - It doesn't mention that God is married to a "heavenly mother"
@@ -21,6 +22,7 @@ children: []
 - It doesn't mention a mandatory 10% tithe
 
 ### To Date
+
 - no evidence of Nephites existed
 - no Book of Mormon city has been verified
 - no Book of Mormon artifact has been found

@@ -1,17 +1,16 @@
 ---
-title: "Metric System - International System of Units (SI Units)"
+publish: true
+title: Metric System - International System of Units (SI Units)
 created: 2021-09-13T04:45:53.798-05:00
 modified: 2025-08-11T13:58:05.581-05:00
-parent: "[[System of Measurement]]"
-children:
-  - "[[SI - Base Units]]"
-  - "[[SI - Defining Constants]]"
-  - "[[SI - Non Base Units]]"
 ---
+
 ###### Metric System - International System of Units (SI Units)
-````excerpt
+
+```excerpt
 - International System of Units (SI) is the modern form of the Metric System
-````
+```
+
 ^excerpt
 
 # SI - 7 Base Units
@@ -119,6 +118,7 @@ children:
   "tableStyle": "font-size: 14.0px;letter-spacing: 0.0px;width: 88.5124%;"
 }
 ```
+
 # SI - Defining Constants
 
 ```merge-table
@@ -211,6 +211,7 @@ children:
   "tableStyle": "text-align: center;"
 }
 ```
+
 # SI - Prefixes
 
 ```merge-table

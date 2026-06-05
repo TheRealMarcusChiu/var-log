@@ -1,25 +1,12 @@
 ---
-title: "AI Agents／Assistants"
+publish: true
+title: AI Agents／Assistants
 created: 2026-01-26T15:27:42.476-06:00
 modified: 2026-01-29T00:58:24.614-06:00
-parent: "[[Large Language Models (LLMs)]]"
-children:
-  - "[[AI Agent Skills]]"
-  - "[[AI Agent／Assistant Frameworks]]"
-  - "[[AI Coding Agents／Assistants]]"
-  - "[[AI Voice Agents]]"
-  - "[[AutoGPT]]"
-  - "[[AutoGen]]"
-  - "[[CrewAI]]"
-  - "[[Hermes AI]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Vertical Agents
+
 - Lindy
 - Sierra
 - Replit
@@ -34,6 +21,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 - Harvey
 
 # Model Serving
+
 - Mistral ai
 - Fireworks.Ai
 - Anthropic
@@ -47,6 +35,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 - Together.Ai
 
 # Agent Framework
+
 - Phidata
 - Letta
 - LangGraph
@@ -58,6 +47,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 - Semantic Kernel
 
 # Observability
+
 - Braintrust
 - Langfuse
 - AgentOps.a
@@ -66,6 +56,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 - Langsmith
 
 # Agent Hosting & Serving
+
 - Agent API
 - Letta
 - Langraph
@@ -74,6 +65,7 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 - Amazon Bedrock
 
 # Storage
+
 - Pinecone
 - Liamaindex
 - Supabase
@@ -83,16 +75,19 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 - Drant
 
 # Memory
+
 - Mem0
 - Langmem
 - MemGPT
 - Zep
 
 # Tool Libraries
+
 - Composio
 - Exa
 - Browser Base
 
 # Sandbox
+
 - Modal
 - E2B

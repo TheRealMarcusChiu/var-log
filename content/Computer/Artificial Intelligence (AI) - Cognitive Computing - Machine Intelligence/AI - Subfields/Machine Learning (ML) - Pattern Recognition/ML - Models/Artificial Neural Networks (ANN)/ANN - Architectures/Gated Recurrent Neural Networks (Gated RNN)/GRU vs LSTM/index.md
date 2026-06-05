@@ -1,10 +1,10 @@
 ---
-title: "GRU vs LSTM"
+publish: true
+title: GRU vs LSTM
 created: 2023-07-16T12:09:59.184-05:00
 modified: 2023-07-16T12:11:29.566-05:00
-parent: "[[Gated Recurrent Neural Networks (Gated RNN)]]"
-children: []
 ---
+
 - [[Long-Short Term Memory (LSTM)]] - has three gates (input, output, and forget gate)
 - [[Gated Recurrent Unit (GRU)]] - has two gates (reset and update gate)
 

@@ -1,10 +1,10 @@
 ---
-title: "Raspberry Pi - Raspi Stream"
+publish: true
+title: Raspberry Pi - Raspi Stream
 created: 2019-04-10T21:37:44.979-05:00
 modified: 2019-04-10T21:38:44.084-05:00
-parent: "[[Raspbian - Raspberry Pi]]"
-children: []
 ---
+
 ```bash
 #!/bin/bash
  
@@ -27,6 +27,7 @@ else
    echo "mjpg_streamer not running"
 fi
 ```
+
 ```bash
 #!/bin/bash
  

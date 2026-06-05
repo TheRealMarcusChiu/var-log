@@ -1,19 +1,10 @@
 ---
-title: "PGM - Model Types"
+publish: true
+title: PGM - Model Types
 created: 2021-09-13T05:26:38.564-05:00
 modified: 2023-12-25T12:39:27.701-06:00
-parent: "[[Probabilistic Graphical Models (PGM) - Structured Probabilistic Models (SPM)]]"
-children:
-  - "[[Bayesian Networks (BN)]]"
-  - "[[Boltzmann Machines (BM)]]"
-  - "[[Deep Belief Networks (DBN)]]"
-  - "[[Gaussian Network Models (GNM)]]"
-  - "[[Markov Networks／Nets - Markov Random Fields (MRF)]]"
-  - "[[PGM - Model Comparisons]]"
-  - "[[PGM - Template Models]]"
-  - "[[Random Fields]]"
-  - "[[Stochastic／Random／Markov Models／Process]]"
 ---
+
 ````excerpt
 Here's a list of [[Probabilistic Graphical Models (PGM) - Structured Probabilistic Models (SPM)|Probabilistic Graphical Models]] which are a type of [[Probability Distribution Models／Representations|Probability Distribution Models/Representations]] using [[Graphical Models|graphical models]]
 # PGM - Other
@@ -279,4 +270,5 @@ Here's a list of [[Probabilistic Graphical Models (PGM) - Structured Probabilist
 }
 ```
 ````
+
 ^excerpt

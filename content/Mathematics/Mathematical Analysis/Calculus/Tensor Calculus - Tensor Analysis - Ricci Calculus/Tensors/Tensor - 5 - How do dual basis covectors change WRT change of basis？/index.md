@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 5 - How do dual basis covectors change WRT change of basis？"
+publish: true
+title: Tensor - 5 - How do dual basis covectors change WRT change of basis？
 created: 2023-08-01T23:03:29.420-05:00
 modified: 2023-08-01T23:04:40.235-05:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 We define:
 - 𝜀<sup>𝑖</sup>(𝑒<sub>𝑗</sub>) = 𝛿<sub>𝑖𝑗</sub> = 𝜀̃<sup>𝑖</sup>(𝑒̃<sub>𝑗</sub>)
@@ -26,4 +26,5 @@ By definition of basis
 }
 ```
 ````
+
 ^excerpt

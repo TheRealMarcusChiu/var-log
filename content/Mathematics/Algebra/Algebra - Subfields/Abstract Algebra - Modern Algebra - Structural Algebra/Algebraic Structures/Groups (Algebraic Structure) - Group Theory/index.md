@@ -1,19 +1,19 @@
 ---
-title: "Groups (Algebraic Structure) - Group Theory"
+publish: true
+title: Groups (Algebraic Structure) - Group Theory
 created: 2023-04-02T11:06:40.932-05:00
 modified: 2024-01-12T21:47:08.930-06:00
-parent: "[[Algebraic Structures]]"
-children:
-  - "[[Cosets]]"
-  - "[[Euler's Formula - Intuition via Group Theory]]"
 ---
+
 ###### Groups (Algebraic Structure) - Group Theory
-````excerpt
+
+```excerpt
 - in [[Abstract Algebra - Modern Algebra - Structural Algebra|abstract algebra]], <em>group theory</em> studies the [[Algebraic Structures|algebraic structures]] known as <em>groups</em>
 - a group is a [[Set／Sets|set]] equipped with a [[Binary／Dyadic Operations／Operators|binary operation]]
 - groups is an abstraction of symmetric-actions, as numbers are an abstraction of counts
 - the concept of a group is central to abstract algebra: other well-known algebraic structures, such as [[Rings (Algebraic Structure) - Ring Theory|rings]], [[Fields (Algebraic Structure) - Field Theory|fields]], and [[Vector Spaces - Linear Spaces|vector spaces]], can all be seen as <em>groups</em> endowed with additional operations and axioms
-````
+```
+
 ^excerpt
 
 # Groups - Definition
@@ -122,20 +122,22 @@ A binary operation on 𝐺 is a mapping 𝐺×𝐺 → 𝐺, that is, a [[Binar
   "tableStyle": "width: 1285.0px;"
 }
 ```
+
 # Periodic Table of Finite Simple Groups
-![[Groups (Algebraic Structure) - Group Theory/period-table-of-finite-simple-groups.png|300]]
+
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Algebraic Structures/Groups (Algebraic Structure) - Group Theory/period-table-of-finite-simple-groups.png|300]]
 [[period-table-of-finite-simple-groups.webp]]
+
 # Group - Examples
+
 - [[Lie Groups]]
 
 # Other
+
 - [[Group Homomorphisms]]
+
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
 
 # Resources
+
 - [3Brown1Blue - Group Theory Introduction](https://www.youtube.com/watch?v=mH0oCDa74tE)

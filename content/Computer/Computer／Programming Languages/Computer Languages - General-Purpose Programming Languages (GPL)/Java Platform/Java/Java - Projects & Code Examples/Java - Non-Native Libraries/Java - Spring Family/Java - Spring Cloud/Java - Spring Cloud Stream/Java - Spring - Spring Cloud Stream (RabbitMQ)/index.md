@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - Spring Cloud Stream (RabbitMQ)"
+publish: true
+title: Java - Spring - Spring Cloud Stream (RabbitMQ)
 created: 2022-08-09T02:36:48.449-05:00
 modified: 2022-08-11T02:26:40.681-05:00
-parent: "[[Java - Spring Cloud Stream]]"
-children: []
 ---
+
 # Dependencies
+
 ```
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -19,6 +20,7 @@ children: []
 			<scope>test</scope>
 		</dependency>
 ```
+
 # Application Code
 
 The programming models are:
@@ -27,8 +29,9 @@ The programming models are:
 > TODO
 
 > [!expand-ui]- Imperative Programming (@Annotations)
-> > [!info]
-> > <font style="color: rgb(82,89,96);">Starting with 3.1.0 version of the binder, we recommend using the functional programming model described above for Kafka Streams binder-based applications. The support for StreamListener is deprecated starting with 3.1.0 of Spring Cloud Stream</font>
+>
+> > [!info] <font style="color: rgb(82,89,96);">Starting with 3.1.0 version of the binder, we recommend using the functional programming model described above for Kafka Streams binder-based applications. The support for StreamListener is deprecated starting with 3.1.0 of Spring Cloud Stream</font>
+>
 > ```
 > @Slf4j
 > @SpringBootApplication
@@ -46,7 +49,9 @@ The programming models are:
 >     }
 > }
 > ```
+
 # Test Code
+
 ```
 @DirtiesContext
 @SpringBootTest(classes = DemoApplication.class)
@@ -72,5 +77,7 @@ class DemoApplicationTests {
 	}
 }
 ```
+
 # Resources
-- [https://www.baeldung.com/spring-cloud-stream](https://www.baeldung.com/spring-cloud-stream)
+
+- <https://www.baeldung.com/spring-cloud-stream>

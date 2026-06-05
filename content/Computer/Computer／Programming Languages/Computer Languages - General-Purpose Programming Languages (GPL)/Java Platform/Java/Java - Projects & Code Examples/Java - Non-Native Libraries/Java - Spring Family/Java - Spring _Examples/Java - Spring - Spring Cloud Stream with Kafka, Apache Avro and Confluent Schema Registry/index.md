@@ -1,22 +1,25 @@
 ---
-title: "Java - Spring - Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry"
+publish: true
+title: Java - Spring - Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry
 created: 2023-01-01T16:47:06.060-06:00
 modified: 2023-01-01T17:13:20.419-06:00
-parent: "[[Java - Spring _Examples]]"
-children: []
 ---
+
 # Introduction
+
 - [[Apache Kafka]] allows applications to exchange messages at scale
 - [[Java - Spring Cloud Stream|Spring Cloud Stream]] is a framework that simplifies the integration of Kafka into our message-driven applications
 - Conventionally, Kafka is used with the [[Apache Avro|Avro]] message format, supported by a [[Schema Registry|schema registry]]
 
 In this tutorial, we'll use the [[Confluent Schema Registry]]. To integrate with Confluent Schema Registry we'll try both:
+
 - Spring's implementation
 - Confluent's native libraries
 
 # Examples
 
 > [!expand-ui]- 100% Manual
+>
 > ```
 > {
 >      "type": "record",
@@ -33,6 +36,7 @@ In this tutorial, we'll use the [[Confluent Schema Registry]]. To integrate with
 >      ]
 > }
 > ```
+>
 > ```
 > import com.example.Customer;
 > import io.confluent.kafka.serializers.KafkaAvroDeserializer;
@@ -81,5 +85,7 @@ In this tutorial, we'll use the [[Confluent Schema Registry]]. To integrate with
 >     }
 > }
 > ```
+
 # Resources
+
 - TODO

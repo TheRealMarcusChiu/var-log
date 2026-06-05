@@ -1,17 +1,17 @@
 ---
-title: "Trigonometric／Circular／Angle／Goniometric Functions (sine - cosine - tangent - cosecant - secant - cotangent)"
+publish: true
+title: Trigonometric／Circular／Angle／Goniometric Functions (sine - cosine - tangent - cosecant - secant - cotangent)
 created: 2023-07-08T14:21:16.010-05:00
 modified: 2023-08-24T17:52:31.299-05:00
-parent: "[[Trigonometry]]"
-children:
-  - "[[Cosine Function]]"
-  - "[[Sine Function]]"
 ---
+
 ###### Trigonometric/Circular/Angle/Goniometric Functions
+
 - are real functions which relate an angle of a right-angled triangle to ratios of two side lengths
 - an analog to [[Hyperbolic Functions (hyperbolic sine／cosine／tangent／cosecant／secant／cotangent)|hyperbolic functions]]
 
 # Trigonometric Functions - Geometric View
+
 ````excerpt
 Geometric view of [[Trigonometric／Circular／Angle／Goniometric Functions (sine - cosine - tangent - cosecant - secant - cotangent)|trigonometric functions]]
 
@@ -209,4 +209,5 @@ Geometric view of [[Trigonometric／Circular／Angle／Goniometric Functions (si
 }
 ```
 ````
+
 ^excerpt

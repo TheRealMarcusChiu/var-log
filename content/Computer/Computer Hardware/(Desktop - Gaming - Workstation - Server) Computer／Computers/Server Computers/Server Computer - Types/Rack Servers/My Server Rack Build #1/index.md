@@ -1,12 +1,12 @@
 ---
+publish: true
 title: "My Server Rack Build #1"
 created: 2024-07-23T16:14:43.863-05:00
 modified: 2025-11-11T00:38:05.960-06:00
-parent: "[[Rack Servers]]"
-children:
-  - "[[Servers Stuff To Run]]"
 ---
-- other server components - [https://www.newegg.com/Server-Components/Store/ID-5](https://www.newegg.com/Server-Components/Store/ID-5)
+
+- other server components - <https://www.newegg.com/Server-Components/Store/ID-5>
+
 ```merge-table
 {
   "rows": [

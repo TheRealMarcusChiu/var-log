@@ -1,15 +1,13 @@
 ---
-title: "Kernel Functions (Similarity Functions)"
+publish: true
+title: Kernel Functions (Similarity Functions)
 created: 2021-09-13T05:29:30.455-05:00
 modified: 2024-09-11T13:02:08.635-05:00
-parent: "[[Multi-Variable／Multivariable／Multivariate Functions]]"
-children:
-  - "[[Linear Kernel Function - Dot Product Kernel Function]]"
-  - "[[Polynomial Kernel Function]]"
-  - "[[Radial Basis \"Kernel\" Function (RBF)]]"
 ---
+
 <strong>Kernel Functions (Similarity Functions)</strong>
-````excerpt
+
+```excerpt
 - is a function applied on each data instance to map the original non-linear observations into a higher-dimensional space in which they become linearly separable
 	- this is the "[[Kernel Trick|kernel trick]]"
 - kernel functions are used as [[Covariance Function (i.e. Kernel Function)|covariance functions]] for [[Gaussian Process Regression (GPR) - Kriging|Gaussian Process Regression (GPR)]]
@@ -17,7 +15,8 @@ children:
 - kernel functions are used in [[Kernel Machines／Methods|Kernel Machines]] such as [[Support Vector Machines (SVM)]]
 	- kernel functions are used to expand [[Linear SVM (SVM Without Kernel)|Linear SVMs]] into [[Non-Linear SVM (SVM With Kernels)|Non-Linear SVMs]]
 	- kernel functions are used in [[Support Vector Machines (SVM)]] to simultaneously transform a data-point into higher dimensions and calculate the euclidean distance between that transformed data-point and the [[Support Vector Machines (SVM)|Support Vector Classifier]]
-````
+```
+
 ^excerpt
 
 # Kernel Function Types

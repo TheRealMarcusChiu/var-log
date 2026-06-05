@@ -1,14 +1,10 @@
 ---
-title: "RDIMM - UDIMM - LRDIMM - MRDIMM"
+publish: true
+title: RDIMM - UDIMM - LRDIMM - MRDIMM
 created: 2024-08-30T01:47:00.003-05:00
 modified: 2025-10-16T13:55:48.293-05:00
-parent: "[[Random-Access Memory (RAM)]]"
-children:
-  - "[[Load-Reduced Dual Memory Module (LRDIMM ／ LR-DIMM)]]"
-  - "[[Multiplexed Rank DIMM (MRDIMM)]]"
-  - "[[Registered／Buffered Dual Inline Memory Module (RDIMM)]]"
-  - "[[Unbuffered Dual Inline Memory Module (UDIMM)]]"
 ---
+
 # RDIMM vs UDIMM
 
 In modern CPUs the [[Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)|memory controller]] is on the CPU die (i.e. [[Integrated Memory Controller (IMC)|integrated memory controller]]), starting long ago for AMD Opteron chips and with the Core i series for Intel. Most desktop CPUs then talk directly to the DIMM sockets holding the RAM. It works and no extra logic is needed. That is cheap to build, and the speed is high because there's no delay going from the memory controller to the RAM.
@@ -20,6 +16,7 @@ On server computers you often want to use more memory than desktop computers. Th
 This buffer/register delays things, making memory slower. That is undesirable and thus it is only used/needed on boards that have a lot of memory banks. Most consumer boards do not need this, and most consumer CPU's do not support it.
 
 Unbuffered RAM vs. buffered/registered RAM isn't a case where one is better or worse than the other. They just have different trade-offs in terms of how many memory slots you can have. Registered RAM allows more RAM at the cost of some speed (and possibly expense). In most cases where you need as much memory as possible, that extra memory more than compensates for the RAM running at a slightly slower speed.
+
 # RDIMM vs LRDIMM vs UDIMM vs MRDIMM
 
 ```merge-table

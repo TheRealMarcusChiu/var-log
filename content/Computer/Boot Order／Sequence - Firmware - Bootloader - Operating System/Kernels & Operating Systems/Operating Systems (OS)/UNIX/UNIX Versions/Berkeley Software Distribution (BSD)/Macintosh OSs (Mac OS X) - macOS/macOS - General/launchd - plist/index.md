@@ -1,17 +1,19 @@
 ---
-title: "launchd - plist"
+publish: true
+title: launchd - plist
 created: 2019-04-16T14:08:13.276-05:00
 modified: 2021-12-11T15:54:12.489-06:00
-parent: "[[macOS - General]]"
-children: []
 ---
-<strong>Launchd - [http://www.launchd.info/](http://www.launchd.info/)</strong>
+
+<strong>Launchd - <http://www.launchd.info/></strong>
+
 - is a unified, open-source [[Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)|service management]] framework for starting, stopping and managing daemons, applications, processes, and scripts
 - for other [[Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)|UNIX Service Management Standards]]
 
 # Daemons & Agents
 
 both <strong>daemons</strong> and <strong>agents</strong> are programs running in the background without requiring user input
+
 - <strong>agent</strong> runs on behalf of the logged in user
 - <strong>daemon</strong> runs on behalf of the root user or any user you specify with the <font style="color: black;">UserName</font> key
 
@@ -107,9 +109,11 @@ The behavior of a daemon/agent is specified in a special XML file called a prope
 ```
 
 The following example shows a complete plist with only three keys:
+
 - <strong><font style="color: black;">Label</font></strong> This key is required for every job definition. It identifies the job and has to be unique for the launchd instance. Theoretically it is possible for an agent to have the same label as a daemon, as daemons are loaded by the root launchd whereas agents are loaded by a user launchd, but it is not recommended.
 - <strong><font style="color: black;">Program</font></strong> This key defines <em>what</em> to start, in this case a shell script /Users/Me/Scripts/cleanup.sh.
 - <strong><font style="color: black;">RunAtLoad</font></strong> This is one of several optional keys specifying <em>when</em> the job should be run, in this case right after it has been loaded.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -123,6 +127,7 @@ The following example shows a complete plist with only three keys:
 ```
 
 > [!expand]- detailed version
+>
 > ```
 > <?xml version="1.0" encoding="UTF-8"?> 
 > <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -147,5 +152,7 @@ The following example shows a complete plist with only three keys:
 >      </dict>
 > </plist>
 > ```
+
 # Commands
+
 - [[SysV／Upstart／Systemd／Launchd - Commands (service - chkconfig - systemctl - journalctl - launchctl)|launchctl]]

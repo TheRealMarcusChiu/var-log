@@ -1,11 +1,10 @@
 ---
-title: "Dell - PowerEdge"
+publish: true
+title: Dell - PowerEdge
 created: 2022-09-17T13:33:46.346-05:00
 modified: 2025-10-30T16:27:23.157-05:00
-parent: "[[Server Computer - Companies]]"
-children:
-  - "[[Dell PowerEdge - Venders]]"
 ---
+
 # Dell PowerEdge - Versions/Form-Factors
 
 Dell PowerEdge product lineup spans 15th generations.
@@ -45,19 +44,21 @@ Dell PowerEdge product lineup spans 15th generations.
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Dell PowerEdge - How to Know What Model You Have
+
 - The first letter will denote the form factor of the server:
-	- T indicates a tower server
-	- R indicates a rackmount server
-	- M indicates a blade server
+  - T indicates a tower server
+  - R indicates a rackmount server
+  - M indicates a blade server
 - The first digit after the letter represents the number of CPU sockets in a system:
-	- 1-3 indicates one socket
-	- 4-7 indicates two sockets
-	- 9 indicates four sockets
+  - 1-3 indicates one socket
+  - 4-7 indicates two sockets
+  - 9 indicates four sockets
 - The second digit tells you what generation of PowerEdge you are dealing with:
-	- 1 represents 11th generation
-	- 2 represents 12th generation
-	- etc
+  - 1 represents 11th generation
+  - 2 represents 12th generation
+  - etc
 - The final digit in the name represents if it is an Intel or AMD processor:
-	- 0 denotes Intel
-	- 5 denotes AMD
+  - 0 denotes Intel
+  - 5 denotes AMD

@@ -1,10 +1,10 @@
 ---
-title: "Java - Mockito - inOrder"
+publish: true
+title: Java - Mockito - inOrder
 created: 2021-07-15T20:19:17.706-05:00
 modified: 2021-07-15T20:20:50.366-05:00
-parent: "[[Java - Mockito]]"
-children: []
 ---
+
 ```java
 ServiceClassA firstMock = mock(ServiceClassA.class);
 ServiceClassB secondMock = mock(ServiceClassB.class);

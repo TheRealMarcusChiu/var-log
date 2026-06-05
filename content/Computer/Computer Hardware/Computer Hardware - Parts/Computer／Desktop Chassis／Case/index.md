@@ -1,10 +1,10 @@
 ---
-title: "Computer／Desktop Chassis／Case"
+publish: true
+title: Computer／Desktop Chassis／Case
 created: 2022-11-10T02:28:39.673-06:00
 modified: 2022-11-10T02:33:01.956-06:00
-parent: "[[Computer Hardware - Parts]]"
-children: []
 ---
+
 # Sizes
 
 ```merge-table
@@ -45,7 +45,9 @@ children: []
   ]
 }
 ```
+
 # Manufacturers
+
 - [Antec](https://en.wikipedia.org/wiki/Antec)
 - [BitFenix](http://www.bitfenix.com/)
 - [Cooler Master](https://en.wikipedia.org/wiki/Cooler_Master)

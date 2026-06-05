@@ -1,10 +1,10 @@
 ---
-title: "JavaScript - Geolocation"
+publish: true
+title: JavaScript - Geolocation
 created: 2019-12-21T22:48:08.081-06:00
 modified: 2019-12-21T22:58:40.818-06:00
-parent: "[[JavaScript - Web／Browser APIs]]"
-children: []
 ---
+
 ```xml
 <!DOCTYPE html>
 <html>
@@ -16,6 +16,7 @@ children: []
 </body>
 </html>
 ```
+
 ```js
 var x = document.getElementById("mapholder");
 

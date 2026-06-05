@@ -1,10 +1,10 @@
 ---
-title: "The Hallmarks of Aging"
+publish: true
+title: The Hallmarks of Aging
 created: 2021-09-13T04:45:40.788-05:00
 modified: 2021-09-13T04:45:40.788-05:00
-parent: "[[Human Science]]"
-children: []
 ---
+
 - altered intercellular communication
 - telomere attrition
 - cellular senescence

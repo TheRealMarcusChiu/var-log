@@ -1,14 +1,14 @@
 ---
-title: "Docker - Plugins"
+publish: true
+title: Docker - Plugins
 created: 2025-02-21T12:55:50.609-06:00
 modified: 2025-02-21T14:26:29.312-06:00
-parent: "[[Docker]]"
-children:
-  - "[[Docker - Plugins - vieux／sshfs]]"
 ---
+
 # Syntax
 
 Install plugin from Docker Hub or your private registry, via <code><font style="color: rgb(122,134,154);">docker plugin install</font></code>. For example:
+
 ```
 ❯ docker plugin install vieux/sshfs
 
@@ -21,6 +21,7 @@ vieux/sshfs
 ```
 
 List all plugins
+
 ```
 ❯ docker plugin ls
 ID             NAME           TAG       DESCRIPTION           ENABLED
@@ -28,20 +29,19 @@ ID             NAME           TAG       DESCRIPTION           ENABLED
 ```
 
 Disable plugin
+
 ```
 ❯ docker plugin disable vieux/sshfs
 ```
 
 Remove plugin
+
 ```
 ❯ docker plugin remove vieux/sshfs
 ```
+
 # Developing a Plugin
-- [https://docs.docker.com/engine/extend/#developing-a-plugin](https://docs.docker.com/engine/extend/#developing-a-plugin)
+
+- <https://docs.docker.com/engine/extend/#developing-a-plugin>
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

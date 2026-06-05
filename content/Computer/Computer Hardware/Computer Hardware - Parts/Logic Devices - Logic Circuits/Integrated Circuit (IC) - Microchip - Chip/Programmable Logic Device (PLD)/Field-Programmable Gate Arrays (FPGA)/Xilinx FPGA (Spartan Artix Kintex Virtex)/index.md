@@ -1,15 +1,13 @@
 ---
-title: "Xilinx FPGA (Spartan Artix Kintex Virtex)"
+publish: true
+title: Xilinx FPGA (Spartan Artix Kintex Virtex)
 created: 2023-02-03T17:55:14.656-06:00
 modified: 2023-03-11T22:17:17.506-06:00
-parent: "[[Field-Programmable Gate Arrays (FPGA)]]"
-children:
-  - "[[Spartan 3 FPGA Boards]]"
-  - "[[Spartan 7 FPGA Boards]]"
 ---
+
 # Offerings
 
-main page: [https://www.xilinx.com/products/silicon-devices/fpga.html](https://www.xilinx.com/products/silicon-devices/fpga.html)
+main page: <https://www.xilinx.com/products/silicon-devices/fpga.html>
 
 From cheap to expensive:
 
@@ -86,12 +84,9 @@ From cheap to expensive:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Other
+
 - [[MicroBlaze]]

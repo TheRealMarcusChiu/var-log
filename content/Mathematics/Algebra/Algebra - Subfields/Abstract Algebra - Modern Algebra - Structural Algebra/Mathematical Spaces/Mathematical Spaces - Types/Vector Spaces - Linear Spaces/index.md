@@ -1,22 +1,21 @@
 ---
-title: "Vector Spaces - Linear Spaces"
+publish: true
+title: Vector Spaces - Linear Spaces
 created: 2021-09-13T05:26:07.388-05:00
 modified: 2026-05-21T15:06:11.635-05:00
-parent: "[[Mathematical Spaces - Types]]"
-children:
-  - "[[Fields vs Vector Spaces]]"
-  - "[[Vector Space - Type Comparisons]]"
-  - "[[Vector Space - Types]]"
 ---
+
 ###### Vector Spaces - Linear Spaces - (𝑉,𝐹)
-````excerpt
+
+```excerpt
 - is a type of [[Mathematical Spaces|mathematical space]]
 - is a pair (𝑉,𝐹) where 𝑉 is a non-empty [[Set Theory|set]] and 𝐹 is a [[Algebraic Structures|field]] defined together with two [[Binary／Dyadic Operations／Operators|binary operations]] that satisfy 10 axioms
 	- the elements of 𝑉 are commonly called [[Vectors|vectors]]
 	- the elements of 𝐹  are commonly called [[Scalars|scalars]]
 	- the first binary operation, called <em>vector addition</em>, assigns any two vectors to a third vector. defined as 𝑉 ⨯ 𝑉 → 𝑉
 	- the second binary operation, called <em>scalar multiplication of a vector</em>, assigns any scalar and vector to another vector. defined as 𝐹 ⨯ 𝑉 → 𝑉
-````
+```
+
 ^excerpt
 
 # Vector Spaces - 10 Axioms
@@ -243,9 +242,10 @@ A <em>vector space (𝑉,𝐹)</em> is subject to the 10 axioms (the axioms must
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Vector Spaces - Types
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -254,12 +254,16 @@ A <em>vector space (𝑉,𝐹)</em> is subject to the 10 axioms (the axioms must
     ]
   ]
 }
-```
+````
+
 # Vector Spaces - Subspaces
 
 See [[Linear Subspaces - Vector Subspaces|Linear/Vector Subspaces]]
+
 # Vector Spaces - Other
+
 - [[Fields vs Vector Spaces]]
-- 
+-
+
 > [!expand]- basis and dimensions
 > A subset of a vector space is a <strong>[[Basis Vectors|basis]]</strong> if its elements are linearly independent and span the vector space. Every vector space has at least one basis, generally many. Moreover, all basis of a vector space has the same cardinality, which is called the <strong>dimension</strong> of the vector space. This is a fundamental property of vector spaces

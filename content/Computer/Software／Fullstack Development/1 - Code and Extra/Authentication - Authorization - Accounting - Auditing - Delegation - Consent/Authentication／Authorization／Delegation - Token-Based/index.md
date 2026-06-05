@@ -1,21 +1,23 @@
 ---
-title: "Authentication／Authorization／Delegation - Token-Based"
+publish: true
+title: Authentication／Authorization／Delegation - Token-Based
 created: 2020-01-09T10:42:30.821-06:00
 modified: 2023-02-19T18:03:11.019-06:00
-parent: "[[Authentication - Authorization - Accounting - Auditing - Delegation - Consent]]"
-children:
-  - "[[Token Classes]]"
 ---
+
 <strong>Token-Based Authentication</strong>
+
 - is a method that allows users to enter their username and password in order to obtain a token that allows them to make a specific request - without using their username and password. Once their token has been obtained, the user can offer the token - which offers access to a specific resource for a time period - to the remote site
 
 # Authentication/Authorization/Delegation Entities
 
 > [!expand]- Click here to expand...
 > ![[Authentication／Authorization／Delegation - Entities／Actors#^excerpt]]
+
 # Token Classes
 
 ![[Token Classes#^excerpt]]
+
 # Access Token - Pass Types
 
 ```merge-table
@@ -58,7 +60,9 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Access Token - Profile Types
+
 - <strong>Holder of Key (HoK) Tokens </strong>- like a credit card, ensures that the Client presenting the token is the one it was issued to
 - <strong>Bearer Tokens</strong> - like cash, do not ensure whether the Client presenting the token was actually issued it
 
@@ -118,4 +122,5 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
-# Resources![](https://www.youtube.com/watch?v=tj03NRM6SP8&ab_channel=NordicAPIs)![](https://www.youtube.com/watch?v=9CJ_BAeOmW0&ab_channel=Devoxx)
+
+# Resources![](https://www.youtube.com/watch?v=tj03NRM6SP8\&ab_channel=NordicAPIs)![](https://www.youtube.com/watch?v=9CJ_BAeOmW0\&ab_channel=Devoxx)

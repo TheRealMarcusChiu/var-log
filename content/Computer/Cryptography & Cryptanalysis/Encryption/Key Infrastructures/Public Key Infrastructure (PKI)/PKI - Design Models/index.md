@@ -1,10 +1,10 @@
 ---
-title: "PKI - Design Models"
+publish: true
+title: PKI - Design Models
 created: 2019-11-22T12:23:50.304-06:00
 modified: 2021-12-03T17:09:36.033-06:00
-parent: "[[Public Key Infrastructure (PKI)]]"
-children: []
 ---
+
 # PKI Design Models
 
 ```merge-table

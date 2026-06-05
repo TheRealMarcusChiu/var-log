@@ -1,11 +1,11 @@
 ---
-title: "LVM - Commands"
+publish: true
+title: LVM - Commands
 created: 2023-02-18T21:29:19.306-06:00
 modified: 2023-02-18T22:06:52.765-06:00
-parent: "[[Logical Volume Manager (LVM) ＊Linux]]"
-children: []
 ---
-```merge-table
+
+````merge-table
 {
   "rows": [
     [
@@ -14,6 +14,8 @@ children: []
     ]
   ]
 }
-```
+````
+
 # Resources
+
 - [Linux Logical Volume Manager (LVM) Deep Dive Tutorial](https://www.youtube.com/watch?v=MeltFN-bXrQ)

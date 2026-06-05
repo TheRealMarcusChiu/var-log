@@ -1,23 +1,30 @@
 ---
-title: "Elasticsearch - Docker"
+publish: true
+title: Elasticsearch - Docker
 created: 2025-07-23T09:15:51.952-05:00
 modified: 2025-07-23T09:39:07.923-05:00
-parent: "[[Elasticsearch]]"
-children: []
 ---
+
 > [!expand-ui]- SSL Enabled
+>
 > # Run Elasticsearch
+>
 > ```
 > docker run -d --name es762 -p 9200:9200 -e "discovery.type=single-node" elasticsearch:8.17.5
 > ```
+>
 > # Reset Password
+>
 > ```
 > docker exec -it es762 /bin/sh
 > ```
+>
 > ```
 > ./bin/elasticsearch-reset-password -u elastic
 > ```
+>
 > # Verify
+>
 > ```
 > curl -k -u elastic:PASSWORD_HERE https://localhost:9200/
 > {
@@ -40,11 +47,15 @@ children: []
 > ```
 
 > [!expand-ui]- SSL Disabled
+>
 > # Run Elasticsearch
+>
 > ```
 > docker run -d --name es762 -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" -e "xpack.security.http.ssl.enabled=false" -e "xpack.security.enrollment.enabled=false" elasticsearch:8.17.5
 > ```
+>
 > # Verify
+>
 > ```
 > curl http://localhost:9200/
 > {

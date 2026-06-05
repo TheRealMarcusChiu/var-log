@@ -1,10 +1,10 @@
 ---
-title: "Magic Bytes"
+publish: true
+title: Magic Bytes
 created: 2020-01-06T01:05:42.347-06:00
 modified: 2020-01-06T01:14:34.487-06:00
-parent: "[[Computer Terms]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

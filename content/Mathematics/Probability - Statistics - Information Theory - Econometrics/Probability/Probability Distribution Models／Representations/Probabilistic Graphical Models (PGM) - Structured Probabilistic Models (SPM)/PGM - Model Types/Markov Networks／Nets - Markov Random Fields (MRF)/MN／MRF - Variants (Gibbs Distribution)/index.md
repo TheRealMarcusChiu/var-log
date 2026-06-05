@@ -1,12 +1,10 @@
 ---
-title: "MN／MRF - Variants (Gibbs Distribution)"
+publish: true
+title: MN／MRF - Variants (Gibbs Distribution)
 created: 2021-09-13T05:26:50.159-05:00
 modified: 2021-12-11T05:08:06.514-06:00
-parent: "[[Markov Networks／Nets - Markov Random Fields (MRF)]]"
-children:
-  - "[[Conditional／Discriminative Random Fields (CRF)]]"
-  - "[[Log-Linear Model - Log-Level Model - Structured Logistic Regression]]"
 ---
+
 # Types - Based on Types of Potential Function Used
 
 see: [[MN／MRF - Potential Functions (𝜙)|potential function]]
@@ -51,8 +49,11 @@ see: [[MN／MRF - Potential Functions (𝜙)|potential function]]
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Representing MN/MRF in a Different Way
+
 - [[Log-Linear Model - Log-Level Model - Structured Logistic Regression]]
 
 # MN/MRF - As Discriminative Model
+
 - [[Conditional／Discriminative Random Fields (CRF)|Conditional/Discriminative Random Fields (CRF)]]

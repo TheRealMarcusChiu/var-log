@@ -1,11 +1,12 @@
 ---
-title: "Word Similarity／Distance"
+publish: true
+title: Word Similarity／Distance
 created: 2020-11-21T02:01:54.271-06:00
 modified: 2020-11-21T02:20:32.811-06:00
-parent: "[[NLP - Disambiguating Ambiguity]]"
-children: []
 ---
+
 ###### Word Similarity/Distance
+
 - measuring the similarity/differences between 2 words based on their definition/sense
 - useful in [[Information Retrieval (IR) - Information Extraction (IE)|Information Retrieval (IR)]], Question/Answering, Machine Translation, etc
 
@@ -69,12 +70,14 @@ children: []
   ]
 }
 ```
+
 ###### <strong>𝐿𝐶𝑆</strong>
+
 - lowest common subsumer of 2 concepts
 - 𝐿𝐶𝑆(𝑐<sub>1</sub>,𝑐<sub>2</sub>) = lowest node in the hierarchy that subsumes both 𝑐<sub>1</sub> and 𝑐<sub>2</sub>
 
 ###### Example Thesaurus Tree
 
-<sub>![[Word Similarity／Distance/word-similarity-thesaurus-tree-example.png|350]]</sub>
+<sub>![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/NLP - Disambiguating Ambiguity/Word Similarity／Distance/word-similarity-thesaurus-tree-example.png|350]]</sub>
 
 <sub></sub>

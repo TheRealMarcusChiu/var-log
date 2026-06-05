@@ -1,12 +1,10 @@
 ---
-title: "Propositions"
+publish: true
+title: Propositions
 created: 2021-09-13T04:44:22.478-05:00
 modified: 2022-02-12T16:37:25.898-06:00
-parent: "[[Epistemology]]"
-children:
-  - "[[Analytic／Synthetic Proposition - Prior／Posterior Proposition]]"
-  - "[[Universal／Particular - Non (Verifiable／Verifiability vs Falsifiable／Falsifiability) - Statement／Proposition]]"
 ---
+
 - <strong>proposition</strong> - a statement or assertion that expresses a judgment or opinion
 - <strong>syllogism</strong> - is a conclusion is drawn (whether validly or not) from two given or assumed propositions
 
@@ -79,14 +77,13 @@ children:
   ]
 }
 ```
+
 # Subpages
+
 - [[Descriptive／Declarative／Propositional Knowledge|Descriptive/Declarative/Propositional Knowledge]]
+
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
 
 # Proposition Types Diagram
-![[Propositions/proposition classes.png|400]]
+
+![[Religion & Philosophy/Philosophy Subfields/Epistemology/Propositions/proposition classes.png|400]]

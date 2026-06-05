@@ -1,10 +1,10 @@
 ---
-title: "Advanced Economies - Emerging Market Economies - Low-Income Developing Countries"
+publish: true
+title: Advanced Economies - Emerging Market Economies - Low-Income Developing Countries
 created: 2023-08-01T14:41:46.038-05:00
 modified: 2023-08-01T14:56:27.704-05:00
-parent: "[[Economics／Economy]]"
-children: []
 ---
+
 Advanced Economies - Emerging Market Economies - Low-Income Developing Countries
 
 ```merge-table

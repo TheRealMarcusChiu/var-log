@@ -1,24 +1,28 @@
 ---
-title: "Kronecker Product - Matrix Direct Product"
+publish: true
+title: Kronecker Product - Matrix Direct Product
 created: 2023-08-03T14:33:08.509-05:00
 modified: 2026-05-21T00:30:45.529-05:00
-parent: "[[Tensor Calculus - Tensor Analysis - Ricci Calculus]]"
-children: []
 ---
+
 ###### Kronecker Product - Matrix Direct Product - ⊗
-````excerpt
+
+```excerpt
 - is an operation on two matrices of arbitrary size resulting in a block matrix
 - it is a specialization of the [[Tensor Product|tensor product]] from [[Vectors|vectors]] to [[Matrix／Matrices|matrices]] and gives the matrix of the tensor product a linear map with respect to a standard choice of basis
 - is to be distinguished from the usual matrix multiplication, which is an entirely different operation
-````
+```
+
 ^excerpt
 
 # Kronecker Product - Definition
 
 If 𝐴 is an 𝑚×𝑛 matrix and 𝐵 is a 𝑝×𝑞 matrix, then the Kronecker product 𝐴⊗𝐵 is the 𝑝𝑚×𝑞𝑛 block matrix:
+
 - $A \otimes B = \begin{bmatrix} a_{11} B & \cdots & a_{1n} B \\ \vdots   & \ddots & \vdots   \\ a_{m1} B & \cdots & a_{mn} B \end{bmatrix}$
 
 More explicitly:
+
 - $A \otimes B = \begin{bmatrix} a_{11} b_{11} & a_{11} b_{12} & \cdots & a_{11} b_{1q} & \cdots & \cdots & a_{1n} b_{11} & a_{1n} b_{12} & \cdots & a_{1n} b_{1q} \\ a_{11} b_{21} & a_{11} b_{22} & \cdots & a_{11} b_{2q} & \cdots & \cdots & a_{1n} b_{21} & a_{1n} b_{22} & \cdots & a_{1n} b_{2q} \\ \vdots & \vdots & \ddots & \vdots & & & \vdots & \vdots & \ddots & \vdots \\ a_{11} b_{p1} & a_{11} b_{p2} & \cdots & a_{11} b_{pq} & \cdots & \cdots & a_{1n} b_{p1} & a_{1n} b_{p2} & \cdots & a_{1n} b_{pq} \\ \vdots & \vdots & & \vdots & \ddots & & \vdots & \vdots & & \vdots \\ \vdots & \vdots & & \vdots & & \ddots & \vdots & \vdots & & \vdots \\ a_{m1} b_{11} & a_{m1} b_{12} & \cdots & a_{m1} b_{1q} & \cdots & \cdots & a_{mn} b_{11} & a_{mn} b_{12} & \cdots & a_{mn} b_{1q} \\ a_{m1} b_{21} & a_{m1} b_{22} & \cdots & a_{m1} b_{2q} & \cdots & \cdots & a_{mn} b_{21} & a_{mn} b_{22} & \cdots & a_{mn} b_{2q} \\ \vdots & \vdots & \ddots & \vdots & & & \vdots & \vdots & \ddots & \vdots \\ a_{m1} b_{p1} & a_{m1} b_{p2} & \cdots & a_{m1} b_{pq} & \cdots & \cdots & a_{mn} b_{p1} & a_{mn} b_{p2} & \cdots & a_{mn} b_{pq} \end{bmatrix}$
 
 # Kronecker Product - Examples

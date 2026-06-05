@@ -1,15 +1,17 @@
 ---
-title: "Enterprise and Datacenter Standard Form Factor (EDSFF)"
+publish: true
+title: Enterprise and Datacenter Standard Form Factor (EDSFF)
 created: 2023-12-08T11:22:14.592-06:00
 modified: 2025-12-15T18:06:11.248-06:00
-parent: "[[Computer IO I／O Input／Output Ports／Devices]]"
-children: []
 ---
+
 ###### Enterprise and Datacenter Standard Form Factor (EDSFF)
-````excerpt
+
+```excerpt
 - is a family of form factors and interface standards for [[Solid State Drives (SSD)|SSDs]] and [[Rack Servers|rack servers]]
 - created by a consortium of 15 companies
-````
+```
+
 ^excerpt
 
 # EDSFF - Form Factors
@@ -49,6 +51,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # EDSFF - Size Specification
 
 ```merge-table
@@ -187,5 +190,7 @@ children: []
   ]
 }
 ```
+
 # Resources
-- [https://www.snia.org/forums/cmsi/knowledge/formfactors](https://www.snia.org/forums/cmsi/knowledge/formfactors)
+
+- <https://www.snia.org/forums/cmsi/knowledge/formfactors>

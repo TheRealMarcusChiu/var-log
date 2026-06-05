@@ -1,10 +1,10 @@
 ---
-title: "Kernel／Kernels (OS) - Classifications"
+publish: true
+title: Kernel／Kernels (OS) - Classifications
 created: 2022-11-27T14:36:07.816-06:00
 modified: 2023-06-14T09:19:07.601-05:00
-parent: "[[Kernel／Kernels (OS)]]"
-children: []
 ---
+
 # Kernel/Kernels (OS) - Classifications
 
 ```merge-table
@@ -61,5 +61,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Monolithic vs Micro
-![[Kernel／Kernels (OS) - Classifications/kernel-monolinth-vs-micro.png|600]]
+
+![[Computer/Boot Order／Sequence - Firmware - Bootloader - Operating System/Kernels & Operating Systems/Kernel／Kernels (OS)/Kernel／Kernels (OS) - Classifications/kernel-monolinth-vs-micro.png|600]]

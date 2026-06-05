@@ -1,18 +1,20 @@
 ---
-title: "(Receptive Field - Field of View) - Effective Receptive Field (ERF) - Theoretical Receptive Field (TRF)"
+publish: true
+title: (Receptive Field - Field of View) - Effective Receptive Field (ERF) - Theoretical Receptive Field (TRF)
 created: 2024-08-12T12:52:59.339-05:00
 modified: 2024-08-13T19:18:13.711-05:00
-parent: "[[ANN - Architecture Properties]]"
-children: []
 ---
+
 ###### (Receptive Field - Field of View) - Effective Receptive Field (ERF) - Theoretical Receptive Field (TRF)
-````excerpt
+
+```excerpt
 - refers to the region of the input image that a particular neuron in a convolutional layer is “looking at” or taking into account when making its predictions or feature extractions
 - is determined by the size of the convolutional kernel (also known as the filter) and the stride used during the convolution operation
 - two types of receptive fields:
 	- theoretical receptive field - theoretically evenly spaced out across the entire image
 	- effective receptive field - in CNNs it is usually more centered of the image
-````
+```
+
 ^excerpt
 
 ## Theoretical Receptive Field (TRF) - Examples
@@ -32,6 +34,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Theoretical Receptive Field (TRF) vs Effective Receptive Field (ERF)
 
 ```merge-table
@@ -107,6 +110,8 @@ The ERF both follows a [[Univariate Normal／Gaussian／Gauss／Laplace-Gauss﻿
   ]
 }
 ```
+
 # Resources
+
 - [Receptive Field of CNN](https://www.youtube.com/watch?v=ip2HYPC_T9Q)
-- [https://ahmdtaha.medium.com/understanding-the-effective-receptive-field-in-deep-convolutional-neural-networks-b2642297927e](https://ahmdtaha.medium.com/understanding-the-effective-receptive-field-in-deep-convolutional-neural-networks-b2642297927e)
+- <https://ahmdtaha.medium.com/understanding-the-effective-receptive-field-in-deep-convolutional-neural-networks-b2642297927e>

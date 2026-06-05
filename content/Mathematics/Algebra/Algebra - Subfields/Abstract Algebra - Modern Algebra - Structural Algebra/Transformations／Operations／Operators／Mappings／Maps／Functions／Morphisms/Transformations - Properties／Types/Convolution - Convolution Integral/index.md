@@ -1,24 +1,28 @@
 ---
-title: "Convolution - Convolution Integral"
+publish: true
+title: Convolution - Convolution Integral
 created: 2023-12-12T11:46:06.145-06:00
 modified: 2023-12-14T11:45:43.427-06:00
-parent: "[[Transformations - Properties／Types]]"
-children: []
 ---
+
 ###### Convolution - Convolution Integral
-````excerpt
+
+```excerpt
 - is a [[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms|mathematical operation]] on two functions (𝑓 and 𝑔) that produces a third function (𝑓∗𝑔)
 - the inverse of the convolution operation is known as deconvolution
-````
+```
+
 ^excerpt
 
 # Definition
 
 It is defined as the integral of the product of the two functions after one is reflected about the y-axis and shifted:
+
 - $(f*g)(t) := \int_{-∞}^∞ f(𝜏)g(t-𝜏)d𝜏$
 - $(f*g)(t) := \int_{-∞}^∞ f(t-𝜏)g(𝜏)d𝜏$
 
 At each 𝑡, the convolution formula can be described as the area under the function 𝑓(𝜏) weighted by the function 𝑔(-𝜏) shifted by the amount 𝑡. As 𝑡 changes, the weighting function 𝑔(𝑡−𝜏) emphasizes different parts of the input function 𝑓(𝜏); If t is a positive value, then 𝑔(𝑡-𝜏) is equal to 𝑔(-𝜏) that slides or is shifted along the 𝜏-axis toward the right (toward +∞) by the amount of 𝑡, while if 𝑡 is a negative value, then 𝑔(𝑡-𝜏) is equal to 𝑔(-𝜏) that slides or is shifted toward the left (toward -∞) by the amount of |𝑡|.
+
 # Visual Explanation
 
 ```merge-table
@@ -40,7 +44,9 @@ At each 𝑡, the convolution formula can be described as the area under the fun
   "tableStyle": "width: 75.9559%;"
 }
 ```
+
 # Resources
-- [https://en.wikipedia.org/wiki/Convolution](https://en.wikipedia.org/wiki/Convolution)
+
+- <https://en.wikipedia.org/wiki/Convolution>
 - [Khan Academy](https://www.khanacademy.org/math/differential-equations/laplace-transform/convolution-integral/v/introduction-to-the-convolution)
-- [https://lpsa.swarthmore.edu/Convolution/Convolution2.html](https://lpsa.swarthmore.edu/Convolution/Convolution2.html)
+- <https://lpsa.swarthmore.edu/Convolution/Convolution2.html>

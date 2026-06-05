@@ -1,19 +1,22 @@
 ---
-title: "Mathematical Model"
+publish: true
+title: Mathematical Model
 created: 2021-09-13T05:26:21.782-05:00
 modified: 2023-06-08T16:31:47.146-05:00
-parent: "[[Mathematics - Meta]]"
-children: []
 ---
+
 ###### Mathematical Model
-````excerpt
+
+```excerpt
 - is an abstract description of a concrete system using mathematical concepts and language
-````
+```
+
 ^excerpt
 
 # Mathematical Model - Classifications
 
 Mathematical models are usually composed of both:
+
 - <strong>relationships</strong> can be described by <em>operators</em>, such as algebraic operators, functions, differential operators, etc
 - <strong>variables</strong> are abstractions of system parameters of interest, that can be quantified
 
@@ -21,6 +24,7 @@ Several classification criteria can be used for mathematical models according to
 
 > [!expand-ui]- Linear vs Non-Linear
 > If all the operators in a mathematical model exhibit linearity, the resulting mathematical model is defined as linear. A model is considered to be nonlinear otherwise. The definition of linearity and nonlinearity is dependent on context, and linear models may have nonlinear expressions in them. For example, in a statistical linear model, it is assumed that a relationship is linear in the parameters, but it may be nonlinear in the predictor variables. Similarly, a differential equation is said to be linear if it can be written with linear differential operators, but it can still have nonlinear expressions in it. In a [[Mathematical Programming／Optimization|mathematical programming]] model, if the objective functions and constraints are represented entirely by linear equations, then the model is regarded as a [[Linear Programming／Optimization (LP)|linear programming]] model. If one or more of the objective functions or constraints are represented with a nonlinear equation, then the model is known as a nonlinear model.
+>
 > - Nonlinearity, even in fairly simple systems, is often associated with phenomena such as chaos and irreversibility. Although there are exceptions, nonlinear systems, and models tend to be more difficult to study than linear ones. A common approach to nonlinear problems is linearization, but this can be problematic if one is trying to study aspects such as irreversibility, which is strongly tied to nonlinearity.
 
 > [!expand-ui]- Static vs Dynamic
@@ -38,6 +42,7 @@ Several classification criteria can be used for mathematical models according to
 > Conversely, in a stochastic model—usually called a "statistical model"—randomness is present, and variable states are not described by unique values, but rather by probability distributions.
 
 > [!expand-ui]- Deductive, Inductive, or Floating
+>
 > - A deductive model is a logical structure based on a theory
 > - An inductive model arises from empirical findings and generalizations from them
 > - The floating model rests on neither theory nor observation but is merely the invocation of the expected structure

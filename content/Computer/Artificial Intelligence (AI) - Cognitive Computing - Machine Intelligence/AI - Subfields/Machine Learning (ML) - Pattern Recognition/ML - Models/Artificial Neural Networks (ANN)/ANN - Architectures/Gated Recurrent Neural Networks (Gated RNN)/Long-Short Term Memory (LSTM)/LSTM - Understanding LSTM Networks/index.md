@@ -1,11 +1,12 @@
 ---
-title: "LSTM - Understanding LSTM Networks"
+publish: true
+title: LSTM - Understanding LSTM Networks
 created: 2023-07-15T23:50:47.455-05:00
 modified: 2023-07-16T00:07:47.914-05:00
-parent: "[[Long-Short Term Memory (LSTM)]]"
-children: []
 ---
-Original Article: [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+Original Article: <http://colah.github.io/posts/2015-08-Understanding-LSTMs/>
+
 # Recurrent Neural Networks
 
 Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.
@@ -14,7 +15,7 @@ Traditional neural networks can’t do this, and it seems like a major shortcomi
 
 Recurrent neural networks address this issue. They are networks with loops in them, allowing information to persist.
 
-![[LSTM - Understanding LSTM Networks/1.png|70]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/1.png|70]]
 
 <strong>Recurrent Neural Networks have loops.</strong>
 
@@ -22,7 +23,7 @@ In the above diagram, a chunk of a neural network, 𝐴, looks at some input �
 
 These loops make recurrent neural networks seem kind of mysterious. However, if you think a bit more, it turns out that they aren’t all that different than a normal neural network. A recurrent neural network can be thought of as multiple copies of the same network, each passing a message to a successor. Consider what happens if we unroll the loop:
 
-![[LSTM - Understanding LSTM Networks/2.png|400]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/2.png|400]]
 
 <strong>An unrolled recurrent neural network.</strong>
 
@@ -31,6 +32,7 @@ This chain-like nature reveals that recurrent neural networks are intimately rel
 And they certainly are used! In the last few years, there has been an incredible success in applying RNNs to a variety of problems: speech recognition, language modeling, translation, image captioning… The list goes on. I’ll leave a discussion of the amazing feats one can achieve with RNNs to Andrej Karpathy’s excellent blog post, [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/). But they really are pretty amazing.
 
 Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network that works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them. It’s these LSTMs that this essay will explore.
+
 # The Problem of Long-Term Dependencies
 
 One of the appeals of RNNs is the idea that they might be able to connect previous information to the present task, such as using previous video frames might inform the understanding of the present frame. If RNNs could do this, they’d be extremely useful. But can they? It depends.
@@ -44,6 +46,7 @@ Unfortunately, as that gap grows, RNNs become unable to learn to connect the inf
 In theory, RNNs are absolutely capable of handling such “long-term dependencies.” A human could carefully pick parameters for them to solve toy problems of this form. Sadly, in practice, RNNs don’t seem to be able to learn them. The problem was explored in depth by [Hochreiter (1991) \[German\]](http://people.idsia.ch/~juergen/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf) and [Bengio, et al. (1994)](http://www-dsi.ing.unifi.it/~paolo/ps/tnn-94-gradient.pdf), who found some pretty fundamental reasons why it might be difficult.
 
 Thankfully, LSTMs don’t have this problem!
+
 # LSTM Networks
 
 Long Short Term Memory networks – usually just called “LSTMs” – are a special kind of RNN, capable of learning long-term dependencies. They were introduced by [Hochreiter & Schmidhuber (1997)](http://www.bioinf.jku.at/publications/older/2604.pdf) and were refined and popularized by many people in the following work.[<sup>1</sup>](http://colah.github.io/posts/2015-08-Understanding-LSTMs/#fn1) They work tremendously well on a large variety of problems and are now widely used.
@@ -52,48 +55,49 @@ LSTMs are explicitly designed to avoid the long-term dependency problem. Remembe
 
 All recurrent neural networks have the form of a chain of repeating modules of neural networks. In standard RNNs, this repeating module will have a very simple structure, such as a single tanh layer.
 
-![[LSTM - Understanding LSTM Networks/3.png|400]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/3.png|400]]
 
 <strong>The repeating module in a standard RNN contains a single layer.</strong>
 
 LSTMs also have this chain-like structure, but the repeating module has a different structure. Instead of having a single neural network layer, there are four, interacting in a very special way.
 
-![[LSTM - Understanding LSTM Networks/4.png|400]]
-<strong>The repeating module in an LSTM contains four interacting layers.</strong>
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/4.png|400]] <strong>The repeating module in an LSTM contains four interacting layers.</strong>
 
 Don’t worry about the details of what’s going on. We’ll walk through the LSTM diagram step by step later. For now, let’s just try to get comfortable with the notation we’ll be using.
 
 In the above diagram, each line carries an entire vector, from the output of one node to the inputs of others. The pink circles represent pointwise operations, like vector addition, while the yellow boxes are learned neural network layers. Lines merging denote concatenation, while a line forking denotes its content being copied and the copies going to different locations.
+
 # The Core Idea Behind LSTMs
 
 The key to LSTMs is the cell state, the horizontal line running through the top of the diagram.
 
 The cell state is kind of like a conveyor belt. It runs straight down the entire chain, with only some minor linear interactions. It’s very easy for information to just flow along it unchanged.
 
-![[LSTM - Understanding LSTM Networks/5.png|450]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/5.png|450]]
 
 The LSTM does have the ability to remove or add information to the cell state, carefully regulated by structures called gates.
 
 Gates are a way to optionally let information through. They are composed of a sigmoid neural net layer and a pointwise multiplication operation.
 
-![[LSTM - Understanding LSTM Networks/6.png|50]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/6.png|50]]
 
 The sigmoid layer outputs numbers between zero and one, describing how much of each component should be let through. A value of zero means “let nothing through,” while a value of one means “let everything through!”
 
 An LSTM has three of these gates, to protect and control the cell state.
+
 # Step-by-Step LSTM Walk Through
 
 The first step in our LSTM is to decide what information we’re going to throw away from the cell state. This decision is made by a sigmoid layer called the “forget gate layer.” It looks at ℎ<sub>𝑡−1</sub> and 𝑥<sub>𝑡</sub> and outputs a number between 0 and 1 for each number in the cell state 𝐶<sub>𝑡-1</sub>. A 1 represents “completely keep this” while a 0 represents “completely get rid of this.”
 
 Let’s go back to our example of a language model trying to predict the next word based on all the previous ones. In such a problem, the cell state might include the gender of the present subject, so that the correct pronouns can be used. When we see a new subject, we want to forget the gender of the old subject.
 
-![[LSTM - Understanding LSTM Networks/7.png|500]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/7.png|500]]
 
 The next step is to decide what new information we’re going to store in the cell state. This has two parts. First, a sigmoid layer called the “input gate layer” decides which values we’ll update. Next, a tanh layer creates a vector of new candidate values, 𝐶˜<sub>𝑡</sub>, that could be added to the state. In the next step, we’ll combine these two to create an update to the state.
 
 In the example of our language model, we’d want to add the gender of the new subject to the cell state, to replace the old one we’re forgetting.
 
-![[LSTM - Understanding LSTM Networks/8.png|500]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/8.png|500]]
 
 It’s now time to update the old cell state, 𝐶<sub>𝑡-1</sub>, into the new cell state 𝐶<sub>𝑡</sub>. The previous steps already decided what to do, we just need to actually do it.
 
@@ -101,34 +105,36 @@ We multiply the old state by 𝑓<sub>𝑡</sub>, forgetting the things we decid
 
 In the case of the language model, this is where we’d actually drop the information about the old subject’s gender and add the new information, as we decided in the previous steps.
 
-![[LSTM - Understanding LSTM Networks/9.png|500]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/9.png|500]]
 
 Finally, we need to decide what we’re going to output. This output will be based on our cell state but will be a filtered version. First, we run a sigmoid layer which decides what parts of the cell state we’re going to output. Then, we put the cell state through tanh (to push the values to be between −1 and 1) and multiply it by the output of the sigmoid gate, so that we only output the parts we decided to.
 
 For the language model example, since it just saw a subject, it might want to output information relevant to a verb, in case that’s what is coming next. For example, it might output whether the subject is singular or plural, so that we know what form a verb should be conjugated into if that’s what follows next.
 
-![[LSTM - Understanding LSTM Networks/10.png|500]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/10.png|500]]
+
 # Variants on LSTM
 
 What I’ve described so far is a pretty normal LSTM. But not all LSTMs are the same as the above. In fact, it seems like almost every paper involving LSTMs uses a slightly different version. The differences are minor, but it’s worth mentioning some of them.
 
 One popular LSTM variant, introduced by [Gers & Schmidhuber (2000)](ftp://ftp.idsia.ch/pub/juergen/TimeCount-IJCNN2000.pdf), is adding “peephole connections.” This means that we let the gate layers look at the cell state.
 
-![[LSTM - Understanding LSTM Networks/11.png|500]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/11.png|500]]
 
 The above diagram adds peepholes to all the gates, but many papers will give some peepholes and not others.
 
 Another variation is to use coupled forget and input gates. Instead of separately deciding what to forget and what we should add new information to, we make those decisions together. We only forget when we’re going to input something in its place. We only input new values to the state when we forget something older.
 
-![[LSTM - Understanding LSTM Networks/12.png|500]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/12.png|500]]
 
 A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or GRU, introduced by [Cho, et al. (2014)](http://arxiv.org/pdf/1406.1078v3.pdf). It combines the forget and input gates into a single “update gate.” It also merges the cell state and hidden state and makes some other changes. The resulting model is simpler than standard LSTM models and has been growing increasingly popular.
 
-![[LSTM - Understanding LSTM Networks/13.png|500]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Gated Recurrent Neural Networks (Gated RNN)/Long-Short Term Memory (LSTM)/LSTM - Understanding LSTM Networks/13.png|500]]
 
 These are only a few of the most notable LSTM variants. There are lots of others, like Depth Gated RNNs by [Yao, et al. (2015)](http://arxiv.org/pdf/1508.03790v2.pdf). There are also some completely different approaches to tackling long-term dependencies, like Clockwork RNNs by [Koutnik, et al. (2014)](http://arxiv.org/pdf/1402.3511v1.pdf).
 
 Which of these variants is best? Do the differences matter? [Greff, et al. (2015)](http://arxiv.org/pdf/1503.04069.pdf) do a nice comparison of popular variants, finding that they’re all about the same. [Jozefowicz, et al. (2015)](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf) tested more than ten thousand RNN architectures, finding some that worked better than LSTMs on certain tasks.
+
 # Conclusion
 
 Earlier, I mentioned the remarkable results people are achieving with RNNs. Essentially all of these are achieved using LSTMs. They really work a lot better for most tasks!

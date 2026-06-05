@@ -1,26 +1,27 @@
 ---
-title: "Western Digital (WD) HDD Lineup"
+publish: true
+title: Western Digital (WD) HDD Lineup
 created: 2024-06-27T16:38:36.684-05:00
 modified: 2025-12-04T20:07:15.948-06:00
-parent: "[[HDD - Brands]]"
-children: []
 ---
+
 - WD Green - cheapest, power-efficient, but falls short on performance
 - WD Blue - intended for average users
 - WD Black - intended for gamers, expensive, high performance drives
 - WD Red - intended for NAS, higher read speeds than write speeds
-	- WD Red Standard
-	- WD Red Plus
-	- WD Red Pro
+  - WD Red Standard
+  - WD Red Plus
+  - WD Red Pro
 - WD Purple - intended for 24/7 constant video writing, high write speeds
-	- WD Purple Standard
-	- WD Purple Pro
+  - WD Purple Standard
+  - WD Purple Pro
 - WD Gold - intended for enterprise data centers, 550TB annual data, 2 million hours mean time between failure
 - WD Ultrastar - similar to WD Gold, but is HGST tech that WD acquired (WD Gold is homegrown)
 
 # WD Gold
 
 [https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd](https://www.westerndigital.com/products/internal-drives/wd-gold-sata-hdd?sku=WD261KRYZ)
+
 - 2TB  -
 - 4TB  - 149.99 / 4  = 37.4975
 - 6TB  - 199.99 / 6  = 33.33166667

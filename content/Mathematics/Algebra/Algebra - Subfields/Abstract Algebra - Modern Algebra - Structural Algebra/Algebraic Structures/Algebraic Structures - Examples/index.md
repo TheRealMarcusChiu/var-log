@@ -1,10 +1,10 @@
 ---
-title: "Algebraic Structures - Examples"
+publish: true
+title: Algebraic Structures - Examples
 created: 2024-01-08T00:28:53.576-06:00
 modified: 2024-01-08T00:59:05.918-06:00
-parent: "[[Algebraic Structures]]"
-children: []
 ---
+
 Here are examples of [[Algebraic Structures]]
 
 ```merge-table

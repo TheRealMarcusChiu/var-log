@@ -1,16 +1,18 @@
 ---
-title: "Universally Unique IDentifier (UUID) - Globally Unique IDentifier (GUID)"
+publish: true
+title: Universally Unique IDentifier (UUID) - Globally Unique IDentifier (GUID)
 created: 2020-01-07T14:16:04.373-06:00
 modified: 2026-01-02T23:25:37.205-06:00
-parent: "[[Computer Terms]]"
-children: []
 ---
+
 ###### Universally Unique IDentifier (UUID) or Globally Unique IDentifier (GUID)
-````excerpt
+
+```excerpt
 - is a 128-bit number used to identify information in computer systems
 - their uniqueness does not depend on a central party nor on a coordination of parties
 - while the probability that a UUID will be duplicated is not zero, it is close enough to zero to be negligible
-````
+```
+
 ^excerpt
 
 # Format
@@ -19,15 +21,15 @@ the 16 [[Storage Units (bit - nibble - byte／octet - kilobyte／kibibyte - mega
 
 For example:
 
-> [!indent]
-> <code><font style="color: rgb(122,134,154);"><font style="color: rgb(255,102,0);">123e4567</font>-<font style="color: rgb(0,128,0);">e89b</font>-<font style="color: rgb(128,0,0);">12d3</font>-<font style="color: rgb(0,204,255);">a456</font>-<font style="color: rgb(255,0,255);">426655440000</font></font></code>
-> <code><font style="color: rgb(122,134,154);"><font style="color: rgb(255,102,0);">xxxxxxxx</font>-<font style="color: rgb(0,128,0);">xxxx</font>-<font style="color: rgb(128,0,0);">Mxxx</font>-<font style="color: rgb(0,204,255);">Nxxx</font>-<font style="color: rgb(255,0,255);">xxxxxxxxxxxx</font></font></code>
+> [!indent] <code><font style="color: rgb(122,134,154);"><font style="color: rgb(255,102,0);">123e4567</font>-<font style="color: rgb(0,128,0);">e89b</font>-<font style="color: rgb(128,0,0);">12d3</font>-<font style="color: rgb(0,204,255);">a456</font>-<font style="color: rgb(255,0,255);">426655440000</font></font></code> <code><font style="color: rgb(122,134,154);"><font style="color: rgb(255,102,0);">xxxxxxxx</font>-<font style="color: rgb(0,128,0);">xxxx</font>-<font style="color: rgb(128,0,0);">Mxxx</font>-<font style="color: rgb(0,204,255);">Nxxx</font>-<font style="color: rgb(255,0,255);">xxxxxxxxxxxx</font></font></code>
 
 The 4 bit M and the 1 to 3 bit N fields code the format of the UUID itself:
+
 - the 4 bits of digit M are the UUID version
 - the 1 to 3 most significant bits of digit N code the UUID variant
 
 In the example, M is 1, and N is a (10xx2), meaning that this is a version-1, variant-1 UUID; that is, a time-based DCE/RFC 4122 UUID.
+
 # UUID Record Layout
 
 ```merge-table

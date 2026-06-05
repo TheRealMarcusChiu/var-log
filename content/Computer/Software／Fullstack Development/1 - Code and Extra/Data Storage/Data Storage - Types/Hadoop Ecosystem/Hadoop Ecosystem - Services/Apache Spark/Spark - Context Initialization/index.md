@@ -1,14 +1,15 @@
 ---
-title: "Spark - Context Initialization"
+publish: true
+title: Spark - Context Initialization
 created: 2020-05-28T12:12:31.616-05:00
 modified: 2020-05-28T12:35:41.845-05:00
-parent: "[[Apache Spark]]"
-children: []
 ---
+
 ### Spark Context - Interactively
+
 > [!tabs]
 >
-> === Python
+> \=== Python
 >
 > ```merge-table
 > {
@@ -33,7 +34,7 @@ children: []
 > }
 > ```
 >
-> === Scala
+> \=== Scala
 >
 > ```merge-table
 > {
@@ -58,7 +59,7 @@ children: []
 > }
 > ```
 >
-> === R
+> \=== R
 >
 > ```merge-table
 > {
@@ -84,9 +85,10 @@ children: []
 > ```
 
 ### Spark Context - Programmatically
+
 > [!tabs]
 >
-> === Python
+> \=== Python
 >
 > ```
 > pip install pypandoc
@@ -99,7 +101,7 @@ children: []
 > sc = SparkContext(conf = conf)
 > ```
 >
-> === Scala
+> \=== Scala
 >
 > ```
 > import org.apache.spark.SparkConf
@@ -110,7 +112,7 @@ children: []
 > val sc = new SparkContext(conf)
 > ```
 >
-> === Java
+> \=== Java
 >
 > ```
 > import org.apache.spark.SparkConf;

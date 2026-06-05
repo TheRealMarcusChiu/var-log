@@ -1,26 +1,28 @@
 ---
-title: "Skills"
+publish: true
+title: Skills
 created: 2021-09-13T04:46:13.635-05:00
 modified: 2021-09-13T04:46:13.635-05:00
-parent: "[[Self Development]]"
-children:
-  - "[[Persuasion - Persuasive]]"
-  - "[[Soft Skills]]"
 ---
+
 <strong>skill</strong> is the ability to do something well
+
 # <strong>Skill - 3 Broad Categories</strong>
+
 - <strong>technical skill</strong> - ability to understand and carry out specific tasks
 - <strong>human skill</strong> - ability to work well with other people
 - <strong>conceptual skill</strong> - ability to understand complex/abstract situations as a whole and develop creative/successful solutions
 
-![[Skills/Screen Shot 2019-11-01 at 10.46.10 AM.png|500]]
+![[Enter Symbiosis/Self Development/Skills/Screen Shot 2019-11-01 at 10.46.10 AM.png|500]]
+
 > You will meet 2 kinds of people at work:
-> 
+>
 > The first knows how to do things
-> 
+>
 > The second knows what to do (and why)
-> 
+>
 > The first always works for the second
+
 # <strong>Skill - Types</strong>
 
 ```merge-table
@@ -62,8 +64,9 @@ children:
   "tableStyle": "width: 1339.0px;"
 }
 ```
+
 # <strong>Skills - Hierarchy</strong>
 
 Skills can be categorized based on the level of expertise and motivation. The highest level of engagement corresponds to the craftsman. About 2% of people reach the highest level.
 
-![[Skills/Kokcharov Skill Hierarchy.jpg]]
+![[Enter Symbiosis/Self Development/Skills/Kokcharov Skill Hierarchy.jpg]]

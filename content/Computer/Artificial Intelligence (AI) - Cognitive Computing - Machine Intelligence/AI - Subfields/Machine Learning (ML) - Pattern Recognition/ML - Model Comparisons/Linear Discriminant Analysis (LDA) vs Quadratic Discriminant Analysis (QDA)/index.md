@@ -1,11 +1,12 @@
 ---
-title: "Linear Discriminant Analysis (LDA) vs Quadratic Discriminant Analysis (QDA)"
+publish: true
+title: Linear Discriminant Analysis (LDA) vs Quadratic Discriminant Analysis (QDA)
 created: 2021-08-17T21:44:15.186-05:00
 modified: 2023-09-20T13:41:41.426-05:00
-parent: "[[ML - Model Comparisons]]"
-children: []
 ---
+
 Comparing:
+
 - [[Linear／Normal Discriminant／Discriminative Analysis (LDA／NDA)|Linear/Normal Discriminant/Discriminative Analysis (LDA/NDA)]]
 - [[Quadratic Discriminant／Discriminative Analysis (QDA)|Quadratic Discriminant/Discriminative Analysis (QDA)]]
 

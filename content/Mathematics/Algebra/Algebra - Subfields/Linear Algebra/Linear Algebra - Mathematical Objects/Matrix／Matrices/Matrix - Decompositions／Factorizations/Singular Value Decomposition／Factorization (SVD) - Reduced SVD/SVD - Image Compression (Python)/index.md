@@ -1,11 +1,12 @@
 ---
-title: "SVD - Image Compression (Python)"
+publish: true
+title: SVD - Image Compression (Python)
 created: 2021-09-13T05:25:51.724-05:00
 modified: 2021-09-13T05:25:51.724-05:00
-parent: "[[Singular Value Decomposition／Factorization (SVD) - Reduced SVD]]"
-children: []
 ---
+
 ### Code
+
 ```
 from matplotlib.image import imread
 import matplotlib.pyplot as plt
@@ -46,6 +47,7 @@ plt.plot(np.cumsum(np.diag(S)) / np.sum(np.diag(s)))
 plt.title('Singular Values: Cumulative Sum')
 plt.show()
 ```
+
 ### Resources
 
-![](https://www.youtube.com/watch?v=H7qMMudo3e8&list=PLMrJAkhIeNNSVjnsviglFoY2nXildDCcv&index=6)
+![](https://www.youtube.com/watch?v=H7qMMudo3e8\&list=PLMrJAkhIeNNSVjnsviglFoY2nXildDCcv\&index=6)

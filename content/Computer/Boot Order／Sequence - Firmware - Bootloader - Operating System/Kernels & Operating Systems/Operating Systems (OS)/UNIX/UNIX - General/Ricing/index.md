@@ -1,16 +1,16 @@
 ---
-title: "Ricing"
+publish: true
+title: Ricing
 created: 2025-04-12T15:05:40.631-05:00
 modified: 2025-12-25T02:20:01.894-06:00
-parent: "[[UNIX - General]]"
-children:
-  - "[[Heads Up Display (HUD) - Status／Panel Bar]]"
-  - "[[Program／Application Launcher]]"
 ---
+
 ###### Ricing
-````excerpt
+
+```excerpt
 - is customizing your desktop
-````
+```
+
 ^excerpt
 
 # Ricing - Components
@@ -50,6 +50,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Ricing - Examples
 
 ![](https://www.youtube.com/watch?v=XK7gal3Wrtk)

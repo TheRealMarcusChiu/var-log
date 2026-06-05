@@ -1,11 +1,12 @@
 ---
-title: "Herrmann Brain Dominance Instrument (HBDI)"
+publish: true
+title: Herrmann Brain Dominance Instrument (HBDI)
 created: 2021-09-13T04:45:28.542-05:00
 modified: 2021-12-20T16:29:48.318-06:00
-parent: "[[Human Personality Models／Tests]]"
-children: []
 ---
+
 <strong>Herrmann Brain Dominance Instrument</strong> (<strong>HBDI</strong>) is a system to measure and describe thinking preferences in people
+
 # 4 Thinking Modes
 
 ```merge-table

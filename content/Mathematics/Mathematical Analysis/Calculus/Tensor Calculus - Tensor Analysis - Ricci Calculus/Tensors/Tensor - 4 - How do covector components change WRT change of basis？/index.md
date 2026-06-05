@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 4 - How do covector components change WRT change of basis？"
+publish: true
+title: Tensor - 4 - How do covector components change WRT change of basis？
 created: 2023-08-01T23:01:21.395-05:00
 modified: 2023-08-01T23:03:18.325-05:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 Let's define:
 
@@ -66,4 +66,5 @@ Thus
 }
 ```
 ````
+
 ^excerpt

@@ -1,15 +1,17 @@
 ---
-title: "Neo4j - Memory Monitoring"
+publish: true
+title: Neo4j - Memory Monitoring
 created: 2021-03-21T22:10:32.277-05:00
 modified: 2021-03-21T22:12:14.183-05:00
-parent: "[[Neo4j - Memory Consumption]]"
-children: []
 ---
+
 By now you must have realized that memory configuration is not that trivial. What do you have to make your life easier? You can use the Native Memory Tracking which is a JVM feature and tracks internal memory usage. To enable it you need to add the following to your <code>neo4j.conf</code> file:
+
 - <code><font style="color: rgb(160,174,192);">dbms.jvm.additional</font>=<font style="color: rgb(47,133,90);">-XX:NativeMemoryTracking=detail</font></code>
 
-Then grab the PID of Neo4j, and use <code>jcmd</code> to print out native memory use for the process using <code>jcmd \<PID\> VM.native\_memory summary</code>. You will get the detailed allocation information for each category in memory, as shown below:
+Then grab the PID of Neo4j, and use <code>jcmd</code> to print out native memory use for the process using <code>jcmd \<PID> VM.native\_memory summary</code>. You will get the detailed allocation information for each category in memory, as shown below:
 Shell
+
 ```
 $ jcmd <PID> VM.native_memory summary
 Native Memory Tracking:
@@ -58,6 +60,7 @@ Total: reserved=3554519KB, committed=542799KB
 ```
 
 Usually, the <code>jcmd</code> dump is only moderately useful by itself. It’s more common to take multiple dumps and compare them by running:
+
 ```
 $ jcmd <PID> VM.native_memory summary.diff
 ```

@@ -1,11 +1,12 @@
 ---
-title: "Architectural Design Patterns - Distributed"
+publish: true
+title: Architectural Design Patterns - Distributed
 created: 2019-12-17T23:09:06.852-06:00
 modified: 2020-04-02T21:30:54.281-05:00
-parent: "[[Architectural／Architecture Design Patterns (ADP)]]"
-children: []
 ---
-![](https://www.youtube.com/watch?v=tpspO9K28PM&t=138s)
+
+![](https://www.youtube.com/watch?v=tpspO9K28PM\&t=138s)
+
 ###### Distributed Architectural Design Patterns
 
 ```merge-table

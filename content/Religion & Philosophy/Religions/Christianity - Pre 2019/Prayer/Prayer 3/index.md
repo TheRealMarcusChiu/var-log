@@ -1,10 +1,10 @@
 ---
-title: "Prayer 3"
+publish: true
+title: Prayer 3
 created: 2021-09-13T04:44:53.199-05:00
 modified: 2021-09-13T04:44:53.199-05:00
-parent: "[[Prayer]]"
-children: []
 ---
+
 Lord as I pray, I desire to speak with a humble heart.
 
 My prayer goes out to those who struggle with pride. Lord you said, everyone who is arrogant in heart is an abomination to You, and they will not go unpunished. Lord you deserve all the glory. Lord I feel like Satan is attacking me. I'm sure he's attacking each and everyone of us, not just in pride but through the various trials and tribulations and temptations. Lord, Satan wants to sift us like wheat, to break each and everyone of us into pieces, but let us rise and stand firm for the sake of abiding in Your Name. We pray that You provide us that strength.

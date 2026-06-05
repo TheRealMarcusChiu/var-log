@@ -1,21 +1,18 @@
 ---
-title: "OpenGL Family"
+publish: true
+title: OpenGL Family
 created: 2019-12-24T23:21:36.355-06:00
 modified: 2024-06-30T10:54:47.080-05:00
-parent: "[[Graphics／Rendering Libraries／APIs]]"
-children:
-  - "[[GLEW (OpenGL Extension Wrangler)]]"
-  - "[[GLM (OpenGL Mathematics)]]"
-  - "[[OpenGL (Open Graphics Library)]]"
-  - "[[OpenGL - Cross Platform]]"
-  - "[[OpenGL - Interfaces]]"
 ---
+
 ###### OpenGL Family
-````excerpt
+
+```excerpt
 - is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics
 - managed by [[Khronos Group]]
 - is being replaced with [[Vulkan]]
-````
+```
+
 ^excerpt
 
 # OpenGL - Core
@@ -50,6 +47,7 @@ children:
   ]
 }
 ```
+
 # OpenGL - Interfaces
 
 ```merge-table
@@ -82,6 +80,7 @@ children:
   ]
 }
 ```
+
 # OpenGL - Cross-Platform Libraries For Managing Windows & I/O Events
 
 ```merge-table
@@ -106,5 +105,7 @@ children:
   ]
 }
 ```
+
 # OpenGL - Other
+
 - [[OpenGL vs Vulkan]]

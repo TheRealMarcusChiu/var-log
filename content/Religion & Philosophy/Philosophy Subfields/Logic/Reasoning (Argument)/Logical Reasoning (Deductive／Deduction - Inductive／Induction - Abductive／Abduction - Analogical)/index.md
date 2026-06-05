@@ -1,18 +1,18 @@
 ---
-title: "Logical Reasoning (Deductive／Deduction - Inductive／Induction - Abductive／Abduction - Analogical)"
+publish: true
+title: Logical Reasoning (Deductive／Deduction - Inductive／Induction - Abductive／Abduction - Analogical)
 created: 2021-09-13T04:44:33.641-05:00
 modified: 2023-09-07T14:22:34.033-05:00
-parent: "[[Reasoning (Argument)]]"
-children: []
 ---
-<strong>logical reasoning</strong> is a type of [[Reasoning (Argument)|reasoning]] technique
-<span style="white-space: pre-wrap"><code> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_                                   \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</code><br><code>|precondition(s)/minor-premise(s)| -- major-premise(s)/rule(s) --\> |postcondition(s)/major/minor-premise(s)/rule(s)|</code><br><code> ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾                                   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</code></span>
+
+<strong>logical reasoning</strong> is a type of [[Reasoning (Argument)|reasoning]] technique <span style="white-space: pre-wrap"><code> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_                                   \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</code><br><code>|precondition(s)/minor-premise(s)| -- major-premise(s)/rule(s) --> |postcondition(s)/major/minor-premise(s)/rule(s)|</code><br><code> ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾                                   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</code></span>
 
 ###### Syllogism
 
 major premise: All books from that store are new
 minor premise: These books are from that store
 conclusion: Therefore, these books are new
+
 - <strong>major premise (assumption?)</strong> of a syllogism makes a general statement that the writer believes to be true
 - <strong>minor premise</strong> <strong>(subsumption)</strong> presents a specific example of the belief that is stated in the major premise
 - <strong>conclusion</strong> presents a conclusion of the specific example based on the premises

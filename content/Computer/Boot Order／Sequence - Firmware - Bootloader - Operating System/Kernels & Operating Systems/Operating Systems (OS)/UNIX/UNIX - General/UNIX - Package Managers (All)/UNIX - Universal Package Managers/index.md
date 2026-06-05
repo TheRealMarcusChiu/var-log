@@ -1,14 +1,12 @@
 ---
-title: "UNIX - Universal Package Managers"
+publish: true
+title: UNIX - Universal Package Managers
 created: 2021-08-27T20:20:52.287-05:00
 modified: 2025-11-03T15:12:16.549-06:00
-parent: "[[UNIX - Package Managers (All)]]"
-children:
-  - "[[AppImages (Universal Package Manager)]]"
-  - "[[Flatpaks (Universal Package Manager)]]"
-  - "[[Snap (Universal Package Manager)]]"
 ---
+
 ###### Universal Package Managers
+
 - attempts to solve one of the fundamental problems with Linux as a desktop operating system: software availability and software distribution
 - [[UNIX - Package Managers (All)|Linux package managers]] is awful for both developers and users. Snaps, Flatpaks & AppImages are intended to solve this fundamental problem with Linux based systems
 
@@ -23,11 +21,7 @@ This means if I want to release a new version of my application, I have to creat
 <strong>With a Universal Package Manager, a single package runs on every version of every distribution</strong> that supports the Universal Package Manager.
 
 Additionally, with a Universal Package Manager, <strong>the developer publishes and maintains the package</strong>, instead of the distribution maintainer. So I as a developer can release new a version to all my users without having to wait on anyone else
+
 # Universal Package Managers
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 - [[Nix]]

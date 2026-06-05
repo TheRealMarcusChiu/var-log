@@ -1,10 +1,10 @@
 ---
-title: "Fr. Roman Braga"
+publish: true
+title: Fr. Roman Braga
 created: 2025-03-25T16:31:05.876-05:00
 modified: 2025-03-25T16:31:36.830-05:00
-parent: "[[Testimonies]]"
-children: []
 ---
+
 Fr. Roman Braga, a survivor of torture in Communist prisons, shows us how the experience of the prisoners helped them to find God inside themselves.
 
 Fr. Roman:

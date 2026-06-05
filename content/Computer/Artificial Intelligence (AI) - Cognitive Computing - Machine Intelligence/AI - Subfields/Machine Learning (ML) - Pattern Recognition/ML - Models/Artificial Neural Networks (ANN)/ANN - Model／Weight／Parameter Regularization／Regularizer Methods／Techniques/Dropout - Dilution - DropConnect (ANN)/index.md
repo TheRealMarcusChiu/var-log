@@ -1,16 +1,18 @@
 ---
-title: "Dropout - Dilution - DropConnect (ANN)"
+publish: true
+title: Dropout - Dilution - DropConnect (ANN)
 created: 2023-12-24T12:48:42.601-06:00
 modified: 2023-12-25T12:08:00.600-06:00
-parent: "[[ANN - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques]]"
-children: []
 ---
+
 ###### Dropout - Dilution - DropConnect
-````excerpt
+
+```excerpt
 - is a [[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques|regularization method]] for [[Artificial Neural Networks (ANN)|artificial neural networks]] that prevents [[Artificial Neural Networks (ANN)|t]]hem from [[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)|overfitting]]
 - the key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much.
 - introduced by Hinton et al. in 2012
-````
+```
+
 ^excerpt
 
 # Dropout Introduction
@@ -26,13 +28,16 @@ children: []
   "tableStyle": "width: 78.6029%;"
 }
 ```
+
 # Dropout Neural Network Model Description
 
 Consider a neural network with 𝐿 hidden layers. Let:
+
 - 𝑙∈{1, ..., 𝐿} index the hidden layers of the network
 - 𝐳<sup>(𝑙)</sup> is the vector input into layer 𝑙
 - 𝐲<sup>(𝑙)</sup> is the vector output from layer 𝑙 (𝐲<sup>(0)</sup> = 𝐱 is the input)
 - 𝑊<sup>(𝑙)</sup> and 𝑏<sup>(𝑙)</sup> are the weights and biases at layer 𝑙
+
 ```merge-table
 {
   "rows": [
@@ -63,17 +68,24 @@ Consider a neural network with 𝐿 hidden layers. Let:
   ]
 }
 ```
+
 # Dropout Effect on Features
-![[Dropout - Dilution - DropConnect (ANN)/dropout-effect-on-features.png|500]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques/Dropout - Dilution - DropConnect (ANN)/dropout-effect-on-features.png|500]]
+
 # Dropout Effect on Sparsity
-![[Dropout - Dilution - DropConnect (ANN)/dropout-effect-on-sparsity.png|500]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques/Dropout - Dilution - DropConnect (ANN)/dropout-effect-on-sparsity.png|500]]
 
 In a good sparse model, there should only be a few highly activated units for any data case. Moreover, the average activation of any unit across data cases should be low.
+
 # Comparisons with Other Regularization Methods
+
 - Dropout is more effective than other standard computationally inexpensive regularizers, such as weight decay, filter norm constraints, and sparse activity regularization
 - Dropout may also be combined with other forms of regularization to yield further improvement
 - Although dropout alone gives significant improvements, using dropout along with [[Max Norm Constraints／Regularization|max norm regularization]], large decaying learning rates, and high momentum provides a significant
   boost over just using dropout.
 
 # Resources
-- [https://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf](https://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf)
+
+- <https://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf>

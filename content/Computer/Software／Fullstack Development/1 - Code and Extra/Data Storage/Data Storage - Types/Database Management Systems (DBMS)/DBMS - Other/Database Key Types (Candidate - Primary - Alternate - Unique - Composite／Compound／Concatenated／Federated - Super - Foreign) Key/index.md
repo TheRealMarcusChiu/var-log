@@ -1,11 +1,12 @@
 ---
-title: "Database Key Types (Candidate - Primary - Alternate - Unique - Composite／Compound／Concatenated／Federated - Super - Foreign) Key"
+publish: true
+title: Database Key Types (Candidate - Primary - Alternate - Unique - Composite／Compound／Concatenated／Federated - Super - Foreign) Key
 created: 2019-12-10T14:25:18.841-06:00
 modified: 2022-04-10T23:36:40.807-05:00
-parent: "[[DBMS - Other]]"
-children: []
 ---
+
 ###### Database Keys
+
 - are used to uniquely identify a row in a table
 - not to be confused with [[Database Index Types (Simple - Primary - Unique - Composite／Compound／Concatenated／Federated) Index|Database Indices]]
 

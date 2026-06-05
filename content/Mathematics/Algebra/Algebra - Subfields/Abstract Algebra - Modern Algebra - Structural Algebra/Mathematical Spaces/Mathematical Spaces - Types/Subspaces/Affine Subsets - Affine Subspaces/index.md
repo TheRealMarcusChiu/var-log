@@ -1,11 +1,12 @@
 ---
-title: "Affine Subsets - Affine Subspaces"
+publish: true
+title: Affine Subsets - Affine Subspaces
 created: 2023-08-04T20:37:52.278-05:00
 modified: 2023-08-07T17:22:52.617-05:00
-parent: "[[Subspaces]]"
-children: []
 ---
+
 ###### Affine Subsets
+
 - is the sum of a vector and a linear subspace
 - given a [[Vector Spaces - Linear Spaces|vector space]] 𝑉, a [[Linear Subspaces - Vector Subspaces|linear subspace]] 𝑆 of 𝑉, and a [[Vectors|vector]] 𝑣∊𝑉; an <em>affine subset</em> of 𝑉 is defined as: 𝑣 + 𝑆
 - affine subset 𝑣 + 𝑆 is a translation of 𝑆 by 𝑣
@@ -13,6 +14,7 @@ children: []
 - no <em>affine subsets</em> are linear subspaces unless 𝑣 is the zero vector
 
 ###### Affine Subspaces
+
 - is an <em>affine subset</em> where 𝑣 is the zero vector
 - all <em>affine subspaces</em> are [[Linear Subspaces - Vector Subspaces|linear subspaces]]
 

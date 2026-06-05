@@ -1,10 +1,10 @@
 ---
-title: "Geometric Distribution vs Negative Binomial Distribution"
+publish: true
+title: Geometric Distribution vs Negative Binomial Distribution
 created: 2021-11-08T00:32:56.397-06:00
 modified: 2021-11-08T03:57:23.176-06:00
-parent: "[[Probability Distribution - UPD Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

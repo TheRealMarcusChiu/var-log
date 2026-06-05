@@ -1,10 +1,10 @@
 ---
-title: "Java - Concurrent Mark Sweep (CMS) Garbage Collector - DEPRECATED"
+publish: true
+title: Java - Concurrent Mark Sweep (CMS) Garbage Collector - DEPRECATED
 created: 2021-10-09T00:54:59.762-05:00
 modified: 2021-10-09T00:59:43.379-05:00
-parent: "[[Java - JVM Garbage Collector／Collection (GC)]]"
-children: []
 ---
+
 ###### Concurrent Mark Sweep (CMS) Garbage Collector
 
 uses multiple garbage collector threads for garbage collection. It's designed for applications that prefer shorter garbage collection pauses, and that can afford to share processor resources with the garbage collector while the application is running.
@@ -18,17 +18,22 @@ If more than 98% of the total time is spent in <em>CMS</em> garbage collection
 This collector also has a mode knows as an incremental mode which is being deprecated in Java SE 8 and may be removed in a future major release.
 
 To enable the <em>CMS Garbage Collector</em>, we can use the following flag:
+
 ```
 java -XX:+UseParNewGC -jar Application.java
 ```
+
 # [Deprecated in Java 9](https://openjdk.java.net/jeps/291)
+
 ```
 >> java -XX:+UseConcMarkSweepGC --version
 Java HotSpot(TM) 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated 
 in version 9.0 and will likely be removed in a future release.
 java version "9.0.1"
 ```
+
 # [Removed in Java 14](https://openjdk.java.net/jeps/363)
+
 ```
 >> java -XX:+UseConcMarkSweepGC --version
 OpenJDK 64-Bit Server VM warning: Ignoring option UseConcMarkSweepGC; 

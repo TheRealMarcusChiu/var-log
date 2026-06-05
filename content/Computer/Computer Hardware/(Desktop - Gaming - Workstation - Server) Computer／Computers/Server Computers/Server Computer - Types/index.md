@@ -1,13 +1,10 @@
 ---
-title: "Server Computer - Types"
+publish: true
+title: Server Computer - Types
 created: 2022-07-13T02:37:04.286-05:00
 modified: 2025-06-20T10:15:18.172-05:00
-parent: "[[Server Computers]]"
-children:
-  - "[[Blade Servers]]"
-  - "[[Rack Servers]]"
-  - "[[Tower／Desktop Servers]]"
 ---
+
 # Server Types
 
 ```merge-table

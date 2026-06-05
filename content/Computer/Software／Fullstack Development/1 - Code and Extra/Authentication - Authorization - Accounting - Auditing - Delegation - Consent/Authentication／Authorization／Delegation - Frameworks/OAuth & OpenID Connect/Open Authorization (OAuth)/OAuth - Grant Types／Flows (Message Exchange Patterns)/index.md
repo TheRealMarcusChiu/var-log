@@ -1,13 +1,10 @@
 ---
-title: "OAuth - Grant Types／Flows (Message Exchange Patterns)"
+publish: true
+title: OAuth - Grant Types／Flows (Message Exchange Patterns)
 created: 2020-01-09T13:07:06.671-06:00
 modified: 2026-01-09T17:07:37.749-06:00
-parent: "[[Open Authorization (OAuth)]]"
-children:
-  - "[[OAuth - Authorization Code Flow]]"
-  - "[[OAuth - Client Credentials Grant (Machine to Machine M2M  Authorization)]]"
-  - "[[OAuth - Implicit Code Flow]]"
 ---
+
 ````excerpt
 Grant Types or Flows or Message Exchange Patterns
 
@@ -59,4 +56,5 @@ Grant Types or Flows or Message Exchange Patterns
 }
 ```
 ````
+
 ^excerpt

@@ -1,11 +1,12 @@
 ---
-title: "Floating Point Operations Per Second (FLOPS - flops - flop／s)"
+publish: true
+title: Floating Point Operations Per Second (FLOPS - flops - flop／s)
 created: 2021-11-02T01:43:01.688-05:00
 modified: 2021-11-02T02:05:55.524-05:00
-parent: "[[Computer Performance]]"
-children: []
 ---
+
 ###### Floating Point Operations Per Second (FLOPS - flops - flop/s)
+
 - is a measure of computer performance, useful in fields of scientific computations that require floating-point calculations
 - For such cases, it is a more accurate measure than measuring instructions per second
 

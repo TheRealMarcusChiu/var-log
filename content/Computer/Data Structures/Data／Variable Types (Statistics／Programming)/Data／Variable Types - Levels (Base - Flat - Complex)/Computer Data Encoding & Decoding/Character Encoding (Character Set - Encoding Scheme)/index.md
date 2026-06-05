@@ -1,20 +1,17 @@
 ---
-title: "Character Encoding (Character Set - Encoding Scheme)"
+publish: true
+title: Character Encoding (Character Set - Encoding Scheme)
 created: 2019-03-16T02:24:28.015-05:00
 modified: 2022-12-28T21:42:24.572-06:00
-parent: "[[Computer Data Encoding & Decoding]]"
-children:
-  - "[[ASCII]]"
-  - "[[ISO 8859-1 - Latin1]]"
-  - "[[Unicode]]"
-  - "[[Unicode Transformation Format (UTF-8)]]"
 ---
+
 - <strong>character set</strong> is a binding where every character is assigned a number (<font style="color: rgb(51,153,102);"><em>code units/points</em></font><em>)</em>
-	- <em>similar to the [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]], but different</em>
+  - <em>similar to the [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]], but different</em>
 - <strong>encoding scheme</strong> defines how a number (<font style="color: rgb(51,153,102);"><em>code units/points</em></font><em>)</em> is encoded into a sequence of bytes or binary
 - <strong>character</strong><strong>encoding</strong> is the combination of <em>character set</em> and <em>encoding scheme</em> (i.e. the mapping of characters to a sequence of bytes or binary, and vice versa)
 
-![[Character Encoding (Character Set - Encoding Scheme)/character-encoding_character-set_encoding-scheme.jpg|700]]
+![[Computer/Data Structures/Data／Variable Types (Statistics／Programming)/Data／Variable Types - Levels (Base - Flat - Complex)/Computer Data Encoding & Decoding/Character Encoding (Character Set - Encoding Scheme)/character-encoding_character-set_encoding-scheme.jpg|700]]
+
 # Character Sets and/or Encoding Schemes
 
 ```merge-table
@@ -114,6 +111,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Other Encoding Schemes
 
 ```merge-table
@@ -149,5 +147,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Resources
+
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)

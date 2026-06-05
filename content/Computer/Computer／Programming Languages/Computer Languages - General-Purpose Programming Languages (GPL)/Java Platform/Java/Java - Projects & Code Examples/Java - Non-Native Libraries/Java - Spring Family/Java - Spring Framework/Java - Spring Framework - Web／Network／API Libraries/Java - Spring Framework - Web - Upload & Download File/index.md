@@ -1,10 +1,10 @@
 ---
-title: "Java - Spring Framework - Web - Upload & Download File"
+publish: true
+title: Java - Spring Framework - Web - Upload & Download File
 created: 2021-04-13T15:41:42.355-05:00
 modified: 2022-12-22T10:02:11.756-06:00
-parent: "[[Java - Spring Framework - Web／Network／API Libraries]]"
-children: []
 ---
+
 ```
 ## MULTIPART (MultipartProperties)
 # Enable multipart uploads
@@ -18,6 +18,7 @@ spring.servlet.multipart.max-request-size=215MB
 # All files uploaded through the REST API will be stored in this directory
 file.upload-dir=/home/yogesh/media/upload
 ```
+
 ```
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;
@@ -47,9 +48,5 @@ public class DocumentController {
     }
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

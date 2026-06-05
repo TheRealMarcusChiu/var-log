@@ -1,12 +1,10 @@
 ---
-title: "Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function"
+publish: true
+title: Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function
 created: 2021-09-13T05:27:10.825-05:00
 modified: 2021-11-02T02:15:59.915-05:00
-parent: "[[Stochastic Process - Auto／Cross／Partial Correlation／Covariance]]"
-children:
-  - "[[Auto／Serial Correlation - Analysis／Test]]"
-  - "[[Auto／Serial Correlation as a Symptom of Omitted Variable Bias]]"
 ---
+
 ```merge-table
 {
   "rows": [
@@ -32,10 +30,12 @@ children:
 ```
 
 <font style="color: rgb(255,0,0);">NOTE: autocovariance is not well-defined for all-time series or processes, because the mean may not exist, or the variance may be zero (for a constant process) or infinite (for processes with distribution lacking well-behaved moments, such as certain types of power-law)</font>
+
 # Auto-Correlation/Covariance - Functions/Formulas
+
 > [!tabs]
 >
-> === General Stochastic Process
+> \=== General Stochastic Process
 >
 > ```merge-table
 > {
@@ -83,7 +83,7 @@ children:
 > }
 > ```
 >
-> === Wide-Sense Stationary Stochastic Process
+> \=== Wide-Sense Stationary Stochastic Process
 >
 > ```merge-table
 > {
@@ -120,14 +120,17 @@ children:
 > ```
 
 # Auto-Correlation/Covariance - Analysis/Tests
+
 - [[Auto／Serial Correlation - Analysis／Test|Auto/Serial Correlation - Analysis/Test]]
 
 # False Auto-Correlation (Auto-Correlation not caused by Population Auto-Correlation)
 
 finding a non-zero Auto-Correlation does not mean it is true population Auto-Correlation, it could mean your model is missing an important input variable. A variable that correlates with one of the model independent variables
+
 - [[Auto／Serial Correlation as a Symptom of Omitted Variable Bias|Auto/Serial Correlation as a Symptom of Omitted Variable Bias]]
 
 # Dealing with Serial Correlation in Least Squares Estimators
 
 serial correlation breaks one of the [[Gauss-Markov Assumptions - OLS Assumptions]] and also causes [[Ordinary Least Squares (OLS)|OLS]] to no longer become the best linear estimator [[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)|BLUE]]
+
 - [[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)]]

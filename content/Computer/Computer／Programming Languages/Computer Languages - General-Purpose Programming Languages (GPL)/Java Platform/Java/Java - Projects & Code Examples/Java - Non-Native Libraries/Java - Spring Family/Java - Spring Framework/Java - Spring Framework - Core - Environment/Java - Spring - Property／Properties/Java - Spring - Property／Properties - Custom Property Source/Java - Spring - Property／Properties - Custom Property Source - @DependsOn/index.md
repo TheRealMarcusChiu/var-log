@@ -1,10 +1,10 @@
 ---
-title: "Java - Spring - Property／Properties - Custom Property Source - @DependsOn"
+publish: true
+title: Java - Spring - Property／Properties - Custom Property Source - @DependsOn
 created: 2021-06-02T23:46:49.429-05:00
 modified: 2021-06-02T23:47:45.846-05:00
-parent: "[[Java - Spring - Property／Properties - Custom Property Source]]"
-children: []
 ---
+
 ```
 @Configuration
 public class YourPropertyConfigClass{

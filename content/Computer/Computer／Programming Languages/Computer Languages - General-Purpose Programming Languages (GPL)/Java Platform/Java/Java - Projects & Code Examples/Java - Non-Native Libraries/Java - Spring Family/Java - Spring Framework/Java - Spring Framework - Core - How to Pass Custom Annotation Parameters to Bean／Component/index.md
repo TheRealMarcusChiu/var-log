@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring Framework - Core - How to Pass Custom Annotation Parameters to Bean／Component"
+publish: true
+title: Java - Spring Framework - Core - How to Pass Custom Annotation Parameters to Bean／Component
 created: 2022-07-08T02:16:01.377-05:00
 modified: 2022-12-22T09:55:11.476-06:00
-parent: "[[Java - Spring Framework]]"
-children: []
 ---
+
 # Example Code Setup
+
 ```
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
@@ -14,6 +15,7 @@ public @interface EnableExample {
     String cacheName() default "my-cache";
 }
 ```
+
 ```
 public class EnableExampleRegistrar implements ImportBeanDefinitionRegistrar {
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
@@ -27,6 +29,7 @@ public class EnableExampleRegistrar implements ImportBeanDefinitionRegistrar {
     }
 }
 ```
+
 ```
 @Data
 public class ExampleBeanConfiguration {
@@ -45,7 +48,9 @@ public class ExampleBeanConfiguration {
     }
 }
 ```
+
 # Example Code Usage
+
 ```
 @SpringBootApplication
 @EnableExample(cacheName = "hello world!")

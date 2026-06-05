@@ -1,12 +1,14 @@
 ---
-title: "／etc／group"
+publish: true
+title: ／etc／group
 created: 2020-06-25T22:02:39.917-05:00
 modified: 2020-06-25T22:04:04.026-05:00
-parent: "[[Group (groupadd／addgroup - groupdel／delgroup)]]"
-children: []
 ---
+
 [[／etc directory|/etc]]/group - file that stores [[Group (groupadd／addgroup - groupdel／delgroup)|groups]]
+
 ### /etc/group layout
+
 <span style="white-space: pre-wrap"><code>dalton:x:1006:e,a,b,c,d</code></span>
 
 1. <strong>group\_name</strong>: It is the name of group. If you run ls -l command, you will see this name printed in the group field

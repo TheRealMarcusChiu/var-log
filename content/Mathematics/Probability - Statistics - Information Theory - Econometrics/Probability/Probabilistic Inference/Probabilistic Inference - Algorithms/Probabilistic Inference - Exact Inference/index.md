@@ -1,19 +1,15 @@
 ---
-title: "Probabilistic Inference - Exact Inference"
+publish: true
+title: Probabilistic Inference - Exact Inference
 created: 2021-09-13T05:28:20.743-05:00
 modified: 2021-12-11T05:12:11.488-06:00
-parent: "[[Probabilistic Inference - Algorithms]]"
-children:
-  - "[[Probabilistic Inference - Bucket Elimination (BE) - Variable Elimination (VE)]]"
-  - "[[Probabilistic Inference - Bucket Tree Elimination (BTE) - Collect & Distribute Algorithm]]"
-  - "[[Probabilistic Inference - Cutset Conditioning Scheme]]"
-  - "[[Probabilistic Inference - Inference by Enumeration Algorithm]]"
-  - "[[Probabilistic Inference - Node Cluster／Clique／Join／Junction Scheme]]"
 ---
+
 > [!expand]- probabilistic inference recap
 > ![[Probabilistic Inference#^excerpt]]
 
 <strong>Exact Inference</strong> is a type of [[Probabilistic Inference - Algorithms|inference method]] used for the computation of [[Probability Distributions|distributions]], their [[Statistics - Terminology|parameters]], their [[Probability|probabilities]], and/or [[Probability Distribution - Theorems & Properties|distribution characteristics]]
+
 # Exact Inference Algorithms
 
 ```merge-table

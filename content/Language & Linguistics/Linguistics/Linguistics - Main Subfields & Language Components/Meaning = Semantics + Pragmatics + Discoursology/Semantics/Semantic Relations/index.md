@@ -1,14 +1,15 @@
 ---
-title: "Semantic Relations"
+publish: true
+title: Semantic Relations
 created: 2021-09-13T04:44:10.404-05:00
 modified: 2021-09-13T04:44:10.404-05:00
-parent: "[[Semantics]]"
-children: []
 ---
+
 ###### Semantic Relations
+
 - are the associations that there exist between the meanings of:
-	- words (e.g. [[Lexical Semantic Relations - (Synonymy Antonymy Hypernymy Hyponymy Holonymy Meronymy Troponymy)|Lexical Semantic Relations]])
-	- phrases/sentences (e.g. [[Sentential Semantic Relations (Thematic Roles)|Sentential Semantic Relations]])
+  - words (e.g. [[Lexical Semantic Relations - (Synonymy Antonymy Hypernymy Hyponymy Holonymy Meronymy Troponymy)|Lexical Semantic Relations]])
+  - phrases/sentences (e.g. [[Sentential Semantic Relations (Thematic Roles)|Sentential Semantic Relations]])
 
 ### Semantic Relations - List
 

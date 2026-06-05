@@ -1,19 +1,19 @@
 ---
-title: "Conditional Statements - Antecedent - Consequent (Conditional - Converse - Inverse - Contrapositive - Biconditional)"
+publish: true
+title: Conditional Statements - Antecedent - Consequent (Conditional - Converse - Inverse - Contrapositive - Biconditional)
 created: 2021-09-13T04:44:24.610-05:00
 modified: 2023-05-20T17:51:50.259-05:00
-parent: "[[Logic]]"
-children:
-  - "[[Proof by Contradiction]]"
-  - "[[Proof by Contrapositive／Contraposition]]"
 ---
+
 A <strong>conditional statement</strong> (if-then statement) consists of two parts:
+
 - “if” clause (hypothesis or antecedent)
 - “then” clause (conclusion or conclusion)
 
 In this context, <strong>conditional statements </strong>are often considered as <strong>z</strong><strong>ero conditional</strong>. Other types exist and are described in [[English Conditionals]].
 
 Given a <strong>conditional statement</strong> "if 𝑃, then 𝑄", we can create other <strong>related statements</strong>:
+
 - conditional
 - converse
 - inverse
@@ -308,11 +308,6 @@ Given a <strong>conditional statement</strong> "if 𝑃, then 𝑄", we can 
 }
 ```
 
-<strong>conditional</strong> and <strong>contrapositive</strong> are tautologies
-<strong>converse</strong> and <strong>inverse</strong> are tautologies
+<strong>conditional</strong> and <strong>contrapositive</strong> are tautologies <strong>converse</strong> and <strong>inverse</strong> are tautologies
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

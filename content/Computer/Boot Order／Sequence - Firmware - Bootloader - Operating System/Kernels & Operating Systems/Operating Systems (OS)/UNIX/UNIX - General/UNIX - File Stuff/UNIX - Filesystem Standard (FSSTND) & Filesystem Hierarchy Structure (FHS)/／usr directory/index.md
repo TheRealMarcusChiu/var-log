@@ -1,11 +1,12 @@
 ---
-title: "／usr directory"
+publish: true
+title: ／usr directory
 created: 2019-12-31T15:33:22.013-06:00
 modified: 2020-06-25T22:12:30.562-05:00
-parent: "[[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]"
-children: []
 ---
+
 ###### /usr directory
+
 - stands for Unix System Resources
 - contains system utilities
 - contents are usually static

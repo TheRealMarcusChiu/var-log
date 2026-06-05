@@ -1,32 +1,36 @@
 ---
-title: "Exponential Family"
+publish: true
+title: Exponential Family
 created: 2021-09-13T05:27:36.453-05:00
 modified: 2021-12-21T15:13:54.809-06:00
-parent: "[[Probability Distribution - Families]]"
-children: []
 ---
+
 ###### Exponential family
+
 - is a parametric set of [[Probability Distributions|probability distributions]] of a certain form, specified below
 - can be represented with [[Log-Linear Model - Log-Level Model - Structured Logistic Regression|Log-Linear Models]]
 
 # Exponential Family - Form Specification
 
 Let 𝑋 be a random variable/vector with:
+
 - sample space ℝ<sup>𝑑</sup>
 - probability model 𝐏<sub>𝜃</sub>
 
 The class of probability models {𝐏<sub>𝜃</sub>: 𝜽∊𝛩} is an<strong> Exponential Family</strong> if 𝐏<sub>𝜃</sub>'s [[Probability Distribution - Discrete Functions／Models (Probability Mass Functions)|PMF]] or [[Probability Distribution - Continuous Functions／Models (Probability Density Functions)|PDF]] (i.e. 𝐏(𝑥|𝜃)) can be written as:
-- 𝐏(𝑥|𝜃) = 𝐏<sub>𝜃</sub>(𝑥) = 𝑒𝑥𝑝\[𝛴<sub>1≤𝑖≤𝑘</sub>𝜂<sub>𝑖</sub>(𝜃)𝑠<sub>𝑖</sub>(𝑥)\] · ℎ(𝑥) / 𝑧(𝜃)
+
+- 𝐏(𝑥|𝜃) = 𝐏<sub>𝜃</sub>(𝑥) = 𝑒𝑥𝑝\[𝛴<sub>1≤𝑖≤𝑘</sub>𝜂<sub>𝑖</sub>(𝜃)𝑠<sub>𝑖</sub>(𝑥)] · ℎ(𝑥) / 𝑧(𝜃)
 
 where:
+
 - 𝜂: 𝛩 → ℝ and 𝜂(𝜃)
 - 𝑠: ℝ<sup>𝑑</sup> → ℝ and 𝑠(𝑥) is a natural sufficient for 𝜃
 - ℎ: ℝ<sup>𝑑</sup> → \[0, ∞) and ℎ(𝑥) is the support & scaling
 - 𝑧: 𝛩 → \[0, ∞) and 𝑧(𝜃) is the partition function / normalization factor
 - 𝑥 ∊ ℝ<sup>𝑑</sup>
 - 𝑘 = number of parameters
-	- if 𝑘 = 1 then 𝐏<sub>𝜃</sub>(𝑥)<sub></sub>belongs to a one-parameter exponential family
-	- if 𝑘 \> 1 then 𝐏<sub>𝜃</sub>(𝑥)<sub></sub>belongs to a multi-parameter exponential family
+  - if 𝑘 = 1 then 𝐏<sub>𝜃</sub>(𝑥)<sub></sub>belongs to a one-parameter exponential family
+  - if 𝑘 > 1 then 𝐏<sub>𝜃</sub>(𝑥)<sub></sub>belongs to a multi-parameter exponential family
 
 # Exponential Family - Examples
 
@@ -52,12 +56,16 @@ where:
   ]
 }
 ```
+
 # Exponential Family - Properties
+
 - they all have [[Conjugate Prior|conjugate priors]]
 - use in maximum entropy
 
 # Exponential Family - Other
+
 - [[MLE - Exponential Family]]
 
 # Exponential Family - Resources
+
 - [mathematicalmonk - YouTube](https://www.youtube.com/watch?v=_aNk4QKi2_o)

@@ -1,10 +1,10 @@
 ---
-title: "From the Transistor to the Web Browser"
+publish: true
+title: From the Transistor to the Web Browser
 created: 2019-03-16T03:15:03.365-05:00
 modified: 2019-03-16T03:15:17.527-05:00
-parent: "[[Computer Personal Projects - Work In Progress]]"
-children: []
 ---
+
 [A Copy from the Legendary George Hotz](https://github.com/geohot/fromthetransistor)
 
 Wrote this a few years ago, wanted to put it online. Hiring is hard, a lot of modern CS education is really bad, and it's so hard to find people who understand the modern computer stack from first principles.

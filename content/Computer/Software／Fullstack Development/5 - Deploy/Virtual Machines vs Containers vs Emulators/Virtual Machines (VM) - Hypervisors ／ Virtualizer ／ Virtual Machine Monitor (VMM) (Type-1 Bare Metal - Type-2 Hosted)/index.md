@@ -1,25 +1,13 @@
 ---
-title: "Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)"
+publish: true
+title: Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)
 created: 2019-03-15T02:08:11.134-05:00
 modified: 2023-05-06T13:21:53.323-05:00
-parent: "[[Virtual Machines vs Containers vs Emulators]]"
-children:
-  - "[[Kernel-Based Virtual Machine (KVM) Hypervisor]]"
-  - "[[MicroCloud]]"
-  - "[[Microsoft Client Hyper-V]]"
-  - "[[Microsoft Hyper-V]]"
-  - "[[Nutanix Acropolis Hypervisor (AHV)]]"
-  - "[[Parallels]]"
-  - "[[Proxmox Virtual Environment (PVE)]]"
-  - "[[VMware]]"
-  - "[[VirtualBox]]"
-  - "[[Xen Cloud Platform - next generation (XCP-ng)]]"
-  - "[[Xen Project]]"
-  - "[[oVirt]]"
 ---
+
 - <strong>Virtual Machine (VM</strong><strong>)</strong> is an emulation of an [[Operating Systems (OS)|Operating System]]
 - <strong>Hypervisor</strong> or <strong>Virtualizer</strong> or <strong>Virtual Machine Monitor</strong> is computer software, firmware, or hardware that creates and runs <strong>VMs</strong>
-	- for virtualizing networks see [[Computer Network／Networking Software Emulation／Emulator／Simulations／Simulator／Virtualization／Virtualizer|Network Software Emulator]]
+  - for virtualizing networks see [[Computer Network／Networking Software Emulation／Emulator／Simulations／Simulator／Virtualization／Virtualizer|Network Software Emulator]]
 
 # Hypervisor - Type 1 vs Type 2
 
@@ -65,11 +53,9 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Hypervisor - Type 1 vs Type 2 Diagram
-# ![[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)/hypervisor-1-vs-2.png|500]]
+
+# ![[Computer/Software／Fullstack Development/5 - Deploy/Virtual Machines vs Containers vs Emulators/Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)/hypervisor-1-vs-2.png|500]]
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

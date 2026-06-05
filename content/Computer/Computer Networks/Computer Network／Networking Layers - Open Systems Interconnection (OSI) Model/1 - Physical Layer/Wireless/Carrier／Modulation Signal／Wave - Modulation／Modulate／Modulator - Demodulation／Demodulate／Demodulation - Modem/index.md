@@ -1,11 +1,10 @@
 ---
-title: "Carrier／Modulation Signal／Wave - Modulation／Modulate／Modulator - Demodulation／Demodulate／Demodulation - Modem"
+publish: true
+title: Carrier／Modulation Signal／Wave - Modulation／Modulate／Modulator - Demodulation／Demodulate／Demodulation - Modem
 created: 2022-01-07T22:35:08.629-06:00
 modified: 2022-01-07T23:06:36.778-06:00
-parent: "[[Wireless]]"
-children:
-  - "[[Modulation Categories - (Pulse／Quadrature Amplitude／Frequency／Phase／Width／Position／Coding Shift-Keying) Modulation]]"
 ---
+
 # Terminology
 
 ```merge-table

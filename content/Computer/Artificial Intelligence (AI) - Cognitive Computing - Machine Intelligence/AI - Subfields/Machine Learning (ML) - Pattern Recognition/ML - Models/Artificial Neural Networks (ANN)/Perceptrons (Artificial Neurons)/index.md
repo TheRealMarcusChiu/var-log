@@ -1,18 +1,18 @@
 ---
-title: "Perceptrons (Artificial Neurons)"
+publish: true
+title: Perceptrons (Artificial Neurons)
 created: 2020-01-18T14:13:26.845-06:00
 modified: 2023-12-10T11:48:49.259-06:00
-parent: "[[Artificial Neural Networks (ANN)]]"
-children:
-  - "[[Activation Functions (AF)]]"
-  - "[[Activation Functions (AF) - Comparisons]]"
 ---
+
 ###### Perceptrons (Artificial Neurons)
-````excerpt
+
+```excerpt
 - is an algorithm for [[ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)|supervised learning]] of binary/binomial classifiers
 - used in [[Artificial Neural Networks (ANN)]]
 - similar to [[Binomial／Binary Logistic Regression (BLR)|Binomial/Binary Logistic Regression]] when the perceptron's chosen [[Activation Functions (AF)|activation function]] is the [[Logistic Function - Sigmoid Function (Standard Logistic Function)|sigmoid function]]
-````
+```
+
 ^excerpt
 
 # Perceptron - Model Representation
@@ -28,12 +28,15 @@ children:
   ]
 }
 ```
+
 # Perceptron - How Weights are Learned
 
 > [!expand]- Click here to expand...
+>
 > ###### General Rule
 >
 > For each training example (i.e. input vector), if the perceptron outputs:
+>
 > - the correct answer (either 0 or 1), then leave the weights alone
 > - a [[True／False Positive／Negative Sensitivity Recall Hit／Miss／False-Discovery／False-Omission Rate Fall-Out Threat／F1 Score Critical Success Index Accuracy Specificity Precision Predictive-Value|false negative]] (0 when the answer is 1), then add the input vector to the weights vector
 > - a [[True／False Positive／Negative Sensitivity Recall Hit／Miss／False-Discovery／False-Omission Rate Fall-Out Threat／F1 Score Critical Success Index Accuracy Specificity Precision Predictive-Value|false positive]] (1 when the answer is 0), then subtract the input vector from the weights vector
@@ -49,6 +52,7 @@ children:
 > We must ask, then, when is z, the dot product of the weights and inputs, greater than 0?
 >
 > If you are familiar with the geometric view of [[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product|dot products]], you will know that dot products can be seen as a measure of how much two vectors point in the same direction.
+>
 > - When two vectors lie in similar directions, the dot product is positive.
 > - When they lie in dissimilar directions, the dot product is negative.
 > - The dot product is <em>exactly zero when the two vectors are perpendicular</em>.
@@ -85,12 +89,13 @@ children:
 > ```
 >
 > Thus you can see how to "general rule" above applies.
+
 # Perceptron - Limitations
 
 > [!expand-ui]- Can't Learn Non-Linear Data
 > Say we have 4 training examples as shown below.
 >
-> ![[Perceptrons (Artificial Neurons)/perceptrons-learning-2.png]]
+> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/Perceptrons (Artificial Neurons)/perceptrons-learning-2.png]]
 >
 > There is no way to linearly separate the dataset such that on one side are the green dots, and on the other side are red dots.
 
@@ -99,7 +104,7 @@ children:
 >
 > The kicker is that we allow these patterns to wrap around our image, to go off one side and end on the other. Let’s see three examples of each pattern.
 >
-> ![[Perceptrons (Artificial Neurons)/perceptron-learning-1.png|500]]
+> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/Perceptrons (Artificial Neurons)/perceptron-learning-1.png|500]]
 >
 > The short answer is with this ‘wrap-around’ factor, we <em>cannot </em>use a perceptron to determine which pattern is which.
 >
@@ -114,6 +119,7 @@ children:
 > <em>This </em>was what ended the perceptron dream. Coined <em>group invariance theorem, </em>computer scientists Marvin Minsky and Seymour Papert revealed in their now classic 1969 book <em>Perceptrons </em>that because perceptrons abided by the group invariance theorem, they were virtually useless in most practical applications.
 
 Only in cases where the input features were picked tediously to be linearly separable and not victim to group invariance theorem were perceptrons helpful. In these cases with good input features, perceptrons still worked superbly.
+
 # Perceptrons - Limitations that Lead to Neural Networks
 
 > [!expand]- Click here to expand...
@@ -128,9 +134,5 @@ Only in cases where the input features were picked tediously to be linearly sepa
 > This meant adding another layer and finding a way to learn the weights for another layer, which is conceptually hard to do. How does a change in a weight propagate through a network to affect the final output?
 >
 > This was not figured out for nearly 17 years after the publication of Perceptrons, until 1986, when a paper by David Rumelhart, Geoffrey Hinton, and Ronald Williams outlined the backpropagation algorithm.
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

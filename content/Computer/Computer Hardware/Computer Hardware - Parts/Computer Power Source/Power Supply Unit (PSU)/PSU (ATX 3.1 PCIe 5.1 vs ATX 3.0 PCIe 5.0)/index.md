@@ -1,11 +1,12 @@
 ---
-title: "PSU (ATX 3.1 PCIe 5.1 vs ATX 3.0 PCIe 5.0)"
+publish: true
+title: PSU (ATX 3.1 PCIe 5.1 vs ATX 3.0 PCIe 5.0)
 created: 2025-10-11T01:27:59.670-05:00
 modified: 2025-10-11T02:11:34.626-05:00
-parent: "[[Power Supply Unit (PSU)]]"
-children: []
 ---
+
 For new builds with high-end GPUs, ATX 3.1 is the better choice, primarily for the more secure 12V-2x6 connector, which addresses melting issues seen with ATX 3.0's 12VHPWR connector. ATX 3.0 is still sufficient for most users, especially those with AMD/Intel GPUs or using a high-quality ATX 3.0 PSU, but ATX 3.1 is the safer, more future-proof option for the latest flagship GPUs
+
 # ATX 3.1 (PCIe 5.1)
 
 ```merge-table
@@ -28,6 +29,7 @@ For new builds with high-end GPUs, ATX 3.1 is the better choice, primarily for t
   ]
 }
 ```
+
 # ATX 3.0 (PCIe 5.0)
 
 ```merge-table

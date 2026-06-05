@@ -1,10 +1,10 @@
 ---
-title: "C vs C++"
+publish: true
+title: C vs C++
 created: 2021-12-12T01:51:44.899-06:00
 modified: 2021-12-12T01:52:04.603-06:00
-parent: "[[C／C++／Carbon／Rust]]"
-children: []
 ---
+
 # C vs C++ Differences
 
 ```merge-table

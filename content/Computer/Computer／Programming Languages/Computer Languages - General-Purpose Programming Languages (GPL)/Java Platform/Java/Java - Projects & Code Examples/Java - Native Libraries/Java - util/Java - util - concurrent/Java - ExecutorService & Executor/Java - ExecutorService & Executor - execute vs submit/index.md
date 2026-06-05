@@ -1,11 +1,11 @@
 ---
-title: "Java - ExecutorService & Executor - execute vs submit"
+publish: true
+title: Java - ExecutorService & Executor - execute vs submit
 created: 2021-04-04T18:55:23.943-05:00
 modified: 2021-04-23T20:43:05.876-05:00
-parent: "[[Java - ExecutorService & Executor]]"
-children: []
 ---
-```merge-table
+
+````merge-table
 {
   "rows": [
     [
@@ -53,4 +53,4 @@ children: []
     ]
   ]
 }
-```
+````

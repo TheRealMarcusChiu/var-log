@@ -1,10 +1,10 @@
 ---
-title: "Common Markdown .md Files"
+publish: true
+title: Common Markdown .md Files
 created: 2026-05-12T01:24:05.939-05:00
 modified: 2026-05-12T01:25:19.690-05:00
-parent: "[[Markdown Language]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

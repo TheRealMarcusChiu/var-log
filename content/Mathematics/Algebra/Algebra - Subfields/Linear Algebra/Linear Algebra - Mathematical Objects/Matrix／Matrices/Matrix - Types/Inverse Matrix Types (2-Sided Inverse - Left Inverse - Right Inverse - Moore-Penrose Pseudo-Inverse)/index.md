@@ -1,12 +1,10 @@
 ---
-title: "Inverse Matrix Types (2-Sided Inverse - Left Inverse - Right Inverse - Moore-Penrose Pseudo-Inverse)"
+publish: true
+title: Inverse Matrix Types (2-Sided Inverse - Left Inverse - Right Inverse - Moore-Penrose Pseudo-Inverse)
 created: 2021-09-13T05:25:56.247-05:00
 modified: 2021-12-10T18:45:23.644-06:00
-parent: "[[Matrix - Types]]"
-children:
-  - "[[Generalized Inverse Matrix - G-Inverse Matrix]]"
-  - "[[Inverse Matrix - Invertible／Non-Singular Matrix - 2-Sided Inverse Matrix - Invertible Matrix Theorem]]"
 ---
+
 # Inverse Matrix Types
 
 ```merge-table
@@ -65,6 +63,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Resources
 
-![](https://www.youtube.com/watch?v=Go2aLo7ZOlU&list=PLE7DDD91010BC51F8&index=35)
+![](https://www.youtube.com/watch?v=Go2aLo7ZOlU\&list=PLE7DDD91010BC51F8\&index=35)

@@ -1,12 +1,10 @@
 ---
-title: "UNIX - Shell Special Symbols"
+publish: true
+title: UNIX - Shell Special Symbols
 created: 2019-12-31T15:08:07.068-06:00
 modified: 2026-03-19T20:57:21.002-05:00
-parent: "[[UNIX - Shell Commands & Scripts]]"
-children:
-  - "[[Multi Oneline Commands (Executing Multiple Commands in a Single Line)]]"
-  - "[[UNIX - Command Redirection]]"
 ---
+
 ```merge-table
 {
   "rows": [

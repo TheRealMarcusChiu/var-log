@@ -1,10 +1,10 @@
 ---
-title: "Schema-on-Read vs Schema-on-Write"
+publish: true
+title: Schema-on-Read vs Schema-on-Write
 created: 2022-12-18T16:20:24.281-06:00
 modified: 2022-12-18T16:24:35.324-06:00
-parent: "[[DBMS - Other]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

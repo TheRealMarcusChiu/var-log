@@ -1,12 +1,11 @@
 ---
-title: "Perl - Client Server"
+publish: true
+title: Perl - Client Server
 created: 2019-03-15T16:29:04.417-05:00
 modified: 2019-03-15T16:30:49.997-05:00
-parent: "[[Perl (Practical Extraction and Report Language)]]"
-children: []
 ---
-<strong>1. To run the server issue the following command on Unix prompt</strong>
-<span style="white-space: pre-wrap"><code>  perl sever.pl</code></span>
+
+<strong>1. To run the server issue the following command on Unix prompt</strong> <span style="white-space: pre-wrap"><code>  perl sever.pl</code></span>
 
 ```perl
 #!/usr/bin/perl -w
@@ -45,8 +44,7 @@ while ($client_addr = accept(NEW_SOCKET, SOCKET)) {
 
 ```
 
-<strong>2. Now let's start our client at the command prompt, which will connect to the server and read message sent by the server and displays the same on the screen as follows</strong>
-<span style="white-space: pre-wrap"><code>  perl client.pl</code></span>
+<strong>2. Now let's start our client at the command prompt, which will connect to the server and read message sent by the server and displays the same on the screen as follows</strong> <span style="white-space: pre-wrap"><code>  perl client.pl</code></span>
 
 ```perl
 #!/usr/bin/perl -w

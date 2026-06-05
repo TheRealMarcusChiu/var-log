@@ -1,15 +1,17 @@
 ---
-title: "Blade Servers"
+publish: true
+title: Blade Servers
 created: 2022-07-13T02:44:39.081-05:00
 modified: 2025-10-30T16:49:28.316-05:00
-parent: "[[Server Computer - Types]]"
-children: []
 ---
+
 ###### Blade Servers
-````excerpt
+
+```excerpt
 - is similar to a [[Rack Servers|rack server]], but it’s smaller and sometimes only contains a CPU, memory, and network controllers
 - some blade servers contain storage drives, but they can be configured to use network storage such as a [[Storage Area Network (SAN)|storage area network (SAN)]] or a [[Network Attached Storage (NAS)|network-attached storage (NAS)]] device
-````
+```
+
 ^excerpt
 
 # Introduction
@@ -18,4 +20,4 @@ Instead of being installed in a rack, blade servers are installed in server bays
 
 Blade servers are often used for large processing clusters, but they also generate a lot of heat. They’re usually more expensive than a rack or tower server, and they require good humidity and cooling infrastructure so that they can run efficiently without causing hardware damage
 
-![[Blade Servers/Blade Server rm8003.jpg]]![[Blade Servers/Blade Server.png]]
+![[Computer/Computer Hardware/(Desktop - Gaming - Workstation - Server) Computer／Computers/Server Computers/Server Computer - Types/Blade Servers/Blade Server rm8003.jpg]]![[Computer/Computer Hardware/(Desktop - Gaming - Workstation - Server) Computer／Computers/Server Computers/Server Computer - Types/Blade Servers/Blade Server.png]]

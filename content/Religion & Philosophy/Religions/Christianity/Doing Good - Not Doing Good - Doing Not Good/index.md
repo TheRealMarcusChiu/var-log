@@ -1,10 +1,10 @@
 ---
-title: "Doing Good - Not Doing Good - Doing Not Good"
+publish: true
+title: Doing Good - Not Doing Good - Doing Not Good
 created: 2021-09-13T04:44:42.651-05:00
 modified: 2021-09-13T04:44:42.651-05:00
-parent: "[[Christianity]]"
-children: []
 ---
+
 Genesis 4:7
 
 [If](https://biblehub.com/hebrew/518.htm) [you do what is right,](https://biblehub.com/hebrew/3190.htm) [will](https://biblehub.com/hebrew/3808.htm) [you not](https://biblehub.com/hebrew/3808.htm) [be accepted?](https://biblehub.com/hebrew/7613.htm) [But if](https://biblehub.com/hebrew/518.htm) [you refuse to do what is right,](https://biblehub.com/hebrew/3190.htm) [sin](https://biblehub.com/hebrew/2403.htm) [is crouching](https://biblehub.com/hebrew/7257.htm) [at your door;](https://biblehub.com/hebrew/6607.htm) [you are](https://biblehub.com/hebrew/413.htm) [its object of desire,](https://biblehub.com/hebrew/8669.htm) [but you](https://biblehub.com/hebrew/859.htm) [must master](https://biblehub.com/hebrew/4910.htm) [it.”](https://biblehub.com/hebrew/)

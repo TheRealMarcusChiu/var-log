@@ -1,21 +1,17 @@
 ---
-title: "Flip-Flops - Latches"
+publish: true
+title: Flip-Flops - Latches
 created: 2023-01-18T01:54:12.750-06:00
 modified: 2023-01-18T07:22:26.311-06:00
-parent: "[[Sequential Digital Logic]]"
-children:
-  - "[[D Latch - Gated D Latch - Transparent Latch]]"
-  - "[[D-Type Flip-Flop (DFF)]]"
-  - "[[Gated SR Latch]]"
-  - "[[JK-Type Flip-Flop (JK-FF)]]"
-  - "[[Set／Reset Latch (SR／S-R Latch)]]"
-  - "[[T-Type Flip-Flop (TFF)]]"
 ---
+
 ###### Flip-Flops - Latches
-````excerpt
+
+```excerpt
 - is a circuit that has two stable states and can be used to store state information
 - is the basic storage element in [[Sequential Digital Logic|sequential logic]]
-````
+```
+
 ^excerpt
 
 # Types
@@ -74,5 +70,7 @@ children:
   ]
 }
 ```
+
 # Resources
-- [https://en.wikipedia.org/wiki/Flip-flop_(electronics)](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
+
+- <https://en.wikipedia.org/wiki/Flip-flop_(electronics)>

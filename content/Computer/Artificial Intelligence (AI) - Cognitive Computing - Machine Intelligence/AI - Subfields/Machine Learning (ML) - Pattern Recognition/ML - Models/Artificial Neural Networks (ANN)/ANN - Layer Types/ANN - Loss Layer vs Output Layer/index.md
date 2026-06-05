@@ -1,12 +1,10 @@
 ---
-title: "ANN - Loss Layer vs Output Layer"
+publish: true
+title: ANN - Loss Layer vs Output Layer
 created: 2024-09-23T09:39:40.828-05:00
 modified: 2024-09-23T09:45:38.381-05:00
-parent: "[[ANN - Layer Types]]"
-children:
-  - "[[ANN - Loss Function Layer]]"
-  - "[[ANN - Output Layer]]"
 ---
+
 ```merge-table
 {
   "rows": [

@@ -1,16 +1,18 @@
 ---
-title: "Remote Frame Buffer (RFB)"
+publish: true
+title: Remote Frame Buffer (RFB)
 created: 2025-07-14T13:42:55.099-05:00
 modified: 2025-07-14T13:44:38.686-05:00
-parent: "[[Remote Desktop]]"
-children: []
 ---
+
 ###### Remote Frame Buffer (RFB)
-````excerpt
+
+```excerpt
 - is an open simple protocol for remote access to graphical user interfaces
 - because it works at the framebuffer level it is applicable to all windowing systems and applications, including Microsoft [[Windows]], [[Macintosh OSs (Mac OS X) - macOS|macOS]], the [[(X - X11 - X Window System) Core Protocol|X Window System]] and [[Wayland]]
 - is the protocol used in [[Virtual Network Computing  (VNC)|Virtual Network Computing (VNC)]] and its derivatives
-````
+```
+
 ^excerpt
 
 # Description

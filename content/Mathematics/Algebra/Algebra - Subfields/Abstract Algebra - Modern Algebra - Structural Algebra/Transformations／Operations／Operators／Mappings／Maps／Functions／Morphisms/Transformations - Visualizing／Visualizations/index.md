@@ -1,10 +1,10 @@
 ---
-title: "Transformations - Visualizing／Visualizations"
+publish: true
+title: Transformations - Visualizing／Visualizations
 created: 2021-09-13T05:29:35.890-05:00
 modified: 2023-12-15T20:48:45.271-06:00
-parent: "[[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

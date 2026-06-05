@@ -1,20 +1,23 @@
 ---
-title: "MAC／MIC & Encryption"
+publish: true
+title: MAC／MIC & Encryption
 created: 2019-03-16T02:38:52.672-05:00
 modified: 2021-12-03T15:44:40.982-06:00
-parent: "[[Cryptography & Cryptanalysis]]"
-children: []
 ---
-````excerpt
+
+```excerpt
 utilizing both:
 - [[Message Authentication Code (MAC) - Message Integrity Code (MIC)|MAC/MIC]] or [[Hash-Based Message Authentication Code (HMAC)|HMAC]] - is a short piece of info used to provide <em>authentication</em>/<em>integrity</em> of a message
 - [[Encryption|encryption]] - is encoding a message to provide <em>confidentiality</em>
-````
+```
+
 ^excerpt
 
 # Orders of MAC & Encryption
+
 - <strong>Encrypt-then-MAC</strong> is the most ideal scenario. Any modifications to the cipher-text that do not also have a valid MAC code can be filtered out before decryption, protecting against any attacks on the implementation. The MAC cannot, also, be used to infer anything about the plain-text
 - <strong>MAC-then-Encrypt</strong> and <strong>Encrypt-and-MAC</strong> both provide different levels of security, but not the complete set provided by <strong>Encrypt-then-MAC</strong>
+
 ```merge-table
 {
   "rows": [

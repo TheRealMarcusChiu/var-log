@@ -1,11 +1,12 @@
 ---
-title: "Windows Batch - Chatroom"
+publish: true
+title: Windows Batch - Chatroom
 created: 2019-03-15T16:56:26.466-05:00
 modified: 2019-03-15T16:58:15.717-05:00
-parent: "[[Windows Batch]]"
-children: []
 ---
+
 LogOnToChat.bat
+
 ```
 @echo off
  
@@ -80,6 +81,7 @@ goto start
 ```
 
 password\_check.bat
+
 ```
 @echo off
  

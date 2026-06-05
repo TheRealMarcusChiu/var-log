@@ -1,16 +1,18 @@
 ---
-title: "Encoder-Decoder Model"
+publish: true
+title: Encoder-Decoder Model
 created: 2023-12-21T16:18:34.693-06:00
 modified: 2024-08-18T12:59:32.288-05:00
-parent: "[[ANN - Architectures]]"
-children: []
 ---
+
 ###### Encoder-Decoder Model
-````excerpt
+
+```excerpt
 - is composed of an encoder and a decoder that typically implemented as [[Recurrent Neural Networks (RNN)|RNNs]]
 	- the encoder captures the context of the input sequence and sends it to the decoder
 	- the decoder then produces the final output sequence
-````
+```
+
 ^excerpt
 
 # Encoder-Decoder - Architecture Components

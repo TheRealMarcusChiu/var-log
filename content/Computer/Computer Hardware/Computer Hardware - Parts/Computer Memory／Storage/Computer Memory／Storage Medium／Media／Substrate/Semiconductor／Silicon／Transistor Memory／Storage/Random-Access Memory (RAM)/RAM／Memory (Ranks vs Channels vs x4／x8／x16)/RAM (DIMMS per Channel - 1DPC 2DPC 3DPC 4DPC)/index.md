@@ -1,14 +1,16 @@
 ---
-title: "RAM (DIMMS per Channel - 1DPC 2DPC 3DPC 4DPC)"
+publish: true
+title: RAM (DIMMS per Channel - 1DPC 2DPC 3DPC 4DPC)
 created: 2025-10-14T14:55:39.564-05:00
 modified: 2025-10-14T15:00:39.799-05:00
-parent: "[[RAM／Memory (Ranks vs Channels vs x4／x8／x16)]]"
-children: []
 ---
+
 ###### RAM (DIMMS per Channel - 1DPC 2DPC 3DPC 4DPC)
-````excerpt
+
+```excerpt
 - how many memory modules (DIMMs) are connected to a [[RAM Channels (Single／One／1 - Multi - Dual／Two／2 Quad／Four／4 Hexa／Six／6 Octa／Eight／8 Dodeca／Twelve／12 Channels) Memory System／Architecture|single memory channel]] on the [[Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)|memory controller]]
-````
+```
+
 ^excerpt
 
 # DPC

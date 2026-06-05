@@ -1,14 +1,16 @@
 ---
-title: "Calculating the Number of Boolean Functions for n Boolean Variables"
+publish: true
+title: Calculating the Number of Boolean Functions for n Boolean Variables
 created: 2021-09-13T05:29:26.848-05:00
 modified: 2023-07-03T16:37:32.066-05:00
-parent: "[[Calculating Number of Distinct Functions in a Function Space]]"
-children: []
 ---
+
 ### How many semantically different boolean functions are there for 𝑛 boolean variables?
+
 ###### Answer
 
 2<sup>([[Permutations - Combinations - Total Combination|𝑡𝑜𝑡𝑎𝑙-𝑐𝑜𝑚𝑏𝑖𝑛𝑎𝑡𝑖𝑜𝑛]])</sup>= 2<sup>(2<sup>𝑛</sup>)</sup>
+
 ###### Intuition
 
 for 𝑛=2 boolean variables: 𝐴 and 𝐵

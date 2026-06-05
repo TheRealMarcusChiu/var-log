@@ -1,11 +1,10 @@
 ---
-title: "Docker - Storage Mount Options"
+publish: true
+title: Docker - Storage Mount Options
 created: 2025-02-21T12:27:49.600-06:00
 modified: 2025-02-21T12:55:44.012-06:00
-parent: "[[Docker]]"
-children:
-  - "[[Docker - Volume Mounts]]"
 ---
+
 ```merge-table
 {
   "rows": [

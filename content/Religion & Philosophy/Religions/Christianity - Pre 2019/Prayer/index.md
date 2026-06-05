@@ -1,13 +1,12 @@
 ---
-title: "Prayer"
+publish: true
+title: Prayer
 created: 2021-09-13T04:44:52.770-05:00
 modified: 2021-09-13T04:44:52.770-05:00
-parent: "[[Christianity - Pre 2019]]"
-children:
-  - "[[Prayer 2]]"
-  - "[[Prayer 3]]"
 ---
+
 ## Importance of Prayer
+
 - that's the first thing Paul did when he was converted - Acts 22
 - that's what Jesus did throughout His ministry as He went to desolate places by Himself
 - that's what Jesus did before His hour has come, He prayed for His 12 Disciples and all the Believers
@@ -16,6 +15,7 @@ children:
 - even when Jesus gave them (His disciples) power and authority over all the unclean spirits, His disciples asked Him privately, “Why couldn’t we drive it out?” Jesus answered, “This kind cannot come out, except by prayer."
 
 ## How to Pray
+
 - with faith/belief - James 1
 - with right motives - James 4
 - with persistence - Luke 11:1-13, Luke 18:1-8
@@ -33,14 +33,17 @@ children:
 <sup>9</sup> “So I say to you: Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. <sup>10</sup> For everyone who asks receives; the one who seeks finds; and to the one who knocks, the door will be opened.
 
 <sup>11</sup> “Which of you fathers, if your son asks for a fish, will give him a snake instead? <sup>12</sup> Or if he asks for an egg, will give him a scorpion? <sup>13</sup> If you then, though you are evil, know how to give good gifts to your children, how much more will your Father in heaven give the Holy Spirit to those who ask him!”
+
 ## Luke 18:1-8
+
 ## The Lord's Prayer
 
 Matthew 6 - The 6 Sections
+
 - who God is
 - I want God to control me
 - thy will be done - I want you to lead me through life
 - give us this day our daily bread - provide us with what we need
 - forgive us our trespasses - cleanse me
 - and lead us not into temptation, but deliver us from the evil one
-	- protect me
+  - protect me

@@ -1,20 +1,20 @@
 ---
-title: "Markup Language (ML)"
+publish: true
+title: Markup Language (ML)
 created: 2020-01-01T15:53:13.024-06:00
 modified: 2024-06-29T11:24:00.434-05:00
-parent: "[[Data Language & Library (Message／Transfer／Interchange／Storage／Format／Serializer／Deserializer)]]"
-children:
-  - "[[Extensible Markup Language (XML)]]"
-  - "[[Markdown Language]]"
-  - "[[Standard Generalized Markup Language (SGML)]]"
 ---
+
 ###### Markup Language (ML)
-````excerpt
+
+```excerpt
 - is a plain-text [[Computer／Programming Languages|computer language]] that uses tags to define elements within a document
-````
+```
+
 ^excerpt
 
 # Markup Language - Standards
+
 - [[Standard Generalized Markup Language (SGML)]]
 
 # Markup Language - Types

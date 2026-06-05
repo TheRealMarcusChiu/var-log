@@ -1,19 +1,21 @@
 ---
-title: "Kubernetes - Service (ClusterIP - NodePort - LoadBalancer - Ingress - ExternalName)"
+publish: true
+title: Kubernetes - Service (ClusterIP - NodePort - LoadBalancer - Ingress - ExternalName)
 created: 2024-08-24T12:59:03.523-05:00
 modified: 2025-05-22T15:21:54.328-05:00
-parent: "[[Kubernetes - Services, Load Balancing, and Networking]]"
-children: []
 ---
+
 ###### Service
-````excerpt
+
+```excerpt
 - is a method for exposing an application that is running as one or more Pods in the Kubernetes cluster
-````
+```
+
 ^excerpt
 
 # Introduction
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -66,6 +68,8 @@ children: []
     ]
   ]
 }
-```
+````
+
 # Resources
-- [https://kubernetes.io/docs/concepts/services-networking/service/](https://kubernetes.io/docs/concepts/services-networking/service/)
+
+- <https://kubernetes.io/docs/concepts/services-networking/service/>

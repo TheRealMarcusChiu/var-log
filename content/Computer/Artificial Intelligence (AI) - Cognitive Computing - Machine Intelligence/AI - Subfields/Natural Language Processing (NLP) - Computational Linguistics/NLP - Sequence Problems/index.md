@@ -1,10 +1,10 @@
 ---
-title: "NLP - Sequence Problems"
+publish: true
+title: NLP - Sequence Problems
 created: 2020-11-02T19:51:28.257-06:00
 modified: 2020-11-02T19:59:58.015-06:00
-parent: "[[Natural Language Processing (NLP) - Computational Linguistics]]"
-children: []
 ---
+
 many problems in NLP have data which is a sequence of characters, words, phrases, lines/sentences...
 
 we can think of our task as one of labeling each item
@@ -215,7 +215,9 @@ we can think of our task as one of labeling each item
   ]
 }
 ```
+
 ### Sequence Models
+
 - [[Hidden Markov Models (HMM)]]
 - [[Maximum Entropy (Maxent) Models]]
 - [[Conditional／Discriminative Random Fields (CRF)|Conditional/Discriminative Random Fields (CRF)]]

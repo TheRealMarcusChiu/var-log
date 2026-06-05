@@ -1,13 +1,12 @@
 ---
-title: "Continuous Regression Models"
+publish: true
+title: Continuous Regression Models
 created: 2020-09-30T15:57:13.519-05:00
 modified: 2021-12-11T20:21:40.437-06:00
-parent: "[[Parametric Regression (PR) Models]]"
-children:
-  - "[[Linear Regression (LR) Models]]"
-  - "[[Non-Linear Regression (NLR) Models]]"
 ---
+
 ###### Continuous Regression Models
+
 - a type of [[Parametric Regression (PR) Models|parametric regression model]] whose dependent variable is scalar
 
 # Continuous Regression Models - Linear vs Non-Linear
@@ -61,11 +60,14 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # How to Choose Between Linear and Nonlinear Regression
 
 The general guideline is to use linear regression first to determine whether it can fit the particular type of curve in your data. If you can’t obtain an adequate fit using linear regression, that’s when you might need to choose nonlinear regression
 
 [Curve Fitting using Linear and Nonlinear Regression](https://statisticsbyjim.com/regression/curve-fitting-linear-nonlinear-regression/)
+
 # Resources
-- [https://statisticsbyjim.com/regression/difference-between-linear-nonlinear-regression-models/](https://statisticsbyjim.com/regression/difference-between-linear-nonlinear-regression-models/)
-- [https://statisticsbyjim.com/regression/choose-linear-nonlinear-regression/](https://statisticsbyjim.com/regression/choose-linear-nonlinear-regression/)
+
+- <https://statisticsbyjim.com/regression/difference-between-linear-nonlinear-regression-models/>
+- <https://statisticsbyjim.com/regression/choose-linear-nonlinear-regression/>

@@ -1,16 +1,17 @@
 ---
-title: "Finitary Relation (k-ary relation)"
+publish: true
+title: Finitary Relation (k-ary relation)
 created: 2021-09-13T05:29:22.343-05:00
 modified: 2023-06-13T11:24:26.636-05:00
-parent: "[[Transformations - Properties／Types]]"
-children:
-  - "[[Binary Relation (Correspondence ／ Dyadic Relation ／ 2-Place Relation)]]"
 ---
+
 ###### Finitary Relation (k-ary relation)
-````excerpt
+
+```excerpt
 - is a collection of finite tuples of elements (with a k-ary relation being a collection of k-tuples, or more precisely, a subset of [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product) with rank k)
 - describes a possible connection between the k components within the k-tuple (e.g the relation "x is divisible by y and z" consists of all the 3-tuples (of positive integers) such that when substituted into x, y, z, respectively, make the sentence true)
-````
+```
+
 ^excerpt
 
 # Types

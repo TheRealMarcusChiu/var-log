@@ -1,12 +1,12 @@
 ---
-title: "LP - Algorithms Solving Problem"
+publish: true
+title: LP - Algorithms Solving Problem
 created: 2021-09-13T05:26:16.163-05:00
 modified: 2026-05-21T15:08:30.210-05:00
-parent: "[[Linear Programming／Optimization (LP)]]"
-children:
-  - "[[LP - Graphical Method]]"
 ---
+
 # LP Solvers
+
 <strong>LP solvers </strong>are general [[Algorithms|algorithms]] in solving [[Linear Programming／Optimization (LP)|Linear Programming]] [[Problems|problems]]
 
 ```merge-table
@@ -58,6 +58,7 @@ children:
 ```
 
 both the Simplex Method and Interior-Point Method are not strongly polynomial time bounded.
+
 - <strong>weakly bounded</strong> - where the worst-case running time is bounded in terms of the value of variables and constraints only
 - <strong>strongly bounded</strong> - where the worst-case running time is bounded in number of variables and constraints only (i.e. independently from values of variables and constraints)
 

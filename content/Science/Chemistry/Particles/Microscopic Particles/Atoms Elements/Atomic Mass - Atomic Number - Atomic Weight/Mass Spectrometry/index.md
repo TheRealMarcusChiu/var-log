@@ -1,13 +1,13 @@
 ---
-title: "Mass Spectrometry"
+publish: true
+title: Mass Spectrometry
 created: 2021-09-13T04:45:12.105-05:00
 modified: 2021-09-13T04:45:12.105-05:00
-parent: "[[Atomic Mass - Atomic Number - Atomic Weight]]"
-children: []
 ---
+
 used to measure the [[Atomic Mass - Atomic Number - Atomic Weight|atomic weight]] of an element
 
-![[Mass Spectrometry/1.png|335x250]]
+![[Science/Chemistry/Particles/Microscopic Particles/Atoms Elements/Atomic Mass - Atomic Number - Atomic Weight/Mass Spectrometry/1.png|335x250]]
 
 In a mass spectrometer, a sample containing the atoms or molecules of interest is injected into the instrument. The sample—typically in an aqueous or organic solution—is immediately vaporized by a heater, and the vaporized sample is then bombarded by high-energy electrons. These electrons are powerful enough to knock electrons off atoms in the sample, which creates cationic versions of the sample. These cations are then accelerated through electric plates and subsequently deflected by a magnetic field.
 

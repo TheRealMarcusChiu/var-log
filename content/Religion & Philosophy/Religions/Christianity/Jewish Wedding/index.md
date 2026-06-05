@@ -1,10 +1,10 @@
 ---
-title: "Jewish Wedding"
+publish: true
+title: Jewish Wedding
 created: 2021-09-13T04:44:43.849-05:00
 modified: 2021-09-13T04:44:43.849-05:00
-parent: "[[Christianity]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

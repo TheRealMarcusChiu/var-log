@@ -1,10 +1,10 @@
 ---
-title: "Cryptography - Video Lectures"
+publish: true
+title: Cryptography - Video Lectures
 created: 2019-09-07T22:16:38.012-05:00
 modified: 2019-09-20T21:19:12.698-05:00
-parent: "[[Cryptography & Cryptanalysis]]"
-children: []
 ---
+
 ![](https://www.youtube.com/watch?v=2aHkqB2-46k)
 
 ![](https://www.youtube.com/watch?v=W1SY6qKZrUk)
@@ -13,7 +13,7 @@ children: []
 
 ![](https://www.youtube.com/watch?v=sKUhFpVxNWc)
 
-![](https://www.youtube.com/watch?v=kPBJIhpcZgE&t=24s)
+![](https://www.youtube.com/watch?v=kPBJIhpcZgE\&t=24s)
 
 ![](https://www.youtube.com/watch?v=l-7YW06BFNs)
 
@@ -23,7 +23,7 @@ children: []
 
 ![](https://www.youtube.com/watch?v=4FBgb2uobWI)
 
-![](https://www.youtube.com/watch?v=M10BVpTCzGg&t=0s)
+![](https://www.youtube.com/watch?v=M10BVpTCzGg\&t=0s)
 
 ![](https://www.youtube.com/watch?v=fq6SXByItUI)
 

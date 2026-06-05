@@ -1,10 +1,10 @@
 ---
-title: "Feed-Forward Network - Python Implementation"
+publish: true
+title: Feed-Forward Network - Python Implementation
 created: 2022-10-10T05:02:44.898-05:00
 modified: 2022-10-10T05:03:26.442-05:00
-parent: "[[Vanilla／Feed-Forward Neural Networks (FNN／FFNN／FFN) - Multi-Layer／Multilayer Perceptrons (MLP)]]"
-children: []
 ---
+
 ```
 import random
 import numpy as np

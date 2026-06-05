@@ -1,10 +1,10 @@
 ---
-title: "Display Resolution - High Definition (HD) - HD Ready - Full HD (FHD) - Quad HD (QHD) - Ultra HD (UHD)"
+publish: true
+title: Display Resolution - High Definition (HD) - HD Ready - Full HD (FHD) - Quad HD (QHD) - Ultra HD (UHD)
 created: 2022-06-24T03:05:21.368-05:00
 modified: 2025-12-25T01:08:40.364-06:00
-parent: "[[Computer Screen／Display Panels Aspects]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

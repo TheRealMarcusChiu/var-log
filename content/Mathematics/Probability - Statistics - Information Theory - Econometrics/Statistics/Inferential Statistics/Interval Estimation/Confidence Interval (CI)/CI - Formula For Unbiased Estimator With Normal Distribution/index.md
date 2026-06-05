@@ -1,11 +1,10 @@
 ---
-title: "CI - Formula For Unbiased Estimator With Normal Distribution"
+publish: true
+title: CI - Formula For Unbiased Estimator With Normal Distribution
 created: 2021-09-13T05:29:18.408-05:00
 modified: 2026-05-24T20:18:22.425-05:00
-parent: "[[Confidence Interval (CI)]]"
-children:
-  - "[[Margin of Error (ME)]]"
 ---
+
 ````excerpt
 # CI Definition
 
@@ -188,4 +187,5 @@ where:
 # CI Diagram
 ![[CI - Formula For Unbiased Estimator With Normal Distribution/confidence-interval-structure-line.png|301]]
 ````
+
 ^excerpt

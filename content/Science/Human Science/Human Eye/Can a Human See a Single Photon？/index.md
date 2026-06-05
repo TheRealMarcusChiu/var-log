@@ -1,10 +1,10 @@
 ---
-title: "Can a Human See a Single Photon？"
+publish: true
+title: Can a Human See a Single Photon？
 created: 2021-09-13T04:45:23.645-05:00
 modified: 2021-09-13T04:45:23.645-05:00
-parent: "[[Human Eye]]"
-children: []
 ---
+
 The human eye is very sensitive but can we see a single photon?  The answer is that the sensors in the retina <em>can</em> respond to a single photon.  But neural filters only allow a signal to pass to the brain to trigger a conscious response when at least about five to nine arrive within less than 100 ms.  If we could consciously see single photons we would experience too much visual "noise" in very low light, so this filter is a necessary adaptation, not a weakness.
 
 Some people have said that single photons can be seen and quote the fact that faint flashes from radioactive materials (for example) can be seen.  This is an incorrect argument.  Such flashes produce a large number of photons.  It is also not possible to determine sensitivity from the ability of amateur astronomers to see faint stars with the naked eye.  They are limited by background light before the true limits are reached.  To test visual sensitivity a more careful experiment must be performed.

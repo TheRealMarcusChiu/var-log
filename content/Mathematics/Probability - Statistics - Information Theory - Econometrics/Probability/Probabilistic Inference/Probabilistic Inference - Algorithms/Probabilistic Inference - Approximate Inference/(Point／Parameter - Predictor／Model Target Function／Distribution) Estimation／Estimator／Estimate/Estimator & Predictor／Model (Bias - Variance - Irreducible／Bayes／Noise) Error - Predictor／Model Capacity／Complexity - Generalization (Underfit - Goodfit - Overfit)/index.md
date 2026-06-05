@@ -1,11 +1,10 @@
 ---
-title: "Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)"
+publish: true
+title: Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)
 created: 2021-09-13T05:27:40.620-05:00
 modified: 2026-02-10T15:33:23.218-06:00
-parent: "[[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate]]"
-children:
-  - "[[Double Descent]]"
 ---
+
 # Estimator vs Predictor
 
 ```merge-table
@@ -35,9 +34,10 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Estimator & Predictor - Error
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -63,69 +63,83 @@ children:
   ],
   "tableStyle": "width: 100.0%;"
 }
-```
+````
+
 # Estimator & Predictor - Error Decomposition
 
 derivation of the bias-variance decomposition for the two most common contexts:
+
 - <strong>MSE for Estimator (Point Estimation)</strong>
+
 > [!expand]- Click here to expand...
 > Bias-Variance Decomposition for Estimators simply unites two of our favorite properties in one formula [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Mean Square Error 𝑀𝑆𝐸]]:
+>
 > - 𝑀𝑆𝐸 measures the overall expected deviation (in a squared error sense) between the estimator 𝜃ˆ and the true value of the parameter 𝜃
-> 	- 𝑀𝑆𝐸 = 𝐄\[(𝜃ˆ - 𝜃)²\]
+>   - 𝑀𝑆𝐸 = 𝐄\[(𝜃ˆ - 𝜃)²]
 > - 𝑀𝑆𝐸 incorporates both: bias & variance
-> 	- 𝑀𝑆𝐸 = 𝐄\[(𝜃ˆ - 𝜃)²\] = 𝐵𝑖𝑎𝑠(𝜃ˆ)<sup>2</sup> + 𝑉𝑎𝑟(𝜃ˆ)
+>   - 𝑀𝑆𝐸 = 𝐄\[(𝜃ˆ - 𝜃)²] = 𝐵𝑖𝑎𝑠(𝜃ˆ)<sup>2</sup> + 𝑉𝑎𝑟(𝜃ˆ)
+>
 > > [!expand]- proof
-> > - 𝐄\[(𝜃ˆ<sub>𝑆</sub> - 𝜃)<sup>2</sup>\] = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>- 2𝜃ˆ<sub>𝑆</sub>𝜃<sup></sup>+ 𝜃<sup>2</sup>\]
-> > - 𝐄\[(𝜃ˆ<sub>𝑆</sub> - 𝜃)<sup>2</sup>\] = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>\] - 𝐄\[2𝜃ˆ<sub>𝑆</sub>𝜃\]<sup></sup>+ 𝐄\[𝜃<sup>2</sup>\]
-> > - 𝐄\[(𝜃ˆ<sub>𝑆</sub> - 𝜃)<sup>2</sup>\] = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>\] - 2𝐄\[𝜃ˆ<sub>𝑆</sub>\]𝜃<sup></sup>+ 𝜃<sup>2</sup>
-> > 	- 𝐵𝑖𝑎𝑠(𝜃ˆ<sub>𝑆</sub>, 𝜃)<sup>2</sup> = (𝐄\[𝜃ˆ<sub>𝑆</sub>\] - 𝜃)<sup>2</sup>
-> > 	- 𝐵𝑖𝑎𝑠(𝜃ˆ<sub>𝑆</sub>, 𝜃)<sup>2</sup> = 𝐄\[𝜃ˆ<sub>𝑆</sub>\]<sup>2</sup> -  2𝐄\[𝜃ˆ<sub>𝑆</sub>\]𝜃<sup></sup>+ 𝜃<sup>2</sup>
-> > 	- 𝑉𝑎𝑟(𝜃ˆ<sub>𝑆</sub>) = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>\] - 𝐄\[𝜃ˆ<sub>𝑆</sub>\]<sup>2</sup>
+> >
+> > - 𝐄\[(𝜃ˆ<sub>𝑆</sub> - 𝜃)<sup>2</sup>] = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>- 2𝜃ˆ<sub>𝑆</sub>𝜃<sup></sup>+ 𝜃<sup>2</sup>]
+> > - 𝐄\[(𝜃ˆ<sub>𝑆</sub> - 𝜃)<sup>2</sup>] = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>] - 𝐄\[2𝜃ˆ<sub>𝑆</sub>𝜃]<sup></sup>+ 𝐄\[𝜃<sup>2</sup>]
+> > - 𝐄\[(𝜃ˆ<sub>𝑆</sub> - 𝜃)<sup>2</sup>] = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>] - 2𝐄\[𝜃ˆ<sub>𝑆</sub>]𝜃<sup></sup>+ 𝜃<sup>2</sup>
+> >   - 𝐵𝑖𝑎𝑠(𝜃ˆ<sub>𝑆</sub>, 𝜃)<sup>2</sup> = (𝐄\[𝜃ˆ<sub>𝑆</sub>] - 𝜃)<sup>2</sup>
+> >   - 𝐵𝑖𝑎𝑠(𝜃ˆ<sub>𝑆</sub>, 𝜃)<sup>2</sup> = 𝐄\[𝜃ˆ<sub>𝑆</sub>]<sup>2</sup> -  2𝐄\[𝜃ˆ<sub>𝑆</sub>]𝜃<sup></sup>+ 𝜃<sup>2</sup>
+> >   - 𝑉𝑎𝑟(𝜃ˆ<sub>𝑆</sub>) = 𝐄\[𝜃ˆ<sub>𝑆</sub><sup>2</sup>] - 𝐄\[𝜃ˆ<sub>𝑆</sub>]<sup>2</sup>
 > >
 > > Here we used the fact that 𝜃 is not a random variable and therefore it is equal to its own expectation with respect to any distribution
 >
 > desirable estimators are those with small 𝑀𝑆𝐸 and these are estimators that manage to keep both their bias and variance somewhat in check
+
 - <strong>MSE for Predictor (Function Estimation)</strong>
+
 > [!expand]- Click here to expand...
 > The predictor is trained on some sample <em>𝑆</em> of training data, but we want it to perform well on data that we did not observe yet. Therefore we want the following to be as small as possible:
-> - 𝑀𝑆𝐸 = 𝐄<sub>(𝑥,𝑦)\~𝐷,𝑆\~𝐷<sup>𝑛</sup>,𝜖\~𝐸</sub>\[(𝑦 - 𝑓ˆ<sub>𝑆</sub>(𝑥))<sup>2</sup>\]
+>
+> - 𝑀𝑆𝐸 = 𝐄<sub>(𝑥,𝑦)~𝐷,𝑆~𝐷<sup>𝑛</sup>,𝜖~𝐸</sub>\[(𝑦 - 𝑓ˆ<sub>𝑆</sub>(𝑥))<sup>2</sup>]
 >
 > where:
+>
 > - (𝑥,𝑦) is a random variable representing unobserved data
 > - <em>𝑆</em> is the data we trained our predictor on
 > - 𝜖 is the noise following some distribution <em>𝐸</em>
 >
-> As it turns out 𝑀𝑆𝐸 = 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>\] for predictor also has a bias-variance decomposition
-> - 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>\] = <font style="color: rgb(255,102,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> + <font style="color: rgb(128,128,0);">𝑉𝑎𝑟(𝜖)</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>𝐄\[𝑓\] - 𝐄\[𝑓ˆ\]<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);">\# assume 𝐄\[𝜖\] = 0</font>
-> - 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>\] = <font style="color: rgb(255,102,0);">variance</font> + <font style="color: rgb(128,128,0);">noise</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>bias<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);">\# error decomposition</font>
+> As it turns out 𝑀𝑆𝐸 = 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>] for predictor also has a bias-variance decomposition
+>
+> - 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>] = <font style="color: rgb(255,102,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> + <font style="color: rgb(128,128,0);">𝑉𝑎𝑟(𝜖)</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>𝐄\[𝑓] - 𝐄\[𝑓ˆ]<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);"># assume 𝐄\[𝜖] = 0</font>
+> - 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>] = <font style="color: rgb(255,102,0);">variance</font> + <font style="color: rgb(128,128,0);">noise</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>bias<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);"># error decomposition</font>
+>
 > > [!expand]- proof
-> > - 𝑀𝑆𝐸 = 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>\]
-> > - 𝑀𝑆𝐸 = 𝐄\[𝑦<sup>2</sup> - 2𝑦𝑓ˆ + 𝑓ˆ<sup>2</sup>\]
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝐄\[𝑦<sup>2</sup>\]</font> - 𝐄\[2𝑦𝑓ˆ\] + <font style="color: rgb(0,128,0);">𝐄\[𝑓ˆ<sup>2</sup>\]</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦\]<sup>2</sup></font> - 2𝐄\[<font style="color: rgb(255,102,0);">𝑦</font>𝑓ˆ\] + <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup></font> <font style="color: rgb(128,128,128);">\# 𝑉𝑎𝑟(𝑥) = 𝐄\[𝑥<sup>2</sup>\] - 𝐄\[𝑥\]<sup>2</sup></font>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦\]<sup>2</sup> - 2𝐄\[<font style="color: rgb(255,102,0);">(𝑓 + 𝜖)</font>𝑓ˆ\] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup><font style="color: rgb(128,128,128);">\# 𝑦 = 𝑓 + 𝜖</font>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦\]<sup>2</sup> - 2𝐄\[<font style="color: rgb(255,102,0);">𝑓𝑓ˆ + 𝜖𝑓ˆ</font>\] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦\]<sup>2</sup> - <font style="color: rgb(255,102,0);">2𝐄\[𝑓𝑓ˆ\] + 2𝐄\[𝜖𝑓ˆ\]</font> + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦\]<sup>2</sup> - <font style="color: rgb(128,0,0);">2</font><font style="color: rgb(255,102,0);"><font style="color: rgb(128,0,0);">𝐄\[𝑓𝑓ˆ\]</font> <font style="color: rgb(51,51,51);">+</font> <font style="color: rgb(0,128,0);">2𝐄\[𝜖𝑓ˆ\]</font></font> + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦\]<sup>2</sup> - <font style="color: rgb(128,0,0);">2𝐄\[𝑓\]𝐄\[𝑓ˆ\] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ)</font> + <font style="color: rgb(0,128,0);">2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝐶𝑜𝑣(𝜖,𝑓ˆ)</font> + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup><font style="color: rgb(128,128,128);">\# 𝐄\[𝑥𝑦\] = 𝐄\[𝑥\]𝐄\[𝑦\] + 𝐶𝑜𝑣(𝑥,𝑦)</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑦)</font> + 𝐄\[𝑦\]<sup>2</sup> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup><font style="color: rgb(128,128,128);">\# 𝐶𝑜𝑣(𝜖,𝑓ˆ) = 0 because noise 𝜖 independent of 𝑆</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑓 + 𝜖)</font> + 𝐄\[𝑦\]<sup>2</sup> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup><font style="color: rgb(128,128,128);">\# </font><font style="color: rgb(128,128,128);">𝑦 = 𝑓 + </font><font style="color: rgb(128,128,128);">𝜖</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑓) + 𝑉𝑎𝑟(𝜖) + 2𝐶𝑜𝑣(𝑓,𝜖)</font> + 𝐄\[𝑦\]<sup>2</sup> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup><font style="color: rgb(128,128,128);">\# 𝑉𝑎𝑟(𝑥+𝑦) = 𝑉𝑎𝑟(𝑥) + 𝑉𝑎𝑟(𝑦) + 2𝐶𝑜𝑣(𝑥,𝑦)</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑓) + 𝑉𝑎𝑟(𝜖)</font> + 𝐄\[𝑦\]<sup>2</sup> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ\]<sup>2</sup><font style="color: rgb(128,128,128);">\# 𝐶𝑜𝑣(𝑓,𝜖) = 0</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑓)</font> + 𝑉𝑎𝑟(𝜖) + 𝐄\[𝑦\]<sup>2</sup> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] <font style="color: rgb(0,128,0);">- 2𝐶𝑜𝑣(𝑓,𝑓ˆ)</font> + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\]<font style="color: rgb(0,128,0);"> + 𝑉𝑎𝑟(𝑓ˆ)</font> + 𝐄\[𝑓ˆ\]<sup>2</sup><font style="color: rgb(128,128,128);">\# 𝑉𝑎𝑟(𝑥−𝑦) = 𝑉𝑎𝑟(𝑥) + 𝑉𝑎𝑟(𝑦) - 2𝐶𝑜𝑣(𝑥,𝑦)</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> + 𝑉𝑎𝑟(𝜖) +<font style="color: rgb(128,0,0);"> 𝐄\[𝑦\]<sup>2</sup></font> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝐄\[𝑓ˆ\]<sup>2</sup>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(128,0,0);">𝐄\[𝑓 + 𝜖\]<sup>2</sup></font> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝐄\[𝑓ˆ\]<sup>2</sup>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(128,0,0);">(𝐄\[𝑓\] + 𝐄\[𝜖\])<sup>2</sup></font> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝐄\[𝑓ˆ\]<sup>2</sup>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(128,0,0);">𝐄\[𝑓\]<sup>2</sup> + 𝐄\[𝜖\]<sup>2</sup> + 2𝐄\[𝑓\]𝐄\[𝜖\]</font> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\] + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] + 𝐄\[𝑓ˆ\]<sup>2</sup>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(0,128,0);">𝐄\[𝑓\]<sup>2</sup></font> + 𝐄\[𝜖\]<sup>2</sup> + 2𝐄\[𝑓\]𝐄\[𝜖\]<font style="color: rgb(0,128,0);"> - 2𝐄\[𝑓\]𝐄\[𝑓ˆ\]</font> + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\] <font style="color: rgb(0,128,0);">+ 𝐄\[𝑓ˆ\]<sup>2</sup></font>
-> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(0,128,0);">(</font><font style="color: rgb(0,128,0);">𝐄\[𝑓\] - 𝐄\[𝑓ˆ\])<sup>2</sup></font> + 𝐄\[𝜖\]<sup>2</sup> + 2𝐄\[𝑓\]𝐄\[𝜖\] + 2𝐄\[𝜖\]𝐄\[𝑓ˆ\]
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(255,102,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> + <font style="color: rgb(128,128,0);">𝑉𝑎𝑟(𝜖)</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>𝐄\[𝑓\] - 𝐄\[𝑓ˆ\]<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);">\# assume 𝐄\[𝜖\] = 0</font>
-> > - 𝑀𝑆𝐸 = <font style="color: rgb(255,102,0);">variance</font> + <font style="color: rgb(128,128,0);">noise</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>bias<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);">\# error decomposition</font>
+> >
+> > - 𝑀𝑆𝐸 = 𝐄\[(𝑦 - 𝑓ˆ)<sup>2</sup>]
+> > - 𝑀𝑆𝐸 = 𝐄\[𝑦<sup>2</sup> - 2𝑦𝑓ˆ + 𝑓ˆ<sup>2</sup>]
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝐄\[𝑦<sup>2</sup>]</font> - 𝐄\[2𝑦𝑓ˆ] + <font style="color: rgb(0,128,0);">𝐄\[𝑓ˆ<sup>2</sup>]</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦]<sup>2</sup></font> - 2𝐄\[<font style="color: rgb(255,102,0);">𝑦</font>𝑓ˆ] + <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup></font> <font style="color: rgb(128,128,128);"># 𝑉𝑎𝑟(𝑥) = 𝐄\[𝑥<sup>2</sup>] - 𝐄\[𝑥]<sup>2</sup></font>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦]<sup>2</sup> - 2𝐄\[<font style="color: rgb(255,102,0);">(𝑓 + 𝜖)</font>𝑓ˆ] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup><font style="color: rgb(128,128,128);"># 𝑦 = 𝑓 + 𝜖</font>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦]<sup>2</sup> - 2𝐄\[<font style="color: rgb(255,102,0);">𝑓𝑓ˆ + 𝜖𝑓ˆ</font>] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦]<sup>2</sup> - <font style="color: rgb(255,102,0);">2𝐄\[𝑓𝑓ˆ] + 2𝐄\[𝜖𝑓ˆ]</font> + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦]<sup>2</sup> - <font style="color: rgb(128,0,0);">2</font><font style="color: rgb(255,102,0);"><font style="color: rgb(128,0,0);">𝐄\[𝑓𝑓ˆ]</font> <font style="color: rgb(51,51,51);">+</font> <font style="color: rgb(0,128,0);">2𝐄\[𝜖𝑓ˆ]</font></font> + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑦) + 𝐄\[𝑦]<sup>2</sup> - <font style="color: rgb(128,0,0);">2𝐄\[𝑓]𝐄\[𝑓ˆ] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ)</font> + <font style="color: rgb(0,128,0);">2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝐶𝑜𝑣(𝜖,𝑓ˆ)</font> + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup><font style="color: rgb(128,128,128);"># 𝐄\[𝑥𝑦] = 𝐄\[𝑥]𝐄\[𝑦] + 𝐶𝑜𝑣(𝑥,𝑦)</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑦)</font> + 𝐄\[𝑦]<sup>2</sup> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup><font style="color: rgb(128,128,128);"># 𝐶𝑜𝑣(𝜖,𝑓ˆ) = 0 because noise 𝜖 independent of 𝑆</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑓 + 𝜖)</font> + 𝐄\[𝑦]<sup>2</sup> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup><font style="color: rgb(128,128,128);"># </font><font style="color: rgb(128,128,128);">𝑦 = 𝑓 + </font><font style="color: rgb(128,128,128);">𝜖</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑓) + 𝑉𝑎𝑟(𝜖) + 2𝐶𝑜𝑣(𝑓,𝜖)</font> + 𝐄\[𝑦]<sup>2</sup> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup><font style="color: rgb(128,128,128);"># 𝑉𝑎𝑟(𝑥+𝑦) = 𝑉𝑎𝑟(𝑥) + 𝑉𝑎𝑟(𝑦) + 2𝐶𝑜𝑣(𝑥,𝑦)</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑓) + 𝑉𝑎𝑟(𝜖)</font> + 𝐄\[𝑦]<sup>2</sup> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] - 2𝐶𝑜𝑣(𝑓,𝑓ˆ) + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝑉𝑎𝑟(𝑓ˆ) + 𝐄\[𝑓ˆ]<sup>2</sup><font style="color: rgb(128,128,128);"># 𝐶𝑜𝑣(𝑓,𝜖) = 0</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑓)</font> + 𝑉𝑎𝑟(𝜖) + 𝐄\[𝑦]<sup>2</sup> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] <font style="color: rgb(0,128,0);">- 2𝐶𝑜𝑣(𝑓,𝑓ˆ)</font> + 2𝐄\[𝜖]𝐄\[𝑓ˆ]<font style="color: rgb(0,128,0);"> + 𝑉𝑎𝑟(𝑓ˆ)</font> + 𝐄\[𝑓ˆ]<sup>2</sup><font style="color: rgb(128,128,128);"># 𝑉𝑎𝑟(𝑥−𝑦) = 𝑉𝑎𝑟(𝑥) + 𝑉𝑎𝑟(𝑦) - 2𝐶𝑜𝑣(𝑥,𝑦)</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> + 𝑉𝑎𝑟(𝜖) +<font style="color: rgb(128,0,0);"> 𝐄\[𝑦]<sup>2</sup></font> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝐄\[𝑓ˆ]<sup>2</sup>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(128,0,0);">𝐄\[𝑓 + 𝜖]<sup>2</sup></font> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝐄\[𝑓ˆ]<sup>2</sup>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(128,0,0);">(𝐄\[𝑓] + 𝐄\[𝜖])<sup>2</sup></font> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝐄\[𝑓ˆ]<sup>2</sup>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(128,0,0);">𝐄\[𝑓]<sup>2</sup> + 𝐄\[𝜖]<sup>2</sup> + 2𝐄\[𝑓]𝐄\[𝜖]</font> - 2𝐄\[𝑓]𝐄\[𝑓ˆ] + 2𝐄\[𝜖]𝐄\[𝑓ˆ] + 𝐄\[𝑓ˆ]<sup>2</sup>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(0,128,0);">𝐄\[𝑓]<sup>2</sup></font> + 𝐄\[𝜖]<sup>2</sup> + 2𝐄\[𝑓]𝐄\[𝜖]<font style="color: rgb(0,128,0);"> - 2𝐄\[𝑓]𝐄\[𝑓ˆ]</font> + 2𝐄\[𝜖]𝐄\[𝑓ˆ] <font style="color: rgb(0,128,0);">+ 𝐄\[𝑓ˆ]<sup>2</sup></font>
+> > - 𝑀𝑆𝐸 = 𝑉𝑎𝑟(𝑓-𝑓ˆ) + 𝑉𝑎𝑟(𝜖) + <font style="color: rgb(0,128,0);">(</font><font style="color: rgb(0,128,0);">𝐄\[𝑓] - 𝐄\[𝑓ˆ])<sup>2</sup></font> + 𝐄\[𝜖]<sup>2</sup> + 2𝐄\[𝑓]𝐄\[𝜖] + 2𝐄\[𝜖]𝐄\[𝑓ˆ]
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(255,102,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> + <font style="color: rgb(128,128,0);">𝑉𝑎𝑟(𝜖)</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>𝐄\[𝑓] - 𝐄\[𝑓ˆ]<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);"># assume 𝐄\[𝜖] = 0</font>
+> > - 𝑀𝑆𝐸 = <font style="color: rgb(255,102,0);">variance</font> + <font style="color: rgb(128,128,0);">noise</font> + <font style="color: rgb(0,0,255);"><font style="color: rgb(51,51,51);">(</font>bias<font style="color: rgb(51,51,51);">)<sup>2</sup></font></font> <font style="color: rgb(128,128,128);"># error decomposition</font>
 >
 > where:
-> - variance = <font style="color: rgb(255,102,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> <font style="color: rgb(128,128,128);">\# sensitivity of 𝑓ˆ to the choise of dataset</font>
-> - noise = <font style="color: rgb(128,128,0);">𝑉𝑎𝑟(𝜖)</font> <font style="color: rgb(128,128,128);">\# </font><font style="color: rgb(128,128,128);">property of dataset; beyond our control</font>
-> - bias = <font style="color: rgb(0,0,255);">𝐄\[𝑓\] - 𝐄\[𝑓ˆ\]</font> <font style="color: rgb(128,128,128);">\# the square of expected difference of approximate predictor 𝑓ˆ from "true" predictor 𝑓(𝑥)</font>
+>
+> - variance = <font style="color: rgb(255,102,0);">𝑉𝑎𝑟(𝑓-𝑓ˆ)</font> <font style="color: rgb(128,128,128);"># sensitivity of 𝑓ˆ to the choise of dataset</font>
+> - noise = <font style="color: rgb(128,128,0);">𝑉𝑎𝑟(𝜖)</font> <font style="color: rgb(128,128,128);"># </font><font style="color: rgb(128,128,128);">property of dataset; beyond our control</font>
+> - bias = <font style="color: rgb(0,0,255);">𝐄\[𝑓] - 𝐄\[𝑓ˆ]</font> <font style="color: rgb(128,128,128);"># the square of expected difference of approximate predictor 𝑓ˆ from "true" predictor 𝑓(𝑥)</font>
 >
 > The first term is usually referred to as <em>Variance</em>. It shows how “jumpy” the gap between the <em>real model</em> and the <em>predictor model</em> is depending on the training data <em>𝑆</em> and the test data (𝑥,𝑦). Models with high capacity (e.g. neural network with extremely many layers) have high <em>variance</em> and models with low capacity (e.g. think linear regression) have low <em>variance</em>.
 >
@@ -136,38 +150,45 @@ derivation of the bias-variance decomposition for the two most common contexts:
 > Since both <em>bias </em>and <em>variance</em> contribute to 𝑀𝑆𝐸, good models try to reduce both of them. This is called bias-variance trade-off.
 
 the formulas <em>MSE for Estimator</em> and <em>MSE for Predictor</em> are very similar:
+
 - <em>MSE for Estimator</em> measures how close our <em>estimator</em> is to the desirable quantity 𝜃 in some regular space
-	- finding<em> estimator </em>is referred to as <em>Point Estimation</em>, because 𝜃 is a point in a regular space
+  - finding<em> estimator </em>is referred to as <em>Point Estimation</em>, because 𝜃 is a point in a regular space
 - <em>MSE for Predictor</em> measures how close our function <em>predictor</em> is to the desirable function 𝑓 in some functional space
-	- finding<em> predictor </em>is referred to as <em>Function Estimation</em> because 𝑓 is a function in a functional space
+  - finding<em> predictor </em>is referred to as <em>Function Estimation</em> because 𝑓 is a function in a functional space
 
 # Predictor/Model Capacity/Complexity
 
 <strong>capacity</strong> (antonym to Predictor Bias) is the model's ability to fit a variety of [[Target Function／Distribution Predictor／Estimation／Estimator／Approximation／Approximators|target functions]]
+
 - low capacity - struggles to fit training set - decreasing capacity tends to decrease variance and increase bias
 - high capacity - may overfit the training set - increasing capacity tends to increase variance and decrease bias
 
 machine learning algorithms generally performs/generalizes best when their capacity is appropriate for the true complexity of the task
 
 methods of quantifying model capacity:
+
 - <strong>Vapnik-Chervonenkis Dimension (VC Dimension)</strong> - largest possible value m for which there exists a training set of m different x points that the classifier can label arbitrarily
 
 ways to control capacity of learning algorithm:
+
 - hypothesis space - the set of functions that the learning algorithm is allowed to choose as solution
 
 # Generalization
 
-![[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)/capacity-general-error-underfit-goodfit-overfit.png|350]]
+![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Probability/Probabilistic Inference/Probabilistic Inference - Algorithms/Probabilistic Inference - Approximate Inference/(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate/Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)/capacity-general-error-underfit-goodfit-overfit.png|350]]
+
 - generalization is the ability to perform well on unobserved inputs (test-set)
 - good generalization means small gap between the training-error and test-error
-	- training-error - expected error on a training example
-	- test-error (generalization error) - expected error on a test example
+  - training-error - expected error on a training example
+  - test-error (generalization error) - expected error on a test example
 
 factors determining how well a machine learning algorithm generalizes/performs is its ability to:
+
 - make the training error small
 - make the gap between training-error and test-error small
 
 these factors correspond to 2 central challenges:
+
 - underfitting - model is not able to obtain sufficiently low training-error
 - overfitting - gap between training-error and test-error is too large
 
@@ -176,21 +197,18 @@ A machine learning algorithm from training data and outputs a model. This model 
 The goal is to generalize well from the training data to the total dataset (i.e. good fit)
 
 generalization types:
+
 - <strong>overfit</strong> - refers to a model that models the training data too well (i.e. learning the detail and noise in the training data) which do not apply to new data and thus negatively impacts the ability to generalize new data
 - <strong>underfit</strong> - refers to a model that can neither model the training data nor generalize to new data
-	- caused by many reasons:
-		- model is not powerful enough
-		- model is over-regularized
-		- simply not been trained long enough
+  - caused by many reasons:
+    - model is not powerful enough
+    - model is over-regularized
+    - simply not been trained long enough
 - <strong>good fit</strong> - the sweet spot between overfitting and underfitting
+
 > [!indent]
-> ![[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)/underfit-goodfit-overfit.png|400]]
+> ![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Probability/Probabilistic Inference/Probabilistic Inference - Algorithms/Probabilistic Inference - Approximate Inference/(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate/Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)/underfit-goodfit-overfit.png|400]]
 
-tensor-flow code tutorial: [https://www.tensorflow.org/tutorials/keras/overfit_and_underfit](https://www.tensorflow.org/tutorials/keras/overfit_and_underfit)
+tensor-flow code tutorial: <https://www.tensorflow.org/tutorials/keras/overfit_and_underfit>
+
 # Subpages
-
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

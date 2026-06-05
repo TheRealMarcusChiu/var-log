@@ -1,10 +1,10 @@
 ---
-title: "Parable of Sower"
+publish: true
+title: Parable of Sower
 created: 2021-09-13T04:44:52.418-05:00
 modified: 2021-09-13T04:44:52.418-05:00
-parent: "[[Christianity - Pre 2019]]"
-children: []
 ---
+
 foundation - the lowest load-bearing part of a building, typically below ground level
 
 Matthew 13
@@ -20,6 +20,7 @@ And these are they likewise which are sown on stony ground; who, when they have 
 \~ Mark 4:16-17
 
 The Parable of the Sower
+
 1. Path - hears but does not understand
 2. Rocky Ground - external struggles
 3. Thorns - internal struggles

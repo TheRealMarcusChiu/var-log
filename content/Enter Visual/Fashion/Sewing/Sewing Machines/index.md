@@ -1,10 +1,10 @@
 ---
-title: "Sewing Machines"
+publish: true
+title: Sewing Machines
 created: 2025-01-24T13:40:06.714-06:00
 modified: 2025-01-24T13:41:25.312-06:00
-parent: "[[Sewing]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

@@ -1,10 +1,10 @@
 ---
-title: "High Definition Multimedia Interface (HDMI) - DisplayPort (DP)"
+publish: true
+title: High Definition Multimedia Interface (HDMI) - DisplayPort (DP)
 created: 2022-06-23T01:04:28.232-05:00
 modified: 2026-01-21T14:20:55.903-06:00
-parent: "[[Computer IO I／O Input／Output Ports／Devices]]"
-children: []
 ---
+
 # Resolution & Refresh Rate Comparisons
 
 ```merge-table
@@ -666,6 +666,7 @@ children: []
   "tableStyle": "text-align: center;margin-left: 0.0px;"
 }
 ```
+
 # HDMI Cable Types
 
 ```merge-table
@@ -702,5 +703,7 @@ children: []
   ]
 }
 ```
+
 # Resources
-- [https://www.rtings.com/monitor/learn/hdmi-vs-displayport](https://www.rtings.com/monitor/learn/hdmi-vs-displayport)
+
+- <https://www.rtings.com/monitor/learn/hdmi-vs-displayport>

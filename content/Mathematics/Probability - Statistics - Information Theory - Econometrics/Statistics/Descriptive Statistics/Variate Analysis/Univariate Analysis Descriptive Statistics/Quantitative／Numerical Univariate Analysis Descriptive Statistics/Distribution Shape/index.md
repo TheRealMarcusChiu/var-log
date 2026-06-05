@@ -1,18 +1,17 @@
 ---
-title: "Distribution Shape"
+publish: true
+title: Distribution Shape
 created: 2021-09-13T05:28:55.375-05:00
 modified: 2021-11-07T02:36:23.212-06:00
-parent: "[[Quantitative／Numerical Univariate Analysis Descriptive Statistics]]"
-children:
-  - "[[Coefficient of Skewness]]"
-  - "[[Kurtosis]]"
-  - "[[Skewness]]"
 ---
+
 ###### Distribution Shape
+
 - is a type of [[Quantitative／Numerical Univariate Analysis Descriptive Statistics|Quantitative/Numerical Univariate Analysis Descriptive Statistics]]
 - answers: are the values symmetrically or asymmetrically distributed?
 
 # Distribution Shape - Types
+
 ````excerpt
 ```merge-table
 {
@@ -64,4 +63,5 @@ children:
 }
 ```
 ````
+
 ^excerpt

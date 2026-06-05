@@ -1,21 +1,25 @@
 ---
-title: "LP - Standard／Canonical Form"
+publish: true
+title: LP - Standard／Canonical Form
 created: 2021-09-13T05:26:19.371-05:00
 modified: 2021-09-13T05:26:19.371-05:00
-parent: "[[LP - Ways Structuring Problem]]"
-children: []
 ---
+
 <strong>Standard Form</strong> is the usual and most intuitive form of describing a linear programming problem
 
 standard form can be described in 2 forms:
+
 - equation form
 - block matrix form
 
 both represents the same thing
+
 # <strong>Equation Form</strong>
 
 a linear programming problem in standard form is expressed in 3 parts (3 options to choose from):
+
 - for options 2 and 3, use [[LP - Augmented／Slack Form|slack variables]] to convert to preferred option 1 form
+
 ```merge-table
 {
   "rows": [
@@ -79,6 +83,7 @@ a linear programming problem in standard form is expressed in 3 parts (3 options
   "tableStyle": "width: 99.9254%;"
 }
 ```
+
 # <strong>Block Matrix Form</strong>
 
 these 3 parts are usually expressed in matrix/vector form (3 options to choose from):
@@ -148,6 +153,7 @@ these 3 parts are usually expressed in matrix/vector form (3 options to choose f
 ```
 
 where:
+
 - c - is a n-dimensional column vector
 - x - is a n-dimensional row vector
 - A - is a m-by-n matrix

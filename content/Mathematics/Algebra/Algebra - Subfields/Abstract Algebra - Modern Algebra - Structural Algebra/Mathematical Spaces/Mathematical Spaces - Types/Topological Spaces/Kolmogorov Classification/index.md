@@ -1,10 +1,10 @@
 ---
-title: "Kolmogorov Classification"
+publish: true
+title: Kolmogorov Classification
 created: 2023-06-18T18:44:43.002-05:00
 modified: 2023-06-18T18:46:08.138-05:00
-parent: "[[Topological Spaces]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

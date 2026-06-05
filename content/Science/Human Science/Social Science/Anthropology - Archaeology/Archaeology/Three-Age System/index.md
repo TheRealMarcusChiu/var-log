@@ -1,11 +1,12 @@
 ---
-title: "Three-Age System"
+publish: true
+title: Three-Age System
 created: 2021-09-13T04:45:39.726-05:00
 modified: 2023-01-22T13:15:50.780-06:00
-parent: "[[Archaeology]]"
-children: []
 ---
+
 ###### Three-Age System
+
 - is the categorization of history into 3 time periods
 
 # Three-Age System

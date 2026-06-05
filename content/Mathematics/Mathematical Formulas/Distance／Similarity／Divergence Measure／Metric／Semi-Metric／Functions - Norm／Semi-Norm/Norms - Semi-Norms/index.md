@@ -1,29 +1,20 @@
 ---
-title: "Norms - Semi-Norms"
+publish: true
+title: Norms - Semi-Norms
 created: 2023-06-15T18:22:50.385-05:00
 modified: 2025-10-03T00:20:16.943-05:00
-parent: "[[Distance／Similarity／Divergence Measure／Metric／Semi-Metric／Functions - Norm／Semi-Norm]]"
-children:
-  - "[[Inner Product Norm]]"
-  - "[[L0 \"Norm\"]]"
-  - "[[L1／Absolute Norm]]"
-  - "[[L2／Euclidean Norm]]"
-  - "[[LF／Frobenius／Hilbert-Schmidt Norm]]"
-  - "[[Lpq Norm]]"
-  - "[[Lp／Minkowski Norm (p-norm)]]"
-  - "[[L∞infinity／Max／Chebychev／Tchebychev Norm]]"
-  - "[[Relationships Between Lp Norms]]"
-  - "[[Spectral Norm]]"
-  - "[[Supremum Norm - Sup Norm - Uniform Norm]]"
 ---
+
 ###### Norms - Semi-Norms
-````excerpt
+
+```excerpt
 - given a [[Vector Spaces - Linear Spaces|vector space (𝑉,𝐹)]], a <strong>norm/semi-norm (</strong>||·||<strong>)</strong> is a [[Real Numbers System|real]]-valued [[Continuous／Continuity [at a point - everywhere] (Transformations／Operations／Operations／Mappings／Maps／Functions／Morphisms)|continuous function]] on 𝑉 that takes in a vector from 𝑉 and outputs a non-negative [[Real Numbers System|real number]] (i.e. ||·||: 𝑉 → ℝ<sup>+</sup>)
 - a vector space with a norm is called a [[Normed Vector Spaces - Normed Spaces|normed vector space]]
 - used to measure the length of a vector
 - an [[Inner Products|inner product (⟨·,·⟩)]] induces a <em>norm (</em><em>||·||<sub>⟨·,·⟩</sub></em><em>)</em> defined as: ||·||<sub>⟨·,·⟩</sub> = √⟨·,·⟩
 - a <em>norm (||·||)</em>induces a [[Distance Measures／Metrics／Semi-Metrics／Functions|distance metric (𝑑||·||)]] defined as: 𝑑<sub>||·||</sub>(𝑥,𝑦) = ||𝑥-𝑦||
-````
+```
+
 ^excerpt
 
 # Norm - Semi-Norm - Definitions
@@ -121,6 +112,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Types of Vector Norms
 
 ```merge-table
@@ -262,6 +254,7 @@ children:
   ]
 }
 ```
+
 # Types of Matrix Norms
 
 ```merge-table
@@ -393,6 +386,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Types of Other Norms
 
 ```merge-table
