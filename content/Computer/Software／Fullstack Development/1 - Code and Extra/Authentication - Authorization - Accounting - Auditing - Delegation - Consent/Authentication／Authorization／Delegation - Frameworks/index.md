@@ -1,10 +1,19 @@
 ---
-publish: true
-title: Authentication／Authorization／Delegation - Frameworks
+title: "Authentication／Authorization／Delegation - Frameworks"
 created: 2020-01-09T11:57:00.814-06:00
 modified: 2026-01-09T16:10:27.435-06:00
+parent: "[[Authentication - Authorization - Accounting - Auditing - Delegation - Consent]]"
+children:
+  - "[[Auth0 (zero)]]"
+  - "[[Central Authentication Server (CAS)]]"
+  - "[[FreeIPA]]"
+  - "[[Javascript Object Signing & Encryption (JOSE)]]"
+  - "[[Light-Weight／Lightwieght Directory Access Protocol (LDAP)]]"
+  - "[[OAuth & OpenID Connect]]"
+  - "[[Remote Authentication Dial-In User Service (RADIUS)]]"
+  - "[[Security Assertion Markup Language (SAML) Tokens]]"
+  - "[[Simple Web Tokens (SWT)]]"
 ---
-
 # Frameworks
 
 ```merge-table
@@ -101,7 +110,6 @@ modified: 2026-01-09T16:10:27.435-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Delegation Protocol Frameworks
 
 ```merge-table
@@ -167,7 +175,6 @@ modified: 2026-01-09T16:10:27.435-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Token-Based Protocol Frameworks
 
 ```merge-table
@@ -279,7 +286,6 @@ modified: 2026-01-09T16:10:27.435-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # SaaS Organizations
 
 ```merge-table

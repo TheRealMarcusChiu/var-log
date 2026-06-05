@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Gauge-Equivariant CNN - Introduction
+title: "Gauge-Equivariant CNN - Introduction"
 created: 2022-12-09T21:58:56.219-06:00
 modified: 2023-12-10T11:36:02.907-06:00
+parent: "[[Gauge-Equivariant Convolutional Neural Networks (CNN)]]"
+children: []
 ---
-
 # Introduction
 
 “convolutional neural networks” (CNNs) have proved surprisingly adept at learning patterns in two-dimensional data — especially in computer vision tasks like recognizing handwritten words and objects in digital images.
@@ -19,8 +19,7 @@ The researchers’ solution to getting deep learning to work beyond flatland als
 
 For example, imagine measuring the length of a football field in yards, then measuring it again in meters. The numbers will change, but in a predictable way. Similarly, two photographers taking a picture of an object from two different vantage points will produce different images, but those images can be related to each other. Gauge equivariance ensures that physicists’ models of reality stay consistent, regardless of their perspective or units of measurement. And gauge CNNs make the same assumption about data.
 
-“The same idea \[from physics] that there’s no special orientation — they wanted to get that into neural networks,” said Kyle Cranmer, a physicist at New York University who applies machine learning to particle physics data. “And they figured out how to do it.”
-
+“The same idea \[from physics\] that there’s no special orientation — they wanted to get that into neural networks,” said Kyle Cranmer, a physicist at New York University who applies machine learning to particle physics data. “And they figured out how to do it.”
 # Escaping Flatland
 
 Michael Bronstein, a computer scientist at Imperial College London, coined the term “geometric deep learning” in 2015 to describe nascent efforts to get off flatland and design neural networks that could learn patterns in nonplanar data. The term — and the research effort — soon caught on.
@@ -35,14 +34,13 @@ Performing a convolution on a curved surface — known in geometry as a manifold
 
 Bronstein and his collaborators found one solution to the problem of convolution over non-Euclidean manifolds in 2015, by reimagining the sliding window as something shaped more like a circular spiderweb than a piece of graph paper, so that you could press it against the globe (or any curved surface) without crinkling, stretching or tearing it.
 
-Changing the properties of the sliding filter in this way made the CNN much better at “understanding” certain geometric relationships. For example, the network could automatically recognize that a 3D shape bent into two different poses — like a human figure standing up and a human figure lifting one leg — were instances of the same object, rather than two completely different objects. The change also made the neural network dramatically more efficient at learning. Standard CNNs “used millions of examples of shapes \[and needed] training for weeks,” Bronstein said. “We used something like 100 shapes in different poses and trained for maybe half an hour.”
+Changing the properties of the sliding filter in this way made the CNN much better at “understanding” certain geometric relationships. For example, the network could automatically recognize that a 3D shape bent into two different poses — like a human figure standing up and a human figure lifting one leg — were instances of the same object, rather than two completely different objects. The change also made the neural network dramatically more efficient at learning. Standard CNNs “used millions of examples of shapes \[and needed\] training for weeks,” Bronstein said. “We used something like 100 shapes in different poses and trained for maybe half an hour.”
 
 At the same time, Taco Cohen and his colleagues in Amsterdam were beginning to approach the same problem from the opposite direction. In 2015, Cohen, a graduate student at the time, wasn’t studying how to lift deep learning out of flatland. Rather, he was interested in what he thought was a practical engineering problem: data efficiency, or how to train neural networks with fewer examples than the thousands or millions that they often required. “Deep learning methods are, let’s say, very slow learners,” Cohen said. This poses few problems if you’re training a CNN to recognize, say, cats (given the bottomless supply of cat images on the internet). But if you want the network to detect something more important, like cancerous nodules in images of lung tissue, then finding sufficient training data — which needs to be medically accurate, appropriately labeled, and free of privacy issues — isn’t so easy. The fewer examples needed to train the network, the better.
 
 Cohen knew that one way to increase the data efficiency of a neural network would be to equip it with certain assumptions about the data in advance — like, for instance, that a lung tumor is still a lung tumor, even if it’s rotated or reflected within an image. Usually, a convolutional network has to learn this information from scratch by training on many examples of the same pattern in different orientations. In 2016, Cohen and Welling co-authored a paper defining how to encode some of these assumptions into a neural network as geometric symmetries. This approach worked so well that by 2018, Cohen and co-author Marysia Winkels had generalized it even further, demonstrating promising results on recognizing lung cancer in CT scans: Their neural network could identify visual evidence of the disease using just one-tenth of the data used to train other networks.
 
 The Amsterdam researchers kept on generalizing. That’s how they found their way to gauge equivariance.
-
 # Extending Equivariance
 
 Physics and machine learning have a basic similarity. As Cohen put it, “Both fields are concerned with making observations and then building models to predict future observations.” Crucially, he noted, both fields seek models not of individual things — it’s no good having one description of hydrogen atoms and another of upside-down hydrogen atoms — but of general categories of things. “Physics, of course, has been quite successful at that.”
@@ -51,7 +49,7 @@ Equivariance (or “covariance,” the term that physicists prefer) is an assump
 
 Convolutional networks became one of the most successful methods in deep learning by exploiting a simple example of this principle called “translation equivariance.” A window filter that detects a certain feature in an image — say, vertical edges — will slide (or “translate”) over the plane of pixels and encode the locations of all such vertical edges; it then creates a “feature map” marking these locations and passes it up to the next layer in the network. Creating feature maps is possible because of translation equivariance: The neural network “assumes” that the same feature can appear anywhere in the 2D plane and is able to recognize a vertical edge as a vertical edge whether it’s in the upper right corner or the lower left.
 
-“The point about equivariant neural networks is \[to] take these obvious symmetries and put them into the network architecture so that it’s kind of free lunch,” Weiler said.
+“The point about equivariant neural networks is \[to\] take these obvious symmetries and put them into the network architecture so that it’s kind of free lunch,” Weiler said.
 
 By 2018, Weiler, Cohen and their doctoral supervisor Max Welling had extended this “free lunch” to include other kinds of equivariance. Their “group-equivariant” CNNs could detect rotated or reflected features in flat images without having to train on specific examples of the features in those orientations; spherical CNNs could create feature maps from data on the surface of a sphere without distorting them as flat projections.
 
@@ -66,7 +64,6 @@ The key, explained Welling, is to forget about keeping track of how the filter�
 The catch is that while any arbitrary gauge can be used in an initial orientation, the conversion of other gauges into that frame of reference must preserve the underlying pattern — just as converting the speed of light from meters per second into miles per hour must preserve the underlying physical quantity. With this gauge-equivariant approach, said Welling, “the actual numbers change, but they change in a completely predictable way.”
 
 Cohen, Weiler and Welling encoded gauge equivariance — the ultimate “free lunch” — into their convolutional neural network in 2019. They did this by placing mathematical constraints on what the neural network could “see” in the data via its convolutions; only gauge-equivariant patterns were passed up through the network’s layers. “Basically you can give it any surface” — from Euclidean planes to arbitrarily curved objects, including exotic manifolds like Klein bottles or four-dimensional space-time — “and it’s good for doing deep learning on that surface,” said Welling.
-
 # A Working Theory
 
 The theory of gauge-equivariant CNNs is so generalized that it automatically incorporates the built-in assumptions of previous geometric deep learning approaches — like rotational equivariance and shifting filters on spheres. Even Michael Bronstein’s earlier method, which let neural networks recognize a single 3D shape bent into different poses, fits within it. “Gauge equivariance is a very broad framework. It contains what we did in 2015 as particular settings,” Bronstein said.
@@ -75,6 +72,6 @@ A gauge CNN would theoretically work on any curved surface of any dimensionality
 
 Mayur Mudigonda, a climate scientist at Lawrence Berkeley National Laboratory who uses deep learning, said he’ll continue to pay attention to gauge CNNs. “That aspect of human visual intelligence” — spotting patterns accurately regardless of their orientation — “is what we’d like to translate into the climate community,” he said. Qualcomm, a chip manufacturer which recently hired Cohen and Welling and acquired a startup they built incorporating their early work in equivariant neural networks, is now planning to apply the theory of gauge CNNs to develop improved computer vision applications, like a drone that can “see” in 360 degrees at once. (This fish-eye view of the world can be naturally mapped onto a spherical surface, just like global climate data.)
 
-Meanwhile, gauge CNNs are gaining traction among physicists like Cranmer, who plans to put them to work on data from simulations of subatomic particle interactions. “We’re analyzing data related to the strong \[nuclear] force, trying to understand what’s going on inside of a proton,” Cranmer said. The data is four-dimensional, he said, “so we have a perfect use case for neural networks that have this gauge equivariance.”
+Meanwhile, gauge CNNs are gaining traction among physicists like Cranmer, who plans to put them to work on data from simulations of subatomic particle interactions. “We’re analyzing data related to the strong \[nuclear\] force, trying to understand what’s going on inside of a proton,” Cranmer said. The data is four-dimensional, he said, “so we have a perfect use case for neural networks that have this gauge equivariance.”
 
 Risi Kondor, a former physicist who now studies equivariant neural networks, said the potential scientific applications of gauge CNNs may be more important than their uses in AI.

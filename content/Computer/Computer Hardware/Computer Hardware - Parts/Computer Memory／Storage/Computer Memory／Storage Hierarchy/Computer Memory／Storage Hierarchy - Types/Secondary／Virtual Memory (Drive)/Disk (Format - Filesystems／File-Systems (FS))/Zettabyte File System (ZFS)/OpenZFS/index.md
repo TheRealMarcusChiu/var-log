@@ -1,16 +1,14 @@
 ---
-publish: true
-title: OpenZFS
+title: "OpenZFS"
 created: 2023-02-20T13:23:11.582-06:00
 modified: 2023-02-20T13:34:08.687-06:00
+parent: "[[Zettabyte File System (ZFS)]]"
+children: []
 ---
-
 ###### OpenZFS
-
-```excerpt
+````excerpt
 - is an open-source version of the [[Zettabyte File System (ZFS)]]
-```
-
+````
 ^excerpt
 
 # History

@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Chemical Bonds
+title: "Chemical Bonds"
 created: 2021-09-13T04:45:10.821-05:00
 modified: 2021-09-13T04:45:10.821-05:00
+parent: "[[Chemistry - Particles Behavior & Properties]]"
+children: []
 ---
-
 a <strong>chemical bond</strong> is a lasting attraction between [[Atoms Elements|atoms]], [[Molecules - Compounds|molecules/compounds]] that enables the formation of larger chemical molecules/compounds
 
-<http://hyperphysics.phy-astr.gsu.edu/hbase/Chemical/bond.html>
-
+[http://hyperphysics.phy-astr.gsu.edu/hbase/Chemical/bond.html](http://hyperphysics.phy-astr.gsu.edu/hbase/Chemical/bond.html)
 ### Types of Chemical Bondings
 
 ```merge-table

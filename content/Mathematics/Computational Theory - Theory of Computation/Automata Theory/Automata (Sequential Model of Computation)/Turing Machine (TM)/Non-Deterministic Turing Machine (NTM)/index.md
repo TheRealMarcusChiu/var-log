@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Non-Deterministic Turing Machine (NTM)
+title: "Non-Deterministic Turing Machine (NTM)"
 created: 2021-09-13T05:25:03.249-05:00
 modified: 2021-09-13T05:25:03.249-05:00
+parent: "[[Turing Machine (TM)]]"
+children: []
 ---
-
 In contrast to a [[Deterministic Turing Machine (DTM)]], a <strong>non-deterministic [[Turing Machine (TM)|Turing machine]]</strong> (<strong>NTM</strong>), the set of rules may prescribe <strong>more than one action</strong> to be performed for any given situation.
 
 For example, an X on the tape in state 3 might allow the NTM to either:
-
 - Write a Y, move right, and switch to state 5
 - Write an X, move left, and stay in state 3
 

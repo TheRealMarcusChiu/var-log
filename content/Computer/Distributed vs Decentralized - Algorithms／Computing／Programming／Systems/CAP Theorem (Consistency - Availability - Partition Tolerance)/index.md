@@ -1,24 +1,22 @@
 ---
-publish: true
-title: CAP Theorem (Consistency - Availability - Partition Tolerance)
+title: "CAP Theorem (Consistency - Availability - Partition Tolerance)"
 created: 2025-04-25T17:59:32.723-05:00
 modified: 2026-01-15T16:27:04.296-06:00
+parent: "[[Distributed vs Decentralized - Algorithms／Computing／Programming／Systems]]"
+children:
+  - "[[Consistency Patterns]]"
 ---
-
 ###### CAP Theorem (Consistency - Availability - Partition Tolerance)
-
-```excerpt
+````excerpt
 - states that a distributed system cannot simultaneously guarantee all three properties:
 	- Consistency
 	- Availability
 	- Partition Tolerance
 - this means that when designing distributed systems, developers must make trade-offs, choosing which two properties are most important for their application
-```
-
+````
 ^excerpt
 
 # CAP - Introduction![](https://www.youtube.com/watch?v=BHqjEjzAicA)![](https://www.youtube.com/watch?v=VdrEq0cODu4)
-
 # CAP Properties & Trade-Offs
 
 A [[Distributed - Algorithms／Computing／Programming／Systems|distributed system]] can guarantee at most two of the following three properties at the same time:
@@ -81,7 +79,6 @@ Network partitions are unavoidable in distributed systems. So in practice, when 
   ]
 }
 ```
-
 # Consistency Types
 
 ```merge-table

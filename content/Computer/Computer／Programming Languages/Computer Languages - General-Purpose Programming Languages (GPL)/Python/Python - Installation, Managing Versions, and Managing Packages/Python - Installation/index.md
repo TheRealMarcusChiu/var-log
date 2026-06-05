@@ -1,34 +1,31 @@
 ---
-publish: true
-title: Python - Installation
+title: "Python - Installation"
 created: 2020-11-18T17:03:39.593-06:00
 modified: 2020-11-18T17:06:41.684-06:00
+parent: "[[Python - Installation, Managing Versions, and Managing Packages]]"
+children: []
 ---
-
 > [!tabs]
 >
-> \=== homebrew
+> === homebrew
 >
 > [[Macintosh OSs (Mac OS X) - macOS|macOS]] comes preinstalled with Python
->
 > ```bash
 > python --version
 > ```
 >
 > install python using homebrew
->
 > ```bash
 > brew install python
 > ```
 >
 > verify version and where it is installed
->
 > ```bash
 > python —version
 > which python
 > ```
 >
-> \=== make
+> === make
 >
 > ```bash
 > sudo apt-get install libssl-dev openssl
@@ -40,6 +37,6 @@ modified: 2020-11-18T17:06:41.684-06:00
 > sudo make install
 > ```
 >
-> \=== pyenv
+> === pyenv
 >
 > see: [[Python - Managing Versions & Virtual Environments]]

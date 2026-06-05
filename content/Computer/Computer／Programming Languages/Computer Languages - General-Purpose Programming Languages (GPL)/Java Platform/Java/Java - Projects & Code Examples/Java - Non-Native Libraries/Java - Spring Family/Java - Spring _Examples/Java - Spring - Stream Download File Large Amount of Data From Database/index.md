@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Java - Spring - Stream Download File Large Amount of Data From Database
+title: "Java - Spring - Stream Download File Large Amount of Data From Database"
 created: 2022-12-19T15:14:18.678-06:00
 modified: 2022-12-19T15:28:28.347-06:00
+parent: "[[Java - Spring _Examples]]"
+children: []
 ---
-
 # Code Setup
-
 ```
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 	Stream<User> streamAll();
 }
 ```
-
 ```
 @Service
 @RequiredArgsConstructor
@@ -46,7 +44,6 @@ public class ToOutputStreamService {
 	}
 }
 ```
-
 ```
 @RestContoller
 @RequestMapping("/api")
@@ -65,14 +62,12 @@ public class ExampleController {
 	}
 }
 ```
-
 ```
 spring:
   mvc:
     async:
       request-timeout: 3600000 # increase timeout otherwise (only part of the file will be transferred to client)
 ```
-
 # Test
 
-open the browser to <http://localhost:8080/api/download>
+open the browser to [http://localhost:8080/api/download](http://localhost:8080/api/download)

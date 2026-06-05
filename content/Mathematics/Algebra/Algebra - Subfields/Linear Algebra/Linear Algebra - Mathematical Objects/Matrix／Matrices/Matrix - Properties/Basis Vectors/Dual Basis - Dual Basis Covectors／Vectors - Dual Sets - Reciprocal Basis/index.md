@@ -1,24 +1,21 @@
 ---
-publish: true
-title: Dual Basis - Dual Basis Covectors／Vectors - Dual Sets - Reciprocal Basis
+title: "Dual Basis - Dual Basis Covectors／Vectors - Dual Sets - Reciprocal Basis"
 created: 2023-06-11T11:12:43.763-05:00
 modified: 2026-05-23T11:28:12.452-05:00
+parent: "[[Basis Vectors]]"
+children: []
 ---
-
 ###### Dual Basis - Dual Basis Covectors/Vectors - Dual Sets - Reciprocal Basis - (𝐵\*)
-
-```excerpt
+````excerpt
 - is a set of vectors that spans a [[Finite-Dimensional Algebraic Dual Spaces - Finite-Dimensional Vector Dual Spaces|finite-dimensional algebraic dual space]]
 - given a [[Vector Spaces - Linear Spaces|vector space]] 𝑉 with a [[Basis Vectors|basis]] 𝐵 of vectors indexed by an [index set](https://en.wikipedia.org/wiki/Index_set) 𝐼 (the [cardinality](https://en.wikipedia.org/wiki/Cardinality) of 𝐼 is the dimension of 𝑉), the <strong>dual set</strong> of 𝐵 is a set 𝐵\* of vectors in the [[Dual Spaces - Algebraic Dual Spaces - Dual Vector Spaces|dual space]] 𝑉\* with the same index set 𝐼 such that 𝐵 and 𝐵\* form a [biorthogonal system](https://en.wikipedia.org/wiki/Biorthogonal_system). The dual set is always [[Linear Independence - Linearly Independent - Linear Dependence - Linearly Dependent|linearly independent]] but does not necessarily [[Linear Span／Hull - Span／Spans - Spanning Set|span]] 𝑉\*. If it does span 𝑉\*, then 𝐵\* is called the <strong>dual basis</strong> or <strong>reciprocal basis</strong> for the basis 𝐵.
 - is a (1,0)-[[Tensors|tensor]]
-```
-
+````
 ^excerpt
 
 # Dual Basis - Intuition
 
 See [[Tensor - 3 - Covector Introduction|Covector Introduction]]
-
 # Dual Basis - Finite-Dimensional - One Possible Dual Basis Using Kronecker Delta Function
 
 ```merge-table
@@ -32,11 +29,8 @@ See [[Tensor - 3 - Covector Introduction|Covector Introduction]]
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Dual Basis - Infinite-Dimensional
 
-TODO: <https://en.wikipedia.org/wiki/Dual_space#:~:text=Infinite%2Ddimensional%20case>
-
+TODO: [https://en.wikipedia.org/wiki/Dual_space#:~:text=Infinite%2Ddimensional%20case](https://en.wikipedia.org/wiki/Dual_space#:~:text=Infinite%2Ddimensional%20case)
 # Resources
-
-- [Dr Peyam - Dual basis](https://www.youtube.com/watch?v=tnVkVJpn-BE\&list=PLJb1qAQIrmmCs0fJDQnXgeuyFR8iQDwLV\&index=2)
+- [Dr Peyam - Dual basis](https://www.youtube.com/watch?v=tnVkVJpn-BE&list=PLJb1qAQIrmmCs0fJDQnXgeuyFR8iQDwLV&index=2)

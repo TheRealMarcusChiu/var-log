@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Histogram vs KDE
+title: "Histogram vs KDE"
 created: 2021-08-14T16:49:45.665-05:00
 modified: 2021-12-26T20:39:58.781-06:00
+parent: "[[ML - Model Comparisons]]"
+children: []
 ---
-
 # Histogram vs KDE - Estimating Probability Density Functions
 
 ```merge-table
@@ -128,7 +128,6 @@ modified: 2021-12-26T20:39:58.781-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
 
 ![](https://www.youtube.com/watch?v=QSNN0no4dSI)

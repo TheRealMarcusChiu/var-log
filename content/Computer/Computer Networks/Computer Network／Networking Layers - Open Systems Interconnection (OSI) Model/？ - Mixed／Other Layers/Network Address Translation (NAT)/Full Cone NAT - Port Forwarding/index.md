@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Full Cone NAT - Port Forwarding
+title: "Full Cone NAT - Port Forwarding"
 created: 2019-10-28T11:11:00.572-05:00
 modified: 2022-06-24T22:44:58.039-05:00
+parent: "[[Network Address Translation (NAT)]]"
+children: []
 ---
-
 ###### <strong>Full Cone NAT</strong> (One-to-One NAT)
-
 - is a type of [[Network Address Translation (NAT)|Static NAT]]
 - is the only type of [[Network Address Translation (NAT)|NAT]] where the port is permanently open and allows <strong>inbound connections from any external host</strong>
 - maps a (public IP address and port) to a (private IP and port)

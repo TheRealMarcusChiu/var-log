@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Polytope (Polygon - Polyhedron／Polyhedra)
+title: "Polytope (Polygon - Polyhedron／Polyhedra)"
 created: 2021-09-13T05:25:16.642-05:00
 modified: 2021-09-13T05:25:16.642-05:00
+parent: "[[Geometry - Geometric Objects]]"
+children: []
 ---
-
 <strong>polytope</strong> - a geometric object with flat sides
-
 ### Polytope - Dimensions Types
 
 ```merge-table
@@ -57,9 +56,7 @@ modified: 2021-09-13T05:25:16.642-05:00
   ]
 }
 ```
-
 ### Polytope - Properties Types
-
 - <strong>regular n-polytope </strong>- is a polytope where its faces are regular congruent (n-1)-polytopes and all the angles at the vertices are equal
 - <strong>simple polytope</strong> - none of their segments intersect
 - <strong>convex polytope</strong> - each segment connecting every pair of points of a polytope are inside the polytope

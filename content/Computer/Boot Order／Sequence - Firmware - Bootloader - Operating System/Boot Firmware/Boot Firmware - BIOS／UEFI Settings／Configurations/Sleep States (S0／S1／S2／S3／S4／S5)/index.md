@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Sleep States (S0／S1／S2／S3／S4／S5)
+title: "Sleep States (S0／S1／S2／S3／S4／S5)"
 created: 2023-12-08T21:45:00.864-06:00
 modified: 2023-12-08T21:47:03.096-06:00
+parent: "[[Boot Firmware - BIOS／UEFI Settings／Configurations]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,16 +1,14 @@
 ---
-publish: true
-title: RISC-V Pseudoinstructions
+title: "RISC-V Pseudoinstructions"
 created: 2025-07-14T19:28:02.989-05:00
 modified: 2025-07-14T19:29:19.166-05:00
+parent: "[[RISC-V]]"
+children: []
 ---
-
 ###### RISC-V Pseudoinstructions
-
-```excerpt
+````excerpt
 - [[Pseudoinstructions - Pseudo-Instructions|pseudoinstructions]] of [[RISC-V]]
-```
-
+````
 ^excerpt
 
 # RISC-V Pseudoinstructions

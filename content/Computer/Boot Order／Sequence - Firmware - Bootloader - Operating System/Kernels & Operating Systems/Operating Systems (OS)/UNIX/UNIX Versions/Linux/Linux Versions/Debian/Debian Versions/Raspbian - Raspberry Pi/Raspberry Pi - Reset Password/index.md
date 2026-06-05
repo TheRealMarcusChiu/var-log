@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Raspberry Pi - Reset Password
+title: "Raspberry Pi - Reset Password"
 created: 2019-04-10T21:39:36.948-05:00
 modified: 2019-04-10T21:39:51.037-05:00
+parent: "[[Raspbian - Raspberry Pi]]"
+children: []
 ---
-
-<http://www.mapledyne.com/ideas/2015/8/4/reset-lost-admin-password-for-raspberry-pi>
-
+[http://www.mapledyne.com/ideas/2015/8/4/reset-lost-admin-password-for-raspberry-pi](http://www.mapledyne.com/ideas/2015/8/4/reset-lost-admin-password-for-raspberry-pi)
 - Power down and pull the SD card out from your Pi and put it into your computer.
 - Open the file 'cmdline.txt' and add 'init=/bin/sh' to the end. This will cause the machine to boot to single user mode.
 - Put the SD card back in the Pi and boot.

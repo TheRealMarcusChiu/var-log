@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Sin - Iniquity - Transgression
+title: "Sin - Iniquity - Transgression"
 created: 2021-09-13T04:44:44.506-05:00
 modified: 2026-05-21T14:45:43.773-05:00
+parent: "[[Christianity]]"
+children: []
 ---
-
 # Sin (Hebrew khata - Greek hamartia)
 
 ```merge-table
@@ -17,7 +17,6 @@ modified: 2026-05-21T14:45:43.773-05:00
   ]
 }
 ```
-
 # Iniquity (Hebrew avon - Greek)
 
 ```merge-table
@@ -30,7 +29,6 @@ modified: 2026-05-21T14:45:43.773-05:00
   ]
 }
 ```
-
 # Transgression (Hebrew Pesha - Greek Paraptoma)
 
 ```merge-table

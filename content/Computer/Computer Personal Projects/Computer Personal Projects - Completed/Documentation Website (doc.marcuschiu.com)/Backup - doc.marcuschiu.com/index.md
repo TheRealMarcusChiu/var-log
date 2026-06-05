@@ -1,14 +1,12 @@
 ---
-publish: true
-title: Backup - doc.marcuschiu.com
+title: "Backup - doc.marcuschiu.com"
 created: 2019-03-15T01:09:39.539-05:00
 modified: 2019-07-10T00:08:42.403-05:00
+parent: "[[Documentation Website (doc.marcuschiu.com)]]"
+children: []
 ---
-
 [github repo](https://github.com/d-log/backup-automation)
-
 ## Manual Backup
-
 ```bash
 #!/bin/bash
  
@@ -20,11 +18,9 @@ scp -i ~/.ssh/mac -r pi@192.168.86.219:/home/pi/Documents/logger-project ~/Deskt
 # mongorestore --db databasename --verbose \path\dump\
 # the command above requires mongod instance
 ```
-
 ## Auto Backup - Daily
 
 backup.sh
-
 ```bash
 #!/bin/bash
  
@@ -40,7 +36,6 @@ timedatectl | grep "Local time: " > /home/marcuschiu/mongo-db-backup/last-backup
 ```
 
 execute crontab
-
 ```bash
 crontab -e
 0 6 * * * /home/marcuschiu/mongo-db-backup/backup.sh

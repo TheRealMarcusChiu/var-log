@@ -1,10 +1,11 @@
 ---
-publish: true
-title: API - Security
+title: "API - Security"
 created: 2020-01-05T02:24:21.953-06:00
 modified: 2021-01-10T15:08:23.601-06:00
+parent: "[[Application Programming Interface (API) - Software Development Kit (SDK)]]"
+children:
+  - "[[API Keys - Authentication Tokens]]"
 ---
-
 related to: [[Authentication - Authorization - Accounting - Auditing - Delegation - Consent]]
 
 ```merge-table
@@ -44,7 +45,6 @@ related to: [[Authentication - Authorization - Accounting - Auditing - Delegati
   "tableStyle": "width: 74.939%;"
 }
 ```
-
 ### API Credential Types
 
 ```merge-table
@@ -83,10 +83,9 @@ related to: [[Authentication - Authorization - Accounting - Auditing - Delegati
 ```
 
 in practice Credentials show up in all sorts of places:
-
 - HTTP Authorization Header
 - HTTP Custom Header
 - HTTP Request Body
 - HTTP Query String
 
-### API Security Resources![](https://www.youtube.com/watch?v=tj03NRM6SP8\&ab_channel=NordicAPIs)![](https://www.youtube.com/watch?v=9CJ_BAeOmW0\&ab_channel=Devoxx)
+### API Security Resources![](https://www.youtube.com/watch?v=tj03NRM6SP8&ab_channel=NordicAPIs)![](https://www.youtube.com/watch?v=9CJ_BAeOmW0&ab_channel=Devoxx)

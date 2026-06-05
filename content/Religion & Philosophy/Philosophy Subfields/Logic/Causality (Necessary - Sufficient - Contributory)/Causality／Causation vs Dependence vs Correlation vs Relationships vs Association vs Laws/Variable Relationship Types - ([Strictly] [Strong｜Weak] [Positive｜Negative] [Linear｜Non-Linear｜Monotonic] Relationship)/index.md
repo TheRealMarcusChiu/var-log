@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Variable Relationship Types - ([Strictly] [Strong｜Weak] [Positive｜Negative] [Linear｜Non-Linear｜Monotonic] Relationship)
+title: "Variable Relationship Types - ([Strictly] [Strong｜Weak] [Positive｜Negative] [Linear｜Non-Linear｜Monotonic] Relationship)"
 created: 2021-11-11T23:33:56.693-06:00
 modified: 2021-11-11T23:46:14.303-06:00
+parent: "[[Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws]]"
+children: []
 ---
-
 - <strong>monotonic relationship</strong> - the variables tend to move in the same relative direction, but not necessarily at a constant rate
 - <strong>linear relationship</strong> - the variables move in the same direction at a constant rate
 - <strong>non-linear relationship</strong> - the variables do not move in the same direction and/or at a constant rate

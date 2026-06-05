@@ -1,12 +1,11 @@
 ---
-publish: true
-title: ConceptNet
+title: "ConceptNet"
 created: 2021-09-13T04:44:32.778-05:00
 modified: 2021-09-13T04:44:32.778-05:00
+parent: "[[Commonsense Reasoning]]"
+children: []
 ---
-
 As an example, as of 2012 [ConceptNet](https://conceptnet.io/) includes these 21 language-independent [[First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory|relations/predicates]]:
-
 - IsA
 - UsedFor
 - HasA
@@ -29,7 +28,6 @@ As an example, as of 2012 [ConceptNet](https://conceptnet.io/) includes these 21
 - HasLastSubevent
 
 ### ConceptNet - Examples
+![[ConceptNet/concept-net.png]]
 
-![[Religion & Philosophy/Philosophy Subfields/Logic/Reasoning (Argument)/Commonsense Reasoning/ConceptNet/concept-net.png]]
-
-![[Religion & Philosophy/Philosophy Subfields/Logic/Reasoning (Argument)/Commonsense Reasoning/ConceptNet/conceptnet-example.png|400]]
+![[ConceptNet/conceptnet-example.png|400]]

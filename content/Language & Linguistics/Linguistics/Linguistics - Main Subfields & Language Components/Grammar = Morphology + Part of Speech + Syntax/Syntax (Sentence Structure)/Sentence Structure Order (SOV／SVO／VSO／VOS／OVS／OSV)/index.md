@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Sentence Structure Order (SOV／SVO／VSO／VOS／OVS／OSV)
+title: "Sentence Structure Order (SOV／SVO／VSO／VOS／OVS／OSV)"
 created: 2021-09-13T04:44:07.112-05:00
 modified: 2021-09-13T04:44:07.112-05:00
+parent: "[[Syntax (Sentence Structure)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,24 +1,21 @@
 ---
-publish: true
-title: Hilbert Spaces
+title: "Hilbert Spaces"
 created: 2023-06-15T20:46:32.713-05:00
 modified: 2025-06-30T23:55:24.486-05:00
+parent: "[[Mathematical Spaces - Types]]"
+children: []
 ---
-
 ###### Hilbert Spaces (𝓗)
-
-```excerpt
+````excerpt
 - is a type of [[Mathematical Spaces|mathematical space]]
 - is a real or complex [[Inner Product Spaces|inner product space (𝑉,𝐹,⟨·,·⟩)]] that is also a [[Complete Metric Spaces (Completeness - Non-Completeness)|complete metric space]] with respect to the [[Distance Measures／Metrics／Semi-Metrics／Functions|distance function (𝑑⟨·,·⟩)]] induced by the [[Inner Products|inner product (⟨·,·⟩)]]
 - if given an [[Inner Products|inner product (⟨·,·⟩)]], then the induced [[Norms - Semi-Norms|norm (||·||)]] is defined as:
 	- $||·||_{⟨·,·⟩} = \sqrt{⟨·,·⟩}$
 - the tuple (𝑉,𝐹,⟨·,·⟩) is a <em>Hilbert space</em>, if (𝑉,𝐹,||·||<sub>⟨·,·⟩</sub>) is a [[Banach Spaces|Banach space]]
-```
-
+````
 ^excerpt
 
 # Hilbert Spaces - Intro![](https://www.youtube.com/watch?v=K5auAUDS05A)![](https://www.youtube.com/watch?v=FFPXm-tuOt8)
-
 # Hilbert Spaces - Examples
 
 ```merge-table
@@ -83,7 +80,6 @@ modified: 2025-06-30T23:55:24.486-05:00
   ]
 }
 ```
-
 # Hilbert Spaces - Non-Examples
 
 ```merge-table
@@ -128,7 +124,5 @@ modified: 2025-06-30T23:55:24.486-05:00
   ]
 }
 ```
-
 # Resources
-
-- <https://en.wikipedia.org/wiki/Hilbert_space>
+- [https://en.wikipedia.org/wiki/Hilbert_space](https://en.wikipedia.org/wiki/Hilbert_space)

@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Simplex - Simplices
+title: "Simplex - Simplices"
 created: 2021-09-13T05:25:17.144-05:00
 modified: 2023-07-18T15:20:00.844-05:00
+parent: "[[Simplex - Simplices - Simplicial Complex]]"
+children: []
 ---
-
 ###### Simplex - Simplices
-
-```excerpt
+````excerpt
 - a <strong>simplex</strong> (plural: <strong>simplexes</strong> or <strong>simplices</strong>)
 - a simplex is a generalization of the notion of a triangle (2D simplex) or tetrahedron (3D simplex) to arbitrary dimensions
 - a k-simplex is a k-dimensional [[Polytope (Polygon - Polyhedron／Polyhedra)|polytope]] which is the [[Convex Hull／Envelope／Closure|convex hull]] of its k+1 vertices
-```
-
+````
 ^excerpt
 
 # Simplex - Examples

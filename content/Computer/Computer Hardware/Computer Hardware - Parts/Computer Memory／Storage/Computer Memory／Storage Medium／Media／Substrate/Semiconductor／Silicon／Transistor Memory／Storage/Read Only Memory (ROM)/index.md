@@ -1,12 +1,14 @@
 ---
-publish: true
-title: Read Only Memory (ROM)
+title: "Read Only Memory (ROM)"
 created: 2023-01-16T00:15:50.087-06:00
 modified: 2023-01-16T00:30:03.404-06:00
+parent: "[[Semiconductor／Silicon／Transistor Memory／Storage]]"
+children:
+  - "[[Electrically Erasable and Programmable ROM (EEPROM)]]"
+  - "[[Single Use Programmable ROM (PROM)]]"
+  - "[[Ultra Violet Light Erasable ROM (UV-EPROM)]]"
 ---
-
 ###### Read Only Memory (ROM)
-
 - memory that is read-only
 
 # ROM - Types

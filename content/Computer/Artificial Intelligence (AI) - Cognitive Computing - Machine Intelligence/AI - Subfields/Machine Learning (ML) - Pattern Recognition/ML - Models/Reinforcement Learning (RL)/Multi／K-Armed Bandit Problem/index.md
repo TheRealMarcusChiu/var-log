@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Multi／K-Armed Bandit Problem
+title: "Multi／K-Armed Bandit Problem"
 created: 2020-09-10T14:29:18.665-05:00
 modified: 2020-09-10T14:35:07.628-05:00
+parent: "[[Reinforcement Learning (RL)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -36,4 +36,4 @@ nonassociative - does not involve learning to act in more than one situation
 
 k-armed bandit problem - exploration v exploitation
 
-<https://github.com/TheRealMarcusChiu/machine-learning-master-example/tree/master/reinforcement-learning/multi-arm-bandit>
+[https://github.com/TheRealMarcusChiu/machine-learning-master-example/tree/master/reinforcement-learning/multi-arm-bandit](https://github.com/TheRealMarcusChiu/machine-learning-master-example/tree/master/reinforcement-learning/multi-arm-bandit)

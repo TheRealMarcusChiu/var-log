@@ -1,18 +1,17 @@
 ---
-publish: true
-title: People's Words and Actions can Shape Your Brain
+title: "People's Words and Actions can Shape Your Brain"
 created: 2021-09-13T04:44:45.447-05:00
 modified: 2021-09-13T04:44:45.447-05:00
+parent: "[[Word - Light - Bread]]"
+children: []
 ---
-
-article by: Lisa Feldman Barrett PhD ~ Nov 17, 2020
+article by: Lisa Feldman Barrett PhD \~ Nov 17, 2020
 
 We humans are a social species. We live in groups. We take care of one another. We build civilizations.
 
 Our ability to cooperate has been a major adaptive advantage. It has allowed us to colonize virtually every habitat on Earth and thrive in more climates than any other animal, except maybe bacteria.
 
 Part of being a social species, it turns out, is that we regulate one another’s body budgets — the ways in which our brains manage the bodily resources we use every day. For your whole life, outside of your awareness, you make deposits into other people’s body budgets, as well as withdrawals, and others do the same for you. This has pros and cons, as well as profound implications for how we live our lives.
-
 > Your family, friends and even strangers contribute to the structure and function of your brain and help it keep your body humming along.
 
 How do the people around you influence your body budget and rewire your adult brain? Your brain changes its wiring after new experiences, a process called plasticity. Microscopic parts of your neurons change gradually every day. Branch-like dendrites become bushier, and their associated neural connections become more efficient. Little by little, your brain becomes tuned and pruned as you interact with others.
@@ -20,7 +19,6 @@ How do the people around you influence your body budget and rewire your adult br
 Some brains are more attentive to the people around them and others less so, but everybody has somebody. Ultimately, your family, friends, neighbors and even strangers contribute to your brain’s structure and function and help your brain keep your body humming along.
 
 This co-regulation has measurable effects. When you’re with someone you care about, your breathing can synchronize, as can the beating of your hearts — whether you’re in casual conversation or a heated argument. This sort of physical connection happens between infants and caregivers, therapists and clients, even people taking a yoga class or singing in a choir together.
-
 > If you raise your voice or just your eyebrow, you can affect what goes on inside other people’s bodies.
 
 We also adjust each other’s body budgets by our actions. If you raise your voice or just your eyebrow, you can affect what goes on inside other people’s bodies, such as their heart rate or the chemicals carried in their bloodstream. If a loved one is in pain, you can lessen their suffering merely by holding their hand.
@@ -28,7 +26,6 @@ We also adjust each other’s body budgets by our actions. If you raise your vo
 Being a social species has all sorts of advantages for us humans, including the fact that we live longer if we have close, supportive relationships with others. Studies show that if you and your partner feel that your relationship is intimate and caring, that you’re responsive to each other’s needs and that life seems enjoyable when you’re together, both of you are less likely to get sick.
 
 And if you’re already sick with a serious illness, such as cancer or heart disease, you’re more likely to get better. These studies were conducted on married couples, but the results appear to hold for close friendships and for pet owners too.
-
 > We also get sick and die earlier when we persistently feel lonely — possibly years earlier, based on the data.
 
 In general, being a social species is good for us, but there are also disadvantages. We also get sick and die earlier when we persistently feel lonely — possibly years earlier, based on the data. Without others helping regulate our body budgets, we bear an extra burden inside.
@@ -38,7 +35,6 @@ Have you ever lost someone through a breakup or a death and felt like you’d lo
 A surprising disadvantage of shared body budgeting is its impact on empathy. When you have empathy for other people, your brain predicts what they will think and feel and do. The more familiar the other people are to you, the more efficiently your brain predicts their inner struggles. The whole process feels natural, as if you were reading another person’s mind.
 
 But there’s a catch — when people are less familiar to you, it can be harder to empathize. You might have to learn more about the person, an extra effort that translates into more withdrawals from your body budget, which can feel unpleasant. This may be one reason why people sometimes fail to empathize with those who look different or believe different things and why it can feel uncomfortable to try. It’s metabolically costly for our brains to deal with things that are hard to predict.
-
 > A hateful word may cause your brain to flood your bloodstream with hormones, squandering resources from your body budget.
 
 No wonder people create so-called echo chambers, surrounding themselves with news and views that reinforce what they already believe — it reduces the metabolic cost and unpleasantness of learning something new. Unfortunately, it also reduces the odds of learning something that could change a person’s mind.
@@ -52,7 +48,6 @@ Or, someone could text something ambiguous to you like “Is your door locked?�
 Your nervous system can be perturbed not only across distances, but also across centuries. If you’ve ever taken comfort from ancient texts such as the Bible or the Koran, you’ve received body-budgeting assistance from people long gone.
 
 Books, videos and podcasts can warm you or give you the chills. These effects might not last long, but research shows that we all can tweak one another’s nervous systems with mere words in very physical ways that go beyond what you might suspect.
-
 > The power of words is not a metaphor; it’s in our brain wiring.
 
 Why do the words you encounter have such wide-ranging effects inside you? Because many brain regions that process language also control the insides of your body, including major organs and systems that manage your body budget.
@@ -64,7 +59,6 @@ The power of words is not a metaphor; it’s in our brain wiring. We see similar
 Words, then, are tools for regulating human bodies. Other people’s words have a direct effect on your brain activity and your bodily systems, and your words have that same effect on other people. Whether you intend that effect is irrelevant. It’s how we’re wired.
 
 Does this mean that words can be harmful to your health? In small doses, not really. When someone says things you don’t like, insults you or even threatens your physical safety, you might feel awful.
-
 > Over time, anything that contributes to chronic stress can gradually eat away at your brain — this includes verbal aggression, social rejection and neglect.
 
 Your body budget is taxed in that moment, but there’s no physical damage to your brain or body. Your heart might race, your blood pressure might change, you might ooze sweat, but then your body recovers and your brain might be a bit stronger afterward.
@@ -82,7 +76,6 @@ When your body budget is continually burdened, momentary stressors pile up, even
 Simply put, a long period of chronic stress can harm a human brain. When you’re on the receiving end of sustained verbal aggression, studies show you’re more likely to get sick. Scientists don’t understand all the underlying mechanisms yet, but we know it happens.
 
 These studies of verbal aggression tested average people across the political spectrum, left, right and center. If people insult you, their words won’t hurt your brain the first or second time or maybe even the twentieth.
-
 > We are free to speak and act, but we are not free from the consequences of what we say and do.
 
 But if you’re exposed to verbal aggression continually for months or if you live in an environment that relentlessly taxes your body budget, words can physically injure your brain. Not because you’re weak or a so-called snowflake, but because you’re a human.

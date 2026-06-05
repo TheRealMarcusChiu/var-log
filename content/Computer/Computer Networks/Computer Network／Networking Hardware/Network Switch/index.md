@@ -1,27 +1,29 @@
 ---
-publish: true
-title: Network Switch
+title: "Network Switch"
 created: 2019-03-16T23:27:10.676-05:00
 modified: 2024-07-04T18:59:00.009-05:00
+parent: "[[Computer Network／Networking Hardware]]"
+children:
+  - "[[Network Switch Brands]]"
+  - "[[Network Switch Chips]]"
+  - "[[Spine & Leaf Architecture - Spine Switch vs Leaf Switch]]"
 ---
-
 # Switch - Intro
-
 - switches operate at [[2 - Data Link Layer|Data Link Layer 2]][[2 - Data Link Layer]]of the OSI model
 - a switch is a multi-input, multi-output (MIMO) device (i.e. transfers packets from an input to one or more outputs)
 - switches identifies 2 things:
-  - a way to identify the host address:
-    - [[802.3 - Ethernet|Ethernet]] 48-bit [[Ethernet - Media Access Control (MAC) Address - Physical Hardware Address|MAC address]] (addresses are assumed to be a <em>globally unique</em> identifier)
-  - a way to identify port:
-    - by number
-    - by name
+	- a way to identify the host address:
+		- [[802.3 - Ethernet|Ethernet]] 48-bit [[Ethernet - Media Access Control (MAC) Address - Physical Hardware Address|MAC address]] (addresses are assumed to be a <em>globally unique</em> identifier)
+	- a way to identify port:
+		- by number
+		- by name
 - switches contain:
-  - [[Routing Tables - Forwarding Tables|forwarding table]]
-    - tells switch how to forward a packet
-    - used in [[Packet Switching - Datagram, Virtual Circuit, Source Routing|Datagram scheme]]
-  - <strong>virtual table</strong>
-    - tells switch how to forward a packet
-    - used in [[Packet Switching - Datagram, Virtual Circuit, Source Routing|Virtual Circuit scheme]]
+	- [[Routing Tables - Forwarding Tables|forwarding table]]
+		- tells switch how to forward a packet
+		- used in [[Packet Switching - Datagram, Virtual Circuit, Source Routing|Datagram scheme]]
+	- <strong>virtual table</strong>
+		- tells switch how to forward a packet
+		- used in [[Packet Switching - Datagram, Virtual Circuit, Source Routing|Virtual Circuit scheme]]
 
 # Switch - Types
 
@@ -124,14 +126,16 @@ modified: 2024-07-04T18:59:00.009-05:00
   ]
 }
 ```
-
 # Switch - Ways Switches Forward Packets
-
 - [[CN - Chapter 3 - Internetworking]]
-  - [[Packet Switching - Datagram, Virtual Circuit, Source Routing]]
+	- [[Packet Switching - Datagram, Virtual Circuit, Source Routing]]
 
 # Switch - Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Switch - Implementations
-
 - [[Switch & Router Implementation]]

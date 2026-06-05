@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Prehistory - Pre-Literary History
+title: "Prehistory - Pre-Literary History"
 created: 2023-06-07T11:54:48.721-05:00
 modified: 2023-06-07T11:59:13.188-05:00
+parent: "[[Archaeology]]"
+children: []
 ---
-
 ###### Prehistory - Pre-Literary History
-
-```excerpt
+````excerpt
 - is the period of human history between the first known use of stone tools by hominins c. 3.3 million years ago and the beginning of recorded history with the invention of writing systems
-```
-
+````
 ^excerpt
 
 # Start and End Dates

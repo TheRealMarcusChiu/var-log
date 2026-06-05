@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Java - Spring - Custom @Annotation BeanPostProcessor
+title: "Java - Spring - Custom @Annotation BeanPostProcessor"
 created: 2019-12-08T11:47:30.870-06:00
 modified: 2021-07-04T23:17:34.024-05:00
+parent: "[[Java - Spring - Context - BeanPostProcessor]]"
+children: []
 ---
-
-- based on: <https://www.baeldung.com/spring-annotation-bean-pre-processor>
-- code: <https://github.com/SpringBootMarcusChiu/annotation-example>
+- based on: [https://www.baeldung.com/spring-annotation-bean-pre-processor](https://www.baeldung.com/spring-annotation-bean-pre-processor)
+- code: [https://github.com/SpringBootMarcusChiu/annotation-example](https://github.com/SpringBootMarcusChiu/annotation-example)
 
 also see: [[Java - lang - annotation]]
-
 # Example @CustomAnnotations
 
 below example custom annotation named <code><font style="color: rgb(128,128,0);">@CustomAnnotation</font></code>
-
 ```
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD, ElementType.PARAMETER})
@@ -23,7 +21,6 @@ public @interface CustomAnnotation {
 ```
 
 below example use of <code><font style="color: rgb(128,128,0);">@</font></code><font style="color: rgb(128,128,0);"><code>CustomAnnotation</code> <font style="color: rgb(51,51,51);">(note: can be used in any class java bean/component)</font></font>
-
 ```
 @SpringBootApplication
 public class AnnotationApplication {
@@ -41,8 +38,7 @@ public class AnnotationApplication {
 }
 ```
 
-is doesn't have to be <code><font style="color: rgb(128,128,128);">RandomGeneric\<RandomPojoA></font></code>, but we restrict it to some <code><font style="color: rgb(128,128,128);">Class\<T></font></code> form because we will use it in the custom <code><font style="color: rgb(128,128,128);">BeanPostProcessor.java</font></code> later
-
+is doesn't have to be <code><font style="color: rgb(128,128,128);">RandomGeneric\<RandomPojoA\></font></code>, but we restrict it to some <code><font style="color: rgb(128,128,128);">Class\<T\></font></code> form because we will use it in the custom <code><font style="color: rgb(128,128,128);">BeanPostProcessor.java</font></code> later
 ```
 public class RandomGeneric<E> {
     private Class<E> entityClass;
@@ -56,11 +52,9 @@ public class RandomGeneric<E> {
     }
 }
 ```
-
 # How to Make Spring Recognize @CustomAnnotation
 
 create a custom <code><font style="color: rgb(128,128,128);">BeanPostProcessor</font></code> that process every bean/component Spring created (including the AnnotationApplication bean/component)
-
 ```
 @Component
 public class CustomBeanPostProcessor implements BeanPostProcessor {
@@ -89,12 +83,10 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
     }
 }
 ```
-
 - line 16 - we initialize a <code><font style="color: rgb(128,128,128);">CustomFieldCallback</font></code> object
 - line 17 - we bind the object to the bean/component
 
 we need to define the <code><font style="color: rgb(128,128,128);">CustomFieldCallback.java</font></code>
-
 ```
 public class CustomFieldCallback implements ReflectionUtils.FieldCallback {
 
@@ -149,7 +141,6 @@ public class CustomFieldCallback implements ReflectionUtils.FieldCallback {
     }
 }
 ```
-
 - <strong>line 12 - <code><font style="color: rgb(128,128,128);">doWith(Field field)</font></code> function</strong>- defines what to do with each instance-field of the bean/component
-  - here we only care if the instance-field is annotated with <code><font style="color: rgb(128,128,0);">@CustomAnnotation</font></code>
-  - if so, we basically assign that instance-field a value <code><font style="color: rgb(128,128,128);">new RandomGeneric\<RandomPojoA>()</font></code>
+	- here we only care if the instance-field is annotated with <code><font style="color: rgb(128,128,0);">@CustomAnnotation</font></code>
+	- if so, we basically assign that instance-field a value <code><font style="color: rgb(128,128,128);">new RandomGeneric\<RandomPojoA\>()</font></code>

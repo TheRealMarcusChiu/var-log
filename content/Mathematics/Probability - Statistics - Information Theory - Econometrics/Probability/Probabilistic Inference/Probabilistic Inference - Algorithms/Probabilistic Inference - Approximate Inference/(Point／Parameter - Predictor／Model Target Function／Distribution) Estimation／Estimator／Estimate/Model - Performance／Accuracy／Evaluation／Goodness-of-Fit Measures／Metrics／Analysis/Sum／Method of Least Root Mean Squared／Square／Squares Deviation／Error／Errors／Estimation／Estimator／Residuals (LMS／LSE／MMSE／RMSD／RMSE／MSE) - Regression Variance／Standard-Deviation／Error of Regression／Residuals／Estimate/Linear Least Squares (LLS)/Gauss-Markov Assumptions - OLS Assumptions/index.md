@@ -1,10 +1,12 @@
 ---
-publish: true
-title: Gauss-Markov Assumptions - OLS Assumptions
+title: "Gauss-Markov Assumptions - OLS Assumptions"
 created: 2021-09-13T05:27:44.825-05:00
 modified: 2021-09-13T05:27:44.825-05:00
+parent: "[[Linear Least Squares (LLS)]]"
+children:
+  - "[[Heteroscedasticity - Homoscedasticity]]"
+  - "[[Multicollinearity - Endogeneity of Predictors]]"
 ---
-
 ###### Gauss-Markov Assumptions - OLS Assumptions
 
 is set of conditions when are upheld, then the [[Ordinary Least Squares (OLS)]] is [[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)|Best Linear Unbiased Estimator (BLUE)]]:
@@ -116,8 +118,6 @@ is set of conditions when are upheld, then the [[Ordinary Least Squares (OLS)]]
   "tableStyle": "width: 95.709%;"
 }
 ```
-
 ### Resources
-
-- [Ben Lambert's Video Lectures (31 - 60)](https://www.youtube.com/watch?v=NjTpHS5xLP8\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=31)
-- [Ben Lambert's Gauss-Markov Violations: Summary of Issues](https://www.youtube.com/watch?v=osl1hscP65c\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=122\&frags=wn\&ab_channel=BenLambert)
+- [Ben Lambert's Video Lectures (31 - 60)](https://www.youtube.com/watch?v=NjTpHS5xLP8&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=31)
+- [Ben Lambert's Gauss-Markov Violations: Summary of Issues](https://www.youtube.com/watch?v=osl1hscP65c&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=122&frags=wn&ab_channel=BenLambert)

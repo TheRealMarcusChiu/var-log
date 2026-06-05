@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Standard Error (SE) vs Standard Deviation (SD)
+title: "Standard Error (SE) vs Standard Deviation (SD)"
 created: 2021-09-13T05:28:11.202-05:00
 modified: 2022-02-23T01:24:39.581-06:00
+parent: "[[Standard Error (SE) - Estimated Standard Error (SEˆ)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

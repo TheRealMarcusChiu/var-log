@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Verb Mood (Indicative - Subjunctive - Imperative)
+title: "Verb Mood (Indicative - Subjunctive - Imperative)"
 created: 2021-09-13T04:44:05.578-05:00
 modified: 2021-09-13T04:44:05.578-05:00
+parent: "[[Verbs]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

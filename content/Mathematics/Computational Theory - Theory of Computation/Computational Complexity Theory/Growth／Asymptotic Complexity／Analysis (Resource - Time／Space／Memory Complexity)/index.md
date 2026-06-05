@@ -1,12 +1,15 @@
 ---
-publish: true
-title: Growth／Asymptotic Complexity／Analysis (Resource - Time／Space／Memory Complexity)
+title: "Growth／Asymptotic Complexity／Analysis (Resource - Time／Space／Memory Complexity)"
 created: 2021-09-13T05:24:53.432-05:00
 modified: 2022-04-21T19:29:03.122-05:00
+parent: "[[Computational Complexity Theory]]"
+children:
+  - "[[(Big O - Little o - Omega - Theta) Bounds Notation]]"
+  - "[[Rule of Products]]"
+  - "[[Rule of Sums]]"
+  - "[[log(n!) = Θ(nlogn)]]"
 ---
-
 an [[Problems & Algorithms|algorithm]] can be categorized by 2 variants of <strong>resource growth complexities</strong>:
-
 - <strong>time complexity</strong> - how fast the algorithm runs in terms of input size
 - <strong>space/memory complexity</strong> - how much space/memory the algorithm needs in terms of input size
 
@@ -107,5 +110,9 @@ an [[Problems & Algorithms|algorithm]] can be categorized by 2 variants of <stro
   "tableStyle": "width: 99.2447%;"
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

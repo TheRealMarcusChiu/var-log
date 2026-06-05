@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Vaultwarden - Proxmox Helper Scripts How to Change Port Number from 8000 to 443
+title: "Vaultwarden - Proxmox Helper Scripts How to Change Port Number from 8000 to 443"
 created: 2025-12-19T19:01:45.679-06:00
 modified: 2025-12-19T19:03:17.629-06:00
+parent: "[[Vaultwarden]]"
+children: []
 ---
-
 Within the Vaultwarden LXC, add the following line (<code><font style="color: rgb(122,134,154);">ROCKET\_PORT=443</font></code>):
-
 ```
 cat /opt/vaultwarden/.env
 ADMIN_TOKEN=''

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Functional Groups
+title: "Functional Groups"
 created: 2021-09-13T04:45:47.692-05:00
 modified: 2021-09-13T04:45:47.692-05:00
+parent: "[[Organic Chemistry]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

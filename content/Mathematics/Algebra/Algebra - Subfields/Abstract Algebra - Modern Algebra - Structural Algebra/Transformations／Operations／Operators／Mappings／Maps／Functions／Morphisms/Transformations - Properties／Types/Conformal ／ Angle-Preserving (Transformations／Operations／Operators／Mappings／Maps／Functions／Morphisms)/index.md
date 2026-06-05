@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Conformal ／ Angle-Preserving (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)
+title: "Conformal ／ Angle-Preserving (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)"
 created: 2024-07-26T12:29:29.648-05:00
 modified: 2024-07-26T12:36:56.161-05:00
+parent: "[[Transformations - Properties／Types]]"
+children: []
 ---
-
 ###### Conformal (Transformations/Operations/Operators/Mappings/Maps/Functions/Morphisms)
-
-```excerpt
+````excerpt
 - is a function that locally preserves angles, but not necessarily lengths
 - an analytic function is conformal at any point where it has a non-zero derivative
 - is used in [[Complex Analysis - Theory of Functions of a Complex Variable|complex analysis]]
 - a mapping that preserves the magnitude of angles, but not their orientation is called an isogonal mapping
-```
-
+````
 ^excerpt
 
 # Examples
@@ -29,7 +27,5 @@ modified: 2024-07-26T12:36:56.161-05:00
   "tableStyle": "width: 62.7748%;"
 }
 ```
-
 # Resources
-
-- <https://en.wikipedia.org/wiki/Conformal_map>
+- [https://en.wikipedia.org/wiki/Conformal_map](https://en.wikipedia.org/wiki/Conformal_map)

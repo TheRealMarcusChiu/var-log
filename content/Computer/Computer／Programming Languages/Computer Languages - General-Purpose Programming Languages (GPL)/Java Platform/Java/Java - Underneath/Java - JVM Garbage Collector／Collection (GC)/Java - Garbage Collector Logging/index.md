@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Garbage Collector Logging
+title: "Java - Garbage Collector Logging"
 created: 2021-10-09T03:06:28.311-05:00
 modified: 2021-10-09T03:49:14.200-05:00
+parent: "[[Java - JVM Garbage Collector／Collection (GC)]]"
+children: []
 ---
-
 # Simple Java Program
-
 ```java
 public class Application {
 
@@ -40,11 +39,9 @@ public class Application {
     }
 }
 ```
-
 # Run Simple Java Program With <strong>Simple</strong> GC Logging
 
 > [!expand]- Click here to expand...
->
 > ```
 > ❯ java -XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc Application.java
 > [0.009s][info][gc] Using Serial
@@ -56,27 +53,23 @@ public class Application {
 > [2.464s][info][gc] GC(2) Pause Full (System.gc()) 416M->144M(989M) 258.127ms
 > End of program!
 > ```
->
 > - <code><font style="color: rgb(122,134,154);">-XX:+UseSerialGC</font></code> - tell JVM to use [[Java - Serial Garbage Collector|Serial GC]]
 > - <code><font style="color: rgb(122,134,154);">-Xms1024m</font></code> - tell JVM to set the initial heap size to 1024 megabytes
 > - <code><font style="color: rgb(122,134,154);"> -Xmx1024m</font></code> - tell JVM to set the max heap size to 1024 megabytes
 > - <code><font style="color: rgb(122,134,154);">-verbose:gc</font></code> - tell JVM to log garbage collector info
 >
-> <code><font style="color: rgb(122,134,154);">\[1.424s]\[info]\[gc] GC(0) Pause Young (Allocation Failure) 273M->226M(989M) 441.295ms</font></code>
->
+> <code><font style="color: rgb(122,134,154);">\[1.424s\]\[info\]\[gc\] GC(0) Pause Young (Allocation Failure) 273M-\>226M(989M) 441.295ms</font></code>
 > - <code><font style="color: rgb(122,134,154);">1.424s</font></code> - timestamp
 > - <code><font style="color: rgb(122,134,154);">Pause Young</font></code> or <code><font style="color: rgb(122,134,154);">Pause Full</font></code> – the type of Garbage Collection
 > - <code><font style="color: rgb(122,134,154);">(Allocation Failure)</font></code> or <code><font style="color: rgb(122,134,154);">(System.gc())</font></code> – the cause of the collection
->   1. <code><font style="color: rgb(122,134,154);">(Allocation Failure)</font></code> indicates that no more space was left in Eden to allocate our objects
->   2. <code><font style="color: rgb(122,134,154);">(System.gc())</font></code> indicates invoked in code
-> - <code><font style="color: rgb(122,134,154);">273M->226M</font></code> – the occupied heap memory before and after the GC
+> 	1. <code><font style="color: rgb(122,134,154);">(Allocation Failure)</font></code> indicates that no more space was left in Eden to allocate our objects
+> 	2. <code><font style="color: rgb(122,134,154);">(System.gc())</font></code> indicates invoked in code
+> - <code><font style="color: rgb(122,134,154);">273M-\>226M</font></code> – the occupied heap memory before and after the GC
 > - <code><font style="color: rgb(122,134,154);">(989M)</font></code> – the current capacity of the heap
 > - <code><font style="color: rgb(122,134,154);">441.295ms</font></code> – the duration of the GC event
-
 # Run Simple Java Program With <strong>Verbose</strong> GC Logging
 
 > [!expand]- Click here to expand...
->
 > ```
 > ❯ java -XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc -XX:+PrintGCDetails Application.java
 > [0.003s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.
@@ -130,7 +123,6 @@ public class Application {
 > [2.459s][info   ][gc,heap,exit   ]  Metaspace       used 15137K, capacity 15507K, committed 15616K, reserved 1062912K
 > [2.459s][info   ][gc,heap,exit   ]   class space    used 1661K, capacity 1791K, committed 1792K, reserved 1048576K
 > ```
-
 # Adding Date and Time Information
 
 > [!expand]- Click here to expand...
@@ -138,21 +130,22 @@ public class Application {
 >
 > <strong>This extra information can be highly useful when we need to correlate GC log data with data from other sources, or it can simply help facilitate searching.</strong>
 >
-> We can add the following two arguments when we run our application to get date and time information to appear in our logs: <span style="white-space: pre-wrap"><code>-XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps</code></span>
+> We can add the following two arguments when we run our application to get date and time information to appear in our logs:
+> <span style="white-space: pre-wrap"><code>-XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps</code></span>
 >
-> Each line now starts with the absolute date and time when it was written followed by a timestamp reflecting the real-time passed in seconds since the JVM started: <span style="white-space: pre-wrap"><code>2018-12-11T02:55:23.518+0100: 2.601: \[GC (Allocation ...</code></span>
+> Each line now starts with the absolute date and time when it was written followed by a timestamp reflecting the real-time passed in seconds since the JVM started:
+> <span style="white-space: pre-wrap"><code>2018-12-11T02:55:23.518+0100: 2.601: \[GC (Allocation ...</code></span>
 >
 > Please note that these tuning flags have been removed in Java 9. The new alternative is:<code>-Xlog:gc\*::time</code>
-
 # Logging to a File
 
 > [!expand]- Click here to expand...
 > As we've already seen, by default the GC log is written to <em>stdout</em>. A more practical solution is to specify an output file.
 >
-> <strong>We can do this by using the argument <em>-Xloggc:\<file></em> where the file is the absolute path to our output file:</strong> <span style="white-space: pre-wrap"><code>-Xloggc:/path/to/file/gc.log</code></span>
+> <strong>We can do this by using the argument <em>-Xloggc:\<file\></em> where the file is the absolute path to our output file:</strong>
+> <span style="white-space: pre-wrap"><code>-Xloggc:/path/to/file/gc.log</code></span>
 >
-> Similar to other tuning flags, Java 9 deprecated the -Xloggc flag in favor of the new unified logging. To be more specific, now the alternative for logging to a file is: <span style="white-space: pre-wrap"><code>-Xlog:gc:/path/to/file/gc.log</code></span>
-
+> Similar to other tuning flags, Java 9 deprecated the -Xloggc flag in favor of the new unified logging. To be more specific, now the alternative for logging to a file is:
+> <span style="white-space: pre-wrap"><code>-Xlog:gc:/path/to/file/gc.log</code></span>
 # Resources
-
-- <https://www.baeldung.com/java-verbose-gc>
+- [https://www.baeldung.com/java-verbose-gc](https://www.baeldung.com/java-verbose-gc)

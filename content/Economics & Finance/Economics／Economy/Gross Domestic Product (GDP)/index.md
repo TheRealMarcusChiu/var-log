@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Gross Domestic Product (GDP)
+title: "Gross Domestic Product (GDP)"
 created: 2023-08-01T13:20:00.212-05:00
 modified: 2023-08-01T13:26:58.487-05:00
+parent: "[[Economics／Economy]]"
+children: []
 ---
-
 ###### Gross Domestic Product (GDP)
-
-```excerpt
+````excerpt
 - can be calculated by adding up all of the money spent by consumers, businesses, and the government in a given period
 - it may also be calculated by adding up all of the money received by all the participants in the economy
-```
-
+````
 ^excerpt
 
 # GDP Formula

@@ -1,22 +1,22 @@
 ---
-publish: true
-title: Ensemble Methods／Techniques
+title: "Ensemble Methods／Techniques"
 created: 2020-06-02T13:58:22.458-05:00
 modified: 2024-01-26T19:54:36.085-06:00
+parent: "[[ML - Models]]"
+children:
+  - "[[Boosting (Additive Modeling)]]"
+  - "[[Bootstrap Aggregation - Bagging]]"
+  - "[[Random Forest]]"
 ---
-
 ###### Ensemble Methods/Techniques
-
-```excerpt
+````excerpt
 - are techniques that create multiple models and then combine them to produce improved results
-```
-
+````
 ^excerpt
 
 # Ensemble - Steps
-
 1. construction of a dictionary 𝐷 = {𝑇<sub>1</sub>(𝑋), 𝑇<sub>2</sub>(𝑋), ..., 𝑇<sub>𝑀</sub>(𝑋)} of basis elements (weak learners) 𝑇<sub>𝑖</sub>(𝑋)
-2. fitting a model 𝑓(𝑋) = 𝛴<sub>1≤𝑖≤𝑚</sub>\[𝛼<sub>𝑖</sub>·𝑇<sub>𝑖</sub>(𝑋)]
+2. fitting a model 𝑓(𝑋) = 𝛴<sub>1≤𝑖≤𝑚</sub>\[𝛼<sub>𝑖</sub>·𝑇<sub>𝑖</sub>(𝑋)\]
 
 # Ensemble - Types
 
@@ -86,12 +86,9 @@ modified: 2024-01-26T19:54:36.085-06:00
   ]
 }
 ```
-
 # Ensemble - Comparisons
 
-Single [[Decision Trees (DT)|Decision Tree]] <  Bagging < [[Random Forest]] < Boosting
-
+Single [[Decision Trees (DT)|Decision Tree]] \<  Bagging \< [[Random Forest]] \< Boosting
 # Ensemble - Resources
-
-- <https://www.toptal.com/machine-learning/ensemble-methods-machine-learning>
-- [Trevor Hastie - History of Ensemble Methods](https://www.youtube.com/watch?v=wPqtzj5VZus\&ab_channel=H2O.ai)
+- [https://www.toptal.com/machine-learning/ensemble-methods-machine-learning](https://www.toptal.com/machine-learning/ensemble-methods-machine-learning)
+- [Trevor Hastie - History of Ensemble Methods](https://www.youtube.com/watch?v=wPqtzj5VZus&ab_channel=H2O.ai)

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Confluence - Backup Procedure
+title: "Confluence - Backup Procedure"
 created: 2024-08-18T15:01:51.150-05:00
 modified: 2024-08-18T15:04:08.553-05:00
+parent: "[[Personal Confluence (confluence.marcuschiu.com)]]"
+children: []
 ---
-
 ```
 sudo su
 
@@ -13,7 +13,6 @@ crontab -e
 0 1 * * * /home/marcuschiu/S3/confluence-v2/backup.sh
 0 2 * * * /home/marcuschiu/S3/backup.sh
 ```
-
 ```bash
 #! /bin/bash
 
@@ -28,7 +27,6 @@ rm $SCRIPT_PATH/confluence.sql
 
 tar -czvf $SCRIPT_PATH/confluence.tar.gz /var/atlassian/application-data/confluence
 ```
-
 ```bash
 #! /bin/bash
 

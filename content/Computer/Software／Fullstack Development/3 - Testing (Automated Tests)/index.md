@@ -1,12 +1,19 @@
 ---
-publish: true
-title: 3 - Testing (Automated Tests)
+title: "3 - Testing (Automated Tests)"
 created: 2021-03-17T09:31:17.542-05:00
 modified: 2021-07-12T19:28:13.117-05:00
+parent: "[[Software／Fullstack Development]]"
+children:
+  - "[[Load Testing]]"
+  - "[[Programming Mistake Detector (PMD)]]"
+  - "[[SonarQube - Sonar]]"
+  - "[[Test Doubles (Dummy - Fake - Stub - Spy - Mock)]]"
+  - "[[Test Driven Development (TDD) - Red-Green Refactor - Test-First Programming]]"
+  - "[[TestInvariant - Invariant Testing]]"
+  - "[[Testing Pyramids - Ice-Cream Cone]]"
+  - "[[Web Application Test Frameworks]]"
 ---
-
 <font style="color: rgb(128,128,128);"><em>program testing can be used very effectively to show the presence of bugs but never to show their absence.</em></font>
-
 # <strong>1 - Overview</strong>
 
 [Continuous Integration](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=9306123) relies heavily on automated testing
@@ -16,9 +23,7 @@ Writing tests (i.e. self-testing code) is a requirement for software developers.
 <strong>In this article you will learn about the different types of tests and how the Fabric-Team differentiates between them</strong>.
 
 <strong>This article mainly focuses on testing back-end applications</strong>, however it can also be applied to front-end apps.
-
 # <strong>2 - Test Types</strong>
-
 broad-stack tests have the advantage of exercising the application with all its parts connected together and thus can find bugs in the interaction between components in the way that component tests cannot. However broad-stack tests also tend to be harder to maintain and slower to run than component tests
 
 ```merge-table
@@ -151,65 +156,52 @@ broad-stack tests have the advantage of exercising the application with all its 
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # <strong>3 - Commonality Between All Test Types</strong>
-
 ###### Each Test Should be Predictable not Flaky
 
 When running the same test multiple times it should either: always fail or always pass. A test like that is a Flaky Test. Mock anything that is unpredictable.
-
 ###### Each Test Should Mock External Systems (Generally), except Cross-System Test
 
 When dealing with a datastore, queries are typically mocked. In other cases, an embedded datastore is used in place of the environment's datastore. This also prevents data corruption. I prefer using embedded databases for all tests, then have a Cross-System Test to assert connection to the actual database (maybe even test basic CRUD operations). If a test uses an actual database, make sure the database state is the same before and after running the test (e.g. if the test adds a row, delete it at the end of the test)
 
 When dealing with an external application, do the same as with a datastore. For example, API calls should be mocked.
-
 ###### Long Running Tests Should Not be Part of the Build Process (Preferably)
 
 We like builds to be to run as fast as possible.
 
 If a long running test must be part of a build, then find ways to shorten it. Perhaps mock long running processes. Or cut down redundancy (e.g. instead of persisting 100 objects to a database, persist just 1 or 2).
-
 ###### Each Test Should have a Perfect Balance Between DAMP & DRY
 
 Readability matters, it doesn't hurt to have duplication in tests, if it improves readability.
-
 - DAMP (Descriptive and Meaningful Phrases) increases maintainability by reducing time necessary to read and understand code
 - DRY (Don't Repeat Yourself) increases maintainability by isolating change (risk) to only parts of the system that must change
 
 I lean towards DRY as reused code means less code to read
-
 ###### Each Test Should test the Function/Behavior Not the Implementation (when possible)
 
 A test should concern itself with the result, not the steps to the result. For example, calling the method square(x) with argument 2 should return 4, we shouldn't worry about the bit manipulation.
 
 A plus side is that refactoring code doesn't not require much change to the test. This is because, the implementation changed but not the behavior.
-
 ###### Each Test Should have the form: Given-When-Then (Preferably)
 
 The idea is to break down a scenario/test into 3 sections:
-
 - given - describes the state of the world before the behavior is tested (usually state setup is done within @Before or the within the actual test method)
 - when - is the behavior that is being tested
 - then - describes the changes expected or the state of the world after the specified behavior
 
 Sometimes, we write this into the name of the test method. For example:
-
 - <code>public void givenFourUsersInDB\_whenCreateNewUser\_thenFiveUsersInDB() { ... }</code>
 
 > [!expand]- Click here to expand...
->
-> - <https://martinfowler.com/bliki/GivenWhenThen.html>
+> - [https://martinfowler.com/bliki/GivenWhenThen.html](https://martinfowler.com/bliki/GivenWhenThen.html)
 > - other similar styles:
->   - [Meszaros](https://martinfowler.com/books/xunit) describes the pattern as [Four-Phase Test](http://xunitpatterns.com/Four%20Phase%20Test.html). His four phases are Setup (Given), Exercise (When), Verify (Then) and Teardown
->   - Bill Wake came up with the formulation as [Arrange, Act, Assert](http://xp123.com/articles/3a-arrange-act-assert/)
-
+> 	- [Meszaros](https://martinfowler.com/books/xunit) describes the pattern as [Four-Phase Test](http://xunitpatterns.com/Four%20Phase%20Test.html). His four phases are Setup (Given), Exercise (When), Verify (Then) and Teardown
+> 	- Bill Wake came up with the formulation as [Arrange, Act, Assert](http://xp123.com/articles/3a-arrange-act-assert/)
 ###### <strong>Each Test Should have the form: Arrange Act Assert (AAA) (Preferably)</strong>
 
 The idea is to group the code within a single test into 3 parts. Which somewhat reflects the Given-When-Then naming format
 
 > [!expand]- Click here to expand...
->
 > ```
 > public void givenFourUsersInDB_whenCreateNewUser_thenFiveUsersInDB() {
 > 	// 1 - Arrange
@@ -228,34 +220,37 @@ The idea is to group the code within a single test into 3 parts. Which somewhat 
 > 	db.deleteAllUsers()
 > }
 > ```
-
 # <strong>4 - Other</strong>
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
-- <https://martinfowler.com/tags/testing.html>
+- [https://martinfowler.com/tags/testing.html](https://martinfowler.com/tags/testing.html)
 - [[Microservices Architecture - Testing]]
 
 # <strong>5 - Not Curated</strong>
-
 - <strong>unit testing </strong>- testing one unit of code (sometimes a unit is translated to a java class)
-  - should constrain the behavior of the unit under test. An unfortunate side effect is that sometimes, tests also constrain the implementation
+	- should constrain the behavior of the unit under test. An unfortunate side effect is that sometimes, tests also constrain the implementation
 - <strong>component testing</strong> - testing multiple units of code
 - <strong>integration testing</strong> - testing between 2 units of code at their integration point
-  - verifies the communication paths and interactions between units/components to detect interface defects
+	- verifies the communication paths and interactions between units/components to detect interface defects
 - <strong>end-to-end testing</strong> - testing across several units within a single application
-  - the value of end-to-end testing: <https://www.symphonious.net/2015/04/30/making-end-to-end-tests-work/>
+	- the value of end-to-end testing: [https://www.symphonious.net/2015/04/30/making-end-to-end-tests-work/](https://www.symphonious.net/2015/04/30/making-end-to-end-tests-work/)
 - <strong>test pyramid</strong> -
-  - <https://martinfowler.com/articles/practical-test-pyramid.html>
-  - <https://martinfowler.com/bliki/TestPyramid.html>
-  - "the pyramid is based on the assumption that broad-stack tests are expensive, slow, and brittle compared to more focused tests, such as unit tests. While this is usually true, there are exceptions. If my high level tests are fast, reliable, and cheap to modify - then lower-level tests aren't needed
+	- [https://martinfowler.com/articles/practical-test-pyramid.html](https://martinfowler.com/articles/practical-test-pyramid.html)
+	- [https://martinfowler.com/bliki/TestPyramid.html](https://martinfowler.com/bliki/TestPyramid.html)
+	- "the pyramid is based on the assumption that broad-stack tests are expensive, slow, and brittle compared to more focused tests, such as unit tests. While this is usually true, there are exceptions. If my high level tests are fast, reliable, and cheap to modify - then lower-level tests aren't needed
 - <strong>assertion free testing</strong> - testing without assertions (usually done just to pass code coverage)
 - <strong>integration testing</strong> - similar to end-to-end testing defined above
-  - <strong>narrow integration tests</strong> - runs external dependencies locally
-  - <strong>broad integration tests</strong> - calls out to real external dependencies
+	- <strong>narrow integration tests</strong> - runs external dependencies locally
+	- <strong>broad integration tests</strong> - calls out to real external dependencies
 - <strong>code coverage</strong> - commonly mistaken as a quality target metric. code coverage only finds untested code and that is all
 - It is important to constantly question the value a unit test provides versus the cost it has in maintenance or the amount it constrains your implementation. By doing this, it is possible to keep the test suite small, focussed and high value
 - <strong>Business Facing Test</strong> -
-  - usually these tests are defined via the Given-When-Then style (cucumber is a nice framework)
-  - <https://martinfowler.com/bliki/BusinessFacingTest.html>
+	- usually these tests are defined via the Given-When-Then style (cucumber is a nice framework)
+	- [https://martinfowler.com/bliki/BusinessFacingTest.html](https://martinfowler.com/bliki/BusinessFacingTest.html)
 - <strong>Specification by Example (SBE)</strong> is a collaborative approach to defining requirements and business-oriented functional tests for software products based on capturing and illustrating requirements using realistic examples instead of abstract statements
-  - In their original (and common) world view, each time you implement a new [UserStory](https://martinfowler.com/bliki/UserStory.html) you add one or more tests. This leads you to a simple tracing structure where each story is verified by one or more acceptance tests. But the problem with this approach is that over time the tests grow in complexity with much duplication. In their new world view there is a suite of acceptance tests that describe the application behavior in [SpecificationByExample](https://martinfowler.com/bliki/SpecificationByExample.html) style. Each time they play a new story, they decide how to update this suite to reflect the new behavior. This breaks the simple story-to-test relationship, but results in a much simpler and coherent suite of tests ~ excerpt from <https://martinfowler.com/bliki/NashvilleProject.html>
-- <strong>Test Impact Analysis (TIA)</strong> - <https://martinfowler.com/articles/rise-test-impact-analysis.html#CreationOfSuitesAndTags>
+	- In their original (and common) world view, each time you implement a new [UserStory](https://martinfowler.com/bliki/UserStory.html) you add one or more tests. This leads you to a simple tracing structure where each story is verified by one or more acceptance tests. But the problem with this approach is that over time the tests grow in complexity with much duplication. In their new world view there is a suite of acceptance tests that describe the application behavior in [SpecificationByExample](https://martinfowler.com/bliki/SpecificationByExample.html) style. Each time they play a new story, they decide how to update this suite to reflect the new behavior. This breaks the simple story-to-test relationship, but results in a much simpler and coherent suite of tests \~ excerpt from [https://martinfowler.com/bliki/NashvilleProject.html](https://martinfowler.com/bliki/NashvilleProject.html)
+- <strong>Test Impact Analysis (TIA)</strong> - [https://martinfowler.com/articles/rise-test-impact-analysis.html#CreationOfSuitesAndTags](https://martinfowler.com/articles/rise-test-impact-analysis.html#CreationOfSuitesAndTags)

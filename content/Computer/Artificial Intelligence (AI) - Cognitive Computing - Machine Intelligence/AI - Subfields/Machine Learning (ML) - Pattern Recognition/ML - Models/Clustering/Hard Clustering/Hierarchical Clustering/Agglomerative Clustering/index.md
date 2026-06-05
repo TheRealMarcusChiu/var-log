@@ -1,14 +1,12 @@
 ---
-publish: true
-title: Agglomerative Clustering
+title: "Agglomerative Clustering"
 created: 2020-06-02T14:35:45.137-05:00
 modified: 2020-06-02T14:48:06.719-05:00
+parent: "[[Hierarchical Clustering]]"
+children: []
 ---
-
 <strong>Agglomerative Clustering</strong> is a type of [[Hierarchical Clustering|hierarchical clustering]] that takes the bottom-up approach
-
 ### Algorithm
-
 ```
 agglomerative-clustering(points) {
 	each point is its own cluster
@@ -20,9 +18,7 @@ agglomerative-clustering(points) {
 ```
 
 produces a family of clusterings represented by a dendrogram
-
 ### Defining "Closest" for Clusters of Multiple Elements
-
 - closest pair (single-link clustering)
 - farthest pair (complete-link clustering)
 - average of all pairs

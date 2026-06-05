@@ -1,26 +1,22 @@
 ---
-publish: true
-title: RL Chapter 10 (On-Policy Control with Approximation)
+title: "RL Chapter 10 (On-Policy Control with Approximation)"
 created: 2025-12-11T13:59:22.033-06:00
 modified: 2025-12-11T23:35:24.007-06:00
+parent: "[[RL Chapters]]"
+children: []
 ---
-
 parametric approximation of 𝑞̂(𝑠,𝑎,𝐰) ≈ 𝑞(𝑠,𝑎)
-
 # Episodic Semi-Gradient Control
 
 general gradient-descent update for action-value prediction is:
-
 - $𝐰_{t+1} = 𝐰_{t} + \alpha [U_t - \hat{q}(S_t,A_t,𝐰_{t})] \nabla \hat{q}(S_t,A_t,𝐰_{t})$
 
 ###### Episodic Semi-Gradient One-Step SARSA
 
 One-Step SARSA update:
-
 - $𝐰_{t+1} = 𝐰_{t} + \alpha [R_{t+1} + \gamma \hat{q}(S_{t+1},A_{t+1},𝐰_t) - \hat{q}(S_t,A_t,𝐰_{t})] \nabla \hat{q}(S_t,A_t,𝐰_{t})$
 
 Episodic Semi-Gradient SARSA for Estimating 𝑞̂ ≈ 𝑞<sub>\*</sub>:
-
 ```
 Input: a differentiable action-value function parameterization 𝑞̂ : SxAxℝ^d  -> ℝ
 Algorithm parameters: step size 𝛼>0, small 𝜀>0
@@ -38,19 +34,15 @@ Loop for each episode:
 		S = S'
 		A = A'
 ```
-
 # Semi-Gradient n-step SARSA
 
 n-step return:
-
 - $G_{t:t+n} = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^{n-1} R_{t+n} + \gamma^n \hat{q}(S_{t+n},A_{t+n},𝐰_{t+n-1})$
 
 the n-step update equation is:
-
 - $𝐰_{t+n} = 𝐰_{t+n-1} + \alpha [G_{t:t+n} - \hat{q}(S_t,A_t,𝐰_{t+n-1})] \nabla \hat{q}(S_t,A_t,𝐰_{t+n-1})$
 
 Episodic semi-gradient n-step SARSA for estimating 𝑞̂ ≈ 𝑞<sub>\*</sub> or 𝑞<sub>𝜋</sub>:
-
 ```
 Input: a differentiable action-value function parameterization 𝑞̂ : SxAxℝ^d  -> ℝ
 Input: a policy 𝜋 (if estimating q_𝜋)
@@ -78,18 +70,13 @@ Loop for each episode:
 		w = w + 𝛼 [G - 𝑞̂(S_??,A_𝜏,w)] \nabla 𝑞̂(S_𝜏,A_𝜏,w)
 	until 𝜏 = T - 1
 ```
-
 # Average Reward: A New Problem Setting for Continuing Tasks
-
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/RL Chapters/RL Chapter 10 (On-Policy Control with Approximation)/1.png|600]]
-
+![[RL Chapter 10 (On-Policy Control with Approximation)/1.png|600]]
 ###### Differential semi-gradient SARSA for estimating 𝑞̂ ≈ 𝑞<sub>\*</sub>:
 
 One-Step SARSA update:
-
 - $𝐰_{t+1} = 𝐰_{t} + \alpha \delta_t \nabla \hat{q}(S_t,A_t,𝐰_{t})$
 - $𝐰_{t+1} = 𝐰_{t} + \alpha [R_{t+1} - \overline{R}_t + \gamma \hat{q}(S_{t+1},A_{t+1},𝐰_t) - \hat{q}(S_t,A_t,𝐰_{t})] \nabla \hat{q}(S_t,A_t,𝐰_{t})$
-
 ```
 Input: a differentiable action-value function parameterization 𝑞̂ : SxAxℝ^d  -> ℝ
 Algorithm parameters: step sizes 𝛼,𝛽 > 0
@@ -106,27 +93,21 @@ Loop for each step:
 	S = S'
 	A = A'
 ```
-
 # Deprecating the Discounted Setting
 
 TO READ
-
 # Differential Semi-Gradient n-step SARSA
 
 generalize n-step return to its differential form:
-
 - $G_{t:t+n} = R_{t+1} - \overline{R}_{t+n-1} + ... + R_{t+n} - \overline{R}_{t+n-1} + \hat{q}(S_{t+n},A_{t+n},w_{t+n-1})$
 
 where:
-
 - $\overline{R} \text{ is an estimate of average reward } r(\pi)$
 
 the n-step TD error is then:
-
 - $\delta_t = G_{t:t+n} - \hat{q}(S_t,A_t,w)$
 
 Differential semi-gradient n-step SARSA for estimating 𝑞̂ ≈ 𝑞<sub>\*</sub>or 𝑞<sub>𝜋</sub>:
-
 ```
 Input:
 - a differentiable action-value function parameterization 𝑞̂ : SxAxℝ^d  -> ℝ

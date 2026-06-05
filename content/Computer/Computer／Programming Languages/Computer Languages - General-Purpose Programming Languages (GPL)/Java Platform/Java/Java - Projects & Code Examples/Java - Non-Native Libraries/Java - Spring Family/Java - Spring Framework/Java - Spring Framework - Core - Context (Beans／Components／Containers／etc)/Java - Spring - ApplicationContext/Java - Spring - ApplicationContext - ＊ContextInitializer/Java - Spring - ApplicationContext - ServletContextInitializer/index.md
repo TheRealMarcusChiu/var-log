@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Java - Spring - ApplicationContext - ServletContextInitializer
+title: "Java - Spring - ApplicationContext - ServletContextInitializer"
 created: 2019-12-08T22:58:29.046-06:00
 modified: 2021-07-04T22:49:39.901-05:00
+parent: "[[Java - Spring - ApplicationContext - ＊ContextInitializer]]"
+children: []
 ---
-
-- code base: <https://github.com/SpringBootMarcusChiu/application-context-custom-servlet-context-initializer>
+- code base: [https://github.com/SpringBootMarcusChiu/application-context-custom-servlet-context-initializer](https://github.com/SpringBootMarcusChiu/application-context-custom-servlet-context-initializer)
 
 ### Application
-
 ```
 public class Application {
 
@@ -17,9 +16,7 @@ public class Application {
     }
 }
 ```
-
 ### CustomServletContextInitializer
-
 ```
 /**
  * @EnableAutoConfiguration
@@ -48,9 +45,7 @@ public class CustomServletContextInitializer implements ServletContextInitialize
     }
 }
 ```
-
 # ChildConfiguration
-
 ```
 @EnableWebMvc
 @Configuration

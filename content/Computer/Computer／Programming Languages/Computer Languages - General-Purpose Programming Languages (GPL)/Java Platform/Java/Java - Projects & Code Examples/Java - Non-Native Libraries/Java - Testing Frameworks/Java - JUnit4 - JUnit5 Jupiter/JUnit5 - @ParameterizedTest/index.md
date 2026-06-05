@@ -1,12 +1,11 @@
 ---
-publish: true
-title: JUnit5 - @ParameterizedTest
+title: "JUnit5 - @ParameterizedTest"
 created: 2021-06-25T16:52:04.328-05:00
 modified: 2021-06-25T17:02:48.748-05:00
+parent: "[[Java - JUnit4 - JUnit5 Jupiter]]"
+children: []
 ---
-
 # Dependencies
-
 ```
 <dependency>
     <groupId>org.junit.jupiter</groupId>
@@ -15,11 +14,9 @@ modified: 2021-06-25T17:02:48.748-05:00
     <scope>test</scope>
 </dependency>
 ```
-
 # @ParameterizedTest
 
 > [!expand-ui]- @ValueSource
->
 > ```
 > @ParameterizedTest
 > @ValueSource(ints = {1, 3, 5, -3, 15, Integer.MAX_VALUE}) // six numbers
@@ -30,7 +27,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 
 > [!expand-ui]- @NullSource @EmptySource @NullAndEmptySource
 > As of JUnit 5.4, we can pass a single <em>null </em>value to a parameterized test method using <em>@NullSource</em>:
->
 > ```
 > @ParameterizedTest
 > @NullSource
@@ -42,7 +38,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > Since primitive data types can't accept <em>null </em>values, we can't use the <em>@NullSource </em>for primitive arguments.
 >
 > Quite similarly, we can pass empty values using the <em>@EmptySource </em>annotation:
->
 > ```
 > @ParameterizedTest
 > @EmptySource
@@ -56,7 +51,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > For <em>String</em> arguments, the passed value would be as simple as an empty <em>String</em>. Moreover, this parameter source can provide empty values for <em>Collection</em> types and arrays.
 >
 > In order to pass both <em>null </em>and empty values, we can use the composed <em>@NullAndEmptySource </em>annotation:
->
 > ```
 > @ParameterizedTest
 > @NullAndEmptySource
@@ -68,7 +62,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > As with the <em>@EmptySource</em>, the composed annotation works for <em>String</em>s, <em>Collection</em>s, and arrays<em>.</em>
 >
 > To pass a few more empty string variations to the parameterized test, we can combine <em>@ValueSource</em>,<em> @NullSource</em>,<em> and @EmptySource </em>together:
->
 > ```
 > @ParameterizedTest
 > @NullAndEmptySource
@@ -82,7 +75,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > In order to run a test with different values from an enumeration, we can use the <em>@EnumSource</em> annotation.
 >
 > For example, we can assert that all month numbers are between 1 and 12:
->
 > ```
 > @ParameterizedTest
 > @EnumSource(Month.class) // passing all 12 months
@@ -95,7 +87,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > Or, we can filter out a few months by using the <em>names </em>attribute.
 >
 > We could also assert the fact that April, September, June and November are 30 days long:
->
 > ```
 > @ParameterizedTest
 > @EnumSource(value = Month.class, names = {"APRIL", "JUNE", "SEPTEMBER", "NOVEMBER"})
@@ -108,7 +99,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > By default, the <em>names</em> will only keep the matched enum values.
 >
 > We can turn this around by setting the <em>mode</em> attribute to <em>EXCLUDE</em>:
->
 > ```
 > @ParameterizedTest
 > @EnumSource( value = Month.class, names = {"APRIL", "JUNE", "SEPTEMBER", "NOVEMBER", "FEBRUARY"}, mode = EnumSource.Mode.EXCLUDE)
@@ -119,7 +109,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > ```
 >
 > In addition to literal strings, we can pass a regular expression to the <em>names </em>attribute:
->
 > ```
 > @ParameterizedTest
 > @EnumSource(value = Month.class, names = ".+BER", mode = EnumSource.Mode.MATCH_ANY)
@@ -133,7 +122,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > Quite similar to <em>@ValueSource</em>, <em>@EnumSource</em> is only applicable when we're going to pass just one argument per test execution.
 
 > [!expand-ui]- @CsvSource
->
 > ```
 > @ParameterizedTest
 > @CsvSource({"test,TEST", "tEst,TEST", "Java,JAVA"})
@@ -142,7 +130,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 >     assertEquals(expected, actualValue);
 > }
 > ```
->
 > ```
 > @ParameterizedTest
 > @CsvSource(value = {"test:test", "tEst:test", "Java:java"}, delimiter = ':')
@@ -154,7 +141,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 
 > [!expand-ui]- @CsvFileSource
 > For example, we could use a CSV file like this:
->
 > ```
 > input,expected
 > test,TEST
@@ -163,7 +149,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > ```
 >
 > We can load the CSV file and ignore the header column with <em>@CsvFileSource</em>:
->
 > ```
 > @ParameterizedTest
 > @CsvFileSource(resources = "/data.csv", numLinesToSkip = 1)
@@ -174,7 +159,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 > ```
 
 > [!expand-ui]- @MethodSource (Custom)
->
 > ```
 > @ParameterizedTest
 > @MethodSource("provideStringsForIsBlank")
@@ -182,7 +166,6 @@ modified: 2021-06-25T17:02:48.748-05:00
 >     assertEquals(expected, Strings.isBlank(input));
 > }
 > ```
->
 > ```
 > private static Stream<Arguments> provideStringsForIsBlank() {
 >     return Stream.of(
@@ -193,7 +176,5 @@ modified: 2021-06-25T17:02:48.748-05:00
 >     );
 > }
 > ```
-
 # Resources
-
-- <https://www.baeldung.com/parameterized-tests-junit-5>
+- [https://www.baeldung.com/parameterized-tests-junit-5](https://www.baeldung.com/parameterized-tests-junit-5)

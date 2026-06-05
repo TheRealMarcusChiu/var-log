@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Kerberos - Designing an Authentication System： a Dialogue in Four Scenes
+title: "Kerberos - Designing an Authentication System： a Dialogue in Four Scenes"
 created: 2022-09-03T19:02:32.659-05:00
 modified: 2022-09-03T19:04:13.353-05:00
+parent: "[[Kerberos - How it Works]]"
+children: []
 ---
-
 Copyright 1988, 1997 Massachusetts Institute of Technology. [All Rights Reserved.](https://web.mit.edu/kerberos/www/dialogue.html#license)
 
 Originally written by Bill Bryant, February 1988.
 
 Cleaned up and converted to HTML by Theodore Ts'o, February, 1997. An [afterword](https://web.mit.edu/kerberos/www/dialogue.html#Afterword) describing the changes in Version 5 of the Kerberos protocol was also added.
-
 ## Abstract
-
 > This dialogue provides a fictitious account of the design of an open-network authentication system called "Charon." As the dialogue progresses, the characters Athena and Euripides discover the problems of security inherent in an open network environment. Each problem must be addressed in the design of Charon, and the design evolves accordingly. Athena and Euripides don't complete their work until the dialogue's close.
->
+> 
 > When they finish designing the system, Athena changes the system's name to "[Kerberos](https://web.mit.edu/kerberos/)," the name, coincidentally enough, of the authentication system that was designed and implemented at MIT's Project Athena. The dialogue's "Kerberos" system bears a striking resemblence to the system described in <em>[Kerberos: An Authentication Service for Open Network Systems](ftp://athena-dist.mit.edu/pub/kerberos/doc/usenix.PS)</em> presented at the Winter USENIX 1988, at Dallas, Texas.
-
 # Dramatis Personae
 
 ```merge-table
@@ -34,7 +31,6 @@ Cleaned up and converted to HTML by Theodore Ts'o, February, 1997. An [afterwor
   "tableStyle": "width: 38.8934%;"
 }
 ```
-
 # Scene I
 
 <em>A cubicle area. Athena and Euripides are working at neighboring terminals.</em>
@@ -110,7 +106,6 @@ Cleaned up and converted to HTML by Theodore Ts'o, February, 1997. An [afterwor
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Scene II
 
 <em>Euripides' office, the next morning. Euripides sits at his desk, reading his mail. Athena knocks on the door.</em>
@@ -314,7 +309,6 @@ Cleaned up and converted to HTML by Theodore Ts'o, February, 1997. An [afterwor
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Scene III
 
 <em>The next morning, Athena catches Euripides at the coffee area. She taps him on the shoulder as he fills his cup.</em>
@@ -488,7 +482,6 @@ Cleaned up and converted to HTML by Theodore Ts'o, February, 1997. An [afterwor
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Scene IV
 
 <em>The next morning in Euripides' office. Athena knocks on the door.</em>
@@ -660,7 +653,6 @@ Cleaned up and converted to HTML by Theodore Ts'o, February, 1997. An [afterwor
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Afterword
 
 The dialogue was written in 1988 to help its readers understand the fundamental reasons for why the Kerberos V4 protocol was the way it was. Over the years, it has served this job very well.
@@ -673,10 +665,13 @@ In Kerberos V5, authenticators are made to be truly "once-only" by having server
 
 The second major change to the protocol is that the ticket is no longer encrypted in the user's password when it is sent from the Kerberos server to <em>kinit</em> during the initial ticket exchange. The ticket is already encrypted in the ticket granting server's secret key; furthermore when it is actually used to obtain other tickets, it gets sent in the network in the clear anyway. Hence, there is no reason why the ticket should be encrypted again in the user's password. (The rest of the Kerberos server's reply to the user, containing for example the user's copy of the ticket session key, is still encrypted in the user's password, of course.)
 
-A similar change was also made to the ticket granting service (TGS) protocol; tickets returned by TGS are also no longer encrypted by the ticket-granting ticket's service key, since application tickets are already encrypted by the application server's secret key. So for example, the packet that in Kerberos V4 which would have looked like this: <span style="white-space: pre-wrap"><code>   KDC\_REPLY = {TICKET, client, server, K\_session}K\_user</code></span>
+A similar change was also made to the ticket granting service (TGS) protocol; tickets returned by TGS are also no longer encrypted by the ticket-granting ticket's service key, since application tickets are already encrypted by the application server's secret key. So for example, the packet that in Kerberos V4 which would have looked like this:
+<span style="white-space: pre-wrap"><code>   KDC\_REPLY = {TICKET, client, server, K\_session}K\_user</code></span>
 
-where "{X}K\_Y" is read <em>"X encrypted using key K\_Y"</em> and <span style="white-space: pre-wrap"><code>   TICKET = {client, server, start\_time, lifetime, K\_session}K\_server</code></span>
+where "{X}K\_Y" is read <em>"X encrypted using key K\_Y"</em> and
+<span style="white-space: pre-wrap"><code>   TICKET = {client, server, start\_time, lifetime, K\_session}K\_server</code></span>
 
-In Kerberos V5, the KDC\_REPLY now would look like this: <span style="white-space: pre-wrap"><code>  KDC\_REPLY = TICKET, {client, server, K\_session}K\_user</code></span>
+In Kerberos V5, the KDC\_REPLY now would look like this:
+<span style="white-space: pre-wrap"><code>  KDC\_REPLY = TICKET, {client, server, K\_session}K\_user</code></span>
 
 Of course, there are many new features in Kerberos V5 as well. Users can now securely forward their tickets so that they can be used at another network location; in addition, users may also delagate a subset of their authorization rights to a server, so that the server can act as a proxy on behalf of a user. Other new features include the ability to replace DES with a more secure cryptographic algorithm, such as triple-DES. Readers who are interested in more of the changes between Kerberos V4 and V5 are invited to read [The Evolution of the Kerberos Authentication System](ftp://athena-dist.mit.edu/pub/kerberos/doc/krb_evol.PS), which was authored by [Cliff Neumann](http://clifford.neuman.name/) and [Theodore Ts'o](https://web.mit.edu/tytso/www/home.html).

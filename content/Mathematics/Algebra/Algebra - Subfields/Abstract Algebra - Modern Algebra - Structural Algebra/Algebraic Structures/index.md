@@ -1,16 +1,32 @@
 ---
-publish: true
-title: Algebraic Structures
+title: "Algebraic Structures"
 created: 2021-09-13T05:24:54.530-05:00
 modified: 2026-05-19T19:24:25.112-05:00
+parent: "[[Abstract Algebra - Modern Algebra - Structural Algebra]]"
+children:
+  - "[[Abelian Groups (Algebraic Structure)]]"
+  - "[[Algebraic Structures - Examples]]"
+  - "[[Commutative Magma]]"
+  - "[[Commutative Monoids (Algebraic Structures)]]"
+  - "[[Fields (Algebraic Structure) - Field Theory]]"
+  - "[[Groups (Algebraic Structure) - Group Theory]]"
+  - "[[Inverse Semigroups - Associative Quasigroups (Algebraic Structures)]]"
+  - "[[Loops (Algebraic Structures)]]"
+  - "[[Magmas (Algebraic Structures)]]"
+  - "[[Monoids (Algebraic Structures)]]"
+  - "[[Partial Magmas (Algebraic Structures)]]"
+  - "[[Quasigroups (Algebraic Structures)]]"
+  - "[[Rings (Algebraic Structure) - Ring Theory]]"
+  - "[[Semigroups (Algebraic Structures)]]"
+  - "[[Semilattices／Semi-Lattices (Algebraic Structures)]]"
+  - "[[Semirings／Semi-Rings (Algebraic Structures)]]"
+  - "[[Unital Magmas (Algebraic Structures)]]"
+  - "[[Unitary Rings (Algebraic Structures)]]"
 ---
-
 ###### Algebraic Structures
-
-```excerpt
+````excerpt
 - In [[Abstract Algebra - Modern Algebra - Structural Algebra|abstract algebra]], an <strong>algebraic structure</strong> on a set 𝐴 (called <strong>carrier set</strong> or <strong>underlying set</strong>) is a collection of finitary operations on 𝐴. The set 𝐴 with this structure is also called an <strong>[[Algebra|algebra]]</strong>.
-```
-
+````
 ^excerpt
 
 # Algebraic Structures - 1 Operator Types
@@ -615,7 +631,6 @@ modified: 2026-05-19T19:24:25.112-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Algebraic Structures - 2 Operator Types
 
 ```merge-table
@@ -920,13 +935,11 @@ modified: 2026-05-19T19:24:25.112-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Algebraic Structures - Complex Types
-
 - [[Mathematical Spaces|mathematical spaces]]
-  - [[Vector Spaces - Linear Spaces|vector spaces]]
-- [modules](https://en.wikipedia.org/wiki/Module_\(mathematics\))
-- [algebras](https://en.wikipedia.org/wiki/Algebra_\(ring_theory\))
+	- [[Vector Spaces - Linear Spaces|vector spaces]]
+- [modules](https://en.wikipedia.org/wiki/Module_(mathematics))
+- [algebras](https://en.wikipedia.org/wiki/Algebra_(ring_theory))
 
 # Algebraic Structures - Examples
 

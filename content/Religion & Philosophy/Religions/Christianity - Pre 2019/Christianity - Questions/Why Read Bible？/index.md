@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Why Read Bible？
+title: "Why Read Bible？"
 created: 2021-09-13T04:44:49.086-05:00
 modified: 2021-09-13T04:44:49.086-05:00
+parent: "[[Christianity - Questions]]"
+children: []
 ---
-
 Christians today struggle with reading the Bible even though they say it is the Word of God. Hence I would rephrase that as saying Christians today struggle to read the Word of God (often). The Bible is one of the best forms of communication from God to humans. We no longer have the face-to-face conversation like Adam and Eve had. And we are hidden from His presence. The Bible is <strong>probably</strong> the only way that we could hear from Him.
 
 A Christian asked, "Is there a commandment to read the Bible daily?" responses within the group was:
-
 - back then the Bible was not even formed. only had the OT and books weren't abundant and many early christians couldn't read as well. though they did hear it.
 - something else
 - some quoted a verse below
@@ -21,7 +20,8 @@ This is very similar to prayer, doing the works for the glory of God, offering s
 
 read [[The Kingdom of Heaven - Matthew 13|The Kingdom of Heaven]]
 
-## Our most precious thing we have here on Earth is our time.
+Our most precious thing we have here on Earth is our time.
+---
 
 <strong>Deuteronomy 17:18-20 New International Version (NIV)</strong>
 

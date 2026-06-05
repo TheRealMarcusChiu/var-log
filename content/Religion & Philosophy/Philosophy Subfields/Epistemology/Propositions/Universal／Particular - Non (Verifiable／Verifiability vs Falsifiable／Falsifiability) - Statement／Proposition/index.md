@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Universal／Particular - Non (Verifiable／Verifiability vs Falsifiable／Falsifiability) - Statement／Proposition
+title: "Universal／Particular - Non (Verifiable／Verifiability vs Falsifiable／Falsifiability) - Statement／Proposition"
 created: 2021-09-13T04:44:23.424-05:00
 modified: 2021-09-13T04:44:23.424-05:00
+parent: "[[Propositions]]"
+children: []
 ---
-
 ###### Particular/Verifiable - Universal/Falsifiable
-
 - are properties of [[Propositions|propositions]]
 - are used as a criterion for solving the [[Problem of Demarcation (Verifiability／Verifiable vs Falsifiability／Falsifiable)|Demarcation Problem]]
 

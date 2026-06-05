@@ -1,28 +1,25 @@
 ---
-publish: true
-title: Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)
+title: "Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)"
 created: 2024-09-22T22:43:32.385-05:00
 modified: 2025-10-14T15:21:37.243-05:00
+parent: "[[Random-Access Memory (RAM)]]"
+children:
+  - "[[Integrated Memory Controller (IMC)]]"
 ---
-
 ###### Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)
-
-```excerpt
+````excerpt
 - is a [[Digital／Boolean Logic Circuits|digital circuit]] that handles communication between the [[Central Processing Unit (CPU) - Central／Main Processor - Microprocessor (uP) - Microcontroller (uC) - Microcontroller Unit (MCU)|CPU]] and [[Primary／Main／Physical Computer Memory／Storage|main memory]]
-```
-
+````
 ^excerpt
 
 # MCC
 
 In modern systems:
-
 - the memory controller is integrated on the CPU die (i.e. [[Integrated Memory Controller (IMC)|Integrated Memory Controller]]), not in the motherboard chipset (unlike older designs like pre-Nehalem Intel CPUs)
 - each CPU socket (or die) typically has 1, 2, 4, 6, 8, or 12 memory controllers, depending on the architecture
 - each controller usually handles one memory channel — so “dual channel” means 2 controllers inside the CPU
 
 the memory controller can also support [[RAM (1S／2S Single／Double Sided Module - Single／1R - Dual／2R - Quad／4R - Octo／8R) Multi Ranks - Memory Rank|multi rank]], [[RAM (DIMMS per Channel - 1DPC 2DPC 3DPC 4DPC)|dimms per channel]], and [[Error-Correcting Codes (ECC)|error-correcting codes]]
-
 # IMC - Examples
 
 ```merge-table
@@ -79,5 +76,9 @@ the memory controller can also support [[RAM (1S／2S Single／Double Sided Modu
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

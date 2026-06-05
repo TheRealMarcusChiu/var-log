@@ -1,16 +1,23 @@
 ---
-publish: true
-title: Jackson - CSV
+title: "Jackson - CSV"
 created: 2021-04-18T11:12:20.420-05:00
 modified: 2021-05-02T16:25:21.843-05:00
+parent: "[[Java - Jackson (Codehaus vs FasterXML) - ObjectMapper]]"
+children:
+  - "[[Jackson - CSV - CsvSchema]]"
+  - "[[Jackson - CSV - Custom NullSerializer]]"
+  - "[[Jackson - CSV - Retrieving List of POJO Field Names and Types as Seen from CsvMapper]]"
 ---
-
-- code: <https://github.com/java-code-examples/jackson-fasterxml-csv-example>
+- code: [https://github.com/java-code-examples/jackson-fasterxml-csv-example](https://github.com/java-code-examples/jackson-fasterxml-csv-example)
 
 # 1 - Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # 2 - Dependency
-
 ```
 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-csv -->
 <dependency>
@@ -19,11 +26,9 @@ modified: 2021-05-02T16:25:21.843-05:00
     <version>2.12.1</version>
 </dependency>
 ```
-
 # 3 - Example
 
 our POJO object we want in CSV format
-
 ```
 @Data
 public static class Temp2 {
@@ -34,7 +39,6 @@ public static class Temp2 {
 ```
 
 setup CsvMapper & CsvSchema & ObjectWriter
-
 ```
 // 1 - Initiatize Mapper
 CsvMapper mapper = new CsvMapper();
@@ -54,7 +58,6 @@ ObjectWriter writer = mapper.writerFor(Temp2.class).with(schema);
 ```
 
 using ObjectWriter
-
 ```
 // Get CSV of single Temp2 object
 writer.writeValueAsString(new Temp2());

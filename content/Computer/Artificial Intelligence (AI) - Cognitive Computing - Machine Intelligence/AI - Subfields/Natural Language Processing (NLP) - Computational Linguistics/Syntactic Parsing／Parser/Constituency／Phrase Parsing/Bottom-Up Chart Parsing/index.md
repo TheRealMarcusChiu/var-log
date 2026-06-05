@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Bottom-Up Chart Parsing
+title: "Bottom-Up Chart Parsing"
 created: 2020-11-07T17:41:43.891-06:00
 modified: 2020-11-07T18:25:01.273-06:00
+parent: "[[Constituency／Phrase Parsing]]"
+children: []
 ---
-
 ###### Bottom-Up Chart Parsing
-
 - a [[Syntactic Parsing／Parser|parser]] for [[Constituency／Phrase Parsing|constituency/phrase-based parsing]]
 
 ### Bottom-Up Chart Parsing - Notation
@@ -43,54 +42,50 @@ modified: 2020-11-07T18:25:01.273-06:00
   ]
 }
 ```
-
 ### Bottom-Up Chart Parsing - Algorithm
-
 Initialize <font style="color: rgb(128,0,0);">agenda</font> with the list of lexical categories (e.g. [[Part of Speech (PoS)|PoS]]) of each word in the input sentence
 
 Until <font style="color: rgb(128,0,128);">agenda </font>is empty, repeat:
-
 - move next constituent 𝐶from <font style="color: rgb(128,0,128);">agenda</font> to <font style="color: rgb(255,0,255);">completed-arcs section</font> of the chart
 - find <font style="color: rgb(0,255,0);">grammar rules</font> whose RHS starts with 𝐶and add corresponding active-arcs to the <font style="color: rgb(255,0,255);">active-arcs section</font> of the chart
 - find active-arcs from the <font style="color: rgb(255,0,255);">active section</font> that continue with 𝐶and extend them; add the new active-arcs to the <font style="color: rgb(255,0,255);">active-arcs section</font> of the chart
 - find active-arcs from the <font style="color: rgb(255,0,255);">active section</font> that have been completed; and add their LHS as a new constituent 𝐶 to the <font style="color: rgb(128,0,128);">agenda</font>
 
 ### Bottom-Up Chart Parsing - Example
-
 > [!tabs]
 >
-> \=== 1
+> === 1
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-01.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-01.jpg|600]]
 >
-> \=== 2
+> === 2
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-02.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-02.jpg|600]]
 >
-> \=== 3
+> === 3
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-03.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-03.jpg|600]]
 >
-> \=== 4
+> === 4
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-04.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-04.jpg|600]]
 >
-> \=== 5
+> === 5
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-05.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-05.jpg|600]]
 >
-> \=== 6
+> === 6
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-06.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-06.jpg|600]]
 >
-> \=== 7
+> === 7
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-07.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-07.jpg|600]]
 >
-> \=== 8
+> === 8
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-08.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-08.jpg|600]]
 >
-> \=== 9
+> === 9
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Syntactic Parsing／Parser/Constituency／Phrase Parsing/Bottom-Up Chart Parsing/chart-parsing-example-09.jpg|600]]
+> ![[Bottom-Up Chart Parsing/chart-parsing-example-09.jpg|600]]

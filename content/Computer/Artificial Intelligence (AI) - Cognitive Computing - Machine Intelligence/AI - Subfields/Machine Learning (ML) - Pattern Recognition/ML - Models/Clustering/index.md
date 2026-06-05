@@ -1,12 +1,14 @@
 ---
-publish: true
-title: Clustering
+title: "Clustering"
 created: 2020-06-02T14:06:17.201-05:00
 modified: 2021-11-02T01:31:51.202-05:00
+parent: "[[ML - Models]]"
+children:
+  - "[[Clustering - Algorithm Comparisons]]"
+  - "[[Hard Clustering]]"
+  - "[[Soft Clustering]]"
 ---
-
 ###### Clustering
-
 - is an unsupervised learning finding patterns in unlabeled data
 
 # Clustering - Types
@@ -57,8 +59,6 @@ modified: 2021-11-02T01:31:51.202-05:00
   ]
 }
 ```
-
 # Clustering - Other
-
 - [[Community Detection vs Clustering]]
 - [[Clustering - Algorithm Comparisons]]

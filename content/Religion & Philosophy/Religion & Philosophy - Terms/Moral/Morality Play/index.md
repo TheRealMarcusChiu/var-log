@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Morality Play
+title: "Morality Play"
 created: 2024-07-24T15:00:31.567-05:00
 modified: 2024-07-24T15:02:04.502-05:00
+parent: "[[Moral]]"
+children: []
 ---
-
 ###### Morality Play
-
-```excerpt
+````excerpt
 - [https://www.philosophyexperiments.com/moralityplay/Default.aspx](https://www.philosophyexperiments.com/moralityplay/Default.aspx)
 - an interactive examination of people's moral frameworks
-```
-
+````
 ^excerpt
 
 # My Results
 
 > [!expand]- Click here to expand...
->
 > ### Morality Play - Analysis 2
 >
 > <strong>How Was Your Score Calculated?</strong>

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: for-loop - for-each - (map - reduce - filter - find)
+title: "for-loop - for-each - (map - reduce - filter - find)"
 created: 2020-01-14T19:01:03.103-06:00
 modified: 2020-01-14T20:04:23.012-06:00
+parent: "[[Computer／Programming Languages - Constructs]]"
+children: []
 ---
-
 ### For-Loop
-
 ```js
 let nums = [1, 4, 9, 16, 25, 36];
 let result = 0;
@@ -15,9 +14,7 @@ for (i = 0; i < nums.length; i++) {
 }
 // result = 91
 ```
-
 ### For-Each
-
 ```js
 let nums = [1, 4, 9, 16, 25, 36];
 let result = 0;
@@ -26,9 +23,7 @@ for each (var num in nums) {
 }
 // result = 91
 ```
-
 ### Reduce
-
 ```js
 let nums = [1, 4, 9, 16, 25, 36]
 let result = nums.reduce(function(accumulator, num) {
@@ -36,9 +31,7 @@ let result = nums.reduce(function(accumulator, num) {
 })
 // result = 91
 ```
-
 ### Map
-
 ```js
 let nums = [1, 4, 9, 16, 25, 36]
 let results = nums.map(function(num) {
@@ -46,9 +39,7 @@ let results = nums.map(function(num) {
 })
 // results = [1, 2, 3, 4, 5, 6]
 ```
-
 ### Filter
-
 ```js
 let nums = [1, 4, 9, 16, 25, 36]
 let results = nums.filter(function(num) {
@@ -56,9 +47,7 @@ let results = nums.filter(function(num) {
 })
 // results = [16, 25, 36]
 ```
-
 ### Find
-
 ```js
 let nums = [1, 4, 9, 16, 25, 36]
 let result = nums.find(function(num) {
@@ -66,9 +55,7 @@ let result = nums.find(function(num) {
 })
 // result = 16
 ```
-
 ### Mixed (Map - Reduce - Filter - Find)
-
 ```js
 let numbers = [1, 4, 9, 16, 25, 36]
 let result = numbers

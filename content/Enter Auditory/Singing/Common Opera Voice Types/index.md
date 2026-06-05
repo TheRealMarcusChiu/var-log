@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Common Opera Voice Types
+title: "Common Opera Voice Types"
 created: 2021-09-13T04:46:00.307-05:00
 modified: 2021-09-13T04:46:00.307-05:00
+parent: "[[Singing]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

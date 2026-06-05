@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Java - JaCoCo - Instrumentation
+title: "Java - JaCoCo - Instrumentation"
 created: 2021-02-09T22:57:04.648-06:00
 modified: 2021-05-15T12:11:57.365-05:00
+parent: "[[Maven - JaCoCo Plugin]]"
+children: []
 ---
-
 # Resources
-
-- official docs: <https://www.jacoco.org/jacoco/trunk/doc/maven.html>
-- some other article: <https://automationrhapsody.com/code-coverage-with-jacoco-offline-instrumentation-with-maven/>
-- code: <https://github.com/SpringBootMarcusChiu/jacoco-example>
+- official docs: [https://www.jacoco.org/jacoco/trunk/doc/maven.html](https://www.jacoco.org/jacoco/trunk/doc/maven.html)
+- some other article: [https://automationrhapsody.com/code-coverage-with-jacoco-offline-instrumentation-with-maven/](https://automationrhapsody.com/code-coverage-with-jacoco-offline-instrumentation-with-maven/)
+- code: [https://github.com/SpringBootMarcusChiu/jacoco-example](https://github.com/SpringBootMarcusChiu/jacoco-example)
 
 # Introduction
-
 ```xml
 <properties>
    <!-- can be overridden with `mvn clean test -Djacoco.skip.instrument=false` -->
@@ -37,7 +35,7 @@ The maven application gets packaged to a single JAR file by <em><strong>mvn cle
 
 <em><strong>mvn clean package -Djacoco.skip.instrument=false</strong></em> command. You can easily check if given class has been instrumented by opening it with some kind of decompiler. The image below shows instrumented class on the right hand side vs non-instrumented in the left hand side
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -61,15 +59,13 @@ The maven application gets packaged to a single JAR file by <em><strong>mvn cle
   ],
   "tableStyle": "width: 100.0%;"
 }
-````
-
+```
 # Instrumentation Offline vs Online
-
-- offline instrumentation - <https://www.jacoco.org/jacoco/trunk/doc/offline.html>
+- offline instrumentation - [https://www.jacoco.org/jacoco/trunk/doc/offline.html](https://www.jacoco.org/jacoco/trunk/doc/offline.html)
 
 > [!tabs]
 >
-> \=== Offline Instrumentation
+> === Offline Instrumentation
 >
 > ```
 > <project xmlns="http://maven.apache.org/POM/4.0.0" 
@@ -164,7 +160,7 @@ The maven application gets packaged to a single JAR file by <em><strong>mvn cle
 > </project>
 > ```
 >
-> \=== Online Instrumentation
+> === Online Instrumentation
 >
 > ```
 > <project xmlns="http://maven.apache.org/POM/4.0.0" 

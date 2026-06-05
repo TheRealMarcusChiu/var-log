@@ -1,16 +1,15 @@
 ---
-publish: true
-title: Radial Basis "Kernel" Function (RBF)
+title: "Radial Basis \"Kernel\" Function (RBF)"
 created: 2021-09-13T05:29:31.406-05:00
 modified: 2024-09-11T12:59:23.600-05:00
+parent: "[[Kernel Functions (Similarity Functions)]]"
+children:
+  - "[[Gaussian RBF Kernel Function]]"
 ---
-
 ###### Radial Basis "Kernel" Function (RBF)
-
-```excerpt
+````excerpt
 - is a real-valued [[Kernel Functions (Similarity Functions)|kernel function]] 𝑘(𝑢,𝑣)
-```
-
+````
 ^excerpt
 
 # RBF - Types
@@ -80,7 +79,6 @@ modified: 2024-09-11T12:59:23.600-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
 
 ![](https://www.youtube.com/watch?v=Qc5IyLW_hns)

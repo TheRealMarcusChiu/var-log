@@ -1,17 +1,18 @@
 ---
-publish: true
-title: Semantics
+title: "Semantics"
 created: 2021-09-13T04:44:08.589-05:00
 modified: 2021-09-13T04:44:08.589-05:00
+parent: "[[Meaning = Semantics + Pragmatics + Discoursology]]"
+children:
+  - "[[Lexical Semantics]]"
+  - "[[Semantic Relations]]"
+  - "[[Sentence／Sentential／Phrasal Semantics]]"
 ---
-
 ###### Semantics
-
-```excerpt
+````excerpt
 - is about taking words & sentences and assigning meaning to them (without environmental-context)
 - is the study of the meaning of phonemes, morphemes, lexemes, phrases, and sentences (syntax)
-```
-
+````
 ^excerpt
 
 ### Semantic - Types
@@ -38,8 +39,6 @@ modified: 2021-09-13T04:44:08.589-05:00
   ]
 }
 ```
-
 ### Semantic Relations & Extraction
-
 - [[Semantic Relations]]
 - [[Semantic Relation Extraction]]

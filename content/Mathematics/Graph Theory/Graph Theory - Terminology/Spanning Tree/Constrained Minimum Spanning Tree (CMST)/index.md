@@ -1,14 +1,12 @@
 ---
-publish: true
-title: Constrained Minimum Spanning Tree (CMST)
+title: "Constrained Minimum Spanning Tree (CMST)"
 created: 2021-09-13T05:25:32.111-05:00
 modified: 2021-12-11T05:38:27.325-06:00
+parent: "[[Spanning Tree]]"
+children: []
 ---
-
 <strong>Constrained Minimum Spanning Tree (CMST)</strong> is an MST that satisfies 1 or more constraints
-
 # Example Constraints
-
 - Any subtree rooted at a neighbor of the main root can have at most ν nodes. That is if a node A is directly connected to the main root in the tree, then the subtree (cluster) rooted at A can have altogether at most ν nodes (including A itself).
   Motivation: each outgoing link from the root carries data to the group of nodes in the subtree. The larger is such a cluster, the larger is the expected data rate. The speed of the link and of the corresponding output port of the root node may limit this.
 

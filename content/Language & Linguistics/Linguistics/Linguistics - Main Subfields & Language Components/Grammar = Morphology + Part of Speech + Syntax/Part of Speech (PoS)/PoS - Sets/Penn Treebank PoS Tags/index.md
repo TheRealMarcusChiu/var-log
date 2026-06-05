@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Penn Treebank PoS Tags
+title: "Penn Treebank PoS Tags"
 created: 2021-09-13T04:44:04.317-05:00
 modified: 2021-09-13T04:44:04.317-05:00
+parent: "[[PoS - Sets]]"
+children: []
 ---
-
-<https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>
+[https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
 
 ```merge-table
 {

@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Homebox - Installation via Kubernetes
+title: "Homebox - Installation via Kubernetes"
 created: 2025-06-10T16:56:10.153-05:00
 modified: 2025-06-10T16:57:46.279-05:00
+parent: "[[Homebox]]"
+children: []
 ---
-
 Here we will install [[Homebox]] via [[Kubernetes]]
 
 Create the following workload file
-
 ```yml
 apiVersion: apps/v1
 kind: Deployment
@@ -48,7 +47,6 @@ spec:
 ```
 
 Apply it
-
 ```
 kubectl apply -f deployment.yml
 ```

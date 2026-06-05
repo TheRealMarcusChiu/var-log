@@ -1,16 +1,12 @@
 ---
-publish: true
-title: Some of My Art
+title: "Some of My Art"
 created: 2021-09-13T04:46:19.961-05:00
 modified: 2021-09-13T04:46:19.961-05:00
+parent: "[[Art]]"
+children: []
 ---
-
-![[Enter Visual/Art/Some of My Art/1.jpg]]
-
+![[Some of My Art/1.jpg]]
 ## <strong>Pixel Man</strong>
-
-![[Enter Visual/Art/Some of My Art/2.jpg]]
-
+![[Some of My Art/2.jpg]]
 ## <strong>Alex Man</strong>
-
-![[Enter Visual/Art/Some of My Art/3.jpg]]
+![[Some of My Art/3.jpg]]

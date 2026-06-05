@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Explicit Knowledge
+title: "Explicit Knowledge"
 created: 2021-09-13T04:44:21.936-05:00
 modified: 2021-09-13T04:44:21.936-05:00
+parent: "[[Knowledge Types／Hierarchy]]"
+children: []
 ---
-
 # Explicit Knowledge - Hierarchical Levels
-
 1. lexical level and syntax
 2. semantic relations
 3. contexts

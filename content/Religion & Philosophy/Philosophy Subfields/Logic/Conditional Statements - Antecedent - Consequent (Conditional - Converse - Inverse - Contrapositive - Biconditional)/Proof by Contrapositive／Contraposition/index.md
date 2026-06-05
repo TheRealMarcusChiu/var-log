@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Proof by Contrapositive／Contraposition
+title: "Proof by Contrapositive／Contraposition"
 created: 2023-05-20T17:42:20.649-05:00
 modified: 2023-06-16T10:09:14.335-05:00
+parent: "[[Conditional Statements - Antecedent - Consequent (Conditional - Converse - Inverse - Contrapositive - Biconditional)]]"
+children: []
 ---
-
 ###### Proof by Contrapositive - Proof by Contraposition
-
-```excerpt
+````excerpt
 - you assume that the conclusion is false and prove that the hypothesis is also false
 - for example, the contrapositive of "If it is raining then the grass is wet" is "If the grass is not wet then it is not raining"
-```
-
+````
 ^excerpt
 
 # Proof by Contrapositive - Why it Works
@@ -223,12 +221,10 @@ modified: 2023-06-16T10:09:14.335-05:00
   "tableStyle": "width: 38.9706%;"
 }
 ```
-
-# Proof by Contrapositive - Example #1
+# Proof by Contrapositive - Example \#1
 
 the contrapositive of "If it is raining then the grass is wet" is "If the grass is not wet then it is not raining"
-
-# Proof by Contrapositive - Example #2
+# Proof by Contrapositive - Example \#2
 
 exp
 

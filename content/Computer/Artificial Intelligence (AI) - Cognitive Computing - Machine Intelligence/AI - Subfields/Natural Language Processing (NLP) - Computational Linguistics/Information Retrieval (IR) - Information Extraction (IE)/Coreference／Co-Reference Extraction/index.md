@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Coreference／Co-Reference Extraction
+title: "Coreference／Co-Reference Extraction"
 created: 2020-11-20T14:57:02.832-06:00
 modified: 2020-11-20T18:06:42.893-06:00
+parent: "[[Information Retrieval (IR) - Information Extraction (IE)]]"
+children:
+  - "[[Lappin & Leas Pronouns Resolution Algorithm]]"
 ---
-
 - <strong>coreference/co-reference</strong> - occurs when two or more expressions in a text refer to the same person or thing; they have the same referent (e.g. Bill said he would come; the proper noun Bill and the pronoun he refer to the same person, namely to Bill)
 
 ### Coreference Types
@@ -95,7 +96,6 @@ modified: 2020-11-20T18:06:42.893-06:00
   ]
 }
 ```
-
 ### Coreference Resolution - Heuristics
 
 ```merge-table
@@ -136,7 +136,5 @@ modified: 2020-11-20T18:06:42.893-06:00
   ]
 }
 ```
-
 ### Coreference Resolution - Algorithms
-
 - Lappin & Leas Pronouns Resolution Algorithm

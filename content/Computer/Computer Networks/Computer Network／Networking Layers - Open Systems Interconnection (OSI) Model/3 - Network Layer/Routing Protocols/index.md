@@ -1,21 +1,20 @@
 ---
-publish: true
-title: Routing Protocols
+title: "Routing Protocols"
 created: 2019-03-16T20:48:31.076-05:00
 modified: 2023-11-16T17:28:59.544-06:00
+parent: "[[3 - Network Layer]]"
+children:
+  - "[[Dynamic Routing Protocols]]"
+  - "[[Multicast Routing Protocols]]"
 ---
-
 ###### Routing Protocols
-
-```excerpt
+````excerpt
 - are [[Computer Network／Networking Communication Protocols|network protocols]] (that operate at the [[3 - Network Layer|network layer]]) used by routers to find all networks in the internetwork, update the routing table, and ensure all routers have the same <em>routing-table</em>. This same table helps [[Routed Protocols|routed protocols]] determine the path of an [[Internet Protocol (IP)|IP]] packet through an internetwork
 - <strong>Routing Convergence</strong> is the time required by routing protocols to update the <em>routing-tables</em> (forwarding tables) on all routers in a network
-```
-
+````
 ^excerpt
 
 # Routing Protocols Categories
-
 - [[Dynamic Routing Protocols|dynamic routing]] or static routing
 - proactive, reactive, or hybrid
 - unicast routing or [[Multicast Routing Protocols|multicast routing]]
@@ -54,7 +53,6 @@ modified: 2023-11-16T17:28:59.544-06:00
   ]
 }
 ```
-
 # Proactive vs Reactive vs Hybrid
 
 ```merge-table
@@ -105,7 +103,6 @@ modified: 2023-11-16T17:28:59.544-06:00
   "tableStyle": "width: 99.9186%;"
 }
 ```
-
 # Unicast vs Multicast
 
 ```merge-table

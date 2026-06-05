@@ -1,15 +1,16 @@
 ---
-publish: true
-title: Kernels & Operating Systems
+title: "Kernels & Operating Systems"
 created: 2019-09-18T09:24:47.299-05:00
 modified: 2021-12-11T15:41:37.011-06:00
+parent: "[[Boot Order／Sequence - Firmware - Bootloader - Operating System]]"
+children:
+  - "[[Kernel／Kernels (OS)]]"
+  - "[[Operating Systems (OS)]]"
 ---
-
-```excerpt
+````excerpt
 - <strong>Kernel</strong> is a system program that provides an interface between software and hardware of the system
 - <strong>Operating system</strong> is system program that provides an interface between the computer and the user
-```
-
+````
 ^excerpt
 
 ```merge-table
@@ -70,5 +71,9 @@ modified: 2021-12-11T15:41:37.011-06:00
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

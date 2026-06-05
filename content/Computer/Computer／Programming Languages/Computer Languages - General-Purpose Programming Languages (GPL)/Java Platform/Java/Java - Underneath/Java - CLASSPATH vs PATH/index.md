@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Java - CLASSPATH vs PATH
+title: "Java - CLASSPATH vs PATH"
 created: 2020-05-28T11:57:14.403-05:00
 modified: 2020-05-28T12:04:31.946-05:00
+parent: "[[Java - Underneath]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

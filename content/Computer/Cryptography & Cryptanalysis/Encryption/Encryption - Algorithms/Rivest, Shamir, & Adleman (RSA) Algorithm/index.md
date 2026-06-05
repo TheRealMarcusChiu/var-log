@@ -1,72 +1,57 @@
 ---
-publish: true
-title: Rivest, Shamir, & Adleman (RSA) Algorithm
+title: "Rivest, Shamir, & Adleman (RSA) Algorithm"
 created: 2019-03-16T02:28:20.793-05:00
 modified: 2026-05-21T13:57:20.004-05:00
+parent: "[[Encryption - Algorithms]]"
+children: []
 ---
-
 ###### Rivest, Shamir, & Adleman (RSA) Algorithm
-
-```excerpt
+````excerpt
 - is an [[Asymmetric／Two／Public-Private Key Function|asymmetric encryption algorithm]]
 - invented in April 1977
-```
-
+````
 ^excerpt
 
 # RSA - Introduction
 
 ![](https://www.youtube.com/watch?v=wXB-V_Keiu8)
-
 # RSA Creation Steps
-
 ###### Using modular exponentiation for encryption
-
 - 𝑚<sup>𝑒</sup> 𝑚𝑜𝑑 𝑁 ≡ 𝑐
 
 Given 𝑚, 𝑒, 𝑁 it is EASY to compute 𝑐 (encrypting 𝑚)
-
 - 𝑚<sup>𝑒</sup> 𝑚𝑜𝑑 𝑁 ≡ ?
 
 Given 𝑐, 𝑒, 𝑁 it is HARD to compute 𝑚 (decrypting 𝑐)
-
 - ?<sup>𝑒</sup> 𝑚𝑜𝑑 𝑁 ≡ 𝑐
 
 ###### Determine what is needed for decryption
 
 Find <strong><font style="color: rgb(255,0,0);">𝑑</font></strong> to "undo" 𝑒
-
 - 𝑚<sup>𝑒</sup> 𝑚𝑜𝑑 𝑁 ≡ 𝑐
 - 𝑐<strong><font style="color: rgb(255,0,0);"><sup>𝑑</sup></font></strong> 𝑚𝑜𝑑 𝑁 ≡ 𝑚
 
 With [[Modular Arithmetic|modular arithmetic]] the 2 equations above result in:
-
 - 𝑚<sup>𝑒</sup><strong><font style="color: rgb(255,0,0);"><sup>𝑑</sup></font></strong> 𝑚𝑜𝑑 𝑁 ≡ 𝑚
 
 The problem is figuring out what value to choose for 𝑒 and <font style="color: rgb(255,0,0);">𝑑</font>
-
 ###### Introducing phi function 𝛷(𝑁)
 
 𝛷(𝑛) is the number of integers 𝑘 in the range 1 ≤ 𝑘 ≤ 𝑛 for which the greatest common divisor 𝑔𝑐𝑑(𝑛, 𝑘) is equal to 1.
-
 - 𝛷(𝑠𝑜𝑚𝑒-𝑛𝑢𝑚𝑏𝑒𝑟) is HARD to compute
 - 𝛷(𝑝𝑟𝑖𝑚𝑒-𝑛𝑢𝑚𝑏𝑒𝑟) is EASY to compute, 𝛷(𝑝𝑟𝑖𝑚𝑒-𝑛𝑢𝑚𝑏𝑒𝑟) = 𝑝𝑟𝑖𝑚𝑒-𝑛𝑢𝑚𝑏𝑒𝑟 - 1
 - 𝛷(𝑎 \* 𝑏) = 𝛷(𝑎) \* 𝛷(𝑏)
 
 Choosing 𝑁 to be equal to 𝑝𝑟𝑖𝑚𝑒-𝑜𝑛𝑒 \* 𝑝𝑟𝑖𝑚𝑒-𝑡𝑤𝑜, then:
-
 - 𝛷(𝑁) = 𝛷(𝑝𝑟𝑖𝑚𝑒-𝑜𝑛𝑒) \* 𝛷(𝑝𝑟𝑖𝑚𝑒-𝑡𝑤𝑜)
 
 Thus, 𝛷(𝑁) is EASY to compute when its prime-factorization (i.e. 𝑝𝑟𝑖𝑚𝑒-𝑜𝑛𝑒 \* 𝑝𝑟𝑖𝑚𝑒-𝑡𝑤𝑜) is known. The prime-factorization of large 𝑁 is HARD to compute.
-
 ###### Merging 𝛷(𝑁) with modulo exponentiation
 
 Euler's theorem states, for any 𝑚,𝑛, and gcd(𝑚,𝑛) = 1 then:
-
 - 𝑚<sup>𝛷(𝑛)</sup> ≡ 1 𝑚𝑜𝑑 𝑛
 
 Rearranging Euler's theorem with [[Modular Arithmetic|modular arithmetic]]:
-
 - 𝑚<sup>𝛷(𝑛)𝑘</sup> ≡ 1<sup>𝑘</sup> 𝑚𝑜𝑑 𝑛
 - 𝑚<sup>𝛷(𝑛)𝑘</sup> ≡ 1 𝑚𝑜𝑑 𝑛
 - 𝑚·𝑚<sup>𝛷(𝑛)𝑘</sup> ≡ 𝑚·1 𝑚𝑜𝑑 𝑛
@@ -75,8 +60,7 @@ Rearranging Euler's theorem with [[Modular Arithmetic|modular arithmetic]]:
 Now we have modulo exponentiation that depends on 𝛷(𝑁)!
 
 Thus, the values for 𝑒 and <font style="color: rgb(255,0,0);">𝑑</font>:
-
-- <font style="color: rgb(255,0,0);">𝑑 </font>= \[𝛷(𝑛)𝑘+1] / 𝑒
+- <font style="color: rgb(255,0,0);">𝑑 </font>= \[𝛷(𝑛)𝑘+1\] / 𝑒
 
 # RSA - Usage
 

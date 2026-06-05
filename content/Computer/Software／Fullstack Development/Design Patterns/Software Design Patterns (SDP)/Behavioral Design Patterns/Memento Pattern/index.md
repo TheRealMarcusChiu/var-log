@@ -1,39 +1,35 @@
 ---
-publish: true
-title: Memento Pattern
+title: "Memento Pattern"
 created: 2021-03-15T22:46:51.387-05:00
 modified: 2023-06-02T16:55:45.665-05:00
+parent: "[[Behavioral Design Patterns]]"
+children: []
 ---
-
 ###### Memento Pattern
-
-```excerpt
+````excerpt
 - is a [[Behavioral Design Patterns|behavioral design pattern]] that lets you save and restore the previous state of an object without revealing the details of its implementation
-```
-
+````
 ^excerpt
 
 # Code Structure
-
 > [!tabs]
 >
-> \=== Nested Classes Implementation
+> === Nested Classes Implementation
 >
-> ![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Behavioral Design Patterns/Memento Pattern/memento-structure-1.png|700]]
+> ![[Memento Pattern/memento-structure-1.png|700]]
 >
-> \=== Intermediate Interface Implementation
+> === Intermediate Interface Implementation
 >
-> ![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Behavioral Design Patterns/Memento Pattern/memento-structure-2.png|700]]
+> ![[Memento Pattern/memento-structure-2.png|700]]
 >
-> \=== Stricter Encapsulation Implementation
+> === Stricter Encapsulation Implementation
 >
-> ![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Behavioral Design Patterns/Memento Pattern/memento-structure-3.png|700]]
+> ![[Memento Pattern/memento-structure-3.png|700]]
 
 # Code Example
 
 > [!expand]- Click here to expand...
 > Create Memento class
->
 > ```
 > public class Memento {
 >    private String state;
@@ -49,7 +45,6 @@ modified: 2023-06-02T16:55:45.665-05:00
 > ```
 >
 > Create Originator class
->
 > ```
 > public class Originator {
 >    private String state;
@@ -73,7 +68,6 @@ modified: 2023-06-02T16:55:45.665-05:00
 > ```
 >
 > Create CareTaker class
->
 > ```
 > import java.util.ArrayList;
 > import java.util.List;
@@ -92,7 +86,6 @@ modified: 2023-06-02T16:55:45.665-05:00
 > ```
 >
 > Use <em>CareTaker</em> and <em>Originator</em> objects
->
 > ```
 > public class MementoPatternDemo {
 >    public static void main(String[] args) {
@@ -119,17 +112,14 @@ modified: 2023-06-02T16:55:45.665-05:00
 > ```
 >
 > Verify the output
->
 > ```
 > Current State: State #4
 > First saved State: State #2
 > Second saved State: State #3
 > ```
-
 # Comparisons
 
 > [!expand]- Click here to expand...
->
 > - You can use [[Command Pattern|Command]] and Memento together when implementing “undo”. In this case, commands are responsible for performing various operations over a target object, while mementos save the state of that object just before a command gets executed.
 > - You can use Memento along with [[Iterator Pattern|Iterator]] to capture the current iteration state and roll it back if necessary.
 > - Sometimes [[Prototype Pattern|Prototype]] can be a simpler alternative to Memento. This works if the object, the state of which you want to store in the history, is fairly straightforward and doesn’t have links to external resources, or the links are easy to re-establish

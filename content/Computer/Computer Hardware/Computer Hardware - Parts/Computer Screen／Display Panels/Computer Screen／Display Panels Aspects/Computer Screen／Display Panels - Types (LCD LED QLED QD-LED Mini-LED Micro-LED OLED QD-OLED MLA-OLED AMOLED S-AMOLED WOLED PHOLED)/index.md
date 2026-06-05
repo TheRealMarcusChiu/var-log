@@ -1,17 +1,14 @@
 ---
-publish: true
-title: Computer Screen／Display Panels - Types (LCD LED QLED QD-LED Mini-LED Micro-LED OLED QD-OLED MLA-OLED AMOLED S-AMOLED WOLED PHOLED)
+title: "Computer Screen／Display Panels - Types (LCD LED QLED QD-LED Mini-LED Micro-LED OLED QD-OLED MLA-OLED AMOLED S-AMOLED WOLED PHOLED)"
 created: 2020-01-23T14:39:31.052-06:00
 modified: 2026-01-20T16:15:31.311-06:00
+parent: "[[Computer Screen／Display Panels Aspects]]"
+children: []
 ---
-
-![](https://www.youtube.com/watch?v=8x1imoz5nrs)![](https://www.youtube.com/watch?v=yxygknX1AiE\&ab_channel=PowerCertAnimatedVideos)![](https://www.youtube.com/watch?v=TyUA1OmXMXA)
-
+![](https://www.youtube.com/watch?v=8x1imoz5nrs)![](https://www.youtube.com/watch?v=yxygknX1AiE&ab_channel=PowerCertAnimatedVideos)![](https://www.youtube.com/watch?v=TyUA1OmXMXA)
 # LCD (Liquid Crystal Display)
-
 - LCDs require a backlight used behind the filters which help determine the pixel's brightness
 - LCD pixels are generally more closely packed, colors are more natural, and images shaper
-
 ```merge-table
 {
   "rows": [
@@ -34,7 +31,6 @@ modified: 2026-01-20T16:15:31.311-06:00
   ]
 }
 ```
-
 # LED LCD (Transmissive)
 
 ```merge-table
@@ -76,7 +72,6 @@ modified: 2026-01-20T16:15:31.311-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # LED (Emissive)
 
 ```merge-table

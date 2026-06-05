@@ -1,23 +1,30 @@
 ---
-publish: true
-title: Publisher／Pub／Subscriber／Sub Messaging／Message Queues／System
+title: "Publisher／Pub／Subscriber／Sub Messaging／Message Queues／System"
 created: 2026-01-10T02:25:15.204-06:00
 modified: 2026-01-10T02:32:03.218-06:00
+parent: "[[1 - Code and Extra]]"
+children:
+  - "[[ActiveMQ]]"
+  - "[[Apache Kafka]]"
+  - "[[Apache Pulsar]]"
+  - "[[RabbitMQ]]"
 ---
-
 ###### Publisher/Pub/Subscriber/Sub Messaging/Message Queues/System
-
-```excerpt
+````excerpt
 - TODO
-```
-
+````
 ^excerpt
 
 # Implementations
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Comparisons
 
-based on: <https://www.confluent.io/kafka-vs-pulsar/>
+based on: [https://www.confluent.io/kafka-vs-pulsar/](https://www.confluent.io/kafka-vs-pulsar/)
 
 ```merge-table
 {

@@ -1,28 +1,25 @@
 ---
-publish: true
-title: Imperative vs Declarative
+title: "Imperative vs Declarative"
 created: 2022-02-14T18:56:52.805-06:00
 modified: 2022-12-18T16:36:27.471-06:00
+parent: "[[Computer／Programming Languages - Paradigms Comparisons]]"
+children: []
 ---
-
 - <strong>Declarative Programming</strong> is a [[Computer／Programming Languages - Paradigms|programming paradigm]] that focuses on what to execute, and defines program logic, but not detailed control flow
 - <strong>[[Imperative Programming Paradigm|Imperative Programming]]</strong> - is a [[Computer／Programming Languages - Paradigms|programming paradigm]] that focuses on how to execute, and defines control flow as statements that change a program state
 
 # Declarative vs Imperative - Concrete Example
 
 > [!expand]- Click here to expand...
->
 > ## Problem
 >
 > Given a list of numbers obtain all odd numbers
->
 > ```
 > List<int> list = new List<int> { 1, 2, 3, 4, 5 };
 > ```
->
 > ## Solution
 >
-> ````merge-table
+> ```merge-table
 > {
 >   "rows": [
 >     [
@@ -44,8 +41,7 @@ modified: 2022-12-18T16:36:27.471-06:00
 >   ],
 >   "tableStyle": "width: 100.0%;"
 > }
-> ````
-
+> ```
 # Declarative vs Imperative - Which is Better?
 
 ```merge-table

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Karpathy’s Principles for Reliable AI Coding
+title: "Karpathy’s Principles for Reliable AI Coding"
 created: 2026-05-28T23:35:02.636-05:00
 modified: 2026-05-28T23:36:29.731-05:00
+parent: "[[AI Agent Skills]]"
+children: []
 ---
-
 A single <code>[CLAUDE.md](http://CLAUDE.md)</code> file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
-
 ```
 # CLAUDE.md
 
@@ -63,11 +62,9 @@ Transform tasks into verifiable goals:
 
 For multi-step tasks, state a brief plan:
 ```
-
-1. \[Step] → verify: \[check]
-2. \[Step] → verify: \[check]
-3. \[Step] → verify: \[check]
-
+1. [Step] → verify: [check]
+2. [Step] → verify: [check]
+3. [Step] → verify: [check]
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
@@ -76,7 +73,5 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
 ```
-
 # Resources
-
-- <https://github.com/multica-ai/andrej-karpathy-skills>
+- [https://github.com/multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)

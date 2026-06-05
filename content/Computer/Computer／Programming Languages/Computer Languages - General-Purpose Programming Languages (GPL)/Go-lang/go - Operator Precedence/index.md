@@ -1,10 +1,10 @@
 ---
-publish: true
-title: go - Operator Precedence
+title: "go - Operator Precedence"
 created: 2020-10-06T17:13:25.670-05:00
 modified: 2020-10-06T17:14:04.661-05:00
+parent: "[[Go-lang]]"
+children: []
 ---
-
 Here, operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first
 
 ```merge-table

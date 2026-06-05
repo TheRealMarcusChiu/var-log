@@ -1,24 +1,21 @@
 ---
-publish: true
-title: Proxmox - Wake on LAN (WoL) - Guest Machine (VM or LXC)
+title: "Proxmox - Wake on LAN (WoL) - Guest Machine (VM or LXC)"
 created: 2025-06-21T16:22:41.962-05:00
 modified: 2025-06-21T19:04:13.055-05:00
+parent: "[[Proxmox Virtual Environment (PVE)]]"
+children: []
 ---
-
-Based on: <https://github.com/TheRealMarcusChiu/pve-dosthol/tree/main>
+Based on: [https://github.com/TheRealMarcusChiu/pve-dosthol/tree/main](https://github.com/TheRealMarcusChiu/pve-dosthol/tree/main)
 
 In this article we will [[Wake-on-LAN (WoL or WOL) - Remote Wake-Up - Power on／up by LAN - Resume by／on LAN - Wake up on LAN|Wake on LAN (WoL)]] a Proxmox virtual machine and/or a Linux Container (LXC)
-
 # Setup
 
 Install dependencies
-
 ```
 apt install gawk socat xxd
 ```
 
 Add the following file into <code><font style="color: rgb(122,134,154);">/usr/local/bin/dosthold.sh</font></code>
-
 ```bash
 #!/bin/bash
 
@@ -110,13 +107,11 @@ done
 ```
 
 Make it executable
-
 ```bash
 chmod +x /usr/local/bin/dosthold.sh
 ```
 
 Add the following to <code><font style="color: rgb(122,134,154);">/etc/systemd/system/dosthol.service</font></code>
-
 ```
 [Unit]
 Description=dosthol (Do something on LAN)
@@ -131,13 +126,11 @@ WantedBy=multi-user.target
 ```
 
 Start, enable, status the service:
-
 ```bash
 systemctl enable dosthol.service
 systemctl start dosthol.service
 systemctl status dosthol.service
 ```
-
 # Verify
 
 Send a magic packet (see [[wakeonlan (Terminal Command)|wakeonlan]])

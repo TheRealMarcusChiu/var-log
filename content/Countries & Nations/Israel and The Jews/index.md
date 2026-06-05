@@ -1,26 +1,22 @@
 ---
-publish: true
-title: Israel and The Jews
+title: "Israel and The Jews"
 created: 2021-09-13T04:43:43.637-05:00
 modified: 2021-09-13T04:43:43.637-05:00
+parent: "[[Countries & Nations]]"
+children: []
 ---
-
 ### History of Israel
-
-- <https://www.history.com/topics/middle-east/history-of-israel>
+- [https://www.history.com/topics/middle-east/history-of-israel](https://www.history.com/topics/middle-east/history-of-israel)
 
 ### Ezekiel 16:1-15 - Hope for the Mountains of Israel
-
 36 “Son of man, prophesy to the mountains of Israel and say, ‘Mountains of Israel, hear the word of the Lord. <sup>2</sup>This is what the Sovereign Lord says: The enemy said of you, “Aha! The ancient heights have become our possession.”’ <sup>3</sup>Therefore prophesy and say, ‘This is what the Sovereign Lord says: Because they ravaged and crushed you from every side so that you became the possession of the rest of the nations and the object of people’s malicious talk and slander, <sup>4</sup>therefore, mountains of Israel, hear the word of the Sovereign Lord: This is what the Sovereign Lord says to the mountains and hills, to the ravines and valleys, to the desolate ruins and the deserted towns that have been plundered and ridiculed by the rest of the nations around you— <sup>5</sup>this is what the Sovereign Lord says: In my burning zeal I have spoken against the rest of the nations, and against all Edom, for with glee and with malice in their hearts they made my land their own possession so that they might plunder its pastureland.’ <sup>6</sup>Therefore prophesy concerning the land of Israel and say to the mountains and hills, to the ravines and valleys: ‘This is what the Sovereign Lord says: I speak in my jealous wrath because you have suffered the scorn of the nations. <sup>7</sup>Therefore this is what the Sovereign Lord says: I swear with uplifted hand that the nations around you will also suffer scorn.
 
 <sup>8</sup>“‘But you, mountains of Israel, will produce branches and fruit for my people Israel, for they will soon come home. <sup>9</sup>I am concerned for you and will look on you with favor; you will be plowed and sown, <sup>10</sup>and I will cause many people to live on you—yes, all of Israel. The towns will be inhabited and the ruins rebuilt. <sup>11</sup>I will increase the number of people and animals living on you, and they will be fruitful and become numerous. I will settle people on you as in the past and will make you prosper more than before. Then you will know that I am the Lord. <sup>12</sup>I will cause people, my people Israel, to live on you. They will possess you, and you will be their inheritance; you will never again deprive them of their children.
 
 <sup>13</sup>“‘This is what the Sovereign Lord says: Because some say to you, “You devour people and deprive your nation of its children,” <sup>14</sup>therefore you will no longer devour people or make your nation childless, declares the Sovereign Lord. <sup>15</sup>No longer will I make you hear the taunts of the nations, and no longer will you suffer the scorn of the peoples or cause your nation to fall, declares the Sovereign Lord.’”
 
-![[Countries & Nations/Israel and The Jews/israel-topography.jpg|400]]
-
+![[Israel and The Jews/israel-topography.jpg|400]]
 ### Ezekiel 36:16-38 - Israel’s Restoration Assured
-
 <sup>16</sup>Again the word of the Lord came to me: <sup>17</sup>“Son of man, when the people of Israel were living in their own land, they defiled it by their conduct and their actions. Their conduct was like a woman’s monthly uncleanness in my sight. <sup>18</sup>So I poured out my wrath on them because they had shed blood in the land and because they had defiled it with their idols. <sup>19</sup>I dispersed them among the nations, and they were scattered through the countries; I judged them according to their conduct and their actions. <sup>20</sup>And wherever they went among the nations they profaned my holy name, for it was said of them, ‘These are the Lord’s people, and yet they had to leave his land.’ <sup>21</sup>I had concern for my holy name, which the people of Israel profaned among the nations where they had gone.
 
 <sup>22</sup>“Therefore say to the Israelites, ‘This is what the Sovereign Lord says: It is not for your sake, people of Israel, that I am going to do these things, but for the sake of my holy name, which you have profaned among the nations where you have gone. <sup>23</sup>I will show the holiness of my great name, which has been profaned among the nations, the name you have profaned among them. Then the nations will know that I am the Lord, declares the Sovereign Lord, when I am proved holy through you before their eyes.
@@ -31,4 +27,4 @@ modified: 2021-09-13T04:43:43.637-05:00
 
 <sup>37</sup>“This is what the Sovereign Lord says: Once again I will yield to Israel’s plea and do this for them: I will make their people as numerous as sheep, <sup>38</sup>as numerous as the flocks for offerings at Jerusalem during her appointed festivals. So will the ruined cities be filled with flocks of people. Then they will know that I am the Lord.”
 
-![[Countries & Nations/Israel and The Jews/global-jewish-population-estimates.jpg|400]]
+![[Israel and The Jews/global-jewish-population-estimates.jpg|400]]

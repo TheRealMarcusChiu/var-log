@@ -1,16 +1,16 @@
 ---
-publish: true
-title: IP Address Assignment
+title: "IP Address Assignment"
 created: 2019-03-16T22:44:03.154-05:00
 modified: 2026-05-27T11:20:29.802-05:00
+parent: "[[7 - Application Layer]]"
+children:
+  - "[[Bootstrap Protocol (BootP)]]"
+  - "[[Dynamic Host Configuration Protocol (DHCP)]]"
 ---
-
 ###### IP Address Assignment
-
-```excerpt
+````excerpt
 - are [[Computer Network／Networking Communication Protocols|network protocols]] at the [[7 - Application Layer|application layer]] used to assign [[IPv4 - Address|IP addresses]] to IP hosts when they boot
-```
-
+````
 ^excerpt
 
 # IP Address Assignment - Protocols

@@ -1,21 +1,27 @@
 ---
-publish: true
-title: Dispersion／Variation
+title: "Dispersion／Variation"
 created: 2021-09-13T05:28:50.256-05:00
 modified: 2023-10-23T14:22:01.447-05:00
+parent: "[[Quantitative／Numerical Univariate Analysis Descriptive Statistics]]"
+children:
+  - "[[Central Tendency of Deviation]]"
+  - "[[Coefficient of Variation (CV) - Normalized Root-Mean-Square Deviation - Percent RMS - Relative Standard Deviation]]"
+  - "[[Deviation／Dispersion／Variation of Distances]]"
+  - "[[Maximum／Max - Minimum／Min]]"
+  - "[[Range]]"
+  - "[[Supremum (Least Upper Bound) - Infimum (Greatest Lower Bound)]]"
+  - "[[Upper Bound - Lower Bound]]"
+  - "[[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)]]"
+  - "[[p-Quantiles (Median - Quartiles - Percentiles)]]"
 ---
-
 ###### Dispersion/Variation
-
-```excerpt
+````excerpt
 - is a type of [[Quantitative／Numerical Univariate Analysis Descriptive Statistics|Quantitative/Numerical Univariate Analysis Descriptive Statistics]]
 - answers: how do the values vary?
-```
-
+````
 ^excerpt
 
 # Dispersion/Variation - Types
-
 ````excerpt
 ```merge-table
 {
@@ -207,5 +213,4 @@ modified: 2023-10-23T14:22:01.447-05:00
 }
 ```
 ````
-
 ^excerpt

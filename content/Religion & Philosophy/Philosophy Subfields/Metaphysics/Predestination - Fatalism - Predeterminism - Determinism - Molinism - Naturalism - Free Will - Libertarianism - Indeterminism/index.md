@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Predestination - Fatalism - Predeterminism - Determinism - Molinism - Naturalism - Free Will - Libertarianism - Indeterminism
+title: "Predestination - Fatalism - Predeterminism - Determinism - Molinism - Naturalism - Free Will - Libertarianism - Indeterminism"
 created: 2021-09-13T04:44:34.615-05:00
 modified: 2021-09-13T04:44:34.615-05:00
+parent: "[[Metaphysics]]"
+children: []
 ---
-
 - <strong>predestination</strong> is the divine foreordaining of all that will happen, especially with regard to the salvation of some and not others
 - <strong>fatalism</strong> is the belief that all events are predetermined and therefore inevitable
 - <strong>predeterminism</strong> is the belief that all events, including human actions, are established or decided in advance
@@ -12,17 +12,17 @@ modified: 2021-09-13T04:44:34.615-05:00
 - <strong>indeterminism</strong> is the idea that events (or certain events, or events of certain types) are not caused, or not caused deterministically
 - <strong>naturalism</strong> is the idea or belief that only natural laws and forces operate in the universe
 - <strong>free will</strong> is the ability to choose between different possible courses of action unimpeded
-- <strong>molinism</strong> - <https://www3.nd.edu/~afreddos/papers/molinism.htm>
+- <strong>molinism</strong> - [https://www3.nd.edu/~afreddos/papers/molinism.htm](https://www3.nd.edu/~afreddos/papers/molinism.htm)
 - <strong>libertarianism</strong>
-  - argues that free will is logically incompatible with a deterministic universe
-  - states that since agents have free will, determinism must be false
+	- argues that free will is logically incompatible with a deterministic universe
+	- states that since agents have free will, determinism must be false
 
 1. Fully deterministic. If you theoretically knew all the exact preconditions and velocities, you could calculate where a ball going into a pachinko machine ends up.
-2. Indeterminate (#1). The pachinko ball knows where it is going to go, but you never will because of hidden information, such as an inability to know the parameters of the wave function.
-3. Indeterminate (#2). Truly random things are happening which could never be known.
+2. Indeterminate (\#1). The pachinko ball knows where it is going to go, but you never will because of hidden information, such as an inability to know the parameters of the wave function.
+3. Indeterminate (\#2). Truly random things are happening which could never be known.
 4. Non-deterministic. Assertion that "material" conditions could never fully explain what happens because God, souls, self, etc. (Magical immaterial stuff) is also acting in the universe. Free will is a dependent upon magical stuff
 
-<strong>Determinism</strong> (also known as “Causal Determinism”) is a metaphysical paradigm that posits that all activity in the universe is both (i) the effect of \[all] antecedent activity, and (ii) the only activity that can occur given the antecedent activity. That is what is meant by saying that everything is “determined” — it is the inexorable consequence of activity that preceded it. In a deterministic universe, everything that has ever occurred, is occurring, and will occur since the universe came into existence (however that might have occurred) can only occur exactly as it has occurred, is occurring, or will occur, and cannot possibly occur in any different manner.
+<strong>Determinism</strong> (also known as “Causal Determinism”) is a metaphysical paradigm that posits that all activity in the universe is both (i) the effect of \[all\] antecedent activity, and (ii) the only activity that can occur given the antecedent activity. That is what is meant by saying that everything is “determined” — it is the inexorable consequence of activity that preceded it. In a deterministic universe, everything that has ever occurred, is occurring, and will occur since the universe came into existence (however that might have occurred) can only occur exactly as it has occurred, is occurring, or will occur, and cannot possibly occur in any different manner.
 
 <strong>Free Will</strong> is a philosophical and theological concept that posits that a human being, when presented with more than one course of action, has the freedom or agency to choose between or among the alternatives, and that the state of affairs that exists in the universe immediately prior to the putative exercise of that freedom of choice does not eliminate all but one option and compel the selection of only one of the available options.
 

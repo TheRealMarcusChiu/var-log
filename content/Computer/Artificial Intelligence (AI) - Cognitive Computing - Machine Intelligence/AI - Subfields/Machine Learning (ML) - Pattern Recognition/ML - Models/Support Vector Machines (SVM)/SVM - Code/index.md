@@ -1,12 +1,11 @@
 ---
-publish: true
-title: SVM - Code
+title: "SVM - Code"
 created: 2020-11-09T11:45:52.780-06:00
 modified: 2020-11-09T11:52:39.192-06:00
+parent: "[[Support Vector Machines (SVM)]]"
+children: []
 ---
-
 ### SVM Classifier - Python
-
 ```py
 from sklearn import datasets
 from sklearn.model_selection import train_test_split

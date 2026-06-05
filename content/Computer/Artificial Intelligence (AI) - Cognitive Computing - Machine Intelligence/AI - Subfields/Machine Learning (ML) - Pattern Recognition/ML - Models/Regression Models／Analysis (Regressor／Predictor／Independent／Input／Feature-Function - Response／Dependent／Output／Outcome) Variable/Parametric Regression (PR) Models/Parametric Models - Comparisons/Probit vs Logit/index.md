@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Probit vs Logit
+title: "Probit vs Logit"
 created: 2020-08-23T14:50:59.092-05:00
 modified: 2020-09-26T12:40:12.634-05:00
+parent: "[[Parametric Models - Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -34,7 +34,5 @@ modified: 2020-09-26T12:40:12.634-05:00
   ]
 }
 ```
-
 ### Resources
-
 - [The Analysis Factor](https://www.theanalysisfactor.com/the-difference-between-logistic-and-probit-regression/)

@@ -1,15 +1,14 @@
 ---
-publish: true
-title: Java - Spring - ApplicationContextInitializer - Simple Example
+title: "Java - Spring - ApplicationContextInitializer - Simple Example"
 created: 2021-06-02T20:21:45.572-05:00
 modified: 2021-06-02T20:26:23.308-05:00
+parent: "[[Java - Spring - ApplicationContext - ApplicationContextInitializer]]"
+children: []
 ---
-
 a simple example using [[Java - Spring - ApplicationContext - ApplicationContextInitializer|ApplicationContextInitializer]]
-
 # <strong>Simple Configuration</strong>
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -18,10 +17,8 @@ a simple example using [[Java - Spring - ApplicationContext - ApplicationContext
     ]
   ]
 }
-````
-
+```
 # <strong>Create Custom ApplicationContextInitializer</strong>
-
 ```
 public class MyApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
   @Override
@@ -33,13 +30,11 @@ public class MyApplicationContextInitializer implements ApplicationContextInitia
   }
 }
 ```
-
 # <strong>Register the Custom ApplicationContextInitializer</strong>
 
 there are many ways to register an ApplicationContextInitializer, below via Spring Boot builder method.
 
 For other methods see [[Java - Spring - ApplicationContextInitializer - How to Register a Custom ApplicationContextInitializer]]
-
 ```
 @SpringBootApplication
 public class DemoApplication {

@@ -1,31 +1,41 @@
 ---
-publish: true
-title: Disk (Format - Filesystems／File-Systems (FS))
+title: "Disk (Format - Filesystems／File-Systems (FS))"
 created: 2019-03-15T01:53:14.818-05:00
 modified: 2025-09-24T12:51:41.042-05:00
+parent: "[[Secondary／Virtual Memory (Drive)]]"
+children:
+  - "[[Another Union File System (AuFS)]]"
+  - "[[Apple File System (APFS)]]"
+  - "[[Btrfs]]"
+  - "[[Ceph Storage Cluster - CephFS - Ceph File System]]"
+  - "[[EXTended Filesystem (MINIX - EXT - EXT2 - EXT3 - EXT4)]]"
+  - "[[File Allocation Table (FAT) - (FAT12 - FAT16 - FAT32 - VFAT)]]"
+  - "[[Google File System (GFS - GoogleFS)]]"
+  - "[[HFS Plus - HFS+ - Mac OS Extended - HFS Extended]]"
+  - "[[Hierarchical File System (HFS) - Mac OS Standard - HFS Standard]]"
+  - "[[New Technology File System (NTFS)]]"
+  - "[[TernFS]]"
+  - "[[Union File System (UnionFS)]]"
+  - "[[Unix File System (UFS) - Berkeley／BSD Fast File System (FFS)]]"
+  - "[[X File System (XFS)]]"
+  - "[[Zettabyte File System (ZFS)]]"
 ---
-
 ###### Disk (Format - Filesystems/File-Systems (FS))
-
-```excerpt
+````excerpt
 - <strong>format</strong> is called <em>low-level format</em>
 - <strong>filesystem</strong> is called <em>high-level format</em>
 
 a <strong>file system</strong> or <strong>filesystem</strong> (<strong>fs</strong>) controls how data is stored and retrieved
-```
-
+````
 ^excerpt
 
 ###### TODO
 
 [Linux System Administrators Guide - https://www.tldp.org/LDP/sag/html/filesystems.html](https://www.tldp.org/LDP/sag/html/filesystems.html)
-
 # Comparisons
-
 - [[Disk (Format - Filesystems／File-Systems (FS)) - Comparisons|Disk (Format - Filesystems/File-Systems (FS)) - Comparisons]]
 
 ![](https://www.youtube.com/watch?v=_h30HBYxtws)
-
 # File System Types
 
 ```merge-table

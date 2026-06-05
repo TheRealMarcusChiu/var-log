@@ -1,18 +1,16 @@
 ---
-publish: true
-title: D'Agostino's (K-squared／K2／K²) Test
+title: "D'Agostino's (K-squared／K2／K²) Test"
 created: 2021-09-13T05:29:02.993-05:00
 modified: 2021-09-13T05:29:02.993-05:00
+parent: "[[Normality Tests - Statistical Tests]]"
+children: []
 ---
-
 ###### D'Agostino's (K-squared/K2/K²) Test
-
 - is a [[Normality Tests - Statistical Tests|statistical normality test]] that calculates summary statistics from the data, namely [[Kurtosis|kurtosis]] and [[Skewness|skewness]], to determine if the data distribution departs from the [[Univariate Normal／Gaussian／Gauss／Laplace-Gauss﻿ Distribution／Model／Process (Bell Curve)|normal distribution]]
 
 # Code
 
 > [!expand-ui]- Python
->
 > ```
 > # D'Agostino and Pearson's Test
 > from numpy.random import seed

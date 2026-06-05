@@ -1,16 +1,15 @@
 ---
-publish: true
-title: Function Approximation Problem
+title: "Function Approximation Problem"
 created: 2021-09-13T05:29:23.858-05:00
 modified: 2025-05-27T12:35:53.309-05:00
+parent: "[[Approximation Theory]]"
+children:
+  - "[[Approximating Known Target Functions]]"
 ---
-
 ###### Function Approximation Problem
-
-```excerpt
+````excerpt
 - is a [[Problems|problem]] that asks us to select a [[Functions (Domain - Codomain - Preimage - Image - Range)|function]] among a well-defined function class/type that closely matches ("approximates") a target function in a task-specific way
-```
-
+````
 ^excerpt
 
 # 2 Major Classes of Function Approximation Problems

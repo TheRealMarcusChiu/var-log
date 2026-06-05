@@ -1,11 +1,23 @@
 ---
-publish: true
-title: True／False Positive／Negative Sensitivity Recall Hit／Miss／False-Discovery／False-Omission Rate Fall-Out Threat／F1 Score Critical Success Index Accuracy Specificity Precision Predictive-Value
+title: "True／False Positive／Negative Sensitivity Recall Hit／Miss／False-Discovery／False-Omission Rate Fall-Out Threat／F1 Score Critical Success Index Accuracy Specificity Precision Predictive-Value"
 created: 2021-09-13T05:27:49.410-05:00
 modified: 2026-05-14T13:58:42.130-05:00
+parent: "[[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis]]"
+children:
+  - "[[Accuracy vs Precision]]"
+  - "[[Confusion Matrix - Contingency Table (True／False Positives／Negatives - Type I／II／One／Two Error) - Micro／Macro Averaging]]"
+  - "[[F1 Score - F Score - F Measure]]"
+  - "[[Informedness - Bookmaker Informedness (BM)]]"
+  - "[[Markedness (MK)]]"
+  - "[[Matthew's Correlation Coefficient (MCC)]]"
+  - "[[Sensitivity vs Specificity]]"
 ---
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Terminology
 

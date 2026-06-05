@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)
+title: "Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)"
 created: 2021-09-13T05:25:12.350-05:00
 modified: 2024-08-30T01:04:32.946-05:00
+parent: "[[Multivariable／Multi-Variable／Multivariate Calculus／Analysis]]"
+children:
+  - "[[Why the Gradient is the Direction of Steepest Ascent]]"
 ---
-
 - $\textbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{bmatrix}$
 
 # Given a [[Scalar-Valued Functions - Scalar Fields|Scalar-Valued Function]] 𝑓(𝐱), the:
@@ -44,10 +45,9 @@ modified: 2024-08-30T01:04:32.946-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Second-order Derivative of a Scalar-Valued Function
 
 <strong>Second Partial Derivative</strong> over a variable 𝑥<sub>𝑖</sub> followed by 𝑥<sub>𝑗</sub>
 
-![[Mathematics/Mathematical Analysis/Calculus/Multivariable／Multi-Variable／Multivariate Calculus／Analysis/Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)/second-order-partial-derivatives.drawio.png|380x250]]
+![[Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)/second-order-partial-derivatives.drawio.png|380x250]]
 [[second-order-partial-derivatives.drawio]]

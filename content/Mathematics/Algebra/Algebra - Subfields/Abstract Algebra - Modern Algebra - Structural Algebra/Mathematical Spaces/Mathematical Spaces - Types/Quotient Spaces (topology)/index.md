@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Quotient Spaces (topology)
+title: "Quotient Spaces (topology)"
 created: 2023-08-04T12:29:34.716-05:00
 modified: 2023-08-04T12:56:46.659-05:00
+parent: "[[Mathematical Spaces - Types]]"
+children: []
 ---
-
 ###### Quotient Spaces (topology)
-
-```excerpt
+````excerpt
 - TODO
-```
-
+````
 ^excerpt
 
 # Quotient Space - Examples

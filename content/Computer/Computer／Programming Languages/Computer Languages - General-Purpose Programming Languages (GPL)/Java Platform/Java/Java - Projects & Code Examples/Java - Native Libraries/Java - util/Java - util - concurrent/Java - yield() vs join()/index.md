@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - yield() vs join()
+title: "Java - yield() vs join()"
 created: 2021-04-04T12:23:41.724-05:00
 modified: 2021-04-04T12:28:32.708-05:00
+parent: "[[Java - util - concurrent]]"
+children: []
 ---
-
 # <strong>Yield() Example</strong>
-
 ```
 public class YieldExample {
    public static void main(String[] args) {
@@ -37,17 +36,13 @@ class Consumer extends Thread {
    }
 }
 ```
-
 ###### Output of above program “without” yield() method
-
 <span style="white-space: pre-wrap"><code>I am Consumer : Consumed Item 0</code><br><code>I am Consumer : Consumed Item 1</code><br><code>I am Consumer : Consumed Item 2</code><br><code>I am Consumer : Consumed Item 3</code><br><code>I am Consumer : Consumed Item 4</code><br><code>I am Producer : Produced Item 0</code><br><code>I am Producer : Produced Item 1</code><br><code>I am Producer : Produced Item 2</code><br><code>I am Producer : Produced Item 3</code><br><code>I am Producer : Produced Item 4</code></span>
 
 ###### Output of above program “with” yield() method added
-
 <span style="white-space: pre-wrap"><code>I am Producer : Produced Item 0</code><br><code>I am Consumer : Consumed Item 0</code><br><code>I am Producer : Produced Item 1</code><br><code>I am Consumer : Consumed Item 1</code><br><code>I am Producer : Produced Item 2</code><br><code>I am Consumer : Consumed Item 2</code><br><code>I am Producer : Produced Item 3</code><br><code>I am Consumer : Consumed Item 3</code><br><code>I am Producer : Produced Item 4</code><br><code>I am Consumer : Consumed Item 4</code></span>
 
 # <strong>Join() Example</strong>
-
 ```
 public class JoinExample {
    public static void main(String[] args) throws InterruptedException {
@@ -77,7 +72,5 @@ public class JoinExample {
    }
 }
 ```
-
 ###### Output
-
 <span style="white-space: pre-wrap"><code>First task started</code><br><code>Sleeping for 2 seconds</code><br><code>First task completed</code><br><code>Second task completed</code></span>

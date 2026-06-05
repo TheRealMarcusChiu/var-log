@@ -1,10 +1,14 @@
 ---
-publish: true
-title: CMS - CCMS - DMS - PKMS
+title: "CMS - CCMS - DMS - PKMS"
 created: 2026-05-13T01:42:13.835-05:00
 modified: 2026-05-13T01:43:44.692-05:00
+parent: "[[Data Storage - Types]]"
+children:
+  - "[[Component Content Management System (CCMS)]]"
+  - "[[Content Management System (CMS)]]"
+  - "[[Document／Documentation Management System (DMS)]]"
+  - "[[Personal Knowledge Management System (PKM／PKMS)]]"
 ---
-
 ```merge-table
 {
   "rows": [

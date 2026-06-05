@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Individualism - Collectivism
+title: "Individualism - Collectivism"
 created: 2021-09-13T04:44:37.284-05:00
 modified: 2021-09-13T04:44:37.284-05:00
+parent: "[[Religion & Philosophy - Terms]]"
+children: []
 ---
-
 - <strong>individualism</strong> - a social theory favoring freedom of action for individuals over collective or state control
 - <strong>collectivism</strong> - a social theory favoring the greater good of collective or state control over individual freedom of action
 

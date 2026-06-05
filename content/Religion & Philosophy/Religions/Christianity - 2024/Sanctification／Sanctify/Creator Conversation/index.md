@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Creator Conversation
+title: "Creator Conversation"
 created: 2025-06-23T14:54:58.171-05:00
 modified: 2025-06-23T14:55:08.899-05:00
+parent: "[[Sanctification／Sanctify]]"
+children: []
 ---
-
 Imagine you're talking to the creator of the universe - before bith - and pick the person you get to become
 
 You say I want to become the most courageous. The creator replies and says, well, then I'll give you monsters to terrify you so that you can conquer them

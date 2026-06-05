@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Markov Chain Property - Periodic／Periodicity & Aperiodic／Aperiodicity
+title: "Markov Chain Property - Periodic／Periodicity & Aperiodic／Aperiodicity"
 created: 2021-09-13T05:27:05.914-05:00
 modified: 2022-06-20T01:24:03.005-05:00
+parent: "[[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

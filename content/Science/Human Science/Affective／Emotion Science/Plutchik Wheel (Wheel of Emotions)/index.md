@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Plutchik Wheel (Wheel of Emotions)
+title: "Plutchik Wheel (Wheel of Emotions)"
 created: 2021-09-13T04:45:21.044-05:00
 modified: 2021-09-13T04:45:21.044-05:00
+parent: "[[Affective／Emotion Science]]"
+children: []
 ---
-
 ###### Plutchik Wheel (Wheel of Emotions)
-
 - is a proposal for how to relate emotions to one another
 
-![[Science/Human Science/Affective／Emotion Science/Plutchik Wheel (Wheel of Emotions)/1.png|500]]
+![[Plutchik Wheel (Wheel of Emotions)/1.png|500]]

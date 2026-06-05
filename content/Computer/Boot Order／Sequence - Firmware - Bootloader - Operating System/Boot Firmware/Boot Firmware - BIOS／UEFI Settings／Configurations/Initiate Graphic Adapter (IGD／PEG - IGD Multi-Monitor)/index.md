@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Initiate Graphic Adapter (IGD／PEG - IGD Multi-Monitor)
+title: "Initiate Graphic Adapter (IGD／PEG - IGD Multi-Monitor)"
 created: 2023-12-08T15:21:38.936-06:00
 modified: 2023-12-08T16:17:21.352-06:00
+parent: "[[Boot Firmware - BIOS／UEFI Settings／Configurations]]"
+children: []
 ---
-
 - <strong>IGD - Integrated Graphics Device</strong> - a graphics processing unit integrated directly into the motherboard of a PC.
 - <strong>PEG - [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCI Express]] Graphics</strong> -
 

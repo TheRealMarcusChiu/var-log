@@ -1,16 +1,17 @@
 ---
-publish: true
-title: Dependency Parsing
+title: "Dependency Parsing"
 created: 2020-10-30T23:28:41.120-05:00
 modified: 2020-11-02T16:29:53.159-06:00
+parent: "[[Syntactic Parsing／Parser]]"
+children:
+  - "[[Dependency Grammar]]"
+  - "[[MST Parser]]"
+  - "[[MaltParser]]"
 ---
-
 ###### Dependency Parsing
-
 - is the task of analyzing the grammatical dependency structure of a sentence and establishing the relationships between "head" words and the words which modify those heads
 
 ### Dependency Parsing - Grammar
-
 - [[Dependency Grammar]]
 
 ### Dependency Parsing - Methods
@@ -83,7 +84,6 @@ modified: 2020-11-02T16:29:53.159-06:00
   ]
 }
 ```
-
 ### Resources
 
-![](https://www.youtube.com/watch?v=PVShkZgXznc\&ab_channel=StanfordUniversitySchoolofEngineering\&t=2s)
+![](https://www.youtube.com/watch?v=PVShkZgXznc&ab_channel=StanfordUniversitySchoolofEngineering&t=2s)

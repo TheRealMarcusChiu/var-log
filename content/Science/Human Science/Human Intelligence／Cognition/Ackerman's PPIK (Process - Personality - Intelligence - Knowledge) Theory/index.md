@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Ackerman's PPIK (Process - Personality - Intelligence - Knowledge) Theory
+title: "Ackerman's PPIK (Process - Personality - Intelligence - Knowledge) Theory"
 created: 2021-09-13T04:45:24.602-05:00
 modified: 2023-05-28T10:53:47.124-05:00
+parent: "[[Human Intelligence／Cognition]]"
+children: []
 ---
-
 ###### PPIK (process, personality, intelligence, and knowledge) Theory
-
-```excerpt
+````excerpt
 - further develops the approach on intelligence as proposed by Cattell, the Investment theory and Hebb, suggesting a distinction between:
 	- intelligence as knowledge
 	- intelligence as process
 - (two concepts that are comparable and related to G<sub>c</sub> and G<sub>f</sub> respectively, but broader and closer to Hebb's notions of "Intelligence A" and "Intelligence B") and integrating these factors with elements such as personality, motivation, and interests
-```
-
+````
 ^excerpt
 
 # PPIK - Diagram
@@ -28,7 +26,5 @@ modified: 2023-05-28T10:53:47.124-05:00
   ]
 }
 ```
-
 # Predicted Growth Curves
-
-![[Science/Human Science/Human Intelligence／Cognition/Ackerman's PPIK (Process - Personality - Intelligence - Knowledge) Theory/Development_of_intelligence_with_age.jpg|600x466]]
+![[Ackerman's PPIK (Process - Personality - Intelligence - Knowledge) Theory/Development_of_intelligence_with_age.jpg|600x466]]

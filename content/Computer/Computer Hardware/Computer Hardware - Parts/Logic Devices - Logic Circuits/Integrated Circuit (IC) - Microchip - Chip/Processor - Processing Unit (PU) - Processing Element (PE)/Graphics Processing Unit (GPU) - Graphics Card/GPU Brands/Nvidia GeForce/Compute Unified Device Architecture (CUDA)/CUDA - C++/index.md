@@ -1,14 +1,13 @@
 ---
-publish: true
-title: CUDA - C++
+title: "CUDA - C++"
 created: 2025-10-04T11:41:25.710-05:00
 modified: 2025-10-04T11:47:26.508-05:00
+parent: "[[Compute Unified Device Architecture (CUDA)]]"
+children: []
 ---
-
 # Introduction
 
 CUDA core 3 abstractions:
-
 - hierarchy of thread groups
 - shared memories
 - barrier synchronization
@@ -19,13 +18,11 @@ within a block - threads solve a sub-problem cooperatively in parallel
 Thread Hierarchy
 
 The index of a thread and its thread ID:
-
 - 1D Block of size (Dx) - the thread ID of a thread index (x) is (x)
 - 2D Block of size (Dx, Dy) - the thread ID of a thread index (x, y) is (x + y Dx)
 - 3D Block of size (Dx, Dy, Dz) - the thread ID of a thread index (x, y, z) is (x + y Dx + z Dx Dy)
 
 Blocks per Streaming-Multiprocessor
-
 - On older GPUs (like Fermi, compute 2.x): 8 blocks per SM max.
 - On Kepler / Maxwell (3.x / 5.x): up to 16 blocks per SM.
 - On Volta, Turing, Ampere, Hopper: up to 32 blocks per SM.
@@ -33,20 +30,17 @@ Blocks per Streaming-Multiprocessor
 So the theoretical maximum is architecture-specific, but the real number of blocks per SM at runtime also depends on how much memory/registers each block needs.
 
 Blocks are organized into a grid that is either:
-
 - one-dimensional
 - two-dimensional
 - three-dimensional
 
-<code><font style="color: rgb(122,134,154);"><<<...>>></font></code> syntax determines:
-
+<code><font style="color: rgb(122,134,154);">\<\<\<...\>\>\></font></code> syntax determines:
 - the number of threads per block
 - the number of blocks per grid
 
-<code><font style="color: rgb(122,134,154);">blockIdx</font></code> - identifies a block within a grid by a 1D, 2D, or 3D unique index <code><font style="color: rgb(122,134,154);">blockDim</font></code> - identifies the dimension size of the thread block
-
+<code><font style="color: rgb(122,134,154);">blockIdx</font></code> - identifies a block within a grid by a 1D, 2D, or 3D unique index
+<code><font style="color: rgb(122,134,154);">blockDim</font></code> - identifies the dimension size of the thread block
 # 1 Hello World Example
-
 ```
 #include <stdio.h>
 
@@ -70,14 +64,11 @@ int main() {
     return 0;
 }
 ```
-
 ```
 nvcc first_cuda.cu -o first_cuda
 ./first_cuda
 ```
-
 # 2 Memory Management
-
 ```
 #include <stdio.h>
 #include <cuda_runtime.h>
@@ -142,9 +133,7 @@ int main() {
     return 0;
 }
 ```
-
 # 3 Thread Hierarchy and Indexing
-
 ```
 #include <stdio.h>
 
@@ -176,9 +165,7 @@ int main() {
     return 0;
 }
 ```
-
 # 4 2D Grid Example
-
 ```
 #include <stdio.h>
 
@@ -202,9 +189,7 @@ int main() {
     return 0;
 }
 ```
-
 # 5 Matrix Multiplication Example
-
 ```
 #include <stdio.h>
 #include <cuda_runtime.h>
@@ -287,9 +272,7 @@ int main() {
     return 0;
 }
 ```
-
 # 5a Matrix Addition
-
 ```
 // Kernel definition
 __global__ void MatAdd(float A[N][N], float B[N][N],
@@ -311,9 +294,7 @@ int main()
     ...
 }
 ```
-
 # 6 Shared Memory Example
-
 ```
 __global__ void shared_memory_example(int *input, int *output) {
     __shared__ int shared_data[256];
@@ -327,9 +308,7 @@ __global__ void shared_memory_example(int *input, int *output) {
     output[tid] = shared_data[255 - tid];  // Reverse order
 }
 ```
-
 # 7 Error Handling
-
 ```
 #include <stdio.h>
 

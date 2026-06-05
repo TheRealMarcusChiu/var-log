@@ -1,13 +1,16 @@
 ---
-publish: true
-title: Java - Spring - @Bean @Component
+title: "Java - Spring - @Bean @Component"
 created: 2020-10-18T15:24:03.072-05:00
 modified: 2021-05-29T12:00:51.045-05:00
+parent: "[[Java - Spring - Context Annotations]]"
+children:
+  - "[[Java - Spring - (@Bean @Component)'s @Scope]]"
+  - "[[Java - Spring - @Component Stereotypes (@Controller - @Service - @Repository)]]"
+  - "[[Java - Spring - Creating @Bean／@Component at Runtime]]"
 ---
-
 # 1 - Overview
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -49,6 +52,10 @@ modified: 2021-05-29T12:00:51.045-05:00
   ],
   "tableStyle": "width: 100.0%;"
 }
-````
-
+```
 # 2 - Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

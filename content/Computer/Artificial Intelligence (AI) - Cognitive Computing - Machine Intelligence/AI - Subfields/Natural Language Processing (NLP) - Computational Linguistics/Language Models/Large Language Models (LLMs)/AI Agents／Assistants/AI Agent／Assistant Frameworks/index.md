@@ -1,10 +1,10 @@
 ---
-publish: true
-title: AI Agent／Assistant Frameworks
+title: "AI Agent／Assistant Frameworks"
 created: 2026-01-29T00:59:47.951-06:00
 modified: 2026-01-29T01:06:33.779-06:00
+parent: "[[AI Agents／Assistants]]"
+children: []
 ---
-
 # Core AI Agent Frameworks (General‑Purpose)
 
 These frameworks are foundational for building intelligent agents that can interact with LLMs, external tools, and workflows.
@@ -43,7 +43,6 @@ These frameworks are foundational for building intelligent agents that can inter
   ]
 }
 ```
-
 # Autonomous & Multi‑Agent Orchestration Frameworks
 
 These help coordinate multiple agents or automate tasks with little supervision.
@@ -82,7 +81,6 @@ These help coordinate multiple agents or automate tasks with little supervision.
   ]
 }
 ```
-
 # Specialized & Emerging Frameworks
 
 Great supplements to the above or good choices for specific niches.
@@ -128,7 +126,6 @@ Great supplements to the above or good choices for specific niches.
   ]
 }
 ```
-
 # How to Choose What to Start With
 
 Here’s a simple progression depending on your goals:
@@ -160,11 +157,9 @@ Here’s a simple progression depending on your goals:
   ]
 }
 ```
-
 # Suggested Starter Stack (Example)
 
 Here’s a <strong>starter stack</strong> you can adopt right away:
-
 1. <strong>Core engine:</strong> LangChain
 2. <strong>Retrieval/Data:</strong> LlamaIndex
 3. <strong>Workflows:</strong> LangGraph

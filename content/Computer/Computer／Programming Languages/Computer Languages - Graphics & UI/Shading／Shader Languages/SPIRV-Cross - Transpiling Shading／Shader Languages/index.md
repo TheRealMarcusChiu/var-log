@@ -1,18 +1,16 @@
 ---
-publish: true
-title: SPIRV-Cross - Transpiling Shading／Shader Languages
+title: "SPIRV-Cross - Transpiling Shading／Shader Languages"
 created: 2021-09-03T22:30:04.476-05:00
 modified: 2021-09-04T21:08:08.340-05:00
+parent: "[[Shading／Shader Languages]]"
+children: []
 ---
-
-###### SPIRV-Cross (<https://github.com/KhronosGroup/SPIRV-Cross>)
-
+###### SPIRV-Cross ([https://github.com/KhronosGroup/SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross))
 - is a practical tool and library for both:
-  - performing reflection on [[Standard Portable Intermediate Representation (SPIR-V)|SPIR-V]]
-  - disassembling SPIR-V back to high-level [[Shading／Shader Languages|shading languages]]
+	- performing reflection on [[Standard Portable Intermediate Representation (SPIR-V)|SPIR-V]]
+	- disassembling SPIR-V back to high-level [[Shading／Shader Languages|shading languages]]
 
 # Example
-
 ```bash
 # 🌋 Compile shaders to SPIR-V binary
 glslangValidator -V triangle.vert -o triangle.vert.spv

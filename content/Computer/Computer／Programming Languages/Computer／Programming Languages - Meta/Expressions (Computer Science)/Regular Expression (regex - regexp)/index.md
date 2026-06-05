@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Regular Expression (regex - regexp)
+title: "Regular Expression (regex - regexp)"
 created: 2019-10-16T10:37:44.184-05:00
 modified: 2020-05-18T00:56:03.533-05:00
+parent: "[[Expressions (Computer Science)]]"
+children: []
 ---
-
-```excerpt
+````excerpt
 <strong>Regular Expression (regex - regexp)</strong> is a sequence of characters that define a search pattern. Usually such patterns are used by string searching algorithms for "find" or "find and replace" operations on strings, or for input validation
-```
-
+````
 ^excerpt
 
 ### Regular Expressions - Relation to Finite-State Automata (FSA)
-
 - a regular expression is 1 way of describing a [[Finite-State Automaton／Machine (FSA／FSM)|finite-state automata]]
 - any regular expression can be implemented as a finite-state automata
 - any finite-state automata can be described as a regular expression

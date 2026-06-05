@@ -1,16 +1,15 @@
 ---
-publish: true
-title: Mean Absolute Deviation vs. Root Mean Square Deviation (Standard Deviation)
+title: "Mean Absolute Deviation vs. Root Mean Square Deviation (Standard Deviation)"
 created: 2023-09-16T12:48:25.659-05:00
 modified: 2023-09-17T00:45:08.908-05:00
+parent: "[[Mean Deviation]]"
+children: []
 ---
-
 ###### [[Mean Absolute Deviation]] vs. [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|Root Mean Square Deviation (Standard Deviation)]]
 
 The statistic should be ‘efficient’ in the sense of having the smallest probable error as an estimate of the population parameter
 
 When drawing repeated large samples from a normally distributed population, the standard deviation of their individual mean deviations is 14% higher than the standard deviations of their individual standard deviations
-
 ```
 # create a population of 1 million drawn from a standard normal distribution
 pop_data = rnorm(1000000, 0, 1)
@@ -43,7 +42,7 @@ plot(p1, col=rgb(0,0,1,1/4))
 plot(p2, col=rgb(1,0,0,1/4), add=T)
 ```
 
-![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Statistics/Descriptive Statistics/Variate Analysis/Univariate Analysis Descriptive Statistics/Quantitative／Numerical Univariate Analysis Descriptive Statistics/Dispersion／Variation/Central Tendency of Deviation/Mean Deviation/Mean Absolute Deviation vs. Root Mean Square Deviation (Standard Deviation)/sd-vs-mad.png|700x329]]
+![[Mean Absolute Deviation vs. Root Mean Square Deviation (Standard Deviation)/sd-vs-mad.png|700x329]]
 
 In general, our observed distributions tend to be
 longer­tailed, having more extreme scores, than would be expected under ideal assumptions. Because we
@@ -51,8 +50,7 @@ square the deviations from average to produce SD, but not MD, such longer­taile
 ‘explode’ the variation in SD (Huber 1981). The act of squaring makes each unit of distance from the
 mean exponentially (rather than additively) greater, and the act of square­rooting the sum of squares does
 not completely eliminate this bias. In practice, of course, this fact is often obscured by the widespread
-deletion of ‘outliers’ (Barnett and Lewis 1978). <strong>In fact, our use of SD rather than MD forms part of the</strong> <strong>pressure on analysts to ignore any extreme values</strong>
-
+deletion of ‘outliers’ (Barnett and Lewis 1978). <strong>In fact, our use of SD rather than MD forms part of the</strong>
+<strong>pressure on analysts to ignore any extreme values</strong>
 # Resources
-
 - [[04_standard_deviation_vs_absolute_deviation_230829_115120 2.pdf]]

@@ -1,13 +1,13 @@
 ---
-publish: true
-title: Locks - Mutexs - (Binary - Counting) Semaphores - Spinlocks - Condition Variables
+title: "Locks - Mutexs - (Binary - Counting) Semaphores - Spinlocks - Condition Variables"
 created: 2019-05-23T13:19:12.557-05:00
 modified: 2026-05-21T14:08:25.031-05:00
+parent: "[[Computer Terms]]"
+children: []
 ---
-
 # Terminology
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -53,15 +53,12 @@ modified: 2026-05-21T14:08:25.031-05:00
   ],
   "tableStyle": "width: 100.0%;"
 }
-````
-
+```
 # (Mutex) vs (Mutex Semaphore) vs (Binary Semaphore)
 
 In a Mutex, only the thread which have locked it can unlock it. If any other thread comes to lock it, it will wait
-
 - In a Binary Semaphore, it is OK for B to take the semaphore and A to give it. Again, a binary semaphore is NOT protecting a resource from access. The act of Giving and Taking a semaphore are fundamentally decoupled
 - In a Mutex Semaphore is same as Mutex. It is a binary semaphore with the restriction that
-
 ```merge-table
 {
   "rows": [
@@ -103,11 +100,9 @@ In a Mutex, only the thread which have locked it can unlock it. If any other th
 ```
 
 NOTE: in case you've ever wondered at the bizarre letters used for claiming and releasing semaphores, it's because the inventor was Dutch. Probeer te verlagen:
-
 - probeer - means to try and decrease
 - verhogen - means to increase
 
 # Articlees
-
-- What is a Semaphore - <https://stackoverflow.com/questions/34519/what-is-a-semaphore/40238#40238>
-- Mutex vs Semaphores - <https://barrgroup.com/Embedded-Systems/How-To/RTOS-Mutex-Semaphore>
+- What is a Semaphore - [https://stackoverflow.com/questions/34519/what-is-a-semaphore/40238#40238](https://stackoverflow.com/questions/34519/what-is-a-semaphore/40238#40238)
+- Mutex vs Semaphores - [https://barrgroup.com/Embedded-Systems/How-To/RTOS-Mutex-Semaphore](https://barrgroup.com/Embedded-Systems/How-To/RTOS-Mutex-Semaphore)

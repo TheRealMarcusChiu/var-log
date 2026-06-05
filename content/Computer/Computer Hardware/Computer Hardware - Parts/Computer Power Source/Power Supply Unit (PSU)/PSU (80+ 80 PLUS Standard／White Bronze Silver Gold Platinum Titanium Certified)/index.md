@@ -1,11 +1,11 @@
 ---
-publish: true
-title: PSU (80+ 80 PLUS Standard／White Bronze Silver Gold Platinum Titanium Certified)
+title: "PSU (80+ 80 PLUS Standard／White Bronze Silver Gold Platinum Titanium Certified)"
 created: 2025-10-11T00:33:49.884-05:00
 modified: 2025-10-11T02:11:44.071-05:00
+parent: "[[Power Supply Unit (PSU)]]"
+children: []
 ---
-
-![[Computer/Computer Hardware/Computer Hardware - Parts/Computer Power Source/Power Supply Unit (PSU)/PSU (80+ 80 PLUS Standard／White Bronze Silver Gold Platinum Titanium Certified)/psu-certifications.png|301]]
+![[PSU (80+ 80 PLUS Standard／White Bronze Silver Gold Platinum Titanium Certified)/psu-certifications.png|301]]
 
 ```merge-table
 {
@@ -280,7 +280,5 @@ modified: 2025-10-11T02:11:44.071-05:00
   ]
 }
 ```
-
 # Resources
-
-- <https://www.tomshardware.com/news/what-80-plus-levels-mean,36721.html>
+- [https://www.tomshardware.com/news/what-80-plus-levels-mean,36721.html](https://www.tomshardware.com/news/what-80-plus-levels-mean,36721.html)

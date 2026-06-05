@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Laugh Your Way to a Better Marriage
+title: "Laugh Your Way to a Better Marriage"
 created: 2021-09-13T04:46:08.641-05:00
 modified: 2025-07-14T23:13:53.795-05:00
+parent: "[[Self Development]]"
+children: []
 ---
-
 ![](https://www.youtube.com/watch?v=ntk1Tl7dscI)
 
 ![](https://www.youtube.com/watch?v=BLybeGVgtJ8)

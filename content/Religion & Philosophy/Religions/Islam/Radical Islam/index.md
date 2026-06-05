@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Radical Islam
+title: "Radical Islam"
 created: 2021-09-13T04:44:59.562-05:00
 modified: 2021-09-13T04:44:59.562-05:00
+parent: "[[Islam]]"
+children: []
 ---
-
 # Islamic State, The Taliban and Al-Qaeda
-
 ## <strong>Al-Qaeda:</strong>
 
 Al-Qaeda follows Wahhabism - an extreme form of Sunni Islam that insists on a literal interpretation of the Koran.
@@ -22,7 +21,6 @@ The terrorist group was behind [9/11 attacks in 2001](http://www.forces.net/new
 The group viewed the West and its culture as a threat to Islam, and its main goal was to establish an Islamic state based on Sharia law.
 
 However, experts argue that al-Qaeda has fragmented over the years into a variety of regional movements that have little connection with one another.
-
 ## <strong>The Taliban:</strong>
 
 The Taliban differ from al-Qaeda as many of their principles stem from the traditional Pashtun tribal way of life in Afghanistan, although both practice branches of Sunni Islam.
@@ -42,7 +40,6 @@ Contrary to popular belief, there is not one single “Taliban”, but several d
 The biggest and most effective group in Pakistan are the TTP. It was this group that attempted to murder Malala Yousafzai for going to school under the[group’s rule.](http://www.forces.net/news/tri-service/taliban-advance-former-british-stronghold)
 
 Surprisingly, [Afghanistan and Pakistani Taliban](http://www.forces.net/news/remembering-afghan-war-no-one-knew-how-bad-it-would-get) are rivals as well as allies; they have slightly conflicting ideologies which have led to clashes in the past.
-
 ## <strong>Islamic State of Iraq and the Levant/Syria (ISIL/ISIS)</strong>
 
 The so-called Islamic State was firmly established in 2014, in the weeks after [Mosul was captured](http://www.forces.net/news/islamic-state-lose-ground-syria) when Taliban commanders defected and swore allegiance to IS leader Abu Bakr al-Baghdadi.

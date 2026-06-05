@@ -1,16 +1,16 @@
 ---
-publish: true
-title: Wealthy,  Successful, and Miserable
+title: "Wealthy,  Successful, and Miserable"
 created: 2021-09-13T04:46:14.462-05:00
 modified: 2021-09-13T04:46:14.462-05:00
+parent: "[[Self Development]]"
+children: []
 ---
-
 The upper echelon is hoarding money and privilege to a degree
 not seen in decades. But that doesn’t make them happy at work.
 
 By [CHARLES DUHIGG](https://www.nytimes.com/by/charles-duhigg)
 
-original article: <https://www.nytimes.com/interactive/2019/02/21/magazine/elite-professionals-jobs-happiness.html?smid=pl-share>
+original article: [https://www.nytimes.com/interactive/2019/02/21/magazine/elite-professionals-jobs-happiness.html?smid=pl-share](https://www.nytimes.com/interactive/2019/02/21/magazine/elite-professionals-jobs-happiness.html?smid=pl-share)
 
 MY FIRST, CHARMED week as a student at Harvard Business School, late in the summer of 2001, felt like a halcyon time for capitalism. AOL Time Warner, Yahoo and Napster were benevolently connecting the world. Enron and WorldCom were bringing innovation to hidebound industries. President George W. Bush — an H.B.S. graduate himself — had promised to deliver progress and prosperity with businesslike efficiency.
 
@@ -18,7 +18,7 @@ The next few years would prove how little we (and Washington and much of corpora
 
 So it came as a bit of a shock, when I attended my 15th reunion last summer, to learn how many of my former classmates weren’t overjoyed by their professional lives — in fact, they were miserable. I heard about one fellow alum who had run a large hedge fund until being sued by investors (who also happened to be the fund manager’s relatives). Another person had risen to a senior role inside one of the nation’s most prestigious companies before being savagely pushed out by corporate politics. Another had learned in the maternity ward that her firm was being stolen by a conniving partner.
 
-<em>\[Housecleaners, nannies, health aides and domestic workers are organizing to secure job security. [Read about the new labor movement in our Future of Work issue](https://www.nytimes.com/interactive/2019/02/21/magazine/national-domestic-workers-alliance.html?action=click\&module=Intentional\&pgtype=Article).]</em>
+<em>\[Housecleaners, nannies, health aides and domestic workers are organizing to secure job security. [Read about the new labor movement in our Future of Work issue](https://www.nytimes.com/interactive/2019/02/21/magazine/national-domestic-workers-alliance.html?action=click&module=Intentional&pgtype=Article).\]</em>
 
 Those were extreme examples, of course. Most of us were living relatively normal, basically content lives. But even among my more sanguine classmates, there was a lingering sense of professional disappointment. They talked about missed promotions, disaffected children and billable hours in divorce court. They complained about jobs that were unfulfilling, tedious or just plain bad. One classmate described having to invest \$5 million a day — which didn’t sound terrible, until he explained that if he put only \$4 million to work on Monday, he had to scramble to place \$6 million on Tuesday, and his co-workers were constantly undermining one another in search of the next promotion. It was insanely stressful work, done among people he didn’t particularly like. He earned about \$1.2 million a year and hated going to the office.
 

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Why did Jesus Write on the Sand？
+title: "Why did Jesus Write on the Sand？"
 created: 2021-09-13T04:44:48.737-05:00
 modified: 2021-09-13T04:44:48.737-05:00
+parent: "[[Christianity - Questions]]"
+children: []
 ---
-
 <strong>Passage in Question: John 8:1-11</strong>
 
 1 but Jesus went to the Mount of Olives.
@@ -24,4 +24,4 @@ But Jesus bent down and started to write on the ground with his finger. 7 When t
 Lord, you are the hope of Israel; all who forsake you will be put to shame. Those who turn away from you will be written in the dust because they have forsaken the Lord, the spring of living water.
 \~ Jeremiah 17:13
 
-<https://theproverbs120column.wordpress.com/2013/03/16/what-did-jesus-write-in-the-sand/>
+[https://theproverbs120column.wordpress.com/2013/03/16/what-did-jesus-write-in-the-sand/](https://theproverbs120column.wordpress.com/2013/03/16/what-did-jesus-write-in-the-sand/)

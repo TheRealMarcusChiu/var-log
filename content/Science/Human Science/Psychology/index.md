@@ -1,12 +1,20 @@
 ---
-publish: true
-title: Psychology
+title: "Psychology"
 created: 2021-09-13T04:45:32.636-05:00
 modified: 2026-05-14T12:10:58.152-05:00
+parent: "[[Human Science]]"
+children:
+  - "[[Behavioral Learning Theories]]"
+  - "[[Cognitive Biases]]"
+  - "[[Cognitive Distortions]]"
+  - "[[Freudian／Psychoanalytic Theory]]"
+  - "[[Mental Illness]]"
+  - "[[Psychology - Altruism]]"
+  - "[[Psychotherapy]]"
+  - "[[Synesthesia]]"
+  - "[[Theory of Affordance]]"
 ---
-
 <strong>psychology</strong> is the study of "individual" behavior and mind
-
 # [Branches/Approaches of Psychology](https://www.verywellmind.com/major-branches-of-psychology-4139786)
 
 ```merge-table
@@ -137,18 +145,20 @@ modified: 2026-05-14T12:10:58.152-05:00
   ]
 }
 ```
-
 ## Factors Behind Behavior
-
 - <strong>evolutionary </strong>- the idea that we're born with mental processes that guide our thinking and behavior. And that these innate mechanisms were acquired through natural selection
 - <strong>biological </strong>- the idea that chemistry in our brain and bodies determines our behavior
 - <strong>cognitive </strong>- the idea that behavior is determined by how we think
 - <strong>cultural </strong>- the idea that shared values, customs, and beliefs of a group or community affect our behavior
 
 ## Types of Psychologist
-
 - <strong>clinical psychologist</strong> - diagnosis and treatment of psychological problems
 - <strong>applied psychologist</strong> - extending psychological principles to practical problems in the world
 - <strong>research psychologist</strong> - conduct research to discover the basic principles of behavior and mind
 
 ## Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

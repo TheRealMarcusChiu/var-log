@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Verb Phrase (VP)
+title: "Verb Phrase (VP)"
 created: 2021-09-13T04:44:07.675-05:00
 modified: 2021-09-13T04:44:07.675-05:00
+parent: "[[Syntax (Sentence Structure)]]"
+children: []
 ---
-
 ###### Verb Phrase (VP)
-
 - the part of a sentence containing the [[Verbs|verb]] and any [[Direct Object - Indirect Object - Object of a Preposition|direct or indirect object or prepositional object]], but not the [[Subject - Predicate (Verb - Object)|subject]]
 
 ### VP - Grammar Rules
@@ -54,20 +53,18 @@ modified: 2021-09-13T04:44:07.675-05:00
   "tableStyle": "width: 56.1567%;"
 }
 ```
-
 ### VP - Difficulties
 
 subcategorization:
-
 - verbs have preference for the kind of constituents they co-occur with. Not every verb is compatible with every verb phrase
 - for example:
-  - the verb \`want\` CAN be used with VP complement
-    - I want to fly
-  - the verb \`find\` CANNOT be used with VP complement
-    - I find to fly
-  - both \`want\` and \`find\` CAN be used with NP complement
-    - I want a car
-    - I find a car
+	- the verb \`want\` CAN be used with VP complement
+		- I want to fly
+	- the verb \`find\` CANNOT be used with VP complement
+		- I find to fly
+	- both \`want\` and \`find\` CAN be used with NP complement
+		- I want a car
+		- I find a car
 - we say that:
-  - \`find\` subcategorizes for an NP
-  - \`want\` subcategorizes for NP or a non-finite VP
+	- \`find\` subcategorizes for an NP
+	- \`want\` subcategorizes for NP or a non-finite VP

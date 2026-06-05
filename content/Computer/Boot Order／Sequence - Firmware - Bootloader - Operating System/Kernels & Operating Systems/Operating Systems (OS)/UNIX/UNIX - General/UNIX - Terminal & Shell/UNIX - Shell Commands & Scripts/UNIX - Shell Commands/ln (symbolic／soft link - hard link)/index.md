@@ -1,13 +1,13 @@
 ---
-publish: true
-title: ln (symbolic／soft link - hard link)
+title: "ln (symbolic／soft link - hard link)"
 created: 2019-12-30T17:36:03.220-06:00
 modified: 2022-05-22T02:57:39.461-05:00
+parent: "[[UNIX - Shell Commands]]"
+children: []
 ---
-
 # Soft Link vs Hard Link
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -49,8 +49,6 @@ modified: 2022-05-22T02:57:39.461-05:00
   ],
   "tableStyle": "width: 100.0%;"
 }
-````
-
+```
 # Difference Between Hardlink and Copy
-
 if you create a hard link to a file and change the content of either of the files, the change will be be seen on both

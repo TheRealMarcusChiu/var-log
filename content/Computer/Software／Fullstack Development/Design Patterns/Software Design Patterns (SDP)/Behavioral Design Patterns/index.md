@@ -1,16 +1,27 @@
 ---
-publish: true
-title: Behavioral Design Patterns
+title: "Behavioral Design Patterns"
 created: 2019-03-15T00:34:26.468-05:00
 modified: 2026-01-11T00:08:42.473-06:00
+parent: "[[Software Design Patterns (SDP)]]"
+children:
+  - "[[Acyclic Visitor Pattern]]"
+  - "[[Chain of Responsibility (CoR) Pattern]]"
+  - "[[Command Pattern]]"
+  - "[[Feature Toggle Pattern]]"
+  - "[[Iterator Pattern]]"
+  - "[[Mediator Pattern]]"
+  - "[[Memento Pattern]]"
+  - "[[Null Object Design Pattern]]"
+  - "[[Observer Pattern (Publisher-Subscriber Pattern)]]"
+  - "[[State Pattern]]"
+  - "[[Strategy Pattern]]"
+  - "[[Template Method Pattern]]"
+  - "[[Visitor Pattern]]"
 ---
-
 ###### Behavioral Design Patterns
-
-```excerpt
+````excerpt
 - are concerned with algorithms and the assignment of responsibilities between objects
-```
-
+````
 ^excerpt
 
 # Behavioral Design Patterns

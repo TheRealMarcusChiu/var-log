@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Places of Articulation
+title: "Places of Articulation"
 created: 2023-11-17T19:32:23.677-06:00
 modified: 2023-11-17T19:42:26.888-06:00
+parent: "[[International Phonetic Alphabet (IPA)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

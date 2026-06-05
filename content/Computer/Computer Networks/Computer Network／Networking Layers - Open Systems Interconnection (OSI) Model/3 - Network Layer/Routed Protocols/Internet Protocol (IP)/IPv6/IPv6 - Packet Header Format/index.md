@@ -1,10 +1,10 @@
 ---
-publish: true
-title: IPv6 - Packet Header Format
+title: "IPv6 - Packet Header Format"
 created: 2019-11-07T15:21:56.352-06:00
 modified: 2019-11-09T11:28:06.562-06:00
+parent: "[[IPv6]]"
+children: []
 ---
-
 ### IPv6 Format Diagram
 
 ```merge-table
@@ -586,9 +586,7 @@ modified: 2019-11-09T11:28:06.562-06:00
   "tableStyle": "text-align: center;"
 }
 ```
-
 ### IPv6 Format Description
-
 - <strong>Version (4 bits)</strong> - The constant 6 (bit sequence 0110).
 - <strong>Traffic Class (6+2 bits)</strong> - The bits of this field hold two values. The six most-significant bits hold the Differentiated Services (DS) field, which is used to classify packets. Currently, all standard DS fields end with a '0' bit. Any DS field that ends with two '1' bits is intended for local or experimental use. The remaining two bits are used for Explicit Congestion Notification (ECN); priority values subdivide into ranges: traffic where the source provides congestion control and non-congestion control traffic.
 - <strong>Flow Label (20 bits)</strong> - A high-entropy identifier of a flow of packets between a source and destination. A flow is group of packets, e.g., a TCP session or a media stream. The special flow label 0 means the packet does not belong to any flow (using this scheme). An older scheme identifies flow by source address and port, destination address and port, protocol (value of the last Next Header field). It has further been suggested that the flow label be used to help detect spoofed packets.

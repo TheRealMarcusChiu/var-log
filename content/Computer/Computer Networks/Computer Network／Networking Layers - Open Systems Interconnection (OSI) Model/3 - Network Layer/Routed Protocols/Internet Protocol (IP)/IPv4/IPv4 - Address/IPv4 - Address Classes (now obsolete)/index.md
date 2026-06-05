@@ -1,24 +1,22 @@
 ---
-publish: true
-title: IPv4 - Address Classes (now obsolete)
+title: "IPv4 - Address Classes (now obsolete)"
 created: 2019-11-17T21:53:58.325-06:00
 modified: 2021-10-05T02:38:26.179-05:00
+parent: "[[IPv4 - Address]]"
+children: []
 ---
-
 ###### IP Address Classes
-
 - are hierarchical
 - contain 2 parts:
-  - <strong>network prefix</strong>
-    - identifies the network to which the host is attached to
-    - con be coalesced into [[IPv4 - Supernetting (CIDR)|supernets (CIDR)]]
-  - <strong>host suffix</strong>
-    - identifies each host uniquely within the particular network
-    - can be further split up into [[IPv4 - Subnetting|subnets]]
+	- <strong>network prefix</strong>
+		- identifies the network to which the host is attached to
+		- con be coalesced into [[IPv4 - Supernetting (CIDR)|supernets (CIDR)]]
+	- <strong>host suffix</strong>
+		- identifies each host uniquely within the particular network
+		- can be further split up into [[IPv4 - Subnetting|subnets]]
 - are separated into 5 classes (identified by the most significant bits)
 
-![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/3 - Network Layer/Routed Protocols/Internet Protocol (IP)/IPv4/IPv4 - Address/IPv4 - Address Classes (now obsolete)/5.png|400]]
-
+![[IPv4 - Address Classes (now obsolete)/5.png|400]]
 ````excerpt
 # IPv4 Address Classes<font style="color: rgb(255,0,0);"> (now obsolete)</font>
 
@@ -82,5 +80,4 @@ modified: 2021-10-05T02:38:26.179-05:00
 }
 ```
 ````
-
 ^excerpt

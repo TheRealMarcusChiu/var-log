@@ -1,24 +1,27 @@
 ---
-publish: true
-title: Inner Products
+title: "Inner Products"
 created: 2021-09-13T05:25:48.561-05:00
 modified: 2024-01-26T12:36:57.167-06:00
+parent: "[[Linear Algebra - Operations／Operators]]"
+children:
+  - "[[Frobenius Inner Product]]"
+  - "[[Inner Product of Functions]]"
+  - "[[L2 Inner Product]]"
+  - "[[Orthogonal／Orthogonality - Orthogonal Sets - Orthogonal Complement]]"
+  - "[[Orthonormal／Orthonormality - Orthonormal Sets]]"
 ---
-
 ###### Inner Products (⟨·,·⟩ (·,·) ⟨·|·⟩ (·|·))
-
-```excerpt
+````excerpt
 - an <em>inner product (⟨·,·⟩ : 𝑉×𝑉 → 𝐹)</em> on a [[Vector Spaces - Linear Spaces|vector space (𝑉,𝐹)]] is a [[Functions (Domain - Codomain - Preimage - Image - Range)|function]] that takes any pair vectors 𝑢,𝑣∊𝑉 and outputs a [[Real Numbers System|real number]] while satisfying 3 axioms
 - a vector space (𝑉,𝐹) with an <em>inner product (⟨·,·⟩)</em> is called an [[Inner Product Spaces|inner product space (𝑉,𝐹,⟨·,·⟩)]]
 - used to measure how much of one vector is pointing in the direction of another one
 - an <em>inner product (⟨·,·⟩)</em> induces a [[Norms - Semi-Norms|norm (||·||⟨·,·⟩)]] defined as: ||·||<sub>⟨·,·⟩</sub> = √⟨·,·⟩
-```
-
+````
 ^excerpt
 
 # Inner Product - Definition (3 Axioms)
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -47,8 +50,7 @@ modified: 2024-01-26T12:36:57.167-06:00
     ]
   ]
 }
-````
-
+```
 # Inner Product - Types
 
 ```merge-table
@@ -115,8 +117,6 @@ modified: 2024-01-26T12:36:57.167-06:00
   ]
 }
 ```
-
 # Inner Product - Properties
-
 - [[Orthogonal／Orthogonality - Orthogonal Sets - Orthogonal Complement|Orthogonal/Orthogonality - Orthogonal Sets - Orthogonal Complement]]
 - [[Orthonormal／Orthonormality - Orthonormal Sets|Orthonormal/Orthonormality - Orthonormal Sets]]

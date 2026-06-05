@@ -1,22 +1,21 @@
 ---
-publish: true
-title: Christian／Hebrew Marriage
+title: "Christian／Hebrew Marriage"
 created: 2025-07-07T13:24:51.992-05:00
 modified: 2025-07-14T23:43:43.195-05:00
+parent: "[[Christianity - 2024]]"
+children: []
 ---
-
 Marriage is like a personalized parable of the kingdom of heaven.
 
 In a marriage - they should be more on the side of each other's future than each other's present. Which is why the greatest investment in each other's souls.
-
 - savor the sex
 - savor the friendship
 - savor the mutuality of all the life
 
 # Ancient Hebrew Marriage Tradition
 
-In ancient Hebrew marriage traditions, <strong>yes, the groom would typically bring his wife to live within his father's extended household</strong>. <strong>Here's how it generally worked:</strong>
-
+In ancient Hebrew marriage traditions, <strong>yes, the groom would typically bring his wife to live within his father's extended household</strong>.
+<strong>Here's how it generally worked:</strong>
 - <strong>Betrothal and Preparation:</strong> After the betrothal agreement, the groom would return to his father's house to prepare living accommodations, often by adding a new room or dwelling onto the existing family complex (known as an <em>insula</em>).
 - <strong>The Return for the Bride:</strong> Once the preparations were complete and the groom's father gave his approval, the groom would go to the bride's home, usually at night, with a celebratory procession, and bring her to his father's house.
 - <strong>Living with Extended Family:</strong> The newly married couple would then reside in the living space the groom had prepared within his father's household, living and working alongside the extended family.
@@ -102,7 +101,6 @@ In ancient Hebrew marriage traditions, <strong>yes, the groom would typically b
   ]
 }
 ```
-
 # How it Relates to God
 
 When God wanted to RELATE himself to mankind and the rest of his creation, he started with a couple.
@@ -116,13 +114,11 @@ How are we to understand God, the almighty and infinite one? God gives us pictur
 Romans 1:20
 
 For since the creation of the world God’s invisible qualities, His eternal power and divine nature, have been clearly seen, being understood from His WORKMANSHIP, so that men are without excuse.
-
 - WORKMANSHIP = poeima it's where we get the word poem from - and it's only used 2 times in the Bible
 
 Ephesians 2:10
 
 For we are God’s WORKMANSHIP, created in Christ Jesus to do good works, which God prepared in advance as our way of life.
-
 - we are poems
 
 Let's say someone wrote down a poem on a piece of paper. This poem exists on the piece of paper. But when did the poem start to exist?
@@ -130,50 +126,39 @@ Let's say someone wrote down a poem on a piece of paper. This poem exists on the
 Jeremiah 1:5
 
 “Before I formed you in the womb I knew you, and before you were born I set you apart and appointed you as a prophet to the nations.”
-
 # Sex
 
 Conjugal rights refer to the rights and privileges associated with the marital relationship, including companionship, affection, sexual relations, and mutual support
-
 ## Passages
-
 - Genesis 2:18
 - 1 Corinthians 7:29,34-35
 
 ## Intro
-
 - marriage consist of a man and a woman
 - adam was created first then eve
 
 Let's Look into Why Good Created Eve
-
 ## Genesis 2:18
-
 - He did not say, "Adam is unhappy, so let's give him a suitable helper"
-  - clearly won't find happiness in marriage, because we are already "happy", that is before the fall of Man which distorted everything that God has made Good.
-  - another example i like to parallel: you can be fulfilled in what you do at work, but you won't find happiness in it
+	- clearly won't find happiness in marriage, because we are already "happy", that is before the fall of Man which distorted everything that God has made Good.
+	- another example i like to parallel: you can be fulfilled in what you do at work, but you won't find happiness in it
 - help him do what?
-  - what was Adam suppose to do BEFORE Eve entered the scene?
-    - Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth
-    - Do not eat from the tree of the knowledge of good and evil
-    - God sets this all up both to:
-      - give man fulfilment and satisfaction
-      - give Him the most Glory
-        - 1 Corinthians 10:31 - So whether you eat or drink or whatever you do, do it all to the glory of God
-  - what was Adam suppose to do AFTER Eve entered the scene?
-    - same thing
+	- what was Adam suppose to do BEFORE Eve entered the scene?
+		- Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth
+		- Do not eat from the tree of the knowledge of good and evil
+		- God sets this all up both to:
+			- give man fulfilment and satisfaction
+			- give Him the most Glory
+				- 1 Corinthians 10:31 - So whether you eat or drink or whatever you do, do it all to the glory of God
+	- what was Adam suppose to do AFTER Eve entered the scene?
+		- same thing
 
 This is reiterated in Paul's letter to the Corinthians
-
 ## 1 Corinthians 7:29,34-35
-
 - 29 - What I mean, brothers and sisters, is that the time is short. From now on those who have wives should live as if they do not;
-
 - 34 - an unmarried woman or virgin is concerned about the Lord's affairs: Her aim is to be devoted to the Lord in both body and spirit
 
 - whether we are married or not, we are to be devoted to the Lord in both body and spirit (our whole life)
-
 - Not so far off The Greatest Commandment
-  - Love the Lord your God with all your heart, mind, soul, and strength
-
+	- Love the Lord your God with all your heart, mind, soul, and strength
 - 35 - I am saying this for your own good, not to restrict you, but that you may live in a right way in undivided devotion to the Lord

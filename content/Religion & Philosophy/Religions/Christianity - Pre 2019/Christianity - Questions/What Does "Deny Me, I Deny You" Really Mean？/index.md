@@ -1,10 +1,10 @@
 ---
-publish: true
-title: What Does "Deny Me, I Deny You" Really Mean？
+title: "What Does \"Deny Me, I Deny You\" Really Mean？"
 created: 2021-09-13T04:44:47.443-05:00
 modified: 2021-09-13T04:44:47.443-05:00
+parent: "[[Christianity - Questions]]"
+children: []
 ---
-
 But whoever deny/disowns me before others, I will deny/disown before my Father in heaven.
 \~ Matthew 10:33
 
@@ -18,10 +18,9 @@ Let's first read the context of chapter 10.
 
 5 These twelve Jesus sent out with the following instructions: “Do not go among the Gentiles or enter any town of the Samaritans. 6 Go rather to the lost sheep of Israel. 7 As you go, proclaim this message: ‘The kingdom of heaven has come near.’ 8 Heal the sick, raise the dead, cleanse those who have leprosy, drive out demons. Freely you have received; freely give.
 \~ Matthew 10:5-8
-
 - Jesus is speaking to his 12 disciples.
 - He told them to go to the lost sheep of Israel which I assume to be the Jews. Not to the Gentiles or any other but to the Jews first. so the whoever in Matthew 10:33 are the Jews.
-  - this makes sense when Jesus says He did not come down to bring peace but sword. He brings division within the household: father against son and son
+	- this makes sense when Jesus says He did not come down to bring peace but sword. He brings division within the household: father against son and son
 
 TODO Before the rooster crowed, Peter Deny Christ 3 times. Is he going to be denied before the Father and thus go to hell? Many would say Peter would be in heaven because of what he did afterwards. But it's not what he did but by the grace of God anyone who believes would go to Heaven.
 

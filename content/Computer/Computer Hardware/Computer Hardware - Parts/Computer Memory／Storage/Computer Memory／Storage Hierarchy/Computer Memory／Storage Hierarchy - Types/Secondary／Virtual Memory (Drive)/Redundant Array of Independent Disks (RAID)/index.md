@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Redundant Array of Independent Disks (RAID)
+title: "Redundant Array of Independent Disks (RAID)"
 created: 2019-08-27T13:23:01.379-05:00
 modified: 2025-10-21T14:06:00.733-05:00
+parent: "[[Secondary／Virtual Memory (Drive)]]"
+children: []
 ---
-
 ###### Redundant Array of Independent Disks (RAID)
-
-```excerpt
+````excerpt
 - is a data <em>storage virtualization</em> technology that combines multiple physical [[Secondary／Virtual Memory (Drive)|disk drive]] components into one or more logical units for the purposes of data redundancy, performance improvement, or both
 - a [[RAID Controllers／Cards|RAID card]] is used to combine multiple physical drives
-```
-
+````
 ^excerpt
 
 # RAID - Introduction
 
 ![](https://www.youtube.com/watch?v=U-OCdTeZLac)
-
 # RAID Configurations
 
 RAID Configurations depend on the [[Motherboard (MoBo)|motherboard]] whether it supports them
@@ -89,7 +86,5 @@ RAID Configurations depend on the [[Motherboard (MoBo)|motherboard]] whether it 
   ]
 }
 ```
-
 # Other
-
 - [[ZFS - VDEV Configurations (Striped／Stripe - Mirrored／Mirror - RAIDZ／RAIDZ1／RAIDZ2／RAIDZ3)|RAIDZ/RAIDZ1/RAIDZ2/RAIDZ3]]

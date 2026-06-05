@@ -1,23 +1,21 @@
 ---
-publish: true
-title: Sparse Voxels Rasterization (SVRaster)
+title: "Sparse Voxels Rasterization (SVRaster)"
 created: 2025-09-08T19:15:44.991-05:00
 modified: 2025-09-08T19:52:00.064-05:00
+parent: "[[3D Reconstruction]]"
+children: []
 ---
-
 ###### Sparse Voxels Rasterization (SVRaster)
-
-```excerpt
+````excerpt
 - is a novel framework for real-time, high-fidelity 3D [[Radiance Fields|radiance field]] rendering that represents a scene using a grid of adaptive sparse voxels
 - it was developed by [[Nvidia]] and collaborating institutions
 - provides a fast, neural-network-free alternative to traditional methods like [[Neural Radiance Fields (NeRFs)]] and [[3D Gaussian Splatting (3DGS)|Gaussian Splatting]]
-```
-
+````
 ^excerpt
 
 # Tutorial
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -26,8 +24,6 @@ modified: 2025-09-08T19:52:00.064-05:00
     ]
   ]
 }
-````
-
+```
 # Resources
-
-- <https://github.com/jonstephens85/svraster/>
+- [https://github.com/jonstephens85/svraster/](https://github.com/jonstephens85/svraster/)

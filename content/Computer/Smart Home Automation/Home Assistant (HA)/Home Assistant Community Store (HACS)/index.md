@@ -1,21 +1,18 @@
 ---
-publish: true
-title: Home Assistant Community Store (HACS)
+title: "Home Assistant Community Store (HACS)"
 created: 2026-05-30T23:53:01.309-05:00
 modified: 2026-05-30T23:56:47.735-05:00
+parent: "[[Home Assistant (HA)]]"
+children: []
 ---
-
 ###### Home Assistant Community Store (HACS)
-
-```excerpt
+````excerpt
 - is an unofficial, community-driven integration that serves as a centralized hub for managing third-party, custom-built extensions for [[Home Assistant (HA)|Home Assistant]]
-```
-
+````
 ^excerpt
 
 # Installation
-
-- <https://www.hacs.xyz/docs/use/download/download/>
+- [https://www.hacs.xyz/docs/use/download/download/](https://www.hacs.xyz/docs/use/download/download/)
 
 # Add-Ons
 

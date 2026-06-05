@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Test Doubles (Dummy - Fake - Stub - Spy - Mock)
+title: "Test Doubles (Dummy - Fake - Stub - Spy - Mock)"
 created: 2020-12-23T14:52:47.826-06:00
 modified: 2022-12-06T21:57:11.063-06:00
+parent: "[[3 - Testing (Automated Tests)]]"
+children: []
 ---
-
 <strong>Test Double</strong> is the generic term for any kind of pretend object used in place of a real object for testing purposes
 
 ```merge-table
@@ -60,18 +60,15 @@ modified: 2022-12-06T21:57:11.063-06:00
   ]
 }
 ```
-
 # Stub vs Mock - Lifecycle
 
 Test lifecycle with stubs:
-
 1. Setup - prepare the object that is being tested and its stubs collaborators
 2. Exercise - test the functionality
 3. Verify state - use asserts to check the object's state
 4. Teardown - clean up resources
 
 Test lifecycle with mocks:
-
 1. Setup data - prepare the object that is being tested
 2. <strong>Setup expectations</strong> - prepare expectations in mock that is being used by the primary object
 3. Exercise - test the functionality
@@ -80,6 +77,5 @@ Test lifecycle with mocks:
 6. Teardown - clean up resources
 
 # Resources
-
-- <https://martinfowler.com/bliki/TestDouble.html>
-- <https://martinfowler.com/articles/mocksArentStubs.html>
+- [https://martinfowler.com/bliki/TestDouble.html](https://martinfowler.com/bliki/TestDouble.html)
+- [https://martinfowler.com/articles/mocksArentStubs.html](https://martinfowler.com/articles/mocksArentStubs.html)

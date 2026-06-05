@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Java - Spring - Spring Data JPA (Hibernate) Setup (75% manual config)
+title: "Java - Spring - Spring Data JPA (Hibernate) Setup (75% manual config)"
 created: 2022-11-17T01:55:15.454-06:00
 modified: 2022-11-17T03:01:52.230-06:00
+parent: "[[Java - Spring - Spring Data JPA (Hibernate)]]"
+children: []
 ---
-
 # Dependencies
-
 ```
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
 ```
-
 # DataSource Configuration
 
 Disable Spring Data JPA's auto-configuration classes
-
 ```
 @SpringBootApplication(exclude = {
 	org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.class,
@@ -27,7 +24,6 @@ Disable Spring Data JPA's auto-configuration classes
 ```
 
 Below is the entire manual JPA configuration
-
 ```
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
@@ -82,7 +78,6 @@ public class MySqlConfig {
 ```
 
 Since we are using a MySQL driver in this example, you must add that driver to the classpath
-
 ```
 <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
 <dependency>
@@ -91,9 +86,7 @@ Since we are using a MySQL driver in this example, you must add that driver to t
     <version>8.0.31</version>
 </dependency>
 ```
-
 # Create Entities
-
 ```
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -110,9 +103,7 @@ public class Customer {
   private String lastName;
 }
 ```
-
 # Create Repositories
-
 ```
 import org.springframework.data.repository.CrudRepository;
 
@@ -121,9 +112,7 @@ public interface CustomerRepository extends CrudRepository<Customer, Long> {
   Customer findById(long id);
 }
 ```
-
 # Using Repositories
-
 ```
 Customer customer = customerRepository.save(new Customer());
 System.out.println("Customer auto-generated id = " + customer.getId());

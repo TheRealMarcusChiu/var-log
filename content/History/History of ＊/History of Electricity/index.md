@@ -1,10 +1,10 @@
 ---
-publish: true
-title: History of Electricity
+title: "History of Electricity"
 created: 2022-03-06T17:16:23.973-06:00
 modified: 2022-03-06T17:21:57.509-06:00
+parent: "[[History of ＊]]"
+children: []
 ---
-
 - 600 BC  -  Thales of Miletus writes about amber becoming charged by rubbing - he was describing what we now call static electricity.
 - 900 BC  -  Magnus, a Greek shepherd, walks across a field of black stones which pull the iron nails out of his sandals and the iron tip from his shepherd's staff (authenticity not guaranteed). This region becomes known as Magnesia.
 - 600 BC  -  Thales of Miletos rubs amber (<em>elektron</em> in Greek) with cat fur and picks up bits of feathers.
@@ -162,12 +162,12 @@ modified: 2022-03-06T17:21:57.509-06:00
 - 1888  -  Hertz discovers that oscillating sparks can be produced in an open secondary circuit if the frequency of the primary is resonant with the secondary. He uses this radiator to show that electrical signals are propagated along wires and through the air at about the same speed, both about the speed of light. He also shows that his electric radiations, when passed through a slit in a screen, exhibit diffraction effects. Polarization effects using a grating of parallel metal wires are also observed.
 - 1888  -  Roentgen shows that when an uncharged dielectric is moved at right angles to a magnetic field is produced.
 - 1889  -  Hertz gives the theory of radiation from his oscillating spark gap.
-- 1889  -  Oliver Heaviside finds the correct form for the electric and magnetic fields of a moving charged particle, valid for all speeds <em>v</em> < <em>c</em>.
+- 1889  -  Oliver Heaviside finds the correct form for the electric and magnetic fields of a moving charged particle, valid for all speeds <em>v</em> \< <em>c</em>.
 - 1889  -  J. J. Thomson shows that Canton's effect (1762) in which a red hot poker can neutralize the electrification of a small charged body is due to electron emission causing the air between the poker and the body to become conducting.
 - 1890  -  Fitz Gerald uses the retarded potentials of L. Lorenz to calculate electric dipole radiation from Hertz's radiator.
 - 1892  -  Oliver Lodge performs experiments on the propagation of light near rapidly moving steel disks to test Stokes hypothesis that moving matter drags the aether with it. No such effect is observed.
 - 1892  -  Hendrik Anton Lorentz presents his electron theory of electrified matter and the aether. This theory combines Maxwell's equations, with the source terms and with the Lorentz force law for the acceleration of charged particles:
-
+  
   Lorentz's aether is simply space endowed with certain dynamical properties. Lorentz gives the modern theory of dielectrics involving and also includes the effect of magnetized matter.
 - He also gives what we now call the Drude-Lorentz harmonic oscillator model of the index of refraction. But Lorentz's theory has a \`\`stationary aether'', which conflicts with the negative Michelson-Morley result.
 - 1892  -  George Fitz Gerald proposes length contraction as a way to reconcile Lorentz's theory and the null results on the motion of the earth through the aether. At the end of this year Lorentz endorses this idea.

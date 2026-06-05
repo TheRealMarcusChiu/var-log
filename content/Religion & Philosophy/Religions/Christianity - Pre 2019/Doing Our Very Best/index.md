@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Doing Our Very Best
+title: "Doing Our Very Best"
 created: 2021-09-13T04:44:50.788-05:00
 modified: 2021-09-13T04:44:50.788-05:00
+parent: "[[Christianity - Pre 2019]]"
+children: []
 ---
-
 <strong>Malachi 1</strong>
 
 > [!expand]- Click here to expand...
@@ -26,7 +26,7 @@ modified: 2021-09-13T04:44:50.788-05:00
 <strong>Matthew 22:15-22</strong>
 
 > [!expand]- Click here to expand...
-> 15 Then the Pharisees went out and laid plans to trap him in his words. 16 They sent their disciples to him along with the Herodians. “Teacher,” they said, “we know that you are a man of integrity and that you teach the way of God in accordance with the truth. You aren’t swayed by others, because you pay no attention to who they are. 17 Tell us then, what is your opinion? Is it right to pay the imperial tax\[a] to Caesar or not?” 18 But Jesus, knowing their evil intent, said, “You hypocrites, why are you trying to trap me? 19 Show me the coin used for paying the tax.” They brought him a denarius, 20 and he asked them, “Whose image is this? And whose inscription?” 21 “Caesar’s,” they replied. Then he said to them, “So give back to Caesar what is Caesar’s, and to God what is God’s.” 22 When they heard this, they were amazed. So they left him and went away.
+> 15 Then the Pharisees went out and laid plans to trap him in his words. 16 They sent their disciples to him along with the Herodians. “Teacher,” they said, “we know that you are a man of integrity and that you teach the way of God in accordance with the truth. You aren’t swayed by others, because you pay no attention to who they are. 17 Tell us then, what is your opinion? Is it right to pay the imperial tax\[a\] to Caesar or not?” 18 But Jesus, knowing their evil intent, said, “You hypocrites, why are you trying to trap me? 19 Show me the coin used for paying the tax.” They brought him a denarius, 20 and he asked them, “Whose image is this? And whose inscription?” 21 “Caesar’s,” they replied. Then he said to them, “So give back to Caesar what is Caesar’s, and to God what is God’s.” 22 When they heard this, they were amazed. So they left him and went away.
 > \~ Matthew 22:15-22
 
 <strong>Genesis 1:27-31</strong>

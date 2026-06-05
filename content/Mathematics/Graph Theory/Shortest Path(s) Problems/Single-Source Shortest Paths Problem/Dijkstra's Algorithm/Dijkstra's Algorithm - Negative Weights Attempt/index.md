@@ -1,14 +1,12 @@
 ---
-publish: true
-title: Dijkstra's Algorithm - Negative Weights Attempt
+title: "Dijkstra's Algorithm - Negative Weights Attempt"
 created: 2021-09-13T05:25:46.457-05:00
 modified: 2022-04-28T04:01:35.299-05:00
+parent: "[[Dijkstra's Algorithm]]"
+children: []
 ---
-
 FAILURE
-
 # Implementation Algorithm
-
 ```
 dijkstra-negative-weights(G(E,V)) {
 	// make every weight positive

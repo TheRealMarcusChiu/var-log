@@ -1,24 +1,30 @@
 ---
-publish: true
-title: Kernel Regression
+title: "Kernel Regression"
 created: 2020-05-31T17:18:12.782-05:00
 modified: 2021-12-18T19:25:11.421-06:00
+parent: "[[Kernel Distribution(Density／Mass) Estimation／Classification (KDE／KDC)]]"
+children:
+  - "[[Kernel Regression - Gasser-Muller Estimator (G-M KR)]]"
+  - "[[Kernel Regression - Nadaraya-Watson Estimator (N-W KR)]]"
+  - "[[Kernel Regression - Priestley-Chao Estimator (P-C KR)]]"
 ---
-
 ###### Kernel Regression (KR)
-
 - a type of [[Kernel Distribution(Density／Mass) Estimation／Classification (KDE／KDC)|Kernel Distribution(Density/Mass) Estimation/Classification (KDE/KDC)]]
 - a [[Non-Parametric Regression (NPR) Models|non-parametric]] regression technique in [[Statistics|statistics]] to estimate the conditional expectation of a random variable
 - the objective is to find a non-linear relation between:
-  - 𝑿 - one or more predictor variable(s)
-  - 𝑌 - single response variable
+	- 𝑿 - one or more predictor variable(s)
+	- 𝑌 - single response variable
 
 # KR - Estimators
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # KR - Code Examples
 
 > [!expand-ui]- R Code 1
->
 > ```bash
 > # NON-Parametric Kernel Regression 
 > # using loess (Local Polynomial Regression Fitting)
@@ -60,7 +66,6 @@ modified: 2021-12-18T19:25:11.421-06:00
 > ```
 
 > [!expand-ui]- R Code 2
->
 > ```
 > # Non-Parametric Regression (NPR)
 > install.packages('np', dependencies = TRUE)
@@ -88,7 +93,5 @@ modified: 2021-12-18T19:25:11.421-06:00
 > lines(y.upper.ci~x.eval, lty=2)
 > lines(y.lower.ci~x.eval, lty=2)
 > ```
-
 # Resources
-
 - [Justin Esarey - Kernel Density Estimation & Kernel Regression](https://youtu.be/QSNN0no4dSI?t=5815)

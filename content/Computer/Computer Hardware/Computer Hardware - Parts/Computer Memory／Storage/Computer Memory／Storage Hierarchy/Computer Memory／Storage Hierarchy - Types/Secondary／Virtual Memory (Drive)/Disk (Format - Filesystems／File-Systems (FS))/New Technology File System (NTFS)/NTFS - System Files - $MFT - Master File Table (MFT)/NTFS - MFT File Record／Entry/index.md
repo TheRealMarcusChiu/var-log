@@ -1,10 +1,11 @@
 ---
-publish: true
-title: NTFS - MFT File Record／Entry
+title: "NTFS - MFT File Record／Entry"
 created: 2020-06-14T22:09:13.041-05:00
 modified: 2020-06-16T17:28:46.050-05:00
+parent: "[[NTFS - System Files - $MFT - Master File Table (MFT)]]"
+children:
+  - "[[NTFS - File Attributes]]"
 ---
-
 - multiple <strong>MFT File Records/Entries</strong> resides within the [[NTFS - System Files - $MFT - Master File Table (MFT)|Master File Table (MFT)]]
 - each <strong>MFT File Record/Entry</strong> contains a list of [[NTFS - File Attributes|NTFS File Attributes]]
 
@@ -165,13 +166,10 @@ modified: 2020-06-16T17:28:46.050-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 - \* denotes not sure
 
 ### MFT File Record Diagram (Header + Attributes)
-
-![[Computer/Computer Hardware/Computer Hardware - Parts/Computer Memory／Storage/Computer Memory／Storage Hierarchy/Computer Memory／Storage Hierarchy - Types/Secondary／Virtual Memory (Drive)/Disk (Format - Filesystems／File-Systems (FS))/New Technology File System (NTFS)/NTFS - System Files - $MFT - Master File Table (MFT)/NTFS - MFT File Record／Entry/master-file-table-record.png|700]]
-
+![[NTFS - MFT File Record／Entry/master-file-table-record.png|700]]
 ### MFT - Base Entry
 
 If an MFT entry gets so large that it requires multiple entries to track all the attributes, then there will be a value that points “back” to the MFT base entry

@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Learning a Language
+title: "Learning a Language"
 created: 2021-09-13T04:44:16.271-05:00
 modified: 2023-10-31T15:27:24.046-05:00
+parent: "[[Linguistics - Language Acquisition Theories]]"
+children: []
 ---
-
 related page: [[Linguistics - Language Acquisition Theories]]
 
 JUST DO IT
-
 # Learning a Language
 
 ```merge-table
@@ -35,7 +34,5 @@ JUST DO IT
   ]
 }
 ```
-
 # Attention Meaning Relevance Memory
-
-![[Language & Linguistics/Linguistics/Linguistics - Other Subfields/Psycholinguistics - Psychology of Language/Linguistics - Language Acquisition/Linguistics - Language Acquisition Theories/Learning a Language/language - 4 cores.png|301]]
+![[Learning a Language/language - 4 cores.png|301]]

@@ -1,13 +1,14 @@
 ---
-publish: true
-title: Properties of Variance
+title: "Properties of Variance"
 created: 2021-09-13T05:28:54.023-05:00
 modified: 2024-01-31T13:12:48.126-06:00
+parent: "[[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)]]"
+children:
+  - "[[Variance of Product of Multiple Random Variables]]"
+  - "[[Variance of Product of Two Random Variables]]"
 ---
-
 ###### properties of [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|variance]] and standard deviation
-
-```excerpt
+````excerpt
 - 𝑉𝑎𝑟(𝑋 + 𝑌) = <font style="color: rgb(128,0,0);">𝐶𝑜𝑣(𝑋,𝑋)</font> + <font style="color: rgb(0,128,0);">𝐶𝑜𝑣(𝑌,𝑌)</font> + <font style="color: rgb(255,102,0);">𝐶𝑜𝑣(𝑋,𝑌)</font> + <font style="color: rgb(255,102,0);">𝐶𝑜𝑣(𝑌,𝑋)</font>
 - 𝑉𝑎𝑟(𝑋 + 𝑌) = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑋)</font> + <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑌)</font> + <font style="color: rgb(255,102,0);">2𝐶𝑜𝑣(𝑋,𝑌)</font>
 - 𝑉𝑎𝑟(𝑋 + 𝑌) = <font style="color: rgb(128,0,0);">𝑉𝑎𝑟(𝑋)</font> + <font style="color: rgb(0,128,0);">𝑉𝑎𝑟(𝑌)</font> + <font style="color: rgb(255,102,0);">2𝐶𝑜𝑟(𝑋,𝑌)𝑠𝑑(𝑋)𝑠𝑑(𝑌)</font>
@@ -28,6 +29,5 @@ for [[Probability Independence (Marginal Independence - Conditional Independenc
 
 for independent {𝑋<sub>1</sub>, 𝑋<sub>2</sub>, ..., 𝑋<sub>𝑛</sub>}:
 - $Var[X_1X_2 ... X_n] = \prod_{i=1}^n \left( Var[X_i] + 𝐄[X_i]^2 \right) - \prod_{i=1}^n 𝐄[X_i]^2$<font style="color: rgb(128,128,128);"> \# see [[Variance of Product of Multiple Random Variables|here]]</font>
-```
-
+````
 ^excerpt

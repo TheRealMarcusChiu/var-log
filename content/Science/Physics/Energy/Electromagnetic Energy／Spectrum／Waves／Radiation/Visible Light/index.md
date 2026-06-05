@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Visible Light
+title: "Visible Light"
 created: 2021-09-13T04:45:49.662-05:00
 modified: 2021-09-13T04:45:49.662-05:00
+parent: "[[Electromagnetic Energy／Spectrum／Waves／Radiation]]"
+children: []
 ---
-
-![[Science/Physics/Energy/Electromagnetic Energy／Spectrum／Waves／Radiation/Visible Light/Linear_visible_spectrum.png|500]]
+![[Visible Light/Linear_visible_spectrum.png|500]]
 
 ```merge-table
 {

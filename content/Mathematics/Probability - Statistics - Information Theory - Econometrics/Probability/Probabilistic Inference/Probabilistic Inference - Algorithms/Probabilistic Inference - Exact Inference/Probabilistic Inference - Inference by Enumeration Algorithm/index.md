@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Probabilistic Inference - Inference by Enumeration Algorithm
+title: "Probabilistic Inference - Inference by Enumeration Algorithm"
 created: 2021-09-13T05:28:27.258-05:00
 modified: 2021-12-11T05:12:28.337-06:00
+parent: "[[Probabilistic Inference - Exact Inference]]"
+children: []
 ---
-
-```excerpt
+````excerpt
 > [!expand]- probabilistic inference recap
 > ![[Probabilistic Inference#^excerpt]]
 
@@ -38,12 +38,10 @@ Once the probability value is acquired we plug it into the equation, then we con
 - <font style="color: rgb(128,128,128);">𝐏(𝑎|𝑏) = \[ 𝛴<sub>𝑐∊𝐶</sub> 𝐏(𝑎,𝑏,𝑐)</font><font style="color: rgb(128,128,128);"> \] / \[ 𝛴<sub>𝑎∊𝐴</sub>𝛴<sub>𝑐∊</sub><sub>𝐶</sub><sub></sub>𝐏(𝑎,𝑏,𝑐) \]</font>
 
 the Inference by Enumeration algorithm simply enumerates through each summation <font style="color: rgb(128,128,128);">𝛴</font>
-```
-
+````
 ^excerpt
 
 # Inference by Enumeration in Specific Probabilistic Graphical Models
-
 - [[HMM - Inference By Enumeration & Variable Elimination|Hidden Markov Model]]
 - [[BN - Exact Inference - Inference By Enumeration & Variable Elimination|Bayesian Networks]]
 - [[MN／MRF - Exact Inference - Inference by Enumeration & Variable Elimination|Markov Networks]]

@@ -1,22 +1,18 @@
 ---
-publish: true
-title: Gated SR Latch
+title: "Gated SR Latch"
 created: 2023-01-18T01:47:42.287-06:00
 modified: 2023-01-18T03:50:26.175-06:00
+parent: "[[Flip-Flops - Latches]]"
+children: []
 ---
-
 ###### Gated SR Latch
-
-```excerpt
+````excerpt
 - is a gated version of an [[Set／Reset Latch (SR／S-R Latch)|SR Latch]]
-```
-
+````
 ^excerpt
 
 # Gated SR Latch - Architecture
-
-![[Computer/Computer Hardware/Computer Hardware - Parts/Logic Devices - Logic Circuits/Digital／Boolean Logic Circuits/Sequential Digital Logic/Flip-Flops - Latches/Gated SR Latch/gated-sr-latch-architecture.png|301]]
-
+![[Gated SR Latch/gated-sr-latch-architecture.png|301]]
 # Gated SR Latch - Truth Table
 
 ```merge-table

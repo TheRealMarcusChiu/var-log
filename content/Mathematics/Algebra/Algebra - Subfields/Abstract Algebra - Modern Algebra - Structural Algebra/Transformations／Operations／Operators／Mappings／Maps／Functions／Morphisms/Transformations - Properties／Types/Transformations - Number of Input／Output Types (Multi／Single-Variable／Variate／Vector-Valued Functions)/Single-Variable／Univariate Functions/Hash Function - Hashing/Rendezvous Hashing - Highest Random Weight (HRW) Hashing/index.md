@@ -1,12 +1,13 @@
 ---
-publish: true
-title: Rendezvous Hashing - Highest Random Weight (HRW) Hashing
+title: "Rendezvous Hashing - Highest Random Weight (HRW) Hashing"
 created: 2021-09-13T05:29:34.892-05:00
 modified: 2021-12-29T15:05:37.310-06:00
+parent: "[[Hash Function - Hashing]]"
+children:
+  - "[[Consistent Hashing]]"
+  - "[[Controlled Replication Under Scalable Hashing (CRUSH)]]"
 ---
-
 ###### Rendezvous Hashing - Highest Random Weight (HRW) Hashing
-
 - is an algorithm that allows clients to achieve distributed agreement on a set of 𝑘 options out of a possible set of 𝑛 options. A typical application is when clients need to agree on which sites (or proxies) objects are assigned to
 - is more general than [[Consistent Hashing|consistent hashing]], which becomes a special case (for 𝑘=1) of rendezvous hashing
 
@@ -19,5 +20,9 @@ The basic idea is to give each site <em>𝑆<sub>𝑗</sub></em> a score (a <e
 If a site 𝑆 is added or removed, only the objects mapping to 𝑆 are remapped to different sites, satisfying the minimal disruption constraint above. The HRW assignment can be computed independently by any client, since it depends only on the identifiers for the set of sites <em>𝑆<sub>1</sub>, 𝑆<sub>2</sub>, ..., 𝑆<sub>𝑛</sub></em> and the object being assigned.
 
 HRW easily accommodates different capacities among sites. If site <em>𝑆<sub>𝑘</sub></em> has twice the capacity of the other sites, we simply represent <em>𝑆<sub>𝑘</sub></em> twice in the list, say, as <em>𝑆<sub>𝑘,1</sub></em> and <em>𝑆<sub>𝑘,2</sub></em>. Clearly, twice as many objects will now map to <em>𝑆<sub>𝑘</sub></em> as to the other sites.
-
 # HRW - Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

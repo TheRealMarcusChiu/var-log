@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Ambient Isotopy (h-isotopy)
+title: "Ambient Isotopy (h-isotopy)"
 created: 2023-12-31T23:05:08.881-06:00
 modified: 2023-12-31T23:09:47.195-06:00
+parent: "[[Topology (Theory)]]"
+children: []
 ---
-
 ###### Ambient Isotopy (h-isotopy)
-
-```excerpt
+````excerpt
 - is a mathematical subject of [[Topology (Theory)|topology]]
 - is a kind of continuous distortion of an [ambient space](https://en.wikipedia.org/wiki/Ambient_space), for example, a [[Manifolds (n-Dimensional Manifold (n-Manifold)|manifold]], taking a [submanifold](https://en.wikipedia.org/wiki/Submanifold) to another submanifold
-```
-
+````
 ^excerpt
 
 # Ambient Isotopy - Examples

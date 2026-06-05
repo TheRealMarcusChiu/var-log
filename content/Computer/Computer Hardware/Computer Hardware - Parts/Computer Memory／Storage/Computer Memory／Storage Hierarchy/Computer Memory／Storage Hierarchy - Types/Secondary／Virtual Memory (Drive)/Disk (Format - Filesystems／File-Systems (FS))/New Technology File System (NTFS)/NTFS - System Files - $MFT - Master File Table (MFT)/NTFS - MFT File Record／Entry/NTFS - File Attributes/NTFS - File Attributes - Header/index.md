@@ -1,10 +1,10 @@
 ---
-publish: true
-title: NTFS - File Attributes - Header
+title: "NTFS - File Attributes - Header"
 created: 2020-06-16T22:43:06.634-05:00
 modified: 2020-06-16T22:43:57.822-05:00
+parent: "[[NTFS - File Attributes]]"
+children: []
 ---
-
 every [[NTFS - File Attributes|NTFS File Attribute]] has a header
 
 ```merge-table

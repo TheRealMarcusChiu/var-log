@@ -1,10 +1,10 @@
 ---
-publish: true
-title: LU Decomposition／Factorization (Partial／Full Pivoting - LUP)
+title: "LU Decomposition／Factorization (Partial／Full Pivoting - LUP)"
 created: 2021-09-13T05:25:50.219-05:00
 modified: 2021-09-13T05:25:50.219-05:00
+parent: "[[Matrix - Decompositions／Factorizations]]"
+children: []
 ---
-
 given matrix 𝐴 and vector 𝑦, find unknown vector 𝑥
 
 > [!indent]
@@ -19,7 +19,6 @@ However, 𝐴⁻¹ may suffer rounding errors while <strong>𝐿𝑈 Decompositi
 > 𝐴𝑥 = 𝐿𝑈𝑦
 
 where:
-
 - 𝐿 is lower triangle matrix
 - 𝑈 is upper triangle matrix
 
@@ -29,23 +28,22 @@ where:
 > find 𝐿𝑈 decomposition of
 >
 > > [!indent]
-> > ![[Mathematics/Algebra/Algebra - Subfields/Linear Algebra/Linear Algebra - Mathematical Objects/Matrix／Matrices/Matrix - Decompositions／Factorizations/LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-1.png|600]]
+> ![[LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-1.png|600]]
 >
 > compute 𝑈 by row echelon reduction
 >
 > > [!indent]
-> > ![[Mathematics/Algebra/Algebra - Subfields/Linear Algebra/Linear Algebra - Mathematical Objects/Matrix／Matrices/Matrix - Decompositions／Factorizations/LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-2.png|600]]
+> ![[LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-2.png|600]]
 >
 > compute L from the highlighted columns
 >
 > > [!indent]
-> > ![[Mathematics/Algebra/Algebra - Subfields/Linear Algebra/Linear Algebra - Mathematical Objects/Matrix／Matrices/Matrix - Decompositions／Factorizations/LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-3.png|600]]
+> ![[LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-3.png|600]]
 >
 > Thus,
 >
 > > [!indent]
-> > ![[Mathematics/Algebra/Algebra - Subfields/Linear Algebra/Linear Algebra - Mathematical Objects/Matrix／Matrices/Matrix - Decompositions／Factorizations/LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-4.png|600]]
-
+> ![[LU Decomposition／Factorization (Partial／Full Pivoting - LUP)/lu-decomposition-4.png|600]]
 ### LU Decomposition - Other Types
 
 ```merge-table

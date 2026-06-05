@@ -1,31 +1,27 @@
 ---
-publish: true
-title: Yet Another Resource Negotiator (YARN)
+title: "Yet Another Resource Negotiator (YARN)"
 created: 2020-05-22T13:35:42.097-05:00
 modified: 2020-05-24T14:12:20.905-05:00
+parent: "[[Apache Hadoop]]"
+children: []
 ---
-
 <strong>Yet Another Resource Negotiator (YARN)</strong>
-
 - was introduced in [[Apache Hadoop]] 2.0 to remove the bottleneck on Job Tracker which was present in Hadoop 1.0
 - separates the Resource Management and Data Processing of a MapReduce 1 (MR1) into YARN/MR2
 - idea is to have a global ResourceManager (RM) and per-application ApplicationMaster (AM). An application is either a single job or a DAG of jobs
 
 ### YARN - Before and After YARN Introduction
 
-![[Computer/Software／Fullstack Development/1 - Code and Extra/Data Storage/Data Storage - Types/Hadoop Ecosystem/Hadoop Ecosystem - Services/Apache Hadoop/Yet Another Resource Negotiator (YARN)/yarn-before-and-after.png|500]]
-
+![[Yet Another Resource Negotiator (YARN)/yarn-before-and-after.png|500]]
 ### YARN - MapReduce2 Job Diagram
 
-![[Computer/Software／Fullstack Development/1 - Code and Extra/Data Storage/Data Storage - Types/Hadoop Ecosystem/Hadoop Ecosystem - Services/Apache Hadoop/Yet Another Resource Negotiator (YARN)/YARN-MapReduce2-Architecture.png|450]]
+![[Yet Another Resource Negotiator (YARN)/YARN-MapReduce2-Architecture.png|450]]
 [[YARN-MapReduce2-Architecture.drawio]]
-
 1. client submits a MapReduce task to Application Manager
 2. Application Manager chooses a node to launch a Container with an Application Master for the submitted MapReduce task
 3. Application Master requests compute resources from Scheduler
 4. Scheduler launches the Containers needed for completing the MapReduce task
 5. Application Master coordinates the Containers until task completion
-
 ```merge-table
 {
   "rows": [

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: SQL (Row／Relational) DB vs NoSQL (Column) DB
+title: "SQL (Row／Relational) DB vs NoSQL (Column) DB"
 created: 2019-12-11T12:47:09.473-06:00
 modified: 2022-12-20T14:28:49.036-06:00
+parent: "[[DBMS - Type Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -55,7 +55,6 @@ modified: 2022-12-20T14:28:49.036-06:00
   ]
 }
 ```
-
 # How It's Stored on Disk Example
 
 Given the following table

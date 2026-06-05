@@ -1,17 +1,16 @@
 ---
-publish: true
-title: Data Catalog Vocabulary (DCAT)
+title: "Data Catalog Vocabulary (DCAT)"
 created: 2022-11-23T19:07:22.234-06:00
 modified: 2022-11-23T22:35:09.572-06:00
+parent: "[[Ontology Languages - Types]]"
+children:
+  - "[[DCAT 2.0]]"
 ---
-
 ###### Data Catalog Vocabulary (DCAT)
-
-```excerpt
+````excerpt
 - is a combination of multiple RDF vocabularies (i.e. [[Dublin Core]], [[Friend of a Friend (FOAF)|FOAF]], [[SKOS]], [[vCard]], etc) used to describe datasets in catalogs, publishers increase discoverability and enable applications to consume metadata from multiple catalogs
 - is a recommendation for how to publish data catalogs on the web
-```
-
+````
 ^excerpt
 
 # DCAT - Versions

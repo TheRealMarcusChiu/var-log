@@ -1,21 +1,19 @@
 ---
-publish: true
-title: Coherence (Relation) Extraction
+title: "Coherence (Relation) Extraction"
 created: 2020-11-20T14:57:19.802-06:00
 modified: 2020-11-20T17:22:36.470-06:00
+parent: "[[Information Retrieval (IR) - Information Extraction (IE)]]"
+children: []
 ---
-
 ###### Coherence (Relation) Extraction
-
 - a discourse is coherent when its sentences are logically related to each other
 - coherence extraction is important for:
-  - coreference
-  - word sense disambiguation
-  - interpretation
-  - other linguistic problems
+	- coreference
+	- word sense disambiguation
+	- interpretation
+	- other linguistic problems
 
 ### Coherence Relation Types
-
 𝑆<sub>0</sub> and 𝑆<sub>1</sub>represent the meanings of two related sentences
 
 ```merge-table
@@ -72,7 +70,6 @@ modified: 2020-11-20T17:22:36.470-06:00
   ]
 }
 ```
-
 ### Action-Based Coherence
 
 ```merge-table

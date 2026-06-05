@@ -1,16 +1,16 @@
 ---
-publish: true
-title: Similarity Measures／Metrics／Semi-Metrics／Functions
+title: "Similarity Measures／Metrics／Semi-Metrics／Functions"
 created: 2022-12-05T23:36:15.588-06:00
 modified: 2023-06-26T17:29:49.359-05:00
+parent: "[[Distance／Similarity／Divergence Measure／Metric／Semi-Metric／Functions - Norm／Semi-Norm]]"
+children:
+  - "[[Cosine Similarity]]"
+  - "[[Jaccard Index Similarity Coefficient]]"
 ---
-
 ###### Similarity Measures/Metrics/Semi-Metrics/Functions
-
-```excerpt
+````excerpt
 - is a real-valued function that quantifies the similarity between two objects
-```
-
+````
 ^excerpt
 
 # Similarity Measure - Types
@@ -112,7 +112,5 @@ modified: 2023-06-26T17:29:49.359-05:00
   "tableStyle": "width: 86.6912%;"
 }
 ```
-
 # Similarity Measure - Other
-
 - [[Distance Measure／Metric vs Similarity Measure|Distance Measure/Metric vs Similarity Measure]]

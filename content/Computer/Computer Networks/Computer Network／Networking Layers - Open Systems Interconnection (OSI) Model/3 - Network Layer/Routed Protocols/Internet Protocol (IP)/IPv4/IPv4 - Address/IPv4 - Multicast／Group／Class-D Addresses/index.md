@@ -1,10 +1,10 @@
 ---
-publish: true
-title: IPv4 - Multicast／Group／Class-D Addresses
+title: "IPv4 - Multicast／Group／Class-D Addresses"
 created: 2019-11-17T21:58:52.293-06:00
 modified: 2021-10-05T02:38:55.784-05:00
+parent: "[[IPv4 - Address]]"
+children: []
 ---
-
 ````excerpt
 # Multicast/Group/Class-D Address Types
 
@@ -58,5 +58,4 @@ modified: 2021-10-05T02:38:55.784-05:00
 }
 ```
 ````
-
 ^excerpt

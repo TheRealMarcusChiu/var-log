@@ -1,12 +1,16 @@
 ---
-publish: true
-title: Numbers Classes／Classification of Numbers
+title: "Numbers Classes／Classification of Numbers"
 created: 2021-09-13T05:24:57.796-05:00
 modified: 2024-08-19T13:09:16.665-05:00
+parent: "[[Arithmetic]]"
+children:
+  - "[[Complex Numbers System]]"
+  - "[[Quaternion Number System]]"
+  - "[[Real Numbers System]]"
+  - "[[Transcendental Numbers]]"
+  - "[[p-adic Numbers - prime-adic Numbers]]"
 ---
-
-![[Mathematics/Arithmetic/Numbers Classes／Classification of Numbers/number-types-classes.png|350]]![[Mathematics/Arithmetic/Numbers Classes／Classification of Numbers/number-classes.png|500]]
-
+![[Numbers Classes／Classification of Numbers/number-types-classes.png|350]]![[Numbers Classes／Classification of Numbers/number-classes.png|500]]
 # Number Systems - Classifications
 
 ```merge-table
@@ -297,7 +301,6 @@ modified: 2024-08-19T13:09:16.665-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Subsets of Real Numbers
 
 ```merge-table
@@ -346,7 +349,6 @@ modified: 2024-08-19T13:09:16.665-05:00
   ]
 }
 ```
-
 # Subsets of Complex Numbers
 
 ```merge-table
@@ -379,7 +381,6 @@ modified: 2024-08-19T13:09:16.665-05:00
   ]
 }
 ```
-
 # Number Systems - Other
 
 ```merge-table
@@ -409,7 +410,6 @@ modified: 2024-08-19T13:09:16.665-05:00
   ]
 }
 ```
-
 # Number System - Algebraic Structures
 
 see [[Algebraic Structures - Examples]]

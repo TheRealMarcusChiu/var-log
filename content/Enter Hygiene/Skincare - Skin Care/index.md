@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Skincare - Skin Care
+title: "Skincare - Skin Care"
 created: 2024-07-26T21:27:12.767-05:00
 modified: 2026-04-28T12:55:01.201-05:00
+parent: "[[Enter Hygiene]]"
+children: []
 ---
-
 ###### Skincare - Skin Care
-
-```excerpt
+````excerpt
 - is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions
 - can include nutrition, avoidance of excessive sun exposure, and appropriate use of emollients
 - practices that enhance appearance include the use of cosmetics, botulinum, exfoliation, fillers, laser resurfacing, microdermabrasion, peels, retinol therapy,\[1\] and ultrasonic skin treatment
-```
-
+````
 ^excerpt
 
 ![](https://www.youtube.com/watch?v=EmUx5Vlbhfg)
-
 # Terms
 
 ```merge-table
@@ -65,25 +62,19 @@ modified: 2026-04-28T12:55:01.201-05:00
   ]
 }
 ```
-
 # Example Skin Care Routines
 
 > [!expand-ui]- Example #1
 > shower:
->
 > - anua heartfelt oil cleanser
 > - la roche posay effaclar cleanser
 >
 > Then
->
 > - anua heartleaf soothing toner
 > - the ordinary 5% caffeine solution
 >
 > Then
->
 > - la roche posay B3 retinol
 > - la roche posay cicaplast baume B5
-
 # Resources
-
-- <https://www.vogue.co.uk/article/glass-skin-trend>
+- [https://www.vogue.co.uk/article/glass-skin-trend](https://www.vogue.co.uk/article/glass-skin-trend)

@@ -1,33 +1,27 @@
 ---
-publish: true
-title: Chain of Responsibility (CoR) Pattern
+title: "Chain of Responsibility (CoR) Pattern"
 created: 2021-07-10T11:30:15.354-05:00
 modified: 2023-06-02T17:04:04.657-05:00
+parent: "[[Behavioral Design Patterns]]"
+children: []
 ---
-
 ###### Chain of Responsibility
-
-```excerpt
+````excerpt
 - is a [[Behavioral Design Patterns|behavioral design pattern]] that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain
-```
-
+````
 ^excerpt
 
 # Code Structure
-
-![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Behavioral Design Patterns/Chain of Responsibility (CoR) Pattern/chain-of-responsibility-structure.png|700]]
-
+![[Chain of Responsibility (CoR) Pattern/chain-of-responsibility-structure.png|700]]
 # Code Example
 
 > [!expand]- Click here to expand...
->
 > ```
 > interface Handler {
 > 	void setNext(Handler handler);
 > 	void handle(request);
 > }
 > ```
->
 > ```
 > abstract class BaseHandler implements Handler {
 > 	private Handler next;
@@ -35,7 +29,6 @@ modified: 2023-06-02T17:04:04.657-05:00
 > 	void handle(request);
 > }
 > ```
->
 > ```
 > class ConcreteHandler1 extends BaseHandler {
 > 	void handle(request) {
@@ -59,7 +52,6 @@ modified: 2023-06-02T17:04:04.657-05:00
 >
 > ...
 > ```
->
 > ```
 > main() {
 > 	Handler h1 = new ConcreteHandler1();
@@ -72,7 +64,6 @@ modified: 2023-06-02T17:04:04.657-05:00
 > 	h1.handle(request);	
 > }
 > ```
-
 # Comparisons
 
 > [!expand]- Click here to expand...
@@ -83,7 +74,5 @@ modified: 2023-06-02T17:04:04.657-05:00
 > ![[Chain of Responsibility Pattern vs Decorator Pattern#^excerpt]]
 >
 > ![[Chain of Responsibility Pattern vs Composite Pattern ／ Object Tree Pattern#^excerpt]]
-
 # Resources
-
-- <https://refactoring.guru/design-patterns/chain-of-responsibility>
+- [https://refactoring.guru/design-patterns/chain-of-responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)

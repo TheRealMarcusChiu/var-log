@@ -1,19 +1,19 @@
 ---
-publish: true
-title: Earthly Glimpse of Heaven
+title: "Earthly Glimpse of Heaven"
 created: 2021-09-13T04:44:50.967-05:00
 modified: 2021-09-13T04:44:50.967-05:00
+parent: "[[Christianity - Pre 2019]]"
+children: []
 ---
-
 - seeing the beauty for the first time
-  - the blind see
-  - enChroma glasses
+	- the blind see
+	- enChroma glasses
 - hearing for the first time
-  - the deaf hear
-  - hearing aid
+	- the deaf hear
+	- hearing aid
 - being reunited
-  - soldiers coming back home
-  - fathers and mothers reunite with children
+	- soldiers coming back home
+	- fathers and mothers reunite with children
 
 ![](https://www.youtube.com/watch?v=i5VV0og-a7w)![](https://www.youtube.com/watch?v=T431Yqpzc2E)
 

@@ -1,11 +1,13 @@
 ---
-publish: true
-title: Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions
+title: "Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions"
 created: 2021-09-13T05:27:38.710-05:00
 modified: 2023-09-09T14:03:52.650-05:00
+parent: "[[Univariate Probability Distribution]]"
+children:
+  - "[[Hazard Probability Function]]"
+  - "[[Moment-Generating Functions (MGF)]]"
 ---
-
-```excerpt
+````excerpt
 - <strong><strong>probability distribution function (PDF)</strong></strong> - is a function used to describe the [[Univariate Probability Distribution|probability distribution]] of a random variable
 	- <strong>probability mass function (PMF)</strong> - is a probability distribution function that describes a DISCRETE random variable
 	- <strong>probability density function (PDF)</strong> - is a probability distribution function that describes a CONTINUOUS random variable
@@ -15,8 +17,7 @@ modified: 2023-09-09T14:03:52.650-05:00
 - <strong>cumulative hazard distribution function (CHDF)</strong> -
 - <strong>quantile function </strong>or<strong> inverse cumulative distribution function (ICDF)</strong> -
 - <strong>moment generating function (MGF)</strong> of 𝑋 -
-```
-
+````
 ^excerpt
 
 # <strong>Probability Function Types</strong>
@@ -174,7 +175,6 @@ modified: 2023-09-09T14:03:52.650-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # <strong>Probability Functions Conversions (Continuous)</strong>
 
 ```merge-table

@@ -1,11 +1,11 @@
 ---
-publish: true
-title: My 34-Year-Old Husband Just Died And My Grief Is So Immense, I Can't Accept He's Gone
+title: "My 34-Year-Old Husband Just Died And My Grief Is So Immense, I Can't Accept He's Gone"
 created: 2021-09-13T04:46:16.567-05:00
 modified: 2021-09-13T04:46:16.567-05:00
+parent: "[[Trials & Tribulations]]"
+children: []
 ---
-
-original article: <https://www.huffpost.com/entry/grief-death-loss-loved-one_n_5f61057ec5b65fd7b855cd50>
+original article: [https://www.huffpost.com/entry/grief-death-loss-loved-one_n_5f61057ec5b65fd7b855cd50](https://www.huffpost.com/entry/grief-death-loss-loved-one_n_5f61057ec5b65fd7b855cd50)
 
 My husband is dead. Those words don’t feel real. Ian Donald Maclean-Blevins, age 34, died at 12:50 a.m. on Friday, June 19, 2020. I try not to count the days, but I do wake up every Friday morning and acknowledge that it’s been another week without him. How long will that counting go on?  For a year? Two years? Forever?
 

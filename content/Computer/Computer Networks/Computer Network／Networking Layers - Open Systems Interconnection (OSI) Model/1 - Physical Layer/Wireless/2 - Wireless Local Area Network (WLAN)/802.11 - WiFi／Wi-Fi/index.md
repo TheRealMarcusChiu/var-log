@@ -1,28 +1,30 @@
 ---
-publish: true
-title: 802.11 - WiFi／Wi-Fi
+title: "802.11 - WiFi／Wi-Fi"
 created: 2019-03-16T19:36:24.833-05:00
 modified: 2026-05-27T11:44:35.934-05:00
+parent: "[[2 - Wireless Local Area Network (WLAN)]]"
+children:
+  - "[[WiFi - Channels]]"
+  - "[[WiFi - Distributed Systems (Access Points (AP))]]"
+  - "[[WiFi - Frame Format]]"
+  - "[[WiFi - Handling Collisions]]"
+  - "[[WiFi - Multiple Input Multiple Output (MIMO)]]"
+  - "[[WiFi - Secure Access (WEP - WPA - WPA2 - WPA3)]]"
 ---
-
 ###### Wi-Fi or WiFi
-
-```excerpt
+````excerpt
 - is a technology for [[2 - Wireless Local Area Network (WLAN)|wireless local area networking]] with devices based on the IEEE 802.11 standards
 - Wi-Fi is a trademark of the Wi-Fi Alliance, which restricts the use of the term Wi-Fi Certified to products that successfully complete interoperability certification testing
 - commonly uses the 2.4 gigahertz (12 cm) UHF and 5 gigahertz (6 cm) SHF ISM radio bands
 - it is more vulnerable to attack than [[Wired|wired connections]], such as [[802.3 - Ethernet|Ethernet]].
-```
-
+````
 ^excerpt
 
 # WiFi - How It Works
-
 - [[WiFi - Frame Format]]
 - [[WiFi - Handling Collisions]]
 
 # WiFi - Extra Features
-
 - [[WiFi - Distributed Systems (Access Points (AP))]]
 - [[WiFi - Secure Access (WEP - WPA - WPA2 - WPA3)]]
 - [[WiFi - Multiple Input Multiple Output (MIMO)]]
@@ -210,7 +212,5 @@ modified: 2026-05-27T11:44:35.934-05:00
   ]
 }
 ```
-
 # WiFi - Other
-
 - [[Smart Home Automation - Network／Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)|Smart Home Automation - Network/Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)]]

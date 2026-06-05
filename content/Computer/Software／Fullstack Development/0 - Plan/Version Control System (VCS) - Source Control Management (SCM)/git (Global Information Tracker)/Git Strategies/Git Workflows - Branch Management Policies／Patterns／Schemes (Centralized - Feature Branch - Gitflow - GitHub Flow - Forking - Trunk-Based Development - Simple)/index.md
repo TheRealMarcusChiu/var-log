@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Git Workflows - Branch Management Policies／Patterns／Schemes (Centralized - Feature Branch - Gitflow - GitHub Flow - Forking - Trunk-Based Development - Simple)
+title: "Git Workflows - Branch Management Policies／Patterns／Schemes (Centralized - Feature Branch - Gitflow - GitHub Flow - Forking - Trunk-Based Development - Simple)"
 created: 2020-12-16T18:08:30.765-06:00
 modified: 2026-03-25T13:15:16.436-05:00
+parent: "[[Git Strategies]]"
+children: []
 ---
-
 A <strong>Git Workflow</strong> is a recipe or recommendation for how to use [[git (Global Information Tracker)|Git]] to accomplish work in a consistent and productive manner
 
 Some things to consider when evaluating a Git workflow are:
-
 - Does this workflow scale with team size?
 - Is it easy to undo mistakes and errors with this workflow?
 - Does this workflow impose any new unnecessary cognitive overhead to the team?
@@ -82,8 +81,6 @@ Some things to consider when evaluating a Git workflow are:
   ]
 }
 ```
-
 # Resources
-
-- <https://martinfowler.com/articles/branching-patterns.html>
-- <https://www.atlassian.com/git/tutorials/comparing-workflows>
+- [https://martinfowler.com/articles/branching-patterns.html](https://martinfowler.com/articles/branching-patterns.html)
+- [https://www.atlassian.com/git/tutorials/comparing-workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)

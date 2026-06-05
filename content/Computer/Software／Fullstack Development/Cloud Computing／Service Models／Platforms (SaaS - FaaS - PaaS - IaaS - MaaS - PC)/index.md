@@ -1,10 +1,15 @@
 ---
-publish: true
-title: Cloud Computing／Service Models／Platforms (SaaS - FaaS - PaaS - IaaS - MaaS - PC)
+title: "Cloud Computing／Service Models／Platforms (SaaS - FaaS - PaaS - IaaS - MaaS - PC)"
 created: 2019-05-26T21:31:04.483-05:00
 modified: 2025-02-11T13:12:52.761-06:00
+parent: "[[Software／Fullstack Development]]"
+children:
+  - "[[Amazon Web Services (AWS)]]"
+  - "[[Closed Room as a Service (CRaaS)]]"
+  - "[[Cloudflare]]"
+  - "[[Metal as a Service (MaaS)]]"
+  - "[[Walled Garden as a Service (WGaaS)]]"
 ---
-
 # Cloud Computing/Service Models
 
 ```merge-table
@@ -299,5 +304,9 @@ modified: 2025-02-11T13:12:52.761-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

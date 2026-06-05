@@ -1,16 +1,21 @@
 ---
-publish: true
-title: SQL - JOIN
+title: "SQL - JOIN"
 created: 2019-12-09T12:09:57.603-06:00
 modified: 2025-04-25T16:07:44.101-05:00
+parent: "[[SQL - SELECT]]"
+children:
+  - "[[Table Join Order Matters For Performance]]"
 ---
-
 ### Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - [SQL Outer Join Overview and Examples](https://www.sqlshack.com/sql-outer-join-overview-and-examples/)
 
 ## <strong>Example Joins</strong>
-
 ### Table A
 
 ```merge-table
@@ -83,7 +88,6 @@ modified: 2025-04-25T16:07:44.101-05:00
   ]
 }
 ```
-
 ### Table B
 
 ```merge-table
@@ -176,9 +180,7 @@ modified: 2025-04-25T16:07:44.101-05:00
   ]
 }
 ```
-
 # Self Join
-
 ```sql
 SELECT * FROM a AS a_1
 (INNER|LEFT|RIGHT|FULL OUTER) JOIN a AS a_2
@@ -186,9 +188,7 @@ ON a_1.A_id = a_2.b_ib;
 ```
 
 joining a table with itself
-
 # Left Inclusive Join
-
 ```sql
 SELECT * FROM a 
 LEFT JOIN b 
@@ -259,9 +259,7 @@ ON a.A_id = b.a_ib;
   ]
 }
 ```
-
 # Full Outer Inclusive Join
-
 ```sql
 SELECT * FROM a
 FULL OUTER JOIN b
@@ -420,9 +418,7 @@ ON a.A_id = b.a_ib;
   ]
 }
 ```
-
 # Right Inclusive Join
-
 ```sql
 SELECT * FROM a
 RIGHT JOIN b
@@ -545,9 +541,7 @@ ON a.A_id = b.a_ib;
   ]
 }
 ```
-
 # Left Exclusive Join
-
 ```sql
 SELECT * FROM a 
 LEFT JOIN b 
@@ -595,9 +589,7 @@ WHERE b.a_id IS NULL;
   ]
 }
 ```
-
 # Full Outer Exclusive Join
-
 ```sql
 SELECT * FROM a
 FULL OUTER JOIN b
@@ -686,9 +678,7 @@ WHERE a.A_id IS NULL
   ]
 }
 ```
-
 # Right Exclusive Join
-
 ```sql
 SELECT * FROM a
 RIGHT JOIN b
@@ -736,9 +726,7 @@ WHERE a.A_id IS NULL;
   ]
 }
 ```
-
 # Cross Join
-
 ```sql
 SELECT * FROM a
 CROSS JOIN b
@@ -849,9 +837,7 @@ ON a.A_id = b.a_ib;
   ]
 }
 ```
-
 # Explicit Inner Join
-
 ```sql
 SELECT * FROM a
 INNER JOIN b
@@ -962,9 +948,7 @@ ON a.A_id = b.a_ib;
   ]
 }
 ```
-
 # Implicit Inner Join
-
 ```sql
 SELECT * FROM a, b
 WHERE a.A_id = b.a_ib;
@@ -1023,4 +1007,4 @@ WHERE a.A_id = b.a_ib;
 }
 ```
 
-![[Computer/Computer／Programming Languages/Computer Languages - Database／CRUD／Query／Search Languages/Structured Query Language (SQL)/SQL - Data Manipulation／Query Language (DML／DQL)/SQL - SELECT/SQL - JOIN/sql-joins.png|850]]
+![[SQL - JOIN/sql-joins.png|850]]

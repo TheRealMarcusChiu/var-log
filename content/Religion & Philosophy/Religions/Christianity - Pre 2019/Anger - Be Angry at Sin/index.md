@@ -1,24 +1,21 @@
 ---
-publish: true
-title: Anger - Be Angry at Sin
+title: "Anger - Be Angry at Sin"
 created: 2021-09-13T04:44:45.796-05:00
 modified: 2021-09-13T04:44:45.796-05:00
+parent: "[[Christianity - Pre 2019]]"
+children: []
 ---
-
 I have finally got angry at a person. It's been so long, I can't remember the last time I got angry. But I got angry at my professor. I won't go over the reasons why I got angry at my professor nor go over my rant why I'm right and why she's wrong. Because that doesn't matter here (I'm always right lol)
 
 Despite whether right or wrong, I have taken this to heart after that 1-on-1 meeting with that professor. That following evening was so bad, I remember I needed to talk to someone, but the one guy I texted was busy studying for an exam the next morning. So decided to deal with it alone for the rest of the night. A verse popped into my head "pity a man who falls and has no one to pick him up" I didn't necessarily fall I just wanted purity in heart in dealing with anger. But little did I know I didn't handle it well. I didn't sleep that night, rolling back and forth thinking how I should retaliate back at her. I was literally composing a script... Another verse popped into my head, "do not let the sun go down on your anger". I really wanted to drop that class, I have been thinking about doing this a couple weeks ago and I knew for sure I was going to drop it the next day. On top of that, you know how we become irrational when we get angry? I said to myself I would drop out of UTD and just find a job. I already wasted my money paying for this semester, why would I waste my time of that one class? (note the other 2 classes are amazing, however it's funny how 1 bad experience can ruin to whole thing) it was 5am! couldn't sleep so I opened a can of beer to drink myself to sleep. sigh. The next day I went to the advisors office, I was too early, so I went to starbucks to consume some caffeine. And I opened bible gateway site and looked up the verse "don't let the sun go down on your anger"
-
 > 26 Be angry and do not sin; do not let the sun go down on your anger, 27 and give no opportunity to the devil.
 
 Its okay to be angry, just as Jesus was angry with sin. However, don't let the devil take over your pure mind, as verse 29 explains further what that would look like
-
 > 29 Let no corrupting talk come out of your mouths, but only such as is good for building up, as fits the occasion, that it may give grace to those who hear. 30 And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption. 31 Let all bitterness and wrath and anger and clamor and slander be put away from you, along with all malice. 32 Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you
 
 Dam. how true was that last night of mine. I have been thinking so much on how I can get that last word. How I would stand up during class and speak up on behalf of the students and talk bad about her and then leave. But here the Bible clearly says not to do that, but the mouth was given to me to not speak out the corruption in my heart, but let it be words that are gentle or even silent. reminds me of James 1, "Be quick to listen, slow to speak and slow to wrath" passages mirrored every from different authors.
 
 The funny thing is that past Saturday I attended a Bible study on Luke 6:27
-
 > 27 “But to you who are listening I say: Love your enemies, do good to those who hate you, 28 bless those who curse you, pray for those who mistreat you. 29 If someone slaps you on one cheek, turn to them the other also. If someone takes your coat, do not withhold your shirt from them. 30 Give to everyone who asks you, and if anyone takes what belongs to you, do not demand it back. 31 Do to others as you would have them do to you.
 
 Man... I thought so much how my professor was an enemy of mine, justifying everything in MY way not in HIS way, making the Bible say what I want, but not what the Word says. Slowly realizing I was the acting like the enemy here. I just need to let it go. Disney Song! For the Lord your God says, "the greatest commandment is this, love Him with all your heart, mind, soul, and strength. and the second is this to love your neighbours as yourself"

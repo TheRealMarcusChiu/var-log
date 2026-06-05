@@ -1,22 +1,26 @@
 ---
-publish: true
-title: Bivariate／Multivariate Analysis Descriptive Statistics
+title: "Bivariate／Multivariate Analysis Descriptive Statistics"
 created: 2021-09-13T05:28:41.671-05:00
 modified: 2021-11-12T02:34:11.045-06:00
+parent: "[[Variate Analysis]]"
+children:
+  - "[[Adjusted R²／R-Square (Adjusted Coefficient of Determination)]]"
+  - "[[Cokurtosis]]"
+  - "[[Correlation]]"
+  - "[[Coskewness]]"
+  - "[[Covariance - Covariation]]"
+  - "[[R² - R-Squared - Coefficient of Determination - Coefficient of Multiple Determination - Multiple R-Square]]"
 ---
-
-```excerpt
+````excerpt
 <strong>Bivariate Analysis</strong> is the simultaneous [[Variate Analysis|variate analysis]] of two variables (attributes). The main reason for differentiating univariate and bivariate analysis is that bivariate analysis is not only a simple descriptive analysis but also it describes the relationship between two different variables. It explores the concept of the relationship between two variables, whether there exists an association and the strength of this association, or whether there are differences between two variables and the significance of these differences. If the data seems to fit a line or curve then there is a relationship or correlation between the two variables
 
 <strong>Multivariate Analysis</strong> is a [variate analysis](http://confluence.marcuschiu.com/display/NOT/Variate+Analysis) on 2 or more variables
-```
-
+````
 ^excerpt
 
 # Statistics Terminology
 
 ![[Statistics - Terminology#^excerpt]]
-
 # Bivariate Descriptive Statistics - Types
 
 ```merge-table
@@ -108,9 +112,7 @@ modified: 2021-11-12T02:34:11.045-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Multivariate Descriptive Statistics - Types
-
 - Additive Tree
 - Canonical Correlation Analysis
 - Cluster Analysis
@@ -126,5 +128,4 @@ modified: 2021-11-12T02:34:11.045-06:00
 - Redundancy Analysis
 
 # Statistical Model Analysis
-
 - see: [[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis|Model - Performance/Accuracy/Evaluation/Goodness-of-Fit Measures/Metrics/Analysis]]

@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Java - Memory Space
+title: "Java - Memory Space"
 created: 2021-03-21T21:40:18.378-05:00
 modified: 2026-01-11T10:15:34.432-06:00
+parent: "[[Java - Underneath]]"
+children:
+  - "[[Java - Stack Memory & Heap Space]]"
 ---
-
 The most significant categories of [[Java Virtual Machine (JVM)|JVM]] memory are:
 
 ```merge-table
@@ -55,5 +56,9 @@ The most significant categories of [[Java Virtual Machine (JVM)|JVM]] memory a
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

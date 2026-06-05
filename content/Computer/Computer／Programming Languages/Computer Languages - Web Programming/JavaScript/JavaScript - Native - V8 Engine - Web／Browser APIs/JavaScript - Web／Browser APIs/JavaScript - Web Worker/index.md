@@ -1,16 +1,14 @@
 ---
-publish: true
-title: JavaScript - Web Worker
+title: "JavaScript - Web Worker"
 created: 2019-12-21T23:01:54.008-06:00
 modified: 2019-12-21T23:07:28.812-06:00
+parent: "[[JavaScript - Web／Browser APIs]]"
+children: []
 ---
-
 a <strong>web worker</strong> is a [[JavaScript]] running in the background, without affecting the performance of the page
 
 similar to: [[Browser Application - Service Workers]]
-
 ### Example Code
-
 ```xml
 <!DOCTYPE html>
 <html>
@@ -22,7 +20,6 @@ similar to: [[Browser Application - Service Workers]]
 </body>
 </html>
 ```
-
 ```js
 var w;
 
@@ -44,7 +41,6 @@ function stopWorker() {
   w = undefined;
 }
 ```
-
 ```js
 var i = 0;
 

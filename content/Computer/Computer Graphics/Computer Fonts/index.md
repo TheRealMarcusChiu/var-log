@@ -1,22 +1,24 @@
 ---
-publish: true
-title: Computer Fonts
+title: "Computer Fonts"
 created: 2023-04-29T12:52:21.444-05:00
 modified: 2023-04-30T18:17:52.296-05:00
+parent: "[[Computer Graphics]]"
+children:
+  - "[[Bitmap／Raster Font]]"
+  - "[[Custom Computer Fonts]]"
+  - "[[Stroke-Based Font]]"
+  - "[[Typeface]]"
+  - "[[Vector／Outline Font]]"
 ---
-
 ###### Computer Fonts
-
-```excerpt
+````excerpt
 - is implemented as a digital data file containing a set of graphically related glyphs
 - is designed and created using a font editor
 - is designed for the computer screen, and not for printing, is a screen font
-```
-
+````
 ^excerpt
 
 # Computer Font - Components
-
 - typeface
 - size
 - width
@@ -55,7 +57,5 @@ modified: 2023-04-30T18:17:52.296-05:00
   ]
 }
 ```
-
 # Other
-
 - [[Custom Computer Fonts]]

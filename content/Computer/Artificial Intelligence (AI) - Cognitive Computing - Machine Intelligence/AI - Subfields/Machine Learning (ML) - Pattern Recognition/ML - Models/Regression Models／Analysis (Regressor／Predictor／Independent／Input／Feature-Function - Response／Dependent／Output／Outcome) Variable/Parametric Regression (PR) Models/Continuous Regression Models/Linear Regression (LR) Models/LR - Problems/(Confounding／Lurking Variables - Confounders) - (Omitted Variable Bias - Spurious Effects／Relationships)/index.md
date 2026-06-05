@@ -1,24 +1,20 @@
 ---
-publish: true
-title: (Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)
+title: "(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)"
 created: 2020-09-28T16:43:28.037-05:00
 modified: 2023-08-31T15:24:50.799-05:00
+parent: "[[LR - Problems]]"
+children: []
 ---
-
 <strong>omitted variable bias</strong> occurs when a [[Ordinary Least Squares (OLS) Regression|regression model]] leaves out relevant independent variables, which are known as <strong>confounding variables</strong>. This forces the model to attribute the effects of omitted variables to variables that are in the model, which biases the coefficient estimates
-
 # Conditions that Cause Omitted Variable Bias
-
 - the omitted variable 𝑍 must [[Correlation|correlate]] with the dependent variable 𝑌
 - the omitted variable 𝑍 must correlate with at least one independent variable 𝑋 in the regression model
 - that one independent variable 𝑋 must correlate with the dependent variable 𝑌
 
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias.png|301]]
-
+![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias.png|301]]
 # Effects of Omitted Variable Bias
 
 The effect of 𝑋 can be either:
-
 - overestimated
 - underestimated
 - masked
@@ -26,45 +22,45 @@ The effect of 𝑋 can be either:
 
 > [!tabs]
 >
-> \=== overestimated
+> === overestimated
 >
-> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| > 0 and |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| > 0 then the true effect of 𝑋 is overestimated
+> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| \> 0 and |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| \> 0 then the true effect of 𝑋 is overestimated
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated-2.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated.png|301]]
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated-2.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated.png|301]]
 >
-> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| > 0 and |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| > 0 then the true effect of 𝑋 is overestimated
+> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| \> 0 and |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| \> 0 then the true effect of 𝑋 is overestimated
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated-4.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated-3.png|301]]
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated-4.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-overestimated-3.png|301]]
 >
-> \=== underestimated
+> === underestimated
 >
-> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| < |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is underestimated
+> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| \< |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is underestimated
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked-2.png|301]]
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked-2.png|301]]
 >
-> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| < |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is underestimated
+> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| \< |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is underestimated
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated-2.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated.png|301]]
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated-2.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated.png|301]]
 >
-> \=== masked
->
-> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| = |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is masked
->
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked-2.png|301]]
+> === masked
 >
 > when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| = |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is masked
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated-2.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated.png|301]]
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked-2.png|301]]
 >
-> \=== changed sign
+> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| = |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is masked
 >
-> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| > |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is sign changed
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated-2.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated.png|301]]
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked-2.png|301]]
+> === changed sign
 >
-> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| > |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is sign changed
+> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| \> |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is sign changed
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated-2.png|301]]![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - Problems/(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated.png|301]]
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-masked-2.png|301]]
+>
+> when true effect of |𝐸𝑓𝑓𝑒𝑐𝑡(𝑍)| \> |𝐸𝑓𝑓𝑒𝑐𝑡(𝑋)| then the true effect of 𝑋 is sign changed
+>
+> ![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated-2.png|301]]![[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)/confounding-variable-and-omitted-variable-bias-effect-underestimated.png|301]]
 
 # How to Detect Omitted Variable Bias
 

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: GPU - Using Multiple GPUs (AMD Crossfire／CrossFireX - Scan-Line Interleave (SLI))
+title: "GPU - Using Multiple GPUs (AMD Crossfire／CrossFireX - Scan-Line Interleave (SLI))"
 created: 2021-08-13T16:28:19.492-05:00
 modified: 2021-08-13T16:29:45.053-05:00
+parent: "[[Graphics Processing Unit (GPU) - Graphics Card]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: MapReduce vs Spark
+title: "MapReduce vs Spark"
 created: 2020-05-22T13:20:51.407-05:00
 modified: 2020-05-22T13:22:05.989-05:00
+parent: "[[Hadoop Ecosystem - Service Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

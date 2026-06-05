@@ -1,11 +1,11 @@
 ---
-publish: true
-title: ／proc directory
+title: "／proc directory"
 created: 2019-08-31T14:19:46.241-05:00
 modified: 2020-01-02T01:42:19.180-06:00
+parent: "[[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]"
+children: []
 ---
-
-<https://www.linux.com/news/discover-possibilities-proc-directory/>
+[https://www.linux.com/news/discover-possibilities-proc-directory/](https://www.linux.com/news/discover-possibilities-proc-directory/)
 
 The<strong> /proc directory</strong> is a strange beast. It doesn’t really exist, yet you can explore it. Its zero-length files are neither binary nor text, yet you can examine and display them. This special directory holds all the details about your [[Linux]] system, including its kernel, processes, and configuration parameters.
 

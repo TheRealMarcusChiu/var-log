@@ -1,20 +1,17 @@
 ---
-publish: true
-title: Luong Attention Mechanism - Multiplicative／Dot-Product Attention
+title: "Luong Attention Mechanism - Multiplicative／Dot-Product Attention"
 created: 2023-12-21T15:34:19.985-06:00
 modified: 2023-12-23T23:43:50.524-06:00
+parent: "[[Attention Mechanisms]]"
+children: []
 ---
-
 ###### Luong Attention Mechanism - Multiplicative/Dot-Product Attention
-
-```excerpt
+````excerpt
 - TODO
-```
-
+````
 ^excerpt
 
 # Steps
-
 1. [Producing the Encoder Hidden States](https://blog.floydhub.com/attention-mechanism/#luong-att-step1) - The Encoder produces hidden states of <strong>each</strong> element in the input sequence
 2. [Decoder RNN](https://blog.floydhub.com/attention-mechanism/#luong-att-step2) - the previous decoder's hidden state and decoder output are passed through the <strong>Decoder RNN</strong> to generate a <strong>new hidden state</strong> for that time step
 3. [Calculating Alignment Scores](https://blog.floydhub.com/attention-mechanism/#luong-att-step3) - using the new decoder hidden state and the encoder hidden states, <strong>alignment scores</strong> are calculated
@@ -24,6 +21,5 @@ modified: 2023-12-23T23:43:50.524-06:00
 7. The process (steps 2-6) <strong>repeats</strong> itself for each time step of the decoder until a token is produced or output is past the specified maximum length
 
 # Resources
-
-- <https://blog.floydhub.com/attention-mechanism/>
-- <https://machinelearningmastery.com/the-luong-attention-mechanism/>
+- [https://blog.floydhub.com/attention-mechanism/](https://blog.floydhub.com/attention-mechanism/)
+- [https://machinelearningmastery.com/the-luong-attention-mechanism/](https://machinelearningmastery.com/the-luong-attention-mechanism/)

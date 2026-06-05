@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Verilog - DFF Module & Test Bench Example
+title: "Verilog - DFF Module & Test Bench Example"
 created: 2023-03-13T10:00:03.199-05:00
 modified: 2023-03-13T13:46:48.147-05:00
+parent: "[[Verilog - 2 - Module]]"
+children: []
 ---
-
 # DFF Module Definition Example
-
 ```
 // 'dff' is the name of this module
 module dff (input  d,             // Inputs to the design
@@ -23,9 +22,7 @@ module dff (input  d,             // Inputs to the design
     end
 endmodule                         // end of `dff` module
 ```
-
 # DFF Testbench Example
-
 ```
 module tb;
     // 1. declare input/output variable to drive the design

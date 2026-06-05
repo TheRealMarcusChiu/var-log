@@ -1,10 +1,10 @@
 ---
-publish: true
-title: The Paradox of Our Age
+title: "The Paradox of Our Age"
 created: 2021-09-13T04:46:18.974-05:00
 modified: 2021-09-13T04:46:18.974-05:00
+parent: "[[Poetry]]"
+children: []
 ---
-
 <strong>Dr. Bob Moorehead’s 1995 collection of prayers, homilies, and monologues</strong>
 
 The paradox of our time in history is that we have taller buildings but shorter tempers; wider freeways, but narrower viewpoints. We spend more, but have less; we buy more but enjoy less.

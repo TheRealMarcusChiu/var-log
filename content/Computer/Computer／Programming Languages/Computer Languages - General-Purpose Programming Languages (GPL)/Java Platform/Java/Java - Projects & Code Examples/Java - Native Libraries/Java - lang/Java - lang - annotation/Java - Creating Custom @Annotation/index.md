@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Java - Creating Custom @Annotation
+title: "Java - Creating Custom @Annotation"
 created: 2021-11-26T03:50:16.256-06:00
 modified: 2021-11-26T03:50:40.765-06:00
+parent: "[[Java - lang - annotation]]"
+children: []
 ---
-
 # 4 Annotations Used When Writing Annotations
 
 ```merge-table
@@ -57,11 +57,9 @@ modified: 2021-11-26T03:50:40.765-06:00
   ]
 }
 ```
-
 # Custom Java Annotation Example
 
 below is custom <font style="color: rgb(128,128,0);">@Todo</font> annotation:
-
 ```java
 package com.marcuschiu.example
 
@@ -83,7 +81,6 @@ import java.lang.annotation.Target;
 ```
 
 below is an example use of <font style="color: rgb(128,128,0);">@Todo</font> annotation:
-
 ```java
 @Todo(
 	priority = Todo.priority.HIGH,
@@ -102,7 +99,6 @@ public ClassA {
 ```
 
 below is an example consumer of <font style="color: rgb(128,128,0);">@Todo</font> annotation:
-
 ```java
 Class classA = ClassA.class;
 

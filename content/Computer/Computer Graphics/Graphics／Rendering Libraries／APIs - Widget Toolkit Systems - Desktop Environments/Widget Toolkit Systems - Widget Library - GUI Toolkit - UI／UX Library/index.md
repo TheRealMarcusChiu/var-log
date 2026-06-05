@@ -1,16 +1,18 @@
 ---
-publish: true
-title: Widget Toolkit Systems - Widget Library - GUI Toolkit - UI／UX Library
+title: "Widget Toolkit Systems - Widget Library - GUI Toolkit - UI／UX Library"
 created: 2021-09-03T10:12:40.767-05:00
 modified: 2024-06-29T22:59:31.788-05:00
+parent: "[[Graphics／Rendering Libraries／APIs - Widget Toolkit Systems - Desktop Environments]]"
+children:
+  - "[[GTK Toolkit]]"
+  - "[[Qt Modeling Language (QML)]]"
+  - "[[Qt Toolkit]]"
+  - "[[TCL／TK (Tickle Tackle)]]"
 ---
-
 ###### Widget Toolkit System - Widget Library - GUI Toolkit - UX Library
-
-```excerpt
+````excerpt
 - is a library or a collection of libraries containing a set of graphical control elements (called widgets) used to construct the graphical user interface (GUI) of programs
-```
-
+````
 ^excerpt
 
 # Types

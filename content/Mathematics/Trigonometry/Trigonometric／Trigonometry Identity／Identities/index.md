@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Trigonometric／Trigonometry Identity／Identities
+title: "Trigonometric／Trigonometry Identity／Identities"
 created: 2023-08-16T14:28:39.753-05:00
 modified: 2023-08-16T14:35:44.697-05:00
+parent: "[[Trigonometry]]"
+children: []
 ---
-
 ###### Trigonometric/Trigonometry Identity/Identities
-
-```excerpt
+````excerpt
 - are equalities that involve [[Trigonometric／Circular／Angle／Goniometric Functions (sine - cosine - tangent - cosecant - secant - cotangent)|trigonometric functions]] and are true for every value of the occurring variables
-```
-
+````
 ^excerpt
 
 # Angle Sum & Difference Identities

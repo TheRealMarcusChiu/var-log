@@ -1,25 +1,27 @@
 ---
-publish: true
-title: NAND Flash Memory
+title: "NAND Flash Memory"
 created: 2019-09-05T21:15:30.248-05:00
 modified: 2023-01-27T17:24:45.386-06:00
+parent: "[[Flash Memory]]"
+children:
+  - "[[3D Vertical NAND (V-NAND - VNAND) Flash Memory]]"
 ---
-
 ###### NAND Flash Memory
-
 - is a type of [[Flash Memory|flash memory]]
 - is an array of either:
-  - [[Charge Trap Flash (CTF)]]
-  - [[Floating-Gate MOSFET／MOS Transistors (FGMOS)|Floating-Gate MOSFET transistors]]
+	- [[Charge Trap Flash (CTF)]]
+	- [[Floating-Gate MOSFET／MOS Transistors (FGMOS)|Floating-Gate MOSFET transistors]]
 
 # Subpages
-
 - [[NOR Flash Memory vs NAND Flash Memory]]
-
 > [!list-indent-undo]
+> ```dataview
+> LIST
+> FROM ""
+> WHERE file.folder = this.file.folder + "/" + this.file.name
+> ```
 
 # Use Cases
-
 - [[Solid State Drives (SSD)]]
 
 # Cell Levels
@@ -98,4 +100,4 @@ modified: 2023-01-27T17:24:45.386-06:00
 }
 ```
 
-![[Computer/Computer Hardware/Computer Hardware - Parts/Computer Memory／Storage/Computer Memory／Storage Medium／Media／Substrate/Semiconductor／Silicon／Transistor Memory／Storage/Flash Memory/NAND Flash Memory/NAND flash.png|512x250]]
+![[NAND Flash Memory/NAND flash.png|512x250]]

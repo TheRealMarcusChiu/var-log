@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Cognitive Biases - Social
+title: "Cognitive Biases - Social"
 created: 2021-09-13T04:45:35.020-05:00
 modified: 2022-01-23T03:16:47.129-06:00
+parent: "[[Cognitive Biases]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

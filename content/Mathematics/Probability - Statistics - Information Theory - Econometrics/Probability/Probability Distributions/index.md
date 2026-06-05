@@ -1,13 +1,22 @@
 ---
-publish: true
-title: Probability Distributions
+title: "Probability Distributions"
 created: 2021-09-13T05:27:12.377-05:00
 modified: 2026-06-03T09:59:19.332-05:00
+parent: "[[Probability]]"
+children:
+  - "[[Conditional Probability Distribution (CPD)]]"
+  - "[[Gaussian／Normal Distribution／Model／Process]]"
+  - "[[Joint Probability Distribution (Compound - Bivariate - Multivariate - Full)]]"
+  - "[[Marginal Probability Distribution]]"
+  - "[[Multivariate vs Mixture - Model／Probability-Distribution]]"
+  - "[[Population Distribution - Sample／Empirical Distribution]]"
+  - "[[Prior Predictive Distribution - Posterior Predictive Distribution]]"
+  - "[[Prior Probability Distribution - Posterior Probability Distribution]]"
+  - "[[Unconditional Probability Distribution]]"
+  - "[[Univariate Probability Distribution]]"
 ---
-
 ###### Probability Distribution
-
-```excerpt
+````excerpt
 - describes the real-world behavior of one or more random variables. These random variables can be either: discrete, continuous, or a mixture of the two
 - describes how probabilities are distributed over the values of a random variable:
 	- for a discrete random variable, a probability distribution is described by a [[Probability Distribution - Discrete Functions／Models (Probability Mass Functions)|probability mass function]]
@@ -15,18 +24,15 @@ modified: 2026-06-03T09:59:19.332-05:00
 - is a distribution function that:
 	- outputs a value between 0 and 1
 	- all values sum/integrate to 1
-```
-
+````
 ^excerpt
 
 # Probability Distribution - Population vs Sample
 
 see: [[Population Distribution - Sample／Empirical Distribution|Population Distribution - Sample/Empirical Distribution]]
-
 # Probability Distribution - How They are Modeled/Represented
 
 see [[Probability Distribution Models／Representations|Probability Distribution Models/Representations]]
-
 # Probability Distribution - Main Types
 
 ```merge-table
@@ -64,9 +70,7 @@ see [[Probability Distribution Models／Representations|Probability Distributio
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Probability Distribution - Other Types
-
 - [[Multivariate vs Mixture - Model／Probability-Distribution|Multivariate vs Mixture - Model/Probability-Distribution]]
 - [[Unconditional Probability Distribution]]
 - [[Prior Probability Distribution - Posterior Probability Distribution]]
@@ -75,20 +79,16 @@ see [[Probability Distribution Models／Representations|Probability Distributio
 # Estimating Parameters of a Parametric Distribution
 
 Given:
-
 - a [[Parametric Probability Distribution Models|parametric probability distribution function]]
 - sample training data
 
 Estimate:
-
 - the probability distribution function's parameters that best reflect the sample training data
 
 See: [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|Point/Parameter Estimation/Estimator/Estimate/Approximation - Estimating Parameters of Parametric Distribution/Population Function/Model (Population Parameters - Sample Statistics)]]
-
 # Generating Random Variable(s) that Simulate a Specific Probability Distribution
 
 see: [[Probability - Generating Random Variable(s) that Simulates a Distribution]]
-
 # Resources
 
 ![](https://www.youtube.com/watch?v=mBCiKUzwdMs)

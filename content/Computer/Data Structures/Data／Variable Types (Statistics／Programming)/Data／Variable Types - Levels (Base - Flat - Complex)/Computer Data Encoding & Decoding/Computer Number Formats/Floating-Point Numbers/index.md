@@ -1,27 +1,23 @@
 ---
-publish: true
-title: Floating-Point Numbers
+title: "Floating-Point Numbers"
 created: 2020-01-16T16:20:57.501-06:00
 modified: 2023-03-10T18:59:57.381-06:00
+parent: "[[Computer Number Formats]]"
+children:
+  - "[[Binary Floating-Point Numbers]]"
 ---
-
 ###### Floating-Point Numbers
-
-```excerpt
+````excerpt
 - solves a number of [[Fixed-Point Numbers|fixed-point]] representation problems:
 	- Fixed-Point has a fixed window of representation, which limits it from representing both very large and very small numbers
 	- Fixed-Point is prone to a loss of precision when two large numbers are divided
 - employs a sort of "sliding window" of precision appropriate to the scale of the number. This allows it to represent numbers from 1,000,000,000,000 to 0.0000000000000001 with ease, and while maximizing precision (the number of digits) at both ends of the scale
-```
-
+````
 ^excerpt
 
 # FP - How It Works
-
 floating point numbers use scientific notation to encode numbers, with 3 components:
-
 - number-in-<font style="color: rgb(255,102,0);">base</font>-representation = <font style="color: rgb(128,0,0);">significand</font> \* <font style="color: rgb(255,102,0);">base-number</font><font style="color: rgb(153,204,0);"><sup>exponent</sup></font>
-
 ```merge-table
 {
   "rows": [
@@ -110,7 +106,6 @@ floating point numbers use scientific notation to encode numbers, with 3 compone
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # FP - Special Values
 
 ```merge-table

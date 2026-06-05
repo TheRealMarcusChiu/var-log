@@ -1,10 +1,10 @@
 ---
-publish: true
-title: NTFS - Resident／Nonresident Unnamed／Named Attributes
+title: "NTFS - Resident／Nonresident Unnamed／Named Attributes"
 created: 2020-06-15T14:43:14.745-05:00
 modified: 2020-06-15T14:43:31.109-05:00
+parent: "[[NTFS - File Attributes]]"
+children: []
 ---
-
 ### Resident/Nonresident Unnamed/Named Attributes
 
 ```merge-table

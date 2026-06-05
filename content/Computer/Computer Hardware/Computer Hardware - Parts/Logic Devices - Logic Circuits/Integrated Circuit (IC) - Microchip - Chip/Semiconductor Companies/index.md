@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Semiconductor Companies
+title: "Semiconductor Companies"
 created: 2023-04-10T22:24:43.743-05:00
 modified: 2026-05-15T00:08:23.208-05:00
+parent: "[[Integrated Circuit (IC) - Microchip - Chip]]"
+children: []
 ---
-
 - <strong>Integrated device manufacturers (IDMs)</strong> design and manufacture integrated circuits
 - <strong>fabless semiconductor companies</strong>, only design devices
 - <strong>merchant</strong> or <strong>pure-play foundries</strong> only manufacture devices for other companies, without designing them
-
 ```merge-table
 {
   "rows": [

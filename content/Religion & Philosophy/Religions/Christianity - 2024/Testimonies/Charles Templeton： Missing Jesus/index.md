@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Charles Templeton： Missing Jesus
+title: "Charles Templeton： Missing Jesus"
 created: 2025-07-05T16:36:30.262-05:00
 modified: 2025-07-05T16:37:45.356-05:00
+parent: "[[Testimonies]]"
+children: []
 ---
-
 Charles Templeton (1915-2001) first professed faith in 1936 and became an evangelist that same year. In 1945 he met Billy Graham and the two became friends, rooming and ministering together during a 1946 YFC evangelistic tour in Europe.
 
 But by 1948 Templeton’s life and worldview were beginning to go in a different direction than Graham’s. Doubts about the Christian faith were solidifying as he planned to enter Princeton Theological Seminary. Less than a decade later (1957), he would publicly declare that he had become an agnostic.

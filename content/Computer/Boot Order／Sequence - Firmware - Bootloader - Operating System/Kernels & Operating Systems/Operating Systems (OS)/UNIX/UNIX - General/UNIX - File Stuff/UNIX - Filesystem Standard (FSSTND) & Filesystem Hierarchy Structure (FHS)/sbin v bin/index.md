@@ -1,11 +1,11 @@
 ---
-publish: true
-title: sbin v bin
+title: "sbin v bin"
 created: 2019-03-17T14:28:05.199-05:00
 modified: 2019-12-30T15:25:33.740-06:00
+parent: "[[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]"
+children: []
 ---
-
-<http://blog.taylormcgann.com/2014/04/11/difference-bin-sbin/>
+[http://blog.taylormcgann.com/2014/04/11/difference-bin-sbin/](http://blog.taylormcgann.com/2014/04/11/difference-bin-sbin/)
 
 ```merge-table
 {

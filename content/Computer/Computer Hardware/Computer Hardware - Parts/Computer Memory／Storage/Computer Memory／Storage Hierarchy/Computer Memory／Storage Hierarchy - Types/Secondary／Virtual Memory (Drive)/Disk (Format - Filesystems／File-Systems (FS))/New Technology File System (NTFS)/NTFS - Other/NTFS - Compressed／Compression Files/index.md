@@ -1,12 +1,11 @@
 ---
-publish: true
-title: NTFS - Compressed／Compression Files
+title: "NTFS - Compressed／Compression Files"
 created: 2020-06-15T23:20:26.702-05:00
 modified: 2020-06-16T00:05:24.196-05:00
+parent: "[[NTFS - Other]]"
+children: []
 ---
-
 NTFS is capable of compressing:
-
 - individual files
 - all files within a folder
 - all files/folders on the volume

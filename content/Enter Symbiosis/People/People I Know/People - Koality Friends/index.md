@@ -1,10 +1,10 @@
 ---
-publish: true
-title: People - Koality Friends
+title: "People - Koality Friends"
 created: 2023-11-17T00:01:58.524-06:00
 modified: 2024-07-25T10:09:11.911-05:00
+parent: "[[People I Know]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

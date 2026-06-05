@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Base64 Notation
+title: "Base64 Notation"
 created: 2021-09-13T05:24:59.925-05:00
 modified: 2023-08-24T16:09:36.837-05:00
+parent: "[[Numeral／Numerical／Number Systems／Representations／Notations]]"
+children: []
 ---
-
 ###### Base64
-
-```excerpt
+````excerpt
 - is an encoding between (a subset of [[ASCII]] characters) ↔ (sequences of 6 bits). In other words, each Base64 digit represents exactly 6 bits of data)
-```
-
+````
 ^excerpt
 
 # Base64 Table
@@ -540,7 +538,6 @@ modified: 2023-08-24T16:09:36.837-05:00
   "tableStyle": "text-align: center;"
 }
 ```
-
 # Output Padding
 
 The final <code>==</code> sequence indicates that the last group contained only one byte, and <code>=</code> indicates that it contained two bytes. The example below illustrates how truncating the input of the above quote changes the output padding:
@@ -658,11 +655,8 @@ The final <code>==</code> sequence indicates that the last group contained onl
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Encoding/Decoding Base64
-
 ###### encode
-
 <span style="white-space: pre-wrap"><code>echo -n 'input' | openssl base64</code></span>
 
 <span style="white-space: pre-wrap"><code>echo -n 'hello' | base64</code></span>
@@ -670,7 +664,6 @@ The final <code>==</code> sequence indicates that the last group contained onl
 <span style="white-space: pre-wrap"><code>openssl base64 -in plain.txt -out base64.txt</code></span>
 
 ###### decode
-
 <span style="white-space: pre-wrap"><code>echo -n 'aGVsbG8=' | base64 --decode</code></span>
 
-<span style="white-space: pre-wrap"><code>base64 --decode base64.txt > plain.txt</code></span>
+<span style="white-space: pre-wrap"><code>base64 --decode base64.txt \> plain.txt</code></span>

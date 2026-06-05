@@ -1,17 +1,18 @@
 ---
-publish: true
-title: Interpretability／Interpretable AI／ML vs Explainability／Explainable AI／ML
+title: "Interpretability／Interpretable AI／ML vs Explainability／Explainable AI／ML"
 created: 2021-12-31T21:23:33.428-06:00
 modified: 2025-09-02T16:06:56.882-05:00
+parent: "[[AI - Subfields]]"
+children:
+  - "[[Local Interpretable Model-Agnostic Explanations (LIME)]]"
+  - "[[Mechanistic Interpretability (Mech Interp - Mechinterp - MI) Research]]"
+  - "[[SHapley Additive exPlanations (SHAP)]]"
 ---
-
 # Interpretability vs Explainability
-
 - <strong>Interpretability</strong> - is the extent to which a cause and effect can be observed within a system. Or, to put it another way, it is the extent to which you are able to predict what is going to happen, given a change in input or algorithmic parameters. It’s being able to look at an algorithm and go yep, I can see what’s happening here.
 - <strong>Explainability</strong> - is the extent to which the internal mechanics of a machine or deep learning system can be explained in human terms
 
 Interpretability is about being able to discern the mechanics without necessarily knowing why. Explainability is being able to quite literally explain what is happening.
-
 # Interpretability & Explainability - Techniques and Methods
 
 ```merge-table
@@ -77,11 +78,8 @@ Interpretability is about being able to discern the mechanics without necessaril
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Interpretability & Explainability - Problems
-
 - interpretability and explainability add an additional step to the developmental process
 
 # Interpretability & Explainability - Resources
-
-- <https://thegradient.pub/explain-yourself/>
+- [https://thegradient.pub/explain-yourself/](https://thegradient.pub/explain-yourself/)

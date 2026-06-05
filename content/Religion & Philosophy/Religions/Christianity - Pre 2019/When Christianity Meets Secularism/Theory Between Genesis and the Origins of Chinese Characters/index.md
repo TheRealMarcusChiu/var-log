@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Theory Between Genesis and the Origins of Chinese Characters
+title: "Theory Between Genesis and the Origins of Chinese Characters"
 created: 2021-09-13T04:44:56.747-05:00
 modified: 2021-09-13T04:44:56.747-05:00
+parent: "[[When Christianity Meets Secularism]]"
+children: []
 ---
-
 is this true or is it a hoax?
 
 ![](http://youtube.com/watch?v=BmK65_kEjKA)

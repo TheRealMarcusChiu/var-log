@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Kubernetes - Ingress (Sticky Sessions)
+title: "Kubernetes - Ingress (Sticky Sessions)"
 created: 2025-06-10T17:15:32.510-05:00
 modified: 2025-06-10T17:18:50.728-05:00
+parent: "[[Ingress (Kubernetes)]]"
+children: []
 ---
-
 Add the following to an Ingress workload
-
 ```
     nginx.ingress.kubernetes.io/affinity: "cookie"
     nginx.ingress.kubernetes.io/session-cookie-name: "hello-cookie"
@@ -18,7 +17,6 @@ Add the following to an Ingress workload
 ```
 
 An example full Ingress Workload:
-
 ```yml
 apiVersion: networking.k8s.io/v1
 kind: Ingress

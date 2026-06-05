@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Java - Spring - RSocket - 1
+title: "Java - Spring - RSocket - 1"
 created: 2019-12-13T00:49:31.860-06:00
 modified: 2019-12-13T00:59:22.900-06:00
+parent: "[[Java - Spring Framework - Web - RSocket]]"
+children: []
 ---
-
 implementing [[Reactive Socket (RSocket)]] in [[Java - Spring Family|Java Spring]]
 
-based on: <https://www.baeldung.com/spring-boot-rsocket>
-
-- client - <https://github.com/SpringBootMarcusChiu/rsocket-one-client>
-- server - <https://github.com/SpringBootMarcusChiu/rsocket-one-server>
+based on: [https://www.baeldung.com/spring-boot-rsocket](https://www.baeldung.com/spring-boot-rsocket)
+- client - [https://github.com/SpringBootMarcusChiu/rsocket-one-client](https://github.com/SpringBootMarcusChiu/rsocket-one-client)
+- server - [https://github.com/SpringBootMarcusChiu/rsocket-one-server](https://github.com/SpringBootMarcusChiu/rsocket-one-server)
 
 # <strong>Server</strong>
-
 ```java
 @Controller
 public class RSocketController {
@@ -43,9 +41,7 @@ public class RSocketController {
     }
 }
 ```
-
 # <strong>Client</strong>
-
 ```java
 @RestController
 public class RSocketRestController {

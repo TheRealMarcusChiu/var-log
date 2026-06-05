@@ -1,20 +1,26 @@
 ---
-publish: true
-title: Virtual Private Network (VPN)
+title: "Virtual Private Network (VPN)"
 created: 2019-03-16T23:07:15.434-05:00
 modified: 2026-05-27T11:37:46.057-05:00
+parent: "[[？ - Mixed／Other Layers]]"
+children:
+  - "[[L2TP／IPSec]]"
+  - "[[NetBird]]"
+  - "[[OpenVPN]]"
+  - "[[Point-to-Point Tunneling Protocol (PPTP)]]"
+  - "[[Secure Socket Tunneling Protocol (SSTP)]]"
+  - "[[Tailscale]]"
+  - "[[VPN - Comparisons]]"
+  - "[[WireGuard]]"
 ---
-
 ###### Virtual Private Network (VPN)
-
-```excerpt
+````excerpt
 - is a technology that creates a secure, [[Encryption|encrypted]] connection (“tunnel”) over an untrusted network like the internet
 - is NOT a single protocol, thus under the OSI model it can operate at the:
 	- [[2 - Data Link Layer|Data Link layer]] (e.g., [[L2TP／IPSec|L2TP/IPsec]])
 	- [[3 - Network Layer|Network layer]] (e.g., [[WireGuard]], [[OpenVPN]] in TUN mode)
 	- [[4 - Transport Layer|Transport]]/[[5 - Session Layer|Session layers]] (e.g., [[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)|SSL/TLS]]-based VPNs)
-```
-
+````
 ^excerpt
 
 # VPN - Use Cases
@@ -58,7 +64,6 @@ modified: 2026-05-27T11:37:46.057-05:00
   "tableStyle": "width: 100.0%;letter-spacing: 0.0px;"
 }
 ```
-
 # VPN - Types
 
 ```merge-table
@@ -96,5 +101,9 @@ modified: 2026-05-27T11:37:46.057-05:00
   "tableStyle": "width: 86.4117%;"
 }
 ```
-
 # VPN - Comparisons
+```dataview
+LIST
+FROM ""
+WHERE file.folder = [[VPN - Comparisons]].file.folder + "/" + [[VPN - Comparisons]].file.name
+```

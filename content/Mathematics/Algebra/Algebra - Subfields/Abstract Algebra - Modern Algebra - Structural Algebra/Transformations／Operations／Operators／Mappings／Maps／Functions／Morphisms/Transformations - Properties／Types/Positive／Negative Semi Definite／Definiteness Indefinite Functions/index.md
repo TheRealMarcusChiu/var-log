@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Positive／Negative Semi Definite／Definiteness Indefinite Functions
+title: "Positive／Negative Semi Definite／Definiteness Indefinite Functions"
 created: 2023-07-18T18:30:27.286-05:00
 modified: 2023-07-18T19:11:12.507-05:00
+parent: "[[Transformations - Properties／Types]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -53,4 +53,4 @@ modified: 2023-07-18T19:11:12.507-05:00
 }
 ```
 
-![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Positive／Negative Semi Definite／Definiteness Indefinite Functions/definiteness.png|550]]
+![[Positive／Negative Semi Definite／Definiteness Indefinite Functions/definiteness.png|550]]

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: SOLID Principles
+title: "SOLID Principles"
 created: 2022-02-14T17:53:31.780-06:00
 modified: 2022-03-01T00:46:20.901-06:00
+parent: "[[Software Design／Development Paradigms／Principles]]"
+children: []
 ---
-
 <strong>SOLID Principles</strong> contain the first 5 principles of [[Object-Oriented Programming]]
-
 # SOLID Principles
 
 ```merge-table

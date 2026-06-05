@@ -1,26 +1,24 @@
 ---
-publish: true
-title: k-vectors (Multivector of Grade k)
+title: "k-vectors (Multivector of Grade k)"
 created: 2024-01-07T23:12:27.607-06:00
 modified: 2024-01-08T15:30:06.576-06:00
+parent: "[[Multilinear Algebra]]"
+children:
+  - "[[Bivectors - Binors - 2-vectors]]"
+  - "[[Trivectors - 3-Vectors]]"
 ---
-
 ###### k-vectors (Multivector of Grade k)
-
-```excerpt
+````excerpt
 - is a linear combination of [[Blades - k-Blades|k-blades]]
 - is a homogeneous [[Multi-Vectors／Multivectors／p-Vectors - Clifford Number - Multors|multivector]] of grade k
 - is dual of a differential [[Multilinear Functionals - Multilinear Forms - k Forms - k-forms|k-form]]
-```
-
+````
 ^excerpt
 
 # k-vector vs multivector vs k-blade
 
 See: [[k-blades vs k-vectors vs multivectors]]
-
 # Examples
-
 - 0-vectors are [[Scalars|scalars]]
 - 1-vectors are [[Vectors|vectors]]
 - 2-vectors are [[Bivectors - Binors - 2-vectors|bivectors]]
@@ -50,12 +48,15 @@ They are respectively dual to 0-forms, [[Linear Functionals - Linear Forms - 1�
   "tableStyle": "width: 48.0147%;"
 }
 ```
-
 # Other
 
 The highest grade element in a space is called a pseudoscalar.
-
 - (<em>n</em> − 1)-vectors are [pseudovectors](https://en.wikipedia.org/wiki/Pseudovector)
 - <em>n</em>-vectors are [pseudoscalars](https://en.wikipedia.org/wiki/Pseudoscalar)
 
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

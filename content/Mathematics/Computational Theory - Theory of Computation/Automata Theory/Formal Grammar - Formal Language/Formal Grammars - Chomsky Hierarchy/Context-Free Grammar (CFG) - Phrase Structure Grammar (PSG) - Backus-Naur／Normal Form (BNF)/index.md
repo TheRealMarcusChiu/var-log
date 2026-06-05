@@ -1,31 +1,32 @@
 ---
-publish: true
-title: Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)
+title: "Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)"
 created: 2021-09-13T05:25:05.033-05:00
 modified: 2022-01-16T16:16:10.550-06:00
+parent: "[[Formal Grammars - Chomsky Hierarchy]]"
+children:
+  - "[[Chomsky-Normal Form (CNF)]]"
+  - "[[Lexicalized CFG (LCFG)]]"
+  - "[[Probabilistic CFG (PCFG)]]"
+  - "[[Probabilistic Lexicalized CFG (PLCFG)]]"
 ---
-
 ###### Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur/Normal Form (BNF)
-
 - is a type of [[Formal Grammar - Formal Language|Formal Grammar]] used to model Context-Free Language (CFL)
 - is Type-2 Grammar of [[Formal Grammars - Chomsky Hierarchy|Chomsky's Hierarchy]]
 - used for parsing sentence structure (which is called Phrase Structure Grammar (PSG))
 - BNF is another syntax expression of CFG where: → is replaced with ::=, and or is replaced with |
 
 # CFG/PSG/BNF - Grammar Rule Restrictions
-
 - grammar rules are equations that consist of a single non-terminal on the left and any number of terminals and non-terminals on the right
-  - 𝐴 → 𝛼
+	- 𝐴 → 𝛼
 - where:
-  - 𝐴 - a non-terminal
-  - 𝛼 - a string of terminals and/or non-terminals (may also be empty-string)
+	- 𝐴 - a non-terminal
+	- 𝛼 - a string of terminals and/or non-terminals (may also be empty-string)
 
 # CFG/PSG/BNF - Problems
 
 constituency is a key phenomena easily captured with PSG/CFG rules
 
 but significant problems with:
-
 - agreement
 - subcategorization
 
@@ -146,5 +147,9 @@ but significant problems with:
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

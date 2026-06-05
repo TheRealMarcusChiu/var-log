@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Bible Verses／Passages
+title: "Bible Verses／Passages"
 created: 2021-09-13T04:44:41.103-05:00
 modified: 2021-09-13T04:44:41.103-05:00
+parent: "[[Christianity]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,17 +1,19 @@
 ---
-publish: true
-title: Factor Analysis (FA) - Factor Methods
+title: "Factor Analysis (FA) - Factor Methods"
 created: 2023-05-17T19:23:36.760-05:00
 modified: 2023-08-09T15:03:20.153-05:00
+parent: "[[Feature Projection／Extraction - Embeddings]]"
+children:
+  - "[[Confirmatory Factor Analysis (CFA)]]"
+  - "[[Exploratory Factor Analysis (EFA)]]"
+  - "[[Generalized Procrustes Analysis (GPA)]]"
+  - "[[Multiple Factor Analysis (MFA)]]"
 ---
-
 ###### Factor Analysis (FA) - Factor Methods
-
-```excerpt
+````excerpt
 - is a technique reducing the huge number of variables into a few numbers of factors (i.e. factoring of the data)
 - the typical goal is to identify variables that are related to one another and separate them from others (a form of variable clustering)
-```
-
+````
 ^excerpt
 
 # FA - Types
@@ -54,7 +56,5 @@ modified: 2023-08-09T15:03:20.153-05:00
   ]
 }
 ```
-
 # FA - Subpages
-
 - [[Principal Component Analysis (PCA) vs Factor Analysis (FA)]]

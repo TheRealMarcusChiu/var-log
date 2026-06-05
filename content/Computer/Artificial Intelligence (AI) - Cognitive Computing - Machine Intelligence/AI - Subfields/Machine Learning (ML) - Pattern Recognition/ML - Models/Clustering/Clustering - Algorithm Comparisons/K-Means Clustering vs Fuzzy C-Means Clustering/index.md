@@ -1,10 +1,10 @@
 ---
-publish: true
-title: K-Means Clustering vs Fuzzy C-Means Clustering
+title: "K-Means Clustering vs Fuzzy C-Means Clustering"
 created: 2021-11-02T01:26:46.352-05:00
 modified: 2021-11-02T01:27:57.455-05:00
+parent: "[[Clustering - Algorithm Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

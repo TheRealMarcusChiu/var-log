@@ -1,16 +1,18 @@
 ---
-publish: true
-title: Windows CMD - Accounts
+title: "Windows CMD - Accounts"
 created: 2019-11-17T19:47:01.763-06:00
 modified: 2019-11-17T20:22:31.756-06:00
+parent: "[[Windows]]"
+children: []
 ---
+For example, if you want to change Maximum password age to 42 days, type the command:
+<code>net accounts /maxpwage:42</code>
 
-For example, if you want to change Maximum password age to 42 days, type the command: <code>net accounts /maxpwage:42</code>
+Set Minimum password age to 2 days, type:
+<code>net accounts /minpwage:2</code>
 
-Set Minimum password age to 2 days, type: <code>net accounts /minpwage:2</code>
-
-Set Minimum password length to 3 characters, type: <code>net accounts /minpwlen:3</code>
-
+Set Minimum password length to 3 characters, type:
+<code>net accounts /minpwlen:3</code>
 ### Log On Event IDs
 
 ```merge-table

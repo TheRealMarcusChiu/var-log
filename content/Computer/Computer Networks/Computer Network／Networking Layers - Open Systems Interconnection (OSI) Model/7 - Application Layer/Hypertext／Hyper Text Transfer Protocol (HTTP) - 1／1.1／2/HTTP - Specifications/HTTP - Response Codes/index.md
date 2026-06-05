@@ -1,10 +1,10 @@
 ---
-publish: true
-title: HTTP - Response Codes
+title: "HTTP - Response Codes"
 created: 2021-02-25T13:12:53.505-06:00
 modified: 2021-09-11T21:32:21.801-05:00
+parent: "[[HTTP - Specifications]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -41,4 +41,4 @@ modified: 2021-09-11T21:32:21.801-05:00
 }
 ```
 
-![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/7 - Application Layer/Hypertext／Hyper Text Transfer Protocol (HTTP) - 1／1.1／2/HTTP - Specifications/HTTP - Response Codes/http-response-codes-decision-tree.jpg|700]]
+![[HTTP - Response Codes/http-response-codes-decision-tree.jpg|700]]

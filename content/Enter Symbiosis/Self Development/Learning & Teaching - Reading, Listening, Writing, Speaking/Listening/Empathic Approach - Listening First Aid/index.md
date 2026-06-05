@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Empathic Approach - Listening First Aid
+title: "Empathic Approach - Listening First Aid"
 created: 2021-09-13T04:46:11.226-05:00
 modified: 2021-09-13T04:46:11.226-05:00
+parent: "[[Listening]]"
+children: []
 ---
-
 [original article](https://nature.berkeley.edu/ucce50/ag-labor/7article/listening_skills.htm)
 
 Gregorio Billikopf Encina - University of California
@@ -20,7 +20,6 @@ At one enterprise, I had just been introduced, by the proprietor, to one of the 
 In another organization, I was informed that the pre-caucus would be quite brief, as the person I was about to listen to was not a man of many words. Yet this individual spoke to me for almost two hours. By the time we finished, he felt understood and had gained confidence. During the joint session, this same employee was able to laugh when it was appropriate. I have found that these �silent types� will often open up when there is someone who will truly listen.
 
 The process of listening so others will talk is called empathic listening. Empathy, according to some dictionary definitions, means to put oneself in a position to understand another person. Certainly, this is an aspect of empathy. We prefer to define empathy, however, as it is often used in psychology: the process of attending to another so the individual feels heard in a non-judgmental way. Empathic listening requires that we accompany a person in her moment of sadness, anguish, self-discovery, challenge (or even great joy!). This approach to listening was developed by Carl Rogers, author of Client-Centered Therapy.1 Rogers applied the method to therapeutic as well as human resource management skills. When an individual feels understood, an enormous emotional burden is lifted; stress and defensiveness are reduced; and clarity increases.
-
 ### Listening Skills in Interpersonal Communication
 
 We spend a large portion of our waking hours conversing and listening. When two friends or colleagues have an engaging dialogue, they will often compete to speak and share ideas. Certainly, listening skills play an important role is such stimulating exchanges. When it comes to empathic listening, we do not vie to be heard, nor do we take turns speaking. Rather, we are there to motivate and cheer the other person on.
@@ -32,13 +31,11 @@ Some of the dialogues in this paper are videotape transcripts made possible by g
 The purpose of this paper, then, is to further explicate and describe empathic listening, as well as some of the skill subsets involved. We challenge the reader to temporarily put aside any preconceived notions about effective listening. In order to more clearly illustrate empathic listening, we will portray both positive and negative examples.
 
 Effective listening and attending skills can be applied to all of our interpersonal and business relationships. We will become more effective listeners as we practice at home, in our business dealings, and in other circles. One of the greatest gifts we can give another is that of truly listening.
-
 ### Different approaches to listening
 
 There are different approaches to providing assistance. One helping model involves a three-step process: 1) attentive listening, 2) asking effective diagnostic questions, and 3) offering a prescription, or solution. Slowly, or sometimes quite abruptly, people move from listening to prescribing. It is not uncommon, under some circumstances, for a person to focus on the third of these steps: offering advice (sometimes even when none is sought). In other situations, individuals may utilize the first two steps. Perhaps most uncommon is an emphasis on listening alone.
 
 You can probably imagine situations where each of these approaches may make sense. When there is little time, or in dangerous situations, people may offer advice even when they were not asked. For matters of a technical (or medical) nature, the three-way process of listening, diagnosing, and prescribing is often preferable. After prescribing, it is helpful to take a step back and determine how the individual feels about the proposed solution. A related approach involves going through the first two steps and then involving the troubled person in examining alternative solutions. Finally, for more personal matters, where the solution is owned by the individual facing the challenge, a listening approach is most advantageous. This is where empathic listening fits in. Let us consider these phases in reverse order.
-
 ### Prescriptive Phase
 
 The majority of individuals, while they may fully begin with intentions of listening, often quickly transition into the diagnostic and prescriptive phases. People are accustomed to solving problems and often listen with this frame of mind. Others, instead, focus on sympathy. Sharing a story of how we had to face a similar challenge is not much better. Nor is being quiet so a person will hurry up and finish. None of these are helpful responses to venting. Each reflects, among other things, a certain amount of impatience. When people are not listening we can often see it in their body language: �The automatic smile, the hit-and-run question, the restless look in their eyes when we start to talk.�2
@@ -61,11 +58,11 @@ Our effectiveness as a listener is often lost if we solve the problem before the
 
 Aaliyah is very concerned about her grown daughter, and has been openly disclosing her worries with her friend, Shanise. Let us listen in on their conversation.
 
-�These are the problems I have with my daughter,� Aaliyah shares, anguish punctuating each word. �I want to seek her out, try and speak with her, try and have her understand, but she does not mind me. \[Pause] I simply don�t know what to do, I feel incapable of helping her.�
+�These are the problems I have with my daughter,� Aaliyah shares, anguish punctuating each word. �I want to seek her out, try and speak with her, try and have her understand, but she does not mind me. \[Pause\] I simply don�t know what to do, I feel incapable of helping her.�
 
 �If you would get her professional help, would she go?� Shanise proposes.
 
-�Hmm. Eh. \[Pause] As I was telling you, she doesn�t mind me. When I try and speak to her, give her advice, then she� changes topics. That is the problem I have, that I seek her out but she does not mind me.� Aaliyah insists.
+�Hmm. Eh. \[Pause\] As I was telling you, she doesn�t mind me. When I try and speak to her, give her advice, then she� changes topics. That is the problem I have, that I seek her out but she does not mind me.� Aaliyah insists.
 
 Aaliyah considers Shanise�s contribution a distraction, and momentarily loses track of what she was saying. Aaliyah, however, takes control of the conversation once again. Because Shanise has been showing empathy to this point, Aaliyah forgives the interruption.
 
@@ -83,9 +80,9 @@ Seminar participants were permitted to go around the table prescribing solutions
 
 It soon became clear that despite John�s request for a ready made solution, these suggestions were irritating him. John admitted that he would have preferred to continue to think aloud with the support of the class participants.
 
-Sympathy is quite different than empathy. It often springs more from our desire for normality, than for helping someone. One of my favorite illustrations comes from Alfred Benjamin: �When Lucy said, �I�ll never get married now that I�m \[disabled],� what did you do? You know you felt terrible; you felt that the whole world had caved in on her. But what did you say? What did you show?�3 If Lucy was your seventeen year old daughter, niece, or younger sister�I often ask�what would you like to say to her? Some of the most frequent responses include:
+Sympathy is quite different than empathy. It often springs more from our desire for normality, than for helping someone. One of my favorite illustrations comes from Alfred Benjamin: �When Lucy said, �I�ll never get married now that I�m \[disabled\],� what did you do? You know you felt terrible; you felt that the whole world had caved in on her. But what did you say? What did you show?�3 If Lucy was your seventeen year old daughter, niece, or younger sister�I often ask�what would you like to say to her? Some of the most frequent responses include:
 
-Your internal beauty is more important than outward appearances. I still find you beautiful. If a young man cannot see your beauty, he is not worthy of you. Modern medicine can work miracles and perhaps you can recover beyond expectation. Alfred Benjamin continues, �Did you help her to bring it out; to say it, all of it; to hear it and examine it? You almost said: �Don�t be foolish. You�re young and pretty and smart, and who knows, perhaps�� But you didn�t. You had said similar things to patients in the hospital until you learned that it closed them off. So this time you simply looked at her and weren�t afraid to feel what you both felt. Then you said, �You feel right now that your whole life has been ruined by this accident.� �That�s just it,� she retorted, crying bitterly. After awhile she continued talking. She was still \[disabled], but you hadn�t gotten in the way of her hating it and confronting it.�3
+Your internal beauty is more important than outward appearances. I still find you beautiful. If a young man cannot see your beauty, he is not worthy of you. Modern medicine can work miracles and perhaps you can recover beyond expectation. Alfred Benjamin continues, �Did you help her to bring it out; to say it, all of it; to hear it and examine it? You almost said: �Don�t be foolish. You�re young and pretty and smart, and who knows, perhaps�� But you didn�t. You had said similar things to patients in the hospital until you learned that it closed them off. So this time you simply looked at her and weren�t afraid to feel what you both felt. Then you said, �You feel right now that your whole life has been ruined by this accident.� �That�s just it,� she retorted, crying bitterly. After awhile she continued talking. She was still \[disabled\], but you hadn�t gotten in the way of her hating it and confronting it.�3
 
 In my opinion, it is not about withholding comments about the beauty of the young lady, or about how much we care about her. Many of these comments may be shared, but later, after Lucy feels truly heard and does not have more to say herself.
 
@@ -94,7 +91,6 @@ There are numerous ways we discount the needs of others, even when we think we a
 Some persons confuse empathic listening with being silent. First attempts to listen empathically are often betrayed by facial and body language that say �be quiet so I can give you advice.� Have you ever tried to speak to someone who is silent and gives no indication of what he is thinking? We do not know if the person has lost interest or is judging us.
 
 When people have deep sentiments to share, rarely do they expose their vulnerability by getting to the point right away. Ordinarily, the topic is examined through increasingly constricting circles. We may also compare it to an iceberg. Only an eighth protrudes to the surface while the rest remains submerged�buried�under the surface of the ocean. When someone says, �I am worried because�� and another responds, �Don�t worry so much,� the worried person does not cease to be concerned. Rather, it becomes clear that the apprehension cannot be safely shared with this individual. Likewise, when a person proceeds to give a suggestion before understanding the situation, individuals will frequently pretend to go along with the proposal simply to get rid of the problem solver.
-
 ### Diagnostic Phase
 
 Perhaps the greatest danger with the process of diagnosing is the natural tendency to move from listening, to diagnosing, to prescribing. Rarely do people reverse the process and return to listening after entering the diagnostic phase. It is much more likely that they will move on to prescribe mode. A plus of the diagnostic process, is that the listener can, at least at the superficial level, gain a better idea of what the challenge entails.
@@ -109,7 +105,7 @@ Let us return to the conversation between Aaliyah and Shanise.
 
 �What would he like you to do? Not to have any contact with her?� Shanise asks a couple of investigative questions.
 
-�Well, we quarrel a lot because I tell him I�m a mother. \[Pause] And he does not feel what I feel. And he does not want me to seek her out because, after all, she does not listen, and the situation will not improve. But I always seek her out. \[Long pause] And I told her not to be running about� to come to my home, but she will not, she says that�,� Aaliyah continues her story, a narrative born of a mother�s pain.
+�Well, we quarrel a lot because I tell him I�m a mother. \[Pause\] And he does not feel what I feel. And he does not want me to seek her out because, after all, she does not listen, and the situation will not improve. But I always seek her out. \[Long pause\] And I told her not to be running about� to come to my home, but she will not, she says that�,� Aaliyah continues her story, a narrative born of a mother�s pain.
 
 The questions have helped Shanise understand the situation a bit better. Observe, however, that Aaliyah, after answering, returns to speak about that which hurts her the most, her inability to help her daughter.
 
@@ -138,7 +134,6 @@ This question has permitted Manuel to explain what he truly feels. Other such qu
 When a question is asked to help someone take control of the conversation, I like the expression, �prime the pump.� These old fashioned water pumps functioned through a lever and a vacuum. One needed quite a bit of effort to make them start pumping water, but much less once the water started flowing. Prime-the-pump type questions are especially useful to help the person with the challenge:
 
 Start speaking. Take back control over the conversation, especially after an interruption (e.g., after the conversation stops when a third person momentarily walks into the room; the conversation is being renewed after a few days; or when the listener realizes he has interrupted or taken an overly directive approach to listening). There are several types of questions, comments, or gestures that can work under the prime the pump category. These may include, for example:
-
 - Investigative questions.
 - Analytical comments.
 - Summary of what has been heard.
@@ -156,7 +151,6 @@ A good listener has sufficient confidence in himself to be able to listen to oth
 Takes an empathic posture (motivates the other to speak without feeling judged). Does not use pauses as an excuse to interrupt. Permits the speaker to direct the conversation. Through this process the individual�if we earn her confidence�begins to speak more, to control the direction of the topic, to increase self understanding (by first reviewing that which is known and later by digging deeper), to consider possible options, and often, by choosing a possible outcome. We will consider some specific tactics that will help us accomplish these goals. A warning is in order. We must keep in mind that empathic listening is dynamic. It is not sufficient to have an interest in another, but we must also show it. And it is not sufficient to show an interest, we must feel it. The person being heard immediately notices if we get bored, seem distracted, or become upset.
 
 In the words of Alfred Benjamin, �Genuine listening is hard work; there is little about it that is mechanical� We hear with our ears, but we listen with our eyes and mind and heart and skin and guts as well.�7 Let us look at some specific techniques that are helpful.
-
 ### Dangling questions
 
 An incomplete question has the advantage of leaving much in the air and giving the client control over the direction he wishes to go. Let us return to our Argentine couple.
@@ -164,16 +158,14 @@ An incomplete question has the advantage of leaving much in the air and giving t
 �And the children� miss�?� Magdalena asks, prolonging the word miss.
 
 �And the children miss� much, especially the� affection of the grandmothers, cousins, undoubtedly they miss the whole family structure�� Manuel explains and continues to uncover the issues that are troubling him.
-
 ### Indications that we want to know more
 
 There are many ways we can signal an interest in listening and learning more. One of the most typical is to simply say, �Tell me more.� We could also say something like, �How interesting!� or simply, �Interesting.� What is important in all this is that we are not stuck with one monotonous and irritating technique.
-
 ### Repeating a phrase or key word
 
 One of the most important empathic listening techniques is to let the client know we are accompanying him by repeating, from time to time, one word, or a few, in the same tone of voice that he has used. Aaliyah continues to share with Shanise the pain she is feeling because of her daughter.
 
-�And she moved and now lives in a nearby town� \[Aaliyah raises her left hand while she speaks and indicates the direction, and then pauses]. With a friend��
+�And she moved and now lives in a nearby town� \[Aaliyah raises her left hand while she speaks and indicates the direction, and then pauses\]. With a friend��
 
 �Friend,� Shanise repeats.
 
@@ -181,7 +173,7 @@ One of the most important empathic listening techniques is to let the client kno
 
 Such empathic expressions or key words, contribute to the process without overly interrupting. There are times when the speaker may leave the thought process to reflect on the words the listener has repeated. But normally this happens in a very natural fashion that allows for fluidity. The speaker has the option of continuing what he is saying or further reflecting on the comment. Let us look at this same technique in the Argentine couple.
 
-�It is true that� while� the cost of education in this country is high� \[pause], yet the possibilities are infinite,� Manuel declares.
+�It is true that� while� the cost of education in this country is high� \[pause\], yet the possibilities are infinite,� Manuel declares.
 
 �Infinite,� Magdalena pronounces the word using the same tone that her husband had used.
 
@@ -199,8 +191,7 @@ Mekelle, a young African-American professional, is telling Susan, that her best 
 
 �Where is Palad from?� Susan interrupts. The question has no relationship to the pain that Mekelle is feeling at the moment. People often take back control of a conversation with the use of the word �but,� as we see below.
 
-�Palad is from Florida, he has lived several years in California and he is now living in Oregon,� Mekelle answers. �But� \[having lost track of where she was, Mekelle seems somewhat distracted and moves her hand, as if to say, lets get back to the topic, and continues] but� and it is only about Caucasian people, he only has problems with Caucasian people, \[Mekelle smiles] if the person was from any other race it would not matter, but when it is a matter of a Caucasian person��
-
+�Palad is from Florida, he has lived several years in California and he is now living in Oregon,� Mekelle answers. �But� \[having lost track of where she was, Mekelle seems somewhat distracted and moves her hand, as if to say, lets get back to the topic, and continues\] but� and it is only about Caucasian people, he only has problems with Caucasian people, \[Mekelle smiles\] if the person was from any other race it would not matter, but when it is a matter of a Caucasian person��
 ### Empathic sayings
 
 An empathic saying is a longer comment, of a reflective type, given to let someone know we are following them. We might say something like, �at this moment you feel terrible,� or, �I can see you are suffering.� These expressions can be very potent but only if used sparingly, and certainly not in a repetitive fashion. Here is an example of an empathic saying used properly:
@@ -212,11 +203,9 @@ A troubled youth approached me one day. �I hate life, it has treated me terrib
 In contrast, I observed a speaker�a therapist by training�who freely used the line, �I can see you are hurting.� I was the conference interpreter and was in a position to observe the audience. An older man told his heartbreaking anecdote, and the speaker used his line at what seemed the perfect moment. The participant stopped talking and leaned back. I could see in his eyes and body posture that he had felt empathy from the therapist. The man had been touched and now felt understood. I was impressed. It seemed to me, however, that with each subsequent use of �I can see you are hurting,� the catchy phrase became increasingly artificial. The magic was gone. Fewer people were convinced of its sincerity and the line soon meant �be quiet, I want to move on with my talk.� The process had become mechanical and empty, rather than based on true empathy.
 
 How does one know if the listening was empathic? Gerald Egan says, �If the helper�s empathic response is accurate, the client often tends to confirm its accuracy by a nod or some other nonverbal cue or by a phrase such as �that�s right� or �exactly.� This is usually followed by a further, usually more specific, elaboration of the problem situation.�8 And when one is off the mark, sometimes they will tell you, or just as likely, they will be quiet and avoid eye contact.
-
 ### Empathic questions
 
 In contrast to diagnostic questions, especially those analytical in nature, empathic questions go to the source of what the person is feeling. These questions are very powerful and less dangerous because they promote talking, rather than silence (i.e., prime the pump questions). Examples include, �What are you feeling at this moment?� Or, without completing the phrase and stretching out the word feeling, �You are fee-ling�?� The strength of empathic questions is that they help bring the pain out to the surface, feelings that often may lie deeply hidden. Often, people have been so preoccupied with analytical thinking, that they have not permitted themselves to sufficiently examine their feelings.
-
 ### Body language
 
 One of the best steps, in terms of body language, is to invite someone to take a seat, if she has not done so already. By offering a seat we let her know that we are willing to listen and ready to take the time to do so. That we are not going to ration out the time.
@@ -224,7 +213,6 @@ One of the best steps, in terms of body language, is to invite someone to take a
 Persons who are very interested in what another is saying may, from time to time, lean toward the speaker, and their interest is reflected in their faces, body language, and tone of voice. We can signal with our head movement that we are listening. But as with all of the techniques we have discussed, variety is critical. Otherwise, if we keep mechanically shaking our head to let the person know we are listening, we soon look like the bobble-head dogs that were often seen in the back windows of cars.
 
 If we are truly interested in listening, our body language shows it. Our non-verbal communication also betrays us when we get distracted. In a recent conversation I had not yet said anything, but must have shown intentions of interrupting. Before I could utter a word, the person speaking said, �Excuse me for interrupting you, but�� and she continued relating her account. This happened several times, proving what communication experts have told us all along: individuals signal their intent to interrupt before doing so.
-
 ### Respecting pauses
 
 Silence makes people uncomfortable. Yet, one of the most important empathic listening skills is not interrupting pauses, or periods of silence. When a person pauses she continues to think about the challenge. When we respect these pauses, by not interrupting, we are in essence offering the person a psychological chair to sit on; it is a way of saying �We are not going to abandon you.�
@@ -237,11 +225,11 @@ A young professional reported that she had put this advice to work. After a semi
 
 In order to conclude this sub-section, I would like to share two more clips from our African-American friend, Mekelle. The first one speaks of her desire to make a decision and resolve her challenge. This comment comes after she has had a long time to vent.
 
-�It has become clear that I must call Palad again and have another conversation with him,� Mekelle resolved. �I have not decided� yet� when I will call him. \[Pause] Yeap� that is where I find myself at the moment� I will probably find a moment to call him next week. I always like to plan this type of thing. \[Laughing] I am not ready to speak with him at this moment.�
+�It has become clear that I must call Palad again and have another conversation with him,� Mekelle resolved. �I have not decided� yet� when I will call him. \[Pause\] Yeap� that is where I find myself at the moment� I will probably find a moment to call him next week. I always like to plan this type of thing. \[Laughing\] I am not ready to speak with him at this moment.�
 
 Susan is accompanying Mekelle, and laughs when she laughs. �Not at this moment��
 
-�Right. \[Mekelle laughs] Perhaps I should call him some day when I am mad. \[Laughs some more and pauses] But� mm� it is beginning to weigh on me� this lets me know I ought to call now.�
+�Right. \[Mekelle laughs\] Perhaps I should call him some day when I am mad. \[Laughs some more and pauses\] But� mm� it is beginning to weigh on me� this lets me know I ought to call now.�
 
 In the second clip Mekelle speaks about the feelings of gratitude she is feeling for having been heard.
 
@@ -249,10 +237,9 @@ In the second clip Mekelle speaks about the feelings of gratitude she is feeling
 
 �Mmm,� Susan listens.
 
-Mekelle makes several false starts in terms of continuing with what is in her mind, with several pauses in between. She finally speaks, �This whole process� of realizing I am still mad at him� because I did not know I was still mad at him� \[pause] is very interesting� to me, that is. \[Mekelle once again attempts to speak between her own pauses, and finally speaks with much strength, and drawing out the word mad each time she uses it] I ask myself, �Why, exactly are you mad?� You know? Should you be mad? You could be disappointed� but mad! Especially since he did not do anything to you�by that I mean that he did not use offensive language, he did not hit me�� \[pause]. I feel he disappointed me� �How can you be so intelligent and think like that?��
+Mekelle makes several false starts in terms of continuing with what is in her mind, with several pauses in between. She finally speaks, �This whole process� of realizing I am still mad at him� because I did not know I was still mad at him� \[pause\] is very interesting� to me, that is. \[Mekelle once again attempts to speak between her own pauses, and finally speaks with much strength, and drawing out the word mad each time she uses it\] I ask myself, �Why, exactly are you mad?� You know? Should you be mad? You could be disappointed� but mad! Especially since he did not do anything to you�by that I mean that he did not use offensive language, he did not hit me�� \[pause\]. I feel he disappointed me� �How can you be so intelligent and think like that?��
 
 A person who uses the empathic listening approach, in its purity, will have to dedicate large blocks of time to it. Depending on the trauma or situation involved, I have found that people can easily talk to you between one or two hours if you will listen. Before concluding this paper, I would like to share a few thoughts about reconciling empathic listening and our values.
-
 ### Reconciling empathic listening to our belief system
 
 Throughout the years I have read numerous books about empathic listening, from a number of authors. Some of its distinguished proponents suggest that there is no such thing as absolute truth. My challenge, however, was the need to reconcile such a stance with the incredibly positive results obtained by the methodology. You see, I am a strong proponent of the existence of an absolute truth; of right and wrong, and of good and evil.
@@ -270,7 +257,6 @@ Good-will deposits, earned through the listening process, are required before th
 Despite all that has been said in this paper, there will be times when the mediator may have incompatible values with those of one or more of the parties involved. Helpers should not suggest that people violate their own principles or belief systems, nor should anyone expect a helper to be amoral. If a friend tells you he is thinking of being unfaithful to his wife, and if he does not reconsider during the process of being heard, I think it would be a great fault on the part of the listener to keep silent and not share his own feelings of repugnance towards such a stance.
 
 There may be times, then, when the mediator or empathic listener may need to share her value system with another. Often, people will seek your opinion because they respect your values. One of the leading experts on empathic listening and challenging, Gerald Egan, further suggests that living by a value system may well be a pre-requisite to properly challenging others.10
-
 ### Summary
 
 Through the process of being heard empathically, the troubled individual will control the direction, pace, and final destiny of the exploratory expedition. She will be required to do most of the hard work. Yet, she will not be left alone during this difficult voyage. Empathic listening permits those who own the challenge to begin to hear themselves. As a result, they become better equipped to solve their own difficulties. The empathic listening approach helps the person being heard to sufficiently distance himself from the challenge to see it with more clarity. There is great therapeutic value in being able to think aloud and share a problem with someone who will listen.
@@ -278,7 +264,6 @@ Through the process of being heard empathically, the troubled individual will co
 The good listener has enough confidence in himself to be able to listen to others without fear.
 
 Part of being a good listener may require consciously fighting to keep an open mind and avoid preconceived conclusions. A helper may want to continually assess her listening style in a given situation. For instance, she may ask herself: Am I ...
-
 - Allowing the person with the problem to do most of the talking?
 - Avoiding premature conclusions based on my life experiences?
 - Helping the individual to better understand himself?

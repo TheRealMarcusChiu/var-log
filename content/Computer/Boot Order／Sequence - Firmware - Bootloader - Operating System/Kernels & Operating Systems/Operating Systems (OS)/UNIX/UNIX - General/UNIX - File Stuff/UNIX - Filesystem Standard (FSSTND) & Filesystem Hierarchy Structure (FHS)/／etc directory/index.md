@@ -1,16 +1,15 @@
 ---
-publish: true
-title: ／etc directory
+title: "／etc directory"
 created: 2019-12-31T14:41:12.784-06:00
 modified: 2020-06-25T22:07:03.126-05:00
+parent: "[[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]"
+children:
+  - "[[／etc／alternatives]]"
 ---
-
 <strong>/etc directory</strong> contains host-specific system-wide [configuration files](https://en.wikipedia.org/wiki/Configuration_file)
-
 ### Origin of Name
 
 There has been controversy over the meaning of the name itself. In early versions of the UNIX Implementation Document from Bell labs, <code>/etc</code> is referred to as the <em>etcetera directory</em>, as this directory historically held everything that did not belong elsewhere (however, the FHS restricts <code>/etc</code> to static configuration files and may not contain binaries). Since the publication of early documentation, the directory name has been re-explained in various ways. Recent interpretations include backronyms such as "Editable Text Configuration" or "Extended Tool Chest".
-
 ### Subdirectories
 
 ```merge-table

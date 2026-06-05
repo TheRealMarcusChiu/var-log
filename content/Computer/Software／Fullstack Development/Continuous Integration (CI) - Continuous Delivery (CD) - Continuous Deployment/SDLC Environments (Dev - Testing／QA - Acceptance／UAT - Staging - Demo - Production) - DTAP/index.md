@@ -1,17 +1,15 @@
 ---
-publish: true
-title: SDLC Environments (Dev - Testing／QA - Acceptance／UAT - Staging - Demo - Production) - DTAP
+title: "SDLC Environments (Dev - Testing／QA - Acceptance／UAT - Staging - Demo - Production) - DTAP"
 created: 2020-11-24T21:39:51.419-06:00
 modified: 2026-05-21T13:39:07.383-05:00
+parent: "[[Continuous Integration (CI) - Continuous Delivery (CD) - Continuous Deployment]]"
+children: []
 ---
-
 ###### Software Development LifeCycle (SDLC)
-
-```excerpt
+````excerpt
 - is a process used by the software industry to design, develop and test high quality softwares
 - DTAP (Development, Testing, Acceptance, and Production) outlines an approach to testing and deploying software as part of the SDLC
-```
-
+````
 ^excerpt
 
 # Environment/Server Type

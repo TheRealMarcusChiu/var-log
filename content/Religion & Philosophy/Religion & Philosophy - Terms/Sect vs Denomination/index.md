@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Sect vs Denomination
+title: "Sect vs Denomination"
 created: 2021-09-13T04:44:38.890-05:00
 modified: 2021-09-13T04:44:38.890-05:00
+parent: "[[Religion & Philosophy - Terms]]"
+children: []
 ---
-
 At a general level, they are synonymous, both meaning ‘a distinct religious group or movement’ or ‘an autonomous Christian Church’, with ‘sect’ having a somewhat more negative connotation
 
 A <strong>denomination </strong>is indeed an autonomous Christian church or community, particularly of the Protestant movement. Not just the general families/communions (Anglican, Lutheran, Methodist, Baptist), but the specific autonomous churches (Church of England, Evangelical Lutheran Church in America, United Methodist, Southern Baptist). Thus one could say that there are several Lutheran or Baptist denominations.

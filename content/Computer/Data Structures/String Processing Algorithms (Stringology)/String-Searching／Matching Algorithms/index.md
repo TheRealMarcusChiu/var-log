@@ -1,26 +1,22 @@
 ---
-publish: true
-title: String-Searching／Matching Algorithms
+title: "String-Searching／Matching Algorithms"
 created: 2023-03-02T20:55:11.634-06:00
 modified: 2023-03-02T21:17:32.024-06:00
+parent: "[[String Processing Algorithms (Stringology)]]"
+children:
+  - "[[Knuth–Morris–Pratt Algorithm (KMP)]]"
 ---
-
 ###### String-Searching/Matching Algorithms
-
-```excerpt
+````excerpt
 - are an important class of string algorithms that try to find a place where one or several strings (also called patterns) are found within a larger string or text
-```
-
+````
 ^excerpt
 
 # Algorithm - Types
-
 ###### Single-Pattern Algorithms
-
 - 𝑚 is the length of the pattern
 - 𝑛 the length of the searchable text
 - 𝑘 = |𝛴| is the size of the alphabet
-
 ```merge-table
 {
   "rows": [

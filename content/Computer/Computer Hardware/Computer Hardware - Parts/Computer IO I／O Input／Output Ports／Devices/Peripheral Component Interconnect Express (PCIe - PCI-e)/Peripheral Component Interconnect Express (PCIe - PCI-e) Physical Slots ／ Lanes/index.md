@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Peripheral Component Interconnect Express (PCIe - PCI-e) Physical Slots ／ Lanes
+title: "Peripheral Component Interconnect Express (PCIe - PCI-e) Physical Slots ／ Lanes"
 created: 2024-08-07T11:45:11.031-05:00
 modified: 2025-10-14T15:24:53.220-05:00
+parent: "[[Peripheral Component Interconnect Express (PCIe - PCI-e)]]"
+children: []
 ---
-
 ###### Peripheral Component Interconnect Express (PCIe - PCI-e) Physical Slots
-
-```excerpt
+````excerpt
 - uses the [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCIe specification]]
 - are expansion slots found on a computer's [[Motherboard (MoBo)|motherboard]]
 - they allow additional hardware components to be connected to the computer, such as graphics cards, sound cards, network cards, and other peripherals
-```
-
+````
 ^excerpt
 
 # PCIe Slots - Lanes<font style="color: rgb(84,89,93);"> (×1 ×2 ×4 ×8 ×16 </font><font style="color: rgb(84,89,93);">×32</font>)
@@ -28,10 +26,8 @@ modified: 2025-10-14T15:24:53.220-05:00
   "tableStyle": "width: 71.1961%;"
 }
 ```
-
 - consumer CPUs will typically allow for 16 to 24 PCIe lanes
 - higher-end CPUs will typically allow for 64 or more PCIe lanes
-
 ```merge-table
 {
   "rows": [
@@ -78,7 +74,6 @@ modified: 2025-10-14T15:24:53.220-05:00
   ]
 }
 ```
-
 # PCIe Slots - Chipset Lanes vs Processor Lanes
 
 ```merge-table

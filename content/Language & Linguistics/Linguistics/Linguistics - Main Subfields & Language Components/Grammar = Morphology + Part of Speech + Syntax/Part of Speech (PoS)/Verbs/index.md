@@ -1,32 +1,38 @@
 ---
-publish: true
-title: Verbs
+title: "Verbs"
 created: 2021-09-13T04:44:04.823-05:00
 modified: 2022-06-25T17:59:08.726-05:00
+parent: "[[Part of Speech (PoS)]]"
+children:
+  - "[[Infinitive]]"
+  - "[[Modal Verbs]]"
+  - "[[Verb (Tense & Aspect)]]"
+  - "[[Verb Forms]]"
+  - "[[Verb Mood (Indicative - Subjunctive - Imperative)]]"
 ---
-
 ###### verbs
-
 - describes some action, state, or occurrence of the [[Subject - Predicate (Verb - Object)|subject]]
 - forming part of the [[Subject - Predicate (Verb - Object)|predicate]] of a sentence
 
 # Verb - Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - [[Passive Voice - Active Voice]]
 
 # Verb - Types
 
 there are 3 main classes of verbs in English:
-
 - main verbs (eat, sleep, walk)
 - modal verbs (can, will, should)
 - primary verbs (be, have, do)
 
 there are also:
-
 - regular verbs
 - irregular verbs
-
 ```merge-table
 {
   "rows": [

@@ -1,9 +1,21 @@
 ---
-publish: true
-title: ML - Model Types／Classifications／Categorizations
+title: "ML - Model Types／Classifications／Categorizations"
 created: 2020-01-19T14:21:30.913-06:00
 modified: 2024-08-21T18:34:18.853-05:00
+parent: "[[Machine Learning (ML) - Pattern Recognition]]"
+children:
+  - "[[ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)]]"
+  - "[[ML - Generative／Joint vs Discriminative／Conditional Models]]"
+  - "[[ML - Lazy Learning vs Eager Learning]]"
+  - "[[ML - Linear Models vs Non-Linear Models]]"
+  - "[[ML - Parametric vs Non-Parametric]]"
+  - "[[ML - Probabilistic vs Non-Probabilistic]]"
 ---
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 ```merge-table
 {

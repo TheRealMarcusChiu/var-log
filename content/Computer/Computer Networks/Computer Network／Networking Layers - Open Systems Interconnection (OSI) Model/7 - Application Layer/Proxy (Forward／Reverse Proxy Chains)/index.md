@@ -1,17 +1,18 @@
 ---
-publish: true
-title: Proxy (Forward／Reverse Proxy Chains)
+title: "Proxy (Forward／Reverse Proxy Chains)"
 created: 2019-03-16T22:05:31.175-05:00
 modified: 2025-06-21T15:13:09.690-05:00
+parent: "[[7 - Application Layer]]"
+children:
+  - "[[Forward Proxy (Proxy)]]"
+  - "[[Proxy Chains]]"
+  - "[[Reverse Proxy]]"
 ---
-
 ###### Proxy
-
-```excerpt
+````excerpt
 - operates at the [[7 - Application Layer|application layer]]
 - proxy server is an intermediary for requests from clients seeking resources from other servers
-```
-
+````
 ^excerpt
 
 # Proxy Types
@@ -43,7 +44,6 @@ modified: 2025-06-21T15:13:09.690-05:00
   ]
 }
 ```
-
 # Diagrams
 
 ```merge-table

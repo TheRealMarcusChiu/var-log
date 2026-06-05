@@ -1,12 +1,11 @@
 ---
-publish: true
-title: ComfyUI - Run as Service
+title: "ComfyUI - Run as Service"
 created: 2025-08-08T22:27:13.054-05:00
 modified: 2025-08-08T22:45:27.653-05:00
+parent: "[[ComfyUI]]"
+children: []
 ---
-
 Create a file <code><font style="color: rgb(122,134,154);">comfyui-start.sh</font></code>:
-
 ```bash
 #! /bin/bash
 
@@ -21,7 +20,6 @@ python main.py --listen
 ```
 
 Create a file <code><font style="color: rgb(122,134,154);">/etc/systemd/system/comfyui.service</font></code>:
-
 ```yml
 [Unit]
 Description=ComfyUI Service
@@ -38,7 +36,6 @@ WantedBy=multi-user.target
 ```
 
 Execute the following commands:
-
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable comfyui.service

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Negative Binomial Distribution vs Binomial Distribution
+title: "Negative Binomial Distribution vs Binomial Distribution"
 created: 2021-11-08T00:20:39.148-06:00
 modified: 2021-11-08T04:49:17.436-06:00
+parent: "[[Probability Distribution - UPD Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

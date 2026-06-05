@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Java - Throwable - Errors vs Exceptions - Unchecked vs Checked
+title: "Java - Throwable - Errors vs Exceptions - Unchecked vs Checked"
 created: 2020-05-21T16:45:51.570-05:00
 modified: 2022-06-30T19:59:53.054-05:00
+parent: "[[Java - lang]]"
+children:
+  - "[[Java - Designing With Exceptions]]"
 ---
-
 # Errors vs Exceptions
 
 ```merge-table
@@ -95,7 +96,6 @@ modified: 2022-06-30T19:59:53.054-05:00
   ]
 }
 ```
-
 # Checked Exceptions vs Unchecked Exceptions
 
 ```merge-table
@@ -159,11 +159,8 @@ modified: 2022-06-30T19:59:53.054-05:00
   ]
 }
 ```
-
 # Diagram
-
-![[Computer/Computer／Programming Languages/Computer Languages - General-Purpose Programming Languages (GPL)/Java Platform/Java/Java - Projects & Code Examples/Java - Native Libraries/Java - lang/Java - Throwable - Errors vs Exceptions - Unchecked vs Checked/Checked-and-Unchecked-Exceptions-in-Java.png|400]]![[Computer/Computer／Programming Languages/Computer Languages - General-Purpose Programming Languages (GPL)/Java Platform/Java/Java - Projects & Code Examples/Java - Native Libraries/Java - lang/Java - Throwable - Errors vs Exceptions - Unchecked vs Checked/Checked-and-Unchecked-Exception-Error.jpg|301]]
-
+![[Java - Throwable - Errors vs Exceptions - Unchecked vs Checked/Checked-and-Unchecked-Exceptions-in-Java.png|400]]![[Java - Throwable - Errors vs Exceptions - Unchecked vs Checked/Checked-and-Unchecked-Exception-Error.jpg|301]]
 - <code><font style="color: rgb(122,134,154);">Throwable</font></code> is the parent class of the classes <code><font style="color: rgb(122,134,154);">Error</font></code> and <code><font style="color: rgb(122,134,154);">Exception</font></code>
 - <strong>unchecked exceptions</strong> - are the subclasses of <code><font style="color: rgb(122,134,154);">RuntimeException</font></code> and the subclasses of <code><font style="color: rgb(122,134,154);">Error</font></code>
 - <strong>checked exceptions</strong> - are the remaining subclasses of <code><font style="color: rgb(122,134,154);">Exception</font></code> except <code><font style="color: rgb(122,134,154);">RuntimeException</font></code>

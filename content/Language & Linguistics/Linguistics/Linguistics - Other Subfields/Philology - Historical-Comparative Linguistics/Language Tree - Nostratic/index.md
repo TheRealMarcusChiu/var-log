@@ -1,15 +1,17 @@
 ---
-publish: true
-title: Language Tree - Nostratic
+title: "Language Tree - Nostratic"
 created: 2021-09-13T04:44:13.189-05:00
 modified: 2021-09-13T04:44:13.189-05:00
+parent: "[[Philology - Historical-Comparative Linguistics]]"
+children:
+  - "[[Afro-Asiatic Language]]"
+  - "[[Dravidian Language]]"
+  - "[[Proto-Indo European Language]]"
 ---
-
 <strong>Nostratic</strong> - is a hypothetical macro-family of all languages
-
 - [[Proto-Indo European Language|Indo-European]]
 - Uralic
-  - Finnish
+	- Finnish
 - Altaic (Turkic, Mongolic and Tungusic)
 - Kartvelian
 - [[Afro-Asiatic Language|Afro-Asiatic]]

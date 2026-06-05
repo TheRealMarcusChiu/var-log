@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Confidence Multipliers - Critical Values
+title: "Confidence Multipliers - Critical Values"
 created: 2021-09-13T05:29:19.256-05:00
 modified: 2023-09-01T12:06:17.857-05:00
+parent: "[[Margin of Error (ME)]]"
+children: []
 ---
-
 # Confidence Multipliers - Types
 
 ```merge-table

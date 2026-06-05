@@ -1,10 +1,21 @@
 ---
-publish: true
-title: Stochastic／Random／Markov Models／Process
+title: "Stochastic／Random／Markov Models／Process"
 created: 2021-09-13T05:26:59.076-05:00
 modified: 2025-09-02T16:25:52.688-05:00
+parent: "[[PGM - Model Types]]"
+children:
+  - "[[Continuous-Valued Continuous-Time Stochastic Process]]"
+  - "[[Hidden Markov Models (HMM)]]"
+  - "[[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)]]"
+  - "[[Markov Decision Process (MDP)]]"
+  - "[[Markov Process - Continuous-Time Markov Chains (CTMC)]]"
+  - "[[Markov Reward Process (MRP)]]"
+  - "[[Maximum Entropy Markov Model (MEMM) - Conditional Markov Models (CMM)]]"
+  - "[[Partially Observable Markov Decision Process (POMDP)]]"
+  - "[[Random Walk]]"
+  - "[[Stochastic Process - Analysis]]"
+  - "[[Stochastic Process - Models]]"
 ---
-
 ```merge-table
 {
   "rows": [
@@ -40,9 +51,7 @@ modified: 2025-09-02T16:25:52.688-05:00
   "tableStyle": "width: 100.0%;letter-spacing: 0.0px;"
 }
 ```
-
 # Stochastic Process - Other
-
 - [[Stochastic Process - Analysis]]
 - [[Stochastic Process - Models]]
 - [[Random Walk]]
@@ -128,10 +137,9 @@ modified: 2025-09-02T16:25:52.688-05:00
 ```
 
 dimensions:
-
 - state observability
-  - fully observable - all variables are observed
-  - partially observable - some variables are hidden/latent
+	- fully observable - all variables are observed
+	- partially observable - some variables are hidden/latent
 - system type
-  - autonomous - no actions/decisions can be made that would affect the future
-  - controlled - actions/decisions can be made that would affect the future
+	- autonomous - no actions/decisions can be made that would affect the future
+	- controlled - actions/decisions can be made that would affect the future

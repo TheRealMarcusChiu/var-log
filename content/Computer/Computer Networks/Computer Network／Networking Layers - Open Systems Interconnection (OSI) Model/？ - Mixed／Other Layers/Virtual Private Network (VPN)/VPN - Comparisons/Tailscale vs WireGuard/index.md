@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Tailscale vs WireGuard
+title: "Tailscale vs WireGuard"
 created: 2025-08-27T23:53:50.499-05:00
 modified: 2025-08-27T23:54:54.450-05:00
+parent: "[[VPN - Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Raw Moments - Moments About the Origin／Zero - Central／Mean Moments - Moments About The Mean - (Zeroth／First／Second／Third／Fourth／kth／nth) -  of a Probability Density Function
+title: "Raw Moments - Moments About the Origin／Zero - Central／Mean Moments - Moments About The Mean - (Zeroth／First／Second／Third／Fourth／kth／nth) -  of a Probability Density Function"
 created: 2021-09-13T05:28:56.203-05:00
 modified: 2026-05-21T15:11:37.933-05:00
+parent: "[[Quantitative／Numerical Univariate Analysis Descriptive Statistics]]"
+children: []
 ---
-
 ###### Raw Moments - Moments About the Origin/Zero - Central/Mean Moments - Moments About The Mean - (Zeroth/First/Second/Third/Fourth/kth/nth) -  of a Probability Density Function
-
-```excerpt
+````excerpt
 - are specific types of [[Moments／Moment (Mathematics)|moments]] of a [[Probability Distribution - Continuous Functions／Models (Probability Density Functions)|probability density function]]
-```
-
+````
 ^excerpt
 
 # Definitions
@@ -95,7 +93,6 @@ modified: 2026-05-21T15:11:37.933-05:00
   ]
 }
 ```
-
 # Significance of moments (raw, central, normalized) and cumulants (raw, normalized), in connection with named properties of distributions
 
 ```merge-table
@@ -221,11 +218,9 @@ modified: 2026-05-21T15:11:37.933-05:00
   ]
 }
 ```
-
 # Method of Estimating Moments
 
 [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|Point Estimation]]:
-
 - [[Method of Moments Estimation (MOME)]]
 
 # Resources

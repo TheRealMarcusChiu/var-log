@@ -1,22 +1,20 @@
 ---
-publish: true
-title: DNS Resource Records／Entries (DNS RR)
+title: "DNS Resource Records／Entries (DNS RR)"
 created: 2019-09-03T13:08:34.683-05:00
 modified: 2025-07-14T17:07:44.082-05:00
+parent: "[[Domain Name System／Service (DNS)]]"
+children:
+  - "[[DNS - CNAME vs ALIAS]]"
 ---
-
 ###### DNS Resource Records/Entries (DNS RR)
-
-```excerpt
+````excerpt
 - are entries are stored in a [[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)]]
-```
-
+````
 ^excerpt
 
 # DNS RR Entry - Components
 
 a DNS RR entry contains the following components:
-
 - <strong>name</strong> = domain or sub-domain (e.g. <font style="color: rgb(128,128,128);"><em>marcuschiu.com.</em></font> or <font style="color: rgb(128,128,128);"><em>confluence.marcuschiu.com.</em></font>)
 - <strong>value</strong> = (e.g. <font style="color: rgb(128,128,128);"><em>3.95.18.164</em></font> or <font style="color: rgb(128,128,128);"><em>example.com</em></font>)
 - <strong>type</strong> = DNS RR Type (e.g. <font style="color: rgb(128,128,128);"><em>A</em></font>, <font style="color: rgb(128,128,128);"><em>CNAME</em></font>, <font style="color: rgb(128,128,128);"><em>TXT</em></font>, etc)
@@ -152,7 +150,6 @@ a DNS RR entry contains the following components:
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # DNS Records Types Used For DNSSEC
 
 ```merge-table
@@ -216,5 +213,9 @@ a DNS RR entry contains the following components:
   "tableStyle": "width: 62.7339%;"
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

@@ -1,16 +1,19 @@
 ---
-publish: true
-title: Software／Server／System Configuration Management (SCM)
+title: "Software／Server／System Configuration Management (SCM)"
 created: 2019-03-16T02:06:53.900-05:00
 modified: 2025-11-03T14:55:48.722-06:00
+parent: "[[5 - Deploy]]"
+children:
+  - "[[Ansible]]"
+  - "[[Chef]]"
+  - "[[Nix]]"
+  - "[[Vagrant]]"
 ---
-
 For most people, computers don't stay the same. Software is added, removed, and updated. Configurations are changed. Think about the changes you've made to your computer since the first time you booted it up. Now imagine making those changes to 10, 100, or 1,000 more computers. <strong>Software/Server/System Configuration Management (SCM)</strong> tools are what make implementing and enforcing these changes possible.
 
 not to be confused with [[Version Control System (VCS) - Source Control Management (SCM)|Source Control Management (SCM)]]
 
 <strong>Software/Server/System Configuration Management </strong>is all processes to manage all the changes of the software:
-
 - development ([[Version Control System (VCS) - Source Control Management (SCM)|Version Control System (VCS)]])
 - delivery release (VCS)
 - bug tracking
@@ -20,7 +23,7 @@ not to be confused with [[Version Control System (VCS) - Source Control Managem
 
 # SCM - Language Types
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -59,9 +62,13 @@ not to be confused with [[Version Control System (VCS) - Source Control Managem
   ],
   "tableStyle": "width: 100.0%;"
 }
-````
-
+```
 # SCM - Frameworks
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - IBM Rational Synergy
 - WindowsDSC

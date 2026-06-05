@@ -1,9 +1,16 @@
 ---
-publish: true
-title: Set Operators／Operations
+title: "Set Operators／Operations"
 created: 2021-09-13T05:29:36.377-05:00
 modified: 2024-01-11T13:36:15.971-06:00
+parent: "[[Set Theory]]"
+children:
+  - "[[Cartesian Product]]"
 ---
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 ```merge-table
 {

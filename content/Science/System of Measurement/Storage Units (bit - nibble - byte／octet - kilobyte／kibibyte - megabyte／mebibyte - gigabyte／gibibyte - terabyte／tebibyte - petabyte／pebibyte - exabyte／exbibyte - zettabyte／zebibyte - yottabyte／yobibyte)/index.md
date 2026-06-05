@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Storage Units (bit - nibble - byte／octet - kilobyte／kibibyte - megabyte／mebibyte - gigabyte／gibibyte - terabyte／tebibyte - petabyte／pebibyte - exabyte／exbibyte - zettabyte／zebibyte - yottabyte／yobibyte)
+title: "Storage Units (bit - nibble - byte／octet - kilobyte／kibibyte - megabyte／mebibyte - gigabyte／gibibyte - terabyte／tebibyte - petabyte／pebibyte - exabyte／exbibyte - zettabyte／zebibyte - yottabyte／yobibyte)"
 created: 2021-09-13T04:45:54.230-05:00
 modified: 2023-04-15T13:32:58.772-05:00
+parent: "[[System of Measurement]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

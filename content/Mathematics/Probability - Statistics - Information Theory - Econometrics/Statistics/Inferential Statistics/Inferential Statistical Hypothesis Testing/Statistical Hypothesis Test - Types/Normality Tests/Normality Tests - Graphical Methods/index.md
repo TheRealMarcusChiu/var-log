@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Normality Tests - Graphical Methods
+title: "Normality Tests - Graphical Methods"
 created: 2021-09-13T05:29:01.593-05:00
 modified: 2021-09-13T05:29:01.593-05:00
+parent: "[[Normality Tests]]"
+children: []
 ---
-
 # Normality Tests - Graphical Methods
-
 - [[Histogram]]
 - [[Quantile-Quantile (Q-Q／QQ) Plot|Quantile-Quantile (Q-Q/QQ) Plot]]
 
@@ -52,7 +51,5 @@ modified: 2021-09-13T05:29:01.593-05:00
   ]
 }
 ```
-
 # Resources
-
-- <http://uc-r.github.io/assumptions_normality>
+- [http://uc-r.github.io/assumptions_normality](http://uc-r.github.io/assumptions_normality)

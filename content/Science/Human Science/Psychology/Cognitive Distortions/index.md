@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Cognitive Distortions
+title: "Cognitive Distortions"
 created: 2026-05-14T12:11:00.743-05:00
 modified: 2026-05-14T12:12:24.700-05:00
+parent: "[[Psychology]]"
+children: []
 ---
-
 based on: [[Cognitive Distortions.pdf]]
 
 ```merge-table

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Problem of Demarcation (Verifiability／Verifiable vs Falsifiability／Falsifiable)
+title: "Problem of Demarcation (Verifiability／Verifiable vs Falsifiability／Falsifiable)"
 created: 2021-09-13T04:44:36.386-05:00
 modified: 2021-09-13T04:44:36.386-05:00
+parent: "[[Philosophy of Science]]"
+children: []
 ---
-
 ###### Problem of Demarcation
-
 - the demarcation problem is the question of how to distinguish between science and non-science
 - is a central problem in the [[Philosophy of Science|philosophy of science]]
 
@@ -36,8 +35,6 @@ the 2 main contending criteria, the hypothesis must be either:
   ]
 }
 ```
-
 # Scientific Law Claims - Law claims
-
 - are claims that are universal in scope (in simplest form, "All As are everywhere and everywhen Bs")
 - can be falsified but not verified. Thus, one can concluded that the way to truth is indirect, by elimination of falsehood

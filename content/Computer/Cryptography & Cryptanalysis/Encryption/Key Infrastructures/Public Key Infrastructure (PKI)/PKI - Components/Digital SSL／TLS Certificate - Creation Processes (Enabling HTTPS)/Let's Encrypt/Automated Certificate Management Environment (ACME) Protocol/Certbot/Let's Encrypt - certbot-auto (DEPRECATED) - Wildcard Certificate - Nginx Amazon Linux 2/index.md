@@ -1,20 +1,18 @@
 ---
-publish: true
-title: Let's Encrypt - certbot-auto (DEPRECATED) - Wildcard Certificate - Nginx Amazon Linux 2
+title: "Let's Encrypt - certbot-auto (DEPRECATED) - Wildcard Certificate - Nginx Amazon Linux 2"
 created: 2020-06-28T17:34:50.971-05:00
 modified: 2025-06-12T12:10:29.076-05:00
+parent: "[[Certbot]]"
+children: []
 ---
-
 Doing domain validation in this way is the only way to obtain wildcard certificates from Let’s Encrypt
 
 install certbot-auto
-
 ```bash
 curl -O https://dl.eff.org/certbot-auto
 ```
 
 modify certbot-auto
-
 ```bash
 # find the following line
 elif [ -f /etc/redhat-release ]; then
@@ -23,25 +21,21 @@ elif [ -f /etc/redhat-release ] || grep 'cpe:.*:amazon_linux:2' /etc/os-release 
 ```
 
 move certbot-auto
-
 ```
 mv certbot-auto /usr/local/bin/certbot-auto
 ```
 
 switch to root user (NOTE - keeps the \$PATH)
-
 ```
 sudo su -
 ```
 
 generate certificate for <font style="color: rgb(128,128,128);">"\*.marcuschiu.com"</font> and <font style="color: rgb(128,128,128);">"marcuschiu.com"</font>
-
 ```bash
 certbot-auto certonly --manual --preferred-challenges=dns --email marcuschiu9@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d "*.marcuschiu.com" -d "marcuschiu.com" --debug
 ```
 
 > [!expand]- example output
->
 > ```text
 > ... installing dependencies
 >
@@ -97,12 +91,10 @@ certbot-auto certonly --manual --preferred-challenges=dns --email marcuschiu9@gm
 > ```
 
 once this process is finished we get 2 files:
-
 - /etc/letsencrypt/live/marcuschiu.com/fullchain.pem
 - /etc/letsencrypt/live/marcuschiu.com/privkey.pem
 
 use this in Nginx like so below
-
 ```
 ssl_certificate     /etc/letsencrypt/live/marcuschiu.com/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/marcuschiu.com/privkey.pem;

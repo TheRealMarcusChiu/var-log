@@ -1,17 +1,19 @@
 ---
-publish: true
-title: Maximum／Max Flow
+title: "Maximum／Max Flow"
 created: 2021-09-13T05:25:43.180-05:00
 modified: 2021-09-13T05:25:43.180-05:00
+parent: "[[Maximum Flow - Minimum Cut]]"
+children:
+  - "[[Edmonds-Karp Algorithm]]"
+  - "[[Ford Fulkerson Algorithm]]"
+  - "[[Maximum Bipartite Matching Problem]]"
+  - "[[Maximum Independent／Disjoint Paths Problem]]"
 ---
-
 given:
-
 - a graph which represents a flow network where every edge has a capacity
 - two vertices source ‘s’ and sink ‘t’ in the graph
 
 find the <strong>maximum flow</strong> from s to t with following constraints:
-
 1. flow on an edge doesn’t exceed the given capacity of the edge
 2. incoming flow is equal to outgoing flow for every vertex except s and t
 
@@ -97,8 +99,6 @@ find the <strong>maximum flow</strong> from s to t with following constraints:
   ]
 }
 ```
-
 ### Applications of Maximum Flows to Solve Other Optimization Problems
-
 - [[Maximum Independent／Disjoint Paths Problem|maximum disjoint paths problem]] -
 - [[Maximum Bipartite Matching Problem|maximum bipartite matching problem]] -

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Code Generation Library (CGLIB)
+title: "Java - Code Generation Library (CGLIB)"
 created: 2022-06-05T17:13:43.105-05:00
 modified: 2022-06-07T02:14:42.687-05:00
+parent: "[[Java - Bytecode Manipulation Libraries]]"
+children: []
 ---
-
 ###### Code Generation Library (CGLIB)
-
 - is a [[Java - Bytecode Manipulation Libraries|byte instrumentation library]] used in many Java frameworks such as [[Java - Hibernate|Hibernate]] or [[Java - Spring Family|Spring]] which allows manipulating or creating classes after the compilation phase of a program
 - the JDK dynamic proxy approach requires the target objects to implement one or more interfaces. What if you want to proxy legacy classes that do not have interfaces? You can use the CGLIB library
 - uses [[Java - ASM|ASM]] underneath
@@ -14,7 +13,6 @@ modified: 2022-06-07T02:14:42.687-05:00
 # Dependencies
 
 > [!expand]- maven dependencies
->
 > ```
 > <dependency>
 >     <groupId>cglib</groupId>
@@ -22,7 +20,6 @@ modified: 2022-06-07T02:14:42.687-05:00
 >     <version>3.2.4</version>
 > </dependency>
 > ```
-
 # Package Structure
 
 ```merge-table
@@ -79,12 +76,10 @@ modified: 2022-06-07T02:14:42.687-05:00
   ]
 }
 ```
-
 # Code Examples
 
 > [!expand-ui]- Enhancer - creating proxies
 > A service class that you want to proxy
->
 > ```
 > public class PersonService {
 >
@@ -99,7 +94,6 @@ modified: 2022-06-07T02:14:42.687-05:00
 > ```
 >
 > Using Enhancer to proxy class
->
 > ```
 > import net.sf.cglib.proxy.Enhancer;
 > import net.sf.cglib.proxy.FixedValue;
@@ -129,8 +123,8 @@ modified: 2022-06-07T02:14:42.687-05:00
 > }
 > ```
 
-> [!expand-ui]- BeanGenerator - creating beans/objects dynamically <code>[BeanGenerator](http://cglib.sourceforge.net/apidocs/net/sf/cglib/beans/BeanGenerator.html)</code> allows dynamic creation of beans and to add fields together with setter and getter methods. It can be used by code generation tools to generate simple [[Classes／Objects Types (POCO／POJO／POPO - Data Transfer Object DTO - Domain Model - Persistence Model - Java Data Object (JDO))|POJO]] objects
->
+> [!expand-ui]- BeanGenerator - creating beans/objects dynamically
+> <code>[BeanGenerator](http://cglib.sourceforge.net/apidocs/net/sf/cglib/beans/BeanGenerator.html)</code> allows dynamic creation of beans and to add fields together with setter and getter methods. It can be used by code generation tools to generate simple [[Classes／Objects Types (POCO／POJO／POPO - Data Transfer Object DTO - Domain Model - Persistence Model - Java Data Object (JDO))|POJO]] objects
 > ```
 > import net.sf.cglib.beans.BeanGenerator;
 >
@@ -163,7 +157,6 @@ modified: 2022-06-07T02:14:42.687-05:00
 > A <em>mixin</em> is a construct that allows combining multiple objects into one. We can include the behavior of a couple of classes and expose that behavior as a single class or interface. The CGLIB Mixins allow the combination of several objects into a single object. However, in order to do so all objects that are included within a mixin must be backed by interfaces.
 >
 > Let's say that we want to create a mixin of two interfaces. We need to define both interfaces and their implementations:
->
 > ```
 > public interface Interface1 {
 >     String first();
@@ -189,13 +182,11 @@ modified: 2022-06-07T02:14:42.687-05:00
 > ```
 >
 > To compose implementations of <em>Interface1</em> and <em>Interface2 </em>we need to create an interface that extends both of them:
->
 > ```
 > public interface MixinInterface extends Interface1, Interface2 { }
 > ```
 >
 > By using a <em>create()</em> method from the [<em>Mixin</em>](http://cglib.sourceforge.net/apidocs/net/sf/cglib/proxy/Mixin.html) class we can include behaviors of <em>Class1</em> and <em>Class2</em> into a <em>MixinInterface:</em>
->
 > ```
 > Mixin mixin = Mixin.create(
 >   new Class[]{ Interface1.class, Interface2.class, MixinInterface.class },
@@ -206,8 +197,6 @@ modified: 2022-06-07T02:14:42.687-05:00
 > assertEquals("first behaviour", mixinDelegate.first());
 > assertEquals("second behaviour", mixinDelegate.second());
 > ```
-
 # Resources
-
-- <https://www.baeldung.com/cglib>
-- <https://objectcomputing.com/resources/publications/sett/november-2005-create-proxies-dynamically-using-cglib-library#:~:text=CGLIB%20is%20a%20powerful%2C%20high,dynaop%2C%20to%20provide%20method%20interceptions>.
+- [https://www.baeldung.com/cglib](https://www.baeldung.com/cglib)
+- [https://objectcomputing.com/resources/publications/sett/november-2005-create-proxies-dynamically-using-cglib-library#:~:text=CGLIB%20is%20a%20powerful%2C%20high,dynaop%2C%20to%20provide%20method%20interceptions](https://objectcomputing.com/resources/publications/sett/november-2005-create-proxies-dynamically-using-cglib-library#:~:text=CGLIB%20is%20a%20powerful%2C%20high,dynaop%2C%20to%20provide%20method%20interceptions).

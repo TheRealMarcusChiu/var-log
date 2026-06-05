@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Digital SSL／TLS Certificate - Types (DV - OV - EV)
+title: "Digital SSL／TLS Certificate - Types (DV - OV - EV)"
 created: 2019-11-11T18:41:10.329-06:00
 modified: 2022-11-26T02:50:37.375-06:00
+parent: "[[Digital SSL／TLS Certificate]]"
+children: []
 ---
-
 based on [[Digital SSL／TLS Certificate - Types (DV - OV - EV)|SSL/TLS]] technology
-
 # Digital SSL/TLS Certificates - Types
 
 ```merge-table
@@ -49,7 +48,6 @@ based on [[Digital SSL／TLS Certificate - Types (DV - OV - EV)|SSL/TLS]] tech
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Digital SSL/TLS Certificates - Types
 
 ```merge-table
@@ -91,7 +89,5 @@ based on [[Digital SSL／TLS Certificate - Types (DV - OV - EV)|SSL/TLS]] tech
   ]
 }
 ```
-
 # What Digital SSL/TLS Certificate Do I Need?
-
-![[Computer/Cryptography & Cryptanalysis/Encryption/Key Infrastructures/Public Key Infrastructure (PKI)/PKI - Components/Digital SSL／TLS Certificate/Digital SSL／TLS Certificate - Types (DV - OV - EV)/CASC-SSL-TLS-Cert-Info.jpg|800]]
+![[Digital SSL／TLS Certificate - Types (DV - OV - EV)/CASC-SSL-TLS-Cert-Info.jpg|800]]

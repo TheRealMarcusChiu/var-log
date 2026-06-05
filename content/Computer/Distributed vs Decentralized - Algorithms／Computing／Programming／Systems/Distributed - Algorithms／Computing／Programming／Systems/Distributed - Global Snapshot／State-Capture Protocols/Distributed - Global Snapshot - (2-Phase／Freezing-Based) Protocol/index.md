@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Distributed - Global Snapshot - (2-Phase／Freezing-Based) Protocol
+title: "Distributed - Global Snapshot - (2-Phase／Freezing-Based) Protocol"
 created: 2019-06-18T19:42:36.266-05:00
 modified: 2019-12-15T14:03:31.145-06:00
+parent: "[[Distributed - Global Snapshot／State-Capture Protocols]]"
+children: []
 ---
-
 ```
             FREEZE                          UNFREEZE
 P1 -------.===============================.----------
@@ -24,7 +24,8 @@ S4 ---.--------------------------------.------------- snapshot process
                    I                          II
 ```
 
-<strong>application messages</strong> - messages between application processes <strong>control/system messages</strong> - message between snapshot process and a application process
+<strong>application messages</strong> - messages between application processes
+<strong>control/system messages</strong> - message between snapshot process and a application process
 
 ```merge-table
 {
@@ -99,11 +100,9 @@ S4 ---.--------------------------------.------------- snapshot process
   ]
 }
 ```
-
 ### Prove Algorithm 2 is Consistent
 
 proof by contradiction - assume global state is not consistent
-
 ```
                                                         freeze send
 Pi        -------------------------------.-----SNAPSHOTj=============
@@ -117,14 +116,12 @@ Pj        ---SNAPSHOTi===========.---.------------------\------------
 Psnapshot ---------.---------.------------------------------.--------
 ```
 
-receive(u) -> send(m)
-send(m) -> receive(m)
+receive(u) -\> send(m)
+send(m) -\> receive(m)
 receive(
 .....
 unfinished cycle proof
 .....
-
 # <strong>Complexity</strong>
-
 - message complexity - O(n)
 - time complexity - O(1)

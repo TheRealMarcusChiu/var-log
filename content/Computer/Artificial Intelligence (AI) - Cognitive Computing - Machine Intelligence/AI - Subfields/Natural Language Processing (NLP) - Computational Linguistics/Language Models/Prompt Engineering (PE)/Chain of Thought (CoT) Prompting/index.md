@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Chain of Thought (CoT) Prompting
+title: "Chain of Thought (CoT) Prompting"
 created: 2023-08-04T13:43:24.532-05:00
 modified: 2023-08-04T13:53:13.357-05:00
+parent: "[[Prompt Engineering (PE)]]"
+children: []
 ---
-
 ###### Chain of Thought (CoT) Prompting
-
-```excerpt
+````excerpt
 - a prompting method that encourages the LLM to explain its reasoning
-```
-
+````
 ^excerpt
 
 # CoT - Example

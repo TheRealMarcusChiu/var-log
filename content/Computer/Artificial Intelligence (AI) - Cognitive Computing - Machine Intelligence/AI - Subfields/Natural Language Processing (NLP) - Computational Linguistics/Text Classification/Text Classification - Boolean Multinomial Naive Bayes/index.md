@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Text Classification - Boolean Multinomial Naive Bayes
+title: "Text Classification - Boolean Multinomial Naive Bayes"
 created: 2020-11-02T20:24:29.507-06:00
 modified: 2020-11-02T22:02:55.493-06:00
+parent: "[[Text Classification]]"
+children: []
 ---
-
 Using [[Bivariate／Boolean／Binary Multinoulli／Multinomial Naive Bayes|Boolean Multinomial Naive Bayes]] for [[Text Classification]]
-
 ### Training
 
 calculate 𝐏(𝐶=𝑐<sub>𝑗</sub>) prior probablities:
-
 ```
 for each 𝑐ⱼ in 𝐶:
 	docsⱼ = all docs with class 𝑐ⱼ
@@ -18,23 +16,20 @@ for each 𝑐ⱼ in 𝐶:
 ```
 
 calculate 𝐏(𝑤ᵢ|𝑐ⱼ) likelihoods:
-
 - in each doc remove duplicates of each word type (i.e. retain only a single instance of a word)
 - corpus = single doc containing all docs
 - 𝑛 = size of corpus
-
 ```
 for each word 𝑤ᵢ in vocabulary:
 	𝑛ᵢ = # of occurence of 𝑤ᵢ in corpus
 	𝐏(𝑤ᵢ|𝑐ⱼ) = (𝑛ᵢ + 𝛼) / (𝑛 + 𝛼|vocabulary|)
 ```
-
 ### Testing
 
-on testing document 𝑑 = \[𝑤₁, ..., 𝑤ᵣ]:
+on testing document 𝑑 = \[𝑤₁, ..., 𝑤ᵣ\]:
 
 > [!indent]
-> 𝑎𝑟𝑔𝑚𝑎𝑥<sub>𝑐ⱼ∊𝐶</sub> \[ 𝐏(𝑐ⱼ) · 𝛱<sub>𝑖∊𝑝𝑜𝑠𝑖𝑡𝑖𝑜𝑛𝑠</sub>\[𝐏(𝑤ᵢ|𝑐ⱼ)] ]
+> 𝑎𝑟𝑔𝑚𝑎𝑥<sub>𝑐ⱼ∊𝐶</sub> \[ 𝐏(𝑐ⱼ) · 𝛱<sub>𝑖∊𝑝𝑜𝑠𝑖𝑡𝑖𝑜𝑛𝑠</sub>\[𝐏(𝑤ᵢ|𝑐ⱼ)\] \]
 
 ### Example - Normal Naive Bayes vs Boolean Multinomial Naive Bayes
 

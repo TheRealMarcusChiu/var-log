@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Spring - Test - Context - @ContextConfiguration
+title: "Java - Spring - Test - Context - @ContextConfiguration"
 created: 2021-05-29T11:10:46.697-05:00
 modified: 2021-05-29T11:15:47.120-05:00
+parent: "[[Java - Spring Framework - Testing Framework]]"
+children: []
 ---
-
 # 1 - Overview
-
 - from Spring Test Framework
 - used for Spring context (including Spring Boot)
 - loads an ApplicationContext for Spring integration test
@@ -15,7 +14,6 @@ modified: 2021-05-29T11:15:47.120-05:00
 # 2 - Code Example
 
 [[Java - JUnit4 - JUnit5 Jupiter|JUnit5]] code example
-
 ```
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = ExampleConfig.class)
@@ -35,7 +33,6 @@ public class ContextConfigurationJUnit5ExampleTest {
 ```
 
 [[Java - JUnit4 - JUnit5 Jupiter|JUnit4]] code example
-
 ```
 same as JUnit5 but replace @ExtendWith(SpringExtension.class) with @RunWith(SpringRunner.class)
 ```

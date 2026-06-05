@@ -1,11 +1,11 @@
 ---
-publish: true
-title: R² - R-Squared - Coefficient of Determination - Coefficient of Multiple Determination - Multiple R-Square
+title: "R² - R-Squared - Coefficient of Determination - Coefficient of Multiple Determination - Multiple R-Square"
 created: 2021-09-13T05:28:44.973-05:00
 modified: 2026-05-21T03:11:59.507-05:00
+parent: "[[Bivariate／Multivariate Analysis Descriptive Statistics]]"
+children: []
 ---
-
-```excerpt
+````excerpt
 <strong>[[R² - R-Squared - Coefficient of Determination - Coefficient of Multiple Determination - Multiple R-Square|R-Square - Coefficient of Determination - Coefficient of Multiple Determination - Multiple R-Square]]</strong>
 - 𝑅<sup>2</sup>is very similar to [[Pearson's Correlation Coefficient (R)]]
 - 𝑅<sup>2</sup>[[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis|measures]] the proportion of the <em>total variation</em> (<font style="color: rgb(51,102,255);">𝑆𝑆<sub>𝑇𝑂𝑇</sub></font>) explained by [[Ordinary Least Squares (OLS) Regression|regression model]] (<font style="color: rgb(0,128,0);">𝑆𝑆<sub>𝑅𝐸𝐺</sub></font>) In other words, how close the data fits the regression model
@@ -39,8 +39,7 @@ visual of <font style="color: rgb(51,102,255);">variance-about-the-mean</font> v
 
 ###### R<sup>2</sup> - Example
 ![[R² - R-Squared - Coefficient of Determination - Coefficient of Multiple Determination - Multiple R-Square/r-squared-visual-example.png|400]]
-```
-
+````
 ^excerpt
 
 # Resources

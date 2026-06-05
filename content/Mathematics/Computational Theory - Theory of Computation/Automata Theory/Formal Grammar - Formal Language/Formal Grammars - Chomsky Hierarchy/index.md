@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Formal Grammars - Chomsky Hierarchy
+title: "Formal Grammars - Chomsky Hierarchy"
 created: 2021-09-13T05:25:04.800-05:00
 modified: 2022-01-16T16:02:57.063-06:00
+parent: "[[Formal Grammar - Formal Language]]"
+children:
+  - "[[Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)]]"
 ---
-
 ````excerpt
 ###### Chomsky Hierarchy
 - is a containment hierarchy of classes of [[Formal Grammar - Formal Language|formal language/grammars]]
@@ -91,5 +92,4 @@ syntax definitions:
 
 Every regular language is context-free, every context-free language is context-sensitive, every context-sensitive language is recursive, and every recursive language is recursively enumerable
 ````
-
 ^excerpt

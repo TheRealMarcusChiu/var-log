@@ -1,44 +1,38 @@
 ---
-publish: true
-title: SSL／TLS - Optimizing Handshaking
+title: "SSL／TLS - Optimizing Handshaking"
 created: 2019-12-21T14:11:08.468-06:00
 modified: 2019-12-21T15:43:02.867-06:00
+parent: "[[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)]]"
+children: []
 ---
-
 ### TLS - Full Handshake
 
 full handshake requires 3 round trips:
-
 - 1 round trip for TCP 3-Way Handshake (note the last TCP ACK message is sent with the first TLS ClientHello message)
 - 2 round trips for TLS cipher-suite choosing, certificate exchange, client-key-exchange, finished message
 
-![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/5 - Session Layer/Secure Sockets Layer (SSL) - Transport Layer Security (TLS)/SSL／TLS - Optimizing Handshaking/2.png|500]]
-
+![[SSL／TLS - Optimizing Handshaking/2.png|500]]
 ### Optimizing TLS Handshakes
 
 For Starting New Session
-
 - <strong>False Start</strong> - send application data right after ChangeCipherSpec message is sent
 
-![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/5 - Session Layer/Secure Sockets Layer (SSL) - Transport Layer Security (TLS)/SSL／TLS - Optimizing Handshaking/false-start.jpg|500]]
+![[SSL／TLS - Optimizing Handshaking/false-start.jpg|500]]
 
 For Resuming A Session
-
-- <strong>Abbreviated Handshake</strong> - <https://blogs.msdn.microsoft.com/huizhu/2009/12/17/ssl-tls-full-handshake-vs-abbreviated-handshake/>
-  - uses 2 mechanisms:
-    - session IDs -
-    - session tickets -
-  - the difference between TLS Full handshake and TLS Abbreviated Handshake is that abbreviated handshake is using 32 bit existing SSL session ID for Client Hello. If SSL server agreed on this session, server doesn't need to send the public key of certificate back to client. Also, client doesn't need to take time to validate the server cert as it is an existing session. If server doesn't agree on the SSL session, server needs to push a new session ID and then go to full handshake.
-- <strong>Resumption and Pre-Shared Key (PSK)</strong> - <https://tools.ietf.org/html/rfc8446#section-2.2>
-  - introduced in TLS 1.3
-  - deprecates <em>TLS Abbreviated Handshake</em>
+- <strong>Abbreviated Handshake</strong> - [https://blogs.msdn.microsoft.com/huizhu/2009/12/17/ssl-tls-full-handshake-vs-abbreviated-handshake/](https://blogs.msdn.microsoft.com/huizhu/2009/12/17/ssl-tls-full-handshake-vs-abbreviated-handshake/)
+	- uses 2 mechanisms:
+		- session IDs -
+		- session tickets -
+	- the difference between TLS Full handshake and TLS Abbreviated Handshake is that abbreviated handshake is using 32 bit existing SSL session ID for Client Hello. If SSL server agreed on this session, server doesn't need to send the public key of certificate back to client. Also, client doesn't need to take time to validate the server cert as it is an existing session. If server doesn't agree on the SSL session, server needs to push a new session ID and then go to full handshake.
+- <strong>Resumption and Pre-Shared Key (PSK)</strong> - [https://tools.ietf.org/html/rfc8446#section-2.2](https://tools.ietf.org/html/rfc8446#section-2.2)
+	- introduced in TLS 1.3
+	- deprecates <em>TLS Abbreviated Handshake</em>
 
 The combination of both: False Start & Abbreviated Handshake allows us to deliver a consistent 1-RTT TLS handshake for new and returning visitors, plus computational savings for sessions that can be resumed based on previously negotiated session parameters. Make sure to take advantage of these optimizations in your deployments.
 
 NOTE:
-
 > One of the design goals for [TLS 1.3](https://hpbn.co/tls13-spec) is to reduce the latency overhead for setting up the secure connection: 1-RTT for new, and 0-RTT for resumed sessions!
-
 ### TODO Description
 
 ```merge-table

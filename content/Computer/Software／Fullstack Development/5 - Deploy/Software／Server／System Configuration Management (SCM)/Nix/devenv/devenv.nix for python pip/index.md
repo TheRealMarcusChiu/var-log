@@ -1,10 +1,10 @@
 ---
-publish: true
-title: devenv.nix for python pip
+title: "devenv.nix for python pip"
 created: 2026-01-30T14:19:12.661-06:00
 modified: 2026-01-30T14:19:35.718-06:00
+parent: "[[devenv]]"
+children: []
 ---
-
 ```
 { pkgs, lib, config, inputs, ... }:
 

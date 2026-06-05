@@ -1,10 +1,10 @@
 ---
-publish: true
 title: "Weighted Pull-up Workout Routine #2"
 created: 2025-12-21T00:26:08.407-06:00
 modified: 2025-12-21T00:38:44.465-06:00
+parent: "[[Enter Workout]]"
+children: []
 ---
-
 # Day 1 - Heavy Expression (Supinated)
 
 rest: 5-6 minutes between sets
@@ -43,7 +43,6 @@ rest: 5-6 minutes between sets
   ]
 }
 ```
-
 # Day 2 - Mid Range & Capacity
 
 rest: 3-4 minutes between sets
@@ -82,11 +81,9 @@ rest: 3-4 minutes between sets
   ]
 }
 ```
-
 # Progression
 
 heavy singles progress like
-
 ```
 Week 1: +105
 Week 2: +107
@@ -97,26 +94,22 @@ Week 6: +115
 ```
 
 when to raise base weight. once you can do either:
-
 - 4x2 @ +100
 - 3x3 @ +100
 
 # Monthly Structure
 
 Weeks 1-3
-
 - run plan exactly
 - no max testing
 - focus on clean reps and pauses
 
 Week 4 (Neural Test Week)
-
 - Day 1 only
 - work up to 1 clean single
 - stop when speed drops
 
 # Expected Timeline
-
 - +110: 4-6 weeks
 - +115: 2-3 months
 - +120: 3-4 months

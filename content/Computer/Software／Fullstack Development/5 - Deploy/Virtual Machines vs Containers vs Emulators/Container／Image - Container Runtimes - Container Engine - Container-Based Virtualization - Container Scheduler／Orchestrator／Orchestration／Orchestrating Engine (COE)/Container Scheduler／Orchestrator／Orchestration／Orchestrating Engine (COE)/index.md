@@ -1,16 +1,22 @@
 ---
-publish: true
-title: Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)
+title: "Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)"
 created: 2023-11-28T14:57:41.403-06:00
 modified: 2025-12-18T13:49:59.608-06:00
+parent: "[[Container／Image - Container Runtimes - Container Engine - Container-Based Virtualization - Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)]]"
+children:
+  - "[[Docker Compose vs Docker Swarm]]"
+  - "[[Docker Desktop]]"
+  - "[[Docker Desktop vs Portainer]]"
+  - "[[Docker Swarm]]"
+  - "[[Docker Swarm vs Kubernetes]]"
+  - "[[Kubernetes]]"
+  - "[[OpenShift]]"
+  - "[[Portainer]]"
 ---
-
 ###### Container Scheduler/Orchestrator/Orchestration/Orchestrating Engine (COE)
-
-```excerpt
+````excerpt
 - manage [[Container／Image - Container Runtimes - Container Engine - Container-Based Virtualization - Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)|containers]] across a number of machines, allocating workloads appropriately
-```
-
+````
 ^excerpt
 
 # Types
@@ -84,9 +90,7 @@ modified: 2025-12-18T13:49:59.608-06:00
   ]
 }
 ```
-
 # Comparisons
-
 - [[Docker Compose vs Docker Swarm]]
 - [[Docker Swarm vs Kubernetes]]
 - [[Docker Desktop vs Portainer]]

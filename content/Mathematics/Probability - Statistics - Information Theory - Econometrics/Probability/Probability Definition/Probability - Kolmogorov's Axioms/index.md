@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Probability - Kolmogorov's Axioms
+title: "Probability - Kolmogorov's Axioms"
 created: 2021-09-13T05:26:32.184-05:00
 modified: 2023-09-01T14:29:29.537-05:00
+parent: "[[Probability Definition]]"
+children: []
 ---
-
 # Kolmogorov’s Axioms on Probabilities
 
 All properties of [[Probability|probabilities]] follow from these 3 statements:
@@ -40,7 +40,5 @@ All properties of [[Probability|probabilities]] follow from these 3 statements
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
-
-- <https://en.wikipedia.org/wiki/Probability_axioms>
+- [https://en.wikipedia.org/wiki/Probability_axioms](https://en.wikipedia.org/wiki/Probability_axioms)

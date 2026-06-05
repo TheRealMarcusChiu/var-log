@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Definite Integrals／Integrations - Indefinite Integrals／Integrations
+title: "Definite Integrals／Integrations - Indefinite Integrals／Integrations"
 created: 2021-11-06T17:45:13.978-05:00
 modified: 2023-12-20T13:03:54.493-06:00
+parent: "[[Integral Terminology]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -46,11 +46,9 @@ modified: 2023-12-20T13:03:54.493-06:00
   ]
 }
 ```
-
 # Definite Integrals
-
-- the <strong>definite integral</strong> over the [[Real Intervals (Empty／Degenerate／Proper／Bounded／Finite／Half-Bounded／Unbounded／Left／Right／Open／Closed Intervals)|interval]] \[𝑎,𝑏] is a [[Limits - Limit of a Function|limit]] of [[Riemann／Riemannian Sums (Right／Left Endpoint - Midpoint - Trapezoidal Rule) - Riemann Integral|Riemann sums]]:
-  - $\underbrace{\int_a^b f(x)dx}_{\text{Definite Integral}} = \lim_{n\to∞} \underbrace{\sum_{i=1}^n f(x_i)𝛥x}_{\text{Riemann Sums}}$
+- the <strong>definite integral</strong> over the [[Real Intervals (Empty／Degenerate／Proper／Bounded／Finite／Half-Bounded／Unbounded／Left／Right／Open／Closed Intervals)|interval]] \[𝑎,𝑏\] is a [[Limits - Limit of a Function|limit]] of [[Riemann／Riemannian Sums (Right／Left Endpoint - Midpoint - Trapezoidal Rule) - Riemann Integral|Riemann sums]]:
+	- $\underbrace{\int_a^b f(x)dx}_{\text{Definite Integral}} = \lim_{n\to∞} \underbrace{\sum_{i=1}^n f(x_i)𝛥x}_{\text{Riemann Sums}}$
 - where:
-  - 𝑥<sub>𝑖</sub> = 𝑎 + 𝑖·(𝛥𝑥)
-  - 𝛥𝑥 = (𝑏 - 𝑎) / 𝑛
+	- 𝑥<sub>𝑖</sub> = 𝑎 + 𝑖·(𝛥𝑥)
+	- 𝛥𝑥 = (𝑏 - 𝑎) / 𝑛

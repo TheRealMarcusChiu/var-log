@@ -1,20 +1,18 @@
 ---
-publish: true
-title: Visitor Pattern
+title: "Visitor Pattern"
 created: 2021-07-09T19:16:13.149-05:00
 modified: 2026-01-11T00:48:26.847-06:00
+parent: "[[Behavioral Design Patterns]]"
+children: []
 ---
-
 # Problem
 
 Say we have a <code><font style="color: rgb(122,134,154);">Shape</font></code> class
-
 ```
 class Shape {}
 ```
 
 And also several different classes that <code><font style="color: rgb(122,134,154);">extends Shape</font></code>
-
 ```
 class Triangle extends Shape {}
 class Square extends Shape {}
@@ -23,7 +21,6 @@ class Circle extends Shape {}
 ```
 
 <strong>Problem</strong>
-
 - There is a requirement to execute Task A for each shape, where each shape has its own distinct implementation of Task A.
 - There could be future requirements to execute Task B, C, D, etc for each shape, where each shape has its own distinct implementation of Task B, C, D, etc
 - As developers, we do not want to add the implementation code of a task for each shape class as it would bloat over time
@@ -31,7 +28,6 @@ class Circle extends Shape {}
 # Solution
 
 Define a <code><font style="color: rgb(122,134,154);">ShapeVistor</font></code> interface
-
 ```
 interface ShapeVisitor {
     void visitTriangle(Triangle triangle);
@@ -42,7 +38,6 @@ interface ShapeVisitor {
 ```
 
 Create a class implementing <code><font style="color: rgb(122,134,154);">ShapeVisitor</font></code> to handle the implementation of Task A for each shape
-
 ```
 class TaskAShapeVisitor implements ShapeVisitor {
     void visitTriangle(Triangle triangle)    { sout("Triangle implementation Task A"); }
@@ -53,7 +48,6 @@ class TaskAShapeVisitor implements ShapeVisitor {
 ```
 
 Next, either define a new interface (or add accept method in the <code><font style="color: rgb(122,134,154);">Shape</font></code> class)
-
 ```
 interface AcceptShapeVisitor {
     void accept(ShapeVistor visitor);
@@ -61,7 +55,6 @@ interface AcceptShapeVisitor {
 ```
 
 Now modify the shape classes
-
 ```
 class Triangle extends Shape implements AcceptShapeVisitor {
     public void accept(ShapeVistor visitor) { visitor.visitTriangle(this); }
@@ -76,7 +69,6 @@ class Circle extends Shape implements AcceptShapeVisitor {
 ```
 
 You are done! Using it will look something like this:
-
 ```
 public static void main(String[] args) {
     List<AcceptShapeVisitor> shapes = List.of(new Triangle(), new Square(), new Circle(), etc);
@@ -93,7 +85,6 @@ public static void main(String[] args) {
 ```
 
 Future requirements for Task B will only require the creation of the following class:
-
 ```
 class TaskBShapeVisitor implements ShapeVisitor {
     void visitTriangle(Triangle triangle)    { sout("Triangle implementation Task B"); }
@@ -104,7 +95,6 @@ class TaskBShapeVisitor implements ShapeVisitor {
     /* several more */ 
 }
 ```
-
 ```
 public static void main(String[] args) {
     List<AcceptShapeVisitor> shapes = List.of(new Triangle(), new Square(), new Circle(), etc);
@@ -119,9 +109,7 @@ public static void main(String[] args) {
     // etc
 }
 ```
-
 # Why This Will Not Work
-
 ```
 class Shape {}
 class Triangle extends Shape {}
@@ -155,7 +143,5 @@ public static void main(String[] args) {
     }
 }
 ```
-
 # Resources
-
-- <https://refactoring.guru/design-patterns/visitor>
+- [https://refactoring.guru/design-patterns/visitor](https://refactoring.guru/design-patterns/visitor)

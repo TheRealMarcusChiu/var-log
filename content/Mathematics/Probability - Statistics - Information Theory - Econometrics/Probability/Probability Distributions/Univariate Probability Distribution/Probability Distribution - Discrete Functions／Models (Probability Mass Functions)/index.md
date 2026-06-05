@@ -1,25 +1,33 @@
 ---
-publish: true
-title: Probability Distribution - Discrete Functions／Models (Probability Mass Functions)
+title: "Probability Distribution - Discrete Functions／Models (Probability Mass Functions)"
 created: 2021-09-13T05:27:30.297-05:00
 modified: 2023-08-31T17:42:59.328-05:00
+parent: "[[Univariate Probability Distribution]]"
+children:
+  - "[[Bernoulli Distribution]]"
+  - "[[Binomial Distribution]]"
+  - "[[Discrete Probability Distribution - Calculating Statistics]]"
+  - "[[Discrete Uniform Distribution]]"
+  - "[[Geometric Distribution]]"
+  - "[[Hypergeometric Distribution]]"
+  - "[[Multinomial Distribution]]"
+  - "[[Multinoulli／Categorical Distribution - Generalized Bernoulli Distribution]]"
+  - "[[Multivariate Hypergeometric Distribution]]"
+  - "[[Negative Binomial (Pascal) Distribution]]"
+  - "[[Poisson Distribution]]"
 ---
-
 ###### Discrete Probability Distributions (Probability Mass Functions)
-
-```excerpt
+````excerpt
 - used in scenarios where the set of possible outcomes are <strong>discrete</strong>, either:
 	- a finite number of values (e.g. coin toss or dice roll)
 	- an infinite sequence of values (e.g. [[Numbers Classes／Classification of Numbers|counting numbers]])
 - encoding a discrete list of the probabilities of the outcomes
-```
-
+````
 ^excerpt
 
 # Discrete Probability Distributions - Calculating Statistics
 
 see: [[Discrete Probability Distribution - Calculating Statistics]]
-
 # Discrete Probability Distributions - Types
 
 ```merge-table
@@ -136,7 +144,6 @@ see: [[Discrete Probability Distribution - Calculating Statistics]]
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Discrete Probability Distributions - Other Types
 
 ```merge-table

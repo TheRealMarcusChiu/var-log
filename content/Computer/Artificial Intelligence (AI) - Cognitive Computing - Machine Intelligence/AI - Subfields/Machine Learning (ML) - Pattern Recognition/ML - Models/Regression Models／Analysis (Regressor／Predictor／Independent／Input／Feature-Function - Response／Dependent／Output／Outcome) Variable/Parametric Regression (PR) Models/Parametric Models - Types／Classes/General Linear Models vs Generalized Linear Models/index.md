@@ -1,10 +1,12 @@
 ---
-publish: true
-title: General Linear Models vs Generalized Linear Models
+title: "General Linear Models vs Generalized Linear Models"
 created: 2020-08-23T15:16:32.084-05:00
 modified: 2023-09-21T15:01:09.219-05:00
+parent: "[[Parametric Models - Types／Classes]]"
+children:
+  - "[[General Linear Models - General Multivariate Regression Models]]"
+  - "[[Generalized Linear Models (GLiM／GLM)]]"
 ---
-
 # General Linear Models vs Generalized Linear Models
 
 ```merge-table

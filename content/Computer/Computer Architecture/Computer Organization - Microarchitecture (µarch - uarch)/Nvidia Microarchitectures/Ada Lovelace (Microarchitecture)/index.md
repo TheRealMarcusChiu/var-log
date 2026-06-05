@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Ada Lovelace (Microarchitecture)
+title: "Ada Lovelace (Microarchitecture)"
 created: 2022-12-18T00:47:44.249-06:00
 modified: 2022-12-18T00:57:09.101-06:00
+parent: "[[Nvidia Microarchitectures]]"
+children: []
 ---
-
 ###### Ada Lovelace (Microarchitecture)
-
 - is the codename for an [[Nvidia Microarchitectures|Nvidia Microarchitecture]]
 - successor to the Ampere microarchitecture
 - officially announced on September 20, 2022
@@ -321,20 +320,16 @@ modified: 2022-12-18T00:57:09.101-06:00
   "tableStyle": "text-align: center;"
 }
 ```
-
 # Products Using Ada Lovelace
 
 GeForce 40 series
-
 - GeForce RTX 4070 (AD104)
 - GeForce RTX 4070 Ti (AD104)
 - GeForce RTX 4080 (AD103)
 - GeForce RTX 4090 (AD102)
 
 Nvidia Workstation GPUs (formerly Quadro)
-
 - NVIDIA RTX 6000 Ada Generation Graphics Card (AD102)
 
 Nvidia Data Center GPUs (formerly Tesla)
-
 - Nvidia L40 (AD102)

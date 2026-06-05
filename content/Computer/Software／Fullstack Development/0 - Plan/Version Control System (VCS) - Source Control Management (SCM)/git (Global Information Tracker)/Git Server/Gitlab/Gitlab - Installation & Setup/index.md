@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Gitlab - Installation & Setup
+title: "Gitlab - Installation & Setup"
 created: 2025-05-28T17:31:29.997-05:00
 modified: 2025-05-28T17:36:28.232-05:00
+parent: "[[Gitlab]]"
+children: []
 ---
-
 # Installation
-
 ```yml
 services:
   gitlab:
@@ -30,23 +29,19 @@ services:
 ```
 
 Install Gitlab
-
 ```
 sudo docker compose up -d
 ```
 
 check status
-
 ```
 sudo docker ps
 ```
-
 # Get Root Password for Login
 
 The username is: <code><font style="color: rgb(122,134,154);">root</font></code>
 
 Find container ID running gitlab
-
 ```
 $ sudo docker ps
 CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                                                                                             NAMES
@@ -54,13 +49,11 @@ a3cd5afd1397   gitlab/gitlab-ce:rc   "/assets/init-contai…"   21 minutes ago  
 ```
 
 Get shell of the running docker container
-
 ```
 sudo docker exec -it a3cd5afd1397 sh
 ```
 
 Cat the password from <code><font style="color: rgb(122,134,154);">/etc/gitlab/initial\_root\_password</font></code>:
-
 ```
 cat /etc/gitlab/initial_root_password
 ```

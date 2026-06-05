@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Probability vs Odds
+title: "Probability vs Odds"
 created: 2021-09-13T05:26:32.981-05:00
 modified: 2022-02-12T18:03:23.034-06:00
+parent: "[[Probability Definition]]"
+children:
+  - "[[Log-Probability vs Log-Odds]]"
 ---
-
 ```merge-table
 {
   "rows": [
@@ -79,9 +80,7 @@ modified: 2022-02-12T18:03:23.034-06:00
   ]
 }
 ```
-
 # Relation Between Probability and Odds
-
 - odds = probability / (1 - probability)
 - odds(1 - probability) = probability
 - odds - odds\*probability = probability

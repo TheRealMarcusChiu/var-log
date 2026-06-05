@@ -1,12 +1,11 @@
 ---
-publish: true
-title: React - Code Snippets
+title: "React - Code Snippets"
 created: 2025-04-13T17:13:36.561-05:00
 modified: 2025-04-14T11:06:10.183-05:00
+parent: "[[React - React.js - ReactJS]]"
+children: []
 ---
-
 > [!expand-ui]- Counter Independent
->
 > ```
 > import { useState } from 'react';
 >
@@ -35,7 +34,6 @@ modified: 2025-04-14T11:06:10.183-05:00
 > ```
 
 > [!expand-ui]- Counter Together
->
 > ```
 > import { useState } from 'react';
 >
@@ -65,8 +63,7 @@ modified: 2025-04-14T11:06:10.183-05:00
 > ```
 
 > [!expand-ui]- TicTacToe - Example
-> Based on: <https://react.dev/learn/tutorial-tic-tac-toe>
->
+> Based on: [https://react.dev/learn/tutorial-tic-tac-toe](https://react.dev/learn/tutorial-tic-tac-toe)
 > ```
 > import { useState } from 'react';
 >
@@ -186,8 +183,7 @@ modified: 2025-04-14T11:06:10.183-05:00
 > ```
 
 > [!expand-ui]- Thinking in React
-> Based on: <https://react.dev/learn/thinking-in-react>
->
+> Based on: [https://react.dev/learn/thinking-in-react](https://react.dev/learn/thinking-in-react)
 > ```
 > import { useState } from 'react';
 >

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: AppleScript - Automate Pointer Actions
+title: "AppleScript - Automate Pointer Actions"
 created: 2020-06-26T03:52:20.683-05:00
 modified: 2020-06-26T04:02:48.211-05:00
+parent: "[[AppleScript]]"
+children: []
 ---
-
-see: <https://github.com/TheRealMarcusChiu/apple-script-auto-toggle-pointer-actions>
-
+see: [https://github.com/TheRealMarcusChiu/apple-script-auto-toggle-pointer-actions](https://github.com/TheRealMarcusChiu/apple-script-auto-toggle-pointer-actions)
 ```
 tell application "System Preferences"
 	activate

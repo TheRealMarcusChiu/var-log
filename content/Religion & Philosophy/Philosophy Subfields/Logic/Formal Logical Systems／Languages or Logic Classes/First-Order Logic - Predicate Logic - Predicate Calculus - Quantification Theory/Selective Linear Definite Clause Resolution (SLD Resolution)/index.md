@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Selective Linear Definite Clause Resolution (SLD Resolution)
+title: "Selective Linear Definite Clause Resolution (SLD Resolution)"
 created: 2021-09-13T04:44:27.484-05:00
 modified: 2021-09-13T04:44:27.484-05:00
+parent: "[[First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory]]"
+children: []
 ---
-
 The term <em>resolution</em> in logic refers to a mechanical method for proving statements in [[First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory|first-order logic]]. It is applied to two clauses in a sentence, and by unification, it eliminates a literal that occurs positive in one clause and negative in the other. A literal stated in the antecedent of an implication is negative because an implication <font style="color: rgb(128,128,128);"><em>P → Q</em></font> is equivalent to <font style="color: rgb(128,128,128);"><em>¬P v Q</em></font>. Therefore, in
 
 <font style="color: rgb(128,128,128);"><em>(man(X) → mortal(X)) ʌ man(socrates) </em></font>

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: ROSÉ - two years (official audio)
+title: "ROSÉ - two years (official audio)"
 created: 2024-12-06T22:14:07.593-06:00
 modified: 2024-12-06T22:14:34.179-06:00
+parent: "[[Liked Music]]"
+children: []
 ---
-
 ![](https://www.youtube.com/watch?v=lktucPDH5IY)
 
 How'd it all fall apart

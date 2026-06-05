@@ -1,12 +1,15 @@
 ---
-publish: true
-title: Browser Application - Storage
+title: "Browser Application - Storage"
 created: 2019-09-16T18:01:00.660-05:00
 modified: 2025-09-24T12:58:45.936-05:00
+parent: "[[Data Storage - Types]]"
+children:
+  - "[[HTTP Cookie (Web Cookie, Internet Cookie, Browser Cookie, or Cookie)]]"
+  - "[[IndexedDB]]"
+  - "[[Web SQL Database]]"
+  - "[[Web Storage (sessionStorage - localStorage)]]"
 ---
-
 other [[JavaScript - Native - V8 Engine - Web／Browser APIs|JavaScript - Native - V8 Engine - Web/Browser APIs]]
-
 # Browser Application Storage Types
 
 ```merge-table
@@ -65,7 +68,6 @@ other [[JavaScript - Native - V8 Engine - Web／Browser APIs|JavaScript - Nativ
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Browser Cache Types
 
 ```merge-table
@@ -101,7 +103,5 @@ other [[JavaScript - Native - V8 Engine - Web／Browser APIs|JavaScript - Nativ
   "tableStyle": "width: 51.9935%;"
 }
 ```
-
 # Chrome DevTools
-
-![[Computer/Software／Fullstack Development/1 - Code and Extra/Data Storage/Data Storage - Types/Browser Application - Storage/browser-storage-google-developer-tool.png]]
+![[Browser Application - Storage/browser-storage-google-developer-tool.png]]

@@ -1,17 +1,14 @@
 ---
-publish: true
-title: Verilog - Arrays
+title: "Verilog - Arrays"
 created: 2023-03-13T12:23:58.161-05:00
 modified: 2023-03-13T12:48:55.847-05:00
+parent: "[[Verilog - 1 - Data Types]]"
+children: []
 ---
-
 Arrays are allowed for <code><font style="color: rgb(122,134,154);">reg</font></code>, <code><font style="color: rgb(122,134,154);">wire</font></code>, <code><font style="color: rgb(122,134,154);">integer</font></code>, and <code><font style="color: rgb(122,134,154);">real</font></code> data types
-
 > [!info]
 > Note that a memory of n 1-bit reg is not the same as an n-bit vector reg
-
 # Examples
-
 ```
 module des ();
     reg [7:0]   mem1;               // 8-bit wide reg vector
@@ -42,9 +39,7 @@ module des ();
     end
 endmodule
 ```
-
 # Simulation Log
-
 ```
 mem1 = 0xa9
 mem2[0] = 0xaa

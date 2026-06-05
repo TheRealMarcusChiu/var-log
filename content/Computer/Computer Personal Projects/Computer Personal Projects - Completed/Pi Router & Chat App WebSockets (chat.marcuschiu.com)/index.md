@@ -1,40 +1,33 @@
 ---
-publish: true
-title: Pi Router & Chat App WebSockets (chat.marcuschiu.com)
+title: "Pi Router & Chat App WebSockets (chat.marcuschiu.com)"
 created: 2019-04-28T16:52:56.788-05:00
 modified: 2020-06-30T01:05:44.187-05:00
+parent: "[[Computer Personal Projects - Completed]]"
+children: []
 ---
-
 ### 2 Part Project
-
 - [[Pi Router & Chat App WebSockets (chat.marcuschiu.com)|setting up a home router on a linux machine]]
 - [[Pi Router & Chat App WebSockets (chat.marcuschiu.com)|setting up a chat application]]
 
 ## Diagram of Architecture
-
-![[Computer/Computer Personal Projects/Computer Personal Projects - Completed/Pi Router & Chat App WebSockets (chat.marcuschiu.com)/Untitled Diagram.jpg|400]]
-
+![[Pi Router & Chat App WebSockets (chat.marcuschiu.com)/Untitled Diagram.jpg|400]]
 # <strong>Setting Up a Home Router on a Linux Machine</strong>
 
 given a linux machine we can almost always turn it into a WiFi router, that is if it has a built in WiFi adaptor or an extension with the available drivers. A Raspberry Pi is a perfect example, it is a mini computer with a built in WiFi adaptor and it only cost \$35! No need to buy an external WiFi adaptor on amazon and no need to find and install the right driver for it!
 
 once we obtain the raspberry pi mini computer, we need to setup 2 things:
-
 - <strong>host access point server</strong> - manages SSID, password, encryption, etc...
 - <strong>dhcp server</strong> - manages pool of available private IP address
 
 ## Setup Process
 
 refer to [[Raspberry Pi - Router]]
-
 # <strong>Setting Up a Chat Application</strong>
 
 For real time text exchange this chat application uses WebSockets as a bi-directional network protocol built on top of TCP and HTTP. Other technologies are used together in order to make this happen. The language of choice is Java, as well as the 3 web languages: HTML, JavaScript, and CSS.
 
-![[Computer/Computer Personal Projects/Computer Personal Projects - Completed/Pi Router & Chat App WebSockets (chat.marcuschiu.com)/websocket diagram.jpg]]
-
+![[Pi Router & Chat App WebSockets (chat.marcuschiu.com)/websocket diagram.jpg]]
 ### Java Code
-
 ```java
 package com.marcuschiu.springboot.websockets.chat;
 
@@ -50,7 +43,6 @@ public class WebsocketsApplication {
 
 }
 ```
-
 ```java
 package com.marcuschiu.springboot.websockets.chat.model;
 
@@ -90,7 +82,6 @@ public class ChatMessage {
     }
 }
 ```
-
 ```java
 package com.marcuschiu.springboot.websockets.chat.controller;
 
@@ -140,7 +131,6 @@ public class WebSocketEventListener {
     }
 }
 ```
-
 ```java
 package com.marcuschiu.springboot.websockets.chat.controller;
 
@@ -175,7 +165,6 @@ public class ChatController {
 
 }
 ```
-
 ```java
 package com.marcuschiu.springboot.websockets.chat.config;
 
@@ -224,9 +213,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     }
 }
 ```
-
 ### Web Code: HTML, JavaScript, CSS
-
 ```xml
 <!DOCTYPE html>
 <html lang="en">
@@ -290,7 +277,6 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 </body>
 </html>
 ```
-
 ```js
 'use strict';
 
@@ -406,7 +392,6 @@ function getAvatarColor(messageSender) {
 usernameForm.addEventListener('submit', connect, true)
 messageForm.addEventListener('submit', sendMessage, true)
 ```
-
 ```css
 * {
     -webkit-box-sizing: border-box;
@@ -705,9 +690,7 @@ button.accent {
     }
 }
 ```
-
 ## Example Use
-
-![[Computer/Computer Personal Projects/Computer Personal Projects - Completed/Pi Router & Chat App WebSockets (chat.marcuschiu.com)/example use.png|830x400]]
+![[Pi Router & Chat App WebSockets (chat.marcuschiu.com)/example use.png|830x400]]
 
 here are 2 browsers opened side-by-side

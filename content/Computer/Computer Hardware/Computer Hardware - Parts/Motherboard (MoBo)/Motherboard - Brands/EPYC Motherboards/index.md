@@ -1,14 +1,13 @@
 ---
-publish: true
-title: EPYC Motherboards
+title: "EPYC Motherboards"
 created: 2025-10-23T23:26:44.186-05:00
 modified: 2025-10-26T00:43:48.103-05:00
+parent: "[[Motherboard - Brands]]"
+children: []
 ---
-
 - [Supermicro Motherboards](https://www.supermicro.com/en/products/motherboards/server-boards)
 - [Gigabyte Motherboards](https://www.gigabyte.com/us/Enterprise/Server-Motherboard)
 - [ASRock Motherboards](https://www.asrockrack.com/general/products.asp#Server)
-
 ```merge-table
 {
   "rows": [

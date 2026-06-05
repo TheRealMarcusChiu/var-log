@@ -1,23 +1,31 @@
 ---
-publish: true
-title: Java - Bytecode Manipulation Libraries
+title: "Java - Bytecode Manipulation Libraries"
 created: 2022-06-05T16:07:06.799-05:00
 modified: 2023-05-05T11:41:41.818-05:00
+parent: "[[Java - Non-Native Libraries]]"
+children:
+  - "[[Java - ASM]]"
+  - "[[Java - Byte Buddy]]"
+  - "[[Java - Code Generation Library (CGLIB)]]"
+  - "[[Java - Javassist (Java Programming Assistant)]]"
 ---
-
 # Native Libraries
-
 - [[Java - lang - instrument]]
 - [[Java - Dynamic Proxies]]
 
 # Non-Native Libraries
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - [[Java - Spring Framework - Core - AOP Frameworks (AspectJ - Spring AOP)|AspectJ]] - a bytecode manipulation library for [[Aspect-Oriented Programming (AOP)|AOP programming]]
 - BCEL
 - Cojen
 - Serp
 
-![[Computer/Computer／Programming Languages/Computer Languages - General-Purpose Programming Languages (GPL)/Java Platform/Java/Java - Projects & Code Examples/Java - Non-Native Libraries/Java - Bytecode Manipulation Libraries/bytecode-manipulation-diagram.png]]
+![[Java - Bytecode Manipulation Libraries/bytecode-manipulation-diagram.png]]
 
 ```merge-table
 {

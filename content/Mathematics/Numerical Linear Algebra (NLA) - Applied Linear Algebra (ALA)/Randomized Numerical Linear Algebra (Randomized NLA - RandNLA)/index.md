@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Randomized Numerical Linear Algebra (Randomized NLA - RandNLA)
+title: "Randomized Numerical Linear Algebra (Randomized NLA - RandNLA)"
 created: 2024-08-21T23:30:07.239-05:00
 modified: 2024-08-27T05:21:15.840-05:00
+parent: "[[Numerical Linear Algebra (NLA) - Applied Linear Algebra (ALA)]]"
+children: []
 ---
-
 ###### Randomized Numerical Linear Algebra (Randomized NLA - RandNLA)
-
-```excerpt
+````excerpt
 - is an interdisciplinary research area that exploits randomization as a computational resource to develop improved algorithms for large-scale [[Linear Algebra|linear algebra]] problems
 - introduced around 2016?
-```
-
+````
 ^excerpt
 
 # RandNLA - Introduction
 
 ![](https://www.youtube.com/watch?v=6htbyY3rH1w)
-
 # RandNLA - Algorithm
 
 RandNLA algorithms involve taking an input matrix; constructing a “sketch” of that input matrix—where a sketch is a smaller or sparser matrix that represents the essential information in the original matrix—by random sampling; and then using that sketch as a surrogate for the full matrix to help compute quantities of interest.
@@ -54,7 +51,5 @@ To be useful, the sketch should be similar to the original matrix in some way. S
   ]
 }
 ```
-
 # Resources
-
 - [[RandNLA in CACM 2016.pdf]]

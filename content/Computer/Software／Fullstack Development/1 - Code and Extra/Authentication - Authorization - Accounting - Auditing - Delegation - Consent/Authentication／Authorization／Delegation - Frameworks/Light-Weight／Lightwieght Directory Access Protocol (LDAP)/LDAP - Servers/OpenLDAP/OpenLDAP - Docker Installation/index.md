@@ -1,25 +1,21 @@
 ---
-publish: true
-title: OpenLDAP - Docker Installation
+title: "OpenLDAP - Docker Installation"
 created: 2022-05-22T20:04:53.237-05:00
 modified: 2022-05-22T20:09:39.988-05:00
+parent: "[[OpenLDAP]]"
+children: []
 ---
-
 # Docker Images
-
-- <https://github.com/osixia/docker-openldap>
-- <https://github.com/osixia/docker-phpLDAPadmin>
+- [https://github.com/osixia/docker-openldap](https://github.com/osixia/docker-openldap)
+- [https://github.com/osixia/docker-phpLDAPadmin](https://github.com/osixia/docker-phpLDAPadmin)
 
 # Pre Setup
 
 Edit /etc/hosts
-
 ```
 IP_ADDRESS_HERE ldap.example.org
 ```
-
 # Bash Script
-
 ```
 #!/bin/bash -e
 docker run -p 389:389 -p 636:636 --name ldap-service --hostname ldap-service --detach osixia/openldap:1.5.0

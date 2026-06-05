@@ -1,13 +1,13 @@
 ---
-publish: true
-title: LR - R Code Examples
+title: "LR - R Code Examples"
 created: 2020-11-01T00:07:26.749-05:00
 modified: 2020-11-01T15:22:33.621-06:00
+parent: "[[Linear Regression (LR) Models]]"
+children: []
 ---
-
 > [!tabs]
 >
-> \=== house
+> === house
 >
 > ```
 > x <- house$size
@@ -58,34 +58,30 @@ modified: 2020-11-01T15:22:33.621-06:00
 > # Use fitted(house.reg) to get the fitted values
 > # Use resid(house.reg) to get the residuals
 > ```
->
 > ### Plots for Checking the [[Gauss-Markov Assumptions - OLS Assumptions|Gauss-Markov Assumptions]]
->
 > ```
 > # RESIDUAL PLOT
 > plot(fitted(house.reg), resid(house.reg))
 > abline(h=0)
 > ```
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - R Code Examples/residual-plot.png]]
->
+> ![[LR - R Code Examples/residual-plot.png]]
 > ```
 > # QQ PLOT
 > qqnorm(resid(house.reg))
 > qqline(resid(house.reg))
 > ```
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - R Code Examples/normal-qq-plot.png]]
->
+> ![[LR - R Code Examples/normal-qq-plot.png]]
 > ```
 > # TIME SERIES PLOT OF RESIDUALS
 > plot(resid(house.reg), type="l")
 > abline(h=0)
 > ```
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - R Code Examples/time-series-plot.png]]
+> ![[LR - R Code Examples/time-series-plot.png]]
 >
-> \=== cars
+> === cars
 >
 > ```
 > library(datasets)
@@ -93,16 +89,15 @@ modified: 2020-11-01T15:22:33.621-06:00
 > scatter.smooth(x=cars$speed, y=cars$dist, main="Distance ~ Speed")
 > ```
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - R Code Examples/cars-1.png|301]]
->
+> ![[LR - R Code Examples/cars-1.png|301]]
 > ```
 > linearMod <- lm(dist ~ speed, data=cars)
 > abline(linearMod)
 > ```
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - R Code Examples/cars-2.png|301]]
+> ![[LR - R Code Examples/cars-2.png|301]]
 >
-> \=== non-linear
+> === non-linear
 >
 > ```
 > plot(x,y)
@@ -110,8 +105,7 @@ modified: 2020-11-01T15:22:33.621-06:00
 > abline(linearMod)
 > ```
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - R Code Examples/non-linear-1.png|600]]
->
+> ![[LR - R Code Examples/non-linear-1.png|600]]
 > ```
 > plot(1/x,y)
 > t = 1/x
@@ -119,4 +113,4 @@ modified: 2020-11-01T15:22:33.621-06:00
 > abline(linearMod)
 > ```
 >
-> ![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Parametric Regression (PR) Models/Continuous Regression Models/Linear Regression (LR) Models/LR - R Code Examples/non-linear-2.png|600]]
+> ![[LR - R Code Examples/non-linear-2.png|600]]

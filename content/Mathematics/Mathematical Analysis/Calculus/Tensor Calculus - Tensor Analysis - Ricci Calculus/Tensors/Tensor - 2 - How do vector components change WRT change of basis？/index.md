@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Tensor - 2 - How do vector components change WRT change of basis？
+title: "Tensor - 2 - How do vector components change WRT change of basis？"
 created: 2023-08-01T22:57:32.811-05:00
 modified: 2023-08-01T22:59:25.684-05:00
+parent: "[[Tensors]]"
+children: []
 ---
-
 ````excerpt
 - 𝑣 = 𝑣\[1\] · 𝑒<sub>1</sub> + 𝑣\[2\] · 𝑒<sub>2</sub>
 - 𝑣̃ = 𝑣̃\[1\] · 𝑒̃<sub>1</sub> + 𝑣̃\[2\] · 𝑒̃<sub>2</sub>
@@ -42,5 +42,4 @@ modified: 2023-08-01T22:59:25.684-05:00
 }
 ```
 ````
-
 ^excerpt

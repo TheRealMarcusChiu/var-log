@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Direct Object vs Subject Complement
+title: "Direct Object vs Subject Complement"
 created: 2021-09-13T04:44:06.437-05:00
 modified: 2021-09-13T04:44:06.437-05:00
+parent: "[[Syntax (Sentence Structure)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

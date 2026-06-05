@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Scaled Dot-Product Attention (SDPA)
+title: "Scaled Dot-Product Attention (SDPA)"
 created: 2025-10-10T19:49:34.254-05:00
 modified: 2025-10-10T20:23:32.629-05:00
+parent: "[[Transformer Attention Mechanism - Self-Attention - Intra-Attention - Decomposable Attention]]"
+children: []
 ---
-
 ###### Scaled Dot-Product Attention (SDPA)
-
-```excerpt
+````excerpt
 - allows the [[Transformer Neural Networks (TNN) - Transformers|Transformer]] model to focus on the most relevant parts of the input for each word
-```
-
+````
 ^excerpt
 
 # SDPA
@@ -25,7 +23,5 @@ modified: 2025-10-10T20:23:32.629-05:00
   ]
 }
 ```
-
 # Resources
-
-- <https://machinelearningmastery.com/the-transformer-attention-mechanism/>
+- [https://machinelearningmastery.com/the-transformer-attention-mechanism/](https://machinelearningmastery.com/the-transformer-attention-mechanism/)

@@ -1,10 +1,14 @@
 ---
-publish: true
-title: Hinduism
+title: "Hinduism"
 created: 2021-09-13T04:44:57.390-05:00
 modified: 2021-09-13T04:44:57.390-05:00
+parent: "[[Religions]]"
+children:
+  - "[[Hindu Caste System]]"
+  - "[[Hinduism - Books]]"
+  - "[[Hinduism - Gods]]"
+  - "[[Hinduism - Origins of Death]]"
 ---
-
 ## History
 
 > [!expand]- Click here to expand...
@@ -17,62 +21,62 @@ modified: 2021-09-13T04:44:57.390-05:00
 > Around the 7th century BCE, India saw the growth of a culture of world-renunciation, which was a reaction against the Vedic tradition. This culture is the common origin of many Indian religions considered to be “heretical” by the Indian traditional priestly class. Charvaka, Jainism, and Buddhism, among other movements, originated around this time, encouraged by the gradual decay of the priestly orthodoxy. This would result in the end of the Vedic hegemony, shifting the focus of religious life from external rites and sacrifices to internal spiritual quests in the search for answers.
 >
 > The authority of the Vedas eventually diminished to give way to a new religious synthesis in India that would dominate Indian society for the centuries to come.
-
 ## Terms
 
 > [!expand]- Click here to expand...
->
 > - <strong>brahman</strong>
->   - ultimate reality
->   - essence of reality
+> 	- ultimate reality
+> 	- essence of reality
 > - <strong>atman</strong>
->   - the real self
->   - the one that is permanent
->   - individual self or soul
->   - ultimate reality within human beings
->   - a spark of the divine Brahman
->   - atman goes through samsara
->   - controls moral behavior
+> 	- the real self
+> 	- the one that is permanent
+> 	- individual self or soul
+> 	- ultimate reality within human beings
+> 	- a spark of the divine Brahman
+> 	- atman goes through samsara
+> 	- controls moral behavior
 > - <strong>brahman v atman</strong>
->   - Brahman (ultimate reality understood through contemplation of the universe) and Atman (ultimate reality understood through contemplation of the inner self) are in fact one and the same
->   - Brahman is Atman; all reality is one
+> 	- Brahman (ultimate reality understood through contemplation of the universe) and Atman (ultimate reality understood through contemplation of the inner self) are in fact one and the same
+> 	- Brahman is Atman; all reality is one
 > - <strong>monism</strong>
->   - the doctrine that all reality is ultimately one
->   - many rivers leading to one ocean
+> 	- the doctrine that all reality is ultimately one
+> 	- many rivers leading to one ocean
 > - <strong>maya</strong>
->   - illusion
+> 	- illusion
 > - <strong>avidya</strong>
->   - ignorance
->   - stops spiritual enlightenment or the union of Atman and Brahman
->   - avidya is kept alive by materialism, education is not the same as 'knowledge' ~ Jnana Yoga
->   - opposite of vidya
+> 	- ignorance
+> 	- stops spiritual enlightenment or the union of Atman and Brahman
+> 	- avidya is kept alive by materialism, education is not the same as 'knowledge' \~ Jnana Yoga
+> 	- opposite of vidya
 > - <strong>vidya</strong>
->   - primarily means science, learning, philosophy, knowledge, scholarship, any knowledge whether true or false
+> 	- primarily means science, learning, philosophy, knowledge, scholarship, any knowledge whether true or false
 > - <strong>samsara</strong>
->   - endless wheel of cyclic time
+> 	- endless wheel of cyclic time
 > - <strong>moksha</strong>
->   - liberation from wheel
->   - characterized by infinite being awareness and bliss
->   - state of perfect understanding of the relationship between atman and brahman
->   - ultimate goal for Hindus
+> 	- liberation from wheel
+> 	- characterized by infinite being awareness and bliss
+> 	- state of perfect understanding of the relationship between atman and brahman
+> 	- ultimate goal for Hindus
 > - <strong>brahmin</strong>
->   - one who has achieved enlightenment
+> 	- one who has achieved enlightenment
 > - <strong>karma</strong>
->   - a measure
+> 	- a measure
 > - <strong>varna</strong>
->   - caste system
-
+> 	- caste system
 ### Personal Thoughts
-
 - Sadhguru - states that when one reaches Enlightenment:
-  - realized body is not you - because body is part of the universe
-  - realized mind is not you - because mind is built through the experiences in life
-- Hinduism seems to focus much on individual "salvation" however, I do need to read the Vedic texts if that is so Christianity - the greatest command is to love God and the second is love your neighbour as yourself. "By this all people will know you are my disciples, if you have love for one another" ~ Jesus
+	- realized body is not you - because body is part of the universe
+	- realized mind is not you - because mind is built through the experiences in life
+- Hinduism seems to focus much on individual "salvation" however, I do need to read the Vedic texts if that is so Christianity - the greatest command is to love God and the second is love your neighbour as yourself. "By this all people will know you are my disciples, if you have love for one another" \~ Jesus
 
 ### Questions
-
 - given definition of moksha, what caused the initial separation?
 - who/what defines morality? Who/What sets the standards of right and wrong?
 - when one reaches enlightenment, is it destroyed when Shiva destroys all?
 
 ### Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

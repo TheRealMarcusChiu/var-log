@@ -1,17 +1,15 @@
 ---
-publish: true
-title: MaltParser
+title: "MaltParser"
 created: 2020-11-02T14:14:04.722-06:00
 modified: 2020-11-02T17:51:15.094-06:00
+parent: "[[Dependency Parsing]]"
+children: []
 ---
-
 ###### MaltParser (Projective)
-
 - very similar to shift-reduce parsing
 - greedy choice of attachments/actions guided by good machine learning classifiers
 
 ### MaltParser - Actions
-
 - SHIFT
 - RIGHT\_ARC
 - LEFT\_ARC
@@ -20,9 +18,7 @@ modified: 2020-11-02T17:51:15.094-06:00
 ### MaltParser - Example
 
 given input sentence, step through the parsing steps:
-
 - <code><font style="color: rgb(128,128,128);">book me the morning flight</font></code>
-
 ```merge-table
 {
   "rows": [
@@ -133,7 +129,6 @@ given input sentence, step through the parsing steps:
   ]
 }
 ```
-
 ### Resources
 
-![](https://www.youtube.com/watch?v=egBq3gi_4No\&list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm\&index=73\&ab_channel=MausamJain)
+![](https://www.youtube.com/watch?v=egBq3gi_4No&list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm&index=73&ab_channel=MausamJain)

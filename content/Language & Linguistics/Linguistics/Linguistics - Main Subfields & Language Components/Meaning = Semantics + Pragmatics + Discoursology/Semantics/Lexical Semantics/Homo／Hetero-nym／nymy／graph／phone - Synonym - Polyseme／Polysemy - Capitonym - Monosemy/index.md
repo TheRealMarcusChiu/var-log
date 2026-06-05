@@ -1,15 +1,14 @@
 ---
-publish: true
-title: Homo／Hetero-nym／nymy／graph／phone - Synonym - Polyseme／Polysemy - Capitonym - Monosemy
+title: "Homo／Hetero-nym／nymy／graph／phone - Synonym - Polyseme／Polysemy - Capitonym - Monosemy"
 created: 2021-09-13T04:44:09.270-05:00
 modified: 2021-12-27T19:43:35.207-06:00
+parent: "[[Lexical Semantics]]"
+children: []
 ---
-
 - <strong>monosemy</strong> - is the property of having only one meaning
 - <strong>metonymy</strong> - a [[Figures of Speech (FoS)|figure of speech]] in which the name of one object is substituted for something closely associated with it
-  - e.g. "The White House declared that we are at war with Mars"
-  - "The White House" is a metonymy for "The President"
-
+	- e.g. "The White House declared that we are at war with Mars"
+	- "The White House" is a metonymy for "The President"
 ```merge-table
 {
   "rows": [
@@ -253,18 +252,14 @@ modified: 2021-12-27T19:43:35.207-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Polyseme vs Homonym
-
 Both polysemy and homonymy words have the same syntax or spelling. The main difference between them is that in:
-
 - polysemy, the meanings of the words are related
 - homonymy, the meanings of the words are not related
 
 For example, if we talk about the same word “bank”:
-
-- polysemy: ‘a financial institution’ and ‘the building in which such an institution is located’ <font style="color: rgb(128,128,128);"># similar meanings</font>
-- homonym: ‘a financial institution’ and ‘a river bank’ <font style="color: rgb(128,128,128);"># different meanings</font>
+- polysemy: ‘a financial institution’ and ‘the building in which such an institution is located’ <font style="color: rgb(128,128,128);">\# similar meanings</font>
+- homonym: ‘a financial institution’ and ‘a river bank’ <font style="color: rgb(128,128,128);">\# different meanings</font>
 
 # Terms - Other
 

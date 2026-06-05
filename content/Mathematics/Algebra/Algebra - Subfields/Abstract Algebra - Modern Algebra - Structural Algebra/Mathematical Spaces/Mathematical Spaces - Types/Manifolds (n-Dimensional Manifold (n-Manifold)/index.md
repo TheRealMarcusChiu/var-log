@@ -1,24 +1,26 @@
 ---
-publish: true
-title: Manifolds (n-Dimensional Manifold (n-Manifold)
+title: "Manifolds (n-Dimensional Manifold (n-Manifold)"
 created: 2022-06-25T19:29:04.708-05:00
 modified: 2025-10-03T00:03:32.040-05:00
+parent: "[[Mathematical Spaces - Types]]"
+children:
+  - "[[Differentiable／Differential Manifold]]"
+  - "[[Intrinsic Dimension／Dimensionality - Embedding Dimension／Dimensionality]]"
+  - "[[Manifold Hypothesis]]"
+  - "[[Riemannian Manifolds - Riemannian Spaces]]"
+  - "[[Tangent Spaces - Tangent Vectors]]"
 ---
-
 ###### Manifolds (n-Dimensional Manifold (n-Manifold)
-
-```excerpt
+````excerpt
 - is a curved surface that looks flat when you zoom in close enough
 - is a [[Topological Spaces|topological space]] that locally resembles [[Euclidean Vector Spaces - Euclidean Spaces|Euclidean space]] near each point
 - more precisely, an n-dimensional manifold, or n-manifold for short, is a [[Topological Spaces|topological space]] with the property that each point has an open [[Mathematical Space (Neighborhoods)|neighborhood]] that is homeomorphic to an [[Mathematical Space (Open Sets - Closed Sets - Clopen Sets)|open subset]] of n-dimensional [[Euclidean Vector Spaces - Euclidean Spaces|Euclidean space]]
-```
-
+````
 ^excerpt
 
 # Manifolds - Introduction
 
 An n-dimensional topological manifold 𝑀 is a topological Hausdorff space with a countable base that is locally [[Homeomorphic／Homeomorphisms - Topological Isomorphism ／ Topologically Isomorphic - Bicontinuous Function|homeomorphic]] to ℝ<sup>𝑛</sup>. This means that for every point 𝑝 in 𝑀, there is an [[Topological Spaces (Neighborhoods of a Point／Set)|open neighborhood]] 𝑈 of 𝑝 and a [[Homeomorphic／Homeomorphisms - Topological Isomorphism ／ Topologically Isomorphic - Bicontinuous Function|homeomorphism]] 𝜑: 𝑈 → 𝑉 which maps the set 𝑈 onto an [[Mathematical Space (Open Sets - Closed Sets - Clopen Sets)|open set]] 𝑉⊂ℝ<sup>𝑛</sup>. Additionally:
-
 - The mapping 𝜑: 𝑈→𝑉 is called a <font style="color: rgb(122,134,154);"><strong><em>chart</em></strong></font> or [[Coordinate Systems|coordinate system]]
 - The set 𝑈 is the [[Functions (Domain - Codomain - Preimage - Image - Range)|domain]] or local coordinate neighborhood of the chart
 - The [[Functions (Domain - Codomain - Preimage - Image - Range)|image]] of the point 𝑝∈𝑈, denoted by 𝜑(𝑝)∈ℝ<sup>𝑛</sup>, is called the coordinates or local coordinates of 𝑝 in the chart
@@ -37,18 +39,16 @@ For example
   "tableStyle": "width: 88.5273%;"
 }
 ```
-
 # Manifolds - Examples
 
 > [!expand-ui]- Euclidean Space as a Manifold
 > Standard [[Euclidean Vector Spaces - Euclidean Spaces|Euclidean space]] in ℝ<sup>𝑛</sup> is, of course, a <em>manifold</em> itself. It requires a single chart that is just the identity function, which also makes up its atlas
 
 > [!expand-ui]- A 1D Manifold with Multiple Charts
-> TODO: <https://bjlkeng.io/posts/manifolds/#:~:text=Euclidean%20Space%20is%20a%20Manifold>
+> TODO: [https://bjlkeng.io/posts/manifolds/#:~:text=Euclidean%20Space%20is%20a%20Manifold](https://bjlkeng.io/posts/manifolds/#:~:text=Euclidean%20Space%20is%20a%20Manifold)
 
 > [!expand-ui]- Stereographic Projections for 𝑆ⁿ
-> TODO: <https://bjlkeng.io/posts/manifolds/#:~:text=Euclidean%20Space%20is%20a%20Manifold>
-
+> TODO: [https://bjlkeng.io/posts/manifolds/#:~:text=Euclidean%20Space%20is%20a%20Manifold](https://bjlkeng.io/posts/manifolds/#:~:text=Euclidean%20Space%20is%20a%20Manifold)
 # Manifolds - Categorizations
 
 ```merge-table
@@ -85,9 +85,12 @@ For example
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Resources
-
 - [The Bright Side of Mathematics - Lecture Series](https://www.youtube.com/playlist?list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1)

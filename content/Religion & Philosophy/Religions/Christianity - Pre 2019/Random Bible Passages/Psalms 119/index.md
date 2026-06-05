@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Psalms 119
+title: "Psalms 119"
 created: 2021-09-13T04:44:55.462-05:00
 modified: 2021-09-13T04:44:55.462-05:00
+parent: "[[Random Bible Passages]]"
+children: []
 ---
-
 There is a tradition that King David used this psalm to teach his young son Solomon the alphabet—but not just the alphabet for writing letters: the alphabet of the spiritual life.
 
 Psalms 119 summed up with - "consumed with the longing for rules"

@@ -1,15 +1,14 @@
 ---
-publish: true
-title: HTTP - Headers - Host vs Origin
+title: "HTTP - Headers - Host vs Origin"
 created: 2019-12-21T14:41:47.666-06:00
 modified: 2022-01-03T17:53:48.395-06:00
+parent: "[[HTTP - Headers]]"
+children: []
 ---
-
 # HTTP Headers - Host vs Origin
-
 <span style="white-space: pre-wrap"><code>   browser tab                http request                google.com server</code></span>
 
-<span style="white-space: pre-wrap"><code> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_         \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_         \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</code><br><code>| marcuschiu.com |       |  Host: google.com     |       |                 |</code><br><code>|                | ----- |Origin: marcuschiu.com | ----> |                 |</code><br><code>|                |       |      ....             |       |                 |</code><br><code>|\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|       |\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|       |\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|</code></span>
+<span style="white-space: pre-wrap"><code> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_         \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_         \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</code><br><code>| marcuschiu.com |       |  Host: google.com     |       |                 |</code><br><code>|                | ----- |Origin: marcuschiu.com | ----\> |                 |</code><br><code>|                |       |      ....             |       |                 |</code><br><code>|\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|       |\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|       |\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|</code></span>
 
 ```merge-table
 {

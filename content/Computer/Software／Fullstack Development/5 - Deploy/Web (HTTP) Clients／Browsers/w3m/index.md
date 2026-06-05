@@ -1,20 +1,17 @@
 ---
-publish: true
-title: w3m
+title: "w3m"
 created: 2019-12-30T17:25:39.904-06:00
 modified: 2025-06-17T13:00:30.309-05:00
+parent: "[[Web (HTTP) Clients／Browsers]]"
+children: []
 ---
-
 ###### w3m
-
-```excerpt
+````excerpt
 - is a text-based [[Web (HTTP) Clients／Browsers|web browser]]
-```
-
+````
 ^excerpt
 
 # Installation
-
 ```
 brew install gdk-pixbuf
 brew install xquartz

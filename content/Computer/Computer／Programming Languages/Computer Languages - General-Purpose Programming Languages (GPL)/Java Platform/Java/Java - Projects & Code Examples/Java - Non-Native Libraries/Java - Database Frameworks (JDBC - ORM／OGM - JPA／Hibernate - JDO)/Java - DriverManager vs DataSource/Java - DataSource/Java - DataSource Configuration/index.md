@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Java - DataSource Configuration
+title: "Java - DataSource Configuration"
 created: 2021-03-06T22:52:06.858-06:00
 modified: 2021-09-25T02:10:45.708-05:00
+parent: "[[Java - DataSource]]"
+children: []
 ---
-
 Spring Boot allows defining <code><font style="color: rgb(122,134,154);">DataSource</font></code> configuration in both ways i.e. Java config and properties config. <code><font style="color: rgb(122,134,154);">DataSourceAutoConfiguration</font></code> checks for <code><font style="color: rgb(122,134,154);">DataSource.class</font></code> (or <code><font style="color: rgb(122,134,154);">EmbeddedDatabaseType.class</font></code>) on the classpath and few other things before configuring a <code><font style="color: rgb(122,134,154);">DataSource</font></code> bean for us
-
 # Configuring DataSource Bean
 
 > [!expand-ui]- Maven
 > The <font style="color: rgb(122,134,154);">spring-boot-starter-data-jpa</font> dependency brings all necessary dependencies including JDBC drivers for various databases e.g. <code><font style="color: rgb(122,134,154);">mysql-connector-java</font></code> for connecting to a [[MySQL|MySQL database]].
 >
 > If we are planning to use an embedded database at some step (e.g. testing), we can import H2 db separately.
->
 > ```xml
 > <dependency>
 >     <groupId>org.springframework.boot</groupId>
@@ -28,14 +26,13 @@ Spring Boot allows defining <code><font style="color: rgb(122,134,154);">DataSou
 > </dependency>
 > ```
 
-> [!expand-ui]- application.properties <code><font style="color: rgb(122,134,154);">DataSource</font></code> configuration is provided by external configuration properties ( <code><font style="color: rgb(122,134,154);">spring.datasource.\*</font></code>) in <code><font style="color: rgb(122,134,154);">application.properties</font></code> file.
+> [!expand-ui]- application.properties
+> <code><font style="color: rgb(122,134,154);">DataSource</font></code> configuration is provided by external configuration properties ( <code><font style="color: rgb(122,134,154);">spring.datasource.\*</font></code>) in <code><font style="color: rgb(122,134,154);">application.properties</font></code> file.
 >
 > The properties configuration decouples the configuration from the application code. This way, we can import the <code><font style="color: rgb(122,134,154);">DataSource</font></code> configurations from even configuration provider systems.
 >
 > Below given configuration shows sample properties for H2, MySQL, Oracle, and SQL server databases.
->
 > > We often do not need to specify the <code>driver-class-name</code>, since Spring Boot can deduce it for most databases from the url.
->
 > ```
 > # H2
 > spring.datasource.url=jdbc:h2:file:C:/temp/test
@@ -68,7 +65,6 @@ Spring Boot allows defining <code><font style="color: rgb(122,134,154);">DataSou
 
 > [!expand-ui]- DataSource Bean
 > The recommended way to create a <code><font style="color: rgb(122,134,154);">DataSource</font></code> bean is using <code><font style="color: rgb(122,134,154);">DataSourceBuilder</font></code> class within a class annotated with the <code><font style="color: rgb(128,128,0);">@Configuration</font></code> annotation. The <code><font style="color: rgb(122,134,154);">DataSource</font></code> uses the underlying [[Java - Connection Pooling Frameworks|connection pool]] as well.
->
 > ```
 > @Configuration
 > public class DataSourceConfig {
@@ -89,7 +85,6 @@ Spring Boot allows defining <code><font style="color: rgb(122,134,154);">DataSou
 > If we deploy your Spring Boot application to an Application Server, we might want to configure and manage the <code><font style="color: rgb(128,128,0);">DataSource</font></code> by using the Application Server’s built-in features and access it by using JNDI.
 >
 > We can do this using the <code><font style="color: rgb(128,128,0);">spring.datasource.jndi-name</font></code> property. e.g.
->
 > ```
 > # JBoss defined datasource using JNDI
 > spring.datasource.jndi-name = java:jboss/datasources/testDB

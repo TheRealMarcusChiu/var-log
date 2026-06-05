@@ -1,17 +1,21 @@
 ---
-publish: true
-title: Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)
+title: "Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)"
 created: 2019-05-18T17:03:51.364-05:00
 modified: 2021-12-11T15:53:21.774-06:00
+parent: "[[UNIX - General]]"
+children:
+  - "[[SysV]]"
+  - "[[SysV／Upstart／Systemd - History]]"
+  - "[[SysV／Upstart／Systemd／Launchd - Commands (service - chkconfig - systemctl - journalctl - launchctl)]]"
+  - "[[Systemd]]"
+  - "[[Upstart]]"
 ---
-
 - <strong>service/daemon</strong> is a program run by the system in the background, as opposed to one started and run directly by the user
 - <strong>service/daemon manager</strong> manages a plethora of services
 
 # Service Managers - History
 
 refer to: [[SysV／Upstart／Systemd - History|SysV/Upstart/Systemd - History]]
-
 # Service Managers - Types
 
 ```merge-table

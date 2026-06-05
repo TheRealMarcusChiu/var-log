@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Hidden Markov Model (HMM) vs Sequential Maximum Entropy Markov Model (MEMM)
+title: "Hidden Markov Model (HMM) vs Sequential Maximum Entropy Markov Model (MEMM)"
 created: 2021-09-13T05:26:55.632-05:00
 modified: 2021-09-13T05:26:55.632-05:00
+parent: "[[PGM - Model Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

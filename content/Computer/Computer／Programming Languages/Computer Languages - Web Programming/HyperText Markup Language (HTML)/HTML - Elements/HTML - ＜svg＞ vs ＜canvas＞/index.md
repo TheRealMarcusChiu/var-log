@@ -1,10 +1,10 @@
 ---
-publish: true
-title: HTML - ＜svg＞ vs ＜canvas＞
+title: "HTML - ＜svg＞ vs ＜canvas＞"
 created: 2021-09-03T18:17:38.096-05:00
 modified: 2021-12-21T20:26:25.260-06:00
+parent: "[[HTML - Elements]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

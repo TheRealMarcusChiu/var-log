@@ -1,16 +1,13 @@
 ---
-publish: true
-title: Proxmox - TASK ERROR： Device ／dev／dri／card0 does not exist
+title: "Proxmox - TASK ERROR： Device ／dev／dri／card0 does not exist"
 created: 2025-09-18T12:52:39.935-05:00
 modified: 2025-09-18T12:55:36.807-05:00
+parent: "[[Proxmox Virtual Environment (PVE)]]"
+children: []
 ---
-
 # Problem
-
-![[Computer/Software／Fullstack Development/5 - Deploy/Virtual Machines vs Containers vs Emulators/Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)/Proxmox Virtual Environment (PVE)/Proxmox - TASK ERROR： Device ／dev／dri／card0 does not exist/proxmox-error.png|900]]
-
+![[Proxmox - TASK ERROR： Device ／dev／dri／card0 does not exist/proxmox-error.png|900]]
 # Solution
-
 ```
 ssh into proxmox server
 ls /dev/dri

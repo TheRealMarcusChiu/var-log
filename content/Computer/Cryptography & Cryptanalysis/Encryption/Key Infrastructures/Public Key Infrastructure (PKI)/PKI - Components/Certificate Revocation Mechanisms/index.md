@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Certificate Revocation Mechanisms
+title: "Certificate Revocation Mechanisms"
 created: 2019-11-22T12:53:12.887-06:00
 modified: 2022-11-25T18:35:09.078-06:00
+parent: "[[PKI - Components]]"
+children: []
 ---
-
 # Revocation Methods
 
 ```merge-table
@@ -47,7 +47,6 @@ modified: 2022-11-25T18:35:09.078-06:00
   "tableStyle": "width: 51.5441%;"
 }
 ```
-
 # Bad List vs Good List
 
 ```merge-table
@@ -82,7 +81,6 @@ modified: 2022-11-25T18:35:09.078-06:00
   ]
 }
 ```
-
 # Where to Store Certificates
 
 ```merge-table

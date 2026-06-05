@@ -1,21 +1,18 @@
 ---
-publish: true
-title: Lappin & Leas Pronouns Resolution Algorithm
+title: "Lappin & Leas Pronouns Resolution Algorithm"
 created: 2020-11-20T18:06:45.131-06:00
 modified: 2020-12-03T00:05:04.662-06:00
+parent: "[[Coreference／Co-Reference Extraction]]"
+children: []
 ---
-
 ###### Lappin & Leas Pronouns Resolution Algorithm
-
 - the idea is to use a weighting scheme that integrates the effects of recency and syntactic preferences
 - computes a salience value as a sum of weights assigned by a set of salience factors
 
 ### Resources
-
-- <https://web.stanford.edu/~jurafsky/18beg.pdf>
+- [https://web.stanford.edu/~jurafsky/18beg.pdf](https://web.stanford.edu/~jurafsky/18beg.pdf)
 
 ### Pronoun Resolution Algorithm
-
 ```
 referent-list = [] # list of ([referents], salient-value)
 for each sentence in discourse {
@@ -32,7 +29,6 @@ for each sentence in discourse {
 	}
 }
 ```
-
 ### Lappin & Leas - Salience Factors
 
 ```merge-table
@@ -91,20 +87,17 @@ for each sentence in discourse {
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 ### Pronoun Resolution Algorithm - Example
 
 given discourse:
-
 - <code><font style="color: rgb(128,128,128);">John saw a beautiful Acura at the dealership.</font></code>
 - <code><font style="color: rgb(128,128,128);">He showed it to Bob.</font></code>
 - <code><font style="color: rgb(128,128,128);">He bought it.</font></code>
 
 steps:
-
 > [!tabs]
 >
-> \=== 1
+> === 1
 >
 > - current sentence: <code><font style="color: rgb(128,128,128);">John saw a beautiful Acura at the dealership.</font></code>
 >
@@ -308,7 +301,7 @@ steps:
 > }
 > ```
 >
-> \=== 2
+> === 2
 >
 > - current sentence: <code><font style="color: rgb(128,128,128);">He showed it to Bob.</font></code>
 >
@@ -513,7 +506,7 @@ steps:
 > }
 > ```
 >
-> \=== 3
+> === 3
 >
 > - current sentence: <code><font style="color: rgb(128,128,128);">He bought it.</font></code>
 >

@@ -1,29 +1,25 @@
 ---
-publish: true
-title: Java - Spring - Test - Unit Testing (@Autowired vs Constructor Injection - JUnit4&5)
+title: "Java - Spring - Test - Unit Testing (@Autowired vs Constructor Injection - JUnit4&5)"
 created: 2021-04-02T23:10:18.179-05:00
 modified: 2021-06-02T21:19:53.316-05:00
+parent: "[[Java - Spring Framework - Testing Framework]]"
+children: []
 ---
-
-code: <https://github.com/SpringBootMarcusChiu/test-framework-speedtest-autowired-constructor-reflectiontestutils>
-
+code: [https://github.com/SpringBootMarcusChiu/test-framework-speedtest-autowired-constructor-reflectiontestutils](https://github.com/SpringBootMarcusChiu/test-framework-speedtest-autowired-constructor-reflectiontestutils)
 # <strong>1 - Objective</strong>
 
 There are 2 ways to do [[Dependency Injection (DI)|dependency injection]]:
-
 - @Autowired injection
 - constructor injection
 
 And this affects the way we write Unit Tests:
-
 - if @Autowired was chosen as Injection, then there are 2 ways to create Unit Test, either:
-  - use SpringRunner.class/SpringExtension.class - this loads the entire Spring framework
-  - use ReflectionTestUtil and MockitoRunner.class/MockitoExtension.class - this does not load the entire Spring framework
+	- use SpringRunner.class/SpringExtension.class - this loads the entire Spring framework
+	- use ReflectionTestUtil and MockitoRunner.class/MockitoExtension.class - this does not load the entire Spring framework
 - if constructor injection was chosen, then to create a Unit Test we:
-  - use MockitoRunner.class/MockitoExtension.class
+	- use MockitoRunner.class/MockitoExtension.class
 
 # <strong>2 - Injection with @Autowired - Code Examples</strong>
-
 ```
 @Service
 public class BiggerTestService {
@@ -36,7 +32,6 @@ public class BiggerTestService {
     }
 }
 ```
-
 ```
 @Service
 public class SmallerTestService {
@@ -51,11 +46,9 @@ public class SmallerTestService {
     }
 }
 ```
-
 ### Testing With @Autowired Injection with JUnit 4
 
 > [!expand]- testing with SpringRunner.class
->
 > ```
 > import org.junit.Test;
 > import org.junit.runner.RunWith;
@@ -87,7 +80,6 @@ public class SmallerTestService {
 > ```
 
 > [!expand]- testing with ReflectionTestUtils
->
 > ```
 > import org.junit.Before;
 > import org.junit.Test;
@@ -121,11 +113,9 @@ public class SmallerTestService {
 >     }
 > }
 > ```
-
 ### Testing With @Autowired Injection with JUnit5
 
 > [!expand]- testing with SpringExtension.class
->
 > ```
 > import org.junit.jupiter.api.Test;
 > import org.junit.jupiter.api.extension.ExtendWith;
@@ -157,7 +147,6 @@ public class SmallerTestService {
 > ```
 
 > [!expand]- testing with ReflectionTestUtils
->
 > ```
 > import org.junit.jupiter.api.BeforeEach;
 > import org.junit.jupiter.api.Test;
@@ -193,9 +182,7 @@ public class SmallerTestService {
 >     }
 > }
 > ```
-
 # <strong>3 - Injection with Constructor - Code Example</strong>
-
 ```
 @Service
 public class BiggerTestService {
@@ -211,7 +198,6 @@ public class BiggerTestService {
     }
 }
 ```
-
 ```
 @Service
 public class SmallerTestService {
@@ -226,11 +212,9 @@ public class SmallerTestService {
     }
 }
 ```
-
 ### Testing With Constructor Injection with JUnit4
 
 > [!expand]- Click here to expand...
->
 > ```
 > import org.junit.Before;
 > import org.junit.Test;
@@ -262,11 +246,9 @@ public class SmallerTestService {
 >     }
 > }
 > ```
-
 ### Testing With Constructor Injection with JUnit5
 
 > [!expand]- Click here to expand...
->
 > ```
 > import org.junit.jupiter.api.BeforeEach;
 > import org.junit.jupiter.api.Test;

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Adage - Aphorism - Maxim - Proverb - Epigram
+title: "Adage - Aphorism - Maxim - Proverb - Epigram"
 created: 2021-09-13T04:43:51.610-05:00
 modified: 2021-09-13T04:43:51.610-05:00
+parent: "[[Vocab - Vocabulary - Terms - Terminology - Words - Phrases - Vernacular - Jargon - Verbiage]]"
+children: []
 ---
-
 - <strong>adage</strong> - a proverb or short <strong>statement</strong> expressing a <strong>general truth</strong>
 - <strong>aphorism</strong> - a pithy <strong>observation</strong> that contains a <strong>general truth</strong>, such as, “if it ain't broke, don't fix it.”
 - <strong>maxim</strong> - a pithy <strong>statement</strong> expressing a <strong>general truth</strong> or rule of conduct. "the maxim that actions speak louder than words"

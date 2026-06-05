@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Neo4j - Memory Consumption
+title: "Neo4j - Memory Consumption"
 created: 2021-03-21T21:35:25.036-05:00
 modified: 2022-03-30T03:44:56.495-05:00
+parent: "[[Neo4j - Other]]"
+children:
+  - "[[Neo4j - Memory Monitoring]]"
 ---
-
 see: [[Java - Memory Space]]
 
 ```merge-table
@@ -30,16 +31,18 @@ see: [[Java - Memory Space]]
   "tableStyle": "width: 98.041%;"
 }
 ```
-
 # Indexes
 
 Depending on whether you are using [[Apache - Lucene|Lucene]] or native indexes, the memory taken by these will live in different places:
-
 - If you are using Lucene indexes, these will live off-heap and we have no control over what memory is used by them. On the image above, they would live alongside the page cache but in an unmanaged block
 - If you are using native indexes, the memory taken by them will live inside the page cache meaning we can somewhat control how much memory they can take. You should account for this when setting the page cache size
 
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Resources
-
-- <https://neo4j.com/developer/kb/understanding-memory-consumption/>
+- [https://neo4j.com/developer/kb/understanding-memory-consumption/](https://neo4j.com/developer/kb/understanding-memory-consumption/)

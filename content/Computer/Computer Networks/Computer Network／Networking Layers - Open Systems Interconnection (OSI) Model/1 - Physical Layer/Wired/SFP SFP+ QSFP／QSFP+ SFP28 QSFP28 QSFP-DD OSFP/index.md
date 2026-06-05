@@ -1,10 +1,19 @@
 ---
-publish: true
-title: SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP
+title: "SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP"
 created: 2024-07-04T19:32:04.289-05:00
 modified: 2025-10-23T20:01:14.911-05:00
+parent: "[[Wired]]"
+children:
+  - "[[Octal Small Form-factor Pluggable (OSFP)]]"
+  - "[[QSFP - QSFP+]]"
+  - "[[QSFP112]]"
+  - "[[QSFP28]]"
+  - "[[Quad Small Form Factor Pluggable Double Density (QSFP-DD)]]"
+  - "[[SFP+]]"
+  - "[[SFP-DD]]"
+  - "[[SFP28]]"
+  - "[[Small Form-factor Pluggable (SFP)]]"
 ---
-
 ```merge-table
 {
   "rows": [

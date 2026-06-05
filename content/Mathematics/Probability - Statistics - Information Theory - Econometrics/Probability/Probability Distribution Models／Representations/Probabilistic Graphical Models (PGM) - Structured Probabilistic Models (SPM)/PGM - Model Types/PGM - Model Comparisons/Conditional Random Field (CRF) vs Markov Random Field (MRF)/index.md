@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Conditional Random Field (CRF) vs Markov Random Field (MRF)
+title: "Conditional Random Field (CRF) vs Markov Random Field (MRF)"
 created: 2021-09-13T05:26:54.514-05:00
 modified: 2021-09-13T05:26:54.514-05:00
+parent: "[[PGM - Model Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

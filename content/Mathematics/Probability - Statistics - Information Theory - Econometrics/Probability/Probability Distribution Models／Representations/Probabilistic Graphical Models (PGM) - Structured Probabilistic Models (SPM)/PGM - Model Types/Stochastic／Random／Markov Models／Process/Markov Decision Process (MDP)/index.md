@@ -1,26 +1,22 @@
 ---
-publish: true
-title: Markov Decision Process (MDP)
+title: "Markov Decision Process (MDP)"
 created: 2021-09-13T05:27:07.710-05:00
 modified: 2025-09-15T13:16:04.593-05:00
+parent: "[[Stochastic／Random／Markov Models／Process]]"
+children: []
 ---
-
 ###### Markov Decision Process (MDP)
-
-```excerpt
+````excerpt
 - closely related to [[Reinforcement Learning (RL)|reinforcement learning]]
 - is a [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|Markov Chain]] with the addition of actions (allowing choice) and rewards (giving motivation)
 	- if only one action exists for each state and all rewards are the same, then the MDP reduces to a Markov Chain
 - is a [[Markov Reward Process (MRP)]] with the addition of actions
 	- if only one action exists for each state, then the MDP reduces to an MRP
-```
-
+````
 ^excerpt
 
 # MDP - Components
-
 MDP can be represented in these components ⟨𝐒, 𝐀, 𝐓, 𝐑, 𝛾⟩:
-
 - 𝐒 = {𝑆<sub>1</sub>, ..., 𝑆<sub>𝑠</sub>} - set of states the agent can be in
 - 𝐀<sub>𝑖</sub> = {𝐴<sub>𝑖1</sub>, ..., 𝐴<sub>𝑖𝑎</sub>} - set of actions the agent can perform while in state 𝑆<sub>𝑖</sub>
 - 𝐓 transition probability matrices - which is the probability of moving from state 𝑆<sub>𝑖</sub>to another state 𝑆<sub>𝑗</sub> by performing some action 𝐴<sub>𝑖𝑘</sub>
@@ -28,23 +24,20 @@ MDP can be represented in these components ⟨𝐒, 𝐀, 𝐓, 𝐑, 𝛾⟩:
 - 𝛾 discount factor - controls the importance between immediate rewards and future rewards
 
 # MDP - Policy
-
 - 𝜋 policy is a [[Probability Distributions|distribution]] over actions given states. For example, 𝜋(𝐴<sub>𝑖1</sub>|𝑆<sub>1</sub>) = 𝐏(𝐀<sub>𝑖</sub>=𝐴<sub>𝑖1</sub>| 𝐒=𝑆<sub>1</sub>)
 - 𝜋 policy fully defines the behavior of an agent
 - 𝜋 policy depends on the current state (not the history)
-- 𝜋 policy is [[Markov Chain Property - Stationary／Stable／Invariant／Steady-State／Limiting／Marginal Probability Distribution Vector|stationary]] (i.e. time-independent): 𝐴<sub>𝑡</sub> ~ 𝜋(·|𝑆<sub>𝑡</sub>), ∀𝑡 > 0
+- 𝜋 policy is [[Markov Chain Property - Stationary／Stable／Invariant／Steady-State／Limiting／Marginal Probability Distribution Vector|stationary]] (i.e. time-independent): 𝐴<sub>𝑡</sub> \~ 𝜋(·|𝑆<sub>𝑡</sub>), ∀𝑡 \> 0
 
 # MDP - Reducing to Markov Chain & Markov Reward Process
-
 - given an MDP and a policy function, ⟨𝐒, 𝐓<sup>𝜋</sup>⟩ is a [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|Markov Chain]]
 - given an MDP and a policy function, ⟨𝐒, 𝐓<sup>𝜋</sup>, 𝐑<sup>𝜋</sup>, 𝛾⟩ is a [[Markov Reward Process (MRP)|Markov Reward Process]]
 
 where:
-
 - 𝐓<sup>𝜋</sup>- where for each state only 1 action is allowed to be performed, and that action is determined by 𝜋
-  - 𝐓<sup>𝜋</sup><sub>𝑠,𝑠'</sub> = 𝛴<sub>𝑎∊𝐀</sub>\[𝜋(𝑎|𝑠) · 𝐓<sup>𝑎</sup><sub>𝑠,𝑠'</sub>]
+	- 𝐓<sup>𝜋</sup><sub>𝑠,𝑠'</sub> = 𝛴<sub>𝑎∊𝐀</sub>\[𝜋(𝑎|𝑠) · 𝐓<sup>𝑎</sup><sub>𝑠,𝑠'</sub>\]
 - 𝐑<sup>𝜋</sup>- where for each state only 1 reward is allowed to be acquired, and that reward is determined by the action determined by 𝜋 for each state
-  - 𝐑<sup>𝜋</sup><sub>𝑠</sub> = 𝛴<sub>𝑎∊𝐀</sub>\[𝜋(𝑎|𝑠) · 𝐑<sup>𝑎</sup><sub>𝑠</sub>]
+	- 𝐑<sup>𝜋</sup><sub>𝑠</sub> = 𝛴<sub>𝑎∊𝐀</sub>\[𝜋(𝑎|𝑠) · 𝐑<sup>𝑎</sup><sub>𝑠</sub>\]
 
 # MDP - Value Functions
 
@@ -68,7 +61,6 @@ where:
   ]
 }
 ```
-
 # MDP - Value Functions - Bellman Expectation Equations
 
 ```merge-table
@@ -91,7 +83,6 @@ where:
   ]
 }
 ```
-
 # MDP - Solving Bellman Expectation Equation
 
 ```merge-table
@@ -140,7 +131,6 @@ where:
   ]
 }
 ```
-
 # MDP - Optimal Value Functions
 
 The optimal value function specifies the best possible performance in the MDP
@@ -165,32 +155,25 @@ The optimal value function specifies the best possible performance in the MDP
   ]
 }
 ```
-
 # MDP - Optimal Policy
 
 Define a partial ordering over policies:
-
 - 𝜋 ≥ 𝜋' if 𝑉<sub>𝜋</sub>(𝑆<sub>𝑖</sub>) ≥ 𝑉<sub>𝜋'</sub>(𝑆<sub>𝑖</sub>), ∀𝑆<sub>𝑖</sub>∊𝐒
 
 For any MDP:
-
 - there exists an optimal policy 𝜋\* that is better than or equal to all other policies, 𝜋\* ≥ 𝜋, ∀𝜋
 - all optimal policies achieve the optimal state-value function, 𝑉<sub>𝜋\*</sub>(𝑆<sub>𝑖</sub>) = 𝑉<sub>\*</sub>(𝑆<sub>𝑖</sub>)
 - all optimal policies achieve the optimal action-value function, 𝑄<sub>𝜋\*</sub>(𝑆<sub>𝑖</sub>,𝐴<sub>𝑖𝑗</sub>) = 𝑄<sub>\*</sub>(𝑆<sub>𝑖</sub>,𝐴<sub>𝑖𝑗</sub>)
 
 # MDP - Finding an Optimal Policy
-
 An optimal policy 𝜋\* can be found by maximizing over 𝑄<sub>\*</sub>(𝑆<sub>𝑖</sub>,𝐴<sub>𝑖𝑗</sub>),
-
-- 𝜋\*(𝐴<sub>𝑖𝑗</sub>|𝑆<sub>𝑖</sub>) = 1 <font style="color: rgb(122,134,154);"># if 𝐴<sub>𝑖𝑗</sub> = 𝑎𝑟𝑔𝑚𝑎𝑥<sub>𝐴𝑖'∊𝐀𝑖</sub> 𝑄<sub>\*</sub>(𝑆<sub>𝑖</sub>,𝐴<sub>𝑖</sub>')</font>
-- 𝜋\*(𝐴<sub>𝑖𝑗</sub>|𝑆<sub>𝑖</sub>) = 0 <font style="color: rgb(122,134,154);"># otherwise</font>
+- 𝜋\*(𝐴<sub>𝑖𝑗</sub>|𝑆<sub>𝑖</sub>) = 1 <font style="color: rgb(122,134,154);">\# if 𝐴<sub>𝑖𝑗</sub> = 𝑎𝑟𝑔𝑚𝑎𝑥<sub>𝐴𝑖'∊𝐀𝑖</sub> 𝑄<sub>\*</sub>(𝑆<sub>𝑖</sub>,𝐴<sub>𝑖</sub>')</font>
+- 𝜋\*(𝐴<sub>𝑖𝑗</sub>|𝑆<sub>𝑖</sub>) = 0 <font style="color: rgb(122,134,154);">\# otherwise</font>
 
 For any MDP:
-
 - there is always a deterministic optimal policy 𝜋\*
 
 If we know 𝑄<sub>\*</sub>(𝑆<sub>𝑖</sub>,𝐴<sub>𝑖𝑗</sub>), then we immediately have the optimal policy 𝜋\*
-
 # MDP - Value Functions - Bellman Optimality Equations
 
 ```merge-table
@@ -213,19 +196,16 @@ If we know 𝑄<sub>\*</sub>(𝑆<sub>𝑖</sub>,𝐴<sub>𝑖𝑗</sub>), then 
   ]
 }
 ```
-
 # MDP - Solving Bellman Optimality Equation
 
 An MDP is "solved" when an optimal value function is found
-
 - Bellman optimality equation is non-linear (thus, using linear algebra is not possible)
 - no closed form solution (in general)
 - many iterative solution methods:
-  - value iteration
-  - policy iteration
-  - Q-learning
-  - sarsa
-
+	- value iteration
+	- policy iteration
+	- Q-learning
+	- sarsa
 ```merge-table
 {
   "rows": [
@@ -266,9 +246,7 @@ An MDP is "solved" when an optimal value function is found
 }
 ```
 
-<https://medium.com/analytics-vidhya/bellman-equation-and-dynamic-programming-773ce67fc6a7>
-
+[https://medium.com/analytics-vidhya/bellman-equation-and-dynamic-programming-773ce67fc6a7](https://medium.com/analytics-vidhya/bellman-equation-and-dynamic-programming-773ce67fc6a7)
 # Resources
-
-- <https://en.wikipedia.org/wiki/Markov_decision_process>
-- [David Silver - RL Lecture #2 - MDP](https://www.youtube.com/watch?v=lfHX2hHRMVQ\&ab_channel=DeepMind)
+- [https://en.wikipedia.org/wiki/Markov_decision_process](https://en.wikipedia.org/wiki/Markov_decision_process)
+- [David Silver - RL Lecture #2 - MDP](https://www.youtube.com/watch?v=lfHX2hHRMVQ&ab_channel=DeepMind)

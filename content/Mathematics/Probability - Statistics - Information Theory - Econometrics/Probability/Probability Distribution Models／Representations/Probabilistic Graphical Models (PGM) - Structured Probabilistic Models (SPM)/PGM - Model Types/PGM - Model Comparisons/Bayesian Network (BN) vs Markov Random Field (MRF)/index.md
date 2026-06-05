@@ -1,16 +1,15 @@
 ---
-publish: true
-title: Bayesian Network (BN) vs Markov Random Field (MRF)
+title: "Bayesian Network (BN) vs Markov Random Field (MRF)"
 created: 2021-09-13T05:26:53.169-05:00
 modified: 2021-09-13T05:26:53.169-05:00
+parent: "[[PGM - Model Comparisons]]"
+children: []
 ---
-
-```excerpt
+````excerpt
 A [[Markov Networks／Nets - Markov Random Fields (MRF)|Markov Network (MN)]] is similar to a [[Bayesian Networks (BN)|Bayesian Network (BN)]] in its representation of independences and dependencies; the differences being that Bayesian networks are directed and acyclic, whereas Markov networks are undirected and may be cyclic. Thus, a Markov network can represent certain independencies and dependencies that a Bayesian network cannot (such as cyclic dependencies); on the other hand, it can't represent certain dependencies that a Bayesian network can (such as induced dependencies)
 
 more difference described here: [[Bayesian Network (BN) vs Markov Random Field (MRF)]]
-```
-
+````
 ^excerpt
 
 ### Bayesian Networks vs Markov Networks
@@ -64,7 +63,6 @@ more difference described here: [[Bayesian Network (BN) vs Markov Random Field (
   "tableStyle": "width: 682.667px;"
 }
 ```
-
 ### Converting Between BN & MN
 
 When converting a BN to a MN, the MN dependencies MUST be a superset of the BN dependencies:
@@ -83,6 +81,5 @@ where:
 > I(..) are [[I-Map - D-Map - Minimal I-Map - Maximal D-Map - P-Map - I-Equivalence|I-Maps]]
 
 conversions:
-
 - [[BN - To Markov Network]]
 - [[MN／MRF - To Bayesian Network|MN/MRF - To Bayesian Network]]

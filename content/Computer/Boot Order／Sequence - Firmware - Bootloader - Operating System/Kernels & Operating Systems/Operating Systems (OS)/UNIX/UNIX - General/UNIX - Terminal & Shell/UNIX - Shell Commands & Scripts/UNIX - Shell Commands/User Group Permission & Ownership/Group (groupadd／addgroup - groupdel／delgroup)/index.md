@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Group (groupadd／addgroup - groupdel／delgroup)
+title: "Group (groupadd／addgroup - groupdel／delgroup)"
 created: 2019-11-16T12:38:44.714-06:00
 modified: 2021-09-12T22:50:07.872-05:00
+parent: "[[User Group Permission & Ownership]]"
+children:
+  - "[[／etc／group]]"
 ---
-
 # Group Commands
 
 ```merge-table
@@ -47,7 +48,5 @@ modified: 2021-09-12T22:50:07.872-05:00
 ```
 
 [[Difference Between useradd／userdel／groupadd／groupdel & adduser／deluser／addgroup／delgroup|Difference Between useradd/userdel/groupadd/groupdel & adduser/deluser/addgroup/delgroup]]
-
 # Group Files
-
 - [[／etc／group|/etc/group]]

@@ -1,20 +1,18 @@
 ---
-publish: true
-title: CPLD vs FPGA
+title: "CPLD vs FPGA"
 created: 2023-05-21T20:11:42.964-05:00
 modified: 2024-09-22T22:51:27.020-05:00
+parent: "[[Programmable Logic Device (PLD)]]"
+children: []
 ---
-
-based on: <https://numato.com/kb/cpld-vs-fpga-differences-one-use/>
-
+based on: [https://numato.com/kb/cpld-vs-fpga-differences-one-use/](https://numato.com/kb/cpld-vs-fpga-differences-one-use/)
 # [[Complex Programmable Logic Device (CPLD)|CPLD]] Architecture
 
 Let’s take a look at CPLD, Xilinx CoolRunner-II as a practical example
 
-![[Computer/Computer Hardware/Computer Hardware - Parts/Logic Devices - Logic Circuits/Integrated Circuit (IC) - Microchip - Chip/Programmable Logic Device (PLD)/CPLD vs FPGA/Xilinx-CoolRunner-II-Architecture.png|500]]
+![[CPLD vs FPGA/Xilinx-CoolRunner-II-Architecture.png|500]]
 
 Let’s discuss a few features from the above image:
-
 - This CPLD has a few function blocks starting from “Function Block 1” to “Function Block n” (this number ranges from 2 to 32 in the case of CoolRunner-II CPLDs)
 - 16 lines of output from each Function Block go into AIM (Advanced Interconnect Matrix), whereas 40 lines of signals are input into Function Blocks from the AIM.
 - Each function block has 16 MacroCells (MC1 to MC16).
@@ -22,26 +20,22 @@ Let’s discuss a few features from the above image:
 - The structure of MacroCell is shown below. Each macrocell contains 1 Flip-Flop and PLA array of Sum of Products which users can utilize to create combinatorial or sequential logic.  So the maximum number of  Flip Flops available in CoolRunner-II CLPD (XC2C512) is 512! (Remember this number, we will compare it with the number of Flip Flops in FPGAs)
 - The AIM can be programmed to interconnect the signals as we want. But as we saw in the second bullet point above, the number of signals is limited for each function block.
 
-![[Computer/Computer Hardware/Computer Hardware - Parts/Logic Devices - Logic Circuits/Integrated Circuit (IC) - Microchip - Chip/Programmable Logic Device (PLD)/CPLD vs FPGA/Xilinx-CoolRunner-II-Macrocell.png|500]]
+![[CPLD vs FPGA/Xilinx-CoolRunner-II-Macrocell.png|500]]
 
 Same as in [[Programming Array Logic (PAL) - Programmable Logic Array (PLA)|PLAs]], CPLDs’ logic functions in each Macrocell are electrically programmed via In System Programming (ISP) Interface over JTAG (check Figure 1). After programming, these flash-based connections remain persistent for years. This gives CPLDs a unique advantage of “instant-on” working. That is, CPLDs start working as soon as powered up since their circuitry is flashed/burned into them via ISP. That is not the case with FPGAs as we will see later.
 
 Generalizing, we can say that, in CPLDs, there are a few hundred function blocks (or logic blocks), typically less than a thousand in number, which are accessible by a single big interconnect.
-
 # CPLD vs FPGA - Comparison Summary
-
 # [[Field-Programmable Gate Arrays (FPGA)|FPGA]] Architecture
 
 For more detail: [[FPGA - Architecture]]
 
 The exact FPGA architecture is not publicly released by manufacturers, we can still get higher-level architecture
-
 ```
 image of "FPGA Architecture: CLB and Interconnect"
 ```
 
-In the case of FPGAs, there are many [[Configurable Logic Block (CLB) - Logic Array Block (LAB)|Configurable Logic Blocks (CLBs)]] embedded in an ocean of programmable interconnects. These CLBs are incredibly complex compared to Macrocells of CPLDs and can implement vastly more complex logic functions. They are primarily made of Look-Up Tables (LUTs), Multiplexers, and Flip-Flops. For the brave, Xilinx published a lot of details in Xilinx User Guide on 7 Series FPGAs Configurable Logic Block. FPGAs can contain even millions of CLBs in a single device! And millions of Flip-Flops (~3.456 million Flip-Flops in Xilinx VU13P)! Compare that with just 512 Flip-Flops in the biggest CPLD from Xilinx! In short, FPGAs are massive! (not all but many are)
-
+In the case of FPGAs, there are many [[Configurable Logic Block (CLB) - Logic Array Block (LAB)|Configurable Logic Blocks (CLBs)]] embedded in an ocean of programmable interconnects. These CLBs are incredibly complex compared to Macrocells of CPLDs and can implement vastly more complex logic functions. They are primarily made of Look-Up Tables (LUTs), Multiplexers, and Flip-Flops. For the brave, Xilinx published a lot of details in Xilinx User Guide on 7 Series FPGAs Configurable Logic Block. FPGAs can contain even millions of CLBs in a single device! And millions of Flip-Flops (\~3.456 million Flip-Flops in Xilinx VU13P)! Compare that with just 512 Flip-Flops in the biggest CPLD from Xilinx! In short, FPGAs are massive! (not all but many are)
 ```
 image of: Specialized hardware on FPGA
 ```
@@ -161,7 +155,6 @@ As mentioned before, FPGAs are [[Look-Up／Lookup Tables (LUT)|LUT]] based. When
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # CPLD vs FPGA - When to Use
 
 When a design requires a simple glue-logic or similar functionality which doesn’t need to be changed much, or when you need an instant-on circuit, then go for CPLDs. Otherwise, for most other applications FPGAs are generally preferred. Sometimes you can find both CPLD + FPGA in a design. In those designs, CPLDs generally do simple glue-logic as mentioned before, and are responsible for “booting” the FPGA as well as controlling the reset and boot sequence of a complete board. So, depending on the application you might need to use both in a particular design.

@@ -1,10 +1,12 @@
 ---
-publish: true
-title: CQS vs CQRS
+title: "CQS vs CQRS"
 created: 2022-04-17T01:56:40.847-05:00
 modified: 2023-03-18T16:49:07.737-05:00
+parent: "[[Software Design／Development Paradigms／Principles]]"
+children:
+  - "[[Command-Query Responsibility Segregation (CQRS) Principle]]"
+  - "[[Command-Query Separation (CQS) Principle]]"
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Jackson - CSV - Retrieving List of POJO Field Names and Types as Seen from CsvMapper
+title: "Jackson - CSV - Retrieving List of POJO Field Names and Types as Seen from CsvMapper"
 created: 2021-05-04T20:43:28.036-05:00
 modified: 2021-06-18T15:43:31.312-05:00
+parent: "[[Jackson - CSV]]"
+children: []
 ---
-
 # 1 - ObjectMapper
-
 ```
 ObjectMapper mapper = new ObjectMapper();
 // Construct a Jackson JavaType for your class
@@ -19,9 +18,7 @@ properties.forEach(p -> {
     System.out.println(p.getField().getName() + " : " + p.getField().getType().getRawClass().getCanonicalName());
 });
 ```
-
 # 2 - CsvMapper
-
 ```
 CsvMapper mapper2 = new CsvMapper();
 CsvSchema schema = mapper2.schemaForWithView(Api.class, Views.CSV.class).withHeader();
@@ -34,9 +31,7 @@ for (CsvSchema.Column next : schema) {
     System.out.println(next.getName() + " : " + bpd.getField().getType().getRawClass().getCanonicalName());
 }
 ```
-
 # 3 - CsvMapper (@JsonIgnore)
-
 ```
 var javaType = mapper.readerFor(pojoType).getTypeFactory().constructType(pojoType);
 var beanDescription = mapper.getSerializationConfig().introspect(javaType);
@@ -48,9 +43,7 @@ bpdList = bpdList.stream()
 	.collect(Collectors.toList());
 Map<String, BeanPropertyDefinition> bpdMap = Maps.uniqueIndex(bpdList, BeanPropertyDefinition::getName);
 ```
-
 # 3 - Imports
-
 ```
 import com.fasterxml.jackson.databind.BeanDescription;
 import com.fasterxml.jackson.databind.JavaType;

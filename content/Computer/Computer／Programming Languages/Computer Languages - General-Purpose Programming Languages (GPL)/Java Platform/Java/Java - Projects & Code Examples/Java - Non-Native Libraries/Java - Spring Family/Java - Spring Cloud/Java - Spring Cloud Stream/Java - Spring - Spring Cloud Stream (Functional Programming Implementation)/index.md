@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Spring - Spring Cloud Stream (Functional Programming Implementation)
+title: "Java - Spring - Spring Cloud Stream (Functional Programming Implementation)"
 created: 2022-08-11T02:37:54.148-05:00
 modified: 2022-08-11T02:51:55.769-05:00
+parent: "[[Java - Spring Cloud Stream]]"
+children: []
 ---
-
 # Dependencies
-
 ```xml
 <dependency>
 	<groupId>org.springframework.cloud</groupId>
@@ -22,9 +21,7 @@ modified: 2022-08-11T02:51:55.769-05:00
 	<type>test-jar</type>
 </dependency>
 ```
-
 # Define Functions
-
 ```java
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;
@@ -59,11 +56,8 @@ public class AmqpConfiguration {
     }
 }
 ```
-
 # Configure Functions
-
-The configuration is similar to the annotation-based approach but the binding name is determined by the framework based on this naming convention: <strong><em>\<function name>-in-\<index></em></strong> where <em>\<index></em> is always 0 for most cases unless [functions with multiple inputs and outputs](https://docs.spring.io/spring-cloud-stream/docs/3.1.3/reference/html/spring-cloud-stream.html#_functions_with_multiple_input_and_output_arguments).
-
+The configuration is similar to the annotation-based approach but the binding name is determined by the framework based on this naming convention: <strong><em>\<function name\>-in-\<index\></em></strong> where <em>\<index\></em> is always 0 for most cases unless [functions with multiple inputs and outputs](https://docs.spring.io/spring-cloud-stream/docs/3.1.3/reference/html/spring-cloud-stream.html#_functions_with_multiple_input_and_output_arguments).
 ```yml
 spring:
   cloud:
@@ -92,7 +86,5 @@ spring:
           brokers: localhost:9092
           auto-create-topics: true
 ```
-
 # Resources
-
-- <https://medium.com/geekculture/spring-cloud-streams-with-functional-programming-model-93d49696584c>
+- [https://medium.com/geekculture/spring-cloud-streams-with-functional-programming-model-93d49696584c](https://medium.com/geekculture/spring-cloud-streams-with-functional-programming-model-93d49696584c)

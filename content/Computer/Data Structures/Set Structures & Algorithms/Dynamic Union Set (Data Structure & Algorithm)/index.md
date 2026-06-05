@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Dynamic Union Set (Data Structure & Algorithm)
+title: "Dynamic Union Set (Data Structure & Algorithm)"
 created: 2021-09-18T16:17:44.748-05:00
 modified: 2021-09-18T17:02:43.659-05:00
+parent: "[[Set Structures & Algorithms]]"
+children: []
 ---
-
 ###### Dynamic Union Set (Data Structure & Algorithm)
-
 - is a [[Data Structures|data structure]] that supports dynamic union operations over a set of elements
 
 # Dynamic Union Set - Operations
@@ -64,12 +63,11 @@ modified: 2021-09-18T17:02:43.659-05:00
   ]
 }
 ```
-
 # Dynamic Union Set - Algorithm Types
 
 given 𝑀 union operations over a set of size 𝑁
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -196,4 +194,4 @@ given 𝑀 union operations over a set of size 𝑁
   ],
   "tableStyle": "width: 100.0%;"
 }
-````
+```

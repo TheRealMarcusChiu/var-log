@@ -1,12 +1,15 @@
 ---
-publish: true
-title: Cognitive Biases
+title: "Cognitive Biases"
 created: 2021-09-13T04:45:33.812-05:00
 modified: 2021-09-13T04:45:33.812-05:00
+parent: "[[Psychology]]"
+children:
+  - "[[Cognitive Biases - Affecting Belief, Decision-Making, Behavioral]]"
+  - "[[Cognitive Biases - Affecting Memory (Memory Bias)]]"
+  - "[[Cognitive Biases - Social]]"
+  - "[[Thinking Fast and Slow - 2 Systems]]"
 ---
-
 <strong>Cognitive Bias</strong>
-
 - is a systematic pattern of deviation from norm or rationality in judgment
 
 # Cognitive Biases - Pros & Cons
@@ -33,9 +36,7 @@ modified: 2021-09-13T04:45:33.812-05:00
   ]
 }
 ```
-
 # Cognitive Biases - Causes
-
 - limits on the mind's attention
 - individual motivations
 - mental shortcuts called "heuristics"
@@ -103,7 +104,5 @@ modified: 2021-09-13T04:45:33.812-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Cognitive Biases - Resources
-
 - [[thinking-fast-and-slow-book-summary.pdf]]

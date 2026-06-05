@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Deep Q Networks (DQN)
+title: "Deep Q Networks (DQN)"
 created: 2024-08-24T13:33:42.981-05:00
 modified: 2024-08-24T14:27:22.109-05:00
+parent: "[[Reinforcement Learning (RL)]]"
+children:
+  - "[[Q-Loss]]"
 ---
-
 ###### Deep Q Networks (DQN)
-
-```excerpt
+````excerpt
 - using deep neural networks to learn [[Q-Function|Q-function]] (i.e. [[Q-Learning|Q-learning]])
-```
-
+````
 ^excerpt
 
 # DQN - Architecture Types
-
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/Deep Q Networks (DQN)/deep-q-network-architecture-types.png|600]]
-
+![[Deep Q Networks (DQN)/deep-q-network-architecture-types.png|600]]
 # DQN - Q-Learning (Value Learning vs Policy Learning)
 
 ```merge-table
@@ -41,11 +38,14 @@ modified: 2024-08-24T14:27:22.109-05:00
   ]
 }
 ```
-
 # DQN - Continuous Action Space
 
 Policy Learning enables modeling of continuous action space
 
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/Deep Q Networks (DQN)/DQN-policy-learning-continuous-action-space.png|550]]
-
+![[Deep Q Networks (DQN)/DQN-policy-learning-continuous-action-space.png|550]]
 # DQN - Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

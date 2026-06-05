@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Probabilistic Inference - Query／Task Types (Posterior Conditional - Prior Marginal ／ Probability of Evidence - MPE - MAP)
+title: "Probabilistic Inference - Query／Task Types (Posterior Conditional - Prior Marginal ／ Probability of Evidence - MPE - MAP)"
 created: 2021-09-13T05:28:30.488-05:00
 modified: 2026-05-24T14:30:52.151-05:00
+parent: "[[Probabilistic Inference]]"
+children: []
 ---
-
 ###### Syntax
 
 > [!expand]- Click here to expand...
 > ![[Probabilistic Inference - Syntax#^excerpt]]
-
 # Probabilistic Query Types
-
 ````excerpt
 - product comes from a joint probability <font style="color: rgb(128,128,128);">𝐏(𝐐=𝐪</font><font style="color: rgb(128,128,128);">, 𝐇=𝐡</font><font style="color: rgb(128,128,128);">, 𝐄=𝐞) <font style="color: rgb(51,51,51);">being factorized into a product of conditional probabilities</font></font>
 - <font style="color: rgb(128,128,128);"><font style="color: rgb(51,51,51);">when we take the log of products it becomes sum of factors</font></font>
@@ -143,14 +141,11 @@ modified: 2026-05-24T14:30:52.151-05:00
 
 more details: [[Probabilistic Inference - Query／Task Types (Posterior Conditional - Prior Marginal ／ Probability of Evidence - MPE - MAP)]]
 ````
-
 ^excerpt
 
 all queries can be further classified as either: prediction vs diagnosis ([[ML - Generative／Joint vs Discriminative／Conditional Models|discriminative vs generative]] models):
-
 - if the query node <font style="color: rgb(128,128,128);">𝐐</font> is a terminal variable in a directed graphical model, the inference process is called prediction
 - if the query node <font style="color: rgb(128,128,128);">𝐐</font> is an ancestor of the evidence, the inference process is called diagnosis
-
 ```merge-table
 {
   "rows": [

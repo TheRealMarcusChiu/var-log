@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Java - Designing With Exceptions
+title: "Java - Designing With Exceptions"
 created: 2021-01-24T19:08:00.076-06:00
 modified: 2022-07-01T19:51:58.986-05:00
+parent: "[[Java - Throwable - Errors vs Exceptions - Unchecked vs Checked]]"
+children: []
 ---
-
-original article: <https://www.infoworld.com/article/2076721/designing-with-exceptions.html>
-
+original article: [https://www.infoworld.com/article/2076721/designing-with-exceptions.html](https://www.infoworld.com/article/2076721/designing-with-exceptions.html)
 # The benefits of exceptions
 
 Exceptions have several benefits. First, they allow you to separate error-handling code from normal code. You can surround the code that you expect to execute 99.9% of the time with a try block, and then place error-handling code in catch clauses -- code that you don't expect to get executed often, if ever. This arrangement has the nice benefit of making your "normal" code less cluttered.
 
 If you feel that a method doesn't know how to handle a particular error, you can throw an exception from the method and let someone else deal with it. If you throw a "checked" exception, you enlist the help of the Java compiler to force client programmers to deal with the potential exception, either by catching it or declaring it in the <code>throws</code> clause of their methods. The fact that Java compilers make sure checked exceptions are handled helps make Java programs more robust.
-
 # When to throw exceptions
 
 When should you throw an exception? The answer can be summed up in one guideline:
-
 > If your method encounters an abnormal condition that it can't handle, it should throw an exception.
 
 Unfortunately, though this guideline may be easy to memorize and may sound impressive when you recite it at parties, it doesn't clear up the picture too much. It actually leads to a different question: What is an "abnormal condition?"
@@ -24,15 +21,12 @@ Unfortunately, though this guideline may be easy to memorize and may sound impre
 That, it turns out, is the 4,000 question. Deciding whether or not a particular event qualifies as an "abnormal condition" is a subjective judgment. The decision is not always obvious. It's one reason they pay you the big bucks.
 
 A more helpful rule of thumb could be:
-
 > Avoid using exceptions to indicate conditions that can reasonably be expected as part of the typical functioning of the method.
 
 An abnormal condition, therefore, would be any condition that wouldn't reasonably be expected as part of the "normal functioning" of a method. To help you get a feel for what I mean by "normal functioning of a method," allow me to give a few examples.
-
 # A few examples
 
 As an illustration, consider the <code>FileInputStream</code> and <code>DataInputStream</code> classes from the <code>[java.io](http://java.io)</code> package. Here is an application that uses <code>FileInputStream</code> to print the text of a file to the standard output:
-
 ```
 class Example9a {
 	public static void main(String[] args) throws IOException {
@@ -62,7 +56,6 @@ class Example9a {
 This example shows that the <code>read()</code> method of <code>FileInputStream</code> reports an "end of file has been reached" condition not by throwing an exception, but by returning a special value: -1. In this method, reaching end of file is considered a "normal" part of using the method. It is not considered an "abnormal" condition. The usual way to read bytes is to keep on reading them until you hit the end.
 
 The <code>DataInputStream</code> class, on the other hand, takes a different approach when reporting end of file:
-
 ```
 class Example9b {
 	public static void main(String[] args) throws IOException {
@@ -99,7 +92,6 @@ Each time the <code>readInt()</code> method of <code>DataInputStream</code> 
 Throwing an exception is a reasonable approach for this method for two reasons. First, <code>readInt()</code> can't return a special value to indicate end of file, because all possible return values are valid <code>int</code>s. (It can't return -1 on end of file, for example, because it may read a -1 from the stream and need to return it as a valid <code>int</code> value.) Second, if <code>readInt()</code> encounters end of file after reading only one, two, or three bytes, that probably qualifies as an "abnormal condition." The method is supposed to read four bytes, but only one to three are available. Given that this exception is an integral part of using this class, it is a checked exception (a subclass of <code>Exception</code>). Client programmers are forced to deal with it.
 
 A third approach to signaling an "end has been reached" condition is illustrated by the <code>StringTokenizer</code> and <code>Stack</code> classes in the following example:<font style="color: rgb(136,0,0);">x</font>
-
 ```
 // In source packet in file except/ex9b/Example9c.java 
 // This program prints the white-space separated tokens of an 
@@ -152,7 +144,6 @@ Both the <code>StringTokenizer</code> and the <code>Stack</code> must signal
 This approach shows that the designer did not consider reaching the end of tokens an abnormal condition. It is a normal way to use the class. After the end has been reached, however, if you don't check <code>hasMoreTokens()</code> and call <code>nextToken()</code>, you will be rewarded with the <code>NoSuchElementException</code>. Although this exception is thrown on an end of tokens condition, it is an unchecked exception (a subclass of <code>RuntimeException</code>). It is thrown more to indicate a software bug -- that you are not using the class correctly -- than to indicate the end of tokens condition.
 
 Similarly, the <code>Stack</code> class has a method, <code>empty()</code>, that returns a boolean to indicate that the last object has been popped from the stack. You must invoke <code>empty()</code> each time you invoke <code>pop()</code>. If you neglect to invoke <code>empty()</code>and invoke <code>pop()</code> on an empty stack, you get an <code>EmptyStackException</code>. Although this exception is thrown when an "end of objects on the stack" condition is encountered, it is another unchecked runtime exception. It is intended to be more an indication of a software bug in the client code (the improper use of the <code>Stack</code> class) than the normal way to detect an empty stack.
-
 # Exceptions indicate a broken contract
 
 The examples above should give you a feel for when you would want to throw an exception instead of using some other means to communicate an event. One other way to think about exceptions, which may give you more insight into when you should use them, is that exceptions indicate a "broken contract."
@@ -172,7 +163,6 @@ If the client invokes <code>charAt()</code> and passes -1 or some value <code
 If the <code>charAt()</code> method finds that it has received good input (the client has kept its part of the bargain), but for some reason is unable to return the character at the requested index (unable to fulfill its end of the contract), it would indicate this condition by throwing an exception. Such an exception would indicate that the method has some kind of bug or difficulty with runtime resources.
 
 So, if an event represents an "abnormal condition" or a "broken contract," the thing to do in Java programs is to throw an exception.
-
 # What to throw?
 
 Once you have decided to throw an exception, you need to decide which exception to throw. You can throw an instance of class <code>Throwable</code>, or any subclass of <code>Throwable</code>. You can throw an already existing throwable object from the Java API, or define and throw one of your own. How do you decide?
@@ -190,7 +180,6 @@ If you throw a checked exception (and don't catch it), you will need to declare 
 If you throw an unchecked exception, client programmers can decide whether to catch or disregard the exception, just as with checked exceptions. With an unchecked exception, however, the compiler doesn't force client programmers either to catch the exception or declare it in a throws clause. In fact, client programmers may not even know that the exception could be thrown. Either way, client programmers are less likely to think about what they should do in the event of an unchecked exception than they are in the case of an checked exception.
 
 The simple guideline is:
-
 > If you are throwing an exception for an abnormal condition that you feel client programmers should consciously decide how to handle, throw a checked exception.
 
 In general, exceptions that indicate an improper use of a class should be unchecked. The <code>StringIndexOutOfBoundsException</code> thrown by <code>String</code>'s <code>charAt()</code> method is an unchecked exception. The designers of the <code>String</code> class didn't want to force client programmers to deal with the possibility of an invalid <code>index</code> parameter every time they called <code>charAt(int index)</code>.
@@ -206,13 +195,11 @@ Finally, you must decide which exception class to instantiate and throw. The gen
 You may wish to embed some information in the exception object, to give the catch clause more details about the exception. But you don't want to rely solely on embedded information to distinguish one type of exception from another. You don't want clients to have to query the exception object to determine, for example, whether the problem was an I/O error or an illegal argument.
 
 Note that when <code>String.charAt(int index)</code> receives a bad input, it doesn't throw <code>RuntimeException</code> or even <code>IllegalArgumentException</code>. It throws <code>StringIndexOutOfBoundsException</code>. The type name indicates that the problem was a string index, and the program can query the object to find out what the bad index was.
-
 # Conclusion
 
 The most important point to take away from this article is that exceptions are there for <em>abnormal</em> conditions and shouldn't be used to report conditions that can be reasonably expected as part of the everyday functioning of a method. Although the use of exceptions can help make your code easier to read by separating the "normal" code from the error handling code, their inappropriate use can make your code harder to read.
 
 Here is a collection of the exception guidelines put forth by this article:
-
 - If your method encounters an abnormal condition that it can't handle, it should throw an exception.
 - Avoid using exceptions to indicate conditions that can reasonably be expected as part of the normal functioning of the method.
 - If your method discovers that the client has breached its contractual obligations (for example, by passing in bad input data), throw an unchecked exception.

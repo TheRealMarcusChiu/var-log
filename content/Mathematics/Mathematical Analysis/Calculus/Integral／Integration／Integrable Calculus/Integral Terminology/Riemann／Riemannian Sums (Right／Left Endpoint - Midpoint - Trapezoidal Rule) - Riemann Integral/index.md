@@ -1,13 +1,12 @@
 ---
-publish: true
-title: Riemann／Riemannian Sums (Right／Left Endpoint - Midpoint - Trapezoidal Rule) - Riemann Integral
+title: "Riemann／Riemannian Sums (Right／Left Endpoint - Midpoint - Trapezoidal Rule) - Riemann Integral"
 created: 2023-08-10T14:28:56.816-05:00
 modified: 2023-12-20T13:05:34.836-06:00
+parent: "[[Integral Terminology]]"
+children: []
 ---
-
 ###### Riemann/Riemannian Sums - Riemann Integral
-
-```excerpt
+````excerpt
 - a <strong>Riemann sum</strong> is a certain kind of approximation of an [[Integral／Integration／Integrable Calculus|integral]] by a finite sum
 - a <strong>Riemann sum</strong> 𝑆 of 𝑓 over [[Real Intervals (Empty／Degenerate／Proper／Bounded／Finite／Half-Bounded／Unbounded／Left／Right／Open／Closed Intervals)|interval]] \[𝑎,𝑏\] is defined as:
 	- $S = \sum_{i=1}^n f(x̃_i)𝛥x_i$
@@ -17,8 +16,7 @@ modified: 2023-12-20T13:05:34.836-06:00
 - a <strong>Riemann integral</strong> is the limit of the Riemann sums of a function as the partitions get finer
 	- $\lim_{𝛥x_i \to 0} \sum_{i=1}^n f(x̃_i)𝛥x_i$
 	- used to define [[Definite Integrals／Integrations - Indefinite Integrals／Integrations|Definite Integrals]]
-```
-
+````
 ^excerpt
 
 # Riemann Sums - Types

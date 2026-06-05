@@ -1,28 +1,23 @@
 ---
-publish: true
-title: CUDA Ubuntu Installation
+title: "CUDA Ubuntu Installation"
 created: 2023-12-09T13:39:04.841-06:00
 modified: 2023-12-09T14:33:25.006-06:00
+parent: "[[Compute Unified Device Architecture (CUDA)]]"
+children: []
 ---
-
-Slightly based on: <https://www.cherryservers.com/blog/install-cuda-ubuntu>
-
+Slightly based on: [https://www.cherryservers.com/blog/install-cuda-ubuntu](https://www.cherryservers.com/blog/install-cuda-ubuntu)
 # 1. Upgrade your Ubuntu
-
 ```
 sudo apt update
 sudo apt upgrade 
 ```
-
 # 2. List the recommended NVIDIA drivers
-
 ```
 sudo apt install ubuntu-drivers-common
 sudo ubuntu-drivers devices
 ```
 
 Output
-
 ```
 == /sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0 ==
 modalias : pci:v000010DEd00002786sv00001462sd00005137bc03sc00i00
@@ -39,31 +34,23 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 ```
 
 We see that the recommended driver is the "nvidia-driver-535"
-
 ```
 driver   : nvidia-driver-535 - distro non-free recommended
 ```
-
 # 3. Install the driver nvidia-driver-535
-
 ```
 sudo apt install nvidia-driver-535
 ```
-
 # 4. Reboot System
-
 ```
 sudo reboot now
 ```
-
 # 5. Check the driver installation
-
 ```
 nvidia-smi
 ```
 
 Output
-
 ```
 Sat Dec  9 14:31:10 2023
 +---------------------------------------------------------------------------------------+
@@ -87,34 +74,25 @@ Sat Dec  9 14:31:10 2023
 |    0   N/A  N/A      1755      G   /usr/bin/gnome-shell                          9MiB |
 +---------------------------------------------------------------------------------------+
 ```
-
 # 6. Install GCC
-
 ```
 sudo apt install gcc
 gcc -v
 ```
-
 # 7. Install CUDA toolkit
-
 ```
 sudo apt install nvidia-cuda-toolkit
 ```
-
 # 8. Reboot System
-
 ```
 sudo reboot
 ```
-
 # 9. Test the CUDA toolkit
-
 ```
 nvcc -V
 ```
 
 output
-
 ```
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2023 NVIDIA Corporation

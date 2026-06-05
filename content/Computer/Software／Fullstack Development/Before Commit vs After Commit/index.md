@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Before Commit vs After Commit
+title: "Before Commit vs After Commit"
 created: 2020-12-26T12:27:06.145-06:00
 modified: 2020-12-26T12:31:49.172-06:00
+parent: "[[Software／Fullstack Development]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

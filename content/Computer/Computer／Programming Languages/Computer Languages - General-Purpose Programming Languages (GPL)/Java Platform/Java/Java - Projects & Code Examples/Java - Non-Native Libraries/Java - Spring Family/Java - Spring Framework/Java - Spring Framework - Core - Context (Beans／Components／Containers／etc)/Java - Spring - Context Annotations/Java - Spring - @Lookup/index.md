@@ -1,21 +1,19 @@
 ---
-publish: true
-title: Java - Spring - @Lookup
+title: "Java - Spring - @Lookup"
 created: 2021-06-14T19:00:44.059-05:00
 modified: 2022-08-23T22:53:19.534-05:00
+parent: "[[Java - Spring - Context Annotations]]"
+children: []
 ---
-
 A method annotated with <code><font style="color: rgb(128,128,0);">@Lookup</font></code> tells Spring to return an instance of the method’s return type when we invoke it.
 
-Essentially, Spring will override our annotated method and use our method's return type and parameters as arguments to <em><font style="color: rgb(122,134,154);">BeanFactory#getBean</font>.</em>
+Essentially, Spring will override our annotated method and use our method's return type and parameters as arguments to <em><font style="color: rgb(122,134,154);">BeanFactory\#getBean</font>.</em>
 
 <code><font style="color: rgb(128,128,0);">@Lookup</font></code> is useful for:
-
 - Injecting a prototype-scoped bean into a singleton bean (similar to <em>Provider</em>)
 - Injecting dependencies procedurally
 
 Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code> is the Java equivalent of the XML element <em>lookup-method</em>.
-
 # Using @Lookup
 
 > [!expand-ui]- Injecting prototype-scoped Bean Into a Singleton Bean
@@ -24,7 +22,6 @@ Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code>�
 > Now, <em>Provider</em> is certainly one way, though <em>@Lookup </em>is more versatile in some respects.
 >
 > First, let's create a prototype bean that we will later inject into a singleton bean:
->
 > ```
 > @Component
 > @Scope("prototype")
@@ -34,7 +31,6 @@ Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code>�
 > ```
 >
 > And if we create a singleton bean that uses <em>@Lookup</em>:
->
 > ```
 > @Component
 > public class StudentServices {
@@ -51,7 +47,6 @@ Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code>�
 > ```
 >
 > Using <em>@Lookup</em>, we can get an instance of <em>SchoolNotification</em> through our singleton bean:
->
 > ```
 > @Test
 > public void whenLookupMethodCalled_thenNewInstanceReturned() {
@@ -72,7 +67,6 @@ Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code>�
 > Still more powerful, though, is that <em>@Lookup</em> allows us to inject a dependency procedurally, something that we cannot do with <em>Provider</em>.
 >
 > Let's enhance <em>StudentNotification </em>with some state:
->
 > ```
 > @Component
 > @Scope("prototype")
@@ -98,7 +92,6 @@ Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code>�
 > Now, it is dependent on some Spring context and also additional context that we will provide procedurally.
 >
 > We can then add a method to <em>StudentServices </em>that takes student data and persists it:
->
 > ```
 > public abstract class StudentServices {
 >  
@@ -124,7 +117,6 @@ Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code>�
 > Second, we can sometimes make the <em>@Lookup-</em>annotated method abstract, like the above example.
 >
 > Using <em>abstract</em> is a bit nicer-looking than a stub, but we can only use it when we <strong>don't</strong> <strong><em>component-scan</em> or <em>@Bean</em>-manage </strong>the surrounding bean:
->
 > ```
 > @Test
 > public void whenAbstractGetterMethodInjects_thenNewInstanceReturned() {
@@ -138,16 +130,12 @@ Note also that <code><font style="color: rgb(128,128,0);">@Lookup</font></code>�
 > ```
 >
 > With this setup, we can add Spring dependencies as well as method dependencies to <em>SchoolNotification</em>.
-
 # @Lookup Limitations
 
 Despite <code><font style="color: rgb(128,128,0);">@Lookup</font></code>'s versatility, there are a few notable limitations:
-
 - <code><font style="color: rgb(128,128,0);">@Lookup</font></code>-annotated methods, like <em>getNotification,</em> must be concrete when the surrounding class, like <em>Student,</em> is component-scanned. This is because component scanning skips abstract beans.
 - <em><code><font style="color: rgb(128,128,0);">@Lookup</font></code>-</em>annotated methods won't work at all when the surrounding class is <em>@Bean</em>-managed.
 
 In those circumstances, if we need to inject a prototype bean into a singleton, we can look to <em>Provider </em>as an alternative
-
 # Resources
-
-- <https://www.baeldung.com/spring-lookup>
+- [https://www.baeldung.com/spring-lookup](https://www.baeldung.com/spring-lookup)

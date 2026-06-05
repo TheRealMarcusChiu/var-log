@@ -1,17 +1,17 @@
 ---
-publish: true
-title: CI - 2 Samples
+title: "CI - 2 Samples"
 created: 2021-09-13T05:29:16.219-05:00
 modified: 2021-09-13T05:29:16.219-05:00
+parent: "[[Confidence Interval (CI)]]"
+children:
+  - "[[CI - 2 Independent Samples]]"
+  - "[[CI - Paired Samples]]"
 ---
-
 2-sample problems - inference on parameters involving two populations
-
 - Population 1: 𝑋 ∼ 𝑓<sub>𝑋</sub>(𝑥)
 - Population 2: 𝑌 ∼ 𝑓<sub>𝑌</sub>(𝑦)
 
 ### CI - Independent or Paired Samples
-
 - [[CI - 2 Independent Samples|CI with 2 Independent Samples]] - nor 1-to-1 related
 - [[CI - Paired Samples|CI with Paired Samples]] - 1-to-1 related
 
@@ -53,7 +53,6 @@ sample size of 𝑋 and 𝑌 may be different
   ]
 }
 ```
-
 ###### Paired Samples
 
 sample size of 𝑋 and 𝑌 are the SAME

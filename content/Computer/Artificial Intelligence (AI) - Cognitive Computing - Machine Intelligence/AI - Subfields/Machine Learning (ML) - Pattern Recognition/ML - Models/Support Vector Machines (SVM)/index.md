@@ -1,25 +1,26 @@
 ---
-publish: true
-title: Support Vector Machines (SVM)
+title: "Support Vector Machines (SVM)"
 created: 2020-08-14T16:15:37.223-05:00
 modified: 2021-08-14T21:33:23.718-05:00
+parent: "[[ML - Models]]"
+children:
+  - "[[Linear SVM (SVM Without Kernel)]]"
+  - "[[Non-Linear SVM (SVM With Kernels)]]"
+  - "[[SVM - Code]]"
+  - "[[Support Vector Machines (SVM)﻿ as Quadratic Programming]]"
 ---
-
 ###### Support Vector Machines (SVM) - Support Vector Classifier/Regression - Large/Maximal Margin Classifier/Regression
-
 - is a [[ML - Parametric vs Non-Parametric|non-parametric]], [[Instance-Based Learning|instance-based]], [[ML - Generative／Joint vs Discriminative／Conditional Models|discriminative-typed]], [[ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)|supervised learning]] model
 - used mainly for classification problems (sometimes regression)
 - has [[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)|capacity]] to learn [[ML - Linear Models vs Non-Linear Models|linear models]] and complex [[ML - Linear Models vs Non-Linear Models|non-linear models]]
 
 ###### Support Vector Classifier
-
 - is a hyperplane that linearly separates data into 2 categories
 
 # SVM - Model Types
-
 > [!tabs]
 >
-> \=== Linear vs Non-Linear
+> === Linear vs Non-Linear
 >
 > ```merge-table
 > {
@@ -47,7 +48,7 @@ modified: 2021-08-14T21:33:23.718-05:00
 > }
 > ```
 >
-> \=== Hard-Margin vs Soft-Margin
+> === Hard-Margin vs Soft-Margin
 >
 > ```merge-table
 > {
@@ -133,20 +134,16 @@ modified: 2021-08-14T21:33:23.718-05:00
   ]
 }
 ```
-
 # SVM - Multi-class Classification
 
 one-vs-all method - by training 𝑘 SVM problems (similar to [[Multinomial／N-nary Logistic Regression (MLR)|multinomial logistic regression]])
-
 # SVM - Other
-
 - [[Logistic Regression vs Linear SVM vs Non-Linear SVM]]
 - [[Support Vector Machines (SVM)﻿ as Quadratic Programming]]
 
 # Resources
-
 - [StatQuest - SVM](https://www.youtube.com/watch?v=efR1C6CvhmE)
 - [Support Vector Machines - Intuition Article](https://blog.statsbot.co/support-vector-machines-tutorial-c1618e635e93)
-- [Caltech - Video Lecture](https://www.youtube.com/watch?v=eHsErlPJWUU\&list=PLCA2C1469EA777F9A\&index=14\&ab_channel=caltech)
+- [Caltech - Video Lecture](https://www.youtube.com/watch?v=eHsErlPJWUU&list=PLCA2C1469EA777F9A&index=14&ab_channel=caltech)
 - [Andrew Ng's Video Lecture](https://www.coursera.org/lecture/machine-learning/optimization-objective-sHfVT)
 - [Machine Learning Mastery - SVM](https://machinelearningmastery.com/support-vector-machines-for-machine-learning/)

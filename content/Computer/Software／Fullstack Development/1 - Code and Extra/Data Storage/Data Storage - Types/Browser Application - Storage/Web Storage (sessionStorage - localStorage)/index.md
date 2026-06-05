@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Web Storage (sessionStorage - localStorage)
+title: "Web Storage (sessionStorage - localStorage)"
 created: 2019-09-16T18:06:31.801-05:00
 modified: 2025-09-24T12:59:30.860-05:00
+parent: "[[Browser Application - Storage]]"
+children: []
 ---
-
 ###### Web Storage
-
-```excerpt
+````excerpt
 - provides mechanisms by which browsers can store key/value pairs
-```
-
+````
 ^excerpt
 
 # Web Storage Types
@@ -47,7 +45,5 @@ modified: 2025-09-24T12:59:30.860-05:00
   ]
 }
 ```
-
 # Resources
-
-- <https://html.spec.whatwg.org/multipage/webstorage.html>
+- [https://html.spec.whatwg.org/multipage/webstorage.html](https://html.spec.whatwg.org/multipage/webstorage.html)

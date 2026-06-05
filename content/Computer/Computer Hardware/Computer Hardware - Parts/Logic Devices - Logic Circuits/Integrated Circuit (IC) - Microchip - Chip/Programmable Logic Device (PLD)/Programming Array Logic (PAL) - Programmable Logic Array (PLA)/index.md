@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Programming Array Logic (PAL) - Programmable Logic Array (PLA)
+title: "Programming Array Logic (PAL) - Programmable Logic Array (PLA)"
 created: 2021-12-14T03:24:11.340-06:00
 modified: 2021-12-14T04:06:24.500-06:00
+parent: "[[Programmable Logic Device (PLD)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

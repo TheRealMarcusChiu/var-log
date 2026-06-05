@@ -1,18 +1,15 @@
 ---
-publish: true
-title: Java - Spring Cloud Contract
+title: "Java - Spring Cloud Contract"
 created: 2022-08-09T01:50:53.164-05:00
 modified: 2022-12-22T09:50:52.327-06:00
+parent: "[[Java - Spring Cloud]]"
+children: []
 ---
-
 a Spring framework for [[Consumer Driven Contracts (CDC)]]
-
 # Producer Setup
 
 > [!expand]- Click here to expand...
->
 > ### Dependencies
->
 > ```
 > 		<dependency>
 > 			<groupId>org.springframework.cloud</groupId>
@@ -20,9 +17,7 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 > 			<scope>test</scope>
 > 		</dependency>
 > ```
->
 > ### Plugins
->
 > ```
 > 			<plugin>
 > 				<groupId>org.springframework.cloud</groupId>
@@ -37,9 +32,7 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 > 				</configuration>
 > 			</plugin>
 > ```
->
 > ### Source Code
->
 > ```
 > @RestController
 > public class DefaultController {
@@ -51,9 +44,7 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 >
 > }
 > ```
->
 > ### Base Test Code
->
 > ```
 > @DirtiesContext
 > @AutoConfigureMessageVerifier
@@ -70,11 +61,8 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 >     }
 > }
 > ```
->
 > ### Contract Code
->
 > <code><font style="color: rgb(0,128,0);">test/resources/contract/shouldReturnEvenWhenRequestParamIsEven.groovy</font></code>
->
 > ```
 > import org.springframework.cloud.contract.spec.Contract
 >
@@ -94,15 +82,12 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 >     }
 > }
 > ```
->
 > ### Build ContractVerifierTest
->
 > ```
 > mvn clean install
 > ```
 >
 > The plugin will auto-generate the following file target/generated-test-sources/contracts/com.example.demo/ContractVerifierTest.class
->
 > ```
 > public class ContractVerifierTest extends BaseTestClass {
 >
@@ -126,13 +111,10 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 >
 > }
 > ```
-
 # Consumer Setup
 
 > [!expand]- Click here to expand...
->
 > ### Dependencies
->
 > ```
 > 		<dependency>
 > 			<groupId>org.springframework.cloud</groupId>
@@ -140,9 +122,7 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 > 			<scope>test</scope>
 > 		</dependency>
 > ```
->
 > ### Source Code
->
 > ```
 > @Configuration
 > public class DefaultConfiguration {
@@ -173,9 +153,7 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 >     }
 > }
 > ```
->
 > ### Test Code
->
 > ```
 > import org.junit.jupiter.api.Test;
 > import org.springframework.beans.factory.annotation.Autowired;
@@ -216,15 +194,11 @@ a Spring framework for [[Consumer Driven Contracts (CDC)]]
 >     }
 > }
 > ```
->
 > ### Test ContractVerifierTest
->
 > ```
 > mvn clean package
 > ```
-
 # Resources
-
-- <https://www.baeldung.com/spring-cloud-contract>
-- <https://spring.io/projects/spring-cloud-contract>
-- <http://antkorwin.com/cloud/spring_cloud_contract_junit5.html>
+- [https://www.baeldung.com/spring-cloud-contract](https://www.baeldung.com/spring-cloud-contract)
+- [https://spring.io/projects/spring-cloud-contract](https://spring.io/projects/spring-cloud-contract)
+- [http://antkorwin.com/cloud/spring_cloud_contract_junit5.html](http://antkorwin.com/cloud/spring_cloud_contract_junit5.html)

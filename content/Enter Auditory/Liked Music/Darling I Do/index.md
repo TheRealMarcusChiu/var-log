@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Darling I Do
+title: "Darling I Do"
 created: 2021-09-13T04:45:57.425-05:00
 modified: 2021-09-13T04:45:57.425-05:00
+parent: "[[Liked Music]]"
+children: []
 ---
-
-![](https://www.youtube.com/watch?v=tWemmQ4li8g\&ab_channel=MOUNTAINCITY)
+![](https://www.youtube.com/watch?v=tWemmQ4li8g&ab_channel=MOUNTAINCITY)
 
 MARRIAGE VOWS
 
@@ -17,7 +17,6 @@ MARRIAGE VOWS
 Really, these vows are central to marriage
 
 But what are vows? a solemn promise? What is it?
-
 - a vow is not a contract
 - a vow is a covenant
 

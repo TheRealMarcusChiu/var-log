@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Probability (Product Rule - Chain Rule)
+title: "Probability (Product Rule - Chain Rule)"
 created: 2021-09-13T05:28:39.653-05:00
 modified: 2021-09-13T05:28:39.653-05:00
+parent: "[[Probability Terminology]]"
+children: []
 ---
-
 ###### Product Rule
 
 > [!indent]

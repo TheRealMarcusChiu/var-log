@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Mellanox ConnectX Series
+title: "Mellanox ConnectX Series"
 created: 2026-06-01T02:09:32.634-05:00
 modified: 2026-06-01T02:10:07.279-05:00
+parent: "[[Network Interface Controller／Card (NIC) - Network Adapter - LAN Adapter - Physical Network Interface]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

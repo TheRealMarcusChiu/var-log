@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Semantic Relation Extraction
+title: "Semantic Relation Extraction"
 created: 2020-11-21T19:34:23.577-06:00
 modified: 2026-05-21T13:34:19.170-05:00
+parent: "[[Information Retrieval (IR) - Information Extraction (IE)]]"
+children: []
 ---
-
 ###### Semantic Relation Extraction
-
 - extracting [[Semantics|semantics]]/[[Semantic Relations|semantic relations]] from unstructured text data
 
 # An Approach to Lexical-Syntactic Pattern Discovery
-
 1. pick one Semantic Relation at a time
 2. find lexico-syntactic patterns that express that SR
 3. create a corpus with positive and negative examples
@@ -50,29 +48,26 @@ Variety of meronymy expressions
 ```
 
 Get pattern statistics and select the most frequent ones:
-
 - <code><font style="color: rgb(128,128,128);">NP1 of NP2</font></code>
 - <code><font style="color: rgb(128,128,128);">NP1’s NP2</font></code>
 - <code><font style="color: rgb(128,128,128);">NP1 have NP2</font></code>
 
 # <font style="color: rgb(128,128,128);"><font style="color: rgb(51,51,51);">Meronymy </font></font>Learning Algorithm
-
 - input: positive and negative meronymic examples of concept pairs
 - output: semantic constraints on concepts
 
 algorithm:
-
 1. Generalize the training examples:
-   - example: <code>{part#sense; whole#sense; target}</code>
-   - generalized example: <code>{part#sense, class<sub>part</sub>#sense; whole#sense, class<sub>whole</sub>#sense; target}</code>
-   - e.g. <code>{aria#1, entity#1; opera#1, abstraction#6; Yes}</code>
-   - types of examples:
-     - positive: <code>{X<sub>class</sub>#sense; Y<sub>class</sub>#sense; Yes}</code>
-     - negative: <code>{X<sub>class</sub>#sense; Y<sub>class</sub>#sense; No}</code>
-     - ambiguous: <code>{X<sub>class</sub>#sense; Y<sub>class</sub>#sense; Yes/No}</code>
+	- example: <code>{part\#sense; whole\#sense; target}</code>
+	- generalized example: <code>{part\#sense, class<sub>part</sub>\#sense; whole\#sense, class<sub>whole</sub>\#sense; target}</code>
+	- e.g. <code>{aria\#1, entity\#1; opera\#1, abstraction\#6; Yes}</code>
+	- types of examples:
+		- positive: <code>{X<sub>class</sub>\#sense; Y<sub>class</sub>\#sense; Yes}</code>
+		- negative: <code>{X<sub>class</sub>\#sense; Y<sub>class</sub>\#sense; No}</code>
+		- ambiguous: <code>{X<sub>class</sub>\#sense; Y<sub>class</sub>\#sense; Yes/No}</code>
 2. Learn constraints for the unambiguous examples (positive and negative)
 3. Specialize the ambiguous examples:
-   1. based on the IS-A information provided by WordNet
-   2. initially, each semantic class represented the root of one of the noun hierarchies in WordNet
-   3. Go down in the hierarchy and specialize the semantic classes that correspond to the part, respectively whole
-   4. repeat the specialization until no more ambiguous examples in the training corpus
+	1. based on the IS-A information provided by WordNet
+	2. initially, each semantic class represented the root of one of the noun hierarchies in WordNet
+	3. Go down in the hierarchy and specialize the semantic classes that correspond to the part, respectively whole
+	4. repeat the specialization until no more ambiguous examples in the training corpus

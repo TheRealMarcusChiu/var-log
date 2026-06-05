@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Conversational Listening
+title: "Conversational Listening"
 created: 2021-09-13T04:46:11.057-05:00
 modified: 2021-09-13T04:46:11.057-05:00
+parent: "[[Listening]]"
+children: []
 ---
-
 [https://ideas.ted.com/how-to-listen-really-listen-to-someone-you-dont-agree-with](https://ideas.ted.com/how-to-listen-really-listen-to-someone-you-dont-agree-with/)
 
 Listening may not be the most exciting part of conversation, but it’s essential if you want to have a meaningful exchange with another person.
@@ -14,7 +14,6 @@ Think about a time you felt misunderstood by somebody. Did you defend yourself? 
 Now think of how it feels to be understood — you can relax, you want to open up, you feel more trusting. When you listen in a way that makes the other person feel heard, they are more likely to share information with you. And when you are actively listening, you are also more likely to take it in.
 
 In my training as a psychologist, I spent a lot of time learning how to actively listen. I can tell you from years of experience that having a productive dialogue is not possible without active listening.
-
 ## The 1st active listening skill is nonverbal attending
 
 Nonverbal attending means giving someone your full attention without speaking. Here are some of the basics.
@@ -30,7 +29,6 @@ The final key to nonverbal attending is staying silent. Remember: You can’t l
 Offering somebody uninterrupted time to talk, even a few minutes, is a generous gift that we seldom give each other. It doesn’t mean you have to keep your mouth shut for hours and hours, but I encourage you to see how long you can simply listen to somebody without wanting to interrupt.
 
 Some people find the most difficult part of listening is not talking. Remember: There’s a deep humility in listening because the focus is more on understanding the other person rather than on saying everything that comes into your mind. You want to understand and help the speaker feel understood, and reserve your speech for what moves you closer to these goals.
-
 ## The 2nd active listening skill is reflecting
 
 Reflecting means repeating or rephrasing key content or meaning from the other person.
@@ -50,7 +48,6 @@ Reflecting typically feels more awkward for the person doing it — you — than
 Just don’t repeat them back word for word. Use fewer words and summarize rather than transcribe. I call this “nuggetizing.” Get at the nugget of what they’re saying, and say it briefly so you don’t interrupt the flow. Focus on something that seems meaningful to the other person; pull out an idea that gets to the heart of what they’re saying. You could preface your reflection with one of these phrases: “I hear you saying,” “It sounds as though,” “So….”
 
 The crucial role of reflection is to help people feel heard, and to make sure you understand them. It’s more important to simply be present than to be brilliant.
-
 ## The 3rd active listening skill is asking open-ended questions
 
 As you listen, questions will pop into your head, and you’ll want answers. While questions are very appealing, they have the potential to interrupt the other person’s thinking, to shift the focus to your agenda, to interfere with connection and to derail a conversation.
@@ -74,18 +71,14 @@ It’s also important to think about when to ask your question. Don’t interrup
 The final thing to keep in mind about attending, reflecting and open-ended questions is that these tools are intended to help promote understanding by developing greater connection. Connection is the most important thing.
 
 So if the tools aren’t working in a situation or if you’re able to have connection without the tools, don’t force them. That said, don’t underestimate them either. They’re backed by research and experience, and they can help you to navigate the unpredictable, challenging waters of dialogue with others.
-
 ### Do it with thought and care
 
 Listening, like speaking and writing, requires genuine interest and attention. If you don’t concentrate on listening, you won’t learn much, and you won’t remember much of what you do learn. Most of us retain only 25 percent of what we hear—so if you can increase your retention and your comprehension, you can increase your effectiveness.
 A sign on the wall of Lyndon Johnson’s Senate office put it in a down-to-earth way: “When you’re talking, you ain’t learning.”
-
 ### Use your eyes.
 
 If you listen only with your ears, you’re missing out on much of the message. Good listeners keep their eyes open while listening. Look for feelings. The face is an eloquent communication medium—learn to read its messages. While the speaker is delivering a verbal message, the face can be saying, “I’m serious,” “Just kidding,” “It pains me to be telling you this,” or “This gives me great pleasure.”
-
 ### Observe these nonverbal signals when listening to people:
-
 - Rubbing one eye. When you hear “I guess you’re right,” and the speaker is rubbing one eye, guess again. Rubbing one eye often is a signal that the speaker is having trouble inwardly accepting something.
 - Tapping feet. When a statement is accompanied by foot-tapping, it usually indicates a lack of confidence in what is being said.
 - Rubbing fingers. When you see the thumb and forefinger rubbing together, it often means that the speaker is holding something back.
@@ -94,7 +87,6 @@ If you listen only with your ears, you’re missing out on much of the message. 
 - Eyes that avoid contact. Poor eye contact can be a sign of low self-esteem, but it can also indicate that the speaker is not being truthful.
 
 It would be unwise to make a decision based solely on these visible signals. But they can give you valuable tips on the kind of questions to ask and the kind of answers to be alert for.
-
 ### Make things easy
 
 People who are poor listeners will find few who are willing to come to them with useful information. Good listeners make it easy on those to whom they want to listen. They make it clear that they’re interested in what the other person has to say.

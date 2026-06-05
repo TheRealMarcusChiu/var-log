@@ -1,10 +1,10 @@
 ---
-publish: true
-title: IPv4 - Source／Loopback／Localhost Address
+title: "IPv4 - Source／Loopback／Localhost Address"
 created: 2019-11-17T21:57:27.214-06:00
 modified: 2021-10-05T02:39:17.173-05:00
+parent: "[[IPv4 - Address]]"
+children: []
 ---
-
 ````excerpt
 # Source/Loopback/Localhost Address
 
@@ -38,5 +38,4 @@ modified: 2021-10-05T02:39:17.173-05:00
 }
 ```
 ````
-
 ^excerpt

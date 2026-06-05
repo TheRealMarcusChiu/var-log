@@ -1,18 +1,18 @@
 ---
-publish: true
-title: (Entity - Named Entity) Recognition／Identification／Chunking／Extraction／Resolution (NER)
+title: "(Entity - Named Entity) Recognition／Identification／Chunking／Extraction／Resolution (NER)"
 created: 2020-09-26T19:12:56.487-05:00
 modified: 2020-11-02T19:50:54.075-06:00
+parent: "[[Information Retrieval (IR) - Information Extraction (IE)]]"
+children:
+  - "[[Word Shapes]]"
 ---
-
 - <strong>Entity Extraction (EE)</strong> - extracting entities from unstructured text
 - <strong>Entity Resolution</strong> refers to the task of finding all mentions of same real-world entity within a knowledge base or across multiple knowledge bases
 - <strong>Named Entity Recognition/Identification/Chunking/Extraction/Resolution</strong>
-  - a type of Entity Extraction where entities are NAMES (i.e. [[Nouns|proper nouns]])
-  - is a subtask of [[Information Retrieval (IR) - Information Extraction (IE)|information extraction]] that seeks to locate and classify NAMED entities mentioned in unstructured text into predefined categories such as person names, organizations, locations, medical, etc
+	- a type of Entity Extraction where entities are NAMES (i.e. [[Nouns|proper nouns]])
+	- is a subtask of [[Information Retrieval (IR) - Information Extraction (IE)|information extraction]] that seeks to locate and classify NAMED entities mentioned in unstructured text into predefined categories such as person names, organizations, locations, medical, etc
 
 ### NER - 2 Steps/Tasks
-
 1. identify named entity's boundary
 2. identify named entity's category
 
@@ -41,19 +41,15 @@ modified: 2020-11-02T19:50:54.075-06:00
   "tableStyle": "width: 98.3209%;"
 }
 ```
-
 ### NER - Possible Feature Candidates
-
 - [[Word Shapes]]
 
 ### NER - Methods
 
 sequence models such as:
-
 - [[Hidden Markov Models (HMM)|hidden markov models]]
 - [[Maximum Entropy (Maxent) Models|maximum entropy models]]
 - [[Conditional／Discriminative Random Fields (CRF)|conditional random fields]]
 
 ### Resources
-
-- [Stanford - YouTube Lectures](https://www.youtube.com/watch?v=0qWDkRdWbSw\&list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm\&index=45\&ab_channel=MausamJain)
+- [Stanford - YouTube Lectures](https://www.youtube.com/watch?v=0qWDkRdWbSw&list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm&index=45&ab_channel=MausamJain)

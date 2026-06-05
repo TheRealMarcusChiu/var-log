@@ -1,11 +1,18 @@
 ---
-publish: true
-title: Probabilistic Inference - Bucket Elimination (BE) - Variable Elimination (VE)
+title: "Probabilistic Inference - Bucket Elimination (BE) - Variable Elimination (VE)"
 created: 2021-09-13T05:28:21.195-05:00
 modified: 2021-12-11T05:13:13.798-06:00
+parent: "[[Probabilistic Inference - Exact Inference]]"
+children:
+  - "[[BE／VE Algorithm - Complexity (Non-MAP vs MAP)]]"
+  - "[[BE／VE Algorithm - Operator Types]]"
+  - "[[BE／VE Algorithm - Solving Belief-Updating Query]]"
+  - "[[BE／VE Algorithm - Solving Conditional Posterior Query]]"
+  - "[[BE／VE Algorithm - Solving MAP Query]]"
+  - "[[BE／VE Algorithm - Solving MPE Query]]"
+  - "[[BE／VE Algorithm - Solving Prior Query]]"
 ---
-
-```excerpt
+````excerpt
 > [!expand]- probabilistic inference recap
 > ![[Probabilistic Inference#^excerpt]]
 
@@ -137,37 +144,30 @@ modified: 2021-12-11T05:13:13.798-06:00
 > > 6. 𝑀𝐴𝑃(𝐴|𝐵=𝑏) = 𝑚𝑎𝑥<sub>𝐴</sub> <font style="color: rgb(128,0,0);">\[ </font><font style="color: rgb(128,128,128);"><font style="color: rgb(51,51,51);"><font style="color: rgb(128,128,128);"><font style="color: rgb(128,0,0);">𝐹<sub>1</sub>(𝐴,𝐵=𝑏) 𝛴<sub>𝑐∊𝐶</sub>𝐹<sub>2</sub>(𝐴,𝐶)𝐹<sub>3</sub>(𝐵=𝑏,𝐶) \]</font></font><font style="color: rgb(128,128,128);">\# move all irrelevant terms as far left</font></font></font>
 > > 7. 𝑀𝐴𝑃(𝐴|𝐵=𝑏) = 𝑚𝑎𝑥<sub>𝐴</sub> <font style="color: rgb(128,0,0);">\[ </font><font style="color: rgb(128,128,128);"><font style="color: rgb(51,51,51);"><font style="color: rgb(128,128,128);"><font style="color: rgb(128,0,0);">𝐹<sub>1</sub>(𝐴) 𝛴<sub>𝑐∊𝐶</sub>𝐹<sub>2</sub>(𝐴,𝐶)𝐹<sub>3</sub>(𝐶) \]</font></font><font style="color: rgb(128,128,128);"> <font style="color: rgb(255,0,0);">\# instantiate given evidences</font></font></font></font>
 > > 8. 𝑀𝐴𝑃(𝐴|𝐵=𝑏) = 𝑚𝑎𝑥<sub>𝐴</sub> <font style="color: rgb(128,0,0);">\[ </font><font style="color: rgb(128,128,128);"><font style="color: rgb(51,51,51);"><font style="color: rgb(128,128,128);"><font style="color: rgb(128,0,0);">𝐹<sub>1</sub>(𝐴) 𝑚<sub>𝑐</sub>(𝐴) \]</font></font><font style="color: rgb(128,128,128);"> \# compute new term 𝑚<sub>𝑐</sub> for the innermost summation</font></font></font>
-```
-
+````
 ^excerpt
 
 # BE/VE Algorithm - Choosing Elimination Orderings
 
 > [!expand]- Click here to expand...
 > The algorithm with variable elimination order 𝐈 has exponential time complexity based on:
->
 > - [[Cluster／Clique／Join／Junction Trees - Tree Decompositions - Tree-Width|treewidth]] of the [[Cluster／Clique／Join／Junction Trees - Tree Decompositions - Tree-Width|tree decomposition / clique tree]] = (size of the largest clique) - 1
 >
 > A “good” variable elimination order will make the treewidth small. Its definition is one less than the smallest achievable value of the cardinality of the largest elimination clique, ranging over all possible elimination ordering. However, finding such k as well as the “best” elimination ordering is NP-hard. As such there are heuristics one may follow to better optimize performance by order:
 >
 > see: [[Pseudo Tree - Minimal／Minimum (Height／Depth - Induced-Width - Tree-Width)|Pseudo Tree - Minimal/Minimum (Height/Depth - Induced-Width - Tree-Width)]]
-
 # BE/VE Algorithm - Complexity
 
 > [!expand]- Click here to expand...
 > see: [[BE／VE Algorithm - Complexity (Non-MAP vs MAP)|BE/VE Algorithm - Complexity (Non-MAP vs MAP)]]
-
 # BE/VE Algorithm - In Specific Probabilistic Graphical Models
-
 - [[BN - Exact Inference - Inference By Enumeration & Variable Elimination|Bayesian Networks]]
 - [[MN／MRF - Exact Inference - Inference by Enumeration & Variable Elimination|Markov Networks - Markov Random Fields]]
 - [[HMM - Inference By Enumeration & Variable Elimination|Hidden Markov Models]]
 
 # BE/VE Algorithm - Variants
-
 - [[Probabilistic Inference - Bucket Tree Elimination (BTE) - Collect & Distribute Algorithm|Bucket/Clique/Junction/Cluster Tree Elimination/Propagation - Collect & Distribute Algorithm]]
 - [[Probabilistic Inference - Mini-Cluster／Bucket Elimination|Mini-Cluster/Bucket Elimination]] - computes an upper-bound estimation in a much faster way by bounding the size of buckets
 
 # Other Resources
-
-- <https://ermongroup.github.io/cs228-notes/inference/ve/>
+- [https://ermongroup.github.io/cs228-notes/inference/ve/](https://ermongroup.github.io/cs228-notes/inference/ve/)

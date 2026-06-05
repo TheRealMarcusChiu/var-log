@@ -1,12 +1,12 @@
 ---
-publish: true
-title: Observational Language Theories (The Distinction Between Theory and Observation)
+title: "Observational Language Theories (The Distinction Between Theory and Observation)"
 created: 2021-09-13T04:44:35.970-05:00
 modified: 2021-09-13T04:44:35.970-05:00
+parent: "[[Philosophy of Science]]"
+children:
+  - "[[The Theory Ladenness of Observation]]"
 ---
-
 one of the topics of [[Philosophy of Science|philosophy of science]] is the <strong>distinction between observation and theory</strong>
-
 # Observational Theory Types
 
 ```merge-table
@@ -39,11 +39,9 @@ one of the topics of [[Philosophy of Science|philosophy of science]] is the <str
   ]
 }
 ```
-
 # Distinguishing Theory and Observation
 
 There are a number of ways in which attempts have been made to draw the distinction between theory and observation:
-
 - <strong>meaning independence</strong> - the meaning of observational terms is drawn from a theory-independent source, empirical observation, and thus is independent of theoretical meaning
 - <strong>truth-value independence</strong> - the truth value of observational statements is ascertained from a theory-independent source, empirical observation, and thus is independent of the truth values of any theory
 - <strong>incorrigibility</strong> - some empirical statements, those which provide direct contact with what is the case, are distinct from the corrigible statements of theory. they provide the incorrigible foundation for the theoretical superstructure
@@ -61,5 +59,4 @@ There are a number of ways in which attempts have been made to draw the distinct
 - <strong>relevant truth-value independence</strong> - and though the truth of observational statements is theory-dependent and is not founded on direct contact with what is the case, nevertheless the truth of the test statement need not and, indeed, must not depend on the truth of the statements of the theory under scrutiny
 
 # Resources
-
-- [OBSERVATION: THEORY‐LADEN, THEORY‐NEUTRAL OR THEORY‐FREE?](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2041-6962.1976.tb01305.x) ~ William A. Rottschaefer
+- [OBSERVATION: THEORY‐LADEN, THEORY‐NEUTRAL OR THEORY‐FREE?](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2041-6962.1976.tb01305.x) \~ William A. Rottschaefer

@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Multiple LR - Moderations & Interaction Terms
+title: "Multiple LR - Moderations & Interaction Terms"
 created: 2024-01-31T14:21:19.599-06:00
 modified: 2024-01-31T16:25:16.128-06:00
+parent: "[[Multivariate／Multiple Linear Regression Models]]"
+children: []
 ---
-
 - 𝑦 = 𝛽<sub>1</sub>𝑥<sub>1</sub> + 𝛽<sub>2</sub>𝑥<sub>2</sub> + 𝛽<sub>3</sub>𝑥<sub>1</sub>𝑥<sub>2</sub> + 𝜀
 
 where:
-
 - 𝑥<sub>1</sub>𝑥<sub>2</sub> is the interaction term
 - 𝛽<sub>3</sub> is the moderation weight
 

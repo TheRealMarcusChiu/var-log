@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Prayers／Praying
+title: "Prayers／Praying"
 created: 2025-03-12T14:26:37.169-05:00
 modified: 2025-07-15T11:03:39.278-05:00
+parent: "[[Christianity - 2024]]"
+children: []
 ---
-
 # Every Believer Has One Thing in Common
 
 Bible teacher and author [Priscilla Shirer skillfully and engagingly relates a story](https://youtu.be/_rUlNpQ_wxc?t=208) of a theology professor named Dr. Orr in England in the 1940s who took his students on a “field trip” to famous religious historical sites. One of the stops was the house of John Wesley who led a great revival in England and in the United States. The tour of the house ended in the bedroom where the students noticed that beside the bed were two worn spots in the carpet where John Wesley had knelt for hours in prayer. The sight of those two worn spots had a profound effect on the students who stood in silence before they left to get on the bus.
@@ -16,13 +16,10 @@ He went back into the house and found the student kneeling in the place Wesley k
 The professor touched the young man on the shoulder and indicated it was time to go. With that, Billy Graham stood up and joined the rest of the students on the bus.
 
 And sure enough God did it again.
-
 # Martin Luther
 
 The statement "In busy times, I pray three hours" reflects a sentiment that prayer is crucial, especially when facing a demanding schedule. It's a quote often attributed to Martin Luther, who reportedly said, "I have so much to do that I shall spend the first three hours in prayer,"
-
 # Importance of Prayer
-
 - that's the first thing Paul did when he was converted - Acts 22
 - that's what the disciples of Jesus asked Him to teach, "Lord, teach us to pray" that was the only thing the disciples asked to be taught in all the gospels - Luke 11
 - Jesus says that, His house is not a den of robbers, but a House of Prayer
@@ -34,7 +31,6 @@ The statement "In busy times, I pray three hours" reflects a sentiment that pray
 - & after Jesus predicted Peter's denial, Jesus again prayed for his disciples, "That you will not fall into temptation"
 
 # Types of Prayers
-
 - <strong>Prayer of adoration</strong>: Praises God's majesty and goodness
 - <strong>Prayer of confession</strong>: A searching prayer of the heart where you confess your sins and shortcomings to God
 - <strong>Prayer of thanksgiving</strong>: Expresses gratitude for God's blessings
@@ -43,4 +39,4 @@ The statement "In busy times, I pray three hours" reflects a sentiment that pray
 - <strong>Prayer of intercession</strong>: Asks for what others need
 - <strong>Prayer of faith</strong>: Making a request to God without doubt in your heart
 
-<https://www.youtube.com/shorts/gN6T0YTMWKc>
+[https://www.youtube.com/shorts/gN6T0YTMWKc](https://www.youtube.com/shorts/gN6T0YTMWKc)

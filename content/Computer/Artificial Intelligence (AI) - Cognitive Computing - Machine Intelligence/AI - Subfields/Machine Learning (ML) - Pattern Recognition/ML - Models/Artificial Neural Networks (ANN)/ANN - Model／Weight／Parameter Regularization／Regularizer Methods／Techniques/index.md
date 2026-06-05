@@ -1,13 +1,24 @@
 ---
-publish: true
-title: ANN - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques
+title: "ANN - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques"
 created: 2024-08-18T02:24:17.094-05:00
 modified: 2024-08-18T02:28:49.771-05:00
+parent: "[[Artificial Neural Networks (ANN)]]"
+children:
+  - "[[Dropout - Dilution - DropConnect (ANN)]]"
 ---
-
 # General [[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques|ML Regularization Techniques]]
+```dataview
+LIST
+FROM ""
+WHERE file.folder = [[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques]].file.folder + "/" + [[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques]].file.name
+```
 
 # ANN Specific Regularization Techniques
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Regularization Methods Comparisons on MNIST
 

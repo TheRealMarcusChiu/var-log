@@ -1,16 +1,15 @@
 ---
-publish: true
-title: JavaScript - Testing Frameworks
+title: "JavaScript - Testing Frameworks"
 created: 2022-12-06T21:03:41.353-06:00
 modified: 2022-12-06T21:12:57.552-06:00
+parent: "[[JavaScript - Frameworks]]"
+children: []
 ---
-
 # JavaScript - Testing Frameworks
-
 - <strong>Karma</strong> -
 - <strong>Jasmine</strong> -
 - <strong>Protractor</strong> -
-- <strong>Jest</strong> - <https://jestjs.io/docs/en/getting-started>
+- <strong>Jest</strong> - [https://jestjs.io/docs/en/getting-started](https://jestjs.io/docs/en/getting-started)
 - <strong>Cypress</strong> -
 - <strong>Spectator</strong> -
 - <strong>Enzyme</strong> -

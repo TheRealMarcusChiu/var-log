@@ -1,12 +1,11 @@
 ---
-publish: true
-title: AI Chapter 11 - Planning
+title: "AI Chapter 11 - Planning"
 created: 2019-04-05T11:42:24.741-05:00
 modified: 2019-04-14T15:53:21.752-05:00
+parent: "[[AI - A Modern Approach - Summaries]]"
+children: []
 ---
-
 # Simple Planning Agent
-
 ```
 // global variables
 kb // knowledge base
@@ -33,11 +32,9 @@ function simple-planning-agent(percept)
 
     return action
 ```
-
 - <strong>ideal-planner</strong> - a planning algorithm (can be any of the planners described in this chapter or chapter 12)
 - <strong>state-description</strong> - takes percept as input and returns state description that is required by planner
 - <strong>make-goal-query</strong> - used to ask the knowledge base what the next goal should be
 
 # Planning in Situational Calculus
-
 - refer to [[Situational Logic／Calculus|Situational Logic/Calculus]]

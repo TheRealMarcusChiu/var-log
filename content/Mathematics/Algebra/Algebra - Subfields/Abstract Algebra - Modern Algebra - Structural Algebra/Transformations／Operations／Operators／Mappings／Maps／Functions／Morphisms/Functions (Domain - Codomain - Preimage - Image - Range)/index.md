@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Functions (Domain - Codomain - Preimage - Image - Range)
+title: "Functions (Domain - Codomain - Preimage - Image - Range)"
 created: 2021-09-13T05:29:23.653-05:00
 modified: 2025-10-02T23:58:02.446-05:00
+parent: "[[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms]]"
+children: []
 ---
-
 ###### Functions
-
-```excerpt
+````excerpt
 - see: [[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms|Transformations/Operations/Operators/Mappings/Maps/Functions/Morphisms]]
-```
-
+````
 ^excerpt
 
 # Functions - Definitions
@@ -109,7 +107,11 @@ modified: 2025-10-02T23:58:02.446-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - [[Function Approximation Problem]]

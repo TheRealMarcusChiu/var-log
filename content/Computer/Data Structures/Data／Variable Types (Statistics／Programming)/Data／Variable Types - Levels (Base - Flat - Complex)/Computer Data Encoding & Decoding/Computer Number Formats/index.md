@@ -1,16 +1,17 @@
 ---
-publish: true
-title: Computer Number Formats
+title: "Computer Number Formats"
 created: 2020-01-16T15:23:47.988-06:00
 modified: 2023-03-10T19:02:31.522-06:00
+parent: "[[Computer Data Encoding & Decoding]]"
+children:
+  - "[[Fixed-Point Numbers]]"
+  - "[[Floating-Point Numbers]]"
+  - "[[Signed Binary Numbers (Signed Magnitude One's／Two's Complement)]]"
 ---
-
 ###### Computer Number Formats
-
-```excerpt
+````excerpt
 - is the internal representation of numeric values in digital computer and calculator hardware and software
-```
-
+````
 ^excerpt
 
 # Format Types

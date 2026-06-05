@@ -1,10 +1,10 @@
 ---
-publish: true
-title: OPNsense Router Hardware
+title: "OPNsense Router Hardware"
 created: 2023-02-21T13:51:14.477-06:00
 modified: 2023-02-21T13:55:52.611-06:00
+parent: "[[Router Hardware]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

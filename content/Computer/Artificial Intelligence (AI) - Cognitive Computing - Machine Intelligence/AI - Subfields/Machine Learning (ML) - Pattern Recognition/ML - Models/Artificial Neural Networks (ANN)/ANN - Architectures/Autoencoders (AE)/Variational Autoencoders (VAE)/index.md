@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Variational Autoencoders (VAE)
+title: "Variational Autoencoders (VAE)"
 created: 2020-08-17T22:48:46.995-05:00
 modified: 2024-08-21T18:21:14.540-05:00
+parent: "[[Autoencoders (AE)]]"
+children: []
 ---
-
 ###### Variational Autoencoders (VAE)
-
-```excerpt
+````excerpt
 - is a probabilistic twist on traditional [[Autoencoders (AE)|autoencoder]] - samples the [[Arithmetic Mean - Average - Location - Expected Value - Expectation Operator|mean]] and [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|standard deviation]] to compute latent sample
 - is an [[ANN - Architectures|ANN architecture]] introduced by Diederik P. Kingma and Max Welling
 - it belongs to the family of [[Probabilistic Graphical Models (PGM) - Structured Probabilistic Models (SPM)|probabilistic graphical models]] and variational Bayesian methods
-```
-
+````
 ^excerpt
 
 # VAE - Architecture
@@ -28,15 +26,11 @@ modified: 2024-08-21T18:21:14.540-05:00
   "tableStyle": "width: 59.009%;"
 }
 ```
-
 # VAE - Variants
-
 - [[Beta Variational Autoencoders (𝛽-VAE)]]
 
 # Other
-
 - [[GAN vs VAE vs Flow-Based Model vs Diffusion Model]]
 
 # Resources
-
-- <https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf>
+- [https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)

@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Java - Spring - TaskExecutor
+title: "Java - Spring - TaskExecutor"
 created: 2021-09-26T23:20:50.067-05:00
 modified: 2021-09-26T23:46:00.560-05:00
+parent: "[[Java - Spring - TaskExecutor & TaskScheduler]]"
+children: []
 ---
-
 ###### TaskExecutor
-
 - same definition as Java's <code><font style="color: rgb(122,134,154);">[[Java - ExecutorService & Executor|Executor]]</font></code> class
 - similar to <code>[[Java - Spring - TaskScheduler|TaskScheduler]]</code> but executes it immediately
 
 # TaskExecutor - Class Definition
-
 ```
 public interface TaskExecutor extends Executor {
     void execute(Runnable task);
 }
 ```
-
 # TaskExecutor - Types
 
 ```merge-table

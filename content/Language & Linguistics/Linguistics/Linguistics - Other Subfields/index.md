@@ -1,10 +1,12 @@
 ---
-publish: true
-title: Linguistics - Other Subfields
+title: "Linguistics - Other Subfields"
 created: 2021-09-13T04:44:12.429-05:00
 modified: 2021-09-13T04:44:12.429-05:00
+parent: "[[Linguistics]]"
+children:
+  - "[[Philology - Historical-Comparative Linguistics]]"
+  - "[[Psycholinguistics - Psychology of Language]]"
 ---
-
 ```merge-table
 {
   "rows": [

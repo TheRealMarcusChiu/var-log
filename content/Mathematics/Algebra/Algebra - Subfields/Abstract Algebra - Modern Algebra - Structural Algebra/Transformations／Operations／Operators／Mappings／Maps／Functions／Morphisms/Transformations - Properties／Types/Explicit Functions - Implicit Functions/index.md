@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Explicit Functions - Implicit Functions
+title: "Explicit Functions - Implicit Functions"
 created: 2023-08-28T11:45:01.699-05:00
 modified: 2023-08-28T11:48:47.235-05:00
+parent: "[[Transformations - Properties／Types]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,21 +1,19 @@
 ---
-publish: true
-title: Java - Spring - ApplicationContext - Hierarchy - SpringApplicationBuilder
+title: "Java - Spring - ApplicationContext - Hierarchy - SpringApplicationBuilder"
 created: 2021-07-04T22:40:07.326-05:00
 modified: 2021-07-04T22:40:34.620-05:00
+parent: "[[Java - Spring - ApplicationContext - Hierarchy (Parent & Child ApplicationContext)]]"
+children: []
 ---
-
-- based on: <https://www.baeldung.com/spring-boot-context-hierarchy>
+- based on: [https://www.baeldung.com/spring-boot-context-hierarchy](https://www.baeldung.com/spring-boot-context-hierarchy)
 - code:
-  - non spring-boot: <https://github.com/SpringBootMarcusChiu/application-context-hierarcy>
-  - spring-boot: <https://github.com/SpringBootMarcusChiu/application-context-hierarchy-two>
+	- non spring-boot: [https://github.com/SpringBootMarcusChiu/application-context-hierarcy](https://github.com/SpringBootMarcusChiu/application-context-hierarcy)
+	- spring-boot: [https://github.com/SpringBootMarcusChiu/application-context-hierarchy-two](https://github.com/SpringBootMarcusChiu/application-context-hierarchy-two)
 
 A context hierarchy allows multiple child contexts to share beans which reside in the parent context. Each child context can override configuration inherited from the parent context
-
 ## <strong>Using <em>SpringApplicationBuilder</em> API</strong>
 
 The <code><font style="color: rgb(51,102,255);">SpringApplicationBuilder</font></code> class provides methods to create a parent-child relationship between contexts using:
-
 - <code><font style="color: rgb(51,102,255);">parent()</font></code>
 - <code><font style="color: rgb(51,102,255);">child()</font></code>
 - <code><font style="color: rgb(51,102,255);">sibling()</font></code>
@@ -23,7 +21,6 @@ The <code><font style="color: rgb(51,102,255);">SpringApplicationBuilder</font>
 <strong>We'll set up a non-web parent application context with 2 child web application contexts</strong>
 
 We'll start two instances of embedded Tomcat each with its own web application context and both running in a single JVM
-
 ```
 public class Application {
   public static void main(String[] args) {
@@ -39,16 +36,13 @@ public class Application {
 
 package and code files layout
 
-![[Computer/Computer／Programming Languages/Computer Languages - General-Purpose Programming Languages (GPL)/Java Platform/Java/Java - Projects & Code Examples/Java - Non-Native Libraries/Java - Spring Family/Java - Spring Framework/Java - Spring Framework - Core - Context (Beans／Components／Containers／etc)/Java - Spring - ApplicationContext/Java - Spring - ApplicationContext - Hierarchy (Parent & Child ApplicationContext)/Java - Spring - ApplicationContext - Hierarchy - SpringApplicationBuilder/file-hiearchy.png|374x250]]
-
+![[Java - Spring - ApplicationContext - Hierarchy - SpringApplicationBuilder/file-hiearchy.png|374x250]]
 ###### \*Config Files
-
 > [!tabs]
 >
-> \=== Parent
+> === Parent
 >
 > parent context scans <code><font style="color: rgb(128,128,128);">com.marcuschiu.example.applicationcontexthierarchy.</font><font style="color: rgb(255,0,0);">parent</font></code>
->
 > - finds <code><font style="color: rgb(128,128,0);">@Service</font></code><code><font style="color: rgb(51,102,255);">IHomeService</font></code> thus a <code><font style="color: rgb(51,102,255);">IHomeService</font></code> component/bean is created
 > - thus, any <code><font style="color: rgb(128,128,0);">@Autowired</font></code> <code><font style="color: rgb(51,102,255);">IHomeService</font></code> within this package would pickup <code><font style="color: rgb(255,0,0);">parent</font></code> context's <code><font style="color: rgb(51,102,255);">IHomeService</font></code> bean
 >
@@ -58,10 +52,9 @@ package and code files layout
 > public class ParentConfig {}
 > ```
 >
-> \=== Child 1
+> === Child 1
 >
 > ctx1 context scans <code><font style="color: rgb(51,102,255);"><font style="color: rgb(128,128,128);">com.marcuschiu.example.applicationcontexthierarchy.</font><font style="color: rgb(255,0,0);">ctx1</font></font></code>
->
 > - finds <code><font style="color: rgb(128,128,0);">@Bean</font></code> <code><font style="color: rgb(51,102,255);">IHomeService</font></code> thus a <code><font style="color: rgb(51,102,255);">IHomeService</font></code> component/bean is created
 > - thus, any <code><font style="color: rgb(128,128,0);">@Autowired</font></code> <code><font style="color: rgb(51,102,255);">IHomeService</font></code> within this package would pickup <code><font style="color: rgb(255,0,0);">ctx1</font></code> context's <code><font style="color: rgb(51,102,255);">IHomeService</font></code> bean
 >
@@ -91,10 +84,9 @@ package and code files layout
 > }
 > ```
 >
-> \=== Child 2
+> === Child 2
 >
 > ctx2 context scans <code><font style="color: rgb(128,128,128);">com.marcuschiu.example.applicationcontexthierarchy.</font><font style="color: rgb(255,0,0);">ctx2</font></code>
->
 > - does <font style="color: rgb(255,0,0);">NOT</font> create a <code><font style="color: rgb(51,102,255);">IHomeService</font></code> Bean
 > - thus, any <code><font style="color: rgb(128,128,0);">@Autowired</font></code> <code><font style="color: rgb(51,102,255);">IHomeService</font></code> within this package would pickup <code><font style="color: rgb(255,0,0);">parent</font></code> context's <code><font style="color: rgb(51,102,255);">IHomeService</font></code> bean
 >

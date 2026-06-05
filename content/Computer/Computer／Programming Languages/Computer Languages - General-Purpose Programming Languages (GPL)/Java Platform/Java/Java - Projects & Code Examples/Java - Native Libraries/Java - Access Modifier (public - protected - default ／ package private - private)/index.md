@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Java - Access Modifier (public - protected - default ／ package private - private)
+title: "Java - Access Modifier (public - protected - default ／ package private - private)"
 created: 2021-01-26T08:55:07.532-06:00
 modified: 2021-10-21T17:17:14.517-05:00
+parent: "[[Java - Native Libraries]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

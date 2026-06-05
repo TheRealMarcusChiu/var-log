@@ -1,21 +1,19 @@
 ---
-publish: true
-title: Feature Toggles／Flags (Release／Experiment／Ops／Permissioning)
+title: "Feature Toggles／Flags (Release／Experiment／Ops／Permissioning)"
 created: 2020-12-26T12:21:20.791-06:00
 modified: 2021-10-29T20:24:43.057-05:00
+parent: "[[Software／Fullstack Development]]"
+children: []
 ---
-
 see: [[Feature Toggle Pattern]]
-
 # Feature Toggle Types
 
 feature toggle categorization dimensions:
-
 - longevity - how long the feature toggle will live
 - dynamism - how dynamic the toggling decision must be
 - who will manage the feature toggle
 
-![[Computer/Software／Fullstack Development/Feature Toggles／Flags (Release／Experiment／Ops／Permissioning)/feature-toggle-categories.png|400]]
+![[Feature Toggles／Flags (Release／Experiment／Ops／Permissioning)/feature-toggle-categories.png|400]]
 
 ```merge-table
 {
@@ -56,7 +54,5 @@ feature toggle categorization dimensions:
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
-
-- <https://martinfowler.com/articles/feature-toggles.html>
+- [https://martinfowler.com/articles/feature-toggles.html](https://martinfowler.com/articles/feature-toggles.html)

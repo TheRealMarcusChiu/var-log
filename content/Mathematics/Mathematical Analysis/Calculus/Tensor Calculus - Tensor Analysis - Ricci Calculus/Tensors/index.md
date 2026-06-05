@@ -1,105 +1,98 @@
 ---
-publish: true
-title: Tensors
+title: "Tensors"
 created: 2021-09-13T05:26:04.229-05:00
 modified: 2026-05-23T11:26:30.184-05:00
+parent: "[[Tensor Calculus - Tensor Analysis - Ricci Calculus]]"
+children:
+  - "[[Tensor - 1 - How do basis vector components change WRT change of basis？]]"
+  - "[[Tensor - 10 - How do Metric Tensor Components Change WRT Change of Basis]]"
+  - "[[Tensor - 11 - How do Basis of a Metric Tensor Change WRT Change of Basis]]"
+  - "[[Tensor - 12 - Bilinear Forms Introduction]]"
+  - "[[Tensor - 13 - How do Bilinear Form Components Change WRT Change of Basis]]"
+  - "[[Tensor - 2 - How do vector components change WRT change of basis？]]"
+  - "[[Tensor - 3 - Covector Introduction]]"
+  - "[[Tensor - 4 - How do covector components change WRT change of basis？]]"
+  - "[[Tensor - 5 - How do dual basis covectors change WRT change of basis？]]"
+  - "[[Tensor - 6 - Linear Maps Introduction]]"
+  - "[[Tensor - 7 - How do Linear Map Components Change WRT Change of Basis？]]"
+  - "[[Tensor - 8 - How do basis of a linear transformation change WRT change of basis？]]"
+  - "[[Tensor - 9 - Metric Tensor Introduction]]"
 ---
-
 ###### Tensors
-
-```excerpt
+````excerpt
 - a tensor is an object that is invariant under a change of coordinate/basis and has COMPONENTS that change in a special predictable way under a change of coordinates/basis
 - a tensor is a collection of vectors and covectors combined together using the tensor product
 - tensors can take several different forms (e.g. [[Scalars|scalars]],[[Vectors|vectors]], [[Linear Functionals - Linear Forms - 1／One-Forms - Covectors|covectors]], [[Linear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms) - Vector Space Homomorphism|linear maps]], [[Bilinear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)|bilinear maps]], [[Multilinear／Multi-Linear k-Linear Map (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)|multilinear maps]], etc)
-```
-
+````
 ^excerpt
 
 # Tensors - Introduction
 
 > [!expand]- Click here to expand...
->
 > ###### 1 - How do basis vector components change WRT change of basis?
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 1 - How do basis vector components change WRT change of basis？#^excerpt]]
->
 > ###### 2 - How do vector components change WRT change of basis?
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 2 - How do vector components change WRT change of basis？#^excerpt]]
->
 > ###### 3 - Covector Introduction
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 3 - Covector Introduction#^excerpt]]
->
 > ###### 4 - How do covector components change WRT change of basis?
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 4 - How do covector components change WRT change of basis？#^excerpt]]
->
 > ###### 5 - How do dual basis covectors change WRT change of basis?
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 5 - How do dual basis covectors change WRT change of basis？#^excerpt]]
->
 > ###### 6 - Linear Maps Introduction
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 6 - Linear Maps Introduction#^excerpt]]
->
 > ###### 7 - How do linear transformations change WRT change of basis?
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 7 - How do Linear Map Components Change WRT Change of Basis？#^excerpt]]
->
 > ###### 8 - How do basis of a linear transformation change WRT change of basis?
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 8 - How do basis of a linear transformation change WRT change of basis？#^excerpt]]
->
 > ###### 9 - Metric Tensor Introduction
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 9 - Metric Tensor Introduction#^excerpt]]
->
 > ###### 10 - How do Metric Tensor Components Change WRT Change of Basis
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 10 - How do Metric Tensor Components Change WRT Change of Basis#^excerpt]]
->
 > ###### 11 - How do Basis of a Metric Tensor Change WRT Change of Basis
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 11 - How do Basis of a Metric Tensor Change WRT Change of Basis#^excerpt]]
->
 > ###### 12 - Bilinear Forms Introduction
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 12 - Bilinear Forms Introduction#^excerpt]]
->
 > ###### 13 - How do Bilinear Form Components Change WRT Change of Basis
 >
 > > [!expand]- Click here to expand...
 > > ![[Tensor - 13 - How do Bilinear Form Components Change WRT Change of Basis#^excerpt]]
-
 # Tensors - Types
 
 (m,n)-tensor
-
 - m = number of contravariant indices (top of 𝑇)
 - n = number of covariant indices (bottom of 𝑇)
 
 For example, a (3,3)-tensor 𝑇 is denoted as:
-
 - $T = T_{rst}^{ijk} \;\; \text{  is short for } \;\; T_{rst}^{ijk}e_ie_je_k𝜀^r𝜀^s𝜀^t$
 - $T = \tilde{T}_{rst}^{ijk} \;\; \text{  is short for } \;\; \tilde{T}_{rst}^{ijk}ẽ_iẽ_jẽ_k𝜀̃^r𝜀̃^s𝜀̃^t$
 
 How do components of a (3,3)-tensor 𝑇 change WRT change of basis?
-
 - $T = \tilde{T}^{xyz}_{abc} = B_i^x B_j^y B_k^z T_{rst}^{ijk} F_a^r F_b^s F_c^t$
-
 > [!expand]- how it's computed
 > Prerequisite knowledge:
 >
@@ -127,21 +120,16 @@ How do components of a (3,3)-tensor 𝑇 change WRT change of basis?
 > ```
 >
 > Start with the definition:
->
 > - $T = T_{rst}^{ijk}e_ie_je_k𝜀^r𝜀^s𝜀^t$
 >
 > Next, transform all the basis vectors and basis covectors individually and resolve:
->
 > - $T = T_{rst}^{ijk}B^x_iẽ_xB^y_jẽ_yB^z_kẽ_z F^r_a𝜀̃^aF^s_b𝜀̃^bF^t_c𝜀̃^c$
 > - $T = (B^x_iB^y_jB^z_k  T_{rst}^{ijk}  F^r_aF^s_bF^t_c)  ẽ_xẽ_yẽ_z 𝜀̃^a𝜀̃^b𝜀̃^c$
 > - $T = (\tilde{T}^{xyz}_{abc})  ẽ_xẽ_yẽ_z 𝜀̃^a𝜀̃^b𝜀̃^c$
 >
 > Thus
->
 > - $\tilde{T}^{xyz}_{abc} = B^x_iB^y_jB^z_k  T_{rst}^{ijk}  F^r_aF^s_bF^t_c$
-
 - $T = T^{xyz}_{abc} = F_i^x F_j^y F_k^z \tilde{T}_{rst}^{ijk} B_a^r B_b^s B_c^t$
-
 > [!expand]- how it's computed
 > Prerequisite knowledge:
 >
@@ -169,20 +157,17 @@ How do components of a (3,3)-tensor 𝑇 change WRT change of basis?
 > ```
 >
 > Start with the definition:
->
 > - $T = \tilde{T}_{rst}^{ijk}ẽ_iẽ_jẽ_k𝜀̃^r𝜀̃^s𝜀̃^t$
 >
 > Next, transform all the basis vectors and basis covectors individually and resolve:
->
 > - $T = \tilde{T}_{rst}^{ijk}  F^x_ie_xF^y_je_yF^z_ke_z B^r_a𝜀^aB^s_b𝜀^bB^t_c𝜀^c$
 > - $T = (F^x_iF^y_jF^z_k  \tilde{T}_{rst}^{ijk}  B^r_aB^s_bB^t_c)  e_xe_ye_z 𝜀^a𝜀^b𝜀^c$
 > - $T = (T_{rst}^{ijk})  e_xe_ye_z 𝜀^a𝜀^b𝜀^c$
 >
 > Thus
->
 > - $T^{xyz}_{abc} = F^x_iF^y_jF^z_k  \tilde{T}_{rst}^{ijk}  B^r_aB^s_bB^t_c$
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -416,39 +401,29 @@ How do components of a (3,3)-tensor 𝑇 change WRT change of basis?
     ]
   ]
 }
-````
-
+```
 # Resources
-
 - [NASA's - An Introduction to Tensors for Students of Physics and Engineering](https://www.grc.nasa.gov/www/k-12/Numbers/Math/documents/Tensors_TM2002211716.pdf)
--
-
+- 
 > [!expand]- Brian Keng's Tensor Introduction
->
 > ###### Original Article
->
-> - <https://bjlkeng.io/posts/tensors-tensors-tensors/>
+> - [https://bjlkeng.io/posts/tensors-tensors-tensors/](https://bjlkeng.io/posts/tensors-tensors-tensors/)
 >
 > ###### Article Copy
 >
 > > [!list-indent-undo]
-> >
 > > > [!indent]
-> > > ![[Mathematics/Mathematical Analysis/Calculus/Tensor Calculus - Tensor Analysis - Ricci Calculus/Tensors/screencapture-bjlkeng-io-posts-tensors-tensors-tensors-2023-10-31-17_00_28.png]]
+> > > ![[Tensors/screencapture-bjlkeng-io-posts-tensors-tensors-tensors-2023-10-31-17_00_28.png]]
 >
 > > [!list-indent-undo]
-> >
 > > > [!indent]
-> > > ![[Mathematics/Mathematical Analysis/Calculus/Tensor Calculus - Tensor Analysis - Ricci Calculus/Tensors/screencapture-bjlkeng-io-posts-tensors-tensors-tensors-2023-10-31-17_00_28-2.png]]
-
+> > > ![[Tensors/screencapture-bjlkeng-io-posts-tensors-tensors-tensors-2023-10-31-17_00_28-2.png]]
 - [YouTube - FloatHeadPhysics - Intuitive Tensors](https://www.youtube.com/watch?v=k2FP-T6S1x0)
 - [YouTube - Mu Prime Math - A Concrete Introduction to Tensor Products](https://www.youtube.com/watch?v=KnSZBjnd_74)
 - [YouTube - EigenChris - Tensors for Beginners](https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG)
 - [YouTube - EigenChris - Tensor Calculus](https://www.youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx)
--
-
+- 
 > [!expand]- Old Stuff
->
 > # Tensor Ranks
 >
 > ```merge-table
@@ -517,10 +492,8 @@ How do components of a (3,3)-tensor 𝑇 change WRT change of basis?
 > ```
 >
 > Einstein's Theory of Relativity required a tensor of rank 4 (x,y,z,t); thus 4\*4\*4\*4=256 components to describe the Theory of Relativity
->
 > # Tensor - Represented as a Matrix
 >
 > > [!list-indent-undo]
-> >
 > > > [!indent]
-> > > ![[Mathematics/Mathematical Analysis/Calculus/Tensor Calculus - Tensor Analysis - Ricci Calculus/Tensors/Tensors-as-generalizations-of-scalars-vectors-and-matrices.png|600]]
+> > > ![[Tensors/Tensors-as-generalizations-of-scalars-vectors-and-matrices.png|600]]

@@ -1,16 +1,15 @@
 ---
-publish: true
-title: Cognitive Biases - Affecting Memory (Memory Bias)
+title: "Cognitive Biases - Affecting Memory (Memory Bias)"
 created: 2021-09-13T04:45:34.696-05:00
 modified: 2022-01-23T03:15:48.921-06:00
+parent: "[[Cognitive Biases]]"
+children: []
 ---
-
 <strong>Memory Biases</strong> either:
-
 - enhances or impairs the recall of a memory, either:
-  - the chances that the memory will be recalled at all
-  - the amount of time it takes for it to be recalled
-  - or both
+	- the chances that the memory will be recalled at all
+	- the amount of time it takes for it to be recalled
+	- or both
 - alters the content of a reported memory
 
 # Memory Biases - Types

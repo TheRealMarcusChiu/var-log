@@ -1,18 +1,17 @@
 ---
-publish: true
-title: Maclaurin Series vs Maclaurin Polynomial
+title: "Maclaurin Series vs Maclaurin Polynomial"
 created: 2021-09-13T05:29:26.148-05:00
 modified: 2023-08-24T16:19:48.274-05:00
+parent: "[[Taylor Series vs Taylor Polynomial]]"
+children: []
 ---
-
 # Maclaurin Series vs Maclaurin Polynomial
-
 - <strong>Maclaurin series</strong> - is an infinite sum
 - <strong>Maclaurin polynomial</strong> - is a finite sum
 
 # Maclaurin Series/Polynomial - Definitions
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -33,4 +32,4 @@ modified: 2023-08-24T16:19:48.274-05:00
     ]
   ]
 }
-````
+```

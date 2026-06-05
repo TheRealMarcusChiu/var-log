@@ -1,12 +1,12 @@
 ---
-publish: true
-title: Distributed - Agreement Problems
+title: "Distributed - Agreement Problems"
 created: 2019-07-24T14:48:21.999-05:00
 modified: 2026-04-23T12:05:54.778-05:00
+parent: "[[Distributed - Algorithms／Computing／Programming／Systems]]"
+children:
+  - "[[Distributed - Consensus Agreement Problem (CAP)]]"
 ---
-
 # <strong>Agreement Problem Categories</strong>
-
 In all three agreement problems, one or more processes propose a value and all correct (or non-faulty) processes must agree on either a value or a vector of values. An agreement protocol is typically described in terms of two primitives, namely propose( ), and decide( ). To avoid confusion, we will use v to represent the value proposed and u to represent the value decided. Also, let n denotes the number of processes.
 
 ```merge-table
@@ -48,29 +48,22 @@ In all three agreement problems, one or more processes propose a value and all c
   ]
 }
 ```
-
 # <strong>Impossibility of Solving Agreement Problems in General</strong>
 
 Fischer, Lynch and Paterson in their seminal paper proved that solving an agreement problem in a completely <strong>asynchronous</strong> system is impossible even if at most one process can fail by crashing
-
 ### under what assumption can we solve the agreement problem?
-
 It turns out that the agreement problem can be solved if we assume that the system is <strong>synchronous</strong>, that is, processes run in lock step manner. A step of a synchronous system is referred to as a round. In every round, each process can:
-
 1. send message to one or more processes
 2. receive the messages sent to it by other processes in that round
 3. perform some local computation
 
 We can now prove that, in a synchronous distributed system, all 3 agreement problems are equivalent
-
 # <strong>Equivalence of the Agreement Problems when the System is Synchronous</strong>
 
 BAP = CAP = ICAP are all really the same problem, if you solve one of the problem that solution would also solve the other two problem
-
 ### Solving ICAP Using BAP
 
 Interactive Consistency Protocol for process Pi
-
 ```
 IC_propose(vi) {
   // start n instances of the byzantine // agreement protocol 
@@ -82,7 +75,6 @@ IC_propose(vi) {
   endfor; 
 }
 ```
-
 ```
 IC_decide() {
   // jth entry of the vector is the value
@@ -97,7 +89,6 @@ IC_decide() {
 ```
 
 To prove the correctness of the protocol, we need to prove that the protocol satisfies the three required properties.
-
 - TERMINATION - It follows from the fact that each instance of byzantine agreement protocol will eventually terminate.
 - AGREEMENT - Each non-faulty process obtains the j<sup>th</sup>entry of its vector using the j<sup>th</sup>instance of the byzantine agreement protocol. Thus, from the agreement property of the byzantine agreement protocol, it follows that, for each j, the j<sup>th</sup>entry of the vector will be identical for all non-faulty processes.
 - VALIDITY - Clearly, if process P<sub>j</sub> is non-faulty, the j<sup>th</sup>instance of the byzantine agreement protocol will decide on v<sub>j</sub>—the value proposed by P<sub>j</sub>
@@ -105,14 +96,12 @@ To prove the correctness of the protocol, we need to prove that the protocol sat
 ### Solving CAP Using ICAP
 
 Consensus Protocol for process Pi:
-
 ```
 Cons_propose(vi) {
   IC propose(vi);
 }
 
 ```
-
 ```
 Cons_decide() {
   ⟨ui1, ui2, . . . , uin⟩ := IC decide( );
@@ -125,7 +114,6 @@ Cons_decide() {
 ```
 
 now prove the correctness of the consensus protocol.
-
 - TERMINATION: It follows from the fact that the interactive consistency protocol will eventually terminate.
 - AGREEMENT: Clearly, all non-faulty processes agree on all entries of their vectors. Therefore, the majority function will evaluate to the same value for all non-faulty processes.
 - VALIDITY: The validity property of the interactive consistency protocol guarantees that if process P<sub>i</sub> is non-faulty, then all non-faulty processes will decide on v<sub>i</sub>as the i<sub>th</sub>component of their respective vectors. Now, suppose all non-faulty processes propose the same value, say v. Since a majority of processes are non-faulty, a majority of entries in the vector for all non-faulty processes will be v. Therefore, all non-faulty processes, in the consensus protocol, a majority of entries in the vector will be v
@@ -133,7 +121,6 @@ now prove the correctness of the consensus protocol.
 ### Solving BAP Using CAP
 
 Byzantine Agreement Protocol:
-
 ```
 // propose primitive for the source-process Ps
 BA_propose(vs) {
@@ -149,7 +136,6 @@ BA_propose() {
   Cons_propose(vi);
 }
 ```
-
 ```
 // decide primitive for process Pi
 // (Pi could be Ps)
@@ -160,29 +146,26 @@ BA_decide() {
 } 
 
 ```
-
 ### Solving BAP using ICAP
 
 Byzantine Agreement Protocol:
-
-```
 ```
 
 ```
 ```
 
+```
 ### Solving ICAP using CAP
-
-```
 ```
 
 ```
 ```
 
+```
 ### Solving CAP using BAP
-
-```
 ```
 
 ```
+```
+
 ```

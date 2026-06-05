@@ -1,13 +1,18 @@
 ---
-publish: true
-title: Hidden Markov Models (HMM)
+title: "Hidden Markov Models (HMM)"
 created: 2021-09-13T05:26:59.852-05:00
 modified: 2026-05-24T19:44:23.630-05:00
+parent: "[[Stochastic／Random／Markov Models／Process]]"
+children:
+  - "[[HMM - Inference - Forward-Backward Algorithm]]"
+  - "[[HMM - Inference - Viterbi Algorithm]]"
+  - "[[HMM - Inference By Enumeration & Variable Elimination]]"
+  - "[[HMM - Learning - Baum-Welch Algorithm]]"
+  - "[[HMM - Learning - Maximum Likelihood Estimation (MLE)]]"
+  - "[[Hierarchical Hidden Markov Model (HHMM)]]"
 ---
-
 ###### Hidden Markov Model (HMM)
-
-```excerpt
+````excerpt
 - reading prerequisite: [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|Markov Chains]]
 - HMM is an extension of [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|Markov Chains]] where the state-values are NOT fully observable
 - HMMs are also considered as:
@@ -15,80 +20,68 @@ modified: 2026-05-24T19:44:23.630-05:00
 	- an extension of [[Naive Bayes Model - Bayes Model|Naive Bayes Models]] that model sequences
 	- the simplest [[Dynamic Bayesian Networks (DBN)|Dynamic Bayesian Network]]
 	- a sequential [[ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)|supervised]], [[ML - Generative／Joint vs Discriminative／Conditional Models|generative]] model
-```
-
+````
 ^excerpt
 
 # HMM - Intro
 
 ![](https://www.youtube.com/watch?v=kqSzLo9fenk)
-
 # HMM - Intuition & Components
-
 - HMM is an extension of [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|Markov Chains]] where the states are NOT fully observable. In other words, each state-value is decomposed into 2 parts:
-  - 1 hidden-state 𝑌 - each hidden-state can have 1 of 𝑛 possible hidden-state-values {𝑠<sub>1</sub>, ..., 𝑠<sub>𝑛</sub>}
-  - 1 observable-state 𝑋 - each observable-state can have 1 of 𝑚 possible observable-state-values {𝑥<sub>1</sub>, ..., 𝑥<sub>𝑚</sub>}
+	- 1 hidden-state 𝑌 - each hidden-state can have 1 of 𝑛 possible hidden-state-values {𝑠<sub>1</sub>, ..., 𝑠<sub>𝑛</sub>}
+	- 1 observable-state 𝑋 - each observable-state can have 1 of 𝑚 possible observable-state-values {𝑥<sub>1</sub>, ..., 𝑥<sub>𝑚</sub>}
 - at current time 𝑡 the HMM is at some hidden-state-value 𝑠<sup>(𝑡)</sup>. This 𝑠<sup>(𝑡)</sup> is 1 of the 𝑛 possible hidden-state-values {𝑠<sub>1</sub>, ..., 𝑠<sub>𝑛</sub>}
-  - 𝑠<sup>(𝑡)</sup>= 𝑠<sub>𝑖</sub> <font style="color: rgb(128,128,128);"># where 𝑠<sub>𝑖</sub>∊{𝑠<sub>1</sub>, ..., 𝑠<sub>𝑛</sub>}</font>
-- this is denoted as 𝑌<sup>(𝑡)</sup>=𝑠<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub><font style="color: rgb(128,128,128);"># these 2 ways to represent the state-value of 𝑌<sup>(𝑡)</sup> will be useful as we go on</font>
+	- 𝑠<sup>(𝑡)</sup>= 𝑠<sub>𝑖</sub> <font style="color: rgb(128,128,128);">\# where 𝑠<sub>𝑖</sub>∊{𝑠<sub>1</sub>, ..., 𝑠<sub>𝑛</sub>}</font>
+- this is denoted as 𝑌<sup>(𝑡)</sup>=𝑠<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub><font style="color: rgb(128,128,128);">\# these 2 ways to represent the state-value of 𝑌<sup>(𝑡)</sup> will be useful as we go on</font>
 - as the HMM moves to time 𝑡+1, it <font style="color: rgb(204,153,255);"><strong>RANDOMLY</strong></font> chooses the next hidden-state-value 𝑠<sup>(𝑡+1)</sup>denoted as:
-  - 𝑌<sup>(𝑡+1)</sup>=𝑠<sup>(𝑡+1)</sup>=𝑠<sub>?</sub>
+	- 𝑌<sup>(𝑡+1)</sup>=𝑠<sup>(𝑡+1)</sup>=𝑠<sub>?</sub>
 - based on the chosen 𝑠<sup>(𝑡+1)</sup> the HMM also <font style="color: rgb(153,204,255);"><strong>RANDOMLY</strong></font> chooses an observable-state-value 𝑥<sup>(𝑡+1)</sup>denoted as:
-  - 𝑋<sup>(𝑡+1)</sup>=𝑥<sup>(𝑡+1)</sup>=𝑥<sub>?</sub>
+	- 𝑋<sup>(𝑡+1)</sup>=𝑥<sup>(𝑡+1)</sup>=𝑥<sub>?</sub>
 - naturally this forms a sequence of (𝑋,𝑌) pairs as time progresses:
-  - { ..., (𝑋<sup>(𝑡-1)</sup>,𝑌<sup>(𝑡-1)</sup>), (𝑋<sup>(𝑡)</sup>,𝑌<sup>(𝑡)</sup>), ...}
+	- { ..., (𝑋<sup>(𝑡-1)</sup>,𝑌<sup>(𝑡-1)</sup>), (𝑋<sup>(𝑡)</sup>,𝑌<sup>(𝑡)</sup>), ...}
 - the sequence of (𝑋,𝑌) pairs is the "recorded history" of state-values over time. However the only values we observe are the 𝑋s not 𝑌s
 - this sequence can grow infinitely long
 - the 𝑌s and 𝑋s are called time-variables, where:
-  - each 𝑌 holds 1 hidden-state-value 𝑠<sub>?</sub>
-  - each 𝑋 holds 1 observable-state-value 𝑥<sub>?</sub>
+	- each 𝑌 holds 1 hidden-state-value 𝑠<sub>?</sub>
+	- each 𝑋 holds 1 observable-state-value 𝑥<sub>?</sub>
 
 ###### HMM - Required Components (<font style="color: rgb(204,153,255);">State Transition Matrix</font> & <font style="color: rgb(153,204,255);">Emission Matrix</font>)
 
 > [!expand]- Click here to expand...
 > at each time-step the <font style="color: rgb(204,153,255);">RANDOM</font> choice of next hidden-state-value 𝑠<sup>(𝑡+1)</sup><sub></sub>is characterized by a 𝑛x𝑛 [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|transition matrix]] 𝑇 where:
->
-> - each entry 𝑇\[𝑖,𝑗]:
->   - contains a value between 0 and 1 (inclusive)
->   - denotes the probability of transitioning from state 𝑠<sub>𝑖</sub>to 𝑠<sub>𝑗</sub><font style="color: rgb(128,128,128);"># i.e. 𝐏(𝑌<sup>(𝑡+1)</sup>=𝑠<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>|𝑌<sup>(𝑡)</sup>=𝑠<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub>)</font>
+> - each entry 𝑇\[𝑖,𝑗\]:
+> 	- contains a value between 0 and 1 (inclusive)
+> 	- denotes the probability of transitioning from state 𝑠<sub>𝑖</sub>to 𝑠<sub>𝑗</sub><font style="color: rgb(128,128,128);">\# i.e. 𝐏(𝑌<sup>(𝑡+1)</sup>=𝑠<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>|𝑌<sup>(𝑡)</sup>=𝑠<sup>(𝑡)</sup>=𝑠<sub>𝑖</sub>)</font>
 > - each row of entries in 𝑇 must sum up to 1
 >
 > at each time-step the <font style="color: rgb(153,204,255);">RANDOM</font> choice of observable-state-value 𝑥<sup>(𝑡+1)</sup> is characterized by a 𝑛x𝑚 <font style="color: rgb(153,204,255);">emission matrix</font> 𝐸 where:
->
-> - each entry 𝐸\[𝑗,𝑘]:
->   - contains a value between 0 and 1 (inclusive)
->   - denotes the probability of observing value 𝑥<sub>𝑘</sub> when on state 𝑠<sub>𝑗</sub> <font style="color: rgb(128,128,128);"># i.e. 𝐏(𝑋<sup>(t+1)</sup>=𝑥<sup>(t+1)</sup>=𝑥<sub>𝑘</sub></font><font style="color: rgb(128,128,128);">|𝑌<sup>(t+1)</sup>=𝑠<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>)</font>
+> - each entry 𝐸\[𝑗,𝑘\]:
+> 	- contains a value between 0 and 1 (inclusive)
+> 	- denotes the probability of observing value 𝑥<sub>𝑘</sub> when on state 𝑠<sub>𝑗</sub> <font style="color: rgb(128,128,128);">\# i.e. 𝐏(𝑋<sup>(t+1)</sup>=𝑥<sup>(t+1)</sup>=𝑥<sub>𝑘</sub></font><font style="color: rgb(128,128,128);">|𝑌<sup>(t+1)</sup>=𝑠<sup>(𝑡+1)</sup>=𝑠<sub>𝑗</sub>)</font>
 >
 > so far we have described a HMM that models a [[Stochastic／Random／Markov Models／Process|Markov Process]] with [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|1st-Order Markov Assumption]]. Just like [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|Markov Chains]], HMMs can be extended to model a:
->
 > - Markov Processes with [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|2nd-Order Markov Assumptions]]
 > - Markov Processes with [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|Higher-Order Markov Assumptions]]
-
 ###### HMM - Optional Components (<font style="color: rgb(255,153,0);">Starting State Probabilities</font> & <font style="color: rgb(153,204,0);">Ending State Probabilities</font>)
 
 > [!expand]- Click here to expand...
 > if an application has a sequence with a definite <font style="color: rgb(255,153,0);">START</font> state 𝑌<sup>(1)</sup>=𝑌<sup>(𝑠𝑡𝑎𝑟𝑡)</sup>, it's [[Probability Distributions|probability distribution]] CANNOT be modeled with a <font style="color: rgb(204,153,255);">transition matrix</font>. This is because there is no previous state. We solve this by adding another component called <font style="color: rgb(255,153,0);">Starting State Probabilities</font>, which is characterized by a [[Probability Distribution - Discrete Functions／Models (Probability Mass Functions)|discrete probability distribution]] of 𝑛 discrete values (<font style="color: rgb(128,128,128);">one for each hidden-state-value 𝑠<sub>𝑗</sub> {𝑠</font><font style="color: rgb(128,128,128);"><sub>1</sub>, ..., 𝑠<sub>𝑛</sub></font><font style="color: rgb(128,128,128);">}</font>):
->
-> - <font style="color: rgb(255,153,0);">𝐏(𝑌<sup>(1)</sup>=𝑠<sup>(1)</sup>=𝑠<sub>𝑗</sub>)</font> equals some probability <font style="color: rgb(128,128,128);"># for 𝑗 = 1 to 𝑛</font>
+> - <font style="color: rgb(255,153,0);">𝐏(𝑌<sup>(1)</sup>=𝑠<sup>(1)</sup>=𝑠<sub>𝑗</sub>)</font> equals some probability <font style="color: rgb(128,128,128);">\# for 𝑗 = 1 to 𝑛</font>
 >
 > if an application has a sequence with a definite <font style="color: rgb(153,204,0);">END</font> state 𝑌<sup>(𝑇)</sup>=𝑌<sup>(𝑒𝑛𝑑)</sup>, we want to know the probability of a sequence ENDING at a particular state. This probability distribution CANNOT be modeled with a <font style="color: rgb(204,153,255);">transition matrix</font> because the matrix assumes the sequence continues for eternity. We need a separate component called <font style="color: rgb(153,204,0);">Ending State Probabilities</font>, which is characterized by a discrete probability distribution of 𝑛 discrete values (<font style="color: rgb(128,128,128);">one for each hidden-state-value 𝑠<sub>𝑗</sub> {𝑠</font><font style="color: rgb(128,128,128);"><sub>1</sub>, ..., 𝑠<sub>𝑛</sub></font><font style="color: rgb(128,128,128);">}</font>):
->
-> - <font style="color: rgb(153,204,0);">𝐏(𝑌<sup>(𝑇)</sup>=𝑠<sup>(𝑇)</sup>=𝑠<sub>𝑗</sub>)</font> equals some probability <font style="color: rgb(128,128,128);"># for 𝑗 = 1 to 𝑛</font>
-
+> - <font style="color: rgb(153,204,0);">𝐏(𝑌<sup>(𝑇)</sup>=𝑠<sup>(𝑇)</sup>=𝑠<sub>𝑗</sub>)</font> equals some probability <font style="color: rgb(128,128,128);">\# for 𝑗 = 1 to 𝑛</font>
 # HMM - Visual/Graphical Representations
 
 > [!expand]- Click here to expand...
 > HMMs can be graphically represented in 3 ways:
->
 > 1. finite graphical representation of the <font style="color: rgb(204,153,255);">transition matrix</font> 𝑇 (nodes as hidden-state-values & observable-state-values)
 > 2. finite graphical representation of a sequence of time-variables 𝑋's (nodes as time-variables)
 > 3. infinitely growing graphical representation of a sequence of time-variables 𝑋's (nodes as time-variables)
 >
 > ### HMM - Visual/Graphical Representations - Examples
->
 > > [!tabs]
 > >
-> > \=== HMM (1ʳˢᵗ-Order Markov Assumption)
+> > === HMM (1ʳˢᵗ-Order Markov Assumption)
 > >
 > > given a HMM with [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|FIRST-order markov assumption]] consisting of:
 > >
@@ -383,7 +376,7 @@ modified: 2026-05-24T19:44:23.630-05:00
 > > }
 > > ```
 > >
-> > \=== HMM (2ⁿᵈ-Order Markov Assumption)
+> > === HMM (2ⁿᵈ-Order Markov Assumption)
 > >
 > > given a HMM with [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|SECOND-order markov assumption]] consisting of:
 > >
@@ -960,18 +953,16 @@ modified: 2026-05-24T19:44:23.630-05:00
 > >   "tableStyle": "width: 100.0%;"
 > > }
 > > ```
-
 # HMM - Training/Learning
-
 - given an observation sequence or set of observation sequences, learn the components of the 𝐻𝑀𝑀
 - training a 𝐻𝑀𝑀 means to learn the following probabilities:
-  - <font style="color: rgb(204,153,255);">state transition matrix/function: 𝐏<sub>𝑡𝑟𝑎𝑛𝑠</sub>(𝑌<sup>(𝑡)</sup>=𝑠<sub>?</sub>|𝑌<sup>(𝑡-1)</sup>=𝑠<sub>?</sub>)</font>
-  - <font style="color: rgb(153,204,255);">emission matrix/function: 𝐏<sub>𝑒𝑚𝑖𝑠𝑠</sub>(𝑋=𝑥<sub>?</sub>|𝑌=𝑠<sub>?</sub>)</font>
-  - <font style="color: rgb(255,153,0);">starting state probabilities: 𝐏<sub>𝑠𝑡𝑎𝑟𝑡</sub>(𝑌<sup>(1)</sup>=𝑠<sub>?</sub>)</font> <font style="color: rgb(128,128,128);"># optional</font>
-  - <font style="color: rgb(153,204,0);">ending state probabilities: 𝐏<sub>𝑒𝑛𝑑</sub>(𝑌<sup>(𝑇)</sup>=𝑠<sub>?</sub>)</font> <font style="color: rgb(128,128,128);"># optional</font>
+	- <font style="color: rgb(204,153,255);">state transition matrix/function: 𝐏<sub>𝑡𝑟𝑎𝑛𝑠</sub>(𝑌<sup>(𝑡)</sup>=𝑠<sub>?</sub>|𝑌<sup>(𝑡-1)</sup>=𝑠<sub>?</sub>)</font>
+	- <font style="color: rgb(153,204,255);">emission matrix/function: 𝐏<sub>𝑒𝑚𝑖𝑠𝑠</sub>(𝑋=𝑥<sub>?</sub>|𝑌=𝑠<sub>?</sub>)</font>
+	- <font style="color: rgb(255,153,0);">starting state probabilities: 𝐏<sub>𝑠𝑡𝑎𝑟𝑡</sub>(𝑌<sup>(1)</sup>=𝑠<sub>?</sub>)</font> <font style="color: rgb(128,128,128);">\# optional</font>
+	- <font style="color: rgb(153,204,0);">ending state probabilities: 𝐏<sub>𝑒𝑛𝑑</sub>(𝑌<sup>(𝑇)</sup>=𝑠<sub>?</sub>)</font> <font style="color: rgb(128,128,128);">\# optional</font>
 - methods in learning the probabilities:
-  - [[HMM - Learning - Maximum Likelihood Estimation (MLE)]]
-  - [[HMM - Learning - Baum-Welch Algorithm]]
+	- [[HMM - Learning - Maximum Likelihood Estimation (MLE)]]
+	- [[HMM - Learning - Baum-Welch Algorithm]]
 
 # HMM - Inference Problems
 
@@ -1024,8 +1015,11 @@ all inference problems can be solved via [[HMM - Inference By Enumeration & Var
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # HMM - Subpages
-
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 - [[Hidden Markov Model (HMM) vs Naive Bayes Model|Naive Bayes Model vs Hidden Markov Model]]
 - [[Hidden Markov Model (HMM) vs Sequential Maximum Entropy Markov Model (MEMM)]]

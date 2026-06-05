@@ -1,13 +1,12 @@
 ---
-publish: true
-title: Zookeeper - Architecture
+title: "Zookeeper - Architecture"
 created: 2020-05-26T16:40:25.543-05:00
 modified: 2024-08-28T12:35:34.270-05:00
+parent: "[[Zookeeper]]"
+children: []
 ---
-
 # Zookeeper Cluster/Ensemble
-
-![[Computer/Software／Fullstack Development/1 - Code and Extra/Data Storage/Data Storage - Types/Hadoop Ecosystem/Hadoop Ecosystem - Services/Zookeeper/Zookeeper - Architecture/zookeeper-cluster-ensemble.png|500]]
+![[Zookeeper - Architecture/zookeeper-cluster-ensemble.png|500]]
 
 ```merge-table
 {
@@ -39,7 +38,6 @@ modified: 2024-08-28T12:35:34.270-05:00
   ]
 }
 ```
-
 # Zookeeper Data Model
 
 ```merge-table
@@ -52,7 +50,6 @@ modified: 2024-08-28T12:35:34.270-05:00
   ]
 }
 ```
-
 # Zookeeper Watch
 
 clients of zookeeper can watch a znode, and receive push notifications of any changes

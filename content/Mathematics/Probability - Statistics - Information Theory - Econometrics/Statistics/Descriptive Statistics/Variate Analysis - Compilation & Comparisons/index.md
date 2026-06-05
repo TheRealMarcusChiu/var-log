@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Variate Analysis - Compilation & Comparisons
+title: "Variate Analysis - Compilation & Comparisons"
 created: 2021-09-13T05:28:56.496-05:00
 modified: 2021-11-07T21:36:24.209-06:00
+parent: "[[Descriptive Statistics]]"
+children:
+  - "[[Statistics as Geometry]]"
 ---
-
 ```merge-table
 {
   "rows": [
@@ -139,27 +140,21 @@ modified: 2021-11-07T21:36:24.209-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 ###### Properties of Expected Value / Mean
 
 > [!expand]- Click here to expand...
 > ![[Expected Value ／ Expectation - Properties#^excerpt]]
-
 ###### Properties of Variance and Standard Deviation
 
 > [!expand]- Click here to expand...
 > ![[Properties of Variance#^excerpt]]
-
 ###### Properties of Covariance
 
 > [!expand]- Click here to expand...
 > ![[Properties of Covariance#^excerpt]]
-
 ###### Properties of Correlation
 
 > [!expand]- Click here to expand...
 > ![[Properties of Pearson's Correlation#^excerpt]]
-
 # Resources
-
 - [[Continuous Probability Distribution - Calculating Statistics]]

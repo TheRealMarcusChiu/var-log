@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Tailscale vs VPN
+title: "Tailscale vs VPN"
 created: 2025-08-27T23:25:25.981-05:00
 modified: 2025-08-27T23:26:53.493-05:00
+parent: "[[VPN - Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

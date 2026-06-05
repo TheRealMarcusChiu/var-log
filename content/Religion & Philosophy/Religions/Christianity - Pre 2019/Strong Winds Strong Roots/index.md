@@ -1,13 +1,13 @@
 ---
-publish: true
-title: Strong Winds Strong Roots
+title: "Strong Winds Strong Roots"
 created: 2021-09-13T04:44:55.781-05:00
 modified: 2021-09-13T04:44:55.781-05:00
+parent: "[[Christianity - Pre 2019]]"
+children: []
 ---
-
 What Trees Teach Us About Life
 
-![[Religion & Philosophy/Religions/Christianity - Pre 2019/Strong Winds Strong Roots/1.jpeg]]
+![[Strong Winds Strong Roots/1.jpeg]]
 
 A great experiment in the desert called the biodome created a living environment for human, plant and animal life. A huge glass dome was constructed to house an artificial, controlled environment with purified air and water, healthy soil and filtered light. The intent was to afford perfect growing conditions for trees, fruits and vegetables, as well as humans.
 
@@ -19,7 +19,7 @@ We can learn a great deal from nature’s wisdom at work if we are open to the l
 
 Such experiences develop our character and deepen our spiritual roots. When we grow deep, we too, stand tall.
 
-Dennis Merritt Jones ~ <http://www.naturalawakeningsmag.com/Natural-Awakenings/April-2015/Strong-Winds-Strong-Roots/>
+Dennis Merritt Jones \~ [http://www.naturalawakeningsmag.com/Natural-Awakenings/April-2015/Strong-Winds-Strong-Roots/](http://www.naturalawakeningsmag.com/Natural-Awakenings/April-2015/Strong-Winds-Strong-Roots/)
 
 And the God of all grace, who called you to his eternal glory in Christ, after you have suffered a little while, will himself restore you and make you strong, firm and steadfast.
 \~ 1 Peter 5:10

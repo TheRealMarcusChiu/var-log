@@ -1,29 +1,27 @@
 ---
-publish: true
-title: Rectified Linear Unit (ReLU) Activation Function
+title: "Rectified Linear Unit (ReLU) Activation Function"
 created: 2020-01-18T15:42:45.970-06:00
 modified: 2024-09-23T09:11:23.691-05:00
+parent: "[[Activation Functions (AF)]]"
+children:
+  - "[[Leaky ReLU]]"
+  - "[[Parametric ReLU (PReLU)]]"
+  - "[[Scaled Exponential Linear Unit (SELU) Activation Function]]"
 ---
-
 ###### Rectified Linear Unit (ReLU)
-
-```excerpt
+````excerpt
 - is a type of [[Activation Functions (AF)|activation function]]
 - 𝑓(𝑧) = 𝑚𝑎𝑥(0, 𝑧)
-```
-
+````
 ^excerpt
 
 # ReLU Visual
-
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/Perceptrons (Artificial Neurons)/Activation Functions (AF)/Rectified Linear Unit (ReLU) Activation Function/ReLU-Graph.png|400]]
-
+![[Rectified Linear Unit (ReLU) Activation Function/ReLU-Graph.png|400]]
 # ReLU Problem
 
 The downside of being zero for all negative values is a problem called “dying ReLU.”
 
 A ReLU neuron is “dead” if it’s stuck on the negative side and always outputs 0. Because the slope of ReLU in the negative range is also 0, once a neuron gets negative, it’s unlikely for it to recover. Such neurons are not playing any role in discriminating the input and are essentially useless. Over time you may end up with a large part of your network doing nothing
-
 # ReLU Variants
 
 ```merge-table

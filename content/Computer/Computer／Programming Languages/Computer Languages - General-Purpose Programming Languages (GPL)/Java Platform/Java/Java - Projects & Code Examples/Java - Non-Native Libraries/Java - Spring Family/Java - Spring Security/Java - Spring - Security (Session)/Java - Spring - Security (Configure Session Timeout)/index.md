@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Spring - Security (Configure Session Timeout)
+title: "Java - Spring - Security (Configure Session Timeout)"
 created: 2020-12-28T11:07:31.300-06:00
 modified: 2020-12-28T11:08:20.913-06:00
+parent: "[[Java - Spring - Security (Session)]]"
+children: []
 ---
-
 We can easily configure the Session timeout value of the embedded server using properties:
-
 ```
 server.servlet.session.timeout=15m
 ```

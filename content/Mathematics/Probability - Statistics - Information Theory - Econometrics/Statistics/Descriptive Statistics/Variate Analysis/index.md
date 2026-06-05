@@ -1,19 +1,19 @@
 ---
-publish: true
-title: Variate Analysis
+title: "Variate Analysis"
 created: 2021-09-13T05:28:41.405-05:00
 modified: 2026-04-10T11:38:40.153-05:00
+parent: "[[Descriptive Statistics]]"
+children:
+  - "[[Bivariate／Multivariate Analysis Descriptive Statistics]]"
+  - "[[Univariate Analysis Descriptive Statistics]]"
 ---
-
 ###### Variate Analysis - Categories
-
 - <strong>variable type</strong> - see: [[Data／Variable Types (Statistics／Programming)|Data/Variable Types (Statistics/Programming)]]
 - <strong>number of variables in consideration</strong> - univariate, bivariate, or multivariate
 
 # Statistics Terminology
 
 ![[Statistics - Terminology#^excerpt]]
-
 # Univariate Analysis - Bivariate Analysis - Multivariate Analysis
 
 ```merge-table

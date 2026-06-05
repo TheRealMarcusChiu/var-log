@@ -1,12 +1,14 @@
 ---
-publish: true
-title: Hetero／Homo Scedasticity - Tests
+title: "Hetero／Homo Scedasticity - Tests"
 created: 2021-09-13T05:27:45.509-05:00
 modified: 2021-09-13T05:27:45.509-05:00
+parent: "[[Heteroscedasticity - Homoscedasticity]]"
+children:
+  - "[[Hetero／Homo Scedasticity - Breusch Pagan Test]]"
+  - "[[Hetero／Homo Scedasticity - Goldfeld-Quandt Test]]"
+  - "[[Hetero／Homo Scedasticity - White Test]]"
 ---
-
 statistical tests whether there is [[Heteroscedasticity - Homoscedasticity|heteroscedasticity or homoscedasticity]]
-
 ### Hetero/Homo Scedasticity - Tests
 
 ```merge-table

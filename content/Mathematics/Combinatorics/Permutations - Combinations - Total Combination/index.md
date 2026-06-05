@@ -1,13 +1,14 @@
 ---
-publish: true
-title: Permutations - Combinations - Total Combination
+title: "Permutations - Combinations - Total Combination"
 created: 2021-09-13T05:26:09.262-05:00
 modified: 2025-10-03T10:06:14.791-05:00
+parent: "[[Combinatorics]]"
+children:
+  - "[[Combination With Replacement]]"
+  - "[[Combination Without Replacement (Binomial Coefficient - n Choose k)]]"
 ---
-
 - <strong>permutation</strong> - refers to the different ways of arranging items from a set of objects, in a sequential order
 - <strong>combination</strong> - refers to the different ways of choosing items from a set of objects, such that their order does not matter
-
 ```merge-table
 {
   "rows": [
@@ -107,7 +108,6 @@ modified: 2025-10-03T10:06:14.791-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Totality
 
 ```merge-table

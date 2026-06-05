@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Program - Process - Threads - Heavyweight／Kernel／OS／Lightweight／Virtual／User-Mode Threads ／ Fibers - Task (Software)
+title: "Program - Process - Threads - Heavyweight／Kernel／OS／Lightweight／Virtual／User-Mode Threads ／ Fibers - Task (Software)"
 created: 2019-09-18T09:57:25.459-05:00
 modified: 2022-10-07T23:26:07.622-05:00
+parent: "[[Computer Terms]]"
+children: []
 ---
-
 ````excerpt
 [[Program - Process - Threads - Heavyweight／Kernel／OS／Lightweight／Virtual／User-Mode Threads ／ Fibers - Task (Software)]]
 
@@ -63,15 +63,11 @@ modified: 2022-10-07T23:26:07.622-05:00
 }
 ```
 ````
-
 ^excerpt
 
 see how they relate to hardware concepts: [[Multiprocessor - Multicore - Hyper-Threading - Process & Thread - Multi-Programming／Tasking／Processing／Threading - Parallel - Distributed - Concurrency - Asynchronous|Multiprocessor - Multicore - Hyper-Threading - Process & Thread - Multi-Programming/Tasking/Processing/Threading - Parallel - Distributed - Concurrency - Asynchronous]]
-
 # Program vs Process
-
-![[Computer/Computer Terms/Program - Process - Threads - Heavyweight／Kernel／OS／Lightweight／Virtual／User-Mode Threads ／ Fibers - Task (Software)/program-vs-process.png|500]]
-
+![[Program - Process - Threads - Heavyweight／Kernel／OS／Lightweight／Virtual／User-Mode Threads ／ Fibers - Task (Software)/program-vs-process.png|500]]
 # Process vs Thread vs Virtual Thread / Fiber
 
 ```merge-table

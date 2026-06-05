@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Generation Periods (Baby Boomer - Gen X／Y／Z - Millennial)
+title: "Generation Periods (Baby Boomer - Gen X／Y／Z - Millennial)"
 created: 2021-09-13T04:43:44.429-05:00
 modified: 2023-01-07T16:39:34.334-06:00
+parent: "[[Demography／Demographics]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

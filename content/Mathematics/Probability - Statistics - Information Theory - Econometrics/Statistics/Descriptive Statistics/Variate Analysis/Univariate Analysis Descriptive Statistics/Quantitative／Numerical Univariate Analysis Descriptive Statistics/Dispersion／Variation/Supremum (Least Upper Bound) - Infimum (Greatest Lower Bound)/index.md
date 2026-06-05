@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Supremum (Least Upper Bound) - Infimum (Greatest Lower Bound)
+title: "Supremum (Least Upper Bound) - Infimum (Greatest Lower Bound)"
 created: 2023-06-19T18:02:52.510-05:00
 modified: 2023-07-27T16:52:10.284-05:00
+parent: "[[Dispersion／Variation]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -28,4 +28,4 @@ modified: 2023-07-27T16:52:10.284-05:00
 }
 ```
 
-![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Statistics/Descriptive Statistics/Variate Analysis/Univariate Analysis Descriptive Statistics/Quantitative／Numerical Univariate Analysis Descriptive Statistics/Dispersion／Variation/Supremum (Least Upper Bound) - Infimum (Greatest Lower Bound)/supremum-infimum.png|463x250]]
+![[Supremum (Least Upper Bound) - Infimum (Greatest Lower Bound)/supremum-infimum.png|463x250]]

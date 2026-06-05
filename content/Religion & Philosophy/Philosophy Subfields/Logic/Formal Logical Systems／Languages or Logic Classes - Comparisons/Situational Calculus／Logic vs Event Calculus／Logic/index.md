@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Situational Calculus／Logic vs Event Calculus／Logic
+title: "Situational Calculus／Logic vs Event Calculus／Logic"
 created: 2021-09-13T04:44:30.853-05:00
 modified: 2021-09-13T04:44:30.853-05:00
+parent: "[[Formal Logical Systems／Languages or Logic Classes - Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

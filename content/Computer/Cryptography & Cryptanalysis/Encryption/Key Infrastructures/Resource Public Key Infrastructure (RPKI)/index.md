@@ -1,12 +1,12 @@
 ---
-publish: true
-title: Resource Public Key Infrastructure (RPKI)
+title: "Resource Public Key Infrastructure (RPKI)"
 created: 2019-11-21T15:34:33.157-06:00
 modified: 2022-11-26T02:55:57.947-06:00
+parent: "[[Key Infrastructures]]"
+children:
+  - "[[Route Origin Authorization (ROA)]]"
 ---
-
 ###### Resource Public Key Infrastructure (RPKI)
-
 - a [[Key Infrastructures|Key Infrastructure]] similar to the [[Public Key Infrastructure (PKI)]]
 - used for securing [[Border Gateway Protocol (BGP)|BGP]] updates (one of several [[BGP - Secure Variants|other ways]])
 - secures the route origin (associating a route with an originating [[Autonomous System (AS) - Domain|AS number]])
@@ -70,54 +70,39 @@ modified: 2022-11-26T02:55:57.947-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # RPKI Pros and Challenges
-
 pros:
-
 - offline crypto to verify ROA chains
 - use a whitelist to filter hijacked BGP routes
 - more effective than prefix filtering
-  - prefix filtering is on customer prefixes, RPKI is on neighbors
+	- prefix filtering is on customer prefixes, RPKI is on neighbors
 - more incentives to avoid prefixes being hijacked
 
 challenges:
-
 - can be misconfigured
 - partial deployment of ROV-related issues
 - can be circumvented
-  - route leaks
-  - path alteration/shortening attacks
+	- route leaks
+	- path alteration/shortening attacks
 
 # RPKI Deployment Challenges
-
 ###### ASPATH Manipulation
-
 - ASPATH = Autonomous System Path
 - ASPATH manipulation more difficult to succeed
-  - the attacker's (AS 666) ASPATH likely to be longer than the authentic (AS A) ASPATH, and therefore AS X would direct all data through the authentic ASPATH
+	- the attacker's (AS 666) ASPATH likely to be longer than the authentic (AS A) ASPATH, and therefore AS X would direct all data through the authentic ASPATH
 
-![[Computer/Cryptography & Cryptanalysis/Encryption/Key Infrastructures/Resource Public Key Infrastructure (RPKI)/RPKI-and-route-manipulation-attack.png|600]]
-
+![[Resource Public Key Infrastructure (RPKI)/RPKI-and-route-manipulation-attack.png|600]]
 ###### Loose ROA problem
-
-![[Computer/Cryptography & Cryptanalysis/Encryption/Key Infrastructures/Resource Public Key Infrastructure (RPKI)/RPKI-and-loose-ROA-problem.png|600]]
-
+![[Resource Public Key Infrastructure (RPKI)/RPKI-and-loose-ROA-problem.png|600]]
 # Impact of Partial ROV Adoption
-
 - <strong>collateral benefit</strong> - adopters of ROV protect [[Autonomous System (AS) - Domain|autonomous systems]] (that do not adopt ROV) behind them by discarding invalid routes
 - <strong>collateral damage</strong> - autonomous systems not doing ROV might cause autonomous systems that do ROV to fall victim to attacks
-  - <strong>disconnection</strong> - adopters of ROV might be offered only bad routes
-  - <strong>control-plane-data-plane mismatch</strong> - data flows to the attacker, although AS 3 discarded it
+	- <strong>disconnection</strong> - adopters of ROV might be offered only bad routes
+	- <strong>control-plane-data-plane mismatch</strong> - data flows to the attacker, although AS 3 discarded it
 
 ###### collateral benefit
-
-<strong>![[Computer/Cryptography & Cryptanalysis/Encryption/Key Infrastructures/Resource Public Key Infrastructure (RPKI)/rpki-collatera-benefit.png|600]]</strong>
-
+<strong>![[Resource Public Key Infrastructure (RPKI)/rpki-collatera-benefit.png|600]]</strong>
 ###### collateral damage - disconnection
-
-<strong>![[Computer/Cryptography & Cryptanalysis/Encryption/Key Infrastructures/Resource Public Key Infrastructure (RPKI)/rpki-collateral-damage-disconnect.png|600]]</strong>
-
+<strong>![[Resource Public Key Infrastructure (RPKI)/rpki-collateral-damage-disconnect.png|600]]</strong>
 ###### collateral damage - control-plane-data-plane mismatch
-
-![[Computer/Cryptography & Cryptanalysis/Encryption/Key Infrastructures/Resource Public Key Infrastructure (RPKI)/rpki-collateral-damage-control-plane-data-plane-mismatch.png|600]]
+![[Resource Public Key Infrastructure (RPKI)/rpki-collateral-damage-control-plane-data-plane-mismatch.png|600]]

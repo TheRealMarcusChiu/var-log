@@ -1,21 +1,22 @@
 ---
-publish: true
-title: Twilight Imperium - Game Phases - 2 Action Phase
+title: "Twilight Imperium - Game Phases - 2 Action Phase"
 created: 2023-03-04T12:09:56.639-06:00
 modified: 2023-03-04T12:16:10.387-06:00
+parent: "[[Twilight Imperium - Game Phases]]"
+children:
+  - "[[Twilight Imperium - Game Phases - 2 Action Phase - Tactical Action Phases]]"
 ---
-
-![[Enter Entertainment/Enter Games/Boardgames Cardgames/Twilight Imperium - Intro Guide/Twilight Imperium - Game Phases/Twilight Imperium - Game Phases - 2 Action Phase/3-game-phases-2-action-phase-3-strategic-action-unlocks-pass-action.png]]
+![[Twilight Imperium - Game Phases - 2 Action Phase/3-game-phases-2-action-phase-3-strategic-action-unlocks-pass-action.png]]
 
 There are 4 actions:
 
 > [!expand-ui]- Tactical Action
-> ![[Enter Entertainment/Enter Games/Boardgames Cardgames/Twilight Imperium - Intro Guide/Twilight Imperium - Game Phases/Twilight Imperium - Game Phases - 2 Action Phase/3-game-phases-2-action-phase-1-tactical-action-.png]]
+> ![[Twilight Imperium - Game Phases - 2 Action Phase/3-game-phases-2-action-phase-1-tactical-action-.png]]
 >
 > see:
 
 > [!expand-ui]- Component Action
-> ![[Enter Entertainment/Enter Games/Boardgames Cardgames/Twilight Imperium - Intro Guide/Twilight Imperium - Game Phases/Twilight Imperium - Game Phases - 2 Action Phase/3-game-phases-2-action-phase-2-component-action.png]]
+> ![[Twilight Imperium - Game Phases - 2 Action Phase/3-game-phases-2-action-phase-2-component-action.png]]
 
 > [!expand-ui]- Strategic Action
 > execute the primary action of your chosen strategy-card

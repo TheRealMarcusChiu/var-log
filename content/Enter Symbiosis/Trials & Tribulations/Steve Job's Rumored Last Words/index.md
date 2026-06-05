@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Steve Job's Rumored Last Words
+title: "Steve Job's Rumored Last Words"
 created: 2021-09-13T04:46:17.311-05:00
 modified: 2021-09-13T04:46:17.311-05:00
+parent: "[[Trials & Tribulations]]"
+children: []
 ---
-
 “I reached the pinnacle of success in the business world. In others’ eyes, my life is an epitome of success.
 
 However, aside from work, I have little joy. In the end, wealth is only a fact of life that I am accustomed to.

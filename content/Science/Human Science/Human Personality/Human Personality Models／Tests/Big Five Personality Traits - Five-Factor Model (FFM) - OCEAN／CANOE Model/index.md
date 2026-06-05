@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Big Five Personality Traits - Five-Factor Model (FFM) - OCEAN／CANOE Model
+title: "Big Five Personality Traits - Five-Factor Model (FFM) - OCEAN／CANOE Model"
 created: 2021-09-13T04:45:28.184-05:00
 modified: 2021-09-14T01:53:31.141-05:00
+parent: "[[Human Personality Models／Tests]]"
+children: []
 ---
-
 <strong>Big Five Personality Traits</strong>, also known as the <strong>Five-Factor Model</strong> and the <strong>OCEAN/<strong>CANOE</strong> Model</strong>
-
 - is a taxonomy, or grouping, for personality traits
 
 # 5 Factors
@@ -64,7 +63,5 @@ modified: 2021-09-14T01:53:31.141-05:00
   ]
 }
 ```
-
 # Conscientiousness
-
-![[Science/Human Science/Human Personality/Human Personality Models／Tests/Big Five Personality Traits - Five-Factor Model (FFM) - OCEAN／CANOE Model/2.jpg]]
+![[Big Five Personality Traits - Five-Factor Model (FFM) - OCEAN／CANOE Model/2.jpg]]

@@ -1,32 +1,30 @@
 ---
-publish: true
-title: Linux Kernel - Kernel Images (vmlinux／vmlinuz／zImage／bzImage)
+title: "Linux Kernel - Kernel Images (vmlinux／vmlinuz／zImage／bzImage)"
 created: 2024-09-01T14:38:06.115-05:00
 modified: 2024-09-01T14:50:52.363-05:00
+parent: "[[Linux Kernel]]"
+children:
+  - "[[vmlinuz (Virtual Memory LINUx gZip - Compressed Linux kernel Executable)]]"
 ---
-
 # Linux Kernel - Source Code
 
 The <strong>Linux Kernel</strong> is usually stored in the <strong>/boot</strong> directory
-
 ###### Example Linux Kernel
 
 example [[Ubuntu]] /boot directory
 
-![[Computer/Boot Order／Sequence - Firmware - Bootloader - Operating System/Kernels & Operating Systems/Kernel／Kernels (OS)/Kernel／Kernels (OS) - Types/Linux Kernel/Linux Kernel - Kernel Images (vmlinux／vmlinuz／zImage／bzImage)/boot-directory-example.png|500]]
+![[Linux Kernel - Kernel Images (vmlinux／vmlinuz／zImage／bzImage)/boot-directory-example.png|500]]
 
 the kernel file, in Ubuntu, is stored in the /boot folder and is called vmlinuz-<em>version</em>
 
 when virtual memory was developed for easier multitasking abilities, “vm” was put at the front of the file to show that the kernel supports virtual memory. For a while, the Linux kernel was called vmlinux, but the kernel grew too large to fit in the available boot memory so the kernel image was compressed and the ending x was changed to a z to show it was compressed with zlib [[Data Compression|compression]]. This same compression isn’t always used, often replaced with LZMA or BZIP2, and some kernels are simply called zImage.
 
 version numbering will be in the format A.B.C.D where:
-
 - A.B will probably be 4.4
 - C will be version
 - D indicates patches or fixes
 
-![[Computer/Boot Order／Sequence - Firmware - Bootloader - Operating System/Kernels & Operating Systems/Kernel／Kernels (OS)/Kernel／Kernels (OS) - Types/Linux Kernel/Linux Kernel - Kernel Images (vmlinux／vmlinuz／zImage／bzImage)/linux kernel files.png|500]]
-
+![[Linux Kernel - Kernel Images (vmlinux／vmlinuz／zImage／bzImage)/linux kernel files.png|500]]
 # Kernel Images - Types
 
 ```merge-table
@@ -75,5 +73,9 @@ version numbering will be in the format A.B.C.D where:
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

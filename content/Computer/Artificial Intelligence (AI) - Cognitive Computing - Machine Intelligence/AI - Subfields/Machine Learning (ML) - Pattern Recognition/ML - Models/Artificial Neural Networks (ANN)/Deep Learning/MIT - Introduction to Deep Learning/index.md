@@ -1,14 +1,13 @@
 ---
-publish: true
-title: MIT - Introduction to Deep Learning
+title: "MIT - Introduction to Deep Learning"
 created: 2024-08-08T15:41:48.205-05:00
 modified: 2024-08-21T21:28:00.395-05:00
+parent: "[[Deep Learning]]"
+children: []
 ---
-
 # Current
 
-<http://introtodeeplearning.com/>
-
+[http://introtodeeplearning.com/](http://introtodeeplearning.com/)
 # 2024 Lectures
 
 ```merge-table
@@ -81,7 +80,6 @@ modified: 2024-08-21T21:28:00.395-05:00
   ]
 }
 ```
-
 # 2023 Lectures
 
 ...

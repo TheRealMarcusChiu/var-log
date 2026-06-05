@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Java - util - function (lambda) - (Runnable - Callable - Supplier - IntSupplier - Consumer - IntConsumer - Function - IntFunction - ToIntFunction)
+title: "Java - util - function (lambda) - (Runnable - Callable - Supplier - IntSupplier - Consumer - IntConsumer - Function - IntFunction - ToIntFunction)"
 created: 2021-10-27T02:38:16.331-05:00
 modified: 2022-02-12T20:47:53.011-06:00
+parent: "[[Java - util]]"
+children:
+  - "[[Java - util - function - Function (Interface)]]"
 ---
-
 Each of the following interfaces is annotated with [[Java - @FunctionalInterface|@FunctionalInterface]]
 
 ```merge-table
@@ -95,7 +96,6 @@ Each of the following interfaces is annotated with [[Java - @FunctionalInterface
   ]
 }
 ```
-
 # Method Reference
 
 The operator :: allows referencing an existing method (static or not)

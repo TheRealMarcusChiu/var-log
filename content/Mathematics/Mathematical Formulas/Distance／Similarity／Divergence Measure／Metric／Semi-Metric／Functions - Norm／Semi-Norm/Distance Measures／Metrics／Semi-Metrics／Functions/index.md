@@ -1,16 +1,27 @@
 ---
-publish: true
-title: Distance Measures／Metrics／Semi-Metrics／Functions
+title: "Distance Measures／Metrics／Semi-Metrics／Functions"
 created: 2021-09-13T05:26:07.941-05:00
 modified: 2023-06-26T18:19:49.089-05:00
+parent: "[[Distance／Similarity／Divergence Measure／Metric／Semi-Metric／Functions - Norm／Semi-Norm]]"
+children:
+  - "[[Cosine Distance Measure]]"
+  - "[[Discrete Distance Metric - Discrete Metric]]"
+  - "[[Error Distances (Absolute - Relative)]]"
+  - "[[Hamming Distance Metric]]"
+  - "[[Jaccard Distance Metric]]"
+  - "[[L1／Manhattan／Rectilinear Distance Metric]]"
+  - "[[L2／Euclidean Distance Metric]]"
+  - "[[Lp／Minkowski Distance Metric]]"
+  - "[[L∞infinite／Chebyshev／Tchebychev／Maximum Distance Metric]]"
+  - "[[Norm Distance Metric]]"
+  - "[[Squared Euclidean Distance]]"
 ---
-
 - <strong>Distance Measure (𝑑) - is a [[Functions (Domain - Codomain - Preimage - Image - Range)|function]] </strong>that takes two elements in some set (𝑋) and outputs a non-negative [[Real Numbers System|real number]]
-  - used to measure the distance between two elements
+	- used to measure the distance between two elements
 - <strong>Distance Metric (𝑑)</strong> - is a distance measure that satisfies 4 properties
-  - when paired with its elements (𝑋) it forms a [[Metric Spaces|metric space (𝑋,𝑑)]]
-  - a [[Norms - Semi-Norms|norm (||·||)]] induces a <em>distance metric (𝑑<sub>||·||</sub>)</em> defined as: 𝑑<sub>||·||</sub>(𝑥,𝑦) = ||𝑥-𝑦||
-  - a <em>distance metric (𝑑)</em> induces a [[Topology|topology (𝜏)]][[Topology]]where the set { 𝐵<sub>𝑑</sub>(𝑥,𝜖) | 𝑥∈𝑋 and 𝜖>0 } forms the [[Basis Vectors|basis]] of a [[Distance Metric Topology|metric topology (𝜏𝑑)]], where 𝐵<sub>𝑑</sub>(𝑥,𝜖) is an [[Metric Spaces (Epsilon Balls - Open Sets - Boundary Points／Sets - Closed Sets - Closures - Bounded Sets ／ Boundedness - Unbounded Sets ／ Unboundedness - Totally Bounded Sets ／ Totally Boundedness)|epsilon-ball/open-set]] defined as 𝐵<sub>𝑑</sub>(𝑥,𝜖) = { 𝑦∈𝑋 : 𝑑(𝑥,𝑦) < 𝜖 }
+	- when paired with its elements (𝑋) it forms a [[Metric Spaces|metric space (𝑋,𝑑)]]
+	- a [[Norms - Semi-Norms|norm (||·||)]] induces a <em>distance metric (𝑑<sub>||·||</sub>)</em> defined as: 𝑑<sub>||·||</sub>(𝑥,𝑦) = ||𝑥-𝑦||
+	- a <em>distance metric (𝑑)</em> induces a [[Topology|topology (𝜏)]][[Topology]]where the set { 𝐵<sub>𝑑</sub>(𝑥,𝜖) | 𝑥∈𝑋 and 𝜖\>0 } forms the [[Basis Vectors|basis]] of a [[Distance Metric Topology|metric topology (𝜏𝑑)]], where 𝐵<sub>𝑑</sub>(𝑥,𝜖) is an [[Metric Spaces (Epsilon Balls - Open Sets - Boundary Points／Sets - Closed Sets - Closures - Bounded Sets ／ Boundedness - Unbounded Sets ／ Unboundedness - Totally Bounded Sets ／ Totally Boundedness)|epsilon-ball/open-set]] defined as 𝐵<sub>𝑑</sub>(𝑥,𝜖) = { 𝑦∈𝑋 : 𝑑(𝑥,𝑦) \< 𝜖 }
 - <strong>Distance Semi-Metric (𝑑)</strong> - is a distance measure that satisfies 3 properties
 
 # Distance Measure - Categories
@@ -143,11 +154,8 @@ modified: 2023-06-26T18:19:49.089-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Distance Measure - Types
-
 - [[taxonomy-of-principal-distances-and-divergences.pdf]]
-
 ```merge-table
 {
   "rows": [
@@ -365,8 +373,6 @@ modified: 2023-06-26T18:19:49.089-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Distance Measure - Other
-
 - [[Distance Measure／Metric vs Similarity Measure|Distance Measure/Metric vs Similarity Measure]]
 - [[Distance Measure／Metric vs Divergence|Distance Measure/Metric vs Divergence]]

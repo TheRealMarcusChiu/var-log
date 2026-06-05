@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Propositional Logic - (Negation - Conjunctive - Disjunctive) Normal Forms (NNF - CNF - DNF)
+title: "Propositional Logic - (Negation - Conjunctive - Disjunctive) Normal Forms (NNF - CNF - DNF)"
 created: 2021-09-13T04:44:29.290-05:00
 modified: 2021-09-13T04:44:29.290-05:00
+parent: "[[Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic]]"
+children: []
 ---
-
 - <strong>literal</strong> - is an atomic formula or its negation
 - <strong>maxterm</strong> - is a literal or a <strong>disjunction</strong> of literals
 - <strong>minterm</strong> - is a literal or a <strong>conjunction</strong> of literals
@@ -41,27 +41,25 @@ modified: 2021-09-13T04:44:29.290-05:00
   ]
 }
 ```
-
 ### Translation to Normal Form
-
 - <strong>Translation to NNF</strong>
-  - remove ↔  and →
-    - A ↔ B ≃ (A → B) and (B → A)
-    - A → B ≃ ¬A or B
-  - push negations in until they apply only to atomic literals
-    - ¬¬A ≃ A
-    - ¬(A and B) ≃ ¬A or ¬B
-    - ¬(A or B) ≃ ¬A and ¬B
-  - at this point the formula is in Negation Normal Form
+	- remove ↔  and →
+		- A ↔ B ≃ (A → B) and (B → A)
+		- A → B ≃ ¬A or B
+	- push negations in until they apply only to atomic literals
+		- ¬¬A ≃ A
+		- ¬(A and B) ≃ ¬A or ¬B
+		- ¬(A or B) ≃ ¬A and ¬B
+	- at this point the formula is in Negation Normal Form
 - <strong>Translation to CNF from NNF</strong>
-  - push disjunctions (or) in until they apply only to literals
-    - A or (B and C) ≃ (A or B) and (A or C)
-  - delete any maxterm that contains both P and ¬P since it is equivalent to <em>true</em>
-  - delete any maxterm that includes another maxterm
-    - A and (A or B) ≃ A
-  - take 2 maxterms of the form below
-    - (P or A) and (¬P or A) ≃ A
+	- push disjunctions (or) in until they apply only to literals
+		- A or (B and C) ≃ (A or B) and (A or C)
+	- delete any maxterm that contains both P and ¬P since it is equivalent to <em>true</em>
+	- delete any maxterm that includes another maxterm
+		- A and (A or B) ≃ A
+	- take 2 maxterms of the form below
+		- (P or A) and (¬P or A) ≃ A
 - <strong>Translation to DNF from NNF</strong>
-  - push conjunctions (and) in until they apply only to literals
-    - A and (B or C) ≃ (A and B) or (A and C)
-  - exactly the same simplifications can be performed for DNF as for CNF, exchanging the roles of <em>∧</em> and <em>v</em>
+	- push conjunctions (and) in until they apply only to literals
+		- A and (B or C) ≃ (A and B) or (A and C)
+	- exactly the same simplifications can be performed for DNF as for CNF, exchanging the roles of <em>∧</em> and <em>v</em>

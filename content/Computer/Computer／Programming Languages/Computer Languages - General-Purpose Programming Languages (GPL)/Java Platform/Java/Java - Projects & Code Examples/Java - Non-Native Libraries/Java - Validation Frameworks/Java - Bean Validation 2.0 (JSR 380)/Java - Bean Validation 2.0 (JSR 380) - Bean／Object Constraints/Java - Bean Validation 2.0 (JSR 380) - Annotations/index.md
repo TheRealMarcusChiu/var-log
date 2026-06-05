@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Bean Validation 2.0 (JSR 380) - Annotations
+title: "Java - Bean Validation 2.0 (JSR 380) - Annotations"
 created: 2022-02-24T02:28:13.172-06:00
 modified: 2022-02-24T02:42:04.425-06:00
+parent: "[[Java - Bean Validation 2.0 (JSR 380) - Bean／Object Constraints]]"
+children: []
 ---
-
 # Using Constraint Annotations
-
 ```
 import javax.validation.constraints.AssertTrue;
 import javax.validation.constraints.Max;
@@ -37,45 +36,35 @@ public class User {
     // standard setters and getters 
 }
 ```
-
 # Validating Beans/Objects
-
 To validate a bean, we first need a <code><font style="color: rgb(122,134,154);">Validator</font></code> object, which is built using a <code><font style="color: rgb(122,134,154);">ValidatorFactory</font></code>
-
 ```
 ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
 Validator validator = factory.getValidator();
 ```
 
 Any violations of the constraints defined in the <code><font style="color: rgb(122,134,154);">User</font></code> object will be returned as a <code><font style="color: rgb(122,134,154);">Set</font></code>:
-
 ```
 User user = User.builder().working(true).aboutMe("Its all about me!").age(50).build();
 Set<ConstraintViolation<User>> violations = validator.validate(user);
 ```
 
 By iterating over the violations, we can get all the violation messages using the <code><font style="color: rgb(122,134,154);">getMessage</font></code> method:
-
 ```
 for (ConstraintViolation<User> violation : violations) {
     log.error(violation.getMessage()); 
 }
 ```
-
 # Annotations Work on Elements of a Collections and Optional
-
 ```
 List<@NotBlank String> preferences;
 ```
-
 ```
 public Optional<@Past LocalDate> getDateOfBirth() {
     return Optional.of(dateOfBirth);
 }
 ```
-
 # Annotations Available
-
 - <strong><em>@NotNull </em></strong>validates that the annotated property value is not <em>null</em>.
 - <strong><em>@AssertTrue</em></strong> validates that the annotated property value is <em>true.</em>
 - <strong><em>@Size </em></strong>validates that the annotated property value has a size between the attributes <em>min</em> and <em>max</em>; can be applied to <em>String</em>, <em>Collection</em>, <em>Map</em>, and array properties.

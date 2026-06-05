@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Isaiah 58：10-11
+title: "Isaiah 58：10-11"
 created: 2021-09-13T04:44:53.890-05:00
 modified: 2021-09-13T04:44:53.890-05:00
+parent: "[[Random Bible Passages]]"
+children: []
 ---
-
 If you pour yourself out for the hungry
     and satisfy the desire of the afflicted,
 then shall your light rise in the darkness

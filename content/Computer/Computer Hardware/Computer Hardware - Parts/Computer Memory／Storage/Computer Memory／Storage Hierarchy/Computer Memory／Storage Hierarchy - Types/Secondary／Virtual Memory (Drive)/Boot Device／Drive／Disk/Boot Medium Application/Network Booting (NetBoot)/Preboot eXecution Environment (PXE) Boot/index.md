@@ -1,19 +1,18 @@
 ---
-publish: true
-title: Preboot eXecution Environment (PXE) Boot
+title: "Preboot eXecution Environment (PXE) Boot"
 created: 2019-11-13T08:58:58.633-06:00
 modified: 2025-12-24T02:34:54.670-06:00
+parent: "[[Network Booting (NetBoot)]]"
+children:
+  - "[[PXE Boot vs IPMI]]"
 ---
-
 ###### Preboot eXecution Environment (PXE, most often pronounced as <em>pixie</em>)
-
-```excerpt
+````excerpt
 - is a specification that describes a standardized [client-server](https://en.wikipedia.org/wiki/Client-server) environment that [boots](https://en.wikipedia.org/wiki/Booting) a software assembly, retrieved from a network, on PXE-enabled clients. On the client side it requires only a PXE-capable [[Network Interface Controller／Card (NIC) - Network Adapter - LAN Adapter - Physical Network Interface|network interface controller (NIC)]] and uses a small set of industry-standard network protocols such as [[Dynamic Host Configuration Protocol (DHCP)|DHCP]] and [[Trivial File Transfer Protocol (TFTP)]]
 - allows a computer to boot from a network rather than a local drive, like a hard disk or USB drive
 - it's a standardized client-server environment where a boot program is downloaded over the network
 - this is useful for tasks like operating system deployment, automated installations, and diskless workstations
-```
-
+````
 ^excerpt
 
 # What happens during a PXE Boot
@@ -59,5 +58,9 @@ modified: 2025-12-24T02:34:54.670-06:00
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

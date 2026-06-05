@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Spring - TransactionTemplate
+title: "Java - Spring - TransactionTemplate"
 created: 2021-04-11T22:46:12.599-05:00
 modified: 2021-04-12T23:40:25.619-05:00
+parent: "[[Java - Spring Data - Transaction Management]]"
+children: []
 ---
-
 ### 1 - Configuring Transaction Manager
-
 ```
 @Configuration
 @EnableTransactionManagement
@@ -32,13 +31,11 @@ public class MySpringConfig {
     }
 }
 ```
-
 1. You create a database-specific or [[Java - Connection Pooling Frameworks|connection-pool]] specific <code>[[Java - DataSource|DataSource]]</code> here ([[MySQL]] is being used for this example)
 2. You create a <code>TransactionManager</code>, which needs a <code>DataSource</code> to be able to manage transactions. For other integrations or a more in-depth understanding, it helps to have a quick look at all possible <code>[PlatformTransactionManager](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/PlatformTransactionManager.html)</code> implementations that Spring offers
 3. You create a <code>TransactionTemplate</code> to
 
 ### 2 - Using TransactionTemplate
-
 ```
 @Service
 public class UserService {
@@ -55,7 +52,5 @@ public class UserService {
     }
 }
 ```
-
 ### 3 - Resources
-
-- <https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-prog-template>
+- [https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-prog-template](https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-prog-template)

@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Bahdanau Attention Mechanism - Additive Attention
+title: "Bahdanau Attention Mechanism - Additive Attention"
 created: 2023-12-21T15:33:35.111-06:00
 modified: 2023-12-21T17:38:46.521-06:00
+parent: "[[Attention Mechanisms]]"
+children: []
 ---
-
 ###### Bahdanau Attention Mechanism - Additive Attention
-
-```excerpt
+````excerpt
 - is the first type of [[Attention Mechanisms|attention mechanism]]
 - came from a paper by [Dzmitry Bahdanau](https://arxiv.org/pdf/1409.0473.pdf?ref=blog.floydhub.com)
 - aimed to improve the [[Encoder-Decoder Model|sequence-to-sequence model]] in machine translation by aligning the decoder with the relevant input sentences and implementing Attention
-```
-
+````
 ^excerpt
 
 # Steps
@@ -27,12 +25,9 @@ modified: 2023-12-21T17:38:46.521-06:00
   ]
 }
 ```
-
 # TODO
 
-<https://blog.floydhub.com/attention-mechanism/>
-
+[https://blog.floydhub.com/attention-mechanism/](https://blog.floydhub.com/attention-mechanism/)
 # Resources
-
-- <https://blog.floydhub.com/attention-mechanism/>
-- <https://machinelearningmastery.com/the-bahdanau-attention-mechanism/>
+- [https://blog.floydhub.com/attention-mechanism/](https://blog.floydhub.com/attention-mechanism/)
+- [https://machinelearningmastery.com/the-bahdanau-attention-mechanism/](https://machinelearningmastery.com/the-bahdanau-attention-mechanism/)

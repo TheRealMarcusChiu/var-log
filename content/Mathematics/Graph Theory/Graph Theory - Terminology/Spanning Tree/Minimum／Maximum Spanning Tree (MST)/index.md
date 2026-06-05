@@ -1,12 +1,13 @@
 ---
-publish: true
-title: Minimum／Maximum Spanning Tree (MST)
+title: "Minimum／Maximum Spanning Tree (MST)"
 created: 2021-09-13T05:25:32.940-05:00
 modified: 2021-12-11T05:40:51.646-06:00
+parent: "[[Spanning Tree]]"
+children:
+  - "[[Kruskal's Algorithm]]"
+  - "[[Prim's Algorithm]]"
 ---
-
 ###### Minimum/Maximum Spanning Tree (MST)
-
 - is a subset of edges that connects all vertices with the minimum/maximum sum edge-weight without any cycles
 - every spanning tree has 𝑛-1 edges, given 𝑛 vertices in a graph
 

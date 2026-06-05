@@ -1,15 +1,15 @@
 ---
-publish: true
-title: What does it mean to Fear God？
+title: "What does it mean to Fear God？"
 created: 2024-07-29T20:56:43.412-05:00
 modified: 2025-11-04T09:14:27.739-06:00
+parent: "[[Christianity - Questions]]"
+children: []
 ---
-
 ![](https://www.youtube.com/watch?v=NUI0Q0DQRYk)
-
 # Wisdom
 
-There is a mine for silver and a place where gold is refined...  <strong>But where can wisdom be found?</strong> Where does understanding dwell? ...
+There is a mine for silver and a place where gold is refined... 
+<strong>But where can wisdom be found?</strong> Where does understanding dwell? ...
 The fear of the Lord - that is wisdom, and to shun evil is understanding.
 \~ Job 28
 
@@ -42,7 +42,6 @@ The kings of Israel were required to write out a copy of God’s Law and to spen
 \~ Deuteronomy 17:18-20
 
 Today, <strong>Christians are “kings and priests unto God” </strong>(Revelation 1:6)
-
 # Fear - Knowledge/Wisdom
 
 The <strong>fear of the Lord is the beginning of knowledge</strong>, but fools despise wisdom and instruction
@@ -50,7 +49,6 @@ The <strong>fear of the Lord is the beginning of knowledge</strong>, but fools d
 
 The <strong>fear of the Lord is the beginning of wisdom</strong>, and knowledge of the Holy One is understanding. For through wisdom your days will be many, and years will be added to your life.
 \~ Proverbs 9:10-11
-
 # Fear - Evil
 
 Do not be wise in your own eyes; <strong>fear the Lord and shun evil</strong>. This will bring health to your body and nourishment to your bones.
@@ -64,7 +62,6 @@ By loving devotion and faithfulness iniquity is atoned for, and <strong>by the f
 
 Moses said to the people, “Do not be afraid. God has come to test you, so that <strong>the fear of God will be with you to keep you from sinning</strong>.”
 \~ Exodus 20:20
-
 # Fear - Salvation/Forgiveness
 
 Surely his <strong>salvation is near those who fear him</strong>, that his glory may dwell in our land.
@@ -83,7 +80,6 @@ For I will forgive their iniquities and will remember their sins no more
 
 The <strong>gospel is the difference between being afraid of God and fearing God</strong>, as it transforms a servile, cowering fear into a filial, reverential, and humble fear rooted in love and adoration.
 \~ Burk Parsons
-
 # Fear - Other
 
 <strong>Better a little with the fear of the Lord than great wealth with turmoil</strong>.
@@ -117,12 +113,10 @@ My hands have made both heaven and earth; they and everything in them are mine. 
 
 Who is the man who fears the LORD? He will instruct him in the path chosen for him.
 \~ Psalm 25:12
-
 # Fear - Chief Duty of Man
 
 Let us hear the conclusion of the whole matter: <strong>Fear God, and keep his commandments: for this is the whole duty of man</strong>.
 \~ Ecclesiastes 12:13
-
 # Fear - How
 
 God, I've heard what our ancestors say about you, and I'm stopped in my tracks, down on my knees

@@ -1,26 +1,23 @@
 ---
-publish: true
-title: Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property
+title: "Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property"
 created: 2021-09-13T05:26:37.798-05:00
 modified: 2022-05-07T19:26:43.017-05:00
+parent: "[[PGM - Model Properties]]"
+children: []
 ---
-
 # Markov Property in Stochastic Processes
-
 - <strong>Markov Property</strong> refers to the memory-less property of a [[Stochastic／Random／Markov Models／Process|stochastic process]]
-  - <strong>First-Order Markov Property</strong> - probability of an observation at time 𝑡 only depends on the observation at time 𝑡-1
-  - <strong>Second-Order Markov Property</strong> - probability of an observation at time 𝑡 depend on both 𝑡-1 and 𝑡-2
-  - <strong>N<sup>th</sup>-Order Markov Property</strong> - probability of an observation at time 𝑡 depend on all {𝑡-1, ..., 𝑡-𝑛}
+	- <strong>First-Order Markov Property</strong> - probability of an observation at time 𝑡 only depends on the observation at time 𝑡-1
+	- <strong>Second-Order Markov Property</strong> - probability of an observation at time 𝑡 depend on both 𝑡-1 and 𝑡-2
+	- <strong>N<sup>th</sup>-Order Markov Property</strong> - probability of an observation at time 𝑡 depend on all {𝑡-1, ..., 𝑡-𝑛}
 
 # Markov Property in Bayesian Networks
-
 - <strong>Markov Condition/Assumption</strong> that every node in a [[Bayesian Networks (BN)|Bayesian Network]] is [[Probability Independence (Marginal Independence - Conditional Independence)|conditionally independent]] of its non-descendents, given its parents
 - <strong>Causal Markov Condition (CMC) </strong>states that, conditional on the set of all its direct causes, a node is independent of all variables which are not direct causes or direct effects of that node
 
 The 2 conditions are equivalent, iff the structure of a Bayesian Network accurately depicts [[Causality (Necessary - Sufficient - Contributory)|causality]]. However, a network may accurately embody the Markov Condition without depicting causality, in which case it should not be assumed to embody the Causal Markov Condition
 
 see: [[Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws|Causality/Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws]]
-
 # Markov Property in Markov Networks
 
 Given an undirected graph 𝐆=(𝑉,𝐸), a set of random variables 𝐗<strong>=(𝑋<sub>𝑣</sub>)</strong><sub>𝑣∈𝑉</sub> indexed by 𝑉:

@@ -1,14 +1,13 @@
 ---
-publish: true
 title: "Weighted Pull-up Workout Routine #1"
 created: 2025-12-21T00:05:05.164-06:00
 modified: 2025-12-21T00:39:19.764-06:00
+parent: "[[Enter Workout]]"
+children: []
 ---
-
 # Core Principle
 
 two exposures per week:
-
 - heavy neural expression
 - mid-range force development
 
@@ -52,7 +51,6 @@ Rest between sets: 5-6 minutes
   ]
 }
 ```
-
 # Day 2 - Mid-Range Strength (Pronated or Neutral)
 
 Rest between sets: 3-4 minutes
@@ -91,11 +89,9 @@ Rest between sets: 3-4 minutes
   ]
 }
 ```
-
 # Progression Rules
 
 progress heavy singles like this:
-
 ```
 week 1: +115
 Week 2: +117
@@ -106,19 +102,16 @@ Week 4: +120
 When to increase +110 volume.
 
 Once you can do either:
-
 - 4x2 @ +110
 - 3x3 @ +110
 
 # Monthly Structure
 
 Weeks 1-3
-
 - run plan as written
 - no max testing
 
 Week 4 (Deload / Neural Test)
-
 - one heavy day only
 - work up to 1 clean single
 - stop as soon as speed drops
@@ -126,7 +119,6 @@ Week 4 (Deload / Neural Test)
 # Expected Timeline
 
 If executed cleanly:
-
 - +115-118: 2-4 weeks
 - +120: 6-8 weeks
 - +125: 3-5 months
@@ -134,7 +126,6 @@ If executed cleanly:
 - +135: 9-18 months
 
 # Things that will kill this plan
-
 - training pull-ups more than 2x a week
 - grinding reps
 - skipping isometrics

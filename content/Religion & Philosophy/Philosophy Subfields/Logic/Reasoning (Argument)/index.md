@@ -1,10 +1,13 @@
 ---
-publish: true
-title: Reasoning (Argument)
+title: "Reasoning (Argument)"
 created: 2021-09-13T04:44:31.756-05:00
 modified: 2021-09-13T04:44:31.756-05:00
+parent: "[[Logic]]"
+children:
+  - "[[Commonsense Reasoning]]"
+  - "[[Fallacious Reasoning]]"
+  - "[[Logical Reasoning (Deductive／Deduction - Inductive／Induction - Abductive／Abduction - Analogical)]]"
 ---
-
 ````excerpt
 An argument is "<em>a</em> <em>connected series of statements intended to establish a proposition</em>." The connected series of statements are "premises" and the proposition is the conclusion. For example:
 1. All humans are mortal. (premise)
@@ -59,5 +62,4 @@ The differences between various kinds of reasoning correspond to differences abo
 - <strong>Probabilistic</strong> (from combinatorics and indifference): if <em>p</em> then (probably) <em>q</em>
 - <strong>Statistical</strong> (from data and presumption): the frequency of <em>q</em>s among <em>p</em>s is high (or inference from a model fit to data); hence, (in the right context) if <em>p</em> then (probably) <em>q</em>
 ````
-
 ^excerpt

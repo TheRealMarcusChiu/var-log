@@ -1,27 +1,23 @@
 ---
-publish: true
-title: Three.js
+title: "Three.js"
 created: 2019-12-21T17:34:58.938-06:00
 modified: 2025-10-15T22:14:51.138-05:00
+parent: "[[WebGL - Frameworks]]"
+children: []
 ---
-
-###### Three.js (<https://threejs.org/>)
-
+###### Three.js ([https://threejs.org/](https://threejs.org/))
 - is a cross-browser [[JavaScript]] library and API used to create and display animated 3D computer graphics in a web browser
 - is a [[JavaScript - WebGL 1 & 2|WebGL]] framework
 
 # Introduction
-
-- documentation - <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>
-- examples - <https://threejs.org/examples/#webgl_animation_cloth>
-- editor - <https://threejs.org/editor/>
+- documentation - [https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+- examples - [https://threejs.org/examples/#webgl_animation_cloth](https://threejs.org/examples/#webgl_animation_cloth)
+- editor - [https://threejs.org/editor/](https://threejs.org/editor/)
 
 # Fundamentals
-
-- <https://threejsfundamentals.org/threejs/lessons/threejs-fundamentals.html>
+- [https://threejsfundamentals.org/threejs/lessons/threejs-fundamentals.html](https://threejsfundamentals.org/threejs/lessons/threejs-fundamentals.html)
 
 # Example HTML
-
 ```xml
 <html>
 <head>
@@ -62,7 +58,5 @@ modified: 2025-10-15T22:14:51.138-05:00
 </body>
 </html>
 ```
-
 # Other
-
 - [[Three.js Shading Language (TSL)]]

@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Proxmox - Shutdown & Restart
+title: "Proxmox - Shutdown & Restart"
 created: 2025-08-09T15:41:01.761-05:00
 modified: 2025-08-09T15:45:46.423-05:00
+parent: "[[Proxmox Virtual Environment (PVE)]]"
+children: []
 ---
-
 # TODO
-
 - wakeonlan not working
 
 # Shutdown
 
 Shutdown Ceph
-
 ```bash
 ceph osd set noout
 ceph osd set norecover
@@ -23,7 +21,6 @@ ceph osd set pause
 ```
 
 Shutdown VMs and LXCs (MAY NOT NEED TO SHUTDOWN)
-
 ```bash
 #!/bin/bash
 
@@ -69,11 +66,9 @@ done
 
 echo "All VMs and LXC containers have been shutdown."
 ```
-
 # Restart
 
 Start Ceph
-
 ```bash
 ceph osd unset pause
 ceph osd unset nodown
@@ -84,7 +79,6 @@ ceph osd unset noout
 ```
 
 Start all VMs and LXCs
-
 ```
 TODO
 ```

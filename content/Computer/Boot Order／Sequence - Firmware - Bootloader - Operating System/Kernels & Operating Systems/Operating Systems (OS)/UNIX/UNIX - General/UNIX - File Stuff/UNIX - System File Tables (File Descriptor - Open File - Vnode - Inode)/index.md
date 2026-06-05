@@ -1,17 +1,16 @@
 ---
-publish: true
-title: UNIX - System File Tables (File Descriptor - Open File - Vnode - Inode)
+title: "UNIX - System File Tables (File Descriptor - Open File - Vnode - Inode)"
 created: 2019-12-31T11:35:27.416-06:00
 modified: 2019-12-31T14:12:28.055-06:00
+parent: "[[UNIX - File Stuff]]"
+children:
+  - "[[Inode (Index Node)]]"
 ---
-
 ### 4 System File Tables
-
 - <strong>file descriptor table</strong> - that maps file descriptors (small integers) to entries in the open file table
 - <strong>open file table</strong> - holds entries each containing (among other things) a file offset and a pointer to the in-memory inode table
 - <strong>vnode</strong> -
 - <strong>inode table</strong> - contains
-
 ```merge-table
 {
   "rows": [
@@ -48,12 +47,10 @@ modified: 2019-12-31T14:12:28.055-06:00
 }
 ```
 
-![[Computer/Boot Order／Sequence - Firmware - Bootloader - Operating System/Kernels & Operating Systems/Operating Systems (OS)/UNIX/UNIX - General/UNIX - File Stuff/UNIX - System File Tables (File Descriptor - Open File - Vnode - Inode)/system-file-types.png|900]]
+![[UNIX - System File Tables (File Descriptor - Open File - Vnode - Inode)/system-file-types.png|900]]
 
-to modify: <https://www.draw.io/#G1hCi5VyIMu2wRKm6E18aVf9KOVJT8-bht>
-
+to modify: [https://www.draw.io/#G1hCi5VyIMu2wRKm6E18aVf9KOVJT8-bht](https://www.draw.io/#G1hCi5VyIMu2wRKm6E18aVf9KOVJT8-bht)
 ### Case Examples
-
 - When two or more processes open a file for reading, there's an entry in the open file table per open. There is even an entry per open if <strong>one</strong> process opens the file multiple times
 - If file1.txt is opened twice, in the same or two different processes, there are two different open file table entries (but just one entry in the in-memory inode table)
 
@@ -66,11 +63,9 @@ Several system open-file table entries may actually refer to the same vnode tabl
 A file may be referenced by several entries in the filesystem (this comes from "hard links", which you can create with the <code>ln</code> utility) and the file cannot be removed from the filesystem until <em>all</em> of those references to the file have been removed.
 
 Sensing a pattern? System open-file table entries, vnode table entries, and filesystem entries (inodes actually) each contain a counter (called a <em>reference count</em>) that tracks the number of references to that object. Each time one of the referencing objects goes away or changes to refer to something else, that counter gets decremented. When it hits zero, the object itself can be deleted. Reference counting is an important idea and is found in lots of places in CS.
-
 ### <strong>I/O via the Kernel Directly vs I/O via the C Standard Library</strong>
 
 When we do I/O via the C standard library (i.e. with fscanf, fprintf, fopen, fclose), the calls to open, close, read and write don't go away, it's just that the library routines make the calls, rather than our code. In other words, C standard library I/O is just an extra layer. Consider the following diagram, in which a process makes the system call <code>open</code> to read from <code>foo.txt</code>, and the C standard library call <code>fopen</code> to write to <code>bar.txt</code>. Note that the diagram shows another process
-
 ```
 int main() {
 	int fd = open("foo.txt", O_RDONLY); // I/O System Call

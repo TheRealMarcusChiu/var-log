@@ -1,12 +1,22 @@
 ---
-publish: true
-title: AI - A Modern Approach - Summaries
+title: "AI - A Modern Approach - Summaries"
 created: 2019-03-15T01:38:59.917-05:00
 modified: 2023-12-18T18:20:46.286-06:00
+parent: "[[AI - Textbooks]]"
+children:
+  - "[[AI Chapter 10 - Classical Planning]]"
+  - "[[AI Chapter 11 - Planning]]"
+  - "[[AI Chapter 11 - Planning and Acting in the Real World]]"
+  - "[[AI Chapter 12 - Knowledge Representation]]"
+  - "[[AI Chapter 13 - Quantifying Uncertainty]]"
+  - "[[AI Chapter 14 - Probabilistic Reasoning]]"
+  - "[[AI Chapter 2 - Agents and Environments]]"
+  - "[[AI Chapter 3 - Solving Problems by Searching]]"
+  - "[[AI Chapter 4 - Informed Search & Hill-Climbing]]"
+  - "[[AI Chapter 5 - Game Playing]]"
+  - "[[AI Chapter 6 - Agents That Reason Logically]]"
 ---
-
 # Chapter Summaries
-
 - [[AI Chapter 2 - Agents and Environments]] - <font style="color: rgb(0,128,0);">2<sup>nd</sup></font><font style="color: rgb(0,128,0);"> Edition</font>
 - [[AI Chapter 3 - Solving Problems by Searching]] - <font style="color: rgb(0,128,0);">2<sup>nd</sup></font><font style="color: rgb(0,128,0);"> Edition</font>
 - [[AI Chapter 4 - Informed Search & Hill-Climbing]] - <font style="color: rgb(0,128,0);">2<sup>nd</sup></font><font style="color: rgb(0,128,0);"> Edition</font>

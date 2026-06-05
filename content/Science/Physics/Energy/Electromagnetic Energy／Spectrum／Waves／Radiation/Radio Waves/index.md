@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Radio Waves
+title: "Radio Waves"
 created: 2021-09-13T04:45:49.267-05:00
 modified: 2022-01-07T20:24:27.230-06:00
+parent: "[[Electromagnetic Energy／Spectrum／Waves／Radiation]]"
+children:
+  - "[[Software Defined Radio (SDR)]]"
 ---
-
 # Types of Radio Waves
-
 - AM - amplitude modulation
 - FM - frequency modulation
 
 # AM vs FM Radio
-
-![[Science/Physics/Energy/Electromagnetic Energy／Spectrum／Waves／Radiation/Radio Waves/am vs fm.png|265x250]]
-
+![[Radio Waves/am vs fm.png|265x250]]
 # Radio Waves Difference
 
 ```merge-table

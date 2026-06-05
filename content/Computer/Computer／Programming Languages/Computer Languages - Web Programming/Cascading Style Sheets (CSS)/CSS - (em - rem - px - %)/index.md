@@ -1,10 +1,10 @@
 ---
-publish: true
-title: CSS - (em - rem - px - %)
+title: "CSS - (em - rem - px - %)"
 created: 2020-05-11T23:32:08.490-05:00
 modified: 2023-04-29T12:52:01.665-05:00
+parent: "[[Cascading Style Sheets (CSS)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

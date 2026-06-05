@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Java - Spring - ApplicationContext - Hierarchy - ServletRegistrationBean
+title: "Java - Spring - ApplicationContext - Hierarchy - ServletRegistrationBean"
 created: 2019-12-08T22:42:40.559-06:00
 modified: 2021-07-04T22:40:58.391-05:00
+parent: "[[Java - Spring - ApplicationContext - Hierarchy (Parent & Child ApplicationContext)]]"
+children: []
 ---
-
-- code base - <https://github.com/SpringBootMarcusChiu/application-context-servletregistrationbean>
+- code base - [https://github.com/SpringBootMarcusChiu/application-context-servletregistrationbean](https://github.com/SpringBootMarcusChiu/application-context-servletregistrationbean)
 
 # ServletRegistrationBean
-
 ```
 @Configuration
 public class OuterConfiguration {
@@ -46,9 +45,7 @@ public class OuterConfiguration {
 //    }
 }
 ```
-
 # ChildConfiguration
-
 ```
 @EnableWebMvc
 @Configuration

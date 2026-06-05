@@ -1,20 +1,18 @@
 ---
-publish: true
-title: Prisoner's Dilemma
+title: "Prisoner's Dilemma"
 created: 2023-05-01T17:42:40.007-05:00
 modified: 2023-05-01T18:18:02.297-05:00
+parent: "[[Game Theory]]"
+children: []
 ---
-
 ###### Prisoner's Dilemma
-
-```excerpt
+````excerpt
 - is a game analyzed in [[Game Theory|game theory]]
 - it is a thought experiment that challenges 2 rational agents to a dilemma:
 	- they could cooperate with their partner for mutual reward
 	- or they could betray their partner for individual reward
 - The prisoner's dilemma also illustrates that the decisions made under collective rationality may not necessarily be the same as those made under individual rationality
-```
-
+````
 ^excerpt
 
 # Matrix
@@ -64,13 +62,11 @@ modified: 2023-05-01T18:18:02.297-05:00
   ]
 }
 ```
-
 # Strategy
 
 The best strategy is to choose "defect"
 
 Because:
-
 - If B cooperates, A should defect, because going free is better than serving 2 years
 - If B defects, A should also defect because serving 5 years is better than serving 10
 

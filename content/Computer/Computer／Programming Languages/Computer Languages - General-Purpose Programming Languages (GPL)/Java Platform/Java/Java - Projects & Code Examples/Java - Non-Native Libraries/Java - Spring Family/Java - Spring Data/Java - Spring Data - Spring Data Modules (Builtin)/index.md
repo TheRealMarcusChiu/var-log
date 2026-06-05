@@ -1,10 +1,16 @@
 ---
-publish: true
-title: Java - Spring Data - Spring Data Modules (Builtin)
+title: "Java - Spring Data - Spring Data Modules (Builtin)"
 created: 2021-03-14T23:14:57.324-05:00
 modified: 2022-12-22T09:49:06.983-06:00
+parent: "[[Java - Spring Data]]"
+children:
+  - "[[Java - Spring - Spring Data Elastic Search]]"
+  - "[[Java - Spring - Spring Data JDBC]]"
+  - "[[Java - Spring - Spring Data JPA (Hibernate)]]"
+  - "[[Java - Spring - Spring Data MongoDB]]"
+  - "[[Java - Spring - Spring Data Neo4j (SDN)]]"
+  - "[[Java - Spring - Spring JDBC]]"
 ---
-
 # Spring Data Modules
 
 ```merge-table
@@ -78,7 +84,5 @@ modified: 2022-12-22T09:49:06.983-06:00
   ]
 }
 ```
-
 # Other
-
 - [[Java - Spring - Repository (Using Multiple Spring Data Modules)]]

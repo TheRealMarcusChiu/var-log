@@ -1,17 +1,18 @@
 ---
-publish: true
-title: Information Criterion／Criteria
+title: "Information Criterion／Criteria"
 created: 2021-09-13T05:27:43.004-05:00
 modified: 2023-10-23T15:10:03.428-05:00
+parent: "[[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis]]"
+children:
+  - "[[AIC vs BIC (TODO)]]"
+  - "[[Akaike's Information Criterion／Criteria (AIC)]]"
+  - "[[Bayesian Information Criterion／Criteria (BIC)]]"
 ---
-
 ###### Information Criterion/Criteria
-
-```excerpt
+````excerpt
 - is a measure of the quality of a statistical model
 - it takes into account: how well the model fits the data. the complexity of the model
-```
-
+````
 ^excerpt
 
 # Types
@@ -57,9 +58,13 @@ modified: 2023-10-23T15:10:03.428-05:00
 ```
 
 let:
-
 - 𝑘 - number of estimated [parameters](https://en.wikipedia.org/wiki/Statistical_parameter) in the model
 - 𝐿 - maximum value of the [[Likelihood Function - Log-Likelihood Function - Score Function|likelihood function]] for the model
 - 𝑛 - sample size
 
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

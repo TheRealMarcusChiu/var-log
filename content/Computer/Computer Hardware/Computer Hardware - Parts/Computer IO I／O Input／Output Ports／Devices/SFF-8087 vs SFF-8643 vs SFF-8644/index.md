@@ -1,10 +1,11 @@
 ---
-publish: true
-title: SFF-8087 vs SFF-8643 vs SFF-8644
+title: "SFF-8087 vs SFF-8643 vs SFF-8644"
 created: 2025-10-21T13:13:13.631-05:00
 modified: 2025-10-21T13:13:56.257-05:00
+parent: "[[Computer IO I／O Input／Output Ports／Devices]]"
+children:
+  - "[[Small Form Factor 8643 (SFF-8643) Port - Mini-SAS HD (Internal) Port]]"
 ---
-
 ```merge-table
 {
   "rows": [

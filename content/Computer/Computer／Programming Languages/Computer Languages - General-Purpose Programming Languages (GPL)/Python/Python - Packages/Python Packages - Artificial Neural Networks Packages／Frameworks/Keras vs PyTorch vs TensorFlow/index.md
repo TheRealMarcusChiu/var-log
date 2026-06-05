@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Keras vs PyTorch vs TensorFlow
+title: "Keras vs PyTorch vs TensorFlow"
 created: 2022-12-09T21:15:45.483-06:00
 modified: 2022-12-09T21:17:14.293-06:00
+parent: "[[Python Packages - Artificial Neural Networks Packages／Frameworks]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

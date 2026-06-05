@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Cutting Plane Algorithm
+title: "Cutting Plane Algorithm"
 created: 2021-09-13T05:26:13.931-05:00
 modified: 2021-09-13T05:26:13.931-05:00
+parent: "[[ILP - Algorithms Solving Problem]]"
+children: []
 ---
-
 cutting plane algorithm is one of several methods used to solve [[Integer／Discrete Linear Programming／Optimization (ILP)|ILP problems]]
-
 # <strong>Cutting Plane Algorithm - Algorithm Description</strong>
 
 > [!expand]- Click here to expand...
@@ -63,7 +62,6 @@ cutting plane algorithm is one of several methods used to solve [[Integer／Disc
 > the Solver returns an optimal vector/point (x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>) = (a, b, ..., c) with value Z = something
 >
 > this optimal vector/point can be either:
->
 > - vector values are all integers (i.e. a valid solution for ILP problem)
 > - vector values contain a non-integer value (i.e. not a valid solution for ILP)
 >
@@ -72,7 +70,6 @@ cutting plane algorithm is one of several methods used to solve [[Integer／Disc
 > if the vector contains non-integer values, let this vector be x<sub>optimal-1</sub>
 >
 > then any integer vector x, that within the feasible region of the LP satisfies the inequality:
->
 > - cx ≤ ⌊cx<sub>optimal-1</sub>⌋
 >
 > note: If with a given <strong>c</strong> we cannot cut anymore (because <font style="color: rgb(0,51,102);"><strong>cx<sub>optimal-i</sub></strong></font> is already an integer), then we use another arbitrary integer vector <strong>c' </strong>
@@ -99,10 +96,9 @@ cutting plane algorithm is one of several methods used to solve [[Integer／Disc
 >
 > this new inequality "cuts down" some part of the [[Polytope (Polygon - Polyhedron／Polyhedra)|polytope]], but guarantees to keep all integer vectors of the original feasibility region
 >
-> ![[Mathematics/Mathematical Programming／Optimization/Mathematical Programming／Optimization - Problem Types/Integer／Discrete Linear Programming／Optimization (ILP)/ILP - Algorithms Solving Problem/Cutting Plane Algorithm/cutting-plane-algorithm.png|400x250]]
+> ![[Cutting Plane Algorithm/cutting-plane-algorithm.png|400x250]]
 >
 > then we recursively solve this New ILP Problem by repeating the algorithm
->
 > ### Theorem 1
 >
 > > [!expand]- Click here to expand...
@@ -128,10 +124,8 @@ cutting plane algorithm is one of several methods used to solve [[Integer／Disc
 > >
 > > then solving this LP system we will ALWAYS get the optimum integer solution of the ILP
 > >
-> > ![[Mathematics/Mathematical Programming／Optimization/Mathematical Programming／Optimization - Problem Types/Integer／Discrete Linear Programming／Optimization (ILP)/ILP - Algorithms Solving Problem/Cutting Plane Algorithm/cutting-plane-algorithm-final-iteration.png|253x250]]
-
+> > ![[Cutting Plane Algorithm/cutting-plane-algorithm-final-iteration.png|253x250]]
 # <strong>Cutting Plane Algorithm - Algorithm Pseudocode</strong>
-
 ```
 cpa(ilp-problem) {
     relaxed-lp-problem = relax-integer-constraints(ilp-problem)

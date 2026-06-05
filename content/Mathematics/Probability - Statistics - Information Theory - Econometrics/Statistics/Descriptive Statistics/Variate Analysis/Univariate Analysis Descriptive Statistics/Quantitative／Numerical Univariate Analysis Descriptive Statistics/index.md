@@ -1,18 +1,20 @@
 ---
-publish: true
-title: Quantitative／Numerical Univariate Analysis Descriptive Statistics
+title: "Quantitative／Numerical Univariate Analysis Descriptive Statistics"
 created: 2021-09-13T05:28:46.621-05:00
 modified: 2021-09-13T05:28:46.621-05:00
+parent: "[[Univariate Analysis Descriptive Statistics]]"
+children:
+  - "[[Central Tendency]]"
+  - "[[Dispersion／Variation]]"
+  - "[[Distribution Shape]]"
+  - "[[Raw Moments - Moments About the Origin／Zero - Central／Mean Moments - Moments About The Mean - (Zeroth／First／Second／Third／Fourth／kth／nth) -  of a Probability Density Function]]"
 ---
-
 ###### Quantitative/Numerical Univariate Analysis Descriptive Statistics
-
 - a type of [[Univariate Analysis Descriptive Statistics]] whose variable is [[Data／Variable Types (Statistics／Programming)|quantitative]]
 
 # Statistics Terminology
 
 ![[Statistics - Terminology#^excerpt]]
-
 # Quantitative/Numerical Univariate Analysis Descriptive Statistics - Types
 
 > [!expand-ui]- Central Tendency - what are the most typical values?
@@ -31,7 +33,6 @@ modified: 2021-09-13T05:28:46.621-05:00
 > ![[Distribution Shape#^excerpt]]
 
 > [!expand-ui]- Outliers - are there values that represent abnormalities?
->
 > ```merge-table
 > {
 >   "rows": [
@@ -65,7 +66,6 @@ modified: 2021-09-13T05:28:46.621-05:00
 > ```
 
 > [!expand-ui]- Others
->
 > ```merge-table
 > {
 >   "rows": [
@@ -109,7 +109,5 @@ modified: 2021-09-13T05:28:46.621-05:00
 >   "tableStyle": "width: 1072.0px;"
 > }
 > ```
-
 # Resources
-
-- <http://uc-r.github.io/descriptives_numeric>
+- [http://uc-r.github.io/descriptives_numeric](http://uc-r.github.io/descriptives_numeric)

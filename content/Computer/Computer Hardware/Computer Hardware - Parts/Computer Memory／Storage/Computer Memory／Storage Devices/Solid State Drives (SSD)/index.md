@@ -1,42 +1,42 @@
 ---
-publish: true
-title: Solid State Drives (SSD)
+title: "Solid State Drives (SSD)"
 created: 2019-09-02T13:23:08.999-05:00
 modified: 2025-12-15T16:02:06.633-06:00
+parent: "[[Computer Memory／Storage Devices]]"
+children:
+  - "[[SSD Brands]]"
 ---
-
 ###### Solid State Drives (SSD)
-
 - is a type of [[Computer Memory／Storage Devices|storage device]]
-
-```excerpt
+````excerpt
 - uses [[Integrated Circuit (IC) - Microchip - Chip|integrated circuit]] assemblies as memory to store data persistently (typically [[NAND Flash Memory]] as the [[Computer Memory／Storage Medium／Media／Substrate|storage medium]])
 - defragmentation not needed
 - has a controller to manage random-access-memory
 - typically used as [[Secondary／Virtual Memory (Drive)|secondary memory]]
-```
-
+````
 ^excerpt
 
 # SSD - History
 
 When SSDs first developed, it was clear that the older [[Serial ATA (SATA) - Parallel ATA (PATA)|SATA]] data transport system was a bottleneck. The SSDs could transfer data much faster than SATA could send it. [[NVM Express (NVMe) - Non-Volatile Memory Host Controller Interface Specification (NVMHCIS)|NVMe]] was the answer. It can send data 3–6 times faster, but it needed a faster bus, and [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCIe]] was already there and could do the job. The first NVMe drives used the usual PCIe slot form factor. But that took up a lot of room on the motherboard, and so the M.2 form factor was designed
-
 # SSD - Things to Consider
-
 - [[Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)|Memory Controller]] -
 - [[Dynamic RAM (DRAM)|DRAM]] Cache -
 - Storage Medium Types:
-  - [[NAND Flash Memory]] - SLC, MLC, TLC, QLC, or PLC
-  - [[Intel® Optane™ Memory|Intel® Optane™]]
+	- [[NAND Flash Memory]] - SLC, MLC, TLC, QLC, or PLC
+	- [[Intel® Optane™ Memory|Intel® Optane™]]
 
 # SSD - Types
 
 ![](https://www.youtube.com/watch?v=5Mh3o886qpg)
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
-additional details: <https://www.snia.org/forums/cmsi/knowledge/formfactors>
+additional details: [https://www.snia.org/forums/cmsi/knowledge/formfactors](https://www.snia.org/forums/cmsi/knowledge/formfactors)
 
 ```merge-table
 {

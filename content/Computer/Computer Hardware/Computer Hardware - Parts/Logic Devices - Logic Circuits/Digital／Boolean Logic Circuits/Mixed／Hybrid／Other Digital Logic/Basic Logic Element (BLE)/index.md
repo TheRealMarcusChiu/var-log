@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Basic Logic Element (BLE)
+title: "Basic Logic Element (BLE)"
 created: 2023-03-12T20:56:23.634-05:00
 modified: 2023-03-12T21:09:22.846-05:00
+parent: "[[Mixed／Hybrid／Other Digital Logic]]"
+children: []
 ---
-
 ###### Basic Logic Element (BLE)
-
-```excerpt
+````excerpt
 - is a k-input [[Look-Up／Lookup Tables (LUT)|LUT]] that can be configured to be either [[Combinational／Combinatory Digital Logic|combinatorial]] or [[Sequential Digital Logic|sequential]]
-```
-
+````
 ^excerpt
 
 # BLE - Architecture
 
 > [!expand-ui]- basic
->
 > ```merge-table
 > {
 >   "rows": [
@@ -30,7 +27,6 @@ modified: 2023-03-12T21:09:22.846-05:00
 > ```
 
 > [!expand-ui]- advanced
->
 > ```merge-table
 > {
 >   "rows": [
@@ -42,7 +38,5 @@ modified: 2023-03-12T21:09:22.846-05:00
 >   "tableStyle": "letter-spacing: 0.0px;"
 > }
 > ```
-
 # BLE - Use Cases
-
 - used in [[Configurable Logic Block (CLB) - Logic Array Block (LAB)]]

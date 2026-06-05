@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Emperor vs King
+title: "Emperor vs King"
 created: 2021-09-13T04:43:41.526-05:00
 modified: 2021-09-13T04:43:41.526-05:00
+parent: "[[Social Stratifications／Hierarchies]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

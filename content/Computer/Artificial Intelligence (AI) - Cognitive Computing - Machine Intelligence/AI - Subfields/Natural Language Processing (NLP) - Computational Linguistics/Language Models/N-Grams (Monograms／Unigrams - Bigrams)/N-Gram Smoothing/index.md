@@ -1,10 +1,10 @@
 ---
-publish: true
-title: N-Gram Smoothing
+title: "N-Gram Smoothing"
 created: 2020-10-14T00:20:54.687-05:00
 modified: 2020-10-14T00:45:00.205-05:00
+parent: "[[N-Grams (Monograms／Unigrams - Bigrams)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Auto／Serial Correlation - Analysis／Test
+title: "Auto／Serial Correlation - Analysis／Test"
 created: 2021-09-13T05:27:11.099-05:00
 modified: 2021-09-13T05:27:11.099-05:00
+parent: "[[Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function]]"
+children: []
 ---
-
 ###### Serial Correlation Test
-
 - statistically test whether a [[Stochastic／Random／Markov Models／Process|random process]] has a non-zero [[Autocorrelation - Autocovariance - Auto／Serial Correlation／Covariance Function|auto correlation]]
 
 ### Serial Correlation Tests

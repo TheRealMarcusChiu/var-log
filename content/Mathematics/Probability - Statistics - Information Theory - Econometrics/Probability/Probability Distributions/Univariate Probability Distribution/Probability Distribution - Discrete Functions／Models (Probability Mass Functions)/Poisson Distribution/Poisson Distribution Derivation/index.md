@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Poisson Distribution Derivation
+title: "Poisson Distribution Derivation"
 created: 2023-10-23T14:23:21.515-05:00
 modified: 2023-10-23T14:37:39.404-05:00
+parent: "[[Poisson Distribution]]"
+children: []
 ---
-
 # Poisson Distribution Derivations
 
 > [!expand-ui]- Binomial Distribution
@@ -15,7 +15,6 @@ modified: 2023-10-23T14:37:39.404-05:00
 > This can be rewritten as$b(x;n,p) = \frac{𝜇^x}{x!} \frac{n!}{(n-x)!n^x}(1 - \frac{𝜇}{n})^n (1 - \frac{𝜇}{n})^{-x}$
 >
 > The expression may be disassembled for the purpose of taking limits in the component parts. The limits in question are
->
 > - $lim_{n \to ∞} \frac{n!}{(n-x)!n^x} = lim_{n \to ∞} \frac{n(n-1) \dots (n-x+1)}{n^x}$
 > - $lim_{n \to ∞} \frac{n!}{(n-x)!n^x} = 1$
 > - $lim_{n \to ∞} (1 - \frac{𝜇}{n})^n = e^{-𝜇}$
@@ -27,7 +26,5 @@ modified: 2023-10-23T14:37:39.404-05:00
 
 > [!expand-ui]- Emission Process
 > see resources below
-
 # Resources
-
 - [[poisson-distribution-derivation.pdf]]

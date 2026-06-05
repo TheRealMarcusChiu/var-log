@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Jackson Annotations - @JsonIgnoreProperties
+title: "Jackson Annotations - @JsonIgnoreProperties"
 created: 2020-11-29T22:29:23.760-06:00
 modified: 2020-11-29T22:33:40.504-06:00
+parent: "[[Java - Jackson (Codehaus vs FasterXML) - ObjectMapper]]"
+children: []
 ---
-
 <code><font style="color: rgb(128,128,0);">@JsonIgnoreProperties</font></code> is used at class-level or field-level to mark a property or list of properties to be ignored
-
 ### Code Examples
-
 > [!tabs]
 >
-> \=== Class Level
+> === Class Level
 >
 > ```
 > import java.io.IOException;
@@ -51,7 +49,6 @@ modified: 2020-11-29T22:33:40.504-06:00
 > ```
 >
 > output
->
 > ```
 > {
 >    "rollNo" : 11,
@@ -59,6 +56,6 @@ modified: 2020-11-29T22:33:40.504-06:00
 > }
 > ```
 >
-> \=== Field Level
+> === Field Level
 >
 > TODO

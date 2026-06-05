@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Java - sleep() vs wait()
+title: "Java - sleep() vs wait()"
 created: 2021-04-04T12:29:19.191-05:00
 modified: 2021-04-04T12:41:52.162-05:00
+parent: "[[Java - util - concurrent]]"
+children: []
 ---
-
 - <strong><code>sleep()</code></strong> - is used to pause the process for a specified amount of time
 - <code><strong>wait()</strong></code> - moves the thread into [[Java - Thread States|waiting state]] and it won’t come back automatically until we call the <code>notify()</code> or <code>notifyAll()</code>
 
 ### Behavior with Locks
-
 - <strong><code>sleep()</code></strong> - doesn’t releases the lock or monitor while waiting
 - <code><strong>wait()</strong></code> - releases the lock or monitor
-
 ```
 synchronized(LOCK) {
 	Thread.sleep(1000); // LOCK is held
@@ -21,7 +19,6 @@ synchronized(LOCK) {
 	LOCK.wait(); // LOCK is not held
 }
 ```
-
 ### Summary
 
 ```merge-table

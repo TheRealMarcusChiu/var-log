@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Docker Network／Driver Types
+title: "Docker Network／Driver Types"
 created: 2024-07-09T12:22:49.666-05:00
 modified: 2026-05-15T18:17:40.329-05:00
+parent: "[[Docker]]"
+children: []
 ---
-
 ![](https://www.youtube.com/watch?v=bKFMS5C4CG0)![](https://www.youtube.com/watch?v=fBRgw5dyBd4)
-
 # Docker Network/Driver Types
 
 > [!expand-ui]- Bridge (Created - Default)
->
 > ```
 > > ip address show
 > 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -31,7 +29,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > Install and run Docker
 >
 > Running <code><font style="color: rgb(122,134,154);">ip address show</font></code> will display the newly created docker bridge
->
 > ```
 > > ip address show
 > 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -54,7 +51,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > We can also see the newly created bridge via the following command
->
 > ```
 > > sudo docker network ls
 > NETWORK ID     NAME      DRIVER    SCOPE
@@ -64,7 +60,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Run some containers
->
 > ```
 > sudo docker run -itd --rm --name container-1 busybox
 > sudo docker run -itd --rm --name container-2 busybox
@@ -72,7 +67,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > By default, for each container, a virtual-ethernet is created and is attached to the Docker bridge.
->
 > ```
 > > ip address show
 > 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -109,7 +103,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > The following command displays the virtual-ethernet interfaces and which bridge it is connected to:
->
 > ```
 > > bridge link
 > 5: veth110a28b@if4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 master docker0 state forwarding priority 32 cost 2
@@ -118,7 +111,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > The following command allows us to view the IP address assigned to each container that's attached to the bridge:
->
 > ```
 > > sudo docker inspect bridge
 > ...
@@ -149,7 +141,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Let's shell into container-1
->
 > ```
 > > sudo docker exec -it container-1 sh
 > / # ip add
@@ -164,7 +155,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > container-1 can ping any other container on the same docker bridge
->
 > ```
 > / # ping 172.17.0.3
 > PING 172.17.0.3 (172.17.0.3): 56 data bytes
@@ -177,7 +167,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > container-1 can also ping the internet
->
 > ```
 > / # ping google.com
 > PING google.com (142.250.113.139): 56 data bytes
@@ -190,7 +179,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > this works because we can inspect the default gateway of container-1 which is the bridge
->
 > ```
 > / # ip route
 > default via 172.17.0.1 dev eth0
@@ -198,7 +186,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > How to reach any services inside a container requires manual exposing of them ports:
->
 > ```
 > sudo docker stop container-3
 > sudo docker run -itd --rm -p 80:80 --name container-3 nginx
@@ -207,13 +194,11 @@ modified: 2026-05-15T18:17:40.329-05:00
 > open in browser <code><font style="color: rgb(122,134,154);">http://IP\_ADDRESS\_OF\_COMPUTER\_RUNNING\_DOCKER:80</font></code>
 
 > [!expand-ui]- User-Defined Bridge
->
 > ```
 > sudo docker network create network-name-here
 > ```
 >
 > This creates a new bridge
->
 > ```
 > > ip address show
 > 14: br-46993259cefe: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default
@@ -221,7 +206,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 >     inet 172.18.0.1/16 brd 172.18.255.255 scope global br-46993259cefe
 >        valid_lft forever preferred_lft forever
 > ```
->
 > ```
 > > sudo docker network ls
 > NETWORK ID     NAME                DRIVER    SCOPE
@@ -232,7 +216,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Let's add containers to this new user-defined bridge
->
 > ```
 > sudo docker run -itd --rm --network network-name-here --name container-11 busybox
 > sudo docker run -itd --rm  --network network-name-here --name container-12 busybox
@@ -240,7 +223,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Containers in user-defined bridges are DNS resolved:
->
 > ```
 > > sudo docker exec -it container-11 sh
 >
@@ -274,7 +256,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 
 > [!expand-ui]- Host (Created)
 > The container deployed as host network, shares the network with the actual host:
->
 > ```
 > sudo docker stop container-3
 > sudo docker run -itd --rm --network host --name container-3 nginx
@@ -284,7 +265,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 
 > [!expand-ui]- MACVLAN
 > The container deployed as MACVLAN network, will be connected directly to the host's network
->
 > ```
 > > sudo docker network create -d macvlan \
 >   --subnet 192.168.86.0/24 \ # subnet of host's network
@@ -300,7 +280,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Deploy containers under this new MACVLAN network
->
 > ```
 > sudo docker stop container-1 container-2 container-3
 > sudo docker run -itd --rm --network my-macvlan --ip 192.168.86.201 --name container-1 busybox
@@ -309,7 +288,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Containers can ping each other
->
 > ```
 > > sudo docker exec -it container-1 sh
 > / # ping 192.168.86.1
@@ -351,7 +329,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > However host can't ping the containers
->
 > ```
 > > ping 192.168.86.201
 > PING 192.168.86.201 (192.168.86.201) 56(84) bytes of data.
@@ -361,12 +338,10 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > But you could access the NGINX port 80 automatically:
->
-> - open in browser <http://192.168.86.203:80>
+> - open in browser [http://192.168.86.203:80](http://192.168.86.203:80)
 
 > [!expand-ui]- ?
 > create a new sub-interface
->
 > ```
 > > sudo docker network create -d macvlan \
 >   --subnet 192.168.86.0/24 \ # subnet of host's network
@@ -376,7 +351,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > display newly created sub-interface
->
 > ```
 > ip add show
 > ...
@@ -384,7 +358,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 
 > [!expand-ui]- IPVLAN (L2)
 > Similar to MACVLAN however instead of containers having their own MAC address they will use the same MAC address as its host
->
 > ```
 > > sudo docker network create -d ipvlan \
 >   --subnet 192.168.86.0/24 \ # subnet of host's network
@@ -394,7 +367,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Deploy containers under this new IPVLAN network
->
 > ```
 > sudo docker stop container-1 container-2 container-3
 > sudo docker run -itd --rm --network my-ipvlan --ip 192.168.86.201 --name container-1 busybox
@@ -403,7 +375,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > check if container has same MAC address as host:
->
 > ```
 > > ip address show
 > ...
@@ -411,7 +382,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 >     link/ether 42:dc:a8:22:d2:da brd ff:ff:ff:ff:ff:ff
 > ...
 > ```
->
 > ```
 > > sudo docker exec -it container-1 sh
 > / # ip add show
@@ -423,7 +393,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 
 > [!expand-ui]- IPVLAN (L3)
 > Connecting to the host (the host acts like a router)
->
 > ```
 > > sudo docker network create -d ipvlan \
 >   --subnet 192.168.13.0/24 \ # completely new subnet
@@ -434,7 +403,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Deploy containers under this new IPVLAN network
->
 > ```
 > sudo docker stop container-1 container-2 container-3
 > sudo docker run -itd --rm --network my-ipvlan --ip 192.168.13.101 --name container-1 busybox
@@ -443,7 +411,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Inspect containers and their assigned IP addresses
->
 > ```
 > > sudo docker inspect my-ipvlan
 > ...
@@ -478,7 +445,6 @@ modified: 2026-05-15T18:17:40.329-05:00
 
 > [!expand-ui]- None (Created)
 > This network is already created:
->
 > ```
 > > sudo docker network ls
 > NETWORK ID     NAME        DRIVER    SCOPE
@@ -488,14 +454,12 @@ modified: 2026-05-15T18:17:40.329-05:00
 > ```
 >
 > Deploy containers under this NONE network
->
 > ```
 > sudo docker stop container-1 container-2 container-3
 > sudo docker run -itd --rm --network none --name container-1 busybox
 > ```
 >
 > Enter into busybox
->
 > ```
 > > sudo docker exec -it container-1 sh
 > / # ip address show

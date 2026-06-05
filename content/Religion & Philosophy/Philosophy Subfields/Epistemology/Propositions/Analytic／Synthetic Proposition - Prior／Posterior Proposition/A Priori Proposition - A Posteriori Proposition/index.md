@@ -1,10 +1,10 @@
 ---
-publish: true
-title: A Priori Proposition - A Posteriori Proposition
+title: "A Priori Proposition - A Posteriori Proposition"
 created: 2021-09-13T04:44:23.059-05:00
 modified: 2021-09-13T04:44:23.059-05:00
+parent: "[[Analytic／Synthetic Proposition - Prior／Posterior Proposition]]"
+children: []
 ---
-
 [[Knowledge]]/[[Propositions]] can be divided into 2 classes
 
 ```merge-table

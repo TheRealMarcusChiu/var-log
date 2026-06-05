@@ -1,13 +1,13 @@
 ---
-publish: true
-title: Java - Spring - Creating @Bean／@Component at Runtime
+title: "Java - Spring - Creating @Bean／@Component at Runtime"
 created: 2021-08-03T21:16:27.862-05:00
 modified: 2021-08-03T21:21:33.092-05:00
+parent: "[[Java - Spring - @Bean @Component]]"
+children: []
 ---
-
 > [!tabs]
 >
-> \=== Option 1
+> === Option 1
 >
 > ```
 > @Configuration
@@ -26,7 +26,7 @@ modified: 2021-08-03T21:21:33.092-05:00
 > }
 > ```
 >
-> \=== Option 2
+> === Option 2
 >
 > ```
 > @Configuration

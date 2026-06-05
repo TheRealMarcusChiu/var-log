@@ -1,23 +1,19 @@
 ---
-publish: true
-title: Deterministic CPD
+title: "Deterministic CPD"
 created: 2021-09-13T05:27:13.683-05:00
 modified: 2021-09-13T05:27:13.683-05:00
+parent: "[[CPD - Representations]]"
+children: []
 ---
-
 <strong>Deterministic CPD</strong> - a variable's value is a deterministic function of its parents' values
-
 ### Example - Blood Types
-
-![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Probability/Probability Distributions/Conditional Probability Distribution (CPD)/CPD - Representations/Deterministic CPD/deterministic-conditional-probability-distribution.png|150]]
+![[Deterministic CPD/deterministic-conditional-probability-distribution.png|150]]
 
 let:
-
 - 𝑋<sub>1</sub> - be allele type from Mom
 - 𝑋<sub>2</sub> - be allele type from Dad
 - 𝑌 - phenotypical blood type
 - {𝑋<sub>1</sub>, 𝑋<sub>2</sub>, 𝑌} can take on values {𝑎, 𝑏, 𝑎𝑏, 𝑜}
-
 ```merge-table
 {
   "rows": [

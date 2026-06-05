@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Telugu Vocabulary
+title: "Telugu Vocabulary"
 created: 2023-11-04T14:21:24.277-05:00
 modified: 2023-11-04T15:23:08.347-05:00
+parent: "[[Telugu]]"
+children: []
 ---
-
 > [!expand-ui]- Family/People
->
 > ```merge-table
 > {
 >   "rows": [
@@ -335,7 +334,6 @@ modified: 2023-11-04T15:23:08.347-05:00
 > ```
 
 > [!expand-ui]- Years/Days/Month/Week
->
 > ```merge-table
 > {
 >   "rows": [
@@ -480,7 +478,6 @@ modified: 2023-11-04T15:23:08.347-05:00
 > ```
 
 > [!expand-ui]- Numbers
->
 > ```merge-table
 > {
 >   "rows": [

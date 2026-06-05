@@ -1,12 +1,13 @@
 ---
-publish: true
-title: Binomial Distribution Special Cases - (Poisson Distribution and Normal Distribution)
+title: "Binomial Distribution Special Cases - (Poisson Distribution and Normal Distribution)"
 created: 2021-09-13T05:27:31.481-05:00
 modified: 2021-11-11T19:22:41.819-06:00
+parent: "[[Probability Distribution - UPD Comparisons]]"
+children:
+  - "[[Binomial Distribution - Approximating With Normal Distribution]]"
+  - "[[Binomial Distribution - Approximating with Poisson Distribution]]"
 ---
-
 [[Binomial Distribution|Binomial variables]] represent a special case of 𝑆<sub>𝑛</sub> = 𝑋<sub>1</sub> + ... + 𝑋<sub>𝑁</sub>, where all 𝑋<sub>𝑖</sub> have [[Bernoulli Distribution|Bernoulli distribution]] with some parameter 𝑝
-
 # Special Cases
 
 ```merge-table

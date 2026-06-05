@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Topological Sort／Ordering
+title: "Topological Sort／Ordering"
 created: 2021-09-13T05:25:22.185-05:00
 modified: 2023-06-18T18:18:01.874-05:00
+parent: "[[Graph Orders]]"
+children: []
 ---
-
 ###### Topological Sort - Topological Ordering
-
-```excerpt
+````excerpt
 - is a linear ordering of a directed graph's vertices such that for every directed edge <em>𝑢𝑣</em> from vertex <em>𝑢</em> to vertex <em>𝑣</em>, <em>𝑢</em> comes before <em>𝑣</em> in the ordering
-```
-
+````
 ^excerpt
 
 # Examples

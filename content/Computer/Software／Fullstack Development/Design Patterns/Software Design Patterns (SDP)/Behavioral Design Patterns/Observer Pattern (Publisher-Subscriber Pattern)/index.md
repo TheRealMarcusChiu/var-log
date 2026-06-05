@@ -1,27 +1,22 @@
 ---
-publish: true
-title: Observer Pattern (Publisher-Subscriber Pattern)
+title: "Observer Pattern (Publisher-Subscriber Pattern)"
 created: 2019-12-17T13:07:27.992-06:00
 modified: 2023-06-02T20:10:03.703-05:00
+parent: "[[Behavioral Design Patterns]]"
+children: []
 ---
-
 ###### Observer Pattern (Publisher-Subscriber Pattern)
-
-```excerpt
+````excerpt
 - is a [[Behavioral Design Patterns|behavioral design pattern]] that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing
-```
-
+````
 ^excerpt
 
 # Code Structure
-
-![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Behavioral Design Patterns/Observer Pattern (Publisher-Subscriber Pattern)/observer-structure.png|700]]
-
+![[Observer Pattern (Publisher-Subscriber Pattern)/observer-structure.png|700]]
 # Code Example
 
 > [!expand]- Click here to expand...
 > Create Publisher and Subscriber interfaces
->
 > ```java
 > public interface Subscriber<T> {
 >     void notify(T t);
@@ -36,7 +31,6 @@ modified: 2023-06-02T20:10:03.703-05:00
 > ```
 >
 > Implement the interfaces
->
 > ```java
 > public class IncomeSubscriber implements Subscriber<Float> {
 >
@@ -92,7 +86,6 @@ modified: 2023-06-02T20:10:03.703-05:00
 > ```
 >
 > Use case
->
 > ```java
 > public static void main(String[] args) {
 >     StockDataPublisher publisher = new StockDataPublisher();
@@ -109,14 +102,11 @@ modified: 2023-06-02T20:10:03.703-05:00
 >     publisher.setStockData(321f);
 > } 
 > ```
-
 # Comparisons
 
 > [!expand]- Click here to expand...
 > ![[Chain of Responsibility vs Command vs Mediator vs Observer#^excerpt]]
 >
 > ![[Mediator Pattern vs Observer Pattern#^excerpt]]
-
 # Resources
-
-- <https://refactoring.guru/design-patterns/observer>
+- [https://refactoring.guru/design-patterns/observer](https://refactoring.guru/design-patterns/observer)

@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Gladys Aylward
+title: "Gladys Aylward"
 created: 2021-09-13T04:43:43.073-05:00
 modified: 2021-09-13T04:43:43.073-05:00
+parent: "[[Biographies]]"
+children: []
 ---
-
-<http://gladysaylward.weebly.com/summary.html>
+[http://gladysaylward.weebly.com/summary.html](http://gladysaylward.weebly.com/summary.html)
 
 Gladys Aylward, born in 1904 in London to working-class parents, was at first glance a normal girl.  She grew up working as a parlor maid for most of her young life. However one day, she attended a revival meeting at which the speaker talked of dedicating one’s life to Jesus and to ministry.  From that point on, she chose to serve God.  Soon after, she felt that God was not only calling her to serve, but to be a missionary in China.  At the age of 26, she enrolled in the China Inland Mission Center in London. However, she was kicked out of the program because she couldn’t pass her exams and therefore was deemed unready for missions.  This would be the first of many obstacles she would face in her struggle to reach China. 
 

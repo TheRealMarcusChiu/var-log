@@ -1,20 +1,19 @@
 ---
-publish: true
-title: Categorical Regression Models
+title: "Categorical Regression Models"
 created: 2020-09-30T16:31:58.882-05:00
 modified: 2023-08-23T20:40:42.783-05:00
+parent: "[[Parametric Regression (PR) Models]]"
+children:
+  - "[[Logistic (Logit) Regression Model]]"
+  - "[[Probit Regression Model]]"
 ---
-
 ###### Categorical Regression Models
-
-```excerpt
+````excerpt
 - a type of [[Parametric Regression (PR) Models|parametric regression model]] whose dependent variable is either [[Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)|nominal]] or [[Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)|ordinal]]
-```
-
+````
 ^excerpt
 
 # Categorical Regression Models - Types
-
 ````excerpt
 [[Categorical Regression Models]] - takes an input vector 𝑥∊ℝ<sup>𝑛</sup> as input and predicts the value of a <strong>nominal/ordinal</strong> 𝑦∊ℝ as output
 
@@ -72,5 +71,4 @@ modified: 2023-08-23T20:40:42.783-05:00
 }
 ```
 ````
-
 ^excerpt

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Radarr - Sonarr - Lidarr
+title: "Radarr - Sonarr - Lidarr"
 created: 2025-12-04T21:58:48.715-06:00
 modified: 2025-12-04T22:49:04.655-06:00
+parent: "[[Servers Stuff To Run]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -68,14 +68,11 @@ modified: 2025-12-04T22:49:04.655-06:00
   ]
 }
 ```
-
 ###### Indexer Hubs
-
 - [Jackett](https://github.com/Jackett/Jackett) - meta indexer for torrent sites (old)
 - [Prowlarr](https://prowlarr.com/) - is a proxy indexer manager for Usenet and BitTorrent (new)
 
 ###### Indexers
-
 - [Radarr](https://github.com/Radarr/Radarr) (Movies)
 - [Sonarr](https://github.com/Sonarr/Sonarr) (TV Series)
 - [Lidarr](https://github.com/lidarr/Lidarr) (Music)
@@ -83,14 +80,13 @@ modified: 2025-12-04T22:49:04.655-06:00
 - [Readarr](https://github.com/Readarr/Readarr) (Books)
 - [Ombi](https://github.com/tidusjar/Ombi) (Requests) - user requests for media with Radarr/Sonarr/Lidarr integration
 - [seerr](https://github.com/seerr-team/seerr) (Requests) - request and discovery manager for Jellyfin, Plex, and Emby
-  - [Overseerr](https://overseerr.dev/) (Requets) - is a request management and media discovery tool built to work with your existing Plex ecosystem
-  - Jellyseerr (Requests) - is a request management and media discovery tool built to work with your existing Jellyfin ecosystem
+	- [Overseerr](https://overseerr.dev/) (Requets) - is a request management and media discovery tool built to work with your existing Plex ecosystem
+	- Jellyseerr (Requests) - is a request management and media discovery tool built to work with your existing Jellyfin ecosystem
 - [Bobarr](https://github.com/iam4x/bobarr) - the all-in-one alternative for Sonarr, Radarr, Jackett... with a VPN and running in docker
 - [Bonarr](https://github.com/bonarr/Bonarr) (X-rated)
 - [Whisparr](https://github.com/Whisparr/Whisparr/) (X-rated)
 
 ###### Utilities
-
 - [Maintainerr](https://github.com/Maintainerr/Maintainerr) - no longer will you have to worry about your precious hard drive space being taken up by media, that isn't even being watched
 - [Cleanuparr](https://github.com/Cleanuparr/Cleanuparr) - automating the cleanup of unwanted or blocked files in Sonarr, Radarr, and supported download clients like qBittorrent, Deluge and Transmission
 - [Huntarr](https://github.com/plexguide/Huntarr.io) -continually searches your media libraries for missing content and items that need quality upgrades. It automatically triggers searches for both missing items and those below your quality cutoff. It's designed to run continuously while being gentle on your indexers, helping you gradually complete your media collection with the best available quality
@@ -111,7 +107,7 @@ modified: 2025-12-04T22:49:04.655-06:00
 - [Unpackerr](https://github.com/davidnewhall/unpackerr) - it checks for completed downloads and extracts them so Radarr and/or Sonarr and/or Lidarr may import them
 - [mdblist.com](https://mdblist.com/) - listrr.pro alternative with scrapped movie ratings from imdb, tmdb, trakt, letterboxd, rottentomatoes and metacritics
 - [Doplarr](https://github.com/kiranshila/Doplarr) - an \*arr request bot for Discord
-  <br>
+<br>
 - [Recyclarr](https://github.com/recyclarr/recyclarr) - automatically sync TRaSH Guides to your Sonarr and Radarr instances
 - [Notifiarr](https://notifiarr.wiki/) -
 - [Configarr](https://configarr.de/) - simplified configuration management for your Arr applications like Sonarr, Radarr and more

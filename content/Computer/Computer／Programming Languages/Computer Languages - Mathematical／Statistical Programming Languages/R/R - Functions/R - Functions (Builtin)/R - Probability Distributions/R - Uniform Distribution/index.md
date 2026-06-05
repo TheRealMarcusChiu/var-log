@@ -1,19 +1,17 @@
 ---
-publish: true
-title: R - Uniform Distribution
+title: "R - Uniform Distribution"
 created: 2020-02-04T18:22:46.843-06:00
 modified: 2021-11-28T20:21:54.580-06:00
+parent: "[[R - Probability Distributions]]"
+children: []
 ---
-
 These functions provide information about the [[Uniform Distribution|uniform distribution]] on the interval from <code>min</code> to <code>max</code>.
-
 - <code>dunif</code> gives the [[Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions|probability density function]]
 - <code>punif</code> gives the [[Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions|cumulative distribution function]] = integral of [[Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions|probability density function]]
 - <code>qunif</code> gives the [[Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions|quantile function]] = [[Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions|inverse cumulative distribution function]]
 - <code>runif</code> generates random deviates
 
 # Usage
-
 <span style="white-space: pre-wrap"><code>dunif(x, min = 0, max = 1, log = FALSE)</code><br><code>punif(q, min = 0, max = 1, lower.tail = TRUE, log.p = FALSE)</code><br><code>qunif(p, min = 0, max = 1, lower.tail = TRUE, log.p = FALSE)</code><br><code>runif(n, min = 0, max = 1)</code></span>
 
 # Arguments

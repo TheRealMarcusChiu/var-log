@@ -1,13 +1,12 @@
 ---
-publish: true
-title: SSE3 (Streaming SIMD Extensions 3)
+title: "SSE3 (Streaming SIMD Extensions 3)"
 created: 2025-07-14T16:34:04.347-05:00
 modified: 2025-07-14T16:36:32.964-05:00
+parent: "[[x86 Hardware Extensions]]"
+children: []
 ---
-
 ###### SSE3 (Streaming SIMD Extensions 3)
-
-```excerpt
+````excerpt
 - also known by its Intel code name Prescott New Instructions (PNI)
 - is the third iteration of the SSE instruction set for the [[x86 x64 (x86-16, x86-32, x86-64)|x86 architecture]]
 - Intel introduced SSE3 in early 2004 with the Prescott revision of their Pentium 4 CPU
@@ -18,6 +17,5 @@ modified: 2025-07-14T16:36:32.964-05:00
 	- SSE
 	- SSE2
 - SSE3 contains 13 new instructions over [[SSE2 (Streaming SIMD Extensions 2)|SSE2]]
-```
-
+````
 ^excerpt

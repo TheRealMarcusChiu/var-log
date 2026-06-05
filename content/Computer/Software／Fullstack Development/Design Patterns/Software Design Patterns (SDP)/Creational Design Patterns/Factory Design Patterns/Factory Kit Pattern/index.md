@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Factory Kit Pattern
+title: "Factory Kit Pattern"
 created: 2021-11-26T22:21:26.546-06:00
 modified: 2026-01-10T15:49:19.969-06:00
+parent: "[[Factory Design Patterns]]"
+children: []
 ---
-
 ###### Factory Kit Pattern
-
-```excerpt
+````excerpt
 - is a [[Creational Design Patterns|creational pattern]] used to define a factory of immutable content with the separated [[Builder Pattern|builder]] and [[Factory Method Pattern|factory method]] interfaces
-```
-
+````
 ^excerpt
 
 # Factory Kit Pattern Example
 
 Define <font style="color: rgb(122,134,154);">factory kit</font> in compile time, then use it in runtime use it to create a custom [[Factory Method Pattern|factory method]] object, then use it to create number of objects
-
 ```java
 import java.util.HashMap;
 import java.util.Map;
@@ -51,7 +48,5 @@ public class Main {
     }
 }
 ```
-
 # Resources
-
-- <https://java-design-patterns.com/patterns/factory-kit/>
+- [https://java-design-patterns.com/patterns/factory-kit/](https://java-design-patterns.com/patterns/factory-kit/)

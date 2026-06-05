@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Java - Spring - @EnableTransactionManagement & @Transactional
+title: "Java - Spring - @EnableTransactionManagement & @Transactional"
 created: 2021-04-11T22:52:23.294-05:00
 modified: 2021-07-26T21:04:41.006-05:00
+parent: "[[Java - Spring Data - Transaction Management]]"
+children: []
 ---
-
 # 1 - @EnableTransactionManagement & Configure TransactionManager
-
 - <code><font style="color: rgb(128,128,0);">@EnableTransactionManagement</font></code> enables Spring's annotation-driven transaction management capability (e.g. <code><font style="color: rgb(128,128,0);">@Transactional</font></code>)
 - see: <code>[[Java - Spring - TransactionManager (PlatformTransactionManager - ReactiveTransactionManager)|TransactionManager]]</code>
 
 > [!expand-ui]- Code Example
->
 > ```
 > @Configuration
 > @EnableTransactionManagement // <-------------------------------- (1)
@@ -27,13 +25,10 @@ modified: 2021-07-26T21:04:41.006-05:00
 >     }
 > }
 > ```
->
 > 1. <code><font style="color: rgb(128,128,0);">@EnableTransactionManagement</font></code> enables Spring's annotation-driven transaction management capability (e.g. <code><font style="color: rgb(128,128,0);">@Transactional</font></code>)
 > 2. create a database-specific or [[Java - Connection Pooling Frameworks|connection-pool]] specific <code>[[Java - DataSource|DataSource]]</code> here ([[MySQL]] is being used for this example)
 > 3. create <code>TransactionManager</code>, which needs a <code>DataSource</code> to be able to manage transactions (for in-depth understanding see other <code>[PlatformTransactionManager](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/PlatformTransactionManager.html)</code> implementations that Spring offers)
-
 # 2 - Using @Transactional
-
 ```
 public class UserService {
 
@@ -48,7 +43,6 @@ public class UserService {
 ```
 
 Armed with the knowledge from the [[Java - Data - Transaction Management - Java Transaction API (JTA)|JDBC transaction example]], the <code><font style="color: rgb(128,128,0);">@Transactional</font></code> UserService code above translates (simplified) directly to this:
-
 ```
 public class UserService {
 
@@ -68,7 +62,6 @@ public class UserService {
     }
 }
 ```
-
 # 3 - @Transactional Attributes
 
 Spring transaction provides support for following six attributes which determines the behavior of the transaction:
@@ -170,9 +163,7 @@ Spring transaction provides support for following six attributes which determine
   "tableStyle": "width: 97.0149%;"
 }
 ```
-
 # 4 - @Transactional Class vs Method Level
-
 ```
 @Transactional(readOnly = true)
 public class DefaultFooService implements FooService {
@@ -184,7 +175,6 @@ public class DefaultFooService implements FooService {
     }
 }
 ```
-
 # 5 - @Transactional Under the Covers (Session)
 
 In Spring, there is a one-to-one correspondence between the business transaction demarcated by <code><font style="color: rgb(128,128,0);">@Transactional</font></code>, and the hibernate <code>Session</code>.
@@ -198,15 +188,13 @@ In <code><font style="color: rgb(128,128,0);">@Transactional</font></code> con
 <code>Session</code> is open first time when <code>getCurrentSession()</code> is executed and it is closed when transaction ends and it is flushed before transaction commits.
 
 In Spring, If we use <code>getCurrentSession()</code> in non-transactional context we get an exception
-
 # 6 - @Transactional Under the Covers (CGlib & JDK Proxies)
 
 Let’s see proxies in action in this picture:
 
-![[Computer/Computer／Programming Languages/Computer Languages - General-Purpose Programming Languages (GPL)/Java Platform/Java/Java - Projects & Code Examples/Java - Non-Native Libraries/Java - Spring Family/Java - Spring Data/Java - Spring Data - Transaction Management/Java - Spring - @EnableTransactionManagement & @Transactional/spring-transaction.png|600]]
+![[Java - Spring - @EnableTransactionManagement & @Transactional/spring-transaction.png|600]]
 
 As you can see from that diagram, the proxy has one job.
-
 - Opening and closing database connections/transactions (the proxy delegates that work to a <code>TransactionManager</code>)
 - And then delegating to the real <code>UserService</code>
 - And other beans, like your <code>UserRestController</code> will never know that they are talking to a proxy, and not the real thing

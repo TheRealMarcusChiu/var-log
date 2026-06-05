@@ -1,17 +1,22 @@
 ---
-publish: true
-title: Integrated Circuit (IC) - Microchip - Chip
+title: "Integrated Circuit (IC) - Microchip - Chip"
 created: 2021-12-14T03:38:49.401-06:00
 modified: 2023-12-09T20:48:19.018-06:00
+parent: "[[Logic Devices - Logic Circuits]]"
+children:
+  - "[[Application-Specific Integrated Circuit (ASIC)]]"
+  - "[[Integrated Circuits - Sizes]]"
+  - "[[Photonic Integrated Circuits (PICs) - Integrated Optical Circuit]]"
+  - "[[Processor - Processing Unit (PU) - Processing Element (PE)]]"
+  - "[[Programmable Logic Device (PLD)]]"
+  - "[[Semiconductor Companies]]"
+  - "[[System on Chip (SoC) - System on a Chip]]"
 ---
-
 ###### Integrated Circuit (IC) - Microchip - Chip
-
-```excerpt
+````excerpt
 - is a [[Logic Devices - Logic Circuits|logic circuit]] formed on a small piece of semiconducting material, performing the same function as a larger circuit made from [[Discrete Circuits - Discrete Components|discrete components]]
 - opposite of [[Discrete Circuits - Discrete Components|discrete components]]
-```
-
+````
 ^excerpt
 
 # IC - Types
@@ -62,8 +67,6 @@ modified: 2023-12-09T20:48:19.018-06:00
   ]
 }
 ```
-
 # IC - Other
-
 - [[Photonic Integrated Circuits (PICs) - Integrated Optical Circuit]]
 - [[Integrated Circuits - Sizes]]

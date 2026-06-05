@@ -1,10 +1,10 @@
 ---
-publish: true
-title: (Multi／Pluri／Toti) Potential Stem Cells
+title: "(Multi／Pluri／Toti) Potential Stem Cells"
 created: 2021-09-13T04:45:05.144-05:00
 modified: 2021-09-13T04:45:05.144-05:00
+parent: "[[Human Biology]]"
+children: []
 ---
-
 ### Stem Cell Types
 
 ```merge-table
@@ -41,9 +41,7 @@ modified: 2021-09-13T04:45:05.144-05:00
   ]
 }
 ```
-
 ### Stem Cells: From Zygote to Adult
-
 1. Sperm fertilizes an egg and forms a single cell called a zygote
 2. The zygote undergoes a process known as mitosis, in which it replicates its chromosomes (which carry each parent’s DNA) and then divides, resulting in two identical cells. These cells are called <strong>totipotent</strong> and have the ability to develop into a new organism. The zygote repeats the process of mitosis for about 5 or 6 days creating a small ball of a few hundred cells called a blastocyst.
 3. The blastocyst has an outer-layer of cells called the trophoblast, which will eventually form the protective placenta. Inside the trophoblast is a group of cells called the inner cell mass. The organism in a stage between zygote to fetus is called an embryo\* and the cells are called embryonic stem cells.

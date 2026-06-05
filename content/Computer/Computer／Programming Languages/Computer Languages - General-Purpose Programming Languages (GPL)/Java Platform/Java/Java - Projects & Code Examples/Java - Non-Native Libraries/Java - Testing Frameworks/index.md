@@ -1,12 +1,16 @@
 ---
-publish: true
-title: Java - Testing Frameworks
+title: "Java - Testing Frameworks"
 created: 2021-03-06T09:22:31.256-06:00
 modified: 2021-10-09T17:17:48.699-05:00
+parent: "[[Java - Non-Native Libraries]]"
+children:
+  - "[[Java - JUnit4 - JUnit5 Jupiter]]"
+  - "[[Java - Mockito]]"
+  - "[[Java - Performance／Micro-benchmarks Frameworks]]"
+  - "[[Java - PowerMock]]"
+  - "[[Java - TestContainers]]"
 ---
-
 To learn how to write tests, go to [[3 - Testing (Automated Tests)]]
-
 # Frameworks
 
 ```merge-table
@@ -127,7 +131,6 @@ To learn how to write tests, go to [[3 - Testing (Automated Tests)]]
   ]
 }
 ```
-
 # Maven Plugins
 
 see: [[Maven - Test Plugins]]

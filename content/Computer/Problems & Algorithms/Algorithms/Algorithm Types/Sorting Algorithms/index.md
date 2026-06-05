@@ -1,10 +1,14 @@
 ---
-publish: true
-title: Sorting Algorithms
+title: "Sorting Algorithms"
 created: 2020-03-30T19:29:13.691-05:00
 modified: 2020-03-30T19:59:09.836-05:00
+parent: "[[Algorithm Types]]"
+children:
+  - "[[Comparison Sort - Non-Comparison Sort]]"
+  - "[[Heap Sort]]"
+  - "[[Quick Sort]]"
+  - "[[Stable Sort - Unstable Sort]]"
 ---
-
 ### Sorting Algorithms
 
 ```merge-table

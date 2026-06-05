@@ -1,12 +1,11 @@
 ---
-publish: true
-title: WebAssembly - Writing Programs 2
+title: "WebAssembly - Writing Programs 2"
 created: 2019-12-20T23:39:32.626-06:00
 modified: 2021-08-31T22:18:10.472-05:00
+parent: "[[WebAssembly (WASM)]]"
+children: []
 ---
-
 # 1 - Write
-
 ```cpp
 #include <emscripten.h>
 #include <math.h>
@@ -24,19 +23,15 @@ int int_sqrt(int x) {
   return sqrt(x);
 }
 ```
-
 # 2 - Compile
 
 download and install [[Emscripten]]
 
 to compile test.c into test.js, run the command below
-
 ```
 emcc test.c -s EXPORTED_FUNCTIONS='["_count", "_int_sqrt"]' -s EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]' -o test.js
 ```
-
 # 3 - Load & Instantiate - Use It
-
 ```xml
 <!doctype html>
 <html lang="en">
@@ -48,7 +43,6 @@ emcc test.c -s EXPORTED_FUNCTIONS='["_count", "_int_sqrt"]' -s EXPORTED_RUNTIME_
 </body>
 </html>
 ```
-
 ```js
 Module['onRuntimeInitialized'] = onRuntimeInitialized;
 const count = Module.cwrap('count', 'number');
@@ -69,11 +63,10 @@ function onRuntimeInitialized() {
 	console.log("Option 3: " + result);    // output 5
 }
 ```
-
 # 4 - Test
 
 open browser and load index.html
 
 open console, you should see output
 
-![[Computer/Computer／Programming Languages/Computer Languages - Web Programming/WebAssembly (WASM)/WebAssembly - Writing Programs 2/webassembly-javascript-example-output.jpg|900]]
+![[WebAssembly - Writing Programs 2/webassembly-javascript-example-output.jpg|900]]

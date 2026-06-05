@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Laplace Transform - Examples
+title: "Laplace Transform - Examples"
 created: 2023-12-13T13:15:48.229-06:00
 modified: 2026-05-23T11:29:33.906-05:00
+parent: "[[Laplace Transform - Inverse Laplace Transform]]"
+children: []
 ---
-
 # [[Laplace Transform - Inverse Laplace Transform|Laplace Transforms]] - Examples
 
 ```merge-table

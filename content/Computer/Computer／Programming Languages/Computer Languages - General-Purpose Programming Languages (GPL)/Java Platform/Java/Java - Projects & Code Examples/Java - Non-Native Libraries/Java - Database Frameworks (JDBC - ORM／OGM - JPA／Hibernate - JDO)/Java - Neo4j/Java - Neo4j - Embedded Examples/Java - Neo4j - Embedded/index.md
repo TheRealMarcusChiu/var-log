@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Java - Neo4j - Embedded
+title: "Java - Neo4j - Embedded"
 created: 2021-05-02T23:06:35.557-05:00
 modified: 2021-05-03T00:05:35.761-05:00
+parent: "[[Java - Neo4j - Embedded Examples]]"
+children: []
 ---
-
 # 1 - Overview
 
 this article sets up an <strong>Embedded Neo4j</strong> and how to query it
 
-code: <https://github.com/SpringBootMarcusChiu/neo4j-embedded-example>
-
+code: [https://github.com/SpringBootMarcusChiu/neo4j-embedded-example](https://github.com/SpringBootMarcusChiu/neo4j-embedded-example)
 # 2 - Configure Embedded Neo4j
-
 ```
 <dependency>
    <groupId>org.neo4j</groupId>
@@ -20,7 +18,6 @@ code: <https://github.com/SpringBootMarcusChiu/neo4j-embedded-example>
    <version>4.0.0</version>
 </dependency>
 ```
-
 <span style="white-space: pre-wrap"><code>EmbeddedNeo4jServerConfig.java</code></span>
 
 ```
@@ -33,9 +30,7 @@ public GraphDatabaseService graphDatabaseService() {
     return graphDb;
 }
 ```
-
 # 3 - Querying Embedded Neo4j
-
 ```
 @Autowired
 GraphDatabaseService graphDatabaseService;

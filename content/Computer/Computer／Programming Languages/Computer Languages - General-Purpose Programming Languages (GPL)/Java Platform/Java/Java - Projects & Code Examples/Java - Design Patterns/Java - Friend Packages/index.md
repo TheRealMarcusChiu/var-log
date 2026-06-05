@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Java - Friend Packages
+title: "Java - Friend Packages"
 created: 2021-07-04T10:29:57.957-05:00
 modified: 2021-07-04T12:33:21.859-05:00
+parent: "[[Java - Design Patterns]]"
+children: []
 ---
-
 # Method 1 (public and package private modifiers)
 
 ```merge-table
@@ -18,7 +18,6 @@ modified: 2021-07-04T12:33:21.859-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Method 2 (Accessor Design)
 
 ```merge-table
@@ -32,7 +31,5 @@ modified: 2021-07-04T12:33:21.859-05:00
   "tableStyle": "width: 1072.0px;"
 }
 ```
-
 # Resources
-
-- <http://wiki.apidesign.org/wiki/APIDesignPatterns:FriendPackages>
+- [http://wiki.apidesign.org/wiki/APIDesignPatterns:FriendPackages](http://wiki.apidesign.org/wiki/APIDesignPatterns:FriendPackages)

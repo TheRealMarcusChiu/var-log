@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Big Data - Shape Types
+title: "Big Data - Shape Types"
 created: 2020-11-02T13:45:34.452-06:00
 modified: 2020-11-02T13:59:47.147-06:00
+parent: "[[Data Types (Data Science／Analytics)]]"
+children: []
 ---
-
 big data vary in shape. these call for different approaches
 
 ```merge-table

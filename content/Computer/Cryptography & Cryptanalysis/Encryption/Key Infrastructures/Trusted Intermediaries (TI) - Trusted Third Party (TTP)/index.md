@@ -1,12 +1,12 @@
 ---
-publish: true
-title: Trusted Intermediaries (TI) - Trusted Third Party (TTP)
+title: "Trusted Intermediaries (TI) - Trusted Third Party (TTP)"
 created: 2019-09-29T23:07:43.522-05:00
 modified: 2022-09-08T01:57:05.794-05:00
+parent: "[[Key Infrastructures]]"
+children:
+  - "[[Key Distribution Center (KDC)]]"
 ---
-
 In [[Cryptography & Cryptanalysis|cryptography]], a <strong>Trusted Intermediary (TI)</strong> or <strong>Trusted Third Party</strong><strong> (TTP)</strong> is an entity that facilitates interactions between two parties who both trust the third party
-
 # Trusted Intermediaries Types
 
 ```merge-table

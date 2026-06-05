@@ -1,10 +1,16 @@
 ---
-publish: true
-title: Java - Mockito - Enum Answers (CALLS_REAL_METHODS - RETURNS_DEEP_STUBS - RETURNS_DEFAULTS - RETURNS_MOCKS - RETURNS_SELF - RETURNS_SMART_NULLS)
+title: "Java - Mockito - Enum Answers (CALLS_REAL_METHODS - RETURNS_DEEP_STUBS - RETURNS_DEFAULTS - RETURNS_MOCKS - RETURNS_SELF - RETURNS_SMART_NULLS)"
 created: 2021-07-15T17:00:05.973-05:00
 modified: 2021-07-15T20:47:08.092-05:00
+parent: "[[Java - Mockito]]"
+children:
+  - "[[Java - Mockito - Enum Answer (CALLS_REAL_METHODS)]]"
+  - "[[Java - Mockito - Enum Answers (RETURNS_DEFAULTS)]]"
+  - "[[Java - Mockito - Enum Answers (RETURNS_MOCKS)]]"
+  - "[[Java - Mockito - Enum Answers (RETURNS_SELF)]]"
+  - "[[Java - Mockito - Enum Answers (RETURNS_SMART_NULLS)]]"
+  - "[[Java - Mockito - Enum Answers (RETURN_DEEP_STUBS)]]"
 ---
-
 # Enum Answer Types
 
 ```merge-table
@@ -61,9 +67,7 @@ modified: 2021-07-15T20:47:08.092-05:00
   ]
 }
 ```
-
 # Example Use
-
 ```
 @Test
 void test() {
@@ -73,7 +77,6 @@ void test() {
 ```
 
 or
-
 ```
 @ExtendWith(MockitoExtension.class)
 class ExampleTest {
@@ -86,7 +89,5 @@ class ExampleTest {
 	}
 }
 ```
-
 # Resources
-
-- <https://www.javadoc.io/doc/org.mockito/mockito-core/2.6.9/org/mockito/Answers.html>
+- [https://www.javadoc.io/doc/org.mockito/mockito-core/2.6.9/org/mockito/Answers.html](https://www.javadoc.io/doc/org.mockito/mockito-core/2.6.9/org/mockito/Answers.html)

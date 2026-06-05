@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Java - Dependency Injection Frameworks - Spring vs CDI (Context and Dependency Injection)
+title: "Java - Dependency Injection Frameworks - Spring vs CDI (Context and Dependency Injection)"
 created: 2021-04-06T21:23:37.465-05:00
 modified: 2021-10-26T02:50:08.346-05:00
+parent: "[[Java - Non-Native Libraries]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

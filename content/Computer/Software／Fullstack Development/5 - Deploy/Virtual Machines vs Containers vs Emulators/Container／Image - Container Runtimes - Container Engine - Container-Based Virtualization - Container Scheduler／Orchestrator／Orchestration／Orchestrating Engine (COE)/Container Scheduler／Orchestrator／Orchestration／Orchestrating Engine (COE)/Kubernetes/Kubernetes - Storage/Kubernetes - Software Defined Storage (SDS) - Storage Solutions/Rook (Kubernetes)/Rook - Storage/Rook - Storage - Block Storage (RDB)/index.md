@@ -1,21 +1,18 @@
 ---
-publish: true
-title: Rook - Storage - Block Storage (RDB)
+title: "Rook - Storage - Block Storage (RDB)"
 created: 2025-05-22T23:33:58.052-05:00
 modified: 2025-05-24T22:21:34.530-05:00
+parent: "[[Rook - Storage]]"
+children: []
 ---
-
-see: <https://rook.github.io/docs/rook/latest-release/Storage-Configuration/Block-Storage-RBD/block-storage/>
-
+see: [https://rook.github.io/docs/rook/latest-release/Storage-Configuration/Block-Storage-RBD/block-storage/](https://rook.github.io/docs/rook/latest-release/Storage-Configuration/Block-Storage-RBD/block-storage/)
 # Prerequisites
-
 - understand [[Kubernetes - Service (ClusterIP - NodePort - LoadBalancer - Ingress - ExternalName)]]
 - understand [[Kubernetes - PersistentVolume (PV) and PersistentVolumeClaim (PVC) Example]]
 
 # Define a StorageClass
 
 Define a StorageClass for Block Storage
-
 ```yml
 kind: CephBlockPool
 metadata:
@@ -90,16 +87,13 @@ allowVolumeExpansion: true
 ```
 
 Create the new StorageClass
-
 ```
 kubectl apply -f storage-class-block.yml
 ```
-
 # StorageClass Usage
 
 > [!expand-ui]- MySQL
 > Create the following files
->
 > ```yml
 > apiVersion: v1
 > kind: PersistentVolumeClaim
@@ -115,7 +109,6 @@ kubectl apply -f storage-class-block.yml
 >     requests:
 >       storage: 20Gi
 > ```
->
 > ```yml
 > kind: Deployment
 > metadata:
@@ -153,7 +146,6 @@ kubectl apply -f storage-class-block.yml
 >           persistentVolumeClaim:
 >             claimName: mysql-pv-claim
 > ```
->
 > ```yml
 > apiVersion: v1
 > kind: Service
@@ -171,7 +163,6 @@ kubectl apply -f storage-class-block.yml
 > ```
 >
 > Create in Kubernetes cluster
->
 > ```
 > kubectl apply -f mysql-pvc.yml
 > kubectl apply -f mysql-server.yml
@@ -180,7 +171,6 @@ kubectl apply -f storage-class-block.yml
 
 > [!expand-ui]- Wordpress
 > Create the following files
->
 > ```yml
 > apiVersion: v1
 > kind: PersistentVolumeClaim
@@ -196,7 +186,6 @@ kubectl apply -f storage-class-block.yml
 >     requests:
 >       storage: 20Gi
 > ```
->
 > ```yml
 > apiVersion: apps/v1
 > kind: Deployment
@@ -237,7 +226,6 @@ kubectl apply -f storage-class-block.yml
 >           persistentVolumeClaim:
 >             claimName: wp-pv-claim
 > ```
->
 > ```yml
 > apiVersion: v1
 > kind: Service
@@ -255,7 +243,6 @@ kubectl apply -f storage-class-block.yml
 > ```
 >
 > Create in Kubernetes cluster
->
 > ```
 > kubectl apply -f wordpress-pvc.yml
 > kubectl apply -f wordpress-server.yml

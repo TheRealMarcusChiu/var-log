@@ -1,20 +1,18 @@
 ---
-publish: true
-title: MBR - Master Partition Table
+title: "MBR - Master Partition Table"
 created: 2020-06-09T21:51:12.629-05:00
 modified: 2020-06-17T13:19:17.350-05:00
+parent: "[[Master Boot Record (MBR)]]"
+children: []
 ---
-
 ###### Master Partition Table
-
 - resides in the [[Master Boot Record (MBR)]]
 - is a 64 byte structure made up of 4x16 byte partition entries
 - the fixed size of the partition table limits the [[Operating Systems (OS)|OS]] to 4 partitions, but modern OS have built in the capability for many more partitions through a concept called extended partitions
 
 Master Partition Table is the last 64 bytes of the MBR
 
-![[Computer/Computer Hardware/Computer Hardware - Parts/Computer Memory／Storage/Computer Memory／Storage Hierarchy/Computer Memory／Storage Hierarchy - Types/Secondary／Virtual Memory (Drive)/Partition／Volume - Disk Partitioning - Partition Schema/Master Boot Record (MBR)/MBR - Master Partition Table/MBR.png|1000]]
-
+![[MBR - Master Partition Table/MBR.png|1000]]
 ### Description of a 16-byte Partition Entry
 
 ```merge-table

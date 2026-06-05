@@ -1,14 +1,12 @@
 ---
-publish: true
-title: Neuron
+title: "Neuron"
 created: 2021-09-13T04:45:05.736-05:00
 modified: 2021-09-13T04:45:05.736-05:00
+parent: "[[Anatomy & Physiology]]"
+children: []
 ---
-
-### ![[Science/Biology/Human Biology/Anatomy & Physiology/Neuron/1.png|566x250]]
-
+### ![[Neuron/1.png|566x250]]
 ### Parts of Neuron
-
 - dendrites
 - soma
 - axon hillock
@@ -16,4 +14,4 @@ modified: 2021-09-13T04:45:05.736-05:00
 - terminal buttons
 - synapses
 
-<https://www.verywellmind.com/structure-of-a-neuron-2794896>
+[https://www.verywellmind.com/structure-of-a-neuron-2794896](https://www.verywellmind.com/structure-of-a-neuron-2794896)

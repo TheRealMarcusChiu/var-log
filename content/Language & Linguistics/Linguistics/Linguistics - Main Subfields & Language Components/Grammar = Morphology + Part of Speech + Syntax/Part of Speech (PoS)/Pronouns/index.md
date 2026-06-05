@@ -1,23 +1,23 @@
 ---
-publish: true
-title: Pronouns
+title: "Pronouns"
 created: 2021-09-13T04:44:04.548-05:00
 modified: 2021-09-13T04:44:04.548-05:00
+parent: "[[Part of Speech (PoS)]]"
+children: []
 ---
-
 ###### Pronoun
-
-- ## takes the place of one or more [[Nouns|nouns]] or [[Nouns|proper nouns]]
+- takes the place of one or more [[Nouns|nouns]] or [[Nouns|proper nouns]]
+	- 
 - the word or word group that a pronoun stands for is called the antecedent of the pronoun
-  - <code><font style="color: rgb(128,128,128);">Marcus enjoys <strong>hiking</strong> and <strong>camping</strong>; in fact, <strong>they</strong> are his two favorite pastimes</font></code>
-    - antecedents = <code><font style="color: rgb(128,128,128);">hiking</font></code> and <code><font style="color: rgb(128,128,128);">camping</font></code>
-    - pronoun = <code><font style="color: rgb(128,128,128);">they</font></code>
-  - <font style="color: rgb(128,128,128);"><strong>One</strong> of the film projectors is broken. <strong><code>It</code></strong> is being repaired</font>
-    - antecedent = <code><font style="color: rgb(128,128,128);">One</font></code>
-    - <font style="color: rgb(128,128,128);"><font style="color: rgb(51,51,51);">pronoun =</font> <code>It</code></font>
+	- <code><font style="color: rgb(128,128,128);">Marcus enjoys <strong>hiking</strong> and <strong>camping</strong>; in fact, <strong>they</strong> are his two favorite pastimes</font></code>
+		- antecedents = <code><font style="color: rgb(128,128,128);">hiking</font></code> and <code><font style="color: rgb(128,128,128);">camping</font></code>
+		- pronoun = <code><font style="color: rgb(128,128,128);">they</font></code>
+	- <font style="color: rgb(128,128,128);"><strong>One</strong> of the film projectors is broken. <strong><code>It</code></strong> is being repaired</font>
+		- antecedent = <code><font style="color: rgb(128,128,128);">One</font></code>
+		- <font style="color: rgb(128,128,128);"><font style="color: rgb(51,51,51);">pronoun =</font> <code>It</code></font>
 - sometimes can be used as an adjective
-  - <font style="color: rgb(128,128,128);"><code><strong>This</strong> dog is mine</code> <font style="color: rgb(51,51,51);">(<code><font style="color: rgb(128,128,128);">This</font></code> modifies dog as a specific one in proximity relative to first person speaker)</font></font>
-  - <code><font style="color: rgb(128,128,128);"><strong>My</strong> dog ran away</font></code> (<code><font style="color: rgb(128,128,128);">My</font></code> modifies dog as being owned by first person speaker)
+	- <font style="color: rgb(128,128,128);"><code><strong>This</strong> dog is mine</code> <font style="color: rgb(51,51,51);">(<code><font style="color: rgb(128,128,128);">This</font></code> modifies dog as a specific one in proximity relative to first person speaker)</font></font>
+	- <code><font style="color: rgb(128,128,128);"><strong>My</strong> dog ran away</font></code> (<code><font style="color: rgb(128,128,128);">My</font></code> modifies dog as being owned by first person speaker)
 
 ### Pronoun - Types
 

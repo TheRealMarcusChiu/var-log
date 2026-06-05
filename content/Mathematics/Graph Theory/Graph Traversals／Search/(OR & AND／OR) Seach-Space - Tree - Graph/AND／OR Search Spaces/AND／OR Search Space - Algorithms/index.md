@@ -1,14 +1,13 @@
 ---
-publish: true
-title: AND／OR Search Space - Algorithms
+title: "AND／OR Search Space - Algorithms"
 created: 2021-09-13T05:25:35.327-05:00
 modified: 2021-09-13T05:25:35.327-05:00
+parent: "[[AND／OR Search Spaces]]"
+children: []
 ---
-
 ###### ao-counting / ao-belief-updating / others
 
 > [!expand]- Click here to expand...
->
 > ```merge-table
 > {
 >   "rows": [
@@ -27,20 +26,16 @@ modified: 2021-09-13T05:25:35.327-05:00
 > <font style="color: rgb(0,0,255);">Optimization tasks. </font>General AND/OR algorithms for evaluating the value of a root node for any reasoning problem using tree or graph AND/OR search spaces are identical to the above algorithms when product is replaced by the appropriate combination operator (i.e., product or summation) and marginalization by summation is replaced by the appropriate marginalization operator. For optimization (e.g., mpe) all we need is to change line 30 of the algorithm from summation to maximization. Namely, we should have 𝑣(𝑝) ← 𝑚𝑎𝑥{𝑣(𝑝), 𝑣(𝑛)}. Clearly, this will yield a base-line scheme that can be advanced significantly using heuristic search ideas. To compute marginal map query we will use marginalization by sum of max based on the variable identity to which the marginalization operator is applied.
 >
 > <font style="color: rgb(0,0,255);">Depth-first vs Best-first searches </font>This could be the right place to make a clear distinction between searching the AND/OR space depth-first of best-first for optimization tasks. Best-first cannot exploit dead-caches, but must cache all nodes in the explicated graph. For this reason DFS can have far better memory utilization even when both scheme search an AD/OR graph.
-
 ###### general and/or search 𝐴𝑂(𝑖)
 
 > [!expand]- Click here to expand...
->
 > - as two extreme cases in a parameterized collection of algorithms that trade space for time via a controlling parameter 𝑖. We denote this class of algorithms as 𝐴𝑂(𝑖) where 𝑖 determines the size of contexts that the algorithm caches. Algorithm 𝐴𝑂(𝑖) records nodes whose context size is 𝑖 or smaller
->   - 𝐴𝑂(𝑖=0) is identical to AOT
->   - 𝐴𝑂(𝑖=𝑤) is identical to AOG, where 𝑤 is the [[(Ordered Graph - Width) - (Induced Graph - Induced Width) - (Conditional Induced Graph - Conditional Induced Width)|induced width]] of the [[Pseudo Tree - Extended Graph|extended graph]] relative to the guiding [[Pseudo Tree - Extended Graph|pseudo-tree]]
+> 	- 𝐴𝑂(𝑖=0) is identical to AOT
+> 	- 𝐴𝑂(𝑖=𝑤) is identical to AOG, where 𝑤 is the [[(Ordered Graph - Width) - (Induced Graph - Induced Width) - (Conditional Induced Graph - Conditional Induced Width)|induced width]] of the [[Pseudo Tree - Extended Graph|extended graph]] relative to the guiding [[Pseudo Tree - Extended Graph|pseudo-tree]]
 > - for any intermediate 𝑖 we get an intermediate level of caching, which is space exponential in 𝑖 and whose execution time will increase as 𝑖 decreases
-
 ###### another algorithm
 
 > [!expand]- Click here to expand...
->
 > ```java
 > // returns: conditional plan or failure 
 > AND_OR_graph_search(Problem problem) {
@@ -76,12 +71,11 @@ modified: 2021-09-13T05:25:35.327-05:00
 > the above algorithm is [[Depth First Search (DFS)|Depth First Search]]
 >
 > can be modified to support:
->
 > - un-informed search:
->   - [[Breadth First Search (BFS)|breadth-first-search]]
->   - uniform-cost-search
->   - iterative-deepening breadth-first-search
+> 	- [[Breadth First Search (BFS)|breadth-first-search]]
+> 	- uniform-cost-search
+> 	- iterative-deepening breadth-first-search
 > - informed search:
->   - greedy-search
->   - A\*-search
->   - iterative-deepening A\*-search
+> 	- greedy-search
+> 	- A\*-search
+> 	- iterative-deepening A\*-search

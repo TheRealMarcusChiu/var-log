@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Multi-Vectors／Multivectors／p-Vectors - Clifford Number - Multors
+title: "Multi-Vectors／Multivectors／p-Vectors - Clifford Number - Multors"
 created: 2024-01-07T23:05:08.047-06:00
 modified: 2024-01-08T22:02:31.554-06:00
+parent: "[[Multilinear Algebra]]"
+children: []
 ---
-
 ###### Multi-Vectors/Multivectors/p-Vectors - Clifford Number - Multors
-
-```excerpt
+````excerpt
 - is an element of an [[Exterior Algebra - Grassmann Algebra|exterior algebra]] Λ(𝑉), where 𝑉 is a [[Vector Spaces - Linear Spaces|vector space]]
 - is an element of a [[Geometric Algebra (GA) - Clifford Algebra|geometric algebra]], it can be represented by a linear combination of blades
-```
-
+````
 ^excerpt
 
 # k-vector vs multivector vs k-blade
 
 see [[k-blades vs k-vectors vs multivectors]]
-
 # Multivectors - Types
 
 ```merge-table

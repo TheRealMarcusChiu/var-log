@@ -1,26 +1,23 @@
 ---
-publish: true
-title: Gaussian Process Regression (GPR) - Python Code
+title: "Gaussian Process Regression (GPR) - Python Code"
 created: 2021-11-13T23:10:06.189-06:00
 modified: 2021-11-13T23:30:14.781-06:00
+parent: "[[Gaussian Process Regression (GPR) - Kriging]]"
+children: []
 ---
-
 This [[Python]] GPR implementation uses the following libraries
-
 ```
 import numpy as np
 import matplotlib.pyplot as plt
 ```
 
 The [[Radial Basis "Kernel" Function (RBF)|squared-exponential function]] is used as its [[Covariance Function (i.e. Kernel Function)|covariance-function]]
-
 ```
 def squared_exponential_covariance_function(x, y, params):
     return params[0] * np.exp(-0.5 * params[1] * np.subtract.outer(x, y) ** 2)
 ```
 
 TODO
-
 ```
 def conditional(x_new, x, y, params):
     B = squared_exponential_covariance_function(x_new, x, params)
@@ -33,12 +30,10 @@ def conditional(x_new, x, y, params):
 
 TODO
 
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable/Non-Parametric Regression (NPR) Models/Kernel Distribution(Density／Mass) Estimation／Classification (KDE／KDC)/Gaussian Process Regression (GPR) - Kriging/Gaussian Process Regression (GPR) - Python Code/gaussian-process-regression-python-code-1.png]]
-
+![[Gaussian Process Regression (GPR) - Python Code/gaussian-process-regression-python-code-1.png]]
 # Entire Code
 
 > [!expand]- Click here to expand...
->
 > ```py
 > import numpy as np
 > import matplotlib.pyplot as plt
@@ -82,7 +77,5 @@ TODO
 > plt.plot(training_x, training_y, "ro")
 > plt.show()
 > ```
-
 # Resources
-
-- <https://blog.dominodatalab.com/fitting-gaussian-process-models-python>
+- [https://blog.dominodatalab.com/fitting-gaussian-process-models-python](https://blog.dominodatalab.com/fitting-gaussian-process-models-python)

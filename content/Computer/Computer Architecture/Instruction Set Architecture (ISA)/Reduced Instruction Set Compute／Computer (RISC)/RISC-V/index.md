@@ -1,25 +1,23 @@
 ---
-publish: true
-title: RISC-V
+title: "RISC-V"
 created: 2020-01-09T15:39:23.984-06:00
 modified: 2025-07-14T19:29:31.548-05:00
+parent: "[[Reduced Instruction Set Compute／Computer (RISC)]]"
+children:
+  - "[[RISC-V Processors]]"
+  - "[[RISC-V Pseudoinstructions]]"
 ---
-
 ###### RISC-V
-
-```excerpt
+````excerpt
 - is a free and open [[Reduced Instruction Set Compute／Computer (RISC)|RISC]] [[Instruction Set Architecture (ISA)|Instruction Set Architecture]]
 - started by graduate students in May 2010
-```
-
+````
 ^excerpt
 
 # RISC-V Landscape
 
-See: <https://landscape.riscv.org>
-
+See: [https://landscape.riscv.org](https://landscape.riscv.org)
 # RISC-V Bases
-
 - RV32I - Base Integer Instruction Set, 32-bit
 - RV32E - Base Integer Instruction Set (embedded), 32-bit, 16 registers with a smaller instruction set
 - RV64I - Base Integer Instruction Set, 64-bit
@@ -28,20 +26,19 @@ See: <https://landscape.riscv.org>
 # RISC-V Extensions
 
 Once we have the base we can add extensions to it to define the exact features of the core:
-
 - M – Standard Extension for Integer Multiplication and Division
-  - RV32M extension implements 8 instructions
-  - RV64M adds 5 instructions to those 8
+	- RV32M extension implements 8 instructions
+	- RV64M adds 5 instructions to those 8
 - A – Standard Extension for Atomic Memory Instructions
 - F – Standard Extension for Single-Precision Floating-Point
 - D – Standard Extension for Double-Precision Floating-Point
-  - double-precision floating-point registers <code><font style="color: rgb(122,134,154);">f0</font></code> to <code><font style="color: rgb(122,134,154);">f31</font></code> are now 64-bit wide
+	- double-precision floating-point registers <code><font style="color: rgb(122,134,154);">f0</font></code> to <code><font style="color: rgb(122,134,154);">f31</font></code> are now 64-bit wide
 - G – Shorthand for the base and above extensions
 - Q – Standard Extension for Quad-Precision Floating-Point, introducing 128-bit wide floating point registers
 - L – Standard Extension for Decimal Floating-Point operations
 - C – Standard Extension for Compressed Instructions
 - B – Standard Extension for Bit Manipulation
-- J – Standard Extension for Dynamically Translated Languages such as C#, Go, Haskell, Java, JavaScript, OCaml, PHP, Python, R, Ruby, Scala or [WebAssembly](https://www.cnx-software.com/2017/05/31/webassembly-is-a-cross-platform-cross-browser-solution-for-high-performance-code-in-web-browsers/)
+- J – Standard Extension for Dynamically Translated Languages such as C\#, Go, Haskell, Java, JavaScript, OCaml, PHP, Python, R, Ruby, Scala or [WebAssembly](https://www.cnx-software.com/2017/05/31/webassembly-is-a-cross-platform-cross-browser-solution-for-high-performance-code-in-web-browsers/)
 - T – Standard Extension for Transactional Memory
 - P – Standard Extension for Packed-SIMD Instructions
 - V – Standard Extension for Vector Operations
@@ -346,10 +343,13 @@ Once we have the base we can add extensions to it to define the exact features o
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Resources
-
-- <https://riscv.org/>
+- [https://riscv.org/](https://riscv.org/)
 - [[RISC-V Card.pdf]]

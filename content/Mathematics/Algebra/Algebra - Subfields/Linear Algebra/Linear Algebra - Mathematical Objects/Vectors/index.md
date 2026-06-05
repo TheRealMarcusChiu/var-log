@@ -1,20 +1,18 @@
 ---
-publish: true
-title: Vectors
+title: "Vectors"
 created: 2021-09-13T05:26:04.458-05:00
 modified: 2024-01-08T15:34:56.712-06:00
+parent: "[[Linear Algebra - Mathematical Objects]]"
+children: []
 ---
-
 ###### Vectors
-
-```excerpt
+````excerpt
 - is an element of a [[Vector Spaces - Linear Spaces|vector space (𝑉,𝐹)]]
 - is a (1,0)-[[Tensors|tensor]]
 - is a type of [[k-vectors (Multivector of Grade k)|k-vector]] where k=1
 - encodes position in the associated vector space
 - encodes magnitude and direction
-```
-
+````
 ^excerpt
 
 # Vectors - Multiple Representations
@@ -48,8 +46,6 @@ modified: 2024-01-08T15:34:56.712-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Vectors - Comparison Properties
-
 - [[Orthogonal／Orthogonality - Orthogonal Sets - Orthogonal Complement|Orthogonal/Orthogonality]]
 - [[Orthonormal／Orthonormality - Orthonormal Sets|Orthonormal/Orthonormality]]

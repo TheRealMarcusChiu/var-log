@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Spring - Repository (Repository Methods - Selectively Expose Query Methods)
+title: "Java - Spring - Repository (Repository Methods - Selectively Expose Query Methods)"
 created: 2021-03-14T22:54:24.456-05:00
 modified: 2021-03-21T16:04:53.374-05:00
+parent: "[[Java - Spring Data - Spring Data Repository]]"
+children: []
 ---
-
 Selectively exposing CRUD methods
-
 ```
 @NoRepositoryBean
 interface MyBaseRepository<T, ID extends Serializable> extends Repository<T, ID> {

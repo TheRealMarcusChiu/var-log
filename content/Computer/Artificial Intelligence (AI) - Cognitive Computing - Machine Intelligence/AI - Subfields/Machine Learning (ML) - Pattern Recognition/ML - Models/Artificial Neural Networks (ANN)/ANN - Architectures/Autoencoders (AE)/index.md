@@ -1,19 +1,23 @@
 ---
-publish: true
-title: Autoencoders (AE)
+title: "Autoencoders (AE)"
 created: 2020-08-17T22:48:19.235-05:00
 modified: 2026-01-01T08:40:45.100-06:00
+parent: "[[ANN - Architectures]]"
+children:
+  - "[[Beta Variational Autoencoders (𝛽-VAE)]]"
+  - "[[Convolutional Autoencoders (CAE)]]"
+  - "[[Masked Autoencoders (MAE)]]"
+  - "[[Sparse Autoencoders (SAE)]]"
+  - "[[Stacked Autoencoders (SAE)]]"
+  - "[[Variational Autoencoders (VAE)]]"
 ---
-
 ###### Autoencoders (AE)
-
-```excerpt
+````excerpt
 - is a type of [[ANN - Architectures|ANN architecture]] used to learn (efficient encodings / latent space) of unlabeled data. They do this by taking a high-dimensional signal 𝑥 and compressing it into "latent space" and then decompressing it to a high-dimensional signal 𝑥̅, which is somewhat equivalent to the original signal 𝑥
 - is a type of [[Non-Linear／Nonlinear Dimensionality Reduction (NLDR) - Manifold Learning|manifold learning]]
 - is a form of compression
 - can reconstruct the [[Principal Component Analysis (PCA)]]
-```
-
+````
 ^excerpt
 
 # AE - Introduction
@@ -29,11 +33,8 @@ modified: 2026-01-01T08:40:45.100-06:00
   "tableStyle": "width: 71.4179%;"
 }
 ```
-
 # AE - Latent Space Dimensionality → Reconstruction Quality
-
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Artificial Neural Networks (ANN)/ANN - Architectures/Autoencoders (AE)/ae-latent-space-dimensionality-reconstruction-quality.png|500]]
-
+![[Autoencoders (AE)/ae-latent-space-dimensionality-reconstruction-quality.png|500]]
 # AE - Variants
 
 ```merge-table
@@ -84,7 +85,5 @@ modified: 2026-01-01T08:40:45.100-06:00
   ]
 }
 ```
-
 # Resources
-
-- <https://www.pyimagesearch.com/2020/02/17/autoencoders-with-keras-tensorflow-and-deep-learning/>
+- [https://www.pyimagesearch.com/2020/02/17/autoencoders-with-keras-tensorflow-and-deep-learning/](https://www.pyimagesearch.com/2020/02/17/autoencoders-with-keras-tensorflow-and-deep-learning/)

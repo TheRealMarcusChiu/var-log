@@ -1,26 +1,23 @@
 ---
-publish: true
-title: MLE vs MAP
+title: "MLE vs MAP"
 created: 2021-09-13T05:28:09.629-05:00
 modified: 2021-12-24T17:37:17.011-06:00
+parent: "[[Point／Parameter Estimation／Estimator／Estimate／Approximation - Comparisons]]"
+children: []
 ---
-
 # MLE vs MAP - Introduction
 
 Consider the following 3 scenarios:
-
 - a coin is tossed 10 times and comes out heads 7 out of 10 times
 - a coin is tossed 100 times and comes out heads 70 out of 100 times
 - a coin is tossed 1000 times and comes out heads 700 out of 1000 times
 
 [[Maximum Likelihood Estimation (MLE)|Maximum Likelihood Estimate (MLE)]] can't distinguish between the 3 above
-
 - treats parameters 𝜃 as random variables with some distribution
 - bayesian prediction combines sufficient statistics from imaginary samples (i.e. prior beliefs) and real data (i.e. likelihood)
 - asymptotically the same as Maximum Likelihood Estimate (MLE), but MAP allows prior beliefs and their strength/weakness over seen data
 
 [[Maximum a Posteriori (MAP)]]
-
 - is a Bayesian approach by allowing the prior to influence the choice of the point estimate
 - has the advantage of leveraging information that is brought by the prior and cannot be found in the training data. This additional information helps to reduce the variance in the MAP point estimate (in comparison to the maximum likelihood estimate). However, it does so at the price of increased bias
 
@@ -38,10 +35,9 @@ see [[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihoo
   ]
 }
 ```
-
 # MLE vs MAP - Computing Estimates of Specific Distributions
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -64,4 +60,4 @@ see [[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihoo
     ]
   ]
 }
-````
+```

@@ -1,16 +1,14 @@
 ---
-publish: true
-title: AMD EPYC Processors
+title: "AMD EPYC Processors"
 created: 2024-09-22T23:03:02.717-05:00
 modified: 2025-10-14T12:13:13.038-05:00
+parent: "[[Zen 1,2,3,4,5 + Microarchitecture Processors]]"
+children: []
 ---
-
 ###### AMD EPYC Processors
-
-```excerpt
+````excerpt
 - server CPUs
-```
-
+````
 ^excerpt
 
 # EPYC Lineup
@@ -191,14 +189,12 @@ modified: 2025-10-14T12:13:13.038-05:00
 ```
 
 > [!expand-ui]- First generation Epyc (Naples)
-> The first generation was composed of only the 7001 series SKUs, all using the same MCM topology with four <em>[Zeppelin](https://en.wikipedia.org/wiki/Zen_\(first_generation\))</em> dies interconnected on the MCM. Each SOC die contributes its two DDR4 memory channels, 32 external PCIe 3.0 lanes, two 4-core core complexes and associated I/O interfaces like 4 SATA ports or several USB ports.
->
+> The first generation was composed of only the 7001 series SKUs, all using the same MCM topology with four <em>[Zeppelin](https://en.wikipedia.org/wiki/Zen_(first_generation))</em> dies interconnected on the MCM. Each SOC die contributes its two DDR4 memory channels, 32 external PCIe 3.0 lanes, two 4-core core complexes and associated I/O interfaces like 4 SATA ports or several USB ports.
 > ### EPYC 7001 series
 >
 > Common features:
->
 > - [SP3](https://en.wikipedia.org/wiki/Socket_SP3) socket
-> - [Zen](https://en.wikipedia.org/wiki/Zen_\(first_generation\)) microarchitecture
+> - [Zen](https://en.wikipedia.org/wiki/Zen_(first_generation)) microarchitecture
 > - [GloFo](https://en.wikipedia.org/wiki/GlobalFoundries) [14 nm process](https://en.wikipedia.org/wiki/14_nm_process)
 > - [MCM](https://en.wikipedia.org/wiki/Multi-chip_module) with four [System-on-a-chip](https://en.wikipedia.org/wiki/System_on_a_chip) (SOC) dies, two core complexes (CCX) per SOC die<sup>[\[30\]](https://en.wikipedia.org/wiki/Epyc#cite_note-zensoc-30)</sup>
 > - [Eight-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture) DDR4-2666 (the 7251 model is limited to DDR4-2400)
@@ -599,11 +595,9 @@ modified: 2025-10-14T12:13:13.038-05:00
 > In November 2018, AMD announced Epyc 2 at their Next Horizon event, the second generation of Epyc processors codenamed "Rome" and based on the Zen 2 [microarchitecture](https://en.wikipedia.org/wiki/Microarchitecture).<sup>[\[40\]](https://en.wikipedia.org/wiki/Epyc#cite_note-42)</sup> The processors feature up to eight [7 nm](https://en.wikipedia.org/wiki/7_nm_process)-based "chiplet" processors with a 14 nm-based [IO](https://en.wikipedia.org/wiki/Input/output) chip providing 128 [PCIe 4.0](https://en.wikipedia.org/wiki/PCI_Express#PCI_Express_4.0) lanes in the center interconnected via [Infinity Fabric](https://en.wikipedia.org/wiki/HyperTransport#Infinity_Fabric). The processors support up to 8 channels of [DDR4](https://en.wikipedia.org/wiki/DDR4_SDRAM) RAM up to 4 [TB](https://en.wikipedia.org/wiki/Terabyte), and introduce support for PCIe 4.0. These processors have up to 64 cores with 128 [SMT](https://en.wikipedia.org/wiki/Simultaneous_multithreading) threads per socket.<sup>[\[41\]](https://en.wikipedia.org/wiki/Epyc#cite_note-43)</sup> The 7 nm "Rome" is manufactured by [TSMC](https://en.wikipedia.org/wiki/TSMC).<sup>[\[24\]](https://en.wikipedia.org/wiki/Epyc#cite_note-anandtech-24)</sup> It was released on August 7, 2019.<sup>[\[42\]](https://en.wikipedia.org/wiki/Epyc#cite_note-44)</sup> It has 39.5 billion transistors.<sup>[\[43\]](https://en.wikipedia.org/wiki/Epyc#cite_note-45)</sup>
 >
 > In April 2020, AMD launched three new SKUs using Epyc's 7nm Rome platform. The three processors introduced were the eight-core Epyc 7F32, the 16-core 7F52 and the 24-core 7F72, featuring base clocks up to 3.7 GHz (up to 3.9 GHz with boost) within a TDP range of 180 to 240 watts. The launch was supported by [Dell EMC](https://en.wikipedia.org/wiki/Dell_EMC), [Hewlett Packard Enterprise](https://en.wikipedia.org/wiki/Hewlett_Packard_Enterprise), [Lenovo](https://en.wikipedia.org/wiki/Lenovo), [Supermicro](https://en.wikipedia.org/wiki/Supermicro), and [Nutanix](https://en.wikipedia.org/wiki/Nutanix).<sup>[\[44\]](https://en.wikipedia.org/wiki/Epyc#cite_note-46)</sup>
->
 > ### EPYC 7002 series
 >
 > Common features:
->
 > - [SP3](https://en.wikipedia.org/wiki/Socket_SP3) socket
 > - [TSMC](https://en.wikipedia.org/wiki/TSMC) [7 nm process](https://en.wikipedia.org/wiki/7_nm_process) for the compute dies, [GloFo](https://en.wikipedia.org/wiki/GlobalFoundries) [14 nm process](https://en.wikipedia.org/wiki/14_nm_process) for the I/O die
 > - [MCM](https://en.wikipedia.org/wiki/Multi-chip_module) with one <em>I/O Die</em> (IOD) and multiple <em>Core Complex Dies</em> (CCD) for compute, two core complexes (CCX) per CCD chiplet
@@ -1197,11 +1191,9 @@ modified: 2025-10-14T12:13:13.038-05:00
 > Milan CPUs were launched by AMD on March 15, 2021.<sup>[\[47\]](https://en.wikipedia.org/wiki/Epyc#cite_note-50)</sup>
 >
 > Milan-X CPUs were launched March 21, 2022.<sup>[\[6\]](https://en.wikipedia.org/wiki/Epyc#cite_note-:0-6)</sup> They use 3D V-Cache technology to increase the maximum L3 cache per socket capacity from 256 MB to 768 MB.<sup>[\[48\]](https://en.wikipedia.org/wiki/Epyc#cite_note-51)</sup><sup>[\[49\]](https://en.wikipedia.org/wiki/Epyc#cite_note-52)</sup><sup>[\[50\]](https://en.wikipedia.org/wiki/Epyc#cite_note-53)</sup>
->
 > ### EPYC 7003 series
 >
 > Common features:
->
 > - [SP3](https://en.wikipedia.org/wiki/Socket_SP3) socket
 > - [Zen 3](https://en.wikipedia.org/wiki/Zen_3) microarchitecture
 > - [TSMC](https://en.wikipedia.org/wiki/TSMC) [7 nm process](https://en.wikipedia.org/wiki/7_nm_process) for the compute and cache dies, [GloFo](https://en.wikipedia.org/wiki/GlobalFoundries) [14 nm process](https://en.wikipedia.org/wiki/14_nm_process) for the I/O die
@@ -3285,7 +3277,6 @@ modified: 2025-10-14T12:13:13.038-05:00
 
 > [!expand-ui]- Fifth generation Epyc (Grado, Turin and Turin Dense)
 > The fifth generation of Epyc processors were showcased by AMD at Computex 2024 on June 3. Named the Epyc 9005 series, it will come in two variants:<sup>[\[58\]](https://en.wikipedia.org/wiki/Epyc#cite_note-63)</sup>
->
 > - [Zen 5](https://en.wikipedia.org/wiki/Zen_5) based, up to 128 cores and 256 threads, built on [TSMC](https://en.wikipedia.org/wiki/TSMC) [N4X](https://en.wikipedia.org/wiki/5_nm_process) process
 > - [Zen 5c](https://en.wikipedia.org/wiki/Zen_5c) based, up to 192 cores and 384 threads, built on [TSMC](https://en.wikipedia.org/wiki/TSMC) [N3E](https://en.wikipedia.org/wiki/3_nm_process) process
 >

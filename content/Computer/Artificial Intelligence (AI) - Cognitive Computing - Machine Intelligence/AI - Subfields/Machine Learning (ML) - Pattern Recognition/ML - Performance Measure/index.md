@@ -1,17 +1,15 @@
 ---
-publish: true
-title: ML - Performance Measure
+title: "ML - Performance Measure"
 created: 2024-08-11T14:27:38.597-05:00
 modified: 2024-08-11T14:30:12.463-05:00
+parent: "[[Machine Learning (ML) - Pattern Recognition]]"
+children: []
 ---
-
 ###### Performance Measure
-
-```excerpt
+````excerpt
 - is specific to the [[ML - Tasks／Problems|task 𝑇]]
 - are evaluated over a [[ML - Training／Validation／Test Data／Set - Training／Validation／Test Error|test-set]] (separate from [[ML - Training／Validation／Test Data／Set - Training／Validation／Test Error|training-set]])
-```
-
+````
 ^excerpt
 
 # Performance Measure - Examples

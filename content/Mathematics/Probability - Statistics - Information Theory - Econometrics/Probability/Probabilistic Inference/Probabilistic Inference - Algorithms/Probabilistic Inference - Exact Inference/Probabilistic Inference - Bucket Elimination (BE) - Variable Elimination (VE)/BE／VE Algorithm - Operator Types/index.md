@@ -1,11 +1,11 @@
 ---
-publish: true
-title: BE／VE Algorithm - Operator Types
+title: "BE／VE Algorithm - Operator Types"
 created: 2021-09-13T05:28:22.095-05:00
 modified: 2021-09-13T05:28:22.095-05:00
+parent: "[[Probabilistic Inference - Bucket Elimination (BE) - Variable Elimination (VE)]]"
+children: []
 ---
-
-```excerpt
+````excerpt
 <strong>𝛱 product-combination</strong> - merges 2 factors into 1 factor
 
 > [!expand]- Click here to expand...
@@ -29,6 +29,5 @@ modified: 2021-09-13T05:28:22.095-05:00
 > 𝐹(𝐴,𝐵,𝐶=𝑐1) = 𝐹(𝐴,𝐵)
 >
 > ![[BE／VE Algorithm - Operator Types/factor-reduction-instantiation .png|301]]
-```
-
+````
 ^excerpt

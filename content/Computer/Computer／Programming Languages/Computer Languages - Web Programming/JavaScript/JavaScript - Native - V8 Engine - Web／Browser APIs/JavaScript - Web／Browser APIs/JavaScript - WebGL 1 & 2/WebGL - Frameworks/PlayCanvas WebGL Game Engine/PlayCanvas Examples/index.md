@@ -1,15 +1,14 @@
 ---
-publish: true
-title: PlayCanvas Examples
+title: "PlayCanvas Examples"
 created: 2025-09-11T00:22:59.479-05:00
 modified: 2025-09-13T03:22:31.461-05:00
+parent: "[[PlayCanvas WebGL Game Engine]]"
+children: []
 ---
-
 Rendering [[3D Gaussian Splatting (3DGS) File Formats]]
 
 > [!expand-ui]- Engine API - PLY / Bundled SOG File
 > Rendering:
->
 > - [[3DGS Polygon File Format (PLY)]]
 > - Bundled SOG File
 >
@@ -34,7 +33,6 @@ Rendering [[3D Gaussian Splatting (3DGS) File Formats]]
 > </body>
 > </html>
 > ```
->
 > ```
 > import { Application, Asset, AssetListLoader, Entity, FILLMODE_FILL_WINDOW, RESOLUTION_AUTO } from 'playcanvas';
 >
@@ -83,10 +81,9 @@ Rendering [[3D Gaussian Splatting (3DGS) File Formats]]
 > ```
 
 > [!expand-ui]- Engine API - Unbundled SOG
-> ![[Computer/Computer／Programming Languages/Computer Languages - Web Programming/JavaScript/JavaScript - Native - V8 Engine - Web／Browser APIs/JavaScript - Web／Browser APIs/JavaScript - WebGL 1 & 2/WebGL - Frameworks/PlayCanvas WebGL Game Engine/PlayCanvas Examples/play-canvas-engine-api-unbundled-sogs-example.png]]
+> ![[PlayCanvas Examples/play-canvas-engine-api-unbundled-sogs-example.png]]
 >
 > Rendering unbundled SOG
->
 > ```
 > <!DOCTYPE html>
 > <html lang="en">
@@ -108,7 +105,6 @@ Rendering [[3D Gaussian Splatting (3DGS) File Formats]]
 > </body>
 > </html>
 > ```
->
 > ```
 > import { Application, Asset, AssetListLoader, Entity, FILLMODE_FILL_WINDOW, RESOLUTION_AUTO } from 'playcanvas';
 >
@@ -161,7 +157,6 @@ Rendering [[3D Gaussian Splatting (3DGS) File Formats]]
 > ```
 
 > [!expand-ui]- Web Components - PLY / Bundled SOG File
->
 > ```
 > <!DOCTYPE html>
 > <html lang="en">

@@ -1,17 +1,19 @@
 ---
-publish: true
-title: Network／Protocol／Packet Analyzer／Sniffer
+title: "Network／Protocol／Packet Analyzer／Sniffer"
 created: 2019-03-16T03:02:35.542-05:00
 modified: 2023-05-11T19:19:01.476-05:00
+parent: "[[Computer Hacking Toolbox]]"
+children:
+  - "[[Ettercap]]"
+  - "[[Wireshark (Ethereal)]]"
+  - "[[tcpdump]]"
+  - "[[tshark]]"
 ---
-
 ###### Packet Sniffer/Analyzer
-
-```excerpt
+````excerpt
 - also known as a <strong>network analyzer</strong>, <strong>protocol analyzer,</strong> or <strong>packet sniffer</strong>—or, for particular types of networks, an <strong>Ethernet sniffer</strong> or <strong>wireless sniffer</strong>
 - is a computer program or piece of computer hardware that can intercept and log traffic that passes over a network
-```
-
+````
 ^excerpt
 
 # Packet Sniffer/Analyzer - Software

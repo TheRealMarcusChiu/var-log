@@ -1,29 +1,22 @@
 ---
-publish: true
-title: Enter Puzzles
+title: "Enter Puzzles"
 created: 2022-02-24T22:56:27.419-06:00
 modified: 2022-03-17T00:56:01.444-05:00
+parent: "[[Enter Entertainment]]"
+children: []
 ---
-
-# Puzzle #1
+# Puzzle \#1
 
 Given a 12 slot centrifuge, find a way to arrange 5 test tubes such that it is balanced (i.e. center-of-mass is at center)
-
 - test tubes are immutable and identical
 - 5 test tubes must be fill up 5 of the 12 slots
 
-![[Enter Entertainment/Enter Puzzles/Screen Shot 2022-02-25 at 10.02.04 AM.png]]
-
-# Puzzle #2
-
-![[Enter Entertainment/Enter Puzzles/puzzle-1.jpg|395x250]]
-
-# Puzzle #3
-
-![[Enter Entertainment/Enter Puzzles/Screen Shot 2022-02-27 at 11.32.52 AM.png]]
-
-# Puzzle #4
-
+![[Enter Puzzles/Screen Shot 2022-02-25 at 10.02.04 AM.png]]
+# Puzzle \#2
+![[Enter Puzzles/puzzle-1.jpg|395x250]]
+# Puzzle \#3
+![[Enter Puzzles/Screen Shot 2022-02-27 at 11.32.52 AM.png]]
+# Puzzle \#4
 1. There are five houses.
 2. The Englishman lives in the red house.
 3. The Spaniard owns the dog.

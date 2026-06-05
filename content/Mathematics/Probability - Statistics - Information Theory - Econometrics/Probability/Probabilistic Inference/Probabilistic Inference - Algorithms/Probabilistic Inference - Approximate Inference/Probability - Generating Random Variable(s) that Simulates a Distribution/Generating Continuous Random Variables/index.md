@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Generating Continuous Random Variables
+title: "Generating Continuous Random Variables"
 created: 2021-09-13T05:28:19.192-05:00
 modified: 2024-03-22T13:59:37.459-05:00
+parent: "[[Probability - Generating Random Variable(s) that Simulates a Distribution]]"
+children:
+  - "[[Generating Random Variables - Uniform Distribution]]"
 ---
-
 these techniques can be used for [[Probabilistic Inference - Approximate Inference]]
 
 ```merge-table

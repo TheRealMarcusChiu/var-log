@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Percentage of Water in Human Body
+title: "Percentage of Water in Human Body"
 created: 2021-09-13T04:45:31.904-05:00
 modified: 2021-09-13T04:45:31.904-05:00
+parent: "[[Human Science]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

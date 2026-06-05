@@ -1,44 +1,34 @@
 ---
-publish: true
-title: Let's Encrypt - certbot
+title: "Let's Encrypt - certbot"
 created: 2025-06-12T12:04:48.539-05:00
 modified: 2025-06-12T12:35:03.166-05:00
+parent: "[[Certbot]]"
+children: []
 ---
-
 # Install Dependencies
-
 ```
 sudo yum install python3 python-devel augeas-devel gcc
 ```
-
 # Set up a Python virtual environment
-
 ```
 sudo python3 -m venv /opt/certbot/
 sudo /opt/certbot/bin/pip install --upgrade pip
 ```
-
 # Install Certbot
-
 ```
 sudo /opt/certbot/bin/pip install certbot certbot-nginx
 sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 ```
-
 # Install DNS Plugin For [[AWS - Route53|AWS Route53]]
-
 ```
 sudo /opt/certbot/bin/pip install certbot-dns-route53
 ```
-
 # Use Certbot to Obtain Certificate
-
 ```
 sudo certbot certonly --dns-route53 -d "marcuschiu.com" -d "*.marcuschiu.com"
 ```
 
 > [!expand-ui]- Output
->
 > ```
 > /opt/certbot/lib64/python3.7/site-packages/OpenSSL/SSL.py:15: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. The next release of cryptography will remove support for Python 3.7.
 >   from cryptography import x509
@@ -69,9 +59,7 @@ sudo certbot certonly --dns-route53 -d "marcuschiu.com" -d "*.marcuschiu.com"
 >  * Donating to EFF:                    https://eff.org/donate-le
 > - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 > ```
-
 # Configure Nginx to Point to Issued Certificates
-
 ```
 ssl_certificate     /etc/letsencrypt/live/marcuschiu.com/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/marcuschiu.com/privkey.pem;
@@ -97,15 +85,11 @@ server {
     return 301 https://$host$request_uri;
 }
 ```
-
 # Setup Auto Renewal Process
-
 ```
 echo "0 0,12 * * * root /opt/certbot/bin/python -c 'import random; import time; time.sleep(random.random() * 3600)' && sudo certbot renew -q" | sudo tee -a /etc/crontab > /dev/null
 ```
-
 # Monthly Upgrade
-
 ```
 sudo /opt/certbot/bin/pip install --upgrade certbot certbot-nginx certbot-dns-route53
 ```

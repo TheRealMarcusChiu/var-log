@@ -1,11 +1,18 @@
 ---
-publish: true
-title: Java - Spring - ApplicationContext - WebApplicationContext
+title: "Java - Spring - ApplicationContext - WebApplicationContext"
 created: 2020-10-20T16:47:09.342-05:00
 modified: 2021-07-04T19:56:52.824-05:00
+parent: "[[Java - Spring - ApplicationContext]]"
+children:
+  - "[[Java - How Does (Spring vs Spring Boot) Bootstrap a Web Application？]]"
+  - "[[Java - Spring - ApplicationContext vs WebApplicationContext]]"
 ---
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # 1 - The Root WebApplicationContext
 
@@ -15,7 +22,6 @@ this root web application context is managed by a listener of class <code><font
 
 > [!expand-ui]- Using web.xml and an XML ApplicationContext
 > When using <code><font style="color: rgb(128,128,128);">web.xml</font></code>, we configure the listener as usual:
->
 > ```
 > <listener>
 >     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -25,7 +31,6 @@ this root web application context is managed by a listener of class <code><font
 > By default, the listener will load an XML <code><font style="color: rgb(128,128,128);">ApplicationContext</font></code> from <code><font style="color: rgb(128,128,128);">/WEB-INF/applicationContext.xml</font></code>
 >
 > We can specify an alternate location of the XML context configuration with the <code><font style="color: rgb(128,128,128);">contextConfigLocation</font></code> parameter:
->
 > ```
 > <context-param>
 >     <param-name>contextConfigLocation</param-name>
@@ -34,7 +39,6 @@ this root web application context is managed by a listener of class <code><font
 > ```
 >
 > Or more than one location, separated by commas:
->
 > ```
 > <context-param>
 >     <param-name>contextConfigLocation</param-name>
@@ -43,7 +47,6 @@ this root web application context is managed by a listener of class <code><font
 > ```
 >
 > We can even use patterns:
->
 > ```
 > <context-param>
 >     <param-name>contextConfigLocation</param-name>
@@ -57,7 +60,6 @@ this root web application context is managed by a listener of class <code><font
 > We can also specify other types of contexts besides the default XML-based one. Let's see, for example, how to use Java annotations configuration instead.
 >
 > We use the <code><font style="color: rgb(128,128,128);">contextClass </font></code>parameter to tell the listener which type of context to instantiate
->
 > ```
 > <context-param>
 >     <param-name>contextClass</param-name>
@@ -68,7 +70,6 @@ this root web application context is managed by a listener of class <code><font
 > Every type of context may have a default configuration location. In our case, the <code><font style="color: rgb(128,128,128);">AnnotationConfigWebApplicationContext</font></code> does not have one, so we have to provide it.
 >
 > We can thus list one or more classes annotated with [[Java - Spring - @Configuration|@Configuration]]:
->
 > ```
 > <context-param>
 >     <param-name>contextConfigLocation</param-name>
@@ -80,7 +81,6 @@ this root web application context is managed by a listener of class <code><font
 > ```
 >
 > Or we can tell the context to scan one or more packages:
->
 > ```
 > <context-param>
 >     <param-name>contextConfigLocation</param-name>
@@ -89,7 +89,6 @@ this root web application context is managed by a listener of class <code><font
 > ```
 >
 > And, of course, we can mix and match the two options.
-
 # 2 - Programmatic Configuration With Servlet 3.x
 
 [[Java - Servlet API／Specification (2.5 - 3.0 - 3.1 - 4.0 - 5.0)|Version 3 of the Servlet API]] has made configuration through the <code><font style="color: rgb(128,128,128);">web.xml</font></code> file completely optional. Libraries can provide their web fragments, which are pieces of XML configuration that can register listeners, filters, servlets and so on.
@@ -104,7 +103,6 @@ Let's now look at how we can use this facility to create the same types of root 
 
 > [!expand-ui]- Using Servlet 3.x and an XML ApplicationContext
 > We'll implement the aforementioned <code><font style="color: rgb(128,128,128);">onStartup</font></code> method:
->
 > ```
 > public class ApplicationInitializer implements WebApplicationInitializer {
 >     
@@ -118,7 +116,6 @@ Let's now look at how we can use this facility to create the same types of root 
 > ```
 >
 > We first create a root context. Since we want to use XML, it has to be an XML-based application context, and since we're in a web environment, it has to <code><font style="color: rgb(128,128,128);">implements WebApplicationContext</font></code> as well.
->
 > 1. The first line, thus, is the explicit version of the <code><font style="color: rgb(128,128,128);">contextClass</font></code> parameter that we've encountered earlier, with which we decide which specific context implementation to use
 > 2. Then, in the second line, we tell the context where to load its bean definitions from. Again, <code><font style="color: rgb(128,128,128);">setConfigLocations</font></code> is the programmatic analogous of the <code><font style="color: rgb(128,128,128);">contextConfigLocation</font></code>parameter in <code><font style="color: rgb(128,128,128);">web.xml</font></code>
 > 3. Finally, we create a <code><font style="color: rgb(128,128,128);">ContextLoaderListener</font></code>with the root context and register it with the servlet container. As we can see, <code><font style="color: rgb(128,128,128);">ContextLoaderListener</font></code> has an appropriate constructor that takes a <code><font style="color: rgb(128,128,128);">WebApplicationContext </font></code>and makes it available to the application
@@ -133,7 +130,6 @@ Let's now look at how we can use this facility to create the same types of root 
 > Its job, as the name implies, is to create a <code><font style="color: rgb(128,128,128);">ContextLoaderListener</font></code> and register it with the servlet container.
 >
 > We only have to tell it how to build the root context:
->
 > ```
 > public class AnnotationsBasedApplicationInitializer extends AbstractContextLoaderInitializer {
 >  
@@ -149,18 +145,16 @@ Let's now look at how we can use this facility to create the same types of root 
 > Here we can see that we no longer need to register the <code><font style="color: rgb(128,128,128);">ContextLoaderListener</font></code>, which saves us from a little bit of boilerplate code.
 >
 > Note also the use of the <em>register </em>method that is specific to <font style="color: rgb(128,128,128);"><code>AnnotationConfigWebApplicationContext</code> </font>instead of the more generic <code><font style="color: rgb(128,128,128);">setConfigLocations</font></code>: by invoking it, we can register individual <code><font style="color: rgb(128,128,0);">@Configuration</font></code> annotated classes with the context, thus avoiding package scanning
-
 # 3 - DispatcherServlet (Child WebApplicationContext)
 
 Let's now focus on another type of <code><font style="color: rgb(128,128,128);">ApplicationContext</font></code>. This time, we'll be referring to a feature which is specific to Spring MVC, rather than part of Spring's generic web application support.
 
 Spring MVC applications have at least one <code><font style="color: rgb(128,128,128);">DispatcherServlet</font></code> configured (but possibly more than one)
-
 - Each <code><font style="color: rgb(128,128,128);">DispatcherServlet</font></code> has its own <code><font style="color: rgb(128,128,128);">WebApplicationContext</font></code>, which inherits all the beans already defined in the root <code><font style="color: rgb(128,128,128);">WebApplicationContext</font></code>
 - Each <code><font style="color: rgb(128,128,128);">DispatcherServlet</font></code> that receives incoming client-requests, dispatches them to the appropriate controller method, and returns the response
 
-> [!expand-ui]- Using web.xml and an XML Application Context <code><font style="color: rgb(128,128,128);">DispatcherServlet</font></code> is typically declared in <code><font style="color: rgb(128,128,128);">web.xml</font></code> with a name and a mapping
->
+> [!expand-ui]- Using web.xml and an XML Application Context
+> <code><font style="color: rgb(128,128,128);">DispatcherServlet</font></code> is typically declared in <code><font style="color: rgb(128,128,128);">web.xml</font></code> with a name and a mapping
 > ```
 > <servlet>
 >     <servlet-name>normal-webapp</servlet-name>
@@ -176,7 +170,6 @@ Spring MVC applications have at least one <code><font style="color: rgb(128,128,
 > If not otherwise specified, the name of the servlet is used to determine the XML file to load. In our example, we'll use the file <code><font style="color: rgb(128,128,128);">WEB-INF/normal-webapp-servlet.xml</font></code>.
 >
 > We can also specify one or more paths to XML files, in a similar fashion to <code><font style="color: rgb(128,128,128);">ContextLoaderListener</font></code>:
->
 > ```
 > <servlet>
 >     <servlet-name>normal-webapp</servlet-name>
@@ -191,7 +184,6 @@ Spring MVC applications have at least one <code><font style="color: rgb(128,128,
 
 > [!expand-ui]- Using web.xml and a Java Application Context
 > When we want to use a different type of context we proceed like with <code><font style="color: rgb(128,128,128);">ContextLoaderListener</font></code>, again. That is, we specify a <code><font style="color: rgb(128,128,128);">contextClass</font></code> parameter along with a suitable <code><font style="color: rgb(128,128,128);">contextConfigLocation</font></code>:
->
 > ```
 > <servlet>
 >     <servlet-name>normal-webapp-annotations</servlet-name>
@@ -214,7 +206,6 @@ Spring MVC applications have at least one <code><font style="color: rgb(128,128,
 > So, let's start with a generic <code><font style="color: rgb(128,128,128);">WebApplicationInitializer</font></code> and an XML application context.
 >
 > As we've seen previously, we have to implement the <code><font style="color: rgb(128,128,128);">onStartup</font></code> method. However, this time we'll create and register a dispatcher servlet, too:
->
 > ```
 > public class ApplicationInitializer implements WebApplicationInitializer {
 >     
@@ -238,7 +229,6 @@ Spring MVC applications have at least one <code><font style="color: rgb(128,128,
 > This time, we'll configure an annotations-based context using the <code><font style="color: rgb(128,128,128);">AbstractDispatcherServletInitializer</font></code> (which is a specialized implementation of <code><font style="color: rgb(128,128,128);">WebApplicationInitializer</font></code>)
 >
 > That's an abstract class that, besides creating a root web application context as previously seen, allows us to register one dispatcher servlet with minimum boilerplate:
->
 > ```
 > public class MyApplicationInitializer extends AbstractDispatcherServletInitializer {
 > 	@Override
@@ -256,11 +246,9 @@ Spring MVC applications have at least one <code><font style="color: rgb(128,128,
 > ```
 >
 > Here we can see a method for creating the context associated with the servlet, exactly like we've seen before for the root context. Also, we have a method to specify the servlet's mappings, as in <code><font style="color: rgb(128,128,128);">web.xml</font></code>.
-
 # 4 - Parent and Child Contexts
 
 So far, we've seen two major types of contexts:
-
 - the root web application context
 - the dispatcher servlet contexts
 
@@ -276,7 +264,7 @@ Still, the parent-child relationship becomes useful when we have multiple dispat
 
 In general, we declare multiple dispatcher servlets when we need multiple sets of MVC configuration. For example, we may have a REST API alongside a traditional MVC application or an unsecured and a secure section of a website:
 
-![[Computer/Computer／Programming Languages/Computer Languages - General-Purpose Programming Languages (GPL)/Java Platform/Java/Java - Projects & Code Examples/Java - Non-Native Libraries/Java - Spring Family/Java - Spring Framework/Java - Spring Framework - Core - Context (Beans／Components／Containers／etc)/Java - Spring - ApplicationContext/Java - Spring - ApplicationContext - WebApplicationContext/parent-child-root-dispatcher-contexts.png|301]]
+![[Java - Spring - ApplicationContext - WebApplicationContext/parent-child-root-dispatcher-contexts.png|301]]
 
 Note: when we extend <code><font style="color: rgb(128,128,128);">AbstractDispatcherServletInitializer </font></code>(see section 3.4), we register both a root web application context and a single dispatcher servlet.
 
@@ -285,14 +273,12 @@ So, if we want more than one servlet, we need multiple <code><font style="color
 Fortunately, the <code><font style="color: rgb(128,128,128);">createRootApplicationContext</font></code> method can return <code><font style="color: rgb(128,128,128);">null</font></code>. Thus, we can have one <code><font style="color: rgb(128,128,128);">AbstractContextLoaderInitializer </font></code>and many <code><font style="color: rgb(128,128,128);">AbstractDispatcherServletInitializer </font></code>implementations that don't create a root context. In such a scenario, it is advisable to order the initializers with <code><font style="color: rgb(128,128,0);">@Order</font></code> explicitly.
 
 Also, note that <code><font style="color: rgb(128,128,128);">AbstractDispatcherServletInitializer</font></code> registers the servlet under a given name (<em>dispatcher</em>) and, of course, we cannot have multiple servlets with the same name. So, we need to override <code><font style="color: rgb(128,128,128);">getServletName</font></code>:
-
 ```
 @Override
 protected String getServletName() {
     return "another-dispatcher";
 }
 ```
-
 ## A Parent and Child Context Example
 
 > [!expand]- Click here to expand...
@@ -301,11 +287,9 @@ protected String getServletName() {
 > Also, suppose that some of the controllers need a service that holds significant resources; a ubiquitous case is persistence. Then, we'll want to instantiate that service only once, to avoid doubling its resource usage, and because we believe in the Don't Repeat Yourself principle!
 >
 > Let's now proceed with the example.
->
 > ### The Shared Service
 >
 > In our hello world example, we settled for a simpler greeter service instead of persistence:
->
 > ```
 > package com.marcuschiu.contexts.services;
 >
@@ -321,7 +305,6 @@ protected String getServletName() {
 > ```
 >
 > We'll declare the service in the root web application context, using component scanning:
->
 > ```
 > @Configuration
 > @ComponentScan(basePackages = { "com.marcuschiu.contexts.services" })
@@ -331,15 +314,12 @@ protected String getServletName() {
 > ```
 >
 > we might prefer XML instead
->
 > ```
 > <context:component-scan base-package="com.marcuschiu.contexts.services" />
 > ```
->
 > ### The Controllers
 >
 > Let's define two simple controllers which use the same service and output a greeting:
->
 > ```
 > package com.marcuschiu.contexts.normal;
 >  
@@ -358,7 +338,6 @@ protected String getServletName() {
 > ```
 >
 > and
->
 > ```
 > package com.marcuschiu.contexts.secure;
 >
@@ -377,11 +356,9 @@ protected String getServletName() {
 > ```
 >
 > As we can see, the controllers lie in two different packages and print different messages: one says “normal”, the other “secure”.
->
 > ### The Dispatcher Servlet Contexts
 >
 > As we said earlier, we're going to have two different dispatcher servlet contexts, one for each controller. So, let's define them, in Java:
->
 > ```
 > //Normal context
 > @Configuration
@@ -401,7 +378,6 @@ protected String getServletName() {
 > ```
 >
 > or if we prefer XML instead
->
 > ```
 > <!-- normal-webapp-servlet.xml -->
 > <context:component-scan base-package="com.marcuschiu.contexts.normal" />
@@ -409,13 +385,11 @@ protected String getServletName() {
 > <!-- secure-webapp-servlet.xml -->
 > <context:component-scan base-package="com.marcuschiu.contexts.secure" />
 > ```
->
 > ### Putting It All Together
 >
 > Now that we have all the pieces, we just need to tell Spring to wire them up. Recall that we need to load the root context and define the two dispatcher servlets. Although we've seen multiple ways to do that, we'll now focus on two scenarios, a Java one and an XML one. Let's start with Java.
 >
 > We'll define an <code><font style="color: rgb(128,128,128);">AbstractContextLoaderInitializer </font></code>to load the root context:
->
 > ```
 > @Override
 > protected WebApplicationContext createRootApplicationContext() {
@@ -426,7 +400,6 @@ protected String getServletName() {
 > ```
 >
 > Then, we need to create the two servlets, thus we'll define two subclasses of <code><font style="color: rgb(128,128,128);">AbstractDispatcherServletInitializer</font></code>. First, the “normal” one:
->
 > ```
 > @Override
 > protected WebApplicationContext createServletApplicationContext() {
@@ -448,7 +421,6 @@ protected String getServletName() {
 > ```
 >
 > Then, the “secure” one, which loads a different context and is mapped to a different path:
->
 > ```
 > @Override
 > protected WebApplicationContext createServletApplicationContext() {
@@ -474,7 +446,6 @@ protected String getServletName() {
 > We can do the same with <code><font style="color: rgb(128,128,128);">web.xml</font></code>, again just by combining the pieces we've discussed so far.
 >
 > Define a root application context:
->
 > ```
 > <listener>
 > 	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -482,7 +453,6 @@ protected String getServletName() {
 > ```
 >
 > A “normal” dispatcher context:
->
 > ```
 > <servlet>
 >     <servlet-name>normal-webapp</servlet-name>
@@ -498,7 +468,6 @@ protected String getServletName() {
 > ```
 >
 > And, finally, a “secure” context:
->
 > ```
 > <servlet>
 >     <servlet-name>secure-webapp</servlet-name>
@@ -512,7 +481,6 @@ protected String getServletName() {
 >     <url-pattern>/s/api/*</url-pattern>
 > </servlet-mapping>
 > ```
-
 # 5 - Combining Multiple Contexts
 
 There are other ways than parent-child to combine multiple configuration locations, to split big contexts and better separate different concerns. We've seen one example already: when we specify <code><font style="color: rgb(128,128,128);">contextConfigLocation </font></code>with multiple paths or packages, Spring builds a single context by combining all the bean definitions, as if they were written in a single XML file or Java class, in order.
@@ -520,13 +488,11 @@ There are other ways than parent-child to combine multiple configuration locatio
 However, we can achieve a similar effect with other means and even use different approaches together. Let's examine our options.
 
 One possibility is component scanning, which we explain [in another article](https://www.baeldung.com/spring-bean-annotations#scanning).
-
 ### Importing a Context Into Another
 
 Alternatively, we can have a context definition import another one. Depending on the scenario, we have different kinds of imports.
 
 Importing a <code><font style="color: rgb(128,128,0);">@Configuration </font></code>class in Java:
-
 ```
 @Configuration
 @Import(SomeOtherConfiguration.class)
@@ -534,7 +500,6 @@ public class Config { ... }
 ```
 
 Loading some other type of resource, for example, an XML context definition, in Java:
-
 ```
 @Configuration
 @ImportResource("classpath:basicConfigForPropertiesTwo.xml")
@@ -542,13 +507,11 @@ public class Config { ... }
 ```
 
 Finally, including an XML file in another one:
-
 ```
 <import resource="greeting.xml" />
 ```
 
 Thus, we have many ways to organize the services, components, controllers, etc., that collaborate to create our awesome application. And the nice thing is that IDEs understand them all!
-
 # 6 - Spring Boot Web Applications
 
 Spring Boot automatically configures the components of the application, so, generally, there is less need to think about how to organize them.
@@ -560,7 +523,6 @@ Spring Boot web applications running in an embedded [[Java - Servlet API／Speci
 Should it be necessary, we can write the same logic in a <code><font style="color: rgb(128,128,128);">SpringBootServletInitializer</font></code>or a <code><font style="color: rgb(128,128,128);">[[Java - Spring - ApplicationContext - ServletContextInitializer|ServletContextInitializer]]</font></code> instead, depending on the chosen deployment strategy.
 
 However, for adding servlets, filters, and listeners as seen in this article, it is not necessary to do so. In fact, Spring Boot automatically registers every servlet-related beans to the container:
-
 ```
 @Bean
 public Servlet myServlet() { ... }

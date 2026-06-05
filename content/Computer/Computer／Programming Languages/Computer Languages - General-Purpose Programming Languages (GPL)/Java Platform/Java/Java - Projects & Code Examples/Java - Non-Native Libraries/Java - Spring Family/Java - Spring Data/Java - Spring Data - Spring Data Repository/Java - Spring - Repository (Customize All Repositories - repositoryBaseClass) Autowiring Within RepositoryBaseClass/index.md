@@ -1,14 +1,12 @@
 ---
-publish: true
-title: Java - Spring - Repository (Customize All Repositories - repositoryBaseClass) Autowiring Within RepositoryBaseClass
+title: "Java - Spring - Repository (Customize All Repositories - repositoryBaseClass) Autowiring Within RepositoryBaseClass"
 created: 2021-06-28T19:29:00.438-05:00
 modified: 2021-06-28T20:14:16.825-05:00
+parent: "[[Java - Spring Data - Spring Data Repository]]"
+children: []
 ---
-
 Let's say you have setup a repositoryBaseClass according to [[Java - Spring - Repository (Customize All Repositories - repositoryBaseClass)|here]], and you want to autowire beans into that base class. This is the article to follow
-
 # RepositoryBaseClass
-
 ```
 public class RepositoryBaseClass<T extends Object, ID extends Serializable> extends SimpleNeo4jRepository<T, ID> {
 
@@ -22,9 +20,7 @@ public class RepositoryBaseClass<T extends Object, ID extends Serializable> exte
 	// use exampleService
 }
 ```
-
 # RepositoryFactory
-
 ```
 public class MyNeo4jRepositoryFactory extends Neo4jRepositoryFactory {
 
@@ -48,9 +44,7 @@ public class MyNeo4jRepositoryFactory extends Neo4jRepositoryFactory {
     }
 }
 ```
-
 # RepositoryFactoryBean
-
 ```
 public class MyNeo4jRepositoryFactoryBean<T extends Neo4jRepository<S, ID>, S, ID extends Serializable> extends Neo4jRepositoryFactoryBean<T, S, ID> {
 
@@ -77,16 +71,12 @@ public class MyNeo4jRepositoryFactoryBean<T extends Neo4jRepository<S, ID>, S, I
     }
 }
 ```
-
 # Tying it Together
-
 ```
 @EnableNeo4jRepositories(
         repositoryBaseClass = RepositoryBaseClass.class,
         repositoryFactoryBeanClass = MyRepositoryFactoryBean.class)
 public class RepositoryConfiguration {}
 ```
-
 # Resources
-
-- <https://stackoverflow.com/questions/54600448/how-to-autowire-beans-inside-the-implementation-of-a-norepositorybean>
+- [https://stackoverflow.com/questions/54600448/how-to-autowire-beans-inside-the-implementation-of-a-norepositorybean](https://stackoverflow.com/questions/54600448/how-to-autowire-beans-inside-the-implementation-of-a-norepositorybean)

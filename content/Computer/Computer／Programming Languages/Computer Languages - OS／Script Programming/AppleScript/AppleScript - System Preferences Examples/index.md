@@ -1,10 +1,10 @@
 ---
-publish: true
-title: AppleScript - System Preferences Examples
+title: "AppleScript - System Preferences Examples"
 created: 2020-07-04T20:55:28.519-05:00
 modified: 2020-07-04T20:56:45.430-05:00
+parent: "[[AppleScript]]"
+children: []
 ---
-
 ```applescript
 log "get every anchor of current pane"
 tell application "System Preferences"

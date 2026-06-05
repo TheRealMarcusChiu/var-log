@@ -1,26 +1,23 @@
 ---
-publish: true
-title: Verilog - 5 - Assign／Assigment Statements
+title: "Verilog - 5 - Assign／Assigment Statements"
 created: 2023-03-13T15:02:24.935-05:00
 modified: 2023-03-13T15:43:29.880-05:00
+parent: "[[Verilog - Tutorials]]"
+children: []
 ---
-
 # Syntax
 
 The assignment syntax
-
 - starts with the keyword <code><font style="color: rgb(122,134,154);">assign</font></code>
 - the signal name which can either be a single signal or a concatenation of different signal nets
 - drive strength is optional
 - the delay is optional - useful for specifying delays for gates and is used to model timing behavior in real hardware because the value dictates when the net should be assigned with the evaluated value
 - the expression or signal on the right-hand side (RHS) is evaluated and assigned to the net or expression of nets on the left-hand side (LHS)
-
 ```
 assign <net_expression> = [drive_strength] [delay] <expression of different signals or constant value>
 ```
 
 Rules:
-
 - LHS should always be a scalar or vector net or concatenation of scalar or vector nets and never a scalar or vector register
 - RHS can contain scalar or vector registers and function calls
 - whenever any operand on the RHS changes in value, LHS will be updated with the new value
@@ -28,18 +25,14 @@ Rules:
 - it is illegal to assign <code><font style="color: rgb(122,134,154);">reg</font></code>. <code><font style="color: rgb(122,134,154);">reg</font></code> signals can only be driven in procedural blocks like <code><font style="color: rgb(122,134,154);">initial</font></code> and <code><font style="color: rgb(122,134,154);">always</font></code>.
 
 # Implicit vs Explicit Assignment
-
 ```
 wire [1:0] a;
 assign a = x & y;		// explicit assignment
 ```
-
 ```
 wire [1:0] a = x & y; 	// implicit assignment
 ```
-
 # Combinatorial Assignment
-
 ```
 module combo(input a, b, c, d,
 			 output o);
@@ -49,9 +42,7 @@ module combo(input a, b, c, d,
 	// ^ is XOR
 endmodule
 ```
-
 # Examples
-
 ```
 module xyz(input [3:0] 	x,
 		   input		y,

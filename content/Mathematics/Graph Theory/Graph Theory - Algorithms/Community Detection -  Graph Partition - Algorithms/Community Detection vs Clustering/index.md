@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Community Detection vs Clustering
+title: "Community Detection vs Clustering"
 created: 2021-11-02T01:10:37.639-05:00
 modified: 2021-11-02T01:14:13.902-05:00
+parent: "[[Community Detection -  Graph Partition - Algorithms]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

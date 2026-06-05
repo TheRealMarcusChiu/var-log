@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Facade Pattern
+title: "Facade Pattern"
 created: 2020-10-20T15:19:37.132-05:00
 modified: 2026-01-10T16:30:38.985-06:00
+parent: "[[Wrapper Patterns]]"
+children: []
 ---
-
 ###### Facade Pattern
-
-```excerpt
+````excerpt
 - is a type of [[Structural Design Patterns|structural design pattern]] that provides a simplified interface to a complex subsystem
-```
-
+````
 ^excerpt
 
 # Real-World Example
@@ -21,12 +19,10 @@ modified: 2026-01-10T16:30:38.985-06:00
 > [!expand-ui]- Customer-Service Example
 > Consumers encounter a Facade when ordering from a catalog. The consumer calls one number and speaks with a customer service representative. The customer service representative acts as a Facade, providing an interface to the order fulfillment department, the billing department, and the shipping department
 >
-> ![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Structural Design Patterns/Wrapper Patterns/Facade Pattern/facade-example-realife.png]]
-
+> ![[Facade Pattern/facade-example-realife.png]]
 # Code Example
 
 > [!expand-ui]- Computer Example (Simple)
->
 > ```
 > class CPU {
 >     void start() {}
@@ -50,14 +46,12 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ```
 >
 > usage
->
 > ```
 > new ComputerFacade().start();
 > ```
 
 > [!expand-ui]- Goldmine Example (Complex)
 > Let's take our goldmine example from above. Here we have the dwarven mine worker hierarchy. First, there's a base class <code><font style="color: rgb(122,134,154);">DwarvenMineWorker</font></code>:
->
 > ```
 > @Slf4j
 > public abstract class DwarvenMineWorker {
@@ -116,7 +110,6 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ```
 >
 > Then we have the concrete dwarf classes <code>DwarvenTunnelDigger</code>, <code>DwarvenGoldDigger</code> and <code>DwarvenCartOperator</code>:
->
 > ```
 > @Slf4j
 > public class DwarvenTunnelDigger extends DwarvenMineWorker {
@@ -162,7 +155,6 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ```
 >
 > To operate all these goldmine workers we have the <code>DwarvenGoldmineFacade</code>:
->
 > ```
 > public class DwarvenGoldmineFacade {
 >
@@ -195,7 +187,6 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ```
 >
 > Now let's use the facade:
->
 > ```
 > var facade = new DwarvenGoldmineFacade();
 > facade.startNewDay();
@@ -204,7 +195,6 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ```
 >
 > Program output:
->
 > ```
 > // Dwarf gold digger wakes up.
 > // Dwarf gold digger goes to the mine.
@@ -224,7 +214,6 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ```
 
 > [!expand-ui]- Cartesian and Polar Coordinates (Complex)
->
 > ```
 > // 1. Subsystem
 > class PointCartesian {
@@ -341,7 +330,6 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ```
 >
 > output
->
 > ```
 > after move:  origin is (0.0,0.0), end is (3.0,3.0)
 >   PointPolar is [4.242640687119285@90.0]
@@ -349,11 +337,8 @@ modified: 2026-01-10T16:30:38.985-06:00
 >   PointPolar is [0.9999779997579947@60.000727780827376]
 > 30 degrees to 60 degrees: origin is (2.0,1.0), end is (2.499977999677324,1.8660127018922195)
 > ```
-
 # Code Structure
-
-![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Structural Design Patterns/Wrapper Patterns/Facade Pattern/facade-structure.png|700]]
-
+![[Facade Pattern/facade-structure.png|700]]
 # Comparisons
 
 > [!expand]- Click here to expand...
@@ -366,7 +351,5 @@ modified: 2026-01-10T16:30:38.985-06:00
 > ![[Facade Pattern vs Flyweight Pattern#^excerpt]]
 >
 > ![[Facade Pattern vs Singleton Pattern#^excerpt]]
-
 # Resources
-
-- <https://java-design-patterns.com/patterns/facade/>
+- [https://java-design-patterns.com/patterns/facade/](https://java-design-patterns.com/patterns/facade/)

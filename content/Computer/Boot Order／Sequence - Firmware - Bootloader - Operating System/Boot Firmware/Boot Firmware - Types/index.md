@@ -1,10 +1,16 @@
 ---
-publish: true
-title: Boot Firmware - Types
+title: "Boot Firmware - Types"
 created: 2019-08-28T19:55:42.767-05:00
 modified: 2024-08-22T16:27:44.671-05:00
+parent: "[[Boot Firmware]]"
+children:
+  - "[[Basic Input／Output System (BIOS)]]"
+  - "[[Coreboot]]"
+  - "[[Extensible Firmware Interface (EFI)]]"
+  - "[[LinuxBoot]]"
+  - "[[SeaBIOS]]"
+  - "[[Unified EFI (UEFI)]]"
 ---
-
 ````excerpt
 refer to: [[Boot Firmware]]
 
@@ -64,5 +70,4 @@ refer to: [[Boot Firmware]]
 }
 ```
 ````
-
 ^excerpt

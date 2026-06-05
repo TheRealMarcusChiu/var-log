@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Backup Script - Local 2 Remote
+title: "Backup Script - Local 2 Remote"
 created: 2019-03-15T01:16:30.938-05:00
 modified: 2025-02-21T15:50:45.213-06:00
+parent: "[[Computer Personal Projects - Completed]]"
+children: []
 ---
-
 # [[rsync|Rsync]]
 
 A script that [[rsync|rsyncs]] local selected directories to a remote server
-
 ```bash
 #!/bin/bash
  
@@ -31,17 +30,15 @@ else
   echo "$OPTION - unknown action"
 fi
 ```
-
 # [[BorgBackup - Borg|Borg]]
 
-The following example script is meant to be run daily by the <code><font style="color: black;">root</font></code> user on different local machines. It backs up a machine’s important files (but not the complete operating system) to a repository <code><font style="color: black;">~/backup/main</font></code> on a remote server. Some files which aren’t necessarily needed in this backup are excluded. See [borg help patterns](https://borgbackup.readthedocs.io/en/stable/usage/help.html#borg-patterns) on how to add more exclude options.
+The following example script is meant to be run daily by the <code><font style="color: black;">root</font></code> user on different local machines. It backs up a machine’s important files (but not the complete operating system) to a repository <code><font style="color: black;">\~/backup/main</font></code> on a remote server. Some files which aren’t necessarily needed in this backup are excluded. See [borg help patterns](https://borgbackup.readthedocs.io/en/stable/usage/help.html#borg-patterns) on how to add more exclude options.
 
 After the backup this script also uses the [borg prune](https://borgbackup.readthedocs.io/en/stable/usage/prune.html#borg-prune) subcommand to keep only a certain number of old archives and deletes the others.
 
 Finally, it uses the [borg compact](https://borgbackup.readthedocs.io/en/stable/usage/compact.html#borg-compact) subcommand to remove deleted objects from the segment files in the repository to preserve disk space.
 
 Before running, make sure that the repository is initialized as documented in [Remote repositories](https://borgbackup.readthedocs.io/en/stable/quickstart.html#remote-repos) and that the script has the correct permissions to be executable by the root user, but not executable or readable by anyone else, i.e. root:root 0700.
-
 ```
 #!/bin/sh
 

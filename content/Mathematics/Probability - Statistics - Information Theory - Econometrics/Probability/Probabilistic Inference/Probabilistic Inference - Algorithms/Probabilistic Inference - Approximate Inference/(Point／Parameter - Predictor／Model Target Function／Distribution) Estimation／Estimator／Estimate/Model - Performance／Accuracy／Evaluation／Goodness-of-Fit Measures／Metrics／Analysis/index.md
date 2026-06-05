@@ -1,20 +1,40 @@
 ---
-publish: true
-title: Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis
+title: "Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis"
 created: 2021-09-13T05:27:41.638-05:00
 modified: 2024-09-26T12:45:00.342-05:00
+parent: "[[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate]]"
+children:
+  - "[[0-1／Zero-One Loss Function]]"
+  - "[[Cross-Entropy Loss Function - Log Loss Function - Negative Log Likelihood Loss Function]]"
+  - "[[Estimator／Model - Accuracy／Goodness-of-Fit Analysis - Comparisons]]"
+  - "[[Estimator／Model - Error Measures - Pointwise Error]]"
+  - "[[Exponential Loss Function]]"
+  - "[[Hinge Loss Function]]"
+  - "[[Information Criterion／Criteria]]"
+  - "[[Logistic Loss Function]]"
+  - "[[Mean Absolute Error (MAE)]]"
+  - "[[Mean Absolute Percentage Error (MAPE)]]"
+  - "[[Min-Max Accuracy]]"
+  - "[[Minimum Description Length (MDL) Principle]]"
+  - "[[Receiver-Operator Curve (ROC) - Area Under Curve (AUC)]]"
+  - "[[Savage Loss Function]]"
+  - "[[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate]]"
+  - "[[Tangent Loss Function]]"
+  - "[[True／False Positive／Negative Sensitivity Recall Hit／Miss／False-Discovery／False-Omission Rate Fall-Out Threat／F1 Score Critical Success Index Accuracy Specificity Precision Predictive-Value]]"
 ---
-
 ###### Performance/Accuracy/Goodness-of-Fit Measures/Analysis
-
-```excerpt
+````excerpt
 - used for measuring/determining how well a trained [[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate|model]] describes the [[Population Distribution|population distribution]]
 - related: [[Objective Function／Criterion - Cost／Loss／Error Function - Expected Cost／Loss／Error|Objective Function/Criterion - Cost/Loss/Error Function - Expected Cost/Loss/Error]]
-```
-
+````
 ^excerpt
 
 # Type Comparisons
+```dataview
+LIST
+FROM ""
+WHERE file.folder = [[Estimator／Model - Accuracy／Goodness-of-Fit Analysis - Comparisons]].file.folder + "/" + [[Estimator／Model - Accuracy／Goodness-of-Fit Analysis - Comparisons]].file.name
+```
 
 # Types
 

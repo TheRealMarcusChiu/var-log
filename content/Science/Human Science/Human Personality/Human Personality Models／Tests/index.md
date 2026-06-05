@@ -1,10 +1,16 @@
 ---
-publish: true
-title: Human Personality Models／Tests
+title: "Human Personality Models／Tests"
 created: 2021-09-13T04:45:28.004-05:00
 modified: 2021-12-20T16:28:12.692-06:00
+parent: "[[Human Personality]]"
+children:
+  - "[[4／Four Temperaments Theory]]"
+  - "[[Big Five Personality Traits - Five-Factor Model (FFM) - OCEAN／CANOE Model]]"
+  - "[[Herrmann Brain Dominance Instrument (HBDI)]]"
+  - "[[Learning Orientation Questionnaire (LOQ)]]"
+  - "[[Myers-Briggs Type Indicator (MBTI)]]"
+  - "[[Psychoticism Extraversion Neuroticism (PEN) Model]]"
 ---
-
 ```merge-table
 {
   "rows": [

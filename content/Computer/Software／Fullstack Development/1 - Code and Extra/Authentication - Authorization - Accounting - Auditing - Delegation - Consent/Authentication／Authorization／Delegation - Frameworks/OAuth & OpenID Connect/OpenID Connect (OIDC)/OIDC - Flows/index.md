@@ -1,10 +1,11 @@
 ---
-publish: true
-title: OIDC - Flows
+title: "OIDC - Flows"
 created: 2020-01-09T13:12:52.962-06:00
 modified: 2022-02-06T05:25:57.992-06:00
+parent: "[[OpenID Connect (OIDC)]]"
+children:
+  - "[[OIDC - Authentication Code Flow]]"
 ---
-
 ````excerpt
 OpenID Connect defines different types of authentication flow to cater to different Client types
 
@@ -49,14 +50,13 @@ OpenID Connect defines different types of authentication flow to cater to differ
 }
 ```
 ````
-
 ^excerpt
 
 [[Open Authorization (OAuth)|OAuth]] Specification includes the definition of a Web API called “authorization endpoint”. The API requires <code>response\_type</code> as a mandatory request parameter. OpenID Connect has defined flows to issue ID tokens by extending the specification of the <code>response\_type</code> request parameter.
 
 In [[Open Authorization (OAuth)|OAuth]], the value of <code>response\_type</code> is either <code>code</code> or <code>token</code>. OpenID Connect has added a new value, <code>id\_token</code>, and allowed any combination of <code>code</code>, <code>token</code> and <code>id\_token</code>. A special value, <code>none</code>, has been added, too. As a result, now <code>response\_type</code> can take any one of the following values
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -131,4 +131,3 @@ In [[Open Authorization (OAuth)|OAuth]], the value of <code>response\_type</cod
   "tableStyle": "text-align: center;width: 100.0%;"
 }
 ```Note that a request for an ID token has to include <code>openid</code> in the <code>scope</code> request parameter
-````

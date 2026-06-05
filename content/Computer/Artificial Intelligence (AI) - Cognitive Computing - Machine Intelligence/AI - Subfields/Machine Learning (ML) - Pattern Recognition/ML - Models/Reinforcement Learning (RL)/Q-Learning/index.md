@@ -1,37 +1,33 @@
 ---
-publish: true
-title: Q-Learning
+title: "Q-Learning"
 created: 2020-03-15T16:34:46.491-05:00
 modified: 2024-08-24T14:38:23.707-05:00
+parent: "[[Reinforcement Learning (RL)]]"
+children: []
 ---
-
 ###### Q-learning
-
-```excerpt
+````excerpt
 - is a [model-free](https://en.wikipedia.org/wiki/Model-free_(reinforcement_learning)) [[Reinforcement Learning (RL)|reinforcement learning]] algorithm. The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances. It does not require a model (hence the connotation "model-free") of the environment, and it can handle problems with stochastic transitions and rewards, without requiring adaptations.
 - for any Finite [[Markov Decision Process (MDP)|Markov Decision Process]] (FMDP), <em>Q</em>-learning finds a policy that is optimal in the sense that it maximizes the expected value of the total reward over any and all successive steps, starting from the current state. <em>Q</em>-learning can identify an optimal action-selection policy for any given FMDP, given infinite exploration time and a partly-random policy. "Q" names the function that returns the reward used to provide the reinforcement and can be said to stand for the "quality" of an action taken in a given state
-```
-
+````
 ^excerpt
 
 # Formula
-
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/Q-Learning/q-learning.png|800]]
+![[Q-Learning/q-learning.png|800]]
 
 where:
-
 - 𝛼 - learning rate or step size
-  - determines to what extent newly acquired information overrides old information
-  - 𝛼 = 0 makes the agent learn nothing (exclusively exploiting prior knowledge)
-  - 𝛼 = 1 makes the agent consider only the most recent information (ignoring prior knowledge to explore possibilities)
-  - In deterministic environments, a learning rate of 𝛼<sub>𝑡</sub>=1 is optimal
-  - In stochastic environments, the algorithm converges under some technical conditions on the learning rate that require it to decrease to zero. In practice, often a constant learning rate is used, such as 𝛼<sub>𝑡</sub>=0.1 for all 𝑡
+	- determines to what extent newly acquired information overrides old information
+	- 𝛼 = 0 makes the agent learn nothing (exclusively exploiting prior knowledge)
+	- 𝛼 = 1 makes the agent consider only the most recent information (ignoring prior knowledge to explore possibilities)
+	- In deterministic environments, a learning rate of 𝛼<sub>𝑡</sub>=1 is optimal
+	- In stochastic environments, the algorithm converges under some technical conditions on the learning rate that require it to decrease to zero. In practice, often a constant learning rate is used, such as 𝛼<sub>𝑡</sub>=0.1 for all 𝑡
 - 𝛾 - discount factor
-  - determines the importance of future rewards
-  - 𝛾 = 0 will make the agent "myopic" (or short-sighted) by only considering current rewards (i.e. 𝑟<sub>𝑡</sub> in the update rule above)
-  - 𝛾 approaching 1 will make it strive for a long-term high reward
+	- determines the importance of future rewards
+	- 𝛾 = 0 will make the agent "myopic" (or short-sighted) by only considering current rewards (i.e. 𝑟<sub>𝑡</sub> in the update rule above)
+	- 𝛾 approaching 1 will make it strive for a long-term high reward
 - 𝑄<sub>0</sub> - initial Q values
-  - high initial values, also known as "optimistic initial conditions", can encourage exploration: no matter what action is selected, the update rule will cause it to have lower values than the other alternative, thus increasing their choice probability
+	- high initial values, also known as "optimistic initial conditions", can encourage exploration: no matter what action is selected, the update rule will cause it to have lower values than the other alternative, thus increasing their choice probability
 
 # Q-Learning - Method Types
 
@@ -57,15 +53,12 @@ where:
   ]
 }
 ```
-
 # Q-Learning - Methods
-
 - [[Deep Q Networks (DQN)]]
 
 # Implementation
 
-based on: <https://towardsdatascience.com/q-learning-54b841f3f9e4>
-
+based on: [https://towardsdatascience.com/q-learning-54b841f3f9e4](https://towardsdatascience.com/q-learning-54b841f3f9e4)
 ```py
 # https://towardsdatascience.com/q-learning-54b841f3f9e4
 import pandas as pd

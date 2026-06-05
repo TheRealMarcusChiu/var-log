@@ -1,22 +1,31 @@
 ---
-publish: true
-title: Encryption - Algorithms
+title: "Encryption - Algorithms"
 created: 2019-05-01T12:01:57.668-05:00
 modified: 2025-08-28T02:10:40.000-05:00
+parent: "[[Encryption]]"
+children:
+  - "[[Advanced Encryption Standard (AES)]]"
+  - "[[ChaCha20]]"
+  - "[[Data Encryption Standard (DES)]]"
+  - "[[Diffie-Hellman (DH) Key Exchange]]"
+  - "[[ElGamal Encryption]]"
+  - "[[Elliptic-Curve Cryptography (ECC)]]"
+  - "[[GNU Privacy Guard (GPG or GnuPG)]]"
+  - "[[International Data Encryption Algorithm (IDEA)]]"
+  - "[[Pretty Good Privacy (PGP)]]"
+  - "[[Rivest Cipher (RC4)]]"
+  - "[[Rivest, Shamir, & Adleman (RSA) Algorithm]]"
+  - "[[Temporal Key Integrity Protocol (TKIP)]]"
 ---
-
 ###### Encryption Algorithm/Scheme
-
-```excerpt
+````excerpt
 - is simply an implementation of [[Encryption|encryption]] (the process of encoding a message to provide <em>confidentiality, </em>where only authorized parties can access it and those who are not authorized cannot)
-```
-
+````
 ^excerpt
 
 # Classifications
 
 see: [[Encryption - Algorithm Classifications|Encryption Algorithm Classifications]]
-
 # [[Symmetric／Single／Secret Key Function|Symmetric Encryption Algorithms]]
 
 ```merge-table
@@ -107,7 +116,6 @@ see: [[Encryption - Algorithm Classifications|Encryption Algorithm Classificati
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # [[Asymmetric／Two／Public-Private Key Function|Asymmetric Encryption Algorithms]]
 
 ```merge-table
@@ -157,7 +165,6 @@ see: [[Encryption - Algorithm Classifications|Encryption Algorithm Classificati
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Other Encryption Algorithms
 
 ```merge-table

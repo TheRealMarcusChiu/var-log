@@ -1,10 +1,10 @@
 ---
-publish: true
-title: numpy
+title: "numpy"
 created: 2020-08-11T18:13:06.902-05:00
 modified: 2022-11-30T18:15:06.529-06:00
+parent: "[[Python - Packages]]"
+children: []
 ---
-
 # numpy dtypes - numbers
 
 ```merge-table

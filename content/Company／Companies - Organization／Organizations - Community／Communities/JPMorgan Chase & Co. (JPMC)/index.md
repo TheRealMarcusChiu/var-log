@@ -1,19 +1,17 @@
 ---
-publish: true
-title: JPMorgan Chase & Co. (JPMC)
+title: "JPMorgan Chase & Co. (JPMC)"
 created: 2021-09-13T04:43:40.173-05:00
 modified: 2024-06-29T11:03:22.469-05:00
+parent: "[[Company／Companies - Organization／Organizations - Community／Communities]]"
+children: []
 ---
-
-history of JPMorgan Chase & Co: <https://jpmorganchase.com/about/our-history>
-
+history of JPMorgan Chase & Co: [https://jpmorganchase.com/about/our-history](https://jpmorganchase.com/about/our-history)
 ### 4 Line of Business Segments/Division
 
 > [!expand-ui]- Consumer & Community Banking (CCB)
 > The CCB division provides services to its clients through its branches, ATMs, online, mobile, and telephone banking.
 >
 > The division works through its three segments:
->
 > - <strong>consumer and business banking</strong> - offers deposit, investment products and services to consumers, and cash management, deposit, and payment solutions to small and medium enterprises
 > - <strong>mortgage banking</strong> - provides residential mortgages, home equity loans, and mortgage servicing
 > - <strong>card, commerce solutions, and auto</strong> - issues credit cards, merchant payment solutions, auto loans and leases, and student loans
@@ -26,15 +24,12 @@ history of JPMorgan Chase & Co: <https://jpmorganchase.com/about/our-history>
 
 > [!expand-ui]- Asset & Wealth Management (AWM)
 > The AWM division offers investment management across different asset classes such as equities, money market funds, and fixed income. For clients with multi-asset investment needs, the division provides solutions to clients’ investment needs. Other services offered in this division include retirement planning, brokerage, and banking services. The typical clients for this division comprise high-to-ultra high net worth investors, institutions, and retail investors.
-
 ### Profit Types
-
 - return on assets (ROA) - bank's net income divided by its total assets
 - return on equity (ROE) - bank's net income divided by its shareholders' equity
 - return on invested capital
 - earnings per share
 - return on net worth
-
 ```merge-table
 {
   "rows": [

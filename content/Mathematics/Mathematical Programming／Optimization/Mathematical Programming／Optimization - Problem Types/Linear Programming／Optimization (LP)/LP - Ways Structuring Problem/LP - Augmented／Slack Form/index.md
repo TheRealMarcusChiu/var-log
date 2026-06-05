@@ -1,16 +1,14 @@
 ---
-publish: true
-title: LP - Augmented／Slack Form
+title: "LP - Augmented／Slack Form"
 created: 2021-09-13T05:26:18.949-05:00
 modified: 2021-09-13T05:26:18.949-05:00
+parent: "[[LP - Ways Structuring Problem]]"
+children: []
 ---
-
 [[Linear Programming／Optimization (LP)|Linear Programming/Optimization (LP)]] problems can be converted into an <strong>Augmented/Slack Form</strong> in order to apply the common form of the simplex algorithm
-
 ### Purpose
 
 <strong>given a linear programming problem:</strong>
-
 - objective function:
   Z = c<sub>1</sub>x<sub>1</sub> + c<sub>2</sub>x<sub>2</sub>
 - linear constraints:
@@ -21,15 +19,12 @@ modified: 2021-09-13T05:26:18.949-05:00
   x<sub>2</sub> ≥ 0
 
 <strong>problem:</strong>
-
 - the linear constraints are not of same equality symbol (i.e. all either: ≤, =, or ≥), thus not satisfying [[LP - Standard／Canonical Form|standard form]]
 
 <strong>solution:</strong>
-
 - use augmented form, by adding slack variables into the linear constraints
 
 <strong>resulting form:</strong>
-
 - objective function:
   Z = c<sub>1</sub>x<sub>1</sub> + c<sub>2</sub>x<sub>2</sub>
 - linear constraints:
@@ -43,7 +38,6 @@ modified: 2021-09-13T05:26:18.949-05:00
   s<sub>2</sub> ≥ 0
 
 ### Equation Form
-
 - objective function:
   Z = c<sub>1</sub>x<sub>1</sub> + c<sub>2</sub>x<sub>2</sub> + ... + c<sub>n</sub>x<sub>n</sub>
 - augmented linear constraints:
@@ -64,4 +58,4 @@ modified: 2021-09-13T05:26:18.949-05:00
 
 ### Block Matrix Form
 
-![[Mathematics/Mathematical Programming／Optimization/Mathematical Programming／Optimization - Problem Types/Linear Programming／Optimization (LP)/LP - Ways Structuring Problem/LP - Augmented／Slack Form/linear-programming-aumented-form-block-matrix-form.png|250]]
+![[LP - Augmented／Slack Form/linear-programming-aumented-form-block-matrix-form.png|250]]

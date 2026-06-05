@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Carriage Return (CR) - Line Feed (LF) - CRLF - End of Line (EOL)
+title: "Carriage Return (CR) - Line Feed (LF) - CRLF - End of Line (EOL)"
 created: 2019-12-21T15:07:33.712-06:00
 modified: 2020-01-07T15:43:59.374-06:00
+parent: "[[ASCII]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -43,9 +43,7 @@ modified: 2020-01-07T15:43:59.374-06:00
   "tableStyle": "width: 61.9853%;"
 }
 ```
-
 ### OS Adoption
-
 - [[Windows]] uses EOL (i.e. 2 characters the CR-LF sequence)
 - [[UNIX|Unix]] only uses LF
 - old [[Macintosh OSs (Mac OS X) - macOS|MacOS]] (pre-OSX Macintosh) used CR

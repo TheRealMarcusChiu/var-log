@@ -1,29 +1,25 @@
 ---
-publish: true
-title: Zen Ryzen Threadripper (PRO)
+title: "Zen Ryzen Threadripper (PRO)"
 created: 2022-09-13T01:22:01.132-05:00
 modified: 2025-10-14T11:59:35.195-05:00
+parent: "[[Zen 1,2,3,4,5 + Microarchitecture Processors]]"
+children: []
 ---
-
 ###### Zen Ryzen Threadripper (PRO)
-
-```excerpt
+````excerpt
 - pronounced Rye-Zen Thread-ripper
 - is a family of 64-bit x86 high-performance desktop and workstation microprocessors
 - is geared toward workstations that rely on heavily threaded applications and multitasking
-```
-
+````
 ^excerpt
 
 # Other
-
 - [Comparing Threadripper 7000 memory bandwidth for all models](https://www.reddit.com/r/threadripper/comments/1azmkvg/comparing_threadripper_7000_memory_bandwidth_for/)
 
 # Lineups
 
 > [!expand-ui]- Whitehaven (Threadripper 1000 series, Zen based)
 > Common features of Ryzen 1000 HEDT CPUs:
->
 > - Socket: [TR4](https://en.wikipedia.org/wiki/Socket_TR4).
 > - All the CPUs support DDR4-2666 in [[RAM Channels (Single／One／1 - Multi - Dual／Two／2 Quad／Four／4 Hexa／Six／6 Octa／Eight／8 Dodeca／Twelve／12 Channels) Memory System／Architecture|quad-channel]] mode.
 > - All the CPUs support 64 [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCIe 3.0]] lanes. 4 of the lanes are reserved as link to the chipset.
@@ -201,7 +197,6 @@ modified: 2025-10-14T11:59:35.195-05:00
 
 > [!expand-ui]- Colfax (Threadripper 2000 series, Zen+ based)
 > Common features of Ryzen 2000 HEDT CPUs:
->
 > - Socket: [TR4](https://en.wikipedia.org/wiki/Socket_TR4).
 > - All the CPUs support DDR4-2933 in [[RAM Channels (Single／One／1 - Multi - Dual／Two／2 Quad／Four／4 Hexa／Six／6 Octa／Eight／8 Dodeca／Twelve／12 Channels) Memory System／Architecture|quad-channel]] mode.
 > - All the CPUs support 64 [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCIe 3.0]] lanes. 4 of the lanes are reserved as link to the chipset.
@@ -395,19 +390,18 @@ modified: 2025-10-14T11:59:35.195-05:00
 
 > [!expand-ui]- Castle Peak (Threadripper 3000 series, Zen 2 based)
 > Common features of Ryzen 3000 HEDT/workstation CPUs:
->
 > - Socket:
->   - [sTRX4](https://en.wikipedia.org/wiki/STRX4) (<em>Threadripper</em>)
->   - [sWRX8](https://en.wikipedia.org/wiki/SWRX8) (<em>Threadripper PRO</em>)
+> 	- [sTRX4](https://en.wikipedia.org/wiki/STRX4) (<em>Threadripper</em>)
+> 	- [sWRX8](https://en.wikipedia.org/wiki/SWRX8) (<em>Threadripper PRO</em>)
 > - RAM:
->   - <em>Threadripper</em> CPUs support [DDR4](https://en.wikipedia.org/wiki/DDR4_SDRAM)-3200 in [quad-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Quad-channel_architecture) mode
->   - <em>Threadripper PRO</em> CPUs support DDR4-3200 in [octa-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Octa-channel_architecture) mode
-> - L1 [cache](https://en.wikipedia.org/wiki/Cache_\(computing\)): 64 KB (32 KB data + 32 KB instruction) per core.
+> 	- <em>Threadripper</em> CPUs support [DDR4](https://en.wikipedia.org/wiki/DDR4_SDRAM)-3200 in [quad-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Quad-channel_architecture) mode
+> 	- <em>Threadripper PRO</em> CPUs support DDR4-3200 in [octa-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Octa-channel_architecture) mode
+> - L1 [cache](https://en.wikipedia.org/wiki/Cache_(computing)): 64 KB (32 KB data + 32 KB instruction) per core.
 > - L2 cache: 512 KB per core.
 > - PCIe lanes
->   - <em>Threadripper</em> CPUs support 64 [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCIe 4.0]] lanes
->   - <em>Threadripper PRO</em> CPUs support 128 PCIe 4.0 lanes
->   - 8 of the lanes are reserved as link to the chipset.
+> 	- <em>Threadripper</em> CPUs support 64 [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCIe 4.0]] lanes
+> 	- <em>Threadripper PRO</em> CPUs support 128 PCIe 4.0 lanes
+> 	- 8 of the lanes are reserved as link to the chipset.
 > - No integrated graphics.
 > - Fabrication process: [TSMC](https://en.wikipedia.org/wiki/TSMC) [7FF](https://en.wikipedia.org/wiki/7_nm_process)
 >
@@ -648,10 +642,9 @@ modified: 2025-10-14T11:59:35.195-05:00
 
 > [!expand-ui]- Chagall (Threadripper 5000 series, Zen 3 based)
 > Common features of Ryzen 5000 workstation CPUs:
->
 > - Socket: [sWRX8](https://en.wikipedia.org/wiki/SWRX8).
 > - All the CPUs support [DDR4](https://en.wikipedia.org/wiki/DDR4_SDRAM)-3200 in [octa-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Octa-channel_architecture) mode.
-> - L1 [cache](https://en.wikipedia.org/wiki/Cache_\(computing\)): 64 KB (32 KB data + 32 KB instruction) per core.
+> - L1 [cache](https://en.wikipedia.org/wiki/Cache_(computing)): 64 KB (32 KB data + 32 KB instruction) per core.
 > - L2 cache: 512 KB per core.
 > - All the CPUs support 128 [PCIe 4.0](https://en.wikipedia.org/wiki/PCI_Express#PCI_Express_4.0) lanes. 8 of the lanes are reserved as link to the chipset.
 > - No integrated graphics.
@@ -852,17 +845,16 @@ modified: 2025-10-14T11:59:35.195-05:00
 
 > [!expand-ui]- Storm Peak (Threadripper 7000 series, Zen 4 based)
 > Common features of Ryzen 7000 HEDT/workstation CPUs:
->
 > - Socket: [sTR5](https://en.wikipedia.org/wiki/STR5)
 > - RAM:
->   - <em>Threadripper</em> CPUs support [DDR5](https://en.wikipedia.org/wiki/DDR5_SDRAM)-5200 in [quad-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Quad-channel_architecture) mode
->   - <em>Threadripper PRO</em> CPUs support DDR5-5200 in [octa-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Octa-channel_architecture) mode with ECC support
-> - L1 [cache](https://en.wikipedia.org/wiki/Cache_\(computing\)): 64 KB (32 KB data + 32 KB instruction) per core.
+> 	- <em>Threadripper</em> CPUs support [DDR5](https://en.wikipedia.org/wiki/DDR5_SDRAM)-5200 in [quad-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Quad-channel_architecture) mode
+> 	- <em>Threadripper PRO</em> CPUs support DDR5-5200 in [octa-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Octa-channel_architecture) mode with ECC support
+> - L1 [cache](https://en.wikipedia.org/wiki/Cache_(computing)): 64 KB (32 KB data + 32 KB instruction) per core.
 > - L2 cache: 1 MB per core.
 > - PCIe support:
->   - <em>Threadripper</em> CPUs support 48 [PCIe 5.0](https://en.wikipedia.org/wiki/PCIe_5.0) and 24 [PCIe 4.0](https://en.wikipedia.org/wiki/PCIe_4.0) lanes
->   - <em>Threadripper PRO</em> CPUs support 128 PCIe 5.0 lanes
->   - In addition, all processor models have 4 PCIe 4.0 lanes reserved as link to the chipset.
+> 	- <em>Threadripper</em> CPUs support 48 [PCIe 5.0](https://en.wikipedia.org/wiki/PCIe_5.0) and 24 [PCIe 4.0](https://en.wikipedia.org/wiki/PCIe_4.0) lanes
+> 	- <em>Threadripper PRO</em> CPUs support 128 PCIe 5.0 lanes
+> 	- In addition, all processor models have 4 PCIe 4.0 lanes reserved as link to the chipset.
 > - No integrated graphics.
 > - Fabrication process: [TSMC](https://en.wikipedia.org/wiki/TSMC) [5FF](https://en.wikipedia.org/wiki/5_nm_process).
 >
@@ -1131,17 +1123,16 @@ modified: 2025-10-14T11:59:35.195-05:00
 
 > [!expand-ui]- Shimada Peak (Threadripper 9000 series, Zen 5 based)
 > Common features of Ryzen 9000 HEDT/workstation CPUs:
->
 > - Socket: [sTR5](https://en.wikipedia.org/wiki/STR5).
 > - RAM support:
->   - <em>Threadripper</em> CPUs support [DDR5](https://en.wikipedia.org/wiki/DDR5_SDRAM)-6400 in [quad-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Quad-channel_architecture) mode
->   - <em>Threadripper PRO</em> CPUs support DDR5-6400 in [octa-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Octa-channel_architecture) mode with ECC support
-> - L1 [cache](https://en.wikipedia.org/wiki/Cache_\(computing\)): 80 KB (48 KB data + 32 KB instruction) per core.
+> 	- <em>Threadripper</em> CPUs support [DDR5](https://en.wikipedia.org/wiki/DDR5_SDRAM)-6400 in [quad-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Quad-channel_architecture) mode
+> 	- <em>Threadripper PRO</em> CPUs support DDR5-6400 in [octa-channel](https://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Octa-channel_architecture) mode with ECC support
+> - L1 [cache](https://en.wikipedia.org/wiki/Cache_(computing)): 80 KB (48 KB data + 32 KB instruction) per core.
 > - L2 cache: 1 MB per core.
 > - PCIe support:
->   - <em>Threadripper</em> CPUs support 48 [PCIe 5.0](https://en.wikipedia.org/wiki/PCIe_5.0) and 24 [PCIe 4.0](https://en.wikipedia.org/wiki/PCIe_4.0) lanes
->   - <em>Threadripper PRO</em> CPUs support 128 PCIe 5.0 lanes
->   - In addition, all processor models have 4 PCIe 4.0 lanes reserved as link to the chipset.
+> 	- <em>Threadripper</em> CPUs support 48 [PCIe 5.0](https://en.wikipedia.org/wiki/PCIe_5.0) and 24 [PCIe 4.0](https://en.wikipedia.org/wiki/PCIe_4.0) lanes
+> 	- <em>Threadripper PRO</em> CPUs support 128 PCIe 5.0 lanes
+> 	- In addition, all processor models have 4 PCIe 4.0 lanes reserved as link to the chipset.
 > - No integrated graphics.
 > - Fabrication process: [TSMC](https://en.wikipedia.org/wiki/TSMC) [4nm](https://en.wikipedia.org/wiki/5_nm_process) FinFET.
 >
@@ -1398,7 +1389,5 @@ modified: 2025-10-14T11:59:35.195-05:00
 >   "tableStyle": "text-align: center;"
 > }
 > ```
-
 # Resources
-
-- <https://en.wikichip.org/wiki/amd/ryzen_threadripper>
+- [https://en.wikichip.org/wiki/amd/ryzen_threadripper](https://en.wikichip.org/wiki/amd/ryzen_threadripper)

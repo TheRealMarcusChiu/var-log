@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Active Directory (AD) - AD Directory Services (ADDS)
+title: "Active Directory (AD) - AD Directory Services (ADDS)"
 created: 2021-03-14T15:02:45.933-05:00
 modified: 2022-05-22T02:58:18.515-05:00
+parent: "[[LDAP - Servers]]"
+children: []
 ---
-
 ###### Active Directory (AD) - AD Directory Services (ADDS)
-
 - runs on Windows Server and allows administrators to manage permissions and access to network resources
 
 # Introduction
@@ -74,5 +73,4 @@ modified: 2022-05-22T02:58:18.515-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources![](https://www.youtube.com/watch?v=lFwek_OuYZ8)![](https://www.youtube.com/watch?v=hxgz7MR7MGQ)

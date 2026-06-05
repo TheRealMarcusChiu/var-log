@@ -1,11 +1,17 @@
 ---
-publish: true
-title: Hadoop - Java - MapReduce
+title: "Hadoop - Java - MapReduce"
 created: 2020-05-20T20:44:03.269-05:00
 modified: 2020-05-20T22:07:43.102-05:00
+parent: "[[Hadoop - Java]]"
+children:
+  - "[[Java - MapReduce - WordCount]]"
 ---
-
 ### Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 ### Methods of Mapper Class
 
@@ -43,7 +49,6 @@ modified: 2020-05-20T22:07:43.102-05:00
   ]
 }
 ```
-
 ### Methods of Reducer Class
 
 ```merge-table
@@ -80,7 +85,6 @@ modified: 2020-05-20T22:07:43.102-05:00
   ]
 }
 ```
-
 ### Methods of Job Class
 
 ```merge-table

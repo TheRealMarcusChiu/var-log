@@ -1,11 +1,18 @@
 ---
-publish: true
-title: P - NP - NPC - NPI - NPO - NPH
+title: "P - NP - NPC - NPI - NPO - NPH"
 created: 2021-09-13T05:24:51.791-05:00
 modified: 2023-12-07T14:22:25.783-06:00
+parent: "[[Complexity Classes]]"
+children:
+  - "[[NP Complete／Completeness Problems]]"
+  - "[[P vs NP (P = NP or P ≠ NP)]]"
 ---
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # P - NP - NPC - NPI - NPO - NPH
 

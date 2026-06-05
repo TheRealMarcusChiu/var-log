@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Generations of Software
+title: "Generations of Software"
 created: 2021-07-25T11:58:38.711-05:00
 modified: 2025-10-30T16:51:50.998-05:00
+parent: "[[Computer／Programming Languages - Meta]]"
+children: []
 ---
-
 # 5 Generations of Software
 
 ```merge-table
@@ -48,7 +48,5 @@ modified: 2025-10-30T16:51:50.998-05:00
   ]
 }
 ```
-
 # Related
-
 - [[Generations of Hardware]]

@@ -1,16 +1,16 @@
 ---
-publish: true
-title: Radiation
+title: "Radiation"
 created: 2021-09-13T04:45:50.059-05:00
 modified: 2023-08-02T16:27:53.463-05:00
+parent: "[[Energy]]"
+children:
+  - "[[Electromagnetic Radiation (EMR)]]"
+  - "[[Particle Radiation (Alpha／Beta／Neutron Radiation)]]"
 ---
-
 ###### Radiation
-
-```excerpt
+````excerpt
 - in [[Physics|physics]], <em>radiation</em> is the emission or transmission of [[Energy|energy]] in the form of waves or [[Particles|particles]] through space or through a material medium
-```
-
+````
 ^excerpt
 
 # Radiation - Types

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Instrumental Variable Estimate vs Ordinary Least Squares Estimate
+title: "Instrumental Variable Estimate vs Ordinary Least Squares Estimate"
 created: 2021-09-13T05:28:08.962-05:00
 modified: 2021-09-13T05:28:08.962-05:00
+parent: "[[Point／Parameter Estimation／Estimator／Estimate／Approximation - Comparisons]]"
+children: []
 ---
-
 ### Comparing [[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)|Bias/Unbiased]]
-
 - IV Estimate is BIAS
 - OLS Estimate is UNBIASED
 
@@ -52,7 +51,6 @@ modified: 2021-09-13T05:28:08.962-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 ### <strong>Resources</strong>
 
-![](https://www.youtube.com/watch?v=7eNIeiRctEY\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=151\&frags=wn\&ab_channel=BenLambert)
+![](https://www.youtube.com/watch?v=7eNIeiRctEY&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=151&frags=wn&ab_channel=BenLambert)

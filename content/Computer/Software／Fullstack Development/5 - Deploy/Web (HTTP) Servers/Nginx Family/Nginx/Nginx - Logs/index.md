@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Nginx - Logs
+title: "Nginx - Logs"
 created: 2020-09-19T16:29:12.076-05:00
 modified: 2020-09-19T16:29:38.547-05:00
+parent: "[[Nginx]]"
+children: []
 ---
-
 ```
 http {
     log_format  main  '$remote_addr - $remote_user [$time_local] '

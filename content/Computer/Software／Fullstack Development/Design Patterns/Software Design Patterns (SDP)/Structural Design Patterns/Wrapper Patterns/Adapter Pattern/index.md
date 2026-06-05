@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Adapter Pattern
+title: "Adapter Pattern"
 created: 2021-07-10T11:33:10.415-05:00
 modified: 2026-01-10T23:10:51.974-06:00
+parent: "[[Wrapper Patterns]]"
+children: []
 ---
-
 ###### Adapter Pattern
-
-```excerpt
+````excerpt
 - is a [[Structural Design Patterns|structural design pattern]] that allows 2 existing incompatible interfaces to collaborate
-```
-
+````
 ^excerpt
 
 # Real-World Example
@@ -20,18 +18,15 @@ modified: 2026-01-10T23:10:51.974-06:00
 
 > [!expand-ui]- Power Adapter
 > Another example would be the famous power adapter; a three-legged plug can't be connected to a two-pronged outlet, it needs to use a power adapter that makes it compatible with the two-pronged outlet. Yet another example would be a translator translating words spoken by one person to another
-
 # Problem (why Adapter is needed)
 
 You have:
-
 - a new interface your client expects
 - you cannot change the legacy code
 
 # Types
 
 > [!expand-ui]- Object Adapter - uses composition
->
 > ```merge-table
 > {
 >   "rows": [
@@ -46,12 +41,10 @@ You have:
 
 > [!expand-ui]- Class Adapter - uses inheritance
 > TODO
-
 # Code Example
 
 > [!expand-ui]- Object Adapter Example
 > Target interface (what the client expects)
->
 > ```
 > interface PaymentProcessor {
 >     void pay(double amount);
@@ -59,7 +52,6 @@ You have:
 > ```
 >
 > Adaptee (existing, incompatible, legacy, not allowed to be changed class)
->
 > ```
 > class LegacyPaymentGateway {
 >     public void makePayment(int cents) {
@@ -69,7 +61,6 @@ You have:
 > ```
 >
 > Adapter
->
 > ```
 > class PaymentAdapter implements PaymentProcessor {
 >
@@ -88,7 +79,6 @@ You have:
 > ```
 >
 > Client code
->
 > ```
 > public class Main {
 >     public static void main(String[] args) {
@@ -102,7 +92,6 @@ You have:
 
 > [!expand-ui]- Class Adapter Example
 > TODO
-
 # Comparisons
 
 > [!expand]- Click here to expand...
@@ -113,8 +102,6 @@ You have:
 > ![[Adapter Pattern vs Decorator Pattern#^excerpt]]
 >
 > ![[Adapter Pattern vs Proxy Pattern#^excerpt]]
-
 # Resources
-
-- <https://java-design-patterns.com/patterns/adapter/>
-- <https://refactoring.guru/design-patterns/adapter>
+- [https://java-design-patterns.com/patterns/adapter/](https://java-design-patterns.com/patterns/adapter/)
+- [https://refactoring.guru/design-patterns/adapter](https://refactoring.guru/design-patterns/adapter)

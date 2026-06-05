@@ -1,18 +1,16 @@
 ---
-publish: true
-title: apt (Advanced Packaging Tool)
+title: "apt (Advanced Packaging Tool)"
 created: 2019-03-15T03:41:06.904-05:00
 modified: 2025-08-26T15:12:16.941-05:00
+parent: "[[Debian Package Manager]]"
+children: []
 ---
-
 ###### apt (Advanced Packaging Tool)
-
-```excerpt
+````excerpt
 - introduced in 2014
 - combined the most commonly used features of [[apt-get - apt-cache|apt-get and apt-cache]] into a more user-friendly interface
 - key features of APT 1.0 included a simplified command set, colored output for commands like apt update, and progress indicators during installation and removal, making package management more intuitive for users
-```
-
+````
 ^excerpt
 
 # apt vs apt-get/apt-cache

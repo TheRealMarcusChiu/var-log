@@ -1,21 +1,37 @@
 ---
-publish: true
-title: Probability Distribution - Continuous Functions／Models (Probability Density Functions)
+title: "Probability Distribution - Continuous Functions／Models (Probability Density Functions)"
 created: 2021-09-13T05:27:22.257-05:00
 modified: 2023-09-09T08:53:31.821-05:00
+parent: "[[Univariate Probability Distribution]]"
+children:
+  - "[[Beta Distribution]]"
+  - "[[Cauchy Distribution - Lorentz Distribution - Cauchy–Lorentz Distribution, Lorentz(ian) Function - Breit–Wigner Distribution]]"
+  - "[[Chi Distribution]]"
+  - "[[Chi-Square Distribution]]"
+  - "[[Continuous Probability Distribution - Calculating Statistics]]"
+  - "[[Dirac Delta Distribution Function - Unit Impluse]]"
+  - "[[Exponential Distribution]]"
+  - "[[Gamma Distribution]]"
+  - "[[Logistic Distribution]]"
+  - "[[Multivariate Beta Distribution (MBD) - Dirichlet Distribution]]"
+  - "[[Pareto Distribution (80-20 Rule)]]"
+  - "[[Skew Normal Distribution]]"
+  - "[[Uniform Distribution]]"
+  - "[[Univariate Normal／Gaussian／Gauss／Laplace-Gauss﻿ Distribution／Model／Process (Bell Curve)]]"
+  - "[[Wishart Distribution]]"
+  - "[[f-distribution ｜ f-scores ｜ f-value ｜ f-table ｜ f-statistic]]"
+  - "[[t-distribution ｜ t-scores ｜ t-value ｜ t-table ｜ t-statistic ｜ student's t-distribution]]"
+  - "[[z-distribution (Standard Normal Distribution) ｜ z-scores ｜ z-values ｜ z-table ｜ z-statistic ｜ Standardization - Standardized Values - Standard Scores - Normal Deviates]]"
 ---
-
 ###### Continuous Probability Distributions
-
-```excerpt
+````excerpt
 - used in scenarios where the set of possible outcomes is <strong>continuous</strong> (e.g. temperature on a given day)
 - ranges include:
 	- [[Real Intervals (Empty／Degenerate／Proper／Bounded／Finite／Half-Bounded／Unbounded／Left／Right／Open／Closed Intervals)|bounded intervals]] (a, b)
 	- [[Real Intervals (Empty／Degenerate／Proper／Bounded／Finite／Half-Bounded／Unbounded／Left／Right／Open／Closed Intervals)|unbounded intervals]] such as (a, +∞), (−∞, b), or (−∞, +∞)
 	- combinations of several such intervals
 - the probability of any individual outcome equals zero (it's possible, it's just probability zero)
-```
-
+````
 ^excerpt
 
 For all continuous variables, the [[Probability Distribution - Discrete Functions／Models (Probability Mass Functions)|probability mass function]] 𝑃𝑀𝐹(𝑥) is always equal to zero
@@ -23,18 +39,15 @@ For all continuous variables, the [[Probability Distribution - Discrete Function
 𝑃𝑀𝐹(𝑥) = 𝐏(𝑋=𝑥) = 0 for all 𝑥
 
 As a result, the 𝑃𝑀𝐹(𝑥) does not carry any information about a random variable 𝑋. Rather, we can use the [[Probability Distribution Function Variants - Probability／Mass／Density／Cumulative／Survivor／Hazard／Cumulative-Hazard／Inverse／Moment-Generating Distribution Functions|cumulative distribution function]] 𝐶𝐷𝐹(𝑥)
-
 - 𝐶𝐷𝐹(𝑥) = 𝐏(𝑋≤𝑥)
-- 𝐶𝐷𝐹(𝑥) = 𝐏(𝑋<𝑥) + 𝐏(𝑋=𝑥)
-- 𝐶𝐷𝐹(𝑥) = 𝐏(𝑋<𝑥) + 0
-- 𝐶𝐷𝐹(𝑥) = 𝐏(𝑋<𝑥)
+- 𝐶𝐷𝐹(𝑥) = 𝐏(𝑋\<𝑥) + 𝐏(𝑋=𝑥)
+- 𝐶𝐷𝐹(𝑥) = 𝐏(𝑋\<𝑥) + 0
+- 𝐶𝐷𝐹(𝑥) = 𝐏(𝑋\<𝑥)
 
 the derivative of a continuous 𝐶𝐷𝐹(𝑥) is a [[Probability Distribution - Continuous Functions／Models (Probability Density Functions)|probability density function]] 𝑃𝐷𝐹(𝑥)
-
 # Continuous Probability Distributions - Calculating Statistics
 
 see: [[Continuous Probability Distribution - Calculating Statistics]]
-
 # Continuous Probability Distributions - Types
 
 ```merge-table

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: HDD - 2.5 Inch vs 3.5 Inch
+title: "HDD - 2.5 Inch vs 3.5 Inch"
 created: 2022-09-10T19:03:47.549-05:00
 modified: 2024-06-27T13:51:03.818-05:00
+parent: "[[Hard Disk Drives (HDD) - Fixed Disk]]"
+children: []
 ---
-
 [[Hard Disk Drives (HDD) - Fixed Disk|Hard disk drives]] generally come into two different form factors:
-
 - 2.5-inch
 - 3.5-inch
 

@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Bridge Pattern
+title: "Bridge Pattern"
 created: 2021-07-10T11:46:17.916-05:00
 modified: 2026-01-10T23:19:42.376-06:00
+parent: "[[Wrapper Patterns]]"
+children: []
 ---
-
 ###### Bridge Pattern
-
-```excerpt
+````excerpt
 - is a type of [[Structural Design Patterns|structural design pattern]] that uses [[Dependency Injection (DI)|dependency injection]] to decouple an abstraction from its implementation so that the two can vary independently
-```
-
+````
 ^excerpt
 
 # Real-World Example
 
 > [!expand-ui]- Weapon Enchantment Example
 > Consider you have a weapon with different enchantments, and you are supposed to allow mixing different weapons with different enchantments. What would you do? Create multiple copies of each of the weapons for each of the enchantments or would you just create separate enchantment and set it for the weapon as needed? Bridge pattern allows you to do the second
-
 # Code Structure
 
 ```merge-table
@@ -30,12 +27,10 @@ modified: 2026-01-10T23:19:42.376-06:00
   ]
 }
 ```
-
 # Code Examples
 
 > [!expand-ui]- Shape Drawing Example (Simple)
 > Implementor Interface
->
 > ```
 > interface DrawingAPI {
 >     void drawCircle(double x, double y, double radius);
@@ -43,7 +38,6 @@ modified: 2026-01-10T23:19:42.376-06:00
 > ```
 >
 > Concrete Implementations
->
 > ```
 > class DrawingAPI1 implements DrawingAPI {
 >     public void drawCircle(double x, double y, double radius) {
@@ -59,7 +53,6 @@ modified: 2026-01-10T23:19:42.376-06:00
 > ```
 >
 > Abstraction
->
 > ```
 > abstract class Shape {
 >     protected DrawingAPI drawingAPI;
@@ -74,7 +67,6 @@ modified: 2026-01-10T23:19:42.376-06:00
 > ```
 >
 > Refined Abstraction
->
 > ```
 > class CircleShape extends Shape {
 >     private double x, y, radius;
@@ -97,7 +89,6 @@ modified: 2026-01-10T23:19:42.376-06:00
 > ```
 >
 > Usage
->
 > ```
 > public class Main {
 >     public static void main(String[] args) {
@@ -114,8 +105,7 @@ modified: 2026-01-10T23:19:42.376-06:00
 > ```
 
 > [!expand-ui]- Weapon Enchantment Example
->
-> ````merge-table
+> ```merge-table
 > {
 >   "rows": [
 >     [
@@ -128,10 +118,9 @@ modified: 2026-01-10T23:19:42.376-06:00
 >     ]
 >   ]
 > }
-> ````
+> ```
 >
 > Use case
->
 > ```
 > log.info("The knight receives an enchanted sword.");
 > var enchantedSword = new Sword(new SoulEatingEnchantment());
@@ -147,7 +136,6 @@ modified: 2026-01-10T23:19:42.376-06:00
 > ```
 >
 > Here's the console output.
->
 > ```
 > The knight receives an enchanted sword.
 > The sword is wielded.
@@ -166,8 +154,7 @@ modified: 2026-01-10T23:19:42.376-06:00
 > ```
 
 > [!expand-ui]- Remote Controller Example
-> ![[Computer/Software／Fullstack Development/Design Patterns/Software Design Patterns (SDP)/Structural Design Patterns/Wrapper Patterns/Bridge Pattern/example-en-2x.png|400]]
->
+> ![[Bridge Pattern/example-en-2x.png|400]]
 > ```
 > // The "abstraction" defines the interface for the "control"
 > // part of the two class hierarchies. It maintains a reference
@@ -227,11 +214,9 @@ modified: 2026-01-10T23:19:42.376-06:00
 > radio = new Radio()
 > remote = new AdvancedRemoteControl(radio)
 > ```
-
 # Applicability
 
 Use the Bridge pattern when
-
 - You want to avoid a permanent binding between an abstraction and its implementation. This might be the case, for example, when the implementation must be selected or switched at run-time.
 - Both the abstractions and their implementations should be extensible by subclassing. In this case, the Bridge pattern lets you combine the different abstractions and implementations and extend them independently.
 - Changes in the implementation of an abstraction should have no impact on clients; that is, their code should not have to be recompiled.
@@ -244,8 +229,6 @@ Use the Bridge pattern when
 > ![[Adapter Pattern vs Bridge Pattern#^excerpt]]
 >
 > ![[Bridge Pattern vs Strategy Pattern#^excerpt]]
-
 # Resources
-
-- <https://java-design-patterns.com/patterns/bridge/>
-- <https://refactoring.guru/design-patterns/bridge>
+- [https://java-design-patterns.com/patterns/bridge/](https://java-design-patterns.com/patterns/bridge/)
+- [https://refactoring.guru/design-patterns/bridge](https://refactoring.guru/design-patterns/bridge)

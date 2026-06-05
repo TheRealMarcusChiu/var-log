@@ -1,23 +1,20 @@
 ---
-publish: true
-title: Hermes AI
+title: "Hermes AI"
 created: 2026-05-25T09:29:35.754-05:00
 modified: 2026-05-25T09:30:39.655-05:00
+parent: "[[AI Agents／Assistants]]"
+children: []
 ---
-
 ###### Hermes AI
-
-```excerpt
+````excerpt
 - not a coding copilot tethered to an IDE or a chatbot wrapper around a single API
 - an autonomous agent that lives on your server, remembers what it learns, and gets more capable the longer it runs
-```
-
+````
 ^excerpt
 
 # Install Output
 
 > [!expand-ui]- terminal output
->
 > ```
 > ◆ Messaging Platforms
 >   Connect to messaging platforms to chat with Hermes from anywhere.

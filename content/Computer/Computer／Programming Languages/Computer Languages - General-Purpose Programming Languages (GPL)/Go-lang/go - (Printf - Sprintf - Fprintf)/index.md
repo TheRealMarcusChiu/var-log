@@ -1,10 +1,10 @@
 ---
-publish: true
-title: go - (Printf - Sprintf - Fprintf)
+title: "go - (Printf - Sprintf - Fprintf)"
 created: 2020-10-07T01:08:33.550-05:00
 modified: 2020-10-07T01:14:53.080-05:00
+parent: "[[Go-lang]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Claude Code - Features／Extensions (CLAUDE.md Skills MCP Hooks Subagents Plugins & Marketplace)
+title: "Claude Code - Features／Extensions (CLAUDE.md Skills MCP Hooks Subagents Plugins & Marketplace)"
 created: 2026-01-25T12:18:43.118-06:00
 modified: 2026-05-12T01:20:00.782-05:00
+parent: "[[Claude Code]]"
+children: []
 ---
-
 # Claude Code Features/Extensions
 
 ```merge-table
@@ -128,7 +128,6 @@ modified: 2026-05-12T01:20:00.782-05:00
   ]
 }
 ```
-
 # When to Use a Feature
 
 ```merge-table
@@ -221,17 +220,12 @@ modified: 2026-05-12T01:20:00.782-05:00
   ]
 }
 ```
-
 # Key Technical Distinctions
-
 - <strong>Invocation Control:</strong> Skills can run in the current session or be offloaded to subagents for modularity
 - <strong>Loading Behavior:</strong> Descriptions load at session start to minimize latency, while full content is injected only when the skill is triggered
 - <strong>Portability:</strong> Use <strong>Plugins</strong> when you need to share a specific set of tools or logic across multiple different project
 
 # When Features/Extensions Load into Context
-
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Language Models/Large Language Models (LLMs)/AI Agents／Assistants/AI Coding Agents／Assistants/Claude Code/Claude Code - Features／Extensions (CLAUDE.md Skills MCP Hooks Subagents Plugins & Marketplace)/claude-code--context-loading.png|700]]
-
+![[Claude Code - Features／Extensions (CLAUDE.md Skills MCP Hooks Subagents Plugins & Marketplace)/claude-code--context-loading.png|700]]
 # Hooks Lifecycle
-
-![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Language Models/Large Language Models (LLMs)/AI Agents／Assistants/AI Coding Agents／Assistants/Claude Code/Claude Code - Features／Extensions (CLAUDE.md Skills MCP Hooks Subagents Plugins & Marketplace)/claude-code--hooks-lifecycle.jpeg|400]]
+![[Claude Code - Features／Extensions (CLAUDE.md Skills MCP Hooks Subagents Plugins & Marketplace)/claude-code--hooks-lifecycle.jpeg|400]]

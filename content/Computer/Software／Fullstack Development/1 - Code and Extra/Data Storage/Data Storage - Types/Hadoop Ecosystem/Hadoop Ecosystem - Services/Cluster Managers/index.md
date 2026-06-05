@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Cluster Managers
+title: "Cluster Managers"
 created: 2020-05-22T22:48:08.383-05:00
 modified: 2020-05-22T22:59:07.052-05:00
+parent: "[[Hadoop Ecosystem - Services]]"
+children: []
 ---
-
 <strong>Cluster Managers</strong> allocate resources to containers in the worker nodes
 
 types of cluster managers:
-
 - Local
 - Standalone
 - [[Yet Another Resource Negotiator (YARN)]]
@@ -21,13 +20,11 @@ types of cluster managers:
 Local Mode is used to run Spark applications on Operating system. This mode is useful for Spark application development and testing.
 
 Modes like standalone, Yarn, Mesos and Kubernetes modes are distributed environment. In distributed environment, resource management is very important to manage the computing resources. So to manage computing resources in efficient way, we need good resource management system or Resource Schedular.
-
 ###### Spark Standalone Cluster
 
 Spark Standalone Cluster is good for small spark clusters, but it is not good for bigger clusters (There is an overhead of running spark daemons(master + slave) in cluster nodes). These daemons require dedicated resources. So standalone is not recommended for bigger production clusters. Standalone supports only Spark applications and it is not general purpose cluster manager. In Enterprise context where we have variety of work loads to run, spark standalone cluster manager is not a good a choice.
 
 in the Spark Standalone Cluster there is a:
-
 - <strong>Standalone Master</strong> as the Resource Manager
 - <strong>Standalone Worker</strong> as the worker
 
@@ -44,7 +41,6 @@ In between YARN and Mesos, YARN is specially designed for Hadoop work loads wher
 <strong>Kubernetes</strong> - Open source system for automating deployment, scaling, and management of containerized applications. This mode is experimental state. So it used for running Spark applications in containerized fashion.
 
 <strong>Nomad</strong> - It is another open source system for running Spark applications. This cluster manager is not officially supported by the Spark project as a cluster manager.
-
 > Out of all above modes, Apache Mesos has better resource management capabilities.
 
-Please see this link, it contains a detailed explanation from expertise about Yarn vs Mesos. <http://www.quora.com/How-does-YARN-compare-to-Mesos>
+Please see this link, it contains a detailed explanation from expertise about Yarn vs Mesos. [http://www.quora.com/How-does-YARN-compare-to-Mesos](http://www.quora.com/How-does-YARN-compare-to-Mesos)

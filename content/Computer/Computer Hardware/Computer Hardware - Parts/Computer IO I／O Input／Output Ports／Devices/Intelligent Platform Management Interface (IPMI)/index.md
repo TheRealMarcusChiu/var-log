@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Intelligent Platform Management Interface (IPMI)
+title: "Intelligent Platform Management Interface (IPMI)"
 created: 2025-10-23T00:51:54.200-05:00
 modified: 2025-12-24T03:02:14.646-06:00
+parent: "[[Computer IO I／O Input／Output Ports／Devices]]"
+children: []
 ---
-
 ###### Intelligent Platform Management Interface (IPMI)
-
-```excerpt
+````excerpt
 - is a set of computer interface specifications for an autonomous computer subsystem that provides management and monitoring capabilities independently of the host system's [[Central Processing Unit (CPU) - Central／Main Processor - Microprocessor (uP) - Microcontroller (uC) - Microcontroller Unit (MCU)|CPU]], [[Boot Firmware|firmware]] ([[Basic Input／Output System (BIOS)|BIOS]] or [[Unified EFI (UEFI)|UEFI]]) and [[Operating Systems (OS)|operating system]]
-```
-
+````
 ^excerpt
 
 # IPMI - Ports
@@ -53,7 +51,11 @@ modified: 2025-12-24T03:02:14.646-06:00
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - [[PXE Boot vs IPMI]]

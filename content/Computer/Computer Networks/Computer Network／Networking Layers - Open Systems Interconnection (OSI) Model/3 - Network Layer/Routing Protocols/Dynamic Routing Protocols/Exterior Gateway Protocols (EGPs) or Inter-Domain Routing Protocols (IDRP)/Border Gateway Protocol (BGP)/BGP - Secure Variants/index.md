@@ -1,10 +1,11 @@
 ---
-publish: true
-title: BGP - Secure Variants
+title: "BGP - Secure Variants"
 created: 2019-11-20T22:23:24.571-06:00
 modified: 2019-11-22T13:56:15.829-06:00
+parent: "[[Border Gateway Protocol (BGP)]]"
+children:
+  - "[[BGPSec]]"
 ---
-
 ### BGP Secure Variants
 
 ```merge-table

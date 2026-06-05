@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Matter (Protocol)
+title: "Matter (Protocol)"
 created: 2026-05-27T11:12:06.499-05:00
 modified: 2026-05-27T11:47:24.163-05:00
+parent: "[[？ - Mixed／Other Layers]]"
+children: []
 ---
-
 ###### Matter (Protocol)
-
-```excerpt
+````excerpt
 - is an open-source, industry-unifying connectivity standard for [[Smart Home Automation|smart home]] devices
 - developed by the Connectivity Standards Alliance (CSA) - a group including industry giants like [[Apple Inc|Apple]], [[Google]], [[Amazon]], and [[Samsung]]
 - it is designed to ensure that smart home devices from different manufacturers can communicate with each other locally, securely, and reliably
-```
-
+````
 ^excerpt
 
 # Where it Lives in the OSI Model
@@ -46,7 +44,5 @@ modified: 2026-05-27T11:47:24.163-05:00
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
-
 # Other
-
 - [[Smart Home Automation - Network／Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)|Smart Home Automation - Network/Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)]]

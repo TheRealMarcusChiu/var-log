@@ -1,10 +1,10 @@
 ---
-publish: true
-title: PoS & Syntax - Example
+title: "PoS & Syntax - Example"
 created: 2021-09-13T04:44:05.728-05:00
 modified: 2021-09-13T04:44:05.728-05:00
+parent: "[[Grammar = Morphology + Part of Speech + Syntax]]"
+children: []
 ---
-
 ````excerpt
 let's see the difference between [[Part of Speech (PoS)|Part of Speech]] and [[Syntax (Sentence Structure)|Syntax]] with the following 2 examples
 
@@ -269,5 +269,4 @@ let's see the difference between [[Part of Speech (PoS)|Part of Speech]] and [[S
 }
 ```
 ````
-
 ^excerpt

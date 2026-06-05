@@ -1,21 +1,25 @@
 ---
-publish: true
-title: API Design Patterns (API-DP)
+title: "API Design Patterns (API-DP)"
 created: 2019-03-16T03:14:40.465-05:00
 modified: 2022-02-14T20:48:41.895-06:00
+parent: "[[Design Patterns]]"
+children:
+  - "[[API-DP - CRUDing Data]]"
+  - "[[API-DP - Procedure Calls]]"
+  - "[[API-DP - Streaming]]"
+  - "[[API-DP - Subscription／Consumer Publisher／Producer Based]]"
+  - "[[Simple Object Access Protocol (SOAP)]]"
 ---
-
 - <strong>[[Application Programming Interface (API) - Software Development Kit (SDK)|Application Programming Interface (API)]]</strong> - a set of subroutine definitions, communication protocols, and tools for accessing backend servers
-- ```excerpt
-  <strong>[[API Design Patterns (API-DP)]]</strong> - are [[Design Patterns]] that deals with designing [[Application Programming Interface (API) - Software Development Kit (SDK)|APIs]] (these APIs usually use existing [[API - Network-Level|Network-Level APIs]])
-  ```
-  ^excerpt
+- 
+    ````excerpt
+    <strong>[[API Design Patterns (API-DP)]]</strong> - are [[Design Patterns]] that deals with designing [[Application Programming Interface (API) - Software Development Kit (SDK)|APIs]] (these APIs usually use existing [[API - Network-Level|Network-Level APIs]])
+    ````
+    ^excerpt
 
 # API Design Patterns
-
 - consider using [[Interface Definition／Description Language & Libraries (IDL)|Interface Definition/Description Language & Libraries (IDL)]]
 - also see: [Google API Design](https://cloud.google.com/apis/design)
-
 ```merge-table
 {
   "rows": [
@@ -110,14 +114,12 @@ modified: 2022-02-14T20:48:41.895-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # API Design Pattern Comparisons
-
 - [REST vs GraphQL](https://blog.apollographql.com/graphql-vs-rest-5d425123e34b)
-  - [Caching](https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/) - you can’t "network" cache GraphQL results as easily as you can with REST results. GraphQL relies on "application" caching, which is a little more complicated
+	- [Caching](https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/) - you can’t "network" cache GraphQL results as easily as you can with REST results. GraphQL relies on "application" caching, which is a little more complicated
 - [RPC vs REST - over HTTP](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/)
-  - If an API is mostly actions, maybe it should be RPC
-  - If an API is mostly CRUD, maybe it should be REST
+	- If an API is mostly actions, maybe it should be RPC
+	- If an API is mostly CRUD, maybe it should be REST
 - [RPC vs REST vs GraphQL - over HTTP](https://blog.apisyouwonthate.com/understanding-rpc-rest-and-graphql-2f959aadebe7)
 - [SOAP vs REST](https://www.upwork.com/hiring/development/soap-vs-rest-comparing-two-apis/)
 - [WebHooks vs WebSubs](https://nordicapis.com/webhooks-vs-websub-which-one-is-better-to-stream-your-events-in-real-time/)

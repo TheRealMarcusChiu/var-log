@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Factory Method Pattern
+title: "Factory Method Pattern"
 created: 2019-12-11T16:09:52.858-06:00
 modified: 2026-01-10T15:05:59.522-06:00
+parent: "[[Factory Design Patterns]]"
+children: []
 ---
-
 ###### Factory Method Pattern
-
-```excerpt
+````excerpt
 - is a [[Creational Design Patterns|creational pattern]] that uses a SINGLE method to create objects
-```
-
+````
 ^excerpt
 
 # Factory Method Pattern - Example Implementation
 
 First, create a <code><font style="color: rgb(122,134,154);">Polygon</font></code> interface
-
 ```java
 interface Polygon {
     String getType();
@@ -25,7 +22,7 @@ interface Polygon {
 
 Next, create a few <code><font style="color: rgb(122,134,154);">Polygon</font></code> implementations like <code><font style="color: rgb(122,134,154);">Square</font></code>, <code><font style="color: rgb(122,134,154);">Triangle</font></code>, etc
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -41,11 +38,11 @@ Next, create a few <code><font style="color: rgb(122,134,154);">Polygon</font></
     ]
   ]
 }
-````
+```
 
 Factory Method Implementations and Uses Cases
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -58,8 +55,7 @@ Factory Method Implementations and Uses Cases
     ]
   ]
 }
-````
-
+```
 # Comparisons
 
 > [!expand]- Click here to expand...
@@ -70,6 +66,5 @@ Factory Method Implementations and Uses Cases
 > ![[Factory Method Pattern vs Template Method Pattern#^excerpt]]
 >
 > Other
->
 > - Utilizes [[Strategy Pattern]] for object creation
 > - [[Factory Kit Pattern]] - used to create/define <font style="color: rgb(122,134,154);">factory methods</font> during runtime

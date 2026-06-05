@@ -1,18 +1,16 @@
 ---
-publish: true
-title: Java - Neo4j - Embedded With Spring Data Neo4j (SDN)
+title: "Java - Neo4j - Embedded With Spring Data Neo4j (SDN)"
 created: 2021-05-02T23:10:24.678-05:00
 modified: 2021-05-02T23:36:33.432-05:00
+parent: "[[Java - Neo4j - Embedded Examples]]"
+children: []
 ---
-
 # 1 - Overview
 
 this article sets up an <strong>Embedded Neo4j</strong> that can be queried by [[Java - Spring - Spring Data Neo4j (SDN)|Spring Data Neo4j (SDN)]]
 
-code: <https://github.com/SpringBootMarcusChiu/neo4j-embedded-sdn-example>
-
+code: [https://github.com/SpringBootMarcusChiu/neo4j-embedded-sdn-example](https://github.com/SpringBootMarcusChiu/neo4j-embedded-sdn-example)
 # 2 - Configure Embedded Neo4j
-
 ```
 <dependency>
    <groupId>org.neo4j</groupId>
@@ -20,7 +18,6 @@ code: <https://github.com/SpringBootMarcusChiu/neo4j-embedded-sdn-example>
    <version>4.0.0</version>
 </dependency>
 ```
-
 <span style="white-space: pre-wrap"><code>EmbeddedNeo4jServerConfig.java</code></span>
 
 ```
@@ -33,16 +30,13 @@ public GraphDatabaseService graphDatabaseService() {
     return graphDb;
 }
 ```
-
 # 3 - Configure SDN
-
 ```
 <dependency>
    <groupId>org.springframework.data</groupId>
    <artifactId>spring-data-neo4j</artifactId>
 </dependency>
 ```
-
 <span style="white-space: pre-wrap"><code>application.properties</code></span>
 
 ```
@@ -52,9 +46,7 @@ spring.data.neo4j.uri=bolt://localhost:7687
 ```
 
 SDN will auto configure beans necessary for the application
-
 # 4 - Using SDN to Query Embedded Neo4j
-
 ```
 @Autowired
 UserRepository userRepository;

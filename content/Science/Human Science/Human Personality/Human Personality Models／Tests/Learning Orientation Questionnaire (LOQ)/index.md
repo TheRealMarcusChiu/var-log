@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Learning Orientation Questionnaire (LOQ)
+title: "Learning Orientation Questionnaire (LOQ)"
 created: 2021-09-13T04:45:28.716-05:00
 modified: 2021-12-20T16:28:58.362-06:00
+parent: "[[Human Personality Models／Tests]]"
+children: []
 ---
-
 <strong>Learning Orientation Questionnaire (LOQ)</strong> is designed to describe an individual's general disposition to learn and generally assess how individuals may enjoy or want to learn
-
 # Learning Orientation Types
 
 ```merge-table

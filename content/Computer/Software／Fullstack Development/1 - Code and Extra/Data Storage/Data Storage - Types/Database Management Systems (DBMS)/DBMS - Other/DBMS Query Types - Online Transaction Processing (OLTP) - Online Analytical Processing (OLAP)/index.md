@@ -1,12 +1,11 @@
 ---
-publish: true
-title: DBMS Query Types - Online Transaction Processing (OLTP) - Online Analytical Processing (OLAP)
+title: "DBMS Query Types - Online Transaction Processing (OLTP) - Online Analytical Processing (OLAP)"
 created: 2019-12-09T12:16:15.492-06:00
 modified: 2026-01-13T14:50:42.049-06:00
+parent: "[[DBMS - Other]]"
+children: []
 ---
-
 # DBMS Types - Query Types
-
 ````excerpt
 <strong>OLAP</strong> is characterized by a large volume of data while <strong>OLTP</strong> is characterized by large numbers of short online transactions
 
@@ -32,5 +31,4 @@ modified: 2026-01-13T14:50:42.049-06:00
 }
 ```
 ````
-
 ^excerpt

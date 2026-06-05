@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Finite-State Transducer (FST)
+title: "Finite-State Transducer (FST)"
 created: 2021-09-13T05:25:01.434-05:00
 modified: 2021-09-13T05:25:01.434-05:00
+parent: "[[Automata (Sequential Model of Computation)]]"
+children: []
 ---
-
 ###### Finite-State Transducer (FST)
-
 - models [[Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)|Context-Free Grammars (CFG)]]
 - is a [[Finite-State Automaton／Machine (FSA／FSM)|Finite-State Automaton (FSA, FA)]] which produces output as well as reading input, which means it is useful for parsing (while a "bare" FSA can only be used for recognizing, i.e. pattern matching)
 - consists of a finite number of states which are linked by transitions labeled with an input/output pair. The FST starts out in a designated start state and jumps to different states depending on the input, while producing output according to its transition table

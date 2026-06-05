@@ -1,10 +1,24 @@
 ---
-publish: true
-title: JavaScript - Frameworks
+title: "JavaScript - Frameworks"
 created: 2019-03-15T16:17:20.817-05:00
 modified: 2025-04-13T23:11:21.412-05:00
+parent: "[[JavaScript - Non-Native]]"
+children:
+  - "[[Alpine]]"
+  - "[[Angular]]"
+  - "[[AngularJS (Angular 1)]]"
+  - "[[JavaScript - Testing Frameworks]]"
+  - "[[Lit]]"
+  - "[[Mithril]]"
+  - "[[Node.js]]"
+  - "[[React - React.js - ReactJS]]"
+  - "[[Reactive Extensions for JavaScript (RxJS)]]"
+  - "[[Solid]]"
+  - "[[Stencil]]"
+  - "[[Svelte]]"
+  - "[[Vue - Vue.js - VueJS]]"
+  - "[[jQuery]]"
 ---
-
 ````excerpt
 # Client-Side Frameworks
 
@@ -126,5 +140,4 @@ native cient-side APIs that comes with browser: [[JavaScript - Native - V8 Engin
 
 see: [[JavaScript - Testing Frameworks]]
 ````
-
 ^excerpt

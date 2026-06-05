@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Why did Jesus Speak in Parables？
+title: "Why did Jesus Speak in Parables？"
 created: 2021-09-13T04:44:48.568-05:00
 modified: 2021-09-13T04:44:48.568-05:00
+parent: "[[Christianity - Questions]]"
+children: []
 ---
-
 <strong>Matthew 11:25</strong>
 
 At that time Jesus said, “I praise you, Father, Lord of heaven and earth, because you have hidden these things from the wise and learned, and revealed them to little children. 26 Yes, Father, for this is what you were pleased to do.
@@ -16,7 +16,6 @@ The disciples of Jesus asked him, why do you speak to the crowds in parables? He
 Then this was to fulfill what was prophesied in Isaiah: (note how in the end it says healing is not done until you see, hear, understand and turn) what I found profound is the word "turn".
 
 A couple of versus come into mind:
-
 - "Deny yourself pick of the cross and follow Him"
 - James 2:19 that says, "even the devils believe that God is one, and tremble/shudder"
 

@@ -1,36 +1,33 @@
 ---
-publish: true
-title: Entity Relation Extraction (RE)
+title: "Entity Relation Extraction (RE)"
 created: 2020-10-15T23:35:24.537-05:00
 modified: 2020-11-02T18:43:39.667-06:00
+parent: "[[Information Retrieval (IR) - Information Extraction (IE)]]"
+children:
+  - "[[Weakly Supervised RE (Bootstrapping)]]"
 ---
-
 ###### Entity Relation Extraction (RE) - Relation Extraction (RE)
-
 - is the task of extracting semantic relationships from unstructured text, these relationships:
-  - occur between two or more entities of a certain type (e.g. Person, Organisation, Location)
-  - fall into a number of semantic categories (e.g. married to, employed by, lives in)
+	- occur between two or more entities of a certain type (e.g. Person, Organisation, Location)
+	- fall into a number of semantic categories (e.g. married to, employed by, lives in)
 - usually done after entities are extracted i.e. [[(Entity - Named Entity) Recognition／Identification／Chunking／Extraction／Resolution (NER)|Named Entity Recognition (NER)]]
 - a subfield of [[Information Retrieval (IR) - Information Extraction (IE)|Information Extraction (IE)]] which itself is a subfield of [[Natural Language Processing (NLP) - Computational Linguistics|Natural Language Processing (NLP)]]
 
 ### RE - Progress
-
-- <http://nlpprogress.com/english/relationship_extraction.html>
+- [http://nlpprogress.com/english/relationship_extraction.html](http://nlpprogress.com/english/relationship_extraction.html)
 
 ### RE - 2 Steps/Tasks
 
 given two or more entities:
-
 1. determine whether a relation exists between them
 2. determine the type of relation between them
 
 ### RE - Methods
-
 - Rule-Based RE
 - Supervised RE
 - Semi-Supervised RE:
-  - [[Weakly Supervised RE (Bootstrapping)]] (Bootstrapping (using seeds))
-  - Distantly Supervised RE
+	- [[Weakly Supervised RE (Bootstrapping)]] (Bootstrapping (using seeds))
+	- Distantly Supervised RE
 - Unsupervised RE
 
 ### RE - Possible Features to Consider

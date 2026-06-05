@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Lesk Algorithm
+title: "Lesk Algorithm"
 created: 2020-11-21T01:31:40.268-06:00
 modified: 2020-11-21T01:51:20.455-06:00
+parent: "[[Word Sense Disambiguation (WSD)]]"
+children: []
 ---
-
 ###### Lesk Algorithm
-
 - used for [[Word Sense Disambiguation (WSD)]]
 - use dictionary or thesaurus as indirect kind of supervision. choose the sense whose gloss shares the most words with target word neighborhood
 
 ### Lesk Algorithm
-
 ```py
 # returns best sense of word
 def simplified_lesk(word, sentence):
@@ -26,12 +24,10 @@ def simplified_lesk(word, sentence):
 			best_sense = sense
 	return best_sense
 ```
-
 ### Lesk Algorithm - Example
 
 > [!expand]- Click here to expand...
 > given sentence:
->
 > - <code><font style="color: rgb(128,128,128);">The bank can guarantee deposits will eventually cover future tuition costs because it invests in adjustable-rate mortgage securities</font></code>
 >
 > find sense of <code><font style="color: rgb(128,128,128);">bank</font></code>
@@ -98,14 +94,11 @@ def simplified_lesk(word, sentence):
 > ```
 >
 > based on the Lesk Algorithm, we have:
->
 > - <strong>bank</strong><sup><strong>1</strong></sup>- 2 content words overlap
 > - <strong>bank</strong><sup><strong>2</strong></sup>- 0 content words overlap
 >
 > thus, we choose <strong>bank<sup>1</sup></strong> as the most probable sense used in the sentence
-
 ### Lesk Algorithm - Improvements
-
 - include related words (i.e. hyponyms)
 - apply a weight to each overlapping word
 - [[Term-Frequency Inverse-Document-Frequency (TF-IDF) Term Frequency - Inverse Document Frequency|inverse document frequency (idf)]] value

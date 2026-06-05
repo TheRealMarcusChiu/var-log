@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Object-Oriented Programming - Abstract Classes vs Interfaces
+title: "Object-Oriented Programming - Abstract Classes vs Interfaces"
 created: 2022-03-01T03:34:13.956-06:00
 modified: 2022-03-01T03:39:13.289-06:00
+parent: "[[Object-Oriented Programming]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

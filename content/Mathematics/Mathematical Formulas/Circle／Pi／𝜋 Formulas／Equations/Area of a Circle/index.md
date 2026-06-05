@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Area of a Circle
+title: "Area of a Circle"
 created: 2023-08-21T12:07:38.248-05:00
 modified: 2023-08-21T12:17:46.047-05:00
+parent: "[[Circle／Pi／𝜋 Formulas／Equations]]"
+children: []
 ---
-
 area of a circle = 𝜋𝑟2
-
 # Area of a Circle - Derivations
 
 > [!expand-ui]- Derivation #1
->
 > ```merge-table
 > {
 >   "rows": [
@@ -23,7 +21,6 @@ area of a circle = 𝜋𝑟2
 > ```
 
 > [!expand-ui]- Derivation #2
->
 > ```merge-table
 > {
 >   "rows": [

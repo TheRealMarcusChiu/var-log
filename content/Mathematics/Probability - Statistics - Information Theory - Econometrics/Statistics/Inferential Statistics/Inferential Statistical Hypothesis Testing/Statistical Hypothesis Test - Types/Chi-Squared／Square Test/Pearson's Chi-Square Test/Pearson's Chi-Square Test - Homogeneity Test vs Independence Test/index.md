@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Pearson's Chi-Square Test - Homogeneity Test vs Independence Test
+title: "Pearson's Chi-Square Test - Homogeneity Test vs Independence Test"
 created: 2021-09-13T05:29:10.008-05:00
 modified: 2021-09-13T05:29:10.008-05:00
+parent: "[[Pearson's Chi-Square Test]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

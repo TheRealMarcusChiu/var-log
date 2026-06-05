@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Authentication／Authorization／Delegation - Entities／Actors
+title: "Authentication／Authorization／Delegation - Entities／Actors"
 created: 2019-12-13T13:58:55.437-06:00
 modified: 2022-02-06T05:33:10.199-06:00
+parent: "[[Authentication - Authorization - Accounting - Auditing - Delegation - Consent]]"
+children: []
 ---
-
 ````excerpt
 authentication/authorization/delegation entities/actors:
 
@@ -60,5 +60,4 @@ authentication/authorization/delegation entities/actors:
 
 <font style="color: rgb(255,0,0);">NOTE</font>: This 1 of many Grant Flows (above portrays [[OAuth - Grant Types／Flows (Message Exchange Patterns)|Implicit Flow]] of [[Open Authorization (OAuth)|OAuth]] & [[OpenID Connect (OIDC)|OpenID Connect]])
 ````
-
 ^excerpt

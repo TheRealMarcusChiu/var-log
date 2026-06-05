@@ -1,11 +1,20 @@
 ---
-publish: true
-title: Structure Learning
+title: "Structure Learning"
 created: 2021-09-13T05:26:35.202-05:00
 modified: 2023-12-26T20:29:55.279-06:00
+parent: "[[PGM - Model Learning (Structure and／or Parameter)]]"
+children:
+  - "[[Chow-Lui Algorithm]]"
+  - "[[K3 Algorithm]]"
+  - "[[Scored-Based Structure Learning]]"
+  - "[[Structure Learning - Local Search]]"
 ---
-
 # Structure Learning Methods
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Importance of Accurate Structure
 

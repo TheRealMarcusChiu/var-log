@@ -1,16 +1,14 @@
 ---
-publish: true
-title: The 36 Questions
+title: "The 36 Questions"
 created: 2021-09-13T04:46:05.717-05:00
 modified: 2021-09-13T04:46:05.717-05:00
+parent: "[[ICE-BREAKER QUESTIONS]]"
+children: []
 ---
-
 36 questions are up into three sets, with each set intended to be more probing than the previous one
 
 The idea is that mutual vulnerability fosters closeness. To quote the study’s authors, “One key pattern associated with the development of a close relationship among peers is sustained, escalating, reciprocal, personal self-disclosure.” Allowing oneself to be vulnerable with another person can be exceedingly difficult, so this exercise forces the issue
-
 ### Set I
-
 1. Given the choice of anyone in the world, whom would you want as a dinner guest?
 2. Would you like to be famous? In what way?
 3. Before making a telephone call, do you ever rehearse what you are going to say? Why?
@@ -25,7 +23,6 @@ The idea is that mutual vulnerability fosters closeness. To quote the study’s 
 12. If you could wake up tomorrow having gained any one quality or ability, what would it be?
 
 ### Set II
-
 1. If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?
 2. Is there something that you’ve dreamed of doing for a long time? Why haven’t you done it?
 3. What is the greatest accomplishment of your life?
@@ -40,7 +37,6 @@ The idea is that mutual vulnerability fosters closeness. To quote the study’s 
 12. How do you feel about your relationship with your mother?
 
 ### Set III
-
 1. Make three true “we” statements each. For instance, “We are both in this room feeling ... “
 2. Complete this sentence: “I wish I had someone with whom I could share ... “
 3. If you were going to become a close friend with your partner, please share what would be important for him or her to know.

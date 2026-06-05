@@ -1,24 +1,20 @@
 ---
-publish: true
-title: Pearson's Chi-Square Test - Homogeneity Test
+title: "Pearson's Chi-Square Test - Homogeneity Test"
 created: 2021-09-13T05:29:09.760-05:00
 modified: 2026-05-24T20:17:16.105-05:00
+parent: "[[Pearson's Chi-Square Test]]"
+children: []
 ---
-
 ###### Pearson's Chi-Square Test - Homogeneity Test
-
 - a type of [[Pearson's Chi-Square Test]] for independence
-
-```excerpt
+````excerpt
 - comparing different populations with respect to a variable of interest
-```
-
+````
 ^excerpt
 
 # Setup & Chi-Square Test Statistic For Homogeneity
 
 similar to the [[Pearson's Chi-Square Test - Contingency Table Test - Statistical Independence Test|Chi-Square Statistical Independence Test]] (for difference see: [[Pearson's Chi-Square Test - Homogeneity Test vs Independence Test|Homogeneity Test vs Independence Test]])
-
 # Example With Code
 
 > [!expand]- Click here to expand...
@@ -180,7 +176,6 @@ similar to the [[Pearson's Chi-Square Test - Contingency Table Test - Statistica
 > ```
 >
 > Are carriers and non-carriers similar with respect to blood group distributions?
->
 > ```
 > x <- c(72, 230, 54, 192, 16, 63, 8, 15)
 > xmat <- matrix(x, byrow=T, ncol=2)

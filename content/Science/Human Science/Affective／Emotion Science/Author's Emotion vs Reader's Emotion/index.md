@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Author's Emotion vs Reader's Emotion
+title: "Author's Emotion vs Reader's Emotion"
 created: 2021-09-13T04:45:19.085-05:00
 modified: 2021-09-13T04:45:19.085-05:00
+parent: "[[Affective／Emotion Science]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

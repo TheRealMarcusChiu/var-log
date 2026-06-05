@@ -1,11 +1,11 @@
 ---
-publish: true
-title: A Wave Of Billion-Dollar Language AI Startups Is Coming
+title: "A Wave Of Billion-Dollar Language AI Startups Is Coming"
 created: 2022-04-16T21:04:58.727-05:00
 modified: 2022-04-16T21:07:27.662-05:00
+parent: "[[NLP - Articles]]"
+children: []
 ---
-
-original article: <https://www.forbes.com/sites/robtoews/2022/03/27/a-wave-of-billion-dollar-language-ai-startups-is-coming/>
+original article: [https://www.forbes.com/sites/robtoews/2022/03/27/a-wave-of-billion-dollar-language-ai-startups-is-coming/](https://www.forbes.com/sites/robtoews/2022/03/27/a-wave-of-billion-dollar-language-ai-startups-is-coming/)
 
 Language is at the heart of human intelligence. It therefore is and must be at the heart of our efforts to build artificial intelligence. No sophisticated AI can exist without mastery of language.
 
@@ -14,7 +14,6 @@ The field of language AI—also referred to as natural language processing, or N
 We now stand at an exhilarating inflection point. Next-generation language AI is poised to make the leap from academic research to widespread real-world adoption, generating many billions of dollars of value and transforming entire industries in the years ahead.
 
 A nascent ecosystem of startups is at the vanguard of this technology revolution. These companies have begun to apply cutting-edge NLP across sectors with a wide range of different product visions and business models. Given language’s foundational importance throughout society and the economy, few areas of technology will have a more far-reaching impact in the years ahead.
-
 ### <strong>Horizontal Technology Providers</strong>
 
 The first category of language AI startups worth discussing is those players that develop and make available core general-purpose NLP technology for other organizations to apply across industries and use cases.
@@ -48,7 +47,6 @@ Primer is an older competitor in this space, founded two years before the invent
 There is one last wild card worth mentioning in this category. Launched less than a month ago, little is known yet about [Inflection AI](https://www.cnbc.com/2022/03/08/reid-hoffman-has-set-up-a-new-ai-company-with-deepminds-co-founder.html) beyond its eye-catching founding team: Reid Hoffman, DeepMind cofounder Mustafa Suleyman, and decorated DeepMind researcher Karen Simonyan. The company is being incubated at Greylock, where Hoffman is a general partner. Its stated mission is to “fundamentally redefine human-machine interaction” by enabling humans to “relay our thoughts and ideas to computers using the same natural, conversational language we use to communicate with people.”
 
 Given the caliber of the company’s founders and backers, expect Inflection AI to make waves in the world of language AI before long.
-
 ### <strong>Search</strong>
 
 The most basic way that humans use natural language to interface with machines is through search. It is the primary means by which we access and navigate digital information; it lies at the heart of the modern internet experience.
@@ -57,7 +55,7 @@ Search has been dominated by a single player for so long (Google) that it is oft
 
 Last month a blog post titled [“Google Search Is Dying”](https://dkb.io/post/google-search-is-dying) made the rounds and sparked widespread discussion. The post hit home with a simple point: an opportunity exists for an upstart to improve and disrupt the Google search experience.
 
-The new entrant taking on Google most directly is [You.com](http://You.com). Founded by Richard Socher, former Chief Scientist at Salesforce and one of the world’s [most widely cited](https://scholar.google.com/citations?hl=en\&user=FaOcyfMAAAAJ) NLP researchers, [You.com](http://You.com) is reconceptualizing the search engine from the ground up. Its product vision includes a horizontal layout, an emphasis on content summarization, and above all, a commitment to user data privacy.
+The new entrant taking on Google most directly is [You.com](http://You.com). Founded by Richard Socher, former Chief Scientist at Salesforce and one of the world’s [most widely cited](https://scholar.google.com/citations?hl=en&user=FaOcyfMAAAAJ) NLP researchers, [You.com](http://You.com) is reconceptualizing the search engine from the ground up. Its product vision includes a horizontal layout, an emphasis on content summarization, and above all, a commitment to user data privacy.
 
 Challenging Google directly will, to state the obvious, be an uphill battle. There is also significant opportunity for startups in search beyond the consumer internet search market with which Google has become synonymous.
 
@@ -76,7 +74,6 @@ Video has become the dominant medium for our digital lives. A whopping 80% of th
 One exciting startup building next-generation video search capabilities is Twelve Labs, which [announced](https://techcrunch.com/2022/03/16/twelve-labs-makes-searching-inside-videos-simple-and-powerful-propelled-by-5m-seed-round/) its seed financing earlier this month. Twelve Labs fuses cutting-edge NLP and computer vision to enable precise semantic search within videos. “Multimodal AI” like this—that is, AI that ingests and synthesizes data from multiple informational modalities at once, like image and audio—will play a central role in AI’s future.
 
 “Large language models are accomplishing incredible things today. We think large multimodal neural networks for video are the obvious next step,” said Twelve Labs cofounder/CEO Jae Lee. “Video embeddings generated by these networks will supercharge current and future video-driven applications with an intelligence that we’ve never seen before.”
-
 ### <strong>Writing Assistants</strong>
 
 In today’s information-based economy, perhaps no skill matters more than effective writing.
@@ -104,7 +101,6 @@ CopyAI is a Tennessee-based startup backed by Sequoia, Tiger Global and Wing VC 
 To temper expectations, we should not expect that today’s NLP will immediately take over all writing from humans. Some forms of writing—brief formulaic content like marketing copy or social media posts—will yield more naturally to these new AI tools than will others. Original, analytical, creative work—say, op-eds, thought pieces or investigative journalism—will resist automation for the time being.
 
 But make no mistake: in the years ahead, whether we like it or not, NLP will fundamentally change how humans produce the written word. Ten years from now, writing one’s own content from scratch may well be considered an artisanal craft, with the vast majority of the world’s written text produced or at least augmented by AI.
-
 ### <strong>Language Translation</strong>
 
 Language barriers are a fundamental impediment to international business and travel, costing untold billions in lost productivity every year.
@@ -136,7 +132,6 @@ The interesting question—for Lilt and for the entire industry—is whether and
 One last startup worth mentioning in this category is NeuralSpace. NeuralSpace was founded on a simple but powerful insight: the vast majority of cutting-edge research in NLP is conducted in English, yet 95% of the world does not speak English. NeuralSpace provides a no-code NLP platform that enables users around the world to build NLP models in “low-resource languages”, from Armenian to Punjabi to Zulu.
 
 “Our vision at NeuralSpace is to break down the language barrier in AI for millions of low-resource language speakers,” said NeuralSpace cofounder/CEO Felix Laumann. “We give software developers the ability to train and deploy state-of-the-art large transformer-based language models and easily integrate them into their products, no matter where in the world they are or what language their audience speaks.”
-
 ### Sales <strong>Intelligence</strong>
 
 Sales is more of an art than a science. Yet certain repeatable principles and tactics do exist that, if systematized, can meaningfully improve a sales team’s performance.
@@ -158,7 +153,6 @@ This raises an interesting question: might an opportunity exist for an upstart t
 A handful of young startups have popped up that are nipping at Gong’s heels, though none have yet broken out.
 
 Aircover, which raised a seed round last year, and Wingman, which came out of Y Combinator in 2019, are two examples. Unlike Gong, which provides analytics only after sales calls are finished, both of these startups provide real-time in-call coaching for sales reps. And while Gong has had major success selling to large enterprises, Wingman instead targets small- and medium-sized businesses.
-
 ### <strong>Chatbot Tools and Infrastructure</strong>
 
 We all experience it in our daily lives: when we communicate digitally with companies and brands these days—via text message, web chat, social media, and so forth—these interactions are increasingly fielded by automated agents rather than humans.
@@ -180,7 +174,6 @@ The most well-funded of these competitors is Ada Support, a Toronto-based startu
 Another leading player in this category is Rasa. A close Ada competitor, Rasa’s product caters to more technically savvy users, with a greater focus on chatbot configurability. Rasa’s AI stack is open-sourced, with over 600 contributors and over 10 million downloads. This open-source strategy gives Rasa’s customers greater transparency and control over the conversational AI interfaces that they build and deploy.
 
 Other noteworthy startups in this space include Forethought, a well-capitalized competitor that boasts NLP luminary Chris Manning as an adviser; Clinc, a conversational AI platform built specifically for banks; and Thankful, which focuses on e-commerce.
-
 ### <strong>Internal Employee Engagement</strong>
 
 One specific type of enterprise chatbot has proven to be a sufficiently large market opportunity that it gets its own section: chatbots to automate employee help desks.
@@ -192,7 +185,6 @@ Conversational AI platforms can automatically field and resolve many of these em
 The leading player in this category is Moveworks, which raised a \$200 million Series C from Tiger Global last year. Another well-funded competitor is Espressive. Espressive claims that its chatbot platform can resolve between 50% and 70% of all employee helpdesk tickets without human assistance, recouping over a week of productivity per employee per year.
 
 Given the size of the market, plenty of smaller startups have emerged with similar AI-driven product offerings. One worth noting is Bay Area-based [Rezolve.ai](http://Rezolve.ai).
-
 ### Conversational <strong>Voice Assistants</strong>
 
 When Google debuted its new Duplex technology in mid-2018, it [wowed the public](https://www.theverge.com/2018/5/8/17332070/google-assistant-makes-phone-call-demo-duplex-io-2018) (and generated its [fair share of controversy](https://techcrunch.com/2018/05/10/duplex-shows-google-failing-at-ethical-and-creative-ai-design/)).
@@ -211,12 +203,11 @@ Replicant is one promising startup applying voice AI to automate contact center 
 
 Like Duplex, Replicant’s voice AI is designed to sound as natural as a human (the company’s name is a tribute to the bioengineered robots from <em>Blade Runner</em> that are indistinguishable from humans). Replicant’s technology is equipped to handle a wide range of call center use cases, from billing to customer surveys to subscription renewals. When its AI encounters a complex conversation topic that it cannot resolve on its own, it pulls in a human agent.
 
-A close Replicant competitor is AI Rudder, a Singapore-based company that [just raised \$50 million](https://www.prnewswire.com/in/news-releases/ai-rudder-raises-us-50-million-in-series-b-funding-to-propel-growth-and-international-expansion-890064163.html) from Sequoia, Coatue and Tiger Global.
+A close Replicant competitor is AI Rudder, a Singapore-based company that [just raised $50 million](https://www.prnewswire.com/in/news-releases/ai-rudder-raises-us-50-million-in-series-b-funding-to-propel-growth-and-international-expansion-890064163.html) from Sequoia, Coatue and Tiger Global.
 
 AI Rudder sells to customers in financial services and e-commerce, two industries that make extensive use of call centers. The pandemic has driven rapid growth for AI Rudder, whose revenue quadrupled last year. The company’s AI system can not only speak a wide range of different languages but can also adopt the appropriate regional accent depending on the caller.
 
 One last startup of note in this category is Resemble AI, which specializes in generating realistic human voices using generative adversarial networks (GANs). Resemble’s synthetic voices can speak with all the nuance and range of a human—for instance, whispering or communicating with various emotions—and are finding use cases from video games to advertising. The company recently [made headlines](https://www.wired.com/story/andy-warhol-diaries-artificial-intelligence-voice/) when its technology was used to reproduce Andy Warhol’s voice for an upcoming Netflix documentary.
-
 ### <strong>Contact Centers</strong>
 
 As the previous section highlighted, contact centers are a massive—and massively underdigitized—market. There is tremendous opportunity to transform the world of contact centers with software and machine learning.
@@ -236,7 +227,6 @@ Other startup competitors in this category include [Observe.ai](http://Observe.a
 All of these players offer contact center AI for use across industries. A less common approach is to develop contact center AI purpose-built for a particular vertical. This is the approach taken by BirchAI, a young startup that recently spun out of the Allen Institute for AI (AI2). BirchAI has built a cutting-edge NLP solution focused on contact centers in healthcare. The company’s target customers include health insurers, pharmaceutical companies and medical device companies.
 
 As Birch cofounder/CEO Kevin Terrell put it, “Transformer-based NLP can now automate complex dialogue and document workflows that used to require highly trained employees. Healthcare, with its lagging productivity and aging workforce, is one sector where the need for this technology is particularly pronounced.”
-
 ### <strong>Content Moderation</strong>
 
 From misinformation to cyberbullying to hate speech to scams, harmful online content is a massive and growing problem in today’s digital world.
@@ -256,12 +246,11 @@ Spectrum Labs is one promising startup applying AI to combat online toxicity, wi
 “The companies, communities and content creator ecosystems that take safety, privacy, and DEI seriously now are poised to be the leaders in the business world of tomorrow,” said Spectrum Labs cofounder/CEO Justin Davis. “In an area in which there is no definition of ‘done’, AI is one of many tools that can transform Trust & Safety teams into data-informed builders of brighter and more positive experiences.”
 
 Another interesting player in this category is Logically. Based in the U.K., Logically focuses on misinformation and disinformation. (The latter is the subset of the former that is spread to deceive <em>intentionally</em>.) Its platform relies on a large team of expert human reviewers working in tandem with its AI system. Many of Logically’s clients are governments, which use its technology for issues including national security, election integrity and COVID-19 misinformation. The company also [counts TikTok](https://www.logically.ai/press/logically-announces-uk-partnership-with-tiktok) as a customer.
-
 ### <strong>Healthcare</strong>
 
 The final category of NLP startups in this article is the only one oriented around a specific industry vertical. From chatbots to search, it turns out that most language AI capabilities have broad horizontal applicability across industries. While opportunities for vertical-specific NLP applications do exist in some other industries, for instance financial services and law, no sector offers a greater breadth of language AI use cases than healthcare.
 
-In part this is simply because healthcare is such a massive market: at [over \$4 trillion](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical), it is the largest sector of the U.S. economy, accounting for a staggering 19.7% of the country’s entire GDP. Healthcare-specific AI stacks and data pipelines also make sense given the stringent data privacy requirements in healthcare, reflected in regulations like HIPAA. And the world of healthcare is full of specialized language and jargon, making health-specific NLP models important.
+In part this is simply because healthcare is such a massive market: at [over $4 trillion](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical), it is the largest sector of the U.S. economy, accounting for a staggering 19.7% of the country’s entire GDP. Healthcare-specific AI stacks and data pipelines also make sense given the stringent data privacy requirements in healthcare, reflected in regulations like HIPAA. And the world of healthcare is full of specialized language and jargon, making health-specific NLP models important.
 
 There is no one particular NLP “killer app” in healthcare; rather, startups have identified a wide range of different use cases to which language AI can be valuably applied.
 

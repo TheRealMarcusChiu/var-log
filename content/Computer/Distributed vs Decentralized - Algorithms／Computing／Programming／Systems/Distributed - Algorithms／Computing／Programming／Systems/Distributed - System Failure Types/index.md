@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Distributed - System Failure Types
+title: "Distributed - System Failure Types"
 created: 2019-06-13T22:46:21.754-05:00
 modified: 2019-12-15T14:02:56.618-06:00
+parent: "[[Distributed - Algorithms／Computing／Programming／Systems]]"
+children: []
 ---
-
 ### Distributed System Failure Types
 
 ```merge-table

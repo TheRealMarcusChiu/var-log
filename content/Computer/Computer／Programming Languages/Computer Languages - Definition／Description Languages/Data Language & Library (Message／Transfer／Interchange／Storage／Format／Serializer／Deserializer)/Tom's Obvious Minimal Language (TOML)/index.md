@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Tom's Obvious Minimal Language (TOML)
+title: "Tom's Obvious Minimal Language (TOML)"
 created: 2022-10-21T16:33:08.826-05:00
 modified: 2022-10-21T16:34:31.703-05:00
+parent: "[[Data Language & Library (Message／Transfer／Interchange／Storage／Format／Serializer／Deserializer)]]"
+children: []
 ---
-
 ###### Tom's Obvious Minimal Language (TOML)
-
 - is a type of config file language format
-- <https://toml.io/en/>
+- [https://toml.io/en/](https://toml.io/en/)
 
 # Example TOML File
-
 ```
 # This is a TOML document
 

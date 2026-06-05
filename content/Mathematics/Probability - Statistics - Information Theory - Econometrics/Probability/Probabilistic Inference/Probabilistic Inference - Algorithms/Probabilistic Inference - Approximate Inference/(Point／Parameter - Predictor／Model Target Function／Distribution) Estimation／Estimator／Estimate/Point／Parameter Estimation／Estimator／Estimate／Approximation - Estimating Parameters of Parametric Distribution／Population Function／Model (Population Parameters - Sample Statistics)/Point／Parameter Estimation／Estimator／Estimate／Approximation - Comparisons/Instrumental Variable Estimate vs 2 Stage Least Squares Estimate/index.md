@@ -1,13 +1,13 @@
 ---
-publish: true
-title: Instrumental Variable Estimate vs 2 Stage Least Squares Estimate
+title: "Instrumental Variable Estimate vs 2 Stage Least Squares Estimate"
 created: 2021-09-13T05:28:08.516-05:00
 modified: 2021-09-13T05:28:08.516-05:00
+parent: "[[Point／Parameter Estimation／Estimator／Estimate／Approximation - Comparisons]]"
+children: []
 ---
-
 [[Instrumental Variables (IV) Estimator|Instrumental Variable (IV) Estimate]] is an example of [[Two-Stage Least Squares (2SLS)|2 Stage Least Squares (2SLS) Estimate]] when the number of instrument variables is just one
 
-![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Probability/Probabilistic Inference/Probabilistic Inference - Algorithms/Probabilistic Inference - Approximate Inference/(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate/Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)/Point／Parameter Estimation／Estimator／Estimate／Approximation - Comparisons/Instrumental Variable Estimate vs 2 Stage Least Squares Estimate/2SLS-vs-IV-Estimates.png|150]]
+![[Instrumental Variable Estimate vs 2 Stage Least Squares Estimate/2SLS-vs-IV-Estimates.png|150]]
 
 ```merge-table
 {
@@ -32,9 +32,8 @@ modified: 2021-09-13T05:28:08.516-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 ### Resources
 
-![](https://www.youtube.com/watch?v=WjcoHAJ4_Mc\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=143\&ab_channel=BenLambert)
+![](https://www.youtube.com/watch?v=WjcoHAJ4_Mc&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=143&ab_channel=BenLambert)
 
-![](https://www.youtube.com/watch?v=phVSac1iO18\&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU\&index=144\&frags=wn\&ab_channel=BenLambert)
+![](https://www.youtube.com/watch?v=phVSac1iO18&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=144&frags=wn&ab_channel=BenLambert)

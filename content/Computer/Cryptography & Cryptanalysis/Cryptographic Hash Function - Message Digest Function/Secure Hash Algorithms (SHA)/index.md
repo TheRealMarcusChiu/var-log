@@ -1,16 +1,15 @@
 ---
-publish: true
-title: Secure Hash Algorithms (SHA)
+title: "Secure Hash Algorithms (SHA)"
 created: 2019-03-16T03:11:32.511-05:00
 modified: 2026-01-02T02:02:49.499-06:00
+parent: "[[Cryptographic Hash Function - Message Digest Function]]"
+children:
+  - "[[SHA-256]]"
 ---
-
 ###### Secure Hash Algorithms (SHA)
-
-```excerpt
+````excerpt
 - are a family of cryptographic functions designed to keep data secured
-```
-
+````
 ^excerpt
 
 # SHA - Versions
@@ -146,7 +145,5 @@ modified: 2026-01-02T02:02:49.499-06:00
   ]
 }
 ```
-
 # Online Tools
-
-- <https://emn178.github.io/online-tools/sha256.html>
+- [https://emn178.github.io/online-tools/sha256.html](https://emn178.github.io/online-tools/sha256.html)

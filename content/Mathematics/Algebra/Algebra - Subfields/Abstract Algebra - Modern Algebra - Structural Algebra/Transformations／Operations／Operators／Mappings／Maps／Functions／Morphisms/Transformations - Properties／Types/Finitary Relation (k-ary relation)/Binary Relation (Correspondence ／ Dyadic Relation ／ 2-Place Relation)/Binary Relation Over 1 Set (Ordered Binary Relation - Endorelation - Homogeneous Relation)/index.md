@@ -1,18 +1,18 @@
 ---
-publish: true
-title: Binary Relation Over 1 Set (Ordered Binary Relation - Endorelation - Homogeneous Relation)
+title: "Binary Relation Over 1 Set (Ordered Binary Relation - Endorelation - Homogeneous Relation)"
 created: 2021-09-13T05:29:22.984-05:00
 modified: 2023-06-13T11:22:53.259-05:00
+parent: "[[Binary Relation (Correspondence ／ Dyadic Relation ／ 2-Place Relation)]]"
+children:
+  - "[[Binary Ordered Relations - Types (Partial Order - Total Order - Quasi Order)]]"
+  - "[[Equivalence Relations]]"
 ---
-
 ###### Binary Relation Over 1 Set (Ordered Binary Relation - Endorelation - Homogeneous Relation)
-
-```excerpt
+````excerpt
 - is a type of [[Binary Relation (Correspondence ／ Dyadic Relation ／ 2-Place Relation)|binary relation]] 𝑅 on a single set 𝐴 such that 𝑅 is a subset of:
 	- cartesian product 𝐴<sup>2</sup> = 𝐴×𝐴
 	- ordered pairs of elements of 𝐴
-```
-
+````
 ^excerpt
 
 # Ordered Binary Relation - Properties
@@ -115,8 +115,12 @@ an ordered binary relation 𝑅 on a single set 𝑆 can have any of the followi
 ```
 
 NOTE
-
 - a binary relation cannot be both reflexive and irreflexive
 - a binary relation can be both symmetric and antisymmetric (e.g. the = equality relation)
 
 # Ordered Binary Relation - Types
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

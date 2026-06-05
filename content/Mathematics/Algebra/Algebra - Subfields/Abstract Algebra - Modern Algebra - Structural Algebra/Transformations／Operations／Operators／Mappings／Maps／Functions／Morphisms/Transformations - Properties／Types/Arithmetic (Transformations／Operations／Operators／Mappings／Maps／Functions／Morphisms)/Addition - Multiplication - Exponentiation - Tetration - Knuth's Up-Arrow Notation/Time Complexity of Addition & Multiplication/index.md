@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Time Complexity of Addition & Multiplication
+title: "Time Complexity of Addition & Multiplication"
 created: 2022-05-14T17:27:36.113-05:00
 modified: 2022-05-14T18:25:55.092-05:00
+parent: "[[Addition - Multiplication - Exponentiation - Tetration - Knuth's Up-Arrow Notation]]"
+children: []
 ---
-
 # What is the Time-Complexity of Addition and Multiplication?
 
 ```merge-table

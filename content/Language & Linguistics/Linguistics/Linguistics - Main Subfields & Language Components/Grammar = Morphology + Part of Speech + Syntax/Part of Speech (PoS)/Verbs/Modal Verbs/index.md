@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Modal Verbs
+title: "Modal Verbs"
 created: 2021-09-13T04:44:05.228-05:00
 modified: 2022-06-25T18:02:46.427-05:00
+parent: "[[Verbs]]"
+children: []
 ---
-
 ###### Modal Verbs
-
 - is an auxiliary verb that expresses necessity or possibility
 
 # Modal Verbs - Examples

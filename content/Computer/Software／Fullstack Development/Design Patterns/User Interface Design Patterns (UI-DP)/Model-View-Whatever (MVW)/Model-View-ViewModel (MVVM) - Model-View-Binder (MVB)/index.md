@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Model-View-ViewModel (MVVM) - Model-View-Binder (MVB)
+title: "Model-View-ViewModel (MVVM) - Model-View-Binder (MVB)"
 created: 2019-12-23T00:11:42.348-06:00
 modified: 2025-10-20T22:47:29.808-05:00
+parent: "[[Model-View-Whatever (MVW)]]"
+children: []
 ---
-
 ###### Model-View-ViewModel (MVVM) or Model-View-Binder (MVB)
-
-```excerpt
+````excerpt
 - is a derivation of [[Model-View-Presenter (MVP)]]
-```
-
+````
 ^excerpt
 
 # MVVM/MVB - Components
@@ -58,8 +56,7 @@ modified: 2025-10-20T22:47:29.808-05:00
 
 MVVM was designed to make use of [data binding](https://en.wikipedia.org/wiki/Data_binding)
 
-![[Computer/Software／Fullstack Development/Design Patterns/User Interface Design Patterns (UI-DP)/Model-View-Whatever (MVW)/Model-View-ViewModel (MVVM) - Model-View-Binder (MVB)/model-view-view-model-mvvm.png|500]]
-
+![[Model-View-ViewModel (MVVM) - Model-View-Binder (MVB)/model-view-view-model-mvvm.png|500]]
 # MVVM/MVB - When Should You Use It?
 
 Use this pattern when you need to transform Models into another representation for a View. For example, you can use a ViewModel to transform a <code>Date</code> into a date-formatted <code>String</code>, a <code>Decimal</code> into a currency-formatted <code>String</code>, or many other useful transformations

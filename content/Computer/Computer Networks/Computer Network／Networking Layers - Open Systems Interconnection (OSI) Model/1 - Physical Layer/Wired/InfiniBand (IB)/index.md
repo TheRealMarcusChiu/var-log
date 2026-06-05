@@ -1,17 +1,15 @@
 ---
-publish: true
-title: InfiniBand (IB)
+title: "InfiniBand (IB)"
 created: 2022-09-11T14:15:16.989-05:00
 modified: 2025-10-21T14:38:39.767-05:00
+parent: "[[Wired]]"
+children: []
 ---
-
 ###### InfiniBand (IB)
-
-```excerpt
+````excerpt
 - is a computer networking communications standard used in high-performance computing that features very high throughput and very low latency
 - is both a [[1 - Physical Layer|Layer 1]] & [[2 - Data Link Layer|Layer 2]] protocol
-```
-
+````
 ^excerpt
 
 # IB - Standards

@@ -1,14 +1,21 @@
 ---
-publish: true
-title: ICE-BREAKER QUESTIONS
+title: "ICE-BREAKER QUESTIONS"
 created: 2021-09-13T04:46:05.357-05:00
 modified: 2024-11-11T11:12:43.924-06:00
+parent: "[[People]]"
+children:
+  - "[[The 36 Questions]]"
+  - "[[Thought Experiments]]"
 ---
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - guess first impressions of each other - and ask what is first impressions of each other
 
-![[Enter Symbiosis/People/ICE-BREAKER QUESTIONS/1.jpg]]
-
+![[ICE-BREAKER QUESTIONS/1.jpg]]
 1. What english word has three consecutive letters? (bookkeeper)
 2. Do you think those who who work in a mortuary wanted to work there? How about male gynecologist.
 3. Would You Cover For Your Cheating Friend?
@@ -31,51 +38,47 @@ modified: 2024-11-11T11:12:43.924-06:00
 20. Would you rather lose a loved one or your phone?
 
 # Someone You’ve Just Met
-
-1. What’s your connection to \[this event/the host/this location]?
+1. What’s your connection to \[this event/the host/this location\]?
 2. What do you think about the music/vibe here?
 3. Did you come with anyone and who are you hoping to meet? (i.e. business contacts, new friends, etc.)
 4. Have you been here before and what inspired you to attend?
 5. How’d you find yourself here today?
-6. What did you think about \[specific part of the event, such as a speech, performance, or activity]?
+6. What did you think about \[specific part of the event, such as a speech, performance, or activity\]?
 7. What do you usually order/do here?
-8. How’d you find out about this \[place/event]?
+8. How’d you find out about this \[place/event\]?
 9. Have you met anyone here that you thought was especially unique or interesting?
 10. Any big plans for later in the day/tomorrow?
 
 # Someone You Already Know
-
 1. What’s been going on since the last time we met up?
-2. Whatever happened with \[XYZ thing they brought up last time]?
+2. Whatever happened with \[XYZ thing they brought up last time\]?
 3. Have you experienced anything new that's impacted who you are lately?
 4. Anything exciting going on in your life?
 5. Have you learned or discovered anything cool lately?
 6. What are you most excited about in life right now?
 7. Have any new goals or plans you’re working on?
 8. Read/watched anything good since we last met up?
-9. How is \[person important to them] doing?
+9. How is \[person important to them\] doing?
 10. What's a rose (good thing) and a thorn (bad thing) happening in your life right now?
 
 # Someone You’ve Known a Long Time
-
 1. What’s been on your mind and heart lately?
 2. How are you really doing? Is there anything I can do to support you right now?
-3. How have you been doing with \[challenge/goal]?
+3. How have you been doing with \[challenge/goal\]?
 4. How have you been spending your time and what have you been investing your energy into lately?
 5. What are you looking forward to today/this week/this weekend?
-6. How’s it going with \[person important to them]?
+6. How’s it going with \[person important to them\]?
 7. Is there anything you’ve wanted to talk about with me lately?
 8. What was your high and low today?
 9. Any major life or work updates?
 10. Is there anything you'd like to share you're proud of that I can celebrate with you?
 
 # The 36 Questions - List From Less Personal to More Personal
-
 1. If you could wake up tomorrow having gained any one quality or ability what would it be?
 2. when did you last cry in front of a person? by yourself?
 3. Tell your partner what you really like about them; be very honest this time, saying things you might not say to someone you just met.
 
-<https://www.ted.com/talks/mandy_len_catron_falling_in_love_is_the_easy_part/transcript>
+[https://www.ted.com/talks/mandy_len_catron_falling_in_love_is_the_easy_part/transcript](https://www.ted.com/talks/mandy_len_catron_falling_in_love_is_the_easy_part/transcript)
 
 [<font style="color: rgb(17,85,204);">https://www.nytimes.com/2015/01/09/style/no-37-big-wedding-or-small.html</font>](https://www.nytimes.com/2015/01/09/style/no-37-big-wedding-or-small.html)
 
@@ -99,7 +102,7 @@ What's your favorite type of music?
 
 How's your family doing?
 What's your favorite way to relax after a long day?
-Have you ever been to \[insert place]?
+Have you ever been to \[insert place\]?
 Do you play any musical instruments?
 How do you usually spend your mornings?
 What's the last concert you attended?

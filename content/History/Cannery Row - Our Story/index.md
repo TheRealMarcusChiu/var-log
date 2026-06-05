@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Cannery Row - Our Story
+title: "Cannery Row - Our Story"
 created: 2021-09-13T04:43:43.265-05:00
 modified: 2021-09-13T04:43:43.265-05:00
+parent: "[[History]]"
+children: []
 ---
-
-<https://canneryrow.com/our-story/>
+[https://canneryrow.com/our-story/](https://canneryrow.com/our-story/)
 
 ```merge-table
 {

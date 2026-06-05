@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Satan v Jesus
+title: "Satan v Jesus"
 created: 2021-09-13T04:44:55.624-05:00
 modified: 2021-09-13T04:44:55.624-05:00
+parent: "[[Christianity - Pre 2019]]"
+children: []
 ---
-
 While reading the gospels: Satan (the adversary, the diabolos, the devil) does everything to stop Jesus:
-
 - used King Herod to kill Jesus as a baby
 - tempt Jesus 40 days and 40 nights in the wilderness: Luke 4
 - does not want Jesus to die on the cross: Matthew 16:21-23

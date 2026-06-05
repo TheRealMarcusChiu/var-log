@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Chapter 5 - Representing Defaults
+title: "Chapter 5 - Representing Defaults"
 created: 2019-03-31T20:40:11.701-05:00
 modified: 2019-11-02T13:57:38.959-05:00
+parent: "[[Knowledge Representation, Reasoning, and the Design of Intelligent Agents - The Answer-Set Programming Approach - Summaries]]"
+children: []
 ---
-
 related article: [[Classical Negation - Default Negation - Negation as Failure (NAF) - Logical Negation]]
-
 # Representing Defaults
 
 "normally elements of class C have property P" is often represented by the rule:
-
 ```
 p(X) :- c(X),            % X is of class C
         not ab(d(X)),    % ab(d(X)) is maybe false
@@ -18,7 +16,6 @@ p(X) :- c(X),            % X is of class C
 ```
 
 > [!expand]- example: click here to expand...
->
 > - max, sara, marcus are persons
 > - normally every person is asian
 >
@@ -64,26 +61,22 @@ p(X) :- c(X),            % X is of class C
 >   ]
 > }
 > ```
-
 # Exceptions to Defaults
 
 > [!expand]- Click here to expand...
 > there are 2 types of exceptions to defaults:
->
 > - <strong>weak exceptions</strong> - render the default inapplicable
 > - <strong>strong exceptions</strong> - refute the default's conclusion
 >
 > ```
 > ab(d(X)) :- not -e(X).
 > ```
->
 > ```
 > ab(d(X)) :- not -e(X).
 > -p(X) :- e(X).
 > ```
 >
 > > [!expand]- example: click here to expand...
-> >
 > > - max, sara, marcus, erina are persons
 > > - normally every person is asian
 > > - a person born in mars is not asian
@@ -150,22 +143,18 @@ p(X) :- c(X),            % X is of class C
 > >   ]
 > > }
 > > ```
-
 # Exceptions to Defaults: Special Case
 
 > [!expand]- Click here to expand...
 > if information about exception <em>e</em> is complete then representation of weak and strong exceptions can be simplified
->
 > ```
 > ab(d(X)) :- e(X).
 > ```
->
 > ```
 > -p(X) :- e(X).
 > ```
 >
 > > [!expand]- example: click here to expand...
-> >
 > > - max, sara, marcus, erina are persons
 > > - normally every person is asian
 > > - a person born in mars is not asian
@@ -234,11 +223,9 @@ p(X) :- c(X),            % X is of class C
 > >   ]
 > > }
 > > ```
-
 # Knowledge Bases with Null Values
 
 > [!expand]- Click here to expand...
->
 > ## <strong>NULL - INFINITE SET</strong>
 >
 > ```merge-table
@@ -291,7 +278,6 @@ p(X) :- c(X),            % X is of class C
 >   ]
 > }
 > ```
->
 > ```
 > prof(mike).
 > prof(john).
@@ -376,7 +362,6 @@ p(X) :- c(X),            % X is of class C
 > ```
 >
 > simply append program by
->
 > ```
 > teaches(mike, prolog) | teaches(john, prolog).
 > ```
@@ -415,12 +400,10 @@ p(X) :- c(X),            % X is of class C
 >   ]
 > }
 > ```
-
 # Simple Priorities between Defaults
 
 > [!expand]- Click here to expand...
 > start with orphan story from 4.1
->
 > - all children are entitled to program 0
 > - orphans are entitled to program 1
 > - no one can receive more than 1 program
@@ -456,14 +439,12 @@ p(X) :- c(X),            % X is of class C
 > check_status(X) :- not -orphan(X),
 >                    not orphan(X).
 > ```
-
 # Inheritance Hierarchies with Defaults
 
 > [!expand]- Click here to expand...
 > start with narwhal example from 4.3
 >
 > instead of saying all submarines are black, we say that normally submarines are black
->
 > ```
 > has_color(X,black) :- member(X,sub).
 >
@@ -475,7 +456,6 @@ p(X) :- c(X),            % X is of class C
 > ```
 >
 > suppose we learned about a submarine named DeepBlue and the color of DeepBlue is blue
->
 > ```
 > object(deep_blue).
 > color(blue).
@@ -486,7 +466,6 @@ p(X) :- c(X),            % X is of class C
 > since colors of submarines can only be of one color (see rule on lines 29-31 from section 4.3), the new blue submarine is a strong exception to our default
 
 > [!expand]- weakening disjointness of hierarchies
->
 > ```
 > % member and siblings stays the same
 > member(X,C) :- is_a(X,C).
@@ -504,17 +483,14 @@ p(X) :- c(X),            % X is of class C
 > ```
 >
 > now we introduce an amphibious vehicle called Darling, that is both a car and submarine
->
 > ```
 > object(darling).
 > is_a(darling, car).
 > is_(darling, sub).
 > ```
-
 # Specificity Principle
 
 > [!expand]- Click here to expand...
->
 > - eagles and penguins are birds
 > - birds are animals
 > - cats are animals
@@ -560,10 +536,9 @@ p(X) :- c(X),            % X is of class C
 >                  not member(X,C1).
 > ```
 >
-> our agent should now be able to answer correctly that Tweety is not an eagle but is a penguin, a bird, and an animal.
+> our agent should now be able to answer correctly that Tweety is not an eagle but is a penguin, a bird, and an animal. 
 >
 > now we add default properties of classes
->
 > - animals normally don't fly
 > - birds normally fly
 > - penguins normally don't fly
@@ -590,13 +565,12 @@ p(X) :- c(X),            % X is of class C
 > % X is abnormal w.r.t. d2 if X might be a penguin
 > ab(d2(X)) :- not -member(X,penguin).
 > ```
-
 # Indirect Exceptions to Defaults
 
-> [!expand]- Click here to expand... <strong>indirect exceptions </strong>- is another type of exceptions to defaults (other 2 are: weak and strong exceptions)
+> [!expand]- Click here to expand...
+> <strong>indirect exceptions </strong>- is another type of exceptions to defaults (other 2 are: weak and strong exceptions)
 >
 > consider the inconsistent program below
->
 > ```
 > p(X) :- c(X),
 >         not ab(d(X)),

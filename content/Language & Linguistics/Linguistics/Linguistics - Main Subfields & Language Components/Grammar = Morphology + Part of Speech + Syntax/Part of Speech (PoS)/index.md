@@ -1,12 +1,22 @@
 ---
-publish: true
-title: Part of Speech (PoS)
+title: "Part of Speech (PoS)"
 created: 2021-09-13T04:44:01.981-05:00
 modified: 2021-09-13T04:44:01.981-05:00
+parent: "[[Grammar = Morphology + Part of Speech + Syntax]]"
+children:
+  - "[[Adjectives]]"
+  - "[[Adpositions (Prepositions - Postpositions - Circumposition)]]"
+  - "[[Adverbs]]"
+  - "[[Conjunctions]]"
+  - "[[Determiners (Articles)]]"
+  - "[[Interjections]]"
+  - "[[Nouns]]"
+  - "[[PoS - Sets]]"
+  - "[[Pronouns]]"
+  - "[[Verbs]]"
 ---
-
-## ![[Grammar = Morphology + Part of Speech + Syntax#^excerpt]]
-
+![[Grammar = Morphology + Part of Speech + Syntax#^excerpt]]
+---
 # <strong>PoS - Common Types</strong>
 
 in [[English]] the main parts of speech are:
@@ -125,14 +135,16 @@ in [[English]] the main parts of speech are:
   "tableStyle": "width: 99.8864%;"
 }
 ```
-
 # <strong>PoS - Sets</strong>
+```dataview
+LIST
+FROM ""
+WHERE file.folder = [[PoS - Sets]].file.folder + "/" + [[PoS - Sets]].file.name
+```
 
 # <strong>PoS - Example</strong>
 
 > [!expand]- Click here to expand...
 > ![[PoS & Syntax - Example#^excerpt]]
-
 # <strong>PoS - Resources</strong>
-
-- <https://sites.google.com/site/partofspeechhelp/home#TOC-VB>
+- [https://sites.google.com/site/partofspeechhelp/home#TOC-VB](https://sites.google.com/site/partofspeechhelp/home#TOC-VB)

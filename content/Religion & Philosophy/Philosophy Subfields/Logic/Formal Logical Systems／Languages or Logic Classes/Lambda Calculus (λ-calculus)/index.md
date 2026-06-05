@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Lambda Calculus (λ-calculus)
+title: "Lambda Calculus (λ-calculus)"
 created: 2022-03-06T15:19:01.084-06:00
 modified: 2022-03-06T16:05:36.462-06:00
+parent: "[[Formal Logical Systems／Languages or Logic Classes]]"
+children: []
 ---
-
 ###### Lambda Calculus (also written as𝜆-calculus)
-
 - is a [[Formal Logical Systems／Languages or Logic Classes|formal system in mathematical logic]] for expressing [[Computational Complexity Theory|computation]] based on function abstraction and application using variable binding and substitution
 - is a universal [model of computation](https://en.wikipedia.org/wiki/Model_of_computation) that can be used to simulate any [[Turing Machine (TM)|Turing machine]]
 - it was introduced by the mathematician [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church) in the 1930s as part of his research into the [foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
@@ -14,7 +13,6 @@ modified: 2022-03-06T16:05:36.462-06:00
 # Introduction
 
 ![](https://www.youtube.com/watch?v=eis11j_iGMs)
-
 # Syntax & Semantics
 
 Lambda calculus consists of constructing lambda terms and performing reduction operations on them. In the simplest form of lambda calculus, terms are built using only the following rules:
@@ -132,29 +130,24 @@ The reduction operations include:
 }
 ```
 
-If [De Bruijn indexing](https://en.wikipedia.org/wiki/De_Bruijn_index) is used, then α-conversion is no longer required as there will be no name collisions. If the [repeated application](https://en.wikipedia.org/wiki/Reduction_strategy_\(lambda_calculus\)) of the reduction steps eventually terminates, then by the [Church–Rosser theorem](https://en.wikipedia.org/wiki/Church%E2%80%93Rosser_theorem) it will produce a [𝛽-normal form](https://en.wikipedia.org/wiki/Beta_normal_form).
+If [De Bruijn indexing](https://en.wikipedia.org/wiki/De_Bruijn_index) is used, then α-conversion is no longer required as there will be no name collisions. If the [repeated application](https://en.wikipedia.org/wiki/Reduction_strategy_(lambda_calculus)) of the reduction steps eventually terminates, then by the [Church–Rosser theorem](https://en.wikipedia.org/wiki/Church%E2%80%93Rosser_theorem) it will produce a [𝛽-normal form](https://en.wikipedia.org/wiki/Beta_normal_form).
 
 Variable names are not needed if using a universal lambda function, such as [Iota and Jot](https://en.wikipedia.org/wiki/Iota_and_Jot), which can create any function behavior by calling it on itself in various combinations.
-
 # Examples
 
 Assume TRUE and FALSE are encoded in the following way:
-
 - TRUE  = 𝜆𝑥.𝜆𝑦. 𝑥
 - FALSE = 𝜆𝑥.𝜆𝑦. 𝑦
 
 NOT can be encoded the following way:
-
 - NOT   = 𝜆𝑥. 𝑥 FALSE TRUE
 
 For example, given 𝑥 = TRUE, then:
-
 - (𝜆𝑥. 𝑥 FALSE TRUE) TRUE
 - <font style="color: rgb(255,102,0);">TRUE</font> FALSE TRUE
 - <font style="color: rgb(255,102,0);">𝜆𝑥.𝜆𝑦. 𝑥</font> FALSE TRUE
 - FALSE
 
 AND and OR can be encoded in the following ways:
-
 - AND = 𝜆𝑥.𝜆𝑦. 𝑥 𝑦 FALSE
 - OR = 𝜆𝑥.𝜆𝑦. 𝑥 𝑦 𝑦

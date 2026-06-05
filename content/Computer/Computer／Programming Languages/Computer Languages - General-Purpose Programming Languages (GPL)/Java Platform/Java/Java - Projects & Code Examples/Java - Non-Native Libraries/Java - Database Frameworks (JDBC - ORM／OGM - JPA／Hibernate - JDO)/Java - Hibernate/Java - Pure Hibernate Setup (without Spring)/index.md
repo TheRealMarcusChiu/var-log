@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Java - Pure Hibernate Setup (without Spring)
+title: "Java - Pure Hibernate Setup (without Spring)"
 created: 2022-11-16T04:12:39.085-06:00
 modified: 2022-11-16T04:43:41.437-06:00
+parent: "[[Java - Hibernate]]"
+children: []
 ---
-
 # Dependencies
-
 ```
 <dependency>
 	<groupId>org.hibernate</groupId>
@@ -14,13 +13,11 @@ modified: 2022-11-16T04:43:41.437-06:00
     <version>5.4.2.Final</version>
 </dependency>
 ```
-
 # Creating Entities
 
 Use the standard [[Java - Java Persistence API (JPA) - Jakarta Persistence|JPA]] annotations (in <code><font style="color: rgb(122,134,154);">javax.persistence</font></code>) instead of Hibernate's annotations (in <code><font style="color: rgb(122,134,154);">org.hibernate.annotations</font></code>). This way, you could theoretically run your code on other JPA implementations.
 
 Only when you need Hibernate-specific functionality should you use the Hibernate annotations.
-
 ```
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -44,9 +41,7 @@ public class User {
     private String isbn;
 }
 ```
-
 # Creating SessionFactory
-
 ```
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -82,9 +77,7 @@ public static Session getCurrentSession() {
     return session;
 }
 ```
-
 # Using SessionFactory
-
 ```
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

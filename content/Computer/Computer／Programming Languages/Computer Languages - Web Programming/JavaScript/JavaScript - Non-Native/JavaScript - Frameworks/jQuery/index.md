@@ -1,16 +1,14 @@
 ---
-publish: true
-title: jQuery
+title: "jQuery"
 created: 2019-03-15T16:18:56.886-05:00
 modified: 2025-04-12T20:15:15.373-05:00
+parent: "[[JavaScript - Frameworks]]"
+children: []
 ---
-
 ###### jQuery
-
-```excerpt
+````excerpt
 - is a [[JavaScript]] library designed to simplify [[HyperText Markup Language (HTML)]] DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax
-```
-
+````
 ^excerpt
 
 ```merge-table

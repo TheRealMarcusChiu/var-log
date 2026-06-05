@@ -1,17 +1,22 @@
 ---
-publish: true
-title: Computer Organization - Microarchitecture (µarch - uarch)
+title: "Computer Organization - Microarchitecture (µarch - uarch)"
 created: 2019-07-13T22:20:05.951-05:00
 modified: 2025-07-11T17:49:52.919-05:00
+parent: "[[Computer Architecture]]"
+children:
+  - "[[Harvard Architecture]]"
+  - "[[Modified Harvard Architecture]]"
+  - "[[Nvidia Microarchitectures]]"
+  - "[[Processing in Memory (PIM) - Memory-Centric Computing - Near-Data Computing - Computational RAM - In-Memory Computation]]"
+  - "[[RDNA (microarchitecture)]]"
+  - "[[Systolic Arrays - Wavefront Processors]]"
+  - "[[Von Neumann Architecture／Model - Princeton Architecture - Stored-Program Computer]]"
 ---
-
 ###### Computer Organization - Microarchitecture (µarch - uarch)
-
-```excerpt
+````excerpt
 - sometimes abbreviated as <em>µarch</em> or <em>uarch</em>
 - is the way a given [[Instruction Set Architecture (ISA)|instruction set architecture]] is implemented in a particular [[Processor - Processing Unit (PU) - Processing Element (PE)|processor]]
-```
-
+````
 ^excerpt
 
 # Computer Organization - Classes
@@ -78,9 +83,11 @@ modified: 2025-07-11T17:49:52.919-05:00
   "tableStyle": "width: 99.9174%;"
 }
 ```
-
 # Computer Organization - Class Implementations
-
 see [[Processor - Processing Unit (PU) - Processing Element (PE)]]
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

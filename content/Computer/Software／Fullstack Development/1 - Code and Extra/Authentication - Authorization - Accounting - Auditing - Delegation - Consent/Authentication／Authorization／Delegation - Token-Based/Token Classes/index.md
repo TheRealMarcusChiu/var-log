@@ -1,10 +1,13 @@
 ---
-publish: true
-title: Token Classes
+title: "Token Classes"
 created: 2020-01-09T22:27:10.789-06:00
 modified: 2023-02-19T18:03:42.538-06:00
+parent: "[[Authentication／Authorization／Delegation - Token-Based]]"
+children:
+  - "[[Access Token]]"
+  - "[[ID Token]]"
+  - "[[Refresh Token]]"
 ---
-
 ````excerpt
 refer to [[Authentication／Authorization／Delegation - Entities／Actors|Authentication/Authorization/Delegation - Entities/Actors]]
 
@@ -53,5 +56,4 @@ refer to [[Authentication／Authorization／Delegation - Entities／Actors|Authe
 }
 ```
 ````
-
 ^excerpt

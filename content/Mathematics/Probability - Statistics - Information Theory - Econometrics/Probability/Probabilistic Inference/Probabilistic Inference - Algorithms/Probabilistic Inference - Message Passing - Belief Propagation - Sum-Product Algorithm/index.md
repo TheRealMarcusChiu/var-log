@@ -1,25 +1,24 @@
 ---
-publish: true
-title: Probabilistic Inference - Message Passing - Belief Propagation - Sum-Product Algorithm
+title: "Probabilistic Inference - Message Passing - Belief Propagation - Sum-Product Algorithm"
 created: 2021-09-13T05:28:28.555-05:00
 modified: 2025-09-28T19:47:23.576-05:00
+parent: "[[Probabilistic Inference - Algorithms]]"
+children:
+  - "[[Probabilistic Inference - Belief Propagation - Factor Graphs]]"
+  - "[[Probabilistic Inference - Iterative／Loopy／Cluster／Clique／Join／Junction Graph Belief Propagation]]"
+  - "[[Probabilistic Inference - Mini-Cluster／Bucket Elimination]]"
 ---
-
 > [!expand]- probabilistic inference recap
 > ![[Probabilistic Inference#^excerpt]]
-
 ###### Message Passing Algorithm - Belief Propagation Algorithm - Sum-Product Algorithm
-
-```excerpt
+````excerpt
 - is a type of:
 	- [[Probabilistic Inference - Exact Inference|exact inference algorithm]] for graphs without cycles (trees)
 	- [[Probabilistic Inference - Approximate Inference|approximate inference algorithm]] for graphs with cycles
-```
-
+````
 ^excerpt
 
 # Belief Propagation - Variants
-
 variants of the belief propagation algorithm exist for several types of graphical models (e.g. [[Bayesian Networks (BN)|Bayesian Networks]], [[Markov Networks／Nets - Markov Random Fields (MRF)|Markov Networks]], [[Hypergraphs - Primal Graphs - Dual Graphs - Cluster Graphs - Cluster Trees - Factor Graphs|Factor Graphs]], etc)
 
 ```merge-table
@@ -69,8 +68,6 @@ variants of the belief propagation algorithm exist for several types of graphica
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
-
 - [Daphne Koller - Belief Propagation](https://www.coursera.org/lecture/probabilistic-graphical-models-2-inference/belief-propagation-algorithm-1FE96)
 - [Bert Huang - Belief Propagation](https://www.youtube.com/watch?v=meBWAboEWQk)

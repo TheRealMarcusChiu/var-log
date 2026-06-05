@@ -1,17 +1,18 @@
 ---
-publish: true
-title: X.Org
+title: "X.Org"
 created: 2019-12-30T22:17:23.011-06:00
 modified: 2024-06-30T11:03:19.851-05:00
+parent: "[[(X - X11 - X Window System) Core Protocol]]"
+children:
+  - "[[X.Org Server]]"
+  - "[[Xcb]]"
+  - "[[Xlib]]"
 ---
-
 ###### X.Org
-
-```excerpt
+````excerpt
 - is an implementation of the [[(X - X11 - X Window System) Core Protocol|X Window System Core Protocol]]
 - it was forked off from [[XFree86]] around 2003
-```
-
+````
 ^excerpt
 
 # Subpages

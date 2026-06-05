@@ -1,21 +1,20 @@
 ---
-publish: true
-title: LP - Ways Structuring Problem
+title: "LP - Ways Structuring Problem"
 created: 2021-09-13T05:26:18.296-05:00
 modified: 2021-09-13T05:26:18.296-05:00
+parent: "[[Linear Programming／Optimization (LP)]]"
+children:
+  - "[[LP - Absolute Values]]"
+  - "[[LP - Augmented／Slack Form]]"
+  - "[[LP - Standard／Canonical Form]]"
 ---
-
 2 ways to describe a [[Linear Programming／Optimization (LP)|linear programming]] problem:
-
 - [standard/canonical form](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=2656752)
 - [[LP - Augmented／Slack Form|slack/augmented form]]
 
 # <strong>Example Linear Programming Structuring</strong>
-
 ## Linear Programming Problem
-
 given:
-
 - a toy company make 2 toys: x<sub>1</sub> and x<sub>2</sub>
 - these toys are made of 2 materials: A and B
 - to make toy x<sub>1</sub>, it needs 5 units of A and 2 units of B
@@ -26,13 +25,10 @@ given:
 - each toy x<sub>2</sub> can be sold for \$7
 
 what is the optimum product mix that maximizes the profit?
-
 ## Standard/Canonical Form
-
 <em>Standard form</em> is the usual and most intuitive form of describing a linear programming problem
 
 more details [[LP - Standard／Canonical Form|LP - Standard/Canonical Form]]
-
 ###### Equation Form
 
 ```merge-table
@@ -44,17 +40,13 @@ more details [[LP - Standard／Canonical Form|LP - Standard/Canonical Form]]
   ]
 }
 ```
-
 ###### <strong>Block Matrix Form</strong>
 
 TODO
-
 ## Slack/Augmented Form
-
 Linear programming problems can be converted into an <em>augmented form</em> in order to apply the common form of the <strong>simplex algorithm</strong>
 
 more details [[LP - Augmented／Slack Form|LP - Augmented/Slack Form]]
-
 ###### Equation Form
 
 ```merge-table
@@ -67,7 +59,5 @@ more details [[LP - Augmented／Slack Form|LP - Augmented/Slack Form]]
   "tableStyle": "width: 60.8761%;"
 }
 ```
-
 ###### Block Matrix Form
-
-![[Mathematics/Mathematical Programming／Optimization/Mathematical Programming／Optimization - Problem Types/Linear Programming／Optimization (LP)/LP - Ways Structuring Problem/linear-programming-aumented-form-block-matrix-form.png|250x131]]
+![[LP - Ways Structuring Problem/linear-programming-aumented-form-block-matrix-form.png|250x131]]

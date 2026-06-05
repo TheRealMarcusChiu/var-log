@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Tensor - 6 - Linear Maps Introduction
+title: "Tensor - 6 - Linear Maps Introduction"
 created: 2023-08-01T23:52:04.837-05:00
 modified: 2023-08-02T19:52:05.207-05:00
+parent: "[[Tensors]]"
+children: []
 ---
-
 ````excerpt
 ```merge-table
 {
@@ -17,5 +17,4 @@ modified: 2023-08-02T19:52:05.207-05:00
 }
 ```
 ````
-
 ^excerpt

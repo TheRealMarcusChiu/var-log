@@ -1,10 +1,13 @@
 ---
-publish: true
-title: Opcode - Assembly Language - Machine Code／Language／Instruction
+title: "Opcode - Assembly Language - Machine Code／Language／Instruction"
 created: 2019-12-23T17:31:10.550-06:00
 modified: 2023-01-09T11:55:05.594-06:00
+parent: "[[Computer／Programming Languages]]"
+children:
+  - "[[Assembly Languages]]"
+  - "[[Machine Language／Code／Instruction]]"
+  - "[[Opcodes (Instruction) - Operation Codes - Instruction Syllable／Parcel - Opstring]]"
 ---
-
 # Opcode - What is It?
 
 ```merge-table
@@ -21,7 +24,6 @@ modified: 2023-01-09T11:55:05.594-06:00
   ]
 }
 ```
-
 # Opcode - 2 Representations
 
 ```merge-table
@@ -50,4 +52,4 @@ modified: 2023-01-09T11:55:05.594-06:00
 }
 ```
 
-![[Computer/Computer／Programming Languages/Opcode - Assembly Language - Machine Code／Language／Instruction/Assembly-Language-vs-Machine-Language.png]]
+![[Opcode - Assembly Language - Machine Code／Language／Instruction/Assembly-Language-vs-Machine-Language.png]]

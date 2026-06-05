@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Baseboard Management Controller (BMC)
+title: "Baseboard Management Controller (BMC)"
 created: 2025-10-23T01:06:02.249-05:00
 modified: 2025-10-23T01:08:52.773-05:00
+parent: "[[Computer IO I／O Input／Output Ports／Devices]]"
+children: []
 ---
-
 ###### Baseboard Management Controller (BMC)
-
-```excerpt
+````excerpt
 - is a dedicated [[Central Processing Unit (CPU) - Central／Main Processor - Microprocessor (uP) - Microcontroller (uC) - Microcontroller Unit (MCU)|microcontroller]] on a server's [[Motherboard (MoBo)|motherboard]] that allows for remote monitoring and management of the server's hardware, independently of the main [[Central Processing Unit (CPU) - Central／Main Processor - Microprocessor (uP) - Microcontroller (uC) - Microcontroller Unit (MCU)|CPU]] and [[Operating Systems (OS)|operating system]]
-```
-
+````
 ^excerpt
 
 # BMC - Ports

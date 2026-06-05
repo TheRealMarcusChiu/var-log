@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Blockchain - Python Implementation
+title: "Blockchain - Python Implementation"
 created: 2021-12-03T18:27:04.549-06:00
 modified: 2021-12-04T04:21:52.931-06:00
+parent: "[[Blockchain]]"
+children: []
 ---
-
 # Things to Note
-
 - The <code>timestamp</code> of every transaction in a block is the same as the block itself. All transactions in a block have the same timestamp. The timestamp is written by the miner that finds the block hash for that block
 - Transactions do not have timestamps, so the timestamp that [blockchain.info](http://blockchain.info) displays is whatever time their node received the transaction. The time shown will also change to the time that it was included in a block. In general, it is not reliable to trust the timestamp given for an unconfirmed transaction on [blockchain.info](http://blockchain.info) as it is entirely dependent on their node
 
 # Client Class
-
 ```py
 class Client:
 	def __init__(self):
@@ -30,10 +28,9 @@ class Client:
 		transaction.signature = binascii.hexlify(signature).decode('ascii')
 ```
 
-> [!expand]- use case <span style="white-space: pre-wrap"><code>marcus = Client()</code><br><code>print(marcus.public\_key)</code><br><code></code><br><code># output</code><br><code>30819f300d06092a864886f70d010101050003818d0030818902818100b547fafceeb131e07</code><br><code>0166a6b23fec473cce22c3f55c35ce535b31d4c74754fecd820aa94c1166643a49ea5f49f72</code><br><code>3181ff943eb3fdc5b2cb2db12d21c06c880ccf493e14dd3e93f3a9e175325790004954c34d3</code><br><code>c7bc2ccc9f0eb5332014937f9e49bca9b7856d351a553d9812367dc8f2ac734992a4e6a6ff6</code><br><code>6f347bd411d07f0203010001</code></span>
-
+> [!expand]- use case
+> <span style="white-space: pre-wrap"><code>marcus = Client()</code><br><code>print(marcus.public\_key)</code><br><code></code><br><code>\# output</code><br><code>30819f300d06092a864886f70d010101050003818d0030818902818100b547fafceeb131e07</code><br><code>0166a6b23fec473cce22c3f55c35ce535b31d4c74754fecd820aa94c1166643a49ea5f49f72</code><br><code>3181ff943eb3fdc5b2cb2db12d21c06c880ccf493e14dd3e93f3a9e175325790004954c34d3</code><br><code>c7bc2ccc9f0eb5332014937f9e49bca9b7856d351a553d9812367dc8f2ac734992a4e6a6ff6</code><br><code>6f347bd411d07f0203010001</code></span>
 # Transaction Class
-
 ```py
 class Transaction:
 	def __init__(self, sender_public_key, recipient_public_key, value):
@@ -48,9 +45,7 @@ class Transaction:
 			'recipient': self.recipient_public_key,
 			'value': self.value})
 ```
-
 # Transaction - Origination & Signature
-
 ```
 marcus = Client()
 john = Client()
@@ -68,9 +63,7 @@ print(t.signature)
 0e34db240b62673ad5a08c8e490f880b568efbc36035cae2e748f1d802d5e8e66298be826f5
 c6363dc511222fb2416036ac04eb972
 ```
-
 # Global - Clients & Transactions
-
 ```py
 marcus = Client()
 john = Client()
@@ -94,9 +87,7 @@ transactions.apend(t3)										# append signed transation to global variable
 
 ...
 ```
-
 # Block Class
-
 ```py
 class Block:
 	def __init__(self):
@@ -109,16 +100,12 @@ class Block:
 			+ str(merkle_root(self.verified_transactions))
 			+ str(nonce)
 ```
-
 # Global - Last Block Hash
-
 ```py
 # global variable holding the hash-value of the last block in the blockchain
 last_block_hash = ""
 ```
-
 # Global - Genesis Block
-
 ```py
 # genesis transaction
 t0 = Transaction("Genesis", marcus.public_key, 500.0)
@@ -131,9 +118,7 @@ block0.nonce = 0
 
 last_block_hash = sha256(block0.get_values_to_hash())
 ```
-
 # Global - Blockchain
-
 ```py
 # contains a list of blocks chained to each other
 blockchain = []
@@ -141,9 +126,7 @@ blockchain = []
 # append genesis block
 blockchain.append(block0)
 ```
-
 # Mining
-
 ```py
 def mine(block, difficulty=1):
 	assert difficulty >= 1
@@ -155,15 +138,13 @@ def mine(block, difficulty=1):
 			return
 ```
 
-> [!expand]- use case <span style="white-space: pre-wrap"><code>mine(block0, 2)</code></span>
-
+> [!expand]- use case
+> <span style="white-space: pre-wrap"><code>mine(block0, 2)</code></span>
 # Global - Adding a new Block to Blockchain
-
 ```py
 # global variable to store the next transaction to be processed
 last_transaction_index = 0
 ```
-
 ```py
 # initialize new block
 block = Block()
@@ -190,20 +171,16 @@ blockchain.append(block)
 # broadcast block to all miners
 broadcast(block)
 ```
-
 # Transaction - Verification
-
 ```
 def is_transaction_valid(transaction):
 	# check if transaction.sender has enough funds to send transaction.value
 	# check if transaction.signature is valid
 	# return true if all conditions passes
 ```
-
 # Block - Verification
 
 When another node successfully mined a block before you did, that will broadcast to us and upon receiving it we validate its Proof of Work (PoW)
-
 ```
 def validate_block(block, difficulty=1):
 	assert difficulty >= 1
@@ -216,7 +193,5 @@ def validate_block(block, difficulty=1):
 
 	last_block_hash = sha256(block.get_values_to_hash())
 ```
-
 # Resources
-
-- <https://www.tutorialspoint.com/python_blockchain/index.htm>
+- [https://www.tutorialspoint.com/python_blockchain/index.htm](https://www.tutorialspoint.com/python_blockchain/index.htm)

@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Windows CMD - Users Groups Permissions
+title: "Windows CMD - Users Groups Permissions"
 created: 2019-11-17T11:07:25.812-06:00
 modified: 2026-05-17T14:00:23.503-05:00
+parent: "[[Windows]]"
+children:
+  - "[[Windows CMD - Permissions]]"
 ---
-
 <span style="white-space: pre-wrap"><code>runas /user:\*computer name\\\*account name explorer.exe</code></span>
 
 # User  (net user)
@@ -43,7 +44,6 @@ modified: 2026-05-17T14:00:23.503-05:00
   ]
 }
 ```
-
 # Groups (net localgroup)
 
 ```merge-table
@@ -88,7 +88,6 @@ modified: 2026-05-17T14:00:23.503-05:00
   ]
 }
 ```
-
 # Permissions (icacls)
 
 refer to: [[Windows CMD - Permissions]]

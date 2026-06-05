@@ -1,10 +1,16 @@
 ---
-publish: true
-title: Interface Definition／Description Language & Libraries (IDL)
+title: "Interface Definition／Description Language & Libraries (IDL)"
 created: 2019-12-12T21:30:18.211-06:00
 modified: 2022-12-29T11:06:42.248-06:00
+parent: "[[Computer Languages - Definition／Description Languages]]"
+children:
+  - "[[API Builder]]"
+  - "[[Apache Avro]]"
+  - "[[Apache Thrift]]"
+  - "[[OpenAPI - Swagger]]"
+  - "[[Protocol Buffer (protobuf)]]"
+  - "[[gRPC]]"
 ---
-
 - <strong>Interface Definition/Description Language (IDL)</strong> - is a language specification used to describe [[Application Programming Interface (API) - Software Development Kit (SDK)|APIs]] in a [[Computer／Programming Languages|language]]-independent way
 - <strong>Interface Definition/Description Library</strong> - provides automatic integration between the Interface Definition Language and a variety of language-specific applications
 
@@ -81,9 +87,7 @@ modified: 2022-12-29T11:06:42.248-06:00
   ]
 }
 ```
-
 # IDL - Comparisons
-
 - [Comparing OpenAPI With gRPC](https://dzone.com/articles/comparing-openapi-with-grpc)
 - [OpenAPI and gRPC Side-by-Side](https://medium.com/apis-and-digital-transformation/openapi-and-grpc-side-by-side-b6afb08f75ed)
 - [Comparing Swagger With Thrift or gRPC](https://sookocheff.com/post/api/swagger-thrift-or-grpc/)

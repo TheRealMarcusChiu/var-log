@@ -1,10 +1,12 @@
 ---
-publish: true
-title: Application Binary Interface (ABI) vs Application Programming Interface (API)
+title: "Application Binary Interface (ABI) vs Application Programming Interface (API)"
 created: 2026-01-12T01:27:44.874-06:00
 modified: 2026-01-12T01:28:36.134-06:00
+parent: "[[1 - Code and Extra]]"
+children:
+  - "[[Application Binary Interface (ABI)]]"
+  - "[[Application Programming Interface (API) - Software Development Kit (SDK)]]"
 ---
-
 ```merge-table
 {
   "rows": [

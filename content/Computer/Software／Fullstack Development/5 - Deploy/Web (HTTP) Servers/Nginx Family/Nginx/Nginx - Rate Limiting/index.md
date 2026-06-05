@@ -1,18 +1,15 @@
 ---
-publish: true
-title: Nginx - Rate Limiting
+title: "Nginx - Rate Limiting"
 created: 2020-05-29T02:31:56.350-05:00
 modified: 2020-05-29T02:37:40.937-05:00
+parent: "[[Nginx]]"
+children: []
 ---
-
-see: <https://www.nginx.com/blog/rate-limiting-nginx/>
-
+see: [https://www.nginx.com/blog/rate-limiting-nginx/](https://www.nginx.com/blog/rate-limiting-nginx/)
 ### Example Use Case
-
 - only allow 3.95.18.164 and 192.168.86.0/24
 - 3.95.18.164 is rate limited
 - 192.168.86.0/24 is NOT rate limited
-
 ```
 geo $limit {
     default 1;

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: NTFS - Encrypting File System (EFS)
+title: "NTFS - Encrypting File System (EFS)"
 created: 2020-06-16T00:09:32.697-05:00
 modified: 2020-06-16T00:16:18.073-05:00
+parent: "[[NTFS - Other]]"
+children: []
 ---
-
 to protect files from mishandling and to ensure their security, the files can be encrypted
 
 the Encrypting File System (EFS) was introduced in NTFS

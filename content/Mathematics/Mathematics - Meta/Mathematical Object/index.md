@@ -1,21 +1,18 @@
 ---
-publish: true
-title: Mathematical Object
+title: "Mathematical Object"
 created: 2021-09-13T05:26:22.045-05:00
 modified: 2024-08-14T13:45:36.003-05:00
+parent: "[[Mathematics - Meta]]"
+children: []
 ---
-
 ###### Mathematical Object
-
-```excerpt
+````excerpt
 - is an [abstract object](https://en.wikipedia.org/wiki/Abstract_object) arising in mathematics
 - is anything that has been (or could be) formally defined, and with which one may do [[Logical Reasoning (Deductive／Deduction - Inductive／Induction - Abductive／Abduction - Analogical)|deductive reasoning]] and [mathematical proofs](https://en.wikipedia.org/wiki/Mathematical_proof)
-```
-
+````
 ^excerpt
 
 # Mathematical Object - Other
-
 - [[Mathematical Object - Properties]]
 
 # Mathematical Object - Examples

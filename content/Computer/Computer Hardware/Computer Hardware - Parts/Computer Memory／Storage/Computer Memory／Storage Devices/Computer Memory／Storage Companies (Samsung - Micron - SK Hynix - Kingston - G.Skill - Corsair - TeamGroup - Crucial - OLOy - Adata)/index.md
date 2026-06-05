@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Computer Memory／Storage Companies (Samsung - Micron - SK Hynix - Kingston - G.Skill - Corsair - TeamGroup - Crucial - OLOy - Adata)
+title: "Computer Memory／Storage Companies (Samsung - Micron - SK Hynix - Kingston - G.Skill - Corsair - TeamGroup - Crucial - OLOy - Adata)"
 created: 2022-11-30T16:27:50.918-06:00
 modified: 2026-05-14T09:45:23.738-05:00
+parent: "[[Computer Memory／Storage Devices]]"
+children: []
 ---
-
 # Memory Chip Makers
-
 - [[Samsung]]
 - [[Micron]]
 - [[SK Hynix]]

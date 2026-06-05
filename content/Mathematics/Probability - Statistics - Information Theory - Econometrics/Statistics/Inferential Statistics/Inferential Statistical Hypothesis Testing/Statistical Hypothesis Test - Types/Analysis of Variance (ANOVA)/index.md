@@ -1,22 +1,24 @@
 ---
-publish: true
-title: Analysis of Variance (ANOVA)
+title: "Analysis of Variance (ANOVA)"
 created: 2021-09-13T05:29:05.254-05:00
 modified: 2023-09-05T15:02:34.624-05:00
+parent: "[[Statistical Hypothesis Test - Types]]"
+children:
+  - "[[ANOVA Assumptions]]"
+  - "[[Factorial ANOVA]]"
+  - "[[One-Way ANOVA]]"
+  - "[[Repeated Measure ANOVA]]"
 ---
-
 ###### Analysis of Variance
-
-```excerpt
+````excerpt
 - is a collection of models and procedures used to compare 2 or more groups with a single test
 - used in [[Univariate／Single-Variable／Simple Linear Regression Models|Univariate/Single-Variable/Simple Linear Regression Models]], [[Multivariate／Multiple Linear Regression Models|Multivariate/Multiple Linear Regression Models]], etc
-```
-
+````
 ^excerpt
 
 # ANOVA - Types
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -63,8 +65,7 @@ modified: 2023-09-05T15:02:34.624-05:00
   ],
   "tableStyle": "width: 100.0%;"
 }
-````
-
+```
 # Resources
 
 ![](https://www.youtube.com/watch?v=qV-WoquC4dA)

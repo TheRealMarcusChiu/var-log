@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Smart Home Automation - Network／Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)
+title: "Smart Home Automation - Network／Application Protocols (Wi-Fi - Bluetooth - Zigbee - Z-Wave - Matter - Thread)"
 created: 2026-05-26T08:22:38.102-05:00
 modified: 2026-05-27T11:45:56.326-05:00
+parent: "[[Smart Home Automation]]"
+children: []
 ---
-
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -150,4 +150,3 @@ modified: 2026-05-27T11:45:56.326-05:00
   "tableStyle": "margin-left: 0.0px;"
 }
 ```![](https://www.youtube.com/watch?v=RX7nGsvw1M0)![](https://www.youtube.com/watch?v=v8-VNIQQiQE&ab_channel=TheHookUp)
-````

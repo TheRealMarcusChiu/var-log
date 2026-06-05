@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Java - Default Garbage Collector
+title: "Java - Default Garbage Collector"
 created: 2021-10-09T00:37:59.011-05:00
 modified: 2026-01-11T10:07:10.674-06:00
+parent: "[[Java - JVM Garbage Collector／Collection (GC)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

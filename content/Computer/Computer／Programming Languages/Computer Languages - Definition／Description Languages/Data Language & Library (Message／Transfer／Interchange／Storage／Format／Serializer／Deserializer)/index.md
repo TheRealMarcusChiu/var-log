@@ -1,17 +1,22 @@
 ---
-publish: true
-title: Data Language & Library (Message／Transfer／Interchange／Storage／Format／Serializer／Deserializer)
+title: "Data Language & Library (Message／Transfer／Interchange／Storage／Format／Serializer／Deserializer)"
 created: 2019-03-15T15:02:46.031-05:00
 modified: 2022-12-29T10:57:49.622-06:00
+parent: "[[Computer Languages - Definition／Description Languages]]"
+children:
+  - "[[Binary JSON (BSON)]]"
+  - "[[Concise Binary Object Representation (CBOR)]]"
+  - "[[Data Language - Comparisons]]"
+  - "[[FlatBuffers]]"
+  - "[[JavaScript Object Notation (JSON)]]"
+  - "[[Markup Language (ML)]]"
+  - "[[Tom's Obvious Minimal Language (TOML)]]"
 ---
-
 ###### Data Language (Message/Transfer/Interchange/Storage/Format/Serialization/Deserialization)
-
 - often used for [[Serialization／Marshalling／Encoding - Deserialization／Unmarshalling／Decoding／Parsing|Serialization/Marshalling/Encoding - Deserialization/Unmarshalling/Decoding/Parsing]]
 - often used by [[Interface Definition／Description Language & Libraries (IDL)|Interface Definition/Description Language & Libraries (IDL)]]
 
 ###### Data Library (Message/Transfer/Interchange/Storage/Formater/Serializer/Deserializer)
-
 - provides automatic serialization/deserialization between a Data Language and a variety of language-specific applications
 
 # Data Language - Types
@@ -124,8 +129,12 @@ modified: 2022-12-29T10:57:49.622-06:00
   ]
 }
 ```
-
 # Data Language - Comparisons
+```dataview
+LIST
+FROM ""
+WHERE file.folder = [[Data Language - Comparisons]].file.folder + "/" + [[Data Language - Comparisons]].file.name
+```
 
 # Data Library - Types
 

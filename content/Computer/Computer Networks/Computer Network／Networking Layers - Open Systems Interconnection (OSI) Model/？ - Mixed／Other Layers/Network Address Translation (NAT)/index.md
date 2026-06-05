@@ -1,16 +1,18 @@
 ---
-publish: true
-title: Network Address Translation (NAT)
+title: "Network Address Translation (NAT)"
 created: 2019-07-11T14:19:31.695-05:00
 modified: 2026-05-27T11:27:25.534-05:00
+parent: "[[？ - Mixed／Other Layers]]"
+children:
+  - "[[Address Port Restricted Cone NAT]]"
+  - "[[Address Restricted Cone NAT]]"
+  - "[[Full Cone NAT - Port Forwarding]]"
+  - "[[Symmetric NAT]]"
 ---
-
 ###### Network Address Translation (NAT)
-
-```excerpt
+````excerpt
 - is an OSI cross-layer process, involving layers 3 ([[IPv4|IP]]) and 4 ([[Transmission Control Protocol (TCP)|TCP]], [[Universal／User Datagram Protocol (UDP)|UDP]], etc) and in some cases also [[7 - Application Layer|layer 7 (application)]]
-```
-
+````
 ^excerpt
 
 # NAT - Common Traits
@@ -18,15 +20,13 @@ modified: 2026-05-27T11:27:25.534-05:00
 Every [[Transmission Control Protocol (TCP)|TCP]] packet contains a source [[Internet Protocol (IP)|IP]] address, source port, destination IP address, and destination port. <strong>All types of NAT</strong> create NAT mappings using these values. For example, a connection from an internal client with IP 192.168.0.1 using port 56876 may go to a website IP 56.45.78.89 (destination IP address) on port 80 (destination port) using IP of 45.34.78.98 (translated source IP) and port 56876 (source port). NAT creates a mapping using these 4 values to the 192.168.0.1 internal client for that specific connection. When packets come back from the website to the router using the same values associated with that mapping NAT forwards the packets to the internal client.
 
 <strong>Don't confuse NAT Restriction with NAT Translation</strong> – For example, a [[Full Cone NAT - Port Forwarding|Full Cone NAT]] only looks at the destination port when choosing whether to accept the connection or not (the restriction). When it does the actual the NAT translation however, it always uses the 4 values mentioned above.
-
 # NAT - Categories
-
 - <strong>Static NAT</strong> - the NAT mappings are manually set up and are usually associated with inbound types of NAT
 - <strong>Dynamic NAT</strong> - the NAT mappings are automatically set up on demand and are usually associated with outbound types of NAT
 
 # NAT - Translation Methods
 
-see: <https://www.youtube.com/watch?v=FExZvpVvYxA&t=1014s>
+see: [https://www.youtube.com/watch?v=FExZvpVvYxA&t=1014s](https://www.youtube.com/watch?v=FExZvpVvYxA&t=1014s)
 
 ```merge-table
 {
@@ -96,12 +96,11 @@ see: <https://www.youtube.com/watch?v=FExZvpVvYxA&t=1014s>
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # NAT - Translation Methods Comparison
 
 Let's say the NAT device has public IP address 5.5.5.5 and it assigned an internal computer with a private IP address 10.0.0.2
 
-![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/？ - Mixed／Other Layers/Network Address Translation (NAT)/nat.png|301x84]]
+![[Network Address Translation (NAT)/nat.png|301x84]]
 
 Let's also say that the NAT device contains a STATIC mapping
 

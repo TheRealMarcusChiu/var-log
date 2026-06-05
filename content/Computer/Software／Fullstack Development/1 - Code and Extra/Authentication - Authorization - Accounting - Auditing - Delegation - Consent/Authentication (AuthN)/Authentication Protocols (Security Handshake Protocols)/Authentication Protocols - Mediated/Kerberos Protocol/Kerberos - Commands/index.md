@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Kerberos - Commands
+title: "Kerberos - Commands"
 created: 2022-09-03T19:23:40.107-05:00
 modified: 2022-09-03T19:26:40.749-05:00
+parent: "[[Kerberos Protocol]]"
+children: []
 ---
-
 This section lists some commands that are included in the Kerberos product
 
 ```merge-table

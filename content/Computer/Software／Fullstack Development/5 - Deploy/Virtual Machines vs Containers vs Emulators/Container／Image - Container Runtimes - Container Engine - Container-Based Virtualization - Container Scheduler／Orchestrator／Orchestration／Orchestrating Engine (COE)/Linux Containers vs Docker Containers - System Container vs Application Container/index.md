@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Linux Containers vs Docker Containers - System Container vs Application Container
+title: "Linux Containers vs Docker Containers - System Container vs Application Container"
 created: 2022-10-30T21:28:12.922-05:00
 modified: 2023-02-20T10:13:02.334-06:00
+parent: "[[Container／Image - Container Runtimes - Container Engine - Container-Based Virtualization - Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)]]"
+children: []
 ---
-
-![[Computer/Software／Fullstack Development/5 - Deploy/Virtual Machines vs Containers vs Emulators/Container／Image - Container Runtimes - Container Engine - Container-Based Virtualization - Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)/Linux Containers vs Docker Containers - System Container vs Application Container/lxc-vs-docker.png|600]]
+![[Linux Containers vs Docker Containers - System Container vs Application Container/lxc-vs-docker.png|600]]
 
 ```merge-table
 {

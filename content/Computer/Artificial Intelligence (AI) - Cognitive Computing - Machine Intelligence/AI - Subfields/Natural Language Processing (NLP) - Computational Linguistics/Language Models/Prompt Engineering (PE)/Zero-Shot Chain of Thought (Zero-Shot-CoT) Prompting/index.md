@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Zero-Shot Chain of Thought (Zero-Shot-CoT) Prompting
+title: "Zero-Shot Chain of Thought (Zero-Shot-CoT) Prompting"
 created: 2023-08-04T13:53:17.691-05:00
 modified: 2023-08-04T13:59:34.597-05:00
+parent: "[[Prompt Engineering (PE)]]"
+children: []
 ---
-
 ###### Zero-Shot Chain of Thought (Zero-Shot-CoT) Prompting
-
-```excerpt
+````excerpt
 - a follow-up to [[Chain of Thought (CoT) Prompting|CoT prompting]], which introduces an incredibly simple zero-shot prompt by just APPENDING:
 	- <strong><code><font style="color: rgb(122,134,154);">Let's think step by step.</font></code></strong>
-```
-
+````
 ^excerpt
 
 # Zero-Shot CoT - Example

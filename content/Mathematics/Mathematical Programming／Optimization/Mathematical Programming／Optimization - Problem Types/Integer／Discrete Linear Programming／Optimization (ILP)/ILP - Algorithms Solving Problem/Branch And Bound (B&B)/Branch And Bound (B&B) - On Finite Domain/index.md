@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Branch And Bound (B&B) - On Finite Domain
+title: "Branch And Bound (B&B) - On Finite Domain"
 created: 2021-09-13T05:26:12.173-05:00
 modified: 2026-05-24T20:40:59.531-05:00
+parent: "[[Branch And Bound (B&B)]]"
+children: []
 ---
-
-# B\&B Exhaustive Search
+# B&B Exhaustive Search
 
 given an optimization problem where discrete variables have a FINITE size domain (i.e. [Combinatorial Programming & 0-1 Programming](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=8225143) problems)
 
@@ -30,15 +30,12 @@ we need to somehow remove the linear constraints without changing the problem (i
 
 It can be done by the method that is often called penalty function method. It is based on the idea that we can substitute a constraint by modifying the objective function, such that we “penalize” those vectors that violate the constraint. In this way, we can do the search over all vectors (with the modified objective function), because when a global, unconstrained optimum is found, the “penalty” does not allow it to be taken at a vector that violates the constraint
 
-![[Mathematics/Mathematical Programming／Optimization/Mathematical Programming／Optimization - Problem Types/Integer／Discrete Linear Programming／Optimization (ILP)/ILP - Algorithms Solving Problem/Branch And Bound (B&B)/Branch And Bound (B&B) - On Finite Domain/branch-and-bound-penalty-function.png|370]]
-
-### B\&B Exhaustive Search - Pseudocode
-
+![[Branch And Bound (B&B) - On Finite Domain/branch-and-bound-penalty-function.png|370]]
+### B&B Exhaustive Search - Pseudocode
 - i is index
 - x is a n-dimensional vector
 
 call with F(i=0, x=anything)
-
 ```
 function F(i, x)
     if i == n
@@ -54,18 +51,15 @@ function F(i, x)
 ```
 
 see PDF below for more details
+# B&B Exhaustive Search - With Memory & Upper Bound Function
 
-# B\&B Exhaustive Search - With Memory & Upper Bound Function
-
-extend <strong>B\&B </strong><strong>Exhaustive </strong><strong>Search </strong>by:
-
+extend <strong>B&B </strong><strong>Exhaustive </strong><strong>Search </strong>by:
 - keeping track of the biggest integer z-value seen so far
 - using an upper-bound-function U(i, x) such that:
-
+  
   <span style="white-space: pre-wrap"><code>F(i, x) ≤ U(i, x)</code></span>
 
-### B\&B Exhaustive Search - With Memory & Upper Bound Function - Pseudocode
-
+### B&B Exhaustive Search - With Memory & Upper Bound Function - Pseudocode
 ```
 global current-max-z-value = -infinity
 
@@ -89,11 +83,9 @@ function F(i, x)
 ```
 
 this approach makes sense only if we can compute the upper-bound-function significantly faster than the original task
-
 ### How Do We Get The Upper-Bound-Function U(i, x)?
 
 2 ways:
-
 - relaxing the ILP problem to a LP problem
 - fast greedy algorithm
 
@@ -125,12 +117,10 @@ this approach makes sense only if we can compute the upper-bound-function signif
 >   ]
 > }
 > ```
-
 ###### Fast Greedy Algorithm
 
 > [!expand]- Click here to expand...
 > greedy algorithm is dependent on the problem itself
-
 # More Resources
 
-![[Mathematics/Mathematical Programming／Optimization/Mathematical Programming／Optimization - Problem Types/Integer／Discrete Linear Programming／Optimization (ILP)/ILP - Algorithms Solving Problem/Branch And Bound (B&B)/10 - Branch and Bound Algorithm.pdf]]
+![[Branch And Bound (B&B)/10 - Branch and Bound Algorithm.pdf]]

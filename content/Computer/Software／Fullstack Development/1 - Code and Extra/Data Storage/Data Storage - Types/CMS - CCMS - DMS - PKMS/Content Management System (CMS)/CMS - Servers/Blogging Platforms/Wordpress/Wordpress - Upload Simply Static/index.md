@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Wordpress - Upload Simply Static
+title: "Wordpress - Upload Simply Static"
 created: 2025-02-27T00:25:41.836-06:00
 modified: 2025-02-27T00:26:01.545-06:00
+parent: "[[Wordpress]]"
+children: []
 ---
-
 ```
 #!/bin/bash
 

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: NTFS - System Files - $MFTMirr
+title: "NTFS - System Files - $MFTMirr"
 created: 2020-06-15T19:20:47.782-05:00
 modified: 2020-06-15T21:06:30.915-05:00
+parent: "[[NTFS - System／Meta Files]]"
+children: []
 ---
-
 ###### \$MFTMirr
-
 - is a [[NTFS - System／Meta Files|NTFS System File]]
 - the purpose of this file is to backup the starting point of the [[NTFS - System Files - $MFT - Master File Table (MFT)|Master File Table]]
 - is usually located halfway through the volume
@@ -17,5 +16,5 @@ modified: 2020-06-15T21:06:30.915-05:00
 - in case of the cluster size being smaller than 4K, \$MFTMirr occupies as many clusters as necessary to accommodate first 4 records of the MFT
 - if the cluster size is bigger than 4K, then there is more room, and it may contain more than 4 records (since having clusters larger than 4K breaks some of the other features, such as compression, this rarely happens
 - if MFT starting sector fails:
-  - the whole \$MFT would become unreadable
-  - the pointer to the \$MFTMirr would also be lost
+	- the whole \$MFT would become unreadable
+	- the pointer to the \$MFTMirr would also be lost

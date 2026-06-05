@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Anime
+title: "Anime"
 created: 2021-09-13T04:46:20.655-05:00
 modified: 2023-09-01T15:04:26.014-05:00
+parent: "[[Film／Films]]"
+children: []
 ---
-
 # To Watch
-
 - Deca-Dence = a post-apocalyptic sci-fi story with a really creative setup and a wild twist
 - Eighty-Six = a futuristic mecha anime with a side helping of war drama and (later in the story where the anime hasn't reached yet) shojo romance
 - Gurren Lagann = a post-apocalyptic mecha anime with constantly escalating hype that reaches a universal scale
@@ -19,7 +18,6 @@ modified: 2023-09-01T15:04:26.014-05:00
 - A Silent Voice
 
 # Watched
-
 - Tsukigakirei
 - Welcome to the NHK
 - Death Note

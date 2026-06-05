@@ -1,22 +1,23 @@
 ---
-publish: true
-title: Adjectives
+title: "Adjectives"
 created: 2021-09-13T04:44:02.550-05:00
 modified: 2021-09-13T04:44:02.550-05:00
+parent: "[[Part of Speech (PoS)]]"
+children: []
 ---
-
 ###### Adjectives
-
 - describes properties or qualities. they are called modifiers since they modify (or change) the meaning slightly (of noun or pronoun)
 - usually comes immediately before the noun, and not after it
-  - attributive adjectives
-  - - come before noun
-  - predicative adjectives
-  - - come after verb
-    - examples:
-      - I feel <code>good</code>
-      - It sounds <code>great</code>
-      - The water grew <code>cool</code>
+	- attributive adjectives
+	- 
+		- come before noun
+	- predicative adjectives
+	- 
+		- come after verb
+		- examples:
+			- I feel <code>good</code>
+			- It sounds <code>great</code>
+			- The water grew <code>cool</code>
 
 ### Adjectives - Types
 
@@ -105,7 +106,6 @@ modified: 2021-09-13T04:44:02.550-05:00
   ]
 }
 ```
-
 ### Adjectives - Comparisons
 
 three degrees of comparisons
@@ -138,7 +138,6 @@ three degrees of comparisons
   ]
 }
 ```
-
 ### Adjectives - Quantitative
 
 ```merge-table

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: ／var directory
+title: "／var directory"
 created: 2019-12-31T15:34:01.612-06:00
 modified: 2020-06-25T22:10:38.624-05:00
+parent: "[[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]"
+children: []
 ---
-
 ###### /var directory
-
 - variable files
 - contains files to which the system writes data during the course of its operation
 - files whose content is expected to continually change during normal operation of the system—such as logs, spool files, and temporary e-mail files

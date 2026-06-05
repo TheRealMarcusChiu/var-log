@@ -1,13 +1,12 @@
 ---
-publish: true
-title: Tensor Product
+title: "Tensor Product"
 created: 2023-08-03T14:13:10.243-05:00
 modified: 2026-05-23T11:12:56.142-05:00
+parent: "[[Tensor Calculus - Tensor Analysis - Ricci Calculus]]"
+children: []
 ---
-
 ###### Tensor Product (·⊗·, ··)
-
-```excerpt
+````excerpt
 - vectors in [[Tensor Product Spaces|tensor product space]] 𝑉⊗𝑊 are sums of 𝑣⊗𝑤 for 𝑣∊𝑉 and 𝑤∊𝑊 that obey:
 	- 𝑣⊗𝑤<sub>1</sub> + 𝑣⊗𝑤<sub>2</sub> = 𝑣⊗(𝑤<sub>1</sub> + 𝑤<sub>2</sub>)
 	- 𝑣<sub>1</sub>⊗𝑤 + 𝑣<sub>2</sub>⊗𝑤 = (𝑣<sub>1</sub> + 𝑣<sub>2</sub>)⊗𝑤
@@ -26,8 +25,7 @@ modified: 2026-05-23T11:12:56.142-05:00
 	- the elementary tensors span 𝑉⊗𝑊 in the sense that every element of 𝑉⊗𝑊 is a sum of elementary tensors
 - if [[Mathematical Space (Basis)|bases]] are given for 𝑉 and 𝑊, a basis of 𝑉⊗𝑊 is formed by all tensor products of a basis element of 𝑉 and a basis element of 𝑊
 - is a generalization of the [[Outer Product|outer product]]
-```
-
+````
 ^excerpt
 
 # Tensor Product - Definition From Bases
@@ -35,22 +33,17 @@ modified: 2026-05-23T11:12:56.142-05:00
 Let 𝑉 and 𝑊 be two vector spaces over a field 𝐹, with respective bases 𝐵<sub>𝑉</sub> and 𝐵<sub>𝑊</sub>.
 
 The tensor product of two vectors 𝑣∊𝑉 and 𝑤∊𝑊 is defined from their decomposition on the bases. More precisely, if:
-
 - $v=\sum_{b\in B_V} v_b\,b \in V \quad \text{and} \quad w=\sum_{c\in B_W} w_c\,c \in W$
 
 are vectors decomposed on their respective bases, then the tensor product of 𝑣 and 𝑤 is:
-
 - $\begin{align} v \otimes w &=\left(\sum_{b\in B_V} v_b\,b\right) \otimes \left(\sum_{c\in B_W} w_c\,c\right)\\ &=\sum_{b\in B_V}\sum_{c\in B_W} v_b w_c\, b \otimes c \end{align}$
 
 where:
-
 - the coordinate vector of 𝑣⊗𝑤 is the [[Kronecker Product - Matrix Direct Product|Kronecker product]] of the column-vectors and/or row-vectors of 𝑣 and 𝑤, which results in a block matrix (preferred representation)
 - the coordinate vector of 𝑣⊗𝑤 is the [[Outer Product|outer product]] of the coordinate vectors of 𝑣 and 𝑤, which results in a matrix
 
 It is straightforward to verify that the map (𝑣,𝑤) ↦ 𝑣⊗𝑤 is a [[Bilinear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)|bilinear map]] from 𝑉×𝑊 to 𝑉⊗𝑊.
-
 # Tensor Product - Dimension
-
 - dim(𝑉⊗𝑊) = dim(𝑉) \* dim(𝑊)
 
 # Tensor Product - Examples
@@ -118,8 +111,6 @@ It is straightforward to verify that the map (𝑣,𝑤) ↦ 𝑣⊗𝑤 is a 
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
-
 - [YouTube's Jim Fowler](https://www.youtube.com/watch?v=tpL95Sd7zT0)
 - [YouTube's Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74)

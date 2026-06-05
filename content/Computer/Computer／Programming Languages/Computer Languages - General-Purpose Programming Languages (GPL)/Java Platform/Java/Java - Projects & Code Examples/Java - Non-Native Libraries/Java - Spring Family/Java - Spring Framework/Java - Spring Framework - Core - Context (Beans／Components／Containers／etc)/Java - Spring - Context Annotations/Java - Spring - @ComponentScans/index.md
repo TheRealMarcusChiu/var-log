@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Java - Spring - @ComponentScans
+title: "Java - Spring - @ComponentScans"
 created: 2021-05-29T11:43:47.937-05:00
 modified: 2021-05-29T11:45:25.568-05:00
+parent: "[[Java - Spring - Context Annotations]]"
+children: []
 ---
-
 # 1 - Overview
-
 - used to specify multiple <code>[[Java - Spring - @ComponentScan @EnableAutoConfiguration @SpringBootApplication|@ComponentScan]]</code> configurations
 
 # 2 - Code Example
-
 ```
 @ExtendWith(SpringExtension.class)
 @ComponentScans({

@@ -1,11 +1,15 @@
 ---
-publish: true
-title: Java - Spring - Property／Properties
+title: "Java - Spring - Property／Properties"
 created: 2020-12-04T11:44:02.923-06:00
 modified: 2021-09-24T00:57:17.704-05:00
+parent: "[[Java - Spring Framework - Core - Environment]]"
+children:
+  - "[[Java - Spring - Property／Properties - @ConfigurationProperties @ConstructorBinding @EnableConfigurationProperties @ConfigurationPropertiesScan]]"
+  - "[[Java - Spring - Property／Properties - @PropertySource @PropertySources]]"
+  - "[[Java - Spring - Property／Properties - Custom Property Source]]"
+  - "[[Java - Spring - Property／Properties - Externalized Properties Configuration]]"
 ---
-
-TODO: <https://www.baeldung.com/properties-with-spring>
+TODO: [https://www.baeldung.com/properties-with-spring](https://www.baeldung.com/properties-with-spring)
 
 ```merge-table
 {
@@ -37,5 +41,9 @@ TODO: <https://www.baeldung.com/properties-with-spring>
   ]
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

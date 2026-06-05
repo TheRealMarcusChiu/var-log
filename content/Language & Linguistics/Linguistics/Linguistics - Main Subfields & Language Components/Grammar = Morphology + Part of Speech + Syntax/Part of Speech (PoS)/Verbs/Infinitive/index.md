@@ -1,14 +1,12 @@
 ---
-publish: true
-title: Infinitive
+title: "Infinitive"
 created: 2021-09-13T04:44:05.027-05:00
 modified: 2021-09-13T04:44:05.027-05:00
+parent: "[[Verbs]]"
+children: []
 ---
-
 ###### Infinitive
-
 - is the basic form of the [[Verbs|verb]], without inflection binding to a particular subject or tense
-
 ```merge-table
 {
   "rows": [

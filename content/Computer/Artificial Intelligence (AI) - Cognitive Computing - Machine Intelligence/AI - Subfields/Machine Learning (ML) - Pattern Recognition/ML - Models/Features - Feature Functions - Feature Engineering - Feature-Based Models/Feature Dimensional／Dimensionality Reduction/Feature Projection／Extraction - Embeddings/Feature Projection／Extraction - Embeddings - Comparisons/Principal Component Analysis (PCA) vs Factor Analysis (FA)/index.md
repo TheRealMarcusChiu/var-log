@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Principal Component Analysis (PCA) vs Factor Analysis (FA)
+title: "Principal Component Analysis (PCA) vs Factor Analysis (FA)"
 created: 2023-05-17T19:39:46.180-05:00
 modified: 2023-05-17T19:46:12.556-05:00
+parent: "[[Feature Projection／Extraction - Embeddings - Comparisons]]"
+children: []
 ---
-
 Mathematically, [[Principal Component Analysis (PCA)|PCA]] is just the simplest type of [[Factor Analysis (FA) - Factor Methods|factor analysis]]; [[Eigenvectors (Characteristic Vectors) - Eigenvalues (Spectrum)|eigenvector]] extraction, no rotations, no transformations.
 
 However, from a practical standpoint:
-
 - PCA, by itself, is observational
 - FA is a modeling approach
 

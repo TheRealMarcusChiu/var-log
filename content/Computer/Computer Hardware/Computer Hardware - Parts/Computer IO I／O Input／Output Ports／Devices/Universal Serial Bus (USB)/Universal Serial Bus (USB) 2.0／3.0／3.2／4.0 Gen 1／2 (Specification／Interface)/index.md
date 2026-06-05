@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Universal Serial Bus (USB) 2.0／3.0／3.2／4.0 Gen 1／2 (Specification／Interface)
+title: "Universal Serial Bus (USB) 2.0／3.0／3.2／4.0 Gen 1／2 (Specification／Interface)"
 created: 2022-06-22T03:49:15.704-05:00
 modified: 2024-08-11T06:45:05.603-05:00
+parent: "[[Universal Serial Bus (USB)]]"
+children: []
 ---
-
 # USB Standards and Speeds
 
 ```merge-table

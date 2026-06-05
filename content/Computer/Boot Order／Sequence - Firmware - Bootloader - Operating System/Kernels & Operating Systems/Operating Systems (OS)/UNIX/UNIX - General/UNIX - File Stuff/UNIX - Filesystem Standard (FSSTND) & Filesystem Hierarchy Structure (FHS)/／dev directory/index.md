@@ -1,15 +1,13 @@
 ---
-publish: true
-title: ／dev directory
+title: "／dev directory"
 created: 2020-01-02T00:48:08.878-06:00
 modified: 2020-01-02T14:59:09.064-06:00
+parent: "[[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]"
+children: []
 ---
-
 /dev directory
-
 - contains the special device files for all the devices
 - the device files are created during installation, and later with the <strong>/dev/MAKEDEV</strong> script. The <strong>/dev/MAKEDEV.local</strong> is a script written by the system administrator that creates local-only device files or links (i.e. those that are not part of the standard <strong>MAKEDEV</strong>, such as device files for some non-standard device driver)
-
 ```merge-table
 {
   "rows": [

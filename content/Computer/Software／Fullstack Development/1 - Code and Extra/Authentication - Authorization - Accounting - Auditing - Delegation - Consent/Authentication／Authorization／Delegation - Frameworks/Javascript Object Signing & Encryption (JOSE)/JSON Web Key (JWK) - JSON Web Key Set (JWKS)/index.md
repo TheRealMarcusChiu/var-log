@@ -1,19 +1,17 @@
 ---
-publish: true
-title: JSON Web Key (JWK) - JSON Web Key Set (JWKS)
+title: "JSON Web Key (JWK) - JSON Web Key Set (JWKS)"
 created: 2020-01-08T22:28:03.862-06:00
 modified: 2022-12-30T13:48:15.012-06:00
+parent: "[[Javascript Object Signing & Encryption (JOSE)]]"
+children: []
 ---
-
-```excerpt
+````excerpt
 - <strong>JSON Web Key (JWK) </strong>- a JSON object that contains a [[Asymmetric／Two／Public-Private Key Function|public/cryptographic key]] that is used to verify the signature of a [[JSON Web Tokens (JWT) (JWS - JWE - Unsecured JWT)|JWT]] issued by the [[Security Tokens Service (STS)|STS]]
 - <strong>JSON Web Key Set (JWKS) </strong>- a JSON object containing a SET of JWKs
-```
-
+````
 ^excerpt
 
 # Example JWKS
-
 ```
 {
 	"keys": [
@@ -33,13 +31,12 @@ modified: 2022-12-30T13:48:15.012-06:00
 	]
 }
 ```
-
 - <strong>kty</strong> – Key Type – Identifies the family of algorithms used with this key
 - <strong>kid</strong> – Key Identifier – Acts as an ‘alias’ for the key
 - <strong>use</strong> – Usage – ‘sig’ for signing keys, ‘enc’ for encryption keys
 - <strong>alg</strong> – Algorithm – Identifies the specific algorithm
 - <strong>n</strong> & <strong>e</strong> - both used to create an RSA public-key:
-  - modulo (n)
-  - exponent (e)
+	- modulo (n)
+	- exponent (e)
 - <strong>x5t</strong> – [[X.509 and PKIX|X.509 Certificate]] Thumbprint – Used to identify specific certificates
 - <strong>x5c</strong> – X.509 Certificate Chain – Chain of certificates used for verification. The first entry in the array is always the cert to use for token verification. The other certificates can be used to verify this first certificate

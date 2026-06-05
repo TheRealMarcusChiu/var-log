@@ -1,10 +1,11 @@
 ---
-publish: true
-title: Quotes
+title: "Quotes"
 created: 2021-09-13T04:46:17.876-05:00
 modified: 2026-06-01T16:27:32.766-05:00
+parent: "[[Enter Textual]]"
+children:
+  - "[[We do not proceed through a traffic intersection because the signal changes, but when the signal changes]]"
 ---
-
 each time a child is born, the world lights up with possibilities
 
 a part of you is completely unexplored until you meet a particular someone
@@ -39,7 +40,7 @@ The question in love isn't whether I want this person, but more of whether you w
 "i remember" is more romantic than "i love you"
 because you can fake loving someone, but you can't fake remembering
 to be known is to be loved
-<https://www.tiktok.com/@prestonrack/photo/7582026356364463373?lang=en>
+[https://www.tiktok.com/@prestonrack/photo/7582026356364463373?lang=en](https://www.tiktok.com/@prestonrack/photo/7582026356364463373?lang=en)
 
 Do you measure man by God or do you measure God by man
 
@@ -202,7 +203,7 @@ Give people their flowers before they're gone
 
 "Like everything which is not the involuntary result of fleeting emotion but the creation of time and will, any marriage, happy or unhappy, is infinitely more interesting than any romance, however passionate" - W. H. Auden
 
-"Don't you know when you sleep with someone your body makes a promise whether you do or not" ~ Vanilla Sky
+"Don't you know when you sleep with someone your body makes a promise whether you do or not" \~ Vanilla Sky
 
 a wise man protects peace, not ego
 
@@ -312,7 +313,7 @@ the way to be great is to be good repeatedly
 
 You don't live in the richest country on earth, you live in the country with the richest people on earth
 
-"Discipline is doing things you hate but doing it as if you love it" ~Mike Tyson
+"Discipline is doing things you hate but doing it as if you love it" \~Mike Tyson
 
 Love prospers when a fault is forgiven, but dwelling on it separates close friends.
 
@@ -386,7 +387,7 @@ If you show me your friends - I will show you your future
 
 The more intelligent a person is, the more he discovers kindness in others,” Tolstoy once wrote. "For nothing enriches the world more than kindness. It makes mysterious things clear, difficult things easy, and dull things cheerful"
 
-Life is pain, highness. Anyone who says otherwise is selling something ~ The Princess Bride
+Life is pain, highness. Anyone who says otherwise is selling something \~ The Princess Bride
 
 don't forget to remember me and the love that used to be
 
@@ -489,11 +490,11 @@ values are like lighthouses, they are signals giving us direction, meaning and p
 
 the future belongs to those who give the next generation reason for hope
 
-You can always change your view ~ Liyuh - July 22, 2024
+You can always change your view \~ Liyuh - July 22, 2024
 
 understanding doesn't mean you agree, but at least you are trying to understand
 
-"Now I'm not some barbarian who would force people to worship me. That would be unfair. You can either choose to worship me, and no one else but me, or you can suffer in hell for eternity. It's completely your choice, and I do this because I love you." ~ God
+"Now I'm not some barbarian who would force people to worship me. That would be unfair. You can either choose to worship me, and no one else but me, or you can suffer in hell for eternity. It's completely your choice, and I do this because I love you." \~ God
 
 The universe is under no obligation to make sense to you
 
@@ -508,7 +509,7 @@ let us try to teach generousity and altruism because we are born selfish
 
 we are all very good at finding evidences for our ideas; we depend on others to find the contradictory evidences
 
-it doesn't take much to realize that what happens between 2 people don't amount to a hill of beans in this crazy world ~ Casa Blanca
+it doesn't take much to realize that what happens between 2 people don't amount to a hill of beans in this crazy world \~ Casa Blanca
 
 engineers are the only men who haven't figured out how to turn social status into mating opportunities
 
@@ -561,7 +562,7 @@ Their measure is longer than the earth and wider than the sea.
 
 Not everyone that you fight is an enemy, and not everyone who helps you is a friend
 
-Do not be ashamed of failure, be grateful for the direction it is pointing you in ~ Liyuh
+Do not be ashamed of failure, be grateful for the direction it is pointing you in \~ Liyuh
 
 Destination in our journey is just motivation to keep going to reach the destination
 
@@ -593,9 +594,9 @@ The Flower That Blooms In Adversity Is The Most Rare. And Beautiful Of All.
 
 It's hard to forget someone who gave you so much to remember
 
-I'm happy when other people are happy ~ Steven Bui
-I'm living in life; not living life ~ Steven Bui
-nothing happens if you wait for something to happen ~ Steven Bui
+I'm happy when other people are happy \~ Steven Bui
+I'm living in life; not living life \~ Steven Bui
+nothing happens if you wait for something to happen \~ Steven Bui
 
 I'm tired of feeling repulsed by the world and by everyone in it
 
@@ -636,11 +637,10 @@ character is who you are when no one is looking
 When I was in the military, everyone was told, if you want something done the quickest way possible, get the laziest person you know to do that... I did most things
 
 In college, my instructor told us a Winston Churchill story about the four types of men in the army and the rankings/positions best suited for them. 
-
-1. Lazy and Stupid - These men peel potatoes and dig trenches. 
-2. Enthusiastic and Stupid - These men get sent to the front lines. 
-3. Smart and Enthusiastic - These men are a headache always wanting to "improve" the army. Good for mid-level command and nothing higher
-4. Smart and Lazy - These men get promoted to being Generals
+1) Lazy and Stupid - These men peel potatoes and dig trenches. 
+2) Enthusiastic and Stupid - These men get sent to the front lines. 
+3) Smart and Enthusiastic - These men are a headache always wanting to "improve" the army. Good for mid-level command and nothing higher
+4) Smart and Lazy - These men get promoted to being Generals
 
 code is like humour - if you have to explain it; it's bad
 
@@ -690,8 +690,8 @@ if you have nothing but a good friends - then you are rich
 
 Dad, you're always the hero in our family. It's my turn now.
 
-It’s better to be present than thinking ~ Liyuh
-As long as you enjoy the journey then the destination doesn’t matter ~ Liyuh
+It’s better to be present than thinking \~ Liyuh
+As long as you enjoy the journey then the destination doesn’t matter \~ Liyuh
 
 Pure mathematics is an art without a medium
 
@@ -736,7 +736,7 @@ If you can't find faith in humanity then be that faith in humanity
 
 What wisdom can you find that is greater than kindness
 
-Kindness is a language that the deaf can hear and the blind can see ~ Mark Twain
+Kindness is a language that the deaf can hear and the blind can see \~ Mark Twain
 
 Writing is not about communicating your ideas, it is about changing readers' ideas
 Writing is not about communicating the writer's ideas; Writing is about changing the reader's ideas.
@@ -764,14 +764,14 @@ But only God can make a tree
 
 Tell me and I forget, teach me and I may remember, involve me and I learn
 
-The pain associated with learning is part of a self-defense mechanism.
+The pain associated with learning is part of a self-defense mechanism. 
 Your brain is lazy and chooses the path of least resistance.
 Your mind worries and can be deceiving.
 You must tame your mind to stop thoughts from eating you alive.
 
 we believe that we are thinking creatures that feel - but we are actually feeling creatures that think
 
-It is not that I’m so smart. But I stay with the questions much longer ~ Albert Einstein
+It is not that I’m so smart. But I stay with the questions much longer \~ Albert Einstein
 
 Our society prioritizes rapid outcomes over effort
 
@@ -848,7 +848,7 @@ it is easier to forgive an enemy than a friend
 
 family are the friends you didn't choose, friends are the family you did choose
 
-true friends appear less moved than counterfeit ~Homer
+true friends appear less moved than counterfeit \~Homer
 
 'We'll be Friends Forever, won't we, Pooh?' asked Piglet.
 
@@ -916,7 +916,7 @@ Don’t be afraid of enemies who attack you. Be afraid of the friends who flatte
 
 The difference between appreciation and flattery? That is simple.
 One is sincere and the other insincere.
-One comes from the heart out; the other from the teeth out.
+One comes from the heart out; the other from the teeth out. 
 One is unselfish; the other selfish.
 One is universally admired; the other universally condemned.
 
@@ -1098,7 +1098,7 @@ sin has made us imperfect creatures but forgiveness has perfected us... our abil
 
 We must be willing to let go of the life we planned so as to have the life that is waiting for us.
 
-He (Jesus) had no beauty or majesty to attract us to him, nothing in his appearance that we should desire him. ~ Isaiah 53:2b
+He (Jesus) had no beauty or majesty to attract us to him, nothing in his appearance that we should desire him. \~ Isaiah 53:2b
 
 Then the Lord God formed a man from the dust of the ground and breathed into his nostrils the breath of life, and the man became a living being.
 From the most humblest of things to the most grandiose of all.
@@ -1275,7 +1275,7 @@ No man is free who is not master of himself. - Epictetus
 
 We use technology, or is technology now using us?
 
-We tend to love things more than people and to use people for personal advantage very much as we are things ~ Eric Fromm
+We tend to love things more than people and to use people for personal advantage very much as we are things \~ Eric Fromm
 
 We should love people and use things, not the other way around
 
@@ -1390,7 +1390,7 @@ If you want happiness for an hour, take a nap. If you want happiness for a day, 
 
 life can be meaningful enough to justify its suffering
 
-I used to think the human brain was the most wonderful organ in my body. Then I realized who was telling me that. ~ Emo Philips
+I used to think the human brain was the most wonderful organ in my body. Then I realized who was telling me that. \~ Emo Philips
 
 One day, in retrospect, the ugly days will strike you as the most beautiful
 
@@ -1529,7 +1529,6 @@ And what you have lost, is now the things you hope for
 a healthy man wishes a million things, an unhealthy man wishes one thing
 
 "We didn't realize we were making memories, we were just having fun"
-
 - Winnie The Pooh
 
 “How lucky I am to have something that makes saying goodbye so hard.”
@@ -1576,24 +1575,24 @@ Children, you show love for others by truly helping them, and not merely by talk
 
 Truth is like surgery. It hurts but it cures. Lie is like a pain killer. It gives instant relief but has side effects forever
 
-"I can’t stop thinking about the 40-something man who told me, ‘I can’t die like this. I just got engaged and have a 6-month-old baby.’ I encouraged him to be positive, but that didn’t stop him from dying two weeks later" ~ ICU Doctor on COVID resurgence
+"I can’t stop thinking about the 40-something man who told me, ‘I can’t die like this. I just got engaged and have a 6-month-old baby.’ I encouraged him to be positive, but that didn’t stop him from dying two weeks later" \~ ICU Doctor on COVID resurgence
 
-In times of universal deceit, speaking the truth becomes a revolutionary act ~ George Orwell
+In times of universal deceit, speaking the truth becomes a revolutionary act \~ George Orwell
 
 You may say to yourself, “My power and the strength of my hands have produced this wealth for me.” But remember the Lord your God, for it is he who gives you the ability to produce wealth, and so confirms his covenant, which he swore to your ancestors, as it is today
 \~ Deuteronomy 8:17-18
 
 You don't own money, You are in charge of it
 
-Your most awesome work is done through the frailty of your Son ~ El Shaddai
+Your most awesome work is done through the frailty of your Son \~ El Shaddai
 
-He who has a why to live for can bear almost any how ~ Friedrich Nietzsche
+He who has a why to live for can bear almost any how \~ Friedrich Nietzsche
 
-Reading other people’s work doesn’t help me, it turns me into a consumer ~ Dan Brown
+Reading other people’s work doesn’t help me, it turns me into a consumer \~ Dan Brown
 
-To write a song or a piece of classical music, you have to understand the structure, you have to understand tension, and release. Good musical lines ask a question and give an answer ~ Dan Brown
+To write a song or a piece of classical music, you have to understand the structure, you have to understand tension, and release. Good musical lines ask a question and give an answer \~ Dan Brown
 
-“There are only two types of speakers in the world. 1. The nervous and 2. The Liars.” ~ Mark Twain
+“There are only two types of speakers in the world. 1. The nervous and 2. The Liars.” \~ Mark Twain
 
 say plain things in interesting ways, and interesting things in plain ways
 
@@ -1629,7 +1628,7 @@ he doesn't fulfill his promise through them because of their righteousness, he f
 
 I don’t know why I wanted him to care
 
-"Fear is the great enemy of intimacy. Fear makes us run away from each other or cling to each other but does not create true intimacy."
+"Fear is the great enemy of intimacy. Fear makes us run away from each other or cling to each other but does not create true intimacy." 
 — Henri Nouwen
 
 depression is living in the past, anxiety is living in the future
@@ -1657,10 +1656,10 @@ We work so that we may share with those in need
 We give so that relationships may flourish
 Relationships is life
 
-She loves him
-He loves her
-Nobody texts
-Love loses
+She loves him 
+He loves her 
+Nobody texts 
+Love loses 
 Ego wins
 
 motion creates emotion
@@ -1769,25 +1768,25 @@ Ramsey theory tells us, for instance, that among any six users of Facebook there
 
 My fault, my failure, is not in the passions I have, but in my lack of control of them.
 
-Owners of dogs will have noticed that, if you provide them with food and water and shelter and affection, they will think you are God. Whereas owners of cats are compelled to realize that, if you provide them with food and water and affection, they draw the conclusion that they are God ~ Christopher Hitchens
+Owners of dogs will have noticed that, if you provide them with food and water and shelter and affection, they will think you are God. Whereas owners of cats are compelled to realize that, if you provide them with food and water and affection, they draw the conclusion that they are God \~ Christopher Hitchens
 
 If she's amazing, she won't be easy. If she's easy, she won't be amazing. If she's worth it, you won't give up. If you give up, you're not worthy. ... Truth is, everybody is going to hurt you; you just gotta find the ones worth suffering for
 
 Remember to always be yourself. Unless you suck
 
-asking the right question is harder than answering it ~ Greg Cantor
+asking the right question is harder than answering it \~ Greg Cantor
 
-The greatness of a man is not how much wealth he acquires but in his integrity and his ability to affect those around him positively ~ Bob Marley
+The greatness of a man is not how much wealth he acquires but in his integrity and his ability to affect those around him positively \~ Bob Marley
 
-It's just that I don't want to be somebody's crush. If somebody likes me, I want them to like the real me, not what they think I am. And I don't want them to carry it around inside. I want them to show me, so I can feel it too. ~ Stephen Chbosky
+It's just that I don't want to be somebody's crush. If somebody likes me, I want them to like the real me, not what they think I am. And I don't want them to carry it around inside. I want them to show me, so I can feel it too. \~ Stephen Chbosky
 
 the cello part is like a janitor. you might not notice him, but when he's gone, the whole place is a mess
 
 I would have been a better leader if I had been less cocky in my early career, and more confident in my middle career
 
-but love is always new. regardless of whether we love once, twice, or dozen times in our life, we always face a brand-new situation. Love can cosign us to hell or to paradise, but it always takes us somewhere. We simply have to accept it, because it is what nourishes our existence. If we reject it, we die of hunger, because we lack the courage to stretch out a hand and pluck the fruit from the branches of the tree of life. We have to take love where we find it, even if that means hours, days, weeks of disappointment and sadness ~ Paulo Coelho
+but love is always new. regardless of whether we love once, twice, or dozen times in our life, we always face a brand-new situation. Love can cosign us to hell or to paradise, but it always takes us somewhere. We simply have to accept it, because it is what nourishes our existence. If we reject it, we die of hunger, because we lack the courage to stretch out a hand and pluck the fruit from the branches of the tree of life. We have to take love where we find it, even if that means hours, days, weeks of disappointment and sadness \~ Paulo Coelho
 
-not all of us can do great things. but we can do small things with great love ~ mother teresa
+not all of us can do great things. but we can do small things with great love \~ mother teresa
 
 a woman's loyalty is tested when her man has nothing
 a man's loyalty is tested when he has everything
@@ -1802,11 +1801,11 @@ I was a man trapped in a woman's body until my mother gave birth to me
 
 it's possible, it's just probability zero
 
-whoever pursues righteousness and love finds life, prosperity, and honor ~ Proverbs 21:21
+whoever pursues righteousness and love finds life, prosperity, and honor \~ Proverbs 21:21
 
 retire to something - not from something. stay engaged. be physically active and intellectually curious
 
-we suffer more often in imagination than in reality ~ Seneca
+we suffer more often in imagination than in reality \~ Seneca
 
 this is exactly why young men get addicted to video games. Video games simulate responsibility by giving you a goal and making you, the player, solely responsible for realizing that goal. Video games are about heroism and success, which young men absolutely crave and can't find in their lives.
 
@@ -1835,7 +1834,6 @@ diffusion, foreclosure, moratorium, and achievement
 "your eyes are wandering because our heart is not anchored on me"
 
 recreation
-
 - activity done for enjoyment when one is not working
 - late Middle English - also in the sense 'mental or spiritual consolation'
 - via Old French from Latin recreatio(n-), from recreare 'create again, renew'
@@ -1854,7 +1852,6 @@ John 8:24
 therefore I said to you that you will die in your sins; for unless you believe that I am, you will die in your sins.
 
 to die in your sins
-
 - means that the person will, upon his physical death, retain all the sins that he has committed along with the consequences and punishment due to those sins
 
 don't try to live what you are preaching, preach what you are living.

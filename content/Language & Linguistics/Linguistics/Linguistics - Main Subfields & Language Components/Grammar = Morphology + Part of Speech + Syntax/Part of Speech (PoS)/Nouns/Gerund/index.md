@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Gerund
+title: "Gerund"
 created: 2021-09-13T04:44:03.925-05:00
 modified: 2022-06-25T17:50:44.600-05:00
+parent: "[[Nouns]]"
+children: []
 ---
-
 ###### Gerund
-
 - a form that is derived from a [[Verbs|verb]] but that functions as a [[Nouns|noun]]
 
 # Gerund - Types

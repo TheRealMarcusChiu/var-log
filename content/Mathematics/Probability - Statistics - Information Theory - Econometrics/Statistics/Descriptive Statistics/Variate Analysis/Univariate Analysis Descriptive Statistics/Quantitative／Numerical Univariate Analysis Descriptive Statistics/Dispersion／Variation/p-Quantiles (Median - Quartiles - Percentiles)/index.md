@@ -1,18 +1,19 @@
 ---
-publish: true
-title: p-Quantiles (Median - Quartiles - Percentiles)
+title: "p-Quantiles (Median - Quartiles - Percentiles)"
 created: 2021-09-13T05:28:51.298-05:00
 modified: 2023-09-01T16:29:03.774-05:00
+parent: "[[Dispersion／Variation]]"
+children:
+  - "[[Median (2-Quantile - 50th Percentile)]]"
+  - "[[Percentiles (100-Quantile)]]"
+  - "[[Quartiles (4-Quantile)]]"
 ---
-
 ###### p-quantiles
-
-```excerpt
+````excerpt
 - is a type of [[Dispersion／Variation|Dispersion/Variation]]
 - (p - 1) points that divide the range of a [[Probability Distributions|probability distribution]] into p continuous intervals with EQUAL [[Probability|probabilities]]
 - (p - 1) points that divide the points into p equally sized groups (e.g. median is a 2-quantile where it divides the data set into 2 equally sized groups)
-```
-
+````
 ^excerpt
 
 # p-Quantiles - Types
@@ -82,7 +83,6 @@ modified: 2023-09-01T16:29:03.774-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
 
 ![](https://www.youtube.com/watch?v=IFKQLDmRK0Y)

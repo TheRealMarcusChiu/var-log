@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Java - Spring - @ComponentScan vs @EntityScan
+title: "Java - Spring - @ComponentScan vs @EntityScan"
 created: 2021-06-14T14:15:28.917-05:00
 modified: 2021-06-14T17:38:43.574-05:00
+parent: "[[Java - Spring - Context Annotations]]"
+children: []
 ---
-
-TODO: <https://www.baeldung.com/spring-entityscan-vs-componentscan>
+TODO: [https://www.baeldung.com/spring-entityscan-vs-componentscan](https://www.baeldung.com/spring-entityscan-vs-componentscan)
 
 ```merge-table
 {

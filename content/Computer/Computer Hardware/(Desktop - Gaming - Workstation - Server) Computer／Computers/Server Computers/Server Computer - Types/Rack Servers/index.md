@@ -1,18 +1,17 @@
 ---
-publish: true
-title: Rack Servers
+title: "Rack Servers"
 created: 2022-07-13T02:42:48.094-05:00
 modified: 2023-02-21T21:04:52.088-06:00
+parent: "[[Server Computer - Types]]"
+children:
+  - "[[My Server Rack Build #1]]"
 ---
-
 # Server Rack - Standards
 
 The width of the rails, the horizontal and vertical spacing of the mounting holes, the size of the equipment cabinets, and other measurements are standardized. This ensures that standard rack equipment will always be compatible with standard racks. Most IT equipment is nominally 19 inches wide (including mounting hardware) and follows a standard set by the Electronics Industry Alliance (EIA) and is now maintained by the Electronic Components Industry Association (ECIA). The current 19-inch rack standard is called EIA-310-E, which is essentially equivalent to IEC-60297-3-100 or DIN 41494 in other regions. (There’s also a standard for 23-inch wide telecom equipment. The vast majority of IT applications use 19-inch racks and equipment.)
-
 # Server Rack - Units
 
 Although 19-inch racks are always the same nominal width, the height, and depth vary. The depth of the rack rails is usually adjustable to some degree. The height of the rack is divided into standardized segments called rack units. Each rack unit is 1.75 inches high, and the height of a rack or an equipment cabinet is expressed as the number of rack units followed by the letter “U”. For example, a 42U rack contains 42 rack units. That does not mean the rack is exactly 42 x 1.75 inches high because racks usually include at least a little extra space at the top and bottom that isn’t usable rack space. It does mean that the rack will accommodate any combination of standard rack equipment up to 42U—whether it’s 42 x 1U switches, 14 x 3U servers or 21 x 1U switches with 7 x 3U servers. Remember that the rack also has to be deep enough for the equipment and rated to support the combined weight of all the equipment.
-
 # Server Rack - Types
 
 ```merge-table
@@ -54,12 +53,9 @@ Although 19-inch racks are always the same nominal width, the height, and depth 
   ]
 }
 ```
-
 # Server Rack - Companies
-
-- <https://sysracks.com/>
-- <https://www.startech.com/>
+- [https://sysracks.com/](https://sysracks.com/)
+- [https://www.startech.com/](https://www.startech.com/)
 
 # Resources
-
-- <https://www.racksolutions.com/news/blog/server-rack-sizes/>
+- [https://www.racksolutions.com/news/blog/server-rack-sizes/](https://www.racksolutions.com/news/blog/server-rack-sizes/)

@@ -1,10 +1,13 @@
 ---
-publish: true
-title: Multivariate vs Mixture - Model／Probability-Distribution
+title: "Multivariate vs Mixture - Model／Probability-Distribution"
 created: 2021-09-13T05:27:15.992-05:00
 modified: 2021-11-11T19:57:25.577-06:00
+parent: "[[Probability Distributions]]"
+children:
+  - "[[Mixture／Mixed／Multi Model Probability Distribution]]"
+  - "[[Multivariate Mixture Model]]"
+  - "[[Multivariate Probability Distribution]]"
 ---
-
 - ![[Multivariate Probability Distribution#^excerpt]]
 - ![[Mixture／Mixed／Multi Model Probability Distribution#^excerpt]]
 
@@ -37,7 +40,6 @@ modified: 2021-11-11T19:57:25.577-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Multivariate & Mixture Model Examples
 
 ```merge-table

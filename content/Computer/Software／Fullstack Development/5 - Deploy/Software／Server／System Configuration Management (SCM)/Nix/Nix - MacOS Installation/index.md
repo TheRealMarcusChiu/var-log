@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Nix - MacOS Installation
+title: "Nix - MacOS Installation"
 created: 2025-11-03T19:49:49.106-06:00
 modified: 2025-11-03T19:50:07.151-06:00
+parent: "[[Nix]]"
+children: []
 ---
-
 ```
 (base) ➜  ~ curl -L https://nixos.org/nix/install | sh
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current

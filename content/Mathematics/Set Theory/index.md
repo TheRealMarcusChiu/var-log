@@ -1,16 +1,21 @@
 ---
-publish: true
-title: Set Theory
+title: "Set Theory"
 created: 2021-09-13T05:29:21.889-05:00
 modified: 2023-04-10T21:56:34.934-05:00
+parent: "[[Mathematics]]"
+children:
+  - "[[Disjoint - Pairwise Disjoint - Mutually Exclusive／Disjoint]]"
+  - "[[Exhaustive]]"
+  - "[[Fuzzy／Uncertain Set Theory]]"
+  - "[[Set (Cover／Covering - Open Cover／Covering - Subcover／Subcovering) - Minimal／Proper／Antichain／k／k＊ Cover／Covering]]"
+  - "[[Set Builder Notation]]"
+  - "[[Set Operators／Operations]]"
+  - "[[Set／Sets]]"
 ---
-
 ###### Set Theory
-
-```excerpt
+````excerpt
 - studies sets, which informally are collections of objects
-```
-
+````
 ^excerpt
 
 # Set Theories
@@ -47,9 +52,7 @@ modified: 2023-04-10T21:56:34.934-05:00
   ]
 }
 ```
-
 # Areas of Study
-
 - combinatorial set theory
 - descriptive set theory
 - fuzzy set theory
@@ -61,3 +64,8 @@ modified: 2023-04-10T21:56:34.934-05:00
 - set-theoretic topology
 
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

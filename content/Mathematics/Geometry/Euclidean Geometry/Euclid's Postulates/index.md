@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Euclid's Postulates
+title: "Euclid's Postulates"
 created: 2023-05-14T11:09:26.488-05:00
 modified: 2023-05-14T11:10:16.780-05:00
+parent: "[[Euclidean Geometry]]"
+children: []
 ---
-
 1. A straight [line segment](https://mathworld.wolfram.com/LineSegment.html) can be drawn joining any two points.
 2. Any straight [line segment](https://mathworld.wolfram.com/LineSegment.html) can be extended indefinitely in a straight [line](https://mathworld.wolfram.com/Line.html).
 3. Given any straight [line segment](https://mathworld.wolfram.com/LineSegment.html), a [circle](https://mathworld.wolfram.com/Circle.html) can be drawn having the segment as the [radius](https://mathworld.wolfram.com/Radius.html) and one endpoint as the center.

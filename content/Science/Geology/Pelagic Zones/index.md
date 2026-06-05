@@ -1,16 +1,15 @@
 ---
-publish: true
-title: Pelagic Zones
+title: "Pelagic Zones"
 created: 2021-09-13T04:45:18.169-05:00
 modified: 2021-09-13T04:45:18.169-05:00
+parent: "[[Geology]]"
+children: []
 ---
-
-![[Science/Geology/Pelagic Zones/pelagic-zone.png]]
+![[Pelagic Zones/pelagic-zone.png]]
 
 <strong>pelagic</strong> stems from Ancient Greek <em>(pélagos)</em>, meaning 'open sea
 
 the <strong>pelagic zone</strong> can extend to 5 vertical regions in the ocean:
-
 - <strong>Epipelagic Zone (sunlight)</strong> - <em>epi- meaning upon, above, or in addition</em>
 - <strong>Mesopelagic Zone (twilight)</strong> - meso- meaning middle
 - <strong>Bathypelagic Zone (midnight)</strong> - the name stems from Ancient Greek <em>βαθύς</em>, meaning 'deep'.

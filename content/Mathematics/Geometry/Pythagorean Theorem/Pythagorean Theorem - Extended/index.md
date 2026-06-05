@@ -1,25 +1,21 @@
 ---
-publish: true
-title: Pythagorean Theorem - Extended
+title: "Pythagorean Theorem - Extended"
 created: 2021-09-13T05:25:15.466-05:00
 modified: 2023-04-10T21:42:54.432-05:00
+parent: "[[Pythagorean Theorem]]"
+children: []
 ---
-
 ###### Pythagorean Theorem - Extended
-
-```excerpt
+````excerpt
 - something Marcus made up
-```
-
+````
 ^excerpt
 
 # Formula
-
 - 𝑥 = (𝑎𝑏) / 𝑠𝑞𝑟𝑡(𝑎<sup>2</sup> + 𝑏<sup>2</sup>)
 - 𝑥 = (𝑎𝑏) / 𝑐
 
-![[Mathematics/Geometry/Pythagorean Theorem/Pythagorean Theorem - Extended/pythagorean-theorem-extended.png|301]]
-
+![[Pythagorean Theorem - Extended/pythagorean-theorem-extended.png|301]]
 # Proof
 
 ```merge-table

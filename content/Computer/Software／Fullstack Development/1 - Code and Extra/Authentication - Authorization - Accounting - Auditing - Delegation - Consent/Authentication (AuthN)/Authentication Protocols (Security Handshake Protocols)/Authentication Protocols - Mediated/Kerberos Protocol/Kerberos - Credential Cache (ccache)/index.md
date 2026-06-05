@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Kerberos - Credential Cache (ccache)
+title: "Kerberos - Credential Cache (ccache)"
 created: 2021-08-25T16:05:20.486-05:00
 modified: 2022-09-03T19:19:33.182-05:00
+parent: "[[Kerberos Protocol]]"
+children: []
 ---
-
 ###### Credential Cache (ccache)
-
 - holds Kerberos credentials while they remain valid and, generally, while the user’s session lasts, so that authenticating to a service multiple times (e.g., connecting to a web or mail server more than once) doesn’t require contacting the [[Key Distribution Center (KDC)|KDC]] every time.
 
 # ccache - Basics
@@ -14,11 +13,9 @@ modified: 2022-09-03T19:19:33.182-05:00
 A ccache usually contains one initial ticket which is obtained usually by a password. If this ticket is a ticket-granting ticket, it can be used to obtain service tickets without the password. Because the credential cache does not store the password, less long-term damage can be done to the user’s account if the machine is compromised.
 
 A ccache stores a default client principal name, set when the cache is created. This is the name shown at the top of the <code>[klist](https://web.mit.edu/kerberos/krb5-1.12/doc/user/user_commands/klist.html#klist-1) -A</code> output.
-
 # ccache - Entries
 
 Each normal cache entry includes:
-
 - a service principal name
 - a client principal name (which, in some ccache types, need not be the same as the default)
 - lifetime information
@@ -26,7 +23,6 @@ Each normal cache entry includes:
 - along with the credential itself
 
 There are also other entries, indicated by special names, that store additional information.
-
 # ccache - Types
 
 The credential cache interface, like the [<em>keytab</em>](https://web.mit.edu/kerberos/krb5-1.12/doc/basic/keytab_def.html#keytab-definition) and [<em>replay cache</em>](https://web.mit.edu/kerberos/krb5-1.12/doc/basic/rcache_def.html#rcache-definition) interfaces, uses <em><code><font style="color: rgb(122,134,154);">TYPE:value</font></code></em> strings to indicate the type of credential cache and any associated cache naming data to use.
@@ -89,7 +85,5 @@ There are several kinds of credentials cache supported in the MIT Kerberos libra
 ```
 
 See [<em>Collections of caches</em>](https://web.mit.edu/kerberos/krb5-1.12/doc/basic/ccache_def.html#col-ccache) for details.
-
 # Resources
-
-- <https://web.mit.edu/kerberos/krb5-1.12/doc/basic/ccache_def.html>
+- [https://web.mit.edu/kerberos/krb5-1.12/doc/basic/ccache_def.html](https://web.mit.edu/kerberos/krb5-1.12/doc/basic/ccache_def.html)

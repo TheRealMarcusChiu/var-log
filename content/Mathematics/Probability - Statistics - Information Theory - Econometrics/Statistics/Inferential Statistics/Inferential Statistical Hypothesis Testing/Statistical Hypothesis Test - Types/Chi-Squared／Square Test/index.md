@@ -1,17 +1,16 @@
 ---
-publish: true
-title: Chi-Squared／Square Test
+title: "Chi-Squared／Square Test"
 created: 2021-09-13T05:29:08.358-05:00
 modified: 2023-09-13T20:49:18.223-05:00
+parent: "[[Statistical Hypothesis Test - Types]]"
+children:
+  - "[[Pearson's Chi-Square Test]]"
 ---
-
 ###### Chi-Squared/Square Test
-
-```excerpt
+````excerpt
 - is a [[Inferential Statistical Hypothesis Testing|statistical hypothesis test]] that is valid to perform when the test statistic is [[Chi-Square Distribution|chi-square distributed]] under the null hypothesis
 - tests on categorical/[[Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)|nominal]] variables and that none is a dependent variable (If you have a categorical dependent variable you will probably want some form of [[Logistic (Logit) Regression Model|logistic regression]])
-```
-
+````
 ^excerpt
 
 # Chi-Square Test - Population Variances
@@ -73,8 +72,12 @@ modified: 2023-09-13T20:49:18.223-05:00
   "tableStyle": "width: 897.6px;"
 }
 ```
-
 # Chi-Square Tests
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 - one-way chi-square test
 - two-way chi-square test

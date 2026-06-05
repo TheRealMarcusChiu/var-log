@@ -1,19 +1,17 @@
 ---
-publish: true
-title: Probability Measure
+title: "Probability Measure"
 created: 2024-01-17T17:21:08.823-06:00
 modified: 2024-01-17T17:50:28.370-06:00
+parent: "[[Probability Spaces (Sample Space - Event Space - Probability Measure)]]"
+children: []
 ---
-
 ###### Probability Measure
-
-```excerpt
+````excerpt
 - is a [[Real-Valued Function (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)|real-valued function]] defined on the [[Probability Spaces (Sample Space - Event Space - Probability Measure)|event space]]
 - satisfies [[Measure／Measures|measure]] properties
 - it is part of a [[Probability Spaces (Sample Space - Event Space - Probability Measure)|probability space]]
 - the difference between a probability measure and the more general notion of [[Measure／Measures|measure]] is that a probability measure must assign value 1 to the entire [[σ-Algebra - σ-Field of Sets - σ-field|σ-algebra]]
-```
-
+````
 ^excerpt
 
 # Probability Measure - Rules
@@ -45,7 +43,5 @@ modified: 2024-01-17T17:50:28.370-06:00
   ]
 }
 ```
-
 # Resources
-
-- <https://en.wikipedia.org/wiki/Probability_measure>
+- [https://en.wikipedia.org/wiki/Probability_measure](https://en.wikipedia.org/wiki/Probability_measure)

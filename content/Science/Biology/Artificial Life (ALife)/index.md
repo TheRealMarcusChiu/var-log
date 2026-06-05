@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Artificial Life (ALife)
+title: "Artificial Life (ALife)"
 created: 2026-02-17T14:57:08.692-06:00
 modified: 2026-02-17T15:01:37.800-06:00
+parent: "[[Biology]]"
+children: []
 ---
-
 ###### Artificial Life (ALife)
-
-```excerpt
+````excerpt
 - is the study and creation of life-like systems made by humans
-```
-
+````
 ^excerpt
 
 # ALife - 3 Types
@@ -42,7 +40,5 @@ modified: 2026-02-17T15:01:37.800-06:00
   ]
 }
 ```
-
 # Resources
-
 - [[ALife.6.4.pdf|Open Problems in Artificial Life.pdf]]

@@ -1,24 +1,22 @@
 ---
-publish: true
-title: OpenID Connect (OIDC)
+title: "OpenID Connect (OIDC)"
 created: 2019-09-16T10:54:30.924-05:00
 modified: 2022-02-06T05:26:23.289-06:00
+parent: "[[OAuth & OpenID Connect]]"
+children:
+  - "[[OIDC - Flows]]"
 ---
-
 ###### OpenID Connect (OIDC)
-
-```excerpt
+````excerpt
 - is an extension of [[Open Authorization (OAuth)]] adding delegated authentication (i.e. allowing Client application(s) to obtain a Resource Owner's information)
 - is not backward compatible with OpenID 2 (or 1 for that matter). OpenID Connect is effectively version 3 of the OpenID specification
-```
-
+````
 ^excerpt
 
 # OIDC Entities
 
 > [!expand]- Click here to expand...
 > ![[Authentication／Authorization／Delegation - Entities／Actors#^excerpt]]
-
 # OIDC Terms
 
 ```merge-table
@@ -82,7 +80,6 @@ modified: 2022-02-06T05:26:23.289-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # OIDC Flows
 
 ![[OIDC - Flows#^excerpt]]

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Tensor - 10 - How do Metric Tensor Components Change WRT Change of Basis
+title: "Tensor - 10 - How do Metric Tensor Components Change WRT Change of Basis"
 created: 2023-08-02T00:03:10.050-05:00
 modified: 2023-08-02T00:58:01.975-05:00
+parent: "[[Tensors]]"
+children: []
 ---
-
 ````excerpt
 HOW METRIC TENSOR COMPONENTS CHANGE WRT CHANGE OF BASIS
 - 𝑔<sub>𝑘𝑙</sub>= 𝑒<sub>𝑘</sub>·𝑒<sub>𝑙</sub>
@@ -34,5 +34,4 @@ proof:
 - ||𝑣||<sup>2</sup> = 𝑣<sup>𝑘</sup>𝑣<sup>𝑙</sup>𝑔<sub>𝑘𝑙</sub>
 - ||𝑣||<sup>2</sup> = 𝑣<sup>𝑖</sup>𝑣<sup>𝑗</sup>𝑔<sub>𝑖𝑗</sub>
 ````
-
 ^excerpt

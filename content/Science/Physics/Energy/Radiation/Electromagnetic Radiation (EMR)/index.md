@@ -1,20 +1,17 @@
 ---
-publish: true
-title: Electromagnetic Radiation (EMR)
+title: "Electromagnetic Radiation (EMR)"
 created: 2021-09-13T04:45:50.510-05:00
 modified: 2023-08-02T16:24:36.662-05:00
+parent: "[[Radiation]]"
+children: []
 ---
-
 ###### Electromagnetic Radiation (EMR)
-
-```excerpt
+````excerpt
 - is a type of [[Radiation|radiation]] in the form of photons/[[Electromagnetic Energy／Spectrum／Waves／Radiation|electromagnetic waves]]
-```
-
+````
 ^excerpt
 
 # EMR - Properties
-
 - power
 - frequency
 
@@ -63,11 +60,9 @@ modified: 2023-08-02T16:24:36.662-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # EMR - Extra
 
 Gamma radiation and X-rays are highly penetrating [[Electromagnetic Energy／Spectrum／Waves／Radiation|electromagnetic]] radiation. Some characteristics of these radiations are:
-
 - <font style="color: rgb(0,51,102);">does not consist of any particles, instead consisting of a photon of energy being emitted from an unstable nucleus</font>
 - Gamma radiation or X-rays are able to travel many feet in the air and many inches in human tissue. They readily penetrate most materials and are sometimes called "penetrating" radiation.
 - X-rays are like gamma rays. X-rays, too, are penetrating radiation. Sealed radioactive sources and machines that emit gamma radiation and x-rays respectively constitute mainly an external hazard to humans.

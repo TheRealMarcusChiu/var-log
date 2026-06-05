@@ -1,14 +1,13 @@
 ---
-publish: true
-title: Function - Injective／Injection／One-to-one - Surjective／Surjection／Unto／Onto - Bijective／Bijection／One-to-one Correspondence
+title: "Function - Injective／Injection／One-to-one - Surjective／Surjection／Unto／Onto - Bijective／Bijection／One-to-one Correspondence"
 created: 2021-09-13T05:29:27.767-05:00
 modified: 2023-06-13T13:12:10.175-05:00
+parent: "[[Transformations - Properties／Types]]"
+children: []
 ---
-
 # Pairing Properties
 
 Let <strong>X</strong> be the domain and <strong>Y</strong> be the co-domain:
-
 1. every element of <strong>X</strong> must be paired with at least one element of <strong>Y</strong>
 2. every element of <strong>X</strong> must be paired with at most one element of <strong>Y</strong>
 3. every element of <strong>Y</strong> must be paired with at least one element of <strong>X</strong>
@@ -157,7 +156,5 @@ Let <strong>X</strong> be the domain and <strong>Y</strong> be the co-domain:
   "tableStyle": "width: 96.6176%;"
 }
 ```
-
 # Diagrams
-
-![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Function - Injective／Injection／One-to-one - Surjective／Surjection／Unto／Onto - Bijective／Bijection／One-to-one Correspondence/injective_surjective-bijective-function.png]]
+![[Function - Injective／Injection／One-to-one - Surjective／Surjection／Unto／Onto - Bijective／Bijection／One-to-one Correspondence/injective_surjective-bijective-function.png]]

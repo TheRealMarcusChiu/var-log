@@ -1,20 +1,18 @@
 ---
-publish: true
-title: RabbitMQ - Architecture
+title: "RabbitMQ - Architecture"
 created: 2020-05-26T19:32:49.081-05:00
 modified: 2020-05-26T19:37:33.004-05:00
+parent: "[[RabbitMQ]]"
+children: []
 ---
-
 ### RabbitMQ - Architecture
-
-![[Computer/Software／Fullstack Development/1 - Code and Extra/Publisher／Pub／Subscriber／Sub Messaging／Message Queues／System/RabbitMQ/RabbitMQ - Architecture/rabbitmq-exchanges-topic-fanout-direct.png|500]]
-
+![[RabbitMQ - Architecture/rabbitmq-exchanges-topic-fanout-direct.png|500]]
 1. producer publishes a message to an exchange
 2. exchange receives the message and is now responsible for routing the message. The exchange takes different message attributes into account, such as the routing key, depending on the exchange type (when creating an exchange, the type must be specified):
-   1. <strong>direct</strong>: the message is routed to the queues whose binding key exactly matches the routing key of the message. For example, if the queue is bound to the exchange with the binding key <em>pdfprocess, a message published to</em> the exchange with a routing key <em>pdfprocess is routed to that queue.</em>
-   2. <strong>fanout</strong>: a fanout exchange routes messages to all of the queues bound to it.
-   3. <strong>topic</strong>: the topic exchange does a wildcard match between the routing key and the routing pattern specified in the binding.
-   4. <strong>headers</strong>: headers exchanges use the message header attributes for routing
+	1. <strong>direct</strong>: the message is routed to the queues whose binding key exactly matches the routing key of the message. For example, if the queue is bound to the exchange with the binding key <em>pdfprocess, a message published to</em> the exchange with a routing key <em>pdfprocess is routed to that queue.</em>
+	2. <strong>fanout</strong>: a fanout exchange routes messages to all of the queues bound to it.
+	3. <strong>topic</strong>: the topic exchange does a wildcard match between the routing key and the routing pattern specified in the binding.
+	4. <strong>headers</strong>: headers exchanges use the message header attributes for routing
 3. bindings must be created from the exchange to queues. In this case, there are two bindings to two different queues from the exchange. The exchange routes the message into the queues depending on message attributes.
 4. messages stay in the queue until they are handled by a consumer
 5. consumer handles the message
@@ -22,7 +20,6 @@ modified: 2020-05-26T19:37:33.004-05:00
 ### RabbitMQ Components
 
 Some important concepts need to be described before we dig deeper into RabbitMQ. The default virtual host, the default user, and the default permissions are used in the examples, so let’s go over the elements and concepts:
-
 - <strong>Producer</strong>: Application that sends the messages.
 - <strong>Consumer</strong>: Application that receives the messages.
 - <strong>Queue</strong>: Buffer that stores messages.

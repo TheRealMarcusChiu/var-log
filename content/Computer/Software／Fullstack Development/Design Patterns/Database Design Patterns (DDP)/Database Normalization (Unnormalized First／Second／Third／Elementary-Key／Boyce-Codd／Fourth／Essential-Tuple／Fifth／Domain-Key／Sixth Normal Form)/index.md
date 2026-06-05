@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Database Normalization (Unnormalized First／Second／Third／Elementary-Key／Boyce-Codd／Fourth／Essential-Tuple／Fifth／Domain-Key／Sixth Normal Form)
+title: "Database Normalization (Unnormalized First／Second／Third／Elementary-Key／Boyce-Codd／Fourth／Essential-Tuple／Fifth／Domain-Key／Sixth Normal Form)"
 created: 2019-12-10T14:30:24.841-06:00
 modified: 2026-05-14T23:47:07.585-05:00
+parent: "[[Database Design Patterns (DDP)]]"
+children: []
 ---
-
 ###### Database Normalization
-
-```excerpt
+````excerpt
 - is the process of structuring a [[Database Management Systems (DBMS)|database]], usually a [[Relational／Row-Oriented Database Management System (RDBMS)|relational database]], in accordance with a series of so-called [normal forms](https://en.wikipedia.org/wiki/Database_normalization#Normal_forms) in order to reduce data redundancy and improve data integrity
-```
-
+````
 ^excerpt
 
 # Database Normal Forms
 
 The normal forms (from least normalized to most normalized) are:
-
 - UNF: [Unnormalized form](https://en.wikipedia.org/wiki/Unnormalized_form)
 - 1NF: [First normal form](https://en.wikipedia.org/wiki/First_normal_form)
 - 2NF: [Second normal form](https://en.wikipedia.org/wiki/Second_normal_form)
@@ -24,11 +21,10 @@ The normal forms (from least normalized to most normalized) are:
 - EKNF: [Elementary key normal form](https://en.wikipedia.org/wiki/Elementary_key_normal_form)
 - BCNF: [Boyce–Codd normal form](https://en.wikipedia.org/wiki/Boyce%E2%80%93Codd_normal_form)
 - 4NF: [Fourth normal form](https://en.wikipedia.org/wiki/Fourth_normal_form)
-- ETNF: [Essential tuple normal form](https://en.wikipedia.org/w/index.php?title=Essential_tuple_normal_form\&action=edit\&redlink=1)
+- ETNF: [Essential tuple normal form](https://en.wikipedia.org/w/index.php?title=Essential_tuple_normal_form&action=edit&redlink=1)
 - 5NF: [Fifth normal form](https://en.wikipedia.org/wiki/Fifth_normal_form)
 - DKNF: [Domain-key normal form](https://en.wikipedia.org/wiki/Domain-key_normal_form)
 - 6NF: [Sixth normal form](https://en.wikipedia.org/wiki/Sixth_normal_form)
-
 ```merge-table
 {
   "rows": [
@@ -636,7 +632,5 @@ The normal forms (from least normalized to most normalized) are:
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
-
 # Resources
-
-- <https://en.wikipedia.org/wiki/Database_normalization>
+- [https://en.wikipedia.org/wiki/Database_normalization](https://en.wikipedia.org/wiki/Database_normalization)

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Fallen in Love with a Girl but she has a Boyfriend
+title: "Fallen in Love with a Girl but she has a Boyfriend"
 created: 2023-10-23T22:22:52.414-05:00
 modified: 2023-10-23T22:23:37.452-05:00
+parent: "[[Trials & Tribulations]]"
+children: []
 ---
-
 I've been where you are and I’d like to share what I did. You said you're in high school. I'm older to you. I'm nearing 30 and I work in investment banking. I work crazy hours and although the job pays well, my life is a living hell. The work and stress drive me insane. In my case, I was in love with someone who was married (so there really was no hope for me).
 
 I’m Indian and I work in a bulge bracket investment bank. The girl I loved - let's call her Maya was a childhood friend of mine. It would be fair to say we were the best of friends. I'd known her since pre-school. I don't think I ever really thought of her as anything other than a friend - till we were 26 maybe.

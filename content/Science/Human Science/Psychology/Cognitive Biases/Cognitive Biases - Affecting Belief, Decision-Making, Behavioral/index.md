@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Cognitive Biases - Affecting Belief, Decision-Making, Behavioral
+title: "Cognitive Biases - Affecting Belief, Decision-Making, Behavioral"
 created: 2021-09-13T04:45:34.194-05:00
 modified: 2022-04-28T00:21:47.769-05:00
+parent: "[[Cognitive Biases]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

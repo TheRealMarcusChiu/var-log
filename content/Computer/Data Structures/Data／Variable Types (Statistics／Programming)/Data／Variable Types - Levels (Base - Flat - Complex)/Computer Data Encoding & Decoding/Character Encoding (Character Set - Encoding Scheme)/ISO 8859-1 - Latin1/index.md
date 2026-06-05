@@ -1,16 +1,14 @@
 ---
-publish: true
-title: ISO 8859-1 - Latin1
+title: "ISO 8859-1 - Latin1"
 created: 2020-01-05T20:33:05.171-06:00
 modified: 2021-08-25T21:16:02.487-05:00
+parent: "[[Character Encoding (Character Set - Encoding Scheme)]]"
+children: []
 ---
-
 ###### ISO 8859-1 or Latin1
-
 - is an 8 bit [[Character Encoding (Character Set - Encoding Scheme)|character encoding]] scheme (i.e. mapping between: characters ↔ numbers ↔ binary-sequence)
 - is a superset of [[ASCII]] (contains the same first 127 characters)
 - superseded by [[Unicode]]+[[Unicode Transformation Format (UTF-8)]]
-
 ```merge-table
 {
   "rows": [

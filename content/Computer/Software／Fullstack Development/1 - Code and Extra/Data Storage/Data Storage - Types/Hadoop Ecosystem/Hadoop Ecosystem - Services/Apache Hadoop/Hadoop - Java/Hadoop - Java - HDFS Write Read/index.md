@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Hadoop - Java - HDFS Write Read
+title: "Hadoop - Java - HDFS Write Read"
 created: 2020-05-19T19:03:17.692-05:00
 modified: 2020-05-20T20:44:00.203-05:00
+parent: "[[Hadoop - Java]]"
+children: []
 ---
-
 ### Maven Dependencies
-
 ```
 <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs -->
 <dependency>
@@ -21,9 +20,7 @@ modified: 2020-05-20T20:44:00.203-05:00
     <version>2.6.2</version>
 </dependency>
 ```
-
 ### Write Demo
-
 ```
 import java.io.PrintWriter;
 import java.net.URI;
@@ -62,7 +59,6 @@ public class WriteDemo {
 ```
 
 ip address / domain name must match hadoop configuration files {core-site.xml, hdfs-site.xml, yarn-site.xml, etc}
-
 ```
 ...
 <property>
@@ -71,9 +67,7 @@ ip address / domain name must match hadoop configuration files {core-site.xml, 
 </property>
 ...
 ```
-
 ### Read Demo
-
 ```
 import java.net.URI;
 import java.util.Scanner;

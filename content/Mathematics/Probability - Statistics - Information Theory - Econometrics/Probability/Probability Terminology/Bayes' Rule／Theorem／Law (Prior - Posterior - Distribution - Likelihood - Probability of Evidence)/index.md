@@ -1,10 +1,15 @@
 ---
-publish: true
-title: Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)
+title: "Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)"
 created: 2021-09-13T05:28:32.119-05:00
 modified: 2022-02-12T18:16:27.785-06:00
+parent: "[[Probability Terminology]]"
+children:
+  - "[[Bayes Factor - Likelihood Ratio]]"
+  - "[[Conjugate Prior]]"
+  - "[[Inverse Problem & Bayes' Theorem]]"
+  - "[[Naive Bayes Model - Bayes Model]]"
+  - "[[What is Bayes' Theorem]]"
 ---
-
 ```merge-table
 {
   "rows": [
@@ -31,36 +36,28 @@ modified: 2022-02-12T18:16:27.785-06:00
   ]
 }
 ```
-
 # Bayes' Theorem - Diagram
 
 with: [[AI Chapter 13 - Quantifying Uncertainty|prior and posterior probabilities]] and [[AI Chapter 13 - Quantifying Uncertainty|normalization constant]]
 
-![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Probability/Probability Terminology/Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)/bayes' theorem.jpg]]
-
+![[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)/bayes' theorem.jpg]]
 # Bayes' Theorem - Derivation
 
 the [[AI Chapter 13 - Quantifying Uncertainty|product rule]] can be written in 2 ways:
-
 - 𝐏(𝑌,𝑋) = 𝐏(𝑋|𝑌)𝐏(𝑌)
 - 𝐏(𝑌,𝑋) = 𝐏(𝑌|𝑋)𝐏(𝑋)
 
 equating the two right-hand sides, we get <strong>Bayes' Rule/Theorem/Law</strong>:
-
 - 𝐏(𝑌|𝑋) = 𝐏(𝑋|𝑌)𝐏(𝑌) / 𝐏(𝑋)
 
 a more general version conditionalized on some background evidence <strong>e:</strong>
-
 - 𝐏(𝑌|𝑋,<strong>e</strong>) = 𝐏(𝑋|𝑌,<strong>e</strong>) 𝐏(𝑌|e) / 𝐏(𝑋|<strong>e</strong>)
 
 Bayes Theorem allows us to update our belief in a distribution (over one or more variables) 𝑸 = {𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>}, in the light of new evidence <strong>𝒆</strong> = {<strong>𝑒</strong><sub>1</sub>, ..., 𝑒<sub>𝑛</sub>}
-
 - 𝐏(𝑸|<strong>𝒆</strong>) = 𝐏(<strong>𝒆</strong>|𝑸)𝐏(𝑸) / 𝐏(<strong>𝒆</strong>)
 
 expanded form:
-
-- 𝐏(𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>|<strong>𝑒</strong><sub>1</sub>, ..., 𝑒<sub>𝑛</sub>) = \[𝐏(<strong>𝑒</strong><sub>1</sub>, ..., 𝑒<sub>𝑛</sub>|𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)𝐏(𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)] / \[𝛴<sub>𝑄<sub>1</sub></sub> ... 𝛴<sub>𝑄<sub>𝑛</sub></sub>𝐏(<strong>𝑒</strong><sub>1</sub>, ..., 𝑒<sub>𝑛</sub>|𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)𝐏(𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)]
-
+- 𝐏(𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>|<strong>𝑒</strong><sub>1</sub>, ..., 𝑒<sub>𝑛</sub>) = \[𝐏(<strong>𝑒</strong><sub>1</sub>, ..., 𝑒<sub>𝑛</sub>|𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)𝐏(𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)\] / \[𝛴<sub>𝑄<sub>1</sub></sub> ... 𝛴<sub>𝑄<sub>𝑛</sub></sub>𝐏(<strong>𝑒</strong><sub>1</sub>, ..., 𝑒<sub>𝑛</sub>|𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)𝐏(𝑄<sub>1</sub>, ..., 𝑄<sub>𝑛</sub>)\]
 ```merge-table
 {
   "rows": [
@@ -105,26 +102,27 @@ expanded form:
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Posterior vs Prior
 
 note that the prior is a weighted average of the posteriors, weighted over different instantiations of the evidence:
-
 - 𝐏(𝑸) = 𝛴<sub>𝒆∊𝑬</sub>𝐏(𝑸|𝑬=𝒆)𝐏(𝑬=𝒆)
-- 𝑝𝑟𝑖𝑜𝑟 = 𝛴<sub>𝒆∊𝑬</sub>\[𝑝𝑜𝑠𝑡𝑒𝑟𝑖𝑜𝑟\*𝑤𝑒𝑖𝑔ℎ𝑡]
-- 𝑝𝑟𝑖𝑜𝑟 = 𝛴<sub>𝒆∊𝑬</sub>\[𝑤𝑒𝑖𝑔ℎ𝑡𝑒𝑑-𝑝𝑜𝑠𝑡𝑒𝑟𝑖𝑜𝑟]
+- 𝑝𝑟𝑖𝑜𝑟 = 𝛴<sub>𝒆∊𝑬</sub>\[𝑝𝑜𝑠𝑡𝑒𝑟𝑖𝑜𝑟\*𝑤𝑒𝑖𝑔ℎ𝑡\]
+- 𝑝𝑟𝑖𝑜𝑟 = 𝛴<sub>𝒆∊𝑬</sub>\[𝑤𝑒𝑖𝑔ℎ𝑡𝑒𝑑-𝑝𝑜𝑠𝑡𝑒𝑟𝑖𝑜𝑟\]
 
 thus:
-
 - if the evidence 𝐏(𝑬=𝒆) is LIKELY, then:
-  - posterior 𝐏(𝑸|𝑬=𝒆) is a major component in this summation
-  - posterior 𝐏(𝑸|𝑬=𝒆) is probably not too far from the prior 𝐏(𝑸)
+	- posterior 𝐏(𝑸|𝑬=𝒆) is a major component in this summation
+	- posterior 𝐏(𝑸|𝑬=𝒆) is probably not too far from the prior 𝐏(𝑸)
 - if the evidence 𝐏(𝑬=𝒆) is UNLIKELY, then:
-  - posterior 𝐏(𝑸|𝑬=𝒆) is negligible component in this summation
-  - posterior 𝐏(𝑸|𝑬=𝒆) is not constrained to be similar to the prior 𝐏(𝑸)
+	- posterior 𝐏(𝑸|𝑬=𝒆) is negligible component in this summation
+	- posterior 𝐏(𝑸|𝑬=𝒆) is not constrained to be similar to the prior 𝐏(𝑸)
 
 # Bayes Box - How Posterior Probability is Updated by Prior Probability and Observed Data
 
-![](https://www.youtube.com/watch?v=mLxDzAsIg7I\&list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG\&index=21)
-
+![](https://www.youtube.com/watch?v=mLxDzAsIg7I&list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG&index=21)
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

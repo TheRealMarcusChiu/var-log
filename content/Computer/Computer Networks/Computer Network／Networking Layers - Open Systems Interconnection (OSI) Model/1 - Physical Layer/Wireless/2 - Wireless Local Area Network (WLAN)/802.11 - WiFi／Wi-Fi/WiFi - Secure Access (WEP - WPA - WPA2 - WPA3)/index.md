@@ -1,12 +1,15 @@
 ---
-publish: true
-title: WiFi - Secure Access (WEP - WPA - WPA2 - WPA3)
+title: "WiFi - Secure Access (WEP - WPA - WPA2 - WPA3)"
 created: 2019-03-16T19:40:19.360-05:00
 modified: 2023-04-13T23:09:17.940-05:00
+parent: "[[802.11 - WiFi／Wi-Fi]]"
+children:
+  - "[[Wi-Fi Protected Setup (WPS)]]"
+  - "[[WiFi Protected Access (WPA)]]"
+  - "[[WiFi Protected Access 2 (WPA2)]]"
+  - "[[Wired Equivalent Privacy (WEP)]]"
 ---
-
-<https://www.howtogeek.com/167783/htg-explains-the-difference-between-wep-wpa-and-wpa2-wireless-encryption-and-why-it-matters/>
-
+[https://www.howtogeek.com/167783/htg-explains-the-difference-between-wep-wpa-and-wpa2-wireless-encryption-and-why-it-matters/](https://www.howtogeek.com/167783/htg-explains-the-difference-between-wep-wpa-and-wpa2-wireless-encryption-and-why-it-matters/)
 # Secure Access Types
 
 ```merge-table
@@ -73,11 +76,9 @@ modified: 2023-04-13T23:09:17.940-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Secure Access Ranking
 
 list ranking the current Wi-Fi security methods available on any modern (post-2006) router, ordered from best to worst:
-
 - WPA3
 - WPA2 + [[Advanced Encryption Standard (AES)|AES]]
 - WPA + AES

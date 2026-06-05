@@ -1,17 +1,16 @@
 ---
-publish: true
-title: NTFS - Volume Boot Record (VBR) or Partition Boot Sector (PBS)
+title: "NTFS - Volume Boot Record (VBR) or Partition Boot Sector (PBS)"
 created: 2020-06-10T20:07:24.700-05:00
 modified: 2025-06-10T16:34:51.952-05:00
+parent: "[[New Technology File System (NTFS)]]"
+children:
+  - "[[NTFS - BIOS Parameter Block (BPB) & Extended BPB (EBPB)]]"
 ---
-
 ###### Volume Boot Record (VBR) or Partition Boot Sector (PBS)
-
-```excerpt
+````excerpt
 - is a type of [[Partition／Volume Boot Record／Sector (VBR)|Partition/Volume Boot Record/Sector (VBR)]] for [[New Technology File System (NTFS)|NTFS Volume]]
 - all values are stored in [[Big Endian - Little Endian|little endian]] order (except strings)
-```
-
+````
 ^excerpt
 
 # VBR/PBS - Simple
@@ -107,11 +106,9 @@ modified: 2025-06-10T16:34:51.952-05:00
   ]
 }
 ```
-
-```excerpt
+````excerpt
 ![[NTFS - Volume Boot Record (VBR) or Partition Boot Sector (PBS)/NTFS-Volume-Boot-Record.png|450]]
-```
-
+````
 ^excerpt
 
 # VBR/PBS - Detailed

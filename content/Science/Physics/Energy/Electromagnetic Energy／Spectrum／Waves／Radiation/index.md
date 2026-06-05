@@ -1,13 +1,15 @@
 ---
-publish: true
-title: Electromagnetic Energy／Spectrum／Waves／Radiation
+title: "Electromagnetic Energy／Spectrum／Waves／Radiation"
 created: 2021-09-13T04:45:48.560-05:00
 modified: 2023-04-15T13:22:37.725-05:00
+parent: "[[Energy]]"
+children:
+  - "[[Electromagnetic Waves - In Relation to E=mc²]]"
+  - "[[Radio Waves]]"
+  - "[[Visible Light]]"
 ---
-
 ###### Electromagnetic Energy/Spectrum/Waves/Radiation
-
-```excerpt
+````excerpt
 - the terms light, electromagnetic waves, and [[Electromagnetic Radiation (EMR)|electromagnetic radiation]] all refer to the same physical phenomenon: electromagnetic energy
 - this energy can be described by:
 	- frequency
@@ -18,13 +20,11 @@ modified: 2023-04-15T13:22:37.725-05:00
 	- radio and microwaves are usually described in terms of frequency (Hertz)
 	- infrared and visible light in terms of wavelength (meters)
 	- x-rays and gamma rays in terms of energy (electron volts)
-```
-
+````
 ^excerpt
 
 # Electromagnetic Spectrum
-
-![[Science/Physics/Energy/Electromagnetic Energy／Spectrum／Waves／Radiation/electromagnetic-spectrum.jpg|570x250]]
+![[Electromagnetic Energy／Spectrum／Waves／Radiation/electromagnetic-spectrum.jpg|570x250]]
 
 ```merge-table
 {
@@ -106,7 +106,5 @@ modified: 2023-04-15T13:22:37.725-05:00
   ]
 }
 ```
-
 # Subpages
-
 - [[Electromagnetic Waves - In Relation to E=mc²]]

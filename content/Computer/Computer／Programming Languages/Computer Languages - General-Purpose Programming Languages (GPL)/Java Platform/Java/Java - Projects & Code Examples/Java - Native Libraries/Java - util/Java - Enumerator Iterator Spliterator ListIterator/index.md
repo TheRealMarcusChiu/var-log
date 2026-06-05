@@ -1,11 +1,11 @@
 ---
-publish: true
-title: Java - Enumerator Iterator Spliterator ListIterator
+title: "Java - Enumerator Iterator Spliterator ListIterator"
 created: 2021-01-08T17:25:24.559-06:00
 modified: 2021-10-24T05:14:49.031-05:00
+parent: "[[Java - util]]"
+children: []
 ---
-
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -147,4 +147,4 @@ modified: 2021-10-24T05:14:49.031-05:00
   ],
   "tableStyle": "text-align: justify;"
 }
-````
+```

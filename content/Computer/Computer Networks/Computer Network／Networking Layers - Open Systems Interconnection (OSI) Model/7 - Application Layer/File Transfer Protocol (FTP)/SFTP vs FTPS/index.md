@@ -1,10 +1,10 @@
 ---
-publish: true
-title: SFTP vs FTPS
+title: "SFTP vs FTPS"
 created: 2019-08-23T22:15:23.980-05:00
 modified: 2019-08-23T22:16:02.070-05:00
+parent: "[[File Transfer Protocol (FTP)]]"
+children: []
 ---
-
 An increasing number of our customers are looking to move away from standard FTP for transferring data, so we are often asked which secure FTP protocol we recommend. In the next few paragraphs, we will explain what options are available and their main differences.
 
 The two mainstream protocols available for Secure FTP transfers are named SFTP (FTP over SSH) and FTPS (FTP over SSL). Both SFTP and FTPS offer a high level of protection since they implement strong algorithms such as AES and Triple DES to encrypt any data transferred. Both options also support a wide variety of functionality with a broad command set for transferring and working with files. So the most notable differences between SFTP and FTPS is how connections are authenticated and managed.

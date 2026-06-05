@@ -1,20 +1,19 @@
 ---
-publish: true
-title: Unicode's Private Use Area (PUA)
+title: "Unicode's Private Use Area (PUA)"
 created: 2023-04-29T17:08:02.201-05:00
 modified: 2023-04-29T17:16:09.505-05:00
+parent: "[[Unicode]]"
+children:
+  - "[[Nerd Fonts]]"
 ---
-
 ###### Private Use Area (PUA)
-
-```excerpt
+````excerpt
 - is a range of code points that, by definition, will not be assigned characters by the Unicode Consortium
 - Three private use areas are defined:
 	- one in the Basic Multilingual Plane (U+E000–U+F8FF)
 	- plane 15 (U+F0000–U+FFFFD)
 	- plane 16 (U+100000–U+10FFFD)
-```
-
+````
 ^excerpt
 
 # PUA - Overview
@@ -81,5 +80,9 @@ modified: 2023-04-29T17:16:09.505-05:00
   "tableStyle": "text-align: left;width: 100.0%;"
 }
 ```
-
 # PUA - Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

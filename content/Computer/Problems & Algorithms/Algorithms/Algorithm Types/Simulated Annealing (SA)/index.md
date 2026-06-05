@@ -1,21 +1,18 @@
 ---
-publish: true
-title: Simulated Annealing (SA)
+title: "Simulated Annealing (SA)"
 created: 2019-12-01T12:39:11.297-06:00
 modified: 2026-05-21T13:05:20.859-05:00
+parent: "[[Algorithm Types]]"
+children: []
 ---
-
 ###### Simulated Annealing (SA)
-
-```excerpt
+````excerpt
 - is a probabilistic technique for solving [[Decision Problems - Optimization Problems|optimization problems]]
 - improves the [[Greedy／Local-Search Algorithms|greedy local search]]
-```
-
+````
 ^excerpt
 
 # How Simulated Annealing Works
-
 Assume the task is to minimize a function f(x).
 
 ```merge-table

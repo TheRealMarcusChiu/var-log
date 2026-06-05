@@ -1,12 +1,11 @@
 ---
-publish: true
-title: JavaScript - ECMAScript Versions
+title: "JavaScript - ECMAScript Versions"
 created: 2019-12-18T18:35:41.139-06:00
 modified: 2020-05-29T23:03:52.372-05:00
+parent: "[[JavaScript]]"
+children: []
 ---
-
 ### State Of JavaScript
-
 - [2019.stateofjs.com](https://2019.stateofjs.com/)
 - [2018.stateofjs.com](https://2018.stateofjs.com/)
 - [2017.stateofjs.com](https://2017.stateofjs.com/)

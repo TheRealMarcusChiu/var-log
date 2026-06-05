@@ -1,20 +1,18 @@
 ---
-publish: true
-title: Java - Autoboxing & Unboxing
+title: "Java - Autoboxing & Unboxing"
 created: 2019-12-17T20:18:23.102-06:00
 modified: 2026-01-11T11:04:25.065-06:00
+parent: "[[Java - Underneath]]"
+children: []
 ---
-
 - <strong>autoboxing</strong> is used to convert primitive data types to their wrapper class objects
 - <strong>unboxing</strong> is used to convert wrapper class objects to their primitive data types
 
 # When Does Autoboxing and Unboxing Happen
-
 compile time
-
 # Example Autoboxing and Unboxing
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -36,8 +34,7 @@ compile time
   ],
   "tableStyle": "width: 99.9174%;"
 }
-````
-
+```
 # What Data Gets Autoboxed and Unboxed
 
 ```merge-table
@@ -91,11 +88,8 @@ compile time
   "tableStyle": "width: 314.545px;"
 }
 ```
-
 # Things to be Aware Of
-
 Do not mix primitives and objects while doing comparisons
-
 ```java
 public static void main(String []args){
 	System.out.println(

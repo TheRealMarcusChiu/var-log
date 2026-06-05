@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Latin Alphabet (Roman Alphabet)
+title: "Latin Alphabet (Roman Alphabet)"
 created: 2021-09-13T04:43:50.290-05:00
 modified: 2021-09-13T04:43:50.290-05:00
+parent: "[[Latin]]"
+children: []
 ---
-
 # Classical Latin 23 Characters
 
 ```merge-table

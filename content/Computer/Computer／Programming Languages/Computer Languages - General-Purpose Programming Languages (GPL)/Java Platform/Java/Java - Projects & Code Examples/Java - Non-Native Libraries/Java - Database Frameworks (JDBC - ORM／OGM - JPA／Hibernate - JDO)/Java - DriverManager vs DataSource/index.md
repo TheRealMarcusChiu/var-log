@@ -1,10 +1,12 @@
 ---
-publish: true
-title: Java - DriverManager vs DataSource
+title: "Java - DriverManager vs DataSource"
 created: 2021-04-11T21:29:20.442-05:00
 modified: 2021-04-11T21:31:28.391-05:00
+parent: "[[Java - Database Frameworks (JDBC - ORM／OGM - JPA／Hibernate - JDO)]]"
+children:
+  - "[[Java - DataSource]]"
+  - "[[Java - DriverManager]]"
 ---
-
 ```merge-table
 {
   "rows": [

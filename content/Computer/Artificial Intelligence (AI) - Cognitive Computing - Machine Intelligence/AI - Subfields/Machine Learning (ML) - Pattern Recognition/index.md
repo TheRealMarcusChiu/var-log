@@ -1,10 +1,22 @@
 ---
-publish: true
-title: Machine Learning (ML) - Pattern Recognition
+title: "Machine Learning (ML) - Pattern Recognition"
 created: 2019-08-21T23:33:17.202-05:00
 modified: 2026-02-10T15:46:12.149-06:00
+parent: "[[AI - Subfields]]"
+children:
+  - "[[ML - Diagnosing Model Bias／Underfit vs Variance／Overfit - Linear Regression]]"
+  - "[[ML - Model (Which to Choose)]]"
+  - "[[ML - Model Comparisons]]"
+  - "[[ML - Model Parameters & Hyperparameters]]"
+  - "[[ML - Model Types／Classifications／Categorizations]]"
+  - "[[ML - Model Variable Types]]"
+  - "[[ML - Models]]"
+  - "[[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques]]"
+  - "[[ML - Performance Measure]]"
+  - "[[ML - Tasks／Problems]]"
+  - "[[ML - Textbooks]]"
+  - "[[ML - Training／Validation／Test Data／Set - Training／Validation／Test Error]]"
 ---
-
 ```merge-table
 {
   "rows": [
@@ -26,12 +38,9 @@ modified: 2026-02-10T15:46:12.149-06:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # ML - 4 Components
-
 - a computer program is said to learn from experience 𝐸 with respect to some class of tasks 𝑇 and performance measure 𝑃, if its performance at tasks in 𝑇, as measured by 𝑃, improves with experience 𝐸
 - a computer program is said to learn if its performance 𝑃 in task 𝑇 increases with experience 𝐸
-
 ```merge-table
 {
   "rows": [
@@ -66,10 +75,9 @@ modified: 2026-02-10T15:46:12.149-06:00
   ]
 }
 ```
-
 # ML - 4 Components Example
 
-Let's decompose [[Ordinary Least Squares (OLS) Regression|Linear Regression]]\(i.e. linear regression is to find weights 𝜽 that reduce MSE over test-set when the algorithm experiences the training-set)
+Let's decompose [[Ordinary Least Squares (OLS) Regression|Linear Regression]](i.e. linear regression is to find weights 𝜽 that reduce MSE over test-set when the algorithm experiences the training-set)
 
 ```merge-table
 {
@@ -105,14 +113,12 @@ Let's decompose [[Ordinary Least Squares (OLS) Regression|Linear Regression]]\(i
   ]
 }
 ```
-
 # Resources
-
 - [[ML - Textbooks]]
 - [Andrew Ng's Course](https://www.coursera.org/learn/machine-learning/home/welcome)
 - [Neural Networks for Machine Learning — Geoffrey Hinton](https://www.youtube.com/playlist?list=PLLssT5z_DsK_gyrQ_biidwvPYCRNGI3iv)
-- [CalTech - Learning from Data](http://youtube.com/watch?v=VeKeFIepJBU\&list=PLCA2C1469EA777F9A\&index=1\&ab_channel=caltech)
+- [CalTech - Learning from Data](http://youtube.com/watch?v=VeKeFIepJBU&list=PLCA2C1469EA777F9A&index=1&ab_channel=caltech)
 - [Google's Crash Course](https://developers.google.com/machine-learning/crash-course/)
 - [ML Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/index.html)
-- <https://github.com/eriklindernoren/ML-From-Scratch>
-- <https://explained.ai/>
+- [https://github.com/eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch)
+- [https://explained.ai/](https://explained.ai/)

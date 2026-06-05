@@ -1,23 +1,22 @@
 ---
-publish: true
-title: Docker Compose
+title: "Docker Compose"
 created: 2019-10-15T22:54:55.294-05:00
 modified: 2026-04-07T03:31:08.042-05:00
+parent: "[[Docker - CLI Commands]]"
+children:
+  - "[[docker-compose stop VS docker-compose down]]"
 ---
-
 ###### Docker Compose
-
-```excerpt
+````excerpt
 - is a [[Container／Image - Container Runtimes - Container Engine - Container-Based Virtualization - Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)|container orchestration]] tool for defining and running multi-container [[Docker]] applications within a single server
 - with Compose, you use a YAML file (i.e. docker-compose.yml) to configure your application's services
 - is a declarative approach that replaces individual docker commands
-```
-
+````
 ^excerpt
 
 # Declarative Approach vs Imperative Approach
 
-````merge-table
+```merge-table
 {
   "rows": [
     [
@@ -38,8 +37,7 @@ modified: 2026-04-07T03:31:08.042-05:00
     ]
   ]
 }
-````
-
+```
 # Versions
 
 ```merge-table
@@ -81,9 +79,11 @@ modified: 2026-04-07T03:31:08.042-05:00
   ]
 }
 ```
-
 # Other
-
 - [[Docker Compose vs Docker Swarm]]
-
 > [!list-indent-undo]
+> ```dataview
+> LIST
+> FROM ""
+> WHERE file.folder = this.file.folder + "/" + this.file.name
+> ```

@@ -1,12 +1,11 @@
 ---
-publish: true
-title: gRPC - Spring Boot
+title: "gRPC - Spring Boot"
 created: 2020-05-16T01:11:02.313-05:00
 modified: 2020-05-16T12:20:36.429-05:00
+parent: "[[gRPC]]"
+children: []
 ---
-
 ## <strong>Maven Dependencies</strong>[grpc-netty](https://search.maven.org/classic/#search%7Cga%7C1%7Ca%3A%22grpc-netty%22), [grpc-protobuf](https://search.maven.org/classic/#search%7Cga%7C1%7Ca%3A%22grpc-protobuf%22) and [grpc-stub](https://search.maven.org/classic/#search%7Cga%7C1%7Ca%3A%22grpc-stub%22) dependencies
-
 ```
 <dependency>
     <groupId>io.grpc</groupId>
@@ -24,11 +23,9 @@ modified: 2020-05-16T12:20:36.429-05:00
     <version>1.16.1</version>
 </dependency>
 ```
-
 ## <strong>Defining Service</strong>
 
 create a HelloService.proto
-
 ```
 syntax = "proto3";
 option java_multiple_files = true;
@@ -38,9 +35,7 @@ package com.marcuschiu.grpc;
 The first line tells the compiler what syntax is used in this file. By default, the compiler generates all the Java code in a single Java file. The second line overrides this setting, and everything will be generated in individual files.
 
 Finally, we specify the package we want to use for our generated Java classes
-
 ###### Defining Message Structure
-
 ```
 message HelloRequest {
     string firstName = 1;
@@ -53,10 +48,8 @@ message HelloResponse {
 ```
 
 This defines the request payload. Here each attribute that goes into the message is defined along with its type
-
 ###### Defining the Service ContractFor our <em>HelloService</em> we define a <em>hello()</em> operation
-
-````
+```
 service HelloService {
     rpc hello(HelloRequest) returns (HelloResponse);
 }
@@ -67,15 +60,12 @@ service HelloService {
 [Download the compiler](https://developers.google.com/protocol-buffers/docs/downloads) and follow the instructions in the README file.
 
 You can use the following command to generate the code:
-````
-
-protoc -I=$SRC_DIR --java_out=$DST\_DIR \$SRC\_DIR/HelloService.proto
-
+```
+protoc -I=$SRC_DIR --java_out=$DST_DIR $SRC_DIR/HelloService.proto
 ```
 ###### Using Maven Plugin
 gRPC provides a [<em>protobuf-maven-plugin</em>](https://search.maven.org/classic/#search%7Cga%7C1%7Cg%3A%22org.xolstice.maven.plugins%22%20AND%20a%3A%22protobuf-maven-plugin%22) for the Maven build system
 ```
-
 <build>
   <extensions>
     <extension>
@@ -113,13 +103,11 @@ gRPC provides a [<em>protobuf-maven-plugin</em>](https://search.maven.org/class
 ## <strong>Creating the Server</strong>
 
 the following files will be generated
-
 - <em>HelloRequest.java – </em>contains the <em>HelloRequest</em> type definition
 - <em>HelloResponse.java – </em>this contains the <em>HelleResponse</em> type definition
 - <em>HelloServiceImplBase.java – </em>this contains the abstract class <em>HelloServiceImplBase</em> which provides an implementation of all the operations we defined in the service interface
 
 ###### Override Service Base Class
-
 ```java
 public class HelloServiceImpl extends HelloServiceImplBase {
  
@@ -143,9 +131,7 @@ public class HelloServiceImpl extends HelloServiceImplBase {
     }
 }
 ```
-
 ###### Running gRPC Server
-
 ```
 public class GrpcServer {
     public static void main(String[] args) {
@@ -158,9 +144,7 @@ public class GrpcServer {
     }
 }
 ```
-
 ## <strong>Creating Client</strong>
-
 ```
 public class GrpcClient {
     public static void main(String[] args) {
@@ -180,7 +164,6 @@ public class GrpcClient {
     }
 }
 ```
-
 ## <strong>Resources</strong>
 
-<https://www.baeldung.com/grpc-introduction>
+[https://www.baeldung.com/grpc-introduction](https://www.baeldung.com/grpc-introduction)

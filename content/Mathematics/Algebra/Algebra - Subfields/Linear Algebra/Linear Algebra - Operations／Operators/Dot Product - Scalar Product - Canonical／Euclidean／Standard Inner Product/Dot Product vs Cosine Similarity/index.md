@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Dot Product vs Cosine Similarity
+title: "Dot Product vs Cosine Similarity"
 created: 2022-12-05T23:25:09.287-06:00
 modified: 2022-12-05T23:26:42.825-06:00
+parent: "[[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product]]"
+children: []
 ---
-
 - <strong>[[Cosine Similarity|cosine similarity]]</strong> only cares about angle difference
 - <strong>[[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product|dot product]]</strong> cares about angle and magnitude
 

@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Deep Belief Networks (DBN) vs Deep Boltzmann Machine (DBM)
+title: "Deep Belief Networks (DBN) vs Deep Boltzmann Machine (DBM)"
 created: 2022-12-03T14:08:19.291-06:00
 modified: 2022-12-03T14:13:18.839-06:00
+parent: "[[PGM - Model Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

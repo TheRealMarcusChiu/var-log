@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Least Squares Estimate vs Instrumental Variables Estimate
+title: "Least Squares Estimate vs Instrumental Variables Estimate"
 created: 2021-09-13T05:28:09.302-05:00
 modified: 2021-09-13T05:28:09.302-05:00
+parent: "[[Point／Parameter Estimation／Estimator／Estimate／Approximation - Comparisons]]"
+children: []
 ---
-
 in the case of<strong> [[Endogenous／Endogenic Variable - Exogenous／Exogenic Variable - Endogenous vs Exogeneity|ENDOgeneity]]</strong> (<font style="color: rgb(128,128,128);">which BREAKS one of the</font> [[Gauss-Markov Assumptions - OLS Assumptions]]) and <font style="color: rgb(0,128,0);"><strong>GOOD</strong></font> instrument variables we have the following
 
 ```merge-table

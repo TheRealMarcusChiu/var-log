@@ -1,18 +1,18 @@
 ---
-publish: true
-title: Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface
+title: "Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface"
 created: 2019-09-03T23:44:50.793-05:00
 modified: 2025-10-21T13:05:08.053-05:00
+parent: "[[Peripheral Component Interconnect Express (PCIe - PCI-e)]]"
+children:
+  - "[[Active-State Power Management (ASPM)]]"
+  - "[[PLX Technology／Chips]]"
 ---
-
 ###### Peripheral Component Interconnect Express (PCIe - PCI-e)
-
-```excerpt
+````excerpt
 - is a high-speed serialcomputerexpansion bus standard
 - designed to replace the older PCI, PCI-X, and [[Accelerated Graphics Port (AGP)|AGP]] bus standards
 - see physical [[Peripheral Component Interconnect Express (PCIe - PCI-e) Physical Slots ／ Lanes|PCIe slots]]
-```
-
+````
 ^excerpt
 
 # PCIe - Performance
@@ -232,5 +232,9 @@ modified: 2025-10-21T13:05:08.053-05:00
   "tableStyle": "text-align: right;"
 }
 ```
-
 # Subpages
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```

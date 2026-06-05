@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Disk Performance - Terminal Commands
+title: "Disk Performance - Terminal Commands"
 created: 2020-06-10T15:55:09.330-05:00
 modified: 2022-09-24T01:03:11.463-05:00
+parent: "[[Disk Performance]]"
+children: []
 ---
-
 # hdparm
-
 ```
 sudo hdparm -Tt /dev/sda
 
@@ -16,7 +15,6 @@ sudo hdparm -Tt /dev/sda
 ```
 
 <code></code>
-
 ```
 sudo hdparm -v /dev/sda
 
@@ -27,7 +25,6 @@ sudo hdparm -v /dev/sda
  readahead     = 256 (on)
  geometry      = 121601/255/63, sectors = 1953525168, start = 0
 ```
-
 # dd
 
 dd will give you information on write speed.
@@ -35,7 +32,6 @@ dd will give you information on write speed.
 If the drive doesn't have a file system (and <strong>only then</strong>), use <code>of=/dev/sda</code>.
 
 Otherwise, mount it on /tmp and write then delete the test output file.
-
 ```
 dd if=/dev/zero of=/tmp/output bs=8k count=10k; rm -f /tmp/output
 

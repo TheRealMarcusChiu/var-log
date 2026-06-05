@@ -1,12 +1,18 @@
 ---
-publish: true
-title: UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)
+title: "UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)"
 created: 2019-12-30T15:22:23.363-06:00
 modified: 2020-06-25T22:15:06.967-05:00
+parent: "[[UNIX - File Stuff]]"
+children:
+  - "[[sbin v bin]]"
+  - "[[／dev directory]]"
+  - "[[／etc directory]]"
+  - "[[／lib directory]]"
+  - "[[／proc directory]]"
+  - "[[／usr directory]]"
+  - "[[／var directory]]"
 ---
-
 <strong>Filesystem Standard (FSSTND),</strong> now<strong> Filesystem Hierarchy Standard</strong> (<strong>FHS</strong>) defines the directory-structure & directory-contents in [[UNIX]]-like/[[Linux]] distributions
-
 ## Directory Structure
 
 ```merge-table
@@ -108,7 +114,6 @@ modified: 2020-06-25T22:15:06.967-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 ## Versions
 
 ```merge-table

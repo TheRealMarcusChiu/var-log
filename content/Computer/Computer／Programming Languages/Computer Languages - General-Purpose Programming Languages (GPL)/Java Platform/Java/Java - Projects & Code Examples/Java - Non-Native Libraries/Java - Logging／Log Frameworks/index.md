@@ -1,10 +1,16 @@
 ---
-publish: true
-title: Java - Logging／Log Frameworks
+title: "Java - Logging／Log Frameworks"
 created: 2021-03-05T09:49:50.321-06:00
 modified: 2026-04-09T11:28:25.074-05:00
+parent: "[[Java - Non-Native Libraries]]"
+children:
+  - "[[Jakarta Commons Logging (JCL) - Apache Commons Logging]]"
+  - "[[Java - Java Util Logging (JUL／J.U.L.)]]"
+  - "[[Java - Log4j]]"
+  - "[[Java - Log4j2]]"
+  - "[[Java - Logback]]"
+  - "[[Java - Simple Logging Facade for Java (SLF4j)]]"
 ---
-
 [[Java - Simple Logging Facade for Java (SLF4j)|SLF4j]] and [[Jakarta Commons Logging (JCL) - Apache Commons Logging|JCL]] is a logging [[Facade Pattern|facade]], it doesn’t do logging by themselves instead depends on the logging component like
 
 ```merge-table
@@ -41,11 +47,8 @@ modified: 2026-04-09T11:28:25.074-05:00
   ]
 }
 ```
-
 # Resources
-
-- <https://stackify.com/compare-java-logging-frameworks/>
+- [https://stackify.com/compare-java-logging-frameworks/](https://stackify.com/compare-java-logging-frameworks/)
 
 # Other
-
 - [[6 - Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics|6 - Logging & Monitoring & Metrics]]

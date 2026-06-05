@@ -1,10 +1,10 @@
 ---
-publish: true
-title: R-Squared vs Standard Error of the Regression
+title: "R-Squared vs Standard Error of the Regression"
 created: 2021-09-13T05:27:42.604-05:00
 modified: 2024-09-23T10:13:09.325-05:00
+parent: "[[Estimator／Model - Accuracy／Goodness-of-Fit Analysis - Comparisons]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [
@@ -50,7 +50,5 @@ modified: 2024-09-23T10:13:09.325-05:00
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Resources
-
-- <https://statisticsbyjim.com/regression/standard-error-regression-vs-r-squared/>
+- [https://statisticsbyjim.com/regression/standard-error-regression-vs-r-squared/](https://statisticsbyjim.com/regression/standard-error-regression-vs-r-squared/)

@@ -1,17 +1,15 @@
 ---
-publish: true
-title: Hyperbolic Functions (hyperbolic sine／cosine／tangent／cosecant／secant／cotangent)
+title: "Hyperbolic Functions (hyperbolic sine／cosine／tangent／cosecant／secant／cotangent)"
 created: 2023-07-08T14:57:42.551-05:00
 modified: 2023-07-14T15:27:53.349-05:00
+parent: "[[Trigonometry]]"
+children: []
 ---
-
 ###### Hyperbolic Functions (hyperbolic sine/cosine/tangent/cosecant/secant/cotangent)
-
-```excerpt
+````excerpt
 - are analogs of the ordinary [[Trigonometric／Circular／Angle／Goniometric Functions (sine - cosine - tangent - cosecant - secant - cotangent)|trigonometric functions]], but defined using the hyperbola rather than the circle
 - just as the points (𝑐𝑜𝑠 𝑥, 𝑠𝑖𝑛 𝑥) form a circle with a unit radius, the points (𝑐𝑜𝑠ℎ 𝑥, 𝑠𝑖𝑛ℎ 𝑥) form the right half of the unit hyperbola
-```
-
+````
 ^excerpt
 
 # Hyperbolic Functions - Definitions in Exponentials

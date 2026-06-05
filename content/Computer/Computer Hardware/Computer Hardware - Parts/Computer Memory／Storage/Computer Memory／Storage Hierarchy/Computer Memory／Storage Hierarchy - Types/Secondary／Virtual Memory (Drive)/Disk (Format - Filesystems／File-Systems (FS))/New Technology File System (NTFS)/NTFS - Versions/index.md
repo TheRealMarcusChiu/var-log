@@ -1,10 +1,10 @@
 ---
-publish: true
-title: NTFS - Versions
+title: "NTFS - Versions"
 created: 2020-06-14T12:50:08.905-05:00
 modified: 2020-06-14T12:54:43.148-05:00
+parent: "[[New Technology File System (NTFS)]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

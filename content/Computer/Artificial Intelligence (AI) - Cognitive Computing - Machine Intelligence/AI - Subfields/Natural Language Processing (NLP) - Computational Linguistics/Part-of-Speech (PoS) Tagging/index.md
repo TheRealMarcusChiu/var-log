@@ -1,12 +1,14 @@
 ---
-publish: true
-title: Part-of-Speech (PoS) Tagging
+title: "Part-of-Speech (PoS) Tagging"
 created: 2020-10-01T21:44:38.517-05:00
 modified: 2020-10-31T19:45:25.182-05:00
+parent: "[[Natural Language Processing (NLP) - Computational Linguistics]]"
+children:
+  - "[[Rule-Based PoS Tagging]]"
+  - "[[Statistical-Based PoS Tagging]]"
+  - "[[Transformation-Based PoS Tagging]]"
 ---
-
 ###### <strong>Part-of-Speech (PoS) Tagging</strong>
-
 - task of reading a body text and assigning [[Part of Speech (PoS)|parts of speech]] to each word
 
 ### PoS Tagging - Methods

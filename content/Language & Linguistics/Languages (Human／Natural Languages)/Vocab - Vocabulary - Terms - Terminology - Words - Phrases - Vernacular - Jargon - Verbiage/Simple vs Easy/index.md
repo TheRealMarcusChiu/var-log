@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Simple vs Easy
+title: "Simple vs Easy"
 created: 2023-04-08T13:44:59.001-05:00
 modified: 2023-04-08T13:46:51.337-05:00
+parent: "[[Vocab - Vocabulary - Terms - Terminology - Words - Phrases - Vernacular - Jargon - Verbiage]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

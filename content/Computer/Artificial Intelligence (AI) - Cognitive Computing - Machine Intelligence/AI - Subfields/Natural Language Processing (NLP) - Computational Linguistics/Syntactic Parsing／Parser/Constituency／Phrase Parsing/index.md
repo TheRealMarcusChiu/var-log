@@ -1,21 +1,23 @@
 ---
-publish: true
-title: Constituency／Phrase Parsing
+title: "Constituency／Phrase Parsing"
 created: 2020-10-10T23:45:51.811-05:00
 modified: 2020-11-07T19:28:00.928-06:00
+parent: "[[Syntactic Parsing／Parser]]"
+children:
+  - "[[Bottom-Up Chart Parsing]]"
+  - "[[CYK Algorithm]]"
+  - "[[Top-Down Search／Parsing - Bottom-Up Search／Parsing - Control & Backtracking]]"
 ---
-
 ###### Constituency/Phrase Parsing
-
 - is the task of breaking text/sentences into constituents (sub-phrases and words)
-  - non-terminals in the parse tree are types of phrases
-  - terminals are the words in the sentence
+	- non-terminals in the parse tree are types of phrases
+	- terminals are the words in the sentence
 - builds on top of [[Part-of-Speech (PoS) Tagging|PoS tagging]] by combining the tags into larger constituents/phrases
 - constituency parsing with [[Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)|Context-Free Grammar (CFG) or Phrase Structure Grammar (PSG)]] refers to the task of assigning proper trees to input strings/sentences
-  - proper here means a tree:
-    - that covers all and only elements of the input
-    - has an <code><font style="color: rgb(128,128,128);">S</font></code> at the top
-  - proper doesn't actually mean that the tree is correct
+	- proper here means a tree:
+		- that covers all and only elements of the input
+		- has an <code><font style="color: rgb(128,128,128);">S</font></code> at the top
+	- proper doesn't actually mean that the tree is correct
 - involves search which involves the making of choices
 
 ### Constituency Parsing - Methods
@@ -62,7 +64,5 @@ modified: 2020-11-07T19:28:00.928-06:00
   ]
 }
 ```
-
 ### Constituency Parsing - Other
-
 - [[Translating From Constituency to Dependency Structures]]

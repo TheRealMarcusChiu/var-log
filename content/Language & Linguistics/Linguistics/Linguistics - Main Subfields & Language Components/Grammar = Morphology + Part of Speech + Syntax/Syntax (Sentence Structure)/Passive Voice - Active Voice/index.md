@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Passive Voice - Active Voice
+title: "Passive Voice - Active Voice"
 created: 2021-09-13T04:44:06.951-05:00
 modified: 2021-09-13T04:44:06.951-05:00
+parent: "[[Syntax (Sentence Structure)]]"
+children: []
 ---
-
 <strong>Voice</strong> indicates whether the subject of sentence is acting or is receiving the action expressed by the [[Verbs|verb]]
 
 ```merge-table

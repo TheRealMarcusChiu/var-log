@@ -1,10 +1,10 @@
 ---
-publish: true
-title: htop
+title: "htop"
 created: 2019-04-17T23:10:38.837-05:00
 modified: 2026-03-19T19:46:36.511-05:00
+parent: "[[top like commands]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

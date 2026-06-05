@@ -1,10 +1,10 @@
 ---
-publish: true
-title: NTFS - Files With Zeros
+title: "NTFS - Files With Zeros"
 created: 2020-06-16T00:07:14.518-05:00
 modified: 2020-06-16T00:09:10.540-05:00
+parent: "[[NTFS - Other]]"
+children: []
 ---
-
 - when NTFS encounters files with long runs of zeros, the system counts how many zeros are present in the MFT header attribute
 - the counter is stored instead of the actual data
 - long runs of zeros are common on disks, so counting them is an easy way to compress a file

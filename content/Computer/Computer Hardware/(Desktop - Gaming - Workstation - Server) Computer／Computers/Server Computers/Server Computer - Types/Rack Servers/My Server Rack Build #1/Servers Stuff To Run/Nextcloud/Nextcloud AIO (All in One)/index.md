@@ -1,21 +1,18 @@
 ---
-publish: true
-title: Nextcloud AIO (All in One)
+title: "Nextcloud AIO (All in One)"
 created: 2025-02-21T17:59:24.056-06:00
 modified: 2025-02-21T18:03:48.015-06:00
+parent: "[[Nextcloud]]"
+children: []
 ---
-
 ###### Nextcloud AIO (All in One)
-
-```excerpt
+````excerpt
 - the official [[Nextcloud]] installation method
 - provides easy deployment and maintenance with most features included in this one Nextcloud instance
-```
-
+````
 ^excerpt
 
 # Quickstart
-
 ```
 # For Linux and without a web server or reverse proxy (like Apache, Nginx, Caddy, Cloudflare Tunnel and else) already in place:
 sudo docker run \
@@ -30,11 +27,8 @@ sudo docker run \
 --volume /var/run/docker.sock:/var/run/docker.sock:ro \
 nextcloud/all-in-one:latest
 ```
-
 # Other
-
-- running Nextcloud AIO locally - <https://github.com/nextcloud/all-in-one/blob/main/local-instance.md>
+- running Nextcloud AIO locally - [https://github.com/nextcloud/all-in-one/blob/main/local-instance.md](https://github.com/nextcloud/all-in-one/blob/main/local-instance.md)
 
 # Resources
-
-- <https://github.com/nextcloud/all-in-one#how-to-use-this>
+- [https://github.com/nextcloud/all-in-one#how-to-use-this](https://github.com/nextcloud/all-in-one#how-to-use-this)

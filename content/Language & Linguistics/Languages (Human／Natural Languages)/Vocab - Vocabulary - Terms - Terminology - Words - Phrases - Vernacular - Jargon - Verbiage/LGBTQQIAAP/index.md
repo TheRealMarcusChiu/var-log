@@ -1,10 +1,10 @@
 ---
-publish: true
-title: LGBTQQIAAP
+title: "LGBTQQIAAP"
 created: 2021-09-13T04:43:57.125-05:00
 modified: 2021-09-13T04:43:57.125-05:00
+parent: "[[Vocab - Vocabulary - Terms - Terminology - Words - Phrases - Vernacular - Jargon - Verbiage]]"
+children: []
 ---
-
 LGBT+ is an "inclusive" way to represent all the different identities in the longer acronym but here's a breakdown of what each of the letters in LGBTQQIAAP mean.
 
 ```merge-table

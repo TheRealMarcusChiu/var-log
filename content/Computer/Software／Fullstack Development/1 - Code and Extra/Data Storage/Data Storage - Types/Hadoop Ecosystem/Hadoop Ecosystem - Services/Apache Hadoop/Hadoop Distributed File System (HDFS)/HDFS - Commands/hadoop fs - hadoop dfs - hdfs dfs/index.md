@@ -1,10 +1,10 @@
 ---
-publish: true
-title: hadoop fs - hadoop dfs - hdfs dfs
+title: "hadoop fs - hadoop dfs - hdfs dfs"
 created: 2020-05-19T19:38:42.631-05:00
 modified: 2020-05-19T19:42:12.218-05:00
+parent: "[[HDFS - Commands]]"
+children: []
 ---
-
 Following are the three commands which appears same but have minute differences
 
 ```merge-table

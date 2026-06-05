@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Randomized Rounding
+title: "Randomized Rounding"
 created: 2021-09-13T05:26:14.488-05:00
 modified: 2021-09-13T05:26:14.488-05:00
+parent: "[[ILP - Algorithms Solving Problem]]"
+children: []
 ---
-
 the <strong>randomized rounding</strong> technique works the best when the [[Integer／Discrete Linear Programming／Optimization (ILP)|ILP]] is of [[0-1／Combinatorial Programming／Optimization|combinatorial]] nature, that is, a [[0-1／Combinatorial Programming／Optimization|0-1 programming]] [[Problems & Algorithms|problem]]
 
 consider the 0-1 problem:

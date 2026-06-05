@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Sentential Semantic Relations (Thematic Roles)
+title: "Sentential Semantic Relations (Thematic Roles)"
 created: 2021-09-13T04:44:10.905-05:00
 modified: 2021-09-13T04:44:10.905-05:00
+parent: "[[Sentence／Sentential／Phrasal Semantics]]"
+children: []
 ---
-
 ```merge-table
 {
   "rows": [

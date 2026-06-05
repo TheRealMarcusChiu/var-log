@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Binary Floating-Point Numbers
+title: "Binary Floating-Point Numbers"
 created: 2020-10-06T15:17:58.303-05:00
 modified: 2025-01-28T14:40:38.169-06:00
+parent: "[[Floating-Point Numbers]]"
+children: []
 ---
-
 ###### Binary Floating-Point Numbers
-
-```excerpt
+````excerpt
 - is a way of representing [[Floating-Point Numbers]] in binary
-```
-
+````
 ^excerpt
 
 # Binary FP - Standards
@@ -149,7 +147,6 @@ Binary floating-point numbers can be represented with different numbers of bits.
   "tableStyle": "width: 100.0%;"
 }
 ```
-
 # Binary FP - Internal Layout
 
 ```merge-table
@@ -206,7 +203,5 @@ Binary floating-point numbers can be represented with different numbers of bits.
   ]
 }
 ```
-
 # Resources
-
-- <https://steve.hollasch.net/cgindex/coding/ieeefloat.html>
+- [https://steve.hollasch.net/cgindex/coding/ieeefloat.html](https://steve.hollasch.net/cgindex/coding/ieeefloat.html)

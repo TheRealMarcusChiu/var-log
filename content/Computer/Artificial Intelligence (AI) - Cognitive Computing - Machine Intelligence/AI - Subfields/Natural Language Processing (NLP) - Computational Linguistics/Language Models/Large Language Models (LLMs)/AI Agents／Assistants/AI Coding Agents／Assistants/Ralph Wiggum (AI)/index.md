@@ -1,26 +1,22 @@
 ---
-publish: true
-title: Ralph Wiggum (AI)
+title: "Ralph Wiggum (AI)"
 created: 2026-01-25T15:23:32.282-06:00
 modified: 2026-01-25T15:59:15.475-06:00
+parent: "[[AI Coding Agents／Assistants]]"
+children: []
 ---
-
 ###### Ralph Wiggum (AI)
-
-```excerpt
+````excerpt
 - is an autonomous AI coding loop technique that enables AI agents to iteratively work on code tasks until a defined completion condition is met
 - inspired by the persistent character from The Simpsons
 - instead of a single prompt-and-review cycle, Ralph runs the same task repeatedly, allowing the AI to learn from its prior work via updated files and git history
-```
-
+````
 ^excerpt
 
 # Ralph Script
-
 - [How Ralph Works - Workflow](https://snarktank.github.io/ralph/)
 
 > [!expand-ui]- Bash (original)
->
 > ```bash
 > #!/bin/bash
 > # Ralph Wiggum - Long-running AI agent loop
@@ -138,7 +134,6 @@ modified: 2026-01-25T15:59:15.475-06:00
 > ```
 
 > [!expand-ui]- Python (Claude Generated)
->
 > ```py
 > #!/usr/bin/env python3
 > """
@@ -339,7 +334,5 @@ modified: 2026-01-25T15:59:15.475-06:00
 > if __name__ == '__main__':
 >     main()
 > ```
-
 # Resources
-
-- <https://github.com/snarktank/ralph/tree/main>
+- [https://github.com/snarktank/ralph/tree/main](https://github.com/snarktank/ralph/tree/main)

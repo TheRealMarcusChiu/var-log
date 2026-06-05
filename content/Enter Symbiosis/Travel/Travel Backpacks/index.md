@@ -1,12 +1,11 @@
 ---
-publish: true
-title: Travel Backpacks
+title: "Travel Backpacks"
 created: 2022-12-25T23:12:39.729-06:00
 modified: 2022-12-25T23:13:41.919-06:00
+parent: "[[Travel]]"
+children: []
 ---
-
 # No Particular Order
-
 1. [Tortuga Setout](https://www.tortugabackpacks.com/products/setout-travel-backpack)
 2. [Tortuga Outbreaker](https://www.tortugabackpacks.com/products/outbreaker-travel-backpack)
 3. [Patagonia Blackhole MLC](http://www.patagonia.ca/product/black-hole-mlc-convertible-briefcase-45-liters/49305.html)

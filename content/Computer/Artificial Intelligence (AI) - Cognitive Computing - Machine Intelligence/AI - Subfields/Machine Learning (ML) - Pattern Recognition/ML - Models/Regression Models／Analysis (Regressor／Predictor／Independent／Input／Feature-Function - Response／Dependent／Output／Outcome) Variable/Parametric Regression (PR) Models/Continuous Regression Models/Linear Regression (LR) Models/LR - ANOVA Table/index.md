@@ -1,10 +1,10 @@
 ---
-publish: true
-title: LR - ANOVA Table
+title: "LR - ANOVA Table"
 created: 2020-04-23T16:19:26.271-05:00
 modified: 2026-05-20T00:32:12.217-05:00
+parent: "[[Linear Regression (LR) Models]]"
+children: []
 ---
-
 ````excerpt
 This table is a modification of [[One-Way ANOVA]] and can be used for both [[Univariate／Single-Variable／Simple Linear Regression Models|univariate linear regression]] and [[Multivariate／Multiple Linear Regression Models|multivariate linear regression]]
 
@@ -134,5 +134,4 @@ This table is a modification of [[One-Way ANOVA]] and can be used for both [[Uni
 }
 ```
 ````
-
 ^excerpt

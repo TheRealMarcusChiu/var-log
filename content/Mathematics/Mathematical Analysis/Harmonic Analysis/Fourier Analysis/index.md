@@ -1,12 +1,13 @@
 ---
-publish: true
-title: Fourier Analysis
+title: "Fourier Analysis"
 created: 2021-09-13T05:25:10.184-05:00
 modified: 2025-08-18T15:39:00.675-05:00
+parent: "[[Harmonic Analysis]]"
+children:
+  - "[[(Signal-to-Frequency ／ Fourier-Transform) Algorithms]]"
+  - "[[Spectrogram Producing Algorithms]]"
 ---
-
 # Introduction Videos
-
 - [3B3B's Differential Equations](https://www.youtube.com/watch?v=p_di4Zn4wz4)
 - [3B3B's Partial Differential Equation](https://www.youtube.com/watch?v=ly4S0oi3Yz8)
 - [3B3B's Heat Equation](https://www.youtube.com/watch?v=ToIXSwZ1pJU)
@@ -49,11 +50,9 @@ modified: 2025-08-18T15:39:00.675-05:00
   ]
 }
 ```
-
 # [[(Signal-to-Frequency ／ Fourier-Transform) Algorithms|(Signal-to-Frequency / Fourier-Transform) Algorithms]]
 
 ![[(Signal-to-Frequency ／ Fourier-Transform) Algorithms#^excerpt]]
-
 # [[Spectrogram Producing Algorithms]]
 
 ![[Spectrogram Producing Algorithms#^excerpt]]

@@ -1,16 +1,14 @@
 ---
-publish: true
-title: Limits - Limit of a Function
+title: "Limits - Limit of a Function"
 created: 2023-08-08T15:43:20.535-05:00
 modified: 2023-08-08T16:11:23.387-05:00
+parent: "[[Calculus Foundational Knowledge]]"
+children: []
 ---
-
 ###### Limits - Limit of a Function
-
-```excerpt
+````excerpt
 - limits describe how a [[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms|function]] behaves near a point, instead of at that point
-```
-
+````
 ^excerpt
 
 # Limits - Examples
@@ -48,9 +46,7 @@ modified: 2023-08-08T16:11:23.387-05:00
   ]
 }
 ```
-
 # Limits - Properties
-
 - $\lim_{x \to c}(f(x) + g(x)) = \lim_{x \to c}f(x) + \lim_{x \to c}g(x)$
 - $\lim_{x \to c}(f(x) - g(x)) = \lim_{x \to c}f(x) - \lim_{x \to c}g(x)$
 - $\lim_{x \to c}(f(x)·g(x)) = \lim_{x \to c}f(x) · \lim_{x \to c}g(x)$

@@ -1,12 +1,12 @@
 ---
-publish: true
-title: Fallacious Reasoning
+title: "Fallacious Reasoning"
 created: 2021-09-13T04:44:33.237-05:00
 modified: 2021-09-13T04:44:33.237-05:00
+parent: "[[Reasoning (Argument)]]"
+children:
+  - "[[Masked-Man／Intensional／Epistemic fallacy]]"
 ---
-
 [Fallacious Reasoning](https://en.wikipedia.org/wiki/Reason#Fallacious_reasoning) is flawed [[Reasoning (Argument)|reasoning]] in arguments is known as fallacious reasoning. Bad reasoning within arguments can be because it commits either a [formal fallacy](https://en.wikipedia.org/wiki/Formal_fallacy) or an [informal fallacy](https://en.wikipedia.org/wiki/Informal_fallacy).
-
 - <strong>formal fallacy</strong> occur when there is a problem with the form, or structure, of the argument. The word "formal" refers to this link to the <em>form</em> of the argument. An argument that contains a formal fallacy will always be invalid
 - <strong>informal fallacy</strong> is an error in reasoning that occurs due to a problem with the <em>content</em>, rather than mere <em>structure</em>, of the argument
 

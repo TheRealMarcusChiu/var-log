@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Kore／Sore／Are／Dore Kono／Sono／Ano／Dono
+title: "Kore／Sore／Are／Dore Kono／Sono／Ano／Dono"
 created: 2021-09-13T04:43:49.015-05:00
 modified: 2021-09-13T04:43:49.015-05:00
+parent: "[[Japanese - Vocabulary and Phrases]]"
+children: []
 ---
-
 <strong>Here's an explanation of <em>Kore/Sore/Are/Dore</em></strong>
 
 Japanese has a number of pronouns - these are words that stand in for nouns, such as 'book'.
@@ -23,10 +23,10 @@ The <em>Kore/Sore/Are/Dore</em> words are stand-alone pronouns, that is, they 
 
 The <em>Kono/Sono/Ano/Dono</em> cannot be used on its own, this group can only occur together with a noun.
 
-So, here are the meanings: <em>KONO</em> - <em>"this ~; these ~"</em> (i.e. <strong>Kono ie</strong> wa chiisai desu - <strong>\_This house</strong> is small.\_)
+So, here are the meanings: <em>KONO</em> - <em>"this \~; these \~"</em> (i.e. <strong>Kono ie</strong> wa chiisai desu - <strong>\_This house</strong> is small.\_)
 
-<em>SONO</em> - <em>"that ~; those ~"</em> (i.e. <strong>Sono hana</strong> wa kirei desu - <strong>\_That flower</strong> is beautiful.\_)
+<em>SONO</em> - <em>"that \~; those \~"</em> (i.e. <strong>Sono hana</strong> wa kirei desu - <strong>\_That flower</strong> is beautiful.\_)
 
-<em>ANO</em> - <em>"that ~ over there; those ~ over there"</em> (i.e. <strong>Ano inu</strong> wa kawaii desu - <strong>\_That dog over there</strong> is cute.\_)
+<em>ANO</em> - <em>"that \~ over there; those \~ over there"</em> (i.e. <strong>Ano inu</strong> wa kawaii desu - <strong>\_That dog over there</strong> is cute.\_)
 
-<em>DONO</em> - <em>"which ~"</em> (i.e. <strong>Dono hito</strong> ga suki desu ka? - <strong>\_Which person</strong> do you like?\_)
+<em>DONO</em> - <em>"which \~"</em> (i.e. <strong>Dono hito</strong> ga suki desu ka? - <strong>\_Which person</strong> do you like?\_)

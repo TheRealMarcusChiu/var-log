@@ -1,22 +1,19 @@
 ---
-publish: true
-title: Builder Pattern
+title: "Builder Pattern"
 created: 2019-12-11T16:05:31.183-06:00
 modified: 2023-06-02T19:21:50.252-05:00
+parent: "[[Creational Design Patterns]]"
+children: []
 ---
-
 ###### Builder Pattern
-
-```excerpt
+````excerpt
 - is a type of [[Creational Design Patterns|creational design pattern]] that utilizes <em>cascade method pattern</em> and/or <em>method chaining</em>
-```
-
+````
 ^excerpt
 
 # Example Code
 
 <strong>Problem:</strong> designing a class with multiple fields that are required and/or optional, without several constructors nor allowing invalid object states, and maintaining readability
-
 ```java
 public static void main(String args[]) {
     Employee e1 = Employee.builder(1234, "Marcus Chiu")
@@ -28,7 +25,6 @@ public static void main(String args[]) {
                               .build();
 }
 ```
-
 ```java
 public class Employee {
  

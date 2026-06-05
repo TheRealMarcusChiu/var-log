@@ -1,24 +1,24 @@
 ---
-publish: true
-title: Java - Spring Framework - Web - Streaming Data／JSON／File-Downloads／Zipped-Files／Audio／Video with RESTful Web Service
+title: "Java - Spring Framework - Web - Streaming Data／JSON／File-Downloads／Zipped-Files／Audio／Video with RESTful Web Service"
 created: 2022-12-08T20:25:13.508-06:00
 modified: 2022-12-22T10:01:58.602-06:00
+parent: "[[Java - Spring Framework - Web／Network／API Libraries]]"
+children: []
 ---
-
 ### Streaming - Options
 
-> [!expand-ui]- HttpServletResponse’s OutputStream – old approach <code><font style="color: rgb(122,134,154);">OutputStream</font></code> is obtained from <code><font style="color: rgb(122,134,154);">HttpServletResponse</font></code> and then the content is written to the <code><font style="color: rgb(122,134,154);">OutputStream</font></code> object
+> [!expand-ui]- HttpServletResponse’s OutputStream – old approach
+> <code><font style="color: rgb(122,134,154);">OutputStream</font></code> is obtained from <code><font style="color: rgb(122,134,154);">HttpServletResponse</font></code> and then the content is written to the <code><font style="color: rgb(122,134,154);">OutputStream</font></code> object
 
-> [!expand-ui]- StreamingResponseBody as Return Type <code><font style="color: rgb(122,134,154);">StreamingResponseBody</font></code> type is used for async request processing and content can be written directly to the response <code><font style="color: rgb(122,134,154);">OutputStream</font></code> without holding up the threads in the servlet container
+> [!expand-ui]- StreamingResponseBody as Return Type
+> <code><font style="color: rgb(122,134,154);">StreamingResponseBody</font></code> type is used for async request processing and content can be written directly to the response <code><font style="color: rgb(122,134,154);">OutputStream</font></code> without holding up the threads in the servlet container
 >
 > <code><font style="color: rgb(122,134,154);">StreamingResponseBody</font></code> timeout should be increased if you are returning a huge stream and your application throws a timeout exception. The following property can be set in <code><font style="color: rgb(122,134,154);">application.properties</font></code> file or <code><font style="color: rgb(122,134,154);">application.yml</font></code> file to increase the timeout
->
 > ```
 > spring.mvc.async.request-timeout = 3600000
 > ```
 >
 > Its highly recommended to configure the TaskExecutor for executing asynchronous requests in Spring MVC
->
 > ```
 > @Configuration
 > @EnableAsync
@@ -71,11 +71,9 @@ modified: 2022-12-22T10:01:58.602-06:00
 
 > [!expand-ui]- Spring WebFlux publishers
 > [[Java - Spring - Webflux|Spring WebFlux]] is introduced in the Spring 5 version and works similarly to Spring MVC. Spring WebFlux supports fully non-blocking reactive streams and provides awesome features. Flux publisher present in Spring WebFlux provides ready-made support for streaming data, without providing any additional configuration
-
 # Streaming Data - Examples
 
 > [!expand-ui]- Stream data using HttpServletResponse's OutputStream
->
 > ```
 > @GetMapping("/data-0")
 > public void downloadDocument(final HttpServletResponse response) throws IOException {
@@ -86,7 +84,6 @@ modified: 2022-12-22T10:01:58.602-06:00
 > ```
 
 > [!expand-ui]- ResponseEntity<StreamingResponseBody>
->
 > ```
 > @GetMapping("/data-1")
 > public ResponseEntity<StreamingResponseBody> streamData() {
@@ -107,18 +104,15 @@ modified: 2022-12-22T10:01:58.602-06:00
 > ```
 
 > [!expand-ui]- Flux<Object>
->
 > ```
 > @GetMapping(value = "/data/flux", produces = MediaType.APPLICATION_STREAM_JSON_VALUE)
 > public Flux<Object> streamDataFlux() {
 >   return Flux.interval(Duration.ofSeconds(1)).map(i -> "Data stream line - " + i );
 > }
 > ```
-
 # Streaming JSON - Examples
 
 > [!expand-ui]- ResponseEntity<StreamingResponseBody>
->
 > ```
 > @GetMapping("/download-7")
 > public ResponseEntity<StreamingResponseBody> streamJson() {
@@ -144,7 +138,6 @@ modified: 2022-12-22T10:01:58.602-06:00
 > ```
 
 > [!expand-ui]- StreamingResponseBody
->
 > ```
 > Stream<Student> students = Stream.of(
 >         new Student("marcus", 1),
@@ -172,13 +165,11 @@ modified: 2022-12-22T10:01:58.602-06:00
 >     };
 > }
 > ```
-
 # Streaming Static File Download - Examples
 
 Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITION</font></code> which will have value as <code><font style="color: rgb(122,134,154);">attachment</font></code> and a <code><font style="color: rgb(122,134,154);">filename</font></code>. Based upon this, the client of REST API will identify that it should be downloaded as a file with mentioned filename
 
 > [!expand-ui]- HttpServletResponse's OutputStream
->
 > ```
 > @RequestMapping("/download-0")
 > public void downloadDocument(final HttpServletResponse response) throws IOException {
@@ -197,7 +188,6 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 > ```
 
 > [!expand-ui]- StreamingResponseBody
->
 > ```
 > @GetMapping("/download-1")
 > public StreamingResponseBody streamingResponseBody(HttpServletResponse response) throws IOException {
@@ -214,7 +204,6 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 >     };
 > }
 > ```
->
 > ```
 > @GetMapping("/download-2")
 > public void getSteamingFile1(HttpServletResponse response) throws IOException {
@@ -229,7 +218,6 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 > ```
 
 > [!expand-ui]- InputStreamResource
->
 > ```
 > @GetMapping("/download-3")
 > public InputStreamResource FileSystemResource(HttpServletResponse response) throws IOException {
@@ -241,7 +229,6 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 > ```
 
 > [!expand-ui]- ResponseEntity<Resource>
->
 > ```
 > @GetMapping("/download-4")
 > public ResponseEntity<Resource> download(String param) throws IOException {
@@ -251,11 +238,9 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 >             .body(resource);
 > }
 > ```
-
 # Streaming Dynamic File Download - Examples
 
 > [!expand-ui]- ResponseEntity<Resource>
->
 > ```
 > @GetMapping("/download-5")
 > public ResponseEntity<Resource> download5() {
@@ -283,7 +268,6 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 > ```
 
 > [!expand-ui]- ResponseEntity<StreamingResponseBody>
->
 > ```
 > @GetMapping("/download")
 > public ResponseEntity<StreamingResponseBody> streamContentAsFile() {
@@ -299,7 +283,6 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 >             .body(responseBody);
 > }
 > ```
->
 > ```
 > @GetMapping("/csv")
 > public ResponseEntity<StreamingResponseBody> getCsvFile() {
@@ -318,11 +301,9 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 >             .body(stream);
 > }
 > ```
-
 # Streaming Zipped File - Examples
 
 > [!expand-ui]- ResponseEntity<StreamingResponseBody>
->
 > ```
 > @GetMapping(value = "/zip")
 > public ResponseEntity<StreamingResponseBody> getZipFileStream() {
@@ -353,11 +334,9 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 >     }
 > }
 > ```
-
 # Streaming audio/video - Examples
 
-> [!expand-ui]- Mono\<ResponseEntity\<byte\[]>>
->
+> [!expand-ui]- Mono<ResponseEntity<byte[]>>
 > ```
 > @RestController
 > @RequestMapping("/audiovideo")
@@ -445,7 +424,5 @@ Set a header for <code><font style="color: rgb(122,134,154);">CONTENT\_DISPOSITI
 >     }
 > }
 > ```
-
 # Other
-
 - [[Java - Spring - Stream Download File Large Amount of Data From Database]]

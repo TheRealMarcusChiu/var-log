@@ -1,12 +1,25 @@
 ---
-publish: true
-title: AI Agents／Assistants
+title: "AI Agents／Assistants"
 created: 2026-01-26T15:27:42.476-06:00
 modified: 2026-01-29T00:58:24.614-06:00
+parent: "[[Large Language Models (LLMs)]]"
+children:
+  - "[[AI Agent Skills]]"
+  - "[[AI Agent／Assistant Frameworks]]"
+  - "[[AI Coding Agents／Assistants]]"
+  - "[[AI Voice Agents]]"
+  - "[[AutoGPT]]"
+  - "[[AutoGen]]"
+  - "[[CrewAI]]"
+  - "[[Hermes AI]]"
 ---
+```dataview
+LIST
+FROM ""
+WHERE file.folder = this.file.folder + "/" + this.file.name
+```
 
 # Vertical Agents
-
 - Lindy
 - Sierra
 - Replit
@@ -21,7 +34,6 @@ modified: 2026-01-29T00:58:24.614-06:00
 - Harvey
 
 # Model Serving
-
 - Mistral ai
 - Fireworks.Ai
 - Anthropic
@@ -35,7 +47,6 @@ modified: 2026-01-29T00:58:24.614-06:00
 - Together.Ai
 
 # Agent Framework
-
 - Phidata
 - Letta
 - LangGraph
@@ -47,7 +58,6 @@ modified: 2026-01-29T00:58:24.614-06:00
 - Semantic Kernel
 
 # Observability
-
 - Braintrust
 - Langfuse
 - AgentOps.a
@@ -56,7 +66,6 @@ modified: 2026-01-29T00:58:24.614-06:00
 - Langsmith
 
 # Agent Hosting & Serving
-
 - Agent API
 - Letta
 - Langraph
@@ -65,7 +74,6 @@ modified: 2026-01-29T00:58:24.614-06:00
 - Amazon Bedrock
 
 # Storage
-
 - Pinecone
 - Liamaindex
 - Supabase
@@ -75,19 +83,16 @@ modified: 2026-01-29T00:58:24.614-06:00
 - Drant
 
 # Memory
-
 - Mem0
 - Langmem
 - MemGPT
 - Zep
 
 # Tool Libraries
-
 - Composio
 - Exa
 - Browser Base
 
 # Sandbox
-
 - Modal
 - E2B

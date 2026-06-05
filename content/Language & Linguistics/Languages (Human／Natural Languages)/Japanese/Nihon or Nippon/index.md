@@ -1,10 +1,10 @@
 ---
-publish: true
-title: Nihon or Nippon
+title: "Nihon or Nippon"
 created: 2021-09-13T04:43:49.762-05:00
 modified: 2021-09-13T04:43:49.762-05:00
+parent: "[[Japanese]]"
+children: []
 ---
-
 TOKYO - As any student of Japanese will tell you, its use of Chinese characters known as kanji can be a nightmare at times. And although they can be really useful at deducing the meaning of complex words, they give little in the way of clues as to how one should pronounce them.
 
 Take the kanji for Japan (日本) for example. Even a first grader can tell you what it means, but ask a group of adults how to pronounce it and you might get a mixture of “Nihon” or “Nippon” and maybe even an occasional “Yamato” if one of those people happens to be a smart-ass.
