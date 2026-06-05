@@ -119,8 +119,5 @@ NOTE
 - a binary relation can be both symmetric and antisymmetric (e.g. the = equality relation)
 
 # Ordered Binary Relation - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Binary Ordered Relations - Types (Partial Order - Total Order - Quasi Order)]]
+- [[Equivalence Relations]]

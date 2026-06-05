@@ -15,8 +15,4 @@ children:
 - Introduction Video: [https://www.youtube.com/watch?v=APC1vptFJoU](https://www.youtube.com/watch?v=APC1vptFJoU)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - neo4j-versioner-core - Spring Repository Integration]]

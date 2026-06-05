@@ -9,8 +9,5 @@ children:
 ---
 integrations with [[Cache／Caching Servers|Caching Servers]] (or embedded ones)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Framework - Integration - @EnableCaching (@Cacheable @CachePut @CacheEvict @Caching @CacheConfig)]]
+- [[Java - Spring Framework - Integration - EhCache Integration]]

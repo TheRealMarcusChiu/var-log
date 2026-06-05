@@ -5,8 +5,4 @@ modified: 2022-12-25T21:41:43.149-06:00
 parent: "[[Search Trees]]"
 children: []
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+

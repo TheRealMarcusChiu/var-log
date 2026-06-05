@@ -24,10 +24,19 @@ see [[6 - Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics|p
 ````excerpt
 - [[Time-Series Database (TSDB)]]
 - [[Java - Logging／Log Frameworks|Java - Logging/Log Frameworks]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AppDynamics]]
+- [[Application Performance Monitoring／Management (APM)]]
+- [[AWS - Cloud Trail]]
+- [[AWS - CloudWatch]]
+- [[Distributed Tracing Infrastructure]]
+- [[Grafana]]
+- [[Graylog]]
+- [[Loki]]
+- [[Nagios Core]]
+- [[New Relic]]
+- [[OpenTelemetry]]
+- [[Prometheus]]
+- [[Splunk]]
+- [[Zabbix]]
 ````
 ^excerpt

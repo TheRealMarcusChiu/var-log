@@ -11,8 +11,8 @@ children:
   - "[[Java - Mockito - inOrder]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Mockito - @Mock @Spy @InjectMocks]]
+- [[Java - Mockito - ArgumentCaptor vs Custom ArgumentMatcher]]
+- [[Java - Mockito - ArgumentMatcher - AdditionalMatcher - Custom ArgumentMatcher]]
+- [[Java - Mockito - Enum Answers (CALLS_REAL_METHODS - RETURNS_DEEP_STUBS - RETURNS_DEFAULTS - RETURNS_MOCKS - RETURNS_SELF - RETURNS_SMART_NULLS)]]
+- [[Java - Mockito - inOrder]]

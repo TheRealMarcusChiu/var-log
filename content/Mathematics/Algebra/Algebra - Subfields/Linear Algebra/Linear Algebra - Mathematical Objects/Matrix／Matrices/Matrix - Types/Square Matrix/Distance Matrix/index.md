@@ -18,11 +18,7 @@ A distance matrix 𝐴 is defined as
 - 𝐴<sub>𝑖𝑗</sub> = ||𝑋<sub>𝑖</sub> - 𝑋<sub>𝑗</sub>||
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Doubly-Centered Distance Matrix]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Distance_matrix](https://en.wikipedia.org/wiki/Distance_matrix)

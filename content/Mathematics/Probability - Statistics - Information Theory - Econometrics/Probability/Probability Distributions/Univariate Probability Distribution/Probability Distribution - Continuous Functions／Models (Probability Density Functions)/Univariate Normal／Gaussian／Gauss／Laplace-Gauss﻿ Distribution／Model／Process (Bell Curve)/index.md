@@ -66,11 +66,8 @@ where:
 𝑉𝑎𝑟(𝑋) = 𝜎²
 # Subpages
 - [[z-distribution (Standard Normal Distribution) ｜ z-scores ｜ z-values ｜ z-table ｜ z-statistic ｜ Standardization - Standardized Values - Standard Scores - Normal Deviates|z-distribution (Standard Normal Distribution)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Univariate Normal Distribution - Algebra]]
+- [[Univariate Normal Distribution - Derivation]]
 
 # Regression / Learning 𝜇 & 𝜎 Parameters
 - see [[Gaussian Process Regression (GPR) - Kriging]]

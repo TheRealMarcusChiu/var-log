@@ -9,8 +9,5 @@ children:
 ---
 related: [[Boot Order／Sequence - Firmware - Bootloader - Operating System|Boot Order/Sequence - Firmware - Bootloader - Operating System]]
 # UNIX Boot Stuff
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[initrd (Initial RAM Disk) vs initramfs (Initial RAM File System)]]
+- [[Linux Boot Process Involving vmlinuz & initrd]]

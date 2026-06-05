@@ -6,8 +6,4 @@ parent: "[[Python]]"
 children:
   - "[[Python - Difference Between () [] {}]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Python - Difference Between () [] {}]]

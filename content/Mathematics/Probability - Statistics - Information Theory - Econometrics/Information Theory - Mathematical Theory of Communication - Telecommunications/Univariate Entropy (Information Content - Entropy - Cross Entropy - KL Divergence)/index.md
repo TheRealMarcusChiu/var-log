@@ -36,11 +36,8 @@ children:
 
 see: [[Multivariate Entropy (Joint Entropy - Conditional Entropy - (Pointwise) Mutual Information ／ Information Gain - Variation of Information)|Multivariate Entropy (Joint Entropy - Conditional Entropy - (Pointwise) Mutual Information / Information Gain - Variation of Information)]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maximum Entropy (Maxent) Models]]
+- [[Modeling - KL Divergence vs Reverse KL Divergence]]
 
 # Resources
 - [https://colah.github.io/posts/2015-09-Visual-Information/#fn4](https://colah.github.io/posts/2015-09-Visual-Information/#fn4)

@@ -6,8 +6,4 @@ parent: "[[Extra-Curricular]]"
 children:
   - "[[Colognes]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Colognes]]

@@ -127,8 +127,5 @@ SM Versions vs CUDA Versions
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CUDA - C++]]
+- [[CUDA Ubuntu Installation]]

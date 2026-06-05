@@ -157,8 +157,12 @@ children:
 - <strong>research psychologist</strong> - conduct research to discover the basic principles of behavior and mind
 
 ## Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Behavioral Learning Theories]]
+- [[Cognitive Biases]]
+- [[Cognitive Distortions]]
+- [[Freudian／Psychoanalytic Theory]]
+- [[Mental Illness]]
+- [[Psychology - Altruism]]
+- [[Psychotherapy]]
+- [[Synesthesia]]
+- [[Theory of Affordance]]

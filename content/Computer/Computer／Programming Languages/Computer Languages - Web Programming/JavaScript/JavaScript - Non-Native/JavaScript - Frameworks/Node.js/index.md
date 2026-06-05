@@ -20,11 +20,9 @@ children:
 - [[Node Package Manager (npm)]]
 
 # Packages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Node.js Packages]].file.folder + "/" + [[Node.js Packages]].file.name
-```
+- [[Express Web Server]]
+- [[Node.js - Database]]
+- [[Socket.IO]]
 
 # Resources
 - [www.nodejs.org](http://www.nodejs.org/)

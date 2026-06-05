@@ -19,8 +19,4 @@ children:
 
 ![[Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics - Service／Servers／Frameworks#^excerpt]]
 # [[Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics - Other|Other]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics - Other]].file.folder + "/" + [[Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics - Other]].file.name
-```
+- [[Real User Monitoring (RUM) vs Synthetic Monitoring (STM)]]

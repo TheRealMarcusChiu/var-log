@@ -19,11 +19,19 @@ children:
   - "[[which - type - command - whence - where - whereis - whatis - hash]]"
 ---
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[cron - anacron]]
+- [[find]]
+- [[grep]]
+- [[ln (symbolic／soft link - hard link)]]
+- [[Neovim]]
+- [[ps]]
+- [[rsync]]
+- [[top like commands]]
+- [[UNIX - Moving Around Directories]]
+- [[UNIX - Performance Observability Commands]]
+- [[User Group Permission & Ownership]]
+- [[vi - vim]]
+- [[which - type - command - whence - where - whereis - whatis - hash]]
 
 - [fish shell](https://fishshell.com/) - easy to use, beginner-friendly shell
 - [starship](https://starship.rs/) - a great prompt that requires no setup

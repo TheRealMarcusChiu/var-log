@@ -9,8 +9,5 @@ children:
 ---
 Converting [[Neo4j - GraphQL|GraphQL into Neo4j CQL]]
 # Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Neo4j GraphQL (neo4j-graphql-java)]]
+- [[Java - Neo4j GraphQL (SDN & DGS)]]

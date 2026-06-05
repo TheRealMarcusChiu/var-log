@@ -15,18 +15,17 @@ children:
 ^excerpt
 
 # Package Manager
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Debian Package Manager]].file.folder + "/" + [[Debian Package Manager]].file.name
-```
+- [[apt (Advanced Packaging Tool)]]
+- [[apt vs apt-get]]
+- [[apt-get - apt-cache]]
+- [[dpkg (Debian Package)]]
 
 # Version
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Debian Versions]].file.folder + "/" + [[Debian Versions]].file.name
-```
+- [[Elementary OS]]
+- [[Kali Linux]]
+- [[Linux Mint]]
+- [[Raspbian - Raspberry Pi]]
+- [[Ubuntu]]
 
 # ISO - Downloads
 - [https://github.com/TheRealMarcusChiu/debian-iso-guide](https://github.com/TheRealMarcusChiu/debian-iso-guide)

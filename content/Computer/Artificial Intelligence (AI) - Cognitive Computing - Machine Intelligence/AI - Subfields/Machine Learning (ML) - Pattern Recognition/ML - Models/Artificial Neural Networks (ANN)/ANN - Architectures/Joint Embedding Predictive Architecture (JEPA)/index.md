@@ -16,8 +16,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Latent-prediction JEPA (LpJEPA)]]
+- [[Rectified LpJEPA]]
+- [[Vision-Language Joint Embedding Predictive Architecture (VL-JEPA)]]

@@ -27,11 +27,7 @@ is a high-performance distributed proxy (edge + service mesh data plane) that pr
 
 Envoy is <strong>typically deployed as a sidecar proxy or edge proxy, centralizing networking logic outside the application</strong>.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Envoy (Service Mesh Proxy) vs Eureka+Ribbon]]
 
 # Resources
 - [https://github.com/envoyproxy/envoy](https://github.com/envoyproxy/envoy)

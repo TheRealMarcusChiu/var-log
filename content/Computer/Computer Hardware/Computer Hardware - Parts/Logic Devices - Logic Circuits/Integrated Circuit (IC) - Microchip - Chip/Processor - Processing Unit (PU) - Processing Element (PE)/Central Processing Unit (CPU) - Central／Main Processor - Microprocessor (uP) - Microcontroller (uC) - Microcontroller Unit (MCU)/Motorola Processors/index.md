@@ -6,8 +6,4 @@ parent: "[[Central Processing Unit (CPU) - Central／Main Processor - Microproce
 children:
   - "[[Motorola 68000 - Motorola 68k - m68k]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Motorola 68000 - Motorola 68k - m68k]]

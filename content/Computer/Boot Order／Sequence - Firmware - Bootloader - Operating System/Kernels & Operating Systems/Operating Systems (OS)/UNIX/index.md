@@ -22,15 +22,20 @@ children:
 {
   "rows": [
     [
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[UNIX Versions]].file.folder + \"/\" + [[UNIX Versions]].file.name\n```",
+      "- [[Berkeley Software Distribution (BSD)]]\n- [[Linux]]\n- [[Solaris (Oracle Solaris)]]\n- [[UNIX System V]]",
       "![[UNIX/unix-timeline.png|500]]\n\n[https://commons.wikimedia.org/wiki/File:Unix_timeline.en.svg](https://commons.wikimedia.org/wiki/File:Unix_timeline.en.svg)"
     ]
   ]
 }
 ```
 # General
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[UNIX - General]].file.folder + "/" + [[UNIX - General]].file.name
-```
+- [[Executable and Linkable Format (ELF)]]
+- [[Ricing]]
+- [[Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)]]
+- [[UNIX - Boot Process]]
+- [[UNIX - File Stuff]]
+- [[UNIX - Package Managers (All)]]
+- [[UNIX - Portable Operating System Interface (POSIX)]]
+- [[UNIX - Process]]
+- [[UNIX - Terminal & Shell]]
+- [[Unix Pluggable Authentication Modules (PAM)]]

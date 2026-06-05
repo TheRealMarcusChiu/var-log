@@ -26,15 +26,9 @@ children:
 - Rank-Biserial Correlation
 - Tetrachoric
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Correlation - Comparisons]]
+> - [[Distance Correlation Coefficient]]
+> - [[Pearson's Correlation Coefficient (R)]]
 
 # Correlation - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Correlation - Comparisons]].file.folder + "/" + [[Correlation - Comparisons]].file.name
-```
+- [[Pearson's Correlation vs Distance Correlation]]

@@ -16,11 +16,9 @@ children:
 ^excerpt
 
 # Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Mixed-Radix Cooley-Tukey Algorithm (FFT Implementation)]]
+- [[Radix-2 Cooley-Tukey Algorithm (FFT Implementation)]]
+- [[Radix-4 Cooley-Tukey Algorithm (FFT Implementation)]]
 
 Cooley-Tukey Algorithm vs Radix-2 Cooley-Yuley Algorithm:
 - Cooley-Tukey is a general framework for FFT algorithms, while radix-2 is a specific implementation within that framework

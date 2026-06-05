@@ -52,11 +52,10 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[A matrix and its transpose have the same characteristic polynomial and eigenvalues]]
+- [[Complex Eigenvalues - Complex Eigenvectors]]
+- [[Eigenvalues are the roots of the Characteristic Polynomial]]
+- [[Eigenvectors with Distinct Eigenvalues are Linearly Independent]]
 
 # Resources
 - [https://brilliant.org/wiki/eigenvalues-and-eigenvectors/](https://brilliant.org/wiki/eigenvalues-and-eigenvectors/)

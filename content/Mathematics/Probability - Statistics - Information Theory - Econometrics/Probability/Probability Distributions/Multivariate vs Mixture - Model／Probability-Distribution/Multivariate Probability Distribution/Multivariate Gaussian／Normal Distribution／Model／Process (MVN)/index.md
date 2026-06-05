@@ -54,8 +54,5 @@ Visually, the multivariate normal distribution is:
 - see [[Gaussian Process Regression (GPR) - Kriging]]
 
 # MVN - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Isotropic Gaussian]]
+- [[Multivariate Gaussian／Normal Distribution - Marginalizing & Conditioning]]

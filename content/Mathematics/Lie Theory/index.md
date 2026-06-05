@@ -14,11 +14,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Lie Algebra]]
+- [[Lie Groups]]
 
 # Connections to Other Branches of Mathematics
 - [[Mathematical Analysis|analysis]] (e.g. [[Harmonic Analysis|harmonic analysis]] and the Peter-Weyl theorem)

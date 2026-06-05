@@ -14,11 +14,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Tolman-Eichenbaum Machine (TEM)]]
+- [[Toroidal Topology of Population Activity in Grid Cells]]
 
 # Resources
 - [YouTube's Artem Kirsanov's Neuroscience Exploration](http://youtube.com/playlist?list=PLgtmMKe4spCMzkiVa4-eSHVk-N4SC8r9K)

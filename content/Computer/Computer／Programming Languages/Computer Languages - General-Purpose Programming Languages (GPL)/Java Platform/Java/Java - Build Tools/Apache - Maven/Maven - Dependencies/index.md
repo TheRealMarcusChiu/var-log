@@ -11,8 +11,9 @@ children:
   - "[[Maven - ＜exclusion＞]]"
   - "[[Maven - ＜optional＞]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maven - Bill of Materials (BOM)]]
+- [[Maven - DependencyManagement vs Dependencies]]
+- [[Maven - Direct／Transitive Dependency & Scopes (compile - provided - runtime - test - system - import)]]
+- [[Maven - ＜classifier＞]]
+- [[Maven - ＜exclusion＞]]
+- [[Maven - ＜optional＞]]

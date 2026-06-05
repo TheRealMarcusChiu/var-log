@@ -14,8 +14,8 @@ children:
 - a <strong>Search Server</strong> then uses this index to respond to user searches and suggest results
 
 # Search Server Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Apache - Lucene]]
+- [[Apache - Lucy]]
+- [[Apache - Solr Search]]
+- [[AWS - Cloud Search]]
+- [[Elasticsearch]]

@@ -20,8 +20,11 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Network／Networking Communication Protocols]]
+- [[Computer Network／Networking Hardware]]
+- [[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model]]
+- [[Computer Network／Networking Sizes (NANO／NFC／BAN／PAN／SAN／LAN／CAN／MAN／RAN／WAN) Near-Field Communication Body／Personal／Storage／System／Local／Controller／Metropolitan／Radio／Wide Area／Access Network]]
+- [[Computer Network／Networking Software Emulation／Emulator／Simulations／Simulator／Virtualization／Virtualizer]]
+- [[Computer Network／Networking Terminology]]
+- [[Computer Network／Networking Textbooks]]
+- [[Computer Network／Networking Tools]]

@@ -77,8 +77,9 @@ an <code><font style="color: rgb(51,102,255);">ApplicationContext</font></code> 
 }
 ```
 # <strong>ApplicationContext - Other</strong>
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - ApplicationContext - Accessing ApplicationContext]]
+- [[Java - Spring - ApplicationContext - Event／Events (ApplicationContextEvent)]]
+- [[Java - Spring - ApplicationContext - Hierarchy (Parent & Child ApplicationContext)]]
+- [[Java - Spring - ApplicationContext - WebApplicationContext]]
+- [[Java - Spring - ApplicationContext - ＊ContextInitializer]]
+- [[Java - Spring - Context - MessageSource & message.properties & Internationalization]]

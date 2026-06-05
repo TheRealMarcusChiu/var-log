@@ -42,8 +42,7 @@ TODO: [https://www.baeldung.com/properties-with-spring](https://www.baeldung.co
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Property／Properties - @ConfigurationProperties @ConstructorBinding @EnableConfigurationProperties @ConfigurationPropertiesScan]]
+- [[Java - Spring - Property／Properties - @PropertySource @PropertySources]]
+- [[Java - Spring - Property／Properties - Custom Property Source]]
+- [[Java - Spring - Property／Properties - Externalized Properties Configuration]]

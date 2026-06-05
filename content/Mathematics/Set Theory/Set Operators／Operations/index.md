@@ -6,11 +6,7 @@ parent: "[[Set Theory]]"
 children:
   - "[[Cartesian Product]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cartesian Product]]
 
 ```merge-table
 {

@@ -13,8 +13,9 @@ children:
 ---
 # Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Distance Measures／Metrics／Semi-Metrics／Functions]]
+- [[Distance Measure／Metric vs Divergence]]
+- [[Distance Measure／Metric vs Similarity Measure]]
+- [[Divergences]]
+- [[Norms - Semi-Norms]]
+- [[Similarity Measures／Metrics／Semi-Metrics／Functions]]

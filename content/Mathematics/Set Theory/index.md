@@ -64,8 +64,10 @@ children:
 - set-theoretic topology
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Disjoint - Pairwise Disjoint - Mutually Exclusive／Disjoint]]
+- [[Exhaustive]]
+- [[Fuzzy／Uncertain Set Theory]]
+- [[Set (Cover／Covering - Open Cover／Covering - Subcover／Subcovering) - Minimal／Proper／Antichain／k／k＊ Cover／Covering]]
+- [[Set Builder Notation]]
+- [[Set Operators／Operations]]
+- [[Set／Sets]]

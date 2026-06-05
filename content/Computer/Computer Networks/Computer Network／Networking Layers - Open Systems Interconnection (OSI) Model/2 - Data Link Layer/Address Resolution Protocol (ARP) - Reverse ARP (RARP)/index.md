@@ -65,8 +65,5 @@ children:
 - [[arping]]
 
 # ARP Attacks
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[ARP Attacks]].file.folder + "/" + [[ARP Attacks]].file.name
-```
+- [[ARP - Flooding & Cache Poisoning]]
+- [[ARP - Spoof Poisoning]]

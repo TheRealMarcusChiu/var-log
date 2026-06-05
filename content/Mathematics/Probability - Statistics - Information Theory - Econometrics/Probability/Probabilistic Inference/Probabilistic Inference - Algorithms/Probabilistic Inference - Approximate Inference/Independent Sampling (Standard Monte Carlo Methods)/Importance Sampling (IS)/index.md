@@ -53,10 +53,8 @@ other versions
 - <strong>adaptive importance sampling</strong> - learn a proposal distribution from the samples
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Importance Sampling - Probability Inference Query]]
+- [[Normalized Importance Sampling (NIS)]]
+- [[Un-Normalized Importance Sampling (UNIS)]]
 
 - [[Importance Sampling (IS) vs Monte Carlo Markov Chains (MCMC)]]

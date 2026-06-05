@@ -344,11 +344,8 @@ Once we have the base we can add extensions to it to define the exact features o
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[RISC-V Processors]]
+- [[RISC-V Pseudoinstructions]]
 
 # Resources
 - [https://riscv.org/](https://riscv.org/)

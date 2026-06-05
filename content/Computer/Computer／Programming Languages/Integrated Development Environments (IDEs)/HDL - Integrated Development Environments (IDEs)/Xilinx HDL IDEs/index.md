@@ -8,8 +8,6 @@ children:
   - "[[Vivado Design Suite]]"
   - "[[Xilinx ISE]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Vitis Software Development Platform]]
+- [[Vivado Design Suite]]
+- [[Xilinx ISE]]

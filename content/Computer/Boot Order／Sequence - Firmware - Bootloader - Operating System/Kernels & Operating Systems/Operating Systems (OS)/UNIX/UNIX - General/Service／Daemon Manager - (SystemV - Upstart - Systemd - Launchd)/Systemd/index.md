@@ -18,8 +18,4 @@ In recent years, [[Linux]] distributions have increasingly transitioned from oth
 - [[SysV／Upstart／Systemd／Launchd - Commands (service - chkconfig - systemctl - journalctl - launchctl)|journalctl]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Systemd - Creating .service Files]]

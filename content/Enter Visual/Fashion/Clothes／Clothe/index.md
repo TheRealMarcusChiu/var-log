@@ -18,8 +18,7 @@ one of the most obvious reasons designer clothes are so expensive is because you
 - Wear Gustin - [https://www.weargustin.com/](https://www.weargustin.com/)
 - Kidoriman Lifestyle - [https://www.instagram.com/kidoriman_lifestyle/](https://www.instagram.com/kidoriman_lifestyle/)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Japanese GU]]
+> - [[Jishinman]]
+> - [[OOTDSHOP (scam)]]
+> - [[Uniqlo]]

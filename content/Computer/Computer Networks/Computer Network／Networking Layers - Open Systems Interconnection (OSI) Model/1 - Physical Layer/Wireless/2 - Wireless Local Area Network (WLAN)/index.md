@@ -16,8 +16,7 @@ children:
 ^excerpt
 
 # Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[802.11 - WiFi／Wi-Fi]]
+- [[802.15.4 - Zigbee]]
+- [[High-Performance Radio LAN (HiperLan)]]
+- [[Z-Wave]]

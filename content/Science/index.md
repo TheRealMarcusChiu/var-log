@@ -22,10 +22,14 @@ children:
 ^excerpt
 
 # Subfields
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Biology]]
+- [[Chemistry]]
+- [[Environmental Science]]
+- [[Geology]]
+- [[Human Science]]
+- [[Materials Science]]
+- [[Organic Chemistry]]
+- [[Physics]]
+- [[System of Measurement]]
 
 ![](https://www.youtube.com/watch?v=1TerTgDEgUE)

@@ -21,8 +21,4 @@ Not all services have been converted to upstart. While working on the server tea
 - [[SysV／Upstart／Systemd／Launchd - Commands (service - chkconfig - systemctl - journalctl - launchctl)|chkconfig]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+

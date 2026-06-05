@@ -9,11 +9,9 @@ children:
   - "[[Java - Lombok - Custom Annotations]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Lombok - @Delegate (Automate Object Composition)]]
+- [[Java - Lombok - Builder Default Value]]
+- [[Java - Lombok - Custom Annotations]]
 
 # Resources
 - [https://www.baeldung.com/intro-to-project-lombok](https://www.baeldung.com/intro-to-project-lombok)

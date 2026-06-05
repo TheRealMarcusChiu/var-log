@@ -17,10 +17,11 @@ children:
 - Abraham Maslow's <strong>Hierarchy of Needs</strong>
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Aphrodisiac]]
+- [[Characteristics of Long Lasting Love]]
+- [[Chemistry of Love]]
+- [[Stages of Love]]
+- [[Types of Love]]
+- [[Why Do We Love？]]
 
 ![](https://www.youtube.com/watch?v=v8Yo-PXN7UA)

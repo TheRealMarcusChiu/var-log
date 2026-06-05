@@ -15,11 +15,8 @@ children:
 
 # Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MicroMIPS]]
+- [[MIPS Instruction Set]]
 # MIPS - Versions
 - MIPS I, II, III, IV, and V
 - [[MicroMIPS]]

@@ -15,8 +15,5 @@ children:
 - objects in S3 can be archived to Amazon Glacier which is a very cheap archival service
 
 # Commands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[How AWS S3 Serves 1 PetaByte per Second on Top of Slow HDDs]]
+- [[s3cmd]]

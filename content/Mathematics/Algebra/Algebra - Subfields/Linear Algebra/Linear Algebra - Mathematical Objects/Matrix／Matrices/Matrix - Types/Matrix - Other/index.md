@@ -7,11 +7,8 @@ children:
   - "[[Covariance & Correlation Matrix]]"
   - "[[Cross-Product Matrix]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Covariance & Correlation Matrix]]
+- [[Cross-Product Matrix]]
 
 - [[Markov Chains／Chain (Transition Markov／Probability／Stochastic Matrix) - Discrete Time Markov Chains (DTMC)|Transition Markov/Probability/Stochastic Matrix]]
 - [[Jacobian Matrix]]

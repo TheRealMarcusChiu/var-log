@@ -9,11 +9,8 @@ children:
 ---
 assigns a numerical weighting to each element of a hyperlinked set of documents
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hyperlink-Induced Topic Search (HITS) - Hubs and Authorities]]
+- [[PageRank (PR)]]
 
 - IBM [CLEVER project](https://en.wikipedia.org/wiki/CLEVER_project)
 - [TrustRank](https://en.wikipedia.org/wiki/TrustRank) algorithm

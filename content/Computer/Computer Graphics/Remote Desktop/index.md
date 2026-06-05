@@ -13,8 +13,11 @@ children:
   - "[[TeamViewer]]"
   - "[[Virtual Network Computing  (VNC)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AnyDesk]]
+- [[Apache Gaucamole]]
+- [[Kasm]]
+- [[Remote Frame Buffer (RFB)]]
+- [[Rustdesk Server]]
+- [[Splashtop]]
+- [[TeamViewer]]
+- [[Virtual Network Computing  (VNC)]]

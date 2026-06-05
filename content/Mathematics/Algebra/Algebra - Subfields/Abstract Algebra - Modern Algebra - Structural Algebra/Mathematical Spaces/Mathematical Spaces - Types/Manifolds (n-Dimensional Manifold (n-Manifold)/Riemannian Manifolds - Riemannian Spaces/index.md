@@ -16,8 +16,4 @@ children:
 ^excerpt
 
 # Riemannian Manifolds - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Riemannian Metric - Riemannian Metric Tensor]]

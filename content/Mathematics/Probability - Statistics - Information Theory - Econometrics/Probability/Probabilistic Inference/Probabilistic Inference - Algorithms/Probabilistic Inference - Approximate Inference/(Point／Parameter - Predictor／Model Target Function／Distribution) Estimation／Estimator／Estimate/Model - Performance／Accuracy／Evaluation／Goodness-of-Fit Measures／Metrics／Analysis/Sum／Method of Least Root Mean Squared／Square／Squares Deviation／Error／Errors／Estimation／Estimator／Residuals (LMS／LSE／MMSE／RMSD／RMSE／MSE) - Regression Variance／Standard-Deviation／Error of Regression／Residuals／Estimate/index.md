@@ -61,7 +61,7 @@ children:
         "bg": "#F4F5F7"
       },
       {
-        "content": "is a method used to [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|estimate model parameters]] 𝜽 by minimizing the<em> <strong>squared errors</strong></em> wrt the given data {(𝑥<sub>1</sub>,𝑦<sub>1</sub>), ..., (𝑥<sub>𝑛</sub>,𝑦<sub>𝑛</sub>)}\n- [Deriving Least Squares Estimator](https://www.youtube.com/watch?v=Hi5EJnBHFB4&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=15)\n\ntypes:\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```",
+        "content": "is a method used to [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|estimate model parameters]] 𝜽 by minimizing the<em> <strong>squared errors</strong></em> wrt the given data {(𝑥<sub>1</sub>,𝑦<sub>1</sub>), ..., (𝑥<sub>𝑛</sub>,𝑦<sub>𝑛</sub>)}\n- [Deriving Least Squares Estimator](https://www.youtube.com/watch?v=Hi5EJnBHFB4&list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU&index=15)\n\ntypes:\n- [[Linear Least Squares (LLS)]]\n- [[Non-Linear Least Squares (NLLS)]]",
         "colspan": 2
       },
       null

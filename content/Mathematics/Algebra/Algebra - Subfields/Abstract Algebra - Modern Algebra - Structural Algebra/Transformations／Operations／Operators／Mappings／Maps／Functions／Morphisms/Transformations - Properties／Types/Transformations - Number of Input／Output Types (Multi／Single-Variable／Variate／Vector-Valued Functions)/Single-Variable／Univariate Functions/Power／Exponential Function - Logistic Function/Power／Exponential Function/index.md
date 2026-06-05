@@ -16,11 +16,7 @@ where:
 - 𝑥 - independent variable
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Exponential Function]]
 
 - [[Derivative of Exponential Function (a^x and e^x)]]
 

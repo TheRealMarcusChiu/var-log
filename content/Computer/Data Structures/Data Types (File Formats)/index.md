@@ -8,11 +8,9 @@ children:
   - "[[Multimedia File Types／Formats]]"
   - "[[Packet Capture (PCAP) File]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Data Archiving Formats - Data Compression Formats]]
+- [[Multimedia File Types／Formats]]
+- [[Packet Capture (PCAP) File]]
 
 - [[Audio File Formats／Types|Audio File Formats/Types]]
 - [[Video File Formats／Types (Codec)|Video File Formats/Types (Codec)]]

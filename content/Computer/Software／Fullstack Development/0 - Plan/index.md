@@ -7,8 +7,5 @@ children:
   - "[[Project／Task／Ticket Tracking System]]"
   - "[[Version Control System (VCS) - Source Control Management (SCM)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Project／Task／Ticket Tracking System]]
+- [[Version Control System (VCS) - Source Control Management (SCM)]]

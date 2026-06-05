@@ -19,8 +19,4 @@ children:
 - [ECMQV](https://en.wikipedia.org/wiki/ECMQV) key agreement scheme is based on the [MQV](https://en.wikipedia.org/wiki/Menezes%E2%80%93Qu%E2%80%93Vanstone) key agreement scheme
 - [ECQV](https://en.wikipedia.org/wiki/Implicit_certificate) implicit certificate scheme
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Curve25519]]

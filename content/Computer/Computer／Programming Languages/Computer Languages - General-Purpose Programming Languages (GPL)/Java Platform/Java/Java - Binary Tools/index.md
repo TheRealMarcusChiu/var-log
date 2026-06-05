@@ -8,8 +8,6 @@ children:
   - "[[jcmd]]"
   - "[[jps - Java Virtual Machine Process Status Tool]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java Keystore & Truststore - keytool binary]]
+- [[jcmd]]
+- [[jps - Java Virtual Machine Process Status Tool]]

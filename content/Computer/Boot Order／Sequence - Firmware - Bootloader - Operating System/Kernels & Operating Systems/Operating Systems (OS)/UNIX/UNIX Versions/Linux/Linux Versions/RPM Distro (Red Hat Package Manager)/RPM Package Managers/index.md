@@ -8,10 +8,8 @@ children:
   - "[[rpm binary]]"
   - "[[yum (Yellowdog Updater, Modified)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[dnf (Dandified Packaging Tool)]]
+- [[rpm binary]]
+- [[yum (Yellowdog Updater, Modified)]]
 
 list of other [[UNIX - Package Managers (All)]]

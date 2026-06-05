@@ -8,8 +8,6 @@ children:
   - "[[JavaScript - Non-Native Libraries]]"
   - "[[JavaScript - Package Managers]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JavaScript - Frameworks]]
+- [[JavaScript - Non-Native Libraries]]
+- [[JavaScript - Package Managers]]

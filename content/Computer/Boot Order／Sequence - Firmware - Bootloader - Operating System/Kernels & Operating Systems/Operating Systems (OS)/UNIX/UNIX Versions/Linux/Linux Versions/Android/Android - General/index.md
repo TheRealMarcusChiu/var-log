@@ -9,8 +9,7 @@ children:
   - "[[Android - SSH into Device]]"
   - "[[Android - VNC Viewer]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Android - Deploying Linux Guest]]
+- [[Android - Root Device]]
+- [[Android - SSH into Device]]
+- [[Android - VNC Viewer]]

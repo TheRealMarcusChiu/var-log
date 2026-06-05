@@ -9,8 +9,7 @@ children:
   - "[[Vagabond]]"
   - "[[Vinland Saga]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Berserk]]
+- [[Blame!]]
+- [[Vagabond]]
+- [[Vinland Saga]]

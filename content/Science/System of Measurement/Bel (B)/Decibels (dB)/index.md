@@ -20,11 +20,7 @@ The decibel of 𝑃<sub>1</sub> in reference to 𝑃<sub>2</sub> is defined by
 # bd - Chart
 ![[Decibels (dB)/decibels-noise-level-chart.png|500]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Decibel-Milliwatts (dBm)]]
 
 # dB - Table
 

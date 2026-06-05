@@ -6,8 +6,4 @@ parent: "[[Software／Fullstack Development]]"
 children:
   - "[[Slack Notifications Flowchart]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Slack Notifications Flowchart]]

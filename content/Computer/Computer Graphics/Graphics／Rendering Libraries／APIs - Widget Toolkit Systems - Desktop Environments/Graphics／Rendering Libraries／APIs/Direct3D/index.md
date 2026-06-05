@@ -15,8 +15,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Direct3D 11]]
+- [[Direct3D 12]]

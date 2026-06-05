@@ -7,8 +7,5 @@ children:
   - "[[Class-Based - Class-Orientation Programming]]"
   - "[[Prototypal - Prototype-Oriented - Classless - Object／Instance／Prototype-Based Programming]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Class-Based - Class-Orientation Programming]]
+- [[Prototypal - Prototype-Oriented - Classless - Object／Instance／Prototype-Based Programming]]

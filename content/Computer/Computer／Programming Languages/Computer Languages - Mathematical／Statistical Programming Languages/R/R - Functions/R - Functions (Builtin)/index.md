@@ -7,8 +7,5 @@ children:
   - "[[R - Apply Family]]"
   - "[[R - Probability Distributions]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[R - Apply Family]]
+- [[R - Probability Distributions]]

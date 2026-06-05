@@ -7,8 +7,5 @@ children:
   - "[[Universal Serial Bus (USB) 2.0／3.0／3.2／4.0 Gen 1／2 (Specification／Interface)]]"
   - "[[Universal Serial Bus (USB) Micro／Mini A／B／C Female／Male Physical Connector Ports]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Universal Serial Bus (USB) 2.0／3.0／3.2／4.0 Gen 1／2 (Specification／Interface)]]
+- [[Universal Serial Bus (USB) Micro／Mini A／B／C Female／Male Physical Connector Ports]]

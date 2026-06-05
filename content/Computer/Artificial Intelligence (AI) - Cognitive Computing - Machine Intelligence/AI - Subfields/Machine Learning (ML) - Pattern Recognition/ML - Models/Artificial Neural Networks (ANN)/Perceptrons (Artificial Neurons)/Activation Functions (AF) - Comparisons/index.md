@@ -6,8 +6,4 @@ parent: "[[Perceptrons (Artificial Neurons)]]"
 children:
   - "[[Sigmoid vs Softmax - Activation Function]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Sigmoid vs Softmax - Activation Function]]

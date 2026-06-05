@@ -8,11 +8,8 @@ children:
   - "[[Git From the Inside Out]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Git - Java Implementation]]
+- [[Git From the Inside Out]]
 
 # Resources
 - [[Git From the Inside Out]]

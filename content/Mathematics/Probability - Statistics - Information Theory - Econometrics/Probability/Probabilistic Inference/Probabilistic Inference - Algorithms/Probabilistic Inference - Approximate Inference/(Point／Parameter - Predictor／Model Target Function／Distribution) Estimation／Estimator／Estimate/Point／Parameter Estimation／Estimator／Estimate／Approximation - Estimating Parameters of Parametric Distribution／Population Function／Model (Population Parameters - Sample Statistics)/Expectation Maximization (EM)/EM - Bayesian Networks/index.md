@@ -148,8 +148,4 @@ estimate the values of the unknown parameters 𝜃 = {𝜃<sub>𝐴</sub>, 𝜃<
 > > 	- [[Independent Sampling (Standard Monte Carlo Methods)]]
 > > 	- [[Dependent Sampling (Markov Chain Monte Carlo (MCMC) Methods) |Dependent Sampling (Markov Chain Monte Carlo (MCMC) Methods)]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[EM - Bayesian Networks - Analysis]]

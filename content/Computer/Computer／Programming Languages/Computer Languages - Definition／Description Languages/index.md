@@ -10,10 +10,10 @@ children:
   - "[[Interface Definition／Description Language & Libraries (IDL)]]"
   - "[[Schema Definition／Description Language & Libraries (SDL)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Configuration／Infrastructure／Orchestration Languages]]
+- [[Data Language & Library (Message／Transfer／Interchange／Storage／Format／Serializer／Deserializer)]]
+- [[Hardware Description Languages (HDL)]]
+- [[Interface Definition／Description Language & Libraries (IDL)]]
+- [[Schema Definition／Description Language & Libraries (SDL)]]
 
 - [[Kubernetes - Custom Resource Definition (CRD)]]

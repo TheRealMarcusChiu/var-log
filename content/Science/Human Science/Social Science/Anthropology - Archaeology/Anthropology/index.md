@@ -17,8 +17,4 @@ children: []
 - <strong>Philosophical Anthropology</strong> – studies what is it to be human
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+

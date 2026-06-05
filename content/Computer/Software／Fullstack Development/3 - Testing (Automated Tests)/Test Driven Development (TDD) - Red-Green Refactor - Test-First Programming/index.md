@@ -21,11 +21,7 @@ children:
 - thinking about the test first forces you to think about the interface to the code first. This focus on interface and how you use a class helps you separate interface from implementation
 
 # TDD - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[TDD - Is It Dead？]]
 
 # TDD - Resources
 - [https://martinfowler.com/bliki/TestDrivenDevelopment.html](https://martinfowler.com/bliki/TestDrivenDevelopment.html)

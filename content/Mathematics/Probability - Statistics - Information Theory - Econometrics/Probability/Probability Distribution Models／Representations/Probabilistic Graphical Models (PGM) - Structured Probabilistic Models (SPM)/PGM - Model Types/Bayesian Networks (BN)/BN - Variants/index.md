@@ -9,8 +9,7 @@ children:
   - "[[Dynamic Bayesian Networks (DBN)]]"
   - "[[Hybrid Bayesian Networks (Discrete & Continuous Variables)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Causal Networks／Models／Graphs／Diagrams]]
+- [[Conditional Bayesian Networks]]
+- [[Dynamic Bayesian Networks (DBN)]]
+- [[Hybrid Bayesian Networks (Discrete & Continuous Variables)]]

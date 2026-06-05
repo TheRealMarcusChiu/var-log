@@ -14,11 +14,14 @@ children:
   - "[[Workout Goals]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Calisthenics]]
+- [[Current Workout Routine]]
+- [[My Workout Routine]]
+- [[Protein Supplements／Shakes]]
+- [[Stretching Flexibility]]
+- [[Weighted Pull-up Workout Routine #1]]
+- [[Weighted Pull-up Workout Routine #2]]
+- [[Workout Goals]]
 
 # Resources
 - [https://www.bulknutrients.com.au/blog/muscle-building/my-top-10-tips-for-getting-shredded](https://www.bulknutrients.com.au/blog/muscle-building/my-top-10-tips-for-getting-shredded)

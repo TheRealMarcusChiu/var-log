@@ -15,8 +15,6 @@ children:
 ^excerpt
 
 # Linguistic Subfields
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Linguistics - Human vs Animals]]
+- [[Linguistics - Main Subfields & Language Components]]
+- [[Linguistics - Other Subfields]]

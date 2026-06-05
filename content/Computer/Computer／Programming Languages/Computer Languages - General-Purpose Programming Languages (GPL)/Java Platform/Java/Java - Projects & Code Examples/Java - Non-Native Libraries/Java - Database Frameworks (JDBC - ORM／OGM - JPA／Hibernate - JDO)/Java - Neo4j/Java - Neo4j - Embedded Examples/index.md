@@ -13,11 +13,10 @@ see: [[Neo4j - Embedded]]
 - code: [https://github.com/SpringBootMarcusChiu/neo4j-embedded-example](https://github.com/SpringBootMarcusChiu/neo4j-embedded-example)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Neo4j - Embedded]]
+- [[Java - Neo4j - Embedded 3.x With APOC Plugin]]
+- [[Java - Neo4j - Embedded 4.x With APOC Plugin]]
+- [[Java - Neo4j - Embedded With Spring Data Neo4j (SDN)]]
 
 # Resources
 

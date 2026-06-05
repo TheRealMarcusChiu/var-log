@@ -25,11 +25,12 @@ children:
 ^excerpt
 
 # Category Theory - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Adjunction]]
+- [[Category／Categories]]
+- [[Duality]]
+- [[Functors]]
+- [[Natural Transformations - Natural Isomorphisms - Natural Equivalence - Isomorphism of Functors - Infranatural Transformations]]
+- [[Naturality]]
 
 - [[Mathematical Object]]
 - [[Morphisms - Homomorphic／Homomorphisms (Isomorphic／Isomorphisms - Monomorphic／Monomorphisms／Injective - Epimorphic／Epimorphisms／Surjective - Endomorphic／Endomorphisms - Automorphic／Automorphisms)|Morphisms - Homomorphic/Homomorphisms (Isomorphic/Isomorphisms - Monomorphic/Monomorphisms/Injective - Epimorphic/Epimorphisms/Surjective - Endomorphic/Endomorphisms - Automorphic/Automorphisms)]]

@@ -9,8 +9,7 @@ children:
   - "[[Stochastic Process - Mean Function]]"
   - "[[Stochastic Process - Unit Root]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Stochastic Process - (Joint／Jointly - Strict-Sense／Strictly／Strong-Sense／Strongly - Trend - Cyclo - Wide／Weak-Sense - Nth-Order) Stationary Process]]
+- [[Stochastic Process - Auto／Cross／Partial Correlation／Covariance]]
+- [[Stochastic Process - Mean Function]]
+- [[Stochastic Process - Unit Root]]

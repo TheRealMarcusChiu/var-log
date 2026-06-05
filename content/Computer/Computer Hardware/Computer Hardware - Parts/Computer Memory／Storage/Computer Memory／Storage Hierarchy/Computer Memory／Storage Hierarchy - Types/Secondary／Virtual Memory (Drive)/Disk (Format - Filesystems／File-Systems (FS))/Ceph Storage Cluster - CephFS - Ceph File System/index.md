@@ -31,11 +31,8 @@ When running Ceph Filesystem clients the following is required:
 
 Ceph stores data as objects within logical storage pools. Using the [[Controlled Replication Under Scalable Hashing (CRUSH)|CRUSH]] algorithm, Ceph calculates which placement group should contain the object, and further calculates which Ceph OSD Daemon should store the placement group. The CRUSH algorithm enables the Ceph Storage Cluster to scale, rebalance, and recover dynamically.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ceph Block Devices (CBD) - RADOS Block Devices (RBD)]]
+- [[Ceph Storage - Installation & Setup]]
 
 # Resources
 - [https://docs.ceph.com/en/reef/](https://docs.ceph.com/en/reef/)

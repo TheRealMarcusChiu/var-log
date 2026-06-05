@@ -9,8 +9,7 @@ children:
   - "[[Node Cutset]]"
   - "[[W-Cutset]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Edge Cutset]]
+- [[Loop Cutset]]
+- [[Node Cutset]]
+- [[W-Cutset]]

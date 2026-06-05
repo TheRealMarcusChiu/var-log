@@ -35,8 +35,19 @@ children:
 - <strong>[[Probability Spaces (Sample Space - Event Space - Probability Measure)|probability space]]</strong> (𝛺,𝐹,𝑃)
 
 # Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)]]
+- [[Central Limit Theorem (CLT)]]
+- [[Degrees of Freedom (DoF - df)]]
+- [[Exchangeability／Exchangeable (Finite Exchangeability - Infinite Exchangeability)]]
+- [[Gambler's Fallacy - Monte Carlo Fallacy - Fallacy of the Maturity of Chances]]
+- [[Independent and Identically Distributed (IID)]]
+- [[Law of Total Probability]]
+- [[Odds Ratio]]
+- [[Principle of Indifference - Principle of Insufficient Reasoning]]
+- [[Probability (Dependence／Dependent - Independence／Independent)]]
+- [[Probability (Product Rule - Chain Rule)]]
+- [[Probability Spaces (Sample Space - Event Space - Probability Measure)]]
+- [[Random Variables (RV)]]
+- [[Reference Class Problem]]
+- [[Regression to the Mean]]
+- [[The Law of Large Numbers]]

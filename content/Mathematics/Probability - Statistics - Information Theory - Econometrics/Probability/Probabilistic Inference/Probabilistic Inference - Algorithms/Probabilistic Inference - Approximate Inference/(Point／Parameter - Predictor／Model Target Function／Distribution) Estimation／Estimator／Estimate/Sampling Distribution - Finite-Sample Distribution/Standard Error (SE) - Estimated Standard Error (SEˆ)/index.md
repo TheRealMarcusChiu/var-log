@@ -60,11 +60,8 @@ For example, in calculating the standard error of sample mean 𝑋̅, if we don'
 - 𝐒𝐄<font style="color: rgb(255,0,0);">ˆ</font>(𝑋̅) = 𝑠/√𝑛
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Standard Error (SE) vs Standard Deviation (SD)]]
+- [[Standard Error - MLE]]
 
 # Estimated Standard Error - Other Formulas
 - [[Bootstrap／Bootstrapping (Statistics)|Bootstrap/Bootstrapping (Statistics)]]

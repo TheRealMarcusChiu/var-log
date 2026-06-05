@@ -9,10 +9,9 @@ children:
   - "[[apt-get - apt-cache]]"
   - "[[dpkg (Debian Package)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[apt (Advanced Packaging Tool)]]
+- [[apt vs apt-get]]
+- [[apt-get - apt-cache]]
+- [[dpkg (Debian Package)]]
 
 list of other [[UNIX - Package Managers (All)]]

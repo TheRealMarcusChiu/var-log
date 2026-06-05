@@ -8,8 +8,6 @@ children:
   - "[[WebHooks vs WebSub]]"
   - "[[WebSubs - PubSubHubbub - PubSub - PuSH]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[WebHooks]]
+- [[WebHooks vs WebSub]]
+- [[WebSubs - PubSubHubbub - PubSub - PuSH]]

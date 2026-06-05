@@ -43,8 +43,6 @@ therefore, when we multiply a [[Bayes' Rule／Theorem／Law (Prior - Posterior 
 
 ![](https://www.youtube.com/watch?v=R9NQY2Hyl14)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Posterior Predictive Check (PPC)]]
+- [[Posterior Predictive Distribution - Approximation／Estimation by Sampling]]
+- [[Posterior Predictive Distribution vs Posterior Distribution]]

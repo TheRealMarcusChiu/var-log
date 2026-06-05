@@ -14,8 +14,4 @@ where:
 - 𝛤 - [[Gamma Function|gamma function]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Incomplete Beta Function - Regularized Incomplete Beta Function]]

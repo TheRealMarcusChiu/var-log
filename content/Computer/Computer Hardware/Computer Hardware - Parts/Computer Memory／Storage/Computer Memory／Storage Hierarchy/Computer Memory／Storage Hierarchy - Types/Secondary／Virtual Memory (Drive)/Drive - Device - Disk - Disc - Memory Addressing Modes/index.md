@@ -16,8 +16,7 @@ children:
 ^excerpt
 
 # Memory Addressing Modes
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cylinder-Head-Record (CHR) Addressing Mode]]
+- [[Cylinder-Head-Sector (CHS) Addressing Mode]]
+- [[LBA & CHS - Mappings／Conversion]]
+- [[Logical Block Addressing (LBA) Mode - Logical Sector Number (LSN)]]

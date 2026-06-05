@@ -24,8 +24,6 @@ children:
 <span style="white-space: pre-wrap"><code>     npm install -g @angular/cli@1.5.2</code></span>
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Angular - Router]]
+- [[Angular - Testing]]
+- [[Angular - Tour of Heroes]]

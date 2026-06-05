@@ -15,11 +15,9 @@ children:
 - [[AND／OR Search Graphs (AOG)|AND/OR Search Graphs (AOG)]]
 
 # AND/OR Search Space - AOT & AOG Other Stuff
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[AND／OR Search Spaces - Other Stuff]].file.folder + "/" + [[AND／OR Search Spaces - Other Stuff]].file.name
-```
+- [[AOT & AOG - Finding Good Pseudo Tree]]
+- [[AOT & AOG - Solving Probabilistic Inference Queries]]
+- [[AOT & AOG - Using Tree Decomposition as Guiding Pseudo Tree]]
 
 # AND/OR Search Space - Complexity Comparison (AOT vs AOG)
 

@@ -10,11 +10,7 @@ children:
 - TODO
 
 # DMS - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Comprehensive Knowledge Archive Network (CKAN)]]
 
 - Apache Atlas - [https://atlas.apache.org/#/](https://atlas.apache.org/#/)
 - OpenData Discovery - [https://opendatadiscovery.org/](https://opendatadiscovery.org/)

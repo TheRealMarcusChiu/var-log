@@ -8,8 +8,5 @@ children:
   - "[[NVM Express (NVMe) - Non-Volatile Memory Host Controller Interface Specification (NVMHCIS)]]"
 ---
 # Memory Interfaces
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Advance Host Controller Interface (AHCI)]]
+- [[NVM Express (NVMe) - Non-Volatile Memory Host Controller Interface Specification (NVMHCIS)]]

@@ -8,11 +8,7 @@ children:
 ---
 <strong>Multi-Commodity Flow (MCF) Problems </strong>are any flow problems where several flows are handled simultaneously
 ### [[Linear Programming／Optimization (LP)|LP]] Multi-Commodity Flow Problems
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[LP - Multi-Commodity Flow Problem - 1]]
 
 ### [[Integer／Discrete Linear Programming／Optimization (ILP)|ILP]] Multi-Commodity Flow Problems
 - [[Flow Assignment／Routing Problem|Flow Assignment/Routing Problem]]

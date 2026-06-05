@@ -15,11 +15,11 @@ children:
 - forming part of the [[Subject - Predicate (Verb - Object)|predicate]] of a sentence
 
 # Verb - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Infinitive]]
+- [[Modal Verbs]]
+- [[Verb (Tense & Aspect)]]
+- [[Verb Forms]]
+- [[Verb Mood (Indicative - Subjunctive - Imperative)]]
 
 - [[Passive Voice - Active Voice]]
 

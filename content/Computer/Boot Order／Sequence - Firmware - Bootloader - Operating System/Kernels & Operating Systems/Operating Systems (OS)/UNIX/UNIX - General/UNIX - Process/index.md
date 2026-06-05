@@ -14,11 +14,8 @@ children:
 # Subpages
 - [[Inter-Process／Interprocess Communication (IPC)|Inter-Process/Interprocess Communication (IPC)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[UNIX - Process Priority Level (PR) - Nice Value (NI)]]
+> - [[UNIX - Process States]]
 
 # Process Viewing
 - [[htop]]

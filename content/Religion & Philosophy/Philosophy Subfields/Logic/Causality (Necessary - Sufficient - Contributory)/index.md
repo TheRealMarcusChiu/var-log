@@ -68,8 +68,5 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws]]
+- [[Retrocausality - Reverse／Backwards Causality／Causation]]

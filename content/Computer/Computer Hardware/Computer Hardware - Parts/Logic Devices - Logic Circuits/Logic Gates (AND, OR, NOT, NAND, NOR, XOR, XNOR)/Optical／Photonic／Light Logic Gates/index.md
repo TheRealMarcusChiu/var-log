@@ -15,8 +15,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Optical Transistors／Computing with Plasma]]
+- [[Silicon Photonics (SiPh)]]

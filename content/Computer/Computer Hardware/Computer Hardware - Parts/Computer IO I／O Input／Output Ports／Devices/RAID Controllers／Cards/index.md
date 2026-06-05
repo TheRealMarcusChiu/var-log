@@ -15,8 +15,4 @@ children: []
 
 IT mode & HBA Mode are the same thing - it is where a RAID card emulates the functionality of a basic [[Host Controller - Host Adapter - Host Bus Adapter (HBA)|HBA]]. They pass through visibility of all the connected physical drives through to the [[Operating Systems (OS)|operating system]].
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+

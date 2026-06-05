@@ -15,11 +15,12 @@ children:
 - is a specialized computer language used to describe the structure and behavior of electronic circuits, and most commonly, digital logic circuits
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chisel (HDL)]]
+- [[Lucid (HDL)]]
+- [[SystemC]]
+- [[SystemVerilog]]
+- [[Verilog]]
+- [[VHSIC Hardware Description Language (VHDL) - Very High-Speed Integrated Circuits Program (VHSIC)]]
 
 # IDEs
 - [[HDL - Integrated Development Environments (IDEs)]]

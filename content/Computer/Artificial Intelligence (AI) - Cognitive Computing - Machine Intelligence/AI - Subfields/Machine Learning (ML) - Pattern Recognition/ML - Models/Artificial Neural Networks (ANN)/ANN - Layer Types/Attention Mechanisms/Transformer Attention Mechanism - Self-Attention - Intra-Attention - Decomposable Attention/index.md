@@ -22,11 +22,8 @@ children:
 
 The key/value/query concepts come from retrieval systems. For example, when you type a query to search for some video on Youtube, the search engine will map your <strong>query</strong> against a set of <strong>keys</strong> (video title, description etc.) associated with candidate videos in the database, then present you the best matched videos (<strong>values</strong>).
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Multi-Head Attention (MHA)]]
+- [[Scaled Dot-Product Attention (SDPA)]]
 
 # Resources
 - [https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)

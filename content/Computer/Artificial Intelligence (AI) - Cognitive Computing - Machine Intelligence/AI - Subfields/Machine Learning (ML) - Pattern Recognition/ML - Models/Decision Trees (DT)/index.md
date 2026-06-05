@@ -24,11 +24,8 @@ children:
 - look-ahead helps, but is computationally intensive
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Classification and Regression Tree (CART) - Regression Tree]]
+- [[Iterative Dichotomiser 3 (ID3)]]
 
 # Resources
 - [https://explained.ai/decision-tree-viz/index.html](https://explained.ai/decision-tree-viz/index.html)

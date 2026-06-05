@@ -15,8 +15,7 @@ it began on March 18, 2018 the day after I quit work. I have been using it until
 
 [example post](http://doc.marcuschiu.com/log-page/5c32cf40154cee28cd8f3fd5)
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Backup - doc.marcuschiu.com]]
+- [[Current Architecture - Basic]]
+- [[Current Architecture - Detailed]]
+- [[Future Architecture]]

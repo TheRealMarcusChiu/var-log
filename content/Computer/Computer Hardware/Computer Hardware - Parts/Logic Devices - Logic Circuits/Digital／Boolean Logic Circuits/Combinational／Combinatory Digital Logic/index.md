@@ -16,8 +16,5 @@ children:
 # Subpages
 - [[Logic Gates (AND, OR, NOT, NAND, NOR, XOR, XNOR)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Demultiplexer (DEMUX)]]
+> - [[Multiplexer (MUX)]]

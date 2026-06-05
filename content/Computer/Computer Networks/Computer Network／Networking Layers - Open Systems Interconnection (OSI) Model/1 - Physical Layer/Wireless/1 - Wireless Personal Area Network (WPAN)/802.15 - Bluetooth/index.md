@@ -12,8 +12,5 @@ children:
 - operate on 2.45 Ghz
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bluetooth Direct]]
+- [[Bluetooth Mesh]]

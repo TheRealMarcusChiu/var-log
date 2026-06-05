@@ -17,8 +17,7 @@ children:
 ^excerpt
 
 # Python - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Python - Code]]
+- [[Python - Installation, Managing Versions, and Managing Packages]]
+- [[Python - Packages]]
+- [[Python - Projects]]

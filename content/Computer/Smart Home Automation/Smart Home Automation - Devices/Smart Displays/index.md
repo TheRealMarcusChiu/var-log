@@ -6,8 +6,4 @@ parent: "[[Smart Home Automation - Devices]]"
 children:
   - "[[Visionect - Place & Play Display]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Visionect - Place & Play Display]]

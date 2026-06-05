@@ -15,11 +15,9 @@ children:
 - instructions take a variable number of clock cycles
 
 # CISC - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[IA-32 vs x86 - IA-64 vs x64]]
+- [[IBM System／360]]
+- [[x86 x64 (x86-16, x86-32, x86-64)]]
 
 - System/360
 - VAX

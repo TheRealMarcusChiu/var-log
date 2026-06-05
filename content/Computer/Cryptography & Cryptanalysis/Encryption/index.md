@@ -17,10 +17,9 @@ children:
 ^excerpt
 
 # Encryption Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Encryption - Algorithm Classifications]]
+- [[Encryption - Algorithms]]
+- [[Encryption - Attacks]]
+- [[Key Infrastructures]]
 
 ![[Encryption/1.jpg|400]]

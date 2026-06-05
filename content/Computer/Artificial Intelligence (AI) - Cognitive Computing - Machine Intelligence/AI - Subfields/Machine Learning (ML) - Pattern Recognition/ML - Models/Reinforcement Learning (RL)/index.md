@@ -219,11 +219,20 @@ containing a model of the environment:
 }
 ```
 # RL - Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AlphaGo Fan／Lee／Master／Zero]]
+- [[Contrastive Reinforcement Learning (CRL)]]
+- [[Deep Q Networks (DQN)]]
+- [[Multi／K-Armed Bandit Problem]]
+- [[Policy Gradient Methods]]
+- [[Proximal Policy Optimization (PPO)]]
+- [[Q-Function]]
+- [[Q-Learning]]
+- [[Reinforcement Learning from Human Feedback (RLHF)]]
+- [[RL - Applications]]
+- [[RL - Example (Tic-Tac-Toe)]]
+- [[RL - Human Priors for Playing Video Games]]
+- [[RL Chapters]]
+- [[Selective Bootstrap Adaptation]]
 
 # RL - Resources
 - [Reinforcement Learning: An Introduction (2017)](http://incompleteideas.net/book/bookdraft2017nov5.pdf) \~ Richard S. Sutton and Andrew G. Barto

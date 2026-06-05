@@ -8,8 +8,6 @@ children:
   - "[[AOT & AOG - Solving Probabilistic Inference Queries]]"
   - "[[AOT & AOG - Using Tree Decomposition as Guiding Pseudo Tree]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AOT & AOG - Finding Good Pseudo Tree]]
+- [[AOT & AOG - Solving Probabilistic Inference Queries]]
+- [[AOT & AOG - Using Tree Decomposition as Guiding Pseudo Tree]]

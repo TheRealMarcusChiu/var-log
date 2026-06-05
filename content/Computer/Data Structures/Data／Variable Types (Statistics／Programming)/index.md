@@ -38,8 +38,5 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Data／Variable Types - Levels (Base - Flat - Complex)]]
+- [[Data／Variable Types - Measurement Scales (Nominal／Categorical／Factor - Ordinal - Interval - Ratio)]]

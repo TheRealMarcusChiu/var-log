@@ -8,8 +8,6 @@ children:
   - "[[Vite]]"
   - "[[webpack]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Create React App (CRA)]]
+- [[Vite]]
+- [[webpack]]

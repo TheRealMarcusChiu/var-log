@@ -6,8 +6,4 @@ parent: "[[Religion & Philosophy]]"
 children:
   - "[[Reductionism vs Holism]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Reductionism vs Holism]]

@@ -13,8 +13,5 @@ children:
 - [[Probabilistic Inference - Approximate Inference|Approximate Inference]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MN／MRF - Exact Inference - Inference by Enumeration & Variable Elimination]]
+- [[MN／MRF - Probabilistic Inference - Easier Computation for Argmax Queries]]

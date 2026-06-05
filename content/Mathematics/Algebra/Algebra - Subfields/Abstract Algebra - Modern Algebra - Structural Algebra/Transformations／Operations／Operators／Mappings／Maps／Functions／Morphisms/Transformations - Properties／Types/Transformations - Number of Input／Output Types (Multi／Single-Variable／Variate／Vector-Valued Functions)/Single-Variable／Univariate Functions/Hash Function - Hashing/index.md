@@ -26,8 +26,5 @@ children:
 	- [MetroHash](https://github.com/dgryski/go-metro)
 	- [SipHash1–3](https://github.com/dgryski/go-sip13)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[MurmurHash]]
+> - [[Rendezvous Hashing - Highest Random Weight (HRW) Hashing]]

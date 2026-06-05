@@ -9,8 +9,6 @@ children:
   - "[[Java - Jakarta XML Binding (JAXB) - Java Architecture for XML Binding]]"
 ---
 Java Frameworks for [[Serialization／Marshalling／Encoding - Deserialization／Unmarshalling／Decoding／Parsing|Serialization/Marshalling/Encoding - Deserialization/Unmarshalling/Decoding/Parsing]]:
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - GSON]]
+- [[Java - Jackson (Codehaus vs FasterXML) - ObjectMapper]]
+- [[Java - Jakarta XML Binding (JAXB) - Java Architecture for XML Binding]]

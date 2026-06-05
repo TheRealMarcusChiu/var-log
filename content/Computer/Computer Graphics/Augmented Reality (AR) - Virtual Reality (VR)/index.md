@@ -7,8 +7,5 @@ children:
   - "[[Meta Quest - Oculus Quest]]"
   - "[[Virtual Reality (VR)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Meta Quest - Oculus Quest]]
+- [[Virtual Reality (VR)]]

@@ -23,8 +23,5 @@ When "E" is used to denote "expected value", authors use a variety of stylizatio
 - the expectation of 𝑋 can be stylized as 𝐸(𝑋), 𝐸\[𝑋\], 𝐸𝑋, 𝜇<sub><em>𝑋</em></sub>, whereas ⟨𝑋⟩, ⟨𝑋⟩<sub>𝑎𝑣</sub>, and 𝑋̅ are commonly used in physics, and 𝑀(𝑋) in Russian-language literature.
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Expected Value ／ Expectation - Properties]]
+- [[Sample Mean]]

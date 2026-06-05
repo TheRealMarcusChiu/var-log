@@ -21,11 +21,8 @@ children:
 - the sampling procedure employed (biased or unbiased)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Effective Sample Size (ESS)]]
+- [[Standard Error (SE) - Estimated Standard Error (SEˆ)]]
 # Sampling Distributions of Specific Statistics 𝜃ˆ
 the sampling distributions of statistics 𝜃ˆ can be of any distribution, for example:
 - [[Sampling Distribution of Sample Mean - Sample Mean Distribution|Sampling Distribution of Sample Mean]] is normally distributed

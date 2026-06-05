@@ -8,8 +8,4 @@ children:
 ---
 for English Grammar refer to: [[Grammar = Morphology + Part of Speech + Syntax]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[English Conditionals]]

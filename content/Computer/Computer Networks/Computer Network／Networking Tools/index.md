@@ -17,10 +17,17 @@ children:
   - "[[ping]]"
   - "[[traceroute]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[arp]]
+- [[arping]]
+- [[bridge-utils]]
+- [[Firewalls - Bastion Host]]
+- [[ip binary]]
+- [[macchanger]]
+- [[netstat]]
+- [[network interface tools]]
+- [[network-manager]]
+- [[nmap]]
+- [[ping]]
+- [[traceroute]]
 
 - [[Network／Protocol／Packet Analyzer／Sniffer|Network/Protocol/Packet Analyzer/Sniffer]]

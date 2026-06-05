@@ -21,8 +21,14 @@ children:
 - these operating systems are manufactured into a binary firmware image and are commonly called router firmware
 
 # Router Firmware - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Arista Router Firmware]]
+- [[Cisco Firepower]]
+- [[Cisco Internetwork Operating System (IOS)]]
+- [[DD-Wireless RouTer (DD-WRT)]]
+- [[Fortinet]]
+- [[Meraki]]
+- [[OpenWRT]]
+- [[OPNsense]]
+- [[pfSense]]
+- [[Sophos]]
+- [[Ubiquiti／Unifi Router／Firewall Firmware]]

@@ -16,7 +16,7 @@ DBMS Cheatsheet
   "rows": [
     [
       "![[DBMS - Type Comparisons/SQL-vs-NoSQL-cheatsheet-for-AWS-Azure-Google-Cloud.jpeg]]",
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```"
+      "- [[SQL (Row／Relational) DB vs Document (Non-Relational) DB]]\n- [[SQL (Row／Relational) DB vs NoSQL (Column) DB]]\n- [[SQL (Row／Relational) DB vs NoSQL (Non-Relational) DB]]"
     ]
   ]
 }

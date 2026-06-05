@@ -10,8 +10,6 @@ children:
 ---
 <strong>geology</strong> is the science that deals with the earth's physical structure and substance, its history, and the processes that act on it
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Atmosphere]]
+- [[Geologic Time Scale (GTS)]]
+- [[Pelagic Zones]]

@@ -16,11 +16,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[PSU (80+ 80 PLUS Standard／White Bronze Silver Gold Platinum Titanium Certified)]]
+- [[PSU (ATX 3.1 PCIe 5.1 vs ATX 3.0 PCIe 5.0)]]
+- [[PSU (Form Factors) ATX PS／2 PS／3 SFX SFX-L Flex ATX TFX PS／2 Mini Redundant]]
+- [[PSU (Fully Modular - Semi-Modular - Non-Modular)]]
 
 # Products
 - [https://cultists.network/140/psu-tier-list/](https://cultists.network/140/psu-tier-list/)

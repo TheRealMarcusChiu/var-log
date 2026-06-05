@@ -11,11 +11,8 @@ children:
 - is a [[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)|Type-1 Hypervisor]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[VMware Elastic Sky X Integrated (ESXi)]]
+- [[WMware Workstation]]
 
 # Resources
 - [http://www.vmware.com/](http://www.vmware.com/)

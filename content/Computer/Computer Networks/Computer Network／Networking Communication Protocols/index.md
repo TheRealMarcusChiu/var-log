@@ -5,50 +5,72 @@ modified: 2023-11-16T21:54:16.846-06:00
 parent: "[[Computer Networks]]"
 children: []
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Wired]].file.folder + "/" + [[Wired]].file.name
-```
+- [[802.3 - Ethernet]]
+- [[802.8 - Fiber Optic]]
+- [[Active Optical Cable (AOC)]]
+- [[Cable]]
+- [[Digital Subscriber Line (DSL)]]
+- [[Direct Attach Copper (DAC)]]
+- [[Fibre Channel (FC)]]
+- [[InfiniBand (IB)]]
+- [[Passive Optical Network (PON)]]
+- [[SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP]]
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Wireless]].file.folder + "/" + [[Wireless]].file.name
-```
+- [[1 - Wireless Personal Area Network (WPAN)]]
+- [[2 - Wireless Local Area Network (WLAN)]]
+- [[3 - Wireless Metropolitan Area Network (WMAN)]]
+- [[4 - Wireless Worldwide Area Network (WWAN)]]
+- [[Carrier／Modulation Signal／Wave - Modulation／Modulate／Modulator - Demodulation／Demodulate／Demodulation - Modem]]
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[2 - Data Link Layer]].file.folder + "/" + [[2 - Data Link Layer]].file.name
-```
+- [[Address Resolution Protocol (ARP) - Reverse ARP (RARP)]]
+- [[Layer 2 Tunneling Protocol (L2TP)]]
+- [[Point-to-Point Protocol (PPP)]]
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[3 - Network Layer]].file.folder + "/" + [[3 - Network Layer]].file.name
-```
+- [[Internet Control Message Protocol  (ICMP)]]
+- [[Internet Group Management Protocol (IGMP)]]
+- [[Routed Protocols]]
+- [[Routing Protocols]]
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[4 - Transport Layer]].file.folder + "/" + [[4 - Transport Layer]].file.name
-```
+- [[Distributed Computing Environment ／ Remote Procedure Calls (DCE／RPC)]]
+- [[Quick UDP Internet Connections (QUIC)]]
+- [[Real-Time Transport Protocol (RTP) & Real-Time Transport Control Protocol (RTCP)]]
+- [[Remote Procedure Call (RPC) - network protocol]]
+- [[Stream Control Transmission Protocol (SCTP)]]
+- [[Transmission Control Protocol (TCP)]]
+- [[Universal／User Datagram Protocol (UDP)]]
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[5 - Session Layer]].file.folder + "/" + [[5 - Session Layer]].file.name
-```
+- [[Network Basic Input／Output System (NetBIOS)]]
+- [[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)]]
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[6 - Presentation Layer]].file.folder + "/" + [[6 - Presentation Layer]].file.name
-```
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[7 - Application Layer]].file.folder + "/" + [[7 - Application Layer]].file.name
-```
+
+- [[BitTorrent Protocol]]
+- [[Distributed - Peer-to-Peer Protocol]]
+- [[Domain Name System／Service (DNS)]]
+- [[Dynamic Domain Name System (DDNS)]]
+- [[Electronic Mail (email or e-mail)]]
+- [[File Transfer Protocol (FTP)]]
+- [[Hyper Text Transfer Protocol Secure (HTTPS)]]
+- [[Hypertext／Hyper Text Transfer Protocol (HTTP) - 1／1.1／2]]
+- [[Internet Small Computer Systems Interface (iSCSI)]]
+- [[IP Address Assignment]]
+- [[Message Queuing Telemetry Transport (MQTT)]]
+- [[Multicast DNS (mDNS)]]
+- [[Network File System (NFS)]]
+- [[Network News Transfer Protocol (NNTP)]]
+- [[Network Time Protocol (NTP)]]
+- [[Proxy (Forward／Reverse Proxy Chains)]]
+- [[Reactive Streams]]
+- [[Real-Time Streaming Protocol (RTSP)]]
+- [[Remote Management Control Protocol (RMCP)]]
+- [[rlogin]]
+- [[Secure Shell (SSH)]]
+- [[Server Message Block Protocol (SMB)]]
+- [[Simple Network Management Protocol (SNMP)]]
+- [[Simple Network Time Protocol (SNTP)]]
+- [[SPDY (Deprecated)]]
+- [[SSHFS]]
+- [[Web Distributed Authoring and Versioning (WebDAV)]]
+- [[Web Real-Time Communication (WebRTC)]]
+- [[WebSockets]]
+- [[Windows Internet Name Service (WINS)]]

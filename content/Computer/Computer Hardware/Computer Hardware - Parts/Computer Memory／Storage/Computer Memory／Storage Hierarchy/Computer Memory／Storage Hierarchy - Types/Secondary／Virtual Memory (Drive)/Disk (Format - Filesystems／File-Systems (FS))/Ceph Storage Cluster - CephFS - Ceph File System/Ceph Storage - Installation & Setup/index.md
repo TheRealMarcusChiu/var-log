@@ -7,11 +7,8 @@ children:
   - "[[Ceph Storage - Installation (Kubernetes + Helm)]]"
   - "[[Ceph Storage - Manually Installation & Setup]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ceph Storage - Installation (Kubernetes + Helm)]]
+- [[Ceph Storage - Manually Installation & Setup]]
 
 - [[Rook - Installation & Setup|Rook Installation & Setup]] - [[Rook (Kubernetes)|Rook]] supports Ceph Storage
 - [[Proxmox - High Availability Cluster - Ceph]]

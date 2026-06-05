@@ -17,11 +17,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[D3.js - scaleband]]
+- [[D3.js - Styles and Attributes]]
 
 # Resources
 - [https://www.d3indepth.com/](https://www.d3indepth.com/)

@@ -17,11 +17,9 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kronecker Product - Matrix Direct Product]]
+- [[Tensor Product]]
+- [[Tensors]]
 
 # Resources
 - [EigenChris Lectures](https://www.youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx)

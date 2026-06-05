@@ -27,8 +27,4 @@ children:
 
 maximum height pseudo tree is simply a chain, finding the minimum height pseudo tree however is [[P - NP - NPC - NPI - NPO - NPH|NP-Complete]]. This problem is found in various tasks (e.g. finding the smallest possible [[Pseudo Tree - Extended Graph|AND/OR Search Graph]])
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Pseudo Tree - Minimal／Minimum (Height／Depth - Induced-Width - Tree-Width)]]

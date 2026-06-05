@@ -29,8 +29,12 @@ children:
 - [https://www.youtube.com/watch?v=09_LlHjoEiY](https://www.youtube.com/watch?v=09_LlHjoEiY)
 
 # Graph Theory - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Capacity and／or Flow Assignment Problems]]
+- [[Centrality(Node／Edge／Sub-Graph Centrality) - Degree／Eigenvector／Closeness／Betweenness Centrality]]
+- [[Graph Connectivity (edge-connectivity - node connectivity)]]
+- [[Graph Orders]]
+- [[Graph Theory - Algorithms]]
+- [[Graph Theory - Terminology]]
+- [[Graph Traversals／Search]]
+- [[Maximum Flow - Minimum Cut]]
+- [[Shortest Path(s) Problems]]

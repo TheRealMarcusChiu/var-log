@@ -16,8 +16,10 @@ children:
 - [[Computer Networks - A Systems Approach.pdf]]
 
 # Chapter Summaries
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CN - Chapter 1 - Foundation]]
+- [[CN - Chapter 2 - Getting Connected]]
+- [[CN - Chapter 3 - Internetworking]]
+- [[CN - Chapter 4 - Advanced Networking]]
+- [[CN - Chapter 5 - Transport Layer (End-to-End Protocols)]]
+- [[CN - Chapter 6 - Congestion Control and Resource Allocation]]
+- [[CN - Chapter 7 - End-to-End Data]]

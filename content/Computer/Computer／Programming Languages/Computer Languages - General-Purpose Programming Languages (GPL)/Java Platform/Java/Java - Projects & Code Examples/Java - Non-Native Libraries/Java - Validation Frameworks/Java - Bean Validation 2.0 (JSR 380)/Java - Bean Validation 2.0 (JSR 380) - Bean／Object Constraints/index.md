@@ -6,8 +6,4 @@ parent: "[[Java - Bean Validation 2.0 (JSR 380)]]"
 children:
   - "[[Java - Bean Validation 2.0 (JSR 380) - Annotations]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Bean Validation 2.0 (JSR 380) - Annotations]]

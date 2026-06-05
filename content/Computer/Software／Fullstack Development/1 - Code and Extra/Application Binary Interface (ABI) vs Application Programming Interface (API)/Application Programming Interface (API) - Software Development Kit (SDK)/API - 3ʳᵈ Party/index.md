@@ -12,8 +12,4 @@ children:
 ^excerpt
 
 # 3<sup>rd</sup> Party APIs
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[3rd Party API - Carrier Service]]

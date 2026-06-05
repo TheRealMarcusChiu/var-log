@@ -7,8 +7,5 @@ children:
   - "[[Apollo R Pro-1 mmWave Sensor]]"
   - "[[Aqara Zigbee Presence Sensor]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Apollo R Pro-1 mmWave Sensor]]
+- [[Aqara Zigbee Presence Sensor]]

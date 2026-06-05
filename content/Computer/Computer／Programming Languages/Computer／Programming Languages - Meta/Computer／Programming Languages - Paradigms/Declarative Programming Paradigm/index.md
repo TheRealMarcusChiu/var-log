@@ -17,11 +17,8 @@ children:
 - [[Imperative vs Declarative]]
 
 # Declarative Programming Subtypes
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Reactive Programming (Events)]]
+- [[Reactive Programming Paradigm (Dataflow)]]
 
 - [[Computer Languages - Function／Functional Programming Languages|Function/Functional Programming Paradigm]]
 - [[Computer Languages - Logic／Logical Programming Languages|Logic Programming]], Constraint Programming, and Constraint Logic Programming

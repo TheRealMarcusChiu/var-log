@@ -13,8 +13,4 @@ children:
 
 ![[ASCII/1.jpg|400]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Carriage Return (CR) - Line Feed (LF) - CRLF - End of Line (EOL)]]

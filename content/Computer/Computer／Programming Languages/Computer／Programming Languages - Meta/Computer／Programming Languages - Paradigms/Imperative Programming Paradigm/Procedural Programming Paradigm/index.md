@@ -17,8 +17,4 @@ children:
 - [[C／C++／Carbon／Rust|C/C++/Carbon/Rust]]
 
 # Procedural Programming - Subtypes
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Object-Oriented Programming]]

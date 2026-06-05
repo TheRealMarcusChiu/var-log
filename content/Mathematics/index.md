@@ -57,11 +57,47 @@ children:
 - <strong>applied mathematics</strong><em> - </em>applied to other disciplines such as physics and engineering
 
 # Mathematic Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Chaos - Complexity - Nonlinear Systems) Theory]]
+- [[Algebra]]
+- [[Algorithmic Information Theory (AIT)]]
+- [[Approximation Theory]]
+- [[Arithmetic]]
+- [[Category Theory]]
+- [[Combinatorics]]
+- [[Computational Neuroscience (CNS)]]
+- [[Computational Theory - Theory of Computation]]
+- [[Constructive Solid Geometry (CSG) - Computational Binary Solid Geometry]]
+- [[Control Theory]]
+- [[Decision Science／Theory]]
+- [[Differential Geometry]]
+- [[Discrete Mathematics]]
+- [[Dynamical Systems Theory (DST)]]
+- [[Game Theory]]
+- [[Geometry]]
+- [[Graph Theory]]
+- [[Interpolation - Extrapolation]]
+- [[Lie Theory]]
+- [[Mathematical Analysis]]
+- [[Mathematical Formulas]]
+- [[Mathematical Programming／Optimization]]
+- [[Mathematical Syntax]]
+- [[Mathematics - Meta]]
+- [[Mathematics - Uncategorized]]
+- [[Measure Theory]]
+- [[Mechanism Design Theory - Reverse Game Theory]]
+- [[Multiway Causal Graphs]]
+- [[Numerical Analysis]]
+- [[Numerical Linear Algebra (NLA) - Applied Linear Algebra (ALA)]]
+- [[Operations／Operational Research (OR)]]
+- [[Optics]]
+- [[Probability - Statistics - Information Theory - Econometrics]]
+- [[Queueing Theory - Scheduling]]
+- [[Random Matrix Theory (RMT)]]
+- [[Real Intervals (Empty／Degenerate／Proper／Bounded／Finite／Half-Bounded／Unbounded／Left／Right／Open／Closed Intervals)]]
+- [[Set Theory]]
+- [[Spectral Graph Theory]]
+- [[Time-Series Analysis]]
+- [[Trigonometry]]
 
 # Mathematic Tools
 - <strong>2D visual graphing calculator</strong>

@@ -42,11 +42,8 @@ where:
 - $W = e^{\frac{i2\pi}{N}}$
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Fast Fourier Transform (FFT)]]
+- [[Inverse Discrete Fourier Transform (IDFT)]]
 
 # Resources
 - [Steve Brunton's The Discrete Fourier Transform (DFT)](https://www.youtube.com/watch?v=nl9TZanwbBk&list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC&index=15)

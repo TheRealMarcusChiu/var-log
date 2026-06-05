@@ -6,8 +6,4 @@ parent: "[[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)]]"
 children:
   - "[[SSL Stripping]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SSL Stripping]]

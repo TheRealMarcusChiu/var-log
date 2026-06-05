@@ -13,11 +13,14 @@ children:
   - "[[CrewAI]]"
   - "[[Hermes AI]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AI Agent Skills]]
+- [[AI Agent／Assistant Frameworks]]
+- [[AI Coding Agents／Assistants]]
+- [[AI Voice Agents]]
+- [[AutoGen]]
+- [[AutoGPT]]
+- [[CrewAI]]
+- [[Hermes AI]]
 
 # Vertical Agents
 - Lindy

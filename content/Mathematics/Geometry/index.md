@@ -29,11 +29,20 @@ children:
 - <strong>solid geometry</strong> - geometry in 3D Euclidean space
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Affine Geometry]]
+- [[Analytic Geometry]]
+- [[Asymptotic Geometry - Asymptotic Geometric Analysis - High-Dimensional Geometry]]
+- [[Closure - Star - Link]]
+- [[Congruent]]
+- [[Convex Geometry]]
+- [[Convex Hull／Envelope／Closure]]
+- [[Euclidean Geometry]]
+- [[Geometry - Geometric Objects]]
+- [[Hyperbolic Geometry]]
+- [[Projective Geometry]]
+- [[Pythagorean Theorem]]
+- [[Similar]]
+- [[Synthetic／Axiomatic／Pure Geometry]]
 
 # Resources
 - [Topology & Geometry by Dr Tadashi Tokieda](https://www.youtube.com/playlist?list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ)

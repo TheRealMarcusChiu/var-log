@@ -7,11 +7,8 @@ children:
   - "[[The 36 Questions]]"
   - "[[Thought Experiments]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[The 36 Questions]]
+- [[Thought Experiments]]
 
 - guess first impressions of each other - and ask what is first impressions of each other
 

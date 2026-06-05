@@ -8,8 +8,6 @@ children:
   - "[[Bandwidth - Throughput - Link Speed - Forwarding Rate - Packets Per Second (pps) - Bit Rate - Line Rate - Wirespeed]]"
   - "[[Ports - Sockets - An Application Demultiplexer]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Autonomous System (AS) - Domain]]
+- [[Bandwidth - Throughput - Link Speed - Forwarding Rate - Packets Per Second (pps) - Bit Rate - Line Rate - Wirespeed]]
+- [[Ports - Sockets - An Application Demultiplexer]]

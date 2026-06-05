@@ -12,8 +12,9 @@ children:
   - "[[Roll - Pitch - Yaw]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ballistic Missiles]]
+- [[Bomb Science]]
+- [[F-35 Lightning II]]
+- [[Guns]]
+- [[Rocket Science]]
+- [[Roll - Pitch - Yaw]]

@@ -52,11 +52,12 @@ children:
 
 other types: [https://wiki.archlinux.org/title/window_manager#List_of_window_managers](https://wiki.archlinux.org/title/window_manager#List_of_window_managers)
 # WM - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[bspwm]]
+- [[DWM]]
+- [[Hyprland]]
+- [[i3]]
+- [[OpenBox]]
+- [[Sway]]
 
 # WM - Other
 - [[Window Manager vs Desktop Environment]]

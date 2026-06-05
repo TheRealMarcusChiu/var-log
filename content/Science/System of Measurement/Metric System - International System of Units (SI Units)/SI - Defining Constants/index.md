@@ -6,8 +6,4 @@ parent: "[[Metric System - International System of Units (SI Units)]]"
 children:
   - "[[Coulomb (C)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Coulomb (C)]]

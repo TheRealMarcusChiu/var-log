@@ -18,11 +18,9 @@ children:
 
 [https://blog.z3bra.org/2014/04/meeting-at-the-bar.html](https://blog.z3bra.org/2014/04/meeting-at-the-bar.html)
 # HUD - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[conky]]
+- [[dzen]]
+- [[lemonbar]]
 
 - [[TMUX Status Bar]]
 

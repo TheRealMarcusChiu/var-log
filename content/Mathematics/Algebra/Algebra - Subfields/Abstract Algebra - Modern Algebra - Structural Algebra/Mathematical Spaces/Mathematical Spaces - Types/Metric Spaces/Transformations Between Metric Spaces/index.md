@@ -6,8 +6,4 @@ parent: "[[Metric Spaces]]"
 children:
   - "[[Transformations Between Metric Spaces (Ordinary Continuity ／ Continuous [at a point - everywhere] - Uniform／Uniformly／Sequential／Sequentially／Hölder／Lipschitz Continuous／Continuity)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Transformations Between Metric Spaces (Ordinary Continuity ／ Continuous [at a point - everywhere] - Uniform／Uniformly／Sequential／Sequentially／Hölder／Lipschitz Continuous／Continuity)]]

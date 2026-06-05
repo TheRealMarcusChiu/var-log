@@ -15,8 +15,4 @@ children:
 ^excerpt
 
 # Non-Computable Problems - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Halting Problem]]

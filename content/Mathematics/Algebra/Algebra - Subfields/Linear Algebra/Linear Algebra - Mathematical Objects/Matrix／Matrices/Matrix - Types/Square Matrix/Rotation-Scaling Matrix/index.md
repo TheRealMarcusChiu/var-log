@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Rotation-Scaling Matrix - Compute Eigenvalues & Eigenvectors]]
 
 # Resources
 - [https://textbooks.math.gatech.edu/ila/complex-eigenvalues.html](https://textbooks.math.gatech.edu/ila/complex-eigenvalues.html)

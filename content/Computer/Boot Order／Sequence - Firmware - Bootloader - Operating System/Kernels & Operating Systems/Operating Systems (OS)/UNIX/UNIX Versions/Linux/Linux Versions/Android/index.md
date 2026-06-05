@@ -15,15 +15,10 @@ children:
 ^excerpt
 
 # General
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Android - General]].file.folder + "/" + [[Android - General]].file.name
-```
+- [[Android - Deploying Linux Guest]]
+- [[Android - Root Device]]
+- [[Android - SSH into Device]]
+- [[Android - VNC Viewer]]
 
 # Versions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Android - Versions]].file.folder + "/" + [[Android - Versions]].file.name
-```
+- [[GrapheneOS]]

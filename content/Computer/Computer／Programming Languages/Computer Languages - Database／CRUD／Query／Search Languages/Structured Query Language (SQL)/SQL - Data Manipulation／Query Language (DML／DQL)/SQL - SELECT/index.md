@@ -9,10 +9,9 @@ children:
   - "[[SQL - Sub Query／Queries]]"
   - "[[SQL - Window Functions (ROW_NUMBER - RANK - DENSE_RANK - FIRST_VALUE - NTH_VALUE - LEAD - LAG - AVG - PERCENT_RANK - CUME_DIST - NTILE - PERCENTILE_CONT - PERCENTILE_DISC)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SQL - Common Table Expression (CTE)]]
+- [[SQL - JOIN]]
+- [[SQL - Sub Query／Queries]]
+- [[SQL - Window Functions (ROW_NUMBER - RANK - DENSE_RANK - FIRST_VALUE - NTH_VALUE - LEAD - LAG - AVG - PERCENT_RANK - CUME_DIST - NTILE - PERCENTILE_CONT - PERCENTILE_DISC)]]
 
 - [https://www.zentut.com/sql-tutorial/sql-group-by/](https://www.zentut.com/sql-tutorial/sql-group-by/)

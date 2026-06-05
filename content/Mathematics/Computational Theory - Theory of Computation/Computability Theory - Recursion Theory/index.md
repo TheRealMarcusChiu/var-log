@@ -16,8 +16,5 @@ Basic questions addressed by computability theory include:
 - How can non-computable functions be classified into a hierarchy based on their level of non-computability?
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Rice's Theorem]]
+- [[Turing Completeness／Complete - Computationally Universal]]

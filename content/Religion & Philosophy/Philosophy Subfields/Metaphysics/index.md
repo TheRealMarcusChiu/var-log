@@ -16,8 +16,5 @@ children:
 - the word "metaphysics" comes from 2 greek words, that literally mean "after or behind or among the \[study of\] the natural"
 
 ### Subfields
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ontology]]
+- [[Predestination - Fatalism - Predeterminism - Determinism - Molinism - Naturalism - Free Will - Libertarianism - Indeterminism]]

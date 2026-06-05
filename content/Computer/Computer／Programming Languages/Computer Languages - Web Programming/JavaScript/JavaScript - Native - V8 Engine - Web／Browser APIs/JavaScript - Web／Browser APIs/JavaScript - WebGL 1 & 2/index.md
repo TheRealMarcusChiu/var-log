@@ -12,15 +12,9 @@ children:
 - <font style="color: rgb(255,0,0);">is dying but isn't going away ([[JavaScript - WebGPU|WebGPU]]<font style="color: rgb(255,0,0);">is the future</font>)</font>
 
 # WebGL - Tutorials
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[WebGL - Tutorials]].file.folder + "/" + [[WebGL - Tutorials]].file.name
-```
+- [[WebGL - Tutorial 1 - Simple]]
 
 # WebGL - Frameworks
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[WebGL - Frameworks]].file.folder + "/" + [[WebGL - Frameworks]].file.name
-```
+- [[Babylon.js]]
+- [[PlayCanvas WebGL Game Engine]]
+- [[Three.js]]

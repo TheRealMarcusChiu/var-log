@@ -6,8 +6,4 @@ parent: "[[6 - Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analyt
 children:
   - "[[Real User Monitoring (RUM) vs Synthetic Monitoring (STM)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Real User Monitoring (RUM) vs Synthetic Monitoring (STM)]]

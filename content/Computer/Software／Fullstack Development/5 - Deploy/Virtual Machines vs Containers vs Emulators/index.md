@@ -24,11 +24,11 @@ children:
 
 ![[Virtual Machines vs Containers vs Emulators/containers-vs-virtual-machines.png]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Container／Image - Container Runtimes - Container Engine - Container-Based Virtualization - Container Scheduler／Orchestrator／Orchestration／Orchestrating Engine (COE)]]
+- [[Emulators／Mediator]]
+- [[System Containers vs Virtual Machines]]
+- [[TurnKey Linux Virtual Appliance Library]]
+- [[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)]]
 
 ![](https://www.youtube.com/watch?v=L1ie8negCjc)
 

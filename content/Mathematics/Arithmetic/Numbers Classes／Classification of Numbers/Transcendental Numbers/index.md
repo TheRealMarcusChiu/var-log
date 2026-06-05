@@ -11,8 +11,4 @@ children:
 - the best known transcendental numbers are 𝜋 and 𝑒
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[number e (Euler's number)]]

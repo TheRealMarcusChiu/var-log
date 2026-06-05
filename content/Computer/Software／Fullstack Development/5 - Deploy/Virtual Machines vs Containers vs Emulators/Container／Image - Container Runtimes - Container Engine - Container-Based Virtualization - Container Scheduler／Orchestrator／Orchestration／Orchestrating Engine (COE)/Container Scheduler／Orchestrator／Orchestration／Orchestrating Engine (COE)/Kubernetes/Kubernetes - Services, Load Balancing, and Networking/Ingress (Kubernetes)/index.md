@@ -21,11 +21,9 @@ children:
 
 You must have an [[Ingress Controllers|Ingress controller]] to satisfy an Ingress. Only creating an Ingress resource has no effect.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kubernetes - Ingress (Basic Example)]]
+- [[Kubernetes - Ingress (SSL Cert LetsEncrypt)]]
+- [[Kubernetes - Ingress (Sticky Sessions)]]
 
 # Resources
 - [https://kubernetes.io/docs/concepts/services-networking/ingress/](https://kubernetes.io/docs/concepts/services-networking/ingress/)

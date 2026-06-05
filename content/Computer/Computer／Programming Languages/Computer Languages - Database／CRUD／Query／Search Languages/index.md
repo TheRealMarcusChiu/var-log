@@ -18,11 +18,15 @@ children:
 - a language for the specification of procedures for the retrieval (and sometimes also modification) of information from a database
 
 # Query Language - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cassandra Query Language (CQL)]]
+- [[Cypher Query Language (CQL)]]
+- [[Graph Query Language (GQL) - Database]]
+- [[Hive Query Language (HQL)]]
+- [[Language Integrated Query (LINQ)]]
+- [[Search Processing Language (SPL)]]
+- [[SPARQL Protocol and RDF Query Language (SPARQL)]]
+- [[Structured Query Language (SQL)]]
+- [[XML Query (XQuery)]]
 
 - [[Graph Query Language (GraphQL) - API]]
 - [[Representational State Transfer (REST) - RESTful]]

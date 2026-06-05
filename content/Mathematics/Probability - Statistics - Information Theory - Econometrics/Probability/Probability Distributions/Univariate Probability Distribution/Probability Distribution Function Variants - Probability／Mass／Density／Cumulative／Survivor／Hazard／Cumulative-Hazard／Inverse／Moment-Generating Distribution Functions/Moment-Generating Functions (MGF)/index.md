@@ -33,11 +33,11 @@ The [[Raw Moments - Moments About the Origin／Zero - Central／Mean Moments - M
 
 If the MGF of 𝑋  is 𝑀<sub>𝑋</sub>(𝑡), then the MGF of 𝑎𝑋+𝑏 is 𝑒<sup>𝑏𝑡</sup>𝑀<sub>𝑋</sub>(𝑎𝑡)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Convergence of Moment-Generating Functions (MGF) → Convergence of Cumulative Distribution Functions (CDF)]]
+- [[Moment-Generating Function - Bernoulli Distribution]]
+- [[Moment-Generating Function - Binomial Distribution]]
+- [[Moment-Generating Function - Gamma Distribution]]
+- [[Moment-Generating Function - Geometric Distribution]]
 
 # Resources
 - [YouTube - Christina Knudson - Moment Generating Functions](https://www.youtube.com/playlist?list=PLdxWrq0zBgPU0DUvONdlNpgndFr0e6qt3)

@@ -15,8 +15,6 @@ children:
 ````
 ^excerpt
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Matrix - Decompositions／Factorizations]]
+- [[Matrix - Properties]]
+- [[Matrix - Types]]

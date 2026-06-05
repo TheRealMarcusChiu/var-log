@@ -10,11 +10,8 @@ children:
 social science is the study of society and the relationships among individuals within a society.
 
 branches of social sciences include, but are not limited to:
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Anthropology - Archaeology]]
+- [[Sociology & Relationships]]
 
 - [[Linguistics|linguistics]]
 - [[Psychology|psychology]]

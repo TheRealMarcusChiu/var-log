@@ -21,18 +21,11 @@ children:
 
 see: [[Parametric Regression (PR) Analysis]]
 # PR Models - Types/Classes
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Parametric Models - Types／Classes]].file.folder + "/" + [[Parametric Models - Types／Classes]].file.name
-```
+- [[(Level／Linear／Log-Level／Linear／Log) Regression Model]]
+- [[General Linear Models vs Generalized Linear Models]]
 
 # PR Models - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Parametric Models - Comparisons]].file.folder + "/" + [[Parametric Models - Comparisons]].file.name
-```
+- [[Probit vs Logit]]
 
 # PR Models - Dependent/Response Variable Type
 > [!tabs]

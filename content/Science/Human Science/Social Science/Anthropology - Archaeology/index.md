@@ -10,8 +10,5 @@ children:
 # Anthropology vs Archaeology
 Archaeology and Anthropology are both disciplines of [[Social Science|social science]] and the study of human societies. The main difference between archaeology and anthropology is that archaeology is the study of past civilizations while anthropology is the study of both contemporary cultures and their historical origins.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Anthropology]]
+- [[Archaeology]]

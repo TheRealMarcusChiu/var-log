@@ -15,8 +15,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Atrazine - The Dangers]]
+- [[The Great Pacific Garbage Patch]]
+- [[The Ocean is Dying]]

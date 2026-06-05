@@ -100,8 +100,5 @@ children:
 > <strong>1. running a single command on remote host</strong>
 > <span style="white-space: pre-wrap"><code>  ssh username@remote\_host \<command to run\></code></span>
 # Other Commands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SSH Tunneling]]
+- [[ssh-key-management]]

@@ -7,8 +7,5 @@ children:
   - "[[Polytope (Polygon - Polyhedron／Polyhedra)]]"
   - "[[Simplex - Simplices - Simplicial Complex]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Polytope (Polygon - Polyhedron／Polyhedra)]]
+- [[Simplex - Simplices - Simplicial Complex]]

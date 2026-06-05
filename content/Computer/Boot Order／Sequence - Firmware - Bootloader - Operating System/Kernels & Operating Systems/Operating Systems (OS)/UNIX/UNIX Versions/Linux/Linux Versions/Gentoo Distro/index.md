@@ -15,15 +15,8 @@ children:
 ^excerpt
 
 # Package Manager
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Gentoo Package Manager]].file.folder + "/" + [[Gentoo Package Manager]].file.name
-```
+- [[portage]]
 
 # Versions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Gentoo Versions]].file.folder + "/" + [[Gentoo Versions]].file.name
-```
+- [[Chromium OS - Google Chrome OS]]
+- [[Funtoo Linux]]

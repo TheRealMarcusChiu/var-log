@@ -9,8 +9,7 @@ children:
   - "[[Chapter 3 - A Formal Learning Model - Probably Approximately Correct (PAC)]]"
   - "[[The Realizability Assumption]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Agnostic PAC Model]]
+- [[Chapter 2 - Empirical Risk Minimization (ERM)]]
+- [[Chapter 3 - A Formal Learning Model - Probably Approximately Correct (PAC)]]
+- [[The Realizability Assumption]]

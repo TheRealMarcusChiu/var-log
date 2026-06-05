@@ -228,8 +228,4 @@ Usually, a single architecture is used for the entire enterprise.
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Operational Data - Analytical Data]]

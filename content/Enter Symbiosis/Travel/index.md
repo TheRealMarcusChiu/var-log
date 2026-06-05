@@ -11,8 +11,9 @@ children:
   - "[[Travel Backpacks]]"
   - "[[Trip Across USA？ (Van Life)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Amtrak California Zephyr]]
+- [[Bruges Belgium]]
+- [[The Most Iconic Food In Every State ｜ 50 State Favorites]]
+- [[The Taj Mahal Palace, Mumbai]]
+- [[Travel Backpacks]]
+- [[Trip Across USA？ (Van Life)]]

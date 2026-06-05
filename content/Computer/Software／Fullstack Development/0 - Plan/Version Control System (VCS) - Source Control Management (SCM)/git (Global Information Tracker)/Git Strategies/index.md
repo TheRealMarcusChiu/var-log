@@ -7,8 +7,5 @@ children:
   - "[[Git - Merge Strategies]]"
   - "[[Git Workflows - Branch Management Policies／Patterns／Schemes (Centralized - Feature Branch - Gitflow - GitHub Flow - Forking - Trunk-Based Development - Simple)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Git - Merge Strategies]]
+- [[Git Workflows - Branch Management Policies／Patterns／Schemes (Centralized - Feature Branch - Gitflow - GitHub Flow - Forking - Trunk-Based Development - Simple)]]

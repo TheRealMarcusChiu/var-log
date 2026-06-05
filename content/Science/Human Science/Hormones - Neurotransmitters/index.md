@@ -6,8 +6,4 @@ parent: "[[Human Science]]"
 children:
   - "[[Happy Hormones／Neurotransmitters (Serotonin - Oxytocin - Dopamine - Endorphin)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Happy Hormones／Neurotransmitters (Serotonin - Oxytocin - Dopamine - Endorphin)]]

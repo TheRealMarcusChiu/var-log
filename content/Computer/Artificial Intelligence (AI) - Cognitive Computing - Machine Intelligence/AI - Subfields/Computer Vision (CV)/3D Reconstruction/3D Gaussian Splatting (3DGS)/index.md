@@ -20,8 +20,5 @@ children:
 
 see [[Gaussian Splats (i.e. 3D Gaussian Functions)]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[3D Gaussian Splatting (3DGS) File Formats]]
+- [[Gaussian Splats (i.e. 3D Gaussian Functions)]]

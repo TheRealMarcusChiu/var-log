@@ -16,8 +16,5 @@ children:
 	- [[Asymmetric／Two／Public-Private Key Function|public key]] [[Encryption|encryption]] [[Authentication (AuthN)|authentication]]
 
 # Authentication Frameworks
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[802.1X - EAPOL]]
+- [[Extensible Authentication Protocol (EAP)]]

@@ -64,11 +64,10 @@ not to be confused with [[Version Control System (VCS) - Source Control Managem
 }
 ```
 # SCM - Frameworks
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ansible]]
+- [[Chef]]
+- [[Nix]]
+- [[Vagrant]]
 
 - IBM Rational Synergy
 - WindowsDSC

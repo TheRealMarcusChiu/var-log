@@ -7,18 +7,13 @@ children:
   - "[[Dropout - Dilution - DropConnect (ANN)]]"
 ---
 # General [[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques|ML Regularization Techniques]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques]].file.folder + "/" + [[ML - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques]].file.name
-```
+- [[Early Stopping]]
+- [[L1／L2 Regularization]]
+- [[Max Norm Constraints／Regularization]]
+- [[Regularization - Parameter Weight Decay]]
 
 # ANN Specific Regularization Techniques
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Dropout - Dilution - DropConnect (ANN)]]
 
 # Regularization Methods Comparisons on MNIST
 

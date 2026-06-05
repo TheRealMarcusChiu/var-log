@@ -8,8 +8,6 @@ children:
   - "[[Tailscale vs VPN]]"
   - "[[Tailscale vs WireGuard]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[OpenVPN vs WireGuard]]
+- [[Tailscale vs VPN]]
+- [[Tailscale vs WireGuard]]

@@ -15,8 +15,5 @@ children:
 ^excerpt
 
 # Protocols
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Network Basic Input／Output System (NetBIOS)]]
+- [[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)]]

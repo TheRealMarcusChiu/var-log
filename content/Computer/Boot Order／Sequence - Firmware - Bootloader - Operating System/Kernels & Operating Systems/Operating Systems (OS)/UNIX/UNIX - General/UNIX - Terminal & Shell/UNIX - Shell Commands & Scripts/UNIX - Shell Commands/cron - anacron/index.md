@@ -10,8 +10,4 @@ children:
 - <strong>anacron</strong> - is used to run commands periodically with a frequency defined in days. It works a little different from cron; assumes that a machine will not be powered on all the time. if an anacron job was missed because it was during power-off, it would be executed during boot
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[crontab]]

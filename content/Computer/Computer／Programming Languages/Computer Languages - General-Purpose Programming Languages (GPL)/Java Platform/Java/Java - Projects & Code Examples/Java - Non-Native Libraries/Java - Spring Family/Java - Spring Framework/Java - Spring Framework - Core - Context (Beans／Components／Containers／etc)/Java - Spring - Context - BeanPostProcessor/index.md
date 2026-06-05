@@ -7,8 +7,5 @@ children:
   - "[[Java - Spring - Custom @Annotation BeanPostProcessor]]"
   - "[[Java - Spring - Custom Simple BeanPostProcessor]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Custom @Annotation BeanPostProcessor]]
+- [[Java - Spring - Custom Simple BeanPostProcessor]]

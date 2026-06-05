@@ -64,8 +64,6 @@ search-space-size/time complexity is:
 	- 𝑂(𝑛<sup>1 + 𝑙𝑜𝑔<sub>2</sub>𝑘</sup>)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AND／OR Search Spaces]]
+- [[OR Search Spaces]]
+- [[Search Algorithms]]

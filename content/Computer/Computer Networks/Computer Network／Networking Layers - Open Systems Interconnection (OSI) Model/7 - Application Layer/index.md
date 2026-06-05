@@ -42,8 +42,33 @@ children:
 ^excerpt
 
 # Application Network Protocols
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[BitTorrent Protocol]]
+- [[Distributed - Peer-to-Peer Protocol]]
+- [[Domain Name System／Service (DNS)]]
+- [[Dynamic Domain Name System (DDNS)]]
+- [[Electronic Mail (email or e-mail)]]
+- [[File Transfer Protocol (FTP)]]
+- [[Hyper Text Transfer Protocol Secure (HTTPS)]]
+- [[Hypertext／Hyper Text Transfer Protocol (HTTP) - 1／1.1／2]]
+- [[Internet Small Computer Systems Interface (iSCSI)]]
+- [[IP Address Assignment]]
+- [[Message Queuing Telemetry Transport (MQTT)]]
+- [[Multicast DNS (mDNS)]]
+- [[Network File System (NFS)]]
+- [[Network News Transfer Protocol (NNTP)]]
+- [[Network Time Protocol (NTP)]]
+- [[Proxy (Forward／Reverse Proxy Chains)]]
+- [[Reactive Streams]]
+- [[Real-Time Streaming Protocol (RTSP)]]
+- [[Remote Management Control Protocol (RMCP)]]
+- [[rlogin]]
+- [[Secure Shell (SSH)]]
+- [[Server Message Block Protocol (SMB)]]
+- [[Simple Network Management Protocol (SNMP)]]
+- [[Simple Network Time Protocol (SNTP)]]
+- [[SPDY (Deprecated)]]
+- [[SSHFS]]
+- [[Web Distributed Authoring and Versioning (WebDAV)]]
+- [[Web Real-Time Communication (WebRTC)]]
+- [[WebSockets]]
+- [[Windows Internet Name Service (WINS)]]

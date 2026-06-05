@@ -14,8 +14,4 @@ children:
 - is the property that every finite subset of an infinite sequence {𝑦<sub>1</sub>, 𝑦<sub>2</sub>, ...} is exchangeable
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Exchangeable／Exchangeability vs Independent and Identically Distributed (IID)]]

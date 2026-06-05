@@ -17,8 +17,5 @@ children:
 # Subpages
 - [[Knowledge Representation & Reasoning (KRR - KR² - KR&R) - Machine Reasoning (MR)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Gettier Cases]]
+> - [[Knowledge Types／Hierarchy]]

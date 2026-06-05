@@ -10,11 +10,10 @@ children:
   - "[[Structure Learning - Local Search]]"
 ---
 # Structure Learning Methods
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chow-Lui Algorithm]]
+- [[K3 Algorithm]]
+- [[Scored-Based Structure Learning]]
+- [[Structure Learning - Local Search]]
 
 # Importance of Accurate Structure
 

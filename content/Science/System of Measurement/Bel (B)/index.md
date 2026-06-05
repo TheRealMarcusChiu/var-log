@@ -19,8 +19,4 @@ The bel of 𝑃<sub>1</sub> in reference to 𝑃<sub>2</sub> is defined by the f
 - $B = \log_{10}(\dfrac{P_1}{P_2})$
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Decibels (dB)]]

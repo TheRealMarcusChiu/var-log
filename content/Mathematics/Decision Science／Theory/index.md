@@ -13,8 +13,4 @@ children:
 	- <strong>descriptive decision theory</strong> - which analyzes how agents actually make the decisions they do
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Data Science vs Decision Science]]

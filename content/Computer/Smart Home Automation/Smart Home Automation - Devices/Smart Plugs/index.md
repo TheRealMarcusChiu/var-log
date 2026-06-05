@@ -7,8 +7,5 @@ children:
   - "[[IKEA GRILLPLATS Smart Plug]]"
   - "[[THIRDREALITY Zigbee Smart Plug]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[IKEA GRILLPLATS Smart Plug]]
+- [[THIRDREALITY Zigbee Smart Plug]]

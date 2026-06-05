@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neuromorphic Computer／Chip]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/AI_accelerator](https://en.wikipedia.org/wiki/AI_accelerator)

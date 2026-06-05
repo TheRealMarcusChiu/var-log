@@ -11,11 +11,12 @@ children:
   - "[[ML - Parametric vs Non-Parametric]]"
   - "[[ML - Probabilistic vs Non-Probabilistic]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ML - Experience Type (Supervised／Unsupervised／Semi-Supervised／Self-Supervised／Multi-Instance／Reinforcement Learning)]]
+- [[ML - Generative／Joint vs Discriminative／Conditional Models]]
+- [[ML - Lazy Learning vs Eager Learning]]
+- [[ML - Linear Models vs Non-Linear Models]]
+- [[ML - Parametric vs Non-Parametric]]
+- [[ML - Probabilistic vs Non-Probabilistic]]
 
 ```merge-table
 {

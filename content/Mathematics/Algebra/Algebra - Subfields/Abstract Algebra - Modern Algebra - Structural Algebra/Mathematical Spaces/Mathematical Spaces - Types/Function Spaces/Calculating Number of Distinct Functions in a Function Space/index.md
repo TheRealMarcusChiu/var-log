@@ -8,8 +8,4 @@ children:
 ---
 Given a [[Function Spaces|function space (𝑌𝑋)]] the number of possible functions is |𝑌|<sup>|𝑋|</sup> (e.g. if 𝑋 is a set of 4 elements and 𝑌 is a set of 2 elements, then |𝑌|<sup>|𝑋|</sup>=2<sup>4</sup>=16)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Calculating the Number of Boolean Functions for n Boolean Variables]]

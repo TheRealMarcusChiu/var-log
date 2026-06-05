@@ -7,8 +7,4 @@ children:
   - "[[Common Opera Voice Types]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Common Opera Voice Types]]

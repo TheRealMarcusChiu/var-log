@@ -21,11 +21,15 @@ children:
 ^excerpt
 
 # Architectural Design Patterns
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Architectural Design Patterns - Comparisons]]
+- [[Architectural Design Patterns - Distributed]]
+- [[Data Warehouse - Data Lake - Lakeshore Data Mart／Warehouse - Data Mesh]]
+- [[Event Driven Architecture (EDA)]]
+- [[Extract Transform Load (ETL) - Extract Load (E-L) - Extract Load Transform (ELT) - Extract Transform Load Transform (ETLT)]]
+- [[How Spotify License 2 Listen 2 Music Work (i.e. Encrypt／Decrypt Music)]]
+- [[Microservices／μService Architecture - Service-Oriented Architecture (SOA)]]
+- [[Outbox Pattern]]
+- [[Server-Side／Stateful Sessions - Client-Side／Stateless Sessions - Hybrid Sessions]]
 
 ```merge-table
 {

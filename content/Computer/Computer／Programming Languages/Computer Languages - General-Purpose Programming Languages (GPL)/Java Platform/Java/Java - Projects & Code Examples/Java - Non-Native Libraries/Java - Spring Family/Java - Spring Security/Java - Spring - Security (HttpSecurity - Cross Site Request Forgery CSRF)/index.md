@@ -23,8 +23,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 see: [https://docs.spring.io/spring-security/site/docs/5.0.x/reference/html/csrf.html#csrf-include-csrf-token](https://docs.spring.io/spring-security/site/docs/5.0.x/reference/html/csrf.html#csrf-include-csrf-token)
 # 3 - Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Security (HttpSecurity - CookieCsrfTokenRepository)]]

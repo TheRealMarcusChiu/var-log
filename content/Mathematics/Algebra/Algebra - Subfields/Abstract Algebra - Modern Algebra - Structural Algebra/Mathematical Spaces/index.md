@@ -178,21 +178,67 @@ children:
 }
 ```
 # [[Mathematical Spaces - Other]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Mathematical Spaces - Other]].file.folder + "/" + [[Mathematical Spaces - Other]].file.name
-```
+- [[Mathematical Space (Basis)]]
+- [[Mathematical Space (Boundary Sets - Boundary Points - Boundaryless)]]
+- [[Mathematical Space (Bounded Sets - Unbounded Sets)]]
+- [[Mathematical Space (Cauchy Sequences)]]
+- [[Mathematical Space (Closures - Spans - Generated Sets)]]
+- [[Mathematical Space (Compactness／Compact - Sequential／Sequentially／Limit-Point／Weakly-Countably／Countably／Countable Compactness／Compact - Relatively-Compact／Precompact Subspace／Subset)]]
+- [[Mathematical Space (Cover／Covering - Open Cover／Covering - Subcover／Subcovering)]]
+- [[Mathematical Space (Interior - Exterior)]]
+- [[Mathematical Space (Limit Points - Accumulation Points - Cluster Points)]]
+- [[Mathematical Space (Neighborhoods)]]
+- [[Mathematical Space (Open Sets - Closed Sets - Clopen Sets)]]
 
 # Mathematical Spaces - Transformations From 1 Space to Another
 
 see [[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms|Transformations/Operations/Operators/Mappings/Maps/Functions/Morphisms]]
 # [[Mathematical Spaces - Types]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Mathematical Spaces - Types]].file.folder + "/" + [[Mathematical Spaces - Types]].file.name
-```
+- [[Affine Spaces]]
+- [[Banach Spaces]]
+- [[Bounded Metric Spaces]]
+- [[c00 spaces - Space of Eventually Zero Sequences]]
+- [[c0 spaces - Space of Null Sequences - Space of Vanishing Sequences]]
+- [[c spaces - Space of Convergent Sequences]]
+- [[Compact Spaces - Compact Set - Compact Subspace]]
+- [[Complete Metric Spaces (Completeness - Non-Completeness)]]
+- [[Connected Spaces - Disconnected Spaces]]
+- [[Discrete Metric Spaces - Discrete Spaces]]
+- [[Discrete Spaces]]
+- [[Discrete Topological Spaces]]
+- [[Double Dual Spaces - Double Dual Vector Spaces - Dual Space of a Dual Space]]
+- [[Dual Spaces]]
+- [[Euclidean Vector Spaces - Euclidean Spaces]]
+- [[Finite-Dimensional Normed Vector Spaces]]
+- [[Function Spaces]]
+- [[Fuzzy Topological Spaces]]
+- [[Hilbert Spaces]]
+- [[Indiscrete Topological Spaces]]
+- [[Indiscrete／Anti-Discrete／Concrete／Co-Discrete Spaces]]
+- [[Inner Product Spaces]]
+- [[Locally Convex Topological Vector Spaces (LCTVS) - Locally Convex Spaces]]
+- [[Lp Spaces - Lebesgue Spaces (function space)]]
+- [[lp Spaces - Lebesgue Spaces (sequence space)]]
+- [[Manifolds (n-Dimensional Manifold (n-Manifold)]]
+- [[Metric Spaces]]
+- [[N-Connected Spaces]]
+- [[Normed Complete Vector Spaces - Complete Normed Linear Spaces]]
+- [[Normed Vector Spaces - Normed Spaces]]
+- [[Particular Point Spaces]]
+- [[Path Connected Spaces]]
+- [[Projective Spaces]]
+- [[Quotient Spaces (linear algebra)]]
+- [[Quotient Spaces (topology)]]
+- [[Sequence Spaces]]
+- [[Simply Connected Spaces - 1-Connected Spaces - 1-simply Connected Spaces]]
+- [[Subspaces]]
+- [[Tensor Product Spaces]]
+- [[Topological Spaces]]
+- [[Topological Vector Spaces (TVS) - Linear Topological Spaces]]
+- [[Totally Bounded Metric Spaces]]
+- [[Uniform Spaces]]
+- [[Vector Space of All Sequences - Sequence Space of All Sequences]]
+- [[Vector Spaces - Linear Spaces]]
 
 - [[Measurable Space - Borel space]]
 	- [[Measure Spaces]]

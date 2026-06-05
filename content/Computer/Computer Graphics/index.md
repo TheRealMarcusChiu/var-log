@@ -22,9 +22,14 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Vertex - Fragment／Graphic／Pixel - Compute) Shaders]]
+- [[Augmented Reality (AR) - Virtual Reality (VR)]]
+- [[Color Decompositions／Spaces／Models／Gamuts／Profiles]]
+- [[Computer Fonts]]
+- [[Graphics／Image File Formats／Types]]
+- [[Graphics／Rendering Libraries／APIs - Widget Toolkit Systems - Desktop Environments]]
+- [[Remote Desktop]]
+- [[Rendering Techniques]]
+- [[Resolution (PPI - DPI - DP／DIP - PX - SP)]]
+- [[Video File Formats／Types (Codec)]]
 - [[Computer Screen／Display Panels Aspects|Computer Screen/Display Panels Aspects]]

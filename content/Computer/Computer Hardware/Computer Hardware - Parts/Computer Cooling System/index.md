@@ -7,8 +7,5 @@ children:
   - "[[Computer Fans]]"
   - "[[Liquid Cooling]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Fans]]
+- [[Liquid Cooling]]

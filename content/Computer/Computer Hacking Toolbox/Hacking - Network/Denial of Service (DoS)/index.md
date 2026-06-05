@@ -16,11 +16,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Denial of Service (DoS) - Mitigation]]
+- [[Low Orbit Ion Cannon (LOIC)]]
+- [[Slow Loris]]
+- [[Tracing IP Packets]]
 
 - Teardrop
 - Ping of Death

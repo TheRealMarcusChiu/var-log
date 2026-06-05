@@ -13,11 +13,10 @@ children:
 - a [[Cypher Query Language (CQL)|CQL]] form of [[SQL - Data Manipulation／Query Language (DML／DQL)|SQL DML]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CQL - DML - Eager Operator]]
+- [[CQL - Getting Max By Property Foreach Group]]
+- [[CQL - If Statement]]
+- [[CQL - MERGE on Different Sets of Properties (WHERE OR)]]
 
 # Resources
 - [https://neo4j.com/docs/cypher-manual/current/clauses/](https://neo4j.com/docs/cypher-manual/current/clauses/)

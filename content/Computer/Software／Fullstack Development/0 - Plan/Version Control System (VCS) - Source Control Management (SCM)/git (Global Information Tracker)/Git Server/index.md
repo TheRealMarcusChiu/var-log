@@ -10,10 +10,10 @@ children:
   - "[[Gogs]]"
   - "[[gitosis]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Gitea]]
+- [[GitHub]]
+- [[Gitlab]]
+- [[gitosis]]
+- [[Gogs]]
 
 - gitolite

@@ -17,11 +17,9 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[PGM - Model Learning (Structure and／or Parameter)]]
+- [[PGM - Model Properties]]
+- [[PGM - Model Types]]
 
 # Resources
 - [Daphne Koller's - Coursera](https://www.coursera.org/specializations/probabilistic-graphical-models)

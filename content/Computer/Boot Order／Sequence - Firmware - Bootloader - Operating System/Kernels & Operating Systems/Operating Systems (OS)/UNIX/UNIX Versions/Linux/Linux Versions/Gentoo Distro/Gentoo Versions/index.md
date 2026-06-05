@@ -7,8 +7,5 @@ children:
   - "[[Chromium OS - Google Chrome OS]]"
   - "[[Funtoo Linux]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chromium OS - Google Chrome OS]]
+- [[Funtoo Linux]]

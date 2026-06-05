@@ -42,8 +42,5 @@ The <strong>sample distance covariance</strong> (a scalar) is simply the arithm
 - 𝑑𝐶𝑜𝑣<sup>2</sup>(𝑋,𝑌) = (1/𝑛<sup>2</sup>) 𝛴<sub>1≤𝑖≤𝑛</sub>𝛴<sub>1≤𝑗≤𝑛</sub>\[𝐴<sub>𝑖𝑗</sub>𝐵<sub>𝑖𝑗</sub>\]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Distance Covariance／Covariation - Java Code]]
+- [[Distance Covariance／Covariation - Properties]]

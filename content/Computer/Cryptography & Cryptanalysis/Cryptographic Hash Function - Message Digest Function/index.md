@@ -46,11 +46,9 @@ cryptographic hash functions are <font style="color: rgb(255,0,0);">not</font> u
 - <font style="color: rgb(255,0,0);"><font style="color: rgb(51,51,51);">generating</font> [[Digital Signatures|digital signatures]]</font> (a digital signature verifies the <em>authenticity</em> of a <em>message</em>). This is because cryptographic hash functions use no secret/private keys to generate hashes. For enforcing <em>integrity</em> and <em>authentication</em>, use [[Asymmetric／Two／Public-Private Key Function|Asymmetric-Key Functions]] or [[Secure／Keyed Cryptographic Hash Function|Keyed Hash Functions]]
 
 # Cryptographic Hash Function - Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Message Digest (MD)]]
+- [[Password Hashing Functions]]
+- [[Secure Hash Algorithms (SHA)]]
 
 # Cryptographic Hash Function - Attacks
 ###### Pre-Image Attack

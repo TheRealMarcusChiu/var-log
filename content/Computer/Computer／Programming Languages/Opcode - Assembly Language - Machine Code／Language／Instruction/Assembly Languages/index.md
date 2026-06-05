@@ -23,8 +23,7 @@ There is a [[Function - Injective／Injection／One-to-one - Surjective／Surjec
 
 So see: [[Instruction Set Architecture (ISA)]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Assembly Language - Basics]]
+- [[Assembly Language - Hello, world! Examples]]
+- [[Compiler Explorer - GodBolt]]
+- [[Pseudoinstructions - Pseudo-Instructions]]

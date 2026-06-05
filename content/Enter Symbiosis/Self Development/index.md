@@ -19,11 +19,13 @@ children:
 ^excerpt
 
 Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Find What You Love and Let It Kill You]]
+- [[Goals - Tasks TODO - WishList]]
+- [[Laugh Your Way to a Better Marriage]]
+- [[Learning & Teaching - Reading, Listening, Writing, Speaking]]
+- [[Life Knowledge]]
+- [[Skills]]
+- [[Wealthy,  Successful, and Miserable]]
 
 - [www.scienceofpeople.com](https://www.scienceofpeople.com)
 

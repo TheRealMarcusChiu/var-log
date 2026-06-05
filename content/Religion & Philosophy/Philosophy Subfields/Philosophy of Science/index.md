@@ -9,8 +9,5 @@ children:
 ---
 <strong>Philosophy of Science</strong> - explores the foundations, methods, history, implications and purpose of [[Science|science]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Observational Language Theories (The Distinction Between Theory and Observation)]]
+- [[Problem of Demarcation (Verifiability／Verifiable vs Falsifiability／Falsifiable)]]

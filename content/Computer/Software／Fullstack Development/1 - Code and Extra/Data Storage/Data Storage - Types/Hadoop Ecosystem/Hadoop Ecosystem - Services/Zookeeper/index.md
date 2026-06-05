@@ -22,10 +22,7 @@ children:
 # Subpages
 - [[Java - Spring Cloud - Zookeeper Integration]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Zookeeper - Architecture]]
+> - [[Zookeeper - Installation & Setup]]
 # Resources
 - [https://zookeeper.apache.org/releases.html](https://zookeeper.apache.org/releases.html)

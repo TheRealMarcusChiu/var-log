@@ -38,11 +38,7 @@ Depending on whether you are using [[Apache - Lucene|Lucene]] or native indexes,
 - If you are using native indexes, the memory taken by them will live inside the page cache meaning we can somewhat control how much memory they can take. You should account for this when setting the page cache size
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - Memory Monitoring]]
 
 # Resources
 - [https://neo4j.com/developer/kb/understanding-memory-consumption/](https://neo4j.com/developer/kb/understanding-memory-consumption/)

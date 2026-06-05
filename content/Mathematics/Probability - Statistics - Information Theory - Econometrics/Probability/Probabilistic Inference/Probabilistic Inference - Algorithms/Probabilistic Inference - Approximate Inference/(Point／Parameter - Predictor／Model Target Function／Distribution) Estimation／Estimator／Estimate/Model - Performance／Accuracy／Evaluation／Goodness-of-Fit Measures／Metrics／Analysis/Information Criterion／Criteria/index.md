@@ -63,8 +63,6 @@ let:
 - 𝑛 - sample size
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AIC vs BIC (TODO)]]
+- [[Akaike's Information Criterion／Criteria (AIC)]]
+- [[Bayesian Information Criterion／Criteria (BIC)]]

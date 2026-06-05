@@ -183,10 +183,9 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Microservices Architecture - Amazon Flow Platform]]
+- [[Microservices Architecture - Fault Tolerance]]
+- [[Microservices Architecture - Testing]]
+- [[Service Discovery]]
 
 # Video Resources![](https://www.youtube.com/watch?v=CZ3wIuvmHeM)![](https://www.youtube.com/watch?v=ymIZ5HhH0o4)![](https://www.youtube.com/watch?v=vu4Xkb1q8Tc)![](https://www.youtube.com/watch?v=K3v6B_70r9s)![](https://www.youtube.com/watch?v=j6ow-UemzBc)

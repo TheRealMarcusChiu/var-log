@@ -71,11 +71,11 @@ Begin with a claim about the value of the [[Statistics - Terminology|population 
 - [[Statistical Hypothesis Test - Types]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Statistical Hypothesis Test - 1-Tailed & 2-Tailed]]
+- [[Statistical Hypothesis Test - Effect (Statistics)]]
+- [[Statistical Hypothesis Test - Null Distribution]]
+- [[Statistical Hypothesis Test - Type I／II／One／Two Error]]
+- [[Statistical Hypothesis Test - Types]]
 
 # Resources
 - [https://bolt.mph.ufl.edu/6050-6052/unit-4/module](https://bolt.mph.ufl.edu/6050-6052/unit-4/module-12/)

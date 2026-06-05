@@ -16,8 +16,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Digital SSL／TLS Certificate - Types (DV - OV - EV)]]
+- [[Obtaining Public Certificate of a Domain]]
+- [[X.509 Certificate Extensions (DER - PEM - CRT - CER - KEY)]]

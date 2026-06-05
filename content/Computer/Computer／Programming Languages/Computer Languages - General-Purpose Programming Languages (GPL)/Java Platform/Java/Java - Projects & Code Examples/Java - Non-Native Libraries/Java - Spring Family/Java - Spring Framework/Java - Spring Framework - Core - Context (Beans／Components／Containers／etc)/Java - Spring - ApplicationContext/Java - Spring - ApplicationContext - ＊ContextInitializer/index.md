@@ -7,8 +7,5 @@ children:
   - "[[Java - Spring - ApplicationContext - ApplicationContextInitializer]]"
   - "[[Java - Spring - ApplicationContext - ServletContextInitializer]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - ApplicationContext - ApplicationContextInitializer]]
+- [[Java - Spring - ApplicationContext - ServletContextInitializer]]

@@ -9,8 +9,5 @@ children:
 ---
 <strong>Computer/Programming Language Constructs</strong> pertains to the basic elements, commands, and statements used in various [[Computer／Programming Languages|programming languages]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Classes／Objects Types (POCO／POJO／POPO - Data Transfer Object DTO - Domain Model - Persistence Model - Java Data Object (JDO))]]
+- [[for-loop - for-each - (map - reduce - filter - find)]]

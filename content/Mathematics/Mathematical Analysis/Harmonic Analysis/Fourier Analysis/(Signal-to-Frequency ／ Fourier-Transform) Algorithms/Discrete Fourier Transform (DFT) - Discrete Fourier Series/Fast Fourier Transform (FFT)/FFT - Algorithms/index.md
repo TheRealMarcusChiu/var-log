@@ -9,8 +9,7 @@ children:
   - "[[Rader's FFT ]]"
   - "[[Split-Radix FFT]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cooley-Tukey FFT]]
+- [[Prime Factor FFT]]
+- [[Rader's FFT ]]
+- [[Split-Radix FFT]]

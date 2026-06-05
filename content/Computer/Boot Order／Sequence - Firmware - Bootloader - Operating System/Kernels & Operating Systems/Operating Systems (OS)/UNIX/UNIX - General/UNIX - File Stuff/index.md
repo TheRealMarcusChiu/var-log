@@ -8,8 +8,6 @@ children:
   - "[[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]"
   - "[[UNIX - System File Tables (File Descriptor - Open File - Vnode - Inode)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[UNIX - File Types (ls -l)]]
+- [[UNIX - Filesystem Standard (FSSTND) & Filesystem Hierarchy Structure (FHS)]]
+- [[UNIX - System File Tables (File Descriptor - Open File - Vnode - Inode)]]

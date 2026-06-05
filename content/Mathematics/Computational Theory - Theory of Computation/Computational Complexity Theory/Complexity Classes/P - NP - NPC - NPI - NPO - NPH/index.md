@@ -8,11 +8,8 @@ children:
   - "[[P vs NP (P = NP or P ≠ NP)]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[NP Complete／Completeness Problems]]
+- [[P vs NP (P = NP or P ≠ NP)]]
 
 # P - NP - NPC - NPI - NPO - NPH
 

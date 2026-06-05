@@ -15,15 +15,7 @@ children:
 ^excerpt
 
 ## Package Manager
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Pacman Package Managers]].file.folder + "/" + [[Pacman Package Managers]].file.name
-```
+- [[pacman binary]]
 
 ## Version
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Pacman Versions]].file.folder + "/" + [[Pacman Versions]].file.name
-```
+- [[Arch Linux]]

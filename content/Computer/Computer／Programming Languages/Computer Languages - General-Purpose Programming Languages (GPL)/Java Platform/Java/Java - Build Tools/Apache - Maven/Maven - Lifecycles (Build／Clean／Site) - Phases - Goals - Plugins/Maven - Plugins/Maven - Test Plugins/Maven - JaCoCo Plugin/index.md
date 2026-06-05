@@ -15,8 +15,5 @@ children:
 - [https://www.baeldung.com/jacoco](https://www.baeldung.com/jacoco)
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - JaCoCo - Automated Code Coverage of Unit Tests]]
+- [[Java - JaCoCo - Instrumentation]]

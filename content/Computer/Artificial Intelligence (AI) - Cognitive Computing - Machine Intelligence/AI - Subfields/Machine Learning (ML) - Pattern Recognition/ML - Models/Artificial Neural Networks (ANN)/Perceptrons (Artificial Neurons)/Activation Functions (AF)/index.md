@@ -170,11 +170,7 @@ there are various types of activation functions each with there pros and cons
 }
 ```
 # Activation Functions Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Activation Functions (AF) - Comparisons]].file.folder + "/" + [[Activation Functions (AF) - Comparisons]].file.name
-```
+- [[Sigmoid vs Softmax - Activation Function]]
 
 # Resources
 - [Imperial's Deep learning course: Activation Functions](https://www.youtube.com/watch?v=KQFDxhySz_M&list=PLut9dwe1z0dDOlSikFHe-HH4O3uxETj4m&index=13)

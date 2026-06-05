@@ -13,8 +13,4 @@ children:
 ^excerpt
 
 # Formats
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Scalable Vector Graphics (SVG)]]

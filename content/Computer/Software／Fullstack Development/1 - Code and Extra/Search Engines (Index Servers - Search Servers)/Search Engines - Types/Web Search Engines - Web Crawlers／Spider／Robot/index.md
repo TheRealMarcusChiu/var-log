@@ -26,11 +26,7 @@ children:
 	- to see the information extracted on your domain use [google's search console](https://search.google.com/search-console/about)
 	- or use Chrome DevTool's Lighthouse Tool in the Audits tab
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Common Crawler]]
 
 # Web Search Engine Problems
 - [[JavaScript]] sometimes determines what is shown several websites, this requires the search engine to execute JavaScript on their end in order to extract the relevant information

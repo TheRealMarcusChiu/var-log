@@ -17,10 +17,10 @@ children:
 
 see [[Multiprocessor - Multicore - Hyper-Threading - Process & Thread - Multi-Programming／Tasking／Processing／Threading - Parallel - Distributed - Concurrency - Asynchronous|Multiprocessor - Multicore - Hyper-Threading - Process & Thread - Multi-Programming/Tasking/Processing/Threading - Parallel - Distributed - Concurrency - Asynchronous]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Non-Uniform Memory Access (NUMA)]]
+- [[Open Accelerators (OpenACC)]]
+- [[Open Multi-Processing (OpenMP)]]
+- [[OpenCL (Open Computing Language)]]
+- [[Uniform Memory Access (UMA)]]
 
 - [[Compute Unified Device Architecture (CUDA)]]

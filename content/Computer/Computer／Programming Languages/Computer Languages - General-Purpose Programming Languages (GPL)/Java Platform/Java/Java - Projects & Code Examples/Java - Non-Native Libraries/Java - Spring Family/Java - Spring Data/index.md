@@ -16,11 +16,13 @@ children:
 - its mission is to provide a familiar and consistent, Spring-based programming model for data access while still retaining the special traits of the underlying data store
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Data - @Annotations]]
+- [[Java - Spring Data - Load Initial Data (data.sql - schema.sql)]]
+- [[Java - Spring Data - Spring Data Commons]]
+- [[Java - Spring Data - Spring Data Modules (Builtin)]]
+- [[Java - Spring Data - Spring Data Modules (Custom)]]
+- [[Java - Spring Data - Spring Data Repository]]
+- [[Java - Spring Data - Transaction Management]]
 
 # Resources
 - [https://spring.io/projects/spring-data](https://spring.io/projects/spring-data)

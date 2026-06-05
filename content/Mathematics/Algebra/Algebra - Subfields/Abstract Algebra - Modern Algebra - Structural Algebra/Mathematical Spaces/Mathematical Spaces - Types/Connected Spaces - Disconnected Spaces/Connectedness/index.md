@@ -18,8 +18,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[N-Connected - Homotopical Connectivity]]
+- [[Path Connectedness]]
+- [[Simply Connectedness]]

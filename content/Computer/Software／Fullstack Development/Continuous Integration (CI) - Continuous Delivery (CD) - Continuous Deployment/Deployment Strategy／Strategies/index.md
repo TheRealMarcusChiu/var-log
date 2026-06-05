@@ -13,10 +13,7 @@ children:
 - the most common strategy is to use a blue-green deployment
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Blue-Turquoise-Green Deployment]]
+- [[Green-Blue Deployment]]
 
 - database - [https://octopus.com/blog/databases-with-blue-green-deployments](https://octopus.com/blog/databases-with-blue-green-deployments)

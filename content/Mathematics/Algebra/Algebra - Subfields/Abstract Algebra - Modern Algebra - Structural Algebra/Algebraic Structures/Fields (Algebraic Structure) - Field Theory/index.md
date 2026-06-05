@@ -170,11 +170,7 @@ children:
 - [algebraic number fields](https://en.wikipedia.org/wiki/Algebraic_number_field)
 - [p-adic fields](https://en.wikipedia.org/wiki/P-adic_number)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Finite Fields - Galois Fields]]
 # Fields - Other
 - any field can be used as [[Scalars|scalars]] in a [[Vector Spaces - Linear Spaces|vector space]]
 - [[Fields vs Vector Spaces]]

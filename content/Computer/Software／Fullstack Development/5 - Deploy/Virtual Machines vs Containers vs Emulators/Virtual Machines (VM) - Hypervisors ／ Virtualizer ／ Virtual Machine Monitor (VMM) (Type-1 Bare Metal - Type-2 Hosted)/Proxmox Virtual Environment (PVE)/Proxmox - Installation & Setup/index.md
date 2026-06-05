@@ -6,10 +6,6 @@ parent: "[[Proxmox Virtual Environment (PVE)]]"
 children:
   - "[[Proxmox - Installation & Setup High Availability Cluster]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Proxmox - Installation & Setup High Availability Cluster]]
 
 - [[Proxmox VE Helper-Scripts - post-pve-install.sh]]

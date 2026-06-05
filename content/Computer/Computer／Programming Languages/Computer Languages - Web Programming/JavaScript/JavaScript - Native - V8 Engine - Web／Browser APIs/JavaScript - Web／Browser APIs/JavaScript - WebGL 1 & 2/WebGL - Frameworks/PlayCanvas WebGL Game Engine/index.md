@@ -24,11 +24,8 @@ children:
 - [https://playcanvas.com/explore/featured](https://playcanvas.com/explore/featured)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[PlayCanvas Editor]]
+- [[PlayCanvas Examples]]
 
 # Resources
 - [https://github.com/playcanvas/engine?tab=readme-ov-file](https://github.com/playcanvas/engine?tab=readme-ov-file)

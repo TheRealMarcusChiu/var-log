@@ -15,8 +15,6 @@ children:
 ^excerpt
 
 # Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[802.15 - Bluetooth]]
+- [[Infrared Communication (IR)]]
+- [[Near-Field Communication (NFC)]]

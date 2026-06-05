@@ -89,10 +89,6 @@ then from SVD:
 }
 ```
 # SVD - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SVD - Image Compression (Python)]]
 # Resources
 - [Brunton and Kutz: Video Lectures](https://www.youtube.com/playlist?list=PLMrJAkhIeNNSVjnsviglFoY2nXildDCcv)

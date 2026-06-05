@@ -14,11 +14,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Dein (Plugin Manager)]]
 
 # Resources
 - [https://neovim.io/](https://neovim.io/)

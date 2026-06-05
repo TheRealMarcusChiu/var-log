@@ -6,8 +6,4 @@ parent: "[[Film／Films]]"
 children:
   - "[[AI Video Production Pipeline]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AI Video Production Pipeline]]

@@ -11,8 +11,4 @@ children: []
 # Subpages
 - [[NOR Flash Memory vs NAND Flash Memory]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+

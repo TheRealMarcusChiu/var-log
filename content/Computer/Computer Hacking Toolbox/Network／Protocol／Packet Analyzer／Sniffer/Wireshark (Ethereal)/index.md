@@ -19,8 +19,5 @@ children:
 
 In order for Wireshark to work, we set the [[Network Interface Controller／Card (NIC) - Network Adapter - LAN Adapter - Physical Network Interface|Network Interface Controller/Card (NIC) - Network Adapter - LAN Adapter - Physical Network Interface]] in either: [[NIC Modes (Normal／Promiscuous／Monitor Mode)|promiscuous mode]] or [[NIC Modes (Normal／Promiscuous／Monitor Mode)|monitor mode]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Wireshark - GUI Application]]
+- [[Wireshark - Terminal]]

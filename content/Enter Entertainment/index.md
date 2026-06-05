@@ -12,8 +12,10 @@ children:
   - "[[Enter Puzzles]]"
   - "[[Enter White Elephant Gift Ideas]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Drones]]
+- [[Enter Firearms／Guns]]
+- [[Enter Games]]
+- [[Enter Magic Tricks]]
+- [[Enter Memes]]
+- [[Enter Puzzles]]
+- [[Enter White Elephant Gift Ideas]]

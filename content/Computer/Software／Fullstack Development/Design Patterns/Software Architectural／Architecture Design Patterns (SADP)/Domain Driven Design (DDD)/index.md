@@ -12,7 +12,7 @@ children:
 {
   "rows": [
     [
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```",
+      "- [[Bounded Context]]",
       "![[Domain Driven Design (DDD)/comain.png|700]]"
     ]
   ]

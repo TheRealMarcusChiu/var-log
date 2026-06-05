@@ -6,8 +6,4 @@ parent: "[[Artificial Intelligence (AI) - Cognitive Computing - Machine Intellig
 children:
   - "[[Chinese Room Thought Experiment (Strong AI - Weak AI)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chinese Room Thought Experiment (Strong AI - Weak AI)]]

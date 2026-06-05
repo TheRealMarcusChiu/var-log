@@ -9,8 +9,7 @@ children:
   - "[[Relational／Row-Oriented Database Management System (RDBMS)]]"
   - "[[SQL Databases]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Multi-Mode／Modeled Database Management System]]
+- [[NoSQL (Non-Relational) Databases]]
+- [[Relational／Row-Oriented Database Management System (RDBMS)]]
+- [[SQL Databases]]

@@ -37,11 +37,8 @@ The Jacobian Matrix <strong>𝐉</strong> of a multivariable function <strong>�
 >
 > since 𝐉 is a square matrix, the Jacobian Determinant is: 1 - 𝑠𝑖𝑛(𝑥)𝑠𝑖𝑛(𝑦)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Jacobian Determinant - Jacobian Scale Factor]]
+- [[Jacobian Matrix - Using Jacobian Determinant to Calculate How a "Change of Basis／Variables" Warps Volume]]
 
 # Resources
 - [https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/jacobian/v/jacobian-prerequisite-knowledge](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/jacobian/v/jacobian-prerequisite-knowledge)

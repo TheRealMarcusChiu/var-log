@@ -131,11 +131,9 @@ children:
 	- [[Packet Switching - Datagram, Virtual Circuit, Source Routing]]
 
 # Switch - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Network Switch Brands]]
+- [[Network Switch Chips]]
+- [[Spine & Leaf Architecture - Spine Switch vs Leaf Switch]]
 
 # Switch - Implementations
 - [[Switch & Router Implementation]]

@@ -7,8 +7,4 @@ children:
   - "[[SketchyBar]]"
 ---
 # Tools to customize macOS's [[Desktop Environments (DE)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SketchyBar]]

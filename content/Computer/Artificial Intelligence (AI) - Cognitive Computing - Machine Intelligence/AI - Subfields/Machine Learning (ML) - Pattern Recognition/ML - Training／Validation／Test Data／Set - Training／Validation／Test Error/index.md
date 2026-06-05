@@ -33,11 +33,10 @@ As the algorithm learns, the training error goes down and so does the validation
 
 A test set is held back from your machine learning algorithms until the very end of the training process. At this post-training stage, you can evaluate the performance of the model on the test set to get a final objective idea of how the models might perform on unseen data
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cross-Validation - K-Fold Cross-Validation]]
+- [[Leave-One-Out Cross-Validation]]
+- [[ML - Data Representation]]
+- [[Validation Data Set]]
 
 # Training Set Size
 

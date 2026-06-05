@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[How to Install Immich on Proxmox LXC with Nvidia GPU Hardware Acceleration]]
 
 # Resources
 - [https://github.com/immich-app/immich](https://github.com/immich-app/immich)

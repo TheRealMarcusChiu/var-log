@@ -9,10 +9,9 @@ children:
   - "[[Unraid]]"
   - "[[XigmaNAS]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[FreeNAS／TrueNAS]]
+- [[OpenMediaVault]]
+- [[Unraid]]
+- [[XigmaNAS]]
 
 - [[Synology]]

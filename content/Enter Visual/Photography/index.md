@@ -7,8 +7,5 @@ children:
   - "[[Aperture & Shutter Speed]]"
   - "[[Framerate]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Aperture & Shutter Speed]]
+- [[Framerate]]

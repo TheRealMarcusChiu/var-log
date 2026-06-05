@@ -9,8 +9,4 @@ children:
 - [[UNIX - Package Managers (All)]]
 - [[JavaScript - Package Managers]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Conda]]

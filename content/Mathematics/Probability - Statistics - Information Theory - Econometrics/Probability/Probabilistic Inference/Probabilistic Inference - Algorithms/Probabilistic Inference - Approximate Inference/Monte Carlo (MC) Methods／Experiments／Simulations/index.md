@@ -56,8 +56,4 @@ Besides being easily one of the most important laws of statistics, this is the b
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Simulation vs Monte Carlo Method vs Monte Carlo Simulation]]

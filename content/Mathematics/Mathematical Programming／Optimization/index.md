@@ -19,8 +19,6 @@ given a function 𝑓 find the value 𝑥 such that 𝑓(𝑥) is the greatest
 - 𝑚𝑎𝑥<sub>𝑥∊𝑋</sub>𝑓(𝑥)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Mathematical Programming／Optimization - Problem Types]]
+- [[Mathematical Programming／Optimization - Solution Strategy／Strategies]]
+- [[Mathematical Programming／Optimization - Terminology]]

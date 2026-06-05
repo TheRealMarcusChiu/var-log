@@ -6,10 +6,6 @@ parent: "[[Gentoo Distro]]"
 children:
   - "[[portage]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[portage]]
 
 list of other [[UNIX - Package Managers (All)]]

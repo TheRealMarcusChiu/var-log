@@ -19,11 +19,8 @@ children:
 ^excerpt
 
 # Verilog - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Verilog - Abstraction Levels (RTL - Behavioral／Dataflow／Gate／Switch Level - Netlist)]]
+- [[Verilog - Tutorials]]
 
 # Verilog - Online Compiler
 - [https://www.jdoodle.com/execute-verilog-online/](https://www.jdoodle.com/execute-verilog-online/)

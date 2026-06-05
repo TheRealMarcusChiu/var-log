@@ -6,8 +6,4 @@ parent: "[[Architectural／Architecture Design Patterns (ADP)]]"
 children:
   - "[[Message Broker vs Event-Bus]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Message Broker vs Event-Bus]]

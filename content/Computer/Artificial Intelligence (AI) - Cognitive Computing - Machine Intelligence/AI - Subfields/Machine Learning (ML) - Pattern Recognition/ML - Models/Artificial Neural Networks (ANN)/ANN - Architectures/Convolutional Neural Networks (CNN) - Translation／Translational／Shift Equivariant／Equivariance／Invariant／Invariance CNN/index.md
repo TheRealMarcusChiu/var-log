@@ -66,11 +66,10 @@ def generate_model():
    return model
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AlexNet]]
+- [[CCN - 1x1／1x1xD Convolutions]]
+- [[CNN - A Modular Perspective (Part 1)]]
+- [[CNN - Understanding Convolutions (Part 2)]]
 
 # Resources
 - [https://glassboxmedicine.com/2019/05/05/how-computers-see-intro-to-convolutional-neural-networks/](https://glassboxmedicine.com/2019/05/05/how-computers-see-intro-to-convolutional-neural-networks/)

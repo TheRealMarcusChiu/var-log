@@ -7,8 +7,5 @@ children:
   - "[[Java - Spring - TaskExecutor]]"
   - "[[Java - Spring - TaskScheduler]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - TaskExecutor]]
+- [[Java - Spring - TaskScheduler]]

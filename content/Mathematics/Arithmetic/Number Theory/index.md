@@ -16,8 +16,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Algebraic Number Theory]]
+- [[coprime - relatively prime - mutually prime]]
+- [[Greatest／Highest Common Divisor／Denominator／Factor (GCD - GCF - HCF)]]
+- [[Integer Factorization - Prime Factorization]]

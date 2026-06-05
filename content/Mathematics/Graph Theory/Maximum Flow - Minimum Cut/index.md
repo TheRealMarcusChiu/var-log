@@ -7,8 +7,5 @@ children:
   - "[[Maximum／Max Flow]]"
   - "[[Minimum Cut]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maximum／Max Flow]]
+- [[Minimum Cut]]

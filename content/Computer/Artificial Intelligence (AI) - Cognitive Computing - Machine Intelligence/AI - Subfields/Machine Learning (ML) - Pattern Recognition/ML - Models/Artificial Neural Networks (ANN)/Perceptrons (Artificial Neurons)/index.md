@@ -129,8 +129,5 @@ Only in cases where the input features were picked tediously to be linearly sepa
 >
 > This was not figured out for nearly 17 years after the publication of Perceptrons, until 1986, when a paper by David Rumelhart, Geoffrey Hinton, and Ronald Williams outlined the backpropagation algorithm.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Activation Functions (AF)]]
+- [[Activation Functions (AF) - Comparisons]]

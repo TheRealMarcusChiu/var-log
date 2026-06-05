@@ -11,11 +11,7 @@ children:
 
 Implementing [[Reactive Socket (RSocket)]] in [[Java - Spring Family|Java Spring]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - RSocket - 1]]
 
 # Resources
 - [https://www.baeldung.com/rsocket](https://www.baeldung.com/rsocket)

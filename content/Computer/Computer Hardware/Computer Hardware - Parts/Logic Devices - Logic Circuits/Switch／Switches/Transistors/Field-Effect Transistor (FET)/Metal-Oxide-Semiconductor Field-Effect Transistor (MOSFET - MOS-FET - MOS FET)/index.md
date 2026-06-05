@@ -25,8 +25,5 @@ children:
 }
 ```
 # MOSFET - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Complementary Metal-Oxide Semiconductor (CMOS)]]
+- [[Floating-Gate MOSFET／MOS Transistors (FGMOS)]]

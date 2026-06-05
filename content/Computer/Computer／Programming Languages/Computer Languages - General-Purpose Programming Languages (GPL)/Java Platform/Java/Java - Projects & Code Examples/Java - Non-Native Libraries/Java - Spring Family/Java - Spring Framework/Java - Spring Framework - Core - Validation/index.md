@@ -15,11 +15,7 @@ Starting with Boot 2.3, we also need to explicitly add the [<em>spring-boot-sta
 </dependency>
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - @Valid & @Validated]]
 
 # Resources
 - [https://www.baeldung.com/spring-boot-bean-validation](https://www.baeldung.com/spring-boot-bean-validation)

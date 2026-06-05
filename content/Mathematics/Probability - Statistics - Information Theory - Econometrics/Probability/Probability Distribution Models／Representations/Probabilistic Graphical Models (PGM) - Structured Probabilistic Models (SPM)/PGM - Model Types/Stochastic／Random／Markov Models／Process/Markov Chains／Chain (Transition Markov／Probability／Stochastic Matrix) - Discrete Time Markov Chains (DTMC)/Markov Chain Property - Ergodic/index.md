@@ -9,8 +9,6 @@ children:
   - "[[Markov Chain Property - Ergodic (Definition #3)]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Markov Chain Property - Ergodic (Definition #1)]]
+- [[Markov Chain Property - Ergodic (Definition #2)]]
+- [[Markov Chain Property - Ergodic (Definition #3)]]

@@ -8,11 +8,8 @@ children:
   - "[[Power／Exponential Function]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Logistic Function - Sigmoid Function (Standard Logistic Function)]]
+- [[Power／Exponential Function]]
 
 # Power/Exponential vs Logistic
 

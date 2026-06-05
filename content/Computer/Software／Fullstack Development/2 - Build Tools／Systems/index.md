@@ -13,33 +13,26 @@ children:
 # Build Tools/Systems
 - [[UNIX - Package Managers (All)|OS Package Managers]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Bazel]]
+> - [[checkinstall - auto-apt]]
+> - [[cmake]]
+> - [[make]]
+> - [[Turborepo]]
 
 - [[Web Build Tools - Module Bundler]]
 > [!list-indent-undo]
 > > [!indent]
-> > ```dataview
-> > LIST
-> > FROM ""
-> > WHERE file.folder = [[Web Build Tools - Module Bundler]].file.folder + "/" + [[Web Build Tools - Module Bundler]].file.name
-> > ```
+> > - [[Create React App (CRA)]]
+> > - [[Vite]]
+> > - [[webpack]]
 - [[Java - Build Tools]]
 > [!list-indent-undo]
 > > [!indent]
-> > ```dataview
-> > LIST
-> > FROM ""
-> > WHERE file.folder = [[Java - Build Tools]].file.folder + "/" + [[Java - Build Tools]].file.name
-> > ```
+> > - [[Apache - Ant]]
+> > - [[Apache - Maven]]
+> > - [[Gradle]]
+> > - [[JAR]]
 - [[PHP Build Tools]]
 > [!list-indent-undo]
 > > [!indent]
-> > ```dataview
-> > LIST
-> > FROM ""
-> > WHERE file.folder = [[PHP Build Tools]].file.folder + "/" + [[PHP Build Tools]].file.name
-> > ```
+> > - [[PHP Composer]]

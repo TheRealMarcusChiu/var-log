@@ -58,11 +58,7 @@ children:
 	- use bulk loading for incremental or time-series data
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HBase - Installation]]
 
 # Resources
 - [Apache HBase - Just the Basics](https://www.youtube.com/watch?v=2Ci_QxJ1kiE)

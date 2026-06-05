@@ -17,11 +17,7 @@ children:
 # Subpages
 All scripts: [https://community-scripts.github.io/ProxmoxVE/scripts](https://community-scripts.github.io/ProxmoxVE/scripts)
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Proxmox VE Helper-Scripts - post-pve-install.sh]]
 # Resources
 - [https://community-scripts.github.io/ProxmoxVE/scripts](https://community-scripts.github.io/ProxmoxVE/scripts)
 - [https://github.com/community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE)

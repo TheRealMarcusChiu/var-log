@@ -12,8 +12,6 @@ moving from [[Univariate／Single-Variable／Simple Linear Regression Models|Uni
 
 Then, how can we build a model with the right, optimal set of predictors ⊆𝑿 that will give us a good, accurate fit?
 # Methods
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[LR - Comparing 2 Models (Extra Sum of Squares & Partial F-Test Statistic)]]
+- [[LR - Predictor Variable Selection (Stepwise Selection & Backward Elimination)]]
+- [[LR - Ramsey RESET Test for Functional Misspecification]]

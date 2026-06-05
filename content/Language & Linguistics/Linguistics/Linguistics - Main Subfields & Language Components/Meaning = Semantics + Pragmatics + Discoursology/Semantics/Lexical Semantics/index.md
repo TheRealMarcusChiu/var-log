@@ -17,8 +17,6 @@ children:
 ^excerpt
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Homo／Hetero-nym／nymy／graph／phone - Synonym - Polyseme／Polysemy - Capitonym - Monosemy]]
+- [[Lexical Semantic Relations - (Synonymy Antonymy Hypernymy Hyponymy Holonymy Meronymy Troponymy)]]
+- [[Root／Etymon - Derivative - Cognate - Diminutive]]

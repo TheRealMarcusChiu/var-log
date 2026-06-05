@@ -34,8 +34,4 @@ children:
 > <strong>2. verify gcc was installed</strong>
 > <span style="white-space: pre-wrap"><code>  which \<g++ version\></code><br><code>  \<g++ version\> —version</code><br><code>  \<g++ version\> —help</code></span>
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[C++ - Versions]]

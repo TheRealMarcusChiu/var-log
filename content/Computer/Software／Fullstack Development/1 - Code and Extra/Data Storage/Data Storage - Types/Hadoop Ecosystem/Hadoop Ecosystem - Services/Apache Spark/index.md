@@ -28,8 +28,10 @@ children:
 - [[Hadoop vs Spark]]
 - [[Hadoop 2 vs Hadoop 3 vs Spark 2 vs Spark 3]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Apache Livy]]
+> - [[Resilient Distributed Dataset (RDD)]]
+> - [[Spark - Architecture, Components & Code Examples]]
+> - [[Spark - Cluster Modes]]
+> - [[Spark - Context Initialization]]
+> - [[Spark - Installation & Setup]]
+> - [[Spark Jobs]]

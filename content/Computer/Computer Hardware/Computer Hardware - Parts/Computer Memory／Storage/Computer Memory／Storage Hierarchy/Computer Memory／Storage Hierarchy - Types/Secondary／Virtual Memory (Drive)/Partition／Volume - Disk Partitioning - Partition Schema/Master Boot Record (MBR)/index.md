@@ -32,11 +32,9 @@ children:
 	3. if partition is the only bootable partition, then the [[MBR - Master Boot Code|Master Boot Code]] will read the partition's [[Partition／Volume Boot Record／Sector (VBR)|Volume Boot Record]] (first sector, 512 bytes, of the partition) and transfer CPU execution to that memory address
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MBR - Master Boot Code]]
+- [[MBR - Master Partition Table]]
+- [[MBR - Viewing]]
 
 # Resources
 - [https://thestarman.pcministry.com/asm/mbr/PartTables.htm](https://thestarman.pcministry.com/asm/mbr/PartTables.htm)

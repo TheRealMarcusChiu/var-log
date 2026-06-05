@@ -15,11 +15,9 @@ children:
 ^excerpt
 
 # Invariant/Invariance - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Causal Invariance]]
+- [[Rotational Invariance／Symmetry]]
+- [[Translational Invariance／Symmetry]]
 
 # Other
 - [[Equivarance vs Invariance]]

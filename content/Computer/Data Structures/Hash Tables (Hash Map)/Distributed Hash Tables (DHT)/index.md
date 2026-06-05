@@ -16,8 +16,4 @@ children: []
 - [Pastry](https://en.wikipedia.org/wiki/Pastry_(DHT))
 - [Tapestry](https://en.wikipedia.org/wiki/Tapestry_(DHT))
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+

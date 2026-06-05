@@ -12,8 +12,10 @@ children:
   - "[[Mole (mol)]]"
   - "[[Second (sec／s)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ampere (Amp)]]
+- [[Candela (cd)]]
+- [[Kelvin (K)]]
+- [[Kilogram (KG)]]
+- [[Meter (M)]]
+- [[Mole (mol)]]
+- [[Second (sec／s)]]

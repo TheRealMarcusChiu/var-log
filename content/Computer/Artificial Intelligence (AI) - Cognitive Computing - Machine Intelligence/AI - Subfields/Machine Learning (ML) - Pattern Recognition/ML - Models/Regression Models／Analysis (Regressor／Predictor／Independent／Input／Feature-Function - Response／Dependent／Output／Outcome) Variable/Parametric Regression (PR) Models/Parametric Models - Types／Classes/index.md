@@ -7,8 +7,5 @@ children:
   - "[[(Level／Linear／Log-Level／Linear／Log) Regression Model]]"
   - "[[General Linear Models vs Generalized Linear Models]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Level／Linear／Log-Level／Linear／Log) Regression Model]]
+- [[General Linear Models vs Generalized Linear Models]]

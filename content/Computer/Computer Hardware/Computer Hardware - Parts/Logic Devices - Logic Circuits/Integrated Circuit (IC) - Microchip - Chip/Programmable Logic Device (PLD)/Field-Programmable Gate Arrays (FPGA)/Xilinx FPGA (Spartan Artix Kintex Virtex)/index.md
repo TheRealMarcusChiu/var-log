@@ -87,11 +87,8 @@ From cheap to expensive:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Spartan 3 FPGA Boards]]
+- [[Spartan 7 FPGA Boards]]
 
 # Other
 - [[MicroBlaze]]

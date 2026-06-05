@@ -53,10 +53,7 @@ another classification of firewall types:
 
 a <strong>bastion host</strong> is a special-purpose computer on a network specifically designed and configured to withstand attacks. The computer generally hosts a single application, for example a [[Proxy (Forward／Reverse Proxy Chains)|proxy server]], and all other services are removed or limited to reduce the threat to the computer
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[iptables]]
+- [[ufw (Uncomplicated FireWall)]]
 
 - [[Router Firmware]]

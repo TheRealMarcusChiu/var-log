@@ -15,8 +15,4 @@ children:
 ^excerpt
 
 # Distance Metric Topology - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Standard／Euclidean／Usual／Natural Topology]]

@@ -7,8 +7,5 @@ children:
   - "[[Java - Spring - Spring Security Expressions (Builtin)]]"
   - "[[Java - Spring - Spring Security Expressions (Custom)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Spring Security Expressions (Builtin)]]
+- [[Java - Spring - Spring Security Expressions (Custom)]]

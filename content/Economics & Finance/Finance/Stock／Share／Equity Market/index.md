@@ -15,8 +15,7 @@ children:
 	- equity crowdfunding platforms (private stock exchange)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Security／Securities - Debt vs Equity Securities (Bonds - Stocks - Bank Notes - Futures - Options - Forwards - Swaps)]]
+- [[Stock Market Crashes]]
+- [[Stock Market Index／Indices]]
+- [[Stock Market Strategies]]

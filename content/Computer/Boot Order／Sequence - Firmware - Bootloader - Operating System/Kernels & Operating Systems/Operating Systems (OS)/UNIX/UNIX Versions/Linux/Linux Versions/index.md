@@ -14,8 +14,12 @@ children:
   - "[[Slackware]]"
   - "[[Talos Linux]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Android]]
+- [[Asahi Linux]]
+- [[Debian]]
+- [[Gentoo Distro]]
+- [[NixOS]]
+- [[Pacman Distro]]
+- [[RPM Distro (Red Hat Package Manager)]]
+- [[Slackware]]
+- [[Talos Linux]]

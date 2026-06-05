@@ -51,8 +51,7 @@ children:
 }
 ```
 # HDD - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HDD - 2.5 Inch vs 3.5 Inch]]
+- [[HDD - Brands]]
+- [[HDD - Cylinder-Head-Sector (CHS) - Cluster - Block]]
+- [[HDD - Storage Modes (LMR - PMR - SMR - CMR - EAMR - HAMR)]]

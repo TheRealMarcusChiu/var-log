@@ -8,8 +8,6 @@ children:
   - "[[Peripheral Component Interconnect Express (PCIe - PCI-e) Physical Slots ／ Lanes]]"
   - "[[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Peripheral Component Interconnect Express (PCIe - PCI-e) Hacking]]
+- [[Peripheral Component Interconnect Express (PCIe - PCI-e) Physical Slots ／ Lanes]]
+- [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface]]

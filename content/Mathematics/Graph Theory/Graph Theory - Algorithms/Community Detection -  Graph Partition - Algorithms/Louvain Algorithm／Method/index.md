@@ -11,8 +11,4 @@ children:
 - the method is a greedy optimization method that appears to run in time 𝑂(𝑛·𝑙𝑜𝑔(𝑛)) where 𝑛 is the number of nodes in the network
 
 # Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Louvain Method vs K-Means]]

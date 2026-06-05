@@ -7,8 +7,5 @@ children:
   - "[[Business Communication Strategies]]"
   - "[[Lean Startup Methodology]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Business Communication Strategies]]
+- [[Lean Startup Methodology]]

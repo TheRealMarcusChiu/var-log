@@ -17,8 +17,4 @@ children:
 - [[Binary Relation (Correspondence ／ Dyadic Relation ／ 2-Place Relation)|Binary Relation (Correspondence / Dyadic Relation / 2-Place Relation)]] - a <em>binary operation</em> that outputs a boolean
 - [[Addition - Multiplication - Exponentiation - Tetration - Knuth's Up-Arrow Notation]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Binary Operations／Operators Over 1 Set]]

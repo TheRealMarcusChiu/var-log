@@ -23,8 +23,6 @@ children:
 ````
 ^excerpt
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Differential／Derivative Calculus - Examples]]
+- [[Differential／Derivative Calculus - Methods／Techniques]]
+- [[Differential／Derivative Calculus - Other]]

@@ -6,11 +6,7 @@ parent: "[[Java - util - stream]]"
 children:
   - "[[Java - Streams - Converting Checked into Runtime Exceptions]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Streams - Converting Checked into Runtime Exceptions]]
 
 - [[vavr - Try＜＞|Try<>]] - whenever you want to collect the errors occurring for an element instead of terminating the Stream
 

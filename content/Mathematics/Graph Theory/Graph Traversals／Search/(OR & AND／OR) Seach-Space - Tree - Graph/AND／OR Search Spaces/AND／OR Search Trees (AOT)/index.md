@@ -67,11 +67,9 @@ the associated <strong>AND/OR Search Tree</strong> 𝑆<sub>𝑇</sub>(𝒢):
 > search-space-size/time complexity is:
 > - search-space-size/time complexity = 𝑂(𝑛·𝑘<sup>𝑤·𝑙𝑜𝑔(𝑛</sup><sup>)</sup>)
 ### AND/OR Search Tree - Other Stuff
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[AND／OR Search Spaces - Other Stuff]].file.folder + "/" + [[AND／OR Search Spaces - Other Stuff]].file.name
-```
+- [[AOT & AOG - Finding Good Pseudo Tree]]
+- [[AOT & AOG - Solving Probabilistic Inference Queries]]
+- [[AOT & AOG - Using Tree Decomposition as Guiding Pseudo Tree]]
 
 ### AND/OR Search Tree - To AND/OR Search Graph
 

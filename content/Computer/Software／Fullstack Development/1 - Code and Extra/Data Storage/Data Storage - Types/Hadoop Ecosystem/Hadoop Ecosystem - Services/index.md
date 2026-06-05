@@ -21,11 +21,17 @@ children:
 	- [[Hadoop Distributed File System (HDFS)]]
 	- [[Yet Another Resource Negotiator (YARN)]]
 	- [[MapReduce (MR)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Apache Flink]]
+- [[Apache Hadoop]]
+- [[Apache Mahout]]
+- [[Apache Spark]]
+- [[Cluster Managers]]
+- [[HBase]]
+- [[Hive]]
+- [[Hue]]
+- [[Impala]]
+- [[Pig]]
+- [[Zookeeper]]
 
 - Hadoop Security
 - Ambari

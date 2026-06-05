@@ -15,8 +15,13 @@ children:
   - "[[Why does God require faith？]]"
   - "[[Wisdom]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Christian／Hebrew Marriage]]
+- [[Cornerstone Bible Study (CBS) - End of Lessons Reflection]]
+- [[Dependence on God？]]
+- [[Knowing／Know／Desiring／Desire／Worshipping／Worship／Praising／Praise／Relationship-With God]]
+- [[Prayers／Praying]]
+- [[Sanctification／Sanctify]]
+- [[Testimonies]]
+- [[Trinity]]
+- [[Why does God require faith？]]
+- [[Wisdom]]

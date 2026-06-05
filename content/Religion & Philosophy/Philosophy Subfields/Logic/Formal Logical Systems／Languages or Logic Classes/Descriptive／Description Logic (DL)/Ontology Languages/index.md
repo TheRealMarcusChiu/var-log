@@ -12,18 +12,23 @@ children:
 - is a type of [[Descriptive／Description Logic (DL)|Descriptive Logic]]
 
 # Ontology Languages - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Ontology Languages - Types]].file.folder + "/" + [[Ontology Languages - Types]].file.name
-```
+- [[Common European Research Information Format (CERIF)]]
+- [[Data Catalog Vocabulary (DCAT)]]
+- [[Data Quality]]
+- [[DateCite]]
+- [[Dublin Core]]
+- [[Friend of a Friend (FOAF)]]
+- [[ISO19115-1]]
+- [[Open Digital Rights Language (ODRL)]]
+- [[RDF Schema (RDFS)]]
+- [[Resource Description Framework (RDF)]]
+- [[Schema.org]]
+- [[SKOS]]
+- [[vCard]]
+- [[Web Ontology Language (OWL)]]
 
 # Ontology Languages - Comparison
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Ontology Languages - Comparisons]].file.folder + "/" + [[Ontology Languages - Comparisons]].file.name
-```
+- [[RDF vs RDFS vs OWL]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Ontology_language](https://en.wikipedia.org/wiki/Ontology_language)

@@ -25,17 +25,24 @@ children:
 
 see [[UNIX Shell - Types (Interactive - Non-Interactive - Login - Non-Login)]]
 # Unix Shell - Interactive Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[UNIX Shell - Implementation Types]].file.folder + "/" + [[UNIX Shell - Implementation Types]].file.name
-```
+- [[ash (Almquist SHell)]]
+- [[bash (Bourne-Again SHell)]]
+- [[dash (Debian Almquist SHell)]]
+- [[fish]]
+- [[ksh (KornShell)]]
+- [[nushell]]
+- [[rbash (Restricted Bash)]]
+- [[sh (Bourne SHell)]]
+- [[zsh (Z SHell)]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[$TERM Environment Variable - Terminal Type]]
+- [[UNIX Shell - Check Current]]
+- [[UNIX Shell - Implementation Types]]
+- [[UNIX Shell - List Available (／etc／shells)]]
+- [[UNIX Shell - Profile & Run Commands (RC) File]]
+- [[UNIX Shell - Set Default]]
+- [[UNIX Shell - Terminal Window／Screen Manager]]
+- [[UNIX Shell - Types (Interactive - Non-Interactive - Login - Non-Login)]]
 # Resources
 - Shell Playlist - [https://www.youtube.com/watch?v=Z56Jmr9Z34Q&list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J](https://www.youtube.com/watch?v=Z56Jmr9Z34Q&list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)

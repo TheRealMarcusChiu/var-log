@@ -8,8 +8,6 @@ children:
   - "[[Node.js - Database]]"
   - "[[Socket.IO]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Express Web Server]]
+- [[Node.js - Database]]
+- [[Socket.IO]]

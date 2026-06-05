@@ -36,11 +36,9 @@ components of a Formal Logical System:
 - [[Knowledge Representation & Reasoning (KRR - KR² - KR&R) - Machine Reasoning (MR)]]
 
 # Properties of Formal Logic Systems/Languages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Formal Logical Systems／Languages or Logic Classes - Properties]].file.folder + "/" + [[Formal Logical Systems／Languages or Logic Classes - Properties]].file.name
-```
+- [[Classical Negation - Default Negation - Negation as Failure (NAF) - Logical Negation]]
+- [[Closed World Assumption (CWA) - Argument From Ignorance (AFI) - Open World Assumption (OWA)]]
+- [[Monotonic／Admissible - Non-Monotonic／Defeasible]]
 
 # Formal Logical Systems/Languages or Logic Classes
 

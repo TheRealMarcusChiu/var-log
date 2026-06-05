@@ -19,11 +19,11 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Capacitor (Ionic)]]
+- [[Ionic Angular]]
+- [[Ionic JavaScript]]
+- [[Ionic React]]
+- [[Ionic Vue]]
 
 # Resources
 - [https://ionicframework.com/docs/](https://ionicframework.com/docs/)

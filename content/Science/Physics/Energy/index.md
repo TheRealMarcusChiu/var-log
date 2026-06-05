@@ -35,8 +35,5 @@ common forms of energy include:
 
 [Mass](https://en.wikipedia.org/wiki/Mass) and energy are closely related. Due to [mass–energy equivalence](https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence), any object that has mass when stationary (called [rest mass](https://en.wikipedia.org/wiki/Rest_mass)) also has an equivalent amount of energy whose form is called [rest energy](https://en.wikipedia.org/wiki/Rest_mass#Rest_energy), and any additional energy (of any form) acquired by the object above that resting energy will increase the object's total mass just as it increases its total energy. For example, after heating an object, its increase in energy could be measured as a small increase in mass, with a sensitive enough scale
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Electromagnetic Energy／Spectrum／Waves／Radiation]]
+- [[Radiation]]

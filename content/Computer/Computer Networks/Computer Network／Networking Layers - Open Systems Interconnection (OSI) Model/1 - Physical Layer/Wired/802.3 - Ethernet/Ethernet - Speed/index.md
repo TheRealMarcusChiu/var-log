@@ -6,8 +6,4 @@ parent: "[[802.3 - Ethernet]]"
 children:
   - "[[10 Gigabit Ethernet (10GE - 10GbE - 10 GigE)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[10 Gigabit Ethernet (10GE - 10GbE - 10 GigE)]]

@@ -6,8 +6,4 @@ parent: "[[Human Memory]]"
 children:
   - "[[Amnesia (Retrograde Amnesia - Anterograde Amnesia)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Amnesia (Retrograde Amnesia - Anterograde Amnesia)]]

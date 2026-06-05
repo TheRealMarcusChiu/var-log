@@ -79,15 +79,17 @@ children:
 }
 ```
 # NTFS - Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[NTFS - Other]].file.folder + "/" + [[NTFS - Other]].file.name
-```
+- [[NTFS - Compressed／Compression Files]]
+- [[NTFS - Data Streams]]
+- [[NTFS - Deleting From Command Prompt]]
+- [[NTFS - Directories]]
+- [[NTFS - Encrypting File System (EFS)]]
+- [[NTFS - Files With Zeros]]
+- [[NTFS - Recycle Bin]]
 
 # NTFS - Entire Tree
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[NTFS - Other]]
+- [[NTFS - System Files - $MFT - Master File Table (MFT)]]
+- [[NTFS - System／Meta Files]]
+- [[NTFS - Versions]]
+- [[NTFS - Volume Boot Record (VBR) or Partition Boot Sector (PBS)]]

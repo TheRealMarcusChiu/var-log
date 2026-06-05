@@ -68,11 +68,16 @@ children:
 - Convergence Spaces
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Algebraic Topology]]
+- [[Kolmogorov Classification]]
+- [[Topological Spaces (Boundary - Boundaryless)]]
+- [[Topological Spaces (Compactness／Compact - Sequential Compactness - Sequentially Compact - Limit Point Compactness)]]
+- [[Topological Spaces (Cover／Covering - Open Cover／Covering - Subcover／Subcovering)]]
+- [[Topological Spaces (Limit Points - Accumulation Points - Cluster Points)]]
+- [[Topological Spaces (Neighborhoods of a Point／Set)]]
+- [[Topological Spaces (Open Sets - Closed Sets - Clopen Sets - Closures)]]
+- [[Topology]]
+- [[Transformations Between Topological Spaces]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Topological_space](https://en.wikipedia.org/wiki/Topological_space)

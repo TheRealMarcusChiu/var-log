@@ -57,8 +57,4 @@ a dependency tree is said to be <strong>projective</strong> if all the arcs that
 }
 ```
 ### Dependency Relation Sets
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Universal Dependency Project Set]]

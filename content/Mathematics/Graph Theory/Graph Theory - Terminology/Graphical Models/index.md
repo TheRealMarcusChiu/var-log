@@ -109,8 +109,9 @@ the set of local functions can be combined in a variety of ways (e.g. combinatio
 		- a type of inference-based scheme that induces an equivalent specification of the problem from which answers can be produced more easily
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Ordered Graph - Width) - (Induced Graph - Induced Width) - (Conditional Induced Graph - Conditional Induced Width)]]
+- [[Ancestral Graph]]
+- [[Chordal Graphs]]
+- [[Cutset]]
+- [[Hypergraphs - Primal Graphs - Dual Graphs - Cluster Graphs - Cluster Trees - Factor Graphs]]
+- [[Tree Width vs Induced Width]]

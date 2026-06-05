@@ -7,8 +7,5 @@ children:
   - "[[Search Trees (1-Dimensional)]]"
   - "[[Search Trees (Multi Dimensional)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Search Trees (1-Dimensional)]]
+- [[Search Trees (Multi Dimensional)]]

@@ -20,11 +20,7 @@ examples:
 - [[Maven - sonar]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Sonar - Exclusions]]
 
 # Resources
 - [https://docs.sonarqube.org/](https://docs.sonarqube.org/)

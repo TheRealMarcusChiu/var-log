@@ -21,11 +21,11 @@ children:
 ^excerpt
 
 # IDEs
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Code Server]]
+- [[Eclipse Theia]]
+- [[HDL - Integrated Development Environments (IDEs)]]
+- [[Visual Studio Code (VS Code)]]
+- [[Zed (Editor)]]
 
 - [[PlayCanvas Editor]] - for [[PlayCanvas WebGL Game Engine|PlayCanvas]]
 - [[RStudio - R Studio]] - for [[R]] programming language

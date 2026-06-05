@@ -6,8 +6,4 @@ parent: "[[Smart Home Automation - Devices]]"
 children:
   - "[[THIRDREALITY Zigbee Water Leak Sensor]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[THIRDREALITY Zigbee Water Leak Sensor]]

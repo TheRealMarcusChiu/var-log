@@ -15,8 +15,13 @@ children:
   - "[[UNIX - Terminal & Shell]]"
   - "[[Unix Pluggable Authentication Modules (PAM)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Executable and Linkable Format (ELF)]]
+- [[Ricing]]
+- [[Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)]]
+- [[UNIX - Boot Process]]
+- [[UNIX - File Stuff]]
+- [[UNIX - Package Managers (All)]]
+- [[UNIX - Portable Operating System Interface (POSIX)]]
+- [[UNIX - Process]]
+- [[UNIX - Terminal & Shell]]
+- [[Unix Pluggable Authentication Modules (PAM)]]

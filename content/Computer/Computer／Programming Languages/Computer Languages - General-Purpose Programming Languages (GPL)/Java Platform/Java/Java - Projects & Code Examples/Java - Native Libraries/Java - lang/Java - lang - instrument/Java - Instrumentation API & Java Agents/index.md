@@ -18,11 +18,8 @@ For an agent to work, we need to define two methods:
 - <strong><em>agentmain</em></strong> – will dynamically load the agent into the JVM using the [Java Attach API](https://docs.oracle.com/javase/7/docs/jdk/api/attach/spec/com/sun/tools/attach/package-summary.html)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Java Agent (Creating Agent)]]
+- [[Java - Java Agent (Loading Agent)]]
 
 # Resources
 - [https://www.baeldung.com/java-instrumentation](https://www.baeldung.com/java-instrumentation)

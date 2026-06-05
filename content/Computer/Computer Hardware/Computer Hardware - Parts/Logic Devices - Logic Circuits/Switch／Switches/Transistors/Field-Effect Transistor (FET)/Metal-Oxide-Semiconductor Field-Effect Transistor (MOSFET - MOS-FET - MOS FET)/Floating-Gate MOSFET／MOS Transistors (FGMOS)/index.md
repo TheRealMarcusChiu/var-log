@@ -12,8 +12,4 @@ children:
 - used as the digital storage element in EPROM, EEPROM, and [[Flash Memory|flash memory]] technologies
 
 # FG-MOS
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Charge Trap Flash (CTF)]]

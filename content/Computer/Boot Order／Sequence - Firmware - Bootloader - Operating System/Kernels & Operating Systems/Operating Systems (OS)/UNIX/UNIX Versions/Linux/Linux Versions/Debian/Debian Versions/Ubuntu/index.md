@@ -29,11 +29,7 @@ children:
 >
 > Changes made to \~/.profile goto very end
 # Versions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ubuntu Server Raspberry Pi]]
 
 - Ubuntu Desktop
 - Ubuntu Server

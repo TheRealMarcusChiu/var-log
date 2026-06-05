@@ -7,8 +7,5 @@ children:
   - "[[AMD Radeon]]"
   - "[[Nvidia GeForce]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AMD Radeon]]
+- [[Nvidia GeForce]]

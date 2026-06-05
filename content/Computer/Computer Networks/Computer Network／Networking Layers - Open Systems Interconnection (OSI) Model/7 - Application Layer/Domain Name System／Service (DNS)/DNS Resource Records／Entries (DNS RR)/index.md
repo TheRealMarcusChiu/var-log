@@ -214,8 +214,4 @@ a DNS RR entry contains the following components:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[DNS - CNAME vs ALIAS]]

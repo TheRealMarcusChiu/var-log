@@ -9,8 +9,5 @@ children:
 ---
 ![](https://www.youtube.com/watch?v=ZBJ0u9MaKtM)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[GraalVM]]
+- [[Project Leyden]]

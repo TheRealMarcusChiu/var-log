@@ -11,8 +11,5 @@ children:
 - [[Database Design Patterns (DDP)|database design patterns]] for [[Graph／Network Database|graph databases]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[G／N-DDP - Data Modeling]]
+- [[G／N-DDP - Versioning]]

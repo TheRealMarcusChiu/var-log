@@ -61,8 +61,6 @@ children:
 
 [main resource](https://www.verywellmind.com/what-is-personality-2795416)
 # Personality Tests
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Human Personality Models／Tests]]
+- [[Humility - Humble]]
+- [[Procrastinate]]

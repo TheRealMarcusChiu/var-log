@@ -16,8 +16,4 @@ children:
 ^excerpt
 
 # CRD - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Custom Resource Definition - Example]]

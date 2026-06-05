@@ -120,8 +120,11 @@ Expires: Sat, 28 Nov 2009 05:36:25 GMT
 
 [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 - [[HTTP Cookie (Web Cookie, Internet Cookie, Browser Cookie, or Cookie)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cross-Origin Request (COR) - Same-Origin Policy (SOP) - Cross-Origin Resource Sharing (CORS) - Cross-Origin Read Blocking (CORB)]]
+- [[CSP vs SOP／CORS]]
+- [[HTTP - Headers - Connection & Keep-Alive]]
+- [[HTTP - Headers - Content-Security-Policy (CSP)]]
+- [[HTTP - Headers - Content-Type]]
+- [[HTTP - Headers - ETag]]
+- [[HTTP - Headers - Host vs Origin]]
+- [[HTTP - Headers - WWW-Authenticate & Authorization]]

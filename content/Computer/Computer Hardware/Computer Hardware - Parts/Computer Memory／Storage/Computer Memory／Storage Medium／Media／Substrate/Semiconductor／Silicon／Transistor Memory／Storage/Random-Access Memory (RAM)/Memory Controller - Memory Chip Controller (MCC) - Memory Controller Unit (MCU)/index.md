@@ -77,8 +77,4 @@ the memory controller can also support [[RAM (1S／2S Single／Double Sided Modu
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Integrated Memory Controller (IMC)]]

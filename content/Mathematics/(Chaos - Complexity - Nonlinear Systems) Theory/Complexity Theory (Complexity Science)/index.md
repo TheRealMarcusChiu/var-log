@@ -29,8 +29,4 @@ children:
 # Subpages
 - [[Reductionism vs Holism]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[System - Complex System]]

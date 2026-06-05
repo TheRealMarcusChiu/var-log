@@ -8,8 +8,5 @@ children:
   - "[[Puppy From Dodd City]]"
 ---
 "Until one has loved an animal, a part of one's soul remains unawakened"
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Diamond Dove]]
+- [[Puppy From Dodd City]]

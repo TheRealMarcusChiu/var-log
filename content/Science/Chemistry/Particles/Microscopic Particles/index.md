@@ -9,8 +9,5 @@ children:
 ---
 <strong>Microscopic Particles</strong> are a kind of [[Particles|particles]]
 ### Microscopic Particles
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Atoms Elements]]
+- [[Molecules - Compounds]]

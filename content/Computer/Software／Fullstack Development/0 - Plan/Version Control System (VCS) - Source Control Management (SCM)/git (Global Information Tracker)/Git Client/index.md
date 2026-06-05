@@ -8,8 +8,6 @@ children:
   - "[[git binary]]"
   - "[[hub]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[gh (GitHub CLI)]]
+- [[git binary]]
+- [[hub]]

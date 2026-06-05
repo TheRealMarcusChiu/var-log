@@ -6,8 +6,4 @@ parent: "[[Java - Spring - Running Logic on Startup and／or Exit]]"
 children:
   - "[[Java - Spring - Running Logic on Exit - ExitCode]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Running Logic on Exit - ExitCode]]

@@ -23,8 +23,8 @@ children:
 - [[Scala]]
 - [[Clojure]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Common Lisp]]
+> - [[Haskell]]
+> - [[OCaml]]
+> - [[Racket]]
+> - [[Scheme]]

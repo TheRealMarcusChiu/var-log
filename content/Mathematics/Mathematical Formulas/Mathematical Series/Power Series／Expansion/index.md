@@ -76,8 +76,9 @@ One can view power series as being like "polynomials of infinite degree," althou
 - occur in [[Number Theory|number theory]], the concept of [[p-adic Numbers - prime-adic Numbers|p-adic numbers]] is also closely related to that of a power series
 
 # Power Series - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Power Series - Algebra (Addition／Subtraction／Multiplication／Division - Differentiation／Integration)]]
+- [[Power Series - Radius of Convergence]]
+- [[Power Series Expansion of Euler's Equation／Formula]]
+- [[Power Series Expansion of the Cosine Function]]
+- [[Power Series Expansion of the Exponential Function]]
+- [[Power Series Expansion of the Sine Function]]

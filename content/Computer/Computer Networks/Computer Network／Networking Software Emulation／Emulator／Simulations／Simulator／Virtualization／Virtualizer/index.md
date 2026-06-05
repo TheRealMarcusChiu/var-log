@@ -15,8 +15,5 @@ children:
 - Network Simulator -NS3
 - SNMP Agent Simulator
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Emulated Virtual Environment Next Generation (EVE-NG)]]
+> - [[Graphical Network Simulator-3 (GNS3)]]

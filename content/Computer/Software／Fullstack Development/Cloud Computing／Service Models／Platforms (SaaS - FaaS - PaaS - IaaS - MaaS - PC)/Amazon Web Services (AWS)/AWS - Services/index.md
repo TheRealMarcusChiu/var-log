@@ -10,11 +10,10 @@ children:
   - "[[AWS - Virtual Private Cloud (VPC)]]"
 ---
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AWS - Elastic Compute Cloud (EC2)]]
+- [[AWS - Identity & Access Management (IAM)]]
+- [[AWS - Route53]]
+- [[AWS - Virtual Private Cloud (VPC)]]
 
 - [[AWS - Cloud Trail]]
 - [[AWS - Simple Storage Service (S3) Bucket]]

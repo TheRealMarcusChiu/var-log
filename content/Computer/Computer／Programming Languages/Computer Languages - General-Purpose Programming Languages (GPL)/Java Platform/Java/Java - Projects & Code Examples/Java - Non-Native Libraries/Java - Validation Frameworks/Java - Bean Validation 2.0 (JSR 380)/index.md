@@ -31,11 +31,8 @@ children:
 > </dependency>
 > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Bean Validation 2.0 (JSR 380) - Bean／Object Constraints]]
+- [[Java - Bean Validation 2.0 (JSR 380) - Method Constraints]]
 
 # Resources
 - [https://www.baeldung.com/javax-validation](https://www.baeldung.com/javax-validation)

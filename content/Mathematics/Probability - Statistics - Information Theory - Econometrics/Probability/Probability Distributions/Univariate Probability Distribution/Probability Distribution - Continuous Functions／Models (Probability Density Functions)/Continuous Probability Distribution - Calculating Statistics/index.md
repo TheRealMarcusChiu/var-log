@@ -9,8 +9,5 @@ children:
 ---
 see: [[Variate Analysis - Compilation & Comparisons]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Continuous Distribution - Calculating (Expected Value - Expectation - Mean - Average)]]
+- [[Continuous Distribution - Calculating (Variance - Standard Deviation)]]

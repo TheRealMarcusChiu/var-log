@@ -22,8 +22,7 @@ children:
 - State register
 
 # Variants
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Deterministic Turing Machine (DTM)]]
+- [[Non-Deterministic Turing Machine (NTM)]]
+- [[Probabilistic Turing Machine (PTM)]]
+- [[Quantum Turing Machine (QTM)]]

@@ -23,11 +23,8 @@ children:
 
 see: [[Java - Servlet API／Specification - Servlet Containers - Application Servers|Java - Servlet API/Specification - Servlet Containers - Application Servers]]
 # Servlet API
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Servlet (HttpServlet - DispatcherServlet)]]
+- [[Java - Servlet Filters]]
 
 # Resources
 - [https://docs.oracle.com/javaee/6/tutorial/doc/bnafd.html](https://docs.oracle.com/javaee/6/tutorial/doc/bnafd.html)

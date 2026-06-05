@@ -8,10 +8,8 @@ children:
   - "[[pacapt]]"
   - "[[pear]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[linuxbrew]]
+- [[pacapt]]
+- [[pear]]
 
 list of other [[UNIX - Package Managers (All)]]

@@ -41,11 +41,7 @@ where:
 - \[1 - (𝑛-1)/(𝑁-1)\] is the "finite population correction factor"
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hypergeometric Distribution Derivation]]
 
 # Hypergeometric Distribution Example
 Suppose you first randomly sample one card from a deck of 52. Then, without putting the card back in the deck you sample a second and then (again without replacing cards) a third. Given this sampling procedure, what is the probability that exactly two of the sampled cards will be aces (4 of the 52 cards in the deck are aces). You can calculate this probability using the following formula based on the hypergeometric distribution:

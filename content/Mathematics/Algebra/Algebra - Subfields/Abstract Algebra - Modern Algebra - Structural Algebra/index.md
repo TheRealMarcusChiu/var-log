@@ -17,11 +17,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Algebraic Structures]]
+- [[Coordinate Systems]]
+- [[Mathematical Spaces]]
+- [[Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms]]
 
 # Resources
 - [Abstract Algebra - Lectures](https://www.youtube.com/playlist?list=PLelIK3uylPMGzHBuR3hLMHrYfMqWWsmx5)

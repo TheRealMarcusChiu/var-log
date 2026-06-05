@@ -7,8 +7,5 @@ children:
   - "[[Why Evolution is True - Chapter 1 - What is Evolution？]]"
   - "[[Why Evolution is True - Chapter 2 - Written in the Rocks]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Why Evolution is True - Chapter 1 - What is Evolution？]]
+- [[Why Evolution is True - Chapter 2 - Written in the Rocks]]

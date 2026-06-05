@@ -18,8 +18,7 @@ the same <strong>model</strong> can be represented by many different <strong>di
 - Software System Model - used to describe a software system (C4 Model)
 
 # Diagram Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Business Process Modeling Notation (BPMN)]]
+- [[C4 Model (Context - Components - Containers - Code)]]
+- [[Entity-Relationship Model (ERM) - Entity-Relationship Diagram (ERD)]]
+- [[Unified Modeling Language (UML) Diagram]]

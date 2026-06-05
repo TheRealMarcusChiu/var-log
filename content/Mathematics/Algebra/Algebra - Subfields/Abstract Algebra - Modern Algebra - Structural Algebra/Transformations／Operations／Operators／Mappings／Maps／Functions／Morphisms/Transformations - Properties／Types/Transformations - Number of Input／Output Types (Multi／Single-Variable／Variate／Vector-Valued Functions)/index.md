@@ -77,8 +77,13 @@ children:
 - [[Convex Function - Concave Function]]
 - [[Distance Measures／Metrics／Semi-Metrics／Functions|Distance Measures/Metrics/Semi-Metrics/Functions]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Boolean-Valued Functions]]
+> - [[Composite Functions - Function Composition]]
+> - [[Convex Function - Concave Function]]
+> - [[Inverse Function - Anti-Function]]
+> - [[Multi-Variable／Multivariable Vector-Valued Functions]]
+> - [[Multi-Variable／Multivariable／Multivariate Functions]]
+> - [[Scalar-Valued Functions - Scalar Fields]]
+> - [[Single-Variable／Univariate Functions]]
+> - [[Tensor-Valued Functions - Tensor Fields]]
+> - [[Vector-Valued Functions - Vector Fields]]

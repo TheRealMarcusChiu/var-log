@@ -16,8 +16,8 @@ children:
 # SQL - History
 relational query languages such as SEQUEL and <font style="color: rgb(17,85,204);">[QUEL](https://en.wikipedia.org/wiki/QUEL_query_languages)</font> lead to SQL
 # SQL - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SQL - Data Control Language (DCL)]]
+- [[SQL - Data Definition／Description Language (DDL)]]
+- [[SQL - Data Manipulation／Query Language (DML／DQL)]]
+- [[SQL - Transaction Control Language (TCL)]]
+- [[SQL - User Defined Functions／Language (UDL - UDF)]]

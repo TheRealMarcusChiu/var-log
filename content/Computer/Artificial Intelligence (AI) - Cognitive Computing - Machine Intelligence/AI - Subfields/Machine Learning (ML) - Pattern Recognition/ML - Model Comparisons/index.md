@@ -14,11 +14,11 @@ children:
 
 see: [[ML - Models]]
 # ML Model - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Histogram vs KDE]]
+- [[Linear Discriminant Analysis (LDA) vs Quadratic Discriminant Analysis (QDA)]]
+- [[Linear Regression vs Gaussian Regression]]
+- [[Logistic Regression (LR) vs Linear Discriminant Analysis (LDA)]]
+- [[Logistic Regression vs Linear SVM vs Non-Linear SVM]]
 
 > [!expand]- linear regression
 > ###### Input/Output

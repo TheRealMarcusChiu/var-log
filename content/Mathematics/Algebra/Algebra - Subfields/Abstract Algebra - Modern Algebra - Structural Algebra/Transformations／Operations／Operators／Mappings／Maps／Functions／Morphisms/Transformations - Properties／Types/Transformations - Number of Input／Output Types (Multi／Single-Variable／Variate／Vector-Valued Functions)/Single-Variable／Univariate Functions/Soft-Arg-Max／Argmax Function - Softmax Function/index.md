@@ -59,8 +59,4 @@ Graph <font style="color: rgb(255,0,0);">max(\[0,x\])</font> and <font style="co
 ###### What is the purpose of Softmax?
 Softmax gives us the[differentiable](https://en.wikipedia.org/wiki/Differentiable_function) approximation of a [non-differentiable](https://math.stackexchange.com/questions/1329252/is-max0-x-a-differentiable-function) function max. Why is that important? For optimizing models, including machine learning models, it is required that functions describing the model be differentiable. So if we want to optimize a model which uses the max function then we can do that by replacing the max with softmax.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Soft-Arg-Max／Argmax Function - Derivative Derivation]]

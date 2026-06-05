@@ -14,8 +14,12 @@ children:
   - "[[MLE - Normal Distribution]]"
   - "[[MLE - Poisson Distribution]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MLE - Bayesian Networks]]
+- [[MLE - Bernoulli Distribution]]
+- [[MLE - Binomial Distribution]]
+- [[MLE - Exponential Distribution]]
+- [[MLE - Exponential Family]]
+- [[MLE - Markov Networks]]
+- [[MLE - Multinoulli Distribution]]
+- [[MLE - Normal Distribution]]
+- [[MLE - Poisson Distribution]]

@@ -15,11 +15,16 @@ children:
   - "[[Mormonism]]"
   - "[[World Missions Society Church of God]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Buddhism]]
+- [[Christianity]]
+- [[Christianity - 2024]]
+- [[Christianity - Pre 2019]]
+- [[Confucianism - Daoism - Legalism]]
+- [[Enuma Elish]]
+- [[Hinduism]]
+- [[Islam]]
+- [[Mormonism]]
+- [[World Missions Society Church of God]]
 
 # World Religion Map
 ![[Religions/world-religion.png|600x305]]

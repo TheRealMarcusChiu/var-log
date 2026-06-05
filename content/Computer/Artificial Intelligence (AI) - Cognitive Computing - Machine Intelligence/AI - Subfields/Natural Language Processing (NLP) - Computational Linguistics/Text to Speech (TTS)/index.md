@@ -19,8 +19,8 @@ children:
 # Subpages
 - Elevenlabs V3
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Kyutai TTS]]
+> - [[OpenVoice]]
+> - [[Qwen-3 TTS]]
+> - [[RealtimeTTS (KoljaB)]]
+> - [[Sesame AI Labs CSM]]

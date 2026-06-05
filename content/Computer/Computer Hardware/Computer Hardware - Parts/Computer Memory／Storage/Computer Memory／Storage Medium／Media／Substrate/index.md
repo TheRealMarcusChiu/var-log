@@ -54,8 +54,4 @@ children:
 }
 ```
 # Computer Medium - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Computer Medium - Comparisons]].file.folder + "/" + [[Computer Medium - Comparisons]].file.name
-```
+- [[Flash Memory vs RAM]]

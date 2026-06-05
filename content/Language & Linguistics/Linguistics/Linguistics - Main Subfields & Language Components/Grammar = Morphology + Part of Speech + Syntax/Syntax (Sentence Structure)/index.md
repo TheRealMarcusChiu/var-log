@@ -18,11 +18,16 @@ children:
 ![[Grammar = Morphology + Part of Speech + Syntax#^excerpt]]
 ---
 # <strong>Syntax</strong>
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Clauses - (Independent／Main - Dependent／Subordinate - Compound／Complex Sentences - Restrictive／Non-Restrictive) Clauses]]
+- [[Direct Object - Indirect Object - Object of a Preposition]]
+- [[Direct Object vs Subject Complement]]
+- [[Mood／Mode]]
+- [[Nominals (PoS)]]
+- [[Passive Voice - Active Voice]]
+- [[Sentence Structure Order (SOV／SVO／VSO／VOS／OVS／OSV)]]
+- [[Subject - Predicate (Verb - Object)]]
+- [[Subject Complement]]
+- [[Verb Phrase (VP)]]
 
 # <strong>Syntax - Example</strong>
 

@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Nextcloud AIO (All in One)]]
 
 # Resources
 - [https://nextcloud.com/](https://nextcloud.com/)

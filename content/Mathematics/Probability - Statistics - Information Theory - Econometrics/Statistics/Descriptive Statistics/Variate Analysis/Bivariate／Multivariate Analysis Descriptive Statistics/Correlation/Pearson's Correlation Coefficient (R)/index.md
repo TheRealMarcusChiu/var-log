@@ -51,8 +51,6 @@ When the data-points:
 # Correlation Diagrams
 ![[Pearson's Correlation Coefficient (R)/pearsons-correlation-examples.png|900]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Properties of Pearson's Correlation]]
+- [[Sampling Distribution of Sample Pearson's Correlation - Sample Pearson's Correlation Distribution]]
+- [[Zero／0 Correlation does not imply Independence]]

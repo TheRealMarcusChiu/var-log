@@ -10,8 +10,8 @@ children:
   - "[[Java - lang - instrument]]"
   - "[[Java - lang - reflect]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - lang - annotation]]
+- [[Java - lang - instrument]]
+- [[Java - lang - reflect]]
+- [[Java - lang - String]]
+- [[Java - Throwable - Errors vs Exceptions - Unchecked vs Checked]]

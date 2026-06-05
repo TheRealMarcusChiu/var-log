@@ -7,11 +7,7 @@ children:
   - "[[Lawrence vs Texas]]"
 ---
 # Law Cases
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Lawrence vs Texas]]
 
 # Resources
 - [https://www.oyez.org/cases/2021](https://www.oyez.org/cases/2021)

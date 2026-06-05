@@ -82,11 +82,8 @@ children:
 # Subpages
 - [[Descriptive／Declarative／Propositional Knowledge|Descriptive/Declarative/Propositional Knowledge]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Analytic／Synthetic Proposition - Prior／Posterior Proposition]]
+> - [[Universal／Particular - Non (Verifiable／Verifiability vs Falsifiable／Falsifiability) - Statement／Proposition]]
 
 # Proposition Types Diagram
 ![[Propositions/proposition classes.png|400]]

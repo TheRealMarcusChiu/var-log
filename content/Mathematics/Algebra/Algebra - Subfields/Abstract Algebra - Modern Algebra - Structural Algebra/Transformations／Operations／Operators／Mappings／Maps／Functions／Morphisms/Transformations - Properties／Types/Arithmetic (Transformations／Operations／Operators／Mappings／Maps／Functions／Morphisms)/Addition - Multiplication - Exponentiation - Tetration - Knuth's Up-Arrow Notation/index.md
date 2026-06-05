@@ -107,8 +107,4 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Time Complexity of Addition & Multiplication]]

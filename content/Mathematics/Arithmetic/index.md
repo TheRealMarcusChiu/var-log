@@ -17,8 +17,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Extended Euclidean Algorithm]]
+- [[Modular Arithmetic]]
+- [[Number Theory]]
+- [[Numbers Classes／Classification of Numbers]]
+- [[Numeral／Numerical／Number Systems／Representations／Notations]]

@@ -14,11 +14,8 @@ children:
 ^excerpt
 
 # Boot Device/Drive/Disk - Preparation
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Boot Medium Application]]
+- [[Boot Medium Terminal]]
 
 # Boot Sequence After OS Installation
 - [[Boot Order／Sequence - Firmware - Bootloader - Operating System|Boot Order/Sequence - Firmware - Bootloader - Operating System]]

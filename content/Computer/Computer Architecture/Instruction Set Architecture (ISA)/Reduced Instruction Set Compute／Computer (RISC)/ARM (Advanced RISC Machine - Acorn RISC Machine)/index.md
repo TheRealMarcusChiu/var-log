@@ -11,8 +11,5 @@ children:
 - is a family of [[Reduced Instruction Set Compute／Computer (RISC)|RISC]] [[Computer Architecture|computer architectures]] for [[Processor - Processing Unit (PU) - Processing Element (PE)|computer processors]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ARM64 - AArch64]]
+- [[Memory Tagging Extension (MTE)]]

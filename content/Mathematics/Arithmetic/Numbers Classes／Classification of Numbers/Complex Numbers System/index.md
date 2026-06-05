@@ -19,8 +19,4 @@ see: [[Trigonometry & Complex Numbers]]
 - [[Fundamental Theorem of Algebra]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Complex Numbers - Arithmetic]]

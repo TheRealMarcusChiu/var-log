@@ -423,8 +423,5 @@ children:
 }
 ```
 # [[Feature Projection／Extraction - Embeddings - Comparisons|Feature Projection/Extraction Methods - Comparisons]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Feature Projection／Extraction - Embeddings - Comparisons]].file.folder + "/" + [[Feature Projection／Extraction - Embeddings - Comparisons]].file.name
-```
+- [[Principal Component Analysis (PCA) vs Factor Analysis (FA)]]
+- [[tSNE vs UMAP]]

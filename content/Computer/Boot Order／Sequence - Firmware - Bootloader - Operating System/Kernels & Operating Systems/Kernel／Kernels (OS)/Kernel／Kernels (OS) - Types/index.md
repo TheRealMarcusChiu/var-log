@@ -9,10 +9,9 @@ children:
   - "[[Mesos Kernel]]"
   - "[[XNU (X is Not Unix)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Linux Kernel]]
+- [[Liquorix]]
+- [[Mesos Kernel]]
+- [[XNU (X is Not Unix)]]
 
 - [[Litmus-RT]] - a realtime extension of the Linux kernel

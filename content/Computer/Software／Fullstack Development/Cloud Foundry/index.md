@@ -16,8 +16,4 @@ children:
 - [https://docs.cloudfoundry.org/devguide/](https://docs.cloudfoundry.org/devguide/)
 
 # Products
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Gorouter (Load Balancer)]]

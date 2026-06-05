@@ -148,8 +148,7 @@ but significant problems with:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chomsky-Normal Form (CNF)]]
+- [[Lexicalized CFG (LCFG)]]
+- [[Probabilistic CFG (PCFG)]]
+- [[Probabilistic Lexicalized CFG (PLCFG)]]

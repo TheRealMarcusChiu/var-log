@@ -40,11 +40,22 @@ Given a functional structure, there can be multiple implementational structures.
 - implementational structure - adjacency matrix or adjacency list
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Associative Array - Map - Symbol Table - Dictionary]]
+- [[Data Types (File Formats)]]
+- [[Data／Variable Types (Statistics／Programming)]]
+- [[Graph Structures & Algorithms]]
+- [[Hash Tables (Hash Map)]]
+- [[Hash Tree - Merkle Tree]]
+- [[Heap (Priority Queue)]]
+- [[List - Self Organizing]]
+- [[Log-Structured Merge Tree (LSM-Tree)]]
+- [[Octrees]]
+- [[Quadtrees]]
+- [[R-Trees]]
+- [[Search Trees]]
+- [[Set Structures & Algorithms]]
+- [[Sorted String Tables (SSTables)]]
+- [[String Processing Algorithms (Stringology)]]
 
 - Arrays
 	- static vs dynamic

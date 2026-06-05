@@ -33,11 +33,8 @@ Thus when given any vector 𝑣∊𝑉:
 - 𝐿<sup>T</sup>(𝑓)(𝑣) = 𝑓(𝐿(𝑣))
 
 # Transpose - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Transpose - What Does it Have to Do With Matrices？]]
+- [[Transpose - What is its Corresponding Matrix？]]
 
 # Transpose - Properties
 - given a finite [[Linear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms) - Vector Space Homomorphism|linear transformation (𝐿 : ℝ𝑛→ℝ𝑛)]] and a [[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product|standard inner product]] (⟨·,·⟩)

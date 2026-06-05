@@ -8,8 +8,6 @@ children:
   - "[[Power Series／Expansion]]"
   - "[[Puiseux Series]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Laurent Series]]
+- [[Power Series／Expansion]]
+- [[Puiseux Series]]

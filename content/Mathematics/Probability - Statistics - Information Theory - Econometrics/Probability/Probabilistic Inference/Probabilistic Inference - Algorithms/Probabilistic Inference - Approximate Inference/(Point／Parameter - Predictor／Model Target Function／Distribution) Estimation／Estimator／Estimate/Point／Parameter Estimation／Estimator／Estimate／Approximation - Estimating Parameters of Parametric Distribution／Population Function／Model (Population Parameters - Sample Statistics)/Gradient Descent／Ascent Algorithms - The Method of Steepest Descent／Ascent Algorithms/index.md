@@ -107,11 +107,18 @@ children:
 	- <strong>[[Limited-Memory BFGS (L-BFGS or LM-BFGS)|LM-BFGS]]</strong> -
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Adam Optimizer]]
+- [[Adaptive Gradient Algorithm (AdaGrad)]]
+- [[Batch Gradient Descent]]
+- [[Broyden-Fletcher-Goldfarb-Shanno (BFGS)]]
+- [[Conjugate Gradient Method／Algorithm]]
+- [[Gradient Computation Algorithms - Algorithms Computing Gradients]]
+- [[Gradient Descent／Ascent Algorithm - Bayesian Networks]]
+- [[Gradient Descent／Ascent Algorithm - Data Preprocessing Tips]]
+- [[Mini-Batch Gradient Descent]]
+- [[MomentUm Orthogonalized by Newton-Schulz (Muon) Optimizer]]
+- [[SGD+Nesterov Momentum]]
+- [[Stochastic Gradient Descent (SGD)]]
 
 - [[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Gradient Descent)|Gradient Descent/Ascent Algorithm - Linear Regression]]
 

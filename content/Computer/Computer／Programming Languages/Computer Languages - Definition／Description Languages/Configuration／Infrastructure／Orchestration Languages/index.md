@@ -12,8 +12,5 @@ Configuration Languages are used for:
 - [[Software／Server／System Configuration Management (SCM)|Software/Server/System Configuration Management (SCM)]]
 
 # Configuration Languages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hashicorp Configuration Language (HCL)]]
+- [[YAML Ain't Markup Language (YAML)]]

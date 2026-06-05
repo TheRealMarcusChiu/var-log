@@ -8,8 +8,5 @@ children:
   - "[[Chapter 5 - Representing Defaults]]"
 ---
 ### Chapter Summaries
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chapter 4 - Creating Knowledge Base]]
+- [[Chapter 5 - Representing Defaults]]

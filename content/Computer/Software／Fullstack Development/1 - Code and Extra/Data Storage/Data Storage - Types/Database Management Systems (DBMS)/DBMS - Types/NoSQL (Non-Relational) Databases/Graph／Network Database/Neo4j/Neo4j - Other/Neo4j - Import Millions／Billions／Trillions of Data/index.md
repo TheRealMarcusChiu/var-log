@@ -8,11 +8,7 @@ children:
 ---
 Dealing with millions/billions/trillions of nodes/relationships in a [[Neo4j]] database
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - Cypher Scripts]]
 
 # Resources
 - [https://stackoverflow.com/questions/45770769/import-billions-of-nodes-and-relationships-to-neo4j-using-batch-import-on-window](https://stackoverflow.com/questions/45770769/import-billions-of-nodes-and-relationships-to-neo4j-using-batch-import-on-window)

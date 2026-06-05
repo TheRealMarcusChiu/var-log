@@ -6,8 +6,4 @@ parent: "[[UNIX System V]]"
 children:
   - "[[Hewlett-Packard Unix (HP-UX)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hewlett-Packard Unix (HP-UX)]]

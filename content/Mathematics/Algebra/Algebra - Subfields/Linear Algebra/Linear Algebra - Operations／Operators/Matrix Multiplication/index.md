@@ -11,11 +11,7 @@ children:
 
 # Matrix Multiplication - Algorithms
 ###### Algorithms
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Matrix Multiplication - Strassen Algorithm]]
 
 ###### Resources
 - [https://www.quantamagazine.org/mathematicians-inch-closer-to-matrix-multiplication-goal-20210323/](https://www.quantamagazine.org/mathematicians-inch-closer-to-matrix-multiplication-goal-20210323/)

@@ -14,8 +14,4 @@ children: []
 # Subpages
 - [[Docker Desktop vs Portainer]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+

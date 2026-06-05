@@ -41,11 +41,7 @@ public interface Subscription {
 }
 ```
 # Reactive Streams - Library Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Reactive Socket (RSocket)]]
 
 - [RxJavaReactiveStreams with RxJava 1.x](https://github.com/ReactiveX/RxJavaReactiveStreams) or [RxJava 2.x](https://github.com/ReactiveX/RxJava/issues/2450)
 - [Project Reactor](http://projectreactor.io/)

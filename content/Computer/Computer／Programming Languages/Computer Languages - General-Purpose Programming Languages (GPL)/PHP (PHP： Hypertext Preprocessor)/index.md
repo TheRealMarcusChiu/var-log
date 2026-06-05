@@ -51,8 +51,7 @@ children:
 > > <strong>2. Configure and Build your PHP, assuming you are using MySQL database</strong>
 > > <span style="white-space: pre-wrap"><code>  ./configure --with-apxs=/usr/sbin/apxs --with-mysql=/usr/bin/mysql</code><br><code>  make</code><br><code>  make install</code></span>
 # General
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[PHP Application Servers]]
+- [[PHP Build Tools]]
+- [[PHP Example Projects]]
+- [[PHP Extra Features]]

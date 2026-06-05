@@ -15,10 +15,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Apache APISIX]]
+- [[Kong Gateway]]
 
 - [[Java - Spring Cloud - Zuul API Gateway Proxy]]

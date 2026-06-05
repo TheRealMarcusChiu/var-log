@@ -16,8 +16,4 @@ children:
 # Block Cipher and Stream Cipher - Algorithms
 refer to: [[Encryption - Algorithms]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Block Cipher - Modes of Operation]]

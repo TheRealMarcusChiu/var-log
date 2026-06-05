@@ -146,11 +146,7 @@ children:
 >     n += 1  # iteration counter
 > ```
 # RNN - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hopfield Networks - Associative Memory Models - Ising–Lenz–Little Models - Nakano-Amari-Hopfield Networks]]
 
 - [[Gated Recurrent Neural Networks (Gated RNN)]]
 

@@ -27,11 +27,9 @@ Statistics and probability generally only require conditions 1 and 2. In informa
 
 As an example, the [[Total Variation Distance|total variation distance]], a commonly used statistical divergence, does not satisfy condition 3.
 # Divergence - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bregman Divergence]]
+- [[Dual Divergence - Primal Divergence]]
+- [[Total Variation Distance]]
 
 - [[Univariate Entropy (Information Content - Entropy - Cross Entropy - KL Divergence)|Kullback-Leibler (KL) Divergence]]
 

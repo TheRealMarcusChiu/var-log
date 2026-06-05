@@ -14,8 +14,6 @@ children:
 - the language for Pig is pig Latin
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Pig - Installation]]
+- [[Pig - Pig Latin]]
+- [[Pig - Run Modes]]

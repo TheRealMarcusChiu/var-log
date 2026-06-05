@@ -16,11 +16,9 @@ children:
 ^excerpt
 
 # IaC - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AWS - CloudFormation]]
+- [[OpenTofu]]
+- [[Terraform]]
 
 - Heat
 - [[Ansible]]

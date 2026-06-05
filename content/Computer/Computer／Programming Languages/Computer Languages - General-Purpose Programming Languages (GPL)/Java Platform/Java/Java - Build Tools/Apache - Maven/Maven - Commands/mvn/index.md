@@ -37,8 +37,7 @@ children:
 > <strong>2. verification</strong>
 > <span style="white-space: pre-wrap"><code>  mvn -version</code></span>
 # Commands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[mvn - 3 ways to run Java main from Maven]]
+- [[mvn - Creating New Project]]
+- [[mvn - Passing pom.xml]]
+- [[mvn - Where is Maven local repository？]]

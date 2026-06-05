@@ -20,8 +20,5 @@ children:
 
 ![](https://www.youtube.com/watch?v=_bqa_I5hNAo)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Deep Boltzmann Machines (DBM)]]
+- [[Restricted Boltzmann Machines (RBM)]]

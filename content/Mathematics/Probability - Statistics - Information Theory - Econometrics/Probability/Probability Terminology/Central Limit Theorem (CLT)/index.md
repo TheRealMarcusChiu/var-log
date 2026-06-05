@@ -163,11 +163,7 @@ Hence, the Central Limit Theorem applies to all these distributions with suffici
 >
 > So, with a probability of 0.9992, it is safe to take this elevator
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Central Limit Theorem (CLT) Proofs - via Double Factorials (!!) and the Moment Method]]
 
 # Resources
 

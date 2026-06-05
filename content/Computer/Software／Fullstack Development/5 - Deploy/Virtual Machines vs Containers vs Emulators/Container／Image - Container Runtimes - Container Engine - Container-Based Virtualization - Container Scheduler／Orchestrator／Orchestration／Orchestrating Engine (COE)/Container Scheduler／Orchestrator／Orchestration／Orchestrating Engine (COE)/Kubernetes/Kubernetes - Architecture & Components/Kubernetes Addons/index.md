@@ -21,8 +21,7 @@ children:
 - see official repositories: [https://github.com/orgs/kubernetes-sigs/repositories?language=&q=&sort=stargazers&type=all](https://github.com/orgs/kubernetes-sigs/repositories?language=&q=&sort=stargazers&type=all)
 - [[Kubernetes - Software Defined Storage (SDS) - Storage Solutions]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Konnectivity Service]]
+> - [[Kubernetes Dashboard]]
+> - [[Kubernetes Metrics Service／Server]]
+> - [[Kubernetes NFS Subdir External Provisioner]]

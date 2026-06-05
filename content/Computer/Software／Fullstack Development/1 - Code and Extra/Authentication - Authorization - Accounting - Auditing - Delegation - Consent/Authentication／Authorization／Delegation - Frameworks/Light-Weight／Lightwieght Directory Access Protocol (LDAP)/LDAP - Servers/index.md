@@ -8,8 +8,6 @@ children:
   - "[[OpenLDAP]]"
   - "[[eDirectory (ED)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Active Directory (AD) - AD Directory Services (ADDS)]]
+- [[eDirectory (ED)]]
+- [[OpenLDAP]]

@@ -200,11 +200,21 @@ children:
 - [https://github.com/SpringBootMarcusChiu/security-example](https://github.com/SpringBootMarcusChiu/security-example)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Security (@EnableWebSecurity)]]
+- [[Java - Spring - Security (Authentication with a Database-backed UserDetailsService)]]
+- [[Java - Spring - Security (Custom FilterChain, AuthenticationManager, & AuthenticationProvider)]]
+- [[Java - Spring - Security (HttpSecurity - Cross Site Request Forgery CSRF)]]
+- [[Java - Spring - Security (JDBC Authentication)]]
+- [[Java - Spring - Security (Logout)]]
+- [[Java - Spring - Security (Method Security)]]
+- [[Java - Spring - Security (OAuth 2.0 & OpenID Connect)]]
+- [[Java - Spring - Security (Remember Me)]]
+- [[Java - Spring - Security (Retrieve User Information)]]
+- [[Java - Spring - Security (Role vs GrantedAuthority)]]
+- [[Java - Spring - Security (Session)]]
+- [[Java - Spring - Security (Testing Method Security With Custom UserDetailsService)]]
+- [[Java - Spring - Security (WebSecurity vs HttpSecurity)]]
+- [[Java - Spring - Spring Security Expressions]]
 
 # Resources
 - [https://spring.io/projects/spring-security](https://spring.io/projects/spring-security)

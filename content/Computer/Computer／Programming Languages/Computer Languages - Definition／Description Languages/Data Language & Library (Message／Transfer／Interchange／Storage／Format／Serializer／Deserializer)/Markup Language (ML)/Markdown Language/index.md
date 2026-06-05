@@ -14,11 +14,8 @@ children:
 ^excerpt
 
 # Markdown Flavors
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Common Markdown .md Files]]
+- [[Markdown Language - Flavors]]
 
 # Resources
 - [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

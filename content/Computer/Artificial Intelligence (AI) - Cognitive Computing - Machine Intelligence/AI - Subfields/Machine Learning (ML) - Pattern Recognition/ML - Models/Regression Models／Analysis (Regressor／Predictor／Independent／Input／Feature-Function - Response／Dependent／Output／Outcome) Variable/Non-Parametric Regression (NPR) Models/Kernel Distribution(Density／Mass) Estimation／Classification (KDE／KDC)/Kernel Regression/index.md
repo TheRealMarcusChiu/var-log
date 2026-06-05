@@ -16,11 +16,9 @@ children:
 	- 𝑌 - single response variable
 
 # KR - Estimators
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kernel Regression - Gasser-Muller Estimator (G-M KR)]]
+- [[Kernel Regression - Nadaraya-Watson Estimator (N-W KR)]]
+- [[Kernel Regression - Priestley-Chao Estimator (P-C KR)]]
 
 # KR - Code Examples
 

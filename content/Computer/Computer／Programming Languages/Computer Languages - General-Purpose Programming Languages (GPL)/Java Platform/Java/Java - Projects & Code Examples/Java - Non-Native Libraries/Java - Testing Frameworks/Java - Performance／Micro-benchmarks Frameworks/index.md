@@ -12,8 +12,4 @@ Writing benchmarks that correctly measure the performance of a small part of a l
 
 Writing a correct Java microbenchmark typically entails preventing the optimizations the JVM and hardware may apply during microbenchmark execution which could not have been applied in a real production system. That is what these frameworks help you to do
 # Frameworks
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java Microbenchmark／Measurement Harness (JMH)]]

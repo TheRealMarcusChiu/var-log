@@ -11,11 +11,9 @@ children:
 <font style="color: rgb(128,128,128);"><em>"friends are the family we choose for ourselves - family are the friends we are stuck with" \~ Family Friend Stranger</em></font>
 
 [[Sociology & Relationships|sociology and relationships]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Finding Fukue]]
+- [[ICE-BREAKER QUESTIONS]]
+- [[People I Know]]
 
 # Friends
 - old friend who I don't like anymore, but I've know them since childhood so I can't just leave

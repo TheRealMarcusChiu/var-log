@@ -135,11 +135,17 @@ children:
 - <strong>PC5</strong> - indicates the module uses DDR5 memory
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[1：1 Mode (Gear1 Mode - "UCLK DIV1 Mode" on "UCLK==MEMCLK") vs 1：2 Mode (Gear2 Mode)]]
+- [[Direct Memory Access (DMA)]]
+- [[Error-Correcting Codes (ECC)]]
+- [[Memory Controller - Memory Chip Controller (MCC) - Memory Controller Unit (MCU)]]
+- [[RAM Slot Layout (Daisy Chain vs T-Topology)]]
+- [[RAM Timings (Column Address Strobe Latency (CL／CAS Latency) - RAS to CAS Delay (tRCD) - Row Precharge Time (tRP) - Active to Precharge Delay (tRAS))]]
+- [[RAM Types]]
+- [[RAM／Memory (Ranks vs Channels vs x4／x8／x16)]]
+- [[RDIMM - UDIMM - LRDIMM - MRDIMM]]
+- [[SIMM - DIMM - SO-DIMM - RIMM]]
+- [[Single Data Rate (SDR) - Double Data Rate (DDR)]]
 
 # Resources
 - [https://forum-en.msi.com/index.php?threads/ram-explained-why-two-modules-are-better-than-four-single-vs-dual-rank-stability-testing.363139/](https://forum-en.msi.com/index.php?threads/ram-explained-why-two-modules-are-better-than-four-single-vs-dual-rank-stability-testing.363139/)

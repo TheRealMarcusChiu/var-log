@@ -15,10 +15,7 @@ children:
 ^excerpt
 
 # Column Database Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Amazon RedShift]]
+- [[Apache - Cassandra]]
 
 - [[HBase]]

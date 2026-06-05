@@ -22,8 +22,8 @@ children:
 - [[Java - Pure Hibernate Setup (without Spring)]]
 - [[Java - Spring - Spring Data JPA (Hibernate) Setup (0% manual config) Spring auto-config]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Java - Hibernate Cache - First／Second／Query-Level Cache]]
+> - [[Java - How to Implement .equals() & .hashCode() for JPA／Hibernate Entities]]
+> - [[Java - JPA vs Hibernate]]
+> - [[Java - JPA／Hibernate's Entity State Transitions]]
+> - [[Java - Pure Hibernate Setup (without Spring)]]

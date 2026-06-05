@@ -40,8 +40,5 @@ children:
 > The domain 𝑋 is not a vector space
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Basis Functions]]
+- [[Calculating Number of Distinct Functions in a Function Space]]

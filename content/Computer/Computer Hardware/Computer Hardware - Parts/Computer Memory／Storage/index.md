@@ -12,8 +12,6 @@ children:
 - is used to store information
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Memory／Storage Devices]]
+- [[Computer Memory／Storage Hierarchy]]
+- [[Computer Memory／Storage Medium／Media／Substrate]]

@@ -8,8 +8,5 @@ children:
   - "[[Greek Vocabulary]]"
 ---
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Greek Alphabet]]
+- [[Greek Vocabulary]]

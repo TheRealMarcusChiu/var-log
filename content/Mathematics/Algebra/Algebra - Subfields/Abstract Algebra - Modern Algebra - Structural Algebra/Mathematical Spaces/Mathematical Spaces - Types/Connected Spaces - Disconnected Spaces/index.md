@@ -16,11 +16,7 @@ children:
 - is a type of topological space that CAN be represented as the union of two or more disjoint non-empty open sets
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Connectedness]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Connected_space](https://en.wikipedia.org/wiki/Connected_space)

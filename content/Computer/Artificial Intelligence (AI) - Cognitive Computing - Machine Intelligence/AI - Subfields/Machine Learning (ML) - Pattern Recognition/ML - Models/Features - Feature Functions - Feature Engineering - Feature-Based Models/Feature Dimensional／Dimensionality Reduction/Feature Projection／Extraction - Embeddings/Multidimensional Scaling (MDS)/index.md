@@ -17,8 +17,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Classical Multidimensional Scaling (cMDS)]]
+- [[Generalized Multidimensional Scaling (GMD)]]
+- [[Metric Multidimensional Scaling (mMDS)]]
+- [[Non-metric Multidimensional Scaling (NMDS)]]

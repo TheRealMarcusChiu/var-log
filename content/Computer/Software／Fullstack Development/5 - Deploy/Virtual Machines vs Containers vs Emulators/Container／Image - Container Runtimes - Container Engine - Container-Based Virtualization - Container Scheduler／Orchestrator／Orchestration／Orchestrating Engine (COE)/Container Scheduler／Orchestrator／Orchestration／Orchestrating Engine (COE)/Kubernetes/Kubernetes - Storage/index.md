@@ -16,11 +16,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kubernetes - PersistentVolume (PV) and PersistentVolumeClaim (PVC) Example]]
+- [[Kubernetes - Running Databases]]
+- [[Kubernetes - Software Defined Storage (SDS) - Storage Solutions]]
+- [[Kubernetes - Storage - AccessModes (ReadOnlyMany (ROX) - ReadWriteMany (RWX) - ReadWriteOnce (RWO) - ReadWriteOncePod (RWOP))]]
 
 # Concepts
 - [Volumes](https://kubernetes.io/docs/concepts/storage/volumes/)

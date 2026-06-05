@@ -30,8 +30,5 @@ Prometheus offers four core metric types:
 - <strong>summary</strong> - similar to a [[Histogram|histogram]], it also calculates configurable values over a sliding time window
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Prometheus Operator]]
+- [[PromQL]]

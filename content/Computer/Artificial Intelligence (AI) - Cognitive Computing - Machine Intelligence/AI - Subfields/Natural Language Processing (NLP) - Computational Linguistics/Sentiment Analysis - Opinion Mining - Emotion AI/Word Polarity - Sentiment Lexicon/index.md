@@ -42,8 +42,6 @@ intuition:
 	- using WordNet synonyms and antonyms
 
 algorithms:
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hatzivassiloglou and McKeown for Identifying Word Polarity]]
+- [[Turney Algorithm]]
+- [[Using WordNet to Learn Word Polarity]]

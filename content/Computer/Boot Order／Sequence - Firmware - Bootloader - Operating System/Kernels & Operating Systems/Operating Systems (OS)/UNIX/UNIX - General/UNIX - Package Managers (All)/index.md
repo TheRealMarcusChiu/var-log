@@ -29,42 +29,42 @@ Is a type of [[Package Managers|package manager]]
         "content": "[[Macintosh OSs (Mac OS X) - macOS|macOS]]",
         "bg": "#F4F5F7"
       },
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[macOS Package Managers]].file.folder + \"/\" + [[macOS Package Managers]].file.name\n```"
+      "- [[fink]]\n- [[homebrew - brew]]\n- [[macports]]"
     ],
     [
       {
         "content": "[[Linux Non-Native Package Managers|Non-Native]]",
         "bg": "#F4F5F7"
       },
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Linux Non-Native Package Managers]].file.folder + \"/\" + [[Linux Non-Native Package Managers]].file.name\n```"
+      "- [[linuxbrew]]\n- [[pacapt]]\n- [[pear]]"
     ],
     [
       {
         "content": "[[Debian]]",
         "bg": "#F4F5F7"
       },
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Debian Package Manager]].file.folder + \"/\" + [[Debian Package Manager]].file.name\n```"
+      "- [[apt (Advanced Packaging Tool)]]\n- [[apt vs apt-get]]\n- [[apt-get - apt-cache]]\n- [[dpkg (Debian Package)]]"
     ],
     [
       {
         "content": "[[Pacman Distro]]",
         "bg": "#F4F5F7"
       },
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Pacman Package Managers]].file.folder + \"/\" + [[Pacman Package Managers]].file.name\n```"
+      "- [[pacman binary]]"
     ],
     [
       {
         "content": "[[RPM Distro (Red Hat Package Manager)]]",
         "bg": "#F4F5F7"
       },
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[RPM Package Managers]].file.folder + \"/\" + [[RPM Package Managers]].file.name\n```"
+      "- [[dnf (Dandified Packaging Tool)]]\n- [[rpm binary]]\n- [[yum (Yellowdog Updater, Modified)]]"
     ],
     [
       {
         "content": "[[Gentoo Distro]]",
         "bg": "#F4F5F7"
       },
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Gentoo Package Manager]].file.folder + \"/\" + [[Gentoo Package Manager]].file.name\n```"
+      "- [[portage]]"
     ]
   ]
 }

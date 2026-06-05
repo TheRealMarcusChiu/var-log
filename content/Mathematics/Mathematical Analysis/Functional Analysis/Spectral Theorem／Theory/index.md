@@ -14,11 +14,7 @@ children: []
 # Subpages
 - [[Spectral Theorem - 𝐴 is Orthogonally Diagonalizable ⟺ 𝐴 is Symmetric]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+
 
 # Resources
 - [The Bright Side of Mathematics - Lecture Series](https://www.youtube.com/watch?v=Mx75Kiqyaik&list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr&index=28)

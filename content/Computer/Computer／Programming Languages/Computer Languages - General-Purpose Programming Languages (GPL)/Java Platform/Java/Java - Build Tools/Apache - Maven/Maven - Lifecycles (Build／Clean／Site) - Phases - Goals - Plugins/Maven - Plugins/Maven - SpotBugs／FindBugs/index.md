@@ -7,8 +7,4 @@ children:
   - "[[SpotBugs／FindBugs - Suppress／Ignore a Single Warning]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SpotBugs／FindBugs - Suppress／Ignore a Single Warning]]

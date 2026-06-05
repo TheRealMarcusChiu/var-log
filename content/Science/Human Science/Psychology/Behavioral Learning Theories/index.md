@@ -12,7 +12,7 @@ children:
   "rows": [
     [
       "![[Behavioral Learning Theories/behavioral learning.png]]",
-      "# Behavioral Learning Theories\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```"
+      "# Behavioral Learning Theories\n- [[Conditioning Behavior (Classical Conditioning & Operant Conditioning)]]\n- [[Social／Observational Learning]]"
     ]
   ],
   "tableStyle": "letter-spacing: 0.0px;"

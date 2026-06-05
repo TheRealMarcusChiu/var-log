@@ -43,11 +43,7 @@ NVMe library of specifications is divided into eight different specifications, i
 - <strong>NVMe Boot Specification (NVMe Boot)</strong> - defines constructs and guidelines for booting from NVMe interfaces
 
 # NVMe - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[NVMe Over Fabrics (NVMe-oF)]]
 # NVMe - Specification Versions
 - [https://nvmexpress.org/developers/nvme-specification/](https://nvmexpress.org/developers/nvme-specification/)
 - [https://en.wikipedia.org/wiki/NVM_Express](https://en.wikipedia.org/wiki/NVM_Express)

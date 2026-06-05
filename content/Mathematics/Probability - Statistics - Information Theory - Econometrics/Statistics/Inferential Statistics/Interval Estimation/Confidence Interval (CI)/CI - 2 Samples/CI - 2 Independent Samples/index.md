@@ -57,8 +57,6 @@ sample size of 𝑋 and 𝑌 may be different
 > [!expand]- Click here to expand...
 > ![[CI - Formula For Unbiased Estimator With Normal Distribution#^excerpt]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CI - 2 Independent Samples - Mean]]
+- [[CI - 2 Independent Samples - Variance & Standard Deviation]]
+- [[Satterthwaite's Approximation]]

@@ -7,8 +7,5 @@ children:
   - "[[Spelling Error - Noisy-Channel Model]]"
   - "[[Spelling Error - Real Words]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Spelling Error - Noisy-Channel Model]]
+- [[Spelling Error - Real Words]]

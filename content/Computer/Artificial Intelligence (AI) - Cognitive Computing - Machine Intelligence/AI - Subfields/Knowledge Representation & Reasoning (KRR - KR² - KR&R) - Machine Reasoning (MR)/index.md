@@ -50,11 +50,7 @@ Reasoning systems come in different approaches that vary in expressive power, in
 - <strong>acquisitional efficiency</strong> - ability to acquire new information easily - and merge it with existing information
 
 # KRR/MR - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Knowledge Graphs (KG)]]
 
 # KRR/MR - Resources
 - [AI is About Machine Reasoning – or When Machine Learning is Just a Fancy Plugin](http://www.reasoning.world/ai-is-about-machine-reasoning-or-when-machine-learning-is-just-a-fancy-plugin/)

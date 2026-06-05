@@ -16,11 +16,7 @@ children:
 # Subpages
 - [[OpenVPN vs WireGuard]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[WireGuard - OPNsense Setup Guide]]
 
 # Other
 - [[Tailscale vs WireGuard]]

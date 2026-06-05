@@ -21,11 +21,8 @@ children:
 # Other
 - [[Raw Moments - Moments About the Origin／Zero - Central／Mean Moments - Moments About The Mean - (Zeroth／First／Second／Third／Fourth／kth／nth) -  of a Probability Density Function|Raw Moments - Moments About the Origin/Zero - Central/Mean Moments - Moments About The Mean - (Zeroth/First/Second/Third/Fourth/kth/nth) - of a Probability Density Function]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Mixed Moments - Central Mixed Moments]]
+> - [[Standardized Moments - Normalized Central Moments]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Moment_(mathematics)](https://en.wikipedia.org/wiki/Moment_(mathematics))

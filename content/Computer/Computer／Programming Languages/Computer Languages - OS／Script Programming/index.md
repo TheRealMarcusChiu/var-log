@@ -8,10 +8,8 @@ children:
   - "[[PowerShell]]"
   - "[[Windows Batch]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AppleScript]]
+- [[PowerShell]]
+- [[Windows Batch]]
 
 - [[UNIX - Shell Commands & Scripts]]

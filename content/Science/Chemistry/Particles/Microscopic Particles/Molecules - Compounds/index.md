@@ -9,8 +9,5 @@ children:
 ---
 <strong>molecule</strong> - a group of same atoms bonded together<strong>compound</strong> - a group of different atoms bonded together
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Identifying Molecules／Compounds - Name Empirical Molecular Structural]]
+- [[Isomers]]

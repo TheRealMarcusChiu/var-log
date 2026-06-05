@@ -16,10 +16,13 @@ children:
 ````excerpt
 - [[Cypher Query Language (CQL)]]
 - [[Java - Spring - Spring Data Neo4j (SDN)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - GraphQL]]
+- [[Neo4j - Import Millions／Billions／Trillions of Data]]
+- [[Neo4j - Internals]]
+- [[Neo4j - Kafka Connect Plugin]]
+- [[Neo4j - Memory Consumption]]
+- [[Neo4j - neo4j.conf Configuration Settings]]
+- [[Neo4j - Object Graph Mapper (OGM)]]
+- [[Neo4j - Versioning]]
 ````
 ^excerpt

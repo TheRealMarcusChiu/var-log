@@ -12,8 +12,5 @@ children:
 - regarded as a subfield of [[Computational Theory - Theory of Computation|Computational Theory]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Automata (Sequential Model of Computation)]]
+- [[Formal Grammar - Formal Language]]

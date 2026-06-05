@@ -10,8 +10,4 @@ children:
 - turns java upside down
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[vavr - Try＜＞]]

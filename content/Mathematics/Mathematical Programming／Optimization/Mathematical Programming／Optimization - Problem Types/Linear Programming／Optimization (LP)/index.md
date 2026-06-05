@@ -49,8 +49,7 @@ refer to: [[LP - Algorithms Solving Problem|Algorithms Solving Problem]]
 > - infeasible - no feasible solution
 > - unbounded - no feasible solution that is maximal
 # LP - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[LP - Algorithms Solving Problem]]
+- [[LP - Duality]]
+- [[LP - Network Flow Problems]]
+- [[LP - Ways Structuring Problem]]

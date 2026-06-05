@@ -14,11 +14,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[vim - display whitespaces as characters]]
+- [[vim - Edit in Binary／Byte／Hex Mode]]
 
 # Common Commands
 ![[vi - vim/vi-commands.png|700x601]]![[vi - vim/vi-commands-2.png|700x724]]

@@ -20,8 +20,10 @@ children:
 - Version 5
 
 # Kerberos - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kerberos - Commands]]
+- [[Kerberos - Credential Cache (ccache)]]
+- [[Kerberos - Daemons]]
+- [[Kerberos - Files]]
+- [[Kerberos - How it Works]]
+- [[Kerberos - krb5.conf]]
+- [[Kerberos - Realm]]

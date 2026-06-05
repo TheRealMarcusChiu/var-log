@@ -7,8 +7,5 @@ children:
   - "[[Creator Conversation]]"
   - "[[Malachi 3：3 - The LORD is a Refiner／Silversmith]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Creator Conversation]]
+- [[Malachi 3：3 - The LORD is a Refiner／Silversmith]]

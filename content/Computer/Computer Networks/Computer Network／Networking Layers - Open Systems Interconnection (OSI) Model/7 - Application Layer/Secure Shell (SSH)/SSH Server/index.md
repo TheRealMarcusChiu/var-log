@@ -54,8 +54,5 @@ children:
 > <strong>4. Start Stop Restart Status</strong>
 > <span style="white-space: pre-wrap"><code>  sudo systemctl start ssh</code><br><code>  sudo systemctl stop ssh</code><br><code>  sudo systemctl restart ssh</code><br><code>  sudo systemctl status ssh</code></span>
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SSH - Disable Password Authentication]]
+- [[SSH - Upload Public Key to SSH Server]]

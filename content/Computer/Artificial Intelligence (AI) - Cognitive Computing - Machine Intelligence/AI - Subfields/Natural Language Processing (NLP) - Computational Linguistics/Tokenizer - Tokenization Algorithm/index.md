@@ -15,11 +15,9 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Character-Based Tokenizers]]
+- [[Subword-Based Tokenizers]]
+- [[Word-Based Tokenizers]]
 
 # Resources
 - [https://huggingface.co/docs/transformers/en/tokenizer_summary](https://huggingface.co/docs/transformers/en/tokenizer_summary)

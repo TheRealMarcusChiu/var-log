@@ -10,8 +10,4 @@ children:
 - code: [https://github.com/java-code-examples/mapstruct-examples](https://github.com/java-code-examples/mapstruct-examples)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - MapStruct - Circular Dependency]]

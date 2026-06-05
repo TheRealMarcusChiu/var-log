@@ -8,8 +8,4 @@ children:
 ---
 Spring [[Graph Query Language (GraphQL) - API|GraphQL]] frameworks
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - DGS Framework (Domain Graph Service)]]

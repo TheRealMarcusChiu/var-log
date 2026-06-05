@@ -23,11 +23,9 @@ children:
 - persuade
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Data Acquisition／Integration／Preparation]]
+- [[Data Analytical Techniques (Descriptive - Diagnostic - Predictive - Prescriptive)]]
+- [[Data Types (Data Science／Analytics)]]
 
 - [[Data Science vs Decision Science]]
 

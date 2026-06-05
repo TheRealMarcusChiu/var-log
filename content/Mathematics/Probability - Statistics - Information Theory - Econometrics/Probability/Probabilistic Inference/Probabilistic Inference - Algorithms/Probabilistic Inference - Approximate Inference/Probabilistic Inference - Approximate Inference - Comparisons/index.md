@@ -6,8 +6,4 @@ parent: "[[Probabilistic Inference - Approximate Inference]]"
 children:
   - "[[Importance Sampling (IS) vs Monte Carlo Markov Chains (MCMC)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Importance Sampling (IS) vs Monte Carlo Markov Chains (MCMC)]]

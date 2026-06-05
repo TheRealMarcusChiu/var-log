@@ -11,11 +11,7 @@ children:
 - takes care of the things like JVM warm-up and code-optimization paths, making benchmarking as simple as possible
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Running JMH Within JUnit]]
 
 # Resources
 - [https://www.baeldung.com/java-microbenchmark-harness](https://www.baeldung.com/java-microbenchmark-harness)

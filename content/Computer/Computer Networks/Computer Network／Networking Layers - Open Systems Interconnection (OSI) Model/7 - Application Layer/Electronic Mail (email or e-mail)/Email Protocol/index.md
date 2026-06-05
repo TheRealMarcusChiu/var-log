@@ -9,8 +9,7 @@ children:
   - "[[Simple Mail Transfer Protocol (SMTP)]]"
   - "[[Simple Mail Transfer Protocol Secure (SMTPS)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[IMAP]]
+- [[POP3]]
+- [[Simple Mail Transfer Protocol (SMTP)]]
+- [[Simple Mail Transfer Protocol Secure (SMTPS)]]

@@ -7,8 +7,5 @@ children:
   - "[[mvn]]"
   - "[[mvnw - mvnw.cmd]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[mvn]]
+- [[mvnw - mvnw.cmd]]

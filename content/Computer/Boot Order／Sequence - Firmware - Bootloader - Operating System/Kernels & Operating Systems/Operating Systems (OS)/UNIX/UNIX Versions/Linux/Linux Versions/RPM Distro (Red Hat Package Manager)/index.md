@@ -14,15 +14,14 @@ children:
 ^excerpt
 
 # Package Manager
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[RPM Package Managers]].file.folder + "/" + [[RPM Package Managers]].file.name
-```
+- [[dnf (Dandified Packaging Tool)]]
+- [[rpm binary]]
+- [[yum (Yellowdog Updater, Modified)]]
 
 # Version
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[RPM Versions]].file.folder + "/" + [[RPM Versions]].file.name
-```
+- [[Amazon Linux]]
+- [[CentOS]]
+- [[Fedora]]
+- [[openSUS (formerly SUSE Linux and SuSE Linux Professional)]]
+- [[Red Hat Enterprise Linux (RHEL)]]
+- [[Sailfish OS]]

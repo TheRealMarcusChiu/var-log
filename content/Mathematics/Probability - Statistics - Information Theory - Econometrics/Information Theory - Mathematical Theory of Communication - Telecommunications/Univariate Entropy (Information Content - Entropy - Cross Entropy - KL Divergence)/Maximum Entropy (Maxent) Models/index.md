@@ -137,11 +137,8 @@ adding constraints/features:
 
 the [[Maximum Likelihood Estimation (MLE)]] exponential model formulation is also convex (dual)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Feature Overlapping - Feature Interaction - Double／Overcounting Counting]]
+- [[Maxent - NLP PoS Example]]
 
 # Resources
 - [Stanford's NLP Video Lecture](https://www.youtube.com/watch?v=GGBz6FySsdA&list=PLQiyVNMpDLKnZYBTUOlSI9mi9wAErFtFm&index=52&ab_channel=MausamJain)

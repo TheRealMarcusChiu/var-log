@@ -15,8 +15,12 @@ children:
   - "[[zsh (Z SHell)]]"
 ---
 # Unix Shell Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ash (Almquist SHell)]]
+- [[bash (Bourne-Again SHell)]]
+- [[dash (Debian Almquist SHell)]]
+- [[fish]]
+- [[ksh (KornShell)]]
+- [[nushell]]
+- [[rbash (Restricted Bash)]]
+- [[sh (Bourne SHell)]]
+- [[zsh (Z SHell)]]

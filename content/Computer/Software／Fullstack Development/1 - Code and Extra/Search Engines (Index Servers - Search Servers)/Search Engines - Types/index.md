@@ -8,10 +8,7 @@ children:
   - "[[YaCy]]"
 ---
 ###### [[Search Engines (Index Servers - Search Servers)|search engine]] types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Web Search Engines - Web Crawlers／Spider／Robot]]
+- [[YaCy]]
 
 - local-machine search engines (e.g. macOS's Spotlight)

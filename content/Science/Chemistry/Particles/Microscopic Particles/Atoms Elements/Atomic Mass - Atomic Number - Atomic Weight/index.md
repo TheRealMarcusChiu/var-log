@@ -12,8 +12,4 @@ children:
 
 ![[Atomic Mass - Atomic Number - Atomic Weight/Screen Shot 2019-05-27 at 3.51.27 PM.png|720x250]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Mass Spectrometry]]

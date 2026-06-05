@@ -44,11 +44,9 @@ and their representations in <strong>[[Vector Spaces - Linear Spaces|vector spa
 # Linear Algebra - Subpages
 - [[Linear Algebra vs Matrix Algebra]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Linear Algebra - Mathematical Objects]]
+> - [[Linear Algebra - Operations／Operators]]
+> - [[Linear Extension Theorem]]
 # Linear Algebra - Extensions
 - [[Multilinear Algebra]]
 - [[Numerical Linear Algebra (NLA) - Applied Linear Algebra (ALA)]]

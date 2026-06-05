@@ -11,8 +11,9 @@ children:
   - "[[Web (HTTP) Clients／Browsers]]"
   - "[[Web (HTTP) Servers]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Infrastructure as Code (IaC) - Orchestration／Provisioning Tools]]
+- [[Software／Server／System Configuration Management (SCM)]]
+- [[Virtual Machines vs Containers vs Emulators]]
+- [[Web (HTTP) Browser Engines]]
+- [[Web (HTTP) Clients／Browsers]]
+- [[Web (HTTP) Servers]]

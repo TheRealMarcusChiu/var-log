@@ -55,8 +55,6 @@ People can tackle all sorts of queries/operations with LDAP, they can:
 - <strong>Uniform Resource Identifier (URI)</strong> - this is a string of characters that defines a resource.
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[LDAP - Servers]]
+- [[LDAP vs AD]]
+- [[Simple Authentication and Security Layer (SASL)]]

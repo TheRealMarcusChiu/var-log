@@ -8,8 +8,6 @@ children:
   - "[[CT Studd]]"
   - "[[Gladys Aylward]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Andy Meakins]]
+- [[CT Studd]]
+- [[Gladys Aylward]]

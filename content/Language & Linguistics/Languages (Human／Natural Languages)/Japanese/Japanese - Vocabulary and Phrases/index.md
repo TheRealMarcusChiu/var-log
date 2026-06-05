@@ -16,8 +16,5 @@ children:
 
 ![](http://youtube.com/watch?v=rGrBHiuPlT0)
 ## Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Japanese Vocabulary Time]]
+- [[Kore／Sore／Are／Dore Kono／Sono／Ano／Dono]]

@@ -224,11 +224,25 @@ the task of Linear Regression:
 # LR - Subpages
 - [[Linear Regression vs Gaussian Regression]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Bayesian Linear Regression]]
+> - [[Cook's Distance]]
+> - [[Elastic Net Regression (Ridge & LASSO)]]
+> - [[LASSO Regression (Least Absolute Shrinkage and Selection Operator)]]
+> - [[Linear Regression (LR) Models - Comparisons]]
+> - [[LR - ANOVA Table]]
+> - [[LR - Categorical Predictor Variables]]
+> - [[LR - Methods Estimating Unknown Regression Coefficients]]
+> - [[LR - Model Building]]
+> - [[LR - Problems]]
+> - [[LR - R Code Examples]]
+> - [[LR - Standard Regression Assumptions]]
+> - [[LR - Tests - Derivation of F-Statistic]]
+> - [[LR - Tests - Derivation of Student T-Statistic]]
+> - [[Mallow's Cp Statistic]]
+> - [[Multivariate／Multiple Linear Regression Models]]
+> - [[Ordinary Least Squares (OLS) Regression]]
+> - [[Ridge Regression]]
+> - [[Univariate／Single-Variable／Simple Linear Regression Models]]
 # LR - Resources
 - [Zed Statistics Regression Playlist](https://www.youtube.com/watch?v=aq8VU5KLmkY&list=PLTNMv857s9WUI1Nz4SssXDKAELESXz-bi)
 - StatQuest Linear Models: [Part 1](https://www.youtube.com/watch?v=nk2CQITm_eo) & [Part 2](https://www.youtube.com/watch?v=NF5_btOaCig)

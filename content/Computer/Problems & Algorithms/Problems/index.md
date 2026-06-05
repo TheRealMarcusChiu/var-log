@@ -15,10 +15,7 @@ children:
 
 see: [[Complexity Classes]]
 # Problem - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computable／Computational Problems]]
+- [[Non-Computable／Computational Problems]]
 ````
 ^excerpt

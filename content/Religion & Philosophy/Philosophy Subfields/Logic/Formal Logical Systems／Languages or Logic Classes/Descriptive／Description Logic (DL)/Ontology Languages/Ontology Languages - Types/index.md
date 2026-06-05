@@ -19,8 +19,17 @@ children:
   - "[[Web Ontology Language (OWL)]]"
   - "[[vCard]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Common European Research Information Format (CERIF)]]
+- [[Data Catalog Vocabulary (DCAT)]]
+- [[Data Quality]]
+- [[DateCite]]
+- [[Dublin Core]]
+- [[Friend of a Friend (FOAF)]]
+- [[ISO19115-1]]
+- [[Open Digital Rights Language (ODRL)]]
+- [[RDF Schema (RDFS)]]
+- [[Resource Description Framework (RDF)]]
+- [[Schema.org]]
+- [[SKOS]]
+- [[vCard]]
+- [[Web Ontology Language (OWL)]]

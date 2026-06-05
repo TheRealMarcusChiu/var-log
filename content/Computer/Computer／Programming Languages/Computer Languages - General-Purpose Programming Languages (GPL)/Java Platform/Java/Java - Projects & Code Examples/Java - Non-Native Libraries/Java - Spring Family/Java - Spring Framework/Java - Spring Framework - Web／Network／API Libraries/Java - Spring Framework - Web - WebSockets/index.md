@@ -14,8 +14,4 @@ children:
 	- [https://github.com/SpringBootMarcusChiu/websockets-chat](https://github.com/SpringBootMarcusChiu/websockets-chat)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - WebSockets - 403 Forbidden Error (SSL)]]

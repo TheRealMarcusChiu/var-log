@@ -11,8 +11,9 @@ children:
   - "[[Quotes]]"
   - "[[Richard Feynman’s Love Letter to His Wife, Sixteen Months After Her Death]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Articles]]
+- [[Blogs]]
+- [[Books]]
+- [[Poetry]]
+- [[Quotes]]
+- [[Richard Feynman’s Love Letter to His Wife, Sixteen Months After Her Death]]

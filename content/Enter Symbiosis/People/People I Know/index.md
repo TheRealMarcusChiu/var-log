@@ -23,8 +23,21 @@ children:
   - "[[People - Work Friends]]"
   - "[[People - YAKER Office]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[People - CCCFC - Bobby (Robert Deng)]]
+- [[People - CCCFC - Kai]]
+- [[People - CCCFC - Pastor Brian]]
+- [[People - CCCFC - Pastor Don]]
+- [[People - CCCFC - Ronnel？]]
+- [[People - David Bui]]
+- [[People - FOCUS - Sophie]]
+- [[People - Grand Uncle the Sixth]]
+- [[People - Jacky Bui]]
+- [[People - Jacky Chan]]
+- [[People - Johnny & Roger]]
+- [[People - KiKi and Christopher]]
+- [[People - Koality Friends]]
+- [[People - Mindy Leung]]
+- [[People - Steven Bui]]
+- [[People - Thomas Leung]]
+- [[People - Work Friends]]
+- [[People - YAKER Office]]

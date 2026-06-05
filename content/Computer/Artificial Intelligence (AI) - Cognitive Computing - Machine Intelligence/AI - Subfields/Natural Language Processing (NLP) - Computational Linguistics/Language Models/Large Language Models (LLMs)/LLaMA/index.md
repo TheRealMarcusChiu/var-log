@@ -19,8 +19,5 @@ children:
 - [https://github.com/facebookresearch/llama](https://github.com/facebookresearch/llama)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[LLaMA 2 Installation]]
+- [[LocalGPT]]

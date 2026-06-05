@@ -14,11 +14,10 @@ children:
 - [[Java - Dynamic Proxies]]
 
 # Non-Native Libraries
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - ASM]]
+- [[Java - Byte Buddy]]
+- [[Java - Code Generation Library (CGLIB)]]
+- [[Java - Javassist (Java Programming Assistant)]]
 
 - [[Java - Spring Framework - Core - AOP Frameworks (AspectJ - Spring AOP)|AspectJ]] - a bytecode manipulation library for [[Aspect-Oriented Programming (AOP)|AOP programming]]
 - BCEL

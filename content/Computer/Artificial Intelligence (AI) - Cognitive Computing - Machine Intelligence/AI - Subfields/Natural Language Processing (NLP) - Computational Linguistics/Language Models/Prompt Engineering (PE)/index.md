@@ -14,11 +14,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chain of Thought (CoT) Prompting]]
+- [[Zero-Shot Chain of Thought (Zero-Shot-CoT) Prompting]]
 
 # Resources
 - [https://learnprompting.org/docs/intro](https://learnprompting.org/docs/intro)

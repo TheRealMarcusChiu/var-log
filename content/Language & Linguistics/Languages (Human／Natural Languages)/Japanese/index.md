@@ -13,8 +13,6 @@ children:
 2. grammar/vocabulary/phrases/kanji
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Japanese - Vocabulary and Phrases]]
+- [[Japanese Alphabet (Hiragana & Katakana)]]
+- [[Nihon or Nippon]]

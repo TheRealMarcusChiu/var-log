@@ -19,15 +19,17 @@ children:
 - [[Linux in a Nutshell.pdf]]
 
 # Linux - Non-Native Package Managers
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Linux Non-Native Package Managers]].file.folder + "/" + [[Linux Non-Native Package Managers]].file.name
-```
+- [[linuxbrew]]
+- [[pacapt]]
+- [[pear]]
 
 # Linux - Versions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Linux Versions]].file.folder + "/" + [[Linux Versions]].file.name
-```
+- [[Android]]
+- [[Asahi Linux]]
+- [[Debian]]
+- [[Gentoo Distro]]
+- [[NixOS]]
+- [[Pacman Distro]]
+- [[RPM Distro (Red Hat Package Manager)]]
+- [[Slackware]]
+- [[Talos Linux]]

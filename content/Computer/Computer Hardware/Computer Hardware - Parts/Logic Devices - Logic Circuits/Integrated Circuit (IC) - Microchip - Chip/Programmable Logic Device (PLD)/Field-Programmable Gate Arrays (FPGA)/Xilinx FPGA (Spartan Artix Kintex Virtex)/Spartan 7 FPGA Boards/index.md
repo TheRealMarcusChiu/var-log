@@ -6,8 +6,4 @@ parent: "[[Xilinx FPGA (Spartan Artix Kintex Virtex)]]"
 children:
   - "[[Arty S7： Spartan-7 FPGA Development Board]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Arty S7： Spartan-7 FPGA Development Board]]

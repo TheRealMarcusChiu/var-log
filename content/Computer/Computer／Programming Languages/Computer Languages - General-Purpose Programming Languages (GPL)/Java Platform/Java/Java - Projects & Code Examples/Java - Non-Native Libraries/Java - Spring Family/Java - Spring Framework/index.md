@@ -29,8 +29,15 @@ children:
 - [languages](https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/languages.html) - Kotlin, Groovy, dynamic languages
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Framework - Core - AOP Frameworks (AspectJ - Spring AOP)]]
+- [[Java - Spring Framework - Core - Context (Beans／Components／Containers／etc)]]
+- [[Java - Spring Framework - Core - Environment]]
+- [[Java - Spring Framework - Core - How to Pass Custom Annotation Parameters to Bean／Component]]
+- [[Java - Spring Framework - Core - Lang]]
+- [[Java - Spring Framework - Core - Spring Expression Language (SpEL)]]
+- [[Java - Spring Framework - Core - Validation]]
+- [[Java - Spring Framework - Integration - Cache／Caching Frameworks]]
+- [[Java - Spring Framework - Integration - Concurrency & Job／Task Scheduler／Manager Frameworks]]
+- [[Java - Spring Framework - Non-Blocking IO Frameworks]]
+- [[Java - Spring Framework - Testing Framework]]
+- [[Java - Spring Framework - Web／Network／API Libraries]]

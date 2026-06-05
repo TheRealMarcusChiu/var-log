@@ -10,8 +10,6 @@ children:
 ---
 ###### 45Drives ([https://www.45drives.com](https://www.45drives.com))
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[45Drives - 45HomeLab - HL15]]
+- [[45Drives - 45HomeLab - HL15 Beast]]
+- [[45Drives - AV15]]

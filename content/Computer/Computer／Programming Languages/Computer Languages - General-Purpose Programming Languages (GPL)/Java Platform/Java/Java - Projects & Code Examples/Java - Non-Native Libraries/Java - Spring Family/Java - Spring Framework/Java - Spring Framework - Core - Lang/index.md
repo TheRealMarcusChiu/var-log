@@ -6,8 +6,4 @@ parent: "[[Java - Spring Framework]]"
 children:
   - "[[Java - Spring - @NonNull @NonNullFields @Nullable @NonNullApi]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - @NonNull @NonNullFields @Nullable @NonNullApi]]

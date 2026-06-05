@@ -19,11 +19,7 @@ children:
 # Statement - Alternative
 ![[Chernoff Bound/chernoff-bounds.png|500]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chernoff Bound - Sum of Repeated Random Variable]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Chernoff_bound](https://en.wikipedia.org/wiki/Chernoff_bound)

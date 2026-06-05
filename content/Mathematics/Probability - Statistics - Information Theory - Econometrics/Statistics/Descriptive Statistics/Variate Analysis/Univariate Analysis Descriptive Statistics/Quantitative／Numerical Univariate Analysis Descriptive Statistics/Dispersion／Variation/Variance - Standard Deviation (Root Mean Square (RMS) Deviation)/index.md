@@ -34,8 +34,6 @@ You have only one sample and want to infer about the unknown mean and variance i
 - [[Standard Error (SE) vs Standard Deviation (SD)]]
 - [[Mean Absolute Deviation vs. Root Mean Square Deviation (Standard Deviation)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Properties of Variance]]
+> - [[Sample Pooled／Combined／Composite／Overall (Variance - Standard Deviation)]]
+> - [[Sample Variance - Sample Standard Deviation - Adjusted Sample Variance - Adjusted Sample Standard Deviation]]

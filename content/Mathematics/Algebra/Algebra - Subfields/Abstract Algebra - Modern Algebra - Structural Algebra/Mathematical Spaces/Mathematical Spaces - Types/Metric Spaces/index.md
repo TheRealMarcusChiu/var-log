@@ -30,8 +30,9 @@ children:
 # Subpages
 - [[Complete Metric Spaces (Completeness - Non-Completeness)|Completeness - Non-Completeness]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Metric Spaces (Compactness／Compact - Sequential Compactness - Sequentially Compact - Limit Point Compactness)]]
+> - [[Metric Spaces (Epsilon Balls - Open Sets - Boundary Points／Sets - Closed Sets - Closures - Bounded Sets ／ Boundedness - Unbounded Sets ／ Unboundedness - Totally Bounded Sets ／ Totally Boundedness)]]
+> - [[Metric Spaces (Limit Points - Accumulation Points - Cluster Points)]]
+> - [[Metric Spaces (Neighborhoods)]]
+> - [[Metric Spaces (Sequences - Convergent／Convergence／Converges - Bounded - Cauchy Sequences)]]
+> - [[Transformations Between Metric Spaces]]

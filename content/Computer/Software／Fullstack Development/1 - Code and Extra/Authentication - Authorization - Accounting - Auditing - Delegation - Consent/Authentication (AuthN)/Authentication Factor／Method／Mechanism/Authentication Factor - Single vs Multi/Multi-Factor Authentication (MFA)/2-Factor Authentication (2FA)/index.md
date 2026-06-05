@@ -10,8 +10,4 @@ children:
 - is a subset of [[Authentication Factor／Method／Mechanism|multi-factor authentication]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Universal 2nd Factor (U2F)]]

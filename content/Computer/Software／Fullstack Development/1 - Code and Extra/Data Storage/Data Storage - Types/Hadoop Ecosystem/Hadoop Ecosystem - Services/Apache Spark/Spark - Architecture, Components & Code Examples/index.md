@@ -16,8 +16,7 @@ children:
 - it provides in-built memory computing and references datasets stored in external storage systems
 
 # Spark Components/Libraries
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Spark GraphX]]
+- [[Spark MLlib]]
+- [[Spark SQL & Dataframes]]
+- [[Spark Streaming]]

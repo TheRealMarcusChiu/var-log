@@ -9,11 +9,9 @@ children:
   - "[[X-ray Crystallography]]"
 ---
 # Methods in Capturing the Structure of a Protein
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cryogenic Electron Microscopy (Cryo-EM)]]
+- [[Nuclear Magnetic Resonance (NMR) Spectroscopy - Magnetic Resonance Spectroscopy (MRS)]]
+- [[X-ray Crystallography]]
 
 # Methods Comparisons
 - the biggest advantage of Cryo-EM to that of X-ray and NMR is that Cryo works great with larger proteins and specifically protein complexes

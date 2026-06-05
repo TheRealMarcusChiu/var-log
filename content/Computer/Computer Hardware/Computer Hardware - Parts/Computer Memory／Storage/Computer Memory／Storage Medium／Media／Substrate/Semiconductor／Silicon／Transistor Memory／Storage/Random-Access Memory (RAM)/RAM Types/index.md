@@ -9,8 +9,7 @@ children:
   - "[[Static RAM (SRAM)]]"
   - "[[Synchronous Dynamic RAM (SDRAM)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Dynamic RAM (DRAM)]]
+- [[Non-Volatile RAM (NVRAM)]]
+- [[Static RAM (SRAM)]]
+- [[Synchronous Dynamic RAM (SDRAM)]]

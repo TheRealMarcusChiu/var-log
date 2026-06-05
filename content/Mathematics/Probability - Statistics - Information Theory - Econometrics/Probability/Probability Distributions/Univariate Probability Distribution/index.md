@@ -77,11 +77,8 @@ why [[Probability Distribution - Density vs Mass]]?
 
 see: [[Probability Distribution - UPD Comparisons]]
 # Distribution Properties/Theorems/ Computing Variate Analysis Characteristics
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Probability Distribution - Theorems & Properties]].file.folder + "/" + [[Probability Distribution - Theorems & Properties]].file.name
-```
+- [[Chebyshev's Inequality／Theorem]]
+- [[Probability Distribution - Memoryless Property]]
 
 - [[Variate Analysis - Compilation & Comparisons]]
 

@@ -143,8 +143,6 @@ read: [[AND／OR Search Trees (AOT)|AND/OR Search Trees (AOT)]]
 >
 > since the CM-AOG size is bounded by 𝑂(𝑛·𝑘<sup>𝑤</sup>), we want to find a [[Pseudo Tree - Extended Graph|pseudo tree]] ordering of minimum [[(Ordered Graph - Width) - (Induced Graph - Induced Width) - (Conditional Induced Graph - Conditional Induced Width)|induced-width]] 𝑤
 # AND/OR Search Graph - Other Stuff
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[AND／OR Search Spaces - Other Stuff]].file.folder + "/" + [[AND／OR Search Spaces - Other Stuff]].file.name
-```
+- [[AOT & AOG - Finding Good Pseudo Tree]]
+- [[AOT & AOG - Solving Probabilistic Inference Queries]]
+- [[AOT & AOG - Using Tree Decomposition as Guiding Pseudo Tree]]

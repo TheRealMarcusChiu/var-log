@@ -16,11 +16,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Data Models (Conceptual - Logical - Physical) Data Models]]
+- [[Database Normalization (Unnormalized First／Second／Third／Elementary-Key／Boyce-Codd／Fourth／Essential-Tuple／Fifth／Domain-Key／Sixth Normal Form)]]
+- [[Graph／Network Database Design Patterns (G／N-DDP)]]
+- [[SQL Design Patterns]]
 
 - [[Data Warehouse - Data Lake - Lakeshore Data Mart／Warehouse - Data Mesh|Data Warehouse - Data Lake - Lakeshore Data Mart/Warehouse - Data Mesh]]
 - Design Patterns for Relational Databases - [http://www.odbms.org/wp-content/uploads/2013/11/PP2.pdf](http://www.odbms.org/wp-content/uploads/2013/11/PP2.pdf)

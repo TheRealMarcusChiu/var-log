@@ -11,8 +11,4 @@ children:
 - is defined as a subset of nodes in the graph that, once removed, the graph has [[Cluster／Clique／Join／Junction Trees - Tree Decompositions - Tree-Width|treewidth]] of <strong>w</strong> or less
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Minimum W-Cutset Problem]]

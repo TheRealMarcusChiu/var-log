@@ -6,8 +6,4 @@ parent: "[[Part of Speech (PoS)]]"
 children:
   - "[[Penn Treebank PoS Tags]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Penn Treebank PoS Tags]]

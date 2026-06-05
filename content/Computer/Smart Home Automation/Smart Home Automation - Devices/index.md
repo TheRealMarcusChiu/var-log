@@ -12,8 +12,10 @@ children:
   - "[[Smart Vibration Sensors]]"
   - "[[Smart Water Sensors]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Smart Displays]]
+- [[Smart Force Sensitive Resistor (FSR) Sensors]]
+- [[Smart Motion／Presence Sensors]]
+- [[Smart Plugs]]
+- [[Smart Switches]]
+- [[Smart Vibration Sensors]]
+- [[Smart Water Sensors]]

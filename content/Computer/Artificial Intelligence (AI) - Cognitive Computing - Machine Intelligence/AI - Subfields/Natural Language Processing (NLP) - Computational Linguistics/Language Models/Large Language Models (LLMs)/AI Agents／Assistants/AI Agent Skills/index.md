@@ -18,8 +18,5 @@ children:
 - [https://skills.sh/](https://skills.sh/)
 - [https://www.aihero.dev/skills](https://www.aihero.dev/skills)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Karpathy’s Principles for Reliable AI Coding]]
+> - [[Matt Pocock's AI Engineering Skills for Real Development]]

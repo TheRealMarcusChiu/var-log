@@ -12,11 +12,7 @@ Spring Boot uses [[Jakarta Commons Logging (JCL) - Apache Commons Logging|common
 - [[Java - Java Util Logging (JUL／J.U.L.)|Java Util Logging]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Boot - Log4j2]]
 
 # Resources
 - Spring Boot - [https://www.baeldung.com/spring-boot-logging](https://www.baeldung.com/spring-boot-logging)

@@ -9,8 +9,7 @@ children:
   - "[[Cross-Origin Resource Sharing (CORS)]]"
   - "[[Same-Origin Policy (SOP)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cross-Origin Read Blocking (CORB)]]
+- [[Cross-Origin Request (COR)]]
+- [[Cross-Origin Resource Sharing (CORS)]]
+- [[Same-Origin Policy (SOP)]]

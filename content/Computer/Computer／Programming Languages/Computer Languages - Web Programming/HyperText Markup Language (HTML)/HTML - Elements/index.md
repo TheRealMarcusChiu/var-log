@@ -6,8 +6,4 @@ parent: "[[HyperText Markup Language (HTML)]]"
 children:
   - "[[HTML - ＜svg＞ vs ＜canvas＞]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HTML - ＜svg＞ vs ＜canvas＞]]

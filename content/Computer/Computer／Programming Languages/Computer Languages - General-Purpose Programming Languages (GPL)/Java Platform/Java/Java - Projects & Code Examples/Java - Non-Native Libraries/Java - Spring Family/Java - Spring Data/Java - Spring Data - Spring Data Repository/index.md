@@ -39,8 +39,13 @@ public class Config {}
 
 To customize the package to scan, use one of the <code><font style="color: rgb(122,134,154);">basePackage…</font></code> attributes of the data-store-specific repository’s <code><font style="color: rgb(128,128,0);">@Enable<font style="color: rgb(122,134,154);">\${store}</font>Repositories</font></code>-annotation
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Repository (Customize All Repositories - repositoryBaseClass)]]
+- [[Java - Spring - Repository (Customize All Repositories - repositoryBaseClass) Autowiring Within RepositoryBaseClass]]
+- [[Java - Spring - Repository (Customize Individual Repositories - repositoryImplementationPostfix)]]
+- [[Java - Spring - Repository (Methods Creating Repository Bean Proxies)]]
+- [[Java - Spring - Repository (Query Methods - Builtin)]]
+- [[Java - Spring - Repository (Repository Methods - Selectively Expose Query Methods)]]
+- [[Java - Spring - Repository (Repository Methods - Selectively Override Query Methods)]]
+- [[Java - Spring - Repository (Using Multiple Instantiations of the Same Spring Data Module)]]
+- [[Java - Spring - Repository (Using Multiple Spring Data Modules)]]
+- [[Java - Spring - Repository (With and Without @Transactional)]]

@@ -6,8 +6,4 @@ parent: "[[Mathematical Space (Basis)]]"
 children:
   - "[[Basis Functions vs Basis Vectors]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Basis Functions vs Basis Vectors]]

@@ -9,8 +9,7 @@ children:
   - "[[FFT - Image Compression]]"
   - "[[FFT - Solving Partial Differential Equations]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[FFT - Computing Derivatives]]
+- [[FFT - Denoising Data]]
+- [[FFT - Image Compression]]
+- [[FFT - Solving Partial Differential Equations]]

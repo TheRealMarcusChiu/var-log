@@ -9,8 +9,7 @@ children:
   - "[[Gradle]]"
   - "[[JAR]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Apache - Ant]]
+- [[Apache - Maven]]
+- [[Gradle]]
+- [[JAR]]

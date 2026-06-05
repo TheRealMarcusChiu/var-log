@@ -194,8 +194,5 @@ Whenever there are more <em>software</em> threads of execution trying to execu
 }
 ```
 # <strong>Subpages</strong>
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Concurrency Models]]
+- [[Dish Washing Metaphor - Understanding Async, Non-Blocking, Concurrent, Parallel and More]]

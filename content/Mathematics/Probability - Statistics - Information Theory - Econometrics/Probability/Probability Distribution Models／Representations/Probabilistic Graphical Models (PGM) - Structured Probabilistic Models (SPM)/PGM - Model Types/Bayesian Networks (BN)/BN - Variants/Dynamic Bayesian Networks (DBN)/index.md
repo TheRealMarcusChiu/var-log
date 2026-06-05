@@ -23,11 +23,8 @@ a DBN over variables {𝑋<sub>1</sub>, ..., 𝑋<sub>𝑛</sub>} is defined by
 - [[2-Time Slice Bayesian Networks (2TBN)|2-Time Slice Bayesian Network (2TBN)]] over {𝑋<sub>1</sub><sup>(𝑡)</sup>, ..., 𝑋<sub>𝑛</sub><sup>(𝑡)</sup>} and {𝑋<sub>1</sub><sup>(𝑡+1)</sup>, ..., 𝑋<sub>𝑛</sub><sup>(𝑡+1)</sup>}
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[2-Time Slice Bayesian Networks (2TBN)]]
+- [[Ground／Unrolled Bayesian Network]]
 
 # Resources
 - [Daphne Koller - DBN & 2TBN](https://www.coursera.org/lecture/probabilistic-graphical-models/temporal-models-dbns-y1I9j)

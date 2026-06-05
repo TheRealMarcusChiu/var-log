@@ -55,8 +55,5 @@ The highest grade element in a space is called a pseudoscalar.
 - <em>n</em>-vectors are [pseudoscalars](https://en.wikipedia.org/wiki/Pseudoscalar)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bivectors - Binors - 2-vectors]]
+- [[Trivectors - 3-Vectors]]

@@ -22,8 +22,6 @@ children:
 - a graph that has k(G) = k, is k-node-connected
 
 ### Connectivity Theorems
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Harary's Theorem]]
+- [[Menger's Theorem]]
+- [[Whitney's Theorem]]

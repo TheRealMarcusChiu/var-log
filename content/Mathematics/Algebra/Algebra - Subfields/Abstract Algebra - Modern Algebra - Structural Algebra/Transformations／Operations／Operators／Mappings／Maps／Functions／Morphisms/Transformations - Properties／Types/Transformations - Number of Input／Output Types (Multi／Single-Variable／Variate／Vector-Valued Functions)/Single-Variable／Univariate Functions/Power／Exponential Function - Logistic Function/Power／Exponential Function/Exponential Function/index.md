@@ -43,10 +43,6 @@ children: []
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 
 - [[Derivative of Exponential Function (a^x and e^x)]]

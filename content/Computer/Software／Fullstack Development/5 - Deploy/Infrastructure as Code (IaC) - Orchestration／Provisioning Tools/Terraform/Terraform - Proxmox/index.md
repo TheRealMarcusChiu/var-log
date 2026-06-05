@@ -6,8 +6,4 @@ parent: "[[Terraform]]"
 children:
   - "[[Using Terraform to Launch VMs on Proxmox]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Using Terraform to Launch VMs on Proxmox]]

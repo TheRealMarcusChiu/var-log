@@ -77,11 +77,8 @@ The terms cognition and intelligence are similar, but can't be interchanged. Int
 - <strong>the golem effect</strong> - is the opposite phenomenon, in which lower expectations lead to lower performance
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ackerman's PPIK (Process - Personality - Intelligence - Knowledge) Theory]]
+- [[Cognitive／Intelligence Tests]]
 
 # Resources
 - [main resource](https://courses.lumenlearning.com/boundless-psychology/chapter/introduction-to-intelligence/)

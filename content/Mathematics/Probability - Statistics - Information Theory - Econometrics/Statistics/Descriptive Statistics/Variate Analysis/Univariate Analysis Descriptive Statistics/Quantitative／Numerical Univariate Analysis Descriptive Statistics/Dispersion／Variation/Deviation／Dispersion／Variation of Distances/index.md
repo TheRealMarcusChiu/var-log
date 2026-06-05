@@ -7,8 +7,4 @@ children:
   - "[[Distance Variance／Variation]]"
 ---
 For details see [[Dispersion／Variation|Dispersion/Variation]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Distance Variance／Variation]]

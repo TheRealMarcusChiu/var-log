@@ -19,8 +19,6 @@ children:
 - PostScript Type 1 and Type 3 fonts
 - Compugraphic
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[OpenType Font (OTF)]]
+> - [[TrueType Font (TTF)]]
+> - [[Web Open Font Format (WOFF)]]

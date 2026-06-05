@@ -9,8 +9,7 @@ children:
   - "[[Sewing Machines]]"
   - "[[Sewing Templates]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Button Down／Up Shirt]]
+- [[Fabrics]]
+- [[Sewing Machines]]
+- [[Sewing Templates]]

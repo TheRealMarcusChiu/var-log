@@ -39,8 +39,4 @@ where:
 # Subpages
 - [[MN／MRF - Variants (Gibbs Distribution)|MN/MRF - Variants (Gibbs Distribution)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[PGM - Gibbs Distribution - Bayesian Network]]

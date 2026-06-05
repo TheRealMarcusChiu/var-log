@@ -8,8 +8,4 @@ children:
 ---
 the <strong>navigator object</strong> contains information about the browser
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Why is navigator.mediaDevices undefined in Some Domains]]

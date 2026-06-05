@@ -36,8 +36,23 @@ children:
 - [[Terraform - Proxmox]]
 - [[Kasm - Proxmox]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Proxmox - Add Drive]]
+> - [[Proxmox - Cloned VM template has same IP as original]]
+> - [[Proxmox - Disk Pass Through]]
+> - [[Proxmox - Firewall]]
+> - [[Proxmox - GPU Passthrough LXC into Docker]]
+> - [[Proxmox - How to add Drives to Existing ZFS Pool]]
+> - [[Proxmox - How to Minor／Major Update]]
+> - [[Proxmox - How to Remove a Node from a Proxmox Cluster]]
+> - [[Proxmox - Installation & Setup]]
+> - [[Proxmox - Monitor／Metrics]]
+> - [[Proxmox - OSX-PROXMOX - Macintosh／Hacintosh]]
+> - [[Proxmox - qemu-guest-agent]]
+> - [[Proxmox - Resize／Resizing Guest Disks]]
+> - [[Proxmox - Shutdown & Restart]]
+> - [[Proxmox - TASK ERROR： Device ／dev／dri／card0 does not exist]]
+> - [[Proxmox - Wake on LAN (WoL) - Guest Machine (VM or LXC)]]
+> - [[Proxmox - Wake on LAN (WoL) - Host Machine]]
+> - [[Proxmox Backup Server (PBS)]]
+> - [[Proxmox Datacenter Manager (PDM)]]
+> - [[Proxmox VE Helper-Scripts]]

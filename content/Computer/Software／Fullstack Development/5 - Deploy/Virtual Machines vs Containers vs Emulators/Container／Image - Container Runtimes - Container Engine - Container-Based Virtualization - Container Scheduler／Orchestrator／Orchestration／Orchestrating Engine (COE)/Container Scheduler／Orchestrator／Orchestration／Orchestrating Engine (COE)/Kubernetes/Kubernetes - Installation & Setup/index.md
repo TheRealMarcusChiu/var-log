@@ -15,10 +15,15 @@ children:
   - "[[Minikube]]"
   - "[[k0s - The Zero Friction Kubernetes]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Helm]]
+- [[k0s - The Zero Friction Kubernetes]]
+- [[Krew]]
+- [[Kubernetes - Manual Control-Plane／Worker-Node Installation & Setup]]
+- [[Kubernetes - Manual HA Cluster Setup]]
+- [[Kubernetes IN Docker (KIND)]]
+- [[Kubernetes Talos Linux Setup]]
+- [[Kubernetes The Hard Way]]
+- [[Kubespray]]
+- [[Minikube]]
 
 - [[Terraform - Kubernetes - Typhoon]]

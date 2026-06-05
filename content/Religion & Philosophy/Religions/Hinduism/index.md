@@ -75,8 +75,7 @@ children:
 - when one reaches enlightenment, is it destroyed when Shiva destroys all?
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hindu Caste System]]
+- [[Hinduism - Books]]
+- [[Hinduism - Gods]]
+- [[Hinduism - Origins of Death]]

@@ -18,8 +18,6 @@ children:
 - the microorganisms in a particular environment (including the body or a part of the body)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bacteria]]
+- [[Bacteriophages (Phages) - Virus／Viruses]]
+- [[Microbiome]]

@@ -81,11 +81,7 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Spring Data Neo4j (SDN) 5 - Custom Complex @Query Auto-Map POJO Objects]]
 
 # Code Examples
 - [https://github.com/SpringBootMarcusChiu/neo4j-example](https://github.com/SpringBootMarcusChiu/neo4j-example)

@@ -18,8 +18,5 @@ children:
 - [[HBase]]
 - [[Apache - Cassandra]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Alluxio (formerly known as Tachyon)]]
+> - [[Storj]]

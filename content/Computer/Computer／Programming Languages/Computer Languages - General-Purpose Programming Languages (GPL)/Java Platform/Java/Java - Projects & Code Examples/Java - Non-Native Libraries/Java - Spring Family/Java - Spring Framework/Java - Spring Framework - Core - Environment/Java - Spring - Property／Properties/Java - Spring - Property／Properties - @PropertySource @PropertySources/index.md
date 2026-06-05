@@ -27,8 +27,4 @@ public class AppConfig {}
 public class AppConfig {}
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Property／Properties - @PropertySource YAML File]]

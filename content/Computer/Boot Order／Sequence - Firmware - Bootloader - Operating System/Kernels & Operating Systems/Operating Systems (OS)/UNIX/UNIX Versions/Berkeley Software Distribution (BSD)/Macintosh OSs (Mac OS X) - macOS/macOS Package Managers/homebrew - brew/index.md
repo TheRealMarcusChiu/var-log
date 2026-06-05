@@ -10,8 +10,4 @@ children:
 
 the missing package manager for [[Macintosh OSs (Mac OS X) - macOS|macOS]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[brew update／upgrade／cleanup]]

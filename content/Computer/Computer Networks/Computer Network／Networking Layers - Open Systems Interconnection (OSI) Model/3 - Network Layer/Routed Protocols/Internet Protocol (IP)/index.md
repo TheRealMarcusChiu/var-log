@@ -14,8 +14,5 @@ children:
 ^excerpt
 
 # IP Versions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[IPv4]]
+- [[IPv6]]

@@ -7,8 +7,5 @@ children:
   - "[[openssl - Generating Self-Signed CSR／CA Certificate]]"
   - "[[openssl - Generating a Certificate Signing Request (CSR)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[openssl - Generating a Certificate Signing Request (CSR)]]
+- [[openssl - Generating Self-Signed CSR／CA Certificate]]

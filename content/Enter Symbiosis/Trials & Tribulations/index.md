@@ -23,8 +23,15 @@ children:
 
 <font style="color: rgb(128,128,128);"><em><em>"Is it not strange that we are born to form relationships, and yet death just comes along to end them?"</em></em></font>
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[3 Final Wishes of Alexander the Great]]
+- [[.]]
+- [[Chasing Daylight - How My Forthcoming Death Transformed My Life]]
+- [[Dear Therapist - I Divorced My Dying Wife Once She Was No Longer Lucid]]
+- [[Fallen in Love with a Girl but she has a Boyfriend]]
+- [[March 11, 2011]]
+- [[My 34-Year-Old Husband Just Died And My Grief Is So Immense, I Can't Accept He's Gone]]
+- [[One Last Thing Before I Go]]
+- [[Regrets People Have On Their Deathbeds]]
+- [[Roh Moo-hyun's Suicide Note]]
+- [[Steve Job's Rumored Last Words]]
+- [[Widows]]

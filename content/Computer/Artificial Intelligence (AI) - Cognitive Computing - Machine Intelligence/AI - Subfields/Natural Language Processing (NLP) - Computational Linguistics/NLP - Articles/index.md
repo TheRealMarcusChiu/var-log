@@ -8,8 +8,6 @@ children:
   - "[[AI's Language Problem ｜ MIT Technology Review]]"
   - "[[Language Is The Next Great Frontier In AI]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[A Wave Of Billion-Dollar Language AI Startups Is Coming]]
+- [[AI's Language Problem ｜ MIT Technology Review]]
+- [[Language Is The Next Great Frontier In AI]]

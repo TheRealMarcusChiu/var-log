@@ -21,8 +21,5 @@ Similar to a [[Storage Area Network (SAN)|SAN]], a NAS needs to make use of a pr
 - [[Network File System (NFS)|NFS]] - used with UNIX & Linux networks
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[NAS - Hardware]]
+- [[NAS - Software]]

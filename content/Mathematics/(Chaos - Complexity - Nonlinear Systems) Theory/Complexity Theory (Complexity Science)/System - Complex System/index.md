@@ -40,11 +40,7 @@ children:
 > [!expand]- low structural diversity, high organization
 > ![[System - Complex System/high-organization-low-structural-diversity.jpeg]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Complex Adaptive Systems]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Complex_system](https://en.wikipedia.org/wiki/Complex_system)

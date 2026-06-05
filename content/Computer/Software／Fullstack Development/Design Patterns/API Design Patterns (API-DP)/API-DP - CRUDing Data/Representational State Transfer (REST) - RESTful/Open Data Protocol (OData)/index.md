@@ -14,8 +14,4 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Using OData to Automate Firmware Updates (i.e. BIOS／IPMI／BMC)]]

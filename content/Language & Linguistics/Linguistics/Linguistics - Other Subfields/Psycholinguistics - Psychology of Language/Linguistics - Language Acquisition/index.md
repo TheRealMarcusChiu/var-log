@@ -7,11 +7,7 @@ children:
   - "[[Linguistics - Language Acquisition Theories]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Linguistics - Language Acquisition Theories]]
 
 # Resources
 - [https://www.ted.com/talks/patricia_kuhl_the_linguistic_genius_of_babies](https://www.ted.com/talks/patricia_kuhl_the_linguistic_genius_of_babies)

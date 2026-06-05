@@ -23,8 +23,4 @@ children:
 - [Sobolev spaces](https://en.wikipedia.org/wiki/Sobolev_space)
 
 # TVS - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Topological Vector Space (Bounded Sets - von Neumann Bounded Sets - Unbounded Sets)]]

@@ -61,8 +61,4 @@ TODO
 <span style="white-space: pre-wrap"><code>  docker run -d -p 80:80 --name webserver nginx</code><br><code>  docker stop webserver</code><br><code>  docker rm webserver</code></span>
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Docker Compose]]

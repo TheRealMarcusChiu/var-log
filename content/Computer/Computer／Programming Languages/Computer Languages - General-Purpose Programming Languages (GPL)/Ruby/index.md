@@ -69,11 +69,7 @@ children:
 > > Today is <%= Time.now.strftime('%A') %>.
 > > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ruby on Rails]]
 
 # Projects
 - master example - [https://github.com/TheRealMarcusChiu/RubyMasterExample.git](https://github.com/TheRealMarcusChiu/RubyMasterExample.git)

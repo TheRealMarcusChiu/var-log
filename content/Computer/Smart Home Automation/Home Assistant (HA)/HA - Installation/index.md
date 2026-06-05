@@ -7,8 +7,5 @@ children:
   - "[[HA - Installation Proxmox]]"
   - "[[HA - Installation macOS Silicon via VirtualBox]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HA - Installation macOS Silicon via VirtualBox]]
+- [[HA - Installation Proxmox]]

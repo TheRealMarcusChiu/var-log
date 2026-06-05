@@ -15,8 +15,4 @@ children:
 # Commands
 ![[Terminal Multiplexor (TMUX)/tmux.png|500]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[TMUX - tmux.conf]]

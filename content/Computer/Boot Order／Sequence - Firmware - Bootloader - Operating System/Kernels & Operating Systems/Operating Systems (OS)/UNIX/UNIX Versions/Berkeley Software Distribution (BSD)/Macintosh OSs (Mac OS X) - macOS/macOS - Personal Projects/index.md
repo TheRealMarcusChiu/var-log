@@ -7,10 +7,7 @@ children:
   - "[[macOS - anti.people]]"
   - "[[macOS - auto startup]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[macOS - anti.people]]
+- [[macOS - auto startup]]
 
 other [[Computer Personal Projects|computer personal projects]]

@@ -9,8 +9,5 @@ children:
 ---
 poetry are like super-compressed information, and it requires another human with all its experience to decompress these messages
 ###### poetries
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Love Poem]]
+- [[The Paradox of Our Age]]

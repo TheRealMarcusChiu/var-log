@@ -12,8 +12,7 @@ children:
 # [[Software Defined Storage (SDS)]] for [[Kubernetes]]
 
 These are [[Kubernetes Addons]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[GlusterFS]]
+- [[Longhorn (Kubernetes)]]
+- [[OpenEBS]]
+- [[Rook (Kubernetes)]]

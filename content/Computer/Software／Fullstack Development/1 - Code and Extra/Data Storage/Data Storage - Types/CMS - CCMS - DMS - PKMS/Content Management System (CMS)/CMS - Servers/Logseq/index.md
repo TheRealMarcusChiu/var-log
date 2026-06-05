@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Logseq - Webapp]]
 
 # Resources
 - [https://logseq.com/](https://logseq.com/)

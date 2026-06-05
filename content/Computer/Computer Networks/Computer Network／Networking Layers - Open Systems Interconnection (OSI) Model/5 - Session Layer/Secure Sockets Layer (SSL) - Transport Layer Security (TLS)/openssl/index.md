@@ -22,8 +22,6 @@ children:
 # Subpages
 - [[Obtaining Public Certificate of a Domain (OpenSSL)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[openssl - Checking Certificate From URL]]
+> - [[openssl - Checking Expiration Date]]
+> - [[openssl - Generating SSL Certificates]]

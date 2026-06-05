@@ -110,11 +110,7 @@ thus, covariance matrix of 𝑌 = 𝑃<sup>𝑇</sup>𝑆𝑃
 > - 𝑦<sub>3</sub>= 1.601 / 50 = 3.202%
 # PCA - Subpages
 - [[Principal Component Analysis (PCA) vs Factor Analysis (FA)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Empirical Principal Component Modal Factor Analysis Karhunen-Loeve Hotelling Transform Proper Orthogonal Spectral Singular Value Eigenvalue Eigenfunction Decomposition Eckart-Young Theorem Quasiharmonic Modes]]
 
 # Resources
 - [PCA ~ Herve Abdi & Lynne J. Williams](https://personal.utdallas.edu/~herve/abdi-awPCA2010.pdf)

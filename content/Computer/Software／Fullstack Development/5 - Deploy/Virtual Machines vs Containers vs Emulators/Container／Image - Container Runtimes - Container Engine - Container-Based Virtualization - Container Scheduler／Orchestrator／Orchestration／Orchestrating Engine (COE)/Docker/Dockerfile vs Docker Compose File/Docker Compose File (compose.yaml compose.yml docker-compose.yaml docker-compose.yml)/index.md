@@ -11,11 +11,7 @@ Compose file is
 
 If both files exist, Compose implementations MUST prefer canonical compose.yaml one
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 
 # Reference
 - [https://docs.docker.com/compose/compose-file/](https://docs.docker.com/compose/compose-file/)

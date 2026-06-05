@@ -11,8 +11,9 @@ children:
   - "[[Maven - git-commit-id-plugin Example]]"
   - "[[Maven - sonar]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maven - git-commit-id-plugin Example]]
+- [[Maven - Programming Mistake Detector (PMD) Plugin]]
+- [[Maven - Release Plugin]]
+- [[Maven - sonar]]
+- [[Maven - SpotBugs／FindBugs]]
+- [[Maven - Test Plugins]]

@@ -7,8 +7,5 @@ children:
   - "[[Interior Product - Interior Derivative／Multiplication - Inner Derivative／Multiplication／Derivation - Insertion Operator]]"
   - "[[Wedge Product - Exterior Product]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Interior Product - Interior Derivative／Multiplication - Inner Derivative／Multiplication／Derivation - Insertion Operator]]
+- [[Wedge Product - Exterior Product]]

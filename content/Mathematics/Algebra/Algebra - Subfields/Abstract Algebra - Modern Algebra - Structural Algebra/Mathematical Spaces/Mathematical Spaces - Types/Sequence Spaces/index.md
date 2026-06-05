@@ -25,11 +25,7 @@ A <em>sequence space</em> is any [[Linear Subspaces - Vector Subspaces|linear
 - [[lp Spaces - Lebesgue Spaces (sequence space)|𝓁𝑝 spaces (sequence space)]]
 - [[Lp Spaces - Lebesgue Spaces (function space)|𝐿𝑝 spaces (function space)]] consisting of the p-power summable sequences with the [[Lp／Minkowski Norm (p-norm)|p-norm]]. These are special cases of 𝐿<sup>𝑝</sup> spaces for the counting measure on the set of natural number
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+
 
 # Resources
 - [https://en.wikipedia.org/wiki/Sequence_space](https://en.wikipedia.org/wiki/Sequence_space)

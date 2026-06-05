@@ -70,8 +70,4 @@ If 𝑋 and 𝑌 are in <strong>𝑽</strong> and are [[Probability Depende
 
 <strong>![[Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws/causality-vs-dependence.png|301]]</strong>
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Variable Relationship Types - ([Strictly] [Strong｜Weak] [Positive｜Negative] [Linear｜Non-Linear｜Monotonic] Relationship)]]

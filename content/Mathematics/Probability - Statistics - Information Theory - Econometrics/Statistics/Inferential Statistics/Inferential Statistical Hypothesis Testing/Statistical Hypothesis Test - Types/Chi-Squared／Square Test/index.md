@@ -73,11 +73,7 @@ children:
 }
 ```
 # Chi-Square Tests
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Pearson's Chi-Square Test]]
 
 - one-way chi-square test
 - two-way chi-square test

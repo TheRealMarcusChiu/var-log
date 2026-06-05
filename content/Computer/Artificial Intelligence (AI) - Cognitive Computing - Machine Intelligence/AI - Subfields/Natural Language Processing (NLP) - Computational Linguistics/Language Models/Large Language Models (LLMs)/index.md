@@ -37,11 +37,24 @@ children:
 Transformer based:
 - [[Generative Pre-trained Transformer (GPT)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[AI Agents／Assistants]]
+> - [[Alpaca]]
+> - [[BERT (Bidirectional Encoder Representations from Transformers)]]
+> - [[Claude]]
+> - [[DocsGPT]]
+> - [[Evolutionary Scale Model 3 (ESM-3) Evolution Language Model]]
+> - [[GLM-4-Voice]]
+> - [[GPT-Generated Unified Format (GGUF)]]
+> - [[Kotaemon]]
+> - [[LLaMA]]
+> - [[LLM Interpretability]]
+> - [[LM Studio]]
+> - [[MLX]]
+> - [[ollama]]
+> - [[Pathways Language Model (PaLM)]]
+> - [[Retrieval-Augmented Generation (RAG)]]
+> - [[Ultravox]]
+> - [[vLLM]]
 
 - [BLOOM](https://en.wikipedia.org/wiki/BLOOM_(language_model))
 - [Ernie 3.0 Titan](https://en.wikipedia.org/wiki/Ernie_Bot)

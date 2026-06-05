@@ -22,11 +22,14 @@ see also:
 - [[Microservices／μService Architecture - Service-Oriented Architecture (SOA)|Microservices/μService Architecture - Service-Oriented Architecture (SOA)]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Cloud - Zookeeper Integration]]
+- [[Java - Spring Cloud - Zuul API Gateway Proxy]]
+- [[Java - Spring Cloud Circuit Breaker - Pattern & Fault／Latency Tolerance & Resilience Frameworks]]
+- [[Java - Spring Cloud Config]]
+- [[Java - Spring Cloud Contract]]
+- [[Java - Spring Cloud Data Flow]]
+- [[Java - Spring Cloud Function]]
+- [[Java - Spring Cloud Stream]]
 
 # Resources
 - [https://spring.io/projects/spring-cloud](https://spring.io/projects/spring-cloud)

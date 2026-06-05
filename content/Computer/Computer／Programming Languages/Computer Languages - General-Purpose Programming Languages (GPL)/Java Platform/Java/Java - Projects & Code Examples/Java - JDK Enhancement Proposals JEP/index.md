@@ -9,8 +9,5 @@ children:
 ---
 [https://wiki.openjdk.java.net/](https://wiki.openjdk.java.net/)
 # JEPs
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Project Loom]]
+- [[Java - Valhalla]]

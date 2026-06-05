@@ -70,22 +70,19 @@ The family of <strong>Macintosh Operating Systems</strong> was developed by [A
 }
 ```
 # General
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[macOS - General]].file.folder + "/" + [[macOS - General]].file.name
-```
+- [[launchd - plist]]
+- [[macOS - Bypass Login Screen]]
+- [[macOS - Desktop Environment Customizing]]
+- [[macOS - Dock Not Restarting After killall Dock]]
+- [[macOS - Finder Display Hidden Files]]
+- [[macOS - xcode]]
+- [[System Integrity Protection (SIP)]]
 
 # Personal Projects
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[macOS - Personal Projects]].file.folder + "/" + [[macOS - Personal Projects]].file.name
-```
+- [[macOS - anti.people]]
+- [[macOS - auto startup]]
 
 # Package Managers
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[macOS Package Managers]].file.folder + "/" + [[macOS Package Managers]].file.name
-```
+- [[fink]]
+- [[homebrew - brew]]
+- [[macports]]

@@ -53,11 +53,29 @@ children:
 >
 > [https://medium.com/@jayphelps/backpressure-explained-the-flow-of-data-through-software-2350b3e77ce7](https://medium.com/@jayphelps/backpressure-explained-the-flow-of-data-through-software-2350b3e77ce7)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[0 - Plan]]
+- [[1 - Code and Extra]]
+- [[2 - Build Tools／Systems]]
+- [[3 - Testing (Automated Tests)]]
+- [[4 - Release]]
+- [[4 Types of Projects (Walking in the fog - Making a movie - Going on a quest - Painting by numbers)]]
+- [[5 - Deploy]]
+- [[6 - Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics]]
+- [[Agile - Scrum]]
+- [[Architecture／Architectural Design Examples]]
+- [[Before Commit vs After Commit]]
+- [[Cloud Computing／Service Models／Platforms (SaaS - FaaS - PaaS - IaaS - MaaS - PC)]]
+- [[Cloud Foundry]]
+- [[Continuous Integration (CI) - Continuous Delivery (CD) - Continuous Deployment]]
+- [[Design Patterns]]
+- [[Fault／Latency Tolerance & Resilience (Service-Dependency Layer)]]
+- [[Feature Toggles／Flags (Release／Experiment／Ops／Permissioning)]]
+- [[Push Notifications Services／Servers]]
+- [[Real-Time Peer／Pair Code／Design Programming／Review]]
+- [[Service-Level Agreement (SLA) -  Service-Level Objective (SLO) -  Service-Level Indicator (SLI)]]
+- [[Software Design／Development Paradigms／Principles]]
+- [[Software License Types]]
+- [[Versioning Schemes]]
 
 - [[Git Strategies]]
 - [Reducing Costs of HTTPS API AWS](https://gameanalytics.com/blog/reduce-costs-https-api-aws.html/amp)

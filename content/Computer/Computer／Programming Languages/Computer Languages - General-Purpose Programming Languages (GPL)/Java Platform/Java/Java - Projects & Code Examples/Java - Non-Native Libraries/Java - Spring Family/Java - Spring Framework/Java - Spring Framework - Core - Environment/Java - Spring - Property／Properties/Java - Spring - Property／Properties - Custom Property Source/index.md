@@ -9,8 +9,6 @@ children:
   - "[[Java - Spring - Property／Properties - Custom Property Source - ApplicationContextInitializer]]"
 ---
 # Methods
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Property／Properties - Custom Property Source - @Configuration & @Bean]]
+- [[Java - Spring - Property／Properties - Custom Property Source - @DependsOn]]
+- [[Java - Spring - Property／Properties - Custom Property Source - ApplicationContextInitializer]]

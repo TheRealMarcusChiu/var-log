@@ -12,8 +12,8 @@ children:
 ---
 [http://confluence.marcuschiu.com](http://confluence.marcuschiu.com) is an instance of [[Confluence]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Confluence - Backup & Restore]]
+- [[Confluence - Backup Procedure]]
+- [[Confluence - Export]]
+- [[Confluence - Installation & Setup]]
+- [[Confluence - Systemd Service]]

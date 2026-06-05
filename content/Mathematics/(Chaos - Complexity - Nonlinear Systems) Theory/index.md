@@ -15,8 +15,8 @@ children:
 - <strong>[[Nonlinear Systems Theory]]</strong> studies how variation can shape the irreversible evolutionary paths of complex systems
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chaos Theory]]
+- [[Complexity Theory (Complexity Science)]]
+- [[Emergence - Emergent Property]]
+- [[Network Theory - Network Science]]
+- [[Nonlinear Systems Theory]]

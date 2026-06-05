@@ -21,10 +21,8 @@ children:
 > [!expand]- Click here to expand...
 > ![[Authentication／Authorization／Delegation - Entities／Actors#^excerpt]]
 # OAuth Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[OAuth - Google API Example]]
+- [[OAuth - Grant Types／Flows (Message Exchange Patterns)]]
+- [[OAuth - Token Introspection - Introspection Endpoint]]
 
 - [https://oauthdebugger.com/](https://oauthdebugger.com/)

@@ -21,11 +21,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kafka - Architecture]]
+- [[Kafka - Installation (Cluster)]]
+- [[Kafka - Installation (Standalone)]]
+- [[Kafka Connect]]
 
 # Resources
 - [https://kafka.apache.org/](https://kafka.apache.org/)

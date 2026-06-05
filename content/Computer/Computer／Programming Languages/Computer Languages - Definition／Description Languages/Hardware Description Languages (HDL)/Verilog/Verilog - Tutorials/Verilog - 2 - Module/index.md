@@ -76,8 +76,5 @@ children:
 > endmodule
 > ```
 # Module Examples
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Verilog - DFF Module & Test Bench Example]]
+- [[Verilog - Memory／Storage Module Examples]]

@@ -6,8 +6,4 @@ parent: "[[History]]"
 children:
   - "[[The Chronology of Ancient Kingdoms Amended - Sir Isaac Newton]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[The Chronology of Ancient Kingdoms Amended - Sir Isaac Newton]]

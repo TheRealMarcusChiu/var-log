@@ -7,8 +7,5 @@ children:
   - "[[Hadoop - Java - HDFS Write Read]]"
   - "[[Hadoop - Java - MapReduce]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hadoop - Java - HDFS Write Read]]
+- [[Hadoop - Java - MapReduce]]

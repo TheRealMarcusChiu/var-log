@@ -10,11 +10,10 @@ children:
   - "[[YourKit]]"
 ---
 # Java Profilers/Profiling-Tools
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java VisualVM]]
+- [[JProfiler]]
+- [[Netbeans Profiler]]
+- [[YourKit]]
 
 # Resources
 - [https://www.baeldung.com/java-profilers](https://www.baeldung.com/java-profilers)

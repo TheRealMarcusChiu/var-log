@@ -15,11 +15,9 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HA - Installation]]
+- [[HA - Setup]]
+- [[Home Assistant Community Store (HACS)]]
 
 # Resources
 - [https://www.home-assistant.io/](https://www.home-assistant.io/)

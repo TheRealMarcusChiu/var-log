@@ -18,11 +18,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cauchy Criterion For Convergence]]
+- [[Leibniz's Criterion／Test／Rule - Alternating Series Test]]
+- [[Sequences of Real Numbers (Convergent／Divergent／Bounded／Unbounded Sequences)]]
+- [[Series (mathematics)]]
 
 # Resources
 - [The Bright Side of Mathematics - Lecture Series](https://www.youtube.com/playlist?list=PLBh2i93oe2quABbNq4I_-hyjhW8eOdgrO)

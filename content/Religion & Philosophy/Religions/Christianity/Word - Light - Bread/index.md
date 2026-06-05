@@ -7,8 +7,4 @@ children:
   - "[[People's Words and Actions can Shape Your Brain]]"
 ---
 similarities between: Word, Light, and Bread
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[People's Words and Actions can Shape Your Brain]]

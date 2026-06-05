@@ -12,8 +12,6 @@ see: [[Neo4j]]
 # Subpages
 - [[Java - Spring - Spring Data Neo4j (SDN)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Java - Neo4j - Embedded Examples]]
+> - [[Java - Neo4j - Testing]]
+> - [[Java - Neo4j GraphQL]]

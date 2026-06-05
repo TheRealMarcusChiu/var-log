@@ -15,8 +15,6 @@ children:
 - it is manufactured and fabricated with TSMC's N7 FinFET graphics chips used in the Navi series of AMD Radeon graphics cards
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[RDNA 1 (RDNA1)]]
+- [[RDNA 2 (RDNA2)]]
+- [[RDNA 3 (RDNA3)]]

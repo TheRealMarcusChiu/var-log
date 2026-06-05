@@ -26,8 +26,4 @@ children:
 - <strong>bondservant</strong> - a person bound in service without wages
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Emperor vs King]]

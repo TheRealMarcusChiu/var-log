@@ -6,8 +6,4 @@ parent: "[[Drive - Device - Disk - Disc - Commands]]"
 children:
   - "[[Disk Performance - Terminal Commands]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Disk Performance - Terminal Commands]]

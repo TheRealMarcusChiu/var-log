@@ -7,8 +7,5 @@ children:
   - "[[Empirical／Sample Distribution]]"
   - "[[Population Distribution]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Empirical／Sample Distribution]]
+- [[Population Distribution]]

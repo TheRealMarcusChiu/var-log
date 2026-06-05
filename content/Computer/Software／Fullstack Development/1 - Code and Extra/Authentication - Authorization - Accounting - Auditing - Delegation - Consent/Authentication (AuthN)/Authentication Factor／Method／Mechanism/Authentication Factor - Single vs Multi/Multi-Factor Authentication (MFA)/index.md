@@ -11,8 +11,5 @@ children:
 - is an authentication method in which a user is granted access only after successfully presenting two or more pieces of evidence to an authentication mechanism: knowledge, possession, and inherence
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[2-Factor Authentication (2FA)]]
+- [[3-Factor Authentication]]

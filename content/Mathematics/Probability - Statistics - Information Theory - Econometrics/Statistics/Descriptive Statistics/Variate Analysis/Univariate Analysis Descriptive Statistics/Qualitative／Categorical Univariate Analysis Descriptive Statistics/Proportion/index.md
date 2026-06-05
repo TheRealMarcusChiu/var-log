@@ -6,8 +6,4 @@ parent: "[[Qualitative／Categorical Univariate Analysis Descriptive Statistics]
 children:
   - "[[Sample Proportion]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Sample Proportion]]

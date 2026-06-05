@@ -16,8 +16,7 @@ Fault Tolerance can be either:
 - global - requires some centralized management
 
 Here are some solutions:
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Auto-Scaling／Scaler]]
+- [[Circuit-Breaker／Breaking]]
+- [[Load Shedding／Shedder]]
+- [[Reliability Management System]]

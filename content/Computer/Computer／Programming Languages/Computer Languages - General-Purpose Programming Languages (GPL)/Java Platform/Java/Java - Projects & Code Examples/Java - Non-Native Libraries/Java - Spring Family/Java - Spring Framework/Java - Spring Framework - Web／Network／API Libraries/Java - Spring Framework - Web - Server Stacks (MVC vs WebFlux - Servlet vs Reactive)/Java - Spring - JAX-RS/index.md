@@ -12,11 +12,7 @@ Using [[Java - Jakarta RESTful Web Services (JAX-RS)|Jakarta RESTful Web Service
 - [Apache CXF](https://cxf.apache.org/)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - JAX-RS - Jersey]]
 
 # Resources
 - [https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.developing-web-applications.jersey](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.developing-web-applications.jersey)

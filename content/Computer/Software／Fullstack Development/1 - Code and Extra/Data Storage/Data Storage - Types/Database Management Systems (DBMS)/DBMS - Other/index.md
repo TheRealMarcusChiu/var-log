@@ -10,8 +10,8 @@ children:
   - "[[Open Database Connectivity (ODBC)]]"
   - "[[Schema-on-Read vs Schema-on-Write]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Database Index Types (Simple - Primary - Unique - Composite／Compound／Concatenated／Federated) Index]]
+- [[Database Key Types (Candidate - Primary - Alternate - Unique - Composite／Compound／Concatenated／Federated - Super - Foreign) Key]]
+- [[DBMS Query Types - Online Transaction Processing (OLTP) - Online Analytical Processing (OLAP)]]
+- [[Open Database Connectivity (ODBC)]]
+- [[Schema-on-Read vs Schema-on-Write]]

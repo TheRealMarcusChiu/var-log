@@ -18,8 +18,4 @@ children:
 - QNAP (i.e. TR-004-US) - [https://www.qnap.com/en-us/](https://www.qnap.com/en-us/)
 - Terramaster (i.e. D5-300C) - [https://shop.terra-master.com](https://shop.terra-master.com)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[45Drives - Storage Servers]]

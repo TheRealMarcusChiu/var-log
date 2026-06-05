@@ -12,8 +12,7 @@ children:
 music is a piece of art that goes in the ears straight to the heart
 
 d d e d b a b d d e f\# e e e f\#-a b a f\#-aa b bc\#dc\#b f\# a d c\# b a d f\#baf\# d f\# ee d
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Guitar]]
+- [[Liked Music]]
+- [[Music Theory]]
+- [[Singing]]

@@ -6,8 +6,4 @@ parent: "[[Software／Fullstack Development]]"
 children:
   - "[[Rolling Release vs Fixed／Standard／Point Release]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Rolling Release vs Fixed／Standard／Point Release]]

@@ -7,11 +7,7 @@ children:
   - "[[Java - Dynamic Proxies]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Dynamic Proxies]]
 
 # Resources
 - [https://www.baeldung.com/java-reflection](https://www.baeldung.com/java-reflection)

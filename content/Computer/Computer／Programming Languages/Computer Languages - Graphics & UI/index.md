@@ -6,10 +6,6 @@ parent: "[[Computer／Programming Languages]]"
 children:
   - "[[Shading／Shader Languages]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Shading／Shader Languages]]
 
 - [[Graphics／Rendering Libraries／APIs|Graphics/Rendering Libraries/APIs]]

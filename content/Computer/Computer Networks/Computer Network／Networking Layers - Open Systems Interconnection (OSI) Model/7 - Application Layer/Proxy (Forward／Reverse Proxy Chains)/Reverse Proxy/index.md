@@ -15,11 +15,8 @@ children:
 ^excerpt
 
 # Reverse Proxy Server Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Envoy (Service Mesh Proxy)]]
+- [[HAProxy]]
 - [[Nginx]]
 - [[Apache HTTP Server (Apache)]]
 - [[Gorouter (Load Balancer)]]

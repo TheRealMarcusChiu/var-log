@@ -65,8 +65,7 @@ To handle parameters in your query, define method parameters as already seen in 
 
 see: [[Java - Spring - Repository (Pageable, Slice, and Sort in Query Methods)]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Repository (Async Query Results)]]
+- [[Java - Spring - Repository (Limiting Query Results)]]
+- [[Java - Spring - Repository (Pageable, Slice, and Sort in Query Methods)]]
+- [[Java - Spring - Repository (Streaming Query Results)]]

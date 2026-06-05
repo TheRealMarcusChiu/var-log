@@ -20,8 +20,9 @@ The Linux Kernel was first released on September 17, 1991, by Linus Torvalds. (f
 - Linux kernel interactive map - [https://makelinux.github.io/kernel/map/](https://makelinux.github.io/kernel/map/)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Control Group (cgroup)]]
+- [[IP Virtual Server (IPVS)]]
+- [[Linux Kernel - Device Drivers]]
+- [[Linux Kernel - Kernel Images (vmlinux／vmlinuz／zImage／bzImage)]]
+- [[Linux Virtual Server (LVS)]]
+- [[Netfilter]]

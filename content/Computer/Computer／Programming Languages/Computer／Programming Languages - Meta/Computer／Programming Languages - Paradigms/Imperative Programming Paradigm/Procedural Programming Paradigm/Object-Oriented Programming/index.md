@@ -18,11 +18,10 @@ children:
 # Object-Oriented Programming - Other
 - [[SOLID Principles]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Object-Oriented Programming - (Static／Compile-Time vs Dynamic／Runtime／Virtual) Method／Function Dispatch／Dispatching]]
+> - [[Object-Oriented Programming - Abstract Classes vs Interfaces]]
+> - [[Object-Oriented Programming - Characteristics (4 Principles - Abstraction Polymorphism Encapsulation Inheritance)]]
+> - [[Object-Oriented Programming - Class-Based vs Prototype-Based]]
 
 # Object-Oriented Programming - Language Implementations
 - [[Java Platform]]

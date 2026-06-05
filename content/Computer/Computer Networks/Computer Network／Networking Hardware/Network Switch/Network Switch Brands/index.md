@@ -12,8 +12,10 @@ children:
   - "[[Mikrotik Switches]]"
   - "[[Nvidia Switches]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Arista Switches]]
+- [[Brocade Switches]]
+- [[Cisco Switches]]
+- [[Dell Switches]]
+- [[Juniper Switches]]
+- [[Mikrotik Switches]]
+- [[Nvidia Switches]]

@@ -8,11 +8,7 @@ children:
 ---
 ![](https://www.youtube.com/watch?v=zQGOcOUBi6s)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Multipotent Hematopoietic Stem Cell]]
 
 # Resources
 - [Introduction to Immune System - Lectures](https://www.youtube.com/watch?v=bW-eEBxJYaM&list=PL9jo2wQj1WCNaYmBK_B81PlrX4OYLwb13)

@@ -26,8 +26,16 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[.NET Languages]]
+- [[Common Business-Oriented Language (COBOL)]]
+- [[C／C++／Carbon／Rust]]
+- [[Erlang]]
+- [[Fortran (Formula Translator)]]
+- [[Go-lang]]
+- [[Java Platform]]
+- [[Lua]]
+- [[Perl (Practical Extraction and Report Language)]]
+- [[PHP (PHP： Hypertext Preprocessor)]]
+- [[Python]]
+- [[Ruby]]
+- [[Zig - Ziglang]]

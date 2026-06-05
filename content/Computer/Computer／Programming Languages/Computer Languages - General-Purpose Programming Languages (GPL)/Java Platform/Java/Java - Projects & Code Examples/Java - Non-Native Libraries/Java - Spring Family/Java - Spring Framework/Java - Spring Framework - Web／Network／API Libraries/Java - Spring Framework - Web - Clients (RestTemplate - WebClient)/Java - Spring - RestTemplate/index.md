@@ -50,11 +50,8 @@ children:
 > }
 > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - RestTemplate configure ObjectMapper]]
+- [[Java - Spring - RestTemplate configured with HttpClient]]
 
 # Resources
 - [https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.resttemplate](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.resttemplate)

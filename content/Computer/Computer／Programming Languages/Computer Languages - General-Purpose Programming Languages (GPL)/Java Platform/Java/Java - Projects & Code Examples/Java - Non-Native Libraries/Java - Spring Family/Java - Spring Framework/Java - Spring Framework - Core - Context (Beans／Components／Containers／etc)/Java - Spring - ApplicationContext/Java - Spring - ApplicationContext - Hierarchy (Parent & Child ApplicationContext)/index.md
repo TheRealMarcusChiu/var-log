@@ -8,8 +8,6 @@ children:
   - "[[Java - Spring - ApplicationContext - Hierarchy - ServletRegistrationBean]]"
   - "[[Java - Spring - ApplicationContext - Hierarchy - SpringApplicationBuilder]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - ApplicationContext - Hierarchy - Modularity]]
+- [[Java - Spring - ApplicationContext - Hierarchy - ServletRegistrationBean]]
+- [[Java - Spring - ApplicationContext - Hierarchy - SpringApplicationBuilder]]

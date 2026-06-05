@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Automated Certificate Management Environment (ACME) Protocol]]
 
 # Resources
 - [https://letsencrypt.org/](https://letsencrypt.org/)

@@ -14,10 +14,7 @@ children:
 ^excerpt
 
 # Positional Encoding - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Positional Encoding (Sinusoidal - Cosine／Sine)]]
+- [[Why Positional Encodings and (Semantic Encodings ／ Word Embeddings) Added Together Instead of Concatenated]]
 
 - in [[BERT (Bidirectional Encoder Representations from Transformers)|BERT]], positional encodings are themselves trainable vectors, so no sinusoidal function is used anymore

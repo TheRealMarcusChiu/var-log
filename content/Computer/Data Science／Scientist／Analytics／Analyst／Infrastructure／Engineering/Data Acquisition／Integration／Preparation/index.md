@@ -8,8 +8,6 @@ children:
   - "[[Data Integration]]"
   - "[[Data Preparation／Scrubbing]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Data Acquisition／Collection]]
+- [[Data Integration]]
+- [[Data Preparation／Scrubbing]]

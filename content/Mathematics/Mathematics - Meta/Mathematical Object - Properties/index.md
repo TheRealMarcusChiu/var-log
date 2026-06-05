@@ -8,8 +8,6 @@ children:
   - "[[Equivariant／Equivariance]]"
   - "[[Invariant／Invariance]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Equivarance vs Invariance]]
+- [[Equivariant／Equivariance]]
+- [[Invariant／Invariance]]

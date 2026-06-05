@@ -9,11 +9,9 @@ children:
   - "[[Short-Time Fourier Transform (STFT) to Wavelet Transform (WT)]]"
 ---
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Discrete-Time Fourier Transform (DTFT) vs Discrete Fourier Transform (DFT)]]
+- [[Fourier Transform vs Laplace Transform]]
+- [[Short-Time Fourier Transform (STFT) to Wavelet Transform (WT)]]
 
 - [How are the Fourier Series, Fourier Transform, DTFT, DFT, FFT, LT and ZT Related?](https://www.youtube.com/watch?v=2kMSLqAbLj4)
 ````

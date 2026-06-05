@@ -10,10 +10,10 @@ children:
   - "[[Hacking - Software]]"
   - "[[Network／Protocol／Packet Analyzer／Sniffer]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hacking - Hardware]]
+- [[Hacking - History]]
+- [[Hacking - Network]]
+- [[Hacking - Software]]
+- [[Network／Protocol／Packet Analyzer／Sniffer]]
 
 ![[Computer Hacking Toolbox/1.png]]

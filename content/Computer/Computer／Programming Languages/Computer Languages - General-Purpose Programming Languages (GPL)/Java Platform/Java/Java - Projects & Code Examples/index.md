@@ -10,8 +10,7 @@ children:
   - "[[Java - Non-Native Libraries]]"
 ---
 other projects: [[Computer Personal Projects - Completed]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Design Patterns]]
+- [[Java - JDK Enhancement Proposals JEP]]
+- [[Java - Native Libraries]]
+- [[Java - Non-Native Libraries]]

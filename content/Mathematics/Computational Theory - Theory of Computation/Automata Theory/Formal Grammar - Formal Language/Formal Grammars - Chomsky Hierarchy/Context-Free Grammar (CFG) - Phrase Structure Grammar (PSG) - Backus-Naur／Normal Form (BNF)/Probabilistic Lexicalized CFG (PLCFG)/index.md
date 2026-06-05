@@ -121,8 +121,4 @@ however, this is difficult due to small number of times such a specific rule app
 
 instead, make independence assumptions
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Collins Parser]]

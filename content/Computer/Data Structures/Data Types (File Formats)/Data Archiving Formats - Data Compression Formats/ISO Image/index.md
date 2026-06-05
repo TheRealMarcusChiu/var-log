@@ -10,8 +10,4 @@ children:
 - is an [[Data Archiving Formats - Data Compression Formats|archive file]] that contains an identical copy (or image) of data found on an optical disc, like a CD or DVD
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ISO - How to View Contents of an ISO Image]]

@@ -17,8 +17,7 @@ children:
 ^excerpt
 
 ## Versions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[FreeBSD]]
+- [[Macintosh OSs (Mac OS X) - macOS]]
+- [[NetBSD]]
+- [[OpenBSD]]

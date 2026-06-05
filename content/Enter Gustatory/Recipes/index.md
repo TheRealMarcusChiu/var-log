@@ -8,11 +8,9 @@ children:
   - "[[Mutton Karahi]]"
   - "[[Smoothies]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Frozen Yogurt]]
+- [[Mutton Karahi]]
+- [[Smoothies]]
 
 - [stir-fry chicken  tenders](https://www.youtube.com/shorts/ITPOSriLjtM)
 - [how to cook salmon](https://www.youtube.com/shorts/qwlBakwrhPw)

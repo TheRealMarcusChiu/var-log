@@ -8,8 +8,6 @@ children:
   - "[[Disk Performance]]"
   - "[[／etc／fstab - ／etc／mtab - Auto-Mount Device]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Creating a Filesystem Partition (NTFS)]]
+- [[Disk Performance]]
+- [[／etc／fstab - ／etc／mtab - Auto-Mount Device]]

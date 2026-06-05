@@ -44,8 +44,4 @@ Policy Learning enables modeling of continuous action space
 
 ![[Deep Q Networks (DQN)/DQN-policy-learning-continuous-action-space.png|550]]
 # DQN - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Q-Loss]]

@@ -142,8 +142,4 @@ the notation 𝐴 ⊨ 𝐵 (formulae 𝐵 can be derived from formulae(s) 𝐴 b
 which emphasizes that this is not a sentence, but an inference rule. whenever a proposition/formulae/sentence(s) matches the pattern above the line, the inference rule concludes the premise below the line
 ![[Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic/1.png|600]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Propositional Logic - (Negation - Conjunctive - Disjunctive) Normal Forms (NNF - CNF - DNF)]]

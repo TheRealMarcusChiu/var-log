@@ -7,8 +7,5 @@ children:
   - "[[Remote Method Invocation (RMI)]]"
   - "[[Remote Procedure Call (RPC) - architectural]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Remote Method Invocation (RMI)]]
+- [[Remote Procedure Call (RPC) - architectural]]

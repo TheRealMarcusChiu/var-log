@@ -17,8 +17,4 @@ children:
 # ACME Protocol Steps
 ![[Automated Certificate Management Environment (ACME) Protocol/ACME-protocol.jpeg|400]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Certbot]]

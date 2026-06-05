@@ -8,8 +8,5 @@ children:
   - "[[Neutron Bomb]]"
 ---
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hydrogen Bomb： How it Works - Atomic vs Nuclear]]
+- [[Neutron Bomb]]

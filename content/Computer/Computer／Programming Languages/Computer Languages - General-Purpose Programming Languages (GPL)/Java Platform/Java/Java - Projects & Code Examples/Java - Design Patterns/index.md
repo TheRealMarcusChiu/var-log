@@ -9,10 +9,7 @@ children:
 ---
 - [[Software Design Patterns (SDP)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Java - Friend Packages]]
+> - [[Java - How to Write an Equality Method in Java]]
 
 ![](https://www.youtube.com/watch?v=F02LKnWJWF4)

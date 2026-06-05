@@ -11,8 +11,5 @@ children:
 - <strong>Ethical fashion</strong> refers to clothing made in ways that value social welfare and worker rights
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Clothes／Clothe]]
+- [[Sewing]]

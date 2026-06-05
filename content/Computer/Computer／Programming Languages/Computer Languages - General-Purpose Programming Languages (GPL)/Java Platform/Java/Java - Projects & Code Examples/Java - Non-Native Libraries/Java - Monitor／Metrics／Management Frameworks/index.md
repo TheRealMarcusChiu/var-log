@@ -8,8 +8,6 @@ children:
   - "[[Java - Netflix Atlas]]"
   - "[[Java Management Extensions (JMX)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Datadog]]
+- [[Java - Netflix Atlas]]
+- [[Java Management Extensions (JMX)]]

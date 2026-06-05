@@ -44,7 +44,7 @@ children:
         "bg": "#F4F5F7"
       },
       "are described by lines, shapes, and other graphic image components stored in a format that incorporates geometric formulas for rendering the image elements",
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Vector Graphics]].file.folder + \"/\" + [[Vector Graphics]].file.name\n```"
+      "- [[Scalable Vector Graphics (SVG)]]"
     ],
     [
       {
@@ -52,7 +52,7 @@ children:
         "bg": "#F4F5F7"
       },
       "are described by an array or map of bits within a rectangular grid of pixels or dots",
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Raster Graphics (Bitmap Image)]].file.folder + \"/\" + [[Raster Graphics (Bitmap Image)]].file.name\n```"
+      "- [[Bitmap (BMP)]]\n- [[Graphics Interchange Format (GIF)]]\n- [[High Efficiency Image Format (HEIF) - High Efficiency Image Container (HEIC)]]\n- [[Joint Photographic Experts Group (JPG／JPEG／JFIF)]]\n- [[Portable Network Graphics (PNG)]]\n- [[Tagged Image File Format (TIFF／TIF)]]\n- [[WebP]]"
     ]
   ],
   "tableStyle": "width: 100.0%;"

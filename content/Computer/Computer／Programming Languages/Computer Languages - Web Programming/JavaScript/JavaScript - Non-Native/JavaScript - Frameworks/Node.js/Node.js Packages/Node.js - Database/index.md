@@ -6,8 +6,4 @@ parent: "[[Node.js Packages]]"
 children:
   - "[[Node.js - Neo4j]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Node.js - Neo4j]]

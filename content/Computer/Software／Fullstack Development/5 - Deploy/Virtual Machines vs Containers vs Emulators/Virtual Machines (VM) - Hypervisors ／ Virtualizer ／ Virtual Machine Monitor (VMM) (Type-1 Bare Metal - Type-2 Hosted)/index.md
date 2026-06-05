@@ -68,8 +68,15 @@ children:
 # Hypervisor - Type 1 vs Type 2 Diagram
 # ![[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)/hypervisor-1-vs-2.png|500]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kernel-Based Virtual Machine (KVM) Hypervisor]]
+- [[MicroCloud]]
+- [[Microsoft Client Hyper-V]]
+- [[Microsoft Hyper-V]]
+- [[Nutanix Acropolis Hypervisor (AHV)]]
+- [[oVirt]]
+- [[Parallels]]
+- [[Proxmox Virtual Environment (PVE)]]
+- [[VirtualBox]]
+- [[VMware]]
+- [[Xen Cloud Platform - next generation (XCP-ng)]]
+- [[Xen Project]]

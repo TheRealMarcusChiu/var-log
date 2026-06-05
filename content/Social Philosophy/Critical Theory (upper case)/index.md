@@ -17,8 +17,8 @@ children:
 ^excerpt
 
 # Critical Theory - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Critical Race Theory (CRT)]]
+- [[Feminism]]
+- [[Post-Structuralism]]
+- [[Postcolonialism]]
+- [[Queer Theory]]

@@ -10,8 +10,6 @@ children:
 ---
 <strong>[JUnit](https://junit.org/junit5/)</strong> is a type of [[Java - Testing Frameworks|Java Testing Framework]] that runs tests
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JUnit5 - @ParameterizedTest]]
+- [[JUnit5 - @TestInstance]]
+- [[JUnit5 - @TestMethodOrder]]

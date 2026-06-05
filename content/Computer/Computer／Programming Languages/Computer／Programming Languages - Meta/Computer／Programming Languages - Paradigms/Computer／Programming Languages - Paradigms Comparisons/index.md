@@ -15,7 +15,7 @@ Comparing [[Computer／Programming Languages - Paradigms|Programming Paradigms]]
 {
   "rows": [
     [
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```",
+      "- [[Imperative vs Declarative]]\n- [[Imperative vs Reactive]]\n- [[Object-Oriented vs Procedural]]\n- [[Procedural vs Imperative]]",
       "![[Computer／Programming Languages - Paradigms Comparisons/1.png]]"
     ]
   ],

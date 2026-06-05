@@ -17,8 +17,7 @@ children:
 ^excerpt
 
 # Semiconductor Memory - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Flash Memory]]
+- [[Intel® Optane™ Memory]]
+- [[Random-Access Memory (RAM)]]
+- [[Read Only Memory (ROM)]]

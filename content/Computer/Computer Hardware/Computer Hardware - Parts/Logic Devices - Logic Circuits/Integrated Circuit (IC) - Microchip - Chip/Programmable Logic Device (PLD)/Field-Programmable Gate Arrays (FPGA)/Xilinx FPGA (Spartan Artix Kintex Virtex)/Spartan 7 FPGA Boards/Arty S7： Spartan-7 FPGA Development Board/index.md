@@ -19,8 +19,4 @@ children:
 - [[arty-s7_rm.pdf]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Arty S7 50 - Blinky Vivado 2022.2]]

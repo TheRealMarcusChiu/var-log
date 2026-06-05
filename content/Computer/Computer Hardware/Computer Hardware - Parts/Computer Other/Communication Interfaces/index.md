@@ -8,8 +8,6 @@ children:
   - "[[Serial Peripheral Interface (SPI)]]"
   - "[[Universal Asynchronous Receiver Transmitter (UART)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Inter-Integrated Circuit (I²C - I2C - IIC)]]
+- [[Serial Peripheral Interface (SPI)]]
+- [[Universal Asynchronous Receiver Transmitter (UART)]]

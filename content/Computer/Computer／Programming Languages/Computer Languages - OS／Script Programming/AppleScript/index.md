@@ -13,8 +13,7 @@ children:
 - is a scripting language created by Apple Inc. that facilitates automated control over scriptable Mac applications
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AppleScript - Automate Create & Close Space]]
+- [[AppleScript - Automate Pointer Actions]]
+- [[AppleScript - Debugging UI Elements With Automator's "Watch Me Do"]]
+- [[AppleScript - System Preferences Examples]]

@@ -14,11 +14,13 @@ children:
 ---
 ### Projects Completed
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Backup Script - Local 2 Remote]]
+- [[Documentation Website (doc.marcuschiu.com)]]
+- [[Facial Identification]]
+- [[My Gitea Instance]]
+- [[Personal Confluence (confluence.marcuschiu.com)]]
+- [[Personal Website (www.marcuschiu.com)]]
+- [[Pi Router & Chat App WebSockets (chat.marcuschiu.com)]]
 
 - [[Java - Projects & Code Examples]]
 - [[macOS - Personal Projects]]

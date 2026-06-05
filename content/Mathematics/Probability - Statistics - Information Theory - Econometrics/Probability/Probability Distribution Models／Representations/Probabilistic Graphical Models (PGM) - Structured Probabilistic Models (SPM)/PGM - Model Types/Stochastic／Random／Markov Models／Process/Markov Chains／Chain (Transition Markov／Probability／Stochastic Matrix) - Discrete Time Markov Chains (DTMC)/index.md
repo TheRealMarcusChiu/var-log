@@ -56,11 +56,16 @@ types of 𝑇:
 stochastic matrix 𝑇 properties:
 - 𝑇 has eigenvalue 1 and all eigenvalues are at most 1
 - 𝑇<sup>𝑛</sup> is a stochastic matrix for all 𝑛
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Markov Chain Property - Detailed Balance／Balanced]]
+- [[Markov Chain Property - Ergodic]]
+- [[Markov Chain Property - Irreducible／Irreducibility／Regular & Reducible／Reducibility]]
+- [[Markov Chain Property - n-Step Transient-State Probability Distribution Vector]]
+- [[Markov Chain Property - Periodic／Periodicity & Aperiodic／Aperiodicity]]
+- [[Markov Chain Property - Reversibility]]
+- [[Markov Chain Property - State Types (Transient／Positive／Null／Recurrent／Absorbing State)]]
+- [[Markov Chain Property - Stationary／Stable／Invariant／Steady-State／Limiting／Marginal Probability Distribution Vector]]
+- [[Markov Chain Property - Stochastic Matrix - Contains Eigenvalue 1 and all other Eigenvalues are Less than 1]]
+- [[Markov Chain Property - Time Homogenous／Heterogenous]]
 
 # Markov Chains - Visual/Graphical Representations
 given a Markov Chain there are 3 graphical representations:

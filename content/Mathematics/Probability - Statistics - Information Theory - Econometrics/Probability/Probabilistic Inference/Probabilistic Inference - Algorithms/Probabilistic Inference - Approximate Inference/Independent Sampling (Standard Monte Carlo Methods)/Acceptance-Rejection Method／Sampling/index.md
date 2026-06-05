@@ -47,8 +47,4 @@ Then 𝑓 is the density of 𝑋
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Rejection Method Example - Beta Distribution]]

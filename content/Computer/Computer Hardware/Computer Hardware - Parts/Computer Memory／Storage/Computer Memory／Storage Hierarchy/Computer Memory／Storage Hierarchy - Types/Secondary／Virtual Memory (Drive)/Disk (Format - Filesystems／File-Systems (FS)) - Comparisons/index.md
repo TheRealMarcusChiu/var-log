@@ -7,8 +7,4 @@ children:
   - "[[ZFS vs Ceph]]"
 ---
 Comparisons of [[Disk (Format - Filesystems／File-Systems (FS))|Disk (Format - Filesystems/File-Systems (FS))]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ZFS vs Ceph]]

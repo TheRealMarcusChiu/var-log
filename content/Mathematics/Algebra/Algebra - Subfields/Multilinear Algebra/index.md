@@ -20,11 +20,11 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Blades - k-Blades]]
+- [[k-blades vs k-vectors vs multivectors]]
+- [[k-vectors (Multivector of Grade k)]]
+- [[Multi-Vectors／Multivectors／p-Vectors - Clifford Number - Multors]]
+- [[Multilinear Algebra - Operations／Operators]]
 
 # Other
 

@@ -6,8 +6,4 @@ parent: "[[Digital SSL／TLS Certificate]]"
 children:
   - "[[Obtaining Public Certificate of a Domain (OpenSSL)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Obtaining Public Certificate of a Domain (OpenSSL)]]

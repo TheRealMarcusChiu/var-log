@@ -10,11 +10,10 @@ children:
   - "[[IPv4 - Source／Loopback／Localhost Address]]"
 ---
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[IPv4 - Address Classes (now obsolete)]]
+- [[IPv4 - Multicast／Group／Class-D Addresses]]
+- [[IPv4 - Reserved／Private IP Address]]
+- [[IPv4 - Source／Loopback／Localhost Address]]
 
 ![[IPv4 - Address Classes (now obsolete)#^excerpt]]
 

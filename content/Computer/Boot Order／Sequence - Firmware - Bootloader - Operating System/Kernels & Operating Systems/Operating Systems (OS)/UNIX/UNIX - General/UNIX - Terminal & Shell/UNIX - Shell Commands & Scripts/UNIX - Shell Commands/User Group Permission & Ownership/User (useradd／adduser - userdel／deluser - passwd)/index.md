@@ -44,8 +44,7 @@ children:
 
 [[Difference Between useradd／userdel／groupadd／groupdel & adduser／deluser／addgroup／delgroup|Difference Between useradd/userdel/groupadd/groupdel & adduser/deluser/addgroup/delgroup]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Changing Password Setting Defaults]]
+- [[Enable or Disable User Account]]
+- [[Sudo Users]]
+- [[／etc／passwd - ／etc／shadow]]

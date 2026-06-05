@@ -7,11 +7,8 @@ children:
   - "[[Endogenous／Endogenic Variable - Exogenous／Exogenic Variable - Endogenous vs Exogeneity]]"
   - "[[Instrumental Variable]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Endogenous／Endogenic Variable - Exogenous／Exogenic Variable - Endogenous vs Exogeneity]]
+- [[Instrumental Variable]]
 
 # Resources
 - [https://www.statisticshowto.com/probability-and-statistics/types-of-variables/](https://www.statisticshowto.com/probability-and-statistics/types-of-variables/)

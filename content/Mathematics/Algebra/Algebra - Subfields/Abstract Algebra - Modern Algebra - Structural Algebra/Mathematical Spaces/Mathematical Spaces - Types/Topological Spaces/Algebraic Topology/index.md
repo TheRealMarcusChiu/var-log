@@ -13,11 +13,7 @@ children: []
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 
 # Resources
 - [YouTube's Insights into Mathematics](https://www.youtube.com/watch?v=Ap2c1dPyIVo&list=PL6763F57A61FE6FE8&index=1)

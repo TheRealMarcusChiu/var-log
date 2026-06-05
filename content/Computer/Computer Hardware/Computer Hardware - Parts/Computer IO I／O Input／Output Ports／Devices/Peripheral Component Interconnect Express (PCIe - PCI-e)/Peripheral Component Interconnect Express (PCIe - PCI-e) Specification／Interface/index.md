@@ -233,8 +233,5 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Active-State Power Management (ASPM)]]
+- [[PLX Technology／Chips]]

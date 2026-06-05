@@ -35,10 +35,6 @@ public void executeSqlStatements(Connection connection) {
 - <code><font style="color: rgb(122,134,154);">setAutoCommit(false)</font></code> is the opposite: You are the master of the transaction
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Transaction Isolation Level - (Dirty - Non-Repeatable - Phantom) Read]]
 # Spring Specific
 - [[Java - Spring Data - Transaction Management]]

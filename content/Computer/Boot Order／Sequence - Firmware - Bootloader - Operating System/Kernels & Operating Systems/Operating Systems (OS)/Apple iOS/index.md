@@ -14,8 +14,4 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[iOS - How to Install Custom Certificate Authority (CA) Cert on iPhone]]

@@ -8,8 +8,4 @@ children:
 ---
 refer to: [[Set Theory]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Dynamic Union Set (Data Structure & Algorithm)]]

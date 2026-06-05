@@ -17,11 +17,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Rook - Ceph Dashboard]]
+- [[Rook - Installation & Setup]]
+- [[Rook - Storage]]
+- [[Rook Toolbox]]
 
 # Resources
 - [https://rook.github.io/docs/rook/latest-release/Getting-Started/intro/](https://rook.github.io/docs/rook/latest-release/Getting-Started/intro/)

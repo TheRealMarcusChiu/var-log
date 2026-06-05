@@ -14,11 +14,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Proportionality (Directly - Inversely) - Coefficient of Proportionality Constant]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Elementary_algebra](https://en.wikipedia.org/wiki/Elementary_algebra)

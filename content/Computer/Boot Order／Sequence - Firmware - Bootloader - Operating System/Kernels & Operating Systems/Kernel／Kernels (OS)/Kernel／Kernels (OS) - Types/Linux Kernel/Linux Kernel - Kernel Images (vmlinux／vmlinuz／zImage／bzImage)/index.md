@@ -74,8 +74,4 @@ version numbering will be in the format A.B.C.D where:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[vmlinuz (Virtual Memory LINUx gZip - Compressed Linux kernel Executable)]]

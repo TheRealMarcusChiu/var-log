@@ -6,10 +6,6 @@ parent: "[[Artificial Neural Networks (ANN)]]"
 children:
   - "[[(Receptive Field - Field of View) - Effective Receptive Field (ERF) - Theoretical Receptive Field (TRF)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Receptive Field - Field of View) - Effective Receptive Field (ERF) - Theoretical Receptive Field (TRF)]]
 
 - [[Universal Approximation Theory／Theorem|Universal Approximation Theory/Theorem]]

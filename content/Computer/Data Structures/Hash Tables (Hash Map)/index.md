@@ -16,8 +16,4 @@ TODO read [https://en.wikipedia.org/wiki/Hash_table#Hashing](https://en.wikiped
 - <strong>growth factor</strong> - the percentage to increase the capacity when fill factor has been exceeded
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Distributed Hash Tables (DHT)]]

@@ -7,8 +7,5 @@ children:
   - "[[Desktop OS]]"
   - "[[Phone／Mobile Operating System OS]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Desktop OS]]
+- [[Phone／Mobile Operating System OS]]

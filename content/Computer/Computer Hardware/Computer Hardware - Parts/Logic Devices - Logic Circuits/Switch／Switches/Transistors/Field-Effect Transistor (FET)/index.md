@@ -16,8 +16,5 @@ children:
 ^excerpt
 
 # FET - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Biologically Sensitive Field-Effect Transistor (BioFET)]]
+- [[Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET - MOS-FET - MOS FET)]]

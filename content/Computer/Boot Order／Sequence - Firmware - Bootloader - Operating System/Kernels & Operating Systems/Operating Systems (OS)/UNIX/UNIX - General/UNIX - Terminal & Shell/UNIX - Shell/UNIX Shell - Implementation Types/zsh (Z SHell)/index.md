@@ -14,8 +14,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[oh-my-zsh]]
+- [[zsh dotfiles (.zshenv .zprofile .zshrc .zlogin .zlogout)]]

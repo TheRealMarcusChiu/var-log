@@ -7,8 +7,5 @@ children:
   - "[[Java - Spring - Running Logic on Exit]]"
   - "[[Java - Spring - Running Logic on Startup]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Running Logic on Exit]]
+- [[Java - Spring - Running Logic on Startup]]

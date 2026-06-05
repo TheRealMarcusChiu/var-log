@@ -47,11 +47,9 @@ for design patterns on a larger scope than software, see: [[Architectural／Arch
 }
 ```
 # SDP - Other Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[SDP - Other]].file.folder + "/" + [[SDP - Other]].file.name
-```
+- [[Data Access Object (DAO) Layer]]
+- [[Repository Design Pattern]]
+- [[Software Design Patterns vs Performance／Efficiency]]
 
 # SDP - Comparisons
 

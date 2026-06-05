@@ -6,8 +6,4 @@ parent: "[[Claude]]"
 children:
   - "[[Claude Opus 4.5]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Claude Opus 4.5]]

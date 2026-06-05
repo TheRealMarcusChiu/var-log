@@ -8,8 +8,4 @@ children:
 ---
 - [https://stylemakerfabrics.com/products/arctic-tale-bear-collage-cozy-flannel-vanilla-teal](https://stylemakerfabrics.com/products/arctic-tale-bear-collage-cozy-flannel-vanilla-teal)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Cotton]]

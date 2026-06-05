@@ -13,11 +13,13 @@ children:
   - "[[Sensitivity vs Specificity]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Accuracy vs Precision]]
+- [[Confusion Matrix - Contingency Table (True／False Positives／Negatives - Type I／II／One／Two Error) - Micro／Macro Averaging]]
+- [[F1 Score - F Score - F Measure]]
+- [[Informedness - Bookmaker Informedness (BM)]]
+- [[Markedness (MK)]]
+- [[Matthew's Correlation Coefficient (MCC)]]
+- [[Sensitivity vs Specificity]]
 
 # Terminology
 

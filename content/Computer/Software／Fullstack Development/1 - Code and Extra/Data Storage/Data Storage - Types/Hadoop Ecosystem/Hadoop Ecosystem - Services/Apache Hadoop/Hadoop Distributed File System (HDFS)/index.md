@@ -20,8 +20,5 @@ children:
 - [https://data-flair.training/blogs/hadoop-hdfs-tutorial/](https://data-flair.training/blogs/hadoop-hdfs-tutorial/)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HDFS - Architecture]]
+- [[HDFS - Commands]]

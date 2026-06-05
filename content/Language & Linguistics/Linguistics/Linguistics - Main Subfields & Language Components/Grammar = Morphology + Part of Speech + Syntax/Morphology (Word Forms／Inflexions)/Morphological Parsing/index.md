@@ -76,8 +76,4 @@ children:
 }
 ```
 ### Morphological Parsing - Methods
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Morphological Parsing with Finite-State Machines／Automatas (FSM／FSA)]]

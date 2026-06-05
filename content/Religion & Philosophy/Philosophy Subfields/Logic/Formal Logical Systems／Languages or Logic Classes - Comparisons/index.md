@@ -6,8 +6,4 @@ parent: "[[Logic]]"
 children:
   - "[[Situational Calculus／Logic vs Event Calculus／Logic]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Situational Calculus／Logic vs Event Calculus／Logic]]

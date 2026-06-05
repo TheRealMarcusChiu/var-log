@@ -6,8 +6,4 @@ parent: "[[Univariate Probability Distribution]]"
 children:
   - "[[Exponential Family]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Exponential Family]]

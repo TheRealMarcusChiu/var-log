@@ -50,11 +50,8 @@ children:
 - Hard Copy
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HMAC-Based One-Time Password (HOTP)]]
+- [[Time-Based One-Time Password (TOTP)]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/One-time_password](https://en.wikipedia.org/wiki/One-time_password)

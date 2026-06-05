@@ -15,11 +15,7 @@ children: []
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 - [[Linux Containers vs Docker Containers - System Container vs Application Container]]
 
 # Resources

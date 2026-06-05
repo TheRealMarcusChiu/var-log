@@ -6,8 +6,4 @@ parent: "[[Email Implementations]]"
 children:
   - "[[eMail Server - postfix]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[eMail Server - postfix]]

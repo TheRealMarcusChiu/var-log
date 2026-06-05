@@ -10,8 +10,4 @@ children:
 - is a type of [[Translator - Transcompiler／Transpiler - (Ahead-of-Time AOT - Just-in-Time JIT) Compiler - Interpreter - Assembler - Linker - Loader|translator]]
 
 # Transcompiler/Transpiler - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Emscripten]]

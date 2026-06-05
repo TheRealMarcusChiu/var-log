@@ -75,11 +75,11 @@ The DNS Resolver is pre-configured with a set of 13 root server IP addresses whi
 6. The “[example.com](http://example.com)” DNS server which is hosting the zone will have the IP address configured for the zone as A record and will return the record as the final response.
 
 # Server Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[bind9 - Berkley Internet Naming Domain／Daemon (BIND)]]
+- [[CoreDNS]]
+- [[dnsmasq]]
+- [[OpenDNS]]
+- [[unbound]]
 
 # DNS Domain Servers Hierarchy
 ![[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)/protocol-hostname-domainname-tld-file-path.png|360]]![[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)/dns-schema.png|301]]

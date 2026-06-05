@@ -15,8 +15,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Basic Logic Element (BLE)]]
+- [[Configurable Logic Block (CLB) - Logic Array Block (LAB)]]
+- [[Look-Up／Lookup Tables (LUT)]]

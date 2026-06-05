@@ -6,11 +6,7 @@ parent: "[[Data Storage]]"
 children:
   - "[[BorgBackup - Borg]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[BorgBackup - Borg]]
 
 - [[rsync]]
 - [[Backup Script - Local 2 Remote]]

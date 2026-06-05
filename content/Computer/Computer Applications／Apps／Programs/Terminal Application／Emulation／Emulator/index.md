@@ -19,10 +19,11 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Alacritty]]
+- [[Ghostty]]
+- [[Hyper (Terminal)]]
+- [[iTerm]]
+- [[Kitty]]
+- [[WezTerm]]
 
 - [[$TERM Environment Variable - Terminal Type]]

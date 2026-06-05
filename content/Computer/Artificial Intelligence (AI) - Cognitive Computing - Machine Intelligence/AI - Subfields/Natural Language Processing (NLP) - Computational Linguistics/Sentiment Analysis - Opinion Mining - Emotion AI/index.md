@@ -81,8 +81,4 @@ increasing complexity:
 see: [[Text Classification]]'s Baseline Algorithm section
 # <strong>Other</strong>
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Word Polarity - Sentiment Lexicon]]

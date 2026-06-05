@@ -37,8 +37,6 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[WebAssembly - Loading and Running .wasm File in Browser]]
+- [[WebAssembly - Writing Programs]]
+- [[WebAssembly - Writing Programs 2]]

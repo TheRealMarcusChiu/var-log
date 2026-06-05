@@ -10,8 +10,8 @@ children:
   - "[[JavaScript - Regular Functions ／ Function Declarations - Anonymous Functions ／ Function Expressions - Arrow Functions]]"
   - "[[JavaScript - function vs var function]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JavaScript - Async Await (Enhancing Promises)]]
+- [[JavaScript - function vs var function]]
+- [[JavaScript - Promise]]
+- [[JavaScript - Proxy]]
+- [[JavaScript - Regular Functions ／ Function Declarations - Anonymous Functions ／ Function Expressions - Arrow Functions]]

@@ -37,11 +37,11 @@ A Bayesian Network (BN) 𝔅 = ⟨𝐗, 𝐃, 𝐒, 𝐏<sub>𝐺</sub>⟩ is a
 
 > [!expand]- Click here to expand...
 > ### Conditional Probability Representations
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = [[CPD - Representations]].file.folder + "/" + [[CPD - Representations]].file.name
-> ```
+> - [[Conditional Probability Table (CPT)]]
+> - [[Deterministic CPD]]
+> - [[Generalized Linear Model as CPD]]
+> - [[Noisy-OR Model as CPD]]
+> - [[Tree Conditional Probability Distribution (CPD)]]
 >
 > ### Conditional Probability Table (CPT) - Example
 >
@@ -129,8 +129,8 @@ A Bayesian Network (BN) 𝔅 = ⟨𝐗, 𝐃, 𝐒, 𝐏<sub>𝐺</sub>⟩ is a
 - [[Bayesian Network (BN) vs Markov Random Field (MRF)]]
 - [[Naive Bayes Model vs Bayes Model vs Bayesian Network]]
 - [[PGM - Gibbs Distribution - Bayesian Network]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[BN - Inferring Independence]]
+- [[BN - Learning Structure & Parameters]]
+- [[BN - Probabilistic Inference]]
+- [[BN - To Markov Network]]
+- [[BN - Variants]]

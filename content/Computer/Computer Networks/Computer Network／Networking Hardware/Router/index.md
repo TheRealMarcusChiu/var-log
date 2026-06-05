@@ -36,11 +36,8 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Router Firmware]]
+- [[Router Hardware]]
 
 - [[Raspberry Pi - Router]]
 - [[Switch & Router Implementation|router implementation]]

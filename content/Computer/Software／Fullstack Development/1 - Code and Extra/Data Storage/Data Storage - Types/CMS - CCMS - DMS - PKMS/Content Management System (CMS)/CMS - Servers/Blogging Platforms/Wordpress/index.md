@@ -17,8 +17,5 @@ children:
 - [Ubuntu Installation Steps](https://ubuntu.com/tutorials/install-and-configure-wordpress)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Wordpress - Increase Max Upload Size]]
+- [[Wordpress - Upload Simply Static]]

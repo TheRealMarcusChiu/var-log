@@ -97,10 +97,9 @@ other techniques:
 - [Minimum Message Length (MML)](https://en.wikipedia.org/wiki/Minimum_Message_Length)<font style="color: rgb(220,217,212);"><font style="color: rgb(51,51,51);"> - <font style="color: rgb(32,33,34);">is a Bayesian information-theoretic method for statistical model comparison and selection</font></font></font>
 
 # Point Estimators Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Comparisons]].file.folder + "/" + [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Comparisons]].file.name
-```
+- [[Instrumental Variable Estimate vs 2 Stage Least Squares Estimate]]
+- [[Instrumental Variable Estimate vs Ordinary Least Squares Estimate]]
+- [[Least Squares Estimate vs Instrumental Variables Estimate]]
+- [[MLE vs MAP]]
 # <font style="color: rgb(220,217,212);"><font style="color: rgb(51,51,51);"><font style="color: rgb(32,33,34);"><font style="color: rgb(51,51,51);">Point Estimator's Properties</font></font></font></font>
 - <font style="color: rgb(220,217,212);"><font style="color: rgb(51,51,51);"><font style="color: rgb(32,33,34);"><font style="color: rgb(51,51,51);">see properties section of [[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate|(Point/Parameter - Predictor/Model Target Function/Distribution) Estimation/Estimator/Estimate]]</font></font></font></font>

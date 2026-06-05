@@ -15,8 +15,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Oracle Database - Container Database (CDB) & Pluggable Database (PDB)]]
+- [[Oracle Database - Installation - MacOS - Docker]]

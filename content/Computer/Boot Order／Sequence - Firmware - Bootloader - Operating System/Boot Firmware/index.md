@@ -25,8 +25,8 @@ the <em>secondary functions</em> include:
 # [[Boot Firmware - Types]]
 ![[Boot Firmware - Types#^excerpt]]
 # [[Boot Firmware - BIOS／UEFI Settings／Configurations|Boot Firmware - BIOS/UEFI Settings & Configurations]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Boot Firmware - BIOS／UEFI Settings／Configurations]].file.folder + "/" + [[Boot Firmware - BIOS／UEFI Settings／Configurations]].file.name
-```
+- [[Advanced Power Management (APM) - Advanced Configuration and Power Interface (ACPI)]]
+- [[Fast Boot]]
+- [[Initiate Graphic Adapter (IGD／PEG - IGD Multi-Monitor)]]
+- [[Secure Boot]]
+- [[Sleep States (S0／S1／S2／S3／S4／S5)]]

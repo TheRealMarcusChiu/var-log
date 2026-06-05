@@ -6,11 +6,7 @@ parent: "[[Domain Name System／Service (DNS)]]"
 children:
   - "[[DNS Transfer Zone Attack]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[DNS Transfer Zone Attack]]
 
 - DNS cache poisoning
 - DNS spoofing

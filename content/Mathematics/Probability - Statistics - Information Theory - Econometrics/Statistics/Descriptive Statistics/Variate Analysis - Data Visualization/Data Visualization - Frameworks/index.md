@@ -6,11 +6,7 @@ parent: "[[Variate Analysis - Data Visualization]]"
 children: []
 ---
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 
 ###### JavaScript Frameworks
 - [[D3.js (Data-Driven Documents)]]

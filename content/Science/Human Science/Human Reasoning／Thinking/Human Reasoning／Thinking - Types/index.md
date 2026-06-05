@@ -8,8 +8,5 @@ children:
   - "[[Spatial Temporal Reasoning／Thinking]]"
 ---
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Non-Verbal Reasoning／Thinking／Thought]]
+- [[Spatial Temporal Reasoning／Thinking]]

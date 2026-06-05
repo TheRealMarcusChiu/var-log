@@ -11,8 +11,7 @@ children:
 ---
 <strong>Mediated Authentication Protocols</strong> are [[Authentication Protocols (Security Handshake Protocols)|authentication protocols]] utilizing [[Trusted Intermediaries (TI) - Trusted Third Party (TTP)|Trusted Intermediaries]]
 # Mediated Authentication Protocols
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Expanded Needham­-Schroeder Protocol]]
+- [[Kerberos Protocol]]
+- [[Needham-Schroeder Protocol]]
+- [[Otway-Rees Protocol]]

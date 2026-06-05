@@ -16,11 +16,7 @@ children: []
 - [[Tailscale vs VPN]]
 - [[Tailscale vs WireGuard]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+
 
 # Resources
 - [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)

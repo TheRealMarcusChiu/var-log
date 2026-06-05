@@ -115,8 +115,5 @@ where:
 # Sample Standard Deviation - Standard Deviation / [[Standard Error (SE) - Estimated Standard Error (SEˆ)|Standard Error]]
 𝐒𝐄(𝑠) = 𝐒𝐭𝐝(𝑠) = ?
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Sample Variance - Why (n - 1)？]]
+- [[Sampling Distribution of Sample Variance／Standard Deviation - Sample Variance／Standard-Deviation Distribution﻿]]

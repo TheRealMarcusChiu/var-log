@@ -17,8 +17,8 @@ refer to: [[DNS Query (Lookup - Recursive - Iterative - Non-Recursive)]]
 
 a DNS Resolver answers [DNS forward and reverse lookup queries](http://confluence.marcuschiu.com/display/NOT/DNS+Query) by querying the [[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)|High-Level Domain Servers]] and [[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)|Authoritative Name Servers]] itself
 # DNS Query Commands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[dig]]
+- [[dnsmap]]
+- [[host]]
+- [[kdig]]
+- [[nslookup]]

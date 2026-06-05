@@ -15,8 +15,13 @@ children:
   - "[[Publisher／Pub／Subscriber／Sub Messaging／Message Queues／System]]"
   - "[[Search Engines (Index Servers - Search Servers)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Advanced Message Queueing Protocol (AMQP)]]
+- [[API Gateways]]
+- [[Application Binary Interface (ABI) vs Application Programming Interface (API)]]
+- [[Authentication - Authorization - Accounting - Auditing - Delegation - Consent]]
+- [[Commenting／Comment Systems／Frameworks]]
+- [[Data Storage]]
+- [[Job Scheduler - Batch Scheduling]]
+- [[Load Balancers／Balancing]]
+- [[Publisher／Pub／Subscriber／Sub Messaging／Message Queues／System]]
+- [[Search Engines (Index Servers - Search Servers)]]

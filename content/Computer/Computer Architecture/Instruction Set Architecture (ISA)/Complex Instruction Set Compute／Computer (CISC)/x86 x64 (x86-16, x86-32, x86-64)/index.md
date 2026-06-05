@@ -66,8 +66,5 @@ When 64-bit processors compatible with the x86 architecture were introduced, the
 
 The 64-bit computers can run both 32-bit programs and 64-bit programs. 32-bit computers cannot run 64-bit programs, because the bit sizes are fundamentally different. The latest Laptops with pre-installed Windows are usually x64 i.e. 64 Bit, old Desktops and Laptops could be having Windows x86 which means 32-bit.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Intel 8086 Assembler - Assembly Language]]
+- [[x86 Hardware Extensions]]

@@ -153,8 +153,6 @@ Below is from[Physics Students Need to Know These 5 Methods for Differential Equ
 }
 ```
 # DE - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[DE - Stable - Unstable - Meta／Semi Stable]]
+- [[First-Order Differential Equations]]
+- [[Second-Order Differential Equations]]

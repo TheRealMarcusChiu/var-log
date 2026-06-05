@@ -11,8 +11,9 @@ children:
   - "[[Fr. Roman Braga]]"
   - "[[Jukes-Edwards： A Study in Education and Heredity]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Alan Gardner]]
+- [[C.S. Lewis Conversion Story]]
+- [[Charles Templeton： Missing Jesus]]
+- [[Christmas]]
+- [[Fr. Roman Braga]]
+- [[Jukes-Edwards： A Study in Education and Heredity]]

@@ -9,8 +9,7 @@ children:
   - "[[Feed-Forward Networks ／ Multi-Layer Perceptrons vs Kolmogorov-Arnold Networks (KAN)]]"
   - "[[GAN vs VAE vs Flow-Based Model vs Diffusion Model]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Auto-Regression Model vs Diffusion Model]]
+- [[Convolutional Neural Network (CNN) vs Transformer Neural Network (TNN)]]
+- [[Feed-Forward Networks ／ Multi-Layer Perceptrons vs Kolmogorov-Arnold Networks (KAN)]]
+- [[GAN vs VAE vs Flow-Based Model vs Diffusion Model]]

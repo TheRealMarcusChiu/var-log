@@ -73,8 +73,11 @@ children:
 > sudo systemctl status nginx
 > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Nginx - Blocking Bots]]
+- [[Nginx - Configuring 2 or more HTTPS on a Single IP Address]]
+- [[Nginx - Configuring WebSockets]]
+- [[Nginx - Logs]]
+- [[Nginx - Proxy SSH Connections]]
+- [[Nginx - Rate Limiting]]
+- [[Nginx - Securing URLs]]
+- [[Nginx UI Managers]]

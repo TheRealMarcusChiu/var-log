@@ -36,11 +36,7 @@ children:
 }
 ```
 # MPD - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Multivariate Gaussian／Normal Distribution／Model／Process (MVN)]]
 
 # MPD - Other
 - an MPD can be used to derive a [[Marginal Probability Distribution]]

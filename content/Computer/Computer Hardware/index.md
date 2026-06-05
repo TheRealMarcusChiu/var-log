@@ -15,8 +15,9 @@ children:
 - is the collection of physical parts of a computer system
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Desktop - Gaming - Workstation - Server) Computer／Computers]]
+- [[Computer Hardware - Parts]]
+- [[Computer Hardware - Parts - Benchmarks]]
+- [[Generations of Hardware]]
+- [[Wake on Wireless LAN (WoWLAN)]]
+- [[Wake-on-LAN (WoL or WOL) - Remote Wake-Up - Power on／up by LAN - Resume by／on LAN - Wake up on LAN]]

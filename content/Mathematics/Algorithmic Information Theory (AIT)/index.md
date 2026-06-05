@@ -15,8 +15,4 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kolmogorov's Complexity (Algorithmic／Solomonoff–Kolmogorov–Chaitin／Program-Size／Descriptive Complexity - Algorithmic Entropy)]]

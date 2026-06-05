@@ -8,8 +8,6 @@ children:
   - "[[Embodied Mind, Meaning and Reason]]"
   - "[[Free Will - Sam Harris]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Confessions - Leo Tolstoy]]
+- [[Embodied Mind, Meaning and Reason]]
+- [[Free Will - Sam Harris]]

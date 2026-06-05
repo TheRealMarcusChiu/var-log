@@ -7,10 +7,7 @@ children:
   - "[[OpenSL (Open Sound Library)]]"
   - "[[portaudio]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[OpenSL (Open Sound Library)]]
+- [[portaudio]]
 
 - [[ffmpeg]]

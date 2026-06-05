@@ -9,10 +9,8 @@ children:
   - "[[XML in the RDF space]]"
 ---
 [[Data Types (File Formats)|file formats]] used to express [[Resource Description Framework (RDF)|RDF]] data:
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[N-Triples]]
+- [[Terse RDF Triple Language (TTL) - Turtle]]
+- [[XML in the RDF space]]
 
 - [[JSON Linking／Linked Data (JSON-LD)|JSON Linking/Linked Data (JSON-LD)]]

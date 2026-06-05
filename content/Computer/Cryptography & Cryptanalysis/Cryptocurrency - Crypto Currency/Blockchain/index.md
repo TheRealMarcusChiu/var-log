@@ -11,11 +11,7 @@ children:
 
 # Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Blockchain - Python Implementation]]
 # Resources
 - [https://www.tutorialspoint.com/python_blockchain/index.htm](https://www.tutorialspoint.com/python_blockchain/index.htm)
 - [http://www.righto.com/2014/02/bitcoin-mining-hard-way-algorithms.html](http://www.righto.com/2014/02/bitcoin-mining-hard-way-algorithms.html)

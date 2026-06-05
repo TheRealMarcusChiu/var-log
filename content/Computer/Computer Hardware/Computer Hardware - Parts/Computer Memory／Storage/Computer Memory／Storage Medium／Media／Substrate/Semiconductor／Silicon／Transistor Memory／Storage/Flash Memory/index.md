@@ -12,8 +12,6 @@ children:
 - is a type of [[Semiconductor／Silicon／Transistor Memory／Storage|semiconductor memory]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[NAND Flash Memory]]
+- [[NOR Flash Memory]]
+- [[NOR Flash Memory vs NAND Flash Memory]]

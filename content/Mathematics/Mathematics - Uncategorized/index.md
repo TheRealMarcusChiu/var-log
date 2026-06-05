@@ -7,8 +7,5 @@ children:
   - "[[Level Sets (Level-Curve／Contour-Line／Isoline - Level-Surface／Isosurface - Level-Hypersurface)]]"
   - "[[Parametric Equations]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Level Sets (Level-Curve／Contour-Line／Isoline - Level-Surface／Isosurface - Level-Hypersurface)]]
+- [[Parametric Equations]]

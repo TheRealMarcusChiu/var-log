@@ -24,11 +24,8 @@ children:
 
 [https://search.nixos.org/](https://search.nixos.org/)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[devenv]]
+- [[Nix - MacOS Installation]]
 
 # Resources
 - [https://nixos.org/](https://nixos.org/)

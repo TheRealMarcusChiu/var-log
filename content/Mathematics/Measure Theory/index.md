@@ -23,11 +23,11 @@ children:
 
 # Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Field of Sets]]
+- [[Measurable Space - Borel space]]
+- [[Measure Spaces]]
+- [[Measure／Measures]]
+- [[σ-Algebra - σ-Field of Sets - σ-field]]
 # Resources
 - [The Bright Side of Mathematics - Lecture Series](https://www.youtube.com/playlist?list=PLBh2i93oe2qvMVqAzsX1Kuv6-4fjazZ8j)
 - [Problemathic - Lecture Series](https://www.youtube.com/playlist?list=PL-hE1FcESINflUwv1d8G3njuZU7kQ1oh5)

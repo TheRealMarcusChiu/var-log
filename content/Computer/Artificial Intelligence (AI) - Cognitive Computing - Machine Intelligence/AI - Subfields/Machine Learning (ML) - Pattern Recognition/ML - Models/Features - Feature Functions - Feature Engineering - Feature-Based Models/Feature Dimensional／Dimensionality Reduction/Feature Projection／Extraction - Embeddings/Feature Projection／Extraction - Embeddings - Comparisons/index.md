@@ -7,8 +7,5 @@ children:
   - "[[Principal Component Analysis (PCA) vs Factor Analysis (FA)]]"
   - "[[tSNE vs UMAP]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Principal Component Analysis (PCA) vs Factor Analysis (FA)]]
+- [[tSNE vs UMAP]]

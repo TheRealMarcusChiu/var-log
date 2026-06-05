@@ -10,8 +10,4 @@ children:
 - [https://www.edureka.co/blog/hdfs-commands-hadoop-shell-command](https://www.edureka.co/blog/hdfs-commands-hadoop-shell-command)
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[hadoop fs - hadoop dfs - hdfs dfs]]

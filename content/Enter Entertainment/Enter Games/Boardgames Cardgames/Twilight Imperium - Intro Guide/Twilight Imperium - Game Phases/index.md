@@ -11,8 +11,7 @@ children:
 ---
 ![[Twilight Imperium - Game Phases/3-game-phases-.png]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Twilight Imperium - Game Phases - 1 Strategy Phase]]
+- [[Twilight Imperium - Game Phases - 2 Action Phase]]
+- [[Twilight Imperium - Game Phases - 3 Status Phase]]
+- [[Twilight Imperium - Game Phases - 4 Agenda Phase]]

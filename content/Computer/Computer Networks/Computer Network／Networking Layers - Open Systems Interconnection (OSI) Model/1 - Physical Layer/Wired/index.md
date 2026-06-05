@@ -16,8 +16,13 @@ children:
   - "[[SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP]]"
 ---
 # Wired Connection Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[802.3 - Ethernet]]
+- [[802.8 - Fiber Optic]]
+- [[Active Optical Cable (AOC)]]
+- [[Cable]]
+- [[Digital Subscriber Line (DSL)]]
+- [[Direct Attach Copper (DAC)]]
+- [[Fibre Channel (FC)]]
+- [[InfiniBand (IB)]]
+- [[Passive Optical Network (PON)]]
+- [[SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP]]

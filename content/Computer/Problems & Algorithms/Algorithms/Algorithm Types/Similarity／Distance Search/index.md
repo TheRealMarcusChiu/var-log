@@ -18,8 +18,6 @@ children:
 # Similarity/Distance Search - Algorithms
 - Flat (brute-force)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Approximate Nearest Neighbor (ANN) Search]]
+> - [[Facebook AI Similarity Search (FAISS)]]
+> - [[Nearest Neighbor Search (NNS) - Vector Search]]

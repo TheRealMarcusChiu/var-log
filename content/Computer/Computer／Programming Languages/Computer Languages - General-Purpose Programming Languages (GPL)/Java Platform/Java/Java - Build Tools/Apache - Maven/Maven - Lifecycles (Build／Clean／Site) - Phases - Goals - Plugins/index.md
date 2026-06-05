@@ -117,8 +117,5 @@ with one or more combinations of any or all:
 > <font style="color: rgb(83,90,96);">Analogy: Plugin is a class and goals are methods within the class</font>
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maven - Deploy]]
+- [[Maven - Plugins]]

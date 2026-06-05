@@ -17,10 +17,8 @@ children:
 ^excerpt
 
 # Kernel - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kernel／Kernels (OS) - Classifications]]
+- [[Kernel／Kernels (OS) - Responsibilities]]
+- [[Kernel／Kernels (OS) - Types]]
 
 ![[Kernel／Kernels (OS)/hardware-kernel-shell-application-architecture.png|301]]

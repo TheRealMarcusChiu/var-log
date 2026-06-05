@@ -20,8 +20,5 @@ children:
 - <strong>Archaeometry</strong> – a study that aims to systematize archaeological measurement
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Prehistory - Pre-Literary History]]
+- [[Three-Age System]]

@@ -19,10 +19,16 @@ children:
 # Graphical Desktop Environments
 ````excerpt
 other types: [https://wiki.archlinux.org/title/Desktop_environment#List_of_desktop_environments](https://wiki.archlinux.org/title/Desktop_environment#List_of_desktop_environments)
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Budgie (Desktop Environment)]]
+- [[CDE Desktop (Common Desktop Environment)]]
+- [[Cinnamon (Desktop Environment)]]
+- [[Cosmic (Desktop Environment)]]
+- [[Deepin Desktop Environment (DDE)]]
+- [[GNOME Desktop (GNU Network Object Model Environment)]]
+- [[KDE Plasma - KDE Desktop (K Desktop Environment)]]
+- [[LXQt (Desktop Environment)]]
+- [[MATE (Desktop Environment)]]
+- [[Pantheon (Desktop Environment)]]
+- [[Xfce (Desktop Environment)]]
 ````
 ^excerpt

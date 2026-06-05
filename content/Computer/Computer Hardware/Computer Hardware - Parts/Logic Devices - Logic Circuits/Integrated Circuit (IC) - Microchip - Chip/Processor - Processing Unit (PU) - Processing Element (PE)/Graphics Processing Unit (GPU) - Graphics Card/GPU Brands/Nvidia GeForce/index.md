@@ -17,11 +17,9 @@ children:
 # List of GPUs
 - [https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_10_series](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_10_series)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[A100 H100 H200 B100 B200 B300]]
+> - [[Compute Unified Device Architecture (CUDA)]]
+> - [[Nvidia GeForce 256]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/GeForce](https://en.wikipedia.org/wiki/GeForce)

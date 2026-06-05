@@ -9,8 +9,5 @@ children:
 ---
 see: [[Java - Circuit Breaker Pattern & Fault／Latency Tolerance／Resilience Frameworks|Java - Circuit Breaker Pattern & Fault/Latency Tolerance/Resilience Frameworks]]
 # Code Examples
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Cloud - Resilience4j]]
+- [[Java - Spring Cloud - Spring Retry]]

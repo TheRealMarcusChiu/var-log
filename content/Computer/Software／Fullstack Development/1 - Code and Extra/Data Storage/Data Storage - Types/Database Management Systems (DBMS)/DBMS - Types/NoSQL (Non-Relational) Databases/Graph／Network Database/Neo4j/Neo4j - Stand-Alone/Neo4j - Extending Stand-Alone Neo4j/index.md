@@ -7,8 +7,5 @@ children:
   - "[[Neo4j - Plugins]]"
   - "[[Neo4j - Unmanaged Server Extensnions]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - Plugins]]
+- [[Neo4j - Unmanaged Server Extensnions]]

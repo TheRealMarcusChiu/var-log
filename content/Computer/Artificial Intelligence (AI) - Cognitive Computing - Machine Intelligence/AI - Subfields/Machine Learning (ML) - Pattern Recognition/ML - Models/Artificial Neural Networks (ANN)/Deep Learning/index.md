@@ -16,11 +16,9 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Deep Learning - Textbooks]]
+- [[Geometric Deep Learning (GDL)]]
+- [[MIT - Introduction to Deep Learning]]
 
 # Resources
 - [DeepMind - Podcast](https://www.youtube.com/watch?v=ExrXs7PCQpU&list=PLqYmG7hTraZBiUr6_Qf8YTS2Oqy3OGZEj&index=2&ab_channel=DeepMind&t=2s)

@@ -63,11 +63,14 @@ children:
 # Subpages
 - [[Quantum Information Theory]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Conditional Relative Entropy]]
+> - [[Fisher Information - Fisher Information Matrix]]
+> - [[Mathematical Capacity of a Communications Channel]]
+> - [[Multivariate Entropy (Joint Entropy - Conditional Entropy - (Pointwise) Mutual Information ／ Information Gain - Variation of Information)]]
+> - [[Source Coding Theorem]]
+> - [[Telegraph／Telegraphy]]
+> - [[Teletype (TTY)]]
+> - [[Univariate Entropy (Information Content - Entropy - Cross Entropy - KL Divergence)]]
 
 # Resources
 - [[The Information - A History, a Theory, a Flood.pdf]]

@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Homebox - Installation via Kubernetes]]
 
 # Resources
 - [https://homebox.software/en/](https://homebox.software/en/)

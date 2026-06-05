@@ -12,11 +12,11 @@ children:
 ---
 # Projects Work In Progress
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[From the Transistor to the Web Browser]]
+- [[Homelab／Homelabs]]
+- [[Meet Marcus Chiu - (WebRTC + Android App)]]
+- [[Nand2Tetris]]
+- [[Shazam Copy]]
 
 - [opencv examples](https://github.com/TheRealMarcusChiu/python-opencv-master-examples)
 ````

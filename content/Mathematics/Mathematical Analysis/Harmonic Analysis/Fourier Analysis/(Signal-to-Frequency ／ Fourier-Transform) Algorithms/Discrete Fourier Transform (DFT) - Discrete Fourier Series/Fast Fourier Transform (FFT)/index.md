@@ -16,11 +16,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[FFT - Algorithms]]
+- [[FFT - Use Cases]]
 
 # Resources
 - [Steve Brunton's The Fast Fourier Transform (FFT)](https://www.youtube.com/watch?v=E8HeD-MUrjY&list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC&index=17)

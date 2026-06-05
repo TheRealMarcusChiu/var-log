@@ -6,8 +6,4 @@ parent: "[[Topological Spaces]]"
 children:
   - "[[Continuous Functions／Transformations Between Topological Spaces (Topological Continuity - Topologically Continuous)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Continuous Functions／Transformations Between Topological Spaces (Topological Continuity - Topologically Continuous)]]

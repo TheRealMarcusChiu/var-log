@@ -9,8 +9,7 @@ children:
   - "[[Network Attached Storage (NAS)]]"
   - "[[Storage Area Network (SAN)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Direct Attached Storage (DAS)]]
+- [[NAS vs SAN]]
+- [[Network Attached Storage (NAS)]]
+- [[Storage Area Network (SAN)]]

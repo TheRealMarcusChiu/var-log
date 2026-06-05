@@ -14,8 +14,12 @@ children:
   - "[[Sorting Algorithms]]"
   - "[[Tabu Search (TS)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Dynamic Programming (DP)]]
+- [[Genetic Algorithm]]
+- [[Greedy／Local-Search Algorithms]]
+- [[Matrix Exponentiation／Exponentials]]
+- [[Quake's Fast Inverse Square Root Algorithm]]
+- [[Similarity／Distance Search]]
+- [[Simulated Annealing (SA)]]
+- [[Sorting Algorithms]]
+- [[Tabu Search (TS)]]

@@ -120,11 +120,7 @@ We can interact with the keystore and/or truststore with either:
 >      -jar MyApplication.jar
 > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[keytool (java binary)]]
 
 # Code Examples
 - [https://github.com/java-code-examples/keystore-truststore-examples](https://github.com/java-code-examples/keystore-truststore-examples)

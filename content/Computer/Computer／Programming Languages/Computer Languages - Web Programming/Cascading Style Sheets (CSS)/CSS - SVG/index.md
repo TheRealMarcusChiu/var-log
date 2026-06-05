@@ -6,8 +6,4 @@ parent: "[[Cascading Style Sheets (CSS)]]"
 children:
   - "[[SVG - Paths]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SVG - Paths]]

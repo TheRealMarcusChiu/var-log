@@ -16,11 +16,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Host Overrides vs Domain Overrides]]
 
 # Resources
 - [https://docs.opnsense.org/hardware/quickstart.html](https://docs.opnsense.org/hardware/quickstart.html)

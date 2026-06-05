@@ -7,8 +7,4 @@ children: []
 ---
 <strong>OpenCV</strong> is a library of programming functions mainly aimed at real-time [[Computer Vision (CV)|computer vision]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+

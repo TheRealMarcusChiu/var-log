@@ -12,8 +12,10 @@ children:
   - "[[Travel]]"
   - "[[Trials & Tribulations]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Animals]]
+- [[Gardening]]
+- [[My Stuff]]
+- [[People]]
+- [[Self Development]]
+- [[Travel]]
+- [[Trials & Tribulations]]

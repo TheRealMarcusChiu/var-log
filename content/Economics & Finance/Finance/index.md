@@ -19,8 +19,5 @@ children:
 - [Mathematical Applications in Finance - MIT Lectures](https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/video-lectures/)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Current Dollars vs Constant／Real Dollars]]
+- [[Stock／Share／Equity Market]]

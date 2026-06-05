@@ -97,8 +97,6 @@ children:
 >    saves cookies into cookies.txt
 > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[curl - go through proxy]]
+- [[curl - HTTP Authorization Header]]
+- [[curl - Show Just The Response Headers and Body]]

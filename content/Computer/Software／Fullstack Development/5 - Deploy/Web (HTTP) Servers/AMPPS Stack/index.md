@@ -17,10 +17,8 @@ children:
 ^excerpt
 
 # Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[LAMP Stack]]
+- [[MAMP]]
+- [[WAMP]]
 # Resources
 - [www.ampps.com](http://www.ampps.com/)

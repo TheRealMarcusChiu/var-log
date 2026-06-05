@@ -10,8 +10,4 @@ children:
 - a model that is both [[Multivariate vs Mixture - Model／Probability-Distribution|multivariate and mixture]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Multivariate Gaussian／Normal Mixture Distribution／Model／Process]]

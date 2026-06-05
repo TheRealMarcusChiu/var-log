@@ -111,8 +111,7 @@ an [[Problems & Algorithms|algorithm]] can be categorized by 2 variants of <stro
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Big O - Little o - Omega - Theta) Bounds Notation]]
+- [[log(n!) = Θ(nlogn)]]
+- [[Rule of Products]]
+- [[Rule of Sums]]

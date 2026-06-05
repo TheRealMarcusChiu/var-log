@@ -34,8 +34,19 @@ children:
 	- incentives
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[10000 Years of Economy]]
+- [[Adjusted／Real／Inflation-Corrected／Constant-Dollar Gross Domestic Product (GDP)]]
+- [[Advanced Economies - Emerging Market Economies - Low-Income Developing Countries]]
+- [[Behavior Economics and Psychology]]
+- [[Capitalism]]
+- [[Cargo airships could be big - A capital-intensive, high-risk way to revolutionize global commerce]]
+- [[Currency]]
+- [[Das Kapital (Capital)]]
+- [[Fossil Fuel (Crude／Raw.Conventional／Unconventional Oil - Petroleum - Natural Gas Methane Ethane - Coal Anthracite Bituminous Sub-Bituminous Coal Lignite)]]
+- [[Gross Domestic Product (GDP)]]
+- [[Gross Domestic Product (GDP) Per Capita]]
+- [[Macroeconomics／Macro-Economics]]
+- [[Microeconomics／Micro-Economics]]
+- [[Money]]
+- [[Socialism／Communism vs Capitalism]]
+- [[Virtual／Synthetic Economy]]

@@ -32,10 +32,6 @@ see: [[Hamel Basis Vectors - Basis for Infinite-Dimensional Vector Spaces]]
 - The Hilbert Cube I∞
 - The Tikhonov cube Iτ
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+
 # Other
 - [[Vector Spaces - Finite vs Infinite Dimensions]]

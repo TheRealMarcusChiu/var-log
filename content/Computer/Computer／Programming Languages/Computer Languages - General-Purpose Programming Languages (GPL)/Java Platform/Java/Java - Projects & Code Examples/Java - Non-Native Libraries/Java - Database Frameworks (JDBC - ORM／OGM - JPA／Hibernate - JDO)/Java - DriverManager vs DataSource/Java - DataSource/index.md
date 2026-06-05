@@ -19,11 +19,10 @@ A datasource may be used to obtain:
 - connection which can be used in distributed transactions and connection pooling
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Connection Pooling Frameworks]]
+- [[Java - DataSource Configuration]]
+- [[Java - DataSource configuring for Tests]]
+- [[Java - Spring - Multiple DataSources]]
 
 # Resources
 - [https://howtodoinjava.com/spring-boot2/datasource-configuration/](https://howtodoinjava.com/spring-boot2/datasource-configuration/)

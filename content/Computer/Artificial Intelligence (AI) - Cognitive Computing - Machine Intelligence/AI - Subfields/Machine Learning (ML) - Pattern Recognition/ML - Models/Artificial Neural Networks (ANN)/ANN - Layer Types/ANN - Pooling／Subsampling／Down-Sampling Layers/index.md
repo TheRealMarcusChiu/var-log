@@ -25,11 +25,13 @@ children:
 ^excerpt
 
 # Pooling Layer - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Average Pooling Layer]]
+- [[Channel Max Pooling Layer (CMP)]]
+- [[Global Pooling Layer]]
+- [[L2 Norm Pooling Layer]]
+- [[Max Pooling Layer (MP) - MaxPooling Layer]]
+- [[Region of Interest (RoI) Pooling Layer]]
+- [[Stochastic Pooling Layer]]
 
 # Resources
 - [https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/](https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/)

@@ -7,8 +7,5 @@ children:
   - "[[Verilog - Arrays]]"
   - "[[Verilog - Scalar and Vectors]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Verilog - Arrays]]
+- [[Verilog - Scalar and Vectors]]

@@ -14,8 +14,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Function Approximation Problem]]
+- [[Universal Approximation Theory／Theorem]]

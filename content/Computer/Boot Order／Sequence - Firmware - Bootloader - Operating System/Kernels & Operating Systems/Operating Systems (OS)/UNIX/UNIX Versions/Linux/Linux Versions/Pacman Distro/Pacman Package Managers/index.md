@@ -6,10 +6,6 @@ parent: "[[Pacman Distro]]"
 children:
   - "[[pacman binary]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[pacman binary]]
 
 list of other [[UNIX - Package Managers (All)]]

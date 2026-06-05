@@ -24,10 +24,17 @@ children:
 - A bundle of support tools (i.e. editors/IDEs, build systems)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer／Programming Languages - Constructs]]
+- [[Computer／Programming Languages - Paradigms]]
+- [[Expressions (Computer Science)]]
+- [[Generations of Software]]
+- [[Language Server Protocol (LSP) - Language Server Index Format (LSIF)]]
+- [[Method vs Function (Programming)]]
+- [[Method／Function Signatures／Signature vs Method／Function Declarations／Declaration]]
+- [[Pass by Reference - Pass by Value - Pass by Pointer]]
+- [[Read Evaluate Print Loop (REPL)]]
+- [[Resource Acquisition Is Initialization (RAII) - Scope-Bound Resource Management (SBRM)]]
+- [[Static／Statically vs Dynamic／Dynamically Type／Typed Programming Languages]]
+- [[Translator - Transcompiler／Transpiler - (Ahead-of-Time AOT - Just-in-Time JIT) Compiler - Interpreter - Assembler - Linker - Loader]]
 
 - [[Data／Variable Types (Statistics／Programming)|Data/Variable Types (Statistics/Programming)]]

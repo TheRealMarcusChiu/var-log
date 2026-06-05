@@ -35,8 +35,7 @@ cryptographic (when there are multiple keys maybe consider incorporating [[Trus
 - [[Authentication／Authorization／Delegation - Token-Based|token based]] - usually incorporating any of the above 3 cryptographic methods
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Authentication Factor - One Time Password (OTP) - PIN - Authorization Code (OTAC) - Dynamic Password／Passwords]]
+- [[Authentication Factor - Password as Cryptographic Key]]
+- [[Authentication Factor - Password Based - Static Password／Passwords]]
+- [[Authentication Factor - Single vs Multi]]

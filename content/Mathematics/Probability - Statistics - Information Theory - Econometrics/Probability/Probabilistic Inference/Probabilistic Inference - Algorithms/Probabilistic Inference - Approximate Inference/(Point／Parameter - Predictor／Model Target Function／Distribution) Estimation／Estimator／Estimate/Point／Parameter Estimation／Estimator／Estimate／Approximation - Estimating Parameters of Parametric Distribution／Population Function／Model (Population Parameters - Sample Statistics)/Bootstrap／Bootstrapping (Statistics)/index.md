@@ -78,11 +78,8 @@ to estimate parameter <em>η</em> of the distribution of 𝜃ˆ:
 >
 > simulate i.i.d. draws {𝑋<sub>1</sub>\*, ..., 𝑋<sub>𝑛</sub>\*} from 𝐹ˆ
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bootstrap Confidence Intervals]]
+- [[Nonparametric Bootstrap]]
 
 # Resources
 - [[bootstrap.pdf]]

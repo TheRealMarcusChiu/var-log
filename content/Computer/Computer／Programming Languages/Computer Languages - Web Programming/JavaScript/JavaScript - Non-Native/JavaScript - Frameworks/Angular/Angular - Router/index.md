@@ -7,11 +7,7 @@ children:
   - "[[Angular - URL Parameters]]"
 ---
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Angular - URL Parameters]]
 
 ### Resources
 - [https://angular.io/guide/router](https://angular.io/guide/router)

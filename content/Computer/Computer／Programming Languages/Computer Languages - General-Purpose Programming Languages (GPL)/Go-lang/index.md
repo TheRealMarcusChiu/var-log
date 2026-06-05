@@ -9,8 +9,5 @@ children:
 ---
 [www.golang.org](http://www.golang.org/)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[go - (Printf - Sprintf - Fprintf)]]
+- [[go - Operator Precedence]]

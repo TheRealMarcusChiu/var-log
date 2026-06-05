@@ -12,8 +12,4 @@ children:
 - they send data via radio waves to [[Router|routers]] that pass it on to [[Baseband v Broadband|broadband]] [[Modem|modems]] or internal networks
 
 # Wireless Adapters
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[WiFi Adapters／Modules／NICs]]

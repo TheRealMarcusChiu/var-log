@@ -15,10 +15,15 @@ children:
   - "[[Motherboard (MoBo)]]"
   - "[[Single-Board Computer (SBC)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Cooling System]]
+- [[Computer IO I／O Input／Output Ports／Devices]]
+- [[Computer Memory／Storage]]
+- [[Computer Other]]
+- [[Computer Power Source]]
+- [[Computer Screen／Display Panels]]
+- [[Computer／Desktop Chassis／Case]]
+- [[Logic Devices - Logic Circuits]]
+- [[Motherboard (MoBo)]]
+- [[Single-Board Computer (SBC)]]
 
 ![[Computer Hardware - Parts/computer.png|301]]

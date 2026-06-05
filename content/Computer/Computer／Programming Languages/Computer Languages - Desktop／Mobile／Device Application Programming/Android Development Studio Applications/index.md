@@ -21,8 +21,7 @@ children:
 	- Showcase - [https://github.com/TheRealMarcusChiu/AndroidShowcase](https://github.com/TheRealMarcusChiu/AndroidShowcase)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Android App - Activity Lifecycle]]
+- [[Android App - Cloning Project]]
+- [[Android App - HandlerThread]]
+- [[Android App - Looper & Handler (Pipeline Thread)]]

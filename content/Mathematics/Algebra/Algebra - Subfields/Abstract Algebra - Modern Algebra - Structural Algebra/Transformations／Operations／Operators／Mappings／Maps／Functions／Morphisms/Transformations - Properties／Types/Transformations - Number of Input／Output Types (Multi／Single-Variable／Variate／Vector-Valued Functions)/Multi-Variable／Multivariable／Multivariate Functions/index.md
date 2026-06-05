@@ -24,8 +24,13 @@ children:
 # Multi-Variable Function - Types
 - [[Vector-Valued Functions - Vector Fields|vector-valued function]] is a [[Functions (Domain - Codomain - Preimage - Image - Range)|function]] whose output is made up of multiple numbers
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Beta Function]]
+> - [[Bilinear Functionals - Bilinear Forms - 2／Two Forms]]
+> - [[Indicator Functions - Characteristic Functions - Membership Functions]]
+> - [[Kernel Functions (Similarity Functions)]]
+> - [[Kronecker Delta Function／Symbol]]
+> - [[Linear Functionals - Linear Forms - 1／One-Forms - Covectors]]
+> - [[Metric Tensors (Metrics)]]
+> - [[Multilinear Functionals - Multilinear Forms - k Forms - k-forms]]
+> - [[Multivariate Beta Function]]
+> - [[Quadratic Forms]]

@@ -12,8 +12,6 @@ children:
 - is a free, open-source implementation of the [[Light-Weight／Lightwieght Directory Access Protocol (LDAP)|Lightweight Directory Access Protocol]]
 
 # Installation
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[OpenLDAP - Build From Source]]
+- [[OpenLDAP - Docker Installation]]
+- [[OpenLDAP - Ubuntu]]

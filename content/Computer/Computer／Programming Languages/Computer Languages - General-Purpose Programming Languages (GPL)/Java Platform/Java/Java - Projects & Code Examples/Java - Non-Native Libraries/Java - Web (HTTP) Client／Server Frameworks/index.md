@@ -7,11 +7,8 @@ children:
   - "[[Java - Jakarta RESTful Web Services (JAX-RS)]]"
   - "[[Java - Ratpack]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Jakarta RESTful Web Services (JAX-RS)]]
+- [[Java - Ratpack]]
 
 - [[Java - Spring Framework - Web／Network／API Libraries|Java - Spring Framework - Web/Network/API Libraries]]
 - Vert.x

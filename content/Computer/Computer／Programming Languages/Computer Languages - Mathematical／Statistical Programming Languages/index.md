@@ -9,8 +9,7 @@ children:
   - "[[Statistical Analysis System (SAS)]]"
   - "[[Statistical Package for the Social Sciences (SPSS) - IBM SPSS Statistics]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Minitab]]
+- [[R]]
+- [[Statistical Analysis System (SAS)]]
+- [[Statistical Package for the Social Sciences (SPSS) - IBM SPSS Statistics]]

@@ -20,8 +20,4 @@ children:
 - [[Basis Bivectors]]
 
 # [[Mathematical Basis Comparisons|Basis - Comparisons]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Mathematical Basis Comparisons]].file.folder + "/" + [[Mathematical Basis Comparisons]].file.name
-```
+- [[Basis Functions vs Basis Vectors]]

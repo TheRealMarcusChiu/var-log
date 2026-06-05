@@ -10,8 +10,8 @@ children:
   - "[[Secure Boot]]"
   - "[[Sleep States (S0／S1／S2／S3／S4／S5)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Advanced Power Management (APM) - Advanced Configuration and Power Interface (ACPI)]]
+- [[Fast Boot]]
+- [[Initiate Graphic Adapter (IGD／PEG - IGD Multi-Monitor)]]
+- [[Secure Boot]]
+- [[Sleep States (S0／S1／S2／S3／S4／S5)]]

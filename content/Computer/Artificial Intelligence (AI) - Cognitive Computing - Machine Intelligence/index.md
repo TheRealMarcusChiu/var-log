@@ -20,22 +20,24 @@ children:
 # [[AI - Other|AI Resources]]
 - [https://ai.googleblog.com/](https://ai.googleblog.com/)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = [[AI - Other]].file.folder + "/" + [[AI - Other]].file.name
-> ```
+> - [[Chinese Room Thought Experiment (Strong AI - Weak AI)]]
 
 # [[AI - Subfields|AI Subfields]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[AI - Subfields]].file.folder + "/" + [[AI - Subfields]].file.name
-```
+- [[AI Alignment Research]]
+- [[Automated Machine Learning (AutoML)]]
+- [[Computational Learning Theory (CoLT)]]
+- [[Computational Physiology (CP)]]
+- [[Computer Audition - Machine Listening]]
+- [[Computer Vision (CV)]]
+- [[General Game Playing (GGP)]]
+- [[Generative AI]]
+- [[Image Models]]
+- [[Interpretability／Interpretable AI／ML vs Explainability／Explainable AI／ML]]
+- [[Knowledge Representation & Reasoning (KRR - KR² - KR&R) - Machine Reasoning (MR)]]
+- [[Machine Learning (ML) - Pattern Recognition]]
+- [[Machine Perception (MP)]]
+- [[Natural Language Processing (NLP) - Computational Linguistics]]
+- [[Quantum Machine Learning (QML)]]
 
 # [[AI - Textbooks|AI Textbooks]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[AI - Textbooks]].file.folder + "/" + [[AI - Textbooks]].file.name
-```
+- [[AI - A Modern Approach - Summaries]]

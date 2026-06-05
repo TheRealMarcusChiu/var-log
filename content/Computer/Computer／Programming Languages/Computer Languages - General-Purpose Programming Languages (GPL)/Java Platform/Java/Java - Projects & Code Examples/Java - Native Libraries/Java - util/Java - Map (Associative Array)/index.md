@@ -14,11 +14,15 @@ children:
   - "[[Java - WeakHashMap]]"
   - "[[Kava - LinkedHashMap]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - EnumMap]]
+- [[Java - HashMap]]
+- [[Java - IdentityHashMap]]
+- [[Java - Map]]
+- [[Java - NavigableMap]]
+- [[Java - SortedMap]]
+- [[Java - TreeMap]]
+- [[Java - WeakHashMap]]
+- [[Kava - LinkedHashMap]]
 
 ![[Java - Map (Associative Array)/java-map-diagram.png|506x250]]
 

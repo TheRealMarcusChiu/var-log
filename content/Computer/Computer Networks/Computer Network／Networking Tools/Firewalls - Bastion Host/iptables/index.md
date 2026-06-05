@@ -24,11 +24,8 @@ children:
 >   which iptables
 > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[iptables - Route Incoming Packets from a Port to another Port]]
+- [[iptables-persistent]]
 
 # Commands
 - [digitalocean - tutorial](https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands)

@@ -13,8 +13,4 @@ children:
 - a deterministic system can be chaotic (deterministic yet unpredictable)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)]]

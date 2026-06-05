@@ -197,11 +197,11 @@ children:
 >
 > The aircrack-ng suite has limited Mac OS X support. Currently it only supports the following tools: aircrack-ng, packetforge-ng, ivstools and makeivs. Any program which requires opening a wireless interface is not supported.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[aircrack-ng - Commands]]
+- [[aircrack-ng - Deauth User(s)]]
+- [[airgraph-ng]]
+- [[airmon-ng]]
+- [[airodump-ng]]
 
 # Resources
 - [https://www.aircrack-ng.org/](https://www.aircrack-ng.org/)

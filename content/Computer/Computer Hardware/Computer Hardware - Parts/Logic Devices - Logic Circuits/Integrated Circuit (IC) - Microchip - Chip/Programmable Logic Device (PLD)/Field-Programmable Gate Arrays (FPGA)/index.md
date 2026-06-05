@@ -21,11 +21,10 @@ children:
 # FPGA - Subpages
 - [[CPLD vs FPGA]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Altera FPGA]]
+> - [[FPGA - Architecture]]
+> - [[FPGA - Programming]]
+> - [[Xilinx FPGA (Spartan Artix Kintex Virtex)]]
 
 # Resources
 - [youtube lectures](https://www.youtube.com/watch?v=jbOjWp4C3V4&list=RDCMUC0wEPiFb0J6AZZ3oPXRoRpw&start_radio=1&t=381s&ab_channel=IntelFPGA)

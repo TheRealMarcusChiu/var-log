@@ -18,8 +18,9 @@ children:
 # How They Relate To Each Other
 ![[Continuous Integration (CI) - Continuous Delivery (CD) - Continuous Deployment/continuous-integration-delivery-deployment.png]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CI／CD Frameworks／Services]]
+- [[Continuous Delivery (CD)]]
+- [[Continuous Deployment]]
+- [[Continuous Integration (CI)]]
+- [[Deployment Strategy／Strategies]]
+- [[SDLC Environments (Dev - Testing／QA - Acceptance／UAT - Staging - Demo - Production) - DTAP]]

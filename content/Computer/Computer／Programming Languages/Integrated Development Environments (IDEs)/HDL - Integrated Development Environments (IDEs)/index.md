@@ -7,8 +7,4 @@ children:
   - "[[Xilinx HDL IDEs]]"
 ---
 [[Integrated Development Environments (IDEs)]] for [[Hardware Description Languages (HDL)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Xilinx HDL IDEs]]

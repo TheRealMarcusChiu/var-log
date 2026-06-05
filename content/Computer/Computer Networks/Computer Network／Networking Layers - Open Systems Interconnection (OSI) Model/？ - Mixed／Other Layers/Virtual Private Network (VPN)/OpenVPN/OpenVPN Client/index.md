@@ -7,8 +7,4 @@ children:
   - "[[Tunnelblick]]"
 ---
 For OpenVPN client configuration see [[openvpn binary|here]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Tunnelblick]]

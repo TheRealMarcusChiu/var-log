@@ -18,8 +18,9 @@ for logic programming languages: [[Computer Languages - Logic／Logical Program
 
 ![[Formal Logical Systems／Languages or Logic Classes#^excerpt]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Causality (Necessary - Sufficient - Contributory)]]
+- [[Conditional Statements - Antecedent - Consequent (Conditional - Converse - Inverse - Contrapositive - Biconditional)]]
+- [[Formal Logical Systems／Languages or Logic Classes]]
+- [[Formal Logical Systems／Languages or Logic Classes - Comparisons]]
+- [[Formal Logical Systems／Languages or Logic Classes - Properties]]
+- [[Reasoning (Argument)]]

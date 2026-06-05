@@ -13,8 +13,11 @@ children:
   - "[[Photography]]"
   - "[[Video Games]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Art]]
+- [[Fashion]]
+- [[Film／Films]]
+- [[Interior Design]]
+- [[Jewel／Jewelry]]
+- [[Lego]]
+- [[Photography]]
+- [[Video Games]]

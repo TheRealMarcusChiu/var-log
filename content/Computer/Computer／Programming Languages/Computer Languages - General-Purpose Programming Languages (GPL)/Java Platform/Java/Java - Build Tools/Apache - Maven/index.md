@@ -18,11 +18,13 @@ children:
 - based on the concept of a project object model (POM)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maven - Commands]]
+- [[Maven - Convert Java Class 2 Maven Artifact & Import into Maven Project]]
+- [[Maven - Dependencies]]
+- [[Maven - Lifecycles (Build／Clean／Site) - Phases - Goals - Plugins]]
+- [[Maven - Multi Modules]]
+- [[Maven - Repository Managers]]
+- [[Maven - settings.xml]]
 
 # Resources
 - [https://maven.apache.org/pom.html#Introduction](https://maven.apache.org/pom.html#Introduction)

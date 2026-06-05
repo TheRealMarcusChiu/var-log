@@ -15,15 +15,11 @@ children:
 ^excerpt
 
 # Email Protocols
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Email Protocol]].file.folder + "/" + [[Email Protocol]].file.name
-```
+- [[IMAP]]
+- [[POP3]]
+- [[Simple Mail Transfer Protocol (SMTP)]]
+- [[Simple Mail Transfer Protocol Secure (SMTPS)]]
 
 # Email Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Email Implementations]].file.folder + "/" + [[Email Implementations]].file.name
-```
+- [[Email Client]]
+- [[Email Server]]

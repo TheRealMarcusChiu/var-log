@@ -11,8 +11,4 @@ children:
 	- 𝑥 ← 𝑥 - 𝑓(𝑥)/𝑓<em>'</em>(𝑥)
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Newton's Method - Square Root]]

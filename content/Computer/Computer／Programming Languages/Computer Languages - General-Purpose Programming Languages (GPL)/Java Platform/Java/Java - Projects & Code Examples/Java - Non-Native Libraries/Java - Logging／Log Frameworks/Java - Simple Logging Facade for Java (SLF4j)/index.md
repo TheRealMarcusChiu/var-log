@@ -43,11 +43,7 @@ public class MyClass {
 }
 ```
 # 2 - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Slf4j - Extended Logger ／ XLogger]]
 
 # 3 - Resources
 - [https://www.baeldung.com/slf4j-with-log4j2-logback](https://www.baeldung.com/slf4j-with-log4j2-logback)

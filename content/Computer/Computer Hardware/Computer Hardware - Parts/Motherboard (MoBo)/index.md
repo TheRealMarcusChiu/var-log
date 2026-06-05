@@ -20,11 +20,12 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chipsets]]
+- [[CPU Sockets - Land／Pin Grid Array (LGA／PGA／ZIF／BGA)]]
+- [[Motherboard - Brands]]
+- [[Motherboard - Power Connectors]]
+- [[Motherboard - Sizes (ATX - ITX)]]
+- [[Nonvolatile BIOS Memory (Firmware & Settings) - Boot Chip - CMOS RAM - Real-Time Clock (RTC)]]
 
 # Motherboard - Layout
 ![](https://www.youtube.com/watch?v=eJn-qPHtfzI)![](https://www.youtube.com/watch?v=b2pd3Y6aBag&ab_channel=PowerCertAnimatedVideos)![[Motherboard (MoBo)/motherboard-basic-layout.png|260]]

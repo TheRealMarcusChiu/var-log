@@ -11,8 +11,4 @@ Many Hindus focus upon impersonal Absolute (Brahman) which is genderless. Othe
 - Bhakti traditions conceives of God as both male and female
 
 ### Gods
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Vishnu]]

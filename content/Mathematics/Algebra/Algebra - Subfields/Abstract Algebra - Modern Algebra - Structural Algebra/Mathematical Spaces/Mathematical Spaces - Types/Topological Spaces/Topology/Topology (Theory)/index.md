@@ -16,11 +16,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ambient Isotopy (h-isotopy)]]
+- [[Borsuk-Ulam Theorem／Theory]]
+- [[Inscribed Rectangle／Square Problem]]
+- [[Knot Theory]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Topology](https://en.wikipedia.org/wiki/Topology)

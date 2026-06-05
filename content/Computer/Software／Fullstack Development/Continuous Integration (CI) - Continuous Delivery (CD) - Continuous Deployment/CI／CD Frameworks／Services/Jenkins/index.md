@@ -85,8 +85,4 @@ The leading open source automation server, Jenkins provides hundreds of plugins 
 - [http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_Adding_Job_and_Build.php](http://www.bogotobogo.com/DevOps/Jenkins/Jenkins_Adding_Job_and_Build.php)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Jenkins - Pipelines]]

@@ -131,11 +131,8 @@ A binary operation on 𝐺 is a mapping 𝐺×𝐺 → 𝐺, that is, a [[Binar
 # Other
 - [[Group Homomorphisms]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Cosets]]
+> - [[Euler's Formula - Intuition via Group Theory]]
 
 # Resources
 - [3Brown1Blue - Group Theory Introduction](https://www.youtube.com/watch?v=mH0oCDa74tE)

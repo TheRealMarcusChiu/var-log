@@ -8,11 +8,8 @@ children:
   - "[[Problems]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Algorithms]]
+- [[Problems]]
 
 # Analysis vs Design
 - <strong>analysis</strong> - asks what are the properties/requirements of the given domain

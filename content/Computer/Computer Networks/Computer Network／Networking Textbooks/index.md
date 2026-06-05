@@ -6,8 +6,4 @@ parent: "[[Computer Networks]]"
 children:
   - "[[Computer Networks - A Systems Approach (Summaries)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Networks - A Systems Approach (Summaries)]]

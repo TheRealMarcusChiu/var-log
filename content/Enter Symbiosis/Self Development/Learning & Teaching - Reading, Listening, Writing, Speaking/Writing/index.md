@@ -12,8 +12,6 @@ children:
 
 ![](http://youtube.com/watch?v=vtIzMaLkCaM)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Benefits of Writing]]
+- [[Three Writing Exercises That Can Increase In-the-Moment Happiness]]
+- [[Writing Eulogy]]

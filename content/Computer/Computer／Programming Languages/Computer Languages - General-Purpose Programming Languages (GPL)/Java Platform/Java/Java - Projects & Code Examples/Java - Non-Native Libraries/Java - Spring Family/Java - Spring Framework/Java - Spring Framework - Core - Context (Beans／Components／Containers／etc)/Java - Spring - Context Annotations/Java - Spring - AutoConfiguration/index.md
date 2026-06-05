@@ -8,8 +8,6 @@ children:
   - "[[Java - Spring - AutoConfiguration - @Order @AutoConfigureOrder @AutoConfigureAfter @AutoConfigureBefore]]"
   - "[[Java - Spring - AutoConfiguration - Classes]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - AutoConfiguration - @ConditionalOn - Property／Class／Bean／Resource／WebApplication]]
+- [[Java - Spring - AutoConfiguration - @Order @AutoConfigureOrder @AutoConfigureAfter @AutoConfigureBefore]]
+- [[Java - Spring - AutoConfiguration - Classes]]

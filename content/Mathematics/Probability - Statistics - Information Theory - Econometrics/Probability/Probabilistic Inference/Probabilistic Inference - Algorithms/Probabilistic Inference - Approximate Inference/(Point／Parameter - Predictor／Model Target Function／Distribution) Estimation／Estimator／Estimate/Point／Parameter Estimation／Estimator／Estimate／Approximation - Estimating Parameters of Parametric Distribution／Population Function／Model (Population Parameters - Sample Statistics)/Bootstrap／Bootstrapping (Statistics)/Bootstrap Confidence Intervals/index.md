@@ -132,11 +132,8 @@ research shows that <em>studentized bootstrap</em> is the best choice, but it re
 > [!expand]- Click here to expand...
 > see: [[Bootstrap Confidence Intervals]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bias-Corrected and Accelerated (BCa) Bootstrap CI]]
+- [[Studentized Bootstrap CI vs Percentile Bootstrap CI]]
 
 ### Resources
 - [[Bootstrap Confidence Intervals]]

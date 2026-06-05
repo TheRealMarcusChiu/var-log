@@ -13,8 +13,5 @@ children:
 	- <strong>release version</strong> that typically changes far less often, such as semantic versioning or a project code name
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Semantic Versioning (MAJOR.MINOR.PATCH／REVISION)]]
+- [[Versioning Scheme - Qualifiers (SNAPSHOT - MILESTONE (M) - RELEASE CANDIDATE (RC) - General Availability (GA) ／ RELEASE)]]

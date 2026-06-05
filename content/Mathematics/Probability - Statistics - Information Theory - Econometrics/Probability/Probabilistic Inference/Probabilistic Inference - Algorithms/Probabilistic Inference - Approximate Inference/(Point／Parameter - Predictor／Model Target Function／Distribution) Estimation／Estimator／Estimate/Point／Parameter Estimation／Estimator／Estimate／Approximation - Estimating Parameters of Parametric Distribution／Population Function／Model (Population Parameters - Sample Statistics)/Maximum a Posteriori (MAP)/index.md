@@ -57,11 +57,8 @@ Choosing a [[Conjugate Prior|conjugate prior]] (i.e. the prior 𝐏(𝜃) is the
 # MAP - Subpages
 - [[MLE vs MAP]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[MAP - Computing MAP of Specific Distributions]]
+> - [[MAP - Similarities to MLE with Parameter Regularization]]
 
 # MAP - Resources
 

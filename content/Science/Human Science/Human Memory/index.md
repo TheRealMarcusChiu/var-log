@@ -10,11 +10,10 @@ children:
   - "[[Human Memory - Processes]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Boundary Extension (BE)]]
+- [[Human Memory - Diseases]]
+- [[Human Memory - Memorization Strategies／Techniques]]
+- [[Human Memory - Processes]]
 
 # Learning and Memory: How it Works and When it Fails
 

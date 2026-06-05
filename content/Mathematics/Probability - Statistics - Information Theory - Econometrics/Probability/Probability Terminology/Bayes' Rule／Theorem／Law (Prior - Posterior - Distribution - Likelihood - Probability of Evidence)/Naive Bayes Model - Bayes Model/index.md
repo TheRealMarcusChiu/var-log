@@ -74,11 +74,9 @@ children:
 
 ### Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bivariate／Boolean／Binary Multinoulli／Multinomial Naive Bayes]]
+- [[Naive Bayes Model - Learning]]
+- [[Naive Bayes Model - Overcounting Problem]]
 - [[Hidden Markov Model (HMM) vs Naive Bayes Model]]
 - [[Naive Bayes Model vs Bayes Model vs Logistic Regression Model]]
 - [[Naive Bayes Model vs Bayes Model vs Bayesian Network]]

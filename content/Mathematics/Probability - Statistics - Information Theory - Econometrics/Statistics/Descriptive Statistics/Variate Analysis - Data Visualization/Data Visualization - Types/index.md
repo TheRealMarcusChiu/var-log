@@ -14,10 +14,13 @@ children:
   - "[[Time Plots]]"
 ---
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bar Plots]]
+- [[Box Plot - Boxplot]]
+- [[Histogram]]
+- [[Quantile-Quantile (Q-Q／QQ) Plot]]
+- [[Residual Plot - Partial Residual Plot]]
+- [[Scatter Plots]]
+- [[Stem-and-Leaf Plots]]
+- [[Time Plots]]
 ````
 ^excerpt

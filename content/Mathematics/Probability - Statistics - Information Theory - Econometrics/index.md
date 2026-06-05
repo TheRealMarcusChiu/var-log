@@ -9,8 +9,7 @@ children:
   - "[[Probability]]"
   - "[[Statistics]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Econometrics]]
+- [[Information Theory - Mathematical Theory of Communication - Telecommunications]]
+- [[Probability]]
+- [[Statistics]]

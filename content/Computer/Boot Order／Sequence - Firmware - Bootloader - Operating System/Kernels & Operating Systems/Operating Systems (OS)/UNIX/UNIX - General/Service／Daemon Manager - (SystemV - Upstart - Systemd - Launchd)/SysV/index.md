@@ -19,8 +19,4 @@ One major issue with <strong>SysV</strong> was that when [[Boot Order／Seque
 - [[SysV／Upstart／Systemd／Launchd - Commands (service - chkconfig - systemctl - journalctl - launchctl)|chkconfig]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+

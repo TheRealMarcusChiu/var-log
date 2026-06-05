@@ -68,11 +68,12 @@ a Markov Network 𝓜 = ⟨𝐗, 𝐃, 𝐒, 𝛷, 𝛱⟩ is a type of [[Gra
 # Subpages
 - [[Bayesian Network (BN) vs Markov Random Field (MRF)]]
 - [[Conditional Random Field (CRF) vs Markov Random Field (MRF)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MN／MRF - Inferring Independence]]
+- [[MN／MRF - Inferring Probabilities]]
+- [[MN／MRF - Potential Functions (𝜙)]]
+- [[MN／MRF - To Bayesian Network]]
+- [[MN／MRF - To Factor Graph]]
+- [[MN／MRF - Variants (Gibbs Distribution)]]
 
 # Resources
 - [http://homes.sice.indiana.edu/natarasr/Courses/I590/Papers/MRF.pdf](http://homes.sice.indiana.edu/natarasr/Courses/I590/Papers/MRF.pdf)

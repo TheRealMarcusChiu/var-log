@@ -17,8 +17,4 @@ children: []
 # DTFT - Subpages
 - [[Discrete-Time Fourier Transform (DTFT) vs Discrete Fourier Transform (DFT)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+

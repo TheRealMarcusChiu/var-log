@@ -24,10 +24,8 @@ This means if I want to release a new version of my application, I have to creat
 
 Additionally, with a Universal Package Manager, <strong>the developer publishes and maintains the package</strong>, instead of the distribution maintainer. So I as a developer can release new a version to all my users without having to wait on anyone else
 # Universal Package Managers
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AppImages (Universal Package Manager)]]
+- [[Flatpaks (Universal Package Manager)]]
+- [[Snap (Universal Package Manager)]]
 
 - [[Nix]]

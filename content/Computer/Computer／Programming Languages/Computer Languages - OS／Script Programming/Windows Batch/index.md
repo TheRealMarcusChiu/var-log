@@ -10,8 +10,7 @@ children:
   - "[[Windows Batch - Virus]]"
 ---
 ### Example Scripts
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Windows Batch - Auto Open Chrome and Login]]
+- [[Windows Batch - Chatroom]]
+- [[Windows Batch - Send Receive]]
+- [[Windows Batch - Virus]]

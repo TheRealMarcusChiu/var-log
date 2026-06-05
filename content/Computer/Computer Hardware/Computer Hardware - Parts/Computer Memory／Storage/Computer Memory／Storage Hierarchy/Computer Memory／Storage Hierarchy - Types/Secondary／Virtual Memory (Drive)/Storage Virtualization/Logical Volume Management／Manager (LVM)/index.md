@@ -15,10 +15,6 @@ children:
 ^excerpt
 
 # LVM - Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Logical Volume Manager (LVM) ＊Linux]]
 
 - [[Zettabyte File System (ZFS)]]

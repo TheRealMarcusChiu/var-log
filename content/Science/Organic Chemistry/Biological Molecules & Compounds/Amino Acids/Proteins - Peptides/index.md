@@ -17,8 +17,8 @@ children:
 # Subpages
 - protein database - [https://proteopedia.org/wiki/index.php/Main_Page](https://proteopedia.org/wiki/index.php/Main_Page)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Protein - Crystallization]]
+> - [[Protein - Design]]
+> - [[Protein - Structure]]
+> - [[Protein - Structure Capturing]]
+> - [[Protein - Types and Functions]]

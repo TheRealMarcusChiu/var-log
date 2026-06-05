@@ -6,11 +6,7 @@ parent: "[[Java - Non-Native Libraries]]"
 children:
   - "[[Java - MapStruct]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - MapStruct]]
 
 - JMapper
 - Orika

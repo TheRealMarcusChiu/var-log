@@ -18,11 +18,8 @@ children:
 # Subpages
 - [[Graph Query Language (GQL) - Database]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[TigerGraph - Internal Architecture & Platform Components]]
+> - [[TigerGraph - Ways to Interact with TigerGraph]]
 
 # Resources
 - [The Accelerated Path to Petabyte-Scale Graph Databases](https://www.nextplatform.com/2021/10/28/the-accelerated-path-to-petabyte-scale-graph-databases/)

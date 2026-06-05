@@ -54,8 +54,5 @@ children:
 }
 ```
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Host-Based Intrusion Detection System (Host-Based IDS)]]
+- [[Network-Based Intrusion Detection System (Network-Based IDS)]]

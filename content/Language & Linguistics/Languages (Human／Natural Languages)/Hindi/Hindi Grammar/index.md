@@ -8,8 +8,6 @@ children:
   - "[[Main - Muhje／Mujhko - Mera／Meri／Mere - Apna／Apni]]"
   - "[[aap／aapka／aapki／aapke／aapse／aapko／aapne - tum／tumhara／tumhari／tumhare／tumse／tumko／tumhe／tumne - tu／tera／teri／tere／tujhse／tujhko／tujhe／tune]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[aap／aapka／aapki／aapke／aapse／aapko／aapne - tum／tumhara／tumhari／tumhare／tumse／tumko／tumhe／tumne - tu／tera／teri／tere／tujhse／tujhko／tujhe／tune]]
+- [[Hona (Hai - Hain - Hoon - Hey)]]
+- [[Main - Muhje／Mujhko - Mera／Meri／Mere - Apna／Apni]]

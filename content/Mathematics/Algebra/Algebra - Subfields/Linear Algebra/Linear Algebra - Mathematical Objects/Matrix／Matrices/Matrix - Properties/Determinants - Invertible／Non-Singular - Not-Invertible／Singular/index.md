@@ -44,8 +44,5 @@ For proof expand below
 >
 > ![[Determinants - Invertible／Non-Singular - Not-Invertible／Singular/proove-determinent-volume.png|600]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Determinant - Applications (Cramer's Rule, Inverse Matrix, and Volume)]]
+- [[Determinant - Formulas & Cofactors]]

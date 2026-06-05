@@ -9,8 +9,5 @@ children:
 ---
 For OpenVPN server configuration see [[openvpn binary|here]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[OpenVPN in OPNSense]]
+- [[PiVPN]]

@@ -17,11 +17,16 @@ children:
 ---
 read [[Machine Learning (ML) - Pattern Recognition]] first
 # ML - Models
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Artificial Neural Networks (ANN)]]
+- [[Clustering]]
+- [[Decision Trees (DT)]]
+- [[Ensemble Methods／Techniques]]
+- [[Features - Feature Functions - Feature Engineering - Feature-Based Models]]
+- [[Instance-Based Learning]]
+- [[Kernel Machines／Methods]]
+- [[Regression Models／Analysis (Regressor／Predictor／Independent／Input／Feature-Function - Response／Dependent／Output／Outcome) Variable]]
+- [[Reinforcement Learning (RL)]]
+- [[Support Vector Machines (SVM)]]
 
 # ML - Other
 - similar to:

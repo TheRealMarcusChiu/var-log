@@ -11,8 +11,5 @@ children:
 - a type of [[Bivariate／Multivariate Analysis Descriptive Statistics|bivariate analysis]] that summarizes the joint variability of two random variables by outputting a scalar value
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Covariation - Covariance]]
+- [[Distance Covariance／Covariation]]

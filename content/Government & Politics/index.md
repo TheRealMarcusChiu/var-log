@@ -45,8 +45,10 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Capital／Consumer Non (Excludable Rivalrous) Public Common Private Club Goods]]
+- [[Government & Political Systems]]
+- [[Human Development Index (HDI)]]
+- [[Lobby／Lobbying／Lobbyist]]
+- [[Political Offices]]
+- [[Social Stratifications／Hierarchies]]
+- [[TODO - Current Events]]

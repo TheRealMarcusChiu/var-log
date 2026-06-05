@@ -57,8 +57,4 @@ Ontologists often try to determine what the categories or highest kinds are and 
 	- <code><em>fuji apple <em>⊆ </em>apple ⊆ fruit ⊆ food</em></code>
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ontology - Objectivist vs Subjectivist]]

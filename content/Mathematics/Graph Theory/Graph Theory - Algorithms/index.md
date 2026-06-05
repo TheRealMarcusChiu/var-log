@@ -8,8 +8,6 @@ children:
   - "[[Graph Matching]]"
   - "[[Link／Citation Based Ranking／Analysis Algorithms]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Community Detection -  Graph Partition - Algorithms]]
+- [[Graph Matching]]
+- [[Link／Citation Based Ranking／Analysis Algorithms]]

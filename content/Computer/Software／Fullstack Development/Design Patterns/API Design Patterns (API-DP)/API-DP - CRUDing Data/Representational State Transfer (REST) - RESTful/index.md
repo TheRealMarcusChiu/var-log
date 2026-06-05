@@ -23,11 +23,7 @@ children:
 - [[Java - Spring - Data - @RepositoryRestResource]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Open Data Protocol (OData)]]
 
 # Resources
 - [https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)

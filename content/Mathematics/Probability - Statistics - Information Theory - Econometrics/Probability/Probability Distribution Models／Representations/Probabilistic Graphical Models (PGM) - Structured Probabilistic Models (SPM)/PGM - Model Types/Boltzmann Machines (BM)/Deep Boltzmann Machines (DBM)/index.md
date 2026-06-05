@@ -14,8 +14,4 @@ children: []
 # Subpages
 - [[Deep Belief Networks (DBN) vs Deep Boltzmann Machine (DBM)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+

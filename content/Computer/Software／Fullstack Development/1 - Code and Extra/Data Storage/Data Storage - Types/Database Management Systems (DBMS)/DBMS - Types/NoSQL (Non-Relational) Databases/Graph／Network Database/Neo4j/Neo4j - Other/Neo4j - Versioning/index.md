@@ -8,11 +8,7 @@ children:
 ---
 see: [[G／N-DDP - Versioning|G/N-DDP - Versioning]]
 # Versioning Libraries
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - neo4j-versioner-core]]
 
 # Resources
 - [https://blog.faboo.org/2020/03/versioned-model/](https://blog.faboo.org/2020/03/versioned-model/)

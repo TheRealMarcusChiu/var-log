@@ -10,8 +10,6 @@ children:
 ---
 ![[Atmosphere/earths-atmosphere.jpg]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Atmosphere & Electromagnetic Energy／Radiation]]
+- [[Atmosphere - Partial Pressures]]
+- [[Ionosphere]]

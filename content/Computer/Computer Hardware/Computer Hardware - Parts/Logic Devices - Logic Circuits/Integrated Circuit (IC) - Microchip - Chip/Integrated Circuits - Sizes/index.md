@@ -6,8 +6,4 @@ parent: "[[Integrated Circuit (IC) - Microchip - Chip]]"
 children:
   - "[[Very Large-Scale Integration (VLSI)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Very Large-Scale Integration (VLSI)]]

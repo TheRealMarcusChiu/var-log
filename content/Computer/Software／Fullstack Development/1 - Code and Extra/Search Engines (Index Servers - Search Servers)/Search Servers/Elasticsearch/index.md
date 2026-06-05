@@ -107,11 +107,7 @@ children:
 > <strong>aggregate - groups all the accounts by state, and then returns the, top 10 (default) states sorted by count descending (also default)</strong>
 > <span style="white-space: pre-wrap"><code>  curl -XGET 'localhost:9200/bank/\_search?pretty' -d'</code><br><code>  {</code><br><code>    "size": 0,</code><br><code>    "aggs": {</code><br><code>      "group\_by\_state": {</code><br><code>        "terms": {</code><br><code>          "field": "state.keyword"</code><br><code>        }</code><br><code>      }</code><br><code>    }</code><br><code>  }'</code></span>
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Elasticsearch - Docker]]
 
 # Resources
 - [http://www.elastic.co/](http://www.elastic.co/)

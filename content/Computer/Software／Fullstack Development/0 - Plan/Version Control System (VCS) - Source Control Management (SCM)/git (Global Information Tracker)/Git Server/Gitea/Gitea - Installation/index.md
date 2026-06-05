@@ -6,8 +6,4 @@ parent: "[[Gitea]]"
 children:
   - "[[Gitea - Installation - Docker Compose]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Gitea - Installation - Docker Compose]]

@@ -17,11 +17,11 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Barnes-Hut Approximation Algorithm]]
+- [[Dehnen's Algorithm]]
+- [[Stochastic Barnes-Hut Approximation for Fast Summation on the GPU]]
+- [[WHFast512]]
+- [[Wisdom-Holman Integrator]]
 
 - [https://github.com/Hsin-Hung/N-body-simulation/tree/main](https://github.com/Hsin-Hung/N-body-simulation/tree/main)
 - [[An Efficient CUDA Implementation of the Tree-Based Barnes Hut n-Body Algorithm.pdf]]

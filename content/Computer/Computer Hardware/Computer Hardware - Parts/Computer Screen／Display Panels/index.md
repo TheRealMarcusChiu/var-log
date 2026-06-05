@@ -6,8 +6,4 @@ parent: "[[Computer Hardware - Parts]]"
 children:
   - "[[Computer Screen／Display Panels Aspects]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Screen／Display Panels Aspects]]

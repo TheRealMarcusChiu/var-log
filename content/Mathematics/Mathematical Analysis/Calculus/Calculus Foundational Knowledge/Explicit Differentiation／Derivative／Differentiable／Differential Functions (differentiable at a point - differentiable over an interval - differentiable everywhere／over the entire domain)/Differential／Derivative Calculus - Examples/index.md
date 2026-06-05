@@ -8,8 +8,6 @@ children:
   - "[[Derivative of Logarithm Function]]"
   - "[[Derivative of Natural Log of x or ln(x)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Derivative of Exponential Function (a^x and e^x)]]
+- [[Derivative of Logarithm Function]]
+- [[Derivative of Natural Log of x or ln(x)]]

@@ -30,11 +30,8 @@ Eventually, you will want to learn aspects of all of these fields, but when star
 
 If you want to get a flavor of what research is currently hot, then one place to look is at the program of the last few [QIP workshops](http://qipconference.org/). A less curated list of interesting papers can be found at [scirate.com](http://scirate.com/), where looking at the most cited papers in the last year should bring up some interesting work
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Grover’s Algorithm]]
+- [[Quantum Information Theory]]
 
 - [[Quantum Machine Learning (QML)]]
 

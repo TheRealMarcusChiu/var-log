@@ -104,8 +104,9 @@ children:
 - [Graph Theory for Educators](https://www.youtube.com/channel/UCeD8su6StFduMDOXmdJn8SA/videos)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Degree Sequences]]
+- [[Graph Clusters]]
+- [[Graphical Models]]
+- [[Pseudo Tree - Extended Graph]]
+- [[Spanning Tree]]
+- [[Tree Properties]]

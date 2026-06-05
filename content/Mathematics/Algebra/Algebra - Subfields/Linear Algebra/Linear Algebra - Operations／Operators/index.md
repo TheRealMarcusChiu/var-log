@@ -11,8 +11,9 @@ children:
   - "[[Matrix Multiplication]]"
   - "[[Outer Product]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[2D "Cross Product" - Exterior／Wedge／Anti-Symmetric Product - Determinant - Perpendicular Dot Product]]
+- [[Cross Product - Vector Product - Directed Area Product]]
+- [[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product]]
+- [[Inner Products]]
+- [[Matrix Multiplication]]
+- [[Outer Product]]

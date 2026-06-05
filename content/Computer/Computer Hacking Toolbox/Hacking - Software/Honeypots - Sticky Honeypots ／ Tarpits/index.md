@@ -16,8 +16,4 @@ children:
 - a honeypot that acts as a decoy, luring in potential hackers and responding in a way that causes their machine to get “stuck”, sometimes for a very long time
 
 # Honeypots
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[EndlessH]]

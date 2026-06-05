@@ -11,8 +11,4 @@ children:
 
 IDE/ATA is popular for connecting [[Secondary／Virtual Memory (Drive)|drives]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Serial ATA (SATA) - Parallel ATA (PATA)]]

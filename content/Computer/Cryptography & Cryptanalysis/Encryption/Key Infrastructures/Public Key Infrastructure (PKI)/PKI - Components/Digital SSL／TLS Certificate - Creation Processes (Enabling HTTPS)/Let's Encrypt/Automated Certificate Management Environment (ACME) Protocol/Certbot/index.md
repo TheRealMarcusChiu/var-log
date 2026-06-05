@@ -16,11 +16,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Let's Encrypt - certbot]]
+- [[Let's Encrypt - certbot-auto (DEPRECATED) - Wildcard Certificate - Nginx Amazon Linux 2]]
 
 # Resources
 - [https://certbot.eff.org/](https://certbot.eff.org/)

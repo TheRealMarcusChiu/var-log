@@ -8,8 +8,4 @@ children:
 ---
 see: [[Data Storage]]
 # Data Storage - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hadoop vs Spark]]

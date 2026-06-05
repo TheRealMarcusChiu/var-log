@@ -46,8 +46,4 @@ related to:
 - variational algorithms
 
 # Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Probabilistic Inference - Approximate Inference - Comparisons]].file.folder + "/" + [[Probabilistic Inference - Approximate Inference - Comparisons]].file.name
-```
+- [[Importance Sampling (IS) vs Monte Carlo Markov Chains (MCMC)]]

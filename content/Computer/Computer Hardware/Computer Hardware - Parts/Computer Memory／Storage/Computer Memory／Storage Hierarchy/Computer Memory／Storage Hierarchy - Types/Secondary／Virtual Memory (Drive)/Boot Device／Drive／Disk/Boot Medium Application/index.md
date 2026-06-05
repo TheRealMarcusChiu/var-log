@@ -11,8 +11,8 @@ children:
   - "[[Ventoy]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Etcher]]
+- [[Network Booting (NetBoot)]]
+- [[Rufus]]
+- [[UNetbootin]]
+- [[Ventoy]]

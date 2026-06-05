@@ -6,8 +6,4 @@ parent: "[[Normed Vector Spaces - Normed Spaces]]"
 children:
   - "[[Transformations Between Normed Spaces (Continuous - Continuity)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Transformations Between Normed Spaces (Continuous - Continuity)]]

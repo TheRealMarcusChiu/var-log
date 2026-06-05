@@ -10,8 +10,4 @@ see: [https://pve.proxmox.com/wiki/Cluster_Manager](https://pve.proxmox.com/wiki
 
 ![](https://www.youtube.com/watch?v=08b9DDJ_yf4)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Proxmox - High Availability Cluster - Ceph]]

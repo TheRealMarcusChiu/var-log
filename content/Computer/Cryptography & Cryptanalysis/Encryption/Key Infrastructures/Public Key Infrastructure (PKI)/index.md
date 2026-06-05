@@ -19,8 +19,6 @@ children:
 - used in [[Cryptocurrency - Crypto Currency]]
 
 # PKI - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[PKI - Components]]
+- [[PKI - Design Models]]
+- [[X.509 and PKIX]]

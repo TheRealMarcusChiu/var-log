@@ -19,8 +19,17 @@ children:
   - "[[Tensor Algebra]]"
   - "[[Vector Algebra]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Abstract Algebra - Modern Algebra - Structural Algebra]]
+- [[Conformal Geometric Algebra (CGA)]]
+- [[Exterior Algebra - Grassmann Algebra]]
+- [[Geometric Algebra (GA) - Clifford Algebra]]
+- [[Linear Algebra]]
+- [[Matrix Theory - Matrix Algebra]]
+- [[Multilinear Algebra]]
+- [[Projective Geometric Algebra (PGA)]]
+- [[Quaternion Algebra]]
+- [[Rigid Geometric Algebra (RGA)]]
+- [[Scalar Algebra - Elementary／College Algebra]]
+- [[Spacetime Algebra]]
+- [[Tensor Algebra]]
+- [[Vector Algebra]]

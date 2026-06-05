@@ -16,8 +16,6 @@ children:
 > [!expand]- Click here to expand...
 > ![[CI - Formula For Unbiased Estimator With Normal Distribution#^excerpt]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CI - Mean]]
+- [[CI - Proportion]]
+- [[CI - Variance & Standard Deviation]]

@@ -77,8 +77,4 @@ to enable HTTPS you will need to apply for a [[Digital SSL／TLS Certificate|SSL
 - see [[Digital SSL／TLS Certificate - Creation Processes (Enabling HTTPS)|Digital SSL/TLS Certificate - Creation Processes (Enabling HTTPS)]]
 
 # HTTPS - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HTTPS - The First Few Milliseconds of an HTTPS Connection]]

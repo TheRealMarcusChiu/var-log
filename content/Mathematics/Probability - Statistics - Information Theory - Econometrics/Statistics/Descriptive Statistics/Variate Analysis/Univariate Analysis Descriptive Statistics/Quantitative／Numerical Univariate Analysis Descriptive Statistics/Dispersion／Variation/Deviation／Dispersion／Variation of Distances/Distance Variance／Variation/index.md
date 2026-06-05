@@ -40,8 +40,4 @@ The <strong>sample distance variance</strong> (a scalar) is simply the arithme
 - 𝑑𝑉𝑎𝑟(𝑋) = (1/𝑛<sup>2</sup>) 𝛴<sub>1≤𝑖≤𝑛</sub>𝛴<sub>1≤𝑖≤𝑛</sub>\[𝐴<sub>𝑖𝑗</sub>𝐴<sub>𝑖𝑗</sub>\]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Distance Variance／Variation - Properties]]

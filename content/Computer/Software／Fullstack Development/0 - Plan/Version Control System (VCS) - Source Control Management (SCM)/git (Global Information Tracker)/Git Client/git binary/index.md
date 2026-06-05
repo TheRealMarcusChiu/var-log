@@ -24,8 +24,10 @@ git is a stupid content tracker
 > <strong>2. verify if git was installed</strong>
 > <span style="white-space: pre-wrap"><code>  which git</code><br><code>  git --version</code></span>
 # Subpages - Configurations & Commands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[git - Basic Commands]]
+- [[git - checkout & reset & revert]]
+- [[git - GPG Signing Commits]]
+- [[git - How to Revert Merge Commit]]
+- [[git - How to Revert the Top n Commits]]
+- [[git - Pushing to Multiple Accounts]]
+- [[git - worktrees]]

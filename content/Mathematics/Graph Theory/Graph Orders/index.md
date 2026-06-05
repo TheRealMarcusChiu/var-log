@@ -7,8 +7,5 @@ children:
   - "[[Maximum Adjacency Order]]"
   - "[[Topological Sort／Ordering]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maximum Adjacency Order]]
+- [[Topological Sort／Ordering]]

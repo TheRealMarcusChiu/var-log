@@ -10,8 +10,4 @@ children:
 - is a [[Java - Profilers／Profiling-Tools|profiling tool]] for Java applications
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JProfiler - Remote Profiler Setup]]

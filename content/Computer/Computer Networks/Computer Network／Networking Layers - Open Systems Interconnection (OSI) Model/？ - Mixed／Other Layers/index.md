@@ -13,8 +13,9 @@ children:
 ---
 Here houses the stuff that don't fit into a single layer of the [[Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model|OSI model]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Automatic Private IP Addressing (APIPA)]]
+- [[Matter (Protocol)]]
+- [[Network Address Translation (NAT)]]
+- [[The Onion Router (TOR)]]
+- [[Thread (Protocol)]]
+- [[Virtual Private Network (VPN)]]

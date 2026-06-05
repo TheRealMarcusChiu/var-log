@@ -65,8 +65,6 @@ children:
 }
 ```
 # Countries
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Developed vs Developing - Underdeveloped]]
+- [[Israel and The Jews]]
+- [[Taiwan]]

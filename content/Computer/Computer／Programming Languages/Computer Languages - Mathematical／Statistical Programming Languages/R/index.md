@@ -21,8 +21,12 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[R - Control Statements]]
+- [[R - Data Importing／Scraping／Exporting]]
+- [[R - Data Structure]]
+- [[R - Functions]]
+- [[R - Help]]
+- [[R - Packages]]
+- [[R - Variable Assignment]]
+- [[R - Visualizations／Graphs／Plots]]
+- [[RStudio - R Studio]]

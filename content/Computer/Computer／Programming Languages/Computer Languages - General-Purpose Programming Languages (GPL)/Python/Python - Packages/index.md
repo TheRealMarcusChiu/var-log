@@ -10,8 +10,8 @@ children:
   - "[[scipy]]"
   - "[[seaborn]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[matplotlib]]
+- [[numpy]]
+- [[Python Packages - Artificial Neural Networks Packages／Frameworks]]
+- [[scipy]]
+- [[seaborn]]

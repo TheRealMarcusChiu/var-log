@@ -11,8 +11,9 @@ children:
   - "[[Java - Pass-by-Reference or Pass-by-Value]]"
   - "[[Java Virtual Machine (JVM)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Autoboxing & Unboxing]]
+- [[Java - CLASSPATH vs PATH]]
+- [[Java - JVM Garbage Collector／Collection (GC)]]
+- [[Java - Memory Space]]
+- [[Java - Pass-by-Reference or Pass-by-Value]]
+- [[Java Virtual Machine (JVM)]]

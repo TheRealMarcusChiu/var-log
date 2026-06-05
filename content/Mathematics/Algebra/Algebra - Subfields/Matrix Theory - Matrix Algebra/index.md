@@ -15,8 +15,4 @@ children: []
 # Subpages
 - [[Linear Algebra vs Matrix Algebra]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+

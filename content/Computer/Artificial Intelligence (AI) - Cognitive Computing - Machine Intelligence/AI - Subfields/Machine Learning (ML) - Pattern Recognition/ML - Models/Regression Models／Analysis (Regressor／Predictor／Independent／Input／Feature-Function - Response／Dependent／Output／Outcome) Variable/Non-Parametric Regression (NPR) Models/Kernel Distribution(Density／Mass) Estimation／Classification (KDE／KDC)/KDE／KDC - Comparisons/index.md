@@ -6,8 +6,4 @@ parent: "[[Kernel Distribution(Density／Mass) Estimation／Classification (KDE�
 children:
   - "[[Gaussian Process Regression vs Nadaraya-Watson Kernel Regression]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Gaussian Process Regression vs Nadaraya-Watson Kernel Regression]]

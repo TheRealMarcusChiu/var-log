@@ -15,8 +15,13 @@ children:
   - "[[Wiki.js]]"
   - "[[XWiki]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Blogging Platforms]]
+- [[Bookstack]]
+- [[Confluence]]
+- [[Docmost]]
+- [[GitBook]]
+- [[Logseq]]
+- [[Outline]]
+- [[Quartz]]
+- [[Wiki.js]]
+- [[XWiki]]

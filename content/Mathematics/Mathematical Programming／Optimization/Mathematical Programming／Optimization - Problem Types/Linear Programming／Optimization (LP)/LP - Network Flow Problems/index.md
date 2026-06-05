@@ -9,8 +9,6 @@ children:
   - "[[LP - Multi-Commodity Flow (MCF) Problems]]"
 ---
 ### Types of Network Flow Problems
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[LP - Max Flow Problem]]
+- [[LP - Minimum Cost Flow Problem]]
+- [[LP - Multi-Commodity Flow (MCF) Problems]]

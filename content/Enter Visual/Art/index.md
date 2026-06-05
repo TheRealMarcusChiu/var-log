@@ -9,11 +9,10 @@ children:
   - "[[Draw Random Girl]]"
   - "[[Some of My Art]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[30" by 40" Canvas]]
+- [[Art - Painting Skies]]
+- [[Draw Random Girl]]
+- [[Some of My Art]]
 
 ### Kim Jung Gi
 

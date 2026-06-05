@@ -7,8 +7,5 @@ children:
   - "[[Telugu Alphabet]]"
   - "[[Telugu Vocabulary]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Telugu Alphabet]]
+- [[Telugu Vocabulary]]

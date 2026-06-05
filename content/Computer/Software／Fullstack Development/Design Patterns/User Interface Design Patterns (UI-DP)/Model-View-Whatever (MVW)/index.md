@@ -23,8 +23,6 @@ children:
 ^excerpt
 
 # MVW Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[MVW - Comparisons]].file.folder + "/" + [[MVW - Comparisons]].file.name
-```
+- [[MVA vs MVP]]
+- [[MVP vs MVVM]]
+- [[MVVM vs MVC／Flux]]

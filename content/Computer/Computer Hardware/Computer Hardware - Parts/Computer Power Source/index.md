@@ -8,8 +8,6 @@ children:
   - "[[Power Supply Unit (PSU)]]"
   - "[[Uninterruptible Power Supply／Source (UPS)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Power Distribution Unit (PDU)]]
+- [[Power Supply Unit (PSU)]]
+- [[Uninterruptible Power Supply／Source (UPS)]]

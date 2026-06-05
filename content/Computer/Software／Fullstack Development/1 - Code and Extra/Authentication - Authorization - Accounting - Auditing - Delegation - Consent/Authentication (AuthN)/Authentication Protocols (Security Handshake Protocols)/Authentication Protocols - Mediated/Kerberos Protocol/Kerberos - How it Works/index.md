@@ -19,8 +19,4 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kerberos - Designing an Authentication System： a Dialogue in Four Scenes]]

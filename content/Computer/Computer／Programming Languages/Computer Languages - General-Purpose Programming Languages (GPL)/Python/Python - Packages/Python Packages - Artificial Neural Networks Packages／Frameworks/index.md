@@ -11,8 +11,9 @@ children:
   - "[[TensorFlow]]"
   - "[[Theano]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Fastai]]
+- [[Keras]]
+- [[Keras vs PyTorch vs TensorFlow]]
+- [[PyTorch]]
+- [[TensorFlow]]
+- [[Theano]]

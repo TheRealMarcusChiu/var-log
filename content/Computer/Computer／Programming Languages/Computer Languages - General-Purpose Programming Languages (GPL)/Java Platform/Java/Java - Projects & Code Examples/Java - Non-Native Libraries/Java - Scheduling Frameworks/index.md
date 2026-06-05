@@ -6,8 +6,4 @@ parent: "[[Java - Non-Native Libraries]]"
 children:
   - "[[Java - Quartz Scheduler]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Quartz Scheduler]]

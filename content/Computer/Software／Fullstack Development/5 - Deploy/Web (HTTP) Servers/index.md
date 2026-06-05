@@ -24,8 +24,12 @@ children:
 - [[Node.js]]
 - [[Java - Servlet API／Specification - Servlet Containers - Application Servers|Java - Servlet API/Specification - Servlet Containers - Application Servers]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Amahi]]
+> - [[AMPPS Stack]]
+> - [[Apache HTTP Server (Apache)]]
+> - [[Caddy]]
+> - [[Firebase]]
+> - [[LightHTTP]]
+> - [[Nginx Family]]
+> - [[Squid - HTTP Caching & Proxy]]
+> - [[Traefik]]

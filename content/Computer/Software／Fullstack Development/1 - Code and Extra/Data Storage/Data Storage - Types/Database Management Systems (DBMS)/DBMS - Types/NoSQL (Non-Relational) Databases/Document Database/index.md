@@ -15,8 +15,5 @@ children:
 ^excerpt
 
 # Document Database Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CouchDB]]
+- [[MongoDB]]

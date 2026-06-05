@@ -12,8 +12,10 @@ children:
   - "[[macOS - Finder Display Hidden Files]]"
   - "[[macOS - xcode]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[launchd - plist]]
+- [[macOS - Bypass Login Screen]]
+- [[macOS - Desktop Environment Customizing]]
+- [[macOS - Dock Not Restarting After killall Dock]]
+- [[macOS - Finder Display Hidden Files]]
+- [[macOS - xcode]]
+- [[System Integrity Protection (SIP)]]

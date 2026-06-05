@@ -15,8 +15,5 @@ other resources:
 - [OAuth 2.0 & OpenID Connect for Microservices](https://www.youtube.com/watch?v=BdKmZ7mPNns&ab_channel=NordicAPIs)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Open Authorization (OAuth)]]
+- [[OpenID Connect (OIDC)]]

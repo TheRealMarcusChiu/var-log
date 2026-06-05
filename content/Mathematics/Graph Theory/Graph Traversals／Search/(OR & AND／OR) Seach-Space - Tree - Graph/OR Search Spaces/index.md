@@ -14,8 +14,7 @@ children:
 - OR Graphs
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Breadth First Search (BFS)]]
+- [[Depth First Search (DFS)]]
+- [[Iterative Deepening Search (IDS) - Iterative Deepening Depth First Search (IDDFS)]]
+- [[Minimax - Alpha-Beta Pruning]]

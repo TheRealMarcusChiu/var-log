@@ -56,11 +56,7 @@ TODO
 # Other
 - [[General Linear Models vs Generalized Linear Models]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Generalized Additive Models (GAM)]]
 
 # Resources
 - Part 1 - [https://towardsdatascience.com/generalized-linear-models-a-rigorous-mathematical-formulation-58ac2ec7d9ea](https://towardsdatascience.com/generalized-linear-models-a-rigorous-mathematical-formulation-58ac2ec7d9ea)

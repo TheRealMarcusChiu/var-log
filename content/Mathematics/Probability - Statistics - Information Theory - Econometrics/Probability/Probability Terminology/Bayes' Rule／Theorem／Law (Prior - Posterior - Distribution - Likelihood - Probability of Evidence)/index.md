@@ -121,8 +121,8 @@ thus:
 
 ![](https://www.youtube.com/watch?v=mLxDzAsIg7I&list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG&index=21)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bayes Factor - Likelihood Ratio]]
+- [[Conjugate Prior]]
+- [[Inverse Problem & Bayes' Theorem]]
+- [[Naive Bayes Model - Bayes Model]]
+- [[What is Bayes' Theorem]]

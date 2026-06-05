@@ -130,11 +130,7 @@ children:
 }
 ```
 # Data Language - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Data Language - Comparisons]].file.folder + "/" + [[Data Language - Comparisons]].file.name
-```
+- [[JSON vs BSON]]
 
 # Data Library - Types
 

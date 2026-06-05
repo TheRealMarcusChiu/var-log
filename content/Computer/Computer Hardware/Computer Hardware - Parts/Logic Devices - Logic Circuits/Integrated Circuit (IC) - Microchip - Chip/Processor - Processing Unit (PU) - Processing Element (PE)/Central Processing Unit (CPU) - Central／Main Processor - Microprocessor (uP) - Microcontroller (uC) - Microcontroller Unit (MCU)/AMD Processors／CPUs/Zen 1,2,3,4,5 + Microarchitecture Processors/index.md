@@ -64,11 +64,10 @@ Other:
 - The Zen 3 Plus-based 6000 series is again laptop-only
 
 # Zen - Athlon, Pro, Embedded, Threadripper, EPYC, and FX-Series Processors
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AMD Athlon]]
+- [[AMD EPYC Processors]]
+- [[Ryzen]]
+- [[Zen Ryzen Threadripper (PRO)]]
 
 > [!expand-ui]- AMD Pro processors
 > AMD Pro is actually an umbrella brand for several series of AMD processors meant for the enterprise market. Ryzen, Threadripper, and Athlon all have their own Pro series offerings. AMD promises a focus on security with these processors. Security features include AMD Memory Guard for real-time encryption of system memory and AMD Shadow Stack hardware-level protection against control-flow attacks. There are also more implementations from OEMs and some OS-level features in Windows 10. You also get enterprise-grade support.

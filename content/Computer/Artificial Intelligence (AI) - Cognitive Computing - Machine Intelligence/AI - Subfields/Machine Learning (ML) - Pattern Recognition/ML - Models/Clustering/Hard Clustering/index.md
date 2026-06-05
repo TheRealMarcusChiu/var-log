@@ -9,8 +9,5 @@ children:
 ---
 <strong>Hard Clustering</strong> is a type of [[Clustering|clustering]]
 # Hard Clustering - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hierarchical Clustering]]
+- [[k-Means Clustering]]

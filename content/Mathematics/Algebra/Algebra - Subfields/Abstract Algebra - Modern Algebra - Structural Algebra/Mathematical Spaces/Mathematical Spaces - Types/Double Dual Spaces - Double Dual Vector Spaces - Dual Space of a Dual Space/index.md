@@ -18,11 +18,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Double Dual Space - Intuition]]
 
 # Resources
 - [Dr Peyam - Double Dual](https://www.youtube.com/watch?v=3ntR99gyKnQ&list=PLJb1qAQIrmmCs0fJDQnXgeuyFR8iQDwLV&index=6)

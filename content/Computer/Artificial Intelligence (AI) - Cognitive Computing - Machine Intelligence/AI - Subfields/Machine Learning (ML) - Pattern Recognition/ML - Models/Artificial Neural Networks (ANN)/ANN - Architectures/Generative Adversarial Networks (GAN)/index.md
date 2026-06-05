@@ -20,8 +20,5 @@ children:
 # GAN - Subpages
 - [[GAN vs VAE vs Flow-Based Model vs Diffusion Model]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Conditional GANs]]
+> - [[CycleGANs]]

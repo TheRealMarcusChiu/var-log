@@ -17,8 +17,7 @@ children:
 - [https://www.baeldung.com/spring-vs-spring-boot](https://www.baeldung.com/spring-vs-spring-boot)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Boot - Actuator (Production-Ready Features)]]
+- [[Java - Spring Boot - Logging／Log]]
+- [[Java - Spring Boot - Spring Boot Devtools]]
+- [[Java - Spring Boot - SpringBoot JAR to WAR & Deploying on Tomcat]]

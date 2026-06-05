@@ -11,8 +11,9 @@ children:
   - "[[OpenCode]]"
   - "[[Ralph Wiggum (AI)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Claude Code]]
+- [[GitHub Copilot CLI]]
+- [[Kimi Code]]
+- [[OpenAI Codex CLI]]
+- [[OpenCode]]
+- [[Ralph Wiggum (AI)]]

@@ -9,10 +9,7 @@ children:
 ---
 <strong>Dynamic Host Configuration Protocol (DHCP)</strong> provides static and dynamic address allocation that can be manual or automatic. This is the protocol that delivers to your computer its IP address, DNS servers, gateway IP address, and subnet mask
 ### Implementations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[DHCP Client]]
+- [[DHCP Server]]
 ### DHCP Format
 ![[Dynamic Host Configuration Protocol (DHCP)/1.png|350]]

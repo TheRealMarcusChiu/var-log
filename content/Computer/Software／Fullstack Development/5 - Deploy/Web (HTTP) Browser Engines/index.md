@@ -16,8 +16,7 @@ children:
 ^excerpt
 
 # Browser Engines
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Blink (Browser Engine)]]
+- [[KHTML (Browser Engine)]]
+- [[Servo (Browser Engine)]]
+- [[WebKit (Browser Engine)]]

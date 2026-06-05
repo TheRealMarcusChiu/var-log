@@ -86,11 +86,11 @@ For example
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Differentiable／Differential Manifold]]
+- [[Intrinsic Dimension／Dimensionality - Embedding Dimension／Dimensionality]]
+- [[Manifold Hypothesis]]
+- [[Riemannian Manifolds - Riemannian Spaces]]
+- [[Tangent Spaces - Tangent Vectors]]
 
 # Resources
 - [The Bright Side of Mathematics - Lecture Series](https://www.youtube.com/playlist?list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1)

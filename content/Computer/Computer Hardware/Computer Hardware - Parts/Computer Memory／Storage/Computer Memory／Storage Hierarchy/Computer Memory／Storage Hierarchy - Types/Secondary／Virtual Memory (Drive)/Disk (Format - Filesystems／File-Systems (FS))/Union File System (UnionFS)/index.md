@@ -12,8 +12,4 @@ When mounting branches, the priority of one branch over the other is specified. 
 
 The different branches may be either <em>read-only</em> or <em>read-write</em> file systems, so that writes to the virtual, merged copy are directed to a specific real file system. This allows a file system to appear as writable, but without actually allowing writes to change the file system, also known as [copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write). This may be desirable when the media is physically read-only, such as in the case of Live CDs.
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[UnionFS - Copy-on-Write (CoW)]]

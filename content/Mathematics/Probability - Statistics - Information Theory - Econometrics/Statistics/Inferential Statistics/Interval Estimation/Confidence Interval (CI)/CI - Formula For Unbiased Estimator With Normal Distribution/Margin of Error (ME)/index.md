@@ -24,8 +24,6 @@ where:
 - 𝑆𝑡𝑑(𝜃ˆ) - [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|standard deviation]] of the [[Statistics - Terminology|statistic]]'s [[Sampling Distribution - Finite-Sample Distribution|sample distribution]] (i.e. [[Standard Error (SE) - Estimated Standard Error (SEˆ)|standard error]])
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Confidence Multipliers - Critical Values]]
+- [[ME - Proportion]]
+- [[Significance Level (𝛼) - Confidence Level (1 - 𝛼) Coverage Probability]]

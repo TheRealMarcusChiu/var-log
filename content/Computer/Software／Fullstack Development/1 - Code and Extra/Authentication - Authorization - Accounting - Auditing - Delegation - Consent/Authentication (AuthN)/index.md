@@ -14,8 +14,7 @@ children:
 - [[Authentication Protocols (Security Handshake Protocols)|authentication protocols]] enforce authenticity
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Authentication Attacks]]
+- [[Authentication Factor／Method／Mechanism]]
+- [[Authentication Frameworks]]
+- [[Authentication Protocols (Security Handshake Protocols)]]

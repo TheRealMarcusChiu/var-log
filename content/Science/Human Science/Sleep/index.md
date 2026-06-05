@@ -10,10 +10,8 @@ children:
 ---
 “You know you're in love when you can't fall asleep because reality is finally better than your dreams.”
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Fatal Familial Insomnia (FFM)]]
+- [[Sleep - Waste Clearance]]
+- [[Stages of Sleep]]
 
 - [The Brain Literally Starts Eating Itself When It Doesn't Get Enough Sleep](https://www.sciencealert.com/the-brain-starts-eating-itself-when-it-doesn-t-get-enough-sleep)

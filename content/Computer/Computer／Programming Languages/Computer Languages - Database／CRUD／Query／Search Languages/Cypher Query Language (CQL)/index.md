@@ -12,11 +12,9 @@ children:
 - like [[Structured Query Language (SQL)]] but for querying [[Graph／Network Database|graph databases]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CQL - Data Definition Language (DDL)]]
+- [[CQL - Data Manipulation Language (DML)]]
+- [[Understanding Non-Existent Properties & Null Values]]
 
 # Resources
 - [https://neo4j.com/docs/cypher-manual/current/](https://neo4j.com/docs/cypher-manual/current/)

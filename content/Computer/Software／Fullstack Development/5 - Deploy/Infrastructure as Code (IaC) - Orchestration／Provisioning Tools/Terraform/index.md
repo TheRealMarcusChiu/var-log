@@ -40,11 +40,8 @@ terraform plan
 terraform apply
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Terraform - Kubernetes - Typhoon]]
+- [[Terraform - Proxmox]]
 
 # Terraform - Resources
 - [https://www.terraform.io/intro/index.html](https://www.terraform.io/intro/index.html)

@@ -58,8 +58,8 @@ in depth overview, but code not up to date: [https://hpbn.co/webrtc/](https://h
 - [https://webrtc.github.io/samples/](https://webrtc.github.io/samples/) & [https://github.com/webrtc/samples](https://github.com/webrtc/samples)
 - testing WebRTC: [https://test.webrtc.org/](https://test.webrtc.org/)
 - [https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/](https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/)
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ICE Framework - STUN Server - TURN Server - Session Description Protocol (SDP) - Signaling]]
+- [[WebRTC - Implementation 0 (You as Signaling Server) - 1 Browser Tabs]]
+- [[WebRTC - Implementation 0 (You as Signaling Server) - 2 Browser Tabs (v1 - on same machine)]]
+- [[WebRTC - Implementation 0 (You as Signaling Server) - 2 Browser Tabs (v2 - on diff machines)]]
+- [[WebRTC - Implementation 1 (Socket.IO as Signaling Server)]]

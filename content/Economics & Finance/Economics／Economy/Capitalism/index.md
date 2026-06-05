@@ -14,10 +14,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cost of Goods Sold (COGS) - Operating Expenses (OPEX)]]
+- [[Net Profit Margin - Operating Profit Margin - Gross Profit Margin]]
 
 ![[Capitalism/capitalism.jpeg|500]]

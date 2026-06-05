@@ -12,11 +12,7 @@ children:
 # Pure MVC
 ![[Model-View-Controller (MVC)/pure-mvc.png]]
 # MVC Derivations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Flux]]
 
 - [[Redux]]
 - MVC<sub>1</sub>- TODO - [http://www.differencebetween.net/technology/software-technology/difference-between-mvc1-and-mvc2/](http://www.differencebetween.net/technology/software-technology/difference-between-mvc1-and-mvc2/)

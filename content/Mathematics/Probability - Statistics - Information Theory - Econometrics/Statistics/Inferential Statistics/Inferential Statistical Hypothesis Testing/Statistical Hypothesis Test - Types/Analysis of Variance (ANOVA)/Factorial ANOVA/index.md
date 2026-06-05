@@ -10,8 +10,6 @@ children:
 ---
 A <strong>Factorial ANOVA</strong> is an [[Analysis of Variance (ANOVA)|Analysis of Variance test]] with more than one independent variable, or factor
 ### Factorial ANOVA - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Factorial ANOVA - Two Dependent Factors]]
+- [[Factorial ANOVA - Two Independent Factors]]
+- [[Factorial ANOVA - Two Mixed Factors]]

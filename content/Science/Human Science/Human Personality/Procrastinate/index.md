@@ -18,8 +18,4 @@ people tend to procrastinate less when:
 - the task is broken up into small chunks, they feel like they've accomplished something every time they turn in one of those chunks
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Procrastination - Relation to How One Thinks of Future Self]]

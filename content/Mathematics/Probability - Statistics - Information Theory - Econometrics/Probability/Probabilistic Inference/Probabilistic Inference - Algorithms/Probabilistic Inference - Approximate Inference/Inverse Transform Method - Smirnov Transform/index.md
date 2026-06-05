@@ -47,11 +47,7 @@ Then 𝑋 can be obtained from a generated [[Uniform Distribution|Standard Unif
 
 # Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Inverse Transform Method - Exponential Distribution]]
 # Resources
 
 ![](https://www.youtube.com/watch?v=irheiVXJRm8&list=PL56AB5BB89EE1866A&index=8)

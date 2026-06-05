@@ -18,8 +18,5 @@ children:
 - [[Proxmox - Wake on LAN (WoL) - Host Machine]]
 - [[Proxmox - Wake on LAN (WoL) - Guest Machine (VM or LXC)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Wake on LAN (WoL) - Ubuntu Setup]]
+> - [[wakeonlan (Terminal Command)]]

@@ -35,8 +35,8 @@ Furthermore, applications provided by desktop environments tend to integrate bet
 }
 ```
 # DE - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Display Server - Windowing Systems - Window Systems]]
+- [[Graphical Desktop Environments]]
+- [[Window Manager vs Desktop Environment]]
+- [[Window Manager vs Display Server ／ Windowing System]]
+- [[Window Managers (WM)]]

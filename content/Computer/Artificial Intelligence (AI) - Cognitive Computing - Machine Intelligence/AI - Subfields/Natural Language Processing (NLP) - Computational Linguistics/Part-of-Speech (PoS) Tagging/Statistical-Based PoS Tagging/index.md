@@ -10,8 +10,4 @@ children:
 - is a type of [[Part-of-Speech (PoS) Tagging]] method that utilizes probability and statistics
 
 ### Methods
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Statistical-Based PoS Tagging - Using Hidden Markov Model (HMM)]]

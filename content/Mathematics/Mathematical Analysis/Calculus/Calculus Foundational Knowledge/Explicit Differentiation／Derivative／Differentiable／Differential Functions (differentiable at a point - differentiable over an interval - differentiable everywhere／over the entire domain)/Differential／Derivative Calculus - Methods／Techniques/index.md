@@ -9,8 +9,7 @@ children:
   - "[[Product Rule - Quotient Rule]]"
   - "[[Sum Rule]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chain Rule (Calculus) - Multivariable Chain Rule]]
+- [[Power Rule]]
+- [[Product Rule - Quotient Rule]]
+- [[Sum Rule]]

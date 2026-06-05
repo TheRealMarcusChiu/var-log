@@ -10,8 +10,8 @@ children:
   - "[[Java - Spring - Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry]]"
   - "[[Java - Spring - Stream Download File Large Amount of Data From Database]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Feature Toggles／Flags Implementations]]
+- [[Java - Spring - JPA @Transient vs Spring @Transient vs transient Keyword]]
+- [[Java - Spring - Running Logic on Startup and／or Exit]]
+- [[Java - Spring - Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry]]
+- [[Java - Spring - Stream Download File Large Amount of Data From Database]]

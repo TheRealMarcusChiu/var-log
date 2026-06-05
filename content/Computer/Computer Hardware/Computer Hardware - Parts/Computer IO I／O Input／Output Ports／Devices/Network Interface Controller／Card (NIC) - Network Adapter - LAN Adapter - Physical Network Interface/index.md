@@ -15,8 +15,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Mellanox ConnectX Series]]
+- [[NIC Modes (Normal／Promiscuous／Monitor Mode)]]
+- [[Wireless Network Interface Controller (WNIC) - Wireless Adapters]]

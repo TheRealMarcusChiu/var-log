@@ -6,8 +6,4 @@ parent: "[[Smart Home Automation - Devices]]"
 children:
   - "[[THIRDREALITY Smart Vibration Sensor]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[THIRDREALITY Smart Vibration Sensor]]

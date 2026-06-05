@@ -31,11 +31,9 @@ Claude rereads the code file when needed
 
 Claude Code is like "<em>A very fast engineer who can only have 200k tokens open on their desk, but can walk back to the bookshelf unlimited times</em>"
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Claude Code - Features／Extensions (CLAUDE.md Skills MCP Hooks Subagents Plugins & Marketplace)]]
+- [[Claude Code - Point to Ollama]]
+- [[Claude Code - Sessions]]
 
 # Resources
 - [https://code.claude.com/docs](https://code.claude.com/docs)

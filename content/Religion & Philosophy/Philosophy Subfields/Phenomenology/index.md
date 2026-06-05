@@ -19,8 +19,4 @@ In its most basic form, phenomenology attempts to create conditions for the obj
 7. <strong>[Realistic Phenomenology](https://en.wikipedia.org/wiki/Realistic_phenomenology)</strong> (also realist phenomenology elsewhere) studies the structure of consciousness and intentionality as "it occurs in a real world that is largely external to consciousness and not somehow brought into being by consciousness."
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Consciousness]]

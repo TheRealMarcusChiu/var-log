@@ -91,8 +91,7 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Davidsonian Logic Forms]]
+- [[Logic Forms + Semantic Relations]]
+- [[Quantifiers (Universal Quantifier - For All - Existential Quantifier - There Exists)]]
+- [[Selective Linear Definite Clause Resolution (SLD Resolution)]]

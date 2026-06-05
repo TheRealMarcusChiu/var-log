@@ -7,8 +7,5 @@ children:
   - "[[Creating Scripts]]"
   - "[[shc - Obfuscating Scripts]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Creating Scripts]]
+- [[shc - Obfuscating Scripts]]

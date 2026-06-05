@@ -20,8 +20,10 @@ children:
 ^excerpt
 
 # Formats
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bitmap (BMP)]]
+- [[Graphics Interchange Format (GIF)]]
+- [[High Efficiency Image Format (HEIF) - High Efficiency Image Container (HEIC)]]
+- [[Joint Photographic Experts Group (JPG／JPEG／JFIF)]]
+- [[Portable Network Graphics (PNG)]]
+- [[Tagged Image File Format (TIFF／TIF)]]
+- [[WebP]]

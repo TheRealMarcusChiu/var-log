@@ -18,8 +18,5 @@ children:
 # Subpages
 - [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|Standard Deviation (Root Mean Square Deviation)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Mean Absolute Deviation]]
+> - [[Mean Absolute Deviation vs. Root Mean Square Deviation (Standard Deviation)]]

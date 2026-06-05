@@ -15,8 +15,5 @@ children:
 - <strong>proto-language</strong> - proto- meaning first. an idea that all existing languages come from a common "proto-language"
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Alphabet Tree]]
+- [[Language Tree - Nostratic]]

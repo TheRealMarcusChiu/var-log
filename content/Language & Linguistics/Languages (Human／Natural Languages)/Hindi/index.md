@@ -9,8 +9,5 @@ children:
 ---
 tutorial: [https://www.learning-hindi.com/](https://www.learning-hindi.com/)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hindi Alphabet (Devanagari Script)]]
+- [[Hindi Grammar]]

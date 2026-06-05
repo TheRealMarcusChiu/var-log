@@ -6,8 +6,4 @@ parent: "[[Mathematical Formulas]]"
 children:
   - "[[Area of a Circle]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Area of a Circle]]

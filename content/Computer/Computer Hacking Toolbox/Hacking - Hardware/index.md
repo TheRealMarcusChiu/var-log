@@ -14,8 +14,4 @@ children:
 - Hunter Cat - bodyguard for your credit card
 - Ubertooth One - bluetooth
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[O.MG Elite Cable]]

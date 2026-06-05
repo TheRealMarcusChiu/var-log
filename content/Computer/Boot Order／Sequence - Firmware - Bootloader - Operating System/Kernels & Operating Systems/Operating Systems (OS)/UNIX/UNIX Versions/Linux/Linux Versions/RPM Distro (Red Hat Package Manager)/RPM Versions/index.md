@@ -11,8 +11,9 @@ children:
   - "[[Sailfish OS]]"
   - "[[openSUS (formerly SUSE Linux and SuSE Linux Professional)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Amazon Linux]]
+- [[CentOS]]
+- [[Fedora]]
+- [[openSUS (formerly SUSE Linux and SuSE Linux Professional)]]
+- [[Red Hat Enterprise Linux (RHEL)]]
+- [[Sailfish OS]]

@@ -86,11 +86,10 @@ see how this is related to [[MLE - Relation to (Cross Entropy & Relative Entropy
 - [[MLE vs MAP]]
 - [[LR - Methods Estimating Unknown Coefficients - MLE|Solving Linear Regression With MLE]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Likelihood Function - Log-Likelihood Function - Score Function]]
+> - [[MLE - Asymptotic Distribution of the MLE]]
+> - [[MLE - Computing MLE of Specific Distributions]]
+> - [[MLE - Relation to (Cross Entropy & Relative Entropy)]]
 
 # Resources
 

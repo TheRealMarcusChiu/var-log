@@ -6,8 +6,4 @@ parent: "[[Human Intelligence／Cognition]]"
 children:
   - "[[Mini-Mental State Examination (MMSE)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Mini-Mental State Examination (MMSE)]]

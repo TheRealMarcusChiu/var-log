@@ -30,8 +30,5 @@ A key point is that decentralization has no central point of control
 - <strong>peer-to-peer</strong> or <strong>peering systems</strong> - systems in which a set of peers are equally privileged, equipotent participants in collaborative goals. (this is about equipotency)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CAP Theorem (Consistency - Availability - Partition Tolerance)]]
+- [[Distributed - Algorithms／Computing／Programming／Systems]]

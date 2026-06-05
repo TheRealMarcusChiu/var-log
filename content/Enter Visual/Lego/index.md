@@ -8,8 +8,6 @@ children:
   - "[[Lego Building Techniques (Design Patterns)]]"
   - "[[Lego Builds]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Lego - Star Wars - Droid]]
+- [[Lego Building Techniques (Design Patterns)]]
+- [[Lego Builds]]

@@ -17,11 +17,11 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Intel N100 Processor]]
+- [[Intel Quick Sync]]
+- [[Intel UHD 770]]
+- [[Intel® 8086 Processor - iAPX 86]]
+- [[Intel® Processors／CPUs Brands]]
 
 - [[CPU Sockets - Land／Pin Grid Array (LGA／PGA／ZIF／BGA)|CPU Sockets - Land/Pin Grid Array (LGA/PGA/ZIF/BGA)]]
 

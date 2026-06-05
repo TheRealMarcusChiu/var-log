@@ -311,8 +311,5 @@ Given a <strong>conditional statement</strong> "if 𝑃, then 𝑄", we can 
 <strong>conditional</strong> and <strong>contrapositive</strong> are tautologies
 <strong>converse</strong> and <strong>inverse</strong> are tautologies
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Proof by Contradiction]]
+- [[Proof by Contrapositive／Contraposition]]

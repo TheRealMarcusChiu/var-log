@@ -7,11 +7,7 @@ children:
   - "[[Table Join Order Matters For Performance]]"
 ---
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Table Join Order Matters For Performance]]
 
 - [SQL Outer Join Overview and Examples](https://www.sqlshack.com/sql-outer-join-overview-and-examples/)
 

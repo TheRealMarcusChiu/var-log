@@ -6,8 +6,4 @@ parent: "[[Clustering]]"
 children:
   - "[[K-Means Clustering vs Fuzzy C-Means Clustering]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[K-Means Clustering vs Fuzzy C-Means Clustering]]

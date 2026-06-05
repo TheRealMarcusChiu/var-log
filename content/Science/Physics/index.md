@@ -20,8 +20,7 @@ is the [natural science](https://en.wikipedia.org/wiki/Natural_science) that s
 # Modern Physics Fields
 ![[Physics/modern-physics-fields.png|555x250]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Energy]]
+- [[Force]]
+- [[Matter]]
+- [[Physics - Subfields]]

@@ -45,8 +45,4 @@ The normalization denominator <em>𝑄</em> (denoted by some authors by <em>�
 # Subpages
 - [[PGM - Gibbs Distribution]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+

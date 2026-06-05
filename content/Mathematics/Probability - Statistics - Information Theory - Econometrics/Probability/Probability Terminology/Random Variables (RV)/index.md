@@ -20,8 +20,4 @@ The value of 2 dice rolls. For example (1,4)∊𝛺, then:
 - etc
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Random Variables vs Events in Event Space]]

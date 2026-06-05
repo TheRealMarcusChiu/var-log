@@ -13,10 +13,6 @@ children:
 ^excerpt
 
 # Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Negabinary]]
 
 - [[Signed Binary Numbers (Signed Magnitude One's／Two's Complement)|Signed Binary Numbers (Signed Magnitude One's/Two's Complement)]]

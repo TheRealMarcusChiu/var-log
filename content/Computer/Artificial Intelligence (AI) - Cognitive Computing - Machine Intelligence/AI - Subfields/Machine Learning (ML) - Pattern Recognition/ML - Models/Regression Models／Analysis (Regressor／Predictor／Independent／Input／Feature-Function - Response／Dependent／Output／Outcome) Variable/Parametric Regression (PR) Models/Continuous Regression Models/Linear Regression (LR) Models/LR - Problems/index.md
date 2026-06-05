@@ -6,8 +6,4 @@ parent: "[[Linear Regression (LR) Models]]"
 children:
   - "[[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Confounding／Lurking Variables - Confounders) - (Omitted Variable Bias - Spurious Effects／Relationships)]]

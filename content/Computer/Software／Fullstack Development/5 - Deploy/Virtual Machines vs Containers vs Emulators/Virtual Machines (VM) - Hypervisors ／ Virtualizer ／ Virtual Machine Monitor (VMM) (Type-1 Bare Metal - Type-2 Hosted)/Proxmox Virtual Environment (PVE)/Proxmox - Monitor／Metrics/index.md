@@ -6,8 +6,4 @@ parent: "[[Proxmox Virtual Environment (PVE)]]"
 children:
   - "[[Proxmox - InfluxDB & Grafana]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Proxmox - InfluxDB & Grafana]]

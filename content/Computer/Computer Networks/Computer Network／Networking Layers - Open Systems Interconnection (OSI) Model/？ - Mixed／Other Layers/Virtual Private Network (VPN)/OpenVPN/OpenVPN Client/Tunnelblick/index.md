@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Tunnelblick - The Future of Tun and Tap VPNs on macOS]]
 
 # Resources
 - [www.tunnelblick.net](http://www.tunnelblick.net/)

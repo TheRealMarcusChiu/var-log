@@ -132,11 +132,7 @@ children:
 > ```
 
 ### MEMM - Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MEMM - Label Bias Problem - Causal-Competition Biases]]
 
 - [[Hidden Markov Model (HMM) vs Sequential Maximum Entropy Markov Model (MEMM)]]
 - [[Logistic Regression Model vs Sequential Maximum Entropy Markov Model (MEMM)]]

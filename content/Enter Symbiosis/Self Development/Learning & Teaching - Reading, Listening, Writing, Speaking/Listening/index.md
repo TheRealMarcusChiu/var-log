@@ -11,8 +11,5 @@ children:
 - <font style="color: rgb(128,128,128);">most people do not listen with the intent to understand; they listen with the intent to reply</font>
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Conversational Listening]]
+- [[Empathic Approach - Listening First Aid]]

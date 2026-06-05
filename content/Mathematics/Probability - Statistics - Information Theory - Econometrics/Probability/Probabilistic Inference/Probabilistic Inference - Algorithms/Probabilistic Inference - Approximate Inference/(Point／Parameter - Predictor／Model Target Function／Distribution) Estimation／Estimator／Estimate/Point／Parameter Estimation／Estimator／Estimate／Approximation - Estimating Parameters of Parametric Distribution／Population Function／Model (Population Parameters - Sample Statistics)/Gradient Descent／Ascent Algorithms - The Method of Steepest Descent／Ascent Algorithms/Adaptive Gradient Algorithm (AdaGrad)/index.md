@@ -74,11 +74,8 @@ children:
 - additionally, the unweighted accumulation of gradients in 𝐺<sub>𝑡</sub> happens from the beginning of training, so after some training steps, the learning rate could approach zero without arriving at good local optima. Therefore, even with adaptative learning rates for each parameter, AdaGrad can be sensitive to the choice of global learning rate 𝛼
 
 # Variants
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AdaDelta]]
+- [[Root Mean Square Propagation (RMSP)]]
 
 # Resources
 - [https://machinelearningmastery.com/gradient-descent-with-adagrad-from-scratch/](https://machinelearningmastery.com/gradient-descent-with-adagrad-from-scratch/)

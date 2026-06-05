@@ -11,8 +11,9 @@ children:
   - "[[Python - Installing Packages]]"
   - "[[Python - Managing Versions & Virtual Environments]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Python - Implementations]]
+- [[Python - Installation]]
+- [[Python - Installation with pyenv (Big Sur)]]
+- [[Python - Installation With Tkinter]]
+- [[Python - Installing Packages]]
+- [[Python - Managing Versions & Virtual Environments]]

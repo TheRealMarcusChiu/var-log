@@ -11,8 +11,5 @@ children:
 - <strong>decoding</strong> is the reverse process of encoding which is to extract the information from the converted format
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Character Encoding (Character Set - Encoding Scheme)]]
+- [[Computer Number Formats]]

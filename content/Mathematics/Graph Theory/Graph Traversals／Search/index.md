@@ -9,8 +9,6 @@ children:
   - "[[Tree Traversal (Depth／Breadth-First - Pre-Order, In-Order, Out-Order, Post-Order)]]"
 ---
 # Graph Traversal/Search Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(OR & AND／OR) Seach-Space - Tree - Graph]]
+- [[Monte Carlo Tree Search (MCTS)]]
+- [[Tree Traversal (Depth／Breadth-First - Pre-Order, In-Order, Out-Order, Post-Order)]]

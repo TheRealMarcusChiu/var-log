@@ -21,8 +21,10 @@ children:
 # Subpages
 - [[Learning vs Language (Disability／Disorder／Difficulty)|Learning vs Language (Disability/Disorder/Difficulty)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Cognitive-Behavioral Theory (CBT)]]
+> - [[Language Affect Colors Perceived]]
+> - [[Language as a Focus, not a Limit]]
+> - [[Linguistics - Language Acquisition]]
+> - [[Linguistics - The Brain]]
+> - [[Sapir-Whorf Hypothesis - Theory of Linguistic Relativity]]
+> - [[Universal Grammar (UG)]]

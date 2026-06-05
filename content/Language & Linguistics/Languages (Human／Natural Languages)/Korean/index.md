@@ -7,8 +7,4 @@ children:
   - "[[Korean Alphabet (Hangul - Hangeul)]]"
 ---
 ![](http://youtube.com/watch?v=0ZhOeA0RD9o)![](https://www.youtube.com/watch?v=TE4eplsFSms)
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Korean Alphabet (Hangul - Hangeul)]]

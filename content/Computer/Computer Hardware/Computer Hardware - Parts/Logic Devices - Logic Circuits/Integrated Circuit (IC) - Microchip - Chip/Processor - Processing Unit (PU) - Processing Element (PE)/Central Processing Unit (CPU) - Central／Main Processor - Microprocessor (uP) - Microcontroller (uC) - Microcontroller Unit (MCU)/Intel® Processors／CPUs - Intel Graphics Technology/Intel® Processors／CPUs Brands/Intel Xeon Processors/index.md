@@ -31,11 +31,8 @@ Intel® offers a wide range of Xeon® processors to suit various needs and budge
 - <strong>Xeon® Max</strong>:
 
 # Xeon - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Intel Xeon 2 Processors]]
+- [[Intel Xeon 6 Processors]]
 
 # Resources
 - [https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel595](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel595)

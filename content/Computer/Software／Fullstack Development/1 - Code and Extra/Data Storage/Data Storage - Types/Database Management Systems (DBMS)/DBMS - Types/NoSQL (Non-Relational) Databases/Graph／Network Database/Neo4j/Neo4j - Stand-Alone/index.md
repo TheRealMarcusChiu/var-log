@@ -7,8 +7,5 @@ children:
   - "[[Neo4j - Building Stand-Alone Server]]"
   - "[[Neo4j - Extending Stand-Alone Neo4j]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - Building Stand-Alone Server]]
+- [[Neo4j - Extending Stand-Alone Neo4j]]

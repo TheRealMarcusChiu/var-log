@@ -8,8 +8,6 @@ children:
   - "[[homebrew - brew]]"
   - "[[macports]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[fink]]
+- [[homebrew - brew]]
+- [[macports]]

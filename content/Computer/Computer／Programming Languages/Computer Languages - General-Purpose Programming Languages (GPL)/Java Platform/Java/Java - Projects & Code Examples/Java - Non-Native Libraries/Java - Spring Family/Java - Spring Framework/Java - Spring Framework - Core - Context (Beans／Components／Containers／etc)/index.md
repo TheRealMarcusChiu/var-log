@@ -9,8 +9,7 @@ children:
   - "[[Java - Spring - Context - Event／Events (ApplicationEvent - ApplicationListener - ApplicationEventPublisher)]]"
   - "[[Java - Spring - Context Annotations]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - ApplicationContext]]
+- [[Java - Spring - Context - BeanPostProcessor]]
+- [[Java - Spring - Context - Event／Events (ApplicationEvent - ApplicationListener - ApplicationEventPublisher)]]
+- [[Java - Spring - Context Annotations]]

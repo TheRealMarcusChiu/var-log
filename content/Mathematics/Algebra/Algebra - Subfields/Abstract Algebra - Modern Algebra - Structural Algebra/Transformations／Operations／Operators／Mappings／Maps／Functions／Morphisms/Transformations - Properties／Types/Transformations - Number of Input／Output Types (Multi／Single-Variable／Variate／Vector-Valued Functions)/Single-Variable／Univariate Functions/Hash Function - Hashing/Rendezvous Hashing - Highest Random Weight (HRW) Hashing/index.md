@@ -21,8 +21,5 @@ If a site 𝑆 is added or removed, only the objects mapping to 𝑆 are remappe
 
 HRW easily accommodates different capacities among sites. If site <em>𝑆<sub>𝑘</sub></em> has twice the capacity of the other sites, we simply represent <em>𝑆<sub>𝑘</sub></em> twice in the list, say, as <em>𝑆<sub>𝑘,1</sub></em> and <em>𝑆<sub>𝑘,2</sub></em>. Clearly, twice as many objects will now map to <em>𝑆<sub>𝑘</sub></em> as to the other sites.
 # HRW - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Consistent Hashing]]
+- [[Controlled Replication Under Scalable Hashing (CRUSH)]]

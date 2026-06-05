@@ -18,8 +18,6 @@ children:
 - a chip designed to run in a digital voice recorder or a high-efficiency [[Cryptocurrency - Crypto Currency|Bitcoin]] miner is an ASIC
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chip-on-Wafer-on-Substrate (CoWoS)]]
+- [[Hardware Acceleration]]
+- [[Wafer-Scale Engine (WSE) Technology]]

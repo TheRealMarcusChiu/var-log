@@ -8,8 +8,5 @@ children:
   - "[[screen (UNIX Command)]]"
 ---
 [[Window Managers (WM)|Window Manager]] for [[Terminal Application／Emulation／Emulator|Terminal Application]]:
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[screen (UNIX Command)]]
+- [[Terminal Multiplexor (TMUX)]]

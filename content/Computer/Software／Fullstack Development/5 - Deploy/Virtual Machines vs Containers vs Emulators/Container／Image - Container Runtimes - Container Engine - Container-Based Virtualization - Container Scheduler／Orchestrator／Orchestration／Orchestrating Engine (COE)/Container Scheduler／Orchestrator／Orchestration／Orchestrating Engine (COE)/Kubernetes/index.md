@@ -26,11 +26,17 @@ children:
 # Subpages
 - [[Docker Swarm vs Kubernetes]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Kubernetes - Architecture & Components]]
+> - [[Kubernetes - Custom Resource Definition (CRD)]]
+> - [[Kubernetes - Installation & Setup]]
+> - [[Kubernetes - Kompose - Translate a Docker Compose File to Kubernetes Resources]]
+> - [[Kubernetes - Manifest Files]]
+> - [[Kubernetes - Services, Load Balancing, and Networking]]
+> - [[Kubernetes - Storage]]
+> - [[Kubernetes - Workloads]]
+> - [[Kubernetes Container Network Interface (CNI)]]
+> - [[Kubernetes Container Runtime Interface (CRI)]]
+> - [[Kubernetes Container Storage Interface (CSI)]]
 
 # Resources
 - [https://kubernetes.io/](https://kubernetes.io/)

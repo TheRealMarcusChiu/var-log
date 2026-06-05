@@ -22,8 +22,6 @@ children:
 - <strong>speech act interpretation</strong> - determining whether sentence is a question or statement
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[NLP - Ambiguity]]
+- [[Word Sense Disambiguation (WSD)]]
+- [[Word Similarity／Distance]]

@@ -76,11 +76,7 @@ children:
 > > [!indent]
 > ![[Fourier Series/fourier-series-example-solution.png|220]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Complex Fourier Series]]
 
 # Resources
 - [Steve Brunton's Fourier Series](https://www.youtube.com/watch?v=MB6XGQWLV04&list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC&index=2)

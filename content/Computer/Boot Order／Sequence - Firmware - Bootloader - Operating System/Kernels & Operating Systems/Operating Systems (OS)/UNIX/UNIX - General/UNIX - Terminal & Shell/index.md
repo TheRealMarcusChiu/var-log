@@ -7,8 +7,5 @@ children:
   - "[[UNIX - Shell]]"
   - "[[UNIX - Shell Commands & Scripts]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[UNIX - Shell]]
+- [[UNIX - Shell Commands & Scripts]]

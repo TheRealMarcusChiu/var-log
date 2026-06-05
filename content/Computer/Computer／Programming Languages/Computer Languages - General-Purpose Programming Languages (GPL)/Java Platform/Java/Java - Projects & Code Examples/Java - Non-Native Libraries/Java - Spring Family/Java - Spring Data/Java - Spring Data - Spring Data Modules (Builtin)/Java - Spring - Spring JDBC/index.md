@@ -12,11 +12,7 @@ All the classes in Spring JDBC module are divided into four separate packages:
 - <strong><em>support</em></strong> — support classes for classes under <em>core</em> and <em>object</em> packages, e.g., provides the <em>SQLException</em> translation functionality
 
 # Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 
 - [[Java - Spring - Security (JDBC Authentication)]]
 

@@ -21,11 +21,10 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Konnectivity Server]]
+- [[Kubernetes API Server (kube-apiserver)]]
+- [[Kubernetes Controller Manager (kube-controller-manager)]]
+- [[Kubernetes Scheduler (kube-scheduler)]]
 
 # Control Plane - Deployment Options
 

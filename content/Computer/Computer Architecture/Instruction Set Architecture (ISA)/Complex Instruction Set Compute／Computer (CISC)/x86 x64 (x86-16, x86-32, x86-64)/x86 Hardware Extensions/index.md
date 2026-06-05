@@ -24,11 +24,18 @@ children:
 ^excerpt
 
 # x86 Extensions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[3DNow!]]
+- [[AES-NI (Advanced Encryption Standard New Instructions)]]
+- [[AMD-V (AMD Virtualization)]]
+- [[Intel Virtualization Technology (VT) - VT-x VT-i VT-d VT-c]]
+- [[MMX]]
+- [[SSE2 (Streaming SIMD Extensions 2)]]
+- [[SSE3 (Streaming SIMD Extensions 3)]]
+- [[SSE4 (Streaming SIMD Extensions 4)]]
+- [[SSE (Streaming SIMD Extensions)]]
+- [[SSSE3 (Supplemental Streaming SIMD Extensions 3)]]
+- [[x86-64 - x64 - AMD64 - Intel 64]]
+- [[x87]]
 
 - [[x87]]
 - IA-32

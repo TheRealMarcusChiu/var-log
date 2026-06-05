@@ -44,11 +44,11 @@ String jndiUrl = "jndi:ldap://ldap-server.com:386"
 new javax.naming.InitialContext().lookup(jndiUrl);
 ```
 # JNDI - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JNDI - com.sun.jndi.ldap.object.trustURLCodebase com.sun.jndi.rmi.object.trustURLCodebase]]
+- [[JNDI - Exploitation／Hack／Vulnerability／Injections]]
+- [[JNDI - Java Objects Serialization／Serialize／Serializing & Deserialization／Deserialize／Deserializing into Directory]]
+- [[JNDI - LDAP Attack Vector (Entry Poisoning)]]
+- [[JNDI - ObjectFactory and DirObjectFactory]]
 
 # JNDI - Resources
 - [https://docs.oracle.com/javase/tutorial/jndi/overview/index.html](https://docs.oracle.com/javase/tutorial/jndi/overview/index.html)

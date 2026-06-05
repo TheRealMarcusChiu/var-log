@@ -8,8 +8,6 @@ children:
   - "[[Audio Libraries／APIs]]"
   - "[[Audio Sample Rates (96kHz 48kHz 44.1kHz 96000 48000 44100)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Audio File Formats／Types]]
+- [[Audio Libraries／APIs]]
+- [[Audio Sample Rates (96kHz 48kHz 44.1kHz 96000 48000 44100)]]

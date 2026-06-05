@@ -15,8 +15,9 @@ children:
 - a statistical language model is a [[Probability Distributions|probability distribution]] over sequences of words (e.g. a language model assigns a probability 𝐏("word-1 word-2 ... word-m") to a sequence of words)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Causal Language Modeling (CLM) vs Masked Language Modeling (MLM) vs Sequence-to-Sequence (Seq2Seq)]]
+- [[Language Model - Extrinsic／Intrinsic Evaluation (Perplexity)]]
+- [[Large Language Models (LLMs)]]
+- [[Measuring Massive Multitask Language Understanding (MMLU)]]
+- [[N-Grams (Monograms／Unigrams - Bigrams)]]
+- [[Prompt Engineering (PE)]]

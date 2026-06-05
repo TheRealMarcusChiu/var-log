@@ -11,11 +11,8 @@ children:
 - is a framework built on top of Spring Boot and [[Java - Spring Integration|Spring Integration]] that helps in creating event-driven or message-driven microservices
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Spring Cloud Stream (Functional Programming Implementation)]]
+- [[Java - Spring - Spring Cloud Stream (RabbitMQ)]]
 
 # Resources
 - [https://www.baeldung.com/spring-cloud-stream](https://www.baeldung.com/spring-cloud-stream)

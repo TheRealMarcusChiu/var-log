@@ -10,8 +10,4 @@ children:
 # Soft Clustering - Types
 - [[EM - Clustering]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Fuzzy C-Means (FCM) Clustering]]

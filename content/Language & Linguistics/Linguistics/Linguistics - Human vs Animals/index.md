@@ -19,8 +19,4 @@ children:
 	- <strong>displacement</strong> - the ability of a language to describe things that are not present
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Brain Communication Study - Human vs Monkeys]]

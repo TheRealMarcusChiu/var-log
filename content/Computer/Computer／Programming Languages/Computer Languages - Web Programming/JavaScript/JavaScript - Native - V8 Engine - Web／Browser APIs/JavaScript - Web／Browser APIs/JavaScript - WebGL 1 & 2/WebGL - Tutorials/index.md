@@ -6,8 +6,4 @@ parent: "[[JavaScript - WebGL 1 & 2]]"
 children:
   - "[[WebGL - Tutorial 1 - Simple]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[WebGL - Tutorial 1 - Simple]]

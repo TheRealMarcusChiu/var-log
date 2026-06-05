@@ -10,11 +10,11 @@ children:
   - "[[Mediterranean Diet]]"
   - "[[My Diet]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bryan Johnson's Diet]]
+- [[Fasting]]
+- [[Ketogenic Diet]]
+- [[Mediterranean Diet]]
+- [[My Diet]]
 
 ###### Power Foods for the Brain | Neal Barnard | TEDxBismarck
 

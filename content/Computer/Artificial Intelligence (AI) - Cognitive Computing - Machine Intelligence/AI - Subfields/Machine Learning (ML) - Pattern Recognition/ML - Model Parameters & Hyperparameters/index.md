@@ -14,8 +14,4 @@ children:
 	- [[Objective Function／Criterion - Cost／Loss／Error Function - Expected Cost／Loss／Error|loss function]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ML - Model Parameters & Hyperparameters (Optimization Strategies)]]

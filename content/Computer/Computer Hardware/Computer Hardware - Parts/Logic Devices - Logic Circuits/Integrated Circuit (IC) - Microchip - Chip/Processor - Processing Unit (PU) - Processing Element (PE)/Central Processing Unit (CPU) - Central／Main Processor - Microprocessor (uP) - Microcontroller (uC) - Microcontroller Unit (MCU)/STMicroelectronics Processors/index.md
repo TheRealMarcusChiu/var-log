@@ -10,11 +10,7 @@ children:
 - stuff
 
 # STM - Processors
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[STM8 Microprocessors]]
 
 # Where to Buy
 - [https://www.newark.com/search?st=stm8s&gs=true](https://www.newark.com/search?st=stm8s&gs=true)

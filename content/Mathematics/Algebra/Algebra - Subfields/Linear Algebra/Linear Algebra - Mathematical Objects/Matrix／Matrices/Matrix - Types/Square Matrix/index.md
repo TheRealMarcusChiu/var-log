@@ -14,10 +14,14 @@ children:
   - "[[Symmetric Matrix]]"
   - "[[Unitary Matrix - Orthogonal／Orthonormal Matrix]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Diagonal Matrix]]
+- [[Distance Matrix]]
+- [[Hermitian Matrix]]
+- [[Normal Matrix]]
+- [[Rotation-Scaling Matrix]]
+- [[Similar Matrix]]
+- [[Skew Symmetric Matrix - Antisymmetric Matrix]]
+- [[Symmetric Matrix]]
+- [[Unitary Matrix - Orthogonal／Orthonormal Matrix]]
 
 - [[Inverse Matrix - Invertible／Non-Singular Matrix - 2-Sided Inverse Matrix - Invertible Matrix Theorem|Inverse Matrix - Invertible/Non-Singular Matrix - 2-Sided Inverse Matrix - Invertible Matrix Theorem]]

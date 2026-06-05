@@ -22,8 +22,5 @@ an 𝑛✕𝑛 symmetric matrix 𝐴 has the following properties:
 - 𝐴 is [[Orthogonal Eigen／Spectral Decomposition／Factorization - Diagonalization／Diagonalizing／Diagonalize - Orthogonally Diagonalizable／Non-Defective Matrix|orthogonally diagonalizable]] (see proof here [[Spectral Theorem - 𝐴 is Orthogonally Diagonalizable ⟺ 𝐴 is Symmetric]])
 
 # Symmetric Matrix - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Positive／Negative Definite／Semi-Definite Indefinite Matrix]]
+- [[Projection／Idempotent Matrix (Projections onto Subspaces)]]

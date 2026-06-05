@@ -16,11 +16,7 @@ children:
 # Introduction
 ![](https://www.youtube.com/watch?v=sovAIX4doOE&ab_channel=HusseinNasser)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cookie - SameSite]]
 
 > [!expand-ui]- How are Cookies Passed
 > ###### <font style="color: rgb(0,0,255);"><font style="color: rgb(34,34,34);">First Client Request</font></font>

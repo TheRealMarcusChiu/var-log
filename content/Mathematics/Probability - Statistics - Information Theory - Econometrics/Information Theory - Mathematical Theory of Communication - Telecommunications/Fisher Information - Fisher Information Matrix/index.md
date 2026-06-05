@@ -61,11 +61,10 @@ Fisher Information 𝐼(𝜃) is the [[Variance - Standard Deviation (Root Mean
 }
 ```
 # Fisher Information - Example Computations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Fisher Information - Exponential Distribution]]
+- [[Fisher Information - Poisson Distribution]]
+- [[Fisher Information Matrix - Asymptotic Distribution of the Maximum Likelihood Estimate (MLE)]]
+- [[Fisher Information Matrix - Normal Distribution]]
 
 # Fisher Information - Resources
 - [http://fisher-information.marcuschiu.com/](http://fisher-information.marcuschiu.com/)

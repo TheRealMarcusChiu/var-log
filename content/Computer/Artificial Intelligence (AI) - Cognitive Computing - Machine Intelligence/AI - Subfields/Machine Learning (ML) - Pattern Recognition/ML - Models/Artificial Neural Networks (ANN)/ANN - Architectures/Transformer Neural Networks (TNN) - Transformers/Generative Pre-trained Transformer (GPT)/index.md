@@ -16,8 +16,5 @@ children:
 ^excerpt
 
 # Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[GPT-1／2／3／4／5]]
+- [[nanoGPT]]

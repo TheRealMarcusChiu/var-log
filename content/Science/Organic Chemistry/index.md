@@ -9,8 +9,5 @@ children:
 ---
 <strong>Organic Chemistry</strong> is a sub-discipline of [[Chemistry|chemistry]] that studies the structure, properties and reactions of organic compounds, which contain carbon in [[Chemical Bonds|covalent bonding]]
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Biological Molecules & Compounds]]
+- [[Functional Groups]]

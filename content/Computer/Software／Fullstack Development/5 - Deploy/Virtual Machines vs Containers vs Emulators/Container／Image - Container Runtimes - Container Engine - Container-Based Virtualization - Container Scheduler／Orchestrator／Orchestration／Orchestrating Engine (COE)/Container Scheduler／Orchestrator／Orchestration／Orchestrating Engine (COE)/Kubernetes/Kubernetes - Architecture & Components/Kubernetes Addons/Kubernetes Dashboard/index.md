@@ -50,11 +50,8 @@ Dashboard will be available at:
   https://localhost:8443
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kubernetes Dashboard - Creating Login Bearer Token]]
+- [[Kubernetes Dashboard - Expose via LoadBalancer]]
 
 # Resources
 - [https://github.com/kubernetes/dashboard](https://github.com/kubernetes/dashboard)

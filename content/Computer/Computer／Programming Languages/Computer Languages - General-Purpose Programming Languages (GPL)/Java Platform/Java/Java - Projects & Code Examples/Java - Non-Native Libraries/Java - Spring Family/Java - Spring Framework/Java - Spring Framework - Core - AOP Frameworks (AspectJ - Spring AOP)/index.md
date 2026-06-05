@@ -58,11 +58,7 @@ children:
 - [https://www.baeldung.com/spring-aop-annotation](https://www.baeldung.com/spring-aop-annotation)
 - [https://www.baeldung.com/aspectj](https://www.baeldung.com/aspectj)
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Java - Spring - AOP - Determine whether method was invoked by @Scheduled]]
 
 # Basics
 - <strong><em>join-point</em></strong> - is a part of the code (method, constructor, or field assignment) we want to monitor

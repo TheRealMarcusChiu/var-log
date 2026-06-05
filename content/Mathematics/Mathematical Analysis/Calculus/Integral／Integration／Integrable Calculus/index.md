@@ -15,8 +15,6 @@ children:
 ````
 ^excerpt
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Integral Examples]]
+- [[Integral Terminology]]
+- [[Integral／Integration Methods／Techniques]]

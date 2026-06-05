@@ -18,8 +18,16 @@ children:
   - "[[Universal Windows Platform (UWP)]]"
   - "[[Yew]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Apache Cordova]]
+- [[Dioxus Framework]]
+- [[Electrobun]]
+- [[Electron (Framework)]]
+- [[Expo]]
+- [[Flutter]]
+- [[Ionic Framework]]
+- [[Jetpack Compose]]
+- [[LabVIEW (Laboratory Virtual Instrument Engineering Workbench)]]
+- [[React Native]]
+- [[SwiftUI]]
+- [[Universal Windows Platform (UWP)]]
+- [[Yew]]

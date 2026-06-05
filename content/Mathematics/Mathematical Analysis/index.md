@@ -20,11 +20,12 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Calculus]]
+- [[Complex Analysis - Theory of Functions of a Complex Variable]]
+- [[Functional Analysis]]
+- [[Harmonic Analysis]]
+- [[Real Analysis - Theory of Functions of a Real Variable - "Theoretical Calculus"]]
+- [[Scalar Analysis]]
 
 # Resources
 - [https://en.wikipedia.org/wiki/Mathematical_analysis](https://en.wikipedia.org/wiki/Mathematical_analysis)

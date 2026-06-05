@@ -14,8 +14,12 @@ children:
   - "[[Mathematical Series]]"
   - "[[Newton's Method]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cauchy-Schwarz Inequality]]
+- [[Chernoff Bound]]
+- [[Circle／Pi／𝜋 Formulas／Equations]]
+- [[Distance／Similarity／Divergence Measure／Metric／Semi-Metric／Functions - Norm／Semi-Norm]]
+- [[Exponentiation by Squaring]]
+- [[Jensen's Inequality]]
+- [[Markov's Inequality／Theorem]]
+- [[Mathematical Series]]
+- [[Newton's Method]]

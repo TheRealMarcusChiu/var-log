@@ -24,11 +24,8 @@ children:
 ollama run gemma3
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ollama - Publicly Expose API]]
+- [[Open WebUI]]
 
 # Resources
 - [https://github.com/ollama/ollama](https://github.com/ollama/ollama)

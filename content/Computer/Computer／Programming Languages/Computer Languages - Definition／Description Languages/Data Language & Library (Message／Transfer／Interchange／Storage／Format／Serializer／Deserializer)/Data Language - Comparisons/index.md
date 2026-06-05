@@ -6,8 +6,4 @@ parent: "[[Data Language & Library (Message／Transfer／Interchange／Storage�
 children:
   - "[[JSON vs BSON]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JSON vs BSON]]

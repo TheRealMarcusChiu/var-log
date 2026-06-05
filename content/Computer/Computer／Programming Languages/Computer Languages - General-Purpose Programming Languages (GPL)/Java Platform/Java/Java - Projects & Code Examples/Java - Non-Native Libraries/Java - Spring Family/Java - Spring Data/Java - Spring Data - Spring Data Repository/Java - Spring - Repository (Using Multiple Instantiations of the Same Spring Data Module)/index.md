@@ -8,11 +8,7 @@ children:
 ---
 what are [[Java - Spring Data - Spring Data Modules (Builtin)|Spring Data Modules]]?
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Repository (Using Multiple Instantiations of the Same Spring Data Module) Neo4j]]
 
 # Resources
 - [https://www.baeldung.com/spring-data-jpa-multiple-databases](https://www.baeldung.com/spring-data-jpa-multiple-databases)

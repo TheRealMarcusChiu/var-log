@@ -249,8 +249,8 @@ A <em>vector space (𝑉,𝐹)</em> is subject to the 10 axioms (the axioms must
 {
   "rows": [
     [
-      "- [[Topological Vector Spaces (TVS) - Linear Topological Spaces|Topological Vector Spaces (TVS)]] are <em>vector spaces</em> with a defined [[Topology|topology (𝜏)]]\n- [[Dual Spaces - Algebraic Dual Spaces - Dual Vector Spaces|Algebraic Dual Space]]\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Vector Space - Types]].file.folder + \"/\" + [[Vector Space - Types]].file.name\n```",
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[Vector Space - Type Comparisons]].file.folder + \"/\" + [[Vector Space - Type Comparisons]].file.name\n```"
+      "- [[Topological Vector Spaces (TVS) - Linear Topological Spaces|Topological Vector Spaces (TVS)]] are <em>vector spaces</em> with a defined [[Topology|topology (𝜏)]]\n- [[Dual Spaces - Algebraic Dual Spaces - Dual Vector Spaces|Algebraic Dual Space]]\n- [[Complex Vector Spaces]]\n- [[Finite-Dimensional Vector Spaces]]\n- [[Infinite-Dimensional Vector Spaces]]\n- [[Real Vector Spaces]]\n- [[Vector Space of Bounded Linear Transformations - Set of Bounded Linear Transformations]]\n- [[Vector Space of Continuous Functions - Set of Continuous Functions]]\n- [[Vector Space of Continuous Linear Transformations - Set of Continuous Linear Transformations]]\n- [[Vector Space of Linear Transformations - Set of Linear Transformations]]",
+      "- [[Vector Spaces - Finite vs Infinite Dimensions]]"
     ]
   ]
 }

@@ -30,11 +30,15 @@ From there the development forks:
 - <strong>super-microprocessors</strong> - the CPU-on-a-chip is made more powerful (faster, parallel execution, fast execution of complex instructions like divide and transcendentals), a cache is added, more CPUs are combined in one chip, etc
 
 # CPU Brands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AMD Processors／CPUs]]
+- [[AMD vs Intel]]
+- [[Engineering Sample (ES) - Qualification Samples (QS)]]
+- [[Hard Microprocessor - Hardcore Microprocessor - Hard Processor]]
+- [[Intel® Processors／CPUs - Intel Graphics Technology]]
+- [[Motorola Processors]]
+- [[NEORV32 RISC-V Processor]]
+- [[Soft Microprocessor - Softcore Microprocessor - Soft Processor]]
+- [[STMicroelectronics Processors]]
 
 # Resources
 - [WikiChip](https://en.wikichip.org/wiki/WikiChip)

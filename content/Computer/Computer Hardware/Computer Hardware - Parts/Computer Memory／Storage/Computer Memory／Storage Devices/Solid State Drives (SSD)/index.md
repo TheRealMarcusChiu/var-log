@@ -30,11 +30,7 @@ When SSDs first developed, it was clear that the older [[Serial ATA (SATA) - Par
 
 ![](https://www.youtube.com/watch?v=5Mh3o886qpg)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SSD Brands]]
 
 additional details: [https://www.snia.org/forums/cmsi/knowledge/formfactors](https://www.snia.org/forums/cmsi/knowledge/formfactors)
 

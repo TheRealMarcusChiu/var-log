@@ -39,8 +39,5 @@ children:
 - to combine the result of the many possible instantiations of the cutset we need to find priors to each one
 
 # Cutset Conditioning - Variants
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Probabilistic Inference - Loop Cutset-Conditioning Algorithm]]
+- [[Probabilistic Inference - W-Cutset-Conditioning Algorithm]]

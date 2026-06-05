@@ -11,8 +11,5 @@ children:
 - is a type of [[Wireless Network Interface Controller (WNIC) - Wireless Adapters|WNIC]] that uses WiFi
 
 # WiFi Adapters
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Alfa AWUS051NH v2]]
+- [[Alfa AWUS1900／AC1900 WiFi Adapter]]

@@ -1016,10 +1016,11 @@ all inference problems can be solved via [[HMM - Inference By Enumeration & Var
 }
 ```
 # HMM - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hierarchical Hidden Markov Model (HHMM)]]
+- [[HMM - Inference - Forward-Backward Algorithm]]
+- [[HMM - Inference - Viterbi Algorithm]]
+- [[HMM - Inference By Enumeration & Variable Elimination]]
+- [[HMM - Learning - Baum-Welch Algorithm]]
+- [[HMM - Learning - Maximum Likelihood Estimation (MLE)]]
 - [[Hidden Markov Model (HMM) vs Naive Bayes Model|Naive Bayes Model vs Hidden Markov Model]]
 - [[Hidden Markov Model (HMM) vs Sequential Maximum Entropy Markov Model (MEMM)]]

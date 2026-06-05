@@ -7,8 +7,5 @@ children:
   - "[[Blessing]]"
   - "[[Praise & Worship]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Blessing]]
+- [[Praise & Worship]]

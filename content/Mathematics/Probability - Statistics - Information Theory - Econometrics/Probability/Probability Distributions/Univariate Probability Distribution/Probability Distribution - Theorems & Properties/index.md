@@ -8,8 +8,5 @@ children:
   - "[[Probability Distribution - Memoryless Property]]"
 ---
 ### Theorems & Properties of Probability Distributions
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chebyshev's Inequality／Theorem]]
+- [[Probability Distribution - Memoryless Property]]

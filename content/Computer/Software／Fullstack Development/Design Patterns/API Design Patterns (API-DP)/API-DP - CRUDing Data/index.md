@@ -7,8 +7,5 @@ children:
   - "[[Graph Query Language (GraphQL) - API]]"
   - "[[Representational State Transfer (REST) - RESTful]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Graph Query Language (GraphQL) - API]]
+- [[Representational State Transfer (REST) - RESTful]]

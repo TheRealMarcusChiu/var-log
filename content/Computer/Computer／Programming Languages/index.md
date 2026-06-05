@@ -29,8 +29,21 @@ children:
 
 see [[Computer／Programming Languages - Meta|Computer/Programming Languages - Meta]]
 # Computer/Programming Languages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Languages - Database／CRUD／Query／Search Languages]]
+- [[Computer Languages - Definition／Description Languages]]
+- [[Computer Languages - Desktop／Mobile／Device Application Programming]]
+- [[Computer Languages - Domain Specific Languages (DSL)]]
+- [[Computer Languages - Function／Functional Programming Languages]]
+- [[Computer Languages - Game Engines]]
+- [[Computer Languages - General-Purpose Programming Languages (GPL)]]
+- [[Computer Languages - Graphics & UI]]
+- [[Computer Languages - Internet of Things (IoT)]]
+- [[Computer Languages - Logic／Logical Programming Languages]]
+- [[Computer Languages - Mathematical／Statistical Programming Languages]]
+- [[Computer Languages - Multi-Paradigm Programming Languages]]
+- [[Computer Languages - OS／Script Programming]]
+- [[Computer Languages - Software Frameworks ／ Computing Platforms]]
+- [[Computer Languages - Web Programming]]
+- [[Computer／Programming Languages - Meta]]
+- [[Integrated Development Environments (IDEs)]]
+- [[Opcode - Assembly Language - Machine Code／Language／Instruction]]

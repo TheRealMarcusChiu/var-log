@@ -8,8 +8,6 @@ children:
   - "[[Optical Compute Interconnect (OCI)]]"
   - "[[Trusted Platform Module (TPM)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Communication Interfaces]]
+- [[Optical Compute Interconnect (OCI)]]
+- [[Trusted Platform Module (TPM)]]

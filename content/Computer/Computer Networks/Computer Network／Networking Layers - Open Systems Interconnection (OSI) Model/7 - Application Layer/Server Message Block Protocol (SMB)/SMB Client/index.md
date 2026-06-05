@@ -7,8 +7,5 @@ children:
   - "[[SMB Client - macOS]]"
   - "[[smbclient]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SMB Client - macOS]]
+- [[smbclient]]

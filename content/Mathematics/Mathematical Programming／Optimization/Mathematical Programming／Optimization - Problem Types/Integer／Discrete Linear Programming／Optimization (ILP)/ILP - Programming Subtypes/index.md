@@ -6,8 +6,4 @@ parent: "[[Integer／Discrete Linear Programming／Optimization (ILP)]]"
 children:
   - "[[0-1／Combinatorial Programming／Optimization]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[0-1／Combinatorial Programming／Optimization]]

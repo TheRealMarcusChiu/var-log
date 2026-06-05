@@ -16,8 +16,5 @@ children:
 In the beginning, GCC provided stable and reliable compilers, based on the [[C|C programming language]], for the GNU system. Its full name is GNU C Compiler. Later, more languages (such as Fortran, Obj-C, and Ada) were supported, and the full name of GCC changed to GNU Compiler Collection
 # Compilers
 [[gcc - g++ (Preprocessor - Compiler - Assembler - Linker - Execution)]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[g++]]
+- [[gcc]]

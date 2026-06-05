@@ -75,15 +75,14 @@ See [[Tensor - 6 - Linear Maps Introduction|Linear Maps Introduction]]
 - [[Gradient (𝛻 ｜ 𝛻𝑓)|Gradient (𝛻 | 𝛻𝑓)]]
 
 # [[Linear Transformation - Properties]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Linear Transformation - Properties]].file.folder + "/" + [[Linear Transformation - Properties]].file.name
-```
+- [[Bounded／Unbounded Linear Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)]]
+- [[Compact Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)]]
+- [[Continuous Linear Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)]]
+- [[Hermitian Adjoint／Conjugate (Transformations／Operations／Operators／Mappings／Maps／Functions)]]
+- [[Orthogonal／Orthonormal／Unitary (Transformations／Operations／Operators／Mappings／Maps／Functions)]]
+- [[Self-Adjoint Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)]]
 
 # Linear Transformation - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bounded Linear Operator ↔ Continuous Linear Operator ： Between Normed Spaces]]
+- [[Linear Transformation - Properties]]
+- [[Transpose of a Linear Transformation - Algebraic Adjoint of a Linear Transformation]]

@@ -8,11 +8,8 @@ children:
   - "[[R - Histogram]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[R - Boxplot]]
+- [[R - Histogram]]
 
 # Resources
 - simple plots - [http://uc-r.github.io/quickplots](http://uc-r.github.io/quickplots)

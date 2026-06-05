@@ -8,11 +8,7 @@ children:
 ---
 ![[Maven - Release Plugin/maven-release-process.jpg|450]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Maven - Release Plugin With Github Example]]
 
 # Resources
 - article: [https://maven.apache.org/maven-release/maven-release-plugin/examples/prepare-release.html](https://maven.apache.org/maven-release/maven-release-plugin/examples/prepare-release.html)

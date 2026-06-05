@@ -7,8 +7,5 @@ children:
   - "[[Java - Spring - ConfigurableEnvironment]]"
   - "[[Java - Spring - Property／Properties]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - ConfigurableEnvironment]]
+- [[Java - Spring - Property／Properties]]

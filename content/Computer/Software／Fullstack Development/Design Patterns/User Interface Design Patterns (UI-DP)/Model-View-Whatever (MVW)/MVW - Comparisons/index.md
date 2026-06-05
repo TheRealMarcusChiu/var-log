@@ -8,8 +8,6 @@ children:
   - "[[MVP vs MVVM]]"
   - "[[MVVM vs MVC／Flux]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MVA vs MVP]]
+- [[MVP vs MVVM]]
+- [[MVVM vs MVC／Flux]]

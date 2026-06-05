@@ -13,11 +13,8 @@ children:
 ^excerpt
 
 ### Commands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[gradle binary]]
+- [[gradlew]]
 
 ### Difference Between gradle and ./gradlew
 

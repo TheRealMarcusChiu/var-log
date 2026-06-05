@@ -166,8 +166,4 @@ children:
 > <strong>Start Stop Restart (refer to [[Service／Daemon Manager - (SystemV - Upstart - Systemd - Launchd)|Service/Daemon Manager]] for various service commands)</strong>
 > <span style="white-space: pre-wrap"><code>sudo service bind9 start</code><br><code>sudo service bind9 restart</code><br><code>sudo service bind9 stop</code><br><code>sudo service bind9 status</code><br><code></code><br><code>sudo /etc/init.d/bind9 start</code><br><code>sudo /etc/init.d/bind9 restart</code><br><code>sudo /etc/init.d/bind9 stop</code><br><code>sudo /etc/init.d/bind9 status</code><br><code></code><br><code>sudo systemctl start bind9</code><br><code>sudo systemctl restart bind9</code><br><code>sudo systemctl stop bind9</code><br><code>sudo systemctl status bind9</code></span>
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[bind9 - View／Flush／Reload Cache]]

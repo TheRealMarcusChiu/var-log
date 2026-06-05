@@ -28,8 +28,8 @@ children:
 - <strong>cognition</strong> - the mental action/processes of acquiring knowledge/understanding through sense-experience and/or reason
 
 ### Subsections
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Epistemology - Objectivist vs Subjectivist vs Constructivist]]
+- [[Hermeneutics - Exegesis]]
+- [[Justification]]
+- [[Knowledge]]
+- [[Propositions]]

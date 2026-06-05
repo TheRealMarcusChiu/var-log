@@ -14,8 +14,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Computer Memory／Storage Hierarchy - Cross-Over Technology]]
+- [[Computer Memory／Storage Hierarchy - Types]]

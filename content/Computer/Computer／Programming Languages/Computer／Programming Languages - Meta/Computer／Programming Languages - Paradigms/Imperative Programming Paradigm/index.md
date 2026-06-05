@@ -15,11 +15,7 @@ children:
 - [[Procedural vs Imperative]]
 
 # Imperative Programming - Subtypes
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Procedural Programming Paradigm]]
 
 # Imperative Programming - Principles
 - [[Command-Query Separation (CQS) Principle]]

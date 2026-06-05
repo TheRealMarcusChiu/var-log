@@ -16,8 +16,5 @@ Bitcoin was, as I claimed earlier, the digital-algorithmic reincarnation of the 
 
 # Introduction![](https://www.youtube.com/watch?v=bBC-nXj3Ng4)![](https://www.youtube.com/watch?v=_160oMzblY8)![](https://www.youtube.com/watch?v=xIDL_akeras)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bitcoin]]
+- [[Blockchain]]

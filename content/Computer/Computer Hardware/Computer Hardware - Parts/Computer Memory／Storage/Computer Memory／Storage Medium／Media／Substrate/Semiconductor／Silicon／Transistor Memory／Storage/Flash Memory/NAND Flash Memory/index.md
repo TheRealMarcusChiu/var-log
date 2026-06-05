@@ -15,11 +15,7 @@ children:
 # Subpages
 - [[NOR Flash Memory vs NAND Flash Memory]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[3D Vertical NAND (V-NAND - VNAND) Flash Memory]]
 
 # Use Cases
 - [[Solid State Drives (SSD)]]

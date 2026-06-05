@@ -54,11 +54,7 @@ public class WebFluxController {
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 
 # Resources
 - code: [https://github.com/SpringBootMarcusChiu/webflux](https://github.com/SpringBootMarcusChiu/webflux)

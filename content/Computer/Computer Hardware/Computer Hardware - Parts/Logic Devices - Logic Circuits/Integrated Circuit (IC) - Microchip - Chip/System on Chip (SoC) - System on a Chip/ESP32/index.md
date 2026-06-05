@@ -19,8 +19,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Atom Echo - ESPHome Connect to Home Assistant (HA) through WiFi then WireGuard]]
+- [[ESP32-C6 Chipset]]

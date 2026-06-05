@@ -54,8 +54,5 @@ children:
 - <strong>signing/signature </strong>- provides both: integrity & authentication (esp. stronger form of authentication: non-repudiation)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Cross-Site Request Forging (CSRF)]]
+- [[Intrusion Detection／Prevention Systems (IDS - IPS)]]

@@ -11,8 +11,8 @@ children:
   - "[[Yarn]]"
 ---
 [[Package Managers]] for [[JavaScript]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Bower]]
+- [[Bun]]
+- [[Node Package Manager (npm)]]
+- [[Performant Node Package Manager (pnpm)]]
+- [[Yarn]]

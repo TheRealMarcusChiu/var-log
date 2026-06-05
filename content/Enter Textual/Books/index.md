@@ -17,11 +17,12 @@ Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to 
 - [[Hinduism - Books]]
 - [[History Books]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[God Is Beauty： A Retreat on the Gospel and Art]]
+> - [[How to Win Friends and Influence People]]
+> - [[Manga]]
+> - [[The Everlasting Man]]
+> - [[The Life of Our Lord]]
+> - [[Why Evolution is True - Jerry A. Coyne]]
 
 - A Little Life -Hanya Yanagihara
 - Deep Undercover - Jack Barsky

@@ -14,11 +14,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Exponential Map]]
+- [[Riemannian Geometry]]
 
 # Resources
 - [Video Lectures](https://www.youtube.com/watch?v=_mvjOoTieTk&list=PLIljB45xT85DWUiFYYGqJVtfnkUFWkKtP)

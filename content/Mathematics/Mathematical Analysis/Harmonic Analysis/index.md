@@ -18,11 +18,11 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Fourier Analysis]]
+- [[Fourier Analysis - Comparisons]]
+- [[Power Spectrums - Spectrum of Frequencies - Power Spectral Density／Densities (PSD)]]
+- [[Spectrograms]]
+- [[Spherical Harmonics]]
 
 # Resources
 - [https://www.youtube.com/@mikexcohen1](https://www.youtube.com/@mikexcohen1)

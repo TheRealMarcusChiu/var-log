@@ -8,11 +8,8 @@ children:
   - "[[Self-Organizing Gaussian Grids (SOG)]]"
 ---
 # 3D Gaussian Splatting (3DGS) [[Data Types (File Formats)|File Formats]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[3DGS Polygon File Format (PLY)]]
+- [[Self-Organizing Gaussian Grids (SOG)]]
 
 - Compressed PLY
 - SPLAT

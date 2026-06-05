@@ -30,11 +30,7 @@ children:
 ^excerpt
 
 # Type Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Estimator／Model - Accuracy／Goodness-of-Fit Analysis - Comparisons]].file.folder + "/" + [[Estimator／Model - Accuracy／Goodness-of-Fit Analysis - Comparisons]].file.name
-```
+- [[R-Squared vs Standard Error of the Regression]]
 
 # Types
 

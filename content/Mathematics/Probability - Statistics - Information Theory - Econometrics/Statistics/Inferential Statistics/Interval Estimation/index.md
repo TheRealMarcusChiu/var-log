@@ -18,8 +18,6 @@ children:
 - [https://bolt.mph.ufl.edu/6050-6052/unit-4/module-11/populations-means-part-1/](https://bolt.mph.ufl.edu/6050-6052/unit-4/module-11/populations-means-part-1/)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Confidence Interval (CI)]]
+- [[Confidence Interval vs Credible Interval]]
+- [[Credible／Credibility Interval]]

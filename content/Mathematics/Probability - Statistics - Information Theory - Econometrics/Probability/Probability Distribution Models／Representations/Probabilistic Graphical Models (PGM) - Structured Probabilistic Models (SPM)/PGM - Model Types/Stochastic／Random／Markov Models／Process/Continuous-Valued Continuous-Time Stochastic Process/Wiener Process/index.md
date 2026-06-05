@@ -12,8 +12,4 @@ children:
 - used to model the phenomenon of [[Brownian Motion - Pedesis|Brownian motion]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Brownian Motion - Pedesis]]

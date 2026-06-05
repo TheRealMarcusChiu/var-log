@@ -8,8 +8,6 @@ children:
   - "[[R - Data Importing]]"
   - "[[R - Data Scraping]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[R - Data Exporting]]
+- [[R - Data Importing]]
+- [[R - Data Scraping]]

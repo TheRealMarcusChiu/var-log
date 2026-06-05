@@ -14,8 +14,4 @@ children:
 
 see: [[Network Address Translation (NAT)]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[How Do You Know if You are Behind a Symmetric NAT？]]

@@ -15,8 +15,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Complexity Classes]]
+- [[Growth／Asymptotic Complexity／Analysis (Resource - Time／Space／Memory Complexity)]]

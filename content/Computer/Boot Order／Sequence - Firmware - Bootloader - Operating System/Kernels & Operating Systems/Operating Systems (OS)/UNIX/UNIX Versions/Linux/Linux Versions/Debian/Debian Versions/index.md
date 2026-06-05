@@ -10,8 +10,8 @@ children:
   - "[[Raspbian - Raspberry Pi]]"
   - "[[Ubuntu]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Elementary OS]]
+- [[Kali Linux]]
+- [[Linux Mint]]
+- [[Raspbian - Raspberry Pi]]
+- [[Ubuntu]]

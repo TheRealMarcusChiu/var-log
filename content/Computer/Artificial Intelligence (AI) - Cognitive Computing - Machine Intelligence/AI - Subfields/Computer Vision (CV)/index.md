@@ -24,11 +24,19 @@ children:
 - a subfield of [[Machine Perception (MP)]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[3D Reconstruction]]
+- [[Image Classification]]
+- [[Image Data Preprocessing]]
+- [[Image Features - Feature Detection - Feature Detectors]]
+- [[Image Filtering]]
+- [[Image Generation]]
+- [[Image Moments]]
+- [[Image Resizing]]
+- [[Light Fields]]
+- [[Multiple／Multi View Geometry]]
+- [[OpenCV (Computer Vision)]]
+- [[Pan Sharpening]]
+- [[Plenoptic Function]]
 
 # Courses
 - [CS231n: Deep Learning for Computer Vision](http://cs231n.stanford.edu/schedule.html)

@@ -23,8 +23,4 @@ children:
 - <span style="white-space: pre-wrap"><code>brew install emscripten</code></span>
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Emscripten - Tutorial]]

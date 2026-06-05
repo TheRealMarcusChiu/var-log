@@ -7,8 +7,5 @@ children:
   - "[[Definite Integrals／Integrations - Indefinite Integrals／Integrations]]"
   - "[[Riemann／Riemannian Sums (Right／Left Endpoint - Midpoint - Trapezoidal Rule) - Riemann Integral]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Definite Integrals／Integrations - Indefinite Integrals／Integrations]]
+- [[Riemann／Riemannian Sums (Right／Left Endpoint - Midpoint - Trapezoidal Rule) - Riemann Integral]]

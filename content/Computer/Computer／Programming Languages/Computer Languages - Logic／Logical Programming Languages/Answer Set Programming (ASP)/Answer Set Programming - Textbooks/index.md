@@ -6,8 +6,4 @@ parent: "[[Answer Set Programming (ASP)]]"
 children:
   - "[[Knowledge Representation, Reasoning, and the Design of Intelligent Agents - The Answer-Set Programming Approach - Summaries]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Knowledge Representation, Reasoning, and the Design of Intelligent Agents - The Answer-Set Programming Approach - Summaries]]

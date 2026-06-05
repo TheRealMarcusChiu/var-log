@@ -9,11 +9,10 @@ children:
   - "[[Redwood Redwood.js RedwoodJS]]"
   - "[[Remix]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Next Next.js NextJS]]
+- [[React Router]]
+- [[Redwood Redwood.js RedwoodJS]]
+- [[Remix]]
 
 - [[Expo]]
 - [[Ionic React]]

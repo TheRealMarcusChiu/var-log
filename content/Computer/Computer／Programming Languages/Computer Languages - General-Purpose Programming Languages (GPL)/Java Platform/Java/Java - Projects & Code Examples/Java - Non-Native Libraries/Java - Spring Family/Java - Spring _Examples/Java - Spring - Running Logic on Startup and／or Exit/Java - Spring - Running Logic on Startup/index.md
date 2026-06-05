@@ -8,8 +8,6 @@ children:
   - "[[Java - Spring - Running Logic on Startup - ApplicationRunner & CommandLineRunner]]"
   - "[[Java - Spring - Running Logic on Startup - Bean Specific]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Running Logic on Startup - ApplicationListener or @EventListener]]
+- [[Java - Spring - Running Logic on Startup - ApplicationRunner & CommandLineRunner]]
+- [[Java - Spring - Running Logic on Startup - Bean Specific]]

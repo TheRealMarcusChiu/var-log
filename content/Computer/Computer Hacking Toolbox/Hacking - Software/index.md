@@ -10,8 +10,8 @@ children:
   - "[[aircrack-ng (Suite)]]"
   - "[[metasploit]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[aircrack-ng (Suite)]]
+- [[Honeypots - Sticky Honeypots ／ Tarpits]]
+- [[metasploit]]
+- [[Password Cracker]]
+- [[Reverse Shells]]

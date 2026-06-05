@@ -9,8 +9,7 @@ children:
   - "[[Integration by Parts vs U-Substitution]]"
   - "[[U-Substitution - Integration by Substitution - Reverse Chain Rule - Change of Variables]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Fubini's Theorem]]
+- [[Integration by Parts]]
+- [[Integration by Parts vs U-Substitution]]
+- [[U-Substitution - Integration by Substitution - Reverse Chain Rule - Change of Variables]]

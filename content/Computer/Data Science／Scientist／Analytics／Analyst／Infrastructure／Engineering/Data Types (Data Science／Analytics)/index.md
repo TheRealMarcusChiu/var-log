@@ -9,8 +9,5 @@ children:
 ---
 - [[Data／Variable Types (Statistics／Programming)|Data/Variable Types (Statistics/Programming)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Big Data - Shape Types]]
+> - [[Data Observability Types (Complete／Fully-Observable Data ｜ Incomplete／Partially-Observable Data ｜ Latent／Hidden／Hypothetical Variables)]]

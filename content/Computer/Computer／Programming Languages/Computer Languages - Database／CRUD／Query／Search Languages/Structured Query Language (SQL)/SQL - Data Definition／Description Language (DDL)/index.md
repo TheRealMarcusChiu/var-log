@@ -21,8 +21,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SQL - DDL - ON UPDATE／DELETE]]
+- [[SQL - DDL - Referential Actions (CASCADE - RESTRICT - NO ACTION - SET NULL - SET DEFAULT)]]
+- [[SQL - DDL - View - Non-Indexed／Non-Materialized View vs Indexed／Materialized View]]

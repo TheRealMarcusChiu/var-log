@@ -8,8 +8,5 @@ children:
   - "[[Generating Discrete Random Variables]]"
 ---
 # Ways to Simulate a [[Probability Distributions|Probability Distribution]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Generating Continuous Random Variables]]
+- [[Generating Discrete Random Variables]]

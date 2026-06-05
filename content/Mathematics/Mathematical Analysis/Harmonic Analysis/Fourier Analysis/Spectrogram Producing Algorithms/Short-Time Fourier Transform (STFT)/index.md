@@ -151,10 +151,6 @@ Different window shapes have different trade-offs in <strong>time vs frequency r
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
 
 - [[Short-Time Fourier Transform (STFT) to Wavelet Transform (WT)]]

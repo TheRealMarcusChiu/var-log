@@ -17,11 +17,8 @@ children:
 ^excerpt
 
 # Independence - Variants
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Pairwise Independence／Independent vs Mutual／Collective Independence ／ Mutually Independent]]
+- [[Probability Independence (Marginal Independence - Conditional Independence)]]
 
 OTHER
 - [For events](https://en.wikipedia.org/wiki/Independence_(probability_theory)#For_events)

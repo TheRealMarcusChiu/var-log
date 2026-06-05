@@ -21,8 +21,12 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Biographies]]
+- [[Cannery Row - Our Story]]
+- [[Franz Stigler & Charlie Brown Incident]]
+- [[History (Delimited by Years)]]
+- [[History Books]]
+- [[History of ＊]]
+- [[History Terms]]
+- [[How Industrial Revolution Affected Family]]
+- [[How Neolithic Revolution Affected Society]]

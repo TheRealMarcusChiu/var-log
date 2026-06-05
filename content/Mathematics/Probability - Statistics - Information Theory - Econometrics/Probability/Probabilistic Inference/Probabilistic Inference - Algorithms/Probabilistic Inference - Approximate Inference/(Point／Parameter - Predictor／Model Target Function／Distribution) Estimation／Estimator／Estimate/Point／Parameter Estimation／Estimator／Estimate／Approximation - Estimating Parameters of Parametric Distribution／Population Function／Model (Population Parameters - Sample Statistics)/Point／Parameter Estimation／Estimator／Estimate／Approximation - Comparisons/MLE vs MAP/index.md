@@ -55,8 +55,8 @@ see [[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihoo
       }
     ],
     [
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[MLE - Computing MLE of Specific Distributions]].file.folder + \"/\" + [[MLE - Computing MLE of Specific Distributions]].file.name\n```",
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = [[MAP - Computing MAP of Specific Distributions]].file.folder + \"/\" + [[MAP - Computing MAP of Specific Distributions]].file.name\n```"
+      "- [[MLE - Bayesian Networks]]\n- [[MLE - Bernoulli Distribution]]\n- [[MLE - Binomial Distribution]]\n- [[MLE - Exponential Distribution]]\n- [[MLE - Exponential Family]]\n- [[MLE - Markov Networks]]\n- [[MLE - Multinoulli Distribution]]\n- [[MLE - Normal Distribution]]\n- [[MLE - Poisson Distribution]]",
+      "- [[MAP - Bayesian Networks]]\n- [[MAP - Bernoulli Distribution]]\n- [[MAP - Binomial Distribution]]\n- [[MAP - Exponential Distribution]]\n- [[MAP - Multinoulli Distribution]]\n- [[MAP - Normal Distribution]]\n- [[MAP - Poisson Distribution]]"
     ]
   ]
 }

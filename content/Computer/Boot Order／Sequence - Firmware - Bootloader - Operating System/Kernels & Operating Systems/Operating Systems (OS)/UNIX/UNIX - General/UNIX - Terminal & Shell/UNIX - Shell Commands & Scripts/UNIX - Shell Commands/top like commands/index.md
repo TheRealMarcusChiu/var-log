@@ -8,8 +8,6 @@ children:
   - "[[mactop]]"
   - "[[nvtop]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[htop]]
+- [[mactop]]
+- [[nvtop]]

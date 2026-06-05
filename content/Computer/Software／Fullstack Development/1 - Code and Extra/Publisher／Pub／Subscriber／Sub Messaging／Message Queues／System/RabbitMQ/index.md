@@ -17,11 +17,9 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[RabbitMQ - Architecture]]
+- [[RabbitMQ - Commands]]
+- [[RabbitMQ - Installation & Setup]]
 
 # Resources
 - [https://www.rabbitmq.com/getstarted.html](https://www.rabbitmq.com/getstarted.html)

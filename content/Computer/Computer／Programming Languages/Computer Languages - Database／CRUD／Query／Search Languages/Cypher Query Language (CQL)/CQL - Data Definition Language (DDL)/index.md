@@ -11,8 +11,5 @@ children:
 - is a [[Cypher Query Language (CQL)|CQL]] form of [[SQL - Data Definition／Description Language (DDL)|SQL DDL]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CQL - Data Definition Language (DDL) (Version 4.0)]]
+- [[CQL - Data Definition Language (DDL) (Version 4.2)]]

@@ -10,11 +10,9 @@ children:
 ---
 <strong>[[Fault／Latency Tolerance & Resilience (Service-Dependency Layer)|Circuit Breaker Pattern & Fault/Latency Tolerance/Resilience]]</strong> helps to control the interaction between services. It improves the overall resilience of the system by isolating the failing services and stopping the cascading effect of failures
 # Circuit Breaker Pattern & Fault/Latency Tolerance/Resilience
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Hystrix (deprecated)]]
+- [[Java - Resilience4j]]
+- [[Java - Sentinel]]
 
 # Spring Modules
 - [[Java - Spring Cloud Circuit Breaker - Pattern & Fault／Latency Tolerance & Resilience Frameworks|Java - Spring Cloud Circuit Breaker - Pattern & Fault/Latency Tolerance & Resilience Frameworks]]

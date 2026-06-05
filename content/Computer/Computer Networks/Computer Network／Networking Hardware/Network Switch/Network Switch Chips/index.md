@@ -6,8 +6,4 @@ parent: "[[Network Switch]]"
 children:
   - "[[Marvell Teralynx 10]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Marvell Teralynx 10]]

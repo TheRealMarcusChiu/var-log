@@ -6,8 +6,4 @@ parent: "[[Computational Learning Theory (CoLT)]]"
 children:
   - "[[Understanding Machine Learning： From Theory to Algorithms]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Understanding Machine Learning： From Theory to Algorithms]]

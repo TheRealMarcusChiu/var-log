@@ -8,8 +8,6 @@ children:
   - "[[Rook - Storage - Filesystem Storage]]"
   - "[[Rook - Storage - Object Storage (RGW)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Rook - Storage - Block Storage (RDB)]]
+- [[Rook - Storage - Filesystem Storage]]
+- [[Rook - Storage - Object Storage (RGW)]]

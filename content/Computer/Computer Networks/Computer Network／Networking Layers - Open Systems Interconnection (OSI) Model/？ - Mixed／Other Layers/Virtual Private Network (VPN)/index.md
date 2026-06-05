@@ -102,8 +102,6 @@ children:
 }
 ```
 # VPN - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[VPN - Comparisons]].file.folder + "/" + [[VPN - Comparisons]].file.name
-```
+- [[OpenVPN vs WireGuard]]
+- [[Tailscale vs VPN]]
+- [[Tailscale vs WireGuard]]

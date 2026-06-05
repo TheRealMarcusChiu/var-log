@@ -7,8 +7,5 @@ children:
   - "[[History of Electricity]]"
   - "[[History of Internet]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[History of Electricity]]
+- [[History of Internet]]

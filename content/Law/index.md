@@ -8,8 +8,4 @@ children:
 ---
 [https://legaldictionary.net/felony/](https://legaldictionary.net/felony/)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Law Cases]]

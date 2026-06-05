@@ -6,8 +6,4 @@ parent: "[[Correlation]]"
 children:
   - "[[Pearson's Correlation vs Distance Correlation]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Pearson's Correlation vs Distance Correlation]]

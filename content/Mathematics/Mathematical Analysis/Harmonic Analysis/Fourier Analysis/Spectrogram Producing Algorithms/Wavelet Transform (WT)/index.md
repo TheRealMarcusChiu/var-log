@@ -28,11 +28,8 @@ children:
 # Subpages
 - [[Short-Time Fourier Transform (STFT) to Wavelet Transform (WT)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Continuous Wavelet Transform (CWT)]]
+> - [[Discrete Wavelet Transform (DWT)]]
 
 # Resources
 - [Steve Brunton's - Wavelets and Multiresolution Analysis](https://www.youtube.com/watch?v=y7KLbd7n75g&list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC&index=31)

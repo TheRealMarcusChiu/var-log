@@ -6,8 +6,4 @@ parent: "[[Computer／Programming Languages]]"
 children:
   - "[[Android Development Studio Applications]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Android Development Studio Applications]]

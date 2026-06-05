@@ -32,8 +32,7 @@ children:
 - EM Latent Variables - [https://www.coursera.org/lecture/probabilistic-graphical-models-3-learning/latent-variables-iNq9y](https://www.coursera.org/lecture/probabilistic-graphical-models-3-learning/latent-variables-iNq9y)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[EM - Bayesian Networks]]
+- [[EM - Clustering]]
+- [[EM - Gaussian Mixture Models]]
+- [[EM - Random Bayesian Mixture Model]]

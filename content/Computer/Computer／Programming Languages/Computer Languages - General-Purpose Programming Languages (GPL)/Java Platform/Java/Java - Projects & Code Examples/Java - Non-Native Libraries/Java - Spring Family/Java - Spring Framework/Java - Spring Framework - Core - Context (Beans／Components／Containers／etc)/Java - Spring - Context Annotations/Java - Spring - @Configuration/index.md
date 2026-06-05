@@ -14,8 +14,4 @@ children:
 - [[Java - Spring - @SpringBootConfiguration|@SpringBootConfiguration]] - SpringBoot's variant
 
 # 3 - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - @Configuration(proxyBeanMethods=[false｜true])]]

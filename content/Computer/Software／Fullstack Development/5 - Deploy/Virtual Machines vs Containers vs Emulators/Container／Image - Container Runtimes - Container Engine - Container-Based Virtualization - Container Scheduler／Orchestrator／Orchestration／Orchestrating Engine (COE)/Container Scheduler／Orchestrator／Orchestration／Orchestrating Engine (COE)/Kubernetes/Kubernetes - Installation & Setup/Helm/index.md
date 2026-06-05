@@ -36,8 +36,4 @@ You should have the following before getting started with the helm setup.
 - [https://helm.sh/docs/intro/quickstart/](https://helm.sh/docs/intro/quickstart/)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+

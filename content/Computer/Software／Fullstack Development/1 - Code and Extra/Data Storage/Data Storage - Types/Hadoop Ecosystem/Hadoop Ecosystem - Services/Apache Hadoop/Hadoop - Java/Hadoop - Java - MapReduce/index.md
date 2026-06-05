@@ -7,11 +7,7 @@ children:
   - "[[Java - MapReduce - WordCount]]"
 ---
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - MapReduce - WordCount]]
 
 ### Methods of Mapper Class
 

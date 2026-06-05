@@ -10,8 +10,6 @@ children:
 ---
 a <strong>Spanning Tree</strong> of graph 𝐆 is a subset of graph 𝐆, which has all the vertices connected with each other with the minimum possible number of edges
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Constrained Minimum Spanning Tree (CMST)]]
+- [[DFS Spanning Tree (DST)]]
+- [[Minimum／Maximum Spanning Tree (MST)]]

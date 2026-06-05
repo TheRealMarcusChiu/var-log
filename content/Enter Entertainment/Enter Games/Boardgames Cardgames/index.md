@@ -17,8 +17,8 @@ children:
 - 7 Wonders
 - Marvel Champions: The Card Game
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Games - Ascension]]
+> - [[Games - Netrunner]]
+> - [[Games - Pandemic Legacy]]
+> - [[Games - Star Realms]]
+> - [[Twilight Imperium - Intro Guide]]

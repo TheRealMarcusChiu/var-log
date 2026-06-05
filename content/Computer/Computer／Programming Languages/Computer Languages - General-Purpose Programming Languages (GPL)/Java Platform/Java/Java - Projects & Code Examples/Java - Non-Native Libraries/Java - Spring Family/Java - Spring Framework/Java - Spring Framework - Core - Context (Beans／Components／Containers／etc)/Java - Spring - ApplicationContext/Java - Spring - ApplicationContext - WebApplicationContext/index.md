@@ -8,11 +8,8 @@ children:
   - "[[Java - Spring - ApplicationContext vs WebApplicationContext]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - How Does (Spring vs Spring Boot) Bootstrap a Web Application？]]
+- [[Java - Spring - ApplicationContext vs WebApplicationContext]]
 
 # 1 - The Root WebApplicationContext
 

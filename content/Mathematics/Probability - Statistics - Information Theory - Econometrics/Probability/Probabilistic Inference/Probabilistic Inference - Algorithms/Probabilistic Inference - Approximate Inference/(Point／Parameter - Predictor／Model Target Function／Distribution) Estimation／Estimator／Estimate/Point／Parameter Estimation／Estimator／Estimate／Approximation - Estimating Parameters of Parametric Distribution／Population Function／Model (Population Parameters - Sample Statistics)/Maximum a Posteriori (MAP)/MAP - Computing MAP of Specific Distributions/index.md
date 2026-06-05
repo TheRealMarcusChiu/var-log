@@ -12,8 +12,10 @@ children:
   - "[[MAP - Normal Distribution]]"
   - "[[MAP - Poisson Distribution]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MAP - Bayesian Networks]]
+- [[MAP - Bernoulli Distribution]]
+- [[MAP - Binomial Distribution]]
+- [[MAP - Exponential Distribution]]
+- [[MAP - Multinoulli Distribution]]
+- [[MAP - Normal Distribution]]
+- [[MAP - Poisson Distribution]]

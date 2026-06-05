@@ -22,11 +22,16 @@ both <strong>IE</strong> and <strong>IR</strong> are subtasks of [[Natural Lan
 # IR/IE - Other
 an implementation of [[Feature Projection／Extraction - Embeddings|Feature Extraction]] that extracts specific [[Features - Feature Functions - Feature Engineering - Feature-Based Models|Features]] (i.e. entities, relations, events, etc) from text
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[(Entity - Named Entity) Recognition／Identification／Chunking／Extraction／Resolution (NER)]]
+- [[Coherence (Relation) Extraction]]
+- [[Coreference／Co-Reference Extraction]]
+- [[Entity Relation Extraction (RE)]]
+- [[Event Extraction]]
+- [[Feature Conversion - Text Embeddings／Embedding]]
+- [[Numerical Expression Recognition]]
+- [[Referring Expression Extraction]]
+- [[Semantic Relation Extraction]]
+- [[Temporal Expression Recognition - Temporal Analysis]]
 # IR/IE - Model Types
 
 ```merge-table

@@ -16,11 +16,10 @@ children:
 ^excerpt
 
 # Regularization Methods
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Early Stopping]]
+- [[L1／L2 Regularization]]
+- [[Max Norm Constraints／Regularization]]
+- [[Regularization - Parameter Weight Decay]]
 
 # Regularization for Specific ML Models
 - [[ANN - Model／Weight／Parameter Regularization／Regularizer Methods／Techniques|ANN - Model/Weight/Parameter Regularization/Regularizer Methods/Techniques]]

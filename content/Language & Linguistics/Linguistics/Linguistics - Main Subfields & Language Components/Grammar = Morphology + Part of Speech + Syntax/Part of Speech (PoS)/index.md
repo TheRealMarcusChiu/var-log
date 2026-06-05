@@ -136,11 +136,7 @@ in [[English]] the main parts of speech are:
 }
 ```
 # <strong>PoS - Sets</strong>
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[PoS - Sets]].file.folder + "/" + [[PoS - Sets]].file.name
-```
+- [[Penn Treebank PoS Tags]]
 
 # <strong>PoS - Example</strong>
 

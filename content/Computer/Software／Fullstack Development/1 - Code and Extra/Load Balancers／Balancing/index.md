@@ -28,8 +28,6 @@ children:
 - [[Java - Spring Cloud - Zuul API Gateway Proxy]]
 - [[Envoy (Service Mesh Proxy)]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Ingress-Nginx Controller]]
+> - [[Keepalived]]
+> - [[MetalLB]]

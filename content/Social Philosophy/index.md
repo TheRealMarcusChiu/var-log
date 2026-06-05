@@ -16,8 +16,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Accelerationism]]
+- [[critical theory (lower case)]]
+- [[Critical Theory (upper case)]]

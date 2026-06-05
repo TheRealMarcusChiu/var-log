@@ -94,8 +94,5 @@ children:
 > <strong>3. connect to remote mysql server and not use encrypted connection</strong>
 > <span style="white-space: pre-wrap"><code>  mysql -h \<ip-address or url\> -u \<password\> -p --skip-ssl</code></span>
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MySQL - (utf8 vs utf8mb3 vs utf8mb4)]]
+- [[MySQL - Cluster]]

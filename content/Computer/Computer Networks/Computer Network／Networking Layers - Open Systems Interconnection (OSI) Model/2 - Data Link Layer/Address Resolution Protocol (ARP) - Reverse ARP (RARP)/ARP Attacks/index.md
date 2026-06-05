@@ -7,8 +7,5 @@ children:
   - "[[ARP - Flooding & Cache Poisoning]]"
   - "[[ARP - Spoof Poisoning]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ARP - Flooding & Cache Poisoning]]
+- [[ARP - Spoof Poisoning]]

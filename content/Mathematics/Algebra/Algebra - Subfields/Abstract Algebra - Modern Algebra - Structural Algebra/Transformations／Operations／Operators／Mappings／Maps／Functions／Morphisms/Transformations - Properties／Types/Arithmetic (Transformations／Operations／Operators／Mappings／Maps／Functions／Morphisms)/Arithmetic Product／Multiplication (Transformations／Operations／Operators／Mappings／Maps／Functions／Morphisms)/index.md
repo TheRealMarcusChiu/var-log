@@ -29,8 +29,4 @@ children:
 - [[Cartesian Product]]
 
 # Product - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Product - Comparisons]]

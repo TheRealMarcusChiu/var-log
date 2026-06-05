@@ -17,8 +17,13 @@ children:
 ---
 <strong>Biology</strong> is the natural science that studies life and living organisms, including their physical structure, chemical processes, molecular interactions, physiological mechanisms, development and evolution
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Artificial Life (ALife)]]
+- [[Bacteria & Bacteriophages]]
+- [[Evolution]]
+- [[Human Biology]]
+- [[Life]]
+- [[Mitochondria]]
+- [[Nursing]]
+- [[Parasites - Parasitic Relationships]]
+- [[Photosynthesis]]
+- [[Zoology]]

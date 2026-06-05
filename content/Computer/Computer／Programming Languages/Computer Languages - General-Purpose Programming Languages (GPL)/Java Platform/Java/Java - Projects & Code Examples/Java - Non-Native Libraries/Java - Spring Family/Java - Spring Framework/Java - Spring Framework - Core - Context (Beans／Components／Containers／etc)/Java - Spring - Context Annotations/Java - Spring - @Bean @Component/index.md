@@ -54,8 +54,6 @@ children:
 }
 ```
 # 2 - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - (@Bean @Component)'s @Scope]]
+- [[Java - Spring - @Component Stereotypes (@Controller - @Service - @Repository)]]
+- [[Java - Spring - Creating @Bean／@Component at Runtime]]

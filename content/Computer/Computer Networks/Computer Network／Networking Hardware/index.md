@@ -9,11 +9,10 @@ children:
   - "[[Router]]"
   - "[[Switch & Router Implementation]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Modem]]
+- [[Network Switch]]
+- [[Router]]
+- [[Switch & Router Implementation]]
 
 - repeater
 - bridge

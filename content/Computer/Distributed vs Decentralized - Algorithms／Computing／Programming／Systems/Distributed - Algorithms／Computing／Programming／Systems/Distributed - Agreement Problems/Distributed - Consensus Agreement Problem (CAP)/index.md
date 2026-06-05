@@ -18,8 +18,6 @@ A protocol that solves the CAP must satisfy the following properties:
 - VALIDITY -  if all non-faulty processes propose the same value, then all of them decide on the value proposed
 
 # Distributed CAP Algorithms/Protocols
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Paxos Consensus Algorithm]]
+- [[Raft Consensus Algorithm]]
+- [[Two-Phase Commit Protocol]]

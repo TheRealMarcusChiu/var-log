@@ -12,8 +12,10 @@ children:
   - "[[Qotom Router Hardware]]"
   - "[[Ubiquiti／Unifi Router Hardware]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[APU2 Router Hardware]]
+- [[Fanless IOT Technology (FIT) - (Fitlet2 - Fitlet3)]]
+- [[Netgate Desktop／Rack Appliances (1100／2100／4100／1537 pfSense+／TNSR BASE／MAX)]]
+- [[OPNsense Router Hardware]]
+- [[Protectli Router Hardware]]
+- [[Qotom Router Hardware]]
+- [[Ubiquiti／Unifi Router Hardware]]

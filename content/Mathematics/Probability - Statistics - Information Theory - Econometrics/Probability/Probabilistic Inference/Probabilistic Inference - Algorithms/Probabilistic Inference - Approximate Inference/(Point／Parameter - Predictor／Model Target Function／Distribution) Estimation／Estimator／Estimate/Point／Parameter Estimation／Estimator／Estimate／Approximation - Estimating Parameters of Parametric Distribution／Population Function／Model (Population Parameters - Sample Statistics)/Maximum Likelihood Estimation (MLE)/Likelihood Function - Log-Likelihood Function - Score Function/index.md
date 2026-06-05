@@ -45,8 +45,6 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Expected Log-Likelihood Function]]
+- [[Log-Likelihood Function - Of Specific Distributions]]
+- [[Sufficient Statistic]]

@@ -16,8 +16,5 @@ Freud’s psychoanalytic theory, personality develops through a series of stages
 - Freud’s ideas have since been met with criticism, in part because of his singular focus on sexuality as the main driver of human personality development.
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Freud's Structure of the Human Mind - Id Superego Ego]]
+- [[Psychosexual Stages of Development]]

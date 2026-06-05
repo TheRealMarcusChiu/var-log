@@ -20,8 +20,4 @@ real-time systems have a dual notion of correctness:
 - [[Real Time Systems.pdf]]
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Real-Time Operating Systems (RTOS)]]

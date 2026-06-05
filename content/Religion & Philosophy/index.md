@@ -26,22 +26,32 @@ children:
 
 ![[Philosophy Subfields#^excerpt]]
 ## [[Philosophy Books]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Philosophy Books]].file.folder + "/" + [[Philosophy Books]].file.name
-```
+- [[Confessions - Leo Tolstoy]]
+- [[Embodied Mind, Meaning and Reason]]
+- [[Free Will - Sam Harris]]
 
 # [[Religions]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Religions]].file.folder + "/" + [[Religions]].file.name
-```
+- [[Buddhism]]
+- [[Christianity]]
+- [[Christianity - 2024]]
+- [[Christianity - Pre 2019]]
+- [[Confucianism - Daoism - Legalism]]
+- [[Enuma Elish]]
+- [[Hinduism]]
+- [[Islam]]
+- [[Mormonism]]
+- [[World Missions Society Church of God]]
 
 # [[Religion & Philosophy - Terms]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Religion & Philosophy - Terms]].file.folder + "/" + [[Religion & Philosophy - Terms]].file.name
-```
+- [[4 Cardinal Virtues]]
+- [[Immanence v Transcendence]]
+- [[Inclusivism vs Exclusivism]]
+- [[Individualism - Collectivism]]
+- [[Moral]]
+- [[Natalism vs Antinatalism]]
+- [[Orthopraxy vs Orthodoxy]]
+- [[Phenomenon - Noumenon]]
+- [[Pilgrimage]]
+- [[Positive Law - Natural Law]]
+- [[Religious Buildings]]
+- [[Sect vs Denomination]]

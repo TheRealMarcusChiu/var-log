@@ -14,11 +14,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Gauge-Equivariant CNN - Introduction]]
 
 # Resources
 - [[Gauge Equivariant Convolutional Networks and the Icosahedral CNN-compressed.pdf]]

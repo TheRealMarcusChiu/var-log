@@ -6,8 +6,4 @@ parent: "[[Algebra]]"
 children:
   - "[[Linear Algebra vs Matrix Algebra]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Linear Algebra vs Matrix Algebra]]

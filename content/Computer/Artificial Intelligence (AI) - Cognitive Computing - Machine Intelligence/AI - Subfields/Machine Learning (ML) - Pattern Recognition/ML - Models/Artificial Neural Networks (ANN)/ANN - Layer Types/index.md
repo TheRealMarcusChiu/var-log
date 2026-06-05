@@ -15,10 +15,14 @@ children:
   - "[[Residual Connections - Residual Networks (ResNet)]]"
 ---
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ANN - Convolutional Layer]]
+- [[ANN - Linear／Fully-Connected Layer]]
+- [[ANN - Loss Layer vs Output Layer]]
+- [[ANN - Non-Linear Layer]]
+- [[ANN - Normalization Methods]]
+- [[ANN - Pooling／Subsampling／Down-Sampling Layers]]
+- [[ANN - Up-Sampling Layers]]
+- [[Attention Mechanisms]]
+- [[Residual Connections - Residual Networks (ResNet)]]
 ````
 ^excerpt

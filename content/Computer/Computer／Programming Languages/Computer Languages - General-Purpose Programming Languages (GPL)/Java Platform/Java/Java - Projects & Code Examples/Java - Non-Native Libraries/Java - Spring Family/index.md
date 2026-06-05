@@ -19,8 +19,16 @@ children:
   - "[[Java - Spring for GraphQL]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Util]]
+- [[Java - Spring _Examples]]
+- [[Java - Spring Boot]]
+- [[Java - Spring Cloud]]
+- [[Java - Spring Data]]
+- [[Java - Spring for Apache Kafka]]
+- [[Java - Spring for GraphQL]]
+- [[Java - Spring Framework]]
+- [[Java - Spring Integration]]
+- [[Java - Spring Monitor／Metrics／Management Frameworks]]
+- [[Java - Spring Security]]
+- [[Java - Spring Session]]
+- [[Java - Spring Statemachine]]

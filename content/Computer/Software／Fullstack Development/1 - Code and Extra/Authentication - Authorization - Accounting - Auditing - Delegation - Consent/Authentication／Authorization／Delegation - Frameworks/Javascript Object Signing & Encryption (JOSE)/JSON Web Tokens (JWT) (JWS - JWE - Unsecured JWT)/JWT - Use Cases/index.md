@@ -8,11 +8,8 @@ children:
   - "[[JWT - Use Case - Single-Use Authorization Token]]"
 ---
 ````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JWT - Use Case - Securing Client-Side Session Data With JWT]]
+- [[JWT - Use Case - Single-Use Authorization Token]]
 
 - [[OpenID Connect (OIDC)]] the<em> id\_token</em> is represented as a JWT
 ````

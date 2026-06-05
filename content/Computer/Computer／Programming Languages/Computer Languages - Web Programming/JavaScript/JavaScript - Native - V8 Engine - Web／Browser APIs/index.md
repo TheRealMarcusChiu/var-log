@@ -32,15 +32,22 @@ Todo
 - [https://caniuse.com/](https://caniuse.com/)
 
 # JavaScript - Native
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[JavaScript - Native]].file.folder + "/" + [[JavaScript - Native]].file.name
-```
+- [[JavaScript - Async Await (Enhancing Promises)]]
+- [[JavaScript - function vs var function]]
+- [[JavaScript - Promise]]
+- [[JavaScript - Proxy]]
+- [[JavaScript - Regular Functions ／ Function Declarations - Anonymous Functions ／ Function Expressions - Arrow Functions]]
 
 # JavaScript - Web/Browser APIs
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[JavaScript - Web／Browser APIs]].file.folder + "/" + [[JavaScript - Web／Browser APIs]].file.name
-```
+- [[JavaScript - Browser Application]]
+- [[JavaScript - Geolocation]]
+- [[JavaScript - Navigator]]
+- [[JavaScript - Web Animations API]]
+- [[JavaScript - Web Audio API]]
+- [[JavaScript - Web Components]]
+- [[JavaScript - Web Real-Time Communication (WebRTC)]]
+- [[JavaScript - Web Speech]]
+- [[JavaScript - Web Worker]]
+- [[JavaScript - WebGL 1 & 2]]
+- [[JavaScript - WebGPU]]
+- [[JavaScript - WebXR]]

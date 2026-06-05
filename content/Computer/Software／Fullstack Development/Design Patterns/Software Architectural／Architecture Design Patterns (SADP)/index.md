@@ -14,8 +14,5 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Domain Driven Design (DDD)]]
+- [[Hexagonal Architecture - Ports and Adapters Architecture]]

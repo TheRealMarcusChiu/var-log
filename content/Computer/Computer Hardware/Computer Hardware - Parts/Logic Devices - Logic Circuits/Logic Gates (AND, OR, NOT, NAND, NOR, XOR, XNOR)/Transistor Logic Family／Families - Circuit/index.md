@@ -53,11 +53,9 @@ children:
 >
 > The [Apollo Guidance Computer](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer) was the first computer to use integrated circuits (ICs). Because they were so new, the designers chose to use just one type of device — an IC containing a single three-input NOR gate. The computer had 4,100 of them. The later Block II version (used in the crewed flights) used 2,800 ICs, each with dual three-input NOR gates. In each case, all of the logic in the computer was constructed of NOR gates. They could have also used all NAND gates instead
 # Logic Family - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Diode-Transistor Logic (DTL)]]
+- [[Resistor-Transistor Logic (RTL)]]
+- [[Transistor-Transistor Logic (TTL)]]
 
 ![[Transistor Logic Family／Families - Circuit/logic-families-classification.jpg|450]]
 # Logic Family - Resources

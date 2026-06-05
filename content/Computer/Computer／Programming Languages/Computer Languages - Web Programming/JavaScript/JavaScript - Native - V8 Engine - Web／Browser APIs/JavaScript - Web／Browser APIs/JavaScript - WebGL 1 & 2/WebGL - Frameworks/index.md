@@ -8,8 +8,6 @@ children:
   - "[[PlayCanvas WebGL Game Engine]]"
   - "[[Three.js]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Babylon.js]]
+- [[PlayCanvas WebGL Game Engine]]
+- [[Three.js]]

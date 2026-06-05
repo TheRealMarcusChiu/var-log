@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Kernel Trick]]
 
 # Kernel Machines - Drawbacks
 - a major drawback to kernel machines is that the cost of evaluating the decision function is linear in the number of training examples (bc the 𝑖<sup>th</sup> example contributes a term 𝛼<sub>𝑖</sub> 𝑘(𝒙,𝒙<sub>𝑖</sub>) to the decision function). SVMs are able to mitigate this by learning an 𝛼 vector that contains mostly zeros, then classifying a new example then requires evaluating the kernel function ONLY for training examples that have non-zero 𝛼<sub>𝑖</sub> (these training examples are known as support vectors)

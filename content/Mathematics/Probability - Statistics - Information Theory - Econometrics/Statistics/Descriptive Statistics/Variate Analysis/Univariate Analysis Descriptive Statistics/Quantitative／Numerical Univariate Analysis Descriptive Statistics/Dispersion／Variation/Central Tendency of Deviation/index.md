@@ -9,8 +9,6 @@ children:
   - "[[Mode Deviation]]"
 ---
 For more details see [[Dispersion／Variation|Dispersion/Variation]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Mean Deviation]]
+- [[Median Deviation]]
+- [[Mode Deviation]]

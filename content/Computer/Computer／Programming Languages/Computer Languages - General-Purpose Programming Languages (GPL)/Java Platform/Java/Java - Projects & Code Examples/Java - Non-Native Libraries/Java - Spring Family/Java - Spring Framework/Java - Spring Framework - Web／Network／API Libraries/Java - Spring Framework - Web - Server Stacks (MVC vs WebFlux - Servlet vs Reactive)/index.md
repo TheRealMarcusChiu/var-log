@@ -11,11 +11,12 @@ children:
   - "[[Java - Spring - Web @Annotations]]"
   - "[[Java - Spring - Webflux]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - CORS Support]]
+- [[Java - Spring - JAX-RS]]
+- [[Java - Spring - MVC]]
+- [[Java - Spring - MVC Async]]
+- [[Java - Spring - Web @Annotations]]
+- [[Java - Spring - Webflux]]
 
 # Spring-MVC+Async vs Spring-WebFlux - Comparisons
 

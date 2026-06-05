@@ -18,8 +18,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Finite-State Automaton／Machine (FSA／FSM)]]
+- [[Finite-State Transducer (FST)]]
+- [[Linear-Bounded Automaton (LBA)]]
+- [[Push-Down／Pushdown Automata (PDA)]]
+- [[Turing Machine (TM)]]

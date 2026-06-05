@@ -11,11 +11,9 @@ children:
 - code: [https://github.com/java-code-examples/jackson-fasterxml-csv-example](https://github.com/java-code-examples/jackson-fasterxml-csv-example)
 
 # 1 - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Jackson - CSV - CsvSchema]]
+- [[Jackson - CSV - Custom NullSerializer]]
+- [[Jackson - CSV - Retrieving List of POJO Field Names and Types as Seen from CsvMapper]]
 
 # 2 - Dependency
 ```

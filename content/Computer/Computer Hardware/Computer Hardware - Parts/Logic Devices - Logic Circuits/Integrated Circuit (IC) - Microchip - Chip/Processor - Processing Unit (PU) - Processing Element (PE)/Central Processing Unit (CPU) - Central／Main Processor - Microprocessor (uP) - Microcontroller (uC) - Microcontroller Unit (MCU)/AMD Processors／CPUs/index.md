@@ -20,11 +20,8 @@ AMD offers two types of processors:
 - [[Accelerated Processing Unit (APU)]] which is just a marketing name that AMD uses for its CPUs that have integrated Radeon graphics
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[CCX CCD (Compute Core CompleX Chiplet Compute Die)]]
+- [[Zen 1,2,3,4,5 + Microarchitecture Processors]]
 
 - [[CPU Sockets - Land／Pin Grid Array (LGA／PGA／ZIF／BGA)|CPU Sockets - Land/Pin Grid Array (LGA/PGA/ZIF/BGA)]]
 

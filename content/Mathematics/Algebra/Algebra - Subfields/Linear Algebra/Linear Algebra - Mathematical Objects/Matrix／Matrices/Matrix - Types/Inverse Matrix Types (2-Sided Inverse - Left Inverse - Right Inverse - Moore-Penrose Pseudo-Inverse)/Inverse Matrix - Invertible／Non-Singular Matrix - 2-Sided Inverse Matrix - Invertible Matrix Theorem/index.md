@@ -19,11 +19,7 @@ The inverse of 𝐴 is defined as:
 - 𝐴<sup>-1</sup> = (1/𝑑𝑒𝑡𝑒𝑟𝑚𝑖𝑛𝑎𝑛𝑡(𝐴)) · 𝐶𝑜𝑓𝑎𝑐𝑡𝑜𝑟-𝑚𝑎𝑡𝑟𝑖𝑥(𝐴)<sup>𝑇</sup>
 
 # Inverse Matrix - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[If AB = I, then BA = I]]
 
 # Inverse Matrix - Invertible Matrix Theorem
 

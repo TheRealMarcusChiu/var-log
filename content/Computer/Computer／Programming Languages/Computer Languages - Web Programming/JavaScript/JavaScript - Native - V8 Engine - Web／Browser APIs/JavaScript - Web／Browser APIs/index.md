@@ -17,8 +17,15 @@ children:
   - "[[JavaScript - WebGPU]]"
   - "[[JavaScript - WebXR]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[JavaScript - Browser Application]]
+- [[JavaScript - Geolocation]]
+- [[JavaScript - Navigator]]
+- [[JavaScript - Web Animations API]]
+- [[JavaScript - Web Audio API]]
+- [[JavaScript - Web Components]]
+- [[JavaScript - Web Real-Time Communication (WebRTC)]]
+- [[JavaScript - Web Speech]]
+- [[JavaScript - Web Worker]]
+- [[JavaScript - WebGL 1 & 2]]
+- [[JavaScript - WebGPU]]
+- [[JavaScript - WebXR]]

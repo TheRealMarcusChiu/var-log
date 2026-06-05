@@ -52,11 +52,8 @@ MLP architecture:
 # Transformer - Timeline of Models
 ![[Transformer Neural Networks (TNN) - Transformers/transformers-timeline-of-models.png|350]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Generative Pre-trained Transformer (GPT)]]
+- [[Positional Encoding Theory]]
 
 # Resources
 - [[Attention Is All You Need.pdf]] - 2017 white paper

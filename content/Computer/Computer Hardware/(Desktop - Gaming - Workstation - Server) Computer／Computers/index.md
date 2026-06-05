@@ -44,8 +44,6 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Desktop／Gaming／Workstation／PC／Computer Builds]]
+- [[Drive／Storage Bay Servers／Computers]]
+- [[Server Computers]]

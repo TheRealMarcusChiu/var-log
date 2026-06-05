@@ -9,8 +9,7 @@ children:
   - "[[Solaris (Oracle Solaris)]]"
   - "[[UNIX System V]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Berkeley Software Distribution (BSD)]]
+- [[Linux]]
+- [[Solaris (Oracle Solaris)]]
+- [[UNIX System V]]

@@ -23,8 +23,4 @@ SoC almost always includes the following on a single substrate or microchip:
 - sometimes [[Graphics Processing Unit (GPU) - Graphics Card|GPU]]
 
 # SoC - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[ESP32]]

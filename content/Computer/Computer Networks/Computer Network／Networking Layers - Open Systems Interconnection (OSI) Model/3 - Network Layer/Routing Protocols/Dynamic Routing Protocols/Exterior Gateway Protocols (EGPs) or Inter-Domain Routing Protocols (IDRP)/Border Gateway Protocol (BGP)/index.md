@@ -24,8 +24,8 @@ children:
 - [[BGP - Secure Variants]]
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[BGP - Packet Format]]
+- [[BGP - Secure Variants]]
+- [[Border Router - BGP Speaker]]
+- [[External BGP (eBGP)]]
+- [[Internal BGP (iBGP)]]

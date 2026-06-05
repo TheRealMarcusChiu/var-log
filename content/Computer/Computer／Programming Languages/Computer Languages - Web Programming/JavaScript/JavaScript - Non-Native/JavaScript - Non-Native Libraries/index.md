@@ -10,8 +10,8 @@ children:
   - "[[Xterm.js - xtermjs]]"
   - "[[Zustand]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Chart.js]]
+- [[D3.js (Data-Driven Documents)]]
+- [[Redux]]
+- [[Xterm.js - xtermjs]]
+- [[Zustand]]

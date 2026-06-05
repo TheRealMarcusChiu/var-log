@@ -64,8 +64,9 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Apple Partition Map (APM)]]
+- [[EFI System Partition (ESP)]]
+- [[GUID Partition Table (GPT)]]
+- [[Master Boot Record (MBR)]]
+- [[Partition IDs／Types]]
+- [[Partition／Volume Boot Record／Sector (VBR)]]

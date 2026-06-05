@@ -6,8 +6,4 @@ parent: "[[Algebra]]"
 children:
   - "[[Fundamental Theorem of Algebra]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Fundamental Theorem of Algebra]]

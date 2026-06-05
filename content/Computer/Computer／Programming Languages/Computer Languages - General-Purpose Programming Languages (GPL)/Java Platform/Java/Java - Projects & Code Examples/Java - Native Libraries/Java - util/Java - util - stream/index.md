@@ -8,11 +8,8 @@ children:
   - "[[Java - Streams - Peek With Filter & FindFirst Behavior]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Streams - Exceptions and Streams]]
+- [[Java - Streams - Peek With Filter & FindFirst Behavior]]
 
 # Examples
 ```

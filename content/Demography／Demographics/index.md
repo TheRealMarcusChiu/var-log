@@ -10,8 +10,4 @@ children:
 - the study of statistics such as births, deaths, income, or the incidence of disease, which illustrate the changing structure of human populations
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Generation Periods (Baby Boomer - Gen X／Y／Z - Millennial)]]

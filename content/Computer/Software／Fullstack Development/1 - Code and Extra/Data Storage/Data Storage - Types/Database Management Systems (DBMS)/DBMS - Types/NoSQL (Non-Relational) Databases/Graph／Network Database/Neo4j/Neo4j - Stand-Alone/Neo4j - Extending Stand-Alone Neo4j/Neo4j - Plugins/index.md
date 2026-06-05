@@ -7,10 +7,7 @@ children:
   - "[[Neo4j - Custom Auth Plugins]]"
   - "[[Neo4j - Custom Plugin]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Neo4j - Custom Auth Plugins]]
+- [[Neo4j - Custom Plugin]]
 
 - [[Neo4j - Kafka Connect Plugin]]

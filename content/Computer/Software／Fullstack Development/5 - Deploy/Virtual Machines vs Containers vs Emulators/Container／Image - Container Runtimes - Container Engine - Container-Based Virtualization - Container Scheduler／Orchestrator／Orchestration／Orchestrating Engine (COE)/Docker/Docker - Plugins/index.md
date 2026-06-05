@@ -40,8 +40,4 @@ Remove plugin
 - [https://docs.docker.com/engine/extend/#developing-a-plugin](https://docs.docker.com/engine/extend/#developing-a-plugin)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Docker - Plugins - vieux／sshfs]]

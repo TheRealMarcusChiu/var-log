@@ -6,8 +6,4 @@ parent: "[[Artificial Intelligence (AI) - Cognitive Computing - Machine Intellig
 children:
   - "[[AI - A Modern Approach - Summaries]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[AI - A Modern Approach - Summaries]]

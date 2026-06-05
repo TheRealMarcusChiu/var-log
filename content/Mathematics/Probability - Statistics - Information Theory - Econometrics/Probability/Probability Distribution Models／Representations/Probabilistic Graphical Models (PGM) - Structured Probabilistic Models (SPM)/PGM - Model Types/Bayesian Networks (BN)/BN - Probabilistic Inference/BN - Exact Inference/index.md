@@ -9,11 +9,8 @@ children:
 ---
 see: [[BN - Exact Inference]]
 ## Exact Inference Algorithms
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[BN - Exact Inference - Clustering Algorithms]]
+- [[BN - Exact Inference - Inference By Enumeration & Variable Elimination]]
 
 ## Complexity of Exact Inference on Bayesian Networks
 

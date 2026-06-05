@@ -57,8 +57,4 @@ The most significant categories of [[Java Virtual Machine (JVM)|JVM]] memory a
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Stack Memory & Heap Space]]

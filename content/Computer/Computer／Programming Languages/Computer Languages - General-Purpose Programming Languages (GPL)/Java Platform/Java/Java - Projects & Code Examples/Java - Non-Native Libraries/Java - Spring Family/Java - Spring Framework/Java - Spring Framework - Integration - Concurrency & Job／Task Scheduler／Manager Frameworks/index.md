@@ -11,8 +11,8 @@ children:
   - "[[Java - Spring - TaskExecutor & TaskScheduler]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Enabling Async (@EnableAsync - @Async)]]
+- [[Java - Spring - Enabling Scheduling (@EnableScheduling - @Scheduled - @Schedules)]]
+- [[Java - Spring - ListenableFuture]]
+- [[Java - Spring - Quartz Scheduler]]
+- [[Java - Spring - TaskExecutor & TaskScheduler]]

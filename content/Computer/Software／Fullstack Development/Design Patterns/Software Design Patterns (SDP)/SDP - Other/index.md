@@ -8,8 +8,6 @@ children:
   - "[[Repository Design Pattern]]"
   - "[[Software Design Patterns vs Performance／Efficiency]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Data Access Object (DAO) Layer]]
+- [[Repository Design Pattern]]
+- [[Software Design Patterns vs Performance／Efficiency]]

@@ -8,11 +8,8 @@ children:
   - "[[Plastic Recycling Symbols (# 1 2 3 4 5 6 7)]]"
 ---
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[How to Give a Gift]]
+- [[Plastic Recycling Symbols (# 1 2 3 4 5 6 7)]]
 
 # How Car Dealership Rip You Off
 # ![](https://www.youtube.com/watch?v=1gtmij_uNuE)

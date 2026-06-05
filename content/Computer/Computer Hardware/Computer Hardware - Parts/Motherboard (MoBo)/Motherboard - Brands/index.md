@@ -9,11 +9,10 @@ children:
   - "[[GIGABYTE MZ73-LM1 Motherboard]]"
   - "[[N100-based Motherboards]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[EPYC Motherboards]]
+- [[Fujitsu Motherboards]]
+- [[GIGABYTE MZ73-LM1 Motherboard]]
+- [[N100-based Motherboards]]
 
 - ASUS Motherboards
 - EVGA Motherboards

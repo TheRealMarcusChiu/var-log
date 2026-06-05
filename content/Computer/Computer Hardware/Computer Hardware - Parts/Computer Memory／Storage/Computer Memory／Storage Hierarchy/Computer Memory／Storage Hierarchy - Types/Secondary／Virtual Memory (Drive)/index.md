@@ -148,8 +148,6 @@ children:
 }
 ```
 # Commands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Drive - Device - Disk - Disc - Commands]].file.folder + "/" + [[Drive - Device - Disk - Disc - Commands]].file.name
-```
+- [[Creating a Filesystem Partition (NTFS)]]
+- [[Disk Performance]]
+- [[／etc／fstab - ／etc／mtab - Auto-Mount Device]]

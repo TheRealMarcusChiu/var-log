@@ -17,8 +17,8 @@ children:
 ^excerpt
 
 # Single-Variable Function - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Gamma Function]]
+- [[Hash Function - Hashing]]
+- [[Power／Exponential Function - Logistic Function]]
+- [[Soft-Arg-Max／Argmax Function - Softmax Function]]
+- [[Softplus Function]]

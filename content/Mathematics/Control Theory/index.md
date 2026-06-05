@@ -19,7 +19,7 @@ children:
 {
   "rows": [
     [
-      "```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```",
+      "- [[Kalman Filter - Linear Quadratic Estimation (LQE)]]",
       "![[Control Theory/map-of-control-theory.jpeg|700]]"
     ]
   ]

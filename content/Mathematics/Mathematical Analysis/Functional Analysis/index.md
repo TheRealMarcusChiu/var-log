@@ -15,11 +15,8 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Singular Values (s-numbers)]]
+- [[Spectral Theorem／Theory]]
 
 # Resources
 - [The Bright Side of Mathematics - Lecture Series](https://www.youtube.com/playlist?list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr)

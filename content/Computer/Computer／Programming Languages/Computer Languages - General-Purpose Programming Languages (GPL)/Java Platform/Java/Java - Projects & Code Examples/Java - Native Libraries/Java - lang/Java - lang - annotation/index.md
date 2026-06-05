@@ -7,8 +7,5 @@ children:
   - "[[Java - @FunctionalInterface]]"
   - "[[Java - Creating Custom @Annotation]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - @FunctionalInterface]]
+- [[Java - Creating Custom @Annotation]]

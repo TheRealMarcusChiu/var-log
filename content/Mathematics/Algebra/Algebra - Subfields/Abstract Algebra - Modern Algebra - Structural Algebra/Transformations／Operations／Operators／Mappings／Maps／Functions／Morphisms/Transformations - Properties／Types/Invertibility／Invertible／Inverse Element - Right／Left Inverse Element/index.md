@@ -28,8 +28,4 @@ then:
 - 𝑦 is the <strong><em>right inverse</em></strong> of 𝑥
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Generalized Inverse - G-Inverse Element]]

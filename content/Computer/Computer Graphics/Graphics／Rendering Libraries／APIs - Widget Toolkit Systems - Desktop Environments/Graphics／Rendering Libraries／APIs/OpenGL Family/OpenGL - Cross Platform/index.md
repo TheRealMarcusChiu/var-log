@@ -7,8 +7,5 @@ children:
   - "[[GLFW (Graphics Library FrameWork)]]"
   - "[[GLUT (OpenGL Utility Toolkit)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[GLFW (Graphics Library FrameWork)]]
+- [[GLUT (OpenGL Utility Toolkit)]]

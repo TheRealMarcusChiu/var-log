@@ -104,8 +104,6 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Addition - Multiplication - Exponentiation - Tetration - Knuth's Up-Arrow Notation]]
+- [[Arithmetic Product／Multiplication (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)]]
+- [[Arithmetic Sum／Summation／Addition (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)]]

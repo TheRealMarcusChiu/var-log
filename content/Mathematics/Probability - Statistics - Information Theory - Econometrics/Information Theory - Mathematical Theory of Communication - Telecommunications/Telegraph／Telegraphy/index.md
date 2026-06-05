@@ -10,8 +10,4 @@ children:
 - a [[Information Theory - Mathematical Theory of Communication - Telecommunications|communication system]] for transmitting messages from a distance along a wire, especially one creating signals by making and breaking an electrical connection
 
 # Codes
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Morse Code]]

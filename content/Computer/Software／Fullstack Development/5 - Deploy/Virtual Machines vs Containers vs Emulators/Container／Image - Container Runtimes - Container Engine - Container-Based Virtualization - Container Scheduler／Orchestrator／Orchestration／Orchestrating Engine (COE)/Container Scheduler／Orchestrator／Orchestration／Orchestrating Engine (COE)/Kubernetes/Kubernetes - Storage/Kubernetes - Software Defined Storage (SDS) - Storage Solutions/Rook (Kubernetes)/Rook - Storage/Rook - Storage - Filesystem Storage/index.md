@@ -142,8 +142,4 @@ see: [https://rook.github.io/docs/rook/latest-release/Storage-Configuration/Shar
 > kubectl apply -f dashy-service-load-balancer.yml
 > ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Rook - Storage - Filesystem Mirroring]]

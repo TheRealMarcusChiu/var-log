@@ -12,8 +12,10 @@ children:
   - "[[NTFS - Files With Zeros]]"
   - "[[NTFS - Recycle Bin]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[NTFS - Compressed／Compression Files]]
+- [[NTFS - Data Streams]]
+- [[NTFS - Deleting From Command Prompt]]
+- [[NTFS - Directories]]
+- [[NTFS - Encrypting File System (EFS)]]
+- [[NTFS - Files With Zeros]]
+- [[NTFS - Recycle Bin]]

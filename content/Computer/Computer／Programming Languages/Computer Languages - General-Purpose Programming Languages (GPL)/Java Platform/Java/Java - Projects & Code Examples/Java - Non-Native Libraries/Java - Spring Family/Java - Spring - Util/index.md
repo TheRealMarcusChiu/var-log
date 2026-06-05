@@ -6,8 +6,4 @@ parent: "[[Java - Spring Family]]"
 children:
   - "[[Java - Spring Util - Ant-Style Paths (AntPathMatcher)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring Util - Ant-Style Paths (AntPathMatcher)]]

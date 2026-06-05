@@ -12,8 +12,6 @@ children:
 - used for programmatic initialization of the [[Java - Spring - ApplicationContext - WebApplicationContext|application context]] (e.g. registering property sources or activating profiles with the context environment)
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - ApplicationContextInitializer - How to Register a Custom ApplicationContextInitializer]]
+- [[Java - Spring - ApplicationContextInitializer - JUnit Test]]
+- [[Java - Spring - ApplicationContextInitializer - Simple Example]]

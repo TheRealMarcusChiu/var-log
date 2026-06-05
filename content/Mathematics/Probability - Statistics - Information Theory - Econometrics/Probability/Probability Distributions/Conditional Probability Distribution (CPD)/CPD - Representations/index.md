@@ -10,8 +10,8 @@ children:
   - "[[Noisy-OR Model as CPD]]"
   - "[[Tree Conditional Probability Distribution (CPD)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Conditional Probability Table (CPT)]]
+- [[Deterministic CPD]]
+- [[Generalized Linear Model as CPD]]
+- [[Noisy-OR Model as CPD]]
+- [[Tree Conditional Probability Distribution (CPD)]]

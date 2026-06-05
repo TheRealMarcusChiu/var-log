@@ -40,11 +40,7 @@ Since revision r1648, <em>[[airodump-ng]]</em> can receive and interpret keystro
 
 If an AP is selected or marked, all the connected stations will also be selected or marked with the same color as the corresponding Access Point.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[airodump-ng - With GPS Coordinates]]
 
 # Resources
 - [https://www.aircrack-ng.org/doku.php?id=airodump-ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng)

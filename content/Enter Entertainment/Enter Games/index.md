@@ -9,8 +9,5 @@ children:
 ---
 - [[Video Games]]
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+> - [[Boardgames Cardgames]]
+> - [[Online Games]]

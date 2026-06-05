@@ -9,8 +9,5 @@ children:
 ---
 TODO: [https://www.baeldung.com/spring-data-annotations](https://www.baeldung.com/spring-data-annotations)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Data - @RepositoryRestResource]]
+- [[Java - SpringBoot - @EntityScan]]

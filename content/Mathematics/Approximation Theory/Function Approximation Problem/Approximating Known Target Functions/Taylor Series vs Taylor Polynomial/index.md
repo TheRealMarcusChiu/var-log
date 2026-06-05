@@ -119,10 +119,11 @@ where:
 }
 ```
 # Taylor Series/Polynomial - Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Euler's Equation／Formula]]
+- [[Maclaurin Series vs Maclaurin Polynomial]]
+- [[Taylor Series Expansion of Cosine Function]]
+- [[Taylor Series Expansion of Euler's Equation／Formula]]
+- [[Taylor Series Expansion of Exponential Function]]
+- [[Taylor Series Expansion of Sine Function]]
 
 ![](https://www.youtube.com/watch?v=3d6DsjIBzJ4)

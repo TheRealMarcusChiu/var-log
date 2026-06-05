@@ -221,11 +221,14 @@ The idea is to group the code within a single test into 3 parts. Which somewhat 
 > }
 > ```
 # <strong>4 - Other</strong>
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Load Testing]]
+- [[Programming Mistake Detector (PMD)]]
+- [[SonarQube - Sonar]]
+- [[Test Doubles (Dummy - Fake - Stub - Spy - Mock)]]
+- [[Test Driven Development (TDD) - Red-Green Refactor - Test-First Programming]]
+- [[Testing Pyramids - Ice-Cream Cone]]
+- [[TestInvariant - Invariant Testing]]
+- [[Web Application Test Frameworks]]
 
 - [https://martinfowler.com/tags/testing.html](https://martinfowler.com/tags/testing.html)
 - [[Microservices Architecture - Testing]]

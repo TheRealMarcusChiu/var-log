@@ -11,11 +11,8 @@ children:
 - is a [[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)|type-2 hypervisor]] for [[x86 x64 (x86-16, x86-32, x86-64)|x86 hardware]]
 
 # General
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[VirtualBox - Connecting USB NIC Device]]
+- [[VirtualBox - Exposing Guest Machine Ports to Host Machine]]
 
 # Setup Guides
 

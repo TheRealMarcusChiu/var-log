@@ -15,11 +15,7 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[SD Card - Application Performance Class (A1 - A2)]]
 
 # Resources
 - [https://www.sdcard.org/developers/sd-standard-overview](https://www.sdcard.org/developers/sd-standard-overview)

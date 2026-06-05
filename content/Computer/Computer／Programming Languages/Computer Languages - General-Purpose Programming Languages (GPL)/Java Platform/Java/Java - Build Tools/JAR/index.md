@@ -12,8 +12,4 @@ children:
 - are built on the ZIP format and typically have a .jar file extension
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Create & Build JAR in IntelliJ]]

@@ -7,8 +7,5 @@ children:
   - "[[Prove dx dy = r dr dθ]]"
   - "[[Why dx squared (dx)² = 0？]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Prove dx dy = r dr dθ]]
+- [[Why dx squared (dx)² = 0？]]

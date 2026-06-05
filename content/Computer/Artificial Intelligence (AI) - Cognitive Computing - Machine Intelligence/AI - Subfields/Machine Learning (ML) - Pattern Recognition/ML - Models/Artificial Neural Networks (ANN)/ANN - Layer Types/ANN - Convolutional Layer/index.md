@@ -62,8 +62,4 @@ where:
 - 𝑆 - stride length
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Feature Maps - Activation Maps]]

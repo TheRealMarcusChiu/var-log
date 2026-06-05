@@ -41,8 +41,6 @@ to estimate 𝑘 parameters, equate the first 𝑘 population and sample momen
 
 On rare occasions, when 𝑘 equations are not enough to estimate 𝑘 parameters, we’ll consider higher moments
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[MOME - Exponential Distribution]]
+- [[MOME - Gamma Distribution]]
+- [[MOME - Poisson Distribution]]

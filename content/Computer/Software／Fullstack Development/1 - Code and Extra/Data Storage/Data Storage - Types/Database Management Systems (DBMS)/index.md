@@ -53,18 +53,16 @@ children:
 
 ![[DBMS - Type Comparisons#^excerpt]]
 # DBMS Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[DBMS - Other]].file.folder + "/" + [[DBMS - Other]].file.name
-```
+- [[Database Index Types (Simple - Primary - Unique - Composite／Compound／Concatenated／Federated) Index]]
+- [[Database Key Types (Candidate - Primary - Alternate - Unique - Composite／Compound／Concatenated／Federated - Super - Foreign) Key]]
+- [[DBMS Query Types - Online Transaction Processing (OLTP) - Online Analytical Processing (OLAP)]]
+- [[Open Database Connectivity (ODBC)]]
+- [[Schema-on-Read vs Schema-on-Write]]
 
 # DBMS Refactoring & Versioning
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[DBMS - Refactoring／Versioning／Migration Tools]].file.folder + "/" + [[DBMS - Refactoring／Versioning／Migration Tools]].file.name
-```
+- [[Flyway]]
+- [[Liquibase]]
+- [[Liquigraph]]
 
 # DBMS IDE
 - <strong>Studio3T</strong> (for [[MongoDB]]) - [https://studio3t.com/](https://studio3t.com/)

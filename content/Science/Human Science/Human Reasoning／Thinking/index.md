@@ -8,8 +8,6 @@ children:
   - "[[Human Reasoning／Thinking - Types]]"
   - "[[Thinking Fast and Slow - Daniel Kahneman]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Human Reasoning／Thinking - Methodologies]]
+- [[Human Reasoning／Thinking - Types]]
+- [[Thinking Fast and Slow - Daniel Kahneman]]

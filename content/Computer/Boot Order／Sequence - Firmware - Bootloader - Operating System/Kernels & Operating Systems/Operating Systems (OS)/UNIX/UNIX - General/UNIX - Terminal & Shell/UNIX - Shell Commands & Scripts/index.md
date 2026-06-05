@@ -12,15 +12,9 @@ children:
 
 ![[UNIX - Shell Commands#^excerpt]]
 ### [[UNIX - Shell Scripts|Shell Scripts]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[UNIX - Shell Scripts]].file.folder + "/" + [[UNIX - Shell Scripts]].file.name
-```
+- [[Creating Scripts]]
+- [[shc - Obfuscating Scripts]]
 
 ### [[UNIX - Shell Special Symbols|Shell Special Symbols]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[UNIX - Shell Special Symbols]].file.folder + "/" + [[UNIX - Shell Special Symbols]].file.name
-```
+- [[Multi Oneline Commands (Executing Multiple Commands in a Single Line)]]
+- [[UNIX - Command Redirection]]

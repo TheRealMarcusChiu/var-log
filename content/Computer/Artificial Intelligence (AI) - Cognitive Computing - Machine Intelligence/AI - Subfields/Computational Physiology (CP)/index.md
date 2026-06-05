@@ -14,8 +14,4 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Evaluating Smartphone-based User Interface Designs for a 2D Psychological Questionnaire]]

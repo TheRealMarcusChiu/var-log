@@ -17,11 +17,7 @@ children: []
 	- example finite basis \#1 {1, 𝑥, 𝑥<sup>2</sup>, ..., 𝑥<sup>𝑘</sup>} <font style="color: rgb(122,134,154);">\# "standard basis"</font>
 	- example finite basis \#2 {4, 6𝑥, 1𝑥<sup>2</sup>, ..., 2𝑥<sup>𝑘</sup>}
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+
 
 # Subpages
 - [[Vector Spaces - Finite vs Infinite Dimensions]]

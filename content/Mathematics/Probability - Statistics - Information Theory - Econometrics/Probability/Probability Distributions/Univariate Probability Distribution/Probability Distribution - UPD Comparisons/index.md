@@ -58,8 +58,11 @@ children:
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Binomial Distribution Special Cases - (Poisson Distribution and Normal Distribution)]]
+- [[Binomial Distribution vs Poisson Distribution]]
+- [[Continuity Correction - Approximating Discrete Distribution with Continuous Distribution]]
+- [[Gamma Distribution vs Poisson Distribution]]
+- [[Geometric Distribution vs Binomial Distribution]]
+- [[Geometric Distribution vs Negative Binomial Distribution]]
+- [[Negative Binomial Distribution vs Binomial Distribution]]
+- [[Poisson vs Exponential]]

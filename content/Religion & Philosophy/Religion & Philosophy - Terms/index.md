@@ -17,10 +17,17 @@ children:
   - "[[Religious Buildings]]"
   - "[[Sect vs Denomination]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[4 Cardinal Virtues]]
+- [[Immanence v Transcendence]]
+- [[Inclusivism vs Exclusivism]]
+- [[Individualism - Collectivism]]
+- [[Moral]]
+- [[Natalism vs Antinatalism]]
+- [[Orthopraxy vs Orthodoxy]]
+- [[Phenomenon - Noumenon]]
+- [[Pilgrimage]]
+- [[Positive Law - Natural Law]]
+- [[Religious Buildings]]
+- [[Sect vs Denomination]]
 
 - [[Consciousness|consciousness]]

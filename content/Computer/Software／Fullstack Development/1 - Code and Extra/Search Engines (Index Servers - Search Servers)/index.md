@@ -23,8 +23,5 @@ children:
 
 these 3 steps require some knowledge about [[Natural Language Processing (NLP) - Computational Linguistics]] and [[Linguistics]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Search Engines - Types]]
+- [[Search Servers]]

@@ -6,8 +6,4 @@ parent: "[[(OR & AND／OR) Seach-Space - Tree - Graph]]"
 children:
   - "[[Branch & Bound (B&B) Search]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Branch & Bound (B&B) Search]]

@@ -17,8 +17,6 @@ children:
 ^excerpt
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[OpenZFS]]
+- [[ZFS - How to Add New Drives into Existing ZPool in Mirror Mode]]
+- [[ZFS - VDEV Configurations (Striped／Stripe - Mirrored／Mirror - RAIDZ／RAIDZ1／RAIDZ2／RAIDZ3)]]

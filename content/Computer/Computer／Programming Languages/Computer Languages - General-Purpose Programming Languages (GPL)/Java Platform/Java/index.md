@@ -27,11 +27,12 @@ children:
 - [[Java - Installation (JDK - JRE - JVM - JE - JSE - JEE - JME)|Java Installation & Setup (JDK - JRE - JVM - JSE)]]
 
 # Java Underneath
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Java - Underneath]].file.folder + "/" + [[Java - Underneath]].file.name
-```
+- [[Java - Autoboxing & Unboxing]]
+- [[Java - CLASSPATH vs PATH]]
+- [[Java - JVM Garbage Collector／Collection (GC)]]
+- [[Java - Memory Space]]
+- [[Java - Pass-by-Reference or Pass-by-Value]]
+- [[Java Virtual Machine (JVM)]]
 
 # Java Extras
 - [[Java - Binary Tools]]
@@ -42,11 +43,10 @@ WHERE file.folder = [[Java - Underneath]].file.folder + "/" + [[Java - Underneat
 - [[Java Object Layout (JOL)]]
 
 # Java Code Examples & Projects
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Java - Projects & Code Examples]].file.folder + "/" + [[Java - Projects & Code Examples]].file.name
-```
+- [[Java - Design Patterns]]
+- [[Java - JDK Enhancement Proposals JEP]]
+- [[Java - Native Libraries]]
+- [[Java - Non-Native Libraries]]
 
 # Java Textbooks
 - [Joshua Bloch - Effective Java (3rd) - 2018.pdf](https://github.com/muhdkhokhar/test/blob/master/Joshua%20Bloch%20-%20Effective%20Java%20(3rd)%20-%202018.pdf)

@@ -18,8 +18,8 @@ children:
 
 list of [emotions](https://drjonicewebb.com/the-book/)
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Author's Emotion vs Reader's Emotion]]
+- [[Fear Shyness Courage - Shame]]
+- [[Love]]
+- [[Plutchik Wheel (Wheel of Emotions)]]
+- [[Theories of Emotion]]

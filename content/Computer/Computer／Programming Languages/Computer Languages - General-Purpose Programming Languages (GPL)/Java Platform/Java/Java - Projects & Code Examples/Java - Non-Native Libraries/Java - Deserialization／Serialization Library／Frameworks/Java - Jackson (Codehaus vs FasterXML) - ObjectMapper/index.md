@@ -27,8 +27,9 @@ The reason is, Jackson has moved from Codehaus to Github when releasing Jackson 
 
 See [here](https://github.com/FasterXML/jackson-docs/wiki/Presentation-Jackson-2.0) for details
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Jackson - CSV]]
+- [[Jackson - ObjectMapper - Custom Null Serializer]]
+- [[Jackson - ObjectMapper - Custom Serializer (for Base Data Types)]]
+- [[Jackson - ObjectMapper - Custom Serializer (for Complex Data Types)]]
+- [[Jackson - ObjectMapper - POJO Outside Our Control]]
+- [[Jackson Annotations - @JsonIgnoreProperties]]

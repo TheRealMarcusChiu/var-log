@@ -13,11 +13,7 @@ children:
 ^excerpt
 
 # String Processing Algorithms - Categories
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[String-Searching／Matching Algorithms]]
 
 - String Manipulation Algorithms
 - String Sorting algorithms

@@ -46,8 +46,5 @@ Hive allows writing applications in various languages, including Java, Python, a
 ![[Hive/hive-architecture.png|400]]
 
 [[hive architecture.drawio]]
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hive - Installation]]
+- [[Hive - Server Installation]]

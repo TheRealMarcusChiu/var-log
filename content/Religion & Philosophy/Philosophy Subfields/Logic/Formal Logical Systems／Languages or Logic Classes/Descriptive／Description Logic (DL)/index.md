@@ -36,8 +36,4 @@ And(Man, AtLeast(3,Son), AtMost(2,Daughter),
     All(Daughter, And(Professor, Fills(Department, Physics, Math))))
 ```
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Ontology Languages]]

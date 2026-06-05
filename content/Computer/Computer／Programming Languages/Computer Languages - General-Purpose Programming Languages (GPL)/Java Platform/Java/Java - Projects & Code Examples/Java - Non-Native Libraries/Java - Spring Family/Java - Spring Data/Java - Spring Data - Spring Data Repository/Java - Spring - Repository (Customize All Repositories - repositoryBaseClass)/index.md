@@ -8,11 +8,8 @@ children:
   - "[[Java - Spring - Repository (Customize All Repositories) SimpleNeo4jRepositpry]]"
 ---
 # Example RepositoryBaseClass for Different Spring Data Modules
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - Repository (Customize All Repositories) SimpleJpaRepository]]
+- [[Java - Spring - Repository (Customize All Repositories) SimpleNeo4jRepositpry]]
 
 # To Autowire Within RepositoryBaseClass
 

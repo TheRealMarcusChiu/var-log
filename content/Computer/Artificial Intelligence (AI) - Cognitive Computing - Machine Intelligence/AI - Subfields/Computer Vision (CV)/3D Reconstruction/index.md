@@ -16,11 +16,17 @@ children:
   - "[[Structure from Motion (SfM)]]"
   - "[[TriSplat]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[3D Gaussian Splatting (3DGS)]]
+- [[3D Triangle Splatting (3DTS)]]
+- [[4D Gaussian Splatting (4DGS) - Dynamic Gaussian Splatting]]
+- [[COLMAP]]
+- [[MapAnything]]
+- [[Multi-View Stereo (MVS)]]
+- [[Neural Radiance Fields (NeRFs)]]
+- [[Radiance Fields]]
+- [[Sparse Voxels Rasterization (SVRaster)]]
+- [[Structure from Motion (SfM)]]
+- [[TriSplat]]
 
 # Demos
 - [https://superspl.at/](https://superspl.at/)

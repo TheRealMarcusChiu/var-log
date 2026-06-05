@@ -27,8 +27,6 @@ a mixed distribution modeled with 3 [[Univariate Normal／Gaussian／Gauss／Lap
 
 ![[Mixture／Mixed／Multi Model Probability Distribution/Skewness-Resulting-from-Mixing-Normal-Distributions-with-Different-Mean-Values.png]]
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Boltzmann／Gibbs Distribution]]
+- [[Gaussian／Normal Mixture Distribution／Model／Process (GMM／NMM) - Bimodal／Trimodal／Multimodal]]
+- [[Maxwell-Boltzmann Distribution]]

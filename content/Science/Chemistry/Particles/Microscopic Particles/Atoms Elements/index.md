@@ -24,8 +24,5 @@ an <strong>atom</strong> is the smallest constituent unit of ordinary matter tha
 	- other nonmetals
 
 ### Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Atomic Mass - Atomic Number - Atomic Weight]]
+- [[Periodic Tables]]

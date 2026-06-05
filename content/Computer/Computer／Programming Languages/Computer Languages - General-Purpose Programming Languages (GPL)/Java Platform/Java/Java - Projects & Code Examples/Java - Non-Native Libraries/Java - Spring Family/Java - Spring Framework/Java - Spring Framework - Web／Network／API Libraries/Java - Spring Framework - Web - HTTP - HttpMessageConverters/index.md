@@ -8,8 +8,4 @@ children:
 ---
 TODO - [https://www.baeldung.com/spring-httpmessageconverter-rest](https://www.baeldung.com/spring-httpmessageconverter-rest)
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - HTTP - YAML HttpMessageConverters]]

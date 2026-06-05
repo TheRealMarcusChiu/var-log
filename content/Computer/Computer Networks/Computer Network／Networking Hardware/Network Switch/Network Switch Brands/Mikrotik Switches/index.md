@@ -9,8 +9,7 @@ children:
   - "[[MikroTik CRS812 DDQ]]"
   - "[[Mikrotik CRS504-4XQ-IN]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Mikrotik CRS504-4XQ-IN]]
+- [[MikroTik CRS510-8XS-2XQ-IN]]
+- [[MikroTik CRS520-4XS-16XQ-RM]]
+- [[MikroTik CRS812 DDQ]]

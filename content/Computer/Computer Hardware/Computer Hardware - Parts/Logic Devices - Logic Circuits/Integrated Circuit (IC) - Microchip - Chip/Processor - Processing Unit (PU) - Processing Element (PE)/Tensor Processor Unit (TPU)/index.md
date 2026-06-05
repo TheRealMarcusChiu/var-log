@@ -20,8 +20,4 @@ A TPU is a co-processor, it cannot execute code in its own right, all code execu
 # TPU vs GPU
 The main difference is that TPUs are cheaper and use a lot less power, and can thus complete really large prediction jobs cheaper than GPUs, or make it simpler to use prediction in a low-latency service.
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[TPU8t TPU8i]]

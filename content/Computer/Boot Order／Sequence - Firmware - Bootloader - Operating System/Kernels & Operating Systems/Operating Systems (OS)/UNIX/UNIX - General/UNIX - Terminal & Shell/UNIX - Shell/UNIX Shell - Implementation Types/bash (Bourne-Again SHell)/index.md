@@ -24,8 +24,4 @@ children:
 - integer arithmetic in any base from two to sixty-four
 
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[.bash_profile vs .bashrc]]

@@ -19,8 +19,4 @@ public class MainApplication {
 }
 ```
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Java - Spring - @EnableAutoConfiguration - Excluding Select AutoConfiguration Classes]]

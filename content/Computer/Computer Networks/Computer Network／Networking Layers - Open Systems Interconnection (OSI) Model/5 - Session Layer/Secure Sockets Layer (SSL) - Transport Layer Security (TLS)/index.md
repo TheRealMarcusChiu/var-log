@@ -33,8 +33,4 @@ children:
 - online SSL/TLS server test - [https://www.ssllabs.com/ssltest/](https://www.ssllabs.com/ssltest/)
 
 # SSL/TLS - Attacks
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[SSL／TLS - Attacks]].file.folder + "/" + [[SSL／TLS - Attacks]].file.name
-```
+- [[SSL Stripping]]

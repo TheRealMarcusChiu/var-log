@@ -6,8 +6,4 @@ parent: "[[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measure
 children:
   - "[[R-Squared vs Standard Error of the Regression]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[R-Squared vs Standard Error of the Regression]]

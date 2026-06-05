@@ -9,8 +9,7 @@ children:
   - "[[Least Squares Estimate vs Instrumental Variables Estimate]]"
   - "[[MLE vs MAP]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Instrumental Variable Estimate vs 2 Stage Least Squares Estimate]]
+- [[Instrumental Variable Estimate vs Ordinary Least Squares Estimate]]
+- [[Least Squares Estimate vs Instrumental Variables Estimate]]
+- [[MLE vs MAP]]

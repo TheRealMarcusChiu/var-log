@@ -6,8 +6,4 @@ parent: "[[Computer Hacking Toolbox]]"
 children:
   - "[[Hackers Testifying at the United States Senate, May 19, 1998 (L0pht Heavy Industries)]]"
 ---
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[Hackers Testifying at the United States Senate, May 19, 1998 (L0pht Heavy Industries)]]

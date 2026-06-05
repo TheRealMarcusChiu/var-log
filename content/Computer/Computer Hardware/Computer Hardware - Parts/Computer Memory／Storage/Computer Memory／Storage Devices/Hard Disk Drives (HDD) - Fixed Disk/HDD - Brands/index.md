@@ -12,8 +12,9 @@ children:
   - "[[Western Digital (WD) HDD Lineup]]"
 ---
 # Internal HDD Brands
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+- [[HDD Failure Rate Analysis - Best 10TB+ Hard Drives： Seagate, Western Digital or Toshiba]]
+- [[Hitachi Global Storage Technologies (HGST) HDD Lineup]]
+- [[Seagate HDD Lineup]]
+- [[Synology HDD Lineup]]
+- [[Toshiba HDD Lineup]]
+- [[Western Digital (WD) HDD Lineup]]
