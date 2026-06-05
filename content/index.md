@@ -11,6 +11,7 @@ children:
 
 érgon ("work") is a deed (action) that carries out (completes) an inner desire (intension, purpose)
 you don't get commended for your deed but for your inner intention
+
 # Recently Updated
 ```dataview
 LIST
