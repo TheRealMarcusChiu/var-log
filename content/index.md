@@ -1,7 +1,7 @@
 ---
 title: "／var／log"
 created: 2019-03-14T23:45:31.550-05:00
-modified: 2026-06-03T09:44:43.919-05:00
+modified: 2026-06-05T18:03:53.329-05:00
 children:
   - "[[Curricular]]"
   - "[[Extra-Curricular]]"
@@ -11,19 +11,3 @@ children:
 
 érgon ("work") is a deed (action) that carries out (completes) an inner desire (intension, purpose)
 you don't get commended for your deed but for your inner intention
-# Recently Updated
-- [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate]]
-- [[Raspberry Pi - Hadoop Cluster]]
-- [[Probabilistic Inference - Algorithms]]
-- [[Probability Terminology]]
-- [[Probability Definition]]
-- [[Probability Distribution Models／Representations]]
-- [[Probability Distributions]]
-- [[Probabilistic Inference]]
-- [[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate]]
-- [[／var／log]]
-- [[Quotes]]
-- [[Obsidian Flavored Markdown (OFM)]]
-- [[TriSplat]]
-- [[Mellanox ConnectX Series]]
-- [[45Drives - 45HomeLab - HL15 Beast]]
