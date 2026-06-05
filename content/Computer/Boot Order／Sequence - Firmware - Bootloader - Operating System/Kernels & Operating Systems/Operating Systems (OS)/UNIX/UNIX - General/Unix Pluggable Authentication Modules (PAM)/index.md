@@ -1,11 +1,12 @@
 ---
-title: "Unix Pluggable Authentication Modules (PAM)"
+publish: true
+title: Unix Pluggable Authentication Modules (PAM)
 created: 2023-02-19T16:56:28.629-06:00
 modified: 2023-02-19T16:59:02.444-06:00
-parent: "[[UNIX - General]]"
-children: []
 ---
+
 ###### Unix Pluggable Authentication Modules (PAM)
+
 - is a mechanism to integrate multiple low-level authentication schemes into a high-level API
 - PAM allows programs that rely on authentication to be written independently of the underlying authentication scheme
 - it was first proposed by Sun Microsystems in an Open Software Foundation Request for Comments (RFC) 86.0 dated October 1995

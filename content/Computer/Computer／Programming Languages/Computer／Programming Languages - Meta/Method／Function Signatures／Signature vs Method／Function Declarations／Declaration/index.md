@@ -1,12 +1,13 @@
 ---
-title: "Method／Function Signatures／Signature vs Method／Function Declarations／Declaration"
+publish: true
+title: Method／Function Signatures／Signature vs Method／Function Declarations／Declaration
 created: 2022-05-14T18:41:06.257-05:00
 modified: 2022-06-20T04:13:40.002-05:00
-parent: "[[Computer／Programming Languages - Meta]]"
-children: []
 ---
+
 - <strong>method/function signature</strong> is comprised of ONLY the name and parameter types
 - <strong>method/function declaration</strong> includes the method signature, modifiers, return type, parameter names, exception list, and body
+
 ```merge-table
 {
   "rows": [

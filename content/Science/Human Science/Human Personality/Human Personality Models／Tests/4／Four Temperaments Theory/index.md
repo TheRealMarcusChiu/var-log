@@ -1,16 +1,17 @@
 ---
-title: "4／Four Temperaments Theory"
+publish: true
+title: 4／Four Temperaments Theory
 created: 2021-12-20T16:17:23.297-06:00
 modified: 2021-12-20T16:26:21.339-06:00
-parent: "[[Human Personality Models／Tests]]"
-children: []
 ---
+
 ###### 4/Four Temperaments Theory
+
 - is a Greek proto-psychological personality theory that suggests that there are 4 fundamental personality types:
-	- sanguine
-	- choleric
-	- melancholic
-	- phlegmatic
+  - sanguine
+  - choleric
+  - melancholic
+  - phlegmatic
 - similar to humourism
 
 # 4 Fundamental Personality Types

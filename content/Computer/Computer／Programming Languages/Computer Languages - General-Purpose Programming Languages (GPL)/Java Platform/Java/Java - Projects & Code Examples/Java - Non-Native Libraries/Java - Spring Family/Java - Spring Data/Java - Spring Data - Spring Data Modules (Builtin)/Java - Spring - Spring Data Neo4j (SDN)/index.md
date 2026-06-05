@@ -1,15 +1,16 @@
 ---
-title: "Java - Spring - Spring Data Neo4j (SDN)"
+publish: true
+title: Java - Spring - Spring Data Neo4j (SDN)
 created: 2020-11-29T20:00:52.859-06:00
 modified: 2023-07-21T15:13:34.064-05:00
-parent: "[[Java - Spring Data - Spring Data Modules (Builtin)]]"
-children:
-  - "[[Spring Data Neo4j (SDN) 5 - Custom Complex @Query Auto-Map POJO Objects]]"
 ---
+
 ###### Spring Data Neo4j (SDN)
-````excerpt
+
+```excerpt
 - is a [[Java - Spring Data - Spring Data Modules (Builtin)|Spring Data Module]] used to communicate with a [[Neo4j]] database
-````
+```
+
 ^excerpt
 
 # SDN5 vs SDN6 - Java Libraries Structure
@@ -56,6 +57,7 @@ children:
   ]
 }
 ```
+
 # SDN5 vs SDN6
 
 ```merge-table
@@ -80,13 +82,10 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Code Examples
-- [https://github.com/SpringBootMarcusChiu/neo4j-example](https://github.com/SpringBootMarcusChiu/neo4j-example)
-- [https://www.codota.com/code/java/classes/org.neo4j.ogm.session.Neo4jSession](https://www.codota.com/code/java/classes/org.neo4j.ogm.session.Neo4jSession)
+
+- <https://github.com/SpringBootMarcusChiu/neo4j-example>
+- <https://www.codota.com/code/java/classes/org.neo4j.ogm.session.Neo4jSession>

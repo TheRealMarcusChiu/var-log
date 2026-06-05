@@ -1,10 +1,10 @@
 ---
-title: "zsh dotfiles (.zshenv .zprofile .zshrc .zlogin .zlogout)"
+publish: true
+title: zsh dotfiles (.zshenv .zprofile .zshrc .zlogin .zlogout)
 created: 2020-06-29T15:54:29.167-05:00
 modified: 2020-06-29T15:58:15.750-05:00
-parent: "[[zsh (Z SHell)]]"
-children: []
 ---
+
 the following dotfiles are sourced in order
 
 ```merge-table

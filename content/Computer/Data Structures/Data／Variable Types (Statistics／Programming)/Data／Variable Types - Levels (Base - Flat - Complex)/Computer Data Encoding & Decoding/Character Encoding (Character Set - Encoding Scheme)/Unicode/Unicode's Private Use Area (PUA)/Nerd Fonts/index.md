@@ -1,16 +1,18 @@
 ---
-title: "Nerd Fonts"
+publish: true
+title: Nerd Fonts
 created: 2023-04-29T17:08:47.473-05:00
 modified: 2023-04-29T17:21:00.001-05:00
-parent: "[[Unicode's Private Use Area (PUA)]]"
-children: []
 ---
+
 ###### Nerd Fonts ([www.nerdfonts.com](http://www.nerdfonts.com))
-````excerpt
+
+```excerpt
 - is a project that patches developer-targeted fonts with a high number of glyphs (icons)
 - utilizes Unicode's [[Unicode's Private Use Area (PUA)|Private Use Area]] code-points
 - is an iconic font aggregator, collection, and patcher
-````
+```
+
 ^excerpt
 
 # Overview

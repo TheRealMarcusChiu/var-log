@@ -1,11 +1,11 @@
 ---
-title: "Language Is The Next Great Frontier In AI"
+publish: true
+title: Language Is The Next Great Frontier In AI
 created: 2022-04-16T21:07:45.397-05:00
 modified: 2022-04-16T21:09:30.931-05:00
-parent: "[[NLP - Articles]]"
-children: []
 ---
-original article: [https://www.forbes.com/sites/robtoews/2022/02/13/language-is-the-next-great-frontier-in-ai/](https://www.forbes.com/sites/robtoews/2022/02/13/language-is-the-next-great-frontier-in-ai/)
+
+original article: <https://www.forbes.com/sites/robtoews/2022/02/13/language-is-the-next-great-frontier-in-ai/>
 
 Language is the cornerstone of human intelligence.
 
@@ -22,11 +22,12 @@ This profound and subtle insight is at the heart of the [“Turing test,”](ht
 Humanity has yet to build a machine intelligence with human-level mastery of language. (In other words, no machine intelligence has yet passed the Turing test.) But over the past few years researchers have achieved startling, game-changing breakthroughs in language AI, also called natural language processing (NLP).
 
 The technology is now at a critical inflection point, poised to make the leap from academic research to widespread real-world adoption. In the process, broad swaths of the business world and our daily lives will be transformed. Given language’s ubiquity, few areas of technology will have a more far-reaching impact on society in the years ahead.
+
 # Transformers: A Once-In-A-Generation Breakthrough
 
 The most powerful way to illustrate the capabilities of today’s cutting-edge language AI is to start with a few concrete examples.
 
-Today’s AI [can correctly answer](https://twitter.com/QasimMunye/status/1278750809094750211?s=20&t=GN6OnHrn97_Myzyf9nCuRw) complex medical queries—and explain the underlying biological mechanisms at play. It [can craft](https://twitter.com/zebulgar/status/1283927560435326976?s=20&t=Z27yBOy0MYNHEV6zjExs1Q) nuanced memos about how to run effective board meetings. It [can write](https://maraoz.com/2020/07/18/openai-gpt3/) articles analyzing its own capabilities and limitations, while convincingly pretending to be a human observer. It [can produce](https://www.gwern.net/GPT-3) original, sometimes beautiful, poetry and literature.
+Today’s AI [can correctly answer](https://twitter.com/QasimMunye/status/1278750809094750211?s=20\&t=GN6OnHrn97_Myzyf9nCuRw) complex medical queries—and explain the underlying biological mechanisms at play. It [can craft](https://twitter.com/zebulgar/status/1283927560435326976?s=20\&t=Z27yBOy0MYNHEV6zjExs1Q) nuanced memos about how to run effective board meetings. It [can write](https://maraoz.com/2020/07/18/openai-gpt3/) articles analyzing its own capabilities and limitations, while convincingly pretending to be a human observer. It [can produce](https://www.gwern.net/GPT-3) original, sometimes beautiful, poetry and literature.
 
 (It is worth taking a few moments to inspect these examples yourself.)
 
@@ -67,6 +68,7 @@ Today’s transformer-based models learn language by ingesting essentially the e
 The reason such large training datasets are possible is that transformers use self-supervised learning, meaning that they learn from unlabeled data. This is a crucial difference between today’s cutting-edge language AI models and the previous generation of NLP models, which had to be trained with labeled data. Today’s self-supervised models can train on far larger datasets than was ever previously possible: after all, there is more unlabeled text data than labeled text data in the world by many orders of magnitude.
 
 Some observers point to self-supervised learning, and the vastly larger training datasets that this technique unlocks, as the single most important driver of NLP’s dramatic performance gains in recent years, more so than any other feature of the transformer architecture.
+
 # Foundation Models
 
 Training models on massive datasets with millions or billions of parameters requires vast computational resources and engineering know-how. This makes large language models prohibitively costly and difficult to build. GPT-3, for example, required several thousand petaflop/second-days to train—a staggering amount of computational resources.
@@ -110,6 +112,7 @@ Of the three NLP papers that DeepMind published, one is devoted entirely to the 
 The fact that this dimension of language AI research—until recently, treated as an afterthought or ignored altogether by most of the world’s NLP researchers—featured so centrally in DeepMind’s recent foray into language AI may be a signal of the field’s shifting priorities moving forward.
 
 Increased regulatory focus on the harms of bias and toxicity in AI models will only accelerate this shift. And make no mistake: regulatory action on this front is a matter of when, not if.
+
 # Beyond Natural Language
 
 Interestingly, perhaps the most creative use cases for NLP today don’t involve natural language at all. In particular, today’s cutting-edge language AI technology is powering remarkable breakthroughs in two other domains: coding and biology.
@@ -147,6 +150,7 @@ Another subfield of biology that represents fertile ground for language AI is [
 As one example, an AI research team from Salesforce [recently built](https://blog.salesforceairesearch.com/progen/) an NLP model that “learns the language of proteins” and can generate plausible protein sequences that don’t exist in nature with prespecified characteristics. The potential applications of this type of controllable protein synthesis are tantalizing.
 
 These efforts are just the beginning. In the months and years ahead, language AI will make profound contributions to our understanding of how life itself works.
+
 # Conclusion
 
 Language is at the heart of human intelligence. It therefore is and must be at the heart of our efforts to build artificial intelligence. No sophisticated AI can exist without mastery of language.

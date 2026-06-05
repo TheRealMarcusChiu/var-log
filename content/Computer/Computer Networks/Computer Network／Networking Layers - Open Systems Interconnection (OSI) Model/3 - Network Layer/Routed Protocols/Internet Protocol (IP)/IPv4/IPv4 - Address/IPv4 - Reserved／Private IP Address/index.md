@@ -1,10 +1,10 @@
 ---
-title: "IPv4 - Reserved／Private IP Address"
+publish: true
+title: IPv4 - Reserved／Private IP Address
 created: 2019-11-17T21:55:57.381-06:00
 modified: 2021-10-05T02:38:00.686-05:00
-parent: "[[IPv4 - Address]]"
-children: []
 ---
+
 ````excerpt
 # Reserved/Private IP Address
 
@@ -48,4 +48,5 @@ children: []
 }
 ```
 ````
+
 ^excerpt

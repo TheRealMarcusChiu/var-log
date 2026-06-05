@@ -1,32 +1,19 @@
 ---
-title: "Information Retrieval (IR) - Information Extraction (IE)"
+publish: true
+title: Information Retrieval (IR) - Information Extraction (IE)
 created: 2019-11-02T11:54:06.080-05:00
 modified: 2023-07-12T16:17:49.980-05:00
-parent: "[[Natural Language Processing (NLP) - Computational Linguistics]]"
-children:
-  - "[[(Entity - Named Entity) Recognition／Identification／Chunking／Extraction／Resolution (NER)]]"
-  - "[[Coherence (Relation) Extraction]]"
-  - "[[Coreference／Co-Reference Extraction]]"
-  - "[[Entity Relation Extraction (RE)]]"
-  - "[[Event Extraction]]"
-  - "[[Feature Conversion - Text Embeddings／Embedding]]"
-  - "[[Numerical Expression Recognition]]"
-  - "[[Referring Expression Extraction]]"
-  - "[[Semantic Relation Extraction]]"
-  - "[[Temporal Expression Recognition - Temporal Analysis]]"
 ---
+
 - <strong>Information Retrieval (IR)</strong> retrieves relevant facts from unstructured data that are NOT specified in advance
 - <strong>Information Extraction (IE)</strong> extracting relevant facts from unstructured data that are specified in advance
 
 both <strong>IE</strong> and <strong>IR</strong> are subtasks of [[Natural Language Processing (NLP) - Computational Linguistics]]
+
 # IR/IE - Other
+
 an implementation of [[Feature Projection／Extraction - Embeddings|Feature Extraction]] that extracts specific [[Features - Feature Functions - Feature Engineering - Feature-Based Models|Features]] (i.e. entities, relations, events, etc) from text
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 # IR/IE - Model Types
 
 ```merge-table
@@ -40,7 +27,8 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
   "tableStyle": "width: 81.9392%;"
 }
 ```
-### Dimension \#1 - Mathematical Basis
+
+### Dimension #1 - Mathematical Basis
 
 ```merge-table
 {
@@ -98,7 +86,8 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
   "tableStyle": "width: 100.0%;"
 }
 ```
-### Dimension \#2 - Properties of the Model
+
+### Dimension #2 - Properties of the Model
 
 ```merge-table
 {

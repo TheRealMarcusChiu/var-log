@@ -1,22 +1,26 @@
 ---
-title: "Sentence／Sentential／Phrasal Semantics"
+publish: true
+title: Sentence／Sentential／Phrasal Semantics
 created: 2021-09-13T04:44:10.562-05:00
 modified: 2021-09-13T04:44:10.562-05:00
-parent: "[[Semantics]]"
-children:
-  - "[[Sentential Semantic Relations (Thematic Roles)]]"
 ---
+
 ###### Sentence/Sentential/Phrasal Semantics
-````excerpt
+
+```excerpt
 - study of phrase/clause/sentence meanings and the semantic relationships between them
-````
+```
+
 ^excerpt
 
 ### Sentential Semantic Relations
+
 - [[Sentential Semantic Relations (Thematic Roles)]]
 
 ### Sentential Semantic Relations - Example
+
 - <code><font style="color: rgb(128,128,128);">John went to the park yesterday because he saw hot air balloons taking off from there</font></code>
+
 ```merge-table
 {
   "rows": [

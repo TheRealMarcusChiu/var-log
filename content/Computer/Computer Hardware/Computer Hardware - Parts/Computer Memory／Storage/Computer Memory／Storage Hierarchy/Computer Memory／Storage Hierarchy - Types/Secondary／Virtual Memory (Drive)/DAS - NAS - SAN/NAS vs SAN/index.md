@@ -1,10 +1,10 @@
 ---
-title: "NAS vs SAN"
+publish: true
+title: NAS vs SAN
 created: 2022-09-11T14:48:53.038-05:00
 modified: 2022-09-11T15:08:32.435-05:00
-parent: "[[DAS - NAS - SAN]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

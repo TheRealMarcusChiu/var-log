@@ -1,10 +1,10 @@
 ---
-title: "WiFi - Channels"
+publish: true
+title: WiFi - Channels
 created: 2023-04-13T23:09:28.930-05:00
 modified: 2026-05-14T23:36:05.555-05:00
-parent: "[[802.11 - WiFi／Wi-Fi]]"
-children: []
 ---
+
 # 2.4 GHz (802.11b/g/n/ax)
 
 ```merge-table
@@ -429,6 +429,7 @@ children: []
   ]
 }
 ```
+
 # 5 GHz (802.11a/h/j/n/ac/ax)
 
 ```merge-table
@@ -783,5 +784,7 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Resources
-- [https://en.wikipedia.org/wiki/List_of_WLAN_channels](https://en.wikipedia.org/wiki/List_of_WLAN_channels)
+
+- <https://en.wikipedia.org/wiki/List_of_WLAN_channels>

@@ -1,10 +1,10 @@
 ---
-title: "Love Poem"
+publish: true
+title: Love Poem
 created: 2024-11-19T15:59:51.680-06:00
 modified: 2025-01-03T18:37:30.758-06:00
-parent: "[[Poetry]]"
-children: []
 ---
+
 I hear a piano sing when I see your eyes,
 and violins play when I see you smile.
 

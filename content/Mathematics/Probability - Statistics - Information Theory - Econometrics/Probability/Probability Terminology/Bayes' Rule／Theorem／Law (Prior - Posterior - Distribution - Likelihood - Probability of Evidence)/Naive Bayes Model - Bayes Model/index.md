@@ -1,14 +1,12 @@
 ---
-title: "Naive Bayes Model - Bayes Model"
+publish: true
+title: Naive Bayes Model - Bayes Model
 created: 2021-09-13T05:28:34.899-05:00
 modified: 2021-09-13T05:28:34.899-05:00
-parent: "[[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)]]"
-children:
-  - "[[Bivariate／Boolean／Binary Multinoulli／Multinomial Naive Bayes]]"
-  - "[[Naive Bayes Model - Learning]]"
-  - "[[Naive Bayes Model - Overcounting Problem]]"
 ---
+
 <strong>Naive Bayes Model</strong>
+
 - is a type of [[PGM - Model Types|probabilistic graphical model]]
 - is the simplest [[Bayesian Networks (BN)|Bayesian Network]] models
 - is a [[ML - Generative／Joint vs Discriminative／Conditional Models|generative model]]
@@ -68,17 +66,14 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 ### Naive Bayes Model - Versions
+
 - Gaussian Naive Bayes
 - Multinomial Naive Bayes
 
 ### Subpages
 
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 - [[Hidden Markov Model (HMM) vs Naive Bayes Model]]
 - [[Naive Bayes Model vs Bayes Model vs Logistic Regression Model]]
 - [[Naive Bayes Model vs Bayes Model vs Bayesian Network]]

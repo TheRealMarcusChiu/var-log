@@ -1,11 +1,12 @@
 ---
-title: "802.8 - Fiber Optic"
+publish: true
+title: 802.8 - Fiber Optic
 created: 2019-03-16T20:36:39.667-05:00
 modified: 2022-07-09T20:38:13.999-05:00
-parent: "[[Wired]]"
-children: []
 ---
+
 ###### Fiber Optic
+
 - the newest [[Baseband v Broadband|baseband]] service is fiber-optic, which is the fastest Internet connection thus far. However, this type of Internet service is still in its infancy as its service areas are quite limited and because the laying down of the fiber-optic cable takes a while to complete. Wherever it is available, the cost not only competes with that of DSL and cable, but it provides a much faster connection than both of those services.
 
 # Optical Carrier specifications

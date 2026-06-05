@@ -1,18 +1,21 @@
 ---
-title: "Bayesian Linear Regression"
+publish: true
+title: Bayesian Linear Regression
 created: 2024-02-09T17:10:52.218-06:00
 modified: 2024-02-23T10:41:03.587-06:00
-parent: "[[Linear Regression (LR) Models]]"
-children: []
 ---
+
 ###### Bayesian Linear Regression
-````excerpt
+
+```excerpt
 - TODO
-````
+```
+
 ^excerpt
 
 # When to Use Bayesian Regression
-- [https://crunchingthedata.com/when-to-use-bayesian-regression/](https://crunchingthedata.com/when-to-use-bayesian-regression/)
+
+- <https://crunchingthedata.com/when-to-use-bayesian-regression/>
 
 # TODO
 

@@ -1,18 +1,16 @@
 ---
-title: "Data Preparation／Scrubbing"
+publish: true
+title: Data Preparation／Scrubbing
 created: 2020-04-22T01:07:24.553-05:00
 modified: 2023-09-13T15:22:22.917-05:00
-parent: "[[Data Acquisition／Integration／Preparation]]"
-children:
-  - "[[Data Preparation - Detecting Outliers]]"
-  - "[[Data Preparation - Handling Missing Values]]"
-  - "[[Data Preparation - Methods Transforming Data to Normal Distribution]]"
-  - "[[Data Preparation - Standardization／Standardizing／Normalizing Data Variables ／ Min-Max／Mean／Z-Score Feature Normalization／Scaling]]"
 ---
+
 ###### Data Preparation/Scrubbing
-````excerpt
+
+```excerpt
 - is the act of manipulating raw data into a form that can readily and accurately be analyzed
-````
+```
+
 ^excerpt
 
 # Data Preparation - For Parametric Statistical Methods
@@ -51,6 +49,7 @@ children:
   ]
 }
 ```
+
 # Data Preparation - Other
 
 ```merge-table

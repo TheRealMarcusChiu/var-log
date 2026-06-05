@@ -1,12 +1,12 @@
 ---
-title: "Nouns"
+publish: true
+title: Nouns
 created: 2021-09-13T04:44:03.694-05:00
 modified: 2021-09-13T04:44:03.694-05:00
-parent: "[[Part of Speech (PoS)]]"
-children:
-  - "[[Gerund]]"
 ---
+
 <strong>Noun</strong> names either a:
+
 - person - (e.g. carpenter)
 - place - (e.g. cities)
 - thing - (e.g. theater)

@@ -1,12 +1,14 @@
 ---
-title: "Java - Spring - ConfigurableEnvironment"
+publish: true
+title: Java - Spring - ConfigurableEnvironment
 created: 2021-06-02T23:47:58.080-05:00
 modified: 2021-06-02T23:52:15.606-05:00
-parent: "[[Java - Spring Framework - Core - Environment]]"
-children: []
 ---
+
 ConfigurableEnvironment allows you to add properties and/or profiles
+
 # Example Use
+
 ```
 @Configuration
 public class ExampleConfig {

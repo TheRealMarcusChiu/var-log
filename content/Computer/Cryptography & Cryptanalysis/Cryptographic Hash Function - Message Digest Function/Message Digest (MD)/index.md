@@ -1,14 +1,16 @@
 ---
-title: "Message Digest (MD)"
+publish: true
+title: Message Digest (MD)
 created: 2019-03-16T03:10:20.544-05:00
 modified: 2025-08-21T11:59:03.024-05:00
-parent: "[[Cryptographic Hash Function - Message Digest Function]]"
-children: []
 ---
+
 ###### Message Digest (MD) algorithms
-````excerpt
+
+```excerpt
 - rely on [[Cryptographic Hash Function - Message Digest Function|cryptographic hash functions]] to generate a unique value that is computed from input data
-````
+```
+
 ^excerpt
 
 # Versions
@@ -106,5 +108,7 @@ children: []
   ]
 }
 ```
+
 # Online Tools
-- [https://emn178.github.io/online-tools/md5.html](https://emn178.github.io/online-tools/md5.html)
+
+- <https://emn178.github.io/online-tools/md5.html>

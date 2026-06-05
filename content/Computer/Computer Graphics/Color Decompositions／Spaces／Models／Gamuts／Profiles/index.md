@@ -1,15 +1,10 @@
 ---
-title: "Color Decompositions／Spaces／Models／Gamuts／Profiles"
+publish: true
+title: Color Decompositions／Spaces／Models／Gamuts／Profiles
 created: 2020-07-07T19:40:41.618-05:00
 modified: 2021-12-21T19:31:49.870-06:00
-parent: "[[Computer Graphics]]"
-children:
-  - "[[CIE (XYZ Lab Luv) (Commission International de l' éclairage)]]"
-  - "[[CMYK (Cyan Magenta Yellow Black)]]"
-  - "[[Color Space - Conversions]]"
-  - "[[HSL／HSV／HSB (Hue Saturation Lightness／Value／Brightness)]]"
-  - "[[RGB (Red Green Blue)]]"
 ---
+
 # Color Models
 
 ```merge-table
@@ -58,6 +53,7 @@ children:
   ]
 }
 ```
+
 # Space Types
 
 ```merge-table
@@ -100,5 +96,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Color Space - Conversions
+
 - [[Color Space - Conversions]]

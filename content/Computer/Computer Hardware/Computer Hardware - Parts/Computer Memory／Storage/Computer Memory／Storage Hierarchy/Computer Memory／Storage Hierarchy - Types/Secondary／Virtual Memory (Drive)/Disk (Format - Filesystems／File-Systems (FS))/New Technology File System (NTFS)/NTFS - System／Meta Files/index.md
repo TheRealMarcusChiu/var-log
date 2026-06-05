@@ -1,26 +1,12 @@
 ---
-title: "NTFS - System／Meta Files"
+publish: true
+title: NTFS - System／Meta Files
 created: 2020-06-11T11:38:42.004-05:00
 modified: 2020-06-16T17:29:40.077-05:00
-parent: "[[New Technology File System (NTFS)]]"
-children:
-  - "[[NTFS - System Files - $. (ROOT)]]"
-  - "[[NTFS - System Files - $AttrDef]]"
-  - "[[NTFS - System Files - $BadClus]]"
-  - "[[NTFS - System Files - $Bitmap]]"
-  - "[[NTFS - System Files - $Boot]]"
-  - "[[NTFS - System Files - $Extend]]"
-  - "[[NTFS - System Files - $LogFile]]"
-  - "[[NTFS - System Files - $MFTMirr]]"
-  - "[[NTFS - System Files - $ObjID]]"
-  - "[[NTFS - System Files - $Quota]]"
-  - "[[NTFS - System Files - $Reparse]]"
-  - "[[NTFS - System Files - $Secure]]"
-  - "[[NTFS - System Files - $UpCase]]"
-  - "[[NTFS - System Files - $UsnJrnl]]"
-  - "[[NTFS - System Files - $Volume]]"
 ---
+
 ###### NTFS System/Meta Files
+
 - all are hidden from view on the [[New Technology File System (NTFS)|NTFS Volume]]
 - a system file is one used by the file system to store its metadata and to implement the file system
 - system files are placed on the volume by the Format utility

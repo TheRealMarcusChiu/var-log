@@ -1,17 +1,19 @@
 ---
-title: "OAuth - Authorization Code Flow"
+publish: true
+title: OAuth - Authorization Code Flow
 created: 2020-01-09T13:07:21.890-06:00
 modified: 2026-01-09T14:07:00.197-06:00
-parent: "[[OAuth - Grant Types／Flows (Message Exchange Patterns)]]"
-children: []
 ---
-![[OAuth - Authorization Code Flow/authorization-code-flow.png|600]]
+
+![[Computer/Software／Fullstack Development/1 - Code and Extra/Authentication - Authorization - Accounting - Auditing - Delegation - Consent/Authentication／Authorization／Delegation - Frameworks/OAuth & OpenID Connect/Open Authorization (OAuth)/OAuth - Grant Types／Flows (Message Exchange Patterns)/OAuth - Authorization Code Flow/authorization-code-flow.png|600]]
+
 # Authentication Code Flow
+
 1. User goes to <strong>Client</strong>
 2. <strong>Client</strong> returns page that wants access to user's data stored in <strong>Resource Server</strong>
 3. User clicks login-button which redirects browser to <strong>Auth Server</strong> passing along:
-	1. client\_id - unique identifier of <strong>Client</strong>
-	2. scopes - the type of data requested by <strong>Client</strong>
+   1. client\_id - unique identifier of <strong>Client</strong>
+   2. scopes - the type of data requested by <strong>Client</strong>
 4. <strong>Auth Server</strong> return login page to User. The page also clearly tells user that <strong>Client</strong> wants access to the requested scopes
 5. User submits login credentials to <strong>Auth Server</strong>, which will be validated
 6. <strong>Auth Server</strong> responds with an <code><font style="color: rgb(128,128,128);">auth-code</font></code>
@@ -28,6 +30,7 @@ children: []
 
 > [!expand]- Click here to expand...
 > ![[Authentication／Authorization／Delegation - Entities／Actors#^excerpt]]
+
 # Limitation (No Authentication)
 
 OAuth only authorizes but doesn't authenticates

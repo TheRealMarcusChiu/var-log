@@ -1,11 +1,12 @@
 ---
-title: "Java - util - function - Function (Interface)"
+publish: true
+title: Java - util - function - Function (Interface)
 created: 2021-10-27T02:38:28.247-05:00
 modified: 2021-11-26T03:53:21.519-06:00
-parent: "[[Java - util - function (lambda) - (Runnable - Callable - Supplier - IntSupplier - Consumer - IntConsumer - Function - IntFunction - ToIntFunction)]]"
-children: []
 ---
+
 # Code Example
+
 ```
 public class HigherOrder {
 

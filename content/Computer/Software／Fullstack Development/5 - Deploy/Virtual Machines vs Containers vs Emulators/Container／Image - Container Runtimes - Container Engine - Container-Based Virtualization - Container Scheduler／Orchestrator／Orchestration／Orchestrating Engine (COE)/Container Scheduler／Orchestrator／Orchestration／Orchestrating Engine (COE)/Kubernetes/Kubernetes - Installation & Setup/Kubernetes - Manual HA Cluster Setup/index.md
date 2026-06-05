@@ -1,21 +1,24 @@
 ---
-title: "Kubernetes - Manual HA Cluster Setup"
+publish: true
+title: Kubernetes - Manual HA Cluster Setup
 created: 2024-08-25T22:37:59.336-05:00
 modified: 2025-05-22T12:40:34.908-05:00
-parent: "[[Kubernetes - Installation & Setup]]"
-children: []
 ---
+
 # Install Prerequisites
+
 - [[Kubernetes - Manual Control-Plane／Worker-Node Installation & Setup|Kubernetes - Manual Control-Plane/Worker-Node Installation & Setup]]
 
 # Start First [[Kubernetes Control Plane Component|Control Plane]]
 
 Replace <code><font style="color: rgb(122,134,154);">--control-plane-endpoint</font></code> with actual endpoint
+
 ```
 kubeadm init --control-plane-endpoint "k8s-control.pve1.lan:6443" --upload-certs --cri-socket=unix:///var/run/crio/crio.sock
 ```
 
 output
+
 ```
 I0522 17:36:06.472955    1101 version.go:261] remote version is much newer: v1.33.1; falling back to: stable-1.31
 [init] Using Kubernetes version: v1.31.9
@@ -107,18 +110,24 @@ Then you can join any number of worker nodes by running the following on each as
 kubeadm join k8s-control.pve1.lan:6443 --token vo8v1g.x0mo3351gfnduc9t \
 	--discovery-token-ca-cert-hash sha256:ed15b7fca732839fd595a8927234520cb9b70f35d58687434a4cbb07b30a9473
 ```
+
 # If Root User
 
 Execute the following (if not see output above):
+
 ```
 export KUBECONFIG=/etc/kubernetes/admin.conf
 ```
+
 # Install Pod Network (i.e. [[Kubernetes Container Network Interface (CNI)|Container Network Interface]])
 
 > [!expand-ui]- Calico
 > We will be installing the calico pod network (there are other pod networks / [[Kubernetes Container Network Interface (CNI)|Container Network Interface]])
+>
 > - see [[Calico]]
+
 # Test
+
 ```
 > kubectl get nodes
 NAME                             STATUS   ROLES           AGE   VERSION
@@ -126,7 +135,9 @@ pve1-ubuntu-server-k8s-control   Ready    control-plane   28m   v1.31.0
 ```
 
 <strong><font style="color: rgb(255,0,0);">Wait till status is Ready!</font></strong>
+
 # Joining New Control Planes
+
 ```
 kubeadm join k8s-control.pve1.lan:6443 --token vo8v1g.x0mo3351gfnduc9t \
 	--discovery-token-ca-cert-hash sha256:ed15b7fca732839fd595a8927234520cb9b70f35d58687434a4cbb07b30a9473 \
@@ -136,6 +147,7 @@ kubeadm join k8s-control.pve1.lan:6443 --token vo8v1g.x0mo3351gfnduc9t \
 output
 
 > [!expand]- Click here to expand...
+>
 > ```
 > [preflight] Running pre-flight checks
 > [preflight] Reading configuration from the cluster...
@@ -206,6 +218,7 @@ output
 > ```
 
 If any of the control-planes are not labelled control-plane like below
+
 ```
 > kubectl get nodes
 NAME                          STATUS   ROLES           AGE     VERSION
@@ -215,16 +228,20 @@ ubuntu-server-k8s-control-3   Ready    <none>          4m53s   v1.31.9
 ```
 
 Then execute the following
+
 ```
 kubectl label node NODE_NAME_HERE node-role.kubernetes.io/control-plane=true
 ```
+
 # Joining New Workers
+
 ```
 kubeadm join k8s-control.pve1.lan:6443 --token vo8v1g.x0mo3351gfnduc9t \
 	--discovery-token-ca-cert-hash sha256:ed15b7fca732839fd595a8927234520cb9b70f35d58687434a4cbb07b30a9473
 ```
 
 In a control plane node label the newly joined worker as a worker
+
 ```
 kubectl label node NODE_NAME_HERE node-role.kubernetes.io/worker=worker
 ```

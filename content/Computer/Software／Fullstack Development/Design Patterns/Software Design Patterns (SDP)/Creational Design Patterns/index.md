@@ -1,23 +1,16 @@
 ---
-title: "Creational Design Patterns"
+publish: true
+title: Creational Design Patterns
 created: 2019-03-15T00:43:42.464-05:00
 modified: 2026-01-10T17:24:28.030-06:00
-parent: "[[Software Design Patterns (SDP)]]"
-children:
-  - "[[Builder Pattern]]"
-  - "[[Factory Design Patterns]]"
-  - "[[Flyweight Pattern]]"
-  - "[[Multiton Design Pattern]]"
-  - "[[Object Pool]]"
-  - "[[Prototype Builder Pattern]]"
-  - "[[Prototype Pattern]]"
-  - "[[Singleton Design Pattern]]"
-  - "[[Step Builder Pattern]]"
 ---
+
 ###### Creational Design Patterns
-````excerpt
+
+```excerpt
 - provide various object creation mechanisms, which increase flexibility and reuse of existing code
-````
+```
+
 ^excerpt
 
 # Creational Design Patterns

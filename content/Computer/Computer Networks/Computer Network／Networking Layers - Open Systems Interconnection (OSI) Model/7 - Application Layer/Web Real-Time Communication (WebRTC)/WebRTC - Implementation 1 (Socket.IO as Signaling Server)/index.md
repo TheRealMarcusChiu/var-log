@@ -1,16 +1,20 @@
 ---
-title: "WebRTC - Implementation 1 (Socket.IO as Signaling Server)"
+publish: true
+title: WebRTC - Implementation 1 (Socket.IO as Signaling Server)
 created: 2020-06-27T02:57:21.745-05:00
 modified: 2021-08-12T11:54:21.550-05:00
-parent: "[[Web Real-Time Communication (WebRTC)]]"
-children: []
 ---
+
 Implementation of [[Web Real-Time Communication (WebRTC)|WebRTC]] using [[Socket.IO]] as it signaling server
-- [https://github.com/TheRealMarcusChiu/meet-marcuschiu-com](https://github.com/TheRealMarcusChiu/meet-marcuschiu-com)
+
+- <https://github.com/TheRealMarcusChiu/meet-marcuschiu-com>
 
 ### Example (Work in Progress)
-![[WebRTC - Implementation 1 (Socket.IO as Signaling Server)/meet-marcuschiu-com.png|500]]
+
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/7 - Application Layer/Web Real-Time Communication (WebRTC)/WebRTC - Implementation 1 (Socket.IO as Signaling Server)/meet-marcuschiu-com.png|500]]
+
 ### WebRTC - Flow
+
 ```
 - send 'create or join'
   - created-room

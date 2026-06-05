@@ -1,31 +1,36 @@
 ---
-title: "RL Chapter 7 (n-step Bootstrapping)"
+publish: true
+title: RL Chapter 7 (n-step Bootstrapping)
 created: 2025-12-09T12:24:27.237-06:00
 modified: 2025-12-10T19:51:44.694-06:00
-parent: "[[RL Chapters]]"
-children: []
 ---
+
 ###### n-step TD methods
+
 - unifies MC and TD(0)
 - introduces the idea of eligibility traces (chapter 12)
 
 # n-step Prediction
 
 complete return:
+
 - $G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^{T-t-1} R_{T}$
 
 estimates of complete return:
+
 - one-step return:
-	- $G_{t:t+1} = R_{t+1} + \gamma V_t(S_{t+1})$
+  - $G_{t:t+1} = R_{t+1} + \gamma V_t(S_{t+1})$
 - two-step return:
-	- $G_{t:t+2} = R_{t+1} + \gamma R_{t+2} + \gamma^2 V_{t+1}(S_{t+2})$
+  - $G_{t:t+2} = R_{t+1} + \gamma R_{t+2} + \gamma^2 V_{t+1}(S_{t+2})$
 - n-step return:
-	- $G_{t:t+n} = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^{n-1}R_{t+n} + \gamma^n V_{t+n-1}(S_{t+n})$
+  - $G_{t:t+n} = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^{n-1}R_{t+n} + \gamma^n V_{t+n-1}(S_{t+n})$
 
 ### N-Step TD
+
 - $V_{t+n}(S_t) = V_{t+n-1}(S_t) + \alpha [G_{t:t+n} - V_{t+n-1}(S_t)]$
 
 n-step TD for estimating 𝑣<sub>𝜋</sub>:
+
 ```
 Input: a policy 𝜋
 Algorithm parameters: step size 𝛼∊(0, 1], a positive integer n
@@ -49,15 +54,19 @@ loop for each episode:
 			V(S𝜏) = V(S𝜏) + 𝛼 [G - V(S𝜏)]
 	until 𝜏 = T - 1
 ```
+
 # N-Step SARSA
 
 redefine n-step returns in terms of action values:
+
 - $G_{t:t+n} = R_{t+1} + \gamma R_{t+2} + \gamma^2 V_{t+1}(S_{t+2}) + ... + \gamma^{n-1}R_{t+n} + \gamma^n Q_{t+n-1}(S_{t+n}, A_{t+n})$
 
 natural algorithm is then:
+
 - $Q_{t+n}(S_t, A_t) = Q_{t+n-1}(S_t, A_t) + \alpha [G_{t:t+n} - Q_{t+n-1}(S_t,A_t)]$
 
 n-step SARSA for estimating 𝑞<sub>\*</sub> or 𝑞<sub>𝜋</sub>:
+
 ```
 Initialize Q(s, a) arbitrarily, for all s∊S, a∊A
 Initialize 𝜋 to be "𝜀-greedy with respect to Q, or to a fixed given policy
@@ -85,30 +94,39 @@ Loop for each episode:
 			if 𝜋 is being learned, then ensure 𝜋(|S𝜏) is 𝜀-greedy wrt Q
 	until 𝜏 = T - 1
 ```
+
 # Expected SARSA
 
 redefine n-step returns in terms of action values:
+
 - $G_{t:t+n} = R_{t+1} + \gamma R_{t+2} + \gamma^2 V_{t+1}(S_{t+2}) + ... + \gamma^{n-1}R_{t+n} + \gamma^n \overline{V}_{t+n-1}(S_{t+n})$
 
 where:
+
 - $\overline{V}_{t+n-1}(S_{t+n}) = \sum_a \pi(a|s) Q_t(s,a)$
 
 # Backup Diagrams (n-step TD, n-step SARSA, n-step Expected SARSA)
-![[RL Chapter 7 (n-step Bootstrapping)/2.png|400]]
 
-![[RL Chapter 7 (n-step Bootstrapping)/1.png|600]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/RL Chapters/RL Chapter 7 (n-step Bootstrapping)/2.png|400]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/RL Chapters/RL Chapter 7 (n-step Bootstrapping)/1.png|600]]
+
 # N-Step Off-Policy Learning
 
 <strong>N-Step TD Off-Policy</strong> - simply weighted by 𝜌<sub>𝑡:𝑡+𝑛-1</sub>:
+
 - $V_{t+n}(S_t) = V_{t+n-1}(S_t) + \alpha \rho_{t:t+n-1} [G_{t:t+n} - V_{t+n-1}(S_t)]$
 
 <strong>N-Step SARSA Off-Policy</strong> - simply weighted by :
+
 - $Q_{t+n}(S_t,A_t) = Q_{t+n-1}(S_t,A_t) + \alpha \rho_{t:t+n} [G_{t:t+n} - Q_{t+n-1}(S_t,A_t)]$
 
 where, the IS ratio is the relative probability under the 2 policies of taking the n actions from 𝐴<sub>𝑡</sub> to 𝐴<sub>𝑡+𝑛-1</sub>:
+
 - $\rho_{t:h} = \prod_{k=t}^{min(h,T-1)} \frac {\pi(A-k|S_k)} {b(A_k|S_k)}$
 
 Off-Policy n-step SARSA for estimating 𝑞<sub>\*</sub> or 𝑞<sub>𝜋</sub>:
+
 ```
 Input: an arbitrary behavior policy b such that b(a|s) > 0, for all s∊S, a∊A
 Initialize Q(s, a) arbitrarily, for all s∊S, a∊A
@@ -138,13 +156,15 @@ loop for each episode:
 			if 𝜋 is being learned, then ensure 𝜋(|S𝜏) is 𝜀-greedy wrt Q
 	until 𝜏 = T - 1
 ```
+
 # Off-Policy Learning w/o IS: The n-step Tree Backup Algorithm
 
 NOT READ
 
-![[RL Chapter 7 (n-step Bootstrapping)/3.png]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/RL Chapters/RL Chapter 7 (n-step Bootstrapping)/3.png]]
 
 n-step Tree Backup for estimating  𝑞<sub>\*</sub> or 𝑞<sub>𝜋</sub>:
+
 ```
 Initialize Q(s, a) arbitrarily, for all s∊S, a∊A
 Initialize 𝜋 to be greedy with respect to Q, or as a fixed given policy
@@ -175,8 +195,9 @@ loop for each episode:
 			if 𝜋 is being learned, then ensure 𝜋(|S𝜏) is 𝜀-greedy wrt Q
 	until 𝜏 = T - 1
 ```
+
 # A Unifying Algorithm: N-Step 𝑄(𝜎)
 
 NOT READ
 
-![[RL Chapter 7 (n-step Bootstrapping)/4.png|600]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/RL Chapters/RL Chapter 7 (n-step Bootstrapping)/4.png|600]]

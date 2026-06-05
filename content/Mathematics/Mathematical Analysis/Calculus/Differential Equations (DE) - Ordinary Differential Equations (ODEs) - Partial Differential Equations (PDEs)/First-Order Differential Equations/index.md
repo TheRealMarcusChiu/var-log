@@ -1,20 +1,16 @@
 ---
-title: "First-Order Differential Equations"
+publish: true
+title: First-Order Differential Equations
 created: 2021-09-13T05:25:08.564-05:00
 modified: 2025-10-01T11:25:29.141-05:00
-parent: "[[Differential Equations (DE) - Ordinary Differential Equations (ODEs) - Partial Differential Equations (PDEs)]]"
-children:
-  - "[[DE - Method for First-Order Exact DE]]"
-  - "[[DE - Method for First-Order Homogenous DE]]"
-  - "[[DE - Method of Integrating Factor]]"
-  - "[[DE - Method of Separating Variables]]"
-  - "[[First-Order Exact DE]]"
-  - "[[First-Order Linear Constant Coefficient DE]]"
 ---
+
 ###### First-Order Differential Equations
-````excerpt
+
+```excerpt
 - are [[Differential Equations (DE) - Ordinary Differential Equations (ODEs) - Partial Differential Equations (PDEs)|differential equations]] of the form: 𝑦' = 𝐹(𝑦, 𝑥)
-````
+```
+
 ^excerpt
 
 # First-Order Differential Equation - Variants
@@ -60,6 +56,7 @@ children:
   ]
 }
 ```
+
 # First-Order Differential Equation - Methods in Solving the DE
 
 ```merge-table
@@ -97,6 +94,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # First-Order Differential Equation - Example
 
-![](https://www.youtube.com/watch?v=3Yfsh1SnGIw&list=PLee24bbe4wKTdWQY7qEkc4fjTUcfs7Zgc&index=11&ab_channel=TheLazyEngineer)
+![](https://www.youtube.com/watch?v=3Yfsh1SnGIw\&list=PLee24bbe4wKTdWQY7qEkc4fjTUcfs7Zgc\&index=11\&ab_channel=TheLazyEngineer)

@@ -1,17 +1,20 @@
 ---
-title: "Intel Core Processors - i3／i5／i7／i9 - Understanding Processor Numbers"
+publish: true
+title: Intel Core Processors - i3／i5／i7／i9 - Understanding Processor Numbers
 created: 2024-09-03T19:32:32.576-05:00
 modified: 2024-09-03T19:41:00.359-05:00
-parent: "[[Intel® Processors／CPUs Brands]]"
-children: []
 ---
+
 ###### Intel Core Processors
-````excerpt
+
+```excerpt
 - TODO
-````
+```
+
 ^excerpt
 
-![[Intel Core Processors - i3／i5／i7／i9 - Understanding Processor Numbers/intel.png|400]]
+![[Computer/Computer Hardware/Computer Hardware - Parts/Logic Devices - Logic Circuits/Integrated Circuit (IC) - Microchip - Chip/Processor - Processing Unit (PU) - Processing Element (PE)/Central Processing Unit (CPU) - Central／Main Processor - Microprocessor (uP) - Microcontroller (uC) - Microcontroller Unit (MCU)/Intel® Processors／CPUs - Intel Graphics Technology/Intel® Processors／CPUs Brands/Intel Core Processors - i3／i5／i7／i9 - Understanding Processor Numbers/intel.png|400]]
+
 # Intel Core Processor - Brand Modifiers
 
 ```merge-table
@@ -52,7 +55,9 @@ children: []
   ]
 }
 ```
+
 # Intel Core Processor - Generations
+
 - TODO
 
 # Intel Core Processor - Product Line Suffixes
@@ -170,5 +175,7 @@ To understand what a processor suffix indicates, consult the list below. Not all
   ]
 }
 ```
+
 # Resources
-- [https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139)
+
+- <https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139>

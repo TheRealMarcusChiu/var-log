@@ -1,13 +1,13 @@
 ---
-title: "Zodiac Constellations"
+publish: true
+title: Zodiac Constellations
 created: 2021-09-13T04:43:38.815-05:00
 modified: 2021-09-13T04:43:38.815-05:00
-parent: "[[Astrology]]"
-children: []
 ---
+
 - <strong>constellations</strong> - is formally defined as a region of the celestial sphere, with boundaries laid down by the International Astronomical Union (IAU)
 
-![[Zodiac Constellations/Zodiac-Constellations.jpg]]![[Zodiac Constellations/ecliptic-path.jpg|533]]
+![[Astronomy & Astrology/Astrology/Zodiac Constellations/Zodiac-Constellations.jpg]]![[Astronomy & Astrology/Astrology/Zodiac Constellations/ecliptic-path.jpg|533]]
 
 ```merge-table
 {

@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 3 - Covector Introduction"
+publish: true
+title: Tensor - 3 - Covector Introduction
 created: 2023-08-01T22:59:41.712-05:00
 modified: 2024-01-12T16:19:47.410-06:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 [[Linear Functionals - Linear Forms - 1／One-Forms - Covectors|Covectors]] are functions 𝛼: 𝑉→ℝ that map a vector to a number and also obey the following rules:
 - 𝛼(𝑣 + 𝑢) = 𝛼(𝑣) + 𝛼(𝑢)
@@ -85,4 +85,5 @@ RECAP:
 - you can derive the epsilon covectors 𝜀<sup>𝑖</sup> as so: 𝜀<sup>𝑖</sup>(𝑒<sub>𝑗</sub>) = 𝛿<sub>𝑖𝑗</sub>
 - in which the epsilon covectors form a [[Dual Basis - Dual Basis Covectors／Vectors - Dual Sets - Reciprocal Basis|dual basis]] of the [[Dual Spaces - Algebraic Dual Spaces - Dual Vector Spaces|dual vector space]] 𝑉\*
 ````
+
 ^excerpt

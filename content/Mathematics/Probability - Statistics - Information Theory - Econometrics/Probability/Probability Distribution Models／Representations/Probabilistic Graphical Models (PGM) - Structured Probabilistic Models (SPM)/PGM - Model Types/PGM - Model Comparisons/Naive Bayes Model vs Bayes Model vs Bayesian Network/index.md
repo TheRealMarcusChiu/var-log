@@ -1,10 +1,10 @@
 ---
-title: "Naive Bayes Model vs Bayes Model vs Bayesian Network"
+publish: true
+title: Naive Bayes Model vs Bayes Model vs Bayesian Network
 created: 2021-09-13T05:26:57.832-05:00
 modified: 2021-09-13T05:26:57.832-05:00
-parent: "[[PGM - Model Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

@@ -1,13 +1,14 @@
 ---
-title: "Minimum Cut - Contraction Algorithm"
+publish: true
+title: Minimum Cut - Contraction Algorithm
 created: 2021-09-13T05:25:42.806-05:00
 modified: 2021-09-13T05:25:42.806-05:00
-parent: "[[Minimum Cut]]"
-children: []
 ---
+
 the <strong>contraction algorithm</strong> uses randomization, so it will guarantee the result only with a certain probability, less than 1, but it can be made arbitrarily close to 1
 
 the algorithm works as follows:
+
 1. pick an edge (v, w) uniformly at random among all edges from the current graph G
 2. contract the selected edge (i.e. merge its endpoints). keep the resulting parallel edges, but remove the self-loops. The contracted graph, denoted by G/(v,w), will be the new value of G
 3. repeat steps 1 and 2 until there are only 2 nodes left
@@ -15,8 +16,7 @@ the algorithm works as follows:
 
 the obtained cut will be a minimum cut with probability at least 1/n<sup>2</sup> in a graph of n nodes.
 
-If we repeat the algorithm K times independently and choose the smallest of the found cuts, say C, then the following holds:
-<span style="white-space: pre-wrap"><code>P(C is not a minimum cut) ≤ (1 - 1/n²)ᴷ</code></span>
+If we repeat the algorithm K times independently and choose the smallest of the found cuts, say C, then the following holds: <span style="white-space: pre-wrap"><code>P(C is not a minimum cut) ≤ (1 - 1/n²)ᴷ</code></span>
 
 If K is chosen as K = tn<sup>2</sup>, then the above probability will be approximately e<sup>-t</sup>, which is very small already for moderate values of t
 

@@ -1,13 +1,13 @@
 ---
-title: "Measure Spaces"
+publish: true
+title: Measure Spaces
 created: 2023-05-13T19:49:43.630-05:00
 modified: 2023-07-03T15:24:30.413-05:00
-parent: "[[Measure Theory]]"
-children:
-  - "[[Complete Measure Spaces]]"
 ---
+
 ###### Measure Spaces (𝑋,𝐴,𝜇)
-````excerpt
+
+```excerpt
 - a type of [[Mathematical Spaces|mathematical space]]
 - is a [[Measurable Space - Borel space|measurable space (𝑋,𝐴)]] with a [[Measure／Measures|measure (𝜇)]]
 - is a triple (𝑋,𝐴,𝜇) where:
@@ -15,7 +15,8 @@ children:
 	- 𝐴 is a [[σ-Algebra - σ-Field of Sets - σ-field|σ-algebra]] on the set 𝑋
 	- 𝜇 is a [measure](https://en.wikipedia.org/wiki/Measure_(mathematics)) on (𝑋,𝐴)
 - is a basic [[Mathematical Object|mathematical object]] of [[Measure Theory|measure theory]]
-````
+```
+
 ^excerpt
 
 # Measure Spaces - Types

@@ -1,11 +1,12 @@
 ---
-title: "Kubernetes Dashboard - Expose via LoadBalancer"
+publish: true
+title: Kubernetes Dashboard - Expose via LoadBalancer
 created: 2024-09-04T20:14:42.511-05:00
 modified: 2024-09-04T20:34:32.031-05:00
-parent: "[[Kubernetes Dashboard]]"
-children: []
 ---
+
 Create a [[Kubernetes - Service (LoadBalancer)|Kubernetes LoadBalancer Service]] manifest file
+
 ```
 ---
 apiVersion: v1
@@ -26,6 +27,7 @@ spec:
 ```
 
 Apply this manifest
+
 ```
 $ kubectl apply -f k8s-dashboard-loadbalancer.yml
 service/kubernetes-dashboard-lb created

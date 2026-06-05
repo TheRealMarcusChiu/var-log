@@ -1,13 +1,14 @@
 ---
-title: "Java - Streams - Converting Checked into Runtime Exceptions"
+publish: true
+title: Java - Streams - Converting Checked into Runtime Exceptions
 created: 2022-02-15T02:40:55.659-06:00
 modified: 2022-02-15T03:24:43.074-06:00
-parent: "[[Java - Streams - Exceptions and Streams]]"
-children: []
 ---
+
 # Problem
 
 Checked exceptions don't play nicely with Java Streams
+
 ```
 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 List<String> dateList = asList("2020-10-11", "2020-nov-12", "2020-12-01");
@@ -15,9 +16,11 @@ List<Date> dates = dateList.stream().map(s -> {
       return format.parse(s); // <--------- this causes a compilation error
 }).collect(toList());
 ```
+
 # Solutions
 
 > [!expand-ui]- Embedded Try-Catch Block
+>
 > ```
 > SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 > List<String> dateList = asList("2020-10-11", "2020-nov-12", "2020-12-01");
@@ -31,6 +34,7 @@ List<Date> dates = dateList.stream().map(s -> {
 > ```
 
 > [!expand-ui]- Lombok's @SneakyThrows
+>
 > ```
 > SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 > List<String> dateList = asList("2020-10-11", "2020-nov-12", "2020-12-01");
@@ -47,6 +51,7 @@ List<Date> dates = dateList.stream().map(s -> {
 > Unfortunately, this requires creating a new function each time.
 
 > [!expand-ui]- Generic Solution
+>
 > ```
 > SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 > List<String> dateList = asList("2020-10-11", "2020-nov-12", "2020-12-01");

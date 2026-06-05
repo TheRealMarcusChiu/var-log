@@ -1,10 +1,10 @@
 ---
-title: "Thin Client - Thick Client"
+publish: true
+title: Thin Client - Thick Client
 created: 2021-08-20T15:27:25.618-05:00
 modified: 2026-01-02T23:26:30.287-06:00
-parent: "[[Computer Terms]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

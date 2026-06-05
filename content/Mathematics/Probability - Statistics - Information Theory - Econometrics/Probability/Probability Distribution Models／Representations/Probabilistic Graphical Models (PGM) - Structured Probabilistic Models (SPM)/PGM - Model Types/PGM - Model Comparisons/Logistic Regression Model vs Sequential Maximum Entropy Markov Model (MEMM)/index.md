@@ -1,10 +1,10 @@
 ---
-title: "Logistic Regression Model vs Sequential Maximum Entropy Markov Model (MEMM)"
+publish: true
+title: Logistic Regression Model vs Sequential Maximum Entropy Markov Model (MEMM)
 created: 2021-09-13T05:26:57.224-05:00
 modified: 2021-09-13T05:26:57.224-05:00
-parent: "[[PGM - Model Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

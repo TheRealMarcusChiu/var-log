@@ -1,22 +1,22 @@
 ---
-title: "Digital Signatures"
+publish: true
+title: Digital Signatures
 created: 2019-08-28T14:59:14.270-05:00
 modified: 2025-12-19T23:34:05.430-06:00
-parent: "[[Digital Signatures - MAC／MIC]]"
-children:
-  - "[[Digital Signature Algorithm (DSA)]]"
-  - "[[Digital Signature Standard (DSS)]]"
-  - "[[Schnorr & ElGamal Signature Schemes]]"
 ---
+
 ###### Digital Signatures
-````excerpt
+
+```excerpt
 - a <em>digital signature</em> of a message (which is produced by the signer) gives a recipient very strong reason to ensure:
 	- message authentication - message originated from the stated signer
 	- message integrity - message has not been changed
-````
+```
+
 ^excerpt
 
 related: [[Digital Signatures - MAC／MIC|Digital Signatures - MAC/MIC]]
+
 # Digital Signature Algorithms
 
 ```merge-table
@@ -73,14 +73,18 @@ related: [[Digital Signatures - MAC／MIC|Digital Signatures - MAC/MIC]]
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Digital Signature Attacks and Forgeries
+
 ###### Digital Signature Attacks
+
 - <strong>key-only attack</strong> - attacker knows sender's public key
 - <strong>known message attack</strong> - attacker has access to set of messages and their corresponding signatures
 - <strong>generic chosen message attack</strong> - attacker choose a list of messages independent of sender's public key)
 - <strong>directed chosen message attack</strong> - attacker choose a list of messages dependent on sender's public key before signatures are seen
 
 ###### Digital Signature Forgeries
+
 - <strong>total break</strong> - attacker determines senders private key
 - <strong>universal forgery</strong> - attacker efficiently finds a way to sign arbitrary messages
 - <strong>selective forgery</strong> - attacker forges signature for a chosen message

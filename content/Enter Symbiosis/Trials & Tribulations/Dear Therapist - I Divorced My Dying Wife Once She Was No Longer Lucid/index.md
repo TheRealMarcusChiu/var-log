@@ -1,11 +1,11 @@
 ---
-title: "Dear Therapist - I Divorced My Dying Wife Once She Was No Longer Lucid"
+publish: true
+title: Dear Therapist - I Divorced My Dying Wife Once She Was No Longer Lucid
 created: 2021-09-13T04:46:16.172-05:00
 modified: 2021-09-13T04:46:16.172-05:00
-parent: "[[Trials & Tribulations]]"
-children: []
 ---
-original article: [https://www.theatlantic.com/family/archive/2019/09/was-i-right-divorce-my-dying-wife/597604/](https://www.theatlantic.com/family/archive/2019/09/was-i-right-divorce-my-dying-wife/597604/)
+
+original article: <https://www.theatlantic.com/family/archive/2019/09/was-i-right-divorce-my-dying-wife/597604/>
 
 <em><font style="color: rgb(94,106,116);">After five years of being her caregiver, I couldn’t bear the emotional or financial costs alone any longer.</font></em>
 
@@ -17,8 +17,7 @@ For five years I was her sole caregiver, washing her, dressing her, feeding her,
 
 Since then I have met another lady with whom I am now in a serious relationship. I am 55 years old. My ex is not capable of understanding cognitively, so she does not know. My family says they support me. My ex’s family doesn’t. I felt I needed to move on in life, but I still visit my ex daily and ensure her needs are met. My son is an adult professional who seems to be struggling with my situation. The woman in my life is great and supports me fully in this, and also ensures I keep in contact with my ex. Did I do right by moving on?
 
-Rich
----
+## Rich
 
 <strong>Dear Rich,</strong>
 

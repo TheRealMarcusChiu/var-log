@@ -1,15 +1,17 @@
 ---
-title: "Java - Spring - Spring Security Expressions (Builtin)"
+publish: true
+title: Java - Spring - Spring Security Expressions (Builtin)
 created: 2022-10-06T19:48:06.020-05:00
 modified: 2022-10-06T20:11:49.608-05:00
-parent: "[[Java - Spring - Spring Security Expressions]]"
-children: []
 ---
+
 Before looking at more complex implementations, such as ACL, it's important to have a solid grasp on security expressions, as they can be quite flexible and powerful if used correctly.
+
 # Spring Security Expressions
 
 > [!expand-ui]- hasRole, hasAnyRole
 > These expressions are responsible for defining the access control or authorization to specific URLs and methods in our application:
+>
 > ```
 > @Bean
 > public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
@@ -21,6 +23,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > ```
 >
 > <code></code>In the above example, we specified:
+>
 > - access to all the links starting with <em>/auth/,</em> restricting them to users that log in with role <em>USER</em> or role <em>ADMIN</em>
 > - access to links starting with <em>/auth/admin/, </em>we need to have an <em>ADMIN</em> role
 
@@ -34,6 +37,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > <strong>The benefit of using authorities is that we don't have to use the <em>ROLE\_</em> prefix at all.</strong>
 >
 > Here's a quick example of defining users with specific authorities:
+>
 > ```
 > @Bean
 > public InMemoryUserDetailsManager userDetailsService() {
@@ -50,6 +54,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > ```
 >
 > We can then use these authorities expressions:
+>
 > ```
 > @Bean
 > public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
@@ -63,6 +68,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > As we can see, we don't mention roles here at all.
 >
 > Additionally, starting with Spring 5, we need a [<em>PasswordEncoder</em>](https://www.baeldung.com/spring-security-5-default-password-encoder) bean:
+>
 > ```
 > @Bean
 > public PasswordEncoder passwordEncoder() {
@@ -72,12 +78,14 @@ Before looking at more complex implementations, such as ACL, it's important to h
 
 > [!expand-ui]- permitAll, denyAll
 > We may either permit or deny access to some [[Uniform Resource Locator (URL)|URL]]s in our service.
+>
 > ```
 > .antMatchers("/*").permitAll() // authorize all users (both anonymous and logged in) to access the page starting with ‘/'
 > .antMatchers("/*").denyAll()   // deny all users
 > ```
 
 > [!expand-ui]- isAnonymous, isRememberMe, isAuthenticated, isFullyAuthenticated
+>
 > ```
 > .antMatchers("/*").anonymous()     // enable all unauthorized users to access our main page
 > .antMatchers("/*").authenticated() // only those who succesfully logged in has access
@@ -86,6 +94,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > Through the use of cookies, Spring enables remember-me capabilities, so there's no need to log into the system each time. We can read [more about <em>Remember Me</em> here](https://www.baeldung.com/spring-security-remember-me).
 >
 > In order to give access to users that were logged in by the remember me function, we can use:
+>
 > ```
 > .antMatchers("/*").rememberMe()
 > ```
@@ -93,6 +102,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > Finally, some parts of our services require the user to be authenticated again, even if the user is already logged in. For example, let's say a user wants to change the settings or payment information; it's good practice to ask for manual authentication in the more sensitive areas of the system.
 >
 > In order to do this, we can specify <em>isFullyAuthenticated()</em>, which returns <em>true</em> if the user isn't an anonymous or remember-me user:
+>
 > ```
 > .antMatchers("/*").fullyAuthenticated()
 > ```
@@ -112,6 +122,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > Let's look at an example. Imagine that we have a service that allows cooperative article writing, with a main editor who decides which articles proposed by the authors should be published.
 >
 > In order to allow the use of such a service, we can create the following methods with access control methods:
+>
 > ```
 > @PreAuthorize("hasPermission(#articleId, 'isEditor')")
 > public void acceptArticle(Article article) {
@@ -122,6 +133,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 > Only the authorized user can call this method, and they need to have <em>isEditor </em>permission in the service.
 >
 > We also need to remember to explicitly configure a <em>PermissionEvaluator</em> in our application context, where <em>customInterfaceImplementation</em> will be the class that implements <em>PermissionEvaluator</em>:
+>
 > ```
 > @Override
 > protected MethodSecurityExpressionHandler expressionHandler() {
@@ -130,5 +142,7 @@ Before looking at more complex implementations, such as ACL, it's important to h
 >     return expressionHandler;
 > }
 > ```
+
 # Resources
-- [https://www.baeldung.com/spring-security-expressions](https://www.baeldung.com/spring-security-expressions)
+
+- <https://www.baeldung.com/spring-security-expressions>

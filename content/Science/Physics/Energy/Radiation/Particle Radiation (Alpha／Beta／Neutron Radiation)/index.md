@@ -1,14 +1,16 @@
 ---
-title: "Particle Radiation (Alpha／Beta／Neutron Radiation)"
+publish: true
+title: Particle Radiation (Alpha／Beta／Neutron Radiation)
 created: 2023-08-02T16:18:55.420-05:00
 modified: 2023-08-02T16:28:34.090-05:00
-parent: "[[Radiation]]"
-children: []
 ---
+
 ###### Particle Radiation
-````excerpt
+
+```excerpt
 - is a type of [[Radiation|radiation]] that emits [[Particles|particles]] of non-zero rest energy
-````
+```
+
 ^excerpt
 
 # Particle Radiation - Types

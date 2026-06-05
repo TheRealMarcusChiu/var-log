@@ -1,18 +1,16 @@
 ---
-title: "Extensible Markup Language (XML)"
+publish: true
+title: Extensible Markup Language (XML)
 created: 2019-03-15T15:03:30.995-05:00
 modified: 2022-12-29T10:53:11.261-06:00
-parent: "[[Markup Language (ML)]]"
-children:
-  - "[[Document Type Definition (DTD)]]"
-  - "[[Web Service Definition Language (WSDL)]]"
-  - "[[XML Path Language (XPath)]]"
-  - "[[XML Schema Definition (XSD)]]"
 ---
+
 ###### Extensible Markup Language (XML)
-````excerpt
+
+```excerpt
 - is a type of [[Markup Language (ML)|markup language]] that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable
-````
+```
+
 ^excerpt
 
 # XML - Use Cases

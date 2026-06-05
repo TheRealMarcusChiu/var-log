@@ -1,16 +1,17 @@
 ---
-title: "Data Analytical Techniques (Descriptive - Diagnostic - Predictive - Prescriptive)"
+publish: true
+title: Data Analytical Techniques (Descriptive - Diagnostic - Predictive - Prescriptive)
 created: 2021-08-20T22:54:11.310-05:00
 modified: 2022-01-06T15:37:45.621-06:00
-parent: "[[Data Science／Scientist／Analytics／Analyst／Infrastructure／Engineering]]"
-children:
-  - "[[Exploratory Data Analysis (EDA)]]"
 ---
+
 # Data Analytical Techniques
+
 - <strong>Descriptive Analytics </strong>tells you what happened in the past.
 - <strong>Diagnostic Analytics </strong>helps you understand why something happened in the past.
 - <strong>Predictive Analytics </strong>predicts what is most likely to happen in the future.
 - <strong>Prescriptive Analytics </strong>recommends actions you can take to affect those outcomes
+
 ```merge-table
 {
   "rows": [
@@ -49,9 +50,5 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

@@ -1,13 +1,13 @@
 ---
-title: "Linear Functionals - Linear Forms - 1／One-Forms - Covectors"
+publish: true
+title: Linear Functionals - Linear Forms - 1／One-Forms - Covectors
 created: 2023-06-11T16:39:55.252-05:00
 modified: 2024-01-12T16:18:11.982-06:00
-parent: "[[Multi-Variable／Multivariable／Multivariate Functions]]"
-children:
-  - "[[Zero／Null Linear Functional]]"
 ---
+
 ###### Linear Functionals - Linear Forms - 1/One-Forms - Covectors (𝐿: 𝑉 → 𝐹)
-````excerpt
+
+```excerpt
 - eats vectors and poops out scalars
 - is a [[Linear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms) - Vector Space Homomorphism|linear map/transformation (𝐿)]] from a [[Vector Spaces - Linear Spaces|vector space (𝑉)]] to its [[Scalar-Valued Functions - Scalar Fields|field of scalars (𝐹)]]
 - denoted as:
@@ -15,7 +15,8 @@ children:
 	- 𝑓(𝑣) where 𝑣∊𝑉
 - is a (0,1)-[[Tensors|tensor]]
 - the set of all <em>linear functionals</em> from 𝑉 to 𝐹 is called the [[Dual Spaces|dual space]] of 𝑉
-````
+```
+
 ^excerpt
 
 # Linear Functional - Examples
@@ -94,11 +95,15 @@ children:
   "tableStyle": "letter-spacing: 0.0px;width: 100.0%;"
 }
 ```
+
 # Linear Functional - Non-Examples
+
 - A function 𝑓 having the equation of a line 𝑓(𝑥) = 𝑎 + 𝑟𝑥 with 𝑎 ≠ 0. For example, 𝑓(𝑥) = 1 + 2𝑥) is not a linear functional on ℝ, since it is not linear. It is however [affine-linear](https://en.wikipedia.org/wiki/Affine-linear_function)
 
 # Linear Functional - Visualizations
+
 - [[Level Sets (Level-Curve／Contour-Line／Isoline - Level-Surface／Isosurface - Level-Hypersurface)|level sets]] can be used to visualize linear functionals
 
 # Resources
-- [https://en.wikipedia.org/wiki/Linear_form](https://en.wikipedia.org/wiki/Linear_form)
+
+- <https://en.wikipedia.org/wiki/Linear_form>

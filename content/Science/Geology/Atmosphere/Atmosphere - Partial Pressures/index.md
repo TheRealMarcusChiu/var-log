@@ -1,10 +1,10 @@
 ---
-title: "Atmosphere - Partial Pressures"
+publish: true
+title: Atmosphere - Partial Pressures
 created: 2021-09-13T04:45:17.424-05:00
 modified: 2021-09-13T04:45:17.424-05:00
-parent: "[[Atmosphere]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

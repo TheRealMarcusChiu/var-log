@@ -1,14 +1,16 @@
 ---
-title: "Command Pattern"
+publish: true
+title: Command Pattern
 created: 2021-07-10T10:54:02.375-05:00
 modified: 2023-06-02T17:03:09.242-05:00
-parent: "[[Behavioral Design Patterns]]"
-children: []
 ---
+
 ###### Command Pattern
-````excerpt
+
+```excerpt
 - is a [[Behavioral Design Patterns|behavioral design pattern]] that turns a request into a stand-alone object that contains all information about the request. This transformation lets you pass requests as method arguments, delay or queue a request’s execution, and support undoable operations
-````
+```
+
 ^excerpt
 
 # Code Structure
@@ -23,14 +25,17 @@ children: []
   ]
 }
 ```
+
 # Code Example
 
 > [!expand]- Click here to expand...
+>
 > ```
 > interface Command {
 > 	void execute();
 > }
 > ```
+>
 > ```
 > class ConcreteCommand1 implements Command {
 > 	void execute() { // logic 1 }
@@ -40,12 +45,14 @@ children: []
 > 	void execute() { // logic 2 }
 > }
 > ```
+>
 > ```
 > interface CommandInvoker {
 > 	setCommand(Command command);
 > 	executeCommand();
 > }
 > ```
+>
 > ```
 > abstract class BaseCommandInvoker implements CommandInvoker {
 > 	Command command;
@@ -65,6 +72,7 @@ children: []
 > 	// modify as needed
 > }
 > ```
+>
 > ```
 > main() {
 > 	Command command1 = new ConcreteCommand1();
@@ -82,6 +90,7 @@ children: []
 > 	commandInvoker2.execute();
 > }
 > ```
+
 # Comparisons
 
 > [!expand]- Click here to expand...
@@ -96,5 +105,7 @@ children: []
 > ![[Command Pattern vs Visitor Pattern#^excerpt]]
 >
 > ![[Command vs Memento#^excerpt]]
+
 # Resources
-- [https://refactoring.guru/design-patterns/command](https://refactoring.guru/design-patterns/command)
+
+- <https://refactoring.guru/design-patterns/command>

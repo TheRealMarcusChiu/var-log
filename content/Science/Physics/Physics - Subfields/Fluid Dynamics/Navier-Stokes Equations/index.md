@@ -1,20 +1,24 @@
 ---
-title: "Navier-Stokes Equations"
+publish: true
+title: Navier-Stokes Equations
 created: 2025-10-01T11:21:28.383-05:00
 modified: 2025-10-01T11:57:34.852-05:00
-parent: "[[Fluid Dynamics]]"
-children: []
 ---
+
 ###### Navier-Stokes Equations
-````excerpt
+
+```excerpt
 - are [[Differential Equations (DE) - Ordinary Differential Equations (ODEs) - Partial Differential Equations (PDEs)|partial differential equations]] which describe the motion of viscous fluid substances
 - they come from applying Newton’s second law to a fluid element, combined with the assumption that stress is the sum of an isotropic pressure term and a viscous term proportional to the rate of strain
-````
+```
+
 ^excerpt
 
 # Equations
+
 - continuity equation - ensures mass conservation
 - momentum equation - ensures Newton's 2nd law for fluids with viscous stresses
+
 ```merge-table
 {
   "rows": [

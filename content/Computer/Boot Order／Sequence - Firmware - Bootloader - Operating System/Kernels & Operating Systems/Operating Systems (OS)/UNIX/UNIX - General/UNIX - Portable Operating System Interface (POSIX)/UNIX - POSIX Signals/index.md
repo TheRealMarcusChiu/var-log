@@ -1,11 +1,12 @@
 ---
-title: "UNIX - POSIX Signals"
+publish: true
+title: UNIX - POSIX Signals
 created: 2022-07-22T19:08:52.854-05:00
 modified: 2022-07-22T19:21:18.853-05:00
-parent: "[[UNIX - Portable Operating System Interface (POSIX)]]"
-children: []
 ---
+
 ###### POSIX Signals
+
 - are the cheapest form of [[Inter-Process／Interprocess Communication (IPC)|Inter-Process/Interprocess Communication (IPC)]]
 
 # POSIX Signal Types

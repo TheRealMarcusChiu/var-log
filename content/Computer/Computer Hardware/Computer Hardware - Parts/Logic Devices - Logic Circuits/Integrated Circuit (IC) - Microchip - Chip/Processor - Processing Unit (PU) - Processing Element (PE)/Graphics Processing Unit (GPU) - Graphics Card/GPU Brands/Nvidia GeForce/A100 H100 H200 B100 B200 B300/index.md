@@ -1,11 +1,10 @@
 ---
-title: "A100 H100 H200 B100 B200 B300"
+publish: true
+title: A100 H100 H200 B100 B200 B300
 created: 2025-10-15T23:31:05.896-05:00
 modified: 2026-03-19T21:32:08.625-05:00
-parent: "[[Nvidia GeForce]]"
-children:
-  - "[[H100 SXM5]]"
 ---
+
 ```merge-table
 {
   "rows": [

@@ -1,28 +1,19 @@
 ---
-title: "Numeral／Numerical／Number Systems／Representations／Notations"
+publish: true
+title: Numeral／Numerical／Number Systems／Representations／Notations
 created: 2021-09-13T05:24:58.345-05:00
 modified: 2024-08-19T13:08:27.807-05:00
-parent: "[[Arithmetic]]"
-children:
-  - "[[Base1 - Unary Notation]]"
-  - "[[Base10 - Decimal Notation]]"
-  - "[[Base16 - Hexadecimal Notation]]"
-  - "[[Base2 - Binary Notation]]"
-  - "[[Base32 Notation]]"
-  - "[[Base4 Notation]]"
-  - "[[Base64 Notation]]"
-  - "[[Base64url Notation]]"
-  - "[[Base8 - Octal Notation]]"
-  - "[[Residue Number System (RMS) - Complete Residue System - Reduced Residue System]]"
-  - "[[Roman Numerals]]"
 ---
+
 ###### Numeral/Numerical/Number Systems/Representations/Notations
-````excerpt
+
+```excerpt
 - is a writing system for expressing numbers (mapping numbers to characters)
 - i.e. it defines how we represent an abstract number into a sequence of symbols/characters, and where the number of distinct symbols allowed is fixed
 - e.g. the abstract number twelve is represented as a sequence of symbols 12 (1 followed by 2). The number of distinct symbols used in this numeral system is ten (i.e. 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9)
 - <em>similar to the [[Character Encoding (Character Set - Encoding Scheme)|character set]], but different</em>
-````
+```
+
 ^excerpt
 
 # Numeral/Number Systems/Representations/Notations - Types

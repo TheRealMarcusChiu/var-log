@@ -1,10 +1,10 @@
 ---
-title: "CPU Sockets - Land／Pin Grid Array (LGA／PGA／ZIF／BGA)"
+publish: true
+title: CPU Sockets - Land／Pin Grid Array (LGA／PGA／ZIF／BGA)
 created: 2022-09-11T21:14:05.848-05:00
 modified: 2025-10-11T02:08:47.871-05:00
-parent: "[[Motherboard (MoBo)]]"
-children: []
 ---
+
 # CPU Socket - Types
 
 ```merge-table
@@ -41,6 +41,7 @@ children: []
   ]
 }
 ```
+
 # CPU Socket - Names
 
 ```merge-table
@@ -65,6 +66,7 @@ children: []
   ]
 }
 ```
+
 # AMD EPYC Socket Types
 
 ```merge-table

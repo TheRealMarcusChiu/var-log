@@ -1,11 +1,10 @@
 ---
-title: "Enter Firearms／Guns"
+publish: true
+title: Enter Firearms／Guns
 created: 2022-11-23T20:40:53.844-06:00
 modified: 2023-07-15T13:51:33.791-05:00
-parent: "[[Enter Entertainment]]"
-children:
-  - "[[Beretta 92]]"
 ---
+
 # Pistols
 
 ```merge-table
@@ -37,9 +36,4 @@ children:
     ]
   ]
 }
-```
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
 ```

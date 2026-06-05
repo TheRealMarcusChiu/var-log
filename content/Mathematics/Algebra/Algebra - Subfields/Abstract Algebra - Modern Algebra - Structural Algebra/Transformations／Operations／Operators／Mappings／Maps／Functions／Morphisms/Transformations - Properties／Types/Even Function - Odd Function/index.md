@@ -1,10 +1,10 @@
 ---
-title: "Even Function - Odd Function"
+publish: true
+title: Even Function - Odd Function
 created: 2021-09-13T05:29:27.557-05:00
 modified: 2021-09-13T05:29:27.557-05:00
-parent: "[[Transformations - Properties／Types]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

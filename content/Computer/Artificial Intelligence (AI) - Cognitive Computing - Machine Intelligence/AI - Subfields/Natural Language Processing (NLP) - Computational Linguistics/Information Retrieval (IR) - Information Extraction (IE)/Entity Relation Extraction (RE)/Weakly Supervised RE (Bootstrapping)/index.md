@@ -1,15 +1,17 @@
 ---
-title: "Weakly Supervised RE (Bootstrapping)"
+publish: true
+title: Weakly Supervised RE (Bootstrapping)
 created: 2020-11-02T14:34:16.745-06:00
 modified: 2020-11-02T18:52:28.457-06:00
-parent: "[[Entity Relation Extraction (RE)]]"
-children: []
 ---
+
 ###### Weakly Supervised RE
 
 The idea here is to either:
+
 - start out with a set of hand-crafted rules and automatically find new ones from the unlabeled text data, through and iterative process (bootstrapping)
 - start out with a sed of seed tuples, describing entities with a specific relation <font style="color: rgb(128,128,128);">(e.g. seed={(ORG:IBM, LOC:Armonk), (ORG:Microsoft, LOC:Redmond)} states entities having the relation “based in”)</font>
+
 ```merge-table
 {
   "rows": [
@@ -20,14 +22,16 @@ The idea here is to either:
   ]
 }
 ```
+
 ### Example
-- seed tuple: <code><font style="color: rgb(128,128,128);">\<Mark Twain, Elmira\></font></code>
+
+- seed tuple: <code><font style="color: rgb(128,128,128);">\<Mark Twain, Elmira></font></code>
 - grep/google for the environments of the seed tuple:
-	- <code><font style="color: rgb(128,128,128);">Mark Twain is buried in Elmira, NY</font></code>
-		- <code><font style="color: rgb(255,153,0);">X is buried in Y</font></code>
-	- <code><font style="color: rgb(128,128,128);">The grave of Mark Twain is in Elmira</font></code>
-		- <code><font style="color: rgb(255,153,0);">The grave of X is in Y</font></code>
-	- <code><font style="color: rgb(128,128,128);">Elmira is Mark Twain's final resting place</font></code>
-		- <code><font style="color: rgb(255,153,0);">Y is X's final resting place</font></code>
+  - <code><font style="color: rgb(128,128,128);">Mark Twain is buried in Elmira, NY</font></code>
+    - <code><font style="color: rgb(255,153,0);">X is buried in Y</font></code>
+  - <code><font style="color: rgb(128,128,128);">The grave of Mark Twain is in Elmira</font></code>
+    - <code><font style="color: rgb(255,153,0);">The grave of X is in Y</font></code>
+  - <code><font style="color: rgb(128,128,128);">Elmira is Mark Twain's final resting place</font></code>
+    - <code><font style="color: rgb(255,153,0);">Y is X's final resting place</font></code>
 - use those patterns to grep for new tuples
 - iterate

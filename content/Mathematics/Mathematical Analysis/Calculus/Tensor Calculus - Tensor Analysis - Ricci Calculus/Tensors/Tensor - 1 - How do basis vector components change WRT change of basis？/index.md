@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 1 - How do basis vector components change WRT change of basis？"
+publish: true
+title: Tensor - 1 - How do basis vector components change WRT change of basis？
 created: 2023-08-01T22:55:48.584-05:00
 modified: 2023-08-01T22:57:21.678-05:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 We define:
 - old basis: {𝑒<sub>1</sub>, 𝑒<sub>2</sub>}
@@ -53,4 +53,5 @@ Confirming the inverse behavior of the above equations
 Thus 𝛿<sub>𝑖𝑗</sub> is the [[Kronecker Delta Function／Symbol|kronecker delta function]]:
 - $𝛿_{jk} = \sum_{i=1}^n B_{ij} F_{ki}$
 ````
+
 ^excerpt

@@ -1,10 +1,10 @@
 ---
-title: "Kerberos - Daemons"
+publish: true
+title: Kerberos - Daemons
 created: 2022-09-03T19:28:47.658-05:00
 modified: 2022-09-03T19:29:28.891-05:00
-parent: "[[Kerberos Protocol]]"
-children: []
 ---
+
 The following table lists the daemons that the Kerberos product uses.
 
 ```merge-table

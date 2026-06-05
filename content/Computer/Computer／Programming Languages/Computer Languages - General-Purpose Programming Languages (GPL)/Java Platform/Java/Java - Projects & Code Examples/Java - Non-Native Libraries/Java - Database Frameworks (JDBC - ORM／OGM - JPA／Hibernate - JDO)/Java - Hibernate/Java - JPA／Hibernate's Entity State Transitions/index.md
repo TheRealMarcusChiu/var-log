@@ -1,13 +1,14 @@
 ---
-title: "Java - JPA／Hibernate's Entity State Transitions"
+publish: true
+title: Java - JPA／Hibernate's Entity State Transitions
 created: 2021-03-07T19:08:33.336-06:00
 modified: 2022-11-15T15:18:18.866-06:00
-parent: "[[Java - Hibernate]]"
-children: []
 ---
+
 <em>[[Java - Hibernate|Hibernate]]</em> shifts the developer mindset from <em>[[Structured Query Language (SQL)|SQL]]</em> statements to <strong>entity state transitions</strong>. Once an entity is actively managed by <em>Hibernate</em>, all changes are going to be automatically propagated to the database.
 
 Manipulating domain model entities (along with their associations) is much easier than writing and maintaining <em>SQL</em> statements. Without an [ORM](http://en.wikipedia.org/wiki/Object-relational_mapping) tool, adding a new column requires modifying all associated <em>INSERT</em>/<em>UPDATE</em> statements.
+
 # The Entity States
 
 <em>JPA/Hibernate</em> monitors currently attached entities. Here are all entity states:
@@ -41,6 +42,7 @@ Manipulating domain model entities (along with their associations) is much easie
 > Although <em>JPA</em> demands that [managed entities only](http://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html#remove%28java.lang.Object%29) are allowed to be removed, <em>Hibernate</em> can also [delete detached entities](https://docs.jboss.org/hibernate/core/4.3/devguide/en-US/html/ch03.html#d5e824) (but only through a [Session#delete](https://docs.jboss.org/hibernate/core/4.3/javadocs/org/hibernate/Session.html#delete%28java.lang.Object%29) method call).
 >
 > A removed entity is only scheduled for deletion and the actual database <em>DELETE</em> statement will be executed during <em>Session</em> flush-time
+
 # Entity State Transitions
 
 ```merge-table
@@ -53,5 +55,7 @@ Manipulating domain model entities (along with their associations) is much easie
   ]
 }
 ```
+
 # Other
+
 - [[Java - How to Implement .equals() & .hashCode() for JPA／Hibernate Entities|Java - How to Implement .equals() & .hashCode() for JPA/Hibernate Entities]]

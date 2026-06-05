@@ -1,10 +1,10 @@
 ---
-title: "Window Manager vs Desktop Environment"
+publish: true
+title: Window Manager vs Desktop Environment
 created: 2024-06-18T19:02:25.365-05:00
 modified: 2024-06-18T19:20:04.808-05:00
-parent: "[[Desktop Environments (DE)]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

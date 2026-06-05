@@ -1,10 +1,10 @@
 ---
-title: "Causal Language Modeling (CLM) vs Masked Language Modeling (MLM) vs Sequence-to-Sequence (Seq2Seq)"
+publish: true
+title: Causal Language Modeling (CLM) vs Masked Language Modeling (MLM) vs Sequence-to-Sequence (Seq2Seq)
 created: 2024-08-18T12:55:44.828-05:00
 modified: 2024-08-18T13:38:05.009-05:00
-parent: "[[Language Models]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [
@@ -35,5 +35,7 @@ children: []
   ]
 }
 ```
+
 # Resources
-- [https://medium.com/@tom_21755/understanding-causal-llms-masked-llm-s-and-seq2seq-a-guide-to-language-model-training-d4457bbd07fa](https://medium.com/@tom_21755/understanding-causal-llms-masked-llm-s-and-seq2seq-a-guide-to-language-model-training-d4457bbd07fa)
+
+- <https://medium.com/@tom_21755/understanding-causal-llms-masked-llm-s-and-seq2seq-a-guide-to-language-model-training-d4457bbd07fa>

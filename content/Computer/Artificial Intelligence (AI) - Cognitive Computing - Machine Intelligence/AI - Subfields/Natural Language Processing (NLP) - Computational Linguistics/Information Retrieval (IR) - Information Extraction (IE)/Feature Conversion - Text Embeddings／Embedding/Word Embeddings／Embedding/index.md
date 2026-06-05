@@ -1,25 +1,22 @@
 ---
-title: "Word Embeddings／Embedding"
+publish: true
+title: Word Embeddings／Embedding
 created: 2020-11-09T21:46:57.537-06:00
 modified: 2024-08-19T16:33:33.804-05:00
-parent: "[[Feature Conversion - Text Embeddings／Embedding]]"
-children:
-  - "[[FastText]]"
-  - "[[GloVe (Global Vectors for Word Representation)]]"
-  - "[[Indicator Encoding]]"
-  - "[[One-Hot Encoding]]"
-  - "[[Ordinal Encoding]]"
-  - "[[Word2Vec]]"
 ---
+
 ###### Word Embeddings
-````excerpt
+
+```excerpt
 - a type of [[Feature Conversion - Text Embeddings／Embedding|Text Embeddings]] that maps words/phrases from the vocabulary to real numbers (or vectors)
 - conceptually it involves a mathematical [[Feature Projection／Extraction - Embeddings|embedding]] from space with many dimensions to a continuous [[Vector Spaces - Linear Spaces|vector space]] with a much lower dimension
-````
+```
+
 ^excerpt
 
 # Word Embedding - Spectrum
-![[Word Embeddings／Embedding/word-embeddings-spectrum.png|500x114]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Information Retrieval (IR) - Information Extraction (IE)/Feature Conversion - Text Embeddings／Embedding/Word Embeddings／Embedding/word-embeddings-spectrum.png|500x114]]
 
 ```merge-table
 {
@@ -78,7 +75,9 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Word Embedding - Methods Generating Mapping
+
 - [[Artificial Neural Networks (ANN)|neural networks]]
 - [[Feature Dimensional／Dimensionality Reduction|dimensionality reduction]] on the word [co-occurrence matrix](https://en.wikipedia.org/wiki/Co-occurrence_matrix)
 - [[Probability Distribution Models／Representations|probabilistic models]]
@@ -86,7 +85,8 @@ children:
 - explicit representation in terms of the context in which words appear
 
 # Word Embeddings - Taxonomy
-![[Word Embeddings／Embedding/taxonomy-of-word-embeddings.png|800]]
+
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Natural Language Processing (NLP) - Computational Linguistics/Information Retrieval (IR) - Information Extraction (IE)/Feature Conversion - Text Embeddings／Embedding/Word Embeddings／Embedding/taxonomy-of-word-embeddings.png|800]]
 
 ```merge-table
 {
@@ -182,5 +182,7 @@ children:
   ]
 }
 ```
+
 # Resources
+
 - [[embeddings.pdf|What are Embeddings - Vicki Boykis]]

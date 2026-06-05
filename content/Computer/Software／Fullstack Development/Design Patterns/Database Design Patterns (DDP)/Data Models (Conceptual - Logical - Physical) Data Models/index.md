@@ -1,16 +1,18 @@
 ---
-title: "Data Models (Conceptual - Logical - Physical) Data Models"
+publish: true
+title: Data Models (Conceptual - Logical - Physical) Data Models
 created: 2020-11-26T18:06:17.188-06:00
 modified: 2021-09-21T01:57:43.551-05:00
-parent: "[[Database Design Patterns (DDP)]]"
-children: []
 ---
+
 ###### Data Model
+
 - is defined as an abstract model that organizes data description, data semantics, and consistency constraints of data
 - emphasizes what data is needed and how it should be organized instead of what operations will be performed on data
 - is like an architect's building plan, which helps to build conceptual models and set a relationship between data items
 
 # Data Modeling Technique Types
+
 - [[Unified Modeling Language (UML) Diagram]]
 - [[Entity-Relationship Model (ERM) - Entity-Relationship Diagram (ERD)]]
 
@@ -74,4 +76,4 @@ children: []
 }
 ```
 
-![[Data Models (Conceptual - Logical - Physical) Data Models/logical-data-model-to-physical-data-model.png|301]]
+![[Computer/Software／Fullstack Development/Design Patterns/Database Design Patterns (DDP)/Data Models (Conceptual - Logical - Physical) Data Models/logical-data-model-to-physical-data-model.png|301]]

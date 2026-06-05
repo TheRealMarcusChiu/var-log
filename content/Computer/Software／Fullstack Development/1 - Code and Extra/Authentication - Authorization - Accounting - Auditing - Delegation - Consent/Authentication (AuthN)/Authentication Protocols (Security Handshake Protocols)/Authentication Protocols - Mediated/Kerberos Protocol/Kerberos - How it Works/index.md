@@ -1,11 +1,10 @@
 ---
-title: "Kerberos - How it Works"
+publish: true
+title: Kerberos - How it Works
 created: 2022-09-03T19:01:23.027-05:00
 modified: 2022-09-03T19:02:27.604-05:00
-parent: "[[Kerberos Protocol]]"
-children:
-  - "[[Kerberos - Designing an Authentication System： a Dialogue in Four Scenes]]"
 ---
+
 # How It Works (Kerberos Version 4)
 
 ```merge-table
@@ -18,9 +17,5 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

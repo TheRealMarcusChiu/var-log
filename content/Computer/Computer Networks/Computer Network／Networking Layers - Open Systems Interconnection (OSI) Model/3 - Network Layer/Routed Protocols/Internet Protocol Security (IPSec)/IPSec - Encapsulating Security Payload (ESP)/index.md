@@ -1,13 +1,13 @@
 ---
-title: "IPSec - Encapsulating Security Payload (ESP)"
+publish: true
+title: IPSec - Encapsulating Security Payload (ESP)
 created: 2019-11-09T20:52:18.665-06:00
 modified: 2019-12-03T19:27:40.557-06:00
-parent: "[[Internet Protocol Security (IPSec)]]"
-children: []
 ---
-![[IPSec - Encapsulating Security Payload (ESP)/IPsec-ESP-modes.png|450]]
 
-![[IPSec - Encapsulating Security Payload (ESP)/ipsec-esp-format.png|400]]
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/3 - Network Layer/Routed Protocols/Internet Protocol Security (IPSec)/IPSec - Encapsulating Security Payload (ESP)/IPsec-ESP-modes.png|450]]
+
+![[Computer/Computer Networks/Computer Network／Networking Layers - Open Systems Interconnection (OSI) Model/3 - Network Layer/Routed Protocols/Internet Protocol Security (IPSec)/IPSec - Encapsulating Security Payload (ESP)/ipsec-esp-format.png|400]]
 
 ```merge-table
 {

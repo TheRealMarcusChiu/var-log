@@ -1,11 +1,12 @@
 ---
-title: "Avocado Smoothie"
+publish: true
+title: Avocado Smoothie
 created: 2023-11-29T13:00:57.528-06:00
 modified: 2023-11-29T13:01:56.213-06:00
-parent: "[[Smoothies]]"
-children: []
 ---
+
 # Ingredients
+
 - 1/2 of a large avocado
 - 1 1/2 cups cold milk of choice
 - scant 1 tsp pure vanilla extract

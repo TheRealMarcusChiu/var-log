@@ -1,11 +1,12 @@
 ---
-title: "Hadoop vs Spark"
+publish: true
+title: Hadoop vs Spark
 created: 2025-04-25T17:10:04.029-05:00
 modified: 2025-04-25T17:16:15.916-05:00
-parent: "[[Data Storage - Comparisons]]"
-children: []
 ---
+
 [[Apache Hadoop]] and [[Apache Spark]] are both big data frameworks, but they differ in their approach to processing data.
+
 - Hadoop, with its [[Hadoop Distributed File System (HDFS)|HDFS (Hadoop Distributed File System)]] and [[MapReduce (MR)|MapReduce]] framework, is primarily designed for batch processing of large datasets stored on disk.
 - Spark, on the other hand, is built for speed and real-time processing, leveraging in-memory computations and a fault-tolerant data structure called [[Resilient Distributed Dataset (RDD)|Resilient Distributed Datasets (RDDs)]].
 
@@ -75,5 +76,6 @@ Here's a more detailed comparison:
 ```
 
 In essence:
+
 - Choose Hadoop for batch processing, large-scale data storage, and when cost is a primary concern.
 - Choose Spark for real-time analytics, machine learning, and when speed and iterative computations are essential.

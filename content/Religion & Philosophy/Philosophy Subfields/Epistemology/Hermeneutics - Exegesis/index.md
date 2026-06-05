@@ -1,21 +1,23 @@
 ---
-title: "Hermeneutics - Exegesis"
+publish: true
+title: Hermeneutics - Exegesis
 created: 2021-09-13T04:44:20.629-05:00
 modified: 2021-09-13T04:44:20.629-05:00
-parent: "[[Epistemology]]"
-children: []
 ---
-<strong>hermeneutics</strong> is the branch of knowledge that deals with interpretation of texts
-<strong>exegesis</strong> is the critical explanation or interpretation of text
+
+<strong>hermeneutics</strong> is the branch of knowledge that deals with interpretation of texts <strong>exegesis</strong> is the critical explanation or interpretation of text
+
 ### Hermeneutics vs Exegesis
 
 The terms <em>hermeneutics</em> and <em>exegesis</em> are sometimes used interchangeably. Hermeneutics is a wider discipline which includes written, verbal, and non-verbal communication. Exegesis focuses primarily upon the word and grammar of texts.
+
 ### Hermeneutical/Interpretation Types
+
 - literal interpretation
 - non-literal interpretation
-	- allegorical interpretation
-		- typological interpretation
-	- anagogical interpretation
+  - allegorical interpretation
+    - typological interpretation
+  - anagogical interpretation
 - moral interpretation
 
 the same text can have both literal and non-literal interpretations
@@ -59,11 +61,13 @@ the same text can have both literal and non-literal interpretations
   "tableStyle": "width: 98.6029%;"
 }
 ```
+
 ### Various Contexts of Text
 
 related: [[Meaning = Semantics + Pragmatics + Discoursology]]
 
-![[Hermeneutics - Exegesis/hermeneutics.jpg|400]]
+![[Religion & Philosophy/Philosophy Subfields/Epistemology/Hermeneutics - Exegesis/hermeneutics.jpg|400]]
+
 - cultural
 - historical
 - geographical

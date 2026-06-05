@@ -1,10 +1,10 @@
 ---
-title: "Mormonism - Happiness"
+publish: true
+title: Mormonism - Happiness
 created: 2021-09-13T04:45:01.241-05:00
 modified: 2021-09-13T04:45:01.241-05:00
-parent: "[[Mormonism]]"
-children: []
 ---
+
 Living Happily Ever After
 Coleen K. Menlove
 
@@ -18,21 +18,21 @@ We are living in our “once upon a time.” We are experiencing a mortal probat
 
 In the Book of Mormon, Lehi explained to his son Jacob that happiness is a result of obedience. He told Jacob that eternal laws have both punishments and opportunities for happiness attached to them. When we disobey God’s laws, we suffer the punishments, but when we obey, we reap the happiness (see 2 Ne. 2:10). Part of what creates happiness is the absence of regret, guilt, and sin.
 
-The Prophet Joseph Smith taught, “Happiness is the object and design of our existence; and will be the end thereof, if we pursue the path that leads to it; and this path is virtue, uprightness, faithfulness, holiness, and keeping all the commandments of God” (Teachings of the Prophet Joseph Smith, sel. Joseph Fielding Smith \[1976\], 255–56).
+The Prophet Joseph Smith taught, “Happiness is the object and design of our existence; and will be the end thereof, if we pursue the path that leads to it; and this path is virtue, uprightness, faithfulness, holiness, and keeping all the commandments of God” (Teachings of the Prophet Joseph Smith, sel. Joseph Fielding Smith \[1976], 255–56).
 
 A young friend named Emily discovered this for herself. Emily did not yet have a testimony of the gospel and was contemplating whether to remain active in the Church or try to find happiness elsewhere. As she searched for answers, she began to notice that the people and families around her who were the happiest were the ones who were active in the Church. After that discovery, she determined that even if she didn’t yet have a complete testimony of the truthfulness of the gospel, she wanted to be part of something that helped people to be so happy. The word gospel means “good news,” and, as Emily discovered, the good news is that the gospel can make us very happy.
 
 But, you may be thinking, even within the Church there are people who aren’t happy or people who are usually happy but who experience intermittent times of stress, worry, challenge, and discouragement. That, too, is part of the great plan of happiness. Mortality is a time of testing and trial, which means that there must be times when we feel pain and emotional discomfort. However, by patiently trusting in the eternal plan, we can experience daily happiness and have hope for “ever-after happiness.”
 
-Elder Boyd K. Packer explained: “It was meant to be that life would be a challenge. To suffer some anxiety, some depression, some disappointment, even some failure is normal. Teach our members that if they have a good, miserable day once in a while, or several in a row, to stand steady and face them. Things will straighten out. There is great purpose in our struggle in life” (“That All May Be Edified” \[1982\], 94).
+Elder Boyd K. Packer explained: “It was meant to be that life would be a challenge. To suffer some anxiety, some depression, some disappointment, even some failure is normal. Teach our members that if they have a good, miserable day once in a while, or several in a row, to stand steady and face them. Things will straighten out. There is great purpose in our struggle in life” (“That All May Be Edified” \[1982], 94).
 
 The story of our search for happiness is written in such a way that if we continue to trust in God and follow His commandments through the challenging times, even those times will bring us closer to the happiness we are seeking. The Savior said, “In the world ye shall have tribulation: but be of good cheer; I have overcome the world” (John 16:33).
 
 The Savior, Jesus Christ, showed us the way to happiness and told us everything we need to do to be happy. As we study the teachings of the Savior and thereby understand the purpose of our existence, we feel and express our happiness.
 
-In the Doctrine and Covenants, the Lord said that we should worship Him “with a glad heart and a cheerful countenance” (D&C 59:15). We can experience a speedier and more sure course to our “ever-after happiness” by developing certain habits and attitudes that encourage happiness.
+In the Doctrine and Covenants, the Lord said that we should worship Him “with a glad heart and a cheerful countenance” (D\&C 59:15). We can experience a speedier and more sure course to our “ever-after happiness” by developing certain habits and attitudes that encourage happiness.
 
-Our prophet, President Gordon B. Hinckley, is the very essence of a glad heart. He has written: “I am an optimist! … My plea is that we stop seeking out the storms and enjoy more fully the sunlight. I am suggesting that as we go through life, we ‘accentuate the positive’” (Standing for Something \[2000\], 101).
+Our prophet, President Gordon B. Hinckley, is the very essence of a glad heart. He has written: “I am an optimist! … My plea is that we stop seeking out the storms and enjoy more fully the sunlight. I am suggesting that as we go through life, we ‘accentuate the positive’” (Standing for Something \[2000], 101).
 
 Children are usually good examples of attitudes of “a glad heart and a cheerful countenance.” They have a sense of happiness and optimism that invites others to rejoice with them.
 

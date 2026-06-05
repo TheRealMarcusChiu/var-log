@@ -1,13 +1,10 @@
 ---
-title: "Likelihood Function - Log-Likelihood Function - Score Function"
+publish: true
+title: Likelihood Function - Log-Likelihood Function - Score Function
 created: 2021-09-13T05:28:00.683-05:00
 modified: 2022-01-01T03:13:16.835-06:00
-parent: "[[Maximum Likelihood Estimation (MLE)]]"
-children:
-  - "[[Expected Log-Likelihood Function]]"
-  - "[[Log-Likelihood Function - Of Specific Distributions]]"
-  - "[[Sufficient Statistic]]"
 ---
+
 # Likelihood Function - Log-Likelihood Function - Score Function
 
 ```merge-table
@@ -44,9 +41,5 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

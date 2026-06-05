@@ -1,19 +1,22 @@
 ---
-title: "ID Token"
+publish: true
+title: ID Token
 created: 2020-01-09T22:16:31.874-06:00
 modified: 2026-01-09T16:23:48.241-06:00
-parent: "[[Token Classes]]"
-children: []
 ---
+
 ###### ID Token
-````excerpt
+
+```excerpt
 - is a [[JSON Web Tokens (JWT) (JWS - JWE - Unsecured JWT)|JSON Web Tokens (JWT)]] that contains claims about the authentication of an [[Authentication／Authorization／Delegation - Entities／Actors|End-User]] and their identity. It may optionally contain other data about the End-User
-````
+```
+
 ^excerpt
 
 # ID Token - Structure
 
 The claims are represented in a simple JSON object e.g.
+
 ```
 {
  	"iss": "https://server.example.com",
@@ -82,5 +85,6 @@ as a minimum the id token will contain the following claims:
 ```
 
 The JSON Object is either:
+
 - signed using [[JWT - JSON Web Signature (JWS) Structure|JSON Web Signature (JWS)]]
 - signed & encrypted using [[JWT - JSON Web Encryption (JWE) Structure|JSON Web Encryption (JWE)]]

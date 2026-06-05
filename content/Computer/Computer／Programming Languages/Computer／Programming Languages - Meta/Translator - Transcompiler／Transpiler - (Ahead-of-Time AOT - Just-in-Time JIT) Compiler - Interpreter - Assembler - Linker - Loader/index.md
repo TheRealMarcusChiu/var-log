@@ -1,14 +1,11 @@
 ---
-title: "Translator - Transcompiler／Transpiler - (Ahead-of-Time AOT - Just-in-Time JIT) Compiler - Interpreter - Assembler - Linker - Loader"
+publish: true
+title: Translator - Transcompiler／Transpiler - (Ahead-of-Time AOT - Just-in-Time JIT) Compiler - Interpreter - Assembler - Linker - Loader
 created: 2019-10-16T10:33:48.096-05:00
 modified: 2026-05-24T16:28:43.532-05:00
-parent: "[[Computer／Programming Languages - Meta]]"
-children:
-  - "[[Assembler - Disassembler]]"
-  - "[[Compiler／Compilers]]"
-  - "[[Transcompiler／Transpiler]]"
 ---
-Based on: [https://softwareengineering.stackexchange.com/questions/246094/understanding-the-differences-traditional-interpreter-jit-compiler-jit-interp](https://softwareengineering.stackexchange.com/questions/246094/understanding-the-differences-traditional-interpreter-jit-compiler-jit-interp)
+
+Based on: <https://softwareengineering.stackexchange.com/questions/246094/understanding-the-differences-traditional-interpreter-jit-compiler-jit-interp>
 
 ```merge-table
 {

@@ -1,10 +1,10 @@
 ---
-title: "Inverse Function - Anti-Function"
+publish: true
+title: Inverse Function - Anti-Function
 created: 2021-09-13T05:29:28.801-05:00
 modified: 2021-09-13T05:29:28.801-05:00
-parent: "[[Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)]]"
-children: []
 ---
+
 <strong>inverse function</strong> (or <strong>anti-function</strong>) is a [[Functions (Domain - Codomain - Preimage - Image - Range)|function]] that "reverses" another function
 
 <em>𝑓(𝑥)</em> = 𝑦[if and only if](https://en.wikipedia.org/wiki/If_and_only_if)<em>𝑔(𝑦)</em> = <em>𝑥</em>

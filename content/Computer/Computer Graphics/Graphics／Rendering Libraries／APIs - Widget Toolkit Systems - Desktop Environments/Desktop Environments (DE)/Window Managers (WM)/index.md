@@ -1,21 +1,17 @@
 ---
-title: "Window Managers (WM)"
+publish: true
+title: Window Managers (WM)
 created: 2024-06-18T13:37:59.262-05:00
 modified: 2025-01-23T00:00:51.354-06:00
-parent: "[[Desktop Environments (DE)]]"
-children:
-  - "[[DWM]]"
-  - "[[Hyprland]]"
-  - "[[OpenBox]]"
-  - "[[Sway]]"
-  - "[[bspwm]]"
-  - "[[i3]]"
 ---
+
 ###### Window Managers (WM)
-````excerpt
+
+```excerpt
 - is system software that controls the placement and appearance of windows within a [[Display Server - Windowing Systems - Window Systems|windowing system]] in a GUI
 - it can be part of a [[Desktop Environments (DE)|desktop environment (DE)]] or be used standalone
-````
+```
+
 ^excerpt
 
 # WM - Categories
@@ -48,19 +44,18 @@ children:
   "tableStyle": "letter-spacing: 0.0px;"
 }
 ```
+
 # WM - Types
 
-other types: [https://wiki.archlinux.org/title/window_manager#List_of_window_managers](https://wiki.archlinux.org/title/window_manager#List_of_window_managers)
+other types: <https://wiki.archlinux.org/title/window_manager#List_of_window_managers>
+
 # WM - Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # WM - Other
+
 - [[Window Manager vs Desktop Environment]]
 - [[Window Manager vs Display Server ／ Windowing System|Window Manager vs Display Server / Windowing System]]
 
 # Resources
-- [https://wiki.archlinux.org/title/window_manager](https://wiki.archlinux.org/title/window_manager)
+
+- <https://wiki.archlinux.org/title/window_manager>

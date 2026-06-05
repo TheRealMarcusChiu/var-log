@@ -234,7 +234,7 @@ plugins:
     enabled: true
     options:
       title: Recently Notes
-      linkToMore: true      
+      linkToMore: true
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -273,7 +273,7 @@ plugins:
     enabled: true
     options:
       theme: default
-      mode: light # force permanent light mode (hides the dark/light toggle)
+      mode: light
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:

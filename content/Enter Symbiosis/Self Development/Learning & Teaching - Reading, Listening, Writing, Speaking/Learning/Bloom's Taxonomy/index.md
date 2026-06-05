@@ -1,14 +1,16 @@
 ---
-title: "Bloom's Taxonomy"
+publish: true
+title: Bloom's Taxonomy
 created: 2021-09-13T04:46:10.092-05:00
 modified: 2023-09-06T16:23:05.705-05:00
-parent: "[[Learning]]"
-children: []
 ---
+
 ###### Bloom's Taxonomy
-````excerpt
+
+```excerpt
 - is a classification of the different objectives and skills in which educators use to teach higher-level thinking skills and appeal to multiple intelligences
-````
+```
+
 ^excerpt
 
 # Original Taxonomy (1956)
@@ -84,22 +86,24 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Types of Knowledge Used in Cognition
+
 - Factual Knowledge
-	- Knowledge of terminology
-	- Knowledge of specific details and elements
+  - Knowledge of terminology
+  - Knowledge of specific details and elements
 - Conceptual Knowledge
-	- Knowledge of classifications and categories
-	- Knowledge of principles and generalizations
-	- Knowledge of theories, models, and structures
+  - Knowledge of classifications and categories
+  - Knowledge of principles and generalizations
+  - Knowledge of theories, models, and structures
 - Procedural Knowledge
-	- Knowledge of subject-specific skills and algorithms
-	- Knowledge of subject-specific techniques and methods
-	- Knowledge of criteria for determining when to use appropriate procedures
+  - Knowledge of subject-specific skills and algorithms
+  - Knowledge of subject-specific techniques and methods
+  - Knowledge of criteria for determining when to use appropriate procedures
 - Metacognitive Knowledge
-	- Strategic Knowledge
-	- Knowledge about cognitive tasks, including appropriate contextual and conditional knowledge
-	- Self-knowledge
+  - Strategic Knowledge
+  - Knowledge about cognitive tasks, including appropriate contextual and conditional knowledge
+  - Self-knowledge
 
 # Revised Taxonomy (2001)
 

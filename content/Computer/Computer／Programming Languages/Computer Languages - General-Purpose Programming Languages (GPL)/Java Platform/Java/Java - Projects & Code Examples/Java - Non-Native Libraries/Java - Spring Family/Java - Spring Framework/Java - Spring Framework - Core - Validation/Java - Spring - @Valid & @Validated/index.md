@@ -1,21 +1,23 @@
 ---
-title: "Java - Spring - @Valid & @Validated"
+publish: true
+title: Java - Spring - @Valid & @Validated
 created: 2020-11-30T19:21:42.510-06:00
 modified: 2020-11-30T20:11:40.809-06:00
-parent: "[[Java - Spring Framework - Core - Validation]]"
-children: []
 ---
+
 > [!tabs]
 >
-> === @Valid
+> \=== @Valid
 >
 > controller
+>
 > ```
 > @RequestMapping(value = "createAccount")
 > public String stepOne(@Valid Account account) {...}
 > ```
 >
 > form object
+>
 > ```
 > public class Account {
 >
@@ -28,10 +30,11 @@ children: []
 > }
 > ```
 >
-> === @Validated
+> \=== @Validated
 >
 > > [!expand-ui]- Group Validation
 > > controller
+> >
 > > ```
 > > @RequestMapping(value = "stepOne")
 > > public String stepOne(@Validated(Group1.class) Account account) {...}
@@ -41,6 +44,7 @@ children: []
 > > ```
 > >
 > > form object
+> >
 > > ```
 > > public class Account {
 > >
@@ -61,12 +65,14 @@ children: []
 > > ```
 > >
 > > interface groups
+> >
 > > ```
 > > public interface Group1 {}
 > > public interface Group2 {}
 > > ```
 >
 > > [!expand-ui]- Validating Constraint Annotations of Method Parameters
+> >
 > > ```
 > > @RestController
 > > @Validated
@@ -87,6 +93,7 @@ children: []
 > > ```
 >
 > > [!expand-ui]- Validate @Valid in Non-Controller Classes
+> >
 > > ```
 > > @Service
 > > @Validated

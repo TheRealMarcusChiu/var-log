@@ -1,15 +1,17 @@
 ---
-title: "Maven - DependencyManagement vs Dependencies"
+publish: true
+title: Maven - DependencyManagement vs Dependencies
 created: 2020-12-05T22:42:23.316-06:00
 modified: 2020-12-06T11:24:43.623-06:00
-parent: "[[Maven - Dependencies]]"
-children: []
 ---
-In the parent POM, the main difference between the <strong><code>\<dependencies\></code></strong> and <strong><code>\<dependencyManagement\></code></strong> is this:
-- Artifacts specified in the <strong><code>\<dependencies\></code></strong> section, will ALWAYS be included as a dependency of the child module(s)
-- Artifacts specified in the <strong><code>\<dependencyManagement\></code></strong> section, will ONLY be included in the child module if they were also specified in the <strong><code>\<dependencies\></code></strong> section of the child module itself
+
+In the parent POM, the main difference between the <strong><code>\<dependencies></code></strong> and <strong><code>\<dependencyManagement></code></strong> is this:
+
+- Artifacts specified in the <strong><code>\<dependencies></code></strong> section, will ALWAYS be included as a dependency of the child module(s)
+- Artifacts specified in the <strong><code>\<dependencyManagement></code></strong> section, will ONLY be included in the child module if they were also specified in the <strong><code>\<dependencies></code></strong> section of the child module itself
 
 ### Example
+
 ```xml
 <!-- ParentProj pom -->
 <project>

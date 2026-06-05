@@ -1,11 +1,12 @@
 ---
-title: "Decapolis"
+publish: true
+title: Decapolis
 created: 2021-09-13T04:44:41.669-05:00
 modified: 2021-09-13T04:44:41.669-05:00
-parent: "[[Christianity]]"
-children: []
 ---
+
 ### Mark 5:1-20 - Jesus Restores a Demon-Possessed Man
+
 5 They went across the lake to the region of the Gerasenes. <sup>2</sup>When Jesus got out of the boat, a man with an impure spirit came from the tombs to meet him. <sup>3</sup>This man lived in the tombs, and no one could bind him anymore, not even with a chain. <sup>4</sup>For he had often been chained hand and foot, but he tore the chains apart and broke the irons on his feet. No one was strong enough to subdue him. <sup>5</sup>Night and day among the tombs and in the hills he would cry out and cut himself with stones.
 
 <sup>6</sup>When he saw Jesus from a distance, he ran and fell on his knees in front of him. <sup>7</sup>He shouted at the top of his voice, “What do you want with me, Jesus, Son of the Most High God? In God’s name don’t torture me!” <sup>8</sup>For Jesus had said to him, “Come out of this man, you impure spirit!”
@@ -19,10 +20,11 @@ children: []
 <sup>14</sup>Those tending the pigs ran off and reported this in the town and countryside, and the people went out to see what had happened. <sup>15</sup>When they came to Jesus, they saw the man who had been possessed by the legion of demons, sitting there, dressed and in his right mind; and they were afraid. <sup>16</sup>Those who had seen it told the people what had happened to the demon-possessed man—and told about the pigs as well. <sup>17</sup>Then the people began to plead with Jesus to leave their region.
 
 <sup>18</sup>As Jesus was getting into the boat, the man who had been demon-possessed begged to go with him. <sup>19</sup>Jesus did not let him, but said, “Go home to your own people and tell them how much the Lord has done for you, and how he has had mercy on you.” <sup>20</sup>So the man went away and began to tell in the Decapolis how much Jesus had done for him. And all the people were amazed.
+
 ### Colossians 3:11
 
 Here there is not Greek and Jew, circumcised and uncircumcised, barbarian, Scythian, slave, free; but Christ is call, and in all
 
-![[Decapolis/across-sea-of-galilee.png|400]]
+![[Religion & Philosophy/Religions/Christianity/Decapolis/across-sea-of-galilee.png|400]]
 
-![[Decapolis/decapolis.png|400]]
+![[Religion & Philosophy/Religions/Christianity/Decapolis/decapolis.png|400]]

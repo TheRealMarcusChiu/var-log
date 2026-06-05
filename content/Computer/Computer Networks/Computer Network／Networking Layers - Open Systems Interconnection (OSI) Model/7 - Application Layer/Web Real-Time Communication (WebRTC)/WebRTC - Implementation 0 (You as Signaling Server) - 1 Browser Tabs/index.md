@@ -1,11 +1,12 @@
 ---
-title: "WebRTC - Implementation 0 (You as Signaling Server) - 1 Browser Tabs"
+publish: true
+title: WebRTC - Implementation 0 (You as Signaling Server) - 1 Browser Tabs
 created: 2022-12-19T20:30:24.139-06:00
 modified: 2022-12-19T20:36:12.057-06:00
-parent: "[[Web Real-Time Communication (WebRTC)]]"
-children: []
 ---
+
 Open 1 browser tab and paste the following into console
+
 ```js
 const localConnection = new RTCPeerConnection();
 var remoteConnection = new RTCPeerConnection();

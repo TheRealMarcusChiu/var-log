@@ -1,18 +1,11 @@
 ---
-title: "Power／Exponential Function - Logistic Function"
+publish: true
+title: Power／Exponential Function - Logistic Function
 created: 2021-09-13T05:29:33.110-05:00
 modified: 2023-08-24T16:37:37.864-05:00
-parent: "[[Single-Variable／Univariate Functions]]"
-children:
-  - "[[Logistic Function - Sigmoid Function (Standard Logistic Function)]]"
-  - "[[Power／Exponential Function]]"
 ---
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Power/Exponential vs Logistic
 

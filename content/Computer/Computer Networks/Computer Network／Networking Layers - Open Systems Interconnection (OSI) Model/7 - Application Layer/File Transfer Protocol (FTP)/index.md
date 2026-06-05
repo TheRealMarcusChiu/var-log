@@ -1,22 +1,17 @@
 ---
-title: "File Transfer Protocol (FTP)"
+publish: true
+title: File Transfer Protocol (FTP)
 created: 2019-03-16T21:48:42.566-05:00
 modified: 2025-05-18T18:35:25.892-05:00
-parent: "[[7 - Application Layer]]"
-children:
-  - "[[FTP - Client]]"
-  - "[[FTP - Server]]"
-  - "[[File Transfer Protocol (FTP) - Plain]]"
-  - "[[File Transfer Protocol SSL (FTPS)]]"
-  - "[[SFTP vs FTPS]]"
-  - "[[SSH File Transfer Protocol (SFTP)]]"
-  - "[[Trivial File Transfer Protocol (TFTP)]]"
 ---
+
 ###### File Transfer Protocol (FTP)
-````excerpt
+
+```excerpt
 - allows file transfer capabilities between networked hosts
 - categorized as a [[7 - Application Layer]]
-````
+```
+
 ^excerpt
 
 # FTP - Types
@@ -68,5 +63,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
+
 - [[SFTP vs FTPS]]

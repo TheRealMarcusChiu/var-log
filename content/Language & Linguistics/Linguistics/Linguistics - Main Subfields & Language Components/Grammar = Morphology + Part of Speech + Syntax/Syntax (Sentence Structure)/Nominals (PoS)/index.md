@@ -1,14 +1,16 @@
 ---
-title: "Nominals (PoS)"
+publish: true
+title: Nominals (PoS)
 created: 2021-09-13T04:44:06.780-05:00
 modified: 2023-07-08T23:16:20.057-05:00
-parent: "[[Syntax (Sentence Structure)]]"
-children: []
 ---
+
 ###### Nominals
-````excerpt
+
+```excerpt
 - contains the noun-head and any pre-modifiers and post-modifiers of the noun-head
-````
+```
+
 ^excerpt
 
 # Nominal Types
@@ -80,5 +82,6 @@ children: []
 ```
 
 ordering constraints:
+
 - three large cars
 - large three cars

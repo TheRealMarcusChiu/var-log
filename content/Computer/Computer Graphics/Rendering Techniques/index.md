@@ -1,11 +1,10 @@
 ---
-title: "Rendering Techniques"
+publish: true
+title: Rendering Techniques
 created: 2019-12-24T23:23:12.727-06:00
 modified: 2025-08-08T14:59:23.114-05:00
-parent: "[[Computer Graphics]]"
-children:
-  - "[[Ray Tracing]]"
 ---
+
 # Rendering Techniques
 
 ```merge-table

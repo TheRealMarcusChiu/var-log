@@ -1,13 +1,14 @@
 ---
-title: "Sonar - Exclusions"
+publish: true
+title: Sonar - Exclusions
 created: 2021-05-18T14:19:41.835-05:00
 modified: 2021-05-18T14:21:37.522-05:00
-parent: "[[SonarQube - Sonar]]"
-children: []
 ---
+
 # 1 - Code Example
 
 Exclusion from everything
+
 ```
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,6 +23,7 @@ Exclusion from everything
 ```
 
 Exclusion from code coverage
+
 ```
 <properties>
     <sonar.coverage.exclusions>
@@ -30,8 +32,10 @@ Exclusion from code coverage
     </sonar.coverage.exclusions>
 </properties>
 ```
+
 # 2 - References
-- [https://docs.sonarqube.org/display/SONAR/Analysis+Parameters#AnalysisParameters-Exclusions/Inclusions](https://docs.sonarqube.org/display/SONAR/Analysis+Parameters#AnalysisParameters-Exclusions/Inclusions)
-- [https://docs.sonarqube.org/display/SONAR/Narrowing+the+Focus#NarrowingtheFocus-IgnoreCodeCoverage](https://docs.sonarqube.org/display/SONAR/Narrowing+the+Focus#NarrowingtheFocus-IgnoreCodeCoverage)
-- [https://docs.sonarqube.org/display/SONAR/Analysis+Parameters#AnalysisParameters-Exclusions/Inclusions](https://docs.sonarqube.org/display/SONAR/Analysis+Parameters#AnalysisParameters-Exclusions/Inclusions)
-- [https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Maven#AnalyzingwithSonarQubeScannerforMaven-ExcludingamodulefromSonarQubeanalysis](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Maven#AnalyzingwithSonarQubeScannerforMaven-ExcludingamodulefromSonarQubeanalysis)
+
+- <https://docs.sonarqube.org/display/SONAR/Analysis+Parameters#AnalysisParameters-Exclusions/Inclusions>
+- <https://docs.sonarqube.org/display/SONAR/Narrowing+the+Focus#NarrowingtheFocus-IgnoreCodeCoverage>
+- <https://docs.sonarqube.org/display/SONAR/Analysis+Parameters#AnalysisParameters-Exclusions/Inclusions>
+- <https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Maven#AnalyzingwithSonarQubeScannerforMaven-ExcludingamodulefromSonarQubeanalysis>

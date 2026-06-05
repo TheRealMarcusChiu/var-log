@@ -1,11 +1,11 @@
 ---
-title: "Java - Thread States"
+publish: true
+title: Java - Thread States
 created: 2021-04-04T11:37:54.455-05:00
 modified: 2021-04-04T12:15:27.452-05:00
-parent: "[[Java - util - concurrent]]"
-children: []
 ---
-![[Java - Thread States/threadLifeCycle.jpg]]
+
+![[Computer/Computer／Programming Languages/Computer Languages - General-Purpose Programming Languages (GPL)/Java Platform/Java/Java - Projects & Code Examples/Java - Native Libraries/Java - util/Java - util - concurrent/Java - Thread States/threadLifeCycle.jpg]]
 
 A thread lies only in one of the shown states at any instant:
 

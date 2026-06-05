@@ -1,11 +1,12 @@
 ---
-title: "AI's Language Problem ｜ MIT Technology Review"
+publish: true
+title: AI's Language Problem ｜ MIT Technology Review
 created: 2023-12-09T21:23:59.771-06:00
 modified: 2023-12-09T21:45:25.459-06:00
-parent: "[[NLP - Articles]]"
-children: []
 ---
-[https://www.technologyreview.com/2016/08/09/158125/ais-language-problem/](https://www.technologyreview.com/2016/08/09/158125/ais-language-problem/)
+
+<https://www.technologyreview.com/2016/08/09/158125/ais-language-problem/>
+
 # AI’s Language Problem
 
 Machines that truly understand language would be incredibly useful. But we don’t know how to build them.
@@ -31,6 +32,7 @@ Yet despite these impressive advances, one fundamental capability remains elusiv
 Even though AlphaGo cannot speak, it contains technology that might lead to greater language understanding. At companies such as Google, Facebook, and Amazon, as well as at leading academic AI labs, researchers are attempting to finally solve that seemingly intractable problem, using some of the same AI tools—including deep learning—that are responsible for AlphaGo’s success and today’s AI revival. Whether they succeed will determine the scale and character of what is turning into an artificial-­intelligence revolution. It will help determine whether we have machines we can easily communicate with—machines that become an intimate part of our everyday life—or whether AI systems remain mysterious black boxes, even as they become more autonomous. “There’s no way you can have an AI system that’s humanlike that doesn’t have language at the heart of it,” says Josh Tenenbaum, a professor of cognitive science and computation at MIT. “It’s one of the most obvious things that set human intelligence apart.”
 
 Perhaps the same techniques that let AlphaGo conquer Go will finally enable computers to master language, or perhaps something else will also be required. But without language understanding, the impact of AI will be different. Of course, we can still have immensely powerful and intelligent software like AlphaGo. But our relationship with AI may be far less collaborative and perhaps far less friendly. “A nagging question since the beginning was ‘What if you had things that were intelligent in the sense of being effective, but not like us in the sense of not empathizing with what we are?’” says Terry Winograd, a professor emeritus at Stanford University. “You can imagine machines that are not based on human intelligence, which are based on this big-data stuff, and which run the world.”
+
 ### Machine whisperers
 
 A couple of months after AlphaGo’s triumph, I traveled to Silicon Valley, the heart of the latest boom in artificial intelligence. I wanted to visit the researchers who are making remarkable progress on practical applications of AI and who are now trying to give machines greater understanding of language.
@@ -60,6 +62,7 @@ There’s an obvious problem with applying deep learning to language. It’s tha
 In the 1980s, researchers had come up with a clever idea about how to turn language into the type of problem a neural network can tackle. They showed that words can be represented as mathematical vectors, allowing similarities between related words to be calculated. For example, “boat” and “water” are close in vector space even though they look very different. Researchers at the University of Montreal, led by Yoshua Bengio, and another group at Google, have used this insight to build networks in which each word in a sentence can be used to construct a more complex representation—something that Geoffrey Hinton, a professor at the University of Toronto and a prominent deep-learning researcher who works part-time at Google, calls a “thought vector.”
 
 By using two such networks, it is possible to translate between two languages with excellent accuracy. And by combining this type of network with one designed to recognize objects in images, it is possible to conjure up surprisingly plausible captions.
+
 ### The purpose of life
 
 Sitting in a conference room at the heart of Google’s bustling headquarters in Mountain View, California, one of the company’s researchers who helped develop this approach, Quoc Le, is contemplating the idea of a machine that could hold a proper conversation. Le’s ambitions cut right to the heart of why talking machines could be useful. “I want a way to simulate thoughts in a machine,” he says. “And if you want to simulate thoughts, then you should be able to ask a machine what it’s thinking about.”
@@ -74,13 +77,14 @@ By a curious coincidence, Terry ­Winograd’s next-door neighbor in Palo Alto i
 
 Li has spent much of her career researching machine learning and computer vision. Several years ago, she led an effort to build a database of millions of images of objects, each tagged with an appropriate keyword. But Li believes machines need an even more sophisticated understanding of what’s happening in the world, and this year her team released another database of images, annotated in much richer detail. Each image has been tagged by a human with dozens of descriptors: “A dog riding a skateboard,” “Dog has fluffy, wavy fur,” “Road is cracked,” and so on. The hope is that machine-learning systems will learn to understand more about the physical world. “The language part of the brain gets fed a lot of information, including from the visual system,” Li says. “An important part of AI will be integrating these systems.”
 
-This is closer to the way children learn, by associating words with objects, relationships, and actions. But the analogy with human learning goes only so far. Young children do not need to see a skateboarding dog to be able to imagine or verbally describe one. Indeed, Li believes that today’s machine-learning and AI tools won’t be enough to bring about real AI. “It’s not just going to be data-rich deep learning,” she says. Li believes AI researchers will need to think about things like emotional and social intelligence. “We \[humans\] are terrible at computing with huge data,” she says, “but we’re great at abstraction and creativity.”
+This is closer to the way children learn, by associating words with objects, relationships, and actions. But the analogy with human learning goes only so far. Young children do not need to see a skateboarding dog to be able to imagine or verbally describe one. Indeed, Li believes that today’s machine-learning and AI tools won’t be enough to bring about real AI. “It’s not just going to be data-rich deep learning,” she says. Li believes AI researchers will need to think about things like emotional and social intelligence. “We \[humans] are terrible at computing with huge data,” she says, “but we’re great at abstraction and creativity.”
 
 No one knows how to give machines those human skills—if it is even possible. Is there something uniquely human about such qualities that puts them beyond the reach of AI?
 
 Cognitive scientists like MIT’s Tenenbaum theorize that important components of the mind are missing from today’s neural networks, no matter how large those networks might be. Humans have the ability to learn very quickly from a relatively small amount of data and have a built-in ability to model the world in 3-D very efficiently. “Language builds on other abilities that are probably more basic, that are present in young infants before they have language: perceiving the world visually, acting on our motor systems, understanding the physics of the world or other agents’ goals,” ­Tenenbaum says.
 
 If he is right, then it will be difficult to re-create language understanding in machines and AI systems without trying to mimic human learning, mental model building, and psychology.
+
 ### Explain yourself
 
 Noah Goodman’s office in Stanford’s psychology department is practically bare except for a couple of abstract paintings propped against one wall and a few overgrown plants. When I arrived, Goodman was typing away on a laptop, his bare feet up on a table. We took a stroll across the sun-bleached campus for iced coffee. “Language is special in that it relies on a lot of knowledge about language but it also relies on a huge amount of common-sense knowledge about the world, and those two go together in very subtle ways,” he explained.

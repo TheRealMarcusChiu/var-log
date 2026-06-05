@@ -1,11 +1,12 @@
 ---
-title: "Short-Time Fourier Transform (STFT) to Wavelet Transform (WT)"
+publish: true
+title: Short-Time Fourier Transform (STFT) to Wavelet Transform (WT)
 created: 2025-08-17T01:58:24.137-05:00
 modified: 2025-08-17T02:18:48.369-05:00
-parent: "[[Fourier Analysis - Comparisons]]"
-children: []
 ---
+
 TLDR; STFT uses a fixed-size window to analyze the signal, while the Wavelet Transform uses windows of varying sizes, offering better resolution for both time and frequency domains in certain situations.
+
 # [[Short-Time Fourier Transform (STFT)]] vs [[Wavelet Transform (WT)]]
 
 The basic idea of STFT is to develop the initial signal into small time windows and employ the FT to each time segment for expressing the variation in signal frequency content over time that lived in that segment

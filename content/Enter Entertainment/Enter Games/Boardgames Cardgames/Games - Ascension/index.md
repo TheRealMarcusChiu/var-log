@@ -1,10 +1,10 @@
 ---
-title: "Games - Ascension"
+publish: true
+title: Games - Ascension
 created: 2022-10-24T16:17:38.598-05:00
 modified: 2022-10-24T16:19:27.153-05:00
-parent: "[[Boardgames Cardgames]]"
-children: []
 ---
+
 # Sets in Order
 
 ```merge-table

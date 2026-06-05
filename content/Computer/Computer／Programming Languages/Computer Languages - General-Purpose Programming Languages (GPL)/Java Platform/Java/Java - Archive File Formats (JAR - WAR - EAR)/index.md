@@ -1,15 +1,16 @@
 ---
-title: "Java - Archive File Formats (JAR - WAR - EAR)"
+publish: true
+title: Java - Archive File Formats (JAR - WAR - EAR)
 created: 2020-10-22T15:36:50.518-05:00
 modified: 2023-11-16T22:14:22.819-06:00
-parent: "[[Java]]"
-children:
-  - "[[Java Archive (JAR) File Format]]"
 ---
+
 ###### Java - Archive File Formats (JAR - WAR - EAR)
-````excerpt
+
+```excerpt
 - is a type of [[Data Archiving Formats - Data Compression Formats|archive file format]] for [[Java]] applications
-````
+```
+
 ^excerpt
 
 # Differences

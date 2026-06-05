@@ -1,24 +1,13 @@
 ---
-title: "Multivariable／Multi-Variable／Multivariate Calculus／Analysis"
+publish: true
+title: Multivariable／Multi-Variable／Multivariate Calculus／Analysis
 created: 2021-09-13T05:25:11.800-05:00
 modified: 2024-01-08T11:25:14.531-06:00
-parent: "[[Calculus]]"
-children:
-  - "[[Curl (𝛻⨯ ｜ 𝛻⨯𝑓)]]"
-  - "[[Curvature Formula]]"
-  - "[[Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)]]"
-  - "[[Derivative of Vector-Valued Function (Partial Derivative)]]"
-  - "[[Divergence (𝛻· ｜ 𝛻·𝑓)]]"
-  - "[[Gradient (𝛻 ｜ 𝛻𝑓)]]"
-  - "[[Green's Theorem]]"
-  - "[[Guass's Divergence Theorem]]"
-  - "[[Hessian／Hesse Matrix]]"
-  - "[[Jacobian Matrix]]"
-  - "[[Laplacian Operator (𝛻·𝛻 ｜ 𝛻·𝛻𝑓 ｜ 𝛻² ｜ 𝛻²𝑓 ｜ 𝛥 ｜ 𝛥𝑓)]]"
-  - "[[Stokes' Theorem]]"
 ---
+
 ###### Multivariable/Multi-Variable/Multivariate Calculus/Analysis
-````excerpt
+
+```excerpt
 - sometimes synonymous with [[Vector Calculus - Vector Analysis|vector calculus]]
 - is the extension of [[Calculus|calculus]] from [[Single-Variable／Univariate Functions|univariate functions]] to [[Multi-Variable／Multivariable／Multivariate Functions|multivariate functions]]
 - is an extension of [[Vector Algebra|vector algebra]] (that incorporates [[Differential Calculus|differentiation]] and [[Integral／Integration／Integrable Calculus|integration]])
@@ -27,16 +16,18 @@ children:
 	- see [[Tensor Calculus - Tensor Analysis - Ricci Calculus|Tensor Calculus]] for the extension to [[Tensor-Valued Functions - Tensor Fields|tensor fields]]
 - a branch of [[Mathematics|mathematics]] that deals with quantities that have both magnitude and direction
 - some physical and geometric quantities, called scalars, can be fully defined by specifying their magnitude in suitable units of measure
-````
+```
+
 ^excerpt
 
 # Multi-Variate Calculus - Derivative - Preliminary
+
 - [[Derivative of Scalar-Valued Function (Partial Derivative - Total Derivative - Gradient - Directional Directive - Second Order Partial Derivative)]]
 - [[Derivative of Vector-Valued Function (Partial Derivative)]]
 
 # Multi-Variate Calculus - Derivative - Building Blocks
 
-Video Lectures: [Div, Grad, and Curl: Vector Calculus Building Blocks for PDEs \[Divergence, Gradient, and Curl\]](https://www.youtube.com/watch?v=lKXW7DRyyro&list=PLMrJAkhIeNNQromC4WswpU1krLOq5Ro6S&index=2)
+Video Lectures: [Div, Grad, and Curl: Vector Calculus Building Blocks for PDEs \[Divergence, Gradient, and Curl\]](https://www.youtube.com/watch?v=lKXW7DRyyro\&list=PLMrJAkhIeNNQromC4WswpU1krLOq5Ro6S\&index=2)
 
 ```merge-table
 {
@@ -91,6 +82,7 @@ Video Lectures: [Div, Grad, and Curl: Vector Calculus Building Blocks for PDEs \
   ]
 }
 ```
+
 # Multi-Variate Calculus - Derivative - Compound Blocks
 
 ```merge-table
@@ -139,23 +131,28 @@ Video Lectures: [Div, Grad, and Curl: Vector Calculus Building Blocks for PDEs \
   ]
 }
 ```
+
 # Multi-Variate Calculus - Derivative - Applications
 
-TODO [https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives)
+TODO <https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives>
+
 # Multi-Variate Calculus - Integral
 
-TODO [https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions](https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions)
+TODO <https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions>
+
 - [[Line Integral - Path／Curve／Curvilinear Integral|Line Integral - Path/Curve/Curvilinear Integral]]
 - [[Surface Integral]]
 - [[Volume Integral]]
 
 # Multi-Variate Calculus - The Fundamental Theorem of Calculus, Green's Theorem, Divergence Theorem, Stoke's Theorem
+
 1. [[The First／Second／Third Fundamental Theorem of Calculus (Part I, II, and III)|The First/Second/Third Fundamental Theorem of Calculus (Part I, II, and III)]]
 2. [[Green's Theorem]]
 3. 2D [[Guass's Divergence Theorem|Divergence Theorem]] & 3D [[Guass's Divergence Theorem|Divergence Theorem]]
 4. [[Stokes' Theorem]]
 
 They are the same theorem. Once you have the notion of differential forms, define the operator 𝑑 which takes a form into a form of higher degree, and create the notion of integration of a form on an oriented manifold, you obtain Stokes' theorem which says:
+
 - $\int_X d𝜔 = \int_{∂X} 𝜔$
 
 If 𝜔 is a 0-form, this is the [[The First／Second／Third Fundamental Theorem of Calculus (Part I, II, and III)|fundamental theorem of calculus]]
@@ -164,6 +161,8 @@ If 𝜔 is a 1-form, this is [[Green's Theorem|Green's theorem]]
 Green’s theorem on the plane can be expressed in two forms, the flux-divergence form and the circulation-curl form.
 
 The divergence theorem is the extension of the flux-divergence form to a closed, orientable 3D surface, and Stoke’s theorem is the extension of the circulation-curl form.
+
 # Resources
-- [https://www.khanacademy.org/math/multivariable-calculus](https://www.khanacademy.org/math/multivariable-calculus)
+
+- <https://www.khanacademy.org/math/multivariable-calculus>
 - [Steve Brunton's Engineering Math: Vector Calculus and Partial Differential Equations](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQromC4WswpU1krLOq5Ro6S)

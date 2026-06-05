@@ -1,16 +1,18 @@
 ---
-title: "Z-Test & T-Test"
+publish: true
+title: Z-Test & T-Test
 created: 2021-09-13T05:29:10.991-05:00
 modified: 2023-10-23T16:45:49.031-05:00
-parent: "[[Statistical Hypothesis Test - Types]]"
-children: []
 ---
+
 ###### Z-Test / T-Test
-````excerpt
+
+```excerpt
 - [[Sample Mean|sample mean]]s are [[Univariate Normal／Gaussian／Gauss／Laplace-Gauss﻿ Distribution／Model／Process (Bell Curve)|normal]] when the distribution of the population is normal
 - sample means are APPROXIMATELY normal when they are computed from LARGE sample sizes (the distribution of population need not be normal)
 - [[Sample Proportion|sample proportions]] are APPROXIMATELY normal when they are computed from LARGE sample sizes
-````
+```
+
 ^excerpt
 
 # TODO (From UofH Fall 2023)
@@ -119,6 +121,7 @@ children: []
   ]
 }
 ```
+
 # CI Formulas For Population Mean
 
 ```merge-table
@@ -242,6 +245,7 @@ children: []
   "tableStyle": "width: 742.143px;"
 }
 ```
+
 # CI Formulas For 2 Independent Samples of Sample Mean
 
 ```merge-table
@@ -536,6 +540,7 @@ children: []
   "tableStyle": "width: 97.9478%;"
 }
 ```
+
 # T-Tests (Unknown 𝜎)
 
 ```merge-table
@@ -632,6 +637,7 @@ children: []
   "tableStyle": "width: 92.7941%;"
 }
 ```
+
 # Z-Tests - Computing P-Value
 
 𝐹 is the 𝐶𝐷𝐹 of [[z-distribution (Standard Normal Distribution) ｜ z-scores ｜ z-values ｜ z-table ｜ z-statistic ｜ Standardization - Standardized Values - Standard Scores - Normal Deviates|𝑧-distribution]]
@@ -692,6 +698,7 @@ children: []
   "tableStyle": "width: 53.9179%;"
 }
 ```
+
 # T-Tests - Computing P-Value
 
 𝐹 is the 𝐶𝐷𝐹 of [[t-distribution ｜ t-scores ｜ t-value ｜ t-table ｜ t-statistic ｜ student's t-distribution|𝑡-distribution]] with 𝑛-1 degrees of freedom

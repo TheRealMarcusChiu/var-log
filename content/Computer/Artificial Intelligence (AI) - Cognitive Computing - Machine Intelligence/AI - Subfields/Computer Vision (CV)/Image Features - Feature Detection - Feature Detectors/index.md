@@ -1,20 +1,18 @@
 ---
-title: "Image Features - Feature Detection - Feature Detectors"
+publish: true
+title: Image Features - Feature Detection - Feature Detectors
 created: 2020-01-18T19:35:15.417-06:00
 modified: 2025-09-07T23:30:44.420-05:00
-parent: "[[Computer Vision (CV)]]"
-children:
-  - "[[Canny Edge Detector]]"
-  - "[[Edge Detection (Sobel - Scharr - Laplacian)]]"
-  - "[[Hough Transforms]]"
-  - "[[Scale-Invariant Feature Transform (SIFT)]]"
 ---
+
 a specific implementation of [[Features - Feature Functions - Feature Engineering - Feature-Based Models|Features - Feature Functions]] but used on images
+
 - <strong>image feature</strong> is an interesting part of an image
 - <strong>image feature detection</strong> is a low-level image processing operation that examines every pixel to see if there is a feature present at that pixel
 - <strong>image feature detector</strong> is an implementation of image feature detection
 
 # Image Feature Types
+
 - edges
 - corners / interest points
 - blobs / regions or interest points
@@ -610,6 +608,7 @@ a specific implementation of [[Features - Feature Functions - Feature Engineeri
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Image Feature Detectors - Advanced Algorithms
 
 ```merge-table

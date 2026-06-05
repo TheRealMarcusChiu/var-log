@@ -1,11 +1,11 @@
 ---
-title: "DCAT 2.0"
+publish: true
+title: DCAT 2.0
 created: 2022-11-23T22:14:53.957-06:00
 modified: 2022-11-27T07:16:02.821-06:00
-parent: "[[Data Catalog Vocabulary (DCAT)]]"
-children: []
 ---
-- [https://docs.dataportal.se/dcat/2.0.0/en/](https://docs.dataportal.se/dcat/2.0.0/en/)
+
+- <https://docs.dataportal.se/dcat/2.0.0/en/>
 
 # Namespaces
 
@@ -119,7 +119,9 @@ children: []
   ]
 }
 ```
+
 # Primary Classes
+
 1. [Catalog](https://docs.dataportal.se/dcat/2.0.0/en/#dcat%3ACatalog)
 2. [Dataset](https://docs.dataportal.se/dcat/2.0.0/en/#dcat%3ADataset)
 3. [Distribution](https://docs.dataportal.se/dcat/2.0.0/en/#dcat%3ADistribution)
@@ -127,8 +129,10 @@ children: []
 5. [Agent](https://docs.dataportal.se/dcat/2.0.0/en/#foaf%3AAgent)
 6. [Contact point](https://docs.dataportal.se/dcat/2.0.0/en/#vcard%3AOrganization)
 
-![[DCAT 2.0/dcat-2-0-diagram.png|400x522]]
+![[Religion & Philosophy/Philosophy Subfields/Logic/Formal Logical Systems／Languages or Logic Classes/Descriptive／Description Logic (DL)/Ontology Languages/Ontology Languages - Types/Data Catalog Vocabulary (DCAT)/DCAT 2.0/dcat-2-0-diagram.png|400x522]]
+
 # Supportive Classes
+
 1. [Document](https://docs.dataportal.se/dcat/2.0.0/en/#foaf%3ADocument)
 2. [License document](https://docs.dataportal.se/dcat/2.0.0/en/#dcterms%3ALicenseDocument)
 3. [Standard](https://docs.dataportal.se/dcat/2.0.0/en/#dcterms%3AStandard)
@@ -144,6 +148,7 @@ children: []
 13. [Fee](https://docs.dataportal.se/dcat/2.0.0/en/#schema%3AOffer)
 
 # Vocabularies
+
 1. [Language](https://docs.dataportal.se/dcat/2.0.0/en/#5.1)
 2. [Theme taxonomy](https://docs.dataportal.se/dcat/2.0.0/en/#5.2)
 3. [Category](https://docs.dataportal.se/dcat/2.0.0/en/#5.3)

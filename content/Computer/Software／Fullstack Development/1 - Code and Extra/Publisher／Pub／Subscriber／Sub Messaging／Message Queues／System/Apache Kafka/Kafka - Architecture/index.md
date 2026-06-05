@@ -1,11 +1,11 @@
 ---
-title: "Kafka - Architecture"
+publish: true
+title: Kafka - Architecture
 created: 2020-05-26T12:57:50.147-05:00
 modified: 2025-04-25T16:35:58.546-05:00
-parent: "[[Apache Kafka]]"
-children: []
 ---
-![](https://www.youtube.com/watch?v=R873BlNVUB4&ab_channel=HusseinNasser)![](https://www.youtube.com/watch?v=Ea3aoACnbEk)
+
+![](https://www.youtube.com/watch?v=R873BlNVUB4\&ab_channel=HusseinNasser)![](https://www.youtube.com/watch?v=Ea3aoACnbEk)
 
 ```merge-table
 {
@@ -17,11 +17,13 @@ children: []
   ]
 }
 ```
+
 ### Kafka Cluster - Architecture
+
 - record/message/log
-	- schema: {key, value, timestamp}
-	- are immutable
-	- configurable retention period
+  - schema: {key, value, timestamp}
+  - are immutable
+  - configurable retention period
 - broker is a node in a cluster that contain partition(s)
 - producer writes records to a broker
 - consumer reads records from a broker (pull instead of push)
@@ -30,26 +32,30 @@ children: []
 - ordering is guaranteed within a partition (not by topic)
 
 ###### Message Offset
+
 - unique sequential id per partition
 - each consumer keeps track of offset for each assigned partition
 - this allows:
-	- replays
-	- consumers of different speeds
+  - replays
+  - consumers of different speeds
 
 ###### Message Delivery Guarantees
 
 producer
+
 - async (no guarantee)
 - committed to leader
 - committed to leader & quorum
 
 consumer
+
 - at-least-once (default) -
 - at-most-once -
 - effectively-once - at-least-once delivery
 - exactly-once (maybe) -
 
 ### Kafka Cluster - 5 Core APIs
+
 - [Producer API](https://kafka.apache.org/documentation.html#producerapi) allows an application to publish a stream of records to one or more Kafka topics
 - [Consumer API](https://kafka.apache.org/documentation.html#consumerapi) allows an application to subscribe to one or more topics and process the stream of records produced to them
 - [Streams API](https://kafka.apache.org/documentation/streams) allows an application to act as a <em>stream processor</em>, consuming an input stream from one or more topics and producing an output stream to one or more output topics, effectively transforming the input streams to output streams

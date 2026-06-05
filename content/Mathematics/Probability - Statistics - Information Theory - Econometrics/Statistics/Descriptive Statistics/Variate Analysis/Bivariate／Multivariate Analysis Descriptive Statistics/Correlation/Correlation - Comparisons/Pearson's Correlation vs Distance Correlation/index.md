@@ -1,16 +1,19 @@
 ---
-title: "Pearson's Correlation vs Distance Correlation"
+publish: true
+title: Pearson's Correlation vs Distance Correlation
 created: 2021-11-11T23:56:10.386-06:00
 modified: 2021-11-12T01:30:37.432-06:00
-parent: "[[Correlation - Comparisons]]"
-children: []
 ---
+
 comparing:
+
 - [[Pearson's Correlation Coefficient (R)]]
 - [[Distance Correlation Coefficient]]
 
-![[Pearson's Correlation vs Distance Correlation/pearsons-correlation-vs-distance-correlation.png|900]]
+![[Mathematics/Probability - Statistics - Information Theory - Econometrics/Statistics/Descriptive Statistics/Variate Analysis/Bivariate／Multivariate Analysis Descriptive Statistics/Correlation/Correlation - Comparisons/Pearson's Correlation vs Distance Correlation/pearsons-correlation-vs-distance-correlation.png|900]]
+
 # Java Code
+
 ```
 import java.util.function.Function;
 

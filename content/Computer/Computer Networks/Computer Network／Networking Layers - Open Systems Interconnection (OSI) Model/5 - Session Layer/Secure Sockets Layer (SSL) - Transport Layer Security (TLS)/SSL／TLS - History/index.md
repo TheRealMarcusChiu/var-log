@@ -1,10 +1,10 @@
 ---
-title: "SSL／TLS - History"
+publish: true
+title: SSL／TLS - History
 created: 2019-10-08T14:43:54.528-05:00
 modified: 2019-11-18T08:55:21.727-06:00
-parent: "[[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)]]"
-children: []
 ---
+
 SSL is a protocol with a long history and several versions. First prototypes came from Netscape when they were developing the first versions of their flagship browser, [Netscape Navigator](http://en.wikipedia.org/wiki/Netscape_Navigator) (this browser killed off [Mosaic](http://en.wikipedia.org/wiki/Mosaic_%28web_browser%29) in the early times of the Browser Wars, which are still raging, albeit with new competitors). Version 1 has never been made public so we do not know how it looked like. SSL version 2 is described in a draft which can be read [there](https://tools.ietf.org/html/draft-hickman-netscape-ssl-00); it has a number of weaknesses, some of them rather serious, so it is deprecated and newer SSL/TLS implementations do not support it (while older deactivated by default). I will not speak of SSL version 2 any further, except as an occasional reference.
 
 SSL version 3 (which I will call "SSLv3") was an enhanced protocol which still works today and is widely supported. Although still a property of Netscape Communications (or whoever owns that nowadays), the protocol has been published as a "historical RFC" ([RFC 6101](http://tools.ietf.org/html/rfc6101)). Meanwhile, the protocol has been standardized, with a <strong>new name</strong> in order to avoid legal issues; the new name is <strong>TLS</strong>.

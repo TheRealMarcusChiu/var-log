@@ -1,14 +1,16 @@
 ---
-title: "Authorization (AuthZ)"
+publish: true
+title: Authorization (AuthZ)
 created: 2019-09-16T15:25:53.002-05:00
 modified: 2026-01-25T19:48:03.269-06:00
-parent: "[[Authentication - Authorization - Accounting - Auditing - Delegation - Consent]]"
-children: []
 ---
+
 ###### Authorization (AuthZ)
-````excerpt
+
+```excerpt
 - is the process of verifying what someone is allowed to do & occurs after [[Authentication (AuthN)|authentication]] of identity
-````
+```
+
 ^excerpt
 
 # Grant Access Control (GAC) Types

@@ -1,18 +1,10 @@
 ---
-title: "Probability Distribution - UPD Comparisons"
+publish: true
+title: Probability Distribution - UPD Comparisons
 created: 2021-11-06T22:16:28.192-05:00
 modified: 2021-11-11T19:44:21.679-06:00
-parent: "[[Univariate Probability Distribution]]"
-children:
-  - "[[Binomial Distribution Special Cases - (Poisson Distribution and Normal Distribution)]]"
-  - "[[Binomial Distribution vs Poisson Distribution]]"
-  - "[[Continuity Correction - Approximating Discrete Distribution with Continuous Distribution]]"
-  - "[[Gamma Distribution vs Poisson Distribution]]"
-  - "[[Geometric Distribution vs Binomial Distribution]]"
-  - "[[Geometric Distribution vs Negative Binomial Distribution]]"
-  - "[[Negative Binomial Distribution vs Binomial Distribution]]"
-  - "[[Poisson vs Exponential]]"
 ---
+
 # Probability Distribution - UPD Comparisons
 
 ```merge-table
@@ -57,9 +49,5 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

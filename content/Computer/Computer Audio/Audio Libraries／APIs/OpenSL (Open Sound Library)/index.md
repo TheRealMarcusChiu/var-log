@@ -1,10 +1,10 @@
 ---
-title: "OpenSL (Open Sound Library)"
+publish: true
+title: OpenSL (Open Sound Library)
 created: 2020-07-05T13:36:53.435-05:00
 modified: 2026-01-25T14:20:45.677-06:00
-parent: "[[Audio Libraries／APIs]]"
-children: []
 ---
+
 # Types
 
 ```merge-table

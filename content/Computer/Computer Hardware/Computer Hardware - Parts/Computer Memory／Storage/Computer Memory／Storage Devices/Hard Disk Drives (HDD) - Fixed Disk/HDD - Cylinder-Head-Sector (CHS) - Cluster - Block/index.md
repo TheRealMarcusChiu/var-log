@@ -1,11 +1,12 @@
 ---
-title: "HDD - Cylinder-Head-Sector (CHS) - Cluster - Block"
+publish: true
+title: HDD - Cylinder-Head-Sector (CHS) - Cluster - Block
 created: 2020-01-09T14:39:18.694-06:00
 modified: 2020-06-16T00:06:52.384-05:00
-parent: "[[Hard Disk Drives (HDD) - Fixed Disk]]"
-children: []
 ---
+
 <strong>Cylinder-Head-Sector</strong> (<strong>CHS</strong>)
+
 - is an early method for giving addresses to each physical block of data on a [[HDD - Cylinder-Head-Sector (CHS) - Cluster - Block|Hard Disk Drive (HDD)]]
 - CHS values are used to specify the geometry of a disk
 
@@ -55,4 +56,4 @@ children: []
 }
 ```
 
-![](http://confluence.marcuschiu.com/download/attachments/10944887/hard-disk-schematic.png?version=1&modificationDate=1578603009058&api=v2)
+![](http://confluence.marcuschiu.com/download/attachments/10944887/hard-disk-schematic.png?version=1\&modificationDate=1578603009058\&api=v2)

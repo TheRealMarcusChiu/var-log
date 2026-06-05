@@ -1,23 +1,25 @@
 ---
-title: "NTFS - File Attributes - $FILE_NAME"
+publish: true
+title: NTFS - File Attributes - $FILE_NAME
 created: 2020-06-15T14:23:36.924-05:00
 modified: 2020-06-16T23:10:50.791-05:00
-parent: "[[NTFS - File Attributes]]"
-children: []
 ---
+
 ###### \$FILE\_NAME
+
 - a type of [[NTFS - File Attributes|NTFS File Attribute]]
 
 ### Contains
+
 - the inode number of the parent directory that contains this file. Parent Directory Reference contains 2 parts:
-	- 6 bytes for the inode number of the parent
-	- 2 bytes for an internal sequence number for NTFS integrity checks
+  - 6 bytes for the inode number of the parent
+  - 2 bytes for an internal sequence number for NTFS integrity checks
 - timestamps are repeated (same as in [[NTFS - File Attributes - $STANDARD_INFORMATION|$STANDARD_INFORMATION]] attribute) but here the timestamps are often out of sync
-	- they are not updated unless the file name changes
-	- only if the file is renamed, the times are also updated
+  - they are not updated unless the file name changes
+  - only if the file is renamed, the times are also updated
 - file size (file length) both the:
-	- actual size of the file
-	- amount of disk space allocated (i.e. the actual size + cluster slack are recorded)
+  - actual size of the file
+  - amount of disk space allocated (i.e. the actual size + cluster slack are recorded)
 - flags (same as in [[NTFS - File Attributes - $STANDARD_INFORMATION|$STANDARD_INFORMATION]])
 - the name of the file (is padded with 0x00 to even 8 byte cutoff point)
 - if file name creation is turned on, any files with long names will have a second \$FILE\_NAME attribute that contains the short name
@@ -103,6 +105,7 @@ children: []
   ]
 }
 ```
+
 ### Flag Values (DOS Permissions)
 
 same as [[NTFS - File Attributes - $STANDARD_INFORMATION|$STANDARD_INFORMATION]]

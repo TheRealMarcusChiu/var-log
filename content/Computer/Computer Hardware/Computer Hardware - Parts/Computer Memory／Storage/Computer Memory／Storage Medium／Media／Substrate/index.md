@@ -1,19 +1,16 @@
 ---
-title: "Computer Memory／Storage Medium／Media／Substrate"
+publish: true
+title: Computer Memory／Storage Medium／Media／Substrate
 created: 2022-09-24T19:16:32.143-05:00
 modified: 2026-05-30T23:21:26.173-05:00
-parent: "[[Computer Memory／Storage]]"
-children:
-  - "[[Computer Medium - Comparisons]]"
-  - "[[DNA Memory／Storage]]"
-  - "[[Magnetic Memory／Storage]]"
-  - "[[Optical Memory／Storage]]"
-  - "[[Semiconductor／Silicon／Transistor Memory／Storage]]"
 ---
+
 ###### Computer Memory/Storage Medium/Media/Substrate
-````excerpt
+
+```excerpt
 - is a technology used to retain digital data
-````
+```
+
 ^excerpt
 
 # Computer Medium - Types
@@ -53,9 +50,5 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Computer Medium - Comparisons
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Computer Medium - Comparisons]].file.folder + "/" + [[Computer Medium - Comparisons]].file.name
-```

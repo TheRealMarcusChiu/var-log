@@ -1,11 +1,12 @@
 ---
-title: "(Parametric vs Non-Parametric) Statistical Methods／Procedures"
+publish: true
+title: (Parametric vs Non-Parametric) Statistical Methods／Procedures
 created: 2021-09-13T05:29:00.264-05:00
 modified: 2021-09-13T05:29:00.264-05:00
-parent: "[[Inferential Statistics]]"
-children: []
 ---
+
 # 2 Broad Classifications of Statistical Methods/Procedures
+
 - <strong>Parametric Statistical Procedures</strong> rely on assumptions about the shape of the distribution (i.e., assume a normal distribution) in the underlying population and about the form or parameters (i.e., means and standard deviations) of the assumed distribution
 - <strong>Nonparametric Statistical Procedures</strong> rely on no or few assumptions about the shape or parameters of the population distribution from which the sample was drawn
 
@@ -69,9 +70,11 @@ children: []
   ]
 }
 ```
+
 # Choosing Between Parametric vs Non-Parametric Procedures
+
 - If you determine that the assumptions of the parametric procedure are not valid, use an analogous nonparametric procedure instead.
-- The parametric assumption of normality is particularly worrisome for small sample sizes (n \< 30). Nonparametric tests are often a good option for these data
+- The parametric assumption of normality is particularly worrisome for small sample sizes (n < 30). Nonparametric tests are often a good option for these data
 
 # Why Don’t We Always Use Non-Parametric Tests?
 

@@ -1,22 +1,26 @@
 ---
-title: "Identity／Neutral Element - Right／Left Identity Element"
+publish: true
+title: Identity／Neutral Element - Right／Left Identity Element
 created: 2023-06-13T11:45:46.968-05:00
 modified: 2023-06-13T12:04:43.317-05:00
-parent: "[[Transformations - Properties／Types]]"
-children: []
 ---
+
 ###### Identity/Neutral Element - Right/Left Identity Element
-````excerpt
+
+```excerpt
 - is an element that leaves unchanged every element when the operation is applied
-````
+```
+
 ^excerpt
 
 # Identity Element - Definition
 
 Given:
+
 - [operation (∗)](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=1023111) over [set (𝑆)](http://confluence.marcuschiu.com/display/NOT/Set+Theory)
 
 Then an element 𝑒 of 𝑆 is called:
+
 - a left identity if 𝑒 ∗ 𝑠 = 𝑠 for all 𝑠 in 𝑆
 - a right identity if 𝑠 ∗ 𝑒 = 𝑠 for all 𝑠 in 𝑆
 - If 𝑒 is both a left identity and a right identity, then it is called a two-sided identity, or simply an identity

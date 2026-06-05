@@ -1,11 +1,12 @@
 ---
-title: "Heap (Priority Queue)"
+publish: true
+title: Heap (Priority Queue)
 created: 2019-12-17T18:37:30.176-06:00
 modified: 2026-01-13T14:01:38.435-06:00
-parent: "[[Data Structures]]"
-children: []
 ---
+
 a <strong>heap</strong> is a specialized tree-based [[Heap (Priority Queue)|data structure]] which is essentially an almost complete tree that satisfies the <strong>heap property </strong>either:
+
 - <strong>max heap</strong> - the value of every parent node is greater than its children
 - <strong>min heap</strong> - the value of every parent node is lesser than its children
 

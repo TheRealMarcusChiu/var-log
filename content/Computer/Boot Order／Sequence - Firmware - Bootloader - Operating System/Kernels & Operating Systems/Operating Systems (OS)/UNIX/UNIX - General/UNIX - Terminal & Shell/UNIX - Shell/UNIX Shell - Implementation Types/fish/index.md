@@ -1,35 +1,37 @@
 ---
-title: "fish"
+publish: true
+title: fish
 created: 2019-03-15T15:26:17.269-05:00
 modified: 2019-12-27T02:11:08.812-06:00
-parent: "[[UNIX Shell - Implementation Types]]"
-children: []
 ---
+
 <strong>fish</strong> is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family
 
 [www.fishshell.com](http://www.fishshell.com/)
+
 # Installation
 
-> [!expand]- homebrew
-> <strong>1. install fish via brew</strong>
-> <span style="white-space: pre-wrap"><code>  brew install fish</code></span>
+> [!expand]- homebrew <strong>1. install fish via brew</strong> <span style="white-space: pre-wrap"><code>  brew install fish</code></span>
 >
-> <strong>2. verify fish was installed</strong>
-> <span style="white-space: pre-wrap"><code>  which fish</code></span>
+> <strong>2. verify fish was installed</strong> <span style="white-space: pre-wrap"><code>  which fish</code></span>
+
 # Configuration
 
 There are 2 different config files for fish
+
 - system wide config - /usr/local/Cellar/fish/2.4.0/etc/fish/config.fish
-- user wide config - \~/.config/fish/fish.config
+- user wide config - ~/.config/fish/fish.config
 
 Things to Note
-- fish does not automatically load the \~/.bash\_profile
-- fish’s \~/.bash\_profile is at \~/.config/fish/fish.config
+
+- fish does not automatically load the ~/.bash\_profile
+- fish’s ~/.bash\_profile is at ~/.config/fish/fish.config
 - go to /ComputerScience/…/fish\_config/bash\_to\_fish for script convertor
 
 # Bash to Fish
 
 > [!expand]- script converting bash to fish
+>
 > ```bash
 > # STEPS to partially convert .bash_profile to .fish_profile_auto_generated
 > # 1. use fish shell 

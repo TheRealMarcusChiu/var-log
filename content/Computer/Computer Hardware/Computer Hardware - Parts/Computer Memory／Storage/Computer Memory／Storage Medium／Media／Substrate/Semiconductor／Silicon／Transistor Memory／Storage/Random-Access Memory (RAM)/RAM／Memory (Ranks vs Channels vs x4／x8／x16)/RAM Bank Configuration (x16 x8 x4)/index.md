@@ -1,17 +1,19 @@
 ---
-title: "RAM Bank Configuration (x16 x8 x4)"
+publish: true
+title: RAM Bank Configuration (x16 x8 x4)
 created: 2024-08-07T21:17:00.380-05:00
 modified: 2025-12-21T22:10:03.236-06:00
-parent: "[[RAM／Memory (Ranks vs Channels vs x4／x8／x16)]]"
-children: []
 ---
+
 ###### RAM Bank Configuration (x16 x8 x4)
-````excerpt
+
+```excerpt
 - banks are sub-units inside a single memory chip
 - x8, x16, x4 describe the organization of banks in groups within each memory chip:
 	- x16 - has 2 bank groups of 8 banks in each group
 	- x8 - has 4 bank groups of of 4 banks in each group
-````
+```
+
 ^excerpt
 
 # Bank Configuration (DDR4)

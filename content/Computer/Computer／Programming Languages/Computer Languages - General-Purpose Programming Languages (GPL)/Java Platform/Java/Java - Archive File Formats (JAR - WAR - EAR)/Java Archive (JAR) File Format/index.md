@@ -1,11 +1,11 @@
 ---
-title: "Java Archive (JAR) File Format"
+publish: true
+title: Java Archive (JAR) File Format
 created: 2020-10-22T15:38:57.715-05:00
 modified: 2020-10-22T15:55:19.012-05:00
-parent: "[[Java - Archive File Formats (JAR - WAR - EAR)]]"
-children: []
 ---
-TODO: [https://web.archive.org/web/20120626012843/http://java.sun.com/developer/Books/javaprogramming/JAR/basics](https://web.archive.org/web/20120626012843/http://java.sun.com/developer/Books/javaprogramming/JAR/basics)
+
+TODO: <https://web.archive.org/web/20120626012843/http://java.sun.com/developer/Books/javaprogramming/JAR/basics>
 
 ```merge-table
 {

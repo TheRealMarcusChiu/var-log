@@ -1,15 +1,16 @@
 ---
-title: "Block Cipher - Modes of Operation"
+publish: true
+title: Block Cipher - Modes of Operation
 created: 2019-09-03T13:46:14.025-05:00
 modified: 2022-04-05T01:15:01.652-05:00
-parent: "[[Encryption Processing (Block - Stream)]]"
-children: []
 ---
-[https://www.geeksforgeeks.org/block-cipher-modes-of-operation/](https://www.geeksforgeeks.org/block-cipher-modes-of-operation/)
+
+<https://www.geeksforgeeks.org/block-cipher-modes-of-operation/>
 
 <strong>Modes of Operation</strong> - are ways of using [[Encryption - Algorithms|block ciphers]] (e.g. [[Data Encryption Standard (DES)|DES]], [[International Data Encryption Algorithm (IDEA)|IDEA]], [[Advanced Encryption Standard (AES)|AES]], etc) to [[Encryption|encrypt]] larger messages
 
-![[Block Cipher - Modes of Operation/1.png]]
+![[Computer/Cryptography & Cryptanalysis/Encryption/Encryption - Algorithm Classifications/Encryption Processing (Block - Stream)/Block Cipher - Modes of Operation/1.png]]
+
 # Modes of Operation Types
 
 ```merge-table
@@ -113,19 +114,27 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Electronic Code Book Mode (ECB)
 
-<strong>![[Block Cipher - Modes of Operation/electronic-code-book-1.png|400]]</strong>
+<strong>![[Computer/Cryptography & Cryptanalysis/Encryption/Encryption - Algorithm Classifications/Encryption Processing (Block - Stream)/Block Cipher - Modes of Operation/electronic-code-book-1.png|400]]</strong>
+
 # Cipher Block Chaining Mode (CBC)
 
-<strong>![[Block Cipher - Modes of Operation/Cipher-Block-Chaining-1.png|400]]</strong>
+<strong>![[Computer/Cryptography & Cryptanalysis/Encryption/Encryption - Algorithm Classifications/Encryption Processing (Block - Stream)/Block Cipher - Modes of Operation/Cipher-Block-Chaining-1.png|400]]</strong>
+
 # Plaintext Cipher Block Chaining Mode (PCBC)
-![[Block Cipher - Modes of Operation/Plaintext-Cipher-Block-Chaining.png|400]]
+
+![[Computer/Cryptography & Cryptanalysis/Encryption/Encryption - Algorithm Classifications/Encryption Processing (Block - Stream)/Block Cipher - Modes of Operation/Plaintext-Cipher-Block-Chaining.png|400]]
+
 # Output Feedback Mode (OFB)
 
-<strong>![[Block Cipher - Modes of Operation/output-feedback-mode.png|400]]</strong>
+<strong>![[Computer/Cryptography & Cryptanalysis/Encryption/Encryption - Algorithm Classifications/Encryption Processing (Block - Stream)/Block Cipher - Modes of Operation/output-feedback-mode.png|400]]</strong>
+
 # Cipher Feedback Mode (CFB)
-## <strong>![[Block Cipher - Modes of Operation/cipher-feedback-mode-1.png|400]]</strong>
+
+## <strong>![[Computer/Cryptography & Cryptanalysis/Encryption/Encryption - Algorithm Classifications/Encryption Processing (Block - Stream)/Block Cipher - Modes of Operation/cipher-feedback-mode-1.png|400]]</strong>
+
 # Counter Mode (CTR)
 
-<strong>![[Block Cipher - Modes of Operation/counter-mode.png|400]]</strong>
+<strong>![[Computer/Cryptography & Cryptanalysis/Encryption/Encryption - Algorithm Classifications/Encryption Processing (Block - Stream)/Block Cipher - Modes of Operation/counter-mode.png|400]]</strong>

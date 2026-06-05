@@ -1,18 +1,21 @@
 ---
-title: "Radix-2 Cooley-Tukey Algorithm (FFT Implementation)"
+publish: true
+title: Radix-2 Cooley-Tukey Algorithm (FFT Implementation)
 created: 2025-08-17T00:52:39.073-05:00
 modified: 2025-08-17T00:57:28.097-05:00
-parent: "[[Cooley-Tukey FFT]]"
-children: []
 ---
+
 ###### Radix-2 Cooley-Tukey Algorithm (FFT Implementation)
-````excerpt
+
+```excerpt
 - is a specific instance of the [[Cooley-Tukey FFT|Cooley-Tukey algorithm]] where the input is repeatedly divided by <strong>2</strong> at each step
 - is a divide and conquer algorithm that works by breaking down the DFT into smaller DFTs of size 2, which are simple to compute. Thus, it is particularly efficient when the input size is a power of 2 (e.g., 2, 4, 8, 16, etc)
-````
+```
+
 ^excerpt
 
 # Implementation
+
 ```
 class Complex {
   constructor(re, im) {

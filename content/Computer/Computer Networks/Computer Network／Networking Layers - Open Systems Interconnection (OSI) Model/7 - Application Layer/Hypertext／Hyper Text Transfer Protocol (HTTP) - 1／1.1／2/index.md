@@ -1,21 +1,23 @@
 ---
-title: "Hypertext／Hyper Text Transfer Protocol (HTTP) - 1／1.1／2"
+publish: true
+title: Hypertext／Hyper Text Transfer Protocol (HTTP) - 1／1.1／2
 created: 2019-03-16T22:37:14.016-05:00
 modified: 2026-01-14T11:37:18.463-06:00
-parent: "[[7 - Application Layer]]"
-children:
-  - "[[HTTP - Specifications]]"
 ---
+
 ###### Hypertext Transfer Protocol (HTTP)
-````excerpt
+
+```excerpt
 - is an [[7 - Application Layer|application-layer]]/[[API - Network-Level|network-level API]] protocol for transmitting hypermedia documents (e.g. [[HyperText Markup Language (HTML)|HTML]], [[JavaScript]], [[Cascading Style Sheets (CSS)|CSS]], etc)
 - it was designed for communication between web clients and web servers
 - HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response
 - HTTP is a stateless protocol, meaning that this protocol does not have builtin "sessions"
-````
+```
+
 ^excerpt
 
 # HTTP - History
+
 - HTTP is the underlying communication protocol of the World Wide Web
 - It was invented by Tim Berners-Lee at CERN between 1989 and 1991, and open-sourced in 1993
 
@@ -68,9 +70,12 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # HTTP - Specifications
+
 - [[HTTP - Pipelining & Multiplexing]]
 
 # HTTP - Implementations
+
 - [[Web (HTTP) Servers|HTTP Servers]]
 - [[Web (HTTP) Clients／Browsers|HTTP Clients]]

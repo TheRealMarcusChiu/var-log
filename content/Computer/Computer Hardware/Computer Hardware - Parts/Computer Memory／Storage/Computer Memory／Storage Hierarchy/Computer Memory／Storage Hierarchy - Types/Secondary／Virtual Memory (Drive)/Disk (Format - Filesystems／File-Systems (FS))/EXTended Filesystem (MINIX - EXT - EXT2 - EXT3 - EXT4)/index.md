@@ -1,11 +1,12 @@
 ---
-title: "EXTended Filesystem (MINIX - EXT - EXT2 - EXT3 - EXT4)"
+publish: true
+title: EXTended Filesystem (MINIX - EXT - EXT2 - EXT3 - EXT4)
 created: 2019-12-31T12:06:50.641-06:00
 modified: 2024-08-07T01:09:24.980-05:00
-parent: "[[Disk (Format - Filesystems／File-Systems (FS))]]"
-children: []
 ---
+
 - MINIX Filesystem - could handle filenames only up to 14 characters and address only 64MB of storage
+
 ```merge-table
 {
   "rows": [
@@ -53,7 +54,9 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # 3 Levels of Journaling
+
 - <strong>Journal</strong> is the lowest risk mode, writing both data and metadata to the journal before committing it to the filesystem. This ensures consistency of the file being written to, as well as the filesystem as a whole, but can significantly decrease performance.
 - <strong>Ordered</strong> is the default mode in most Linux distributions; ordered mode writes metadata to the journal but commits data directly to the filesystem. As the name implies, the <em>order</em> of operations here is rigid: First, metadata is committed to the journal; second, data is written to the filesystem, and only then is the associated metadata in the journal flushed to the filesystem itself. This ensures that, in the event of a crash, the metadata associated with incomplete writes is still in the journal, and the filesystem can sanitize those incomplete writes while rolling back the journal. In ordered mode, a crash may result in corruption of the file or files being actively written to during the crash, but the filesystem itself—and files not actively being written to—are guaranteed safe.
 - <strong>Write-back</strong> is the third—and least safe—journaling mode. In writeback mode, like ordered mode, metadata is journaled, but data is not. Unlike ordered mode, metadata and data alike may be written in whatever order makes sense for best performance. This can offer significant increases in performance, but it's much less safe. Although writeback mode still offers a guarantee of safety to the filesystem itself, files that were written to during <em>or </em>before the crash are vulnerable to loss or corruption.

@@ -1,16 +1,12 @@
 ---
-title: "Linear Least Squares (LLS)"
+publish: true
+title: Linear Least Squares (LLS)
 created: 2021-09-13T05:27:44.303-05:00
 modified: 2021-12-20T15:04:05.414-06:00
-parent: "[[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate]]"
-children:
-  - "[[Gauss-Markov Assumptions - OLS Assumptions]]"
-  - "[[Generalized Least Squares (GLS)]]"
-  - "[[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)]]"
-  - "[[Ordinary Least Squares (OLS)]]"
-  - "[[Two-Stage Least Squares (2SLS)]]"
 ---
+
 <strong>Linear Least Squares</strong> (<strong>LLS</strong>)
+
 - is a type of [[Sum／Method of Least Root Mean Squared／Square／Squares Deviation／Error／Errors／Estimation／Estimator／Residuals (LMS／LSE／MMSE／RMSD／RMSE／MSE) - Regression Variance／Standard-Deviation／Error of Regression／Residuals／Estimate|Least Squares Estimator (LSE)]] for linear functions/models to data
 - used in [[Ordinary Least Squares (OLS) Regression|Linear Regression]] especially for [[LR - Methods Estimating Unknown Coefficients - Method of Least Squares (Gradient Descent)|linear regression gradient descent]]
 
@@ -38,8 +34,11 @@ children:
   ]
 }
 ```
+
 # LLS - Estimator Comparisons
+
 - [[LLS - Comparisons (OLS vs WLS vs GLS) - Best Linear Unbiased Estimator (BLUE) - Minimum-Variance Unbiased Estimator (MVUE)]]
 
 # LLS - Other
+
 - [[Gauss-Markov Assumptions - OLS Assumptions]]

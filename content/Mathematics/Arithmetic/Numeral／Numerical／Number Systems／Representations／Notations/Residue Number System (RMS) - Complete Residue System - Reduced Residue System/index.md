@@ -1,14 +1,16 @@
 ---
-title: "Residue Number System (RMS) - Complete Residue System - Reduced Residue System"
+publish: true
+title: Residue Number System (RMS) - Complete Residue System - Reduced Residue System
 created: 2024-08-19T12:52:39.859-05:00
 modified: 2024-08-19T13:14:17.135-05:00
-parent: "[[Numeral／Numerical／Number Systems／Representations／Notations]]"
-children: []
 ---
+
 ###### Residue Number System (RMS)
-````excerpt
+
+```excerpt
 - is a [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]] representing integers by their values modulo several pairwise coprime integers called the moduli
-````
+```
+
 ^excerpt
 
 # RMS - Examples

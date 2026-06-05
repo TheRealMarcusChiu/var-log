@@ -1,13 +1,12 @@
 ---
-title: "Instance-Based Learning"
+publish: true
+title: Instance-Based Learning
 created: 2020-06-02T15:33:12.626-05:00
 modified: 2022-10-03T03:05:33.920-05:00
-parent: "[[ML - Models]]"
-children:
-  - "[[Locally Weighted Regression]]"
-  - "[[k-Nearest Neighbors (k-NN) Regression]]"
 ---
+
 ###### Instance-Based Learning
+
 - is a family of learning algorithms that, instead of performing explicit generalization, compares new problem instances with instances seen in training, which have been stored in memory
 - a type of [[Non-Parametric Regression (NPR) Models|non-parametric regression]] algorithm
 
@@ -16,6 +15,7 @@ children:
 <strong>ADVANTAGE:</strong> the ability to model complex target functions by a collection of less complex local approximations and the fact that information present in the training examples is never lost (because the examples themselves are stored explicitly). The main practical difficulties include efficiency of labeling new instances (all processing is done at query time rather than in advance), difficulties in determining an appropriate distance metric for retrieving "related" instances (especially when examples are represented by complex symbolic descriptions), and the negative impact of irrelevant features on the distance metric
 
 <strong>DISADVANTAGE:</strong> one disadvantage of instance-based approaches is that the cost of classifying new instances can be high. This is due to the fact that nearly all computation takes place at classification time rather than when the training examples are first encountered. Therefore, techniques for efficiently indexing training examples are a significant practical issue in reducing the computation required at query time. A second disadvantage to many instance-based approaches, especially nearest-neighbor approaches, is that they typically consider all attributes of the instances when attempting to retrieve similar training examples from memory. If the target concept depends on only a few of the many available attributes, then the instances that are truly most "similar" may well be a large distance apart
+
 # Instance-Based Learning - Types
 
 ```merge-table

@@ -1,12 +1,10 @@
 ---
-title: "Language & Linguistics"
+publish: true
+title: Language & Linguistics
 created: 2021-09-13T04:43:45.671-05:00
 modified: 2021-09-13T04:43:45.671-05:00
-parent: "[[Curricular]]"
-children:
-  - "[[Languages (Human／Natural Languages)]]"
-  - "[[Linguistics]]"
 ---
+
 ```merge-table
 {
   "rows": [

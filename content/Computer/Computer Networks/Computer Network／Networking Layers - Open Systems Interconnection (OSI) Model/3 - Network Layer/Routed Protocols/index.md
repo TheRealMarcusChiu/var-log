@@ -1,17 +1,17 @@
 ---
-title: "Routed Protocols"
+publish: true
+title: Routed Protocols
 created: 2019-03-16T21:28:58.506-05:00
 modified: 2023-11-16T17:24:00.862-06:00
-parent: "[[3 - Network Layer]]"
-children:
-  - "[[Internet Protocol (IP)]]"
-  - "[[Internet Protocol Security (IPSec)]]"
 ---
+
 # Routed Protocols
-````excerpt
+
+```excerpt
 - are [[Computer Network／Networking Communication Protocols|network protocols]] that operate at the [[3 - Network Layer|network layer]]
 - are used to routed data/packets across an internetwork
-````
+```
+
 ^excerpt
 
 # Routed Protocols

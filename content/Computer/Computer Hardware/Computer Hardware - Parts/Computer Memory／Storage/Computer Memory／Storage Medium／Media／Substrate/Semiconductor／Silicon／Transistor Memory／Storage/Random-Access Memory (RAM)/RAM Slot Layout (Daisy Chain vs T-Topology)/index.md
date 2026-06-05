@@ -1,10 +1,10 @@
 ---
-title: "RAM Slot Layout (Daisy Chain vs T-Topology)"
+publish: true
+title: RAM Slot Layout (Daisy Chain vs T-Topology)
 created: 2024-09-22T22:01:34.496-05:00
 modified: 2024-09-22T23:09:55.009-05:00
-parent: "[[Random-Access Memory (RAM)]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

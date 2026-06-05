@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 9 - Metric Tensor Introduction"
+publish: true
+title: Tensor - 9 - Metric Tensor Introduction
 created: 2023-08-02T00:02:50.451-05:00
 modified: 2023-08-02T12:39:15.046-05:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 Metric Tensors
 - are invariant to change of basis
@@ -109,4 +109,5 @@ Metric Tensors are a type of bilinear form with 2 additional properties:
 - symmetric
 - positive definite
 ````
+
 ^excerpt

@@ -1,10 +1,10 @@
 ---
-title: "R - Functions (User Defined)"
+publish: true
+title: R - Functions (User Defined)
 created: 2021-08-18T22:56:56.398-05:00
 modified: 2021-08-21T13:06:13.822-05:00
-parent: "[[R - Functions]]"
-children: []
 ---
+
 ```
 rescale01 <- function(x) {
   rng <- range(x, na.rm = TRUE)
@@ -14,15 +14,18 @@ rescale01 <- function(x) {
 rescale01(c(0, 5, 10))
 ## [1] 0.0 0.5 1.0
 ```
+
 # Understanding Functions
 
 > [!expand-ui]- Function Components
 > With the exception of [primitive functions](https://cran.r-project.org/doc/manuals/r-release/R-ints.html#g_t_002eInternal-vs-_002ePrimitive) all R functions have three parts:
+>
 > - <code>body()</code>: the code inside the function
 > - <code>formals()</code>: the list of arguments used to call the function
 > - <code>environment()</code>: the mapping of the location(s) of the function’s variables
 >
 > For example, let’s build a function that calculates the present value (PV) of a single future sum. The equation for a single sum PV is: <em>PV = FV/(1+r)<sup>n</sup></em> where FV is future value, r is the interest rate, and n is the number of periods. In the function that follows the <code>body</code> of the function includes the equation <em>FV/(1+r)<sup>n</sup></em> and then rounding the output to two decimals. The <code>formals</code> (or arguments) required for the function include <code>FV</code>, <code>r</code>, and <code>n</code>. And the <code>environment</code> shows that function operates in the global environment
+>
 > ```
 > PV <- function(FV, r, n) {
 >         PV <- FV/(1+r)^n
@@ -52,6 +55,7 @@ rescale01(c(0, 5, 10))
 > Scoping refers to the set of rules a programming language uses to lookup the value to variables and/or symbols. The following illustrates the basic concept behind the lexical scoping rules that R follows.
 >
 > A function will first look inside the function to identify all the variables being called. If all variables exist then their is no additional search required to identify variables.
+>
 > ```
 > PV1 <- function() {
 >         FV <- 1000 
@@ -65,6 +69,7 @@ rescale01(c(0, 5, 10))
 > ```
 >
 > However, if a variable does not exist within the function, R will look one level up to see if the variable exists.
+>
 > ```
 > # the FV variable is outside the function environment
 > FV <- 1000 
@@ -80,6 +85,7 @@ rescale01(c(0, 5, 10))
 > ```
 >
 > This same concept applies if you have functions embedded within functions:
+>
 > ```
 > FV <- 1000 
 >
@@ -97,6 +103,7 @@ rescale01(c(0, 5, 10))
 > ```
 >
 > This also applies for functions in which some arguments are called but not all variables used in the body are identified as arguments:
+>
 > ```
 > # n is specified within the function
 > PV4 <- function(FV, r) {
@@ -122,6 +129,7 @@ rescale01(c(0, 5, 10))
 
 > [!expand-ui]- Lazy Evaluation
 > R functions perform “lazy” evaluation in which arguments are only evaluated if required in the body of the function
+>
 > ```
 > # the y argument is not used so not included it causes
 > # no harm
@@ -141,6 +149,7 @@ rescale01(c(0, 5, 10))
 > ```
 
 > [!expand-ui]- Returning Multiple Outputs
+>
 > ```
 > bad <- function(x, y) {
 >         2*x + y
@@ -163,6 +172,7 @@ rescale01(c(0, 5, 10))
 > ```
 
 > [!expand-ui]- Dealing With Invalid Arguments
+>
 > ```
 > PV <- function(FV, r, n) {
 >         if(!is.numeric(FV) | !is.numeric(r) | !is.numeric(n)){

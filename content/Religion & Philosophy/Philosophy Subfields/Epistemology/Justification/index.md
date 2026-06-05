@@ -1,13 +1,14 @@
 ---
-title: "Justification"
+publish: true
+title: Justification
 created: 2021-09-13T04:44:21.034-05:00
 modified: 2021-09-13T04:44:21.034-05:00
-parent: "[[Epistemology]]"
-children: []
 ---
+
 - <strong>justification</strong> - is the reason that someone (properly) holds a belief
 
 ### 2 Modes of Justifying Belief
+
 - <strong>empiricism</strong> - the theory that all knowledge is derived from sense-experience
 - <strong>rationalism</strong> - the theory that reason rather than experience is the foundation of certainty in knowledge
 

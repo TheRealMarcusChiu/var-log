@@ -1,21 +1,24 @@
 ---
-title: "Abstract Factory Pattern"
+publish: true
+title: Abstract Factory Pattern
 created: 2022-01-29T17:27:57.986-06:00
 modified: 2026-01-10T15:28:25.725-06:00
-parent: "[[Factory Design Patterns]]"
-children: []
 ---
+
 ###### Abstract Factory Pattern
-````excerpt
+
+```excerpt
 - is a type of [[Factory Design Patterns|Factory Design Pattern]] that lets you produce families of related objects without specifying their concrete classes
 - an extension of <em>Abstract Factory Pattern</em> is [[Factory of Factory／Factories (FoF) Pattern|Factory of Factories Pattern]]
-````
+```
+
 ^excerpt
 
 # Abstract Factory Pattern - Example Implementations
 
 > [!expand-ui]- ConcreteFactories create different subtypes of Products
-> ```merge-table
+>
+> ````merge-table
 > {
 >   "rows": [
 >     [
@@ -43,10 +46,11 @@ children: []
 >   ],
 >   "tableStyle": "letter-spacing: 0.0px;"
 > }
-> ```
+> ````
 
 > [!expand-ui]- ConcreteFactories create same Products but with different states
-> ```merge-table
+>
+> ````merge-table
 > {
 >   "rows": [
 >     [
@@ -69,7 +73,8 @@ children: []
 >     ]
 >   ]
 > }
-> ```
+> ````
+
 # Relation to Other Patterns
 
 > [!expand]- Click here to expand...

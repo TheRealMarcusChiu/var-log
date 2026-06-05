@@ -1,15 +1,16 @@
 ---
-title: "UNIX - Performance Observability Commands"
+publish: true
+title: UNIX - Performance Observability Commands
 created: 2022-03-12T00:37:15.998-06:00
 modified: 2022-03-12T00:49:05.190-06:00
-parent: "[[UNIX - Shell Commands]]"
-children: []
 ---
+
 - vmstat - reports information about processes, memory, paging, block IO, traps, and CPU activity
 - iostat - reports CPU and input/output statistics of the system
 - netstat - displays statistical data related to IP, TCP, UDP, and ICMP protocols
 - lsof - lists open files of the current system
 - pidstat - monitors the utilization of system resources by all or specified processes, including CPU, memory, device IO, task switching, threads, etc
+
 ```merge-table
 {
   "rows": [

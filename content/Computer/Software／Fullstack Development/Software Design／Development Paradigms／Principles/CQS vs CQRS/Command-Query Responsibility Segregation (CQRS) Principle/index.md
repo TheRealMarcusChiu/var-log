@@ -1,19 +1,22 @@
 ---
-title: "Command-Query Responsibility Segregation (CQRS) Principle"
+publish: true
+title: Command-Query Responsibility Segregation (CQRS) Principle
 created: 2022-04-17T00:12:57.390-05:00
 modified: 2023-03-18T16:47:48.344-05:00
-parent: "[[CQS vs CQRS]]"
-children: []
 ---
+
 ###### Command-Query Responsibility Segregation (CQRS) Principle
-````excerpt
+
+```excerpt
 - is [[Command-Query Separation (CQS) Principle|Command-Query Separation]] on a larger scale
 - originated with Bertrand Meyer’s Command and Query Separation Principle
 - If you have a return value you cannot mutate the state. If you mutate the state your return type must be void
-````
+```
+
 ^excerpt
 
 # CQRS - Example
+
 ```
 class CustomerService {
 	void makeCustomerPreferred(String customerId);
@@ -27,6 +30,7 @@ class CustomerService {
 ```
 
 Applying CQRS on the CustomerService would result in two services as shown below
+
 ```
 class CustomerCommandService {
 	void makeCustomerPreferred(String customerId);
@@ -41,6 +45,7 @@ class CustomerQueryService {
 	List<Customer> getPreferredCustomers();
 }
 ```
+
 # CQRS - Different Needs
 
 This separation enforces the notion that the Command side and the Query side have very different needs. The architectural properties associated with use cases on each side tend to be quite different. Just to name a few:
@@ -75,5 +80,7 @@ This separation enforces the notion that the Command side and the Query side hav
   ]
 }
 ```
+
 # CQRS - Resources
-- [https://cqrs.wordpress.com/documents/cqrs-introduction/](https://cqrs.wordpress.com/documents/cqrs-introduction/)
+
+- <https://cqrs.wordpress.com/documents/cqrs-introduction/>

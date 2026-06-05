@@ -1,17 +1,17 @@
 ---
-title: "Address Resolution Protocol (ARP) - Reverse ARP (RARP)"
+publish: true
+title: Address Resolution Protocol (ARP) - Reverse ARP (RARP)
 created: 2019-03-16T20:47:00.371-05:00
 modified: 2023-11-16T17:32:08.413-06:00
-parent: "[[2 - Data Link Layer]]"
-children:
-  - "[[ARP - Packet Format]]"
-  - "[[ARP Attacks]]"
 ---
+
 # Terms Simple
+
 - <strong>ARP </strong>- find [[Ethernet - Media Access Control (MAC) Address - Physical Hardware Address|MAC/Physical Hardware Address]] given [[IPv4 - Address|IP address]]
 - <strong>RARP</strong> - find IP address given MAC address
 
 # Terms Detailed
+
 - <strong>Address Resolution Protocol (ARP)</strong> is a [[2 - Data Link Layer|data link layer]]/[[3 - Network Layer|network layer]] protocol used to convert an [[IPv4 - Address|IP address]] into a physical address (called a Data Link Control (DLC) address), such as an [[802.3 - Ethernet|Ethernet]]'s [[Ethernet - Media Access Control (MAC) Address - Physical Hardware Address|MAC address]]. A host wishing to obtain a MAC address broadcasts an ARP request onto the TCP/IP network. The host on the network that has the IP address in the request then replies with its MAC address
 - <strong>Reverse ARP (RARP)</strong> is used by a host to discover its IP address. In this case, the host broadcasts its MAC address and a RARP server replies with the host's IP address
 
@@ -57,16 +57,14 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # ARP Format
+
 - [[ARP - Packet Format]]
 
 # ARP Tools
+
 - [[arp]]
 - [[arping]]
 
 # ARP Attacks
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[ARP Attacks]].file.folder + "/" + [[ARP Attacks]].file.name
-```

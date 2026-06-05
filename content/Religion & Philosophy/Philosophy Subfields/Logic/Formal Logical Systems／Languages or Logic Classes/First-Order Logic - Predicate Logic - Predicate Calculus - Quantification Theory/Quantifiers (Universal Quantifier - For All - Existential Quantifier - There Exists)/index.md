@@ -1,15 +1,17 @@
 ---
-title: "Quantifiers (Universal Quantifier - For All - Existential Quantifier - There Exists)"
+publish: true
+title: Quantifiers (Universal Quantifier - For All - Existential Quantifier - There Exists)
 created: 2023-07-08T23:34:33.558-05:00
 modified: 2023-07-08T23:40:17.333-05:00
-parent: "[[First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory]]"
-children: []
 ---
+
 ###### Universal Quantifier (∀·) - For All
+
 - ∀𝑥Predicate(𝑥) means that Predicate holds for ALL values of 𝑥 in the domain associated with that variable
 - e.g. ∀𝑥 dolphin(𝑥) → mammal(𝑥)
 
 ###### Existential Quantifier (∃·) - There Exists
+
 - ∃𝑥Predicate(𝑥) means that Predicate holds for SOME value of 𝑥 in the domain associated with that variable
 - e.g. ∃𝑥 mammal(𝑥) → lays-eggs(𝑥)
 
@@ -91,6 +93,7 @@ children: []
   "tableStyle": "width: 83.8893%;"
 }
 ```
+
 # Quantifiers - Equivalences
 
 ```merge-table
@@ -155,6 +158,7 @@ children: []
   "tableStyle": "width: 67.86%;"
 }
 ```
+
 # Quantifiers - Proving Statements
 
 ![](https://www.youtube.com/watch?v=4UwhnYJVi0o)

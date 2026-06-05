@@ -1,10 +1,10 @@
 ---
-title: "mvn - Where is Maven local repository？"
+publish: true
+title: mvn - Where is Maven local repository？
 created: 2021-06-10T10:32:37.707-05:00
 modified: 2021-06-10T10:33:24.170-05:00
-parent: "[[mvn]]"
-children: []
 ---
+
 <span style="white-space: pre-wrap"><code>mvn help:evaluate -Dexpression=settings.localRepository</code></span>
 
 ```

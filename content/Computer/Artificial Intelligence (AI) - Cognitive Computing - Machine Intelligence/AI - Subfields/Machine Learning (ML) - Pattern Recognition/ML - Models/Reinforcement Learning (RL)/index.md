@@ -1,33 +1,22 @@
 ---
-title: "Reinforcement Learning (RL)"
+publish: true
+title: Reinforcement Learning (RL)
 created: 2019-03-15T01:34:44.940-05:00
 modified: 2025-09-03T00:55:21.183-05:00
-parent: "[[ML - Models]]"
-children:
-  - "[[AlphaGo Fan／Lee／Master／Zero]]"
-  - "[[Contrastive Reinforcement Learning (CRL)]]"
-  - "[[Deep Q Networks (DQN)]]"
-  - "[[Multi／K-Armed Bandit Problem]]"
-  - "[[Policy Gradient Methods]]"
-  - "[[Proximal Policy Optimization (PPO)]]"
-  - "[[Q-Function]]"
-  - "[[Q-Learning]]"
-  - "[[RL - Applications]]"
-  - "[[RL - Example (Tic-Tac-Toe)]]"
-  - "[[RL - Human Priors for Playing Video Games]]"
-  - "[[RL Chapters]]"
-  - "[[Reinforcement Learning from Human Feedback (RLHF)]]"
-  - "[[Selective Bootstrap Adaptation]]"
 ---
+
 ###### Reinforcement Learning (RL)
-````excerpt
+
+```excerpt
 - is the science of decision making
 - is an area of [[Machine Learning (ML) - Pattern Recognition|machine learning]] concerned with how software agents ought to take actions in an environment in order to maximize some notion of cumulative reward
 - almost all RL problems can be formulated as a [[Markov Decision Process (MDP)]]
-````
+```
+
 ^excerpt
 
 # RL - Learning Paradigms
+
 - there is no supervisor, only a scalar reward signal
 - feedback may not be instantaneous (i.e. delayed)
 - time-series related (sequential, not [[Independent and Identically Distributed (IID)|i.i.d.]] data)
@@ -36,6 +25,7 @@ children:
 # RL - Components
 
 rewards
+
 - a reward 𝑅<sub>𝑡</sub> is a scalar feedback signal
 - indicates how well the agent is doing at timestep 𝑡
 - the agent's job is to maximize cumulative reward
@@ -43,53 +33,62 @@ rewards
 RL is based on the <strong>reward hypothesis</strong> - all goals can be described by the maximization of expected cumulative reward
 
 sequential decision making
+
 - the goal is to select actions to maximize total future reward
 - actions may have long-term consequences
 - the reward may not be instantaneous (i.e. delayed)
 - it may be better to sacrifice immediate reward at the cost of long-term reward
 
 at each time-step 𝑡 the agent:
+
 - receives reward 𝑅<sub>𝑡</sub>
 - receives observation 𝑂<sub>𝑡</sub>
 - does an action 𝐴<sub>𝑡</sub>
 
-![[Reinforcement Learning (RL)/reinforcement-learning-agent-and-environment.png|301]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/reinforcement-learning-agent-and-environment.png|301]]
 
 history
+
 - is the sequence of rewards, observations, and actions from time-step 1 to 𝑡
-- 𝐻<sub>1𝑡</sub> = \[𝑅<sub>1</sub>, 𝑂<sub>1</sub>, 𝐴<sub>1</sub>, 𝑅<sub>2</sub>, 𝑂<sub>2</sub>, 𝐴<sub>2</sub>, ..., 𝑅<sub>𝑡</sub>, 𝑂<sub>𝑡</sub>, 𝐴<sub>𝑡</sub>\]
+- 𝐻<sub>1𝑡</sub> = \[𝑅<sub>1</sub>, 𝑂<sub>1</sub>, 𝐴<sub>1</sub>, 𝑅<sub>2</sub>, 𝑂<sub>2</sub>, 𝐴<sub>2</sub>, ..., 𝑅<sub>𝑡</sub>, 𝑂<sub>𝑡</sub>, 𝐴<sub>𝑡</sub>]
 
 what happens next depends on the history
+
 - agent selects actions
 - the environment selects observations & rewards
 
 state
+
 - is the summary of history used to determine what happens next
 - is a function of history:
-	- 𝑆<sub>𝑡</sub> = 𝑓(𝐻<sub>1𝑡</sub>)
+  - 𝑆<sub>𝑡</sub> = 𝑓(𝐻<sub>1𝑡</sub>)
 
 2 state types:
+
 - environment state 𝑆<sub>𝑡</sub><sup>𝑒</sup>
-	- is the environment's internal state representation
-	- is whatever data the environment uses to pick the next observation & reward
-	- has the Markov property
+  - is the environment's internal state representation
+  - is whatever data the environment uses to pick the next observation & reward
+  - has the Markov property
 - agent state 𝑆<sub>𝑡</sub><sup>𝑎</sup>
-	- is the agent's internal state representation
-	- is whatever data the agent uses to pick the next action
-	- is the information used by RL algorithms
-	- it can be any function of history
-		- 𝑆<sub>𝑡</sub><sup>𝑎</sup> = 𝑓(𝐻<sub>1𝑡</sub>)
+  - is the agent's internal state representation
+  - is whatever data the agent uses to pick the next action
+  - is the information used by RL algorithms
+  - it can be any function of history
+    - 𝑆<sub>𝑡</sub><sup>𝑎</sup> = 𝑓(𝐻<sub>1𝑡</sub>)
 
 state with [[Markov Condition／Assumption／Property - First／Second／Nth-Order - (Pairwise - Local - Global - Markov-Blanket) - Causal Markov (CMC) Condition／Assumption／Property|Markov property]]
+
 - a state 𝑆<sub>𝑖</sub> has Markov property iff: 𝐏(𝑆<sub>𝑡+1</sub>|𝑆<sub>1</sub>, ..., 𝑆<sub>𝑡</sub>) = 𝐏(𝑆<sub>𝑡+1</sub>|𝑆<sub>𝑡</sub>)
 - the entire history from time 1 to 𝑡 (i.e. 𝐻<sub>1𝑡</sub>) has the Markov property
 
 information/markov state:
+
 - has the Markov property
 - contains all useful information from the history 𝐻<sub>1𝑡</sub>
 - once the information state is known, the history is no longer needed
 - is a [[Sufficient Statistic|sufficient statistic]] that can be used in determining the future
-```merge-table
+
+````merge-table
 {
   "rows": [
     [
@@ -120,7 +119,8 @@ information/markov state:
     ]
   ]
 }
-```
+````
+
 # RL Agent Components
 
 ```merge-table
@@ -162,18 +162,22 @@ information/markov state:
   ]
 }
 ```
+
 # RL Agent - Types
 
 containing value function and/or policy function:
+
 - <strong>value-based</strong> - an agent that stores the value function (policy is implicit, just readout the value function)
 - <strong>policy-based</strong> - an agent that stores the policy (no value function)
 - <strong>actor-critic</strong> - stores both the policy and reward
 
 containing a model of the environment:
+
 - <strong>model-free</strong> - policy and/or value function
 - <strong>model-based</strong> - policy and/or value function
 
-![[Reinforcement Learning (RL)/reinforcement-learning-agent-types.png|301]]
+![[Computer/Artificial Intelligence (AI) - Cognitive Computing - Machine Intelligence/AI - Subfields/Machine Learning (ML) - Pattern Recognition/ML - Models/Reinforcement Learning (RL)/reinforcement-learning-agent-types.png|301]]
+
 # RL - Dichotomies
 
 ```merge-table
@@ -218,17 +222,14 @@ containing a model of the environment:
   ]
 }
 ```
+
 # RL - Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # RL - Resources
-- [Reinforcement Learning: An Introduction (2017)](http://incompleteideas.net/book/bookdraft2017nov5.pdf) \~ Richard S. Sutton and Andrew G. Barto
-- [Reinforcement Learning: An Introduction (2018) 2nd Edition](http://incompleteideas.net/sutton/book/RLbook2018trimmed.pdf) \~ Richard S. Sutton and Andrew G. Barto
-- [Hado Van Hasselt - YouTube Lectures](https://www.youtube.com/watch?v=ISk80iLhdfU&list=PLqYmG7hTraZBKeNJ-JE_eyJHZ7XgBoAyb&ab_channel=DeepMind)
-- [David Silver - YouTube Lectures](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB&ab_channel=DeepMind)
-	- [Written Article](https://towardsdatascience.com/reinforcement-learning-an-introduction-to-the-concepts-applications-and-code-ced6fbfd882d)
+
+- [Reinforcement Learning: An Introduction (2017)](http://incompleteideas.net/book/bookdraft2017nov5.pdf) ~ Richard S. Sutton and Andrew G. Barto
+- [Reinforcement Learning: An Introduction (2018) 2nd Edition](http://incompleteideas.net/sutton/book/RLbook2018trimmed.pdf) ~ Richard S. Sutton and Andrew G. Barto
+- [Hado Van Hasselt - YouTube Lectures](https://www.youtube.com/watch?v=ISk80iLhdfU\&list=PLqYmG7hTraZBKeNJ-JE_eyJHZ7XgBoAyb\&ab_channel=DeepMind)
+- [David Silver - YouTube Lectures](https://www.youtube.com/watch?v=2pWv7GOvuf0\&list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB\&ab_channel=DeepMind)
+  - [Written Article](https://towardsdatascience.com/reinforcement-learning-an-introduction-to-the-concepts-applications-and-code-ced6fbfd882d)
 - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)

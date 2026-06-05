@@ -1,30 +1,23 @@
 ---
-title: "Relational／Row-Oriented Database Management System (RDBMS)"
+publish: true
+title: Relational／Row-Oriented Database Management System (RDBMS)
 created: 2019-03-16T01:04:58.385-05:00
 modified: 2025-05-10T12:33:33.902-05:00
-parent: "[[DBMS - Types]]"
-children:
-  - "[[Adaptive Server Enterprise (SAP ASE) - Sybase (SQL Server - DB - ASE)]]"
-  - "[[Apache Derby]]"
-  - "[[Galera Cluster]]"
-  - "[[MariaDB]]"
-  - "[[Microsoft SQL Server (MSSQL - MS-SQL)]]"
-  - "[[MySQL]]"
-  - "[[Oracle Database]]"
-  - "[[Percona XtraDB Cluster]]"
-  - "[[SQLite]]"
-  - "[[Teradata]]"
 ---
+
 ###### Relational/Row-Oriented Database Management System (RDBMS)
-````excerpt
+
+```excerpt
 - refers to a [[Database Management Systems (DBMS)|database]] that stores data in a structured format, using rows
 - usually implements [[Schema-on-Read vs Schema-on-Write|schema-on-write]]
-````
+```
+
 ^excerpt
 
 # SQL Language
 
 RDMS uses [[Structured Query Language (SQL)|Structured Query Language]]
+
 # RDMS Types
 
 ```merge-table

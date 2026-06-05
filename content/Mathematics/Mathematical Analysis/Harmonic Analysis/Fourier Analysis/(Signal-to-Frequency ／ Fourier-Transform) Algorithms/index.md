@@ -1,16 +1,10 @@
 ---
-title: "(Signal-to-Frequency ／ Fourier-Transform) Algorithms"
+publish: true
+title: (Signal-to-Frequency ／ Fourier-Transform) Algorithms
 created: 2025-08-18T14:08:01.164-05:00
 modified: 2025-11-05T12:32:42.832-06:00
-parent: "[[Fourier Analysis]]"
-children:
-  - "[[Discrete Fourier Transform (DFT) - Discrete Fourier Series]]"
-  - "[[Discrete-Time Fourier Transform (DTFT)]]"
-  - "[[Fourier Series]]"
-  - "[[Fourier Transform - Inverse Fourier Transform]]"
-  - "[[Laplace Transform - Inverse Laplace Transform]]"
-  - "[[Z-Transform]]"
 ---
+
 ````excerpt
 Signal-to-frequency algorithms convert a time-domain signal into its frequency-domain components. They are used to create [[Power Spectrums - Spectrum of Frequencies - Power Spectral Density／Densities (PSD)|power spectrums]]
 
@@ -70,4 +64,5 @@ Signal-to-frequency algorithms convert a time-domain signal into its frequency-d
 }
 ```
 ````
+
 ^excerpt

@@ -1,18 +1,21 @@
 ---
-title: "Java - Spring - Repository (With and Without @Transactional)"
+publish: true
+title: Java - Spring - Repository (With and Without @Transactional)
 created: 2021-04-12T19:26:30.543-05:00
 modified: 2021-07-26T20:03:48.170-05:00
-parent: "[[Java - Spring Data - Spring Data Repository]]"
-children: []
 ---
+
 see: [[Java - Spring - @EnableTransactionManagement & @Transactional]]
+
 ```
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 
 @Repository
 public interface CustomRepository extends Neo4jRepository<Custom, ID> {}
 ```
+
 # 1 - Without Transactions
+
 ```
 @Component
 public class Test {
@@ -60,7 +63,9 @@ upon Test.test() the following sequence is as follows:
   ]
 }
 ```
+
 # 2 - With Transaction
+
 ```
 @Component
 @EnableTransactionManagement

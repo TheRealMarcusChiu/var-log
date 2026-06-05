@@ -1,14 +1,16 @@
 ---
-title: "Model of Computation - Computational Model"
+publish: true
+title: Model of Computation - Computational Model
 created: 2022-03-20T18:38:56.021-05:00
 modified: 2023-12-07T13:41:08.308-06:00
-parent: "[[Computational Theory - Theory of Computation]]"
-children: []
 ---
+
 ###### Model of Computation - Computational Model
-````excerpt
+
+```excerpt
 - in [[Computational Theory - Theory of Computation|Computational Theory]], a model of computation is a model that describes how an output of a mathematical function is computed given an input
-````
+```
+
 ^excerpt
 
 # Model of Computation - Classification Types

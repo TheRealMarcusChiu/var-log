@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 7 - How do Linear Map Components Change WRT Change of Basis？"
+publish: true
+title: Tensor - 7 - How do Linear Map Components Change WRT Change of Basis？
 created: 2023-08-01T23:04:47.859-05:00
 modified: 2023-08-02T20:15:29.403-05:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 > [!expand]- Detailed
 > ```merge-table
@@ -109,4 +109,5 @@ children: []
 > - thus:
 > 	- 𝐴<sub>𝑓</sub> = 𝐹<sup>-1</sup>𝐴<sub>𝑒</sub>𝐹
 ````
+
 ^excerpt

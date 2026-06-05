@@ -1,11 +1,12 @@
 ---
-title: "Subject Complement"
+publish: true
+title: Subject Complement
 created: 2021-09-13T04:44:07.504-05:00
 modified: 2021-09-13T04:44:07.504-05:00
-parent: "[[Syntax (Sentence Structure)]]"
-children: []
 ---
+
 ###### Subject Complement
+
 - describes the [[Subject - Predicate (Verb - Object)|subject]]
 - is an [[Adjectives|adjective]] or [[Nouns|noun]] that follows a [[Verbs|linking verb]]
 

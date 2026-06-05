@@ -1,11 +1,10 @@
 ---
-title: "LR - Tests - Derivation of F-Statistic"
+publish: true
+title: LR - Tests - Derivation of F-Statistic
 created: 2024-02-01T15:10:46.086-06:00
 modified: 2024-02-01T15:37:06.218-06:00
-parent: "[[Linear Regression (LR) Models]]"
-children:
-  - "[[LR - Tests - T-Statistic vs F-Statistic]]"
 ---
+
 # Test Whether 𝛽<sub>2</sub> = 0
 
 Train the following 2 models against the dataset
@@ -92,4 +91,5 @@ The corresponding residual sum of squares are independent [[Chi-Square Distribut
 ```
 
 Hence, from the definition of an 𝐹 variable (note that the 𝜎 cancels):
+
 - $F = \frac{(\hat{e}_r^T\hat{e}_r - \hat{e}_f^T\hat{e}_f)/(1)}{\hat{e}_f^T\hat{e}_f/(n-p)}$

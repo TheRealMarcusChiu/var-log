@@ -1,13 +1,14 @@
 ---
-title: "Java - Spring - Hibernate Enable Debug Logging"
+publish: true
+title: Java - Spring - Hibernate Enable Debug Logging
 created: 2020-12-04T10:25:59.169-06:00
 modified: 2022-11-17T02:12:05.925-06:00
-parent: "[[Java - Spring - Spring Data JPA (Hibernate)]]"
-children: []
 ---
+
 # Enable Debug Logging for Hibernate and Queries
 
 add the following to <code><font style="color: rgb(51,102,255);">/src/main/resources/application.properties</font></code>
+
 ```
 # Turn Statistics on 
 spring.jpa.properties.hibernate.generate_statistics=true
@@ -24,6 +25,7 @@ logging.level.org.hibernate.type=trace
 Some of the log that is generated (later when we execute queries) when we turn statistics on is shown below.
 
 Session Level Metrics
+
 ```
 i.StatisticalLoggingSessionEventListener : Session Metrics {
     23004 nanoseconds spent acquiring 1 JDBC connections;
@@ -39,6 +41,7 @@ i.StatisticalLoggingSessionEventListener : Session Metrics {
 ```
 
 Queries and Parameters
+
 ```
 Hibernate: 
     select

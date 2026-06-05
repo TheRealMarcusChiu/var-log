@@ -1,10 +1,10 @@
 ---
-title: "Moral Indignation"
+publish: true
+title: Moral Indignation
 created: 2021-09-13T04:44:37.695-05:00
 modified: 2021-09-13T04:44:37.695-05:00
-parent: "[[Moral]]"
-children: []
 ---
+
 - [[Moral|morality]] means acting in conformity with accepted rules of right
 - indignation is a feeling of righteous anger
 

@@ -1,10 +1,10 @@
 ---
-title: "Extraversion／Extroversion／Extravert／Extrovert - Introversion／Introvert"
+publish: true
+title: Extraversion／Extroversion／Extravert／Extrovert - Introversion／Introvert
 created: 2021-12-13T04:01:42.061-06:00
 modified: 2021-12-13T04:06:58.697-06:00
-parent: "[[Myers-Briggs Type Indicator (MBTI)]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

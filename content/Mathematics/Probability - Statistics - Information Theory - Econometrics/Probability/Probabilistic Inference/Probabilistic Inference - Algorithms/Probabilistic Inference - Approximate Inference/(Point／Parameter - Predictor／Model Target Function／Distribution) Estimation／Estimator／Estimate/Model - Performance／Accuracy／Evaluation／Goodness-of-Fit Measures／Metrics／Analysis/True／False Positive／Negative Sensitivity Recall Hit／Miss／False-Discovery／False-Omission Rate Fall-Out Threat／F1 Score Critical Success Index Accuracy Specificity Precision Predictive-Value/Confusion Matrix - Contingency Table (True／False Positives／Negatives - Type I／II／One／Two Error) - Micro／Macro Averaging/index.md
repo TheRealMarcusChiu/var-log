@@ -1,15 +1,17 @@
 ---
-title: "Confusion Matrix - Contingency Table (True／False Positives／Negatives - Type I／II／One／Two Error) - Micro／Macro Averaging"
+publish: true
+title: Confusion Matrix - Contingency Table (True／False Positives／Negatives - Type I／II／One／Two Error) - Micro／Macro Averaging
 created: 2021-09-13T05:27:49.649-05:00
 modified: 2021-12-21T18:56:23.111-06:00
-parent: "[[True／False Positive／Negative Sensitivity Recall Hit／Miss／False-Discovery／False-Omission Rate Fall-Out Threat／F1 Score Critical Success Index Accuracy Specificity Precision Predictive-Value]]"
-children: []
 ---
+
 often used as a [[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis|performance measure]] between different classification-typed [[ML - Models|Machine Learning Algorithms]]
+
 # Confusion Matrix / Contingency Tables
+
 > [!tabs]
 >
-> === binary classification confusion matrix
+> \=== binary classification confusion matrix
 >
 > ```merge-table
 > {
@@ -92,7 +94,7 @@ often used as a [[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit 
 > }
 > ```
 >
-> === n-nary classification confusion matrix
+> \=== n-nary classification confusion matrix
 >
 > ```merge-table
 > {
@@ -218,10 +220,12 @@ often used as a [[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit 
 # Micro-Averaging vs Macro-Averaging
 
 used when combining multi-classification measures into one quantity
+
 - <strong>macro-averaging</strong> - compute performance for each class, then average
 - <strong>micro-averaging</strong> - collect decisions for all classes, compute contingency table, then evaluate
 
 micro-averaging score is dominated by score on more common classes
+
 # Micro-Averaging vs Macro-Averaging - Example
 
 given 2 contingency tables, compute the performance measure [[True／False Positive／Negative Sensitivity Recall Hit／Miss／False-Discovery／False-Omission Rate Fall-Out Threat／F1 Score Critical Success Index Accuracy Specificity Precision Predictive-Value|precision]]
@@ -392,6 +396,7 @@ given 2 contingency tables, compute the performance measure [[True／False Posi
 ```
 
 precision = true positives / (true positives + false negatives)
+
 - class 1 precision = 10 / (10 + 10) = 0.5
 - class 2 precision = 90 / (90 + 10) = 0.9
 - macro-average precision = (0.5 + 0.9) / 2 = 0.7

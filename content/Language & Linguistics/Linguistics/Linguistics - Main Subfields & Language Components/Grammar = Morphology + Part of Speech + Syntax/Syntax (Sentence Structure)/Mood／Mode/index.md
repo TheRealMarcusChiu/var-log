@@ -1,10 +1,10 @@
 ---
-title: "Mood／Mode"
+publish: true
+title: Mood／Mode
 created: 2021-09-13T04:44:06.623-05:00
 modified: 2021-09-13T04:44:06.623-05:00
-parent: "[[Syntax (Sentence Structure)]]"
-children: []
 ---
+
 <strong>Mood (or Mode) </strong>indicates the manner in which the [[Verbs|verb]] expresses the action or state of being
 
 ```merge-table

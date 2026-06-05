@@ -1,19 +1,22 @@
 ---
-title: "Prototype Builder Pattern"
+publish: true
+title: Prototype Builder Pattern
 created: 2023-06-02T18:59:01.499-05:00
 modified: 2026-01-10T03:58:15.544-06:00
-parent: "[[Creational Design Patterns]]"
-children: []
 ---
+
 ###### Prototype Builder Pattern
-````excerpt
+
+```excerpt
 - is a type of [[Creational Design Patterns|creational builder pattern]] that combines both [[Prototype Pattern]] and [[Builder Pattern]] together
-````
+```
+
 ^excerpt
 
 # Code Examples
 
 > [!expand-ui]- Prototype Builder from Object Instance
+>
 > ```java
 > @Getter
 > @Builder
@@ -70,6 +73,7 @@ children: []
 >     }
 > }
 > ```
+>
 > ```
 > public class Main {
 >     public static void main(String[] args) {
@@ -89,11 +93,13 @@ children: []
 > ```
 
 > [!expand-ui]- Prototype Builder from Builder Instance (BROKEN)
+>
 > ```
 > public interface Prototype<T> {
 >     T prototype();
 > }
 > ```
+>
 > ```java
 > public class Employee {
 >     private String name; 
@@ -134,6 +140,7 @@ children: []
 >     }
 > }
 > ```
+>
 > ```
 > public static void main(String[] args) {
 > 	EmployeeBuilder baseBuilder = Employee.builder().description("default description");

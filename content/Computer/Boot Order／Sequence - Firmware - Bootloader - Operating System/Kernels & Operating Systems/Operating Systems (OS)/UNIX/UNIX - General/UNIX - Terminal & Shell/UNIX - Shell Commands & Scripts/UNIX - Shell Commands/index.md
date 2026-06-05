@@ -1,29 +1,12 @@
 ---
-title: "UNIX - Shell Commands"
+publish: true
+title: UNIX - Shell Commands
 created: 2019-03-15T15:44:29.477-05:00
 modified: 2020-06-26T22:07:33.906-05:00
-parent: "[[UNIX - Shell Commands & Scripts]]"
-children:
-  - "[[Neovim]]"
-  - "[[UNIX - Moving Around Directories]]"
-  - "[[UNIX - Performance Observability Commands]]"
-  - "[[User Group Permission & Ownership]]"
-  - "[[cron - anacron]]"
-  - "[[find]]"
-  - "[[grep]]"
-  - "[[ln (symbolic／soft link - hard link)]]"
-  - "[[ps]]"
-  - "[[rsync]]"
-  - "[[top like commands]]"
-  - "[[vi - vim]]"
-  - "[[which - type - command - whence - where - whereis - whatis - hash]]"
 ---
-````excerpt
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
+
+```excerpt
+
 
 - [fish shell](https://fishshell.com/) - easy to use, beginner-friendly shell
 - [starship](https://starship.rs/) - a great prompt that requires no setup
@@ -46,5 +29,6 @@ WHERE file.folder = this.file.folder + "/" + this.file.name
 - [litecli](https://litecli.com/) and [pgcli](https://www.pgcli.com/) - like <code>sqlite3</code> and <code>psql</code> but better
 - [mas](https://github.com/mas-cli/mas) - CLI interface for App Store
 - [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer (replacement fo du)
-````
+```
+
 ^excerpt

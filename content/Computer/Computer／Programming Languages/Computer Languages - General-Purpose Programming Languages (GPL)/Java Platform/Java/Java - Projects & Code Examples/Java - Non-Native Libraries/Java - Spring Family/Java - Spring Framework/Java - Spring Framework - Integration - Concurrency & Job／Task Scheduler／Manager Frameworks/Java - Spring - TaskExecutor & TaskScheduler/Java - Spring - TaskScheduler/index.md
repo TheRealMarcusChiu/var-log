@@ -1,14 +1,16 @@
 ---
-title: "Java - Spring - TaskScheduler"
+publish: true
+title: Java - Spring - TaskScheduler
 created: 2021-09-26T23:40:59.177-05:00
 modified: 2021-09-26T23:42:28.891-05:00
-parent: "[[Java - Spring - TaskExecutor & TaskScheduler]]"
-children: []
 ---
+
 ###### TaskScheduler
+
 - similar to <code>[[Java - Spring - TaskExecutor|TaskExecutor]]</code> but schedules tasks to run at some point in the future
 
 # TaskScheduler - Class Definition
+
 ```
 public interface TaskScheduler {
     default Clock getClock() {

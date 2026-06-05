@@ -1,14 +1,14 @@
 ---
-title: "Multivariate Probability Distribution"
+publish: true
+title: Multivariate Probability Distribution
 created: 2021-09-13T05:27:19.368-05:00
 modified: 2021-10-31T03:09:27.741-05:00
-parent: "[[Multivariate vs Mixture - Model／Probability-Distribution]]"
-children:
-  - "[[Multivariate Gaussian／Normal Distribution／Model／Process (MVN)]]"
 ---
-````excerpt
+
+```excerpt
 <strong>[[Multivariate Probability Distribution]]</strong> is a type of [[Probability Distributions|probability distribution]] involving multiple random variables. This is contrasted to [[Univariate Probability Distribution|Univariate Probability Distributions]]
-````
+```
+
 ^excerpt
 
 # MPD - Representation Forms
@@ -35,12 +35,9 @@ children:
   ]
 }
 ```
+
 # MPD - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # MPD - Other
+
 - an MPD can be used to derive a [[Marginal Probability Distribution]]

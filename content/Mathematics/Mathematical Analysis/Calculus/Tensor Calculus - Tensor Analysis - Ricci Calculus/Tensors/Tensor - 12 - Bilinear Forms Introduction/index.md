@@ -1,10 +1,10 @@
 ---
-title: "Tensor - 12 - Bilinear Forms Introduction"
+publish: true
+title: Tensor - 12 - Bilinear Forms Introduction
 created: 2023-08-02T01:05:58.680-05:00
 modified: 2023-08-02T20:42:11.199-05:00
-parent: "[[Tensors]]"
-children: []
 ---
+
 ````excerpt
 METRIC TENSOR ALGEBRAIC PROPERTIES
 - 𝑔: 𝑉⨯𝑉 → ℝ
@@ -74,4 +74,5 @@ Thus: bilinear forms can be written as linear combinations of covector-covector 
 }
 ```
 ````
+
 ^excerpt

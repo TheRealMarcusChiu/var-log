@@ -1,11 +1,12 @@
 ---
-title: "Men Love and Lead Your Wives"
+publish: true
+title: Men Love and Lead Your Wives
 created: 2021-09-13T04:44:46.563-05:00
 modified: 2021-09-13T04:44:46.563-05:00
-parent: "[[Christ Centered Family]]"
-children: []
 ---
+
 ![](http://youtube.com/watch?v=m3nJ5vvPD4k)
+
 ## Ephesians 5:21-33
 
 <strong><sup>21</sup></strong> Submit to one another out of reverence for Christ.

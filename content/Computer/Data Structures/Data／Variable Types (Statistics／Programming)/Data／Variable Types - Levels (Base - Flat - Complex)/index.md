@@ -1,11 +1,10 @@
 ---
-title: "Data／Variable Types - Levels (Base - Flat - Complex)"
+publish: true
+title: Data／Variable Types - Levels (Base - Flat - Complex)
 created: 2019-05-02T13:02:21.403-05:00
 modified: 2025-06-13T00:27:06.867-05:00
-parent: "[[Data／Variable Types (Statistics／Programming)]]"
-children:
-  - "[[Computer Data Encoding & Decoding]]"
 ---
+
 # 3 levels (lowest to highest level)
 
 ```merge-table
@@ -35,9 +34,5 @@ children:
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

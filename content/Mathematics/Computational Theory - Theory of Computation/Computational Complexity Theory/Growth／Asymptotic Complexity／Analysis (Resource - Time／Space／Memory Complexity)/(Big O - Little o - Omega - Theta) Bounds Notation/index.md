@@ -1,12 +1,14 @@
 ---
-title: "(Big O - Little o - Omega - Theta) Bounds Notation"
+publish: true
+title: (Big O - Little o - Omega - Theta) Bounds Notation
 created: 2021-09-13T05:24:53.686-05:00
 modified: 2024-01-17T00:21:45.367-06:00
-parent: "[[Growth／Asymptotic Complexity／Analysis (Resource - Time／Space／Memory Complexity)]]"
-children: []
 ---
+
 ###### Big-O, Little-o, Omega, and Theta
+
 - are formal notational methods for stating/describing the [[Growth／Asymptotic Complexity／Analysis (Resource - Time／Space／Memory Complexity)|growth of resource needs (time and storage)]] of an [[Algorithms|algorithm]]
+
 ```merge-table
 {
   "rows": [

@@ -1,13 +1,16 @@
 ---
-title: "Soft Skills"
+publish: true
+title: Soft Skills
 created: 2021-09-13T04:46:14.285-05:00
 modified: 2021-09-13T04:46:14.285-05:00
-parent: "[[Skills]]"
-children: []
 ---
+
 <strong>Soft Skills</strong> a type of [[Skills|skill]] containing a combination of people skills, social skills, communication skills, character or personality traits, attitudes, career attributes,social intelligence and emotional intelligence quotients, among others that enable people to navigate their environment, work well with others, perform well, and achieve their goals with complementing <strong>hard skills</strong>.
+
 ### Soft Skills - Top 10
+
 Following is a "top ten" list of soft skills compiled by [Eastern Kentucky University](https://en.wikipedia.org/wiki/Eastern_Kentucky_University) from executive listings:
+
 1. <strong>Communication</strong> – oral speaking capability, written, presenting, listening, clear speech & writing
 2. <strong>Courtesy</strong> – manners, etiquette, business etiquette, gracious, says please and thank you, respectful
 3. <strong>Flexibility</strong> – adaptability, willing to change, lifelong learner, accepts new things, adjusts, teachable

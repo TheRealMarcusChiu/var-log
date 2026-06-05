@@ -1,10 +1,10 @@
 ---
-title: "Computer Diagram (Hardware - Kernel - Shell - Operating System - Applications)"
+publish: true
+title: Computer Diagram (Hardware - Kernel - Shell - Operating System - Applications)
 created: 2019-09-28T17:51:05.027-05:00
 modified: 2021-12-19T23:56:25.170-06:00
-parent: "[[Computer]]"
-children: []
 ---
+
 # Architectural Diagram
 
 ```merge-table

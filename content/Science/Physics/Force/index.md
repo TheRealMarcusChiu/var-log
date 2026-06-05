@@ -1,20 +1,22 @@
 ---
-title: "Force"
+publish: true
+title: Force
 created: 2021-09-13T04:45:50.718-05:00
 modified: 2023-04-15T13:24:44.762-05:00
-parent: "[[Physics]]"
-children:
-  - "[[Electrostatic Force vs Electromagnetic Force]]"
 ---
+
 Force
-````excerpt
+
+```excerpt
 - a <strong>force</strong> is described as an exchange of <strong>[[Subatomic Particles|bosons]]</strong> between the objects affected, such as a photon for the electromagnetic force and a gluon for the strong interaction. These particles are called <strong>force carrier particles</strong>
-````
+```
+
 ^excerpt
 
 # Force - Measurement
 
 Newton (𝑁) is the [[Metric System - International System of Units (SI Units)|International System of Units (SI)]]derived unit of force
+
 - 𝑁 = 𝑘𝑔·𝑚/𝑠<sup>2</sup>
 
 # Force - 4 Fundamental Forces
@@ -160,5 +162,7 @@ Newton (𝑁) is the [[Metric System - International System of Units (SI Units
   ]
 }
 ```
+
 # Electroweak Interaction Theory
+
 - the [[Subatomic Particles|Standard Model]] has united <strong>electromagnetic interactions</strong> and <strong>weak interactions</strong> into one unified interaction called <strong>electroweak</strong>

@@ -1,25 +1,17 @@
 ---
-title: "NoSQL (Non-Relational) Databases"
+publish: true
+title: NoSQL (Non-Relational) Databases
 created: 2019-03-16T01:01:54.146-05:00
 modified: 2026-01-12T12:14:07.608-06:00
-parent: "[[DBMS - Types]]"
-children:
-  - "[[Column-Oriented／Store Database Management System (CDBMS)]]"
-  - "[[Document Database]]"
-  - "[[DynamoDB (DDB)]]"
-  - "[[Graph／Network Database]]"
-  - "[[Key-Value Database／Store]]"
-  - "[[NoSQL - Comparisons]]"
-  - "[[Object Oriented Database (OODB)]]"
-  - "[[Time-Series Database (TSDB)]]"
-  - "[[Vector Database]]"
-  - "[[Wide-Column Store Database Management System]]"
 ---
+
 ###### NoSQL (Non-Relational) Databases
-````excerpt
+
+```excerpt
 - (originally referring to "non-SQL", "non-relational" or "not only SQL") the database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in [[Relational／Row-Oriented Database Management System (RDBMS)|relational databases]]
 - usually implements [[Schema-on-Read vs Schema-on-Write|schema-on-read]]
-````
+```
+
 ^excerpt
 
 # NoSQL Sub-Types
@@ -86,8 +78,11 @@ children:
   ]
 }
 ```
+
 # NoSQL Comparisons
+
 - [[NoSQL - Comparisons]]
 
 # Resources
-- [https://technicalsand.com/nosql-database-types/](https://technicalsand.com/nosql-database-types/)
+
+- <https://technicalsand.com/nosql-database-types/>

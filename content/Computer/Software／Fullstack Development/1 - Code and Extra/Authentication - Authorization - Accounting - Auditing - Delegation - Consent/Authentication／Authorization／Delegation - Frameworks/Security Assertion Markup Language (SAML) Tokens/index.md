@@ -1,26 +1,32 @@
 ---
-title: "Security Assertion Markup Language (SAML) Tokens"
+publish: true
+title: Security Assertion Markup Language (SAML) Tokens
 created: 2019-12-13T11:15:24.803-06:00
 modified: 2022-12-30T14:21:41.554-06:00
-parent: "[[Authentication／Authorization／Delegation - Frameworks]]"
-children: []
 ---
+
 <strong>Security Assertion Markup Language (SAML</strong><strong>)</strong>
-````excerpt
+
+```excerpt
 - is an [[Extensible Markup Language (XML)|XML]]-based framework for [[Authentication - Authorization - Accounting - Auditing - Delegation - Consent|authentication and authorization]]
 - has multiple authentication methods (e.g. Single-Sign-On (SSO) across multiple sites)
-````
+```
+
 ^excerpt
 
 # Introduction
+
 ![](https://www.youtube.com/watch?v=l-6QSEqDJPo)
+
 # Authentication Entities
 
 > [!expand]- Click here to expand...
 > ![[Authentication／Authorization／Delegation - Entities／Actors#^excerpt]]
+
 # Authentication Process
 
 The information sent from <font style="color: rgb(255,0,0);"><strong>Identity-Provider</strong></font> to <strong>User</strong> is known as an assertion.
+
 ###### Flow 1 - Service Provider Initiated (SP-Initiated) SSO
 
 ```merge-table
@@ -34,6 +40,7 @@ The information sent from <font style="color: rgb(255,0,0);"><strong>Identity-Pr
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 ###### Flow 2 - Identity Provider Initiated (IdP-Initiated) SSO
 
 ```merge-table

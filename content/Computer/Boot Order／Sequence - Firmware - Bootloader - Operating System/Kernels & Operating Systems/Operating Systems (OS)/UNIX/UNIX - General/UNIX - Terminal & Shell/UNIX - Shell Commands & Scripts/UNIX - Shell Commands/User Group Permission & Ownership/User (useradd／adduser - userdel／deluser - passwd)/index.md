@@ -1,14 +1,10 @@
 ---
-title: "User (useradd／adduser - userdel／deluser - passwd)"
+publish: true
+title: User (useradd／adduser - userdel／deluser - passwd)
 created: 2019-11-16T12:38:17.798-06:00
 modified: 2021-09-12T22:47:57.143-05:00
-parent: "[[User Group Permission & Ownership]]"
-children:
-  - "[[Changing Password Setting Defaults]]"
-  - "[[Enable or Disable User Account]]"
-  - "[[Sudo Users]]"
-  - "[[／etc／passwd - ／etc／shadow]]"
 ---
+
 # User Commands
 
 ```merge-table
@@ -43,9 +39,5 @@ children:
 ```
 
 [[Difference Between useradd／userdel／groupadd／groupdel & adduser／deluser／addgroup／delgroup|Difference Between useradd/userdel/groupadd/groupdel & adduser/deluser/addgroup/delgroup]]
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

@@ -1,13 +1,14 @@
 ---
-title: "NTFS - Transaction"
+publish: true
+title: NTFS - Transaction
 created: 2020-06-15T21:09:09.609-05:00
 modified: 2020-06-15T21:13:10.817-05:00
-parent: "[[NTFS - System Files - $LogFile]]"
-children: []
 ---
+
 ### NTFS Transaction - Example
 
 when a program is modifying a file, the following steps might occur:
+
 - read MFT entry for directory entry file it's in
 - read directory entry file it's in
 - read MFT record for file

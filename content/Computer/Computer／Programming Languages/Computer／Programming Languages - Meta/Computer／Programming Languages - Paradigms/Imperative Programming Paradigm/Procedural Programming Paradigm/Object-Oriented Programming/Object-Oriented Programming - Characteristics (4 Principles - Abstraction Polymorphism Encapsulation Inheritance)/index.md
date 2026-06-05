@@ -1,10 +1,10 @@
 ---
-title: "Object-Oriented Programming - Characteristics (4 Principles - Abstraction Polymorphism Encapsulation Inheritance)"
+publish: true
+title: Object-Oriented Programming - Characteristics (4 Principles - Abstraction Polymorphism Encapsulation Inheritance)
 created: 2022-02-28T23:51:18.545-06:00
 modified: 2022-03-06T18:25:21.046-06:00
-parent: "[[Object-Oriented Programming]]"
-children: []
 ---
+
 # Object-Oriented Programming - 4 Main Principles
 
 ```merge-table
@@ -45,7 +45,9 @@ children: []
   ]
 }
 ```
+
 # Object-Oriented Programming - Additional Principles
+
 1. All pre-defined types must be objects
 2. All user-defined types must be objects
 3. All operations on objects must be done through methods
@@ -53,11 +55,13 @@ children: []
 # Object-Oriented Programming - Essentials & Non-Essentials (according to Alan Kay)
 
 Essentials:
+
 - Encapsulation
 - Message passing
 - Dynamic binding (the ability for the program to evolve/adapt at runtime)
 
 Non-Essentials:
+
 - Classes
 - Class inheritance
 - Special treatment for objects/functions/data

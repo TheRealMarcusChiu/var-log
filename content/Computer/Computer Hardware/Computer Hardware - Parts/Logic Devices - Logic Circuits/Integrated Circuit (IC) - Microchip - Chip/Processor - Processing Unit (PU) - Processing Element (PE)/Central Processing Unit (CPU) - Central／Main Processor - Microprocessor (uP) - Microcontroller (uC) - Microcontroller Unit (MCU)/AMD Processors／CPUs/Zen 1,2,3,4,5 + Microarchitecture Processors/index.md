@@ -1,29 +1,27 @@
 ---
-title: "Zen 1,2,3,4,5 + Microarchitecture Processors"
+publish: true
+title: Zen 1,2,3,4,5 + Microarchitecture Processors
 created: 2022-09-12T04:59:32.667-05:00
 modified: 2025-10-14T12:39:16.174-05:00
-parent: "[[AMD Processors／CPUs]]"
-children:
-  - "[[AMD Athlon]]"
-  - "[[AMD EPYC Processors]]"
-  - "[[Ryzen]]"
-  - "[[Zen Ryzen Threadripper (PRO)]]"
 ---
+
 ###### Zen 1,2,3,4,5 + Microarchitecture Processors
-````excerpt
+
+```excerpt
 - Zen is the codename for a family of computer processor [[Computer Organization - Microarchitecture (µarch - uarch)|microarchitectures]] from AMD, first launched in February 2017
 - used in several [[AMD Processors／CPUs|AMD processors]]:
 	- Ryzen (desktop and mobile)
 	- Ryzen Threadripper (workstation/high-end desktop)
 	- Epyc (server)
-````
+```
+
 ^excerpt
 
 # Zen - Processor Naming Conventions
 
 the naming system includes the following:
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -56,19 +54,15 @@ the naming system includes the following:
     ]
   ]
 }
-```
+````
 
 Other:
+
 - AMD used the last Zen 3 architecture for two series — 4000 and 5000
 - 4000 series was entirely an APU lineup, and available only in laptops and OEM systems, unlike the 5000 series
 - The Zen 3 Plus-based 6000 series is again laptop-only
 
 # Zen - Athlon, Pro, Embedded, Threadripper, EPYC, and FX-Series Processors
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 > [!expand-ui]- AMD Pro processors
 > AMD Pro is actually an umbrella brand for several series of AMD processors meant for the enterprise market. Ryzen, Threadripper, and Athlon all have their own Pro series offerings. AMD promises a focus on security with these processors. Security features include AMD Memory Guard for real-time encryption of system memory and AMD Shadow Stack hardware-level protection against control-flow attacks. There are also more implementations from OEMs and some OS-level features in Windows 10. You also get enterprise-grade support.

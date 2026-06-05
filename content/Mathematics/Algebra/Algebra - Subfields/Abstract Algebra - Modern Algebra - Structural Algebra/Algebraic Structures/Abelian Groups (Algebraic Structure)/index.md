@@ -1,14 +1,16 @@
 ---
-title: "Abelian Groups (Algebraic Structure)"
+publish: true
+title: Abelian Groups (Algebraic Structure)
 created: 2023-06-29T19:12:52.669-05:00
 modified: 2023-06-29T19:15:19.054-05:00
-parent: "[[Algebraic Structures]]"
-children: []
 ---
+
 ###### Abelian Groups (Algebraic Structure)
-````excerpt
+
+```excerpt
 - is an [[Algebraic Structures|algebraic structure]]
-````
+```
+
 ^excerpt
 
 # Abelian Groups - Definition

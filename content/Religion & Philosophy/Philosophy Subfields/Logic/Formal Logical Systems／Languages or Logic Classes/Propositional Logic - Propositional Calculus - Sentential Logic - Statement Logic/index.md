@@ -1,18 +1,19 @@
 ---
-title: "Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic"
+publish: true
+title: Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic
 created: 2021-09-13T04:44:28.915-05:00
 modified: 2026-05-21T14:31:33.357-05:00
-parent: "[[Formal Logical Systems／Languages or Logic Classes]]"
-children:
-  - "[[Propositional Logic - (Negation - Conjunctive - Disjunctive) Normal Forms (NNF - CNF - DNF)]]"
 ---
+
 <strong>Propositional Logic</strong> or <strong>Propositional Calculus</strong> (aka <strong>Sentential Logic</strong> and <strong>Statement Logic</strong>)
-````excerpt
+
+```excerpt
 - the logic of [[Propositions|propositions]] (i.e. statements)
 - is the branch of logic that studies:
 	- methods of joining and/or modifying [[Propositions|propositions]]
 	- the logical relationships and properties that are derived from these <em>methods of joining and/or modifying [[Propositions|propositions]]</em>
-````
+```
+
 ^excerpt
 
 # Syntax & Semantics
@@ -56,6 +57,7 @@ children:
   ]
 }
 ```
+
 # Equivalences
 
 ```merge-table
@@ -133,17 +135,15 @@ children:
   "tableStyle": "width: 68.5227%;"
 }
 ```
+
 # Inference Rules / Logical Consequences / Entailment / ⊨
 
 the notation 𝐴 ⊨ 𝐵 (formulae 𝐵 can be derived from formulae(s) 𝐴 by inference) has an alternative notation shown below
+
 - <code>𝐴</code>
 - <code>𝐵̅</code>
 
 which emphasizes that this is not a sentence, but an inference rule. whenever a proposition/formulae/sentence(s) matches the pattern above the line, the inference rule concludes the premise below the line
-![[Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic/1.png|600]]
+![[Religion & Philosophy/Philosophy Subfields/Logic/Formal Logical Systems／Languages or Logic Classes/Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic/1.png|600]]
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

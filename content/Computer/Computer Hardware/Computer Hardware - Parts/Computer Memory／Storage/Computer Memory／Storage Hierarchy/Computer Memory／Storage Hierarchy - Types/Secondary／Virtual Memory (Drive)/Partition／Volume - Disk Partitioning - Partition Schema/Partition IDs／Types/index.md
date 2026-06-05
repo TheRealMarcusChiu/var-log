@@ -1,10 +1,10 @@
 ---
-title: "Partition IDs／Types"
+publish: true
+title: Partition IDs／Types
 created: 2020-06-10T12:05:23.745-05:00
 modified: 2020-06-10T13:30:58.665-05:00
-parent: "[[Partition／Volume - Disk Partitioning - Partition Schema]]"
-children: []
 ---
+
 This is a list of known master boot record partition types on [IBM PC compatible](https://en.wikipedia.org/wiki/IBM_PC_compatible) computers:
 
 ```merge-table

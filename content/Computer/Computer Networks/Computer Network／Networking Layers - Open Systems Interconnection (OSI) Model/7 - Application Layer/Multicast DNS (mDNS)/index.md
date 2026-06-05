@@ -1,14 +1,16 @@
 ---
-title: "Multicast DNS (mDNS)"
+publish: true
+title: Multicast DNS (mDNS)
 created: 2026-05-27T12:32:50.767-05:00
 modified: 2026-05-27T12:36:27.026-05:00
-parent: "[[7 - Application Layer]]"
-children: []
 ---
+
 ###### Multicast DNS (mDNS)
-````excerpt
+
+```excerpt
 - is a protocol that allows devices on a local network to discover each other and resolve hostnames to IP addresses without the need for a traditional, centralized [[DNS Server (DNS Resolver - Root Server - Top-Level Server - Authoritative Server)|DNS server]]
-````
+```
+
 ^excerpt
 
 # OSI Model Stack Context

@@ -1,13 +1,14 @@
 ---
-title: "Confessions - Leo Tolstoy"
+publish: true
+title: Confessions - Leo Tolstoy
 created: 2021-09-13T04:44:18.773-05:00
 modified: 2024-08-02T11:22:38.446-05:00
-parent: "[[Philosophy Books]]"
-children: []
 ---
-- [https://www.arvindguptatoys.com/arvindgupta/confessions-tolstoy.pdf](https://www.arvindguptatoys.com/arvindgupta/confessions-tolstoy.pdf)
+
+- <https://www.arvindguptatoys.com/arvindgupta/confessions-tolstoy.pdf>
 
 # Quotes
+
 - Every time I tried to express my most heartfelt desires to be morally good I met with contempt and ridicule; and as soon as I would give in to vile passions I was praised and encouraged
 - The starting point of it all was, of course, moral perfection, but this was soon replaced by a belief in overall perfec­tion, that is, a desire to be better not in my own eyes or in the eyes of God, but rather a desire to be better in the eyes of other people. And this effort to be better in the eyes of other people was very quickly displaced by a longing to be stronger than other people, that is, more renowned, more important, wealthier than others
 - These people are the most radical disbelievers, for if faith, in their view, is a means of obtaining some worldly end, then it is indeed no faith at all

@@ -1,10 +1,10 @@
 ---
-title: "Psychosexual Stages of Development"
+publish: true
+title: Psychosexual Stages of Development
 created: 2021-09-13T04:45:36.285-05:00
 modified: 2021-09-14T00:54:54.240-05:00
-parent: "[[Freudian／Psychoanalytic Theory]]"
-children: []
 ---
+
 Freud believed that the nature of the conflicts among the [[Freud's Structure of the Human Mind - Id Superego Ego|id, ego, and superego]] change over time as a person grows from child to adult. Specifically, he maintained that these conflicts progress through a series of five basic stages, each with a different focus: oral, anal, phallic, latency, and genital. He called his idea the psychosexual theory of development, with each psychosexual stage directly related to a different physical center of pleasure.
 
 Across these five stages, the child is presented with different conflicts between their biological drives (id) and their social and moral conscience (superego) because their biological pleasure-seeking urges focus on different areas of the body (what Freud called “erogenous zones”). The child’s ability to resolve these internal conflicts determines their future ability to cope and function as an adult. Failure to resolve a stage can lead one to become fixated in that stage, leading to unhealthy personality traits; successful resolution of the stages leads to a healthy adult.

@@ -1,15 +1,10 @@
 ---
-title: "Java Platform"
+publish: true
+title: Java Platform
 created: 2019-03-15T17:34:30.049-05:00
 modified: 2022-09-18T03:17:09.201-05:00
-parent: "[[Computer Languages - General-Purpose Programming Languages (GPL)]]"
-children:
-  - "[[Clojure]]"
-  - "[[Groovy]]"
-  - "[[Java]]"
-  - "[[Kotlin]]"
-  - "[[Scala]]"
 ---
+
 ```merge-table
 {
   "rows": [

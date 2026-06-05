@@ -1,15 +1,17 @@
 ---
-title: "CIE (XYZ Lab Luv) (Commission International de l' éclairage)"
+publish: true
+title: CIE (XYZ Lab Luv) (Commission International de l' éclairage)
 created: 2020-07-07T20:03:12.155-05:00
 modified: 2020-07-07T20:53:29.985-05:00
-parent: "[[Color Decompositions／Spaces／Models／Gamuts／Profiles]]"
-children: []
 ---
+
 ###### CIE (Commission International de l' éclairage)
-````excerpt
+
+```excerpt
 - device-independent color space
 - describe all colors visible to the human eye based upon the average response from a set of people with no vision problems
-````
+```
+
 ^excerpt
 
 ### CIE Common Forms

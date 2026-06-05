@@ -1,16 +1,12 @@
 ---
-title: "Javascript Object Signing & Encryption (JOSE)"
+publish: true
+title: Javascript Object Signing & Encryption (JOSE)
 created: 2020-01-08T17:11:52.482-06:00
 modified: 2022-12-30T13:47:24.390-06:00
-parent: "[[Authentication／Authorization／Delegation - Frameworks]]"
-children:
-  - "[[How a Service Verifies a JWT]]"
-  - "[[JSON Web Algorithms (JWA)]]"
-  - "[[JSON Web Key (JWK) - JSON Web Key Set (JWKS)]]"
-  - "[[JSON Web Tokens (JWT) (JWS - JWE - Unsecured JWT)]]"
-  - "[[Security Tokens Service (STS)]]"
 ---
+
 ###### Javascript Object Signing and Encryption (JOSE)
+
 - is a framework intended to provide a method to securely transfer claims (such as authorization information) between parties
 
 # JOSE Suite
@@ -64,8 +60,11 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Putting it All Together
+
 - [[How a Service Verifies a JWT]]
 
 # Code Frameworks
-- Java - [https://github.com/java-code-examples/json-web-token-example](https://github.com/java-code-examples/json-web-token-example)
+
+- Java - <https://github.com/java-code-examples/json-web-token-example>

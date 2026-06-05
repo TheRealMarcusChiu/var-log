@@ -1,25 +1,30 @@
 ---
-title: "Set／Reset Latch (SR／S-R Latch)"
+publish: true
+title: Set／Reset Latch (SR／S-R Latch)
 created: 2023-01-18T01:41:16.831-06:00
 modified: 2023-01-18T07:23:32.437-06:00
-parent: "[[Flip-Flops - Latches]]"
-children: []
 ---
+
 ###### Set/Reset Latch (SR/S-R Latch)
-````excerpt
+
+```excerpt
 - is an asynchronous [[Flip-Flops - Latches|Latch]]
 - can be created with two NOR gates that have a cross-feedback loop
-````
+```
+
 ^excerpt
 
 # SR Latch - Variants
+
 - SR NOR Latch
 - SR NAND Latch
 - SR AND-OR Latch
 - JK Latch
 
 # SR Latch - Architecture
-![[Set／Reset Latch (SR／S-R Latch)/SR-latch-architecture.png|301]]
+
+![[Computer/Computer Hardware/Computer Hardware - Parts/Logic Devices - Logic Circuits/Digital／Boolean Logic Circuits/Sequential Digital Logic/Flip-Flops - Latches/Set／Reset Latch (SR／S-R Latch)/SR-latch-architecture.png|301]]
+
 # SR Latch - Truth Table
 
 ```merge-table

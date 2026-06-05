@@ -1,26 +1,29 @@
 ---
-title: "Recurrent Neural Networks (RNN)"
+publish: true
+title: Recurrent Neural Networks (RNN)
 created: 2020-08-02T21:02:02.663-05:00
 modified: 2026-04-04T14:42:23.042-05:00
-parent: "[[ANN - Architectures]]"
-children:
-  - "[[Hopfield Networks - Associative Memory Models - Ising–Lenz–Little Models - Nakano-Amari-Hopfield Networks]]"
 ---
+
 ###### Recurrent Neural Networks (RNN)
-````excerpt
+
+```excerpt
 - is a type of [[ANN - Architectures|artificial neural network architecture]] that retains state information by forming cycles between [[Perceptrons (Artificial Neurons)|perceptron]]s
 - used to model sequential data
 - if training [[Vanilla／Feed-Forward Neural Networks (FNN／FFNN／FFN) - Multi-Layer／Multilayer Perceptrons (MLP)|vanilla neural nets]] is an optimization over functions, training <em>recurrent nets</em> is an optimization over programs
-````
+```
+
 ^excerpt
 
 # RNN - Vanilla Code
 
 > [!expand]- Click here to expand...
 > Original:
-> - [https://gist.github.com/karpathy/d4dee566867f8291f086](https://gist.github.com/karpathy/d4dee566867f8291f086)
+>
+> - <https://gist.github.com/karpathy/d4dee566867f8291f086>
 >
 > Modified
+>
 > ```py
 > import numpy as np
 >
@@ -145,18 +148,15 @@ children:
 >     p += seq_length  # move data pointer
 >     n += 1  # iteration counter
 > ```
+
 # RNN - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 - [[Gated Recurrent Neural Networks (Gated RNN)]]
 
 # Resources
+
 - [Attention and Augmented Recurrent Neural Networks](https://distill.pub/2016/augmented-rnns/)
 - [Andrej Karpathy - The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-- [https://explained.ai/rnn/index.html](https://explained.ai/rnn/index.html)
+- <https://explained.ai/rnn/index.html>
 
-![](https://www.youtube.com/watch?v=PAoe7mmmvp0)![](https://www.youtube.com/watch?v=UNmqTiOnRfg&t=115s)![](https://www.youtube.com/watch?v=LHXXI4-IEns)![](https://www.youtube.com/watch?v=SEnXr6v2ifU&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=2&t=52s)
+![](https://www.youtube.com/watch?v=PAoe7mmmvp0)![](https://www.youtube.com/watch?v=UNmqTiOnRfg\&t=115s)![](https://www.youtube.com/watch?v=LHXXI4-IEns)![](https://www.youtube.com/watch?v=SEnXr6v2ifU\&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI\&index=2\&t=52s)

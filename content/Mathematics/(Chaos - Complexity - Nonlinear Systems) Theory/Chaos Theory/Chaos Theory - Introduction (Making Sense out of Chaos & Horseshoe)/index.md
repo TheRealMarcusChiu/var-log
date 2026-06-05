@@ -1,10 +1,10 @@
 ---
-title: "Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)"
+publish: true
+title: Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)
 created: 2022-03-20T20:49:11.704-05:00
 modified: 2022-03-20T21:02:32.480-05:00
-parent: "[[Chaos Theory]]"
-children: []
 ---
+
 In 1885, King Oscar II of Sweden announced a public challenge consisting of four mathematical problems. The French polymath Henri Poincaré focused on one related to the motion of celestial bodies, the so-called <em>n</em>-body problem. Will our solar system continues its clocklike motion indefinitely, will the planets fly off into the void, or will they collapse into a fiery solar death?
 
 Poincaré’s solution — which indicated that at least some systems, like the sun, Earth, and moon, were stable — won the prestigious prize, and an accompanying article was printed for distribution in 1889. Unfortunately, his solution was incorrect.
@@ -19,7 +19,7 @@ To understand it, let’s start with a simple example of a dynamical system that
 
 Writing this sixth approximation as f(f(f(f(f(3)))) is awkward, so instead, we write <em>f</em><sup>5</sup>(3), and we call the infinite sequence of outputs the “orbit” of <em>x</em>. It helps to think of each iteration as marking ticks of a clock, and to think of the orbit as hopping along the number line, approaching √2.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_1.png|400]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_1.png|400]]
 
 The orbits of 3 and 12 both approach the attracting fixed point √2.
 
@@ -29,15 +29,15 @@ But again, not all dynamical systems exhibit such simple and predictable behavio
 
 To understand these concepts, which are central to chaotic systems, consider a particularly illuminating example called the tent map, <em>T</em>, defined for values of <em>x</em> between 0 and 1. Much like a candymaker pulling taffy, it stretches that interval to twice its length folds it in half, and sets it back on the original interval. That means 0 and 1 both map to 0, and 1/2 maps to 1. Because values produced by the tent map are also between 0 and 1, it can be a dynamic system. Iterating the function, as with Newton’s method, means repeating this process of stretching and folding.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_2.png]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_2.png]]
 
-The tent map, described by the equation T(x)=−2\*|x−1/2| + 1, stretches and folds the interval \[0, 1\]. Iterating the function corresponds to repeated stretching and folding.
+The tent map, described by the equation T(x)=−2\*|x−1/2| + 1, stretches and folds the interval \[0, 1]. Iterating the function corresponds to repeated stretching and folding.
 
 As in the √2 example, the tent map has fixed points, 0 and 2/3. But it also has an orbit that alternates between two points, 2/5 and 4/5 — we call this a period-2 orbit — and a period-3 orbit, which cycles through 2/9, 4/9, and 8/9. And surprisingly, because the tent map has a point that produces an orbit of period 3, we can prove that it has points of every period — no matter what positive integer you pick, there will be a repeating orbit with that many stops in the path.
 
 The first to discover this fact about functions on the real number line was the Ukrainian mathematician Alexander Sharkovsky. However, his 1964 paper on the subject remained unknown outside Eastern Europe, and the result only became known when the University of Maryland mathematicians Tien-Yien Li and James Yorke independently rediscovered it in 1975. They proved that such a dynamical system also has orbits with no discernible pattern, like the orbit of point √2 – 1 for the tent map. They [wrote that](https://www.jstor.org/stable/2318254) “period 3 implies chaos,” coining the mathematical term “chaos” in the process.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_3.png|400]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_3.png|400]]
 
 The orbit of √2 – 1 for the tent map displays no clear pattern.
 
@@ -45,7 +45,7 @@ More interestingly, even though the points √2 – 1 and √2 – 0.999 are
 
 To help understand these chaotic systems — and Smale’s horseshoe — let’s employ what at first might seem like a crude technique<em>. </em>First, divide the interval of possible values into halves labeled L and R. Then, as an orbit progresses, simply note which half the next iteration lands on. This sequence is the orbit’s “itinerary.” For instance, the itinerary of the period-3 orbit of 2/9 is LLRLLRLLR… since 2/9 and 4/9 are in L and 8/9 is in R. The itinerary for the orbit of √2 – 1 begins LRLRRRRRLL.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_4.png|400]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_4.png|400]]
 
 Under the tent map, point 2/9 produces a period-3 orbit with the itinerary LLRLLRLLR…, and point √2 – 1 produces an itinerary that begins LRLRRRRRLL…
 
@@ -53,13 +53,13 @@ Representing orbits by their itineraries looks like a huge loss of information, 
 
 Now let’s expand the idea of the tent map into more dimensions, and finally meet Smale’s horseshoe function, <em>h</em>. Start with a square, stretch it into a skinny rectangle, fold it into a horseshoe, and place it over the original square.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_5.png|350]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_5.png|350]]
 
 Smale’s horseshoe map stretches and folds a square across itself.
 
 As with all dynamical systems, we can iterate this process — stretch, fold, stretch, fold, stretch, fold — yielding horseshoes inside horseshoes.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_6.png|350]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_6.png|350]]
 
 Iterating Smale’s map yields horseshoes inside horseshoes inside horseshoes.
 
@@ -67,19 +67,19 @@ The horseshoe map is invertible — in addition to knowing where a point <em>x<
 
 Now place the images of these maps on top of each other:
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_7.png|350]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_7.png|350]]
 
 The horseshoe map is invertible, producing two sets of perpendicular horseshoes.
 
 There’s a set of points, which we’ll call <em>H</em>, that consists of the intersection of all the horizontal and vertical horseshoes. This is where the interesting action happens.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_8.png]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_8.png]]
 
 The highly disconnected set <em>H</em> of points that remain inside the square for all time is the intersection of all the nested horseshoes for <em>h</em> and <em>h</em><sup>-1</sup>.
 
 Just like the tent map, the horseshoe map can be analyzed using itineraries. Let’s define L to be the left side of the vertical horseshoe, and R to be the right side.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_9.png|350]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_9.png|350]]
 
 We denote the left and right arms of the horseshoe as L and R, respectively, and use these labels to produce the itineraries of orbits in <em>H</em>.
 
@@ -89,7 +89,7 @@ For instance, let’s say we start with a point in region L and when we run the 
 
 Now do this for every point in <em>H</em>.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_10-Revised.png]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_10-Revised.png]]
 
 The horseshoe has periodic points of every period, and the periodicity is reflected in the itineraries.
 
@@ -97,13 +97,13 @@ With those itineraries in hand, we have a complete description of the horseshoe 
 
 Now we can see how Smale’s horseshoe can describe more clearly the chaos in Poincaré’s three-body problem. In his chaotic horseshoe, there must be a fixed point (let’s call it <em>p</em>) with the itinerary …LLL<u>L</u>LLL…, because there exist points of every possible itinerary. That means there must also be a point — let’s call this one <em>q </em>— with the itinerary …LLL<u>R</u>LLL…. The forward orbit of this point approaches <em>p</em> (we say “into the future”), as does its backward orbit (“into the past”).
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_11_Revised.png|350]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_11_Revised.png|350]]
 
 In Smale’s horseshoe, the point <em>q</em>, with itinerary …LLL<u>R</u>LLL…, approaches the fixed point <em>p</em>, with itinerary …LLL<u>L</u>LLL…, in both the future and the past.
 
 Meanwhile, Poincaré had observed that the fixed points of some functions possess an attracting and a repelling direction. This means there is a curve of points moving toward the fixed point, like a vein returning blood to the heart, and a curve of points moving away, like an artery sending blood into the body. If these curves cross, the points of intersection, called homoclinic points, have the curious property that they approach the fixed point both in the future and in the past.
 
-![[Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_12_Revised.png|400]]
+![[Mathematics/(Chaos - Complexity - Nonlinear Systems) Theory/Chaos Theory/Chaos Theory - Introduction (Making Sense out of Chaos & Horseshoe)/Figures-Chaos_12_Revised.png|400]]
 
 The point <em>q </em>is a homoclinic point because it approaches the fixed point <em>p </em>in both forward and backward time. When this happens, the curves produce a homoclinic tangle and display chaotic behavior — as in the horseshoe.
 

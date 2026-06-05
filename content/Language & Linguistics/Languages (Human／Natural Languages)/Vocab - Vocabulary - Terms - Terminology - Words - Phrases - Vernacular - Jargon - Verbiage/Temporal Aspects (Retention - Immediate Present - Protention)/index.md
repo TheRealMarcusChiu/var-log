@@ -1,17 +1,19 @@
 ---
-title: "Temporal Aspects (Retention - Immediate Present - Protention)"
+publish: true
+title: Temporal Aspects (Retention - Immediate Present - Protention)
 created: 2021-09-13T04:43:58.893-05:00
 modified: 2021-09-13T04:43:58.893-05:00
-parent: "[[Vocab - Vocabulary - Terms - Terminology - Words - Phrases - Vernacular - Jargon - Verbiage]]"
-children: []
 ---
-[https://en.wikipedia.org/wiki/Retention_and_protention](https://en.wikipedia.org/wiki/Retention_and_protention)
+
+<https://en.wikipedia.org/wiki/Retention_and_protention>
 
 <strong>Retention </strong>and<strong> Protention</strong> are key aspects of [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl)'s phenomenology of temporality.
+
 - <strong><strong>retention</strong></strong>
 - <strong>protention</strong> is our anticipation of the next moment. The moment that has yet to be perceived
 
 According to Husserl, perception has three <strong>temporal aspects</strong>: retention, the immediate present and protention and a flow through which each moment of protention becomes the retention of the next
+
 ### Retention
 
 ```merge-table
@@ -44,6 +46,7 @@ According to Husserl, perception has three <strong>temporal aspects</strong>: re
   ]
 }
 ```
+
 ### Protention
 
 ```merge-table
@@ -76,6 +79,7 @@ According to Husserl, perception has three <strong>temporal aspects</strong>: re
   ]
 }
 ```
+
 ### Both Retention & Protention
 
 ```merge-table

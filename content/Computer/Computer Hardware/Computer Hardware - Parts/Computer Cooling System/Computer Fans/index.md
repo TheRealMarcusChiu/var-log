@@ -1,16 +1,16 @@
 ---
-title: "Computer Fans"
+publish: true
+title: Computer Fans
 created: 2023-12-07T12:23:16.236-06:00
 modified: 2024-06-29T23:28:15.414-05:00
-parent: "[[Computer Cooling System]]"
-children:
-  - "[[Direct Current (DC) ／ 3-pin Computer Fans]]"
-  - "[[Pulse Width Modulation (PWM) Computer Fans]]"
 ---
+
 ###### Computer Fans
-````excerpt
+
+```excerpt
 - are vital components in a computer's [[Computer Cooling System|cooling system]]
-````
+```
+
 ^excerpt
 
 # Types

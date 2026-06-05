@@ -1,22 +1,26 @@
 ---
-title: "KD Trees"
+publish: true
+title: KD Trees
 created: 2020-08-04T21:04:08.305-05:00
 modified: 2024-09-02T10:38:03.860-05:00
-parent: "[[ML - Data Representation]]"
-children: []
 ---
+
 ###### KD Trees
-````excerpt
+
+```excerpt
 - is a space-partitioning [[Data Structures|data structure]] for organizing points in a k-dimensional space
 - are a useful data structure for several applications, such as searches involving a multidimensional search key
 - are a special case of binary space partitioning trees
-````
+```
+
 ^excerpt
 
 # Constructing a KD-Tree
+
 - <strong>domain-vector</strong> = a vector of floating point numbers
 - <strong>range-vector</strong> = a vector of floating point numbers
-- <strong>exemplar</strong> = a pair \<domain-vector, range-vector\>
+- <strong>exemplar</strong> = a pair \<domain-vector, range-vector>
+
 ```
 kd-tree-construction(exemplar-set) {
 	if (exemplar-set is empty) 
@@ -36,6 +40,7 @@ kd-tree-construction(exemplar-set) {
 	kd = <d,r,split,kd-left,kd-right>
 }
 ```
+
 # Searching Nearest Neighbor
 
 TODO

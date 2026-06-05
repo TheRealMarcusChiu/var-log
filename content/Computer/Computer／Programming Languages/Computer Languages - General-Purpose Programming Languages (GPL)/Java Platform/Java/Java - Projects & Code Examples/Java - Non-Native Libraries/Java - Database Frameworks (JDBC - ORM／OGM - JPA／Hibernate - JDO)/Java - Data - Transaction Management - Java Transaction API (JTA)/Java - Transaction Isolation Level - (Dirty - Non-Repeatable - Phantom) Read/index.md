@@ -1,14 +1,16 @@
 ---
-title: "Java - Transaction Isolation Level - (Dirty - Non-Repeatable - Phantom) Read"
+publish: true
+title: Java - Transaction Isolation Level - (Dirty - Non-Repeatable - Phantom) Read
 created: 2021-04-12T20:50:57.178-05:00
 modified: 2022-12-21T14:34:10.754-06:00
-parent: "[[Java - Data - Transaction Management - Java Transaction API (JTA)]]"
-children: []
 ---
+
 ###### Transaction Isolation Level
+
 - determines how locks are set, which can range from not supporting transactions at all to supporting transactions that enforce very strict access rules
 
 # Transaction - Read Anomalies
+
 - A <strong><em>dirty read</em></strong> occurs when accessing an updated value that has not been committed because it is possible for that value to be rolled back to its previous value. If you read a value that is later rolled back, you will have read an invalid value
 - A <strong><em>non-repeatable read</em></strong> occurs when transaction A retrieves a row, transaction B subsequently updates the row, and transaction A later retrieves the same row again. Transaction A retrieves the same row twice but sees different data.
 - A <strong><em>phantom read</em></strong> occurs when transaction A retrieves a set of rows satisfying a given condition, transaction B subsequently inserts or updates a row such that the row now meets the condition in transaction A, and transaction A later repeats the conditional retrieval. Transaction A now sees an additional row. This row is referred to as a phantom
@@ -197,5 +199,7 @@ The interface <code><font style="color: rgb(122,134,154);">java.sql.Connection<
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Resources
-- [https://www.postgresql.org/docs/9.5/transaction-iso.html#MVCC-ISOLEVEL-TABLE](https://www.postgresql.org/docs/9.5/transaction-iso.html#MVCC-ISOLEVEL-TABLE)
+
+- <https://www.postgresql.org/docs/9.5/transaction-iso.html#MVCC-ISOLEVEL-TABLE>

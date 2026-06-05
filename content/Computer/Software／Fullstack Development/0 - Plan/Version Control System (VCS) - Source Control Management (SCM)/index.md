@@ -1,19 +1,17 @@
 ---
-title: "Version Control System (VCS) - Source Control Management (SCM)"
+publish: true
+title: Version Control System (VCS) - Source Control Management (SCM)
 created: 2019-03-16T00:20:12.345-05:00
 modified: 2025-11-03T14:56:07.326-06:00
-parent: "[[0 - Plan]]"
-children:
-  - "[[Concurrent Versions／Versioning System (CVS)]]"
-  - "[[Mercurial]]"
-  - "[[Subversion (SVN)]]"
-  - "[[git (Global Information Tracker)]]"
 ---
+
 ###### Version Control System (VCS) - Source Control Management (SCM)
-````excerpt
+
+```excerpt
 - is a system that records changes to a file or set of files over time so that you can recall specific versions later
 - not to be confused with [[Software／Server／System Configuration Management (SCM)|Software Configuration Management (SCM)]]
-````
+```
+
 ^excerpt
 
 # VCS Frameworks
@@ -89,5 +87,7 @@ children:
   ]
 }
 ```
+
 # Resources
-- [https://chambers.io/2018/04/17/git-vs-the-competition.html](https://chambers.io/2018/04/17/git-vs-the-competition.html)
+
+- <https://chambers.io/2018/04/17/git-vs-the-competition.html>

@@ -1,10 +1,10 @@
 ---
-title: "Reductionism vs Holism"
+publish: true
+title: Reductionism vs Holism
 created: 2021-09-13T04:44:18.184-05:00
 modified: 2026-05-21T14:22:52.771-05:00
-parent: "[[Philosophical Ideas]]"
-children: []
 ---
+
 - <strong>reductionism</strong> - is any of several related philosophical ideas regarding [[Phenomenon - Noumenon|phenomena]] that can be described in terms of <strong>simpler</strong> or more fundamental [[Phenomenon - Noumenon|phenomena]]
 - <strong>holism</strong> - the theory that parts of a whole are in intimate interconnection, such that they cannot exist independently of the whole, or cannot be understood without reference to the whole, which is thus regarded as greater than the sum of its parts. Holism is often applied to mental states, language, and ecology
 
@@ -32,6 +32,7 @@ children: []
   ]
 }
 ```
+
 # Reductionism Types
 
 ```merge-table

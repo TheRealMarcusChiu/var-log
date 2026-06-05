@@ -1,24 +1,27 @@
 ---
-title: "Consistent Hashing"
+publish: true
+title: Consistent Hashing
 created: 2021-09-13T05:29:35.076-05:00
 modified: 2026-01-15T16:47:36.075-06:00
-parent: "[[Rendezvous Hashing - Highest Random Weight (HRW) Hashing]]"
-children: []
 ---
+
 ###### Consistent Hashing
+
 - is a special kind of [[Hash Function - Hashing|hashing]] such that when a [[Hash Tables (Hash Map)|hash table]] is resized, only 𝐾/𝑛 keys need to be remapped on average, where:
-	- 𝐾 is the number of keys
-	- 𝑛 is the number of slots/nodes
+  - 𝐾 is the number of keys
+  - 𝑛 is the number of slots/nodes
 
 # Consistent Hashing vs Traditional Hashing vs Rendezvous Hashing
 
 In contrast, in most traditional hash tables, a change in the number of array slots causes nearly all keys to be remapped because the mapping between the keys and the slots is defined by a [modular operation](https://en.wikipedia.org/wiki/Modular_arithmetic).
+
 - <em>[[Hash Function - Hashing|traditional hashing]]</em> is a more general version of <em>[[Rendezvous Hashing - Highest Random Weight (HRW) Hashing|rendezvous hashing]]</em>
 - <em>[[Rendezvous Hashing - Highest Random Weight (HRW) Hashing|rendezvous hashing]]</em> is more general than <em>consistent hashing</em>
 
 # Understanding Consistent Hashing
 
 ![](https://www.youtube.com/watch?v=vccwdhfqIrI)
+
 ## Scaling Out: Distributed Hashing
 
 In some situations, it may be necessary or desirable to split a [[Hash Tables (Hash Map)|hash table]] into several parts, hosted by different servers. One of the main motivations for this is to bypass the memory limitations of using a single computer, allowing for the construction of arbitrarily large hash tables (given enough servers).
@@ -193,6 +196,7 @@ After the remaining keys are added, the pool looks like this:
   ]
 }
 ```
+
 ## The Rehashing Problem
 
 This distribution scheme is simple, intuitive, and works fine. That is, until the number of servers changes. What happens if one of the servers crashes or becomes unavailable? Keys need to be redistributed to account for the missing server, of course. The same applies if one or more new servers are added to the pool;keys need to be redistributed to include the new servers. This is true for any distribution scheme, but the problem with our simple modulo distribution is that when the number of servers changes, most <code>hashes modulo N</code> will change, so most keys will need to be moved to a different server. So, even if a single server is removed or added, all keys will likely need to be rehashed into a different server.
@@ -289,6 +293,7 @@ Note that all key locations changed, not only the ones from server <code>C</cod
 In the typical use case we mentioned before (caching), this would mean that, all of a sudden, the keys won’t be found because they won’t yet be present at their new location.
 
 So, most queries will result in misses, and the original data will likely need retrieving again from the source to be rehashed, thus placing a heavy load on the origin server(s) (typically a database). This may very well degrade performance severely and possibly crash the origin servers.
+
 ## The Solution: Consistent Hashing
 
 So, how can this problem be solved? We need a distribution scheme that does <em>not</em> depend directly on the number of servers, so that, when adding or removing servers, the number of keys that need to be relocated is minimized. One such scheme—a clever, yet surprisingly simple one—is called <em>consistent hashing</em>, and was first described by [Karger et al. at MIT](http://courses.cse.tamu.edu/caverlee/csce438/readings/consistent-hashing.pdf) in an academic paper from 1997 (according to Wikipedia).
@@ -297,7 +302,7 @@ Consistent Hashing is a distributed hashing scheme that operates independently o
 
 Imagine we mapped the hash output range onto the edge of a circle. That means that the minimum possible hash value, zero, would correspond to an angle of zero, the maximum possible value (some big integer we’ll call <code>INT\_MAX</code>) would correspond to an angle of 2𝝅 radians (or 360 degrees), and all other hash values would linearly fit somewhere in between. So, we could take a key, compute its hash, and find out where it lies on the circle’s edge. Assuming an <code>INT\_MAX</code> of 1010 (for example’s sake), the keys from our previous example would look like this:
 
-![[Consistent Hashing/1-consistent-hashing.png|547x400]]
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Single-Variable／Univariate Functions/Hash Function - Hashing/Rendezvous Hashing - Highest Random Weight (HRW) Hashing/Consistent Hashing/1-consistent-hashing.png|547x400]]
 
 ```merge-table
 {
@@ -355,7 +360,7 @@ Now imagine we also placed the servers on the edge of the circle, by pseudo-rand
 
 In our example, things might look like this:
 
-![[Consistent Hashing/2-consistent-hashing.png]]
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Single-Variable／Univariate Functions/Hash Function - Hashing/Rendezvous Hashing - Highest Random Weight (HRW) Hashing/Consistent Hashing/2-consistent-hashing.png]]
 
 ```merge-table
 {
@@ -428,7 +433,7 @@ Since we have the keys for both the objects and the servers on the same circle, 
 
 In our example:
 
-![[Consistent Hashing/3-consistent-hashing.png]]
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Single-Variable／Univariate Functions/Hash Function - Hashing/Rendezvous Hashing - Highest Random Weight (HRW) Hashing/Consistent Hashing/3-consistent-hashing.png]]
 
 ```merge-table
 {
@@ -577,7 +582,7 @@ To ensure object keys are evenly distributed among servers, we need to apply a s
 
 For our example we’ll assume all three servers have an equal weight of 10 (this works well for three servers, for 10 to 50 servers, a weight in the range 100 to 500 would work better, and bigger pools may need even higher weights):
 
-![[Consistent Hashing/4-consistent-hashing.png]]
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Single-Variable／Univariate Functions/Hash Function - Hashing/Rendezvous Hashing - Highest Random Weight (HRW) Hashing/Consistent Hashing/4-consistent-hashing.png]]
 
 ```merge-table
 {
@@ -859,7 +864,7 @@ So, what’s the benefit of all this circle approach? Imagine server <code>C</c
 
 But what happens with the other object keys, the ones that originally belonged in <code>A</code> and <code>B</code>? Nothing! That’s the beauty of it: The absence of <code>Cx</code> labels does not affect those keys in any way. So, removing a server results in its object keys being randomly reassigned to the rest of the servers, leaving all other keys untouched:
 
-![[Consistent Hashing/5-consistent-hashing.png]]
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Single-Variable／Univariate Functions/Hash Function - Hashing/Rendezvous Hashing - Highest Random Weight (HRW) Hashing/Consistent Hashing/5-consistent-hashing.png]]
 
 ```merge-table
 {
@@ -1089,7 +1094,7 @@ But what happens with the other object keys, the ones that originally belonged i
 
 Something similar happens if, instead of removing a server, we add one. If we wanted to add server <code>D</code> to our example (say, as a replacement for <code>C</code>), we would need to add labels <code>D0 .. D9</code>. The result would be that roughly one-third of the existing keys (all belonging to <code>A</code> or <code>B</code>) would be reassigned to <code>D</code>, and, again, the rest would stay the same:
 
-![[Consistent Hashing/6-consistent-hashing.png]]
+![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Single-Variable／Univariate Functions/Hash Function - Hashing/Rendezvous Hashing - Highest Random Weight (HRW) Hashing/Consistent Hashing/6-consistent-hashing.png]]
 
 ```merge-table
 {

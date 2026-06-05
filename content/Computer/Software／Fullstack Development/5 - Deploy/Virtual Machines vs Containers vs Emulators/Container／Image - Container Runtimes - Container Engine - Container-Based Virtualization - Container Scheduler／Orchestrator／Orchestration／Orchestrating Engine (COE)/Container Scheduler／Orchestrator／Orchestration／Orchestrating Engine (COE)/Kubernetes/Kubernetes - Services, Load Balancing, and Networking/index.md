@@ -1,13 +1,10 @@
 ---
-title: "Kubernetes - Services, Load Balancing, and Networking"
+publish: true
+title: Kubernetes - Services, Load Balancing, and Networking
 created: 2024-08-24T12:42:42.862-05:00
 modified: 2024-09-08T14:27:19.372-05:00
-parent: "[[Kubernetes]]"
-children:
-  - "[[Ingress (Kubernetes)]]"
-  - "[[Ingress Controllers]]"
-  - "[[Kubernetes - Service (ClusterIP - NodePort - LoadBalancer - Ingress - ExternalName)]]"
 ---
+
 ```merge-table
 {
   "rows": [

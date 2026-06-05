@@ -1,20 +1,24 @@
 ---
-title: "Java - Spring - Repository (Using Multiple Instantiations of the Same Spring Data Module) Neo4j"
+publish: true
+title: Java - Spring - Repository (Using Multiple Instantiations of the Same Spring Data Module) Neo4j
 created: 2021-07-24T19:13:21.523-05:00
 modified: 2021-07-24T19:31:24.610-05:00
-parent: "[[Java - Spring - Repository (Using Multiple Instantiations of the Same Spring Data Module)]]"
-children: []
 ---
+
 # Problem
 
 We have 2 entity models with the same class name. But a single SessionFactory cannot handle both at the same time.
+
 # Solution
 
 create 2 SessionFactories, then configure Repositories.
+
 # Code
 
-[https://github.com/SpringBootMarcusChiu/spring-boot-neo4j-multiple-sessionfactory-entity-repository-example](https://github.com/SpringBootMarcusChiu/spring-boot-neo4j-multiple-sessionfactory-entity-repository-example)
+<https://github.com/SpringBootMarcusChiu/spring-boot-neo4j-multiple-sessionfactory-entity-repository-example>
+
 ### First Configuration
+
 ```
 @EnableNeo4jRepositories(
         transactionManagerRef = "transactionManagerOne",
@@ -51,12 +55,15 @@ public class Neo4jOneConfiguration {
     }
 }
 ```
+
 ```
 @Repository("userRepositoryOne")
 public interface UserRepository extends Neo4jRepository<UserNode, String> {
 }
 ```
+
 ### Second Configuration
+
 ```
 @EnableNeo4jRepositories(
         transactionManagerRef = "transactionManagerTwo",
@@ -95,12 +102,15 @@ public class Neo4jTwoConfiguration {
     }
 }
 ```
+
 ```
 @Repository("userRepositoryTwo")
 public interface UserRepository extends Neo4jRepository<UserNode, String> {
 }
 ```
+
 ### Using Configured Repositories
+
 ```
 @Autowired
 @Qualifier("userRepositoryOne")

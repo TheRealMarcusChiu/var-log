@@ -1,13 +1,14 @@
 ---
-title: "Lawrence vs Texas"
+publish: true
+title: Lawrence vs Texas
 created: 2022-04-05T20:43:33.863-05:00
 modified: 2022-04-05T20:47:34.193-05:00
-parent: "[[Law Cases]]"
-children: []
 ---
+
 # Facts of the Case
 
 Responding to a reported weapons disturbance in a private residence, Houston police entered John Lawrence's apartment and saw him and another adult man, Tyron Garner, engaging in a private, consensual sexual act. Lawrence and Garner were arrested and convicted of deviate sexual intercourse in violation of a Texas statute forbidding two persons of the same sex to engage in certain intimate sexual conduct. In affirming, the State Court of Appeals held that the statute was not unconstitutional under the Due Process Clause of the Fourteenth Amendment, with [<em>Bowers v. Hardwick</em>, 478 U.S. 186 (1986)](https://www.oyez.org/cases/1985/85-140), controlling.
+
 # Question
 
 Do the criminal convictions of John Lawrence and Tyron Garner under the Texas "Homosexual Conduct" law, which criminalizes sexual intimacy by same-sex couples, but not identical behavior by different-sex couples, violate the Fourteenth Amendment guarantee of equal protection of laws?
@@ -15,7 +16,9 @@ Do the criminal convictions of John Lawrence and Tyron Garner under the Texas "H
 Do their criminal convictions for adult consensual sexual intimacy in the home violate their vital interests in liberty and privacy protected by the Due Process Clause of the Fourteenth Amendment?
 
 Should Bowers v. Hardwick, 478 U.S. 186 (1986), be overruled?
+
 # Conclusion
+
 - 6–3 DECISION FOR LAWRENCE
 - MAJORITY OPINION BY ANTHONY M. KENNEDY
 

@@ -1,26 +1,28 @@
 ---
-title: "Lexical Semantic Relations - (Synonymy Antonymy Hypernymy Hyponymy Holonymy Meronymy Troponymy)"
+publish: true
+title: Lexical Semantic Relations - (Synonymy Antonymy Hypernymy Hyponymy Holonymy Meronymy Troponymy)
 created: 2021-09-13T04:44:09.780-05:00
 modified: 2021-09-13T04:44:09.780-05:00
-parent: "[[Lexical Semantics]]"
-children: []
 ---
+
 ### Lexical Semantic Relation Types
+
 - <strong>synonymy</strong> - same meaning
 - <strong>antonymy</strong> - opposite meaning
 - <strong>ontological relations</strong>:
-	- <strong>hypernymy</strong> (superordination) - a word more general than a hyponym
-	- <strong>hyponymy</strong> (subordination) - a word more specific than a hypernym
+  - <strong>hypernymy</strong> (superordination) - a word more general than a hyponym
+  - <strong>hyponymy</strong> (subordination) - a word more specific than a hypernym
 - <strong>holonymy</strong> - whole to part relation
 - <strong>meronymy</strong> - part to whole relation
 - <strong>troponymy</strong> - particular way to do something
-	- to nibble is to eat in a certain manner
-	- to gorge is to eat in a different manner
+  - to nibble is to eat in a certain manner
+  - to gorge is to eat in a different manner
 
 ### Examples - Grouped by Part of Speech
+
 > [!tabs]
 >
-> === Noun Relations
+> \=== Noun Relations
 >
 > ```merge-table
 > {
@@ -110,7 +112,7 @@ children: []
 > }
 > ```
 >
-> === Verb Relations
+> \=== Verb Relations
 >
 > ```merge-table
 > {
@@ -163,16 +165,17 @@ children: []
 >   "tableStyle": "width: 80.336%;"
 > }
 > ```
+>
 > - <strong>verb entailment</strong> - from events to the events they entail
-> 	- <strong><strong>semantic relation</strong></strong> - hypernym/hyponym and troponym
-> 		- fly → travel
-> 		- stroll → walk
-> 		- snore → sleep
-> 	- <strong>causative relation</strong> - if 𝑉<sub>1</sub> is a [[Causality (Necessary - Sufficient - Contributory)|sufficient cause]] of 𝑉<sub>2</sub>, then 𝑉<sub>1</sub> entails 𝑉<sub>2</sub>
-> 		- give →causative-relation→ have
+>   - <strong><strong>semantic relation</strong></strong> - hypernym/hyponym and troponym
+>     - fly → travel
+>     - stroll → walk
+>     - snore → sleep
+>   - <strong>causative relation</strong> - if 𝑉<sub>1</sub> is a [[Causality (Necessary - Sufficient - Contributory)|sufficient cause]] of 𝑉<sub>2</sub>, then 𝑉<sub>1</sub> entails 𝑉<sub>2</sub>
+>     - give →causative-relation→ have
 > - <strong>bidirectional verb entailment</strong> -
-> 	- synonyms: beat ↔ defeat
-> 	- not synonyms: ?
+>   - synonyms: beat ↔ defeat
+>   - not synonyms: ?
 >
 > ###### Verb Entailments
 >
@@ -245,7 +248,7 @@ children: []
 > }
 > ```
 >
-> === Adjective Relations
+> \=== Adjective Relations
 >
 > ```merge-table
 > {

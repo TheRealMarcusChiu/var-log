@@ -1,12 +1,13 @@
 ---
-title: "Bayesian Inference vs Frequentist Inference"
+publish: true
+title: Bayesian Inference vs Frequentist Inference
 created: 2021-09-13T05:29:11.890-05:00
 modified: 2023-09-01T13:54:17.720-05:00
-parent: "[[Inferential Statistics - Paradigms]]"
-children: []
 ---
+
 - <strong>frequentist statistics</strong> - makes predictions based on an estimate of 𝜃
 - <strong>bayesian statistics</strong> - makes predictions based on all possible values of 𝜃
+
 ```merge-table
 {
   "rows": [
@@ -94,9 +95,11 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Example [[Point／Parameter Estimation／Estimator／Estimate／Approximation - Estimating Parameters of Parametric Distribution／Population Function／Model (Population Parameters - Sample Statistics)|Parameter Estimation]] (Frequentist vs Bayesian)
 
 say we want to estimate the average height of adult females. assume that:
+
 - height has a [[Univariate Normal／Gaussian／Gauss／Laplace-Gauss﻿ Distribution／Model／Process (Bell Curve)|normal distribution]]
 - [[Univariate Analysis Descriptive Statistics|standard deviation]] is available and we don’t need to estimate it
 

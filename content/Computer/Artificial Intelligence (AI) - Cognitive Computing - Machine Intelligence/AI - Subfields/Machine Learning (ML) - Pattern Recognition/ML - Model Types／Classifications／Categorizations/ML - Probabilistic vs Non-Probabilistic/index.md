@@ -1,10 +1,10 @@
 ---
-title: "ML - Probabilistic vs Non-Probabilistic"
+publish: true
+title: ML - Probabilistic vs Non-Probabilistic
 created: 2020-05-30T17:15:09.881-05:00
 modified: 2020-11-05T14:22:02.104-06:00
-parent: "[[ML - Model Types／Classifications／Categorizations]]"
-children: []
 ---
+
 machine learning algorithms/models can be categorized as:
 
 ```merge-table

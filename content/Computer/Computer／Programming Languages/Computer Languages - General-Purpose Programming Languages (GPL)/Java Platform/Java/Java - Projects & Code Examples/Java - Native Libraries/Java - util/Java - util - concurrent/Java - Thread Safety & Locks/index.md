@@ -1,16 +1,19 @@
 ---
-title: "Java - Thread Safety & Locks"
+publish: true
+title: Java - Thread Safety & Locks
 created: 2019-06-20T03:03:30.418-05:00
 modified: 2019-12-21T23:29:33.994-06:00
-parent: "[[Java - util - concurrent]]"
-children: []
 ---
-[http://tutorials.jenkov.com/java-concurrency/thread-signaling.html](http://tutorials.jenkov.com/java-concurrency/thread-signaling.html)
+
+<http://tutorials.jenkov.com/java-concurrency/thread-signaling.html>
+
 ###### assumed knowledge:
+
 - [[Program - Process - Threads - Heavyweight／Kernel／OS／Lightweight／Virtual／User-Mode Threads ／ Fibers - Task (Software)|Process & Threads]]
 - [[Locks - Mutexs - (Binary - Counting) Semaphores - Spinlocks - Condition Variables|Locks - Mutexs - Semaphores]]
 
 ### Sections
+
 - [[Java - Thread Safety & Locks]]
 - [[Java - Thread Safety & Locks]]
 - [[Java - Thread Safety & Locks]]
@@ -34,6 +37,7 @@ Although multithreading is a powerful feature, it comes at a price. In multithre
 This programming methodology is known as “thread-safety”.
 
 In this tutorial, we’ll look at different approaches to achieve it.
+
 ## <strong>Stateless Implementations</strong>
 
 In most cases, errors in multithreaded applications are the result of incorrectly sharing state between several threads.
@@ -41,6 +45,7 @@ In most cases, errors in multithreaded applications are the result of incorrectl
 Therefore, the first approach that we’ll look at is to achieve thread-safety using stateless implementations.
 
 To better understand this approach, let’s consider a simple utility class with a static method that calculates the factorial of a number:
+
 ```java
 public class MathUtils {
      
@@ -61,6 +66,7 @@ The method neither relies on external state nor maintains state at all. Hence, 
 All threads can safely call the <em>factorial()</em> method and will get the expected result without interfering with each other and without altering the output that the method generates for other threads.
 
 Therefore, stateless implementations are the simplest way to achieve thread-safety.
+
 ## <strong>Immutable Implementations</strong>
 
 If we need to share state between different threads, we can create thread-safe classes by making them immutable.
@@ -70,6 +76,7 @@ Immutability is a powerful, language-agnostic concept and it’s fairly easy to 
 To put it simply, a class instance is immutable when its internal state can’t be modified after it has been constructed.
 
 The easiest way to create an immutable class in Java is by declaring all the fields <em>private</em> and <em>final</em> and not providing setters:
+
 ```java
 public class MessageService {
      
@@ -88,6 +95,7 @@ A <em>MessageService</em> object is effectively immutable since its state can�
 Moreover, if <em>MessageService</em> were actually mutable, but multiple threads only have read-only access to it, it’s thread-safe as well.
 
 Thus, immutability is just another way to achieve thread-safety.
+
 ## <strong>Thread-Local Fields</strong>
 
 In object-oriented programming (OOP), objects actually need to maintain state through fields and implement behavior through one or more methods.
@@ -97,6 +105,7 @@ If we actually need to maintain state, we can create thread-safe classes that d
 We can easily create classes whose fields are thread-local by simply defining private fields in <em>[Thread](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html) </em>classes.
 
 We could define, for instance, a <em>Thread</em> class that stores an <em>array</em> of <em>integers</em>:
+
 ```java
 public class ThreadA extends Thread {
      
@@ -110,6 +119,7 @@ public class ThreadA extends Thread {
 ```
 
 While another one might hold an <em>array</em> of <em>strings</em>:
+
 ```java
 public class ThreadB extends Thread {
      
@@ -127,6 +137,7 @@ In both implementations, the classes have their own state, but it’s not shared
 Similarly, we can create thread-local fields by assigning <em>[ThreadLocal](https://www.baeldung.com/java-threadlocal)</em> instances to a field.
 
 Let’s consider, for example, the following <em>StateHolder</em> class:
+
 ```java
 public class StateHolder {
      
@@ -137,6 +148,7 @@ public class StateHolder {
 ```
 
 We can easily make it a thread-local variable as follows:
+
 ```java
 public class ThreadState {
      
@@ -155,11 +167,13 @@ public class ThreadState {
 ```
 
 Thread-local fields are pretty much like normal class fields, excepting that each thread that accesses them via a setter/getter gets an independently initialized copy of the field so that each thread has its own state.
+
 ## <strong>Synchronized Collections</strong>
 
 We can easily create thread-safe collections by using the set of synchronization wrappers included within the [collections framework](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html).
 
 We can use, for instance, one of these [synchronization wrappers](https://www.baeldung.com/java-synchronized-collections) to create a thread-safe collection:
+
 ```java
 Collection<Integer> syncCollection = Collections.synchronizedCollection(new ArrayList<>());
 Thread thread1 = new Thread(() -> syncCollection.addAll(Arrays.asList(1, 2, 3, 4, 5, 6)));
@@ -173,11 +187,13 @@ Let’s keep in mind that synchronized collections use intrinsic locking in eac
 This means that the methods can be accessed by only one thread at a time, while other threads will be blocked until the method is unlocked by the first thread.
 
 Thus, synchronization has a penalty in performance, due to the underlying logic of synchronized access.
+
 ## <strong>Concurrent Collections</strong>
 
 Alternatively to synchronized collections, we can use concurrent collections to create thread-safe collections.
 
 Java provides the <em>[java.util.concurrent](https://docs.oracle.com/javase/8/docs/api/?java/util/concurrent/package-summary.html)</em> package, which contains several concurrent collections, such as <em>[ConcurrentHashMap](https://docs.oracle.com/javase/8/docs/api/?java/util/concurrent/package-summary.html)</em>:
+
 ```java
 Map<String,String> concurrentMap = new ConcurrentHashMap<>();
 concurrentMap.put("1", "one");
@@ -190,6 +206,7 @@ Unlike their synchronized counterparts, concurrent collections achieve thread-sa
 Concurrent collections are much more performant than synchronized collections, due to the inherent advantages of concurrent thread access.
 
 It’s worth mentioning that synchronized and concurrent collections only make the collection itself thread-safe and not the contents.
+
 ## <strong>Atomic Objects</strong>
 
 It’s also possible to achieve thread-safety using the set of [atomic classes](https://www.baeldung.com/java-atomic-variables) that Java provides, including <em>[AtomicInteger](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicInteger.html)</em>, <em>[AtomicLong](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicLong.html)</em>, <em>[AtomicBoolean](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicBoolean.html)</em>, and <em>[AtomicReference](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicReference.html)</em>.
@@ -197,6 +214,7 @@ It’s also possible to achieve thread-safety using the set of [atomic classes]
 Atomic classes allow us to perform atomic operations, which are thread-safe, without using synchronization. An atomic operation is executed in one single machine level operation.
 
 To understand the problem this solves, let’s look at the following <em>Counter</em> class:
+
 ```java
 public class Counter {
      
@@ -217,6 +235,7 @@ Let’s suppose that in a race condition, two threads access the <em>incrementC
 In theory, the final value of the <em>counter</em> field will be 2. But we just can’t be sure about the result, because the threads are executing the same code block at the same time and incrementation is not atomic.
 
 Let’s create a thread-safe implementation of the <em>Counter</em> class by using an <em>AtomicInteger</em> object:
+
 ```java
 public class AtomicCounter {
      
@@ -233,6 +252,7 @@ public class AtomicCounter {
 ```
 
 This is thread-safe because, while incrementation, ++, takes more than one operation, <em>incrementAndGet </em>is atomic.
+
 ## <strong>Synchronized Methods</strong>
 
 While the earlier approaches are very good for collections and primitives, we will at times need greater control than that.
@@ -242,6 +262,7 @@ So, another common approach that we can use for achieving thread-safety is imple
 Simply put, only one thread can access a synchronized method at a time while blocking access to this method from other threads. Other threads will remain blocked until the first thread finishes or the method throws an exception.
 
 We can create a thread-safe version of <em>incrementCounter() </em>in another way by making it a synchronized method:
+
 ```java
 public synchronized void incrementCounter() {
     counter += 1;
@@ -259,11 +280,13 @@ In a multithreaded context, the term <em>monitor</em> is just a reference to t
 When a thread calls a synchronized method, it acquires the intrinsic lock. After the thread finishes executing the method, it releases the lock, hence allowing other threads to acquire the lock and get access to the method.
 
 We can implement synchronization in instance methods, static methods, and statements (synchronized statements).
+
 ## <strong>Synchronized Statements</strong>
 
 Sometimes, synchronizing an entire method might be overkill if we just need to make a segment of the method thread-safe.
 
 To exemplify this use case, let’s refactor the <em>incrementCounter()</em> method:
+
 ```java
 public void incrementCounter() {
     // additional unsynced operations
@@ -278,11 +301,13 @@ The example is trivial, but it shows how to create a synchronized statement. Ass
 Unlike synchronized methods, synchronized statements must specify the object that provides the intrinsic lock, usually the [<em>this</em>](https://www.baeldung.com/java-this) reference.
 
 Synchronization is expensive, so with this option, we are able to only synchronize the relevant parts of a method.
+
 ## <strong>Volatile Fields</strong>
 
 Synchronized methods and blocks are handy for addressing variable visibility problems among threads. Even so, the values of regular class fields might be cached by the CPU. Hence, consequent updates to a particular field, even if they’re synchronized, might not be visible to other threads.
 
 To prevent this situation, we can use [<em>volatile</em>](https://www.baeldung.com/java-volatile) class fields:
+
 ```java
 public class Counter {
  
@@ -297,6 +322,7 @@ With the <em>volatile</em> keyword, we instruct the JVM and the compiler to st
 Moreover, the use of a <em>volatile</em> variable ensures that all variables that are visible to a given thread will be read from main memory as well.
 
 Let’s consider the following example:
+
 ```java
 public class User {
 
@@ -310,11 +336,13 @@ public class User {
 Similarly, if a thread reads the value of a <em>volatile</em> variable, all the variables visible to the thread will be read from main memory too.In this case, each time the JVM writes the <em>age</em> <em>volatile</em> variable to main memory, it will write the non-volatile <em>name</em> variable to main memory as well. This assures that the latest values of both variables are stored in main memory, so consequent updates to the variables will automatically be visible to other threads.
 
 This extended guarantee that <em>volatile</em> variables provide is known as the [full volatile visibility guarantee](http://tutorials.jenkov.com/java-concurrency/volatile.html).
+
 ## <strong>Extrinsic Locking</strong>
 
 We can slightly improve the thread-safe implementation of the <em>Counter</em> class by using an extrinsic monitor lock instead of an intrinsic one.
 
 An extrinsic lock also provides coordinated access to a shared resource in a multithreaded environment, but it uses an external entity to enforce exclusive access to the resource:
+
 ```java
 public class ExtrinsicLockCounter {
  
@@ -336,6 +364,7 @@ We use a plain [<em>Object</em>](https://docs.oracle.com/javase/8/docs/api/java
 With intrinsic locking, where synchronized methods and blocks rely on the <em>this</em> reference, an attacker could cause a deadlock by acquiring the intrinsic lock and triggering a denial of service (DoS) condition.
 
 Unlike its intrinsic counterpart, an extrinsic lock makes use of a private entity, which is not accessible from the outside. This makes it harder for an attacker to acquire the lock and cause a deadlock.
+
 ## <strong>Reentrant Locks</strong>
 
 Java provides an improved set of <em>[Lock](https://www.baeldung.com/java-concurrent-locks)</em> implementations, whose behavior is slightly more sophisticated than the intrinsic locks discussed above.
@@ -344,7 +373,8 @@ With intrinsic locks, the lock acquisition model is rather rigid: one thread ac
 
 There’s no underlying mechanism that checks the queued threads and gives priority access to the longest waiting threads.
 
-<em>[ReentrantLock](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html)</em> instances allow us to do exactly that, hence preventing queued threads from suffering some types of [resource starvation](https://en.wikipedia.org/wiki/Starvation_(computer_science)):
+<em>[ReentrantLock](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html)</em> instances allow us to do exactly that, hence preventing queued threads from suffering some types of [resource starvation](https://en.wikipedia.org/wiki/Starvation_\(computer_science\)):
+
 ```java
 public class ReentrantLockCounter {
  
@@ -366,6 +396,7 @@ public class ReentrantLockCounter {
 ```
 
 The <em>ReentrantLock</em> constructor takes an optional <em>fairness</em> <em>boolean</em> parameter. When set to <em>true</em>, and multiple threads are trying to acquire a lock, the JVM will give priority to the longest waiting thread and grant access to the lock.
+
 ## <strong>Read/Write Locks</strong>
 
 Another powerful mechanism that we can use for achieving thread-safety is the use of <em>[ReadWriteLock](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReadWriteLock.html) </em>implementations.
@@ -375,6 +406,7 @@ A <em>ReadWriteLock</em> lock actually uses a pair of associated locks, one fo
 As a result, it’s possible to have many threads reading a resource, as long as there’s no thread writing to it. Moreover, the thread writing to the resource will prevent other threads from reading it.
 
 We can use a <em>ReadWriteLock</em> lock as follows:
+
 ```java
 public class ReentrantReadWriteLockCounter {
      

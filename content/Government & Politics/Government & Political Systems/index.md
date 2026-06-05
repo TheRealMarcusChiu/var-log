@@ -1,18 +1,19 @@
 ---
-title: "Government & Political Systems"
+publish: true
+title: Government & Political Systems
 created: 2021-09-13T04:43:40.698-05:00
 modified: 2022-11-13T17:33:52.498-06:00
-parent: "[[Government & Politics]]"
-children:
-  - "[[Network State]]"
 ---
+
 # Government & Political Systems
+
 - [[Government & Political Systems]]
 - [[Government & Political Systems]]
 - [[Government & Political Systems]]
 - [[Government & Political Systems]]
 
 # Futuristic Forms of Government
+
 - [[Network State]]
 
 # Forms of Government by Power Structure
@@ -76,6 +77,7 @@ children:
   "tableStyle": "width: 99.4118%;"
 }
 ```
+
 # Forms of Government by Power Source
 
 ```merge-table
@@ -129,6 +131,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Forms of Government by Power Ideology
 
 ```merge-table
@@ -172,6 +175,7 @@ children:
   ]
 }
 ```
+
 # Forms of Government by Socio-Political Attributes
 
 ```merge-table

@@ -1,10 +1,10 @@
 ---
-title: "Prayer 2"
+publish: true
+title: Prayer 2
 created: 2021-09-13T04:44:52.977-05:00
 modified: 2021-09-13T04:44:52.977-05:00
-parent: "[[Prayer]]"
-children: []
 ---
+
 in response to a struggling friend
 
 Dear Heavenly Father, I pray that you give us pure of mind as we speak in love and in faithfulness. in spirit and in truth.

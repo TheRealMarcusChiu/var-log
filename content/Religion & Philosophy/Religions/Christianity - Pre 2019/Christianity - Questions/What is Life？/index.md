@@ -1,10 +1,10 @@
 ---
-title: "What is Life？"
+publish: true
+title: What is Life？
 created: 2021-09-13T04:44:47.597-05:00
 modified: 2021-09-13T04:44:47.597-05:00
-parent: "[[Christianity - Questions]]"
-children: []
 ---
+
 <strong>James 4:14</strong>
 
 What is your life? For you are a mist that appears for a little time and then vanishes.

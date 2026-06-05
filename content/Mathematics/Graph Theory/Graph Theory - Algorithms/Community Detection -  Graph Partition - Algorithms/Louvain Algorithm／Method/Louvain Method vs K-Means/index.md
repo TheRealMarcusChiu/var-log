@@ -1,10 +1,10 @@
 ---
-title: "Louvain Method vs K-Means"
+publish: true
+title: Louvain Method vs K-Means
 created: 2021-11-02T01:18:47.647-05:00
 modified: 2021-11-02T01:20:22.367-05:00
-parent: "[[Louvain Algorithm／Method]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

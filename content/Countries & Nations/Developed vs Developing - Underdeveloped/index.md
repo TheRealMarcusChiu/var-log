@@ -1,10 +1,10 @@
 ---
-title: "Developed vs Developing - Underdeveloped"
+publish: true
+title: Developed vs Developing - Underdeveloped
 created: 2023-08-01T14:33:28.073-05:00
 modified: 2023-08-01T14:37:05.762-05:00
-parent: "[[Countries & Nations]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

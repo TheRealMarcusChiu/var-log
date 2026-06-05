@@ -1,14 +1,10 @@
 ---
-title: "Fisher Information - Fisher Information Matrix"
+publish: true
+title: Fisher Information - Fisher Information Matrix
 created: 2021-09-13T05:26:25.836-05:00
 modified: 2025-11-14T19:34:47.840-06:00
-parent: "[[Information Theory - Mathematical Theory of Communication - Telecommunications]]"
-children:
-  - "[[Fisher Information - Exponential Distribution]]"
-  - "[[Fisher Information - Poisson Distribution]]"
-  - "[[Fisher Information Matrix - Asymptotic Distribution of the Maximum Likelihood Estimate (MLE)]]"
-  - "[[Fisher Information Matrix - Normal Distribution]]"
 ---
+
 ```merge-table
 {
   "rows": [
@@ -32,12 +28,15 @@ children:
   "tableStyle": "width: 100.0%;letter-spacing: 0.0px;"
 }
 ```
+
 # Fisher Information - Formulas
 
-Fisher Information 𝐼(𝜃) is the [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|variance]] of the [[Likelihood Function - Log-Likelihood Function - Score Function|score function 𝑠(𝜃)]] (i.e. 𝑠(𝜃) = (𝛿/𝛿𝜃) 𝑙𝑜𝑔𝐿(𝑋|𝜃) = \[1/𝐿(𝑋|𝜃)\] · (𝛿/𝛿𝜃)𝐿(𝑋|𝜃))
-- 𝐼(𝜃) = 𝑉𝑎𝑟<sub>\~𝑋</sub>\[𝑠(𝜃)\]
-- 𝐼(𝜃) = 𝐄<sub>\~𝑋</sub>\[𝑠(𝜃)<sup>2</sup>\] - (𝐄<sub>\~𝑋</sub>\[𝑠(𝜃)\])<sup>2</sup>
-- 𝐼(𝜃) = 𝐄<sub>\~𝑋</sub>\[𝑠(𝜃)<sup>2</sup>\] - 0 <font style="color: rgb(122,134,154);">\# 𝐄<sub>\~𝑋</sub>\[𝑠(𝜃)\] = 0 see section in </font>[[Likelihood Function - Log-Likelihood Function - Score Function|Score Function]]
+Fisher Information 𝐼(𝜃) is the [[Variance - Standard Deviation (Root Mean Square (RMS) Deviation)|variance]] of the [[Likelihood Function - Log-Likelihood Function - Score Function|score function 𝑠(𝜃)]] (i.e. 𝑠(𝜃) = (𝛿/𝛿𝜃) 𝑙𝑜𝑔𝐿(𝑋|𝜃) = \[1/𝐿(𝑋|𝜃)] · (𝛿/𝛿𝜃)𝐿(𝑋|𝜃))
+
+- 𝐼(𝜃) = 𝑉𝑎𝑟<sub>~𝑋</sub>\[𝑠(𝜃)]
+- 𝐼(𝜃) = 𝐄<sub>~𝑋</sub>\[𝑠(𝜃)<sup>2</sup>] - (𝐄<sub>~𝑋</sub>\[𝑠(𝜃)])<sup>2</sup>
+- 𝐼(𝜃) = 𝐄<sub>~𝑋</sub>\[𝑠(𝜃)<sup>2</sup>] - 0 <font style="color: rgb(122,134,154);"># 𝐄<sub>~𝑋</sub>\[𝑠(𝜃)] = 0 see section in </font>[[Likelihood Function - Log-Likelihood Function - Score Function|Score Function]]
+
 ```merge-table
 {
   "rows": [
@@ -60,13 +59,10 @@ Fisher Information 𝐼(𝜃) is the [[Variance - Standard Deviation (Root Mean
   ]
 }
 ```
+
 # Fisher Information - Example Computations
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Fisher Information - Resources
-- [http://fisher-information.marcuschiu.com/](http://fisher-information.marcuschiu.com/)
-- [https://www.youtube.com/watch?v=pneluWj-U-o](https://www.youtube.com/watch?v=pneluWj-U-o)
+
+- <http://fisher-information.marcuschiu.com/>
+- <https://www.youtube.com/watch?v=pneluWj-U-o>

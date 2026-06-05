@@ -1,11 +1,12 @@
 ---
-title: "NTFS - File Attributes - $STANDARD_INFORMATION"
+publish: true
+title: NTFS - File Attributes - $STANDARD_INFORMATION
 created: 2020-06-15T14:10:58.467-05:00
 modified: 2020-06-16T23:06:23.591-05:00
-parent: "[[NTFS - File Attributes]]"
-children: []
 ---
+
 ###### \$STANDARD\_INFORMATION
+
 - a [[NTFS - File Attributes|NTFS File Attribute]] that includes information such as: MAC timestamps, DOS file permissions, link count, flags, owner, & security id
 
 ### \$STANDARD\_INFORMATION
@@ -135,6 +136,7 @@ children: []
   ]
 }
 ```
+
 ### Flag Values (DOS Permissions)
 
 same as [[NTFS - File Attributes - $FILE_NAME|$FILE_NAME]]

@@ -1,17 +1,20 @@
 ---
-title: "Data Compression"
+publish: true
+title: Data Compression
 created: 2019-09-09T14:00:46.609-05:00
 modified: 2025-05-07T15:24:15.395-05:00
-parent: "[[Data Archiving Formats - Data Compression Formats]]"
-children: []
 ---
+
 ###### Data Compression
-````excerpt
+
+```excerpt
 - is the act of shrinking the size of a file
-````
+```
+
 ^excerpt
 
 # Types of Compression
+
 - <strong>lossless compression</strong> - guarantees data received is exactly the same as data sent
 - <strong>lossy compression</strong> - does not guarantee data received is exactly the same as data sent
 
@@ -70,6 +73,7 @@ children: []
   ]
 }
 ```
+
 # Lossy Compression Techniques
 
 ```merge-table

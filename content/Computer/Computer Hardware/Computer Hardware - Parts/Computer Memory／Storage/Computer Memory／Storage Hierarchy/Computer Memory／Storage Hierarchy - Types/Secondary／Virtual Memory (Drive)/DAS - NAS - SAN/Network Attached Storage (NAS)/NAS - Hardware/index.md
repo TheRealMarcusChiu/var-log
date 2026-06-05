@@ -1,11 +1,10 @@
 ---
-title: "NAS - Hardware"
+publish: true
+title: NAS - Hardware
 created: 2023-02-21T20:16:47.902-06:00
 modified: 2023-05-09T18:06:56.520-05:00
-parent: "[[Network Attached Storage (NAS)]]"
-children:
-  - "[[Synology]]"
 ---
+
 ```merge-table
 {
   "rows": [

@@ -1,17 +1,12 @@
 ---
-title: "Design Patterns"
+publish: true
+title: Design Patterns
 created: 2019-03-15T00:07:33.392-05:00
 modified: 2022-02-18T15:51:42.270-06:00
-parent: "[[Software／Fullstack Development]]"
-children:
-  - "[[API Design Patterns (API-DP)]]"
-  - "[[Architectural／Architecture Design Patterns (ADP)]]"
-  - "[[Database Design Patterns (DDP)]]"
-  - "[[Software Architectural／Architecture Design Patterns (SADP)]]"
-  - "[[Software Design Patterns (SDP)]]"
-  - "[[User Interface Design Patterns (UI-DP)]]"
 ---
+
 ###### Design Pattern
+
 - is a general solution to a common problem
 - is more than just an implementation design, but also communicates intent and the problem being addressed
 
@@ -87,9 +82,11 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Design Pattern - Scope Comparisons
 
 > [!expand-ui]- Software Architecture vs Software Design
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -123,6 +120,7 @@ children:
 > ```
 
 > [!expand-ui]- System Architecture vs Software Architecture
+>
 > - system is the broadest term and typically highest level, least detailed
 > - part of the system may be classified as software
 > - part of the software may be described using class diagrams
@@ -149,6 +147,8 @@ children:
 >   ]
 > }
 > ```
+
 # Textbooks
+
 - [[Clean Architect.pdf]]
 - [[Clean Code.pdf]]

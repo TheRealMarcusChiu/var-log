@@ -1,14 +1,16 @@
 ---
-title: "Using Terraform to Launch VMs on Proxmox"
+publish: true
+title: Using Terraform to Launch VMs on Proxmox
 created: 2024-08-23T20:26:54.511-05:00
 modified: 2024-08-23T20:31:40.537-05:00
-parent: "[[Terraform - Proxmox]]"
-children: []
 ---
-based on: [https://austinsnerdythings.com/2021/09/01/how-to-deploy-vms-in-proxmox-with-terraform/](https://austinsnerdythings.com/2021/09/01/how-to-deploy-vms-in-proxmox-with-terraform/)
+
+based on: <https://austinsnerdythings.com/2021/09/01/how-to-deploy-vms-in-proxmox-with-terraform/>
+
 # Terraform Files
 
 Create the following two files.
+
 ```
 terraform {
   required_providers {
@@ -67,6 +69,7 @@ resource "proxmox_vm_qemu" "test_server" {
 }
 
 ```
+
 ```
 variable "ssh_key" {
   default = "SSH_PUBLIC_KEY_HERE"
@@ -81,7 +84,9 @@ variable "template_name" {
 }
 
 ```
+
 # Run Terraform
+
 ```
 terraform init
 terraform plan

@@ -1,17 +1,20 @@
 ---
-title: "Probability as Degrees of Logical Support"
+publish: true
+title: Probability as Degrees of Logical Support
 created: 2021-09-13T05:26:31.251-05:00
 modified: 2023-09-07T13:29:40.173-05:00
-parent: "[[Probability - Views on Probabilities]]"
-children: []
 ---
+
 ###### Probability as Degrees of Logical Support
-````excerpt
+
+```excerpt
 - is actually very similar to [[Probability as Degrees of Belief]]. The main difference is that, instead of degrees of belief, here you talk about the degree of logical support for a particular hypothesis. In this view, probabilities are a generalization of classical logic
-````
+```
+
 ^excerpt
 
 In the most general sense, a probability is a number attached to a statement. That number specifies how likely it is that the statement is true. Examples of such statements are:
+
 - A coin will land on its “tails” side.
 - It will rain tomorrow.
 - Your girlfriend is pregnant.

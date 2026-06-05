@@ -1,15 +1,15 @@
 ---
-title: "UNIX - Package Managers (All)"
+publish: true
+title: UNIX - Package Managers (All)
 created: 2019-10-30T16:02:36.748-05:00
 modified: 2026-05-20T00:24:00.644-05:00
-parent: "[[UNIX - General]]"
-children:
-  - "[[UNIX - Universal Package Managers]]"
 ---
+
 Is a type of [[Package Managers|package manager]]
+
 # Non-Universal Package Managers
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -68,6 +68,8 @@ Is a type of [[Package Managers|package manager]]
     ]
   ]
 }
-```
+````
+
 # Universal Package Managers
+
 - [[UNIX - Universal Package Managers]]

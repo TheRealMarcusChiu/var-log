@@ -1,14 +1,16 @@
 ---
-title: "Enuma Elish"
+publish: true
+title: Enuma Elish
 created: 2021-09-13T04:44:57.215-05:00
 modified: 2021-09-13T04:44:57.215-05:00
-parent: "[[Religions]]"
-children: []
 ---
+
 The Enuma Elish (also known as <em>The Seven Tablets of Creation</em>) is the Mesopotamian creation myth whose title is derived from the opening lines of the piece, "When on High". All of the tablets containing the myth, found at [Ashur](https://www.ancient.eu/ashur/), Kish, [Ashurbanipal](https://www.ancient.eu/Ashurbanipal/)'s library at [Nineveh](https://www.ancient.eu/nineveh/), Sultantepe, and other excavated sites, date to c. 1200 BCE but their colophons indicate that these are all copies of a much older version of the myth dating from long before the fall of [Sumer](https://www.ancient.eu/sumer/) in c. 1750 BCE
+
 ### Characters
 
 Tiamat is the Mesopotamian goddess associated with primordial chaos and the salt sea best known from the Babylonian epic Enuma Elish. She is depicted, in later periods, as a female serpent or dragon based on vague descriptions of her in Enuma Elish, but no iconography exists from ancient Mesopotamia
+
 ### Summary
 
 The story, one of the oldest, if not the oldest in the world, concerns the birth of the gods and the creation of the universe and human beings. In the beginning, there was only undifferentiated water swirling in chaos. Out of this swirl, the waters divided into sweet, fresh water, known as the god Apsu, and salty bitter water, the goddess Tiamat. Once differentiated, the union of these two entities gave birth to the younger gods.
@@ -22,9 +24,11 @@ Ea, Enki, and the younger gods fight against Tiamat futilely until, from among t
 After the gods have finished praising him for his great victory and the art of his creation, Marduk consults with the god Ea (the god of wisdom) and decides to create human beings from the remains of whichever of the gods instigated Tiamat to war. Quingu is charged as guilty and killed and, from his blood, Ea creates Lullu, the first man, to be a helper to the gods in their eternal task of maintaining order and keeping chaos at bay.
 
 As the poem phrases it, "Ea created mankind/On whom he imposed the service of the gods, and set the gods free" (Tablet VI.33-34). Following this, Marduk "arranged the organization of the netherworld" and distributed the gods to their appointed stations (Tablet VI.43-46). The poem ends in Tablet VII with long praise of Marduk for his accomplishments
+
 ### CommentaryThe Enuma Elish would later be the inspiration for the Hebrew scribes who created the text now known as the biblical Book of Genesis. Prior to the 19th century CE, the [Bible](https://www.ancient.eu/bible/) was considered the oldest book in the world and its narratives were thought to be completely original. In the mid-19th century CE, however, European museums, as well as academic and religious institutions, sponsored excavations in Mesopotamia to find physical evidence for historical corroboration of the stories in the Bible. These excavations found quite the opposite, however, in that, once [cuneiform](https://www.ancient.eu/cuneiform/) was translated, it was understood that a number of biblical narratives were Mesopotamian in origin
 
 Famous stories such as the Fall of Man and the Great Flood were originally conceived and written down in Sumer, translated and modified later in Babylon, and reworked by the Assyrians before they were used by the Hebrew scribes for the versions which appear in the Bible. Although the basic paradigm of the biblical narratives and the Mesopotamian stories align closely, there are still significant differences as noted by scholar Stephen Bertman:
+
 > Both Genesis and Enuma Elish are religious texts which detail and celebrate cultural origins: Genesis describes the origin and founding of the Jewish people under the guidance of the Lord; Enuma Elish recounts the origin and founding of Babylon under the leadership of the god Marduk. Contained in each work is a story of how the cosmos and man were created. Each work begins by describing the watery chaos and primeval darkness that once filled the universe. Then light is created to replace the darkness. Afterward, the heavens are made and in them heavenly bodies are placed. Finally, man is created. These similarities notwithstanding, the two accounts are more different than alike. (312)
 
 In revising the Mesopotamian creation story for their own ends, the Hebrew scribes tightened the narrative and the focus but retained the concept of the all-powerful deity who brings order from chaos. Marduk, in the Enuma Elish, establishes the recognizable order of the world - just as God does in the Genesis tale - and human beings are expected to recognize this great gift and honor the deity through service. In Mesopotamia, in fact, it was thought that humans were co-workers with the gods to maintain the gift of creation and keep the forces of chaos at bay

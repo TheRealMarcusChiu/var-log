@@ -1,10 +1,10 @@
 ---
-title: "CRI-O - Installation Debian"
+publish: true
+title: CRI-O - Installation Debian
 created: 2024-08-25T23:21:50.072-05:00
 modified: 2024-08-25T23:22:42.499-05:00
-parent: "[[CRI-O]]"
-children: []
 ---
+
 ```
 apt-get update
 apt-get install -y apt-transport-https ca-certificates curl gpg

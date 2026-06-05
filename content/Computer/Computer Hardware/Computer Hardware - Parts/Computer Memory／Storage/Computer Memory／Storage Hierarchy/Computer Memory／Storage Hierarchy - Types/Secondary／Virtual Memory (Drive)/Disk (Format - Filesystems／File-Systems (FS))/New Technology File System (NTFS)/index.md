@@ -1,32 +1,32 @@
 ---
-title: "New Technology File System (NTFS)"
+publish: true
+title: New Technology File System (NTFS)
 created: 2020-06-10T14:49:36.472-05:00
 modified: 2025-06-10T16:33:26.491-05:00
-parent: "[[Disk (Format - Filesystems／File-Systems (FS))]]"
-children:
-  - "[[NTFS - Other]]"
-  - "[[NTFS - System Files - $MFT - Master File Table (MFT)]]"
-  - "[[NTFS - System／Meta Files]]"
-  - "[[NTFS - Versions]]"
-  - "[[NTFS - Volume Boot Record (VBR) or Partition Boot Sector (PBS)]]"
 ---
+
 ###### New Technology File System (NTFS)
-````excerpt
+
+```excerpt
 - is a proprietary journaling [[Disk (Format - Filesystems／File-Systems (FS))|file system]] developed by [[Microsoft]]
-````
+```
+
 ^excerpt
 
 # NTFS - Predecessors
+
 - [[File Allocation Table (FAT) - (FAT12 - FAT16 - FAT32 - VFAT)|FAT12]]
 - [[File Allocation Table (FAT) - (FAT12 - FAT16 - FAT32 - VFAT)|FAT16]]
 - [[File Allocation Table (FAT) - (FAT12 - FAT16 - FAT32 - VFAT)|FAT32]]
 - HPFS
 
 # NTFS - Versions
+
 - [[NTFS - Versions]]
 
 # NTFS - Diagram
-![[New Technology File System (NTFS)/ntfs-volume.png|500]]
+
+![[Computer/Computer Hardware/Computer Hardware - Parts/Computer Memory／Storage/Computer Memory／Storage Hierarchy/Computer Memory／Storage Hierarchy - Types/Secondary／Virtual Memory (Drive)/Disk (Format - Filesystems／File-Systems (FS))/New Technology File System (NTFS)/ntfs-volume.png|500]]
 
 ```merge-table
 {
@@ -78,16 +78,7 @@ children:
   ]
 }
 ```
+
 # NTFS - Other
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[NTFS - Other]].file.folder + "/" + [[NTFS - Other]].file.name
-```
 
 # NTFS - Entire Tree
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

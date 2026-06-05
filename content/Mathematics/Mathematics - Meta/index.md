@@ -1,14 +1,10 @@
 ---
-title: "Mathematics - Meta"
+publish: true
+title: Mathematics - Meta
 created: 2021-09-13T05:26:21.614-05:00
 modified: 2023-05-20T13:36:55.932-05:00
-parent: "[[Mathematics]]"
-children:
-  - "[[Mathematical Model]]"
-  - "[[Mathematical Object]]"
-  - "[[Mathematical Object - Properties]]"
-  - "[[Mathematical Structures]]"
 ---
+
 ```merge-table
 {
   "rows": [

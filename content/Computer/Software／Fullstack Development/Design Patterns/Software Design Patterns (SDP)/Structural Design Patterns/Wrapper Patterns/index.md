@@ -1,20 +1,17 @@
 ---
-title: "Wrapper Patterns"
+publish: true
+title: Wrapper Patterns
 created: 2026-01-10T17:49:46.824-06:00
 modified: 2026-01-10T23:27:45.509-06:00
-parent: "[[Structural Design Patterns]]"
-children:
-  - "[[Adapter Pattern]]"
-  - "[[Bridge Pattern]]"
-  - "[[Decorator (Wrapper - Smart Proxy) Pattern]]"
-  - "[[Facade Pattern]]"
-  - "[[Proxy Pattern]]"
 ---
+
 # Wrapper Patterns (Proxy - Decorator - Adaptor - Bridge - Facade)
+
 - all use composition, wrapping subject
 - delegates the execution to the subject at some point
 - often maps one method call to another one
 - differ in intent and interface
+
 ```merge-table
 {
   "rows": [

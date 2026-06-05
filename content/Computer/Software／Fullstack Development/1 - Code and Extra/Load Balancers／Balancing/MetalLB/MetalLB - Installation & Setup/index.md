@@ -1,19 +1,22 @@
 ---
-title: "MetalLB - Installation & Setup"
+publish: true
+title: MetalLB - Installation & Setup
 created: 2024-08-28T10:55:00.652-05:00
 modified: 2024-09-04T16:18:14.100-05:00
-parent: "[[MetalLB]]"
-children: []
 ---
-see: [https://metallb.io/installation/](https://metallb.io/installation/)
+
+see: <https://metallb.io/installation/>
+
 # Preparation
 
 Enable strict ARP mode
+
 ```
 kubectl edit configmap -n kube-system kube-proxy
 ```
 
 and set:
+
 ```
 apiVersion: kubeproxy.config.k8s.io/v1alpha1
 kind: KubeProxyConfiguration
@@ -21,13 +24,17 @@ mode: "ipvs"
 ipvs:
   strictARP: true
 ```
+
 # Installation by Manifest
+
 ```
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.14.8/config/manifests/metallb-native.yaml
 ```
+
 # Layer 2 Configuration
 
 Create 2 manifest files:
+
 ```
 apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
@@ -38,6 +45,7 @@ spec:
   addresses:
   - 192.168.111.240-192.168.111.250
 ```
+
 ```
 apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
@@ -47,16 +55,20 @@ metadata:
 ```
 
 Now apply both manifests:
+
 ```
 > kubectl apply -f my-ip-address-pool-1.yaml
 ipaddresspool.metallb.io/my-ip-address-pool-1 created
 > kubectl apply -f my-l2-advertisement-1.yaml
 l2advertisement.metallb.io/my-l2-advertisement-1 created
 ```
+
 # Usage
-- see [https://metallb.io/usage/](https://metallb.io/usage/)
+
+- see <https://metallb.io/usage/>
 
 requesting specific IPs
+
 ```
 apiVersion: v1
 kind: Service

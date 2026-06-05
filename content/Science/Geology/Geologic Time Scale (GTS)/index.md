@@ -1,14 +1,16 @@
 ---
-title: "Geologic Time Scale (GTS)"
+publish: true
+title: Geologic Time Scale (GTS)
 created: 2021-09-13T04:45:17.956-05:00
 modified: 2023-08-24T17:08:00.479-05:00
-parent: "[[Geology]]"
-children: []
 ---
+
 ###### Geologic Time Scale (GTS)
-````excerpt
+
+```excerpt
 - is a system of chronological dating that relates geological strata (stratigraphy) to time
-````
+```
+
 ^excerpt
 
 # The Table
@@ -370,5 +372,7 @@ children: []
   ]
 }
 ```
+
 # Resources
-- [https://en.wikipedia.org/wiki/Geologic_time_scale](https://en.wikipedia.org/wiki/Geologic_time_scale)
+
+- <https://en.wikipedia.org/wiki/Geologic_time_scale>

@@ -1,33 +1,38 @@
 ---
-title: "My Workout Routine"
+publish: true
+title: My Workout Routine
 created: 2024-07-25T15:29:12.622-05:00
 modified: 2026-05-01T16:25:46.658-05:00
-parent: "[[Enter Workout]]"
-children: []
 ---
+
 > [!expand-ui]- 2 Set Method
+>
 > # Rules:
+>
 > - Never do more than 5 reps on warmups.
 > - Never do more than two working sets.
 > - Minimum 8 reps in a working set, maximum 17 reps in a working set.
 > - For all working sets rest minimum 5 minutes.
 > - For all working sets go to failure
 > - For all working sets:
-> 	- if you do 12 or more reps on average, raise the weight for the next time you do that exercise
-> 	- if you do less than 12, do the same weight the next time you do that exercise.
+>   - if you do 12 or more reps on average, raise the weight for the next time you do that exercise
+>   - if you do less than 12, do the same weight the next time you do that exercise.
 > - Only do the same workout every five days.
 >
 > # For all exercises:
 >
 > Warmup sets:
+>
 > - 25% max for 5 reps, rest 3 minutes
 > - 50% max for 5 reps, rest 3 minutes
 >
 > Working sets:
+>
 > - 8-12 reps to failure, rest 5-7 minutes
 > - 8-12 reps to failure, rest 5-7 minutes
 >
 > # 5-Day Training Cycle
+>
 > - Day 1 | PUSH DAY - Weighted dips, incline bench, lateral raises
 > - Day 2 | REST DAY - Optional: walk/run
 > - Day 3 | PULL DAY - Weighted pull ups, cable rows
@@ -35,15 +40,17 @@ children: []
 > - Day 5 | REST DAY - Optional: walk/run
 
 > [!expand-ui]- Upper Lower Split
+>
 > - pullups
 > - pushups
 > - rows
 > - inclines
 > - shoulders
 >
-> [https://www.youtube.com/shorts/BgFSLOvSrmI](https://www.youtube.com/shorts/BgFSLOvSrmI)
+> <https://www.youtube.com/shorts/BgFSLOvSrmI>
 
 > [!expand-ui]- PPL
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -113,7 +120,9 @@ children: []
 > ```
 
 > [!expand-ui]- PPL Split #2
+>
 > # 🔥 Weekly Split (Push/Pull/Legs x2)
+>
 > - <strong>Day 1:</strong> Push (Chest, Shoulders, Triceps)
 > - <strong>Day 2:</strong> Pull (Back, Biceps)
 > - <strong>Day 3:</strong> Legs + Abs
@@ -193,30 +202,38 @@ children: []
 >   ]
 > }
 > ```
+>
 > # 🧠 Key Training Principles
+>
 > - <strong>Progressive overload:</strong> Add weight or reps every week
 > - <strong>Rest:</strong> 60–90 sec (hypertrophy), 2–3 min (heavy lifts)
-> - <strong>Form \> weight</strong> (important for aesthetic physique)
+> - <strong>Form > weight</strong> (important for aesthetic physique)
 > - Train each muscle <strong>2× per week</strong> (already built in)
 
 > [!expand-ui]- PPSL
 > Good—this is exactly the right move. You’ve got the base, you’ve got the vision, now we build with intent.
 >
 > This plan is designed specifically for:
+>
 > - <strong>Your current leanness</strong>
 > - <strong>Your goal (anime aesthetic: shoulders + upper chest + V-taper)</strong>
 > - <strong>6 days/week with high frequency for faster growth</strong>
 >
 > ---
+>
 > # 🧠 Core Strategy (read this first)
+>
 > - <strong>Train shoulders 3–4x/week</strong> (they recover fast + highest visual impact)
 > - <strong>Upper chest 2–3x/week</strong>
 > - <strong>Lats 2–3x/week (width focus)</strong>
 > - Keep volume high but controlled → don’t ego lift
 >
 > ---
+>
 > # 🗓️ 6-Day Split (Aesthetic Focus)
+>
 > ## 🔴 Day 1 – Push (Upper Chest Focus)
+>
 > - Incline DB Press – 4x6–10
 > - Incline Smith Press – 3x8–12
 > - Low-to-High Cable Fly – 3x12–15
@@ -224,9 +241,10 @@ children: []
 > - Overhead Tricep Extension – 3x10–15
 > - Tricep Pushdowns – 3x10–15
 >
-> 👉 Priority: <strong>build that upper chest shelf</strong>
-> ---
+> ## 👉 Priority: <strong>build that upper chest shelf</strong>
+>
 > ## 🔵 Day 2 – Pull (Lat Width Focus)
+>
 > - Pull-ups (or assisted) – 4x6–10
 > - Lat Pulldown (wide grip) – 3x10–12
 > - One-arm DB Row (stretch focus) – 3x10–12
@@ -235,9 +253,10 @@ children: []
 > - Reverse Bicep Curl – 3x10–12
 > - forearms
 >
-> 👉 Think: <strong>wide back, not just thick</strong>
-> ---
+> ## 👉 Think: <strong>wide back, not just thick</strong>
+>
 > ## 🟢 Day 3 – Shoulders + Arms (High ROI Day)
+>
 > - Lateral Raises – 5x15–20 (yes, 5 sets)
 > - Cable Lateral Raises – 3x12–15
 > - Seated DB Shoulder Press – 4x6–10
@@ -245,18 +264,20 @@ children: []
 > - Skull Crushers – 3x10–12
 > - Hammer Curl – 3x10–12
 >
-> 👉 This day alone changes your physique the fastest
-> ---
+> ## 👉 This day alone changes your physique the fastest
+>
 > ## 🟡 Day 4 – Legs (Keep it simple but effective)
+>
 > - Squats or Leg Press – 4x6–10
 > - Romanian Deadlift – 3x8–12
 > - Leg Curl – 3x10–15
 > - Leg Extension – 3x12–15
 > - Calf Raises – 4x12–20
 >
-> 👉 Don’t skip—legs support overall growth & hormones
-> ---
+> ## 👉 Don’t skip—legs support overall growth & hormones
+>
 > ## 🟣 Day 5 – Push (Chest + Shoulders Blend)
+>
 > - Incline DB Press – 3x8–12
 > - Flat DB Press – 3x8–12
 > - Machine Chest Press – 3x10–12
@@ -264,9 +285,10 @@ children: []
 > - Cable Fly – 3x12–15
 > - Triceps – 3x10–15
 >
-> 👉 Slightly less intense than Day 1 but still volume-heavy
-> ---
+> ## 👉 Slightly less intense than Day 1 but still volume-heavy
+>
 > ## 🟠 Day 6 – Pull (Back + Arms)
+>
 > - Pull-ups – 3x6–10
 > - Lat Pulldown (neutral grip) – 3x10–12
 > - Seated Row – 3x10–12
@@ -276,44 +298,53 @@ children: []
 > - Optional: Forearms
 >
 > ---
+>
 > ## ⚪ Day 7 – Rest
 >
-> Or light cardio / abs
-> ---
+> ## Or light cardio / abs
+>
 > # 🔥 Progression Rules (THIS is what makes it work)
+>
 > - Try to <strong>add weight or reps every week</strong>
 > - If stuck → improve form + control instead
 > - Rest 1.5–3 min for compounds, 45–75 sec for isolations
 >
 > ---
+>
 > # 🍗 Nutrition (quick but critical)
+>
 > - Calories: <strong>+200–300 above maintenance</strong>
 > - Protein: <strong>0.8–1g per lb bodyweight</strong>
 > - Keep abs visible → don’t dirty bulk
 >
 > ---
+>
 > # ⚠️ Mistakes to avoid
+>
 > - Skipping lateral raises → kills your aesthetic
 > - Only flat benching → won’t build that upper chest look
 > - Training like a powerlifter → wrong goal
 > - Not eating enough → you won’t grow
 >
 > ---
+>
 > # 💬 Real talk
 >
 > If you follow this for 6–12 months:
+>
 > - Your shoulders will <strong>cap out</strong>
 > - Your chest will <strong>look 3D instead of flat</strong>
 > - Your waist will look even smaller
 >
-> 👉 That’s when you start approaching the look in that image.
-> ---
+> ## 👉 That’s when you start approaching the look in that image.
 >
 > If you want, I can also:
+>
 > - Dial in your <strong>exact calories/macros</strong>
 > - Or adjust this plan based on your current strength numbers (that’s how you really optimize it)
 
 > [!expand-ui]- Shoulders
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -366,14 +397,17 @@ children: []
 >   "tableStyle": "margin-left: 0.0px;"
 > }
 > ```
+>
 > # Hypertrophy Techniques for Shoulders
 >
 > If you have plateaued using standard sets, try these methods to increase the intensity:
+>
 > - <strong>Drop Sets:</strong> On your last set of lateral raises, perform your reps to failure, immediately grab a weight 25% lighter, and go to failure again.
 > - <strong>Partial Reps:</strong> Once you can no longer complete a full range of motion on lateral raises, perform "bottom-half" pulses to keep the lateral head under tension.
 > - <strong>Isometric Holds:</strong> At the end of a set of dumbbell presses, hold the weights at shoulder height for 10–15 seconds to maximize motor unit recruitment.
 
 > [!expand-ui]- Lats
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -426,13 +460,16 @@ children: []
 >   "tableStyle": "margin-left: 0.0px;"
 > }
 > ```
+>
 > # Advanced Growth Strategy: The Stretch
 >
 > Lats are highly sensitive to <strong>stretch-mediated hypertrophy</strong>.
+>
 > - <strong>Active Hangs:</strong> At the end of a set of pull-ups, hang from the bar for 15–30 seconds.
 > - <strong>Slow Eccentrics:</strong> On rows or pulldowns, take a full <strong>3–4 seconds</strong> to return the weight to the starting position. This creates micro-tears in the muscle fibers that signal the body to grow.
 
 > [!expand-ui]- Upper Chest
+>
 > ```merge-table
 > {
 >   "rows": [
@@ -485,9 +522,11 @@ children: []
 >   "tableStyle": "margin-left: 0.0px;"
 > }
 > ```
+>
 > # The "Tuck and Squeeze" Technique
 >
 > Form is more critical for the upper chest than almost any other muscle because the front delts love to "steal" the weight.
+>
 > - <strong>Retract the Scapula:</strong> Keep your shoulder blades pinned back into the bench. If your shoulders round forward, the upper chest shuts off.
 > - <strong>The "Touch" Point:</strong> When lowering dumbbells during an incline press, aim for the space just below your collarbone, not your mid-chest.
 > - <strong>Internal Focus:</strong> At the top of the movement, consciously squeeze your chest together. Imagine trying to touch your biceps to the sides of your pec.

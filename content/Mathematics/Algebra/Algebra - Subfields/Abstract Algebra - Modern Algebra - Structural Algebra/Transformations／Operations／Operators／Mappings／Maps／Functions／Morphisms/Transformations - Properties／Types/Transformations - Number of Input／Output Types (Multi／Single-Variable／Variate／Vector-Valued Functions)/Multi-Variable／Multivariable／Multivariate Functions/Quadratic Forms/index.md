@@ -1,12 +1,13 @@
 ---
-title: "Quadratic Forms"
+publish: true
+title: Quadratic Forms
 created: 2021-09-13T05:26:05.214-05:00
 modified: 2023-12-29T16:28:58.478-06:00
-parent: "[[Multi-Variable／Multivariable／Multivariate Functions]]"
-children: []
 ---
+
 ###### Quadratic Forms
-````excerpt
+
+```excerpt
 - a <em>quadratic form</em> on ℝ<sup>𝑛</sup> is a [[Functions (Domain - Codomain - Preimage - Image - Range)|function]] 𝑄 defined on ℝ<sup>𝑛</sup>whose value at vector 𝑣∊ℝ<sup>𝑛</sup>can be computed by:
 	- 𝑄(𝑣) = 𝑣<sup>𝑇</sup>𝐴𝑣
 - where:
@@ -19,81 +20,104 @@ children: []
 		- thus 𝑄(𝑣) = 𝐵(𝑣,𝑣)
 - not to be confused with a quadratic equation, which has only one variable and includes terms of degree two or less:
 	- for example, 𝑓(𝑥) = 𝑥<sup>2</sup>+ 5𝑥 + 4, is a quadratic equation NOT a quadratic form
-````
+```
+
 ^excerpt
 
 # Quadratic Form - Examples
 
 > [!expand]- Simplest Quadratic Form
 > The simplest quadratic form is:
+>
 > - 𝑄(𝑥) = 𝑥<sup>𝑇</sup>𝐼𝑥 = ||𝑥||<sup>2</sup>
 
 > [!expand]- Other Examples
-> ###### from matrix form to function form
-> ![[Quadratic Forms/quadratic-form-example-1.png|350]]<font style="color: rgb(128,128,128);">without cross-product terms</font>
 >
-> ![[Quadratic Forms/quadratic-form-example-2.png|350]] <font style="color: rgb(128,128,128);">with cross-product terms</font>
+> ###### from matrix form to function form
+>
+> ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-form-example-1.png|350]]<font style="color: rgb(128,128,128);">without cross-product terms</font>
+>
+> ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-form-example-2.png|350]] <font style="color: rgb(128,128,128);">with cross-product terms</font>
+>
 > ###### from function form to matrix form
 >
 > 𝑄(𝑥) = 5𝑥<sub>1</sub><sup>2</sup> + 3𝑥<sub>2</sub><sup>2</sup> + 3𝑥<sub>3</sub><sup>2</sup> - 𝑥<sub>1</sub>𝑥<sub>2</sub> + 8𝑥<sub>2</sub>𝑥<sub>3</sub>
 >
-> ![[Quadratic Forms/quadratic-form-example-3.png|301]]
+> ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-form-example-3.png|301]]
+
 # Quadratic Form - Changing Basis such that its Quadratic Form has no Cross-Products
+
 ###### Proof that any symmetric matrix 𝐴 can be rewritten to 𝐷 such that its quadratic form has no cross-products (see also Principal Axis Theorem below)
 
 > [!expand]- Click here to expand...
 > Change of variable/basis is an equation of the form:
+>
 > - 𝑥 = 𝑃𝑦
 > - 𝑦 = 𝑃<sup>-1</sup>𝑥
 >
 > 𝑦 is the coordinate vector of 𝑥 relative to the basis of ℝ<sup>𝑛</sup> determined by the columns of 𝑃
 >
 > If the change of variable is made in a quadratic form 𝑥<sup>𝑇</sup>𝐴𝑥
+>
 > - 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑥<sup>𝑇</sup>𝐴𝑥
 > - 𝑥<sup>𝑇</sup>𝐴𝑥 = (𝑃𝑦)<sup>𝑇</sup>𝐴𝑃𝑦
 > - 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑦<sup>𝑇</sup>𝑃<sup>𝑇</sup>𝐴𝑃𝑦
-> - 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑦<sup>𝑇</sup>𝐷𝑦 <font style="color: rgb(122,134,154);">\# Since 𝐴 is </font>[[Symmetric Matrix|symmetric]] <font style="color: rgb(122,134,154);">it guarantees an</font> [[Orthogonal／Orthonormal Matrix|orthogonal matrix]] <font style="color: rgb(122,134,154);">𝑃 such that 𝑃<sup>𝑇</sup>𝐴𝑃 is a</font> [[Diagonal Matrix|diagonal matrix]]<font style="color: rgb(122,134,154);"> 𝐷 (see proof</font> [[Spectral Theorem - 𝐴 is Orthogonally Diagonalizable ⟺ 𝐴 is Symmetric|here]]<font style="color: rgb(122,134,154);"> and Principal Axis Theorem below)</font>
+> - 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑦<sup>𝑇</sup>𝐷𝑦 <font style="color: rgb(122,134,154);"># Since 𝐴 is </font>[[Symmetric Matrix|symmetric]] <font style="color: rgb(122,134,154);">it guarantees an</font> [[Orthogonal／Orthonormal Matrix|orthogonal matrix]] <font style="color: rgb(122,134,154);">𝑃 such that 𝑃<sup>𝑇</sup>𝐴𝑃 is a</font> [[Diagonal Matrix|diagonal matrix]]<font style="color: rgb(122,134,154);"> 𝐷 (see proof</font> [[Spectral Theorem - 𝐴 is Orthogonally Diagonalizable ⟺ 𝐴 is Symmetric|here]]<font style="color: rgb(122,134,154);"> and Principal Axis Theorem below)</font>
+
 ###### Example
 
 > [!expand]- Click here to expand...
 > make a <em>change of variable</em> that transforms the quadratic form 𝑥<sup>𝑇</sup>𝐴𝑥 into a quadratic form with no cross-product term
 >
 > > [!indent]
-> ![[Quadratic Forms/quadratic-form-change-of-basis-example.png|301]]
+> > ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-form-change-of-basis-example.png|301]]
 >
 > [[Orthogonal Eigen／Spectral Decomposition／Factorization - Diagonalization／Diagonalizing／Diagonalize - Orthogonally Diagonalizable／Non-Defective Matrix|orthogonally diagonalize]] 𝐴
+>
 > - [[Eigenvectors (Characteristic Vectors) - Eigenvalues (Spectrum)|eigenvalues and eigenvectors]] of 𝐴
+>
 > > [!list-indent-undo]
+> >
 > > > [!indent]
-> > > ![[Quadratic Forms/quadratic-forms-change-of-variables-basis-example-1.png|301]]
+> > > ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-forms-change-of-variables-basis-example-1.png|301]]
+>
 > - let
+>
 > > [!list-indent-undo]
+> >
 > > > [!indent]
-> > > ![[Quadratic Forms/quadratic-forms-change-of-variables-basis-example-2.png|301]]
+> > > ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-forms-change-of-variables-basis-example-2.png|301]]
+>
 > - then
 > - 𝐴 = 𝑃𝐷𝑃<sup>𝑇</sup>
 > - and
 > - 𝐷 = 𝑃<sup>-1</sup>𝐴𝑃 = 𝑃<sup>𝑇</sup>𝐴𝑃
 >
 > a suitable <em>change of variable</em> is:
+>
 > - 𝑥 = 𝑃𝑦
 >
 > where:
+>
 > > [!list-indent-undo]
+> >
 > > > [!indent]
-> > > ![[Quadratic Forms/quadratic-forms-change-of-variables-basis-example-3.png|310]]
+> > > ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-forms-change-of-variables-basis-example-3.png|310]]
 >
 > then:
+>
 > - 𝑥<sub>1</sub><sup>2</sup> - 8𝑥<sub>1</sub>𝑥<sub>2</sub> - 5𝑥<sub>2</sub><sup>2</sup> = 𝑥<sup>𝑇</sup>𝐴𝑥
 > - 𝑥<sub>1</sub><sup>2</sup> - 8𝑥<sub>1</sub>𝑥<sub>2</sub> - 5𝑥<sub>2</sub><sup>2</sup> = (𝑃𝑦)<sup>𝑇</sup>𝐴𝑃𝑦
 > - 𝑥<sub>1</sub><sup>2</sup> - 8𝑥<sub>1</sub>𝑥<sub>2</sub> - 5𝑥<sub>2</sub><sup>2</sup> = 𝑦<sup>𝑇</sup>(𝑃<sup>𝑇</sup>𝐴𝑃)𝑦
 > - 𝑥<sub>1</sub><sup>2</sup> - 8𝑥<sub>1</sub>𝑥<sub>2</sub> - 5𝑥<sub>2</sub><sup>2</sup> = 𝑦<sup>𝑇</sup>𝐷𝑦
 > - 𝑥<sub>1</sub><sup>2</sup> - 8𝑥<sub>1</sub>𝑥<sub>2</sub> - 5𝑥<sub>2</sub><sup>2</sup>= 3𝑦<sub>1</sub><sup>2</sup> - 7𝑦<sub>2</sub><sup>2</sup>
 >
-> ![[Quadratic Forms/quadratic-forms-change-of-variables-basis-example-4.png|301]]
+> ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-forms-change-of-variables-basis-example-4.png|301]]
+>
 > ###### 𝑄(𝑥) for 𝑥 = (2,-2)
 >
 > solve 𝑥<sup>𝑇</sup>𝐴𝑥:
+>
 > - 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑥<sub>1</sub><sup>2</sup> - 8𝑥<sub>1</sub>𝑥<sub>2</sub> - 5𝑥<sub>2</sub><sup>2</sup>
 > - 𝑥<sup>𝑇</sup>𝐴𝑥 = 2<sup>2</sup> - 8(2)(-2) - 5(-2)<sup>2</sup>
 > - 𝑥<sup>𝑇</sup>𝐴𝑥 = <font style="color: rgb(255,0,0);">16</font>
@@ -101,28 +125,34 @@ children: []
 > find 𝑦 coordinates for 𝑥 = (2,-2):
 >
 > > [!indent]
-> ![[Quadratic Forms/quadratic-forms-change-of-variables-basis-example-5.png|301]]
+> > ![[Mathematics/Algebra/Algebra - Subfields/Abstract Algebra - Modern Algebra - Structural Algebra/Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms/Transformations - Properties／Types/Transformations - Number of Input／Output Types (Multi／Single-Variable／Variate／Vector-Valued Functions)/Multi-Variable／Multivariable／Multivariate Functions/Quadratic Forms/quadratic-forms-change-of-variables-basis-example-5.png|301]]
 >
 > solve 𝑦<sup>𝑇</sup>𝐷𝑦:
+>
 > - 𝑦<sup>𝑇</sup>𝐷𝑦 = 3𝑦<sub>1</sub><sup>2</sup> - 7𝑦<sub>2</sub><sup>2</sup>
 > - 𝑦<sup>𝑇</sup>𝐷𝑦 = 3(6/√5)<sup>2</sup> - 7(-2/√5)<sup>2</sup>
 > - 𝑦<sup>𝑇</sup>𝐷𝑦 = <font style="color: rgb(255,0,0);">16</font>
+
 # Principal Axis/Axes Theorem - & Geometric View
 
 > [!expand]- Click here to expand...
+>
 > ###### Principal Axis Theorem
 >
 > The principal Axis Theorem states that the principal axes are perpendicular
 >
 > Let 𝐴 be an 𝑛✕𝑛 symmetric matrix. Then there is an orthogonal <em>change of variable</em> 𝑥 = 𝑃𝑦 that transforms the quadratic form 𝑥<sup>𝑇</sup>𝐴𝑥 into a quadratic form 𝑦<sup>𝑇</sup>𝐷𝑦 with no cross-product terms
+>
 > ###### Principal Axis Theorem - Geometric View
 >
 > Say: 𝑄(𝑥) = 𝑥<sup>𝑇</sup>𝐴𝑥 and 𝐴 is a 2✕2 symmetric matrix
 >
 > Then the set of all 𝑥's that satisfy
+>
 > - 𝑄(𝑥) = 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑐
 >
 > Either corresponds to a graph looking like a:
+>
 > - ellipse (circle)
 > - hyperbola
 > - 2 intersecting lines
@@ -157,6 +187,7 @@ children: []
 >   ]
 > }
 > ```
+
 # Quadratic Form - Matrix Form Duality & Classifying Quadratic Functions
 
 > [!expand]- Click here to expand...
@@ -245,12 +276,16 @@ children: []
 >   "tableStyle": "width: 100.0%;"
 > }
 > ```
+>
 > ###### Quadratic Matrix Duality & Classification
+>
 > - by the <strong>principal axis theorem</strong>, there exists a <font style="color: rgb(122,134,154);"><em>change of variables/basis</em> (𝑥 = 𝑃𝑦)</font> such that:
-> 	- 𝑄(𝑥) = 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑦<sup>𝑇</sup>𝐷𝑦 = 𝜆<sub>1</sub>𝑦<sub>1</sub><sup>2</sup> + ... + 𝜆<sub>𝑛</sub>𝑦<sub>𝑛</sub><sup>2</sup>
+>   - 𝑄(𝑥) = 𝑥<sup>𝑇</sup>𝐴𝑥 = 𝑦<sup>𝑇</sup>𝐷𝑦 = 𝜆<sub>1</sub>𝑦<sub>1</sub><sup>2</sup> + ... + 𝜆<sub>𝑛</sub>𝑦<sub>𝑛</sub><sup>2</sup>
 > - where:
-> 	- 𝜆<sub>𝑖</sub>- are the eigenvalues of 𝐴
+>   - 𝜆<sub>𝑖</sub>- are the eigenvalues of 𝐴
 > - 𝑦<sub>𝑖</sub><sup>2</sup>is always positive
 > - thus, the eigenvalues (𝜆<sub>𝑖</sub>) determine the sign of 𝑄(𝑥)
+
 # Resources
-- [https://en.wikipedia.org/wiki/Quadratic_form](https://en.wikipedia.org/wiki/Quadratic_form)
+
+- <https://en.wikipedia.org/wiki/Quadratic_form>

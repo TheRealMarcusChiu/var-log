@@ -1,16 +1,17 @@
 ---
-title: "Fields (Algebraic Structure) - Field Theory"
+publish: true
+title: Fields (Algebraic Structure) - Field Theory
 created: 2023-06-12T17:36:11.525-05:00
 modified: 2026-05-21T01:31:10.547-05:00
-parent: "[[Algebraic Structures]]"
-children:
-  - "[[Finite Fields - Galois Fields]]"
 ---
+
 ###### Fields (Algebraic Structure) - Field Theory
-````excerpt
+
+```excerpt
 - is an [[Algebraic Structures|algebraic structure]]
 - is a set on which addition, subtraction, multiplication, and division are defined and behave as the corresponding operations on rational and [[Real Numbers System|real numbers]] do
-````
+```
+
 ^excerpt
 
 # Fields - Definition & Field Axioms
@@ -161,7 +162,9 @@ children:
   "tableStyle": "letter-spacing: 0.0px;width: 100.0%;"
 }
 ```
+
 # Fields - Examples
+
 - rational numbers
 - [[Real Numbers System|real numbers]]
 - [[Complex Numbers System|complex numbers]]
@@ -169,12 +172,10 @@ children:
 - [algebraic function fields](https://en.wikipedia.org/wiki/Algebraic_function_field)
 - [algebraic number fields](https://en.wikipedia.org/wiki/Algebraic_number_field)
 - [p-adic fields](https://en.wikipedia.org/wiki/P-adic_number)
+
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+
 # Fields - Other
+
 - any field can be used as [[Scalars|scalars]] in a [[Vector Spaces - Linear Spaces|vector space]]
 - [[Fields vs Vector Spaces]]

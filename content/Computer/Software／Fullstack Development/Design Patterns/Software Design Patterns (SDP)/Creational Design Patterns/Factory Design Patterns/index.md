@@ -1,19 +1,16 @@
 ---
-title: "Factory Design Patterns"
+publish: true
+title: Factory Design Patterns
 created: 2023-06-02T11:49:18.450-05:00
 modified: 2026-01-10T14:42:35.020-06:00
-parent: "[[Creational Design Patterns]]"
-children:
-  - "[[Abstract Factory Pattern]]"
-  - "[[Factory Kit Pattern]]"
-  - "[[Factory Method Pattern]]"
-  - "[[Factory of Factory／Factories (FoF) Pattern]]"
-  - "[[Static Factory Method Pattern]]"
 ---
+
 ###### Factory Design Patterns
-````excerpt
+
+```excerpt
 - is a family of [[Creational Design Patterns|creational patterns]] for creating objects
-````
+```
+
 ^excerpt
 
 # Factory Design Patterns - Types
@@ -59,5 +56,7 @@ children:
   ]
 }
 ```
+
 # Resources
-- [https://www.baeldung.com/cs/factory-method-vs-factory-vs-abstract-factory](https://www.baeldung.com/cs/factory-method-vs-factory-vs-abstract-factory)
+
+- <https://www.baeldung.com/cs/factory-method-vs-factory-vs-abstract-factory>

@@ -1,11 +1,12 @@
 ---
-title: "X-ray Crystallography"
+publish: true
+title: X-ray Crystallography
 created: 2022-01-02T03:59:02.201-06:00
 modified: 2022-01-02T05:15:37.415-06:00
-parent: "[[Protein - Structure Capturing]]"
-children: []
 ---
+
 ###### X-Ray Crystallography
+
 - is a method to determine the atomic and molecular structure of a crystal
 - solid crystals of purified protein are placed in an X-ray beam, and the pattern of deflected X rays is used to predict the positions of the thousands of atoms within the protein crystal
 - used for[[Protein - Structure Capturing|capturing protein structure]]

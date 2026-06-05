@@ -1,15 +1,12 @@
 ---
-title: "DNS Encryption"
+publish: true
+title: DNS Encryption
 created: 2019-10-31T19:07:06.543-05:00
 modified: 2026-01-22T22:11:55.755-06:00
-parent: "[[Domain Name System／Service (DNS)]]"
-children:
-  - "[[DNS over HTTPS (DoH)]]"
-  - "[[DNS over HTTP／3 (DoH3)]]"
-  - "[[DNS over QUIC (DoQ)]]"
-  - "[[DNS over TLS (DoT)]]"
 ---
+
 [[DNS Client|DNS queries]] and answers are typically unprotected. [[Encryption|Encrypting]] [[Domain Name System／Service (DNS)|DNS]] would improve user [[Computer Security - Cybersecurity - IT Security|security]]
+
 # DNS Encryption Methods
 
 ```merge-table

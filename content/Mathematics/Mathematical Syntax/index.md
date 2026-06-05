@@ -1,10 +1,10 @@
 ---
-title: "Mathematical Syntax"
+publish: true
+title: Mathematical Syntax
 created: 2021-09-13T05:26:21.414-05:00
 modified: 2023-04-10T21:45:55.609-05:00
-parent: "[[Mathematics]]"
-children: []
 ---
+
 # Numbers & Arrays
 
 ```merge-table
@@ -45,6 +45,7 @@ children: []
   ]
 }
 ```
+
 # Indexing
 
 ```merge-table
@@ -89,6 +90,7 @@ children: []
   ]
 }
 ```
+
 # Variable
 
 ```merge-table
@@ -117,10 +119,13 @@ children: []
   ]
 }
 ```
+
 # Graphical Models Syntax
+
 - is different
 - see: [[Graphical Models]]
 
 # Probabilistic Inference - Syntax
+
 - is different
 - see: [[Probabilistic Inference - Syntax]]

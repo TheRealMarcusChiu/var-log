@@ -1,17 +1,16 @@
 ---
-title: "Video File Formats／Types (Codec)"
+publish: true
+title: Video File Formats／Types (Codec)
 created: 2025-12-25T00:44:01.416-06:00
 modified: 2026-05-10T16:38:19.641-05:00
-parent: "[[Computer Graphics]]"
-children:
-  - "[[AOMedia Video 1 (AV1)]]"
-  - "[[H.264 - Advanced Video Coding (AVC)]]"
-  - "[[H.265 - High Efficiency Video Coding (HEVC)]]"
 ---
+
 ###### Video File Formats/Types (Codec)
-````excerpt
+
+```excerpt
 - are [[Multimedia File Types／Formats|multimedia file formats]] for storing videos
-````
+```
+
 ^excerpt
 
 # Codec Types
@@ -115,8 +114,11 @@ children:
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Other
+
 - [[ffmpeg]]
 
 # Resources
-- [https://en.wikipedia.org/wiki/Video_file_format](https://en.wikipedia.org/wiki/Video_file_format)
+
+- <https://en.wikipedia.org/wiki/Video_file_format>

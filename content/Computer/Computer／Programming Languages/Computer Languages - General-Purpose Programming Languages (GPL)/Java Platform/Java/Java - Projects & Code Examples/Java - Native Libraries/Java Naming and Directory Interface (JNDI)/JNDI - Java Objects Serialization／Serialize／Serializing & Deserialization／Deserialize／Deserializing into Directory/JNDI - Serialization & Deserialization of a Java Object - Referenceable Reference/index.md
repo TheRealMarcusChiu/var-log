@@ -1,14 +1,16 @@
 ---
-title: "JNDI - Serialization & Deserialization of a Java Object - Referenceable Reference"
+publish: true
+title: JNDI - Serialization & Deserialization of a Java Object - Referenceable Reference
 created: 2022-05-28T03:10:04.565-05:00
 modified: 2022-05-28T03:19:30.231-05:00
-parent: "[[JNDI - Java Objects Serialization／Serialize／Serializing & Deserialization／Deserialize／Deserializing into Directory]]"
-children: []
 ---
+
 # Resources
-- [https://docs.oracle.com/javase/jndi/tutorial/objects/storing/reference.html](https://docs.oracle.com/javase/jndi/tutorial/objects/storing/reference.html)
+
+- <https://docs.oracle.com/javase/jndi/tutorial/objects/storing/reference.html>
 
 # Referencable Fruit Class
+
 ```
 import javax.naming.NamingException;
 import javax.naming.Reference;
@@ -35,7 +37,9 @@ public class Fruit implements Referenceable {
     }
 }
 ```
+
 # ObjectFactory for Fruit Class
+
 ```
 public class FruitFactory implements ObjectFactory {
 
@@ -49,7 +53,9 @@ public class FruitFactory implements ObjectFactory {
     }
 } 
 ```
+
 # Serializing & Deserializing Fruit Object
+
 ```
 import javax.naming.Context;
 import javax.naming.InitialContext;

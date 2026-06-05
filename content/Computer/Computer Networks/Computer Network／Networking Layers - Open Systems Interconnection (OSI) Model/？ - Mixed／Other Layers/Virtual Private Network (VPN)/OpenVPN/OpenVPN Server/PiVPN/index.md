@@ -1,32 +1,38 @@
 ---
-title: "PiVPN"
+publish: true
+title: PiVPN
 created: 2019-03-16T23:14:38.605-05:00
 modified: 2025-05-23T22:44:36.606-05:00
-parent: "[[OpenVPN Server]]"
-children:
-  - "[[PiVPN - Proxmox LXC Installation]]"
 ---
+
 ###### PiVPN ([www.pivpn.io](http://www.pivpn.io/))
-````excerpt
+
+```excerpt
 - is the simplest [[OpenVPN]] server setup and configuration
 - designed for [[Raspbian - Raspberry Pi|Raspberry Pi]]
-````
+```
+
 ^excerpt
 
 # Installation
+
 ```
 curl -L https://install.pivpn.io | bash
 ```
+
 # Setup
 
-[http://kamilslab.com/2017/01/22/how-to-turn-your-raspberry-pi-into-a-home-vpn-server-using-pivpn/](http://kamilslab.com/2017/01/22/how-to-turn-your-raspberry-pi-into-a-home-vpn-server-using-pivpn/)
+<http://kamilslab.com/2017/01/22/how-to-turn-your-raspberry-pi-into-a-home-vpn-server-using-pivpn/>
+
 # Commands
+
 ```
 pivpn [option]
 ```
 
 options:
-- <code>-a \[nopass\]</code> or <code>add \[nopass\]</code> - create a client ovpn profile \[optional nopass\]
+
+- <code>-a \[nopass]</code> or <code>add \[nopass]</code> - create a client ovpn profile \[optional nopass]
 - <code>-c</code> or <code>clients</code> - list connected clients
 - <code>-d</code> or <code>debug</code> - start a debugging session
 - <code>-l</code> or <code>list</code> - list all valid and revoked certificates
@@ -35,6 +41,7 @@ options:
 - <code>-u</code> or <code>uninstall</code> - uninstall PiVPN
 
 # Other
+
 ```
 PLAT=Ubuntu
 OSCN=jammy

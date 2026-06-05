@@ -1,13 +1,12 @@
 ---
-title: "Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET - MOS-FET - MOS FET)"
+publish: true
+title: Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET - MOS-FET - MOS FET)
 created: 2023-01-15T04:53:58.800-06:00
 modified: 2023-01-16T01:32:02.541-06:00
-parent: "[[Field-Effect Transistor (FET)]]"
-children:
-  - "[[Complementary Metal-Oxide Semiconductor (CMOS)]]"
-  - "[[Floating-Gate MOSFET／MOS Transistors (FGMOS)]]"
 ---
+
 ###### Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET - MOS-FET - MOS FET)
+
 - is a type of [[Field-Effect Transistor (FET)|field-effect transistor (FET)]], most commonly fabricated by the controlled oxidation of silicon
 
 # MOSFET - What is It?
@@ -24,9 +23,5 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # MOSFET - Types
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

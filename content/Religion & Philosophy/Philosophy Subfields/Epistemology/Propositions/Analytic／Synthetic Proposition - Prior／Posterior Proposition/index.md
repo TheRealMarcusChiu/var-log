@@ -1,14 +1,14 @@
 ---
-title: "Analytic／Synthetic Proposition - Prior／Posterior Proposition"
+publish: true
+title: Analytic／Synthetic Proposition - Prior／Posterior Proposition
 created: 2021-09-13T04:44:22.835-05:00
 modified: 2021-09-13T04:44:22.835-05:00
-parent: "[[Propositions]]"
-children:
-  - "[[A Priori Proposition - A Posteriori Proposition]]"
-  - "[[Analytical Proposition - Synthetic Proposition]]"
 ---
+
 The <strong>[[Analytical Proposition - Synthetic Proposition|analytic/synthetic distinction]]</strong> and the <strong>[[A Priori Proposition - A Posteriori Proposition|a-priori/a-posteriori distinction]]</strong> together yield four types of propositions:
+
 - the 3 non-contradictory proposition types will account for all [[Propositions|propositions]] possible
+
 ```merge-table
 {
   "rows": [

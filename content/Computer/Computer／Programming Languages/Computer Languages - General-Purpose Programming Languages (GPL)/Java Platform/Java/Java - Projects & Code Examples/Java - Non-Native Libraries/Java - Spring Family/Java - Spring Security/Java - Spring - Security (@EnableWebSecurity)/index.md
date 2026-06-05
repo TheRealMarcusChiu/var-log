@@ -1,10 +1,10 @@
 ---
-title: "Java - Spring - Security (@EnableWebSecurity)"
+publish: true
+title: Java - Spring - Security (@EnableWebSecurity)
 created: 2020-12-29T21:46:27.805-06:00
 modified: 2022-01-05T17:45:29.830-06:00
-parent: "[[Java - Spring Security]]"
-children: []
 ---
+
 ```java
 @Configuration
 @EnableWebSecurity
@@ -19,6 +19,7 @@ public class OAuth2LoginSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder amb) {}
 }
 ```
+
 # What is the Use of @EnableWebSecurity
 
 To switch off the default web application security configuration completely you can add a bean with <code><font style="color: rgb(128,128,0);">@EnableWebSecurity</font></code> (this does not disable the authentication manager configuration or Actuator’s security). To customize it you normally use external properties and beans of type <code><font style="color: rgb(122,134,154);">WebSecurityConfigurerAdapter</font></code> (e.g. to add form-based login).

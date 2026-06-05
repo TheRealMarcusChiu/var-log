@@ -1,18 +1,20 @@
 ---
-title: "Money"
+publish: true
+title: Money
 created: 2023-06-08T09:09:36.029-05:00
 modified: 2023-08-23T10:48:24.628-05:00
-parent: "[[Economics／Economy]]"
-children:
-  - "[[M0／MB (Monetary Base) M1 M2 M3 Money Supply]]"
 ---
+
 ###### Money
-````excerpt
+
+```excerpt
 - a current medium of exchange in the form of coins and banknotes; coins and banknotes collectively
-````
+```
+
 ^excerpt
 
 # Money - Functions
+
 - <strong>medium of exchange</strong> - used as an exchange for goods and services
 - <strong>unit of account</strong> - used as a reference point to measure the market value of goods, services, and other transactions
 - <strong>storage of value</strong> - the ability to retain purchasing power into the future

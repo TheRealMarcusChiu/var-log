@@ -1,12 +1,14 @@
 ---
-title: "Stages of Sleep"
+publish: true
+title: Stages of Sleep
 created: 2021-09-13T04:45:38.672-05:00
 modified: 2023-08-02T22:44:22.417-05:00
-parent: "[[Sleep]]"
-children: []
 ---
-TODO: [https://www.ted.com/talks/matt_walker_a_walk_through_the_stages_of_sleep#t-53295](https://www.ted.com/talks/matt_walker_a_walk_through_the_stages_of_sleep#t-53295)
+
+TODO: <https://www.ted.com/talks/matt_walker_a_walk_through_the_stages_of_sleep#t-53295>
+
 # 4 Stages of Sleep
+
 - REM sleep
 - Non-REM (NREM) 1
 - Non-REM (NREM) 2
@@ -14,12 +16,11 @@ TODO: [https://www.ted.com/talks/matt_walker_a_walk_through_the_stages_of_sleep
 
 # Sleep Stage Progressions
 
-One does not go straight from deep sleep to REM sleep, however. Rather, a sleep cycle progress through the stages of non-REM sleep from light to deep sleep, then reverse back from deep sleep to light sleep, ending with REM sleep before starting over from light to deep sleep again
-<span style="white-space: pre-wrap"><code>wake → NREM1 → NREM2 → NREM3 → NREM2 → NREM1 → REM</code><br><code>         ↑\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_↓</code></span>
+One does not go straight from deep sleep to REM sleep, however. Rather, a sleep cycle progress through the stages of non-REM sleep from light to deep sleep, then reverse back from deep sleep to light sleep, ending with REM sleep before starting over from light to deep sleep again <span style="white-space: pre-wrap"><code>wake → NREM1 → NREM2 → NREM3 → NREM2 → NREM1 → REM</code><br><code>         ↑\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_↓</code></span>
 
 # Stages of Sleep Detail
 
-![[Stages of Sleep/1.png|685]]
+![[Science/Human Science/Sleep/Stages of Sleep/1.png|685]]
 
 ```merge-table
 {

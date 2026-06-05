@@ -1,23 +1,11 @@
 ---
-title: "Formal Logical Systems／Languages or Logic Classes"
+publish: true
+title: Formal Logical Systems／Languages or Logic Classes
 created: 2021-09-13T04:44:24.764-05:00
 modified: 2022-03-06T15:29:37.487-06:00
-parent: "[[Logic]]"
-children:
-  - "[[Descriptive／Description Logic (DL)]]"
-  - "[[Event Logic／Calculus]]"
-  - "[[First-Order Logic - Predicate Logic - Predicate Calculus - Quantification Theory]]"
-  - "[[Fluent Calculus]]"
-  - "[[Fuzzy Logic]]"
-  - "[[Lambda Calculus (λ-calculus)]]"
-  - "[[Modal Logic]]"
-  - "[[Probability Theory]]"
-  - "[[Propositional Logic - Propositional Calculus - Sentential Logic - Statement Logic]]"
-  - "[[Second-Order Logic]]"
-  - "[[Semantic Logic／Calculus]]"
-  - "[[Situational Logic／Calculus]]"
 ---
-````excerpt
+
+```excerpt
 [[Formal Logical Systems／Languages or Logic Classes|Formal Logical Systems/Languages or Logic Classes]] are formulations of [[Logic|logic]] that represents <strong><em>[[Knowledge|knowledge]]</em></strong> and <em><strong>[[Reasoning (Argument)|reasoning]]</strong> </em>capabilities
 
 components of a Formal Logical System:
@@ -28,19 +16,16 @@ components of a Formal Logical System:
 <strong>knowledge</strong> is represented with the components: syntax and semantics
 
 <strong>reasoning</strong> capabilities are dependent on the inference engine component used
-````
+```
+
 ^excerpt
 
 # Use Cases
+
 - [[Computer Languages - Logic／Logical Programming Languages|Programming Languages - Logic]]
 - [[Knowledge Representation & Reasoning (KRR - KR² - KR&R) - Machine Reasoning (MR)]]
 
 # Properties of Formal Logic Systems/Languages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = [[Formal Logical Systems／Languages or Logic Classes - Properties]].file.folder + "/" + [[Formal Logical Systems／Languages or Logic Classes - Properties]].file.name
-```
 
 # Formal Logical Systems/Languages or Logic Classes
 

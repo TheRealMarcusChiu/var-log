@@ -1,23 +1,27 @@
 ---
-title: "Short-Time Fourier Transform (STFT)"
+publish: true
+title: Short-Time Fourier Transform (STFT)
 created: 2025-03-08T11:29:33.805-06:00
 modified: 2025-08-18T14:02:41.491-05:00
-parent: "[[Spectrogram Producing Algorithms]]"
-children: []
 ---
+
 ###### Short-Time Fourier Transform (STFT)
-````excerpt
+
+```excerpt
 - represents a signal in the time-frequency domain by computing [[Discrete Fourier Transform (DFT) - Discrete Fourier Series|discrete Fourier transforms (DFT)]] over short overlapping windows
 - it is used to compute a [[Spectrograms|spectrogram]]
-````
+```
+
 ^excerpt
 
 # STFT - Definition
 
 STFT analyzes a signal 𝑥(𝑡) by multiplying it with a <strong>window function</strong> 𝑤(𝑡 − 𝜏) centered at time 𝜏, then taking the [[Fourier Transform - Inverse Fourier Transform|Fourier Transform]]:
+
 - $X(\tau, \omega) = \int_{-\infty}^{\infty} x(t)\, w(t-\tau) \, e^{-i\omega t} dt$
 
 Ordinary [[Fourier Transform - Inverse Fourier Transform|Fourier Transform]] analyzes a signal 𝑥(𝑡) with no window function:
+
 - $X(\tau, \omega) = \int_{-\infty}^{\infty} x(t) e^{-i\omega t} dt$
 
 # Choosing Window Function
@@ -66,6 +70,7 @@ Different window shapes have different trade-offs in <strong>time vs frequency r
   ]
 }
 ```
+
 # Choosing Window/Frame Size
 
 ```merge-table
@@ -150,11 +155,7 @@ Different window shapes have different trade-offs in <strong>time vs frequency r
   ]
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 - [[Short-Time Fourier Transform (STFT) to Wavelet Transform (WT)]]

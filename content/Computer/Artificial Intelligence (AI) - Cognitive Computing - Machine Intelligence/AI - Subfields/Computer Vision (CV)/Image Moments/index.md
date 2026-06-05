@@ -1,11 +1,10 @@
 ---
-title: "Image Moments"
+publish: true
+title: Image Moments
 created: 2020-01-18T22:09:49.518-06:00
 modified: 2023-06-02T23:05:25.702-05:00
-parent: "[[Computer Vision (CV)]]"
-children:
-  - "[[Rotation Moment Invariants for Recognition of Symmetric Objects]]"
 ---
+
 # Moment Types
 
 see [[Raw Moments - Moments About the Origin／Zero - Central／Mean Moments - Moments About The Mean - (Zeroth／First／Second／Third／Fourth／kth／nth) -  of a Probability Density Function|Raw Moments - Moments About the Origin/Zero - Central/Mean Moments - Moments About The Mean - (Zeroth/First/Second/Third/Fourth/kth/nth) -  of a Probability Density Function]]
@@ -66,6 +65,8 @@ see [[Raw Moments - Moments About the Origin／Zero - Central／Mean Moments - M
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Coding Moments With OpenCV
-- [https://www.learnopencv.com/shape-matching-using-hu-moments-c-python/](https://www.learnopencv.com/shape-matching-using-hu-moments-c-python/)
-- [https://docs.opencv.org/master/d5/d45/tutorial_py_contours_more_functions.html](https://docs.opencv.org/master/d5/d45/tutorial_py_contours_more_functions.html)
+
+- <https://www.learnopencv.com/shape-matching-using-hu-moments-c-python/>
+- <https://docs.opencv.org/master/d5/d45/tutorial_py_contours_more_functions.html>

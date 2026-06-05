@@ -1,11 +1,12 @@
 ---
-title: "(Prefix - Infix - Postfix) Notations"
+publish: true
+title: (Prefix - Infix - Postfix) Notations
 created: 2019-03-16T03:17:30.360-05:00
 modified: 2021-09-04T20:28:25.408-05:00
-parent: "[[Expressions (Computer Science)]]"
-children: []
 ---
+
 ###### (Prefix - Infix - Postfix) Notations
+
 - are three different but equivalent ways of writing [[Expressions (Computer Science)|expressions]]
 
 # Examples

@@ -1,10 +1,10 @@
 ---
-title: "UNIX Shell - Types (Interactive - Non-Interactive - Login - Non-Login)"
+publish: true
+title: UNIX Shell - Types (Interactive - Non-Interactive - Login - Non-Login)
 created: 2019-12-24T21:50:04.231-06:00
 modified: 2023-05-31T18:00:57.667-05:00
-parent: "[[UNIX - Shell]]"
-children: []
 ---
+
 # Interactive vs Non-Interactive
 
 ```merge-table
@@ -29,6 +29,7 @@ children: []
   ]
 }
 ```
+
 # Login vs Non-Login
 
 ```merge-table

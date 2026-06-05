@@ -1,12 +1,11 @@
 ---
-title: "Motherboard - Sizes (ATX - ITX)"
+publish: true
+title: Motherboard - Sizes (ATX - ITX)
 created: 2023-08-10T22:02:16.522-05:00
 modified: 2025-10-14T15:34:54.128-05:00
-parent: "[[Motherboard (MoBo)]]"
-children: []
 ---
-<strong>Advanced Technology eXtended (ATX)</strong> - bigger
-<strong>Information Technology eXtended (ITX)</strong> - smaller
+
+<strong>Advanced Technology eXtended (ATX)</strong> - bigger <strong>Information Technology eXtended (ITX)</strong> - smaller
 
 ```merge-table
 {

@@ -1,16 +1,13 @@
 ---
-title: "(X - X11 - X Window System) Core Protocol"
+publish: true
+title: (X - X11 - X Window System) Core Protocol
 created: 2019-12-30T20:28:58.559-06:00
 modified: 2024-06-29T11:50:39.794-05:00
-parent: "[[Display Server - Windowing Systems - Window Systems]]"
-children:
-  - "[[MacX]]"
-  - "[[X.Org]]"
-  - "[[XFree86]]"
-  - "[[XQuartz]]"
 ---
+
 ###### (X - X11 - X Window System) Core Protocol
-````excerpt
+
+```excerpt
 - <strong>X Window System</strong> (<strong>X11</strong>, or simply <strong>X</strong>)
 - X11 is a [[Display Server - Windowing Systems - Window Systems|windowing-system]] for [[Bitmap (BMP)|bitmap]] displays, common on [[UNIX]]-like[[Operating Systems (OS)|operating systems]]
 - X11 is a "major version" of the X protocol, which has evolved since inception
@@ -18,7 +15,8 @@ children:
 - X11 is based on a client–server model:
 	- a single server controls the input/output hardware, such as the screen, the keyboard, and the mouse
 	- all application programs act as clients, interacting with the user and with the other clients via the server
-````
+```
+
 ^excerpt
 
 # X Protocol - Server Client Model
@@ -56,10 +54,12 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # X Protocol - Implementations
 
 Implementations of a X server, X libraries and a collection of clients, all talking X11:
-- <strong>[[XFree86]]</strong> - largely defunct (deprecated \~2009?)
+
+- <strong>[[XFree86]]</strong> - largely defunct (deprecated ~2009?)
 - <strong>[[X.Org|X.org]] </strong>- forked off XFree86 during 2003. fundamental technology underlying both the modern [[GNOME Desktop (GNU Network Object Model Environment)|GNOME]] and [[KDE Plasma - KDE Desktop (K Desktop Environment)|KDE]] desktops and older [[CDE Desktop (Common Desktop Environment)|CDE]] desktop environment
-- <strong>[[MacX]]</strong> - official X11 implementation for Mac OS X (support removed \~2009)
+- <strong>[[MacX]]</strong> - official X11 implementation for Mac OS X (support removed ~2009)
 - <strong>[[XQuartz]]</strong> - open source community effort to further develop and support X11 on [[Macintosh OSs (Mac OS X) - macOS|Mac OS X]]

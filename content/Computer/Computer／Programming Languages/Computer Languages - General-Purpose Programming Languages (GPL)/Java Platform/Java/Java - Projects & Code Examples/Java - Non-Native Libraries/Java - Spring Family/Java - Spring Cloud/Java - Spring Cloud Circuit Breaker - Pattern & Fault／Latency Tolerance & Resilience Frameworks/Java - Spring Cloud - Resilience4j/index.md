@@ -1,17 +1,20 @@
 ---
-title: "Java - Spring Cloud - Resilience4j"
+publish: true
+title: Java - Spring Cloud - Resilience4j
 created: 2021-03-28T15:02:49.171-05:00
 modified: 2022-12-22T09:57:13.209-06:00
-parent: "[[Java - Spring Cloud Circuit Breaker - Pattern & Fault／Latency Tolerance & Resilience Frameworks]]"
-children: []
 ---
+
 see: [[Java - Resilience4j]]
+
 ### Code Example
-- [https://github.com/SpringBootMarcusChiu/resilience4j-example](https://github.com/SpringBootMarcusChiu/resilience4j-example)
+
+- <https://github.com/SpringBootMarcusChiu/resilience4j-example>
 
 # 1 - Declare Dependencies
 
 dependencies pom.xml
+
 ```xml
 <!-- Resilience4j -->
 <dependency>
@@ -31,13 +34,16 @@ dependencies pom.xml
 	<artifactId>spring-boot-starter-aop</artifactId>
 </dependency>
 ```
+
 # 2 - Configure Resilience4j's Circuit Breakers
 
 two ways to configure Resilience4j's CircuitBreakers:
+
 - programmatically
 - application.yml and let Spring auto-configure beans
 
 ###### Programmatically
+
 ```java
 import io.github.resilience4j.common.circuitbreaker.configuration.CircuitBreakerConfigCustomizer;
 import org.springframework.context.annotation.Bean;
@@ -64,7 +70,9 @@ public class CircuitBreakerConfig {
     }
 }
 ```
+
 ###### Via application.yml & Spring Auto-Configuration
+
 ```yml
 resilience4j.circuitbreaker:
   instances:
@@ -82,7 +90,9 @@ resilience4j.circuitbreaker:
       eventConsumerBufferSize: 10
 # see example code for more
 ```
+
 # 3 - Using Configured Circuit Breakers
+
 ```java
 import io.github.resilience4j.bulkhead.annotation.Bulkhead;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;

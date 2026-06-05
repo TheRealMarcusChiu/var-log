@@ -1,15 +1,17 @@
 ---
-title: "Decibel-Milliwatts (dBm)"
+publish: true
+title: Decibel-Milliwatts (dBm)
 created: 2023-04-15T17:25:59.866-05:00
 modified: 2023-04-16T09:27:31.377-05:00
-parent: "[[Decibels (dB)]]"
-children: []
 ---
+
 ###### Decibel-Milliwatts (dBm)
-````excerpt
+
+```excerpt
 - is a unit of level used to indicate that a power level is expressed in [[Decibels (dB)|decibels (dB)]] with reference to one milliwatt (mW)
 - it is used in radio, microwave, and fiber-optical communication networks as a convenient measure of absolute power because of its capability to express both very large and very small values in a short form. dBW is a similar unit, referenced to one watt (1,000 mW)
-````
+```
+
 ^excerpt
 
 # bDm - Unit Conversions
@@ -17,9 +19,11 @@ children: []
 A power level of 0 dBm corresponds to a power of 1 milliwatt. A 10 dB increase in level is equivalent to a ten-fold increase in power. Therefore, a 20 dB increase in level is equivalent to a 100-fold increase in power. A 3 dB increase in level is approximately equivalent to doubling the power, which means that a level of 3 dBm corresponds roughly to a power of 2 mW. Similarly, for each 3 dB decrease in level, the power is reduced by about one-half, making −3 dBm correspond to a power of about 0.5 mW.
 
 To express an arbitrary power 𝑃 in 𝑚𝑊 as 𝑥 in 𝑑𝐵𝑚, the following expression may be used:
+
 - $x = 10\log_{10}(\dfrac{P}{1\ mW})$
 
 Conversely, to express an arbitrary power level 𝑥 in 𝑑𝐵𝑚, as 𝑃 in 𝑚𝑊:
+
 - $P = 1\ mW \cdot 10^{x/10}$
 
 # dBm - Examples

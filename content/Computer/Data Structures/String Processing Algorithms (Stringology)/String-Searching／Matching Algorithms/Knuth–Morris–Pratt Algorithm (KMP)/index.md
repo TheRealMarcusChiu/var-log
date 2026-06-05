@@ -1,17 +1,20 @@
 ---
-title: "Knuth–Morris–Pratt Algorithm (KMP)"
+publish: true
+title: Knuth–Morris–Pratt Algorithm (KMP)
 created: 2023-03-02T21:10:47.722-06:00
 modified: 2023-03-02T22:04:13.806-06:00
-parent: "[[String-Searching／Matching Algorithms]]"
-children: []
 ---
+
 ###### Knuth–Morris–Pratt Algorithm (KMP)
-````excerpt
+
+```excerpt
 - is a type of [[String-Searching／Matching Algorithms|string-matching algorithm]]
-````
+```
+
 ^excerpt
 
 # KMP - Algorithm
+
 ```
 algorithm kmp_search:
     input:
@@ -42,6 +45,7 @@ algorithm kmp_search:
                 let j ← j + 1
                 let k ← k + 1
 ```
+
 # Partial Match Table
 
 Therefore, we compile the following table:

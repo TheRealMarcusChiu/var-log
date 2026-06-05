@@ -1,20 +1,20 @@
 ---
-title: "Key Infrastructures"
+publish: true
+title: Key Infrastructures
 created: 2019-11-22T12:18:10.460-06:00
 modified: 2025-12-19T23:29:10.208-06:00
-parent: "[[Encryption]]"
-children:
-  - "[[Public Key Infrastructure (PKI)]]"
-  - "[[Resource Public Key Infrastructure (RPKI)]]"
-  - "[[Trusted Intermediaries (TI) - Trusted Third Party (TTP)]]"
 ---
+
 ###### Key Infrastructure
-````excerpt
+
+```excerpt
 - is a set of roles and procedures needed to: create, manage, distribute, use, store and revoke certificates
-````
+```
+
 ^excerpt
 
 # Key Infrastructure Types
+
 - [[Public Key Infrastructure (PKI)]] - used for secure web browsing
 - [[Resource Public Key Infrastructure (RPKI)]] - used for secure [[Border Gateway Protocol (BGP)|BGP]] updates
 

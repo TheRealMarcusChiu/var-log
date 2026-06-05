@@ -1,10 +1,10 @@
 ---
-title: "Simple LR - Intercept Estimate and Slope Estimate - Expectation／Variance／Standard-Deviation Conditional on {𝑥₁, ..., 𝑥ₙ}"
+publish: true
+title: Simple LR - Intercept Estimate and Slope Estimate - Expectation／Variance／Standard-Deviation Conditional on {𝑥₁, ..., 𝑥ₙ}
 created: 2024-01-24T14:45:44.707-06:00
 modified: 2024-02-12T12:09:13.741-06:00
-parent: "[[Univariate／Single-Variable／Simple Linear Regression Models]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

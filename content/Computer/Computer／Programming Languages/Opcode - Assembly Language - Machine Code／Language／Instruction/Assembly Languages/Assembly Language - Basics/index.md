@@ -1,13 +1,13 @@
 ---
-title: "Assembly Language - Basics"
+publish: true
+title: Assembly Language - Basics
 created: 2020-01-04T15:36:11.936-06:00
 modified: 2023-01-02T11:33:53.228-06:00
-parent: "[[Assembly Languages]]"
-children: []
 ---
+
 # Program Sections
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -46,7 +46,8 @@ children: []
   ],
   "tableStyle": "width: 1071.2px;"
 }
-```
+````
+
 # Statement Types
 
 ```merge-table
@@ -89,12 +90,15 @@ children: []
   "tableStyle": "width: 1071.2px;"
 }
 ```
+
 # Syntax of a Statement
+
 ```
 [label]	mnemonic	[operands]	[;comment]
 ```
 
 some examples of typical statements
+
 ```
 INC COUNT		; Increment the memory variable COUNT
 

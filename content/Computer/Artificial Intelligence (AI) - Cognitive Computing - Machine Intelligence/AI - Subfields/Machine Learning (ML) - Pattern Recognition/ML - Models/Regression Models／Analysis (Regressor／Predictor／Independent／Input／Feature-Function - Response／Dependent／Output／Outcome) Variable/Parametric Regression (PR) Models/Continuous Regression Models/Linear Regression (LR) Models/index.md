@@ -1,31 +1,13 @@
 ---
-title: "Linear Regression (LR) Models"
+publish: true
+title: Linear Regression (LR) Models
 created: 2020-09-30T20:26:33.855-05:00
 modified: 2024-02-21T11:32:35.635-06:00
-parent: "[[Continuous Regression Models]]"
-children:
-  - "[[Bayesian Linear Regression]]"
-  - "[[Cook's Distance]]"
-  - "[[Elastic Net Regression (Ridge & LASSO)]]"
-  - "[[LASSO Regression (Least Absolute Shrinkage and Selection Operator)]]"
-  - "[[LR - ANOVA Table]]"
-  - "[[LR - Categorical Predictor Variables]]"
-  - "[[LR - Methods Estimating Unknown Regression Coefficients]]"
-  - "[[LR - Model Building]]"
-  - "[[LR - Problems]]"
-  - "[[LR - R Code Examples]]"
-  - "[[LR - Standard Regression Assumptions]]"
-  - "[[LR - Tests - Derivation of F-Statistic]]"
-  - "[[LR - Tests - Derivation of Student T-Statistic]]"
-  - "[[Linear Regression (LR) Models - Comparisons]]"
-  - "[[Mallow's Cp Statistic]]"
-  - "[[Multivariate／Multiple Linear Regression Models]]"
-  - "[[Ordinary Least Squares (OLS) Regression]]"
-  - "[[Ridge Regression]]"
-  - "[[Univariate／Single-Variable／Simple Linear Regression Models]]"
 ---
+
 ###### Linear Regression (LR) Models
-````excerpt
+
+```excerpt
 - is a type of [[Continuous Regression Models|continuous regression model]] whose function/estimator is linear with respect to the regression coefficients {𝜃<sub>0</sub>, ..., 𝜃<sub>𝑝</sub>}:
 - 𝑦̂ = 𝜃<sub>0</sub> + 𝜃<sub>1</sub>𝑓<sub>1</sub>(𝒙) + ... + 𝜃<sub>𝑝</sub>𝑓<sub>𝑝</sub>(𝒙)
 - models the relationship between:
@@ -45,25 +27,29 @@ children:
 	- <font style="color: rgb(0,128,0);">deterministic</font> component is the portion of the variation in the dependent variable that the independent variables explain. In other words, the mean of the dependent variable is a function of the independent variables. In a regression model, all of the explanatory power should reside here
 	- <font style="color: rgb(128,0,0);">error</font> is the difference between the expected value 𝑦̂ and the observed value 𝑦. Let’s put these terms together—the gap between the expected and observed values must not be predictable. Or, no explanatory power should be in the error. If you can use the error to make predictions about the response, your model has a problem. This issue is where [[Residual Plot - Partial Residual Plot|residual plots]] play a role.
 	- the theory here is that the deterministic component of a regression model does such a great job of explaining the dependent variable that it leaves only the intrinsically inexplicable portion of your study area for the error. If you can identify non-randomness in the error term, your independent variables are not explaining everything that they can
-````
+```
+
 ^excerpt
 
 # LR - Steps
+
 given sample/training data:
-- (𝑦<sub>1</sub>, 𝑥<sub>11</sub>, ..., 𝑥<sub>1𝑘</sub>) <font style="color: rgb(128,128,128);">\# sample 1</font>
-- (𝑦<sub>2</sub>, 𝑥<sub>21</sub>, ..., 𝑥<sub>2𝑘</sub>)<font style="color: rgb(128,128,128);"> \# sample 2</font>
+
+- (𝑦<sub>1</sub>, 𝑥<sub>11</sub>, ..., 𝑥<sub>1𝑘</sub>) <font style="color: rgb(128,128,128);"># sample 1</font>
+- (𝑦<sub>2</sub>, 𝑥<sub>21</sub>, ..., 𝑥<sub>2𝑘</sub>)<font style="color: rgb(128,128,128);"> # sample 2</font>
 - ...
-- (𝑦<sub>𝑛</sub>, 𝑥<sub>𝑛1</sub>, ..., 𝑥<sub>𝑛𝑘</sub>)<font style="color: rgb(128,128,128);"> \# sample 𝑛</font>
+- (𝑦<sub>𝑛</sub>, 𝑥<sub>𝑛1</sub>, ..., 𝑥<sub>𝑛𝑘</sub>)<font style="color: rgb(128,128,128);"> # sample 𝑛</font>
 
 the task of Linear Regression:
+
 - choose line equation form, such as:
-	- 𝐄\[𝑌|𝑋<sub>1</sub>=𝑥<sub>1</sub>\] = 𝑦̂ = ℎ(𝑥<sub>1</sub>) = 𝜃<sub>0</sub>+ 𝜃<sub>1</sub>𝑥<sub>1</sub><font style="color: rgb(128,128,128);">\# univariate linear regression</font>
-	- 𝐄\[𝑌|𝑋<sub>1</sub>=𝑥<sub>1</sub>, 𝑋<sub>2</sub>=𝑥<sub>2</sub>\] = 𝑦̂ = ℎ(𝑥<sub>1</sub>,𝑥<sub>2</sub>) = 𝜃<sub>0</sub>+ 𝜃<sub>1</sub>𝑥<sub>1</sub> + 𝜃<sub>2</sub>𝑥<sub>2</sub><font style="color: rgb(128,128,128);">\# multivariate linear regression</font>
-	- 𝐄\[𝑌|𝑋<sub>1</sub>=𝑥<sub>1</sub>, 𝑋<sub>2</sub>=𝑥<sub>2</sub>\] = 𝑦̂ = ℎ(𝑥<sub>1</sub>,𝑥<sub>2</sub>) = 𝜃<sub>0</sub>+ 𝜃<sub>1</sub>𝑥<sub>1</sub>𝑥<sub>2</sub>+ 𝜃<sub>2</sub>𝑥<sub>1</sub><sup>2</sup> + 𝜃<sub>3</sub>𝑥<sub>2</sub><font style="color: rgb(128,128,128);">\# multiple linear regression</font>
+  - 𝐄\[𝑌|𝑋<sub>1</sub>=𝑥<sub>1</sub>] = 𝑦̂ = ℎ(𝑥<sub>1</sub>) = 𝜃<sub>0</sub>+ 𝜃<sub>1</sub>𝑥<sub>1</sub><font style="color: rgb(128,128,128);"># univariate linear regression</font>
+  - 𝐄\[𝑌|𝑋<sub>1</sub>=𝑥<sub>1</sub>, 𝑋<sub>2</sub>=𝑥<sub>2</sub>] = 𝑦̂ = ℎ(𝑥<sub>1</sub>,𝑥<sub>2</sub>) = 𝜃<sub>0</sub>+ 𝜃<sub>1</sub>𝑥<sub>1</sub> + 𝜃<sub>2</sub>𝑥<sub>2</sub><font style="color: rgb(128,128,128);"># multivariate linear regression</font>
+  - 𝐄\[𝑌|𝑋<sub>1</sub>=𝑥<sub>1</sub>, 𝑋<sub>2</sub>=𝑥<sub>2</sub>] = 𝑦̂ = ℎ(𝑥<sub>1</sub>,𝑥<sub>2</sub>) = 𝜃<sub>0</sub>+ 𝜃<sub>1</sub>𝑥<sub>1</sub>𝑥<sub>2</sub>+ 𝜃<sub>2</sub>𝑥<sub>1</sub><sup>2</sup> + 𝜃<sub>3</sub>𝑥<sub>2</sub><font style="color: rgb(128,128,128);"># multiple linear regression</font>
 - where:
-	- 𝐄\[𝑌|..\] and 𝑦̂ and ℎ(..) - scalar response/dependent variable or hypothesis function conditional on 𝑥<sub>𝑖</sub>'s
-	- 𝑥<sub>𝑖</sub> - regressors or explanatory/predictor/covariate/independent variables
-	- 𝜃<sub>𝑖</sub> - regression coefficients/weights
+  - 𝐄\[𝑌|..] and 𝑦̂ and ℎ(..) - scalar response/dependent variable or hypothesis function conditional on 𝑥<sub>𝑖</sub>'s
+  - 𝑥<sub>𝑖</sub> - regressors or explanatory/predictor/covariate/independent variables
+  - 𝜃<sub>𝑖</sub> - regression coefficients/weights
 - estimate/find the values of the regression coefficients 𝜃<sub>𝑖</sub>which best fit the line equation to the data
 - determine whether its a [[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)|goodfit]]
 
@@ -108,10 +94,13 @@ the task of Linear Regression:
   ]
 }
 ```
+
 # LR - Methods for Estimating Coefficients (𝜃<sub>𝑖</sub>)
 
 ![[LR - Methods Estimating Unknown Regression Coefficients#^excerpt]]
+
 # LR - Model Types
+
 ````excerpt
 [[Linear Regression (LR) Models|Linear Regression Models]] - takes an input vector 𝑥∊ℝ<sup>𝑛</sup> as input and predicts the value of a <strong>scalar </strong>𝑦∊ℝ as output (whose function/estimator is linear wrt the regression coefficients {𝜃<sub>0</sub>, ..., 𝜃<sub>𝑝</sub>})
 
@@ -212,23 +201,25 @@ the task of Linear Regression:
 }
 ```
 ````
+
 ^excerpt
 
 # LR - Methods for Determining How Well The Fitted Line Describes the Data
+
 - [[Model - Performance／Accuracy／Evaluation／Goodness-of-Fit Measures／Metrics／Analysis|Model - Performance/Accuracy/Evaluation/Goodness-of-Fit Measures/Metrics/Analysis]]
 
 # LR - Methods for Diagnosing Bias Variance
+
 - [[ML - Diagnosing Model Bias／Underfit vs Variance／Overfit - Linear Regression|ML - Diagnosing Model Bias/Underfit vs Variance/Overfit - Linear Regression]]
 - [[LR - Model Building]]
 
 # LR - Subpages
+
 - [[Linear Regression vs Gaussian Regression]]
+
 > [!list-indent-undo]
-> ```dataview
-> LIST
-> FROM ""
-> WHERE file.folder = this.file.folder + "/" + this.file.name
-> ```
+
 # LR - Resources
-- [Zed Statistics Regression Playlist](https://www.youtube.com/watch?v=aq8VU5KLmkY&list=PLTNMv857s9WUI1Nz4SssXDKAELESXz-bi)
+
+- [Zed Statistics Regression Playlist](https://www.youtube.com/watch?v=aq8VU5KLmkY\&list=PLTNMv857s9WUI1Nz4SssXDKAELESXz-bi)
 - StatQuest Linear Models: [Part 1](https://www.youtube.com/watch?v=nk2CQITm_eo) & [Part 2](https://www.youtube.com/watch?v=NF5_btOaCig)

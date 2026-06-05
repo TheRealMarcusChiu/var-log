@@ -1,12 +1,11 @@
 ---
-title: "Statistics - Terminology"
+publish: true
+title: Statistics - Terminology
 created: 2021-09-13T05:29:20.840-05:00
 modified: 2024-02-12T17:45:02.842-06:00
-parent: "[[Statistics]]"
-children:
-  - "[[Chance Error - Sample／Sampling Bias／Error]]"
 ---
-````excerpt
+
+```excerpt
 Some may argue that statisticians are not really interested in generalizing from a sample to a specified population but to an idealized super­population spanning space and time
 
 ![[Statistics - Terminology/statistics.png|400]]
@@ -48,5 +47,6 @@ best course on statistics: [https://bolt.mph.ufl.edu/6050-6052/](https://bolt.mp
 > Usually, a statistical model is guessed (exponential, binomial, normal, uniform, Bernoulli, etc) using <strong>[[Exploratory Data Analysis (EDA)|Exploratory Data Analysis]]</strong>, then its parameters are <strong>inferred</strong> (estimated) by applying statistical inference (say, algorithms involving loss function minimization) to arrive at a stochastic model (statistical model with known parameters) (a.k.a. <strong>Estimator</strong>) that captures our knowledge about the random process.
 >
 > The term '<strong>Probability Model</strong>' (probabilistic model) is usually an alias for stochastic models.
-````
+```
+
 ^excerpt

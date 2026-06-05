@@ -1,10 +1,10 @@
 ---
-title: "Degrees of Freedom (DoF - df)"
+publish: true
+title: Degrees of Freedom (DoF - df)
 created: 2021-09-13T05:28:37.610-05:00
 modified: 2023-08-31T10:58:50.762-05:00
-parent: "[[Probability Terminology]]"
-children: []
 ---
+
 ###### Degrees of Freedom
 
 degrees of freedom (𝑑𝑓) = sample size (𝑛) - 1

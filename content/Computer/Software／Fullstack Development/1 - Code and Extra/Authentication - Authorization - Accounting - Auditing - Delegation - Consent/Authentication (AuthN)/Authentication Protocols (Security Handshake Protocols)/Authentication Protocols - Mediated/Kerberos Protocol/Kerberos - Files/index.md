@@ -1,10 +1,10 @@
 ---
-title: "Kerberos - Files"
+publish: true
+title: Kerberos - Files
 created: 2022-09-03T19:27:01.217-05:00
 modified: 2022-09-03T19:28:08.846-05:00
-parent: "[[Kerberos Protocol]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

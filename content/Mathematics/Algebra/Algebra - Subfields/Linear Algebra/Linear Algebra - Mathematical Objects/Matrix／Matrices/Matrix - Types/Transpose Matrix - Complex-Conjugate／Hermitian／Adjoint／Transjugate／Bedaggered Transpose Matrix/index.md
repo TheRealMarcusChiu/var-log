@@ -1,10 +1,10 @@
 ---
-title: "Transpose Matrix - Complex-Conjugate／Hermitian／Adjoint／Transjugate／Bedaggered Transpose Matrix"
+publish: true
+title: Transpose Matrix - Complex-Conjugate／Hermitian／Adjoint／Transjugate／Bedaggered Transpose Matrix
 created: 2021-09-13T05:26:03.439-05:00
 modified: 2023-09-18T14:58:53.794-05:00
-parent: "[[Matrix - Types]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

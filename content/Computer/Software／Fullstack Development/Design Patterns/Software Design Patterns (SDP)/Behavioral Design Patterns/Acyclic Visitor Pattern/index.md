@@ -1,17 +1,20 @@
 ---
-title: "Acyclic Visitor Pattern"
+publish: true
+title: Acyclic Visitor Pattern
 created: 2021-10-23T23:26:05.171-05:00
 modified: 2023-06-02T16:52:15.011-05:00
-parent: "[[Behavioral Design Patterns]]"
-children: []
 ---
+
 # Problem
+
 > We have a hierarchy of shape classes. The shapes in this hierarchy need to be visited by an external algorithm based on filtering criteria (is it Triangle or Square compatible)
 
 The <strong>Acyclic Visitor Pattern</strong> allows new functions to be added to existing class hierarchies without affecting those hierarchies, and without creating the dependency cycles that are inherent to the GangOfFour [[Visitor Pattern]]
+
 # Solution
 
 Instead of a single <code><font style="color: rgb(122,134,154);">ShapeVistor</font></code> interface, we define an interface for each shape
+
 ```
 interface BaseVisitor {}
 interface TriangleVisitor extends BaseVisitor {
@@ -30,6 +33,7 @@ interface TriangleSquareVisitor extends TriangleVisitor, SquareVisitor {}
 ```
 
 Create classes implementing the preferred visitor interface
+
 ```
 class TaskA_AllVisitor implements AllVisitor {
     void visitTriangle(Triangle triangle)    { sout("Triangle implementation Task A"); }
@@ -47,6 +51,7 @@ class TaskC_TriangleVisitor implements TriangleVisitor {
 ```
 
 Next, either define a new interface (or add accept method in the <code><font style="color: rgb(122,134,154);">Shape</font></code> class)
+
 ```
 interface AcceptShapeVisitor {
     void accept(BaseVisitor visitor);
@@ -54,6 +59,7 @@ interface AcceptShapeVisitor {
 ```
 
 Now modify the shape classes
+
 ```
 class Triangle extends Shape implements AcceptShapeVisitor {
     public void accept(BaseVisitor visitor) {
@@ -86,6 +92,7 @@ class Circle extends Shape implements AcceptShapeVisitor {
 ```
 
 You are done! Using it will look something like this:
+
 ```
 public static void main(String[] args) {
     List<AcceptShapeVisitor> shapes = List.of(new Triangle(), new Square(), new Circle(), etc);           
@@ -100,5 +107,7 @@ public static void main(String[] args) {
     // etc
 }
 ```
+
 # Resources
-- [https://java-design-patterns.com/patterns/acyclic-visitor/](https://java-design-patterns.com/patterns/acyclic-visitor/)
+
+- <https://java-design-patterns.com/patterns/acyclic-visitor/>

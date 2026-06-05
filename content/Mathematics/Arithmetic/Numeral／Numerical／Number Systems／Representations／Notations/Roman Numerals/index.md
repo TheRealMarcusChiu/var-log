@@ -1,10 +1,10 @@
 ---
-title: "Roman Numerals"
+publish: true
+title: Roman Numerals
 created: 2022-02-26T21:34:43.735-06:00
 modified: 2022-02-26T21:43:24.666-06:00
-parent: "[[Numeral／Numerical／Number Systems／Representations／Notations]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

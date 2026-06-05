@@ -1,11 +1,12 @@
 ---
-title: "Explaining C Pointers Like I'm 5 (Pass By Pointer／Reference／Value)"
+publish: true
+title: Explaining C Pointers Like I'm 5 (Pass By Pointer／Reference／Value)
 created: 2021-12-12T00:32:55.408-06:00
 modified: 2021-12-12T01:48:40.649-06:00
-parent: "[[C／C++／Carbon／Rust]]"
-children: []
 ---
+
 see: [[Pass by Reference - Pass by Value - Pass by Pointer]]
+
 # Explaining C Pointers Like I'm 5
 
 You live in a town with only one very, <em>very</em> long street. Your house is on this street. Your house has a number on it: an address. If you write this address down on a piece of paper, you have just created a <strong>pointer</strong> to your house.
@@ -21,6 +22,7 @@ There are a few things to watch out for with pointers, however.
 An address of "0" is called a <strong>null pointer</strong>. It's something everyone has agreed upon for "no address". If you give anyone an address of 0, they'll know not to bother trying to come over for lunch - the address doesn't exist. If you don't know the address, set it to this.
 
 If you write down some random number as the address, this is called a <strong>wild pointer</strong>, and it's a very bad thing. If you gave someone this address, any number of unpredictable outcomes could happen (what we call <strong>undefined behavior</strong>)...
+
 - They could walk into a total stranger's house and get stopped or arrested before they can polish off the meatloaf. A computer has several run-time errors that it might throw, the most familiar of these being a <strong>segmentation fault</strong>.
 - The person could walk into the wrong house and because they think it's yours and you had invited them over for lunch, they could do something totally weird...like eat all the pickles in the unsuspecting person's fridge. (Rule of thumb: "If the error is weird, it's memory-related; it often has to do with pointers.)
 - The person could try to go to a house and find an empty lot. Then they wander around in the empty lot, confused and disillusioned. Desperate for the promised lunch, they may even start eating sticks and rocks. (This is called <strong>accessing uninitialized memory</strong>, and the outcome is also quite unpredictable.)

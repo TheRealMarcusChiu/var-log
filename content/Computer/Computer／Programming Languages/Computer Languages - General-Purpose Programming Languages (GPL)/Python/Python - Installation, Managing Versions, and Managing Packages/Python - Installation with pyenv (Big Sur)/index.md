@@ -1,13 +1,14 @@
 ---
-title: "Python - Installation with pyenv (Big Sur)"
+publish: true
+title: Python - Installation with pyenv (Big Sur)
 created: 2020-11-18T19:09:50.657-06:00
 modified: 2020-11-18T19:14:33.012-06:00
-parent: "[[Python - Installation, Managing Versions, and Managing Packages]]"
-children: []
 ---
+
 ```
 brew install zlib openssl readline tcl-tk
 ```
+
 ```
 export LDFLAGS="${LDFLAGS} -L$(brew --prefix zlib)/lib"
 export LDFLAGS="${LDFLAGS} -L$(brew --prefix openssl)/lib"
@@ -32,6 +33,7 @@ export PKG_CONFIG_PATH="${PKG_CONFIG_PATH} $(brew --prefix tcl-tk)/lib/pkgconfig
 
 export PYTHON_CONFIGURE_OPTS="${PYTHON_CONFIGURE_OPTS} --with-tcltk-includes='-I$(brew --prefix tcl-tk)/include' --with-tcltk-libs='-L$(brew --prefix tcl-tk)/lib -ltcl8.6 -ltk8.6'"
 ```
+
 ```
 pyenv uninstall (version)
 pyenv install (version)

@@ -1,10 +1,10 @@
 ---
-title: "LP - Duality"
+publish: true
+title: LP - Duality
 created: 2021-09-13T05:26:16.765-05:00
 modified: 2021-09-13T05:26:16.765-05:00
-parent: "[[Linear Programming／Optimization (LP)]]"
-children: []
 ---
+
 # <strong>Linear Programming Problem Duality</strong>
 
 ```merge-table
@@ -30,11 +30,13 @@ children: []
   "tableStyle": "width: 85.8365%;"
 }
 ```
+
 # <strong>Lemma 1 (Weak Duality Lemma)</strong>
 
 If x and λ are feasible for Primal and dual, respectively, then c<sup>T</sup>x ≥ λ<sup>T</sup>b
 
 It means that the objective function value of the primal is always greater than or equal to the objective function value of the dual. In other words any feasible solution of the primal minimization problem is an upper bound on the dual maximization optimum. Similarly, any feasible solution of the dual maximization task is a lower bound on the primal minimization optimum
+
 # <strong>Example Primal Dual</strong>
 
 ```merge-table

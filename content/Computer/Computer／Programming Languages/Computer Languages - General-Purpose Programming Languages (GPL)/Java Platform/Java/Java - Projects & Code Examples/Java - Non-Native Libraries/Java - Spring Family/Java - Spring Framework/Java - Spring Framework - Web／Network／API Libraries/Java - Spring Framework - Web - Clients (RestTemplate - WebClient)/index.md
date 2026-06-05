@@ -1,16 +1,15 @@
 ---
-title: "Java - Spring Framework - Web - Clients (RestTemplate - WebClient)"
+publish: true
+title: Java - Spring Framework - Web - Clients (RestTemplate - WebClient)
 created: 2020-07-06T18:44:27.448-05:00
 modified: 2022-12-22T10:01:10.094-06:00
-parent: "[[Java - Spring Framework - Web／Network／API Libraries]]"
-children:
-  - "[[Java - Spring - RestTemplate]]"
-  - "[[Java - Spring - WebClient]]"
 ---
+
 [[Java - Spring Family|Java Spring]] implementations of [[Representational State Transfer (REST) - RESTful|REST]]/[[Hypertext／Hyper Text Transfer Protocol (HTTP) - 1／1.1／2|HTTP]] clients
+
 # REST/HTTP - Clients
 
-RestTemplate vs WebClient: [https://www.baeldung.com/spring-webclient-resttemplate](https://www.baeldung.com/spring-webclient-resttemplate)
+RestTemplate vs WebClient: <https://www.baeldung.com/spring-webclient-resttemplate>
 
 ```merge-table
 {

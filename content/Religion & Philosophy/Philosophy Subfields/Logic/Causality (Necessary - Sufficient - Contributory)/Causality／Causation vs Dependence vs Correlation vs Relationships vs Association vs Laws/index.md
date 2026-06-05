@@ -1,11 +1,10 @@
 ---
-title: "Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws"
+publish: true
+title: Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws
 created: 2021-09-13T04:44:24.094-05:00
 modified: 2021-11-11T23:46:45.591-06:00
-parent: "[[Causality (Necessary - Sufficient - Contributory)]]"
-children:
-  - "[[Variable Relationship Types - ([Strictly] [Strong｜Weak] [Positive｜Negative] [Linear｜Non-Linear｜Monotonic] Relationship)]]"
 ---
+
 ```merge-table
 {
   "rows": [
@@ -60,18 +59,17 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Causality vs Dependence
+
 - causality ≠ dependence
 
 If 𝑋 and 𝑌 are in <strong>𝑽</strong> and are [[Probability Dependence|probabilistically dependent]], then either:
+
 - 𝑋 causes 𝑌
 - 𝑌 causes 𝑋
 - 𝑋 and 𝑌 are both effects of some common cause 𝑍 in <strong>𝑽</strong>
 
-<strong>![[Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws/causality-vs-dependence.png|301]]</strong>
+<strong>![[Religion & Philosophy/Philosophy Subfields/Logic/Causality (Necessary - Sufficient - Contributory)/Causality／Causation vs Dependence vs Correlation vs Relationships vs Association vs Laws/causality-vs-dependence.png|301]]</strong>
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```

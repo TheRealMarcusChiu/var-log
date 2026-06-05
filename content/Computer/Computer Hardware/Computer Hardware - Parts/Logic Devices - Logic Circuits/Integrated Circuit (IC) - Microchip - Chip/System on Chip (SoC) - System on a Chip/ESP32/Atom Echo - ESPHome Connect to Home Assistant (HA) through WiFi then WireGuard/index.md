@@ -1,12 +1,14 @@
 ---
-title: "Atom Echo - ESPHome Connect to Home Assistant (HA) through WiFi then WireGuard"
+publish: true
+title: Atom Echo - ESPHome Connect to Home Assistant (HA) through WiFi then WireGuard
 created: 2026-01-07T15:38:46.883-06:00
 modified: 2026-01-07T15:53:14.411-06:00
-parent: "[[ESP32]]"
-children: []
 ---
+
 Config file example to connect [[ESP32]] device to [[Home Assistant (HA)]] through [[802.11 - WiFi／Wi-Fi|Wifi]] and [[WireGuard]]:
+
 - <code><font style="color: rgb(122,134,154);">ESP32 → WiFi → WireGuard → Home Assistant</font></code>
+
 ```yml
 esphome:
   name: atom-echo

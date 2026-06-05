@@ -1,14 +1,16 @@
 ---
-title: "Unary Operations／Operators"
+publish: true
+title: Unary Operations／Operators
 created: 2021-09-13T05:24:55.681-05:00
 modified: 2023-06-22T13:39:33.248-05:00
-parent: "[[Finitary／k-ary (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)]]"
-children: []
 ---
+
 ###### Unary Operations/Operators
-````excerpt
+
+```excerpt
 - is a type of [[Finitary／k-ary (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms)|k-ary operation]] that takes in one input/operand and outputs an element
-````
+```
+
 ^excerpt
 
 # Unary Operator - Syntax Categories

@@ -1,14 +1,16 @@
 ---
-title: "Multi-Head Attention (MHA)"
+publish: true
+title: Multi-Head Attention (MHA)
 created: 2025-10-10T20:24:30.865-05:00
 modified: 2025-10-10T20:37:15.263-05:00
-parent: "[[Transformer Attention Mechanism - Self-Attention - Intra-Attention - Decomposable Attention]]"
-children: []
 ---
+
 ###### Multi-Head Attention (MHA)
-````excerpt
+
+```excerpt
 - the idea is to allow attention function to extract information from different representation subspaces, which would otherwise be impossible with a single attention head
-````
+```
+
 ^excerpt
 
 # MHA
@@ -23,5 +25,7 @@ children: []
   ]
 }
 ```
+
 # Resources
-- [https://machinelearningmastery.com/the-transformer-attention-mechanism/](https://machinelearningmastery.com/the-transformer-attention-mechanism/)
+
+- <https://machinelearningmastery.com/the-transformer-attention-mechanism/>

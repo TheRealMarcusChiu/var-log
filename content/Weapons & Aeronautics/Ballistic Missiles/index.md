@@ -1,11 +1,12 @@
 ---
-title: "Ballistic Missiles"
+publish: true
+title: Ballistic Missiles
 created: 2021-09-13T04:45:54.588-05:00
 modified: 2021-09-13T04:45:54.588-05:00
-parent: "[[Weapons & Aeronautics]]"
-children: []
 ---
+
 A <strong>ballistic missile</strong> follows a ballistic trajectory to deliver one or more warheads on a predetermined target. These weapons are only guided during relatively brief periods of flight—most of their trajectory is unpowered, being governed by gravity and air resistance if in the atmosphere.
+
 ### Ballistic Missile Types
 
 ```merge-table

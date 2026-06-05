@@ -1,40 +1,29 @@
 ---
-title: "NTFS - File Attributes"
+publish: true
+title: NTFS - File Attributes
 created: 2020-06-11T11:22:56.856-05:00
 modified: 2020-06-16T22:45:11.547-05:00
-parent: "[[NTFS - MFT File Record／Entry]]"
-children:
-  - "[[NTFS - File Attributes - $ATTRIBUTE_LIST]]"
-  - "[[NTFS - File Attributes - $BITMAP]]"
-  - "[[NTFS - File Attributes - $DATA]]"
-  - "[[NTFS - File Attributes - $EA_INFORMATION and $EA]]"
-  - "[[NTFS - File Attributes - $FILE_NAME]]"
-  - "[[NTFS - File Attributes - $INDEX_ALLOCATION & $INDEX_ROOT﻿﻿]]"
-  - "[[NTFS - File Attributes - $LOGGED_UTILITY_STREAM]]"
-  - "[[NTFS - File Attributes - $OBJECT_ID]]"
-  - "[[NTFS - File Attributes - $REPARSE_POINT／$SYMBOLIC_LINK]]"
-  - "[[NTFS - File Attributes - $SECURITY_DESCRIPTOR]]"
-  - "[[NTFS - File Attributes - $STANDARD_INFORMATION]]"
-  - "[[NTFS - File Attributes - $VOLUME_INFORMATION]]"
-  - "[[NTFS - File Attributes - $VOLUME_NAME]]"
-  - "[[NTFS - File Attributes - Header]]"
-  - "[[NTFS - Resident／Nonresident Unnamed／Named Attributes]]"
-  - "[[NTFS - Timestamps]]"
 ---
+
 [[New Technology File System (NTFS)|NTFS file system]] views each file (or folder) as a set of <strong>file attributes</strong>. The file's name, its security information, and even its data, are all file attributes.
 
 Each attribute is identified by an attribute type code and, optionally, an attribute name. And they are either:
+
 - <strong>resident attribute</strong> - the attribute's value/content resides inside the [[NTFS - MFT File Record／Entry|MFT file record]]
 - <strong>nonresident attribute</strong> - the attribute's value/content resides outside the [[NTFS - MFT File Record／Entry|MFT file record]], in one or more clusters of disk space elsewhere in the volume
 
 ### Resident/NonResident Attribute
-![[NTFS - File Attributes/mft-file-record-attributes.png|400]]
+
+![[Computer/Computer Hardware/Computer Hardware - Parts/Computer Memory／Storage/Computer Memory／Storage Hierarchy/Computer Memory／Storage Hierarchy - Types/Secondary／Virtual Memory (Drive)/Disk (Format - Filesystems／File-Systems (FS))/New Technology File System (NTFS)/NTFS - System Files - $MFT - Master File Table (MFT)/NTFS - MFT File Record／Entry/NTFS - File Attributes/mft-file-record-attributes.png|400]]
+
 ### Resident/Nonresident Unnamed/Named Attributes
 
 see: [[NTFS - Resident／Nonresident Unnamed／Named Attributes|Resident/Nonresident Unnamed/Named Attribute]]
+
 ### File Attribute - Header
 
 see: [[NTFS - File Attributes - Header|File Attribute Header]]
+
 ### File Attribute - Types
 
 ```merge-table
@@ -261,14 +250,17 @@ see: [[NTFS - File Attributes - Header|File Attribute Header]]
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 ### Typical MFT Attributes
 
 a file will have:
+
 - \$STANDARD\_INFORMATION
 - \$FILE\_NAME (2 will exist if 8.3 name creation is turned on)
 - \$DATA
 
 a directory will have:
+
 - \$STANDARD\_INFORMATION
 - \$FILE\_NAME (2 will exist if 8.3 name creation is turned on)
 - \$INDEX\_ROOT

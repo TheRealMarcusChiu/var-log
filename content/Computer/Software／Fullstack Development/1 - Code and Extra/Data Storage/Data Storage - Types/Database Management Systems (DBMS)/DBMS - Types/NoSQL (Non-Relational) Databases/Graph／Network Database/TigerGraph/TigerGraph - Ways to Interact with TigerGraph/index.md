@@ -1,10 +1,10 @@
 ---
-title: "TigerGraph - Ways to Interact with TigerGraph"
+publish: true
+title: TigerGraph - Ways to Interact with TigerGraph
 created: 2021-07-12T18:57:36.943-05:00
 modified: 2021-07-12T18:57:54.647-05:00
-parent: "[[TigerGraph]]"
-children: []
 ---
+
 Within the TigerGraph system, a message-passing design is used to coordinate the activities of the components. RESTPP, an enhanced RESTful server, is central to the task management. Users can choose how they wish to interact with the system:
 
 ```merge-table

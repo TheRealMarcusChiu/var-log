@@ -1,14 +1,16 @@
 ---
-title: "LSI 9400-16i"
+publish: true
+title: LSI 9400-16i
 created: 2025-10-21T13:00:34.077-05:00
 modified: 2025-10-21T13:15:13.376-05:00
-parent: "[[Host Controller - Host Adapter - Host Bus Adapter (HBA)]]"
-children: []
 ---
+
 ###### LSI 9400-16i
-````excerpt
+
+```excerpt
 - is a high-port count storage [[Host Controller - Host Adapter - Host Bus Adapter (HBA)|host bus adapter (HBA)]] that connects many drives to a server or computer
-````
+```
+
 ^excerpt
 
 # Info
@@ -23,5 +25,7 @@ children: []
   ]
 }
 ```
+
 # Resources
-- [https://www.amazon.com/Broadcom-HBA-9400-16i-Storage-controller/dp/B074XLZ746](https://www.amazon.com/Broadcom-HBA-9400-16i-Storage-controller/dp/B074XLZ746)
+
+- <https://www.amazon.com/Broadcom-HBA-9400-16i-Storage-controller/dp/B074XLZ746>

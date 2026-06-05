@@ -1,13 +1,14 @@
 ---
-title: "Java - Spring Boot - Log4j2"
+publish: true
+title: Java - Spring Boot - Log4j2
 created: 2022-05-18T02:22:16.025-05:00
 modified: 2022-05-18T02:59:44.791-05:00
-parent: "[[Java - Spring Boot - Logging／Log]]"
-children: []
 ---
+
 # Dependencies
 
 Enabling the Spring Boot application to use [[Java - Log4j2|Log4j2]]
+
 ```
 <!-- Exclude Spring Boot's Default Logging -->
 <dependency>
@@ -27,9 +28,11 @@ Enabling the Spring Boot application to use [[Java - Log4j2|Log4j2]]
     <artifactId>spring-boot-starter-log4j2</artifactId>
 </dependency>
 ```
+
 # Log4j Configuration
 
 Add to classpath (or into <code><font style="color: rgb(122,134,154);">src/main/resources</font></code> folder) one of the following files:
+
 - <code><font style="color: rgb(122,134,154);">log4j2-spring.xml</font></code>
 - <code><font style="color: rgb(122,134,154);">log4j2.xml</font></code>
 - <code><font style="color: rgb(122,134,154);">log4j2.properties</font></code>
@@ -39,6 +42,7 @@ See [[Java - Log4j2|Log4j2]] for more configurations
 Example <code><font style="color: rgb(122,134,154);">log4j-spring.xml</font></code> file
 
 > [!expand]- Click here to expand...
+>
 > ```
 > <?xml version="1.0" encoding="UTF-8"?>
 > <Configuration>
@@ -78,10 +82,12 @@ Example <code><font style="color: rgb(122,134,154);">log4j-spring.xml</font></co
 >
 > </Configuration>
 > ```
+
 # Spring Boot Log4j2 Demo - Using Slf4j
 
 > [!expand]- Click here to expand...
 > Using Log4j2 via [[Java - Simple Logging Facade for Java (SLF4j)|Slf4j]]
+>
 > ```
 > import org.slf4j.Logger;
 > import org.slf4j.LoggerFactory;
@@ -102,15 +108,18 @@ Example <code><font style="color: rgb(122,134,154);">log4j-spring.xml</font></co
 > ```
 >
 > see output
+>
 > ```
 > 2018-06-01T13:55:42.506+0530 INFO Info level log message
 > 2018-06-01T13:55:42.506+0530 DEBUG Debug level log message
 > 2018-06-01T13:55:42.506+0530 ERROR Error level log message
 > ```
+
 # Spring Boot Log4j2 Demo - Using Log4j2 Directly
 
 > [!expand]- Click here to expand...
 > Using Log4j2 directly
+>
 > ```
 > import org.apache.logging.log4j.LogManager;
 > import org.apache.logging.log4j.Logger;

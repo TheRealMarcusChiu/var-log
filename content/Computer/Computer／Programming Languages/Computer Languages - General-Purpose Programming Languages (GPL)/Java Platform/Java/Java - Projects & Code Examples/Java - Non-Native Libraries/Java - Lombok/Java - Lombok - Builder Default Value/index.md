@@ -1,12 +1,14 @@
 ---
-title: "Java - Lombok - Builder Default Value"
+publish: true
+title: Java - Lombok - Builder Default Value
 created: 2021-05-08T11:01:06.311-05:00
 modified: 2021-05-08T11:26:02.272-05:00
-parent: "[[Java - Lombok]]"
-children: []
 ---
-[https://www.baeldung.com/lombok-builder-default-value](https://www.baeldung.com/lombok-builder-default-value)
+
+<https://www.baeldung.com/lombok-builder-default-value>
+
 # 1 - POJO With Default Values
+
 ```
 @Data
 @Builder
@@ -17,7 +19,9 @@ public class Pojo {
     private boolean original = true;
 }
 ```
+
 # 2 - Define Expectations
+
 ```
 @Test
 public void givenBuilderWithDefaultValue_whenBuild_thenDefaultValueIsPresent() {
@@ -35,7 +39,9 @@ public void givenBuilderWithDefaultValue_whenNoArgsInitialize_thenDefaultValueIs
 ```
 
 of course, the first test will fail, as builder does not pick up on that
+
 # 3 - Solution 1 (@Builder.Default)
+
 ```
 @Data
 @Builder
@@ -50,7 +56,9 @@ public class Pojo {
 ```
 
 Unfortunately, the no-args constructor won't get the default values, making the second test case fail
+
 # 4 - Solution 2 (Initialize Builder)
+
 ```
 @Data
 @Builder(builderClassName = "PojoBuilder")
@@ -68,7 +76,9 @@ public class Pojo {
 ```
 
 Unfortunately, the price is code duplication
+
 # 5 - Solution 3 (toBuilder)
+
 ```
 @Data
 @Builder(toBuilder = true)

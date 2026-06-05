@@ -1,11 +1,12 @@
 ---
-title: "Ryzen"
+publish: true
+title: Ryzen
 created: 2025-10-14T12:38:48.886-05:00
 modified: 2025-10-14T12:39:04.562-05:00
-parent: "[[Zen 1,2,3,4,5 + Microarchitecture Processors]]"
-children: []
 ---
+
 # Zen - Ryzen Series Lineup (Tiers)
+
 The higher the value the better performance it will deliver
 
 ```merge-table

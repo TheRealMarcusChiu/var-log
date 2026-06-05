@@ -1,15 +1,17 @@
 ---
-title: "High Bandwidth Memory (HBM) HBM1／HBM2／HBM2E／HBM3／HBM3E／HBM4"
+publish: true
+title: High Bandwidth Memory (HBM) HBM1／HBM2／HBM2E／HBM3／HBM3E／HBM4
 created: 2024-08-13T17:30:49.849-05:00
 modified: 2026-03-19T21:24:52.160-05:00
-parent: "[[Video Random Access Memory (VRAM)]]"
-children: []
 ---
+
 ###### High Bandwidth Memory (HBM) HBM2/HBM3
-````excerpt
+
+```excerpt
 - is a computer memory interface for 3D-stacked [[Synchronous Dynamic RAM (SDRAM)|synchronous dynamic random-access memory (SDRAM)]]
 - initially from [[Samsung]], [[Advanced Micro Devices (AMD)|AMD]] and [[SK Hynix]]
-````
+```
+
 ^excerpt
 
 # HBM - Versions
@@ -133,8 +135,11 @@ children: []
   "tableStyle": "margin-left: 0.0px;"
 }
 ```
+
 # Use Cases
+
 - can be used as [[Video Random Access Memory (VRAM)|VRAM]]
 
 # Resources
-- [https://en.wikipedia.org/wiki/High_Bandwidth_Memory](https://en.wikipedia.org/wiki/High_Bandwidth_Memory)
+
+- <https://en.wikipedia.org/wiki/High_Bandwidth_Memory>

@@ -1,20 +1,20 @@
 ---
-title: "Self-Balancing Search Tree"
+publish: true
+title: Self-Balancing Search Tree
 created: 2019-12-09T17:08:45.783-06:00
 modified: 2024-03-31T16:32:17.851-05:00
-parent: "[[Search Trees (1-Dimensional)]]"
-children:
-  - "[[AVL Tree]]"
-  - "[[B-Tree B+Tree B＊Tree]]"
-  - "[[Red-Black Tree]]"
 ---
+
 ###### Self-Balancing Search Tree
-````excerpt
+
+```excerpt
 - is a type of [[Search Trees (1-Dimensional)|search tree]] that automatically keeps its height small in the face of arbitrary item insertions and deletions
-````
+```
+
 ^excerpt
 
 # Data Structures Implementing This Type of Tree
+
 - [[AVL Tree|AVL tree]] - is a self-balancing Binary Search Tree (BST)
 - [[B-Tree B+Tree B＊Tree|B-Tree B+Tree B*Tree]] - is a self-balancing M-Way Search Tree (MST)
 - [[Red-Black Tree]]

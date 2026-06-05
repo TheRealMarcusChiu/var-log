@@ -1,10 +1,10 @@
 ---
-title: "Software License Types"
+publish: true
+title: Software License Types
 created: 2021-12-17T15:04:55.427-06:00
 modified: 2021-12-17T15:28:46.787-06:00
-parent: "[[Software／Fullstack Development]]"
-children: []
 ---
+
 # Software License Types - In Terms of Restrictiveness
 
 ```merge-table
@@ -54,6 +54,7 @@ children: []
   "tableStyle": "width: 99.9115%;"
 }
 ```
+
 # Software License Types - In Terms of Duration
 
 ```merge-table
@@ -87,6 +88,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Software License Types - Other
 
 ```merge-table
@@ -216,5 +218,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Resources
-- [https://www.10duke.com/software-licensing-models/](https://www.10duke.com/software-licensing-models/)
+
+- <https://www.10duke.com/software-licensing-models/>

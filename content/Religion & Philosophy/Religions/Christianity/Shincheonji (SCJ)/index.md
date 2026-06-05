@@ -1,10 +1,10 @@
 ---
-title: "Shincheonji (SCJ)"
+publish: true
+title: Shincheonji (SCJ)
 created: 2026-04-03T23:58:37.742-05:00
 modified: 2026-04-04T00:01:16.902-05:00
-parent: "[[Christianity]]"
-children: []
 ---
+
 - [[01 Two kinds of spirits.pdf]]
 - [[02 Bible basics.pdf]]
 - [[03 The Symbolic Language of the Secrets of the Kingdom of Heaven.pdf]]

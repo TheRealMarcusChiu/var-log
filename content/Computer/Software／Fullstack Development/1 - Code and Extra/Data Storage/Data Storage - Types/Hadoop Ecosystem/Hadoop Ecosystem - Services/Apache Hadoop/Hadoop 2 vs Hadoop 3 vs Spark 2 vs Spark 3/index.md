@@ -1,10 +1,10 @@
 ---
-title: "Hadoop 2 vs Hadoop 3 vs Spark 2 vs Spark 3"
+publish: true
+title: Hadoop 2 vs Hadoop 3 vs Spark 2 vs Spark 3
 created: 2020-05-22T23:18:04.614-05:00
 modified: 2020-05-23T00:44:31.242-05:00
-parent: "[[Apache Hadoop]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

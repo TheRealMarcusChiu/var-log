@@ -1,15 +1,16 @@
 ---
-title: "Kubernetes - Ingress (SSL Cert LetsEncrypt)"
+publish: true
+title: Kubernetes - Ingress (SSL Cert LetsEncrypt)
 created: 2025-06-10T17:17:17.848-05:00
 modified: 2025-06-10T17:18:37.540-05:00
-parent: "[[Ingress (Kubernetes)]]"
-children: []
 ---
+
 Follow the same as Basic Example above.
 
 Install [cert-manager](https://cert-manager.io/docs/installation/).
 
 Create cluster issuer
+
 ```yml
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
@@ -28,11 +29,13 @@ spec:
 ```
 
 Create in Kubernetes cluster
+
 ```
 kubectl apply -f cluster-issuer.yml
 ```
 
 Update ingress.yml from previous example above
+
 ```yml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -61,11 +64,13 @@ spec:
 ```
 
 Apply the change in Kubernetes cluster
+
 ```
 kubectl apply -f ingress.yml
 ```
 
 Verify Ingress
+
 ```
 $ kubectl get ingress
 NAME                        CLASS    HOSTS                     ADDRESS           PORTS     AGE
@@ -74,6 +79,7 @@ example-ingress             nginx    test.devopslearnwith.us   192.168.111.100  
 ```
 
 Verify cert-manager is issuing certificates
+
 ```
 $ kubectl describe certificate example-tls
 $ kubectl get cert
@@ -81,4 +87,4 @@ NAME          READY   SECRET        AGE
 example-tls   True   example-tls   16m
 ```
 
-Visit [https://test.devopslearnwith.us](https://test.devopslearnwith.us) in browser.
+Visit <https://test.devopslearnwith.us> in browser.

@@ -1,16 +1,18 @@
 ---
-title: "Compact Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)"
+publish: true
+title: Compact Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)
 created: 2023-06-22T13:53:31.333-05:00
 modified: 2023-07-07T19:31:48.077-05:00
-parent: "[[Linear Transformation - Properties]]"
-children: []
 ---
+
 ###### Compact Operator (𝐿/𝑇: 𝑋 → 𝑇)
-````excerpt
+
+```excerpt
 - is a [[Linear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms) - Vector Space Homomorphism|linear operator]] 𝐿: 𝑋 → 𝑌, where 𝑋 and 𝑌 are [[Normed Vector Spaces - Normed Spaces|normed vector spaces]], with the property that 𝐿 maps [bounded subsets](https://en.wikipedia.org/wiki/Bounded_set) of 𝑋 to [relatively compact](https://en.wikipedia.org/wiki/Relatively_compact) subsets of 𝑌 (subsets with compact [closure](https://en.wikipedia.org/wiki/Closure_(topology)) in 𝑌)
 - such an operator is necessarily a [[Bounded／Unbounded Linear Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)|bounded operator]], and so [[Continuous Linear Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)|continuous]]
 - some authors require that 𝑋,𝑌 are [[Banach Spaces|Banach spaces]], but the definition can be extended to more general spaces
-````
+```
+
 ^excerpt
 
 # Compact Operator - Definitions
@@ -20,6 +22,7 @@ children: []
 
 > [!expand]- Normed Vector Spaces
 > Let 𝐿: 𝑋 → 𝑌 be a linear operator between two [[Normed Vector Spaces - Normed Spaces|normed vector spaces]]. Then the following statements are equivalent:
+>
 > - 𝐿 is a <em>compact operator</em>
 > - the [[Functions (Domain - Codomain - Preimage - Image - Range)|image]] of the unit ball of 𝑋 under 𝐿 is [[Mathematical Space (Compactness／Compact - Sequential／Sequentially／Limit-Point／Weakly-Countably／Countably／Countable Compactness／Compact - Relatively-Compact／Precompact Subspace／Subset)|relatively compact]] in 𝑌
 > - the image of any [[Mathematical Space (Bounded Sets - Unbounded Sets)|bounded subset]] of 𝑋 under 𝐿 is [[Mathematical Space (Compactness／Compact - Sequential／Sequentially／Limit-Point／Weakly-Countably／Countably／Countable Compactness／Compact - Relatively-Compact／Precompact Subspace／Subset)|relatively compact]] in 𝑌
@@ -31,12 +34,17 @@ children: []
 
 > [!expand]- Banach Spaces
 > If in addition, 𝑌 is [[Banach Spaces|Banach]], these statements are also equivalent to:
+>
 > - the image of any bounded subset of 𝑋 under 𝐿 is [totally bounded](https://en.wikipedia.org/wiki/Totally_bounded_space) in 𝑌.
+
 # Compact Operator - Properties
+
 - If a [[Linear (Transformations／Operations／Operators／Mappings／Maps／Functions／Morphisms) - Vector Space Homomorphism|linear operator]] 𝐿 is <em>compact</em>, then it is [[Continuous Linear Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)|continuous]].
 
 # Compact Operator - Types
+
 - Any [[Bounded／Unbounded Linear Operator (Transformations／Operations／Operators／Mappings／Maps／Functions)|bounded operator (𝐿)]] that has a finite rank is a compact operator
 
 # Compact Operator - Other
+
 - [[Singular Values (s-numbers)]]

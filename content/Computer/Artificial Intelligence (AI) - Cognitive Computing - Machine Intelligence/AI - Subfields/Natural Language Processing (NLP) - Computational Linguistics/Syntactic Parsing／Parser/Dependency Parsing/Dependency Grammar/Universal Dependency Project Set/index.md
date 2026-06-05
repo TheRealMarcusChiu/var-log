@@ -1,11 +1,12 @@
 ---
-title: "Universal Dependency Project Set"
+publish: true
+title: Universal Dependency Project Set
 created: 2020-11-02T14:49:57.824-06:00
 modified: 2020-11-02T15:07:42.364-06:00
-parent: "[[Dependency Grammar]]"
-children: []
 ---
+
 ###### Universal Dependency Project Set
+
 - provides an inventory of dependency relations that are linguistically motivated, computationally useful, and cross-linguistically applicable
 
 ### Subset of Dependency Relation Types

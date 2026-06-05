@@ -1,21 +1,21 @@
 ---
-title: "Microservices／μService Architecture - Service-Oriented Architecture (SOA)"
+publish: true
+title: Microservices／μService Architecture - Service-Oriented Architecture (SOA)
 created: 2019-03-15T00:27:43.215-05:00
 modified: 2026-05-21T14:14:52.214-05:00
-parent: "[[Architectural／Architecture Design Patterns (ADP)]]"
-children:
-  - "[[Microservices Architecture - Amazon Flow Platform]]"
-  - "[[Microservices Architecture - Fault Tolerance]]"
-  - "[[Microservices Architecture - Testing]]"
-  - "[[Service Discovery]]"
 ---
+
 # Microservices Architecture vs Service-Oriented Architecture (SOA)
+
 <strong>Microservices Architecture</strong> is a [[Architectural／Architecture Design Patterns (ADP)|software/architectural development technique]] —a variant of the <strong>Service-Oriented Architecture (SOA)</strong> structural style— that arranges an application as a collection of loosely coupled services
+
 - <strong>Service-Oriented Architecture (SOA)</strong> has an enterprise scope
 - <strong>Microservices Architecture</strong> has an application scope
 
-![[Microservices／μService Architecture - Service-Oriented Architecture (SOA)/service-oriented-architecture-vs-microservice-architecture.png|600x174]]
+![[Computer/Software／Fullstack Development/Design Patterns/Architectural／Architecture Design Patterns (ADP)/Microservices／μService Architecture - Service-Oriented Architecture (SOA)/service-oriented-architecture-vs-microservice-architecture.png|600x174]]
+
 # Service Types
+
 - <strong>Stateful Service</strong> - a service that has a concept of a session or persistence, like a chat service.
 - <strong>Stateless Service</strong> - a service that does <em>not</em> have a concept of a session, but rather performs individual self-contained tasks, like a video transcoding service
 
@@ -30,6 +30,7 @@ children:
   ]
 }
 ```
+
 # Operations Component Types & Tech Stacks
 
 ```merge-table
@@ -182,11 +183,7 @@ children:
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # Video Resources![](https://www.youtube.com/watch?v=CZ3wIuvmHeM)![](https://www.youtube.com/watch?v=ymIZ5HhH0o4)![](https://www.youtube.com/watch?v=vu4Xkb1q8Tc)![](https://www.youtube.com/watch?v=K3v6B_70r9s)![](https://www.youtube.com/watch?v=j6ow-UemzBc)

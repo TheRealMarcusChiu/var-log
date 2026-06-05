@@ -1,16 +1,17 @@
 ---
-title: "Database Index Types (Simple - Primary - Unique - Composite／Compound／Concatenated／Federated) Index"
+publish: true
+title: Database Index Types (Simple - Primary - Unique - Composite／Compound／Concatenated／Federated) Index
 created: 2019-12-09T21:40:17.346-06:00
 modified: 2026-04-23T14:21:50.252-05:00
-parent: "[[DBMS - Other]]"
-children:
-  - "[[Clustered Index - Non-Clustered Index - Covering Index]]"
 ---
+
 ###### Database Indices
-````excerpt
+
+```excerpt
 - are used to speed the search of data within tables
 - indices on column(s) do not need to be a [[Database Key Types (Candidate - Primary - Alternate - Unique - Composite／Compound／Concatenated／Federated - Super - Foreign) Key|database key]] (i.e. these columns may have duplicate values)
-````
+```
+
 ^excerpt
 
 # Database Index Types

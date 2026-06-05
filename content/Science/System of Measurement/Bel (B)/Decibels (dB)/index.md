@@ -1,30 +1,30 @@
 ---
-title: "Decibels (dB)"
+publish: true
+title: Decibels (dB)
 created: 2023-04-16T09:23:04.310-05:00
 modified: 2026-05-21T01:37:24.144-05:00
-parent: "[[Bel (B)]]"
-children:
-  - "[[Decibel-Milliwatts (dBm)]]"
 ---
+
 ###### Decibels (dB)
-````excerpt
+
+```excerpt
 - is a relative unit of measurement equal to one-tenth of a [[Bel (B)|bel (B)]]
 - it expresses the ratio of two values of a power or root-power quantity on a logarithmic scale
-````
+```
+
 ^excerpt
 
 # db - Formula
+
 The decibel of 𝑃<sub>1</sub> in reference to 𝑃<sub>2</sub> is defined by the following formula:
+
 - $dB = 10\ \log_{10}(\dfrac{P_1}{P_2})$
 
 # bd - Chart
-![[Decibels (dB)/decibels-noise-level-chart.png|500]]
+
+![[Science/System of Measurement/Bel (B)/Decibels (dB)/decibels-noise-level-chart.png|500]]
+
 # Subpages
-```dataview
-LIST
-FROM ""
-WHERE file.folder = this.file.folder + "/" + this.file.name
-```
 
 # dB - Table
 

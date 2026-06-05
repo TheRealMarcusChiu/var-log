@@ -1,14 +1,16 @@
 ---
-title: "Selenium"
+publish: true
+title: Selenium
 created: 2021-09-10T21:53:09.147-05:00
 modified: 2025-05-27T14:59:28.823-05:00
-parent: "[[Web Application Test Frameworks]]"
-children: []
 ---
+
 ###### Selenium
-````excerpt
+
+```excerpt
 - is a [[Web Application Test Frameworks|web application test framework]]
-````
+```
+
 ^excerpt
 
 # Selenium Software Testing Suite
@@ -49,6 +51,8 @@ children: []
 ```
 
 <strong>Selenium RC</strong> and <strong>WebDriver</strong> was merged to form <strong>Selenium 2</strong>
+
 # Resources
-- [https://www.guru99.com/introduction-to-selenium.html](https://www.guru99.com/introduction-to-selenium.html)
+
+- <https://www.guru99.com/introduction-to-selenium.html>
 - [docs.seleniumhq.org](http://docs.seleniumhq.org/)

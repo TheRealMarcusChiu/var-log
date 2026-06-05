@@ -1,11 +1,12 @@
 ---
-title: "Cylinder-Head-Sector (CHS) Addressing Mode"
+publish: true
+title: Cylinder-Head-Sector (CHS) Addressing Mode
 created: 2020-06-11T21:17:34.711-05:00
 modified: 2022-09-11T15:27:42.451-05:00
-parent: "[[Drive - Device - Disk - Disc - Memory Addressing Modes]]"
-children: []
 ---
+
 ###### Cylinder-Head-Sector (CHS) Addressing Mode
+
 - based on old [[HDD - Cylinder-Head-Sector (CHS) - Cluster - Block|HDD's Cylinder-Head-Sector (CHS)]]
 - addressing starts at 0/0/1 because sector number 0 is disallowed
 - sometimes heads are limited to 255, because of a bug in [Microsoft DOS](https://en.wikipedia.org/wiki/MS-DOS)/[IBM PC DOS](https://en.wikipedia.org/wiki/IBM_PC_DOS) crashes on boot when encountering volumes with 256 heads
@@ -96,5 +97,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Subpages
+
 - [[LBA & CHS - Mappings／Conversion|LBA & VHS - Mappings/Conversion]]

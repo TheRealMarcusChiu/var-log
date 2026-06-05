@@ -1,11 +1,12 @@
 ---
-title: "Windows CMD - Permissions"
+publish: true
+title: Windows CMD - Permissions
 created: 2019-11-17T23:10:53.377-06:00
 modified: 2019-11-17T23:12:40.773-06:00
-parent: "[[Windows CMD - Users Groups Permissions]]"
-children: []
 ---
+
 permission types:
+
 - share permissions
 - access control list permissions
 - access control list permission inheritance
@@ -13,14 +14,17 @@ permission types:
 # <strong>Share Permissions</strong>
 
 share permission options:
+
 - full control
 - change
 - read
 
 # <strong>Access Control List (ACL) Permissions (cacls - icacls)</strong>
-[https://ss64.com/nt/icacls.html](https://ss64.com/nt/icacls.html)
+
+<https://ss64.com/nt/icacls.html>
 
 a sequence of simple rights:
+
 - <strong>N (deny access) </strong>- deny all access
 - <strong>F (full access)</strong> - allows users to read, write, change, and delete files and subfolders. In addition, users can change permissions settings for all files and subdirectories
 - <strong>M (modify access)</strong> - allows users to read and write of files and subfolders; also allows deletion of the folder
@@ -33,6 +37,7 @@ a sequence of simple rights:
 <span style="white-space: pre-wrap"><code>icacls “full path of file” /grant “user name or group”:switch</code></span>
 
 a comma-separated list in parenthesis of specific rights:
+
 - <strong>D (delete)</strong> -
 - <strong>RC (read control)</strong> -
 - <strong>WDAC (write DAC)</strong> -
@@ -56,15 +61,14 @@ a comma-separated list in parenthesis of specific rights:
 
 ###### example commands
 
-grant John Full access to  a file named "test"
-<span style="white-space: pre-wrap"><code>icacls "D:\\test" /grant John:F</code></span>
+grant John Full access to  a file named "test" <span style="white-space: pre-wrap"><code>icacls "D:\test" /grant John:F</code></span>
 
-grant User1 Delete and Write DAC permissions to a file named "Test1"
-<span style="white-space: pre-wrap"><code>icacls test1 /grant User1:(d,wdac)</code></span>
+grant User1 Delete and Write DAC permissions to a file named "Test1" <span style="white-space: pre-wrap"><code>icacls test1 /grant User1:(d,wdac)</code></span>
 
 # <strong>Access Control List (ACL) </strong><strong>Permissions Inheritance (cacls - icacls)</strong>
 
 the Access Control List (ACL) flags have the following meanings:
+
 - <strong>IO: Inherit Only</strong> - this flag indicates that this Access Control Entry (ACE) does not apply to the current object (both containers/directories and files)
 - <strong>CI: Container Inherit</strong> - this flag indicates that subordinate containers/directories will inherit this ACE
 - <strong>OI: Object Inherit</strong> - this flag indicates that subordinate files will inherit the ACE
@@ -456,5 +460,7 @@ When an administrator adds a new ACE to the access control list, he or she can s
   "tableStyle": "width: 868.0px;"
 }
 ```
+
 ###### icacls command
-<span style="white-space: pre-wrap"><code>icacls "D:\\test" /grant John:(OI)(CI)F /T</code></span>
+
+<span style="white-space: pre-wrap"><code>icacls "D:\test" /grant John:(OI)(CI)F /T</code></span>

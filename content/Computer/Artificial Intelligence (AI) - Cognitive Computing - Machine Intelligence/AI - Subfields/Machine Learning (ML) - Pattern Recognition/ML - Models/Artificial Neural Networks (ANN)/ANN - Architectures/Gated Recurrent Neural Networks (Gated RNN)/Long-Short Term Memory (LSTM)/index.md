@@ -1,21 +1,23 @@
 ---
-title: "Long-Short Term Memory (LSTM)"
+publish: true
+title: Long-Short Term Memory (LSTM)
 created: 2020-11-17T15:37:50.686-06:00
 modified: 2023-07-16T12:08:04.226-05:00
-parent: "[[Gated Recurrent Neural Networks (Gated RNN)]]"
-children:
-  - "[[LSTM - Understanding LSTM Networks]]"
 ---
+
 ###### Long-Short Term Memory (LSTM)
-````excerpt
+
+```excerpt
 - is a type of [[Gated Recurrent Neural Networks (Gated RNN)|gated recurrent neural network]] aimed to deal with the [[Vanishing Gradient Problem|vanishing gradient problem]] present in traditional [[Recurrent Neural Networks (RNN)|RNN]]s
 - its relative insensitivity to gap length is its advantage over [[Recurrent Neural Networks (RNN)|traditional RNNs]], [[Hidden Markov Models (HMM)|hidden Markov models]], and other sequence learning methods
-````
+```
+
 ^excerpt
 
 # LSTM - How it Works
 
 see: [[LSTM - Understanding LSTM Networks]]
+
 # LSTM - Structure
 
 ```merge-table
@@ -95,5 +97,7 @@ see: [[LSTM - Understanding LSTM Networks]]
   ]
 }
 ```
+
 # Resources
+
 - [Chris Olah's Visualizing LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)

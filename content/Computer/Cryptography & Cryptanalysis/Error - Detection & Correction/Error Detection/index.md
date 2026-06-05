@@ -1,26 +1,22 @@
 ---
-title: "Error Detection"
+publish: true
+title: Error Detection
 created: 2019-11-13T09:32:37.092-06:00
 modified: 2025-10-28T23:49:20.476-05:00
-parent: "[[Error - Detection & Correction]]"
-children:
-  - "[[Erasure Coding]]"
-  - "[[Error Detection - Checksum]]"
-  - "[[Error Detection - Cyclic Redundancy Check (CRC)]]"
-  - "[[Error Detection - Internet Checksum]]"
-  - "[[Error Detection - One-Dimensional Parity]]"
-  - "[[Error Detection - Send Extra Copy]]"
-  - "[[Error Detection - two-dimensional parity]]"
 ---
+
 ###### Error Detection
-````excerpt
+
+```excerpt
 - is the detection of errors caused by noise or other impairments during transmission from the transmitter to the receiver
-````
+```
+
 ^excerpt
 
 # Error Detecting Goals
 
 design error detection algorithms that both:
+
 - maximize the probability of detecting errors
 - use a small number of redundant bits
 

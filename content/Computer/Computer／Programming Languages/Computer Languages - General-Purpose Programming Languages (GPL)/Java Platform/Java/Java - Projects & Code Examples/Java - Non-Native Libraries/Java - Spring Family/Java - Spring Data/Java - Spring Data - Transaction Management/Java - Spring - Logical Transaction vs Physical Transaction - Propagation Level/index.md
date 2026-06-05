@@ -1,11 +1,12 @@
 ---
-title: "Java - Spring - Logical Transaction vs Physical Transaction - Propagation Level"
+publish: true
+title: Java - Spring - Logical Transaction vs Physical Transaction - Propagation Level
 created: 2021-04-12T19:09:17.766-05:00
 modified: 2021-07-26T20:11:12.323-05:00
-parent: "[[Java - Spring Data - Transaction Management]]"
-children: []
 ---
+
 # 1 - Logical Transaction vs Physical Transaction
+
 ```
 @Service
 public class UserService {
@@ -33,7 +34,9 @@ public class InvoiceService {
 Now in terms of database transactions, this should really just be one database transaction (i.e. <code>getConnection() → setAutoCommit(false) → commit()</code>). Spring calls this physical transaction
 
 From Spring’s side however, there’s two <em>logical transactions</em> happening: First in <code>UserService</code>, the other one in <code>InvoiceService</code>
+
 # 2 - Propagation Level
+
 ```java
 @Transactional(propagation = Propagation.REQUIRED)
 @Transactional(propagation = Propagation.SUPPORTS)

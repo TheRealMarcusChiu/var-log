@@ -1,10 +1,10 @@
 ---
-title: "Wisdom"
+publish: true
+title: Wisdom
 created: 2025-06-23T14:32:29.411-05:00
 modified: 2025-06-23T14:36:18.273-05:00
-parent: "[[Christianity - 2024]]"
-children: []
 ---
+
 # Job 28 - Where is Wisdom?
 
 But where can wisdom be found?
@@ -28,6 +28,7 @@ But where can wisdom be found?
     Where does understanding dwell?
 21 It is hidden from the eyes of every living thing,
     concealed even from the birds in the sky.
+
 # James 3:17
 
 But the wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere

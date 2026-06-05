@@ -1,10 +1,10 @@
 ---
-title: "Python - pip／pip3"
+publish: true
+title: Python - pip／pip3
 created: 2019-08-18T17:50:03.664-05:00
 modified: 2026-05-17T13:39:39.685-05:00
-parent: "[[Python - Installing Packages]]"
-children: []
 ---
+
 - <strong>pip3</strong> is the Python3 version of pip
 - <strong>pip</strong> is the Python2 version
 

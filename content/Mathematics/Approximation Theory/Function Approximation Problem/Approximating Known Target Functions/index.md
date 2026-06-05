@@ -1,14 +1,10 @@
 ---
-title: "Approximating Known Target Functions"
+publish: true
+title: Approximating Known Target Functions
 created: 2021-09-13T05:29:24.125-05:00
 modified: 2023-12-20T17:53:19.496-06:00
-parent: "[[Function Approximation Problem]]"
-children:
-  - "[[Arithmetic Series／Succession]]"
-  - "[[Geometric Series／Succession]]"
-  - "[[Padé Approximants]]"
-  - "[[Taylor Series vs Taylor Polynomial]]"
 ---
+
 a type of [[Function Approximation Problem|function approximation]] where the target function is known
 
 ```merge-table

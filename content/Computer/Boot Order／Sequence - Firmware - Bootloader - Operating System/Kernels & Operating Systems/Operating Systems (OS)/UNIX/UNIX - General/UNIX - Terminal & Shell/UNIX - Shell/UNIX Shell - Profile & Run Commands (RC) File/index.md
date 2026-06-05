@@ -1,10 +1,10 @@
 ---
-title: "UNIX Shell - Profile & Run Commands (RC) File"
+publish: true
+title: UNIX Shell - Profile & Run Commands (RC) File
 created: 2019-12-30T14:50:44.910-06:00
 modified: 2020-06-29T16:16:49.710-05:00
-parent: "[[UNIX - Shell]]"
-children: []
 ---
+
 a <strong>profile</strong> file is a start-up file of an [[UNIX]] user
 
 ```merge-table
@@ -63,6 +63,7 @@ a <strong>profile</strong> file is a start-up file of an [[UNIX]] user
 ```
 
 The specific settings which an unix user usually does is:
+
 - Setting of any environment variable
 - Setting of any alias (Though it is always recommended to keep the aliases in a separate file)
 - Setting of PATH variable or any other path variables

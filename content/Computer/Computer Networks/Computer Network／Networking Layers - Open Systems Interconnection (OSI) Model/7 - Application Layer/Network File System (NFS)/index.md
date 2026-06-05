@@ -1,15 +1,17 @@
 ---
-title: "Network File System (NFS)"
+publish: true
+title: Network File System (NFS)
 created: 2019-11-16T16:24:38.989-06:00
 modified: 2025-07-17T01:38:58.512-05:00
-parent: "[[7 - Application Layer]]"
-children: []
 ---
+
 ###### Network File System (NFS)
-````excerpt
+
+```excerpt
 - is an [[7 - Application Layer|application layer]] distributed [[Disk (Format - Filesystems／File-Systems (FS))|file system]] protocol originally developed by Sun Microsystems (Sun) in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed (i.e. [[Network Attached Storage (NAS)]])
 - related: [[Common Internet File System (CIFS)]]
-````
+```
+
 ^excerpt
 
 # NFS - Server
@@ -38,11 +40,13 @@ children: []
 ```
 
 Create root NFS directory
+
 ```
 sudo mkdir /home/marcuschiu/directory-to-be-shared
 ```
 
 Set permissions
+
 ```
 sudo chown nobody:nogroup /home/marcuschiu/directory-to-be-shared #no-one is owner
 sudo chmod 777 /home/marcuschiu/directory-to-be-shared #everyone can modify files
@@ -50,7 +54,7 @@ sudo chmod 777 /home/marcuschiu/directory-to-be-shared #everyone can modify file
 
 Define access for NFS clients in <code><font style="color: rgb(122,134,154);">/etc/exports</font></code> file. Example file:
 
-```merge-table
+````merge-table
 {
   "rows": [
     [
@@ -76,18 +80,21 @@ Define access for NFS clients in <code><font style="color: rgb(122,134,154);">/e
     ]
   ]
 }
-```
+````
 
 Example file <code><font style="color: rgb(122,134,154);">/etc/exports</font></code>:
+
 ```
 /home/marcuschiu/directory-to-be-shared 192.168.111.38/255.255.255.0(rw,sync,no_subtree_check)
 ```
 
 Set changes and restart NFS server
+
 ```
 sudo exportfs -a #making the file share available
 sudo systemctl restart nfs-kernel-server #restarting the NFS kernel
 ```
+
 # NFS - Client
 
 ```merge-table
@@ -114,6 +121,7 @@ sudo systemctl restart nfs-kernel-server #restarting the NFS kernel
 ```
 
 Mount the NFS directory temporarily
+
 ```
 sudo mount -t nfs {IP of NFS server}:{folder path on server} /home/client
 sudo mount -t nfs 192.168.111.10:/home/marcuschiu/directory-to-be-shared /home/client
@@ -122,6 +130,7 @@ sudo mount -t nfs 192.168.111.10:/home/marcuschiu/directory-to-be-shared /home/c
 Mount the NFS directory PERMANENTLY
 
 In <code><font style="color: rgb(122,134,154);">/etc/fstab</font></code> file add the following line:
+
 ```
 {IP of NFS server}:{folder path on server} /var/locally-mounted nfs defaults 0 0
 

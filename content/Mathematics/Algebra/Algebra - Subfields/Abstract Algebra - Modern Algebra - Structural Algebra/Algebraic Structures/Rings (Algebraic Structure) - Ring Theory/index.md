@@ -1,19 +1,22 @@
 ---
-title: "Rings (Algebraic Structure) - Ring Theory"
+publish: true
+title: Rings (Algebraic Structure) - Ring Theory
 created: 2023-06-25T14:32:11.996-05:00
 modified: 2023-06-29T19:01:03.852-05:00
-parent: "[[Algebraic Structures]]"
-children: []
 ---
+
 ###### Rings (Algebraic Structure)
-````excerpt
+
+```excerpt
 - is an [[Algebraic Structures|algebraic structure]] that generalizes [[Fields (Algebraic Structure) - Field Theory|fields]]: multiplication need not be commutative and multiplicative inverses need not exist
-````
+```
+
 ^excerpt
 
 # Rings - Definition & Field Axioms
 
 A <em>ring</em> is a set 𝐹 with two [[Binary／Dyadic Operations／Operators|binary operations]] on 𝐹 called:
+
 - addition
 - multiplication
 
@@ -168,6 +171,8 @@ Both of these operations must satisfy the ring axioms (𝑎, 𝑏, 𝑐 are arb
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Rings - Examples
+
 - The set of all [[Numbers Classes／Classification of Numbers|integers (ℤ)]]
 - All [[Fields (Algebraic Structure) - Field Theory|fields]] are rings

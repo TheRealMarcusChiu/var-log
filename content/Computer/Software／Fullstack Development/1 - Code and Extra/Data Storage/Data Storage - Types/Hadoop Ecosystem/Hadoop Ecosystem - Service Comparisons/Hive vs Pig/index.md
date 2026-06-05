@@ -1,10 +1,10 @@
 ---
-title: "Hive vs Pig"
+publish: true
+title: Hive vs Pig
 created: 2020-05-20T23:46:27.341-05:00
 modified: 2020-05-20T23:47:38.271-05:00
-parent: "[[Hadoop Ecosystem - Service Comparisons]]"
-children: []
 ---
+
 ```merge-table
 {
   "rows": [

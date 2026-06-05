@@ -1,10 +1,10 @@
 ---
-title: "Queueing Theory - Scheduling"
+publish: true
+title: Queueing Theory - Scheduling
 created: 2021-09-13T05:29:21.689-05:00
 modified: 2023-04-10T21:50:59.379-05:00
-parent: "[[Mathematics]]"
-children: []
 ---
+
 - <strong>Queueing Theory</strong> is the mathematical study of waiting for lines or queues.
 - <strong>Scheduling</strong> is the method by which work is assigned to resources that complete the work
 - <strong>work </strong>- also tasks, jobs, or [[Program - Process - Threads - Heavyweight／Kernel／OS／Lightweight／Virtual／User-Mode Threads ／ Fibers - Task (Software)|processes]]
@@ -36,6 +36,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Processor Scheduler Types
 
 ```merge-table
@@ -72,6 +73,7 @@ children: []
   "tableStyle": "width: 100.0%;"
 }
 ```
+
 # Processor Scheduling Algorithm (Choosing Which Task of Many to Execute)
 
 ```merge-table

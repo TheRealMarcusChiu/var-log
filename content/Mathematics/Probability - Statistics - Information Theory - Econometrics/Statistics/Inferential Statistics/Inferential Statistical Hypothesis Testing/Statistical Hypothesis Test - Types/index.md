@@ -1,17 +1,12 @@
 ---
-title: "Statistical Hypothesis Test - Types"
+publish: true
+title: Statistical Hypothesis Test - Types
 created: 2021-09-13T05:29:04.984-05:00
 modified: 2026-05-17T03:21:52.048-05:00
-parent: "[[Inferential Statistical Hypothesis Testing]]"
-children:
-  - "[[Analysis of Variance (ANOVA)]]"
-  - "[[Chi-Squared／Square Test]]"
-  - "[[Correlation Test]]"
-  - "[[F-Test]]"
-  - "[[Normality Tests]]"
-  - "[[Z-Test & T-Test]]"
 ---
+
 # Prerequisite
+
 - [[Inferential Statistical Hypothesis Testing]]
 
 # Statistical Hypothesis Test - Types
@@ -166,6 +161,7 @@ children:
   ]
 }
 ```
+
 # Statistical Hypothesis Test - Which to Use
 
 ```merge-table
@@ -226,5 +222,7 @@ children:
   ]
 }
 ```
+
 # Resources
+
 - [Greg Martin's Intro to Hypothesis Tests](https://www.youtube.com/watch?v=I10q6fjPxJ0)
