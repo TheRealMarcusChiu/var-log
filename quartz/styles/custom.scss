@@ -139,6 +139,15 @@
     padding: 4px 0 4px 20px !important;
     border-left: 1px solid var(--lightgray);
   }
+
+  // Fully hide collapsed content. Quartz's height:0 collapse can't shrink a
+  // code block's <pre> border/padding (nor the code-title's negative margin),
+  // so part of the code block peeks through; hiding the content outright avoids
+  // the peek (same approach as [!expand-ui] above). Trade-off: instant toggle,
+  // no slide animation.
+  &.is-collapsed > .callout-content {
+    display: none !important;
+  }
 }
 
 // --- [!indent] / [!list-indent-undo] / [!wrapper] : invisible layout wrappers ---
