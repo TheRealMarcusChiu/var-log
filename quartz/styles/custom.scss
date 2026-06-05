@@ -412,13 +412,17 @@ article {
   // margin so the two headers align identically.
   & > h3 {
     margin: 0;
+    font-weight: 700; // bold the "Recent Notes" heading
   }
 
   & > ul.recent-ul {
     margin-top: 0.5rem !important; // was 1rem — tighten heading-to-list gap
+    overflow-x: auto; // long titles scroll horizontally instead of wrapping
 
     & > li.recent-li {
       margin: 0.3rem 0; // was 1rem — pull entries closer together
+      width: max-content; // grow to fit the (unwrapped) title…
+      min-width: 100%; // …but short rows still fill the sidebar
     }
   }
 
@@ -432,6 +436,7 @@ article {
     font-weight: 600;
     line-height: 1.5rem;
     color: var(--secondary);
+    white-space: nowrap; // don't wrap long titles
   }
 
   // drop the per-note date line
