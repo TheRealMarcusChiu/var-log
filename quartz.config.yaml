@@ -185,6 +185,11 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
+    enabled: false
+    layout:
+      position: beforeBody
+      priority: 20
+  - source: ./local-plugins/content-dates
     enabled: true
     layout:
       position: beforeBody
