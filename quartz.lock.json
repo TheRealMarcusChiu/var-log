@@ -205,6 +205,12 @@
       "commit": "874712a9910299b906606c885ea1fe9602114ca7",
       "installedAt": "2026-05-26T16:15:17.177Z"
     },
+    "pagefind-search": {
+      "source": "./local-plugins/pagefind-search",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/pagefind-search",
+      "commit": "local",
+      "installedAt": "2026-06-06T00:00:00.000Z"
+    },
     "obsidian-flavored-markdown": {
       "source": "github:quartz-community/obsidian-flavored-markdown",
       "resolved": "https://github.com/quartz-community/obsidian-flavored-markdown.git",
