@@ -1,0 +1,6 @@
+# Pagefind configuration. `--site` is still passed on the CLI for clarity,
+# but exclusions live here. The page chrome (explorer/search in .left.sidebar,
+# TOC/backlinks in .right.sidebar) is dropped so only .center page content is
+# indexed. See docs/superpowers/specs/2026-06-06-pagefind-search-design.md.
+exclude_selectors:
+  - ".sidebar"
