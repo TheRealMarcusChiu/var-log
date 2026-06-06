@@ -9,7 +9,7 @@ children:
 ---
 # Subpages
 - [[NP Complete／Completeness Problems]]
-- [[P vs NP (P = NP or P ≠ NP)]]
+- [[P vs NP (P = NP or P ≠ NP)]]
 
 # P - NP - NPC - NPI - NPO - NPH
 

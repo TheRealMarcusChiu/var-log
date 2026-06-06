@@ -86,7 +86,7 @@ children:
 - [[Korean Wave (Hallyu) - The Rise of Korea's Cultural Economy & Pop Culture]]
 - [[LGBTQQIAAP]]
 - [[Mundane]]
-- [[Naïve vs Gullible]]
+- [[Naïve vs Gullible]]
 - [[Paradox of Choice]]
 - [[Perception／Perceive - Conception／Conceive]]
 - [[portmanteau - contraction]]
