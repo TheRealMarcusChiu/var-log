@@ -34,27 +34,65 @@ const style = `
   flex-direction: column;
   gap: 0.25rem;
 }
+/* Toolbar button: fill (almost) the full sidebar width, text left + icon right. */
+.search {
+  width: 100%;
+}
+.search > .search-button {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--lightgray);
+  color: var(--dark);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font: inherit;
+}
+.search > .search-button p {
+  margin: 0;
+}
+/* Icon matches the "Search" text size and sits to the right of the text. */
+.search > .search-button svg {
+  flex: 0 0 auto;
+  width: 1em;
+  height: 1em;
+}
+.search > .search-button .search-path {
+  stroke: currentColor;
+}
 .search > .search-container { display: none; }
 .search > .search-container.active {
   display: block;
   position: fixed;
   inset: 0;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.3);
+  /* Dim the page strongly so the (light) results panel doesn't blend into it. */
+  background: rgba(0, 0, 0, 0.7);
 }
 .search > .search-container.active .search-space {
   max-width: 50rem;
   margin: 12vh auto 0;
   padding: 1rem;
+  /* Solid, opaque panel with a clear edge against the dimmed page. */
   background: var(--light);
+  border: 1px solid var(--lightgray);
   border-radius: 8px;
-  box-shadow: 0 14px 50px rgba(27, 33, 48, 0.3);
+  box-shadow: 0 14px 50px rgba(0, 0, 0, 0.5);
 }
 .search > .search-container.active .search-bar {
   width: 100%;
   box-sizing: border-box;
   padding: 0.5rem 0.75rem;
   font-size: 1.1rem;
+  background: var(--light);
+  color: var(--dark);
+  border: 1px solid var(--lightgray);
+  border-radius: 5px;
 }
 `
 
@@ -185,6 +223,7 @@ const PagefindSearch = (_opts) => {
     const classes = ["search", displayClass].filter(Boolean).join(" ")
     return h("div", { class: classes }, [
       h("button", { class: "search-button", "aria-label": "Search", "aria-expanded": "false" }, [
+        h("p", {}, "Search"),
         h(
           "svg",
           {
@@ -200,7 +239,6 @@ const PagefindSearch = (_opts) => {
             ]),
           ],
         ),
-        h("p", {}, "Search"),
       ]),
       h("div", { class: "search-container" }, [
         h("div", { class: "search-space" }, [
