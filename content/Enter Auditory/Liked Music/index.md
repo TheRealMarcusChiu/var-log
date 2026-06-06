@@ -28,7 +28,7 @@ children:
 ---
 ###### most recent to ...
 - [[Aba Ama]]
-- [[Aimyon - あいみょん - 生きていたんだよな]]
+- [[Aimyon - あいみょん - 生きていたんだよな]]
 - [[Because of LOVE - Eason Chan, Faye Wong]]
 - [[Can't Help Falling In Love]]
 - [[Darling I Do]]
@@ -41,7 +41,7 @@ children:
 - [[If you had a glimpse inside my head, you'd know i'm different than you]]
 - [[Nature Boy]]
 - [[Oceans (Where Feet May Fail)]]
-- [[ROSÉ - two years (official audio)]]
+- [[ROSÉ - two years (official audio)]]
 - [[Skyrim - Music & Ambience]]
 - [[Sometimes I'm Happy]]
 - [[Teana's Dream - Four Children With One Eye]]

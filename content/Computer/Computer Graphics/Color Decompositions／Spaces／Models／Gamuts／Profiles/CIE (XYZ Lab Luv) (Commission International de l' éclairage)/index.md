@@ -1,5 +1,5 @@
 ---
-title: "CIE (XYZ Lab Luv) (Commission International de l' éclairage)"
+title: "CIE (XYZ Lab Luv) (Commission International de l' éclairage)"
 created: 2020-07-07T20:03:12.155-05:00
 modified: 2020-07-07T20:53:29.985-05:00
 parent: "[[Color Decompositions／Spaces／Models／Gamuts／Profiles]]"
