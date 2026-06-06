@@ -1,7 +1,7 @@
 ---
 title: "TriSplat"
 created: 2026-06-01T13:24:18.150-05:00
-modified: 2026-06-01T13:25:39.011-05:00
+modified: 2026-06-06T00:58:41.359-05:00
 parent: "[[3D Reconstruction]]"
 children: []
 ---

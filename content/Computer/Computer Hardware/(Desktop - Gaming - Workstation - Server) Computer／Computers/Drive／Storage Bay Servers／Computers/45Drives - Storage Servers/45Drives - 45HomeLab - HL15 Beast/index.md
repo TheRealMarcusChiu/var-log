@@ -1,7 +1,7 @@
 ---
 title: "45Drives - 45HomeLab - HL15 Beast"
 created: 2026-06-01T02:01:48.971-05:00
-modified: 2026-06-01T02:03:35.380-05:00
+modified: 2026-06-06T00:58:49.058-05:00
 parent: "[[45Drives - Storage Servers]]"
 children: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: "(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate"
 created: 2021-09-13T05:27:40.345-05:00
-modified: 2026-06-03T09:57:50.957-05:00
+modified: 2026-06-06T00:58:16.452-05:00
 parent: "[[Probabilistic Inference - Approximate Inference]]"
 children:
   - "[[Estimator & Predictor／Model (Bias - Variance - Irreducible／Bayes／Noise) Error - Predictor／Model Capacity／Complexity - Generalization (Underfit - Goodfit - Overfit)]]"

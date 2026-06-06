@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant Community Store (HACS)"
 created: 2026-05-30T23:53:01.309-05:00
-modified: 2026-05-30T23:56:47.735-05:00
+modified: 2026-06-06T00:59:30.707-05:00
 parent: "[[Home Assistant (HA)]]"
 children: []
 ---

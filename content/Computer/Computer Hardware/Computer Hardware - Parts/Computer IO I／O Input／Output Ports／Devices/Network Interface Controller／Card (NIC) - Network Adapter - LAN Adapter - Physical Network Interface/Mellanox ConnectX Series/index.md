@@ -1,7 +1,7 @@
 ---
 title: "Mellanox ConnectX Series"
 created: 2026-06-01T02:09:32.634-05:00
-modified: 2026-06-01T02:10:07.279-05:00
+modified: 2026-06-06T00:58:45.886-05:00
 parent: "[[Network Interface Controller／Card (NIC) - Network Adapter - LAN Adapter - Physical Network Interface]]"
 children: []
 ---

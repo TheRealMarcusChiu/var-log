@@ -1,7 +1,7 @@
 ---
 title: "Current Workout Routine"
 created: 2026-05-01T16:34:14.194-05:00
-modified: 2026-05-31T20:41:35.264-05:00
+modified: 2026-06-06T00:59:01.334-05:00
 parent: "[[Enter Workout]]"
 children: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product"
 created: 2021-09-13T05:25:48.022-05:00
-modified: 2026-05-31T21:38:45.430-05:00
+modified: 2026-06-06T00:58:53.240-05:00
 parent: "[[Linear Algebra - Operations／Operators]]"
 children:
   - "[[Dot Product - Intuition]]"

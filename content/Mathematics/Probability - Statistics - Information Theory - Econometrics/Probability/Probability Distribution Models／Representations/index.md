@@ -1,7 +1,7 @@
 ---
 title: "Probability Distribution Models／Representations"
 created: 2021-09-13T05:26:33.606-05:00
-modified: 2026-06-03T09:59:35.313-05:00
+modified: 2026-06-06T00:58:35.842-05:00
 parent: "[[Probability]]"
 children:
   - "[[Non-Parametric Probability Distribution Models]]"

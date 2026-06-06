@@ -1,7 +1,7 @@
 ---
 title: "Matt Pocock's AI Engineering Skills for Real Development"
 created: 2026-05-31T13:39:59.417-05:00
-modified: 2026-05-31T13:42:19.319-05:00
+modified: 2026-06-06T00:59:14.273-05:00
 parent: "[[AI Agent Skills]]"
 children: []
 ---

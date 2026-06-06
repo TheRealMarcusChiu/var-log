@@ -1,7 +1,7 @@
 ---
 title: "Quotes"
 created: 2021-09-13T04:46:17.876-05:00
-modified: 2026-06-01T16:27:32.766-05:00
+modified: 2026-06-06T00:58:08.376-05:00
 parent: "[[Enter Textual]]"
 children:
   - "[[We do not proceed through a traffic intersection because the signal changes, but when the signal changes]]"

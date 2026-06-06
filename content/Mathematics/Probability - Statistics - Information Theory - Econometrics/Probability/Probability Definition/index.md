@@ -1,7 +1,7 @@
 ---
 title: "Probability Definition"
 created: 2021-09-13T05:26:29.963-05:00
-modified: 2026-06-03T09:59:45.083-05:00
+modified: 2026-06-06T00:58:38.629-05:00
 parent: "[[Probability]]"
 children:
   - "[[Likelihood vs Probability]]"

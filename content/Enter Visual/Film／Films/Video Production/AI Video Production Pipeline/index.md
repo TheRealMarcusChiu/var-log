@@ -1,7 +1,7 @@
 ---
 title: "AI Video Production Pipeline"
 created: 2026-05-31T11:51:09.594-05:00
-modified: 2026-05-31T11:52:56.985-05:00
+modified: 2026-06-06T00:59:19.552-05:00
 parent: "[[Video Production]]"
 children: []
 ---

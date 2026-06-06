@@ -1,7 +1,7 @@
 ---
 title: "Probability Distributions"
 created: 2021-09-13T05:27:12.377-05:00
-modified: 2026-06-03T09:59:19.332-05:00
+modified: 2026-06-06T00:58:30.456-05:00
 parent: "[[Probability]]"
 children:
   - "[[Conditional Probability Distribution (CPD)]]"

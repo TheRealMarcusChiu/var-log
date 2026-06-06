@@ -17,7 +17,10 @@ export const manifest = {
 //      and a bare `data-slug`, so `[[8 - 1]]` points at the site root instead of
 //      the nested `…/8/8---1/` page — rewrite both data-slug and href.
 // See ADR-0002.
-const simplify = (slug) => slug.replace(/\/index$/, "")
+// Strip the trailing folder-note segment. The root note's slug is the bare
+// string `index` (no leading slash), so anchor the match at start-or-slash;
+// otherwise the root is treated as one level deep and links gain an extra `..`.
+const simplify = (slug) => slug.replace(/(^|\/)index$/, "")
 
 // Relative URL from one folder-note page to another (both served as folders).
 const relPath = (fromSlug, toSlug) => {
@@ -29,7 +32,10 @@ const relPath = (fromSlug, toSlug) => {
   for (let k = i; k < from.length; k++) parts.push("..")
   for (let k = i; k < to.length; k++) parts.push(to[k])
   const rel = parts.join("/")
-  return (rel === "" ? "." : rel) + "/"
+  // Keep a leading `./` on downward links so the output matches crawl-links'
+  // convention and stays eligible for the SPA router's relative-URL rebasing.
+  if (rel === "") return "./"
+  return (rel.startsWith("..") ? rel : "./" + rel) + "/"
 }
 
 const TranscludeResolve = () => {

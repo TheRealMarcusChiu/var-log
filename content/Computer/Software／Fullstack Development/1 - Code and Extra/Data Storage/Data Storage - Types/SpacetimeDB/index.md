@@ -1,7 +1,7 @@
 ---
 title: "SpacetimeDB"
 created: 2025-05-10T12:30:40.856-05:00
-modified: 2026-05-31T20:48:39.390-05:00
+modified: 2026-06-06T00:58:57.189-05:00
 parent: "[[Data Storage - Types]]"
 children: []
 ---
