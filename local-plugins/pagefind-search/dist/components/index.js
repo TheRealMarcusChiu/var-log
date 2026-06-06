@@ -80,10 +80,11 @@ async function loadPagefind() {
 }
 
 function resultUrl(url) {
-  // Pagefind urls are root-relative to the indexed site (e.g. /16/).
-  // Prepend the deploy base path and strip any trailing index.html.
-  const clean = url.replace(/index\\.html$/, "")
-  return basePath() + clean
+  // Pagefind already returns base-path-aware URLs: it infers the site root from
+  // the pagefind.js location (e.g. /var-log/pagefind/ => base /var-log/), so its
+  // result urls are already like /var-log/16/. Do NOT prepend basePath() again
+  // (that double-counts). Just strip any trailing index.html.
+  return url.replace(/index\\.html$/, "")
 }
 
 async function runSearch(query, container) {
