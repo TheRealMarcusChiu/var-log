@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: therealmarcuschiu.github.io/var-log
+  baseUrl: git.marcuschiu.com/var-log
   ignorePatterns:
     - private
     - templates
@@ -246,6 +246,13 @@ plugins:
         reactionsEnabled: true
         inputPosition: bottom
         lang: en
+        # Use giscus's own CORS-enabled themes. A self-hosted theme under the
+        # site's /static/giscus cannot be loaded by the giscus.app iframe:
+        # GitHub Pages sends no Access-Control-Allow-Origin header, and the
+        # custom domain makes the github.io URL 301-redirect.
+        themeUrl: https://giscus.app/themes
+        lightTheme: light
+        darkTheme: dark
     layout:
       position: afterBody
       priority: 10
