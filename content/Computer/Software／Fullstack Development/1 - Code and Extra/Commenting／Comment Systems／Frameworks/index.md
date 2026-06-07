@@ -3,7 +3,8 @@ title: "Commenting／Comment Systems／Frameworks"
 created: 2025-06-18T15:38:18.490-05:00
 modified: 2025-06-18T15:49:01.080-05:00
 parent: "[[1 - Code and Extra]]"
-children: []
+children:
+  - "[[Giscus]]"
 ---
 ###### Commenting/Comment Systems/Frameworks
 ````excerpt

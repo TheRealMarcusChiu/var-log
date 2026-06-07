@@ -158,8 +158,6 @@ function debounce(fn, ms) {
   }
 }
 
-let boundKeydown = null
-
 function setupSearch() {
   const root = document.querySelector(".search")
   if (!root) return
@@ -185,19 +183,11 @@ function setupSearch() {
     container.classList.contains("active") ? close() : open()
   }
 
-  button.addEventListener("click", toggle)
-  input.addEventListener(
-    "input",
-    debounce((e) => runSearch(e.target.value.trim(), results), 150),
-  )
-  container.addEventListener("click", (e) => {
+  const onInput = debounce((e) => runSearch(e.target.value.trim(), results), 150)
+  const onContainerClick = (e) => {
     if (e.target === container) close()
-  })
-
-  // Replace any previously-bound document-level keydown handler so SPA
-  // navigations don't stack duplicate handlers.
-  if (boundKeydown) document.removeEventListener("keydown", boundKeydown)
-  boundKeydown = function (e) {
+  }
+  const onKeydown = (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
       e.preventDefault()
       toggle()
@@ -206,7 +196,23 @@ function setupSearch() {
       close()
     }
   }
-  document.addEventListener("keydown", boundKeydown)
+
+  button.addEventListener("click", toggle)
+  input.addEventListener("input", onInput)
+  container.addEventListener("click", onContainerClick)
+  document.addEventListener("keydown", onKeydown)
+
+  // Quartz re-fires "nav" on every SPA navigation and micromorph reuses these
+  // elements, so without cleanup each navigation stacks another set of
+  // listeners. A doubled click handler makes toggle() run twice (open+close),
+  // leaving the button unresponsive on any page reached via SPA nav. Register
+  // removals so spa.inline tears them down before the next nav re-binds.
+  window.addCleanup(() => {
+    button.removeEventListener("click", toggle)
+    input.removeEventListener("input", onInput)
+    container.removeEventListener("click", onContainerClick)
+    document.removeEventListener("keydown", onKeydown)
+  })
 }
 
 if (SEARCH_ENABLED) {

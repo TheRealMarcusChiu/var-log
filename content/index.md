@@ -12,6 +12,7 @@ children:
 - you don't get commended for your deed but for your inner intention
 
 # Recently Updated
+- [[Giscus]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
 - [[Home Assistant Community Store (HACS)]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
 - [[Smart Home Automation - Ideas]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
 - [[HA - Setup]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
@@ -31,4 +32,3 @@ children:
 - [[Probability Distribution Models／Representations]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
 - [[Probability Distributions]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
 - [[Probabilistic Inference]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
