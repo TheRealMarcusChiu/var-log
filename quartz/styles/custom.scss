@@ -461,4 +461,26 @@ article {
 // ============================================================
 .search > .search-container.active .search-space {
   background-color: #fff;
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+}
+
+// ============================================================
+// Explorer: prevent the left-sidebar tree from collapsing entirely
+// on desktop. The plugin shrinks `.explorer.collapsed` to ~1.2rem
+// (title only) when the "Explorer" title is clicked; we disable that
+// toggle and keep the panel expanded. Mobile (<=800px) keeps its
+// hamburger open/close behavior untouched.
+// ============================================================
+@media all and (min-width: 801px) {
+  .explorer .desktop-explorer {
+    cursor: default;
+    pointer-events: none;
+  }
+  .explorer .desktop-explorer .fold {
+    display: none;
+  }
+  .explorer.collapsed {
+    flex: 0 1 auto;
+  }
 }
