@@ -453,3 +453,12 @@ article {
     display: none;
   }
 }
+
+// ============================================================
+// Pagefind search modal: force an opaque white results panel.
+// The plugin sets `background: var(--light)` inside @layer quartz-base;
+// custom.scss is emitted unlayered, so this rule wins the cascade.
+// ============================================================
+.search > .search-container.active .search-space {
+  background-color: #fff;
+}
