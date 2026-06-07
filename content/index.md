@@ -12,23 +12,23 @@ children:
 - you don't get commended for your deed but for your inner intention
 
 # Recently Updated
-- [[Home Assistant Community Store (HACS)]]
-- [[Smart Home Automation - Ideas]]
-- [[HA - Setup]]
-- [[HA - Installation]]
-- [[AI Video Production Pipeline]]
-- [[Video Production]]
-- [[Matt Pocock's AI Engineering Skills for Real Development]]
-- [[Karakeep (previously Hoarder)]]
-- [[Servers Stuff To Run]]
-- [[Current Workout Routine]]
-- [[SpacetimeDB]]
-- [[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product]]
-- [[45Drives - 45HomeLab - HL15 Beast]]
-- [[Mellanox ConnectX Series]]
-- [[TriSplat]]
-- [[Probability Definition]]
-- [[Probability Distribution Models／Representations]]
-- [[Probability Distributions]]
-- [[Probabilistic Inference]]
-- [[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate]]
+- [[Home Assistant Community Store (HACS)]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Smart Home Automation - Ideas]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[HA - Setup]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[HA - Installation]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[AI Video Production Pipeline]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Video Production]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Matt Pocock's AI Engineering Skills for Real Development]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Karakeep (previously Hoarder)]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Servers Stuff To Run]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Current Workout Routine]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[SpacetimeDB]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[45Drives - 45HomeLab - HL15 Beast]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Mellanox ConnectX Series]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[TriSplat]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Probability Definition]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Probability Distribution Models／Representations]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Probability Distributions]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[Probabilistic Inference]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[(Point／Parameter - Predictor／Model Target Function／Distribution) Estimation／Estimator／Estimate]]<br><sup style='color:#9ca3af'>2026-06-06</sup>

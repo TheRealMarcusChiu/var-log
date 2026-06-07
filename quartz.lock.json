@@ -236,10 +236,10 @@
       "installedAt": "2026-05-24T15:36:16.990Z"
     },
     "page-title": {
-      "source": "github:quartz-community/page-title",
-      "resolved": "https://github.com/quartz-community/page-title.git",
-      "commit": "a53cf02ce7faca400bcf3cfeed47eb860329e534",
-      "installedAt": "2026-05-24T15:36:16.998Z"
+      "source": "./local-plugins/page-title",
+      "resolved": "/Users/marcuschiu/Desktop/A/var-log/local-plugins/page-title",
+      "commit": "local",
+      "installedAt": "2026-06-07T00:00:00.000Z"
     },
     "quartz-themes": {
       "source": {
