@@ -472,6 +472,33 @@ article {
 // toggle and keep the panel expanded. Mobile (<=800px) keeps its
 // hamburger open/close behavior untouched.
 // ============================================================
+// ============================================================
+// Sidebar page title: tiny, grayed "main site" link sitting above
+// the title. Lives here (unlayered) so it beats Quartz's base
+// `a { color: var(--secondary); font-weight: 600 }` rule, which is
+// inside @layer quartz-base alongside the component's own styles.
+// ============================================================
+.page-title .page-title-main {
+  display: block;
+  margin-top: 0.1rem;
+  font-family: var(--bodyFont);
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--secondary); // match wikilink color
+}
+
+// underline both the title and the "main site" link on hover
+.page-title a:hover {
+  text-decoration: underline;
+}
+
+// pull the sidebar search bar up closer to the title
+// (the left sidebar uses a 1.2rem flex gap between items)
+.sidebar.left .page-title {
+  margin-bottom: -0.8rem;
+}
+
 @media all and (min-width: 801px) {
   .explorer .desktop-explorer {
     cursor: default;

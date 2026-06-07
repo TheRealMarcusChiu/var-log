@@ -48,10 +48,14 @@ function u2(e2, t2, n2, o2, i2, u3) {
 }
 
 // src/components/PageTitle.tsx
-var PageTitle = ({ cfg, displayClass }) => {
+var PageTitle = ({ cfg, fileData, displayClass }) => {
   const locale = cfg?.locale ?? "en-US";
   const title = cfg?.pageTitle ?? i18n(locale).propertyDefaults.title;
-  return /* @__PURE__ */ u2("h2", { class: classNames(displayClass, "page-title"), children: /* @__PURE__ */ u2("a", { href: "http://www.marcuschiu.com", children: title }) });
+  const baseDir = pathToRoot(fileData?.slug ?? "");
+  return /* @__PURE__ */ u2("h2", { class: classNames(displayClass, "page-title"), children: [
+    /* @__PURE__ */ u2("a", { href: baseDir, children: title }),
+    /* @__PURE__ */ u2("a", { href: "http://www.marcuschiu.com", class: "page-title-main", children: "marcus chiu" })
+  ] });
 };
 PageTitle.css = `
 .page-title {
