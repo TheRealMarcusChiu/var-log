@@ -234,10 +234,18 @@ plugins:
       rootName: /var/log
       showCurrentPage: false
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: TheRealMarcusChiu/var-log
+        repoId: R_kgDOSxZkzQ
+        category: Announcements
+        categoryId: DIC_kwDOSxZkzc4C-tDY
+        mapping: pathname
+        reactionsEnabled: true
+        inputPosition: bottom
+        lang: en
     layout:
       position: afterBody
       priority: 10
