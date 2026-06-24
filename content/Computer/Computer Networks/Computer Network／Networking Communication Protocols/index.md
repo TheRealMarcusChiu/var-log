@@ -1,0 +1,76 @@
+---
+title: "Computer Network／Networking Communication Protocols"
+created: 2023-11-16T16:21:10.954-06:00
+modified: 2023-11-16T21:54:16.846-06:00
+parent: "[[Computer Networks]]"
+children: []
+---
+- [[802.3 - Ethernet]]
+- [[802.8 - Fiber Optic]]
+- [[Active Optical Cable (AOC)]]
+- [[Cable]]
+- [[Digital Subscriber Line (DSL)]]
+- [[Direct Attach Copper (DAC)]]
+- [[Fibre Channel (FC)]]
+- [[InfiniBand (IB)]]
+- [[Passive Optical Network (PON)]]
+- [[SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP]]
+
+- [[1 - Wireless Personal Area Network (WPAN)]]
+- [[2 - Wireless Local Area Network (WLAN)]]
+- [[3 - Wireless Metropolitan Area Network (WMAN)]]
+- [[4 - Wireless Worldwide Area Network (WWAN)]]
+- [[Carrier／Modulation Signal／Wave - Modulation／Modulate／Modulator - Demodulation／Demodulate／Demodulation - Modem]]
+
+- [[Address Resolution Protocol (ARP) - Reverse ARP (RARP)]]
+- [[Layer 2 Tunneling Protocol (L2TP)]]
+- [[Point-to-Point Protocol (PPP)]]
+
+- [[Internet Control Message Protocol  (ICMP)]]
+- [[Internet Group Management Protocol (IGMP)]]
+- [[Routed Protocols]]
+- [[Routing Protocols]]
+
+- [[Distributed Computing Environment ／ Remote Procedure Calls (DCE／RPC)]]
+- [[Quick UDP Internet Connections (QUIC)]]
+- [[Real-Time Transport Protocol (RTP) & Real-Time Transport Control Protocol (RTCP)]]
+- [[Remote Procedure Call (RPC) - network protocol]]
+- [[Stream Control Transmission Protocol (SCTP)]]
+- [[Transmission Control Protocol (TCP)]]
+- [[Universal／User Datagram Protocol (UDP)]]
+
+- [[Network Basic Input／Output System (NetBIOS)]]
+- [[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)]]
+
+
+
+- [[BitTorrent Protocol]]
+- [[Distributed - Peer-to-Peer Protocol]]
+- [[Domain Name System／Service (DNS)]]
+- [[Dynamic Domain Name System (DDNS)]]
+- [[Electronic Mail (email or e-mail)]]
+- [[File Transfer Protocol (FTP)]]
+- [[Hyper Text Transfer Protocol Secure (HTTPS)]]
+- [[Hypertext／Hyper Text Transfer Protocol (HTTP) - 1／1.1／2]]
+- [[Internet Small Computer Systems Interface (iSCSI)]]
+- [[IP Address Assignment]]
+- [[Message Queuing Telemetry Transport (MQTT)]]
+- [[Multicast DNS (mDNS)]]
+- [[Network File System (NFS)]]
+- [[Network News Transfer Protocol (NNTP)]]
+- [[Network Time Protocol (NTP)]]
+- [[Proxy (Forward／Reverse Proxy Chains)]]
+- [[Reactive Streams]]
+- [[Real-Time Streaming Protocol (RTSP)]]
+- [[Remote Management Control Protocol (RMCP)]]
+- [[rlogin]]
+- [[Secure Shell (SSH)]]
+- [[Server Message Block Protocol (SMB)]]
+- [[Simple Network Management Protocol (SNMP)]]
+- [[Simple Network Time Protocol (SNTP)]]
+- [[SPDY (Deprecated)]]
+- [[SSHFS]]
+- [[Web Distributed Authoring and Versioning (WebDAV)]]
+- [[Web Real-Time Communication (WebRTC)]]
+- [[WebSockets]]
+- [[Windows Internet Name Service (WINS)]]
