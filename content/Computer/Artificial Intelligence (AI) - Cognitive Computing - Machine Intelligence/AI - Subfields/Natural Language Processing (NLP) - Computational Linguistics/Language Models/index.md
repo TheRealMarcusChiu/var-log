@@ -10,6 +10,7 @@ children:
   - "[[Measuring Massive Multitask Language Understanding (MMLU)]]"
   - "[[N-Grams (Monograms／Unigrams - Bigrams)]]"
   - "[[Prompt Engineering (PE)]]"
+  - "[[Vision-Language Model (VLM)]]"
 ---
 ###### Language Models
 - a statistical language model is a [[Probability Distributions|probability distribution]] over sequences of words (e.g. a language model assigns a probability 𝐏("word-1 word-2 ... word-m") to a sequence of words)
@@ -21,3 +22,4 @@ children:
 - [[Measuring Massive Multitask Language Understanding (MMLU)]]
 - [[N-Grams (Monograms／Unigrams - Bigrams)]]
 - [[Prompt Engineering (PE)]]
+- [[Vision-Language Model (VLM)]]

@@ -29,6 +29,7 @@ children:
   - "[[Problems & Algorithms]]"
   - "[[Quantum - Algorithms／Computing／Programming／Systems]]"
   - "[[Real-Time - Algorithms／Computing／Programming／Systems]]"
+  - "[[Robotics／Robots]]"
   - "[[Smart Home Automation]]"
   - "[[Software／Fullstack Development]]"
   - "[[User Interface (UI)]]"
@@ -62,6 +63,7 @@ children:
 - [[Problems & Algorithms]]
 - [[Quantum - Algorithms／Computing／Programming／Systems]]
 - [[Real-Time - Algorithms／Computing／Programming／Systems]]
+- [[Robotics／Robots]]
 - [[Smart Home Automation]]
 - [[Software／Fullstack Development]]
 - [[User Interface (UI)]]

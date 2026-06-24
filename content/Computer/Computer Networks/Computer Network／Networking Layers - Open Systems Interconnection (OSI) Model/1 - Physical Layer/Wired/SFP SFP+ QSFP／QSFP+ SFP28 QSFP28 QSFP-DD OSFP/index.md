@@ -1,7 +1,7 @@
 ---
 title: "SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP"
 created: 2024-07-04T19:32:04.289-05:00
-modified: 2025-10-23T20:01:14.911-05:00
+modified: 2026-06-20T15:08:59.670-05:00
 parent: "[[Wired]]"
 children:
   - "[[Octal Small Form-factor Pluggable (OSFP)]]"
@@ -294,7 +294,7 @@ children:
         "align": "left"
       },
       {
-        "content": "400G, 800G",
+        "content": "400G, 800G, 1600G",
         "align": "left"
       },
       {

@@ -18,6 +18,7 @@ children:
   - "[[Intel Corporation]]"
   - "[[International Business Machines (IBM) Corporation - Big Blue]]"
   - "[[JPMorgan Chase & Co. (JPMC)]]"
+  - "[[Juniper Networks]]"
   - "[[KDE Community]]"
   - "[[KLA]]"
   - "[[Khronos Group]]"
@@ -27,6 +28,7 @@ children:
   - "[[Meta - Facebook]]"
   - "[[Micron]]"
   - "[[Microsoft]]"
+  - "[[Network Companies]]"
   - "[[Nvidia]]"
   - "[[OpenAI]]"
   - "[[Peripheral Component Interconnect Special Interest Group (PCI-SIG)]]"
@@ -62,6 +64,7 @@ children:
 - [[International Business Machines (IBM) Corporation - Big Blue]]
 - [[iXsystems, Inc.]]
 - [[JPMorgan Chase & Co. (JPMC)]]
+- [[Juniper Networks]]
 - [[KDE Community]]
 - [[Khronos Group]]
 - [[Kioxia Holdings Company]]
@@ -71,6 +74,7 @@ children:
 - [[Meta - Facebook]]
 - [[Micron]]
 - [[Microsoft]]
+- [[Network Companies]]
 - [[Nvidia]]
 - [[OpenAI]]
 - [[Peripheral Component Interconnect Special Interest Group (PCI-SIG)]]

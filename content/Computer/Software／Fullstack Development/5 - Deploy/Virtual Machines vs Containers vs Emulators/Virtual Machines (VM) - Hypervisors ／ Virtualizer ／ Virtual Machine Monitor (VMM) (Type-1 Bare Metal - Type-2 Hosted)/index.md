@@ -4,6 +4,7 @@ created: 2019-03-15T02:08:11.134-05:00
 modified: 2023-05-06T13:21:53.323-05:00
 parent: "[[Virtual Machines vs Containers vs Emulators]]"
 children:
+  - "[[BrowserPod]]"
   - "[[Kernel-Based Virtual Machine (KVM) Hypervisor]]"
   - "[[MicroCloud]]"
   - "[[Microsoft Client Hyper-V]]"
@@ -13,6 +14,7 @@ children:
   - "[[Proxmox Virtual Environment (PVE)]]"
   - "[[VMware]]"
   - "[[VirtualBox]]"
+  - "[[WebVM]]"
   - "[[Xen Cloud Platform - next generation (XCP-ng)]]"
   - "[[Xen Project]]"
   - "[[oVirt]]"
@@ -68,6 +70,7 @@ children:
 # Hypervisor - Type 1 vs Type 2 Diagram
 # ![[Virtual Machines (VM) - Hypervisors ／ Virtualizer ／ Virtual Machine Monitor (VMM) (Type-1 Bare Metal - Type-2 Hosted)/hypervisor-1-vs-2.png|500]]
 # Subpages
+- [[BrowserPod]]
 - [[Kernel-Based Virtual Machine (KVM) Hypervisor]]
 - [[MicroCloud]]
 - [[Microsoft Client Hyper-V]]
@@ -78,5 +81,6 @@ children:
 - [[Proxmox Virtual Environment (PVE)]]
 - [[VirtualBox]]
 - [[VMware]]
+- [[WebVM]]
 - [[Xen Cloud Platform - next generation (XCP-ng)]]
 - [[Xen Project]]

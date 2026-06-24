@@ -1,11 +1,17 @@
 ---
 title: "Quotes"
 created: 2021-09-13T04:46:17.876-05:00
-modified: 2026-06-06T00:58:08.376-05:00
+modified: 2026-06-09T13:14:04.293-05:00
 parent: "[[Enter Textual]]"
 children:
   - "[[We do not proceed through a traffic intersection because the signal changes, but when the signal changes]]"
 ---
+NOW BEING UPDATED AT: [http://git.marcuschiu.com/quotes](http://git.marcuschiu.com/quotes)
+
+writing well requires you to think well
+
+the most personal is the most creative
+
 each time a child is born, the world lights up with possibilities
 
 a part of you is completely unexplored until you meet a particular someone

@@ -5,6 +5,7 @@ modified: 2025-01-22T23:41:23.988-06:00
 parent: "[[Computer Applications／Apps／Programs]]"
 children:
   - "[[Alacritty]]"
+  - "[[Browser Terminal Emulators]]"
   - "[[Ghostty]]"
   - "[[Hyper (Terminal)]]"
   - "[[Kitty]]"
@@ -20,6 +21,7 @@ children:
 
 # Subpages
 - [[Alacritty]]
+- [[Browser Terminal Emulators]]
 - [[Ghostty]]
 - [[Hyper (Terminal)]]
 - [[iTerm]]

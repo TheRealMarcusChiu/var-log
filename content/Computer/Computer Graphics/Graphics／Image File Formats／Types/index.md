@@ -1,7 +1,7 @@
 ---
 title: "Graphics／Image File Formats／Types"
 created: 2020-06-30T15:59:37.286-05:00
-modified: 2026-03-03T15:57:44.833-06:00
+modified: 2026-06-19T14:36:48.009-05:00
 parent: "[[Computer Graphics]]"
 children:
   - "[[Raster Graphics (Bitmap Image)]]"
@@ -16,7 +16,7 @@ children:
 # Intro
 
 ![](https://www.youtube.com/watch?v=W31xBdl5tNA)
-# Types
+# Class
 
 ```merge-table
 {
@@ -56,6 +56,77 @@ children:
     ]
   ],
   "tableStyle": "width: 100.0%;"
+}
+```
+# Best Type
+
+```merge-table
+{
+  "rows": [
+    [
+      {
+        "content": "<strong>Use Case</strong>",
+        "bg": "#F4F5F7"
+      },
+      {
+        "content": "<strong>Recommended Format</strong>",
+        "bg": "#F4F5F7"
+      },
+      {
+        "content": "<strong>Why?</strong>",
+        "bg": "#F4F5F7"
+      }
+    ],
+    [
+      {
+        "content": "Web Performance (Photos)",
+        "bg": "#F4F5F7"
+      },
+      "AVIF or [[WebP]]",
+      "Superior compression; significantly smaller file sizes than JPEG."
+    ],
+    [
+      {
+        "content": "Web Graphics (Logos/Icons)",
+        "bg": "#F4F5F7"
+      },
+      "[[Scalable Vector Graphics (SVG)|SVG]]",
+      "Scalable without quality loss; extremely lightweight code-based format."
+    ],
+    [
+      {
+        "content": "Transparency Needed",
+        "bg": "#F4F5F7"
+      },
+      "[[Portable Network Graphics (PNG)|PNG]] or [[WebP]]",
+      "PNG is the standard for lossless; WebP supports alpha channels with better compression."
+    ],
+    [
+      {
+        "content": "Professional Print",
+        "bg": "#F4F5F7"
+      },
+      "[[Tagged Image File Format (TIFF／TIF)|TIFF]]",
+      "Gold standard for high-res; preserves all data; lossless."
+    ],
+    [
+      {
+        "content": "Ongoing Design/Editing",
+        "bg": "#F4F5F7"
+      },
+      "PSD",
+      "Retains layers, masks, and editability for Adobe Photoshop."
+    ],
+    [
+      {
+        "content": "Legacy/Universal Needs",
+        "bg": "#F4F5F7"
+      },
+      "[[Joint Photographic Experts Group (JPG／JPEG／JFIF)|JPEG]]",
+      "Universal compatibility across every device and browser imaginable."
+    ]
+  ],
+  "tableStyle": "margin-left: 0.0px;"
 }
 ```
 # Other

@@ -5,6 +5,7 @@ modified: 2025-06-18T15:44:08.474-05:00
 parent: "[[Application Programming Interface (API) - Software Development Kit (SDK)]]"
 children:
   - "[[3rd Party API - Carrier Service]]"
+  - "[[Instagram API]]"
 ---
 ````excerpt
 <strong>[[API - 3ʳᵈ Party]]</strong> - application-level [[Application Programming Interface (API) - Software Development Kit (SDK)|APIs]] to integrate within a broader application
@@ -13,3 +14,4 @@ children:
 
 # 3<sup>rd</sup> Party APIs
 - [[3rd Party API - Carrier Service]]
+- [[Instagram API]]

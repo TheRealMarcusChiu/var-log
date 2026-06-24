@@ -1,7 +1,7 @@
 ---
 title: "Emulators／Mediator"
 created: 2023-01-08T23:03:48.169-06:00
-modified: 2023-01-08T23:31:34.559-06:00
+modified: 2026-06-13T12:08:27.712-05:00
 parent: "[[Virtual Machines vs Containers vs Emulators]]"
 children:
   - "[[CrossOver]]"
@@ -16,7 +16,6 @@ children:
     [
       {
         "content": "[[CrossOver]]",
-        "header": true,
         "bg": "#F4F5F7"
       },
       "![[CrossOver#^excerpt]]"
@@ -24,7 +23,6 @@ children:
     [
       {
         "content": "[[QEMU]]",
-        "header": true,
         "bg": "#F4F5F7"
       },
       "![[QEMU#^excerpt]]"
@@ -32,7 +30,6 @@ children:
     [
       {
         "content": "[[Wine]]",
-        "header": true,
         "bg": "#F4F5F7"
       },
       "![[Wine#^excerpt]]"

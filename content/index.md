@@ -12,23 +12,23 @@ children:
 - you don't get commended for your deed but for your inner intention
 
 # Recently Updated
-- [[Giscus]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Home Assistant Community Store (HACS)]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Smart Home Automation - Ideas]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[HA - Setup]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[HA - Installation]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[AI Video Production Pipeline]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Video Production]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Matt Pocock's AI Engineering Skills for Real Development]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Karakeep (previously Hoarder)]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Servers Stuff To Run]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Current Workout Routine]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[SpacetimeDB]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Dot Product - Scalar Product - Canonical／Euclidean／Standard Inner Product]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[45Drives - 45HomeLab - HL15 Beast]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Mellanox ConnectX Series]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[TriSplat]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Probability Definition]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Probability Distribution Models／Representations]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Probability Distributions]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
-- [[Probabilistic Inference]]<br><sup style='color:#9ca3af'>2026-06-06</sup>
+- [[SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
+- [[Arista Switches]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
+- [[Arista Networks]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
+- [[Network Companies]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
+- [[Juniper Switches]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
+- [[Juniper Networks]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
+- [[Graphics／Image File Formats／Types]]<br><sup style='color:#9ca3af'>2026-06-19</sup>
+- [[Robotics／Robots]]<br><sup style='color:#9ca3af'>2026-06-18</sup>
+- [[Robot Operating System (ROS)]]<br><sup style='color:#9ca3af'>2026-06-17</sup>
+- [[Vision-Language Model (VLM)]]<br><sup style='color:#9ca3af'>2026-06-17</sup>
+- [[Claude]]<br><sup style='color:#9ca3af'>2026-06-16</sup>
+- [[Claude Haiku]]<br><sup style='color:#9ca3af'>2026-06-16</sup>
+- [[Instagram API]]<br><sup style='color:#9ca3af'>2026-06-14</sup>
+- [[BrowserPod]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
+- [[Browsercode]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
+- [[Browser Terminal Emulators]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
+- [[WebVM]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
+- [[Emulators／Mediator]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
+- [[Mellanox ConnectX Series]]<br><sup style='color:#9ca3af'>2026-06-10</sup>
+- [[Quotes]]<br><sup style='color:#9ca3af'>2026-06-09</sup>
