@@ -5,7 +5,7 @@ modified: 2022-12-22T10:12:15.624-06:00
 parent: "[[Java - Spring Family]]"
 children: []
 ---
-- see [[Java - Monitor／Metrics／Management Frameworks|Java - Monitor/Metrics/Management Frameworks]]
+- see [[Java - Observability／Telemetry／Monitor／Metrics／Management Frameworks|Java - Observability/Telemetry/Monitor/Metrics/Management Frameworks]]
 
 # Subpages
 

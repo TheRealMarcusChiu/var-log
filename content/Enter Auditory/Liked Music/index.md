@@ -28,7 +28,7 @@ children:
 ---
 ###### most recent to ...
 - [[Aba Ama]]
-- [[Aimyon - あいみょん - 生きていたんだよな]]
+- [[Aimyon - あいみょん - 生きていたんだよな]]
 - [[Because of LOVE - Eason Chan, Faye Wong]]
 - [[Can't Help Falling In Love]]
 - [[Darling I Do]]

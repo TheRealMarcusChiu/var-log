@@ -12,6 +12,18 @@ children:
 - you don't get commended for your deed but for your inner intention
 
 # Recently Updated
+- [[Java - QDox]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Java - Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Java - Micrometer]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry - Service／Servers／Frameworks]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry - Other]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[6 - Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Azure Monitor]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Java - Observability／Telemetry／Monitor／Metrics／Management Frameworks]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[ComfyUI - Manager]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Java - Jackson]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Java - Jackson 3]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
+- [[Java - Jackson 2 (Codehaus vs FasterXML) - ObjectMapper]]<br><sup style='color:#9ca3af'>2026-06-24</sup>
 - [[SFP SFP+ QSFP／QSFP+ SFP28 QSFP28 QSFP-DD OSFP]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
 - [[Arista Switches]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
 - [[Arista Networks]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
@@ -20,15 +32,3 @@ children:
 - [[Juniper Networks]]<br><sup style='color:#9ca3af'>2026-06-20</sup>
 - [[Graphics／Image File Formats／Types]]<br><sup style='color:#9ca3af'>2026-06-19</sup>
 - [[Robotics／Robots]]<br><sup style='color:#9ca3af'>2026-06-18</sup>
-- [[Robot Operating System (ROS)]]<br><sup style='color:#9ca3af'>2026-06-17</sup>
-- [[Vision-Language Model (VLM)]]<br><sup style='color:#9ca3af'>2026-06-17</sup>
-- [[Claude]]<br><sup style='color:#9ca3af'>2026-06-16</sup>
-- [[Claude Haiku]]<br><sup style='color:#9ca3af'>2026-06-16</sup>
-- [[Instagram API]]<br><sup style='color:#9ca3af'>2026-06-14</sup>
-- [[BrowserPod]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
-- [[Browsercode]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
-- [[Browser Terminal Emulators]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
-- [[WebVM]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
-- [[Emulators／Mediator]]<br><sup style='color:#9ca3af'>2026-06-13</sup>
-- [[Mellanox ConnectX Series]]<br><sup style='color:#9ca3af'>2026-06-10</sup>
-- [[Quotes]]<br><sup style='color:#9ca3af'>2026-06-09</sup>

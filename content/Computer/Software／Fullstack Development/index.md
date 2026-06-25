@@ -11,7 +11,7 @@ children:
   - "[[4 - Release]]"
   - "[[4 Types of Projects (Walking in the fog - Making a movie - Going on a quest - Painting by numbers)]]"
   - "[[5 - Deploy]]"
-  - "[[6 - Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics]]"
+  - "[[6 - Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry]]"
   - "[[Agile - Scrum]]"
   - "[[Architecture／Architectural Design Examples]]"
   - "[[Before Commit vs After Commit]]"
@@ -60,7 +60,7 @@ children:
 - [[4 - Release]]
 - [[4 Types of Projects (Walking in the fog - Making a movie - Going on a quest - Painting by numbers)]]
 - [[5 - Deploy]]
-- [[6 - Logs／Logging & Monitoring & Metrics & Traces／Tracing & Analytics]]
+- [[6 - Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry]]
 - [[Agile - Scrum]]
 - [[Architecture／Architectural Design Examples]]
 - [[Before Commit vs After Commit]]

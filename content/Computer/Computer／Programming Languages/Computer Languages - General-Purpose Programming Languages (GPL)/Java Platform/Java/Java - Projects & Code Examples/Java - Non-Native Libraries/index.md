@@ -11,10 +11,9 @@ children:
   - "[[Java - Dependency Injection Frameworks - Spring vs CDI (Context and Dependency Injection)]]"
   - "[[Java - Deserialization／Serialization Library／Frameworks]]"
   - "[[Java - GraphQL Frameworks]]"
-  - "[[Java - Logging／Log Frameworks]]"
+  - "[[Java - Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry]]"
   - "[[Java - Lombok]]"
   - "[[Java - Mapping Frameworks]]"
-  - "[[Java - Monitor／Metrics／Management Frameworks]]"
   - "[[Java - Object-Graph Navigation Language (OGNL)]]"
   - "[[Java - Project Reactor／Reactive Core (Mono - Flux)]]"
   - "[[Java - QDox]]"
@@ -35,10 +34,9 @@ children:
 > - [[Java - Dependency Injection Frameworks - Spring vs CDI (Context and Dependency Injection)]]
 > - [[Java - Deserialization／Serialization Library／Frameworks]]
 > - [[Java - GraphQL Frameworks]]
-> - [[Java - Logging／Log Frameworks]]
+> - [[Java - Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry]]
 > - [[Java - Lombok]]
 > - [[Java - Mapping Frameworks]]
-> - [[Java - Monitor／Metrics／Management Frameworks]]
 > - [[Java - Object-Graph Navigation Language (OGNL)]]
 > - [[Java - Project Reactor／Reactive Core (Mono - Flux)]]
 > - [[Java - QDox]]

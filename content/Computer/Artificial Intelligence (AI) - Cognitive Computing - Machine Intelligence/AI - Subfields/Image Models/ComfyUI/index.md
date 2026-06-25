@@ -5,6 +5,7 @@ modified: 2025-08-08T22:55:05.203-05:00
 parent: "[[Image Models]]"
 children:
   - "[[ComfyUI - Installation & Setup]]"
+  - "[[ComfyUI - Manager]]"
   - "[[ComfyUI - Run as Service]]"
 ---
 ###### ComfyUI
@@ -15,6 +16,7 @@ children:
 
 # Subpages
 - [[ComfyUI - Installation & Setup]]
+- [[ComfyUI - Manager]]
 - [[ComfyUI - Run as Service]]
 
 # Resources

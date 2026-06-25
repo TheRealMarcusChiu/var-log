@@ -1,5 +1,5 @@
 ---
-title: "P vs NP (P = NP or P ≠ NP)"
+title: "P vs NP (P = NP or P ≠ NP)"
 created: 2021-09-13T05:24:52.064-05:00
 modified: 2023-12-07T13:32:08.999-06:00
 parent: "[[P - NP - NPC - NPI - NPO - NPH]]"
