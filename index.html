@@ -2625,9 +2625,16 @@ class Component extends DCLogic {
       // Persist the signed-in session token giscus emits so it survives reloads.
       if (typeof d.giscus.signOut !== 'undefined') { try { localStorage.removeItem('giscus-session'); } catch (er) {} }
       if (!d.giscus.resize || typeof d.giscus.resize.height !== 'number') return;
-      document.querySelectorAll('iframe.giscus-frame').forEach((f) => {
-        if (f.contentWindow === e.source) f.style.height = d.giscus.resize.height + 'px';
-      });
+      const h = d.giscus.resize.height + 'px';
+      const frames = Array.prototype.slice.call(document.querySelectorAll('iframe.giscus-frame'));
+      if (!frames.length) return;
+      // Prefer the frame that actually sent the message (needed when two panes are open)...
+      let target = null;
+      for (let i = 0; i < frames.length; i++) { if (frames[i].contentWindow === e.source) { target = frames[i]; break; } }
+      // ...but cross-origin WindowProxy identity isn't always reliable; with a single frame on the
+      // page there's no ambiguity, so size it regardless (this is what giscus's own client.js does).
+      if (!target && frames.length === 1) target = frames[0];
+      if (target) target.style.height = h;
     });
   }
   sidebarScrollEl() { return document.getElementById('kg-sidebar-scroll'); }
