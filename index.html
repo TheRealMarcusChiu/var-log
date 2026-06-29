@@ -1078,9 +1078,6 @@ class Component extends DCLogic {
     });
   }
 
-  hash(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h; }
-  hashStr(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
-
   relativeDate(s) {
     const t = Date.parse(s); if (!t) return '';
     const diff = Date.now() - t, day = 86400000;
@@ -1375,6 +1372,13 @@ class Component extends DCLogic {
   // A node is "anchored" in the graph if it's the left selection OR (in split view) the right pane's note.
   isAnchored(id) { return id === this.selectedId || (!!(this.state.tabsR && this.state.tabsR.length) && id === this.state.selectedIdR); }
   navStateR() { return (this.navHistByKey || (this.navHistByKey = {}))[this.state.selectedKeyR] || { hist: [], idx: -1 }; }
+  // Shared style for the ‹ back / › forward buttons in either pane; greys out when there's nowhere to go.
+  navBtnStyle(st, isFwd) {
+    const enabled = isFwd ? (st.idx < st.hist.length - 1) : (st.idx > 0);
+    const s = { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', padding: '3px 5px', borderRadius: '7px', border: 'none', background: 'transparent', color: enabled ? '#8c8170' : '#433c30', cursor: enabled ? 'pointer' : 'default', fontSize: '20px', lineHeight: 1, transition: 'color .15s, background .15s, transform .15s' };
+    if (isFwd) s.marginLeft = '-10px';
+    return s;
+  }
   navBackR = () => { const s = this.navStateR(); if (s.idx > 0) { s.idx--; this.navRight(s.hist[s.idx], true); } };
   navForwardR = () => { const s = this.navStateR(); if (s.idx < s.hist.length - 1) { s.idx++; this.navRight(s.hist[s.idx], true); } };
   selectNode(id) {
@@ -1853,12 +1857,6 @@ class Component extends DCLogic {
   }
   onMdContext = (e) => this._mdContextMenu(e, 'left');
   onMdContextR = (e) => this._mdContextMenu(e, 'right');
-  _onMdContextOld = (e) => {
-    const a = e.target && e.target.closest ? e.target.closest('.wikilink') : null;
-    if (!a) return;
-    const id = a.getAttribute('data-wikilink');
-    if (id && this.nodeById && this.nodeById[id]) { e.preventDefault(); e.stopPropagation(); this.setState({ linkMenu: { id: id, x: e.clientX, y: e.clientY } }); }
-  };
   // Duplicate a tab: a fresh tab on the same node, copying its back/forward history.
   duplicateTab = (key, side) => {
     const id = this.nodeOf(key); if (id == null) return;
@@ -2983,14 +2981,31 @@ class Component extends DCLogic {
     const childN = sel ? new Set((sel.children || []).map((c) => c.id)).size : 0;
     const popItem = { display: 'block', width: '100%', textAlign: 'left', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: '320px', background: 'transparent', border: 'none', cursor: 'pointer', fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.02em', textTransform: 'none', color: '#c9bca6', padding: '6px 9px', borderRadius: '5px', transition: 'all .12s ease' };
     const popStyle = { position: 'absolute', top: 'calc(100% + 7px)', left: 0, minWidth: '210px', maxWidth: '340px', maxHeight: '300px', overflowY: 'auto', background: '#16120c', border: '1px solid #2a2218', borderRadius: '8px', padding: '5px', zIndex: 35, boxShadow: '0 18px 40px -18px rgba(0,0,0,0.85)' };
-    const mkPopList = (ids) => { const seen = new Set(); const arr = (ids || []).map((id) => this.nodeById[id]).filter((nn) => nn && !seen.has(nn.id) && seen.add(nn.id)); arr.sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })); if (!arr.length) return [{ label: '\u2014 none \u2014', onClick: () => {}, onHover: () => {}, onLeave: () => {}, style: Object.assign({}, popItem, { color: '#5f574a', cursor: 'default' }) }]; return arr.map((nn) => ({ label: nn.title, onClick: () => { this.setState({ metaPop: null }); this.navigateTo(nn.id); }, onHover: () => { this.hoverId = nn.id; }, onLeave: () => { this.hoverId = null; }, onContext: this.openLinkMenu(nn.id), style: popItem })); };
+    // Build a sorted, de-duplicated dropdown list (children / linked / backlinks) for either pane.
+    // opts.popKey is the metaPop state key to clear on click; nav repoints the pane; side feeds the
+    // link context-menu; hover highlights the node in the graph (left pane only).
+    const makePopList = (ids, opts) => {
+      const seen = new Set();
+      const arr = (ids || []).map((id) => this.nodeById[id]).filter((nn) => nn && !seen.has(nn.id) && seen.add(nn.id));
+      arr.sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }));
+      if (!arr.length) return [{ label: '\u2014 none \u2014', onClick: () => {}, onHover: () => {}, onLeave: () => {}, style: Object.assign({}, popItem, { color: '#5f574a', cursor: 'default' }) }];
+      return arr.map((nn) => ({
+        label: nn.title,
+        onClick: () => { this.setState({ [opts.popKey]: null }); opts.nav(nn.id); },
+        onHover: opts.hover ? () => { this.hoverId = nn.id; } : () => {},
+        onLeave: opts.hover ? () => { this.hoverId = null; } : () => {},
+        onContext: this.openLinkMenu(nn.id, opts.side),
+        style: popItem,
+      }));
+    };
+    const mkPopList = (ids) => makePopList(ids, { popKey: 'metaPop', nav: (id) => this.navigateTo(id), hover: true });
     const linkedList = sel ? mkPopList((sel.links || []).filter((id) => this.nodeById[id])) : [];
     const backList = sel ? mkPopList(this.incoming[sel.id] || []) : [];
     const childList = sel ? mkPopList((sel.children || []).map((c) => c.id)) : [];
 
     // Build the full per-pane value set (crumbs, meta lists, title, body) for ANY node, so the
     // right split pane mirrors the left exactly. `nav` repoints that pane; `pp` is the metaPop prefix.
-    const mkPopList2 = (ids, nav, pp) => { const seen = new Set(); const arr = (ids || []).map((id) => this.nodeById[id]).filter((nn) => nn && !seen.has(nn.id) && seen.add(nn.id)); arr.sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })); if (!arr.length) return [{ label: '\u2014 none \u2014', onClick: () => {}, onHover: () => {}, onLeave: () => {}, style: Object.assign({}, popItem, { color: '#5f574a', cursor: 'default' }) }]; return arr.map((nn) => ({ label: nn.title, onClick: () => { this.setState({ metaPopR: null }); nav(nn.id); }, onHover: () => {}, onLeave: () => {}, onContext: this.openLinkMenu(nn.id, 'right'), style: popItem })); };
+    const mkPopList2 = (ids, nav) => makePopList(ids, { popKey: 'metaPopR', nav: nav, side: 'right', hover: false });
     const buildPane = (node, nav) => {
       if (!node) return { hasSel: false };
       const chain = []; let c = node;
@@ -3327,10 +3342,10 @@ class Component extends DCLogic {
       locateInGraph: this.locateInGraph,
       navBack: this.navBack, navForward: this.navForward,
       navBackR: this.navBackR, navForwardR: this.navForwardR,
-      navBackStyleR: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', padding: '3px 5px', borderRadius: '7px', border: 'none', background: 'transparent', color: this.navStateR().idx > 0 ? '#8c8170' : '#433c30', cursor: this.navStateR().idx > 0 ? 'pointer' : 'default', fontSize: '20px', lineHeight: 1, transition: 'color .15s, background .15s, transform .15s' },
-      navFwdStyleR: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', padding: '3px 5px', marginLeft: '-10px', borderRadius: '7px', border: 'none', background: 'transparent', color: (this.navStateR().idx < this.navStateR().hist.length - 1) ? '#8c8170' : '#433c30', cursor: (this.navStateR().idx < this.navStateR().hist.length - 1) ? 'pointer' : 'default', fontSize: '20px', lineHeight: 1, transition: 'color .15s, background .15s, transform .15s' },
-      navBackStyle: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', padding: '3px 5px', borderRadius: '7px', border: 'none', background: 'transparent', color: this.navState().idx > 0 ? '#8c8170' : '#433c30', cursor: this.navState().idx > 0 ? 'pointer' : 'default', fontSize: '20px', lineHeight: 1, transition: 'color .15s, background .15s, transform .15s' },
-      navFwdStyle: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', padding: '3px 5px', marginLeft: '-10px', borderRadius: '7px', border: 'none', background: 'transparent', color: (this.navState().idx < this.navState().hist.length - 1) ? '#8c8170' : '#433c30', cursor: (this.navState().idx < this.navState().hist.length - 1) ? 'pointer' : 'default', fontSize: '20px', lineHeight: 1, transition: 'color .15s, background .15s, transform .15s' },
+      navBackStyleR: this.navBtnStyle(this.navStateR(), false),
+      navFwdStyleR: this.navBtnStyle(this.navStateR(), true),
+      navBackStyle: this.navBtnStyle(this.navState(), false),
+      navFwdStyle: this.navBtnStyle(this.navState(), true),
       query: this.state.query,
       onSearchInput: this.onSearchInput,
       recentOpen: !!this.state.recentOpen,
