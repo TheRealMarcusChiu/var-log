@@ -1,0 +1,1 @@
+(function(){var b="06eb4d9e2a6d",m="###### Quartz Scheduler\n- is an open-source job [[Java - Scheduling Frameworks|scheduling framework]]\n- [http://www.quartz-scheduler.org/](http://www.quartz-scheduler.org/)\n\n# Spring Integration\n- [[Java - Spring - Quartz Scheduler]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

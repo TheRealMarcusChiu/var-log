@@ -1,0 +1,1 @@
+(function(){var b="00a88c3f5f4d",m="![](https://www.youtube.com/watch?v=IgJ6YolLxYE)\n- [[Western Digital (WD) HDD Lineup|WD]] \\>\\> [[Hitachi Global Storage Technologies (HGST) HDD Lineup|HGST]] \\>\\> [[Toshiba HDD Lineup|Toshiba]] \\>\\> [[Seagate HDD Lineup|Seagate]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

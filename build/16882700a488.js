@@ -1,0 +1,1 @@
+(function(){var b="16882700a488",m="see: [https://hackaday.com/2023/07/20/pcie-for-hackers-an-m-2-card-journey/](https://hackaday.com/2023/07/20/pcie-for-hackers-an-m-2-card-journey/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

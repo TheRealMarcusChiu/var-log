@@ -1,0 +1,1 @@
+(function(){var b="ba284961ae31",m="![](https://www.youtube.com/watch?v=nRe3xFeyhVY&ab_channel=Everness&t=4s)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

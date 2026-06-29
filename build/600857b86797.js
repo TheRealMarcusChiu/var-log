@@ -1,0 +1,1 @@
+(function(){var b="600857b86797",m="###### Simple Network Management Protocol (SNMP)\n````excerpt\n- is a protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behavior\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

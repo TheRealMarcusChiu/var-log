@@ -1,0 +1,1 @@
+(function(){var b="ca3604b3f29a",m="###### Desktop OS\n````excerpt\n- is an [[Operating Systems (OS)|operating system]] for the desktop\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

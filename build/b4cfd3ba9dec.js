@@ -1,0 +1,1 @@
+(function(){var b="b4cfd3ba9dec",m="[https://docs.brew.sh/Homebrew-on-Linux](https://docs.brew.sh/Homebrew-on-Linux)\n\n[http://linuxbrew.sh/](http://linuxbrew.sh/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

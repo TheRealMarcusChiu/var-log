@@ -1,0 +1,1 @@
+(function(){var b="f4228218c099",m="![[Types of Pans/The-Ultimate-Frying-Pan-Guide_4.jpg|600]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

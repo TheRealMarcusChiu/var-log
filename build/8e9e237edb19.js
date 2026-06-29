@@ -1,0 +1,1 @@
+(function(){var b="8e9e237edb19",m="###### Web SQL Database\n````excerpt\n- is a <strong><font style=\"color: rgb(255,0,0);\">DEPRECATED</font></strong> [[Browser Application - Storage|browser storage]] technology. consider using other browser storages\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="22310f127627",m="Malachi 3:3 is a good verse about sanctification:\n\n\"The LORD will sit as a refiner and purifier of silver...\"\n\nReason:\n\n[https://www.youtube.com/shorts/MT3pUao8XBM](https://www.youtube.com/shorts/MT3pUao8XBM)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

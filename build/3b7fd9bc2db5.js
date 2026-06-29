@@ -1,0 +1,1 @@
+(function(){var b="3b7fd9bc2db5",m="<strong>GLFW (Graphics Library FrameWork)</strong> provides a simple API for creating windows, contexts and surfaces, receiving input and events\n\n[https://www.glfw.org/](https://www.glfw.org/)\n### Installation\n- brew install glfw";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="e856562eb8ec",m="###### Etcher ([www.etcher.io](http://www.etcher.io))\n- application for both [[Windows]] and [[Macintosh OSs (Mac OS X) - macOS|Mac]]\n- for creating USB Computers Easily";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="4041f6c569b0",m="###### Bag of Words (BoW)\n- a text, such as a sentence or a document, is represented as the bag of its words, disregarding grammar and even word order but keeping multiplicity";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

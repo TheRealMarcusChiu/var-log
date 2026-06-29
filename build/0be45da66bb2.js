@@ -1,0 +1,1 @@
+(function(){var b="0be45da66bb2",m="###### Translational Invariance/Symmetry\n````excerpt\n- is the [[Invariant／Invariance|invariance]] of a system of equations under any translation\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="d339f2c06bbf",m="###### Network News Transfer Protocol (NNTP)\n````excerpt\n- is the standard protocol for accessing and interacting with Usenet, an online discussion system\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

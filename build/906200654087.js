@@ -1,0 +1,1 @@
+(function(){var b="906200654087",m="[https://www.blackpepper.co.uk/blog/a-modular-architecture-with-spring-boot](https://www.blackpepper.co.uk/blog/a-modular-architecture-with-spring-boot)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

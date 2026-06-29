@@ -1,0 +1,1 @@
+(function(){var b="b7ae978b3c5a",m="<strong>articulate</strong> - being able to take 2 separate segments and form a joint";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

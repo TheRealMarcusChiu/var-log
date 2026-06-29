@@ -1,0 +1,1 @@
+(function(){var b="a52d093cf4dd",m="[https://legaldictionary.net/felony/](https://legaldictionary.net/felony/)\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="98ba87360166",m="TODO\n# Resources\n- [https://docs.oracle.com/javase/jndi/tutorial/objects/factory/interface.html](https://docs.oracle.com/javase/jndi/tutorial/objects/factory/interface.html)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

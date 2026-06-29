@@ -1,0 +1,1 @@
+(function(){var b="a9f13545f5f1",m="Given 𝐴𝐵 = 𝐼, prove 𝐵𝐴 = 𝐼\n###### PROOF\n- 𝐵 = 𝐵𝐼\n- 𝐵 = 𝐵(𝐴𝐵)\n- 𝐵 = (𝐵𝐴)𝐵\n- 𝐼𝐵 = (𝐵𝐴)𝐵\n- 𝐼𝐵 - (𝐵𝐴)𝐵 = 0\n- (𝐼 - 𝐵𝐴)𝐵 = 0\n\nSince 𝐵 is full rank, (𝐼 - 𝐵𝐴) is 0 on all vectors.\n\nThis means (𝐼 - 𝐵𝐴) must be the 0 matrix.\n\nSo 𝐼 = 𝐵𝐴";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

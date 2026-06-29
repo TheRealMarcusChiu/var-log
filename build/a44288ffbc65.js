@@ -1,0 +1,1 @@
+(function(){var b="a44288ffbc65",m="###### Green-Blue Deployment\n- [https://martinfowler.com/bliki/BlueGreenDeployment.html](https://martinfowler.com/bliki/BlueGreenDeployment.html)\n\n# Related Articles\n- [[Blue-Turquoise-Green Deployment]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

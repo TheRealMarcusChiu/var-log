@@ -1,0 +1,1 @@
+(function(){var b="b1aedea0c2ae",m="###### Circuit-Breaker/Breaking\n````excerpt\n- opposite of [[Load Shedding／Shedder|Load Shedding/Shedder]]\n- load shedding rejects incoming traffic, circuit breakers will reject outgoing traffic from a service\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

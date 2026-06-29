@@ -1,0 +1,1 @@
+(function(){var b="802089dd1f07",m="###### Universal Module Definition (UMD)\n````excerpt\n- TODO\n````\n^excerpt\n\n# Resources\n- [https://jameshfisher.com/2020/10/04/what-are-umd-modules/](https://jameshfisher.com/2020/10/04/what-are-umd-modules/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

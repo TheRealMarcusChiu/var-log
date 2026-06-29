@@ -1,0 +1,1 @@
+(function(){var b="a9c376dd036e",m="bacteriophage (phage for short) is another term for a virus\n\n![](https://www.youtube.com/watch?v=YI3tsmFsrOg)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

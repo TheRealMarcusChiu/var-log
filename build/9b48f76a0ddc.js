@@ -1,0 +1,1 @@
+(function(){var b="9b48f76a0ddc",m="# Visualizing [[Back Propagation (BP)|Back Propagation]] on [[Composite Functions - Function Composition|Composite Functions]]\n\nTODO\n\n![](http://youtube.com/watch?v=i94OvYb6noo)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

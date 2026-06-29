@@ -1,0 +1,1 @@
+(function(){var b="e14927848feb",m="###### Fixed-Point Numbers\n````excerpt\n- is a method of representing fractional (non-integer) numbers by storing a fixed number of digits of their fractional part\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

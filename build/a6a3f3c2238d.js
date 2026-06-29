@@ -1,0 +1,1 @@
+(function(){var b="a6a3f3c2238d",m="Based on: <em>SQL Design Patterns: The Expert Guide to SQL Programming</em>\n\nTODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

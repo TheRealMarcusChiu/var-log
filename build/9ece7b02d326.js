@@ -1,0 +1,1 @@
+(function(){var b="9ece7b02d326",m="###### [Netbeans Profiler](https://netbeans.apache.org/kb/docs/java/profiler-intro.html)\n- is a [[Java - Profilers／Profiling-Tools|profiling tool]] for Java applications";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

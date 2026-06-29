@@ -1,0 +1,1 @@
+(function(){var b="6e13b1bc7a4b",m="###### Rufus\n- is a utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

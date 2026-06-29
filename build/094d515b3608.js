@@ -1,0 +1,1 @@
+(function(){var b="094d515b3608",m="[https://en.wikipedia.org/wiki/Taiwan](https://en.wikipedia.org/wiki/Taiwan)\n\n<strong>ilha formosa</strong> - meaning \"island beautiful\" in portuguese";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

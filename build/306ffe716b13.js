@@ -1,0 +1,1 @@
+(function(){var b="306ffe716b13",m="###### \\$EA\\_INFORMATION - \\$EA\n- a type of NTFS File Attribute\n- <font style=\"color: rgb(255,0,0);\">OUTDATED</font>\n- used to implement extended HPFS attributes on OS/2 and WinNT server";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

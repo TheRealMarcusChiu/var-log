@@ -1,0 +1,1 @@
+(function(){var b="5a3f3ee7bad2",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n- [[Kubernetes - Custom Resource Definition (CRD)]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

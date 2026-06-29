@@ -1,0 +1,1 @@
+(function(){var b="5a748bc4a765",m="<strong>Strassen Algorithm</strong> is a way to multiply two 2x2 matrices using only 7 multiplication operations instead of the usual 8.\n\n![[Matrix Multiplication - Strassen Algorithm/matrix-multiplication-strassen-algorithm.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

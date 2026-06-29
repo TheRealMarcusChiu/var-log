@@ -1,0 +1,1 @@
+(function(){var b="2049c6357186",m="# [[Software Defined Storage (SDS)]] for [[Kubernetes]]\n\nThese are [[Kubernetes Addons]]\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

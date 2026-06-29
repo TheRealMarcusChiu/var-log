@@ -1,0 +1,1 @@
+(function(){var b="ddf15f26757b",m="###### Closed Room as a Service (CRaaS)\n````excerpt\n- Malus tool\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="4c4cfb598007",m="###### Zstd\n````excerpt\n- is an implementation if [[Zstandard]] in [[C]]\n- released as open-source software on 31 August 2016\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="9d0321962f2c",m="###### Pantheon (Desktop Environment)\n````excerpt\n- a [[Desktop Environments (DE)|desktop environment]] that offers a macOS-style layout with a top panel showing system information and a bottom dock for pinned apps\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

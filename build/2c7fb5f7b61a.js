@@ -1,0 +1,1 @@
+(function(){var b="2c7fb5f7b61a",m="A <strong>Laurent series</strong> (of a single variable) is denoted as:\n\n> [!indent]\n> ![[Laurent Series/laurent-series-formula.png|301]]\n\nLaurent series is a [[Power Series／Expansion|power series]] that includes negative exponentials";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

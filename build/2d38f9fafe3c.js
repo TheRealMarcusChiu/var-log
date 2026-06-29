@@ -1,0 +1,1 @@
+(function(){var b="2d38f9fafe3c",m="###### Apache ActiveMQ\n````excerpt\n- is an open source message broker written in [[Java]] together with a full Java Message Service client\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

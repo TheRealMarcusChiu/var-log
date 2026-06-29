@@ -1,0 +1,1 @@
+(function(){var b="b9cd3c04668c",m="<strong>Lean Startup</strong> is a methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

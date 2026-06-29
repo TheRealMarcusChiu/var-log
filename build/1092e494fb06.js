@@ -1,0 +1,1 @@
+(function(){var b="1092e494fb06",m="###### Zephyr\n- is a small [[Real-Time Operating Systems (RTOS)|real-time operating system]] for connected, resource-constrained, and embedded devices supporting multiple architectures";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

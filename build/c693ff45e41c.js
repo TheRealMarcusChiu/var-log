@@ -1,0 +1,1 @@
+(function(){var b="c693ff45e41c",m="###### Inscribed Rectangle/Square Problem\n````excerpt\n- TODO\n````\n^excerpt\n\n# Introduction\n\n![](https://www.youtube.com/watch?v=AmgkSdhK4K8)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

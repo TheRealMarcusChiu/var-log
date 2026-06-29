@@ -1,0 +1,1 @@
+(function(){var b="a6888a6d5c16",m="# Commands\n```bash\n$ nslookup google.,com\nServer:\t\t192.168.86.1\nAddress:\t192.168.86.1#53\n\nNon-authoritative answer:\nName:\tgoogle.com\nAddress: 216.58.193.142\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

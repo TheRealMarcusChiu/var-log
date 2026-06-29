@@ -1,0 +1,1 @@
+(function(){var b="8a88220cf1d0",m="###### Rambus Inline Memory Module (RIMM)\n````excerpt\n- used in the 1990s\n- uses Rambus technology instead of traditional memory architecture\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

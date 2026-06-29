@@ -1,0 +1,1 @@
+(function(){var b="edbf35c80b56",m="###### Foreman\n````excerpt\n- a complete lifecycle management tool for physical and virtual servers\n````\n^excerpt\n\n# Resources\n- [https://theforeman.org/](https://theforeman.org/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="e0725a157b48",m="# Retrograde Amnesia - Anterograde Amnesia\n![[Amnesia (Retrograde Amnesia - Anterograde Amnesia)/amnesia.png|600]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

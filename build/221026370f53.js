@@ -1,0 +1,1 @@
+(function(){var b="221026370f53",m="![[Atmosphere/earths-atmosphere.jpg]]\n### Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

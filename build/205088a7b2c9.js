@@ -1,0 +1,1 @@
+(function(){var b="205088a7b2c9",m="<strong>1. send request</strong>\n<span style=\"white-space: pre-wrap\"><code>  sudo dhclient -s 127.0.0.1 -v</code></span>";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

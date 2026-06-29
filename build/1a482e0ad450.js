@@ -1,0 +1,1 @@
+(function(){var b="1a482e0ad450",m="both doubt and double are cognates derived from the latin word duo\n- (when we doubt we hesitate) we (second guess ourselves)\n- (when we have doubts about something) or (when we have questions or confusion) we are of 2 minds";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

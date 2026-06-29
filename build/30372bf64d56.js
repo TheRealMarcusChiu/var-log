@@ -1,0 +1,1 @@
+(function(){var b="30372bf64d56",m="[https://neo4j.com/developer/kb/understanding-non-existent-properties-and-null-values/](https://neo4j.com/developer/kb/understanding-non-existent-properties-and-null-values/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="44c67e084083",m="###### XML Query (XQuery)\n- is a type of [[Computer Languages - Database／CRUD／Query／Search Languages|query language]] used to query [[Extensible Markup Language (XML)|XML]] data";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

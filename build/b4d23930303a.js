@@ -1,0 +1,1 @@
+(function(){var b="b4d23930303a",m="see: [[Data Storage]]\n# Data Storage Types\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

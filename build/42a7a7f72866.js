@@ -1,0 +1,1 @@
+(function(){var b="42a7a7f72866",m="###### EhCache\n- is an open-source Java distributed cache for general-purpose caching";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

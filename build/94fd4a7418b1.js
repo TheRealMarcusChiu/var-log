@@ -1,0 +1,1 @@
+(function(){var b="94fd4a7418b1",m="###### High-Performance Radio LAN (HiperLan)\n````excerpt\n- an alternative to [[802.11 - WiFi／Wi-Fi|802.11 WiFi]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

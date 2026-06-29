@@ -1,0 +1,1 @@
+(function(){var b="c7bf7ce71b11",m="music while studying advanced algorithms and analysis - good study music because i have no clue what it means and it good\n\n![](http://youtube.com/watch?v=EEMwA8KZAqg)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

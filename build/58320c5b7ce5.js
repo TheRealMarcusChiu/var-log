@@ -1,0 +1,1 @@
+(function(){var b="58320c5b7ce5",m="###### WebGPU Shading Language (WGSL)\n- is the [[Shading／Shader Languages|shader language]] for [[JavaScript - WebGPU|WebGPU]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

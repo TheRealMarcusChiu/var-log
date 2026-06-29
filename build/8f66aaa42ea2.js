@@ -1,0 +1,1 @@
+(function(){var b="8f66aaa42ea2",m="###### Symmetric/Single/Secret Key Function\n````excerpt\n- both parties use same key to [[Encryption|encrypt]] and decrypt all messages\n````\n^excerpt\n\n# Symmetric Key Algorithms\n\nrefer to: [[Encryption - Algorithms]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

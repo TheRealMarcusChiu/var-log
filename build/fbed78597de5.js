@@ -1,0 +1,1 @@
+(function(){var b="fbed78597de5",m="###### Mode Absolute Deviation\n````excerpt\n- is a type of [[Mode Deviation|mode deviation]] where distance is calculated as [[L1／Manhattan／Rectilinear Distance Metric|L1 distance]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="414089b9ffe1",m="definitely feeling a rush of oxytocin\n\n![[Puppy From Dodd City/puppy.jpg|400]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

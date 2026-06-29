@@ -1,0 +1,1 @@
+(function(){var b="e594f8e0b004",m="###### Vinland Saga\n````excerpt\n- a Japanese historical [[Manga|manga]] series written and illustrated by Makoto Yukimura\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

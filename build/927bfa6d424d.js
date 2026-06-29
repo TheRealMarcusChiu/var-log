@@ -1,0 +1,1 @@
+(function(){var b="927bfa6d424d",m="<strong>LightHTTP</strong> is an open-source [[Web (HTTP) Servers|web server]] optimized for speed-critical environments while remaining standards-compliant, secure and flexible\n\n[www.lighttpd.net](https://www.lighttpd.net/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

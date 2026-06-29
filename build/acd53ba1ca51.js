@@ -1,0 +1,1 @@
+(function(){var b="acd53ba1ca51",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\nother [[Computer Personal Projects|computer personal projects]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

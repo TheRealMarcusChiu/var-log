@@ -1,0 +1,1 @@
+(function(){var b="a6af021a5ca9",m="- Gaussian Blur\n- Bokeh Blurs\n\n### Separable Filters\n\n![](https://www.youtube.com/watch?v=SiJpkucGa1o)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

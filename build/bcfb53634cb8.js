@@ -1,0 +1,1 @@
+(function(){var b="bcfb53634cb8",m="```perl\n#!/usr/bin/perl\n \n# This will print \"Hello, World\"\nprint \"Hello, world\\n\";\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

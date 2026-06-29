@@ -1,0 +1,1 @@
+(function(){var b="7426119bbdc6",m="###### MoltenVK\n- is a runtime for [[Macintosh OSs (Mac OS X) - macOS|macOS]] and iOS that offers an almost complete subset of the [[Vulkan|Vulkan API]] implemented using [[Metal]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

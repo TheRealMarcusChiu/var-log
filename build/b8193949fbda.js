@@ -1,0 +1,1 @@
+(function(){var b="b8193949fbda",m="Such a person is double-minded and unstable in all they do.\n\\~ James 1:8";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

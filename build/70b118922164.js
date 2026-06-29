@@ -1,0 +1,1 @@
+(function(){var b="70b118922164",m="###### Hive Query Language (HQL)\n````excerpt\n- like [[Structured Query Language (SQL)]] but for querying [[Hive]] which will internally transformed into [[MapReduce (MR)|MapReduce]] or Spark Jobs\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

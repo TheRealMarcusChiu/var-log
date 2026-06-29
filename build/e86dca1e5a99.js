@@ -1,0 +1,1 @@
+(function(){var b="e86dca1e5a99",m="<strong>ElGamal Signature Scheme</strong> is a [[Digital Signatures|digital signature]] scheme which is based on the difficulty of computing [discrete logarithms](https://en.wikipedia.org/wiki/Discrete_logarithm)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="a523c6e645d9",m="###### Cinnamon (Desktop Environment)\n````excerpt\n- was made by the [[Linux Mint]] team\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="b78619cfe855",m="###### Fast R-CNN\n````excerpt\n- is a faster version of [[Region-based Convolutional Neural Network (R-CNN)|R-CNN]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

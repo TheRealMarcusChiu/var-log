@@ -1,0 +1,1 @@
+(function(){var b="a6c05f9874d2",m="###### Apple watchOS\n````excerpt\n- is the [[Operating Systems (OS)|operating system]] of the Apple Watch\n- developed by [[Apple Inc]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

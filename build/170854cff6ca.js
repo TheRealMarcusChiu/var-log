@@ -1,0 +1,1 @@
+(function(){var b="170854cff6ca",m="see: [https://math.stackexchange.com/questions/1636021/rigorous-proof-that-dx-dy-r-dr-d-theta/1658729#1658729](https://math.stackexchange.com/questions/1636021/rigorous-proof-that-dx-dy-r-dr-d-theta/1658729#1658729)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

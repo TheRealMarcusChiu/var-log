@@ -1,0 +1,1 @@
+(function(){var b="6b5c2ba2be29",m="### DNS Query vs DNS Response\n![[DNS Message Format/DNS message - request vs response.png|500]]\n### DNS Message Format\n![[DNS Message Format/DNS Message Format.png|500x309]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

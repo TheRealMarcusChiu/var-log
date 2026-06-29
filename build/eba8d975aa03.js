@@ -1,0 +1,1 @@
+(function(){var b="eba8d975aa03",m="###### Congruent\n````excerpt\n- In [[Geometry|geometry]], two objects are congruent if they have the same shape and size; even when reflected, rotated, or translated, their size and shape remain identical\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

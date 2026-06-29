@@ -1,0 +1,1 @@
+(function(){var b="17e1fd6ebc57",m="###### Flash Memory\n- is a type of [[Semiconductor／Silicon／Transistor Memory／Storage|semiconductor memory]]\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

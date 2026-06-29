@@ -1,0 +1,1 @@
+(function(){var b="ffa630807287",m="# Top Spenders\n\n[https://www.opensecrets.org/federal-lobbying/top-spenders?cycle=2021](https://www.opensecrets.org/federal-lobbying/top-spenders?cycle=2021)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

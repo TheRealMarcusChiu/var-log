@@ -1,0 +1,1 @@
+(function(){var b="7ac760d10149",m="Knifemaker Explains The Difference Between Chef's Knives | Epicurious\n\n![](http://youtube.com/watch?v=LO35cdWL1MQ)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

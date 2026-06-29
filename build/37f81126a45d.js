@@ -1,0 +1,1 @@
+(function(){var b="37f81126a45d",m="###### Weaviate\n````excerpt\n- is an open-source [[Vector Database|vector database]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

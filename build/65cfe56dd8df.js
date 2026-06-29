@@ -1,0 +1,1 @@
+(function(){var b="65cfe56dd8df",m="<strong>Rivest Cipher (RC4)</strong> is a stream cipher.\n\n<font style=\"color: rgb(255,0,0);\">multiple vulnerabilities</font> have been discovered in RC4, rendering it insecure";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

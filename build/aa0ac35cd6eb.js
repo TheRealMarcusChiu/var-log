@@ -1,0 +1,1 @@
+(function(){var b="aa0ac35cd6eb",m="###### Up-Sampling Layers\n````excerpt\n- reverse of [[ANN - Pooling／Subsampling／Down-Sampling Layers|down-sampling layers]]\n- used in [[Fully Convolutional Networks (FCN)]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

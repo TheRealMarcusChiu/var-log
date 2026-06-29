@@ -1,0 +1,1 @@
+(function(){var b="b8dd7accbd8a",m="###### 10 Gigabit Ethernet (10GE - 10GbE - 10 GigE)\n````excerpt\n- is a group of computer networking technologies for transmitting [[Ethernet - Frame Format|Ethernet frames]] at a rate of 10 gigabits per second\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

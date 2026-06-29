@@ -1,0 +1,1 @@
+(function(){var b="308e17d2200a",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n### Kim Jung Gi\n\n![](https://www.youtube.com/watch?v=DmqFbgKWoao)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

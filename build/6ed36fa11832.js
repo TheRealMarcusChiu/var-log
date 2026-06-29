@@ -1,0 +1,1 @@
+(function(){var b="6ed36fa11832",m="###### Linux Mint\n````excerpt\n- is a community-driven [[Linux]] distribution based on [[Ubuntu]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

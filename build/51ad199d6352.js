@@ -1,0 +1,1 @@
+(function(){var b="51ad199d6352",m="###### CentOS\n````excerpt\n- is a community-driven free software effort focused on delivering a robust open source ecosystem\n````\n^excerpt\n\n# Resources\n- [www.centos.org](http://www.centos.org/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

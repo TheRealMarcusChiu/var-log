@@ -1,0 +1,1 @@
+(function(){var b="1f688a06e547",m="###### Bower\n````excerpt\n- is a type of [[JavaScript - Package Managers|JavaScript package manager]]\n````\n^excerpt\n\n# Resources\n- [https://bower.io/](https://bower.io/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

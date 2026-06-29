@@ -1,0 +1,1 @@
+(function(){var b="f3acb8a5c0d9",m="###### Shin-Etsu Chemical\n````excerpt\n- has the largest global market share for polyvinyl chloride, semiconductor silicon, and photomask substrates\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

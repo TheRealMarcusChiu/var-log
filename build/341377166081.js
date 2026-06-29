@@ -1,0 +1,1 @@
+(function(){var b="341377166081",m="###### LAMP Stack\n````excerpt\n- [[Linux]], [[Apache HTTP Server (Apache)|Apache]], [[MySQL]], [[PHP (PHP： Hypertext Preprocessor)|PHP]] (or [[Perl (Practical Extraction and Report Language)|Perl]])\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

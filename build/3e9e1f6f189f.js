@@ -1,0 +1,1 @@
+(function(){var b="3e9e1f6f189f",m="###### NetBSD\n````excerpt\n- is a free and open-source [[UNIX|Unix]]-like [[Operating Systems (OS)|operating system]] based on the [[Berkeley Software Distribution (BSD)]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

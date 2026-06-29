@@ -1,0 +1,1 @@
+(function(){var b="0a593778ad27",m="Find the derivative of the following:\n- 𝑦 = 𝑙𝑛(𝑥)\n\nRewrite it in a different way:\n- 𝑒<sup>𝑦</sup> = 𝑥\n\nTake its derivative:\n- 𝑒<sup>𝑦</sup>𝑑𝑦 = 𝑑𝑥\n- 𝑑𝑦/𝑑𝑥 = 1/𝑒<sup>𝑦</sup>\n- 𝑑𝑦/𝑑𝑥 = 1/𝑥";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="69e7bda2b411",m="###### Spartan 3 FPGA Boards\n- released around 2005\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="c9e6b253fc34",m="tutorial: [https://www.learning-hindi.com/](https://www.learning-hindi.com/)\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="40fc67ff4894",m="###### Riak\n````excerpt\n- is a type of [[Key-Value Database／Store|key-value database]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

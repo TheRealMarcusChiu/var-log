@@ -1,0 +1,1 @@
+(function(){var b="2261f7e4762d",m="###### Neuromorphic Computer/Chip\n````excerpt\n- is any device that uses physical artificial neurons to do computations\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

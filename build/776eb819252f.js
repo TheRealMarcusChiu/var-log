@@ -1,0 +1,1 @@
+(function(){var b="776eb819252f",m="###### Walled Garden as a Service (WGaaS)\n````excerpt\n- a platform (like Apple or Meta) allows you to use their data and tools, but only within their ecosystem\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

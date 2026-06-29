@@ -1,0 +1,1 @@
+(function(){var b="a3c06ac8a5de",m="###### Wireless Worldwide Area Network (WWAN)\n````excerpt\n- within the world\n````\n^excerpt\n\n# Types\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

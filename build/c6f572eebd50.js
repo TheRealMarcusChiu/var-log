@@ -1,0 +1,1 @@
+(function(){var b="c6f572eebd50",m="###### Broyden-Fletcher-Goldfarb-Shanno (BFGS)\n````excerpt\n- is an iterative method for solving unconstrained [[Non-Linear／Nonlinear Programming／Optimization (NP)|nonlinear optimization]] problems\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

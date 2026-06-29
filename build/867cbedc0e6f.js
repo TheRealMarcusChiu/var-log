@@ -1,0 +1,1 @@
+(function(){var b="867cbedc0e6f",m="###### Servo\n````excerpt\n- is an experimental [[Web (HTTP) Browser Engines|browser engine]] designed to take advantage of the memory safety properties and concurrency features of the [[Rust]] programming language\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

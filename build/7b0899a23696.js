@@ -1,0 +1,1 @@
+(function(){var b="7b0899a23696",m="###### Unified Modeling Language (UML)\n- a type of [[Model vs Diagram|diagram]] used to represent software systems (including [[Data Models (Conceptual - Logical - Physical) Data Models|Data Models]])";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

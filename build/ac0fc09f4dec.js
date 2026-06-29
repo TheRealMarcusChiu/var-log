@@ -1,0 +1,1 @@
+(function(){var b="ac0fc09f4dec",m="### Sobel\n\n![](https://www.youtube.com/watch?v=uihBwtPIBxM)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

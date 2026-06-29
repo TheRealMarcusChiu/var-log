@@ -1,0 +1,1 @@
+(function(){var b="383a693fcba3",m="- Berber\n- Chadic\n- Cushitic\n- Egyptian\n- Omotic\n- [[Proto-Semetic Language|proto-semitic]]\n\n![[Afro-Asiatic Language/Hamito-Semitic_languages.jpg]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

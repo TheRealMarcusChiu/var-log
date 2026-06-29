@@ -1,0 +1,1 @@
+(function(){var b="3f503c9d423a",m="###### Caddy\n````excerpt\n- is an open-source web server\n- written in [[Go-lang|Go]]\n- known for its ease of use, automatic HTTPS capabilities, and strong focus on security\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

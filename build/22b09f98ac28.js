@@ -1,0 +1,1 @@
+(function(){var b="22b09f98ac28",m="<strong>asm.js</strong> is an extraordinarily optimizable, low-level subset of [[JavaScript]] ([asmjs.org](http://asmjs.org/))";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

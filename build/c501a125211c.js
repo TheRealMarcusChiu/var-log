@@ -1,0 +1,1 @@
+(function(){var b="c501a125211c",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n- [[Neo4j - Kafka Connect Plugin]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

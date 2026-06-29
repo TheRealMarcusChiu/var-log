@@ -1,0 +1,1 @@
+(function(){var b="f012dd38c458",m="###### ARM64 - AArch64\n````excerpt\n- is a 64-bit version of the [[ARM (Advanced RISC Machine - Acorn RISC Machine)|ARM architecture]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

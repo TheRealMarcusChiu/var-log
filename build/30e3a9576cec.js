@@ -1,0 +1,1 @@
+(function(){var b="30e3a9576cec",m="- [https://simplicity.com/](https://simplicity.com/)\n\n![](https://www.youtube.com/watch?v=WSh0NPCBWp0)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

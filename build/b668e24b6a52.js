@@ -1,0 +1,1 @@
+(function(){var b="b668e24b6a52",m="a good pseudo tree is one with minimal height\n\nrefer to: [Pseudo Tree - Minimal Height & Minimal Induced Width](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=10946935)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

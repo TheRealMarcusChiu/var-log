@@ -1,0 +1,1 @@
+(function(){var b="5fea0ca19f98",m="###### Collins Parser\n- a head-driven statistical, supervised sentence parser of [[Probabilistic Lexicalized CFG (PLCFG)]]\n\n### TODO\n![[Collins Parser/collins-parser.png|500]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="d97f13bcac87",m="- [http://www.pentacom.jp/pentacom/bitfontmaker2/](http://www.pentacom.jp/pentacom/bitfontmaker2/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

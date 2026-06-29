@@ -1,0 +1,1 @@
+(function(){var b="eb056a8a1cbe",m="###### Base10 - Decimal\n````excerpt\n- is a [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]] containing 10 distinct symbols\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

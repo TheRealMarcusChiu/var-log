@@ -1,0 +1,1 @@
+(function(){var b="dd1c9352172f",m="# TODO\n\nTODO\n# Resources\n- [https://www.baeldung.com/spring-security-create-new-custom-security-expression](https://www.baeldung.com/spring-security-create-new-custom-security-expression)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

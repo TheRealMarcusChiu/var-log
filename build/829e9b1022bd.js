@@ -1,0 +1,1 @@
+(function(){var b="829e9b1022bd",m="````excerpt\nchecksum idea: add up all the words transmitted and then transmit the result of the sum\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

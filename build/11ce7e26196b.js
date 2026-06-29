@@ -1,0 +1,1 @@
+(function(){var b="11ce7e26196b",m="###### Auth0\n````excerpt\n- is an organization, that manages Universal Identity Platform for web, mobile, and IoT and can handle any of them — B2C, B2B, B2E, or a combination\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="448d4d874611",m="###### [YourKit](https://www.yourkit.com/java/profiler/)\n- is a [[Java - Profilers／Profiling-Tools|profiling tool]] for Java applications";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="4fa2ac663cd4",m="<strong><code>/etc/alternatives</code> </strong>is a directory that is used in keeping track of the alternatives currently in use, by a tool called<strong> <code>update-alternatives</code></strong>";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

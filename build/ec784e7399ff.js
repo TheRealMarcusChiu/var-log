@@ -1,0 +1,1 @@
+(function(){var b="ec784e7399ff",m="###### AppImages\n- [https://appimage.org/](https://appimage.org/)\n- is a type of [[UNIX - Universal Package Managers|Universal Package Manager]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

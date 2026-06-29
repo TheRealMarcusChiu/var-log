@@ -1,0 +1,1 @@
+(function(){var b="69c243e84ba9",m="###### vCard\n````excerpt\n- vocabulary to describe people and organizations, focusing on their location information\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

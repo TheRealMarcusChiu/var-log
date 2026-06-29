@@ -1,0 +1,1 @@
+(function(){var b="f21d14aa5f5a",m="- UPS\n- FedEx\n- Endicia\n- [Postmen](https://docs.postmen.com/) - is a wrapper [[API Design Patterns (API-DP)|API]] of all other Carrier Service APIs\n- CanadaPost";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

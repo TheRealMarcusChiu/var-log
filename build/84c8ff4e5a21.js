@@ -1,0 +1,1 @@
+(function(){var b="84c8ff4e5a21",m="![[Twilight Imperium - Game Phases - 3 Status Phase/3-game-phases-3-status-phase.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

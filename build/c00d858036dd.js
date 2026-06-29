@@ -1,0 +1,1 @@
+(function(){var b="c00d858036dd",m="###### Free Lossless Audio Codec (FLAC)\n````excerpt\n- are compressed [[Audio File Formats／Types|audio files]] that retain their original quality\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

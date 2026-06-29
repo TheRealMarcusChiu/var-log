@@ -1,0 +1,1 @@
+(function(){var b="016b93c546e3",m="# Resources\n- [https://www.reddit.com/r/homelab/wiki/index/](https://www.reddit.com/r/homelab/wiki/index/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

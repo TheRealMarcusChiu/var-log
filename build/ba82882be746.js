@@ -1,0 +1,1 @@
+(function(){var b="ba82882be746",m="- <strong>covenant</strong> -\n- <strong>vow</strong> -\n- <strong>oath</strong> -\n\n# Related Articles\n- [[Darling I Do]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

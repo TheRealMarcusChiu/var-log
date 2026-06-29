@@ -1,0 +1,1 @@
+(function(){var b="b05238350df0",m="###### SKOS\n````excerpt\n- vocabulary for knowledge organization systems, like thesauri, taxonomies, and other controlled vocabularies\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

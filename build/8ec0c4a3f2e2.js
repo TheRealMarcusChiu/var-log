@@ -1,0 +1,1 @@
+(function(){var b="8ec0c4a3f2e2",m="###### Savage Loss Function\n````excerpt\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

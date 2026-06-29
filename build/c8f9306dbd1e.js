@@ -1,0 +1,1 @@
+(function(){var b="c8f9306dbd1e",m="```\n{{ $array := split (.Get \"data\") \",\" }}\n{{ range $array }}\n    {{ $item := split . \"|\"}}\n    {{ $image := index $item 0 }}\n    {{ $alt := index $item 1 }}\n    <img src=\"{{$image}}\" alt=\"{{$alt}}\">\n{{ end }}\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

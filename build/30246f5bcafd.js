@@ -1,0 +1,1 @@
+(function(){var b="30246f5bcafd",m="one day, one day I'll own not one but 2 diamond doves\n\n![[Diamond Dove/1.jpg]]\n\nHoly Spirit descended on him in bodily form like a dove...\n\\~ Luke 3:22\n\n![[Diamond Dove/3.jpg]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

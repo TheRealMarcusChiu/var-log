@@ -1,0 +1,1 @@
+(function(){var b="f629d2f0de94",m="# Gasser-Muller Estimator - Formula\n- 𝑦ˆ(𝑥) = TODO\n\nwhere:\n- 𝑘() - [kernel](http://confluence.marcuschiu.com/pages/viewpage.action?pageId=1022754)\n- ℎ - bandwidth";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="484549f0bd89",m="###### sockpuppetbrowser\n````excerpt\n- a scalable server for providing [[Chrome]] interfaces where needed\n````\n^excerpt\n\n# Resources\n- [https://github.com/dgtlmoon/sockpuppetbrowser](https://github.com/dgtlmoon/sockpuppetbrowser)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

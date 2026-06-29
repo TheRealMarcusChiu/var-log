@@ -1,0 +1,1 @@
+(function(){var b="5b9e29959db2",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n![[Computer Hardware - Parts/computer.png|301]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

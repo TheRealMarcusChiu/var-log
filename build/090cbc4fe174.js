@@ -1,0 +1,1 @@
+(function(){var b="090cbc4fe174",m="###### L2 Norm Pooling Layer\n````excerpt\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

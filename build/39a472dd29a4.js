@@ -1,0 +1,1 @@
+(function(){var b="39a472dd29a4",m="Similar to [[p-adic Numbers - prime-adic Numbers|p-adic numbers]], where p equals 2\n\n![[Two's Complement - Intuition/1.jpg]]![[Two's Complement - Intuition/2.jpg]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

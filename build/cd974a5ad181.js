@@ -1,0 +1,1 @@
+(function(){var b="cd974a5ad181",m="###### Small Outline DIMM (SO-DIMM/SODIMM)\n- found in laptops and other small form-factor computers";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

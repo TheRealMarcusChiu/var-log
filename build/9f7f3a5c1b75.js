@@ -1,0 +1,1 @@
+(function(){var b="9f7f3a5c1b75",m="<strong>vertex cut set</strong>\n- a type of [[Cutset|cutset]]\n- is a set of vertices of a graph which, if removed (or \"cut\")--together with any incident edges--disconnects the graph (i.e., forms a disconnected graph)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

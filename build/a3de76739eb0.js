@@ -1,0 +1,1 @@
+(function(){var b="a3de76739eb0",m="###### Serial Attached SCSI (SAS)\n- used as an interface for [[Solid State Drives (SSD)|SSD]]s";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

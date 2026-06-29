@@ -1,0 +1,1 @@
+(function(){var b="9af080ede952",m="```\nmvn compile  \n\nmvn exec:java -Dexec.mainClass=\"com.marcuschiu.module.Main\"\nmvn exec:java -Dexec.mainClass=\"com.marcuschiu.module.Main\" -Dexec.args=\"arg0 arg1 arg2\"\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

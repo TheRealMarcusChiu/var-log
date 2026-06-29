@@ -1,0 +1,1 @@
+(function(){var b="a9c46f97cf2f",m="- two scoops of protein\n- 2 servings of egg whites\n- 1 cup of milk\n\nis about 65grams of protein\n\n![[Protein Supplements／Shakes/Screenshot 2024-03-07 at 2.51.20 PM.png|400]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

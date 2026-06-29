@@ -1,0 +1,1 @@
+(function(){var b="2ab737fb6de8",m="###### KDE Plasma 5\n````excerpt\n- is a type of [[KDE Plasma - KDE Desktop (K Desktop Environment)|KDE Plasma]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

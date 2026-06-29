@@ -1,0 +1,1 @@
+(function(){var b="00857b335f54",m="<strong>edge cutset</strong>\n- a type of [[Cutset|cutset]]\n- is a set of edges of a graph which, if removed (or \"cut\"), disconnects the graph (i.e., forms a disconnected graph)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

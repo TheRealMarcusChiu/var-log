@@ -1,0 +1,1 @@
+(function(){var b="d5e35fab787c",m="###### 3D V-NAND Flash Memory\n- this is where planar [[NAND Flash Memory|NAND]] (single planes of NAND cells) are stacked vertically, giving the ‘V’ in V-NAND";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

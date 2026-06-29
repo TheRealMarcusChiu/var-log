@@ -1,0 +1,1 @@
+(function(){var b="787d1e87e9d1",m="<strong>Veridical Paradox</strong> is a [[Propositions|proposition]] that is logical true despite its air of absurdity";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

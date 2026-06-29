@@ -1,0 +1,1 @@
+(function(){var b="0e404a03f3a9",m="###### FreeIPA\n- is a free and open-source identity management system\n- is the upstream open-source project for Red Hat Identity Management";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

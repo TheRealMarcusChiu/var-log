@@ -1,0 +1,1 @@
+(function(){var b="8c1437a8d48c",m="###### Complex Vector Spaces\n````excerpt\n- is a type of [[Vector Spaces - Linear Spaces|vector space (𝑉,𝐹)]] where [[Scalars|scalar]] 𝐹 is the set of [[Complex Numbers System|complex numbers]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

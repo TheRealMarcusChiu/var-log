@@ -1,0 +1,1 @@
+(function(){var b="9633b086e9e8",m="it's not the thought that counts, it's ultimately whether the receiver wants it and more importantly whether the receiver needs it";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

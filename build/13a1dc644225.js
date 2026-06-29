@@ -1,0 +1,1 @@
+(function(){var b="13a1dc644225",m="###### Apprise\n````excerpt\n- push notifications that work with just about every platform\n````\n^excerpt\n\n# Resources\n- [https://github.com/caronc/apprise](https://github.com/caronc/apprise)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

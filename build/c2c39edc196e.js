@@ -1,0 +1,1 @@
+(function(){var b="c2c39edc196e",m="###### Cloudflare Tunnels\n````excerpt\n- is a tunneling software that lets you quickly secure and encrypt application traffic to any type of infrastructure\n- is an alternative to [[Virtual Private Network (VPN)|VPNs]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="4f6f2cf79e21",m="[http://lucy.apache.org/](http://lucy.apache.org/)\n\nThe Apache Lucy search engine library provides full-text search for dynamic programming languages. It is a \"loose C\" port of the Apache Lucene™ search engine library for Java.";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

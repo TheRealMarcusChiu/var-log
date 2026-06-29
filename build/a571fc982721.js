@@ -1,0 +1,1 @@
+(function(){var b="a571fc982721",m="# Millennium Falcon\n![[Lego Builds/millennium-falcon-1.jpeg|800]]\n# Mario Block\n![[Lego Builds/20220205_175008.jpg|400]]\n# Thor's Hammer (Mjolnir)\n![[Lego Builds/20220304_223111.jpg|400]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

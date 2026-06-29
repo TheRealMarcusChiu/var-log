@@ -1,0 +1,1 @@
+(function(){var b="220c822b4b03",m="Sometimes I love you, sometimes I hate you. But when I hate you, it’s because I love you\n\n![](http://youtube.com/watch?v=CtPeknt0mBA)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

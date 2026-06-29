@@ -1,0 +1,1 @@
+(function(){var b="0b79de94271c",m="<strong>Otway-Rees Protocol</strong> is a [[Authentication Protocols - Mediated|mediated authentication protocol]]\n### How It Works\n![[Otway-Rees Protocol/otway-rees-protocol.jpg]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

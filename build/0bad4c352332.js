@@ -1,0 +1,1 @@
+(function(){var b="0bad4c352332",m="###### Critical Race Theory (CRT)\n````excerpt\n- examines how laws, social and political movements, and media shape, and are shaped by, social conceptions of race and ethnicity\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

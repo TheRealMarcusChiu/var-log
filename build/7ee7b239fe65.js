@@ -1,0 +1,1 @@
+(function(){var b="7ee7b239fe65",m="###### Packet Capture (PCAP) File\n````excerpt\n- are a common format for storing packet captures\n- usually generated and read by a [[Network／Protocol／Packet Analyzer／Sniffer|Network/Protocol/Packet Analyzer/Sniffer]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

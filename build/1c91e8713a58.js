@@ -1,0 +1,1 @@
+(function(){var b="1c91e8713a58",m="###### RStudio - R Studio\n````excerpt\n- is an [[Integrated Development Environments (IDEs)|IDE]] for the [[R]] programming language\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

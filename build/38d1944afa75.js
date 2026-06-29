@@ -1,0 +1,1 @@
+(function(){var b="38d1944afa75",m="###### SCSI RDMA Protocol (SRP)\n````excerpt\n- is [[Small Computer Systems Interface (SCSI)|SCSI]] over [[Remote Direct Memory Access (RDMA)|RDMA]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

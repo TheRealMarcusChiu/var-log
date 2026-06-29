@@ -1,0 +1,1 @@
+(function(){var b="1b59e042629d",m="###### H.264 - Advanced Video Coding (AVC)\n````excerpt\n- is a widely used video compression standard\n- its formal name is Advanced Video Coding (AVC)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

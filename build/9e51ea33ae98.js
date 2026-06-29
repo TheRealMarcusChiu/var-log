@@ -1,0 +1,1 @@
+(function(){var b="9e51ea33ae98",m="###### NOR Flash Memory\n- TODO\n\n# Subpages\n- [[NOR Flash Memory vs NAND Flash Memory]]\n> [!list-indent-undo]\n> ```dataview\n> LIST\n> FROM \"\"\n> WHERE file.folder = this.file.folder + \"/\" + this.file.name\n> ```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

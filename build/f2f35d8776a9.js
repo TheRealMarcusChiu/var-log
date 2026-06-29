@@ -1,0 +1,1 @@
+(function(){var b="f2f35d8776a9",m="###### Time Plots\n````excerpt\n- is a type of [[Data Visualization - Types|data visualization]] technique\n- are [[Scatter Plots|scatter plots]] with time on the x-axis\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

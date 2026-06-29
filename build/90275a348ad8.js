@@ -1,0 +1,1 @@
+(function(){var b="90275a348ad8",m="# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n# Learning and Memory: How it Works and When it Fails\n\n![](https://www.youtube.com/watch?v=a_HfSnQqeyY)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

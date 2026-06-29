@@ -1,0 +1,1 @@
+(function(){var b="15dda406de11",m="###### AMD-V (AMD Virtualization)\n````excerpt\n- is a set of hardware extensions built into [[AMD Processors／CPUs|AMD processors]] designed to improve the performance of virtualization software\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

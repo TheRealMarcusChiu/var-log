@@ -1,0 +1,1 @@
+(function(){var b="07739d839d3d",m="###### Infrared Communication (IR)\n````excerpt\n- is a wireless mobile technology used for device communication over short ranges\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="1bcd331b5ef9",m="How Our Brains Create New Ideas From Existing Ones by <strong>bending</strong>, <strong>breaking</strong>, and <strong>blending</strong> ideas";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="27b10b36ff68",m="###### Cartesian Coordinate System\n- a type of [[Coordinate Systems|coordinate system]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="a38aae832fd6",m="###### Alignment Research\n````excerpt\n- aims to steer AI systems (e.g. [[Large Language Models (LLMs)|large language models]])toward humans' intended goals, preferences, or ethical principles\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

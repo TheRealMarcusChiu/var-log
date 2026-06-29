@@ -1,0 +1,1 @@
+(function(){var b="305388ace3ad",m="###### IronPython\n````excerpt\n- is an open-source implementation of the [[Python]] programming language for the Microsoft .NET Framework and .NET Core\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

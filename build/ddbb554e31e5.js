@@ -1,0 +1,1 @@
+(function(){var b="ddbb554e31e5",m="![](https://www.youtube.com/watch?v=QW2UuXn9awA&feature=youtu.be&fbclid=IwAR0fHO_bjx9PasSGLlN3E7_bdIrFF7Rw248RUPMuBAgRN1NN5c39q7jSxOc)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

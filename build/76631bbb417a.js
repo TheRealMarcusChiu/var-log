@@ -1,0 +1,1 @@
+(function(){var b="76631bbb417a",m="###### Common European Research Information Format (CERIF)\n- is the comprehensive information model for the domain of scientific research";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

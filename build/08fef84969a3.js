@@ -1,0 +1,1 @@
+(function(){var b="08fef84969a3",m="```\nopenssl s_client -showcerts -connect marcuschiu.com:443\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

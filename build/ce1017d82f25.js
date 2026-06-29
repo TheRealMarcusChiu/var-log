@@ -1,0 +1,1 @@
+(function(){var b="ce1017d82f25",m="###### HAMR (Heat Assisted Magnetic Recording)\n````excerpt\n- uses a laser diode for heating up the media where data should be written to\n- this allows less magnetic energy\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="fd533e7b819a",m="### URL Schema\n```\nfoo://example.com:8042/over/there?name=ferret#nose\n\\_/   \\______________/\\_________/ \\_________/ \\__/\n |           |            |            |        |\nscheme    authority      path        query   fragment\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

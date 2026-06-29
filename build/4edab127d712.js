@@ -1,0 +1,1 @@
+(function(){var b="4edab127d712",m="###### Ultravox\n````excerpt\n- a fast multimodal [[Large Language Models (LLMs)|LLM]] for real-time voice\n````\n^excerpt\n\n# Resources\n- [https://github.com/fixie-ai/ultravox](https://github.com/fixie-ai/ultravox)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

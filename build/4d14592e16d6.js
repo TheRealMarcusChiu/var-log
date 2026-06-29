@@ -1,0 +1,1 @@
+(function(){var b="4d14592e16d6",m="###### Equivariant/Equivariance\n````excerpt\n- TODO\n````\n^excerpt\n\n# Other\n- [[Equivarance vs Invariance]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

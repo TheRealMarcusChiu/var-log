@@ -1,0 +1,1 @@
+(function(){var b="8aa0d90061d5",m="###### Analytic Geometry\n````excerpt\n- uses coordinates to express geometric properties by means of algebraic formulas.\n- introduced by René Descartes\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

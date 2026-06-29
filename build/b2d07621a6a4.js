@@ -1,0 +1,1 @@
+(function(){var b="b2d07621a6a4",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n- [[Proxmox VE Helper-Scripts - post-pve-install.sh]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

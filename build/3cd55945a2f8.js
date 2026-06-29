@@ -1,0 +1,1 @@
+(function(){var b="3cd55945a2f8",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n- [[rsync]]\n- [[Backup Script - Local 2 Remote]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

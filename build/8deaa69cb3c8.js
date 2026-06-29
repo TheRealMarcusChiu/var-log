@@ -1,0 +1,1 @@
+(function(){var b="8deaa69cb3c8",m="###### Proxmox Datacenter Manager (PDM)\n````excerpt\n- is a new management tool for the [[Proxmox Virtual Environment (PVE)]] designed to provide a single, centralized interface for managing multiple PVE nodes and clusters\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

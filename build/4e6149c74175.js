@@ -1,0 +1,1 @@
+(function(){var b="4e6149c74175",m="###### H100 SXM5\n````excerpt\n- 132 streaming multiprocessors (SM) per GPU\n- 128 FP32 cores per SM\n- 80GB [[High Bandwidth Memory (HBM) HBM1／HBM2／HBM2E／HBM3／HBM3E／HBM4|HBM3]] RAM\n- 228KB shared memory per SM\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

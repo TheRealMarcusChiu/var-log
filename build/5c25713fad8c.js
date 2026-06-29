@@ -1,0 +1,1 @@
+(function(){var b="5c25713fad8c",m="```\nFOREACH ( ignoreMe in CASE WHEN n.age>20 THEN [1] ELSE [] END | merge (n) set n.status='deleted' );\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="474cfbe60fb4",m="In file /etc/ssh/sshd\\_config uncomment the following line\n```\n#PasswordAuthentication no\n```\n\nThen run\n```\nservice ssh restart\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

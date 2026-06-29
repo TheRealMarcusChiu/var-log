@@ -1,0 +1,1 @@
+(function(){var b="225dbc77469c",m="###### Amazon Linux\n````excerpt\n- is a distribution that evolved from [[Red Hat Enterprise Linux (RHEL)]] and [[CentOS]]\n- it is available for use within [[AWS - Elastic Compute Cloud (EC2)|Amazon EC2]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

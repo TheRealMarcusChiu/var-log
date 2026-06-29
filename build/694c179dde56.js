@@ -1,0 +1,1 @@
+(function(){var b="694c179dde56",m="````excerpt\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n- [[OpenID Connect (OIDC)]] the<em> id\\_token</em> is represented as a JWT\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

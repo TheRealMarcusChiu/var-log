@@ -1,0 +1,1 @@
+(function(){var b="adfdda68a8d3",m="###### Optical Transistors/Computing with Plasma\n\n![](https://www.youtube.com/watch?v=Mdh2pLwsK8Y)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

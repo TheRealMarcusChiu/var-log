@@ -1,0 +1,1 @@
+(function(){var b="a5d3c3b51b84",m="- <strong>Numerical Expression</strong> - number related words/phrases (e.g. measurements, counts, prices, etc)\n- <strong>Numerical Expression Recognition</strong> - the task of finding numerical expressions within unstructured text";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

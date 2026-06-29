@@ -1,0 +1,1 @@
+(function(){var b="219b1f9ed295",m="![[Aperture & Shutter Speed/aperture-and-shutter-speed.jpeg|220x374]]![[Aperture & Shutter Speed/shutter-speed.jpeg|550x373]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="ba148181f6f6",m="###### CMYK (Cyan Magenta Yellow Black)\n````excerpt\n- are the four basic colors used for printing color images\n- subtractive (i.e. colors get darker as you blend them together)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

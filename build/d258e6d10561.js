@@ -1,0 +1,1 @@
+(function(){var b="d258e6d10561",m="###### Devanagari Script\n````excerpt\n- is a scientific and methodical writing system\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

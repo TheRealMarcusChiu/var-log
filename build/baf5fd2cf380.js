@@ -1,0 +1,1 @@
+(function(){var b="baf5fd2cf380",m="###### Confluence\n- is a collaboration wiki tool used to help teams to collaborate and share knowledge efficiently\n- see [[Personal Confluence (confluence.marcuschiu.com)]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

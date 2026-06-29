@@ -1,0 +1,1 @@
+(function(){var b="74a54a555fa9",m="[https://www.arduino.cc/en](https://www.arduino.cc/en)\n\nArduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects.";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

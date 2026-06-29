@@ -1,0 +1,1 @@
+(function(){var b="0922b81e1f01",m="TODO: [https://neo4j.com/docs/java-reference/4.0/java-embedded/](https://neo4j.com/docs/java-reference/4.0/java-embedded/)\n### Implementations\n- [[Java - Neo4j - Embedded Examples]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

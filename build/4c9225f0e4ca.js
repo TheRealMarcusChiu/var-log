@@ -1,0 +1,1 @@
+(function(){var b="4c9225f0e4ca",m="###### Hamming Distance Metric\n````excerpt\n- is a type of [[Distance Measures／Metrics／Semi-Metrics／Functions|distance metric]] on strings of equal length\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

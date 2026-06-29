@@ -1,0 +1,1 @@
+(function(){var b="561e957ed8d4",m="the command below uses [[openssl]] to obtain the public certificate of example.com\n```\nopenssl x509 -in <(openssl s_client -connect example.com:443 -prexit 2>/dev/null) -out example.crt\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

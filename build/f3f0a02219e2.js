@@ -1,0 +1,1 @@
+(function(){var b="f3f0a02219e2",m="###### USB Attached SCSI (UAS)‍\n````excerpt\n- [[Small Computer Systems Interface (SCSI)|SCSI]] over [[Universal Serial Bus (USB) 2.0／3.0／3.2／4.0 Gen 1／2 (Specification／Interface)|USB]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

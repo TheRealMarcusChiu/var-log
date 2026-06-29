@@ -1,0 +1,1 @@
+(function(){var b="10f0ec7191d8",m="wes montgomery trio\n\n![](http://youtube.com/watch?v=JadIhIihTFw)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

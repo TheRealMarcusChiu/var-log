@@ -1,0 +1,1 @@
+(function(){var b="8da7c64543dd",m="- [[WebVM]]\n> [!list-indent-undo]\n> ```dataview\n> LIST\n> FROM \"\"\n> WHERE file.folder = this.file.folder + \"/\" + this.file.name\n> ```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

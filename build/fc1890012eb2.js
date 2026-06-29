@@ -1,0 +1,1 @@
+(function(){var b="fc1890012eb2",m="###### Visual Studio Code (VS Code)\n````excerpt\n- is an [[Integrated Development Environments (IDEs)]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

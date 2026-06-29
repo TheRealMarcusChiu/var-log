@@ -1,0 +1,1 @@
+(function(){var b="19c14762a761",m="# Where Electricity Comes From\n![[Electricity／Electrical/where electricity comes from.png]]\n# Subpages\n- [[History of Electricity]]\n\n# How Electricity Gets To You\n\n![](https://www.youtube.com/watch?v=xhxo2oXRiio)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

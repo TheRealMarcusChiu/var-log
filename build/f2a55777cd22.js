@@ -1,0 +1,1 @@
+(function(){var b="f2a55777cd22",m="###### Xilinx\n````excerpt\n- acquired by [[Advanced Micro Devices (AMD)|AMD]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

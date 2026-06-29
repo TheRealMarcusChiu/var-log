@@ -1,0 +1,1 @@
+(function(){var b="1a83393a989c",m="###### Proof by Contradiction\n````excerpt\n- assumes (for contradiction) that ¬𝐴 is true. Use this assumption to prove a contradiction. It follows that ¬𝐴 is false, so 𝐴 is true\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

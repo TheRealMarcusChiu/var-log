@@ -1,0 +1,1 @@
+(function(){var b="6bf5a3efffaf",m="###### Pulse-Coupled Neural Networks (PCNN)\n````excerpt\n- is often confused with [[Spiking Neural Networks (SNN)|SNN]]\n- can be seen as a kind of SNN\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

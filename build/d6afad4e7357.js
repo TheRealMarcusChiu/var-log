@@ -1,0 +1,1 @@
+(function(){var b="d6afad4e7357",m="###### Simply Connectedness\n````excerpt\n- a stronger type of [[Connectedness|connectedness]]\n````\n^excerpt\n\n# Resources\n- [https://en.wikipedia.org/wiki/Simply_connected_space](https://en.wikipedia.org/wiki/Simply_connected_space)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

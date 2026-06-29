@@ -1,0 +1,1 @@
+(function(){var b="f45dc2d9a059",m="###### Yew\n````excerpt\n- [[Rust]] + [[WebAssembly (WASM)|WebAssembly]] purity\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

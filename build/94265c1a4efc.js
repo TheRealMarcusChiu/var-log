@@ -1,0 +1,1 @@
+(function(){var b="94265c1a4efc",m="###### Graphics Interchange Format (GIF)\n````excerpt\n- has low compression ratio than most video formats\n- it is the most common image animation format\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

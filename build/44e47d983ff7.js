@@ -1,0 +1,1 @@
+(function(){var b="44e47d983ff7",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n- DNS cache poisoning\n- DNS spoofing\n- DNS ID hacking\n- DNS amplification attacks";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

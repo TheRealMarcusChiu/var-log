@@ -1,0 +1,1 @@
+(function(){var b="b3ea7ffff884",m="###### KHTML\n````excerpt\n- is a discontinued [[Web (HTTP) Clients／Browsers|browser engine]] that was developed by the KDE project\n- it originated as the engine of the Konqueror browser in the late 1990s\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

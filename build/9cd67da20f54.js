@@ -1,0 +1,1 @@
+(function(){var b="9cd67da20f54",m="###### PLX Technology/Chips\n````excerpt\n- allows additional [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCIe]] lanes to a motherboard/processor via multiplexing\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

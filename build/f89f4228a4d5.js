@@ -1,0 +1,1 @@
+(function(){var b="f89f4228a4d5",m="###### Fastai\n````excerpt\n- is a library built on top of [[PyTorch]]\n````\n^excerpt\n\n# Fastai - Tutorials\n- [https://github.com/fastai/fastbook](https://github.com/fastai/fastbook)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="fa2ea24a0168",m="- a close-mindedness that amounts to an imprisonment so total that the prisoner doesn't even know he is locked up";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

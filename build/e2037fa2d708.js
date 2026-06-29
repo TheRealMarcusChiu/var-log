@@ -1,0 +1,1 @@
+(function(){var b="e2037fa2d708",m="# Web Frameworks\n- [[PHP Symphony|Symphony]]\n- [[PHP Laravel|Laravel]]\n\n# Master Example\n- [https://github.com/TheRealMarcusChiu/PHPMasterExample](https://github.com/TheRealMarcusChiu/PHPMasterExample)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

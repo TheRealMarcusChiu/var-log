@@ -1,0 +1,1 @@
+(function(){var b="81e77f6181dd",m="###### Friend of a Friend (FOAF)\n````excerpt\n- simple vocabulary to describe people and organizations, and their relationships\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

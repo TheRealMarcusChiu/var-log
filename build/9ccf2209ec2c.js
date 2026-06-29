@@ -1,0 +1,1 @@
+(function(){var b="9ccf2209ec2c",m="refer to [[Bayes' Rule／Theorem／Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)|Bayes' Rule/Theorem/Law (Prior - Posterior - Distribution - Likelihood - Probability of Evidence)]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

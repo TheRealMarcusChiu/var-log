@@ -1,0 +1,1 @@
+(function(){var b="877cd68e484d",m="###### SFP+\n````excerpt\n- is the plus version of [[Small Form-factor Pluggable (SFP)|SFP]], with higher speed (typically 8G &10G) support\n- It was introduced around 2006\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

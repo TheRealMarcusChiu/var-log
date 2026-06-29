@@ -1,0 +1,1 @@
+(function(){var b="ddf81a32cd02",m="###### Indiscrete/Anti-Discrete/Concrete/Co-Discrete Spaces\n````excerpt\n- is a type of [[Mathematical Spaces|mathematical space]]\n````\n^excerpt\n\n# Examples\n- [[Indiscrete Topological Spaces]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

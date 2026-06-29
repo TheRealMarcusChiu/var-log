@@ -1,0 +1,1 @@
+(function(){var b="10a8305102a0",m="###### Common Business-Oriented Language (COBOL)\n````excerpt\n- created in 1950s\n- designed for business-oriented applications\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

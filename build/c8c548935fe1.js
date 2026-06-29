@@ -1,0 +1,1 @@
+(function(){var b="c8c548935fe1",m="###### Identity Matrix\n- is a type of [[Orthogonal／Orthonormal Matrix|orthogonal matrix]]\n\n### Examples\n![[Identity Matrix/orthogonal-matrices-examples-1.png|500]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

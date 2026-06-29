@@ -1,0 +1,1 @@
+(function(){var b="c82f60f89bae",m="###### SystemC\n- a set of libraries that extend the [[C++]] language to allow for the design and verification of [[Field-Programmable Gate Arrays (FPGA)|FPGAs]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

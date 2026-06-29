@@ -1,0 +1,1 @@
+(function(){var b="21286602c0ec",m="###### Indicator Encoding\n````excerpt\n- a type of [[Word Embeddings／Embedding|word embedding]], given 𝑛 categories, encodes the variables into 𝑛-1 categories\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

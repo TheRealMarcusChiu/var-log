@@ -1,0 +1,1 @@
+(function(){var b="9c3939044b5b",m="````excerpt\n<strong>Meta Expression (m-expression)</strong> was an early proposed syntax for the [[Common Lisp|Lisp]] programming language\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

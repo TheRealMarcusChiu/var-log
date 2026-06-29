@@ -1,0 +1,1 @@
+(function(){var b="b404a0995b91",m="###### DNS over QUIC (DoQ)\n````excerpt\n- is an encrypted way to send [[Domain Name System／Service (DNS)|DNS]] queries over [[Quick UDP Internet Connections (QUIC)|QUIC]]\n````\n^excerpt\n\n# Examples\n- [[kdig]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

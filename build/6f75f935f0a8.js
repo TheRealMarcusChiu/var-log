@@ -1,0 +1,1 @@
+(function(){var b="6f75f935f0a8",m="###### MacX\n````excerpt\n- official X11 implementation for Mac OS X (support removed \\~2009)\n- largely replaced by open-source [[XQuartz]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

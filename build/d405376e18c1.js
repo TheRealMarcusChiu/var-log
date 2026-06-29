@@ -1,0 +1,1 @@
+(function(){var b="d405376e18c1",m="###### Apache Derby\n````excerpt\n- is a [[Relational／Row-Oriented Database Management System (RDBMS)|Relational Database]] Management System that is fully written in [[Java]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

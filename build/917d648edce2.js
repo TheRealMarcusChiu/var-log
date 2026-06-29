@@ -1,0 +1,1 @@
+(function(){var b="917d648edce2",m="<strong>Expanded Needham­-Schroeder Protocol</strong> is an extension of the [[Needham–Schroeder Protocol]]\n\n![[Expanded Needham­-Schroeder Protocol/expanded needham-schroeder-protocol.png|429x250]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

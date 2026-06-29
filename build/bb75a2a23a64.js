@@ -1,0 +1,1 @@
+(function(){var b="bb75a2a23a64",m="###### Portable Network Graphics (PNG)\n````excerpt\n- a type of [[Raster Graphics (Bitmap Image)|raster graphic]]\n- the animated file format of PNG is available with the APNG format\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

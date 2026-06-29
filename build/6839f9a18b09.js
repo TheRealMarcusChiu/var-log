@@ -1,0 +1,1 @@
+(function(){var b="6839f9a18b09",m="- article: [https://angular.io/tutorial](https://angular.io/tutorial)\n- code: [https://github.com/Angular-Example/tour-of-heroes](https://github.com/Angular-Example/tour-of-heroes)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

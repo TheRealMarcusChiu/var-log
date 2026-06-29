@@ -1,0 +1,1 @@
+(function(){var b="39b3ee78a745",m="###### nushell ([https://github.com/nushell/nushell](https://github.com/nushell/nushell))\n````excerpt\n- a new type of shell\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

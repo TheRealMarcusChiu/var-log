@@ -1,0 +1,1 @@
+(function(){var b="f009eaae9e32",m="###### Erasure Coding\n````excerpt\n- is a data protection method\n- it breaks data into fragments, adds redundant \"parity\" fragments using mathematical formulas, and distributes them across multiple storage locations\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

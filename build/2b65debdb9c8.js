@@ -1,0 +1,1 @@
+(function(){var b="2b65debdb9c8",m="- nearest neighbor interpretation\n- bilinear interpretation\n- bicubic interpretation\n\n![](https://www.youtube.com/watch?v=AqscP7rc8_M)\n\n![](https://www.youtube.com/watch?v=poY_nGzEEWM)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

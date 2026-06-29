@@ -1,0 +1,1 @@
+(function(){var b="61cc4e65b417",m="###### x86-64 - x64 - AMD64 - Intel 64\n````excerpt\n- is a 64-bit extension of the [[x86 x64 (x86-16, x86-32, x86-64)|x86 instruction set architecture]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

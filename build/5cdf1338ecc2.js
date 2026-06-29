@@ -1,0 +1,1 @@
+(function(){var b="5cdf1338ecc2",m="###### suffering\n- is a conscious state (i.e. there can be no suffering for an unconscious being)\n- typically driven by experience of external events\n- a conscious state that we want to stop and avoid (with other things being equal)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

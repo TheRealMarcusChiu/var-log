@@ -1,0 +1,1 @@
+(function(){var b="47a04421027a",m="###### Apache APISIX ([https://apisix.apache.org/](https://apisix.apache.org/))\n- is the first open-source [[API Gateways|API Gateway]] that includes a built-in low-code Dashboard UI";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

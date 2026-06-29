@@ -1,0 +1,1 @@
+(function(){var b="a33027811ed9",m="###### Kitty\n````excerpt\n- is a [[Terminal Application／Emulation／Emulator|terminal emulator]]\n- [https://sw.kovidgoyal.net/kitty/](https://sw.kovidgoyal.net/kitty/)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

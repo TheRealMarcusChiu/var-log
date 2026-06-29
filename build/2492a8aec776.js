@@ -1,0 +1,1 @@
+(function(){var b="2492a8aec776",m="similarities between: Word, Light, and Bread\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

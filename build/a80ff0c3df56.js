@@ -1,0 +1,1 @@
+(function(){var b="a80ff0c3df56",m="analytic method of obtaining a definite integral for the Gaussian function over the entire real line\n\n![[Integral of： ∫e^(-x^2)·dx = √π/proof.png|500]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="28f51b478254",m="# Problem\n\nHow to reliably/atomically update the database and send messages/events?\n# Resources\n- [https://microservices.io/patterns/data/transactional-outbox.html](https://microservices.io/patterns/data/transactional-outbox.html)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

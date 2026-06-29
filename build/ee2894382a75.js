@@ -1,0 +1,1 @@
+(function(){var b="ee2894382a75",m="- $\\hat{𝜎}^2 = \\frac{(y - \\hat{y})^T(y - \\hat{y})}{n - p}$\n\nwhere:\n- $\\hat{y} = X\\hat{𝛽}$\n- $\\hat{𝛽} = (X^TX)^{-1}X^Ty$\n- $\\hat{y} = X(X^TX)^{-1}X^Ty$";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

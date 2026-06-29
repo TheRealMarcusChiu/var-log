@@ -1,0 +1,1 @@
+(function(){var b="cb63454b8de8",m="###### Intel Labs\n````excerpt\n- is a research division of [[Intel Corporation]]\n````\n^excerpt\n\n# Products\n- [[Loihi (neuromorphic chip)]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

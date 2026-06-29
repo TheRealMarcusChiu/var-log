@@ -1,0 +1,1 @@
+(function(){var b="ef86335b30e5",m="# Ways Generating a Uniform Distribution\n- [[Pseudo-Random Number Generator (PRNG) - Deterministic Random Bit Generator (DRBG)]]\n- using a table";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

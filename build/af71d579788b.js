@@ -1,0 +1,1 @@
+(function(){var b="af71d579788b",m="###### Null Distribution\n````excerpt\n- is the [[Sampling Distribution - Finite-Sample Distribution|sampling distribution]] of the test statistic under the [[Inferential Statistical Hypothesis Testing|null hypothesis]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

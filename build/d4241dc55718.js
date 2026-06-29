@@ -1,0 +1,1 @@
+(function(){var b="d4241dc55718",m="[https://protocol.bryanjohnson.com/Step-1-Step-2-Step-3](https://protocol.bryanjohnson.com/Step-1-Step-2-Step-3)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

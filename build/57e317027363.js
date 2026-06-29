@@ -1,0 +1,1 @@
+(function(){var b="57e317027363",m="###### Geometric Mean\n- is a type of [[Central Tendency]]\n\n# GM - Formula\n![[Geometric Mean (GM)/geometric-mean-formula.png|301]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

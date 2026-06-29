@@ -1,0 +1,1 @@
+(function(){var b="3908d1289eb7",m="<strong>Key Distribution Center (KDC)</strong> is a [[Trusted Intermediaries (TI) - Trusted Third Party (TTP)|Trusted Intermediary]] system that provides [[Symmetric／Single／Secret Key Function|symmetric keys]] to the users in a network";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

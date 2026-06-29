@@ -1,0 +1,1 @@
+(function(){var b="7704c1d543d2",m="###### Magnetic Memory/Storage\n````excerpt\n- is a non-volatile/persistent memory\n- uses magnetism\n````\n^excerpt\n\n# Magnetic Memory - Types\n- Magnetic Disk\n- Magnetic Tape";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

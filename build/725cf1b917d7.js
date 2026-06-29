@@ -1,0 +1,1 @@
+(function(){var b="725cf1b917d7",m="###### LinuxBoot\n````excerpt\n- is an open-source alternative to proprietary [[Unified EFI (UEFI)|UEFI]] firmware\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="a5d1fd920e7d",m="###### RGB (Red Green Blue)\n````excerpt\n- used for creating images on your computer screen\n- additive (i.e. colors get brighter as you blend them together)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

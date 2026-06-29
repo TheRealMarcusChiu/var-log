@@ -1,0 +1,1 @@
+(function(){var b="517d02821a76",m="###### Complex Conjugate/Conjugation (𝑧̅, 𝑧\\*)\n````excerpt\n- is an [[Unary Operations／Operators|unary operator]] of a [[Complex Numbers System|complex number]] where\n\t- $\\overline{a+bi} = (a+bi)^* = a - bi$\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

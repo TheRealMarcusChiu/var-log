@@ -1,0 +1,1 @@
+(function(){var b="154863cc985b",m="###### Cerebras CS-1 Chip\n````excerpt\n- created by [[Cerebras Systems]]\n- built for solving [[Deep Learning]] tasks\n````\n^excerpt\n\n# CS-1 Chip - Layout\n![[Cerebras CS-1 Chip/cs-1.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

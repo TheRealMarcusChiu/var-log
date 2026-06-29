@@ -1,0 +1,1 @@
+(function(){var b="5992b27d340c",m="###### 5 Verb Forms\n- the base form\n- the present tense form (which may include the agreement ending in -s)\n- the past tense form\n- the present participle\n- the past participle";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

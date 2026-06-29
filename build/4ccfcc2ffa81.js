@@ -1,0 +1,1 @@
+(function(){var b="4ccfcc2ffa81",m="###### Weight Normalization/Norm (WN)\n````excerpt\n- TODO\n````\n^excerpt\n\n# Resources\n- [https://arxiv.org/pdf/1602.07868.pdf](https://arxiv.org/pdf/1602.07868.pdf)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

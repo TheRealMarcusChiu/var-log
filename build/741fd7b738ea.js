@@ -1,0 +1,1 @@
+(function(){var b="741fd7b738ea",m="###### Safari (web browser)\n````excerpt\n- developed by [[Apple Inc]]\n- uses [[WebKit (Browser Engine)]] as it's [[Web (HTTP) Clients／Browsers|browser engine]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

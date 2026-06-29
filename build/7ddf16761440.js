@@ -1,0 +1,1 @@
+(function(){var b="7ddf16761440",m="###### Altera FPGA\n- was a manufacturer of [[Programmable Logic Device (PLD)|programmable logic devices (PLDs)]]\n- headquartered in San Jose, California\n- it was founded in 1983 and acquired by [[Intel Corporation|Intel]] in 2015";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

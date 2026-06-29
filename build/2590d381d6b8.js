@@ -1,0 +1,1 @@
+(function(){var b="2590d381d6b8",m="```merge-table\n{\n  \"rows\": [\n    [\n      \"- fetus - 90%\\n- new born - 80%\\n- child - 70%\\n- adult - 60-65%\\n- elderly - 55%\",\n      \"![[Percentage of Water in Human Body/water-percentage-human-body.png]]\"\n    ]\n  ]\n}\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

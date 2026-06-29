@@ -1,0 +1,1 @@
+(function(){var b="1f2ca9a07003",m="Comparisons of [[Disk (Format - Filesystems／File-Systems (FS))|Disk (Format - Filesystems/File-Systems (FS))]]\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

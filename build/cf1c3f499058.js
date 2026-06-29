@@ -1,0 +1,1 @@
+(function(){var b="cf1c3f499058",m="###### Agnostic PAC Model\n````excerpt\n- is the original [[Probably Approximately Correct (PAC) Learning Model|PAC model]] but with the [[The Realizability Assumption|realizability assumption]] waived\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

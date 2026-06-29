@@ -1,0 +1,1 @@
+(function(){var b="a8de27468b41",m="###### Javassist (Java Programming Assistant)\n````excerpt\n- makes [[Java - Bytecode Manipulation Libraries|Java bytecode manipulation]] simple\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

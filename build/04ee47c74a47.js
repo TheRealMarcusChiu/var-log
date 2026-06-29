@@ -1,0 +1,1 @@
+(function(){var b="04ee47c74a47",m="###### seaborn\n````excerpt\n- is a [[Python - Packages|python package]] for [[Variate Analysis - Data Visualization|data visualizations]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

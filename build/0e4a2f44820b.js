@@ -1,0 +1,1 @@
+(function(){var b="0e4a2f44820b",m="see: [https://observablehq.com/@d3/d3-scaleband](https://observablehq.com/@d3/d3-scaleband)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

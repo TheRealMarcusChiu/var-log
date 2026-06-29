@@ -1,0 +1,1 @@
+(function(){var b="aee1fe2779f2",m="### Algorithm\n1. start with initial flow as 0\n2. while there is an augmenting path from source to sink, add this path-flow to flow\n3. return flow\n\n### Time Complexity\n\nO(Ef) where:\n- E - number of edges\n- f - is max flow";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

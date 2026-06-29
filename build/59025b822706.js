@@ -1,0 +1,1 @@
+(function(){var b="59025b822706",m="- <strong>Equality</strong> is treating everyone the same\n- <strong>Equity</strong> is giving everyone what they need to be successful\n- <strong>Justice</strong> is ...\n\n![[Equity - Equality - Justice/equality-equity-justice.jpg]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

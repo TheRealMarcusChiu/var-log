@@ -1,0 +1,1 @@
+(function(){var b="7a4729d0528f",m="send.bat\n```\n@echo off\nset /p mood=How are you:  \ncall Receive.bat %mood% \"thats good\"\n```\n\nreceive.bat\n```\n@echo off\necho %1\necho %2\npause\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

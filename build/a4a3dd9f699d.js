@@ -1,0 +1,1 @@
+(function(){var b="a4a3dd9f699d",m="###### Songscription\n````excerpt\n- uses AI to transcribe single-instrument audio file or YouTube link it into sheet music and MIDI\n````\n^excerpt\n\n# Resources\n- [https://songscription.ai/](https://songscription.ai/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

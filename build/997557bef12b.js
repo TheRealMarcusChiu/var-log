@@ -1,0 +1,1 @@
+(function(){var b="997557bef12b",m="###### Dioxus Framework\n````excerpt\n- is a [[Rust]] UI framework everywhere (web, desktop, mobile)\n````\n^excerpt\n\n# Resources\n- [https://dioxuslabs.com/](https://dioxuslabs.com/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

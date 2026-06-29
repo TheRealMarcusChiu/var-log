@@ -1,0 +1,1 @@
+(function(){var b="f83aed0d3008",m="nothing here\n\ninduces <strong>anabolism</strong> - the synthesis of complex molecules in living organisms from simpler ones together with the storage of energy; constructive metabolism";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

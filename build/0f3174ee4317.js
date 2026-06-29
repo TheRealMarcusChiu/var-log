@@ -1,0 +1,1 @@
+(function(){var b="0f3174ee4317",m="###### Xcb\n````excerpt\n- is a low-level [[C]] wrapper around the [[(X - X11 - X Window System) Core Protocol|X protocol]] (client-side)\n````\n^excerpt\n\n# Resources\n- [https://xcb.freedesktop.org](https://xcb.freedesktop.org)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

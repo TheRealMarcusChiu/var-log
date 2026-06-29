@@ -1,0 +1,1 @@
+(function(){var b="493424fd25d4",m="###### OpenBox\n````excerpt\n- is a [[Window Managers (WM)|window manager]]\n````\n^excerpt\n\n# Resources\n- [https://openbox.org/](https://openbox.org/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

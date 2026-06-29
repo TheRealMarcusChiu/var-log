@@ -1,0 +1,1 @@
+(function(){var b="65eac6118ebd",m="###### Logical Operators\n````excerpt\n- takes as input a boolean and outputs a boolean\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

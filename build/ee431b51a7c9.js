@@ -1,0 +1,1 @@
+(function(){var b="ee431b51a7c9",m="<strong>Event Extraction</strong> - involves both:\n- Event Detection -\n- Event Classification -";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

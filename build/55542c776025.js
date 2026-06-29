@@ -1,0 +1,1 @@
+(function(){var b="55542c776025",m="###### InfiniteGraph\n````excerpt\n- is a type of [[Graph／Network Database|graph database]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

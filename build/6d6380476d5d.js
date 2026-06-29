@@ -1,0 +1,1 @@
+(function(){var b="6d6380476d5d",m="TODO\n# Resources\n- [https://www.baeldung.com/spring-integration](https://www.baeldung.com/spring-integration)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

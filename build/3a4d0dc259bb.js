@@ -1,0 +1,1 @@
+(function(){var b="3a4d0dc259bb",m="###### File Transfer Protocol SSL (FTPS)\n````excerpt\n- is a [[File Transfer Protocol (FTP)]] over [[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)|SSL]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

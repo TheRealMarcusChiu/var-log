@@ -1,0 +1,1 @@
+(function(){var b="46370f34b887",m="- [https://www.liquigraph.org/](https://www.liquigraph.org/)\n- heavily inspired from [[Liquibase]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

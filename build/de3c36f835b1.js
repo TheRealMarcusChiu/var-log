@@ -1,0 +1,1 @@
+(function(){var b="de3c36f835b1",m="###### Red-Black Tree\n- is a kind of [[Self-Balancing Search Tree|self-balancing binary search tree]]\n\n# Resources\n- [https://en.wikipedia.org/wiki/Red%E2%80%93black_tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

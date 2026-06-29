@@ -1,0 +1,1 @@
+(function(){var b="731146e3e493",m="Below is [[Euler's Equation／Formula|Euler's formula]]\n- 𝑒<sup>𝑖𝑥</sup> = 𝑐𝑜𝑠(𝑥) + 𝑖·𝑠𝑖𝑛(𝑥)\n\nHow did with come to this equation via [[Trigonometry & Complex Numbers|trigonometry and complex numbers]]?\n# TODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

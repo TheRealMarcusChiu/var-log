@@ -1,0 +1,1 @@
+(function(){var b="ef967b983250",m="###### matplotlib\n````excerpt\n- is a [[Python - Packages|python package]] for [[Variate Analysis - Data Visualization|data visualizations]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

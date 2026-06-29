@@ -1,0 +1,1 @@
+(function(){var b="ccf013f3483d",m="###### EnumMap\n- is a [[Java - HashMap]] optimized where keys are Enums";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="9b9d2c407742",m="````excerpt\n[[Command Pattern]] vs [[Prototype Pattern]]\n- <em>Prototype Pattern</em> can help when you need to save copies of <em>Commands</em> into history\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

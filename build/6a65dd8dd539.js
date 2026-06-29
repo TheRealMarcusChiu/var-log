@@ -1,0 +1,1 @@
+(function(){var b="6a65dd8dd539",m="###### Numerical Linear Algebra (NLA) - Applied Linear Algebra (ALA)\n````excerpt\n- is the study of [[Linear Algebra|linear algebra]] applied to computers\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

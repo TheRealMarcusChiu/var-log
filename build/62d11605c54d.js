@@ -1,0 +1,1 @@
+(function(){var b="62d11605c54d",m="###### Capsule Networks\n- is a type of [[Artificial Neural Networks (ANN)|artificial neural network]] that can be used to better model hierarchical relationships\n- is an attempt to mimic the biological neural organization";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="31c9bc0b1ce6",m="<strong>68 year old lady playing the guitar singing a song for her dead husband</strong>\n\n![](http://youtube.com/watch?v=0YOJhZMhWEo)\n\n<strong>Paddy and Nicco</strong>\n\n![](http://youtube.com/watch?v=hjHnWz3EyHs)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

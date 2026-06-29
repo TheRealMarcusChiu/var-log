@@ -1,0 +1,1 @@
+(function(){var b="7903ed9b1897",m="###### Indefinite Matrix\n````excerpt\n- is a matrix 𝐴 where:\n\t- 𝐴's [[Eigenvectors (Characteristic Vectors) - Eigenvalues (Spectrum)|eigenvalues]] is a mix of negative and positive values\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

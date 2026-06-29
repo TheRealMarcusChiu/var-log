@@ -1,0 +1,1 @@
+(function(){var b="3b43db116eae",m="[http://meet.marcuschiu.com](http://meet.marcuschiu.com)\n\ncombining 2 technologies:\n- [[Web Real-Time Communication (WebRTC)]]\n- [[Android Development Studio Applications|Android Application]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

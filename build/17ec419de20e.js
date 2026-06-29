@@ -1,0 +1,1 @@
+(function(){var b="17ec419de20e",m="###### Cosmic (Desktop Environment)\n````excerpt\n- another [[Desktop Environments (DE)|desktop environment]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

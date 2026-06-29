@@ -1,0 +1,1 @@
+(function(){var b="6bf783783244",m="###### Extensible Firmware Interface (EFI)\n````excerpt\n- is a [[Boot Firmware|firmware]] boot method\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

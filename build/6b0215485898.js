@@ -1,0 +1,1 @@
+(function(){var b="6b0215485898",m="###### Colemak Keyboards\n````excerpt\n- a type of keyboard layout\n````\n^excerpt\n\n# Layout\n![[Colemak Keyboards/colemak-keyboard-layout.png|500]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

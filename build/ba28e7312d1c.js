@@ -1,0 +1,1 @@
+(function(){var b="ba28e7312d1c",m="###### Intel Atom Processors\n````excerpt\n- TODO\n````\n^excerpt\n\n# Resources\n- [https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29035](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel29035)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="b5e49f72985f",m="# Docker\n```\ndocker run --name zookeeper-server -p 2181:2181 zookeeper:latest\n```\n# Debian\n```\nsudo apt-get install zookeeperd\n```\n# MacOS\n```\nbrew install zookeeper\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

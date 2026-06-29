@@ -1,0 +1,1 @@
+(function(){var b="e4e5d37d5945",m="###### Kimi Code\n````excerpt\n- is an [[AI Coding Agents／Assistants|AI coding assistant]]\n````\n^excerpt\n\n# Resources\n- [https://www.kimi.com/code](https://www.kimi.com/code)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

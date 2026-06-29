@@ -1,0 +1,1 @@
+(function(){var b="18ceb1efbf00",m="###### Arista Switches\n````excerpt\n- switches made by [[Arista Networks]]\n````\n^excerpt\n\n# Subpages\n- [https://www.arista.com/en/products/platforms](https://www.arista.com/en/products/platforms)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

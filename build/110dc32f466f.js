@@ -1,0 +1,1 @@
+(function(){var b="110dc32f466f",m="###### Red Hat® Enterprise Linux® (RHEL)\n````excerpt\n- delivers military-grade security, 99.999% uptime\n- developed by [[Red Hat Incorporation|Red Hat]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

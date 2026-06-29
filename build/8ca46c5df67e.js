@@ -1,0 +1,1 @@
+(function(){var b="8ca46c5df67e",m="see: [[Java - Spring Framework - Core - AOP Frameworks (AspectJ - Spring AOP)]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

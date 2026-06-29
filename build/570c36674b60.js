@@ -1,0 +1,1 @@
+(function(){var b="570c36674b60",m="microbiome - the microorganisms in a particular environment (including the body or a part of the body)\n\n![](https://www.youtube.com/watch?v=VzPD009qTN4)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

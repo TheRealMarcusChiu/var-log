@@ -1,0 +1,1 @@
+(function(){var b="d86f7d854445",m="###### Read Evaluate Print Loop (REPL)\n````excerpt\n- is an interactive programming environment that:\n\t- takes user input\n\t- evaluates it\n\t- then prints the result\n\t- repeating the process in a continuous loop\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

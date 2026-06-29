@@ -1,0 +1,1 @@
+(function(){var b="b8ca04d81ac5",m="###### Laplacian Eigenmaps\n````excerpt\n- is a method for [[Non-Linear／Nonlinear Dimensionality Reduction (NLDR) - Manifold Learning|nonlinear dimensionality reduction]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

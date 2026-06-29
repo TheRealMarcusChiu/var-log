@@ -1,0 +1,1 @@
+(function(){var b="c03656b80785",m="###### Babylon.js ([www.babylonjs.com](https://www.babylonjs.com/))\n- a [[JavaScript - WebGL 1 & 2|WebGL]] framework";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

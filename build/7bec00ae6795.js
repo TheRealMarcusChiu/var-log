@@ -1,0 +1,1 @@
+(function(){var b="7bec00ae6795",m="###### Assignment Operators\n````excerpt\n- takes as input a value and variable and outputs a variable assigned with the value\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

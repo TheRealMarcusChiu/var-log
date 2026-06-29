@@ -1,0 +1,1 @@
+(function(){var b="0c299d722c5c",m="[[Evaluating Smartphone-based User Interface Designs for a 2D Psychological Questionnaire.pdf]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

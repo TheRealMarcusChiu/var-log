@@ -1,0 +1,1 @@
+(function(){var b="d53ec6fb0f35",m="TODO\n# Resources\n- [https://thenewstack.io/how-to-run-databases-in-kubernetes](https://thenewstack.io/how-to-run-databases-in-kubernetes/?utm_referrer=https%3A%2F%2Fmail.google.com%2F)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

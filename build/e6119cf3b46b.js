@@ -1,0 +1,1 @@
+(function(){var b="e6119cf3b46b",m="<strong>Blindsight</strong> is a condition in which the sufferer responds to visual stimuli without consciously perceiving them";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

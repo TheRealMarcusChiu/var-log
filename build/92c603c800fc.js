@@ -1,0 +1,1 @@
+(function(){var b="92c603c800fc",m="see [[Vector Spaces - Linear Spaces|Vector Spaces]] for more details\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

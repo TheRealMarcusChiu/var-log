@@ -1,0 +1,1 @@
+(function(){var b="7c45af6cc61d",m="###### 3D Triangle Splatting (3DTS)\n````excerpt\n- like [[3D Gaussian Splatting (3DGS)]] but with triangles because triangles are used in computer graphics\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

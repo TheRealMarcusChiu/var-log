@@ -1,0 +1,1 @@
+(function(){var b="b16791c40ba0",m="###### LXD (pronounced lex-dee)\n````excerpt\n- is the lightervisor, or lightweight container hypervisor\n- is a superset of [[Linux Containers (LXC)]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

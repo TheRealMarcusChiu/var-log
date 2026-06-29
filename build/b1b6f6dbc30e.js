@@ -1,0 +1,1 @@
+(function(){var b="b1b6f6dbc30e",m="###### Single-Factor Authentication (SFA)\n- is an authentication method in which a user is granted access only after successfully presenting a piece of evidence to an authentication mechanism: knowledge, possession, and inherence";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

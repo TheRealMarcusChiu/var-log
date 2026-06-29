@@ -1,0 +1,1 @@
+(function(){var b="2fed6d045866",m="<strong>Eclipse Jetty</strong>\n- is a [[Java - Servlet API／Specification - Servlet Containers - Application Servers|Java web server and Java Servlet container]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

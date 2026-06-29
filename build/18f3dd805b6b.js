@@ -1,0 +1,1 @@
+(function(){var b="18f3dd805b6b",m="###### Subword-Based Tokenizers\n````excerpt\n- is a type of [[Tokenizer - Tokenization Algorithm|tokenizer]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

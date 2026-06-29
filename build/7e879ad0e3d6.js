@@ -1,0 +1,1 @@
+(function(){var b="7e879ad0e3d6",m="###### Lexicalized CFG (LCFG)\n- a [[Context-Free Grammar (CFG) - Phrase Structure Grammar (PSG) - Backus-Naur／Normal Form (BNF)|Context-Free Grammar (CFG)]] that takes into account terminals as context\n\n### TODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

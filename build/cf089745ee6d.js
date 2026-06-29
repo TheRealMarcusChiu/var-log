@@ -1,0 +1,1 @@
+(function(){var b="cf089745ee6d",m="Using [[Talos Linux]] to setup a [[Kubernetes]] cluster\n\nTODO - [https://www.talos.dev/v1.7/introduction/prodnotes/](https://www.talos.dev/v1.7/introduction/prodnotes/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

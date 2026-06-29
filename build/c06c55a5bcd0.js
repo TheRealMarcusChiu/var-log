@@ -1,0 +1,1 @@
+(function(){var b="c06c55a5bcd0",m="###### <strong><em>banya</em></strong>\nmeans \"grocer or merchant\", not \"tree\"";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

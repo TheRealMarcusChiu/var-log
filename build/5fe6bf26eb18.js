@@ -1,0 +1,1 @@
+(function(){var b="5fe6bf26eb18",m="###### Cross-Product Matrix\n- is a type of [[Positive Semi-Definite Matrix]]\n- TODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

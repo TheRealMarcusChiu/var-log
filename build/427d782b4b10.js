@@ -1,0 +1,1 @@
+(function(){var b="427d782b4b10",m="###### TreeMap\n- is am implementation of [[Java - SortedMap]]\n- a [[Red-Black Tree]]-based [<code>NavigableMap</code>](https://docs.oracle.com/javase/8/docs/api/java/util/NavigableMap.html) implementation";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

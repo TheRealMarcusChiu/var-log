@@ -1,0 +1,1 @@
+(function(){var b="5e1284d99ea3",m="###### Uniform Memory Access (UMA)\n````excerpt\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

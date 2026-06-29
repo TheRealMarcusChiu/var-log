@@ -1,0 +1,1 @@
+(function(){var b="48a9c0484297",m="###### NMOS MOSFET Transistors\n````excerpt\n- when a HIGH voltage is applied to the gate, NMOS will conduct, while PMOS will not\n- when a LOW voltage is applied in the gate, NMOS will not conduct and PMOS will conduct\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

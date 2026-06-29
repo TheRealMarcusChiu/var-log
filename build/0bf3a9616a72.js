@@ -1,0 +1,1 @@
+(function(){var b="0bf3a9616a72",m="```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\nlist of other [[UNIX - Package Managers (All)]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

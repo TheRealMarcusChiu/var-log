@@ -1,0 +1,1 @@
+(function(){var b="8179ea9c7abe",m="###### Vision-Language Model (VLM)\n````excerpt\n- it’s like an [[Large Language Models (LLMs)|LLM]], but it can understand images or video in addition to text\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

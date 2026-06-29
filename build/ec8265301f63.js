@@ -1,0 +1,1 @@
+(function(){var b="ec8265301f63",m="###### WGL (Windows Graphics Library) or Wiggle\n````excerpt\n- is an API between [[OpenGL (Open Graphics Library)|OpenGL]] and the [[Windowing System Interface (WSI)]] of Microsoft [[Windows]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

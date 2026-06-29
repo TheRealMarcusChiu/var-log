@@ -1,0 +1,1 @@
+(function(){var b="962e7b2cf6cc",m="###### \\$ (ROOT)\n- a type of [[NTFS - System／Meta Files|NTFS System File]]\n- located at inode \\#5 of the \\$MFT\n- named \".\"";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

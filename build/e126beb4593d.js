@@ -1,0 +1,1 @@
+(function(){var b="e126beb4593d",m="###### Base32\n````excerpt\n- is a [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]] containing 32 distinct symbols\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

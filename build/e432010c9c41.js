@@ -1,0 +1,1 @@
+(function(){var b="e432010c9c41",m="###### HSL/HSV/HSB (Hue Saturation Lightness/Value/Brightness)\n````excerpt\n- are alternative representations of [[RGB (Red Green Blue)|RGB]] [[Color Decompositions／Spaces／Models／Gamuts／Profiles|color model]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

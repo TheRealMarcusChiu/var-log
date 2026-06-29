@@ -1,0 +1,1 @@
+(function(){var b="edaec2115650",m="[https://cesletter.org/1769-kjv-errors/](https://cesletter.org/1769-kjv-errors/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="07beaeaec3b3",m="### View Cache\n```\nrndc dumpdb -cache\n```\n\nresults would be at /var/cache/bind/named\\_dump.db\n### Flush & Reload Cache\n```\n> rndc flush\n> rndc reload\nserver reload successful\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

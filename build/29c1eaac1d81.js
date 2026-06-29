@@ -1,0 +1,1 @@
+(function(){var b="29c1eaac1d81",m="###### Boot Camp Assistant\n````excerpt\n- is a multi-boot utility for installing [[Windows]] on <strong>Intel-based</strong> Macintosh computers\n- [support.apple.com/boot-camp](https://support.apple.com/boot-camp)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

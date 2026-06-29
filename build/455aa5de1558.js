@@ -1,0 +1,1 @@
+(function(){var b="455aa5de1558",m="###### CycleGANs\n````excerpt\n- a variant of [[Generative Adversarial Networks (GAN)|GANs]]\n- used for domain transformations\n````\n^excerpt\n\n# CycleGANs - Architecture\n![[CycleGANs/cyclegans-explanation.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

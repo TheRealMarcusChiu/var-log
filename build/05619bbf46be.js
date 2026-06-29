@@ -1,0 +1,1 @@
+(function(){var b="05619bbf46be",m="###### DD-Wireless RouTer (DD-WRT)\n- a GNU/Linux-based firmware for wireless routers and access points.";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="f1d6d859c58d",m="eating smoke - [https://www.youtube.com/shorts/sVMclBiJ6fg](https://www.youtube.com/shorts/sVMclBiJ6fg)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

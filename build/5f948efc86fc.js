@@ -1,0 +1,1 @@
+(function(){var b="5f948efc86fc",m="###### DNS over TLS (DoT)\n````excerpt\n- sends a [[Domain Name System／Service (DNS)|DNS]] request over [[Secure Sockets Layer (SSL) - Transport Layer Security (TLS)|TLS]]\n````\n^excerpt\n\n# Examples\n- [[kdig]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

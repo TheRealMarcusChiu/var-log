@@ -1,0 +1,1 @@
+(function(){var b="e2067a8a4d69",m="###### Electrobun\n````excerpt\n- a framework used to build ultra fast, tiny, and cross-platform desktop apps with [[Typescript]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

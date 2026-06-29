@@ -1,0 +1,1 @@
+(function(){var b="f66134050db6",m="###### Faster R-CNN\n````excerpt\n- is a faster version of [[Fast R-CNN]]\n````\n^excerpt\n\n# Architecture\n![[Faster R-CNN/faster-region-based-convolutional-neural-network-architecture.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

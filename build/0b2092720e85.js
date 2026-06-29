@@ -1,0 +1,1 @@
+(function(){var b="0b2092720e85",m="###### NginxUI\n````excerpt\n- yet another Nginx web UI\n````\n^excerpt\n\n# Resources\n- [https://nginxui.com/](https://nginxui.com/)\n- [https://github.com/0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

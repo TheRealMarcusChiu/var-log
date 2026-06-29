@@ -1,0 +1,1 @@
+(function(){var b="38870b422a34",m="###### LibreSpeed\n````excerpt\n- internet speed test (no BS)\n````\n^excerpt\n\n# Resources\n- [https://github.com/librespeed/speedtest](https://github.com/librespeed/speedtest)\n- [https://librespeed.org/](https://librespeed.org/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

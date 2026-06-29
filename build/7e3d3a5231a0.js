@@ -1,0 +1,1 @@
+(function(){var b="7e3d3a5231a0",m="- [[Software Design Patterns (SDP)]]\n> [!list-indent-undo]\n> ```dataview\n> LIST\n> FROM \"\"\n> WHERE file.folder = this.file.folder + \"/\" + this.file.name\n> ```\n\n![](https://www.youtube.com/watch?v=F02LKnWJWF4)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

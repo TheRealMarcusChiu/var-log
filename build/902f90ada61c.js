@@ -1,0 +1,1 @@
+(function(){var b="902f90ada61c",m="###### 2-Factor Authentication (2FA)\n- is a subset of [[Authentication Factor／Method／Mechanism|multi-factor authentication]]\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

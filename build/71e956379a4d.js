@@ -1,0 +1,1 @@
+(function(){var b="71e956379a4d",m="###### Magmas (Algebraic Structures)\n````excerpt\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="5e7a708040aa",m="###### Wireless Personal Area Network (WPAN)\n````excerpt\n- within reach of a person\n````\n^excerpt\n\n# Types\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

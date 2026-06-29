@@ -1,0 +1,1 @@
+(function(){var b="2278be8cad76",m="![[Rotation Moment Invariants for Recognition of Symmetric Objects/flusser-rotation moment invariants for recognition of symmetric objects.pdf]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

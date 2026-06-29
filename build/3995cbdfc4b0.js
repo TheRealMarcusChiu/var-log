@@ -1,0 +1,1 @@
+(function(){var b="3995cbdfc4b0",m="###### Leave-One-Out Cross-Validation\n````excerpt\n- is [[Cross-Validation - K-Fold Cross-Validation|k-fold cross-validation]] where k is equal to the number of elements in dataset\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

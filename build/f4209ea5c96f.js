@@ -1,0 +1,1 @@
+(function(){var b="f4209ea5c96f",m="# Series\n- [https://www.youtube.com/watch?v=YJRF99N9afA&list=PLRqxfYM36kw5Y6VbDuF1LAErViVCzlHzm](https://www.youtube.com/watch?v=YJRF99N9afA&list=PLRqxfYM36kw5Y6VbDuF1LAErViVCzlHzm)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="a5221e85a462",m="[https://github.com/TheRealMarcusChiu/machine-learning-face-recognition-identification](https://github.com/TheRealMarcusChiu/machine-learning-face-recognition-identification)\n\n![[Facial Identification/facial-recognition-emma-watson.jpg]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

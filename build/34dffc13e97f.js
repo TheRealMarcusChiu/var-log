@@ -1,0 +1,1 @@
+(function(){var b="34dffc13e97f",m="- Key-Value, Document, Graph, vs Column - [https://www.3pillarglobal.com/insights/exploring-the-different-types-of-nosql-databases](https://www.3pillarglobal.com/insights/exploring-the-different-types-of-nosql-databases)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

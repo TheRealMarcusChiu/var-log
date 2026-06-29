@@ -1,0 +1,1 @@
+(function(){var b="e91a5f3bd88a",m="###### Fibre Channel Protocol for SCISI (FCP)\n````excerpt\n- [[Small Computer Systems Interface (SCSI)|SCSI]] over [[Fibre Channel (FC)|Fibre Channel]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

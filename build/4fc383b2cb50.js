@@ -1,0 +1,1 @@
+(function(){var b="4fc383b2cb50",m="###### Euclidean Geometry\n````excerpt\n- based on [[Euclid's Postulates|Euclid's postulates]]\n````\n^excerpt\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

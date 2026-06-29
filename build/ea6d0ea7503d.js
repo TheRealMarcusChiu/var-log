@@ -1,0 +1,1 @@
+(function(){var b="ea6d0ea7503d",m="1. open Finder application\n2. click “GO” and then “Connect to Server”\n3. paste smb server address (exp. [smb://192.168.86.250/3T](smb://192.168.86.250/3T))\n4. click “connect”";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

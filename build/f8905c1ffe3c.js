@@ -1,0 +1,1 @@
+(function(){var b="f8905c1ffe3c",m="###### Kubespray\n````excerpt\n- deploy a production ready Kubernetes cluster\n````\n^excerpt\n\n# Resources\n- [https://github.com/kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

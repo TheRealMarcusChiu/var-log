@@ -1,0 +1,1 @@
+(function(){var b="7ea38ef28522",m="###### DNA Memory/Storage\n````excerpt\n- is a type of [[Computer Memory／Storage Medium／Media／Substrate|computer memory medium]]\n- uses DNA to store bits of information\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

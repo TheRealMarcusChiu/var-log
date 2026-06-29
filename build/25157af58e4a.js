@@ -1,0 +1,1 @@
+(function(){var b="25157af58e4a",m="###### Non-Linear Layer\n````excerpt\n- see [[Activation Functions (AF)|Activation Functions]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

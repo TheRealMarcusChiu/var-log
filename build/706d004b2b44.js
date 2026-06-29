@@ -1,0 +1,1 @@
+(function(){var b="706d004b2b44",m="###### You Only Look Once (YOLO)\n````excerpt\n- is a real-time object detection system\n- faster than [[Region-based Convolutional Neural Network (R-CNN)|R-CNN]], [[Fast R-CNN]], and [[Faster R-CNN]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

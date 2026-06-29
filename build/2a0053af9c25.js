@@ -1,0 +1,1 @@
+(function(){var b="2a0053af9c25",m="###### Sum Rule\n````excerpt\n- is a [[Differential／Derivative Calculus - Methods／Techniques|derivative technique]]\n````\n^excerpt\n\n# Definition\n- (𝑓+𝑔)′ = 𝑓′<font style=\"color: rgb(0,51,102);\">+ </font>𝑔′";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="babbbbc7a3b2",m="###### Flatpaks\n- [https://flatpak.org/](https://flatpak.org/)\n- is a type of [[UNIX - Universal Package Managers|Universal Package Manager]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

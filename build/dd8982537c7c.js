@@ -1,0 +1,1 @@
+(function(){var b="dd8982537c7c",m="###### AWS CloudTrail\n````excerpt\n- is an API call-recording and log-monitoring Web service offered by [[Amazon Web Services (AWS)]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="cd75942212c5",m="###### RDNA 1 (RDNA1)\n- is the first implementation of the [[RDNA (microarchitecture)|RDNA microarchitecture]]\n- is the successor to the Radeon RX Vega series\n- launch occurred on July 7, 2019\n\n# Architecture\n\nTODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="90e9df54ce2a",m="###### High Level Shader Language (HLSL)\n- is the [[C]]-like high-level [[Shading／Shader Languages|shader language]] that you use with programmable shaders in [[Direct3D]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

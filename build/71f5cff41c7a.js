@@ -1,0 +1,1 @@
+(function(){var b="71f5cff41c7a",m="###### WexTerm\n````excerpt\n- is a cross-platform [[Terminal Application／Emulation／Emulator|terminal emulator]]\n- [https://wezfurlong.org/wezterm/index.html](https://wezfurlong.org/wezterm/index.html)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

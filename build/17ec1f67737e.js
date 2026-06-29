@@ -1,0 +1,1 @@
+(function(){var b="17ec1f67737e",m="is the right of every individual to both seek and receive information from all points of view without restriction\n\n![[Intellectual Freedom/intellectual-freedom.jpeg]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

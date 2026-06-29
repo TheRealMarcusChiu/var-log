@@ -1,0 +1,1 @@
+(function(){var b="db29157d5f47",m="###### Undertow\n- is a flexible [[Java - Servlet API／Specification - Servlet Containers - Application Servers|java web server]] providing both blocking and non-blocking API's based on NIO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

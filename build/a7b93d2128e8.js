@@ -1,0 +1,1 @@
+(function(){var b="a7b93d2128e8",m="###### Mode\n- is a type of [[Central Tendency]]\n- the most occurring value in distribution";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

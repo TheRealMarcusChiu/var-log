@@ -1,0 +1,1 @@
+(function(){var b="e533f5362b84",m="###### Presentation Layer\n````excerpt\n- encodes application data into a canonical (system-independent) format and decodes it into system-dependent format at the receiving end\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

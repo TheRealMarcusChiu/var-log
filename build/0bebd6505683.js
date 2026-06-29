@@ -1,0 +1,1 @@
+(function(){var b="0bebd6505683",m="###### AngularJS\n````excerpt\n- is a [[User Interface Design Patterns (UI-DP)|MVC/MVW/MVVM Pattern]][[JavaScript]] framework used to build User Interfaces (UI) and Single Page Applications (SPA)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

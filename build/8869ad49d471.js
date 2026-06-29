@@ -1,0 +1,1 @@
+(function(){var b="8869ad49d471",m="uncomment or add the following line in /etc/vsftpd.conf\n```\nwrite_enable=YES\n```\n\nthen restart\n```\nsudo systemctl restart vsftpd\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

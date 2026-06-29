@@ -1,0 +1,1 @@
+(function(){var b="be6d8fa0d299",m="###### Jackson 3\n````excerpt\n- represents a significant evolution of the library, moving from a mutable, Java 8-era tool to an immutable, modern Java foundation\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

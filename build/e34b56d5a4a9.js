@@ -1,0 +1,1 @@
+(function(){var b="e34b56d5a4a9",m="###### Dein (Plugin Manager)\n````excerpt\n- is a \"Dark powered [[vi - vim|Vim]]/[[Neovim]] plugin manager\"\n````\n^excerpt\n\n# Resources\n- [https://github.com/Shougo/dein.vim](https://github.com/Shougo/dein.vim)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

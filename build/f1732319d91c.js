@@ -1,0 +1,1 @@
+(function(){var b="f1732319d91c",m="###### Boolean-Valued Functions\n````excerpt\n- is a function that outputs a boolean value\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="40a94bf381b3",m="###### Windows Internet Name Service (WINS)\n````excerpt\n- is a legacy Microsoft service that provides a distributed database for registering and querying NetBIOS names to IP address mappings on a local network\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

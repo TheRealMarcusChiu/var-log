@@ -1,0 +1,1 @@
+(function(){var b="e146238dfb56",m="The <strong>jps</strong> tool lists the instrumented HotSpot [[Java - Installation (JDK - JRE - JVM - JE - JSE - JEE - JME)|Java Virtual Machines (JVMs)]] on the target system";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

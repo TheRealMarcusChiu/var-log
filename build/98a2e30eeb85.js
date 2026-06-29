@@ -1,0 +1,1 @@
+(function(){var b="98a2e30eeb85",m="###### PyTorch ([https://pytorch.org/](https://pytorch.org/))\n- is a relatively new [[Deep Learning|deep-learning]] framework based on Torch\n- developed by Facebook’s AI Research (FAIR) group and open-sourced on GitHub in 2017";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

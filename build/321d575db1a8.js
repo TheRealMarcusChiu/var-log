@@ -1,0 +1,1 @@
+(function(){var b="321d575db1a8",m="- <strong>accuracy</strong> refers to how close a measurement is to the true or accepted value\n- <strong>precision</strong> refers to how close measurements of the same item are to each other\n\nprecision is independent of accuracy";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

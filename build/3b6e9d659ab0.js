@@ -1,0 +1,1 @@
+(function(){var b="3b6e9d659ab0",m="###### Cartesian Product\n````excerpt\n- is a type of [[Set Operators／Operations|set operation]]\n- is a set of ordered pairs from 𝐴 and 𝐵\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

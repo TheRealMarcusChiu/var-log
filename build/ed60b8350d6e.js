@@ -1,0 +1,1 @@
+(function(){var b="ed60b8350d6e",m="For more details see [[Dispersion／Variation|Dispersion/Variation]]\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

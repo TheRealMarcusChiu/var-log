@@ -1,0 +1,1 @@
+(function(){var b="6a2e163841e7",m="###### Calico\n````excerpt\n- TODO\n````\n^excerpt\n\n# Installation\n```\nkubectl apply -f https://projectcalico.docs.tigera.io/archive/v3.25/manifests/calico.yaml --validate=false\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

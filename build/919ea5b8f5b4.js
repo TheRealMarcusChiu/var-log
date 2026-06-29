@@ -1,0 +1,1 @@
+(function(){var b="919ea5b8f5b4",m="###### Borsuk-Ulam Theorem/Theory\n````excerpt\n- TODO\n````\n^excerpt\n\n# Resources\n- [3Blue1Brown - Using topology for discrete problems | The Borsuk-Ulam theorem and stolen necklaces](https://www.youtube.com/watch?v=yuVqxCSsE7c)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

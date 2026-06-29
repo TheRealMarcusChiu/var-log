@@ -1,0 +1,1 @@
+(function(){var b="a54c767478f0",m="###### Gogs\n````excerpt\n- a git server\n````\n^excerpt\n\n# Resources\n- [https://gogs.io/](https://gogs.io/)\n- [https://github.com/gogs/gogs](https://github.com/gogs/gogs)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

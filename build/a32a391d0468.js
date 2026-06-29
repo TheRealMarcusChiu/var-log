@@ -1,0 +1,1 @@
+(function(){var b="a32a391d0468",m="###### Apollo R Pro-1 mmWave Sensor\n````excerpt\n- is a type of [[Smart Motion／Presence Sensors|motion sensor]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

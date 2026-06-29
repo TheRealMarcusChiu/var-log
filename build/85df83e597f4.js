@@ -1,0 +1,1 @@
+(function(){var b="85df83e597f4",m="###### Xfce (Desktop Environment)\n````excerpt\n- is a free and open-source [[Desktop Environments (DE)|desktop environment]] for Linux and other Unix-like operating systems\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

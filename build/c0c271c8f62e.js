@@ -1,0 +1,1 @@
+(function(){var b="c0c271c8f62e",m="###### Haskell ([www.haskell.org](http://www.haskell.org))\n- a type of [[Computer Languages - Function／Functional Programming Languages|functional programming language]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

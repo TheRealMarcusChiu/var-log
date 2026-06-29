@@ -1,0 +1,1 @@
+(function(){var b="cc345eb5d12c",m="The <strong>dual divergence</strong> 𝐷\\* is defined as:\n- 𝐷\\*(𝑝,𝑞) = 𝐷(𝑞,𝑝)\n\nWhen we wish to contrast 𝐷 against 𝐷\\*, we refer to 𝐷 as <strong>primal divergence</strong>";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

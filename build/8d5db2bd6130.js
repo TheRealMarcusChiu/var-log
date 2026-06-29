@@ -1,0 +1,1 @@
+(function(){var b="8d5db2bd6130",m="# curl -i\n```\n❯ curl http://localhost:8080/hello -i\nHTTP/1.1 400\nContent-Type: text/plain;charset=UTF-8\nContent-Length: 16\nDate: Mon, 10 Jan 2022 23:38:01 GMT\nConnection: close\n\nresponse message%\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

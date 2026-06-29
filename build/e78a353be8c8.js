@@ -1,0 +1,1 @@
+(function(){var b="e78a353be8c8",m="###### Deepin Desktop Environment (DDE)\n````excerpt\n- another [[Desktop Environments (DE)|desktop environment]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="47ea7438c911",m="###### Word-Based Tokenizers\n````excerpt\n- is a type of [[Tokenizer - Tokenization Algorithm|tokenizer]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="f8127b9bf78b",m="- a [[Apache - Maven|Maven]] plugin for [[Programming Mistake Detector (PMD)]]\n\n### Resources\n- [https://maven.apache.org/plugins/maven-pmd-plugin/](https://maven.apache.org/plugins/maven-pmd-plugin/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

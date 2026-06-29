@@ -1,0 +1,1 @@
+(function(){var b="9262cf6c8a17",m="###### Partial Magmas (Algebraic Structures)\n````excerpt\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

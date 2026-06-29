@@ -1,0 +1,1 @@
+(function(){var b="f8887e179ed2",m="###### Gross Domestic Product (GDP) Per Capita\n````excerpt\n- is [[Gross Domestic Product (GDP)|GDP]] divided by the population\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

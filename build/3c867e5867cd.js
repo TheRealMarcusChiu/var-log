@@ -1,0 +1,1 @@
+(function(){var b="3c867e5867cd",m="when an abundance of choices → \"choice no longer liberates, but debilitates\"";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

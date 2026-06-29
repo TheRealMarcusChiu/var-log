@@ -1,0 +1,1 @@
+(function(){var b="da6df6e2e234",m="###### Wireless Metropolitan Area Network (WMAN)\n````excerpt\n- within a city\n````\n^excerpt\n\n# Types\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

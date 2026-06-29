@@ -1,0 +1,1 @@
+(function(){var b="3b722b8b71aa",m="###### Astrology\n\n![[Astrology#^excerpt]]\n###### Astronomy\n\n![[Astronomy#^excerpt]]\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

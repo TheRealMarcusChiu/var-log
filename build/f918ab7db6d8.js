@@ -1,0 +1,1 @@
+(function(){var b="f918ab7db6d8",m="###### Single-Destination Shortest Paths Problem\n````excerpt\n- is a type of [[Shortest Path(s) Problems|shortest-path problem]] where given a vertex v we need to find the shortest path FROM every other node\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

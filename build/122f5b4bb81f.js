@@ -1,0 +1,1 @@
+(function(){var b="122f5b4bb81f",m="###### Plutchik Wheel (Wheel of Emotions)\n- is a proposal for how to relate emotions to one another\n\n![[Plutchik Wheel (Wheel of Emotions)/1.png|500]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

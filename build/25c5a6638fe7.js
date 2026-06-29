@@ -1,0 +1,1 @@
+(function(){var b="25c5a6638fe7",m="###### Physical Layer\n````excerpt\n- delivers an unstructured stream of bits across a link of some sort\n````\n^excerpt\n\n# Connection Types\n- [[Wireless]]\n- [[Wired]]\n\n# Other\n- [[Baseband v Broadband]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="10a0ea7b10d7",m="###### Semi-Supervised Learning\n````excerpt\n- uses a small amount of human-labeled data + lots of unlabeled data\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

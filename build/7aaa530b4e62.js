@@ -1,0 +1,1 @@
+(function(){var b="7aaa530b4e62",m="###### Dublin Core\n````excerpt\n- general purpose vocabulary for basic properties\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

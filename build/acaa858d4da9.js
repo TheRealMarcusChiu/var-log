@@ -1,0 +1,1 @@
+(function(){var b="acaa858d4da9",m="TODO - [https://docs.ceph.com/en/mimic/start/quick-ceph-deploy/](https://docs.ceph.com/en/mimic/start/quick-ceph-deploy/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

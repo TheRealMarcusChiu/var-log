@@ -1,0 +1,1 @@
+(function(){var b="942c0ad99f43",m="the <strong>branching degree/factor</strong> of a tree is equal to:\n- upper bound - the node with the maximum number of children\n- average - the average number of children of nodes (excluding leaves)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="de1b5dc8434a",m="\"the greatest thing you'll ever learn is just to love and be loved in return\"\n\n![](http://youtube.com/watch?v=Iq0XJCJ1Srw)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

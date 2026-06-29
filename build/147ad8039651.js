@@ -1,0 +1,1 @@
+(function(){var b="147ad8039651",m="###### File Transfer Protocol (FTP)\n````excerpt\n- allows file transfer capabilities between networked hosts\n````\n^excerpt\n\n# FTP - Other\n- [[FTP - Server|FTP Server]]\n- [[FTP - Client|FTP Client]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

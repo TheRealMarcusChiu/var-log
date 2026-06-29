@@ -1,0 +1,1 @@
+(function(){var b="68e92a3768af",m="<strong>Puiseux series</strong> are a generalization of [[Power Series／Expansion|power series]] that allow for negative and fractional exponents";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

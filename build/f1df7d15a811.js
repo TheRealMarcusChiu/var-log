@@ -1,0 +1,1 @@
+(function(){var b="f1df7d15a811",m="###### Idempotent\n````excerpt\n- 𝐴 or 𝐴 ≃ 𝐴\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

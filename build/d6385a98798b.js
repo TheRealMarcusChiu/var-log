@@ -1,0 +1,1 @@
+(function(){var b="d6385a98798b",m="# Ways To Install Packages\n- [[Python - pip／pip3|Python - pip/pip3]] - automatic\n- [[Python - setuptools]] - manual";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

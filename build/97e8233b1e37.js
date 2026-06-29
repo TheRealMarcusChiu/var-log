@@ -1,0 +1,1 @@
+(function(){var b="97e8233b1e37",m="###### Convex Hull - Convex Envelope - Convex Closure\n````excerpt\n- of a set 𝕏 of points in affine space over the reals, is the smallest convex set that contains 𝕏\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

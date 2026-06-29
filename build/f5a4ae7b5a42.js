@@ -1,0 +1,1 @@
+(function(){var b="f5a4ae7b5a42",m="###### Integer/Discrete Non-Linear/Nonlinear Programming/Optimization (INP)\n````excerpt\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

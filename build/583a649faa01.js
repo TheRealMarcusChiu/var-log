@@ -1,0 +1,1 @@
+(function(){var b="583a649faa01",m="###### Universal Asynchronous Receiver Transmitter (UART)\n- is a [[Computer Hardware|computer hardware]] device for asynchronous serial communication in which the data format and transmission speeds are configurable";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

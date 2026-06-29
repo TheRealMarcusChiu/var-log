@@ -1,0 +1,1 @@
+(function(){var b="a16c5bbe4bf9",m="###### Range\n- is a type of [[Dispersion／Variation|Dispersion/Variation]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

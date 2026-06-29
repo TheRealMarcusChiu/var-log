@@ -1,0 +1,1 @@
+(function(){var b="3163ce08d7fa",m="[https://lucene.apache.org/core/](https://lucene.apache.org/core/)\n\nApache Lucene is a high-performance, full-featured text search engine library written entirely in Java";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="dc6985a458a9",m="###### nvtop\n````excerpt\n- GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm\n````\n^excerpt\n\n# Resources\n- [https://github.com/Syllo/nvtop](https://github.com/Syllo/nvtop)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

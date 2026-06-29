@@ -1,0 +1,1 @@
+(function(){var b="4c347efcea60",m="###### Single Inline Memory Module (SIMM)\n````excerpt\n- TODO\n- OBSOLETE\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

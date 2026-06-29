@@ -1,0 +1,1 @@
+(function(){var b="95321666061f",m="````excerpt\n- this is the extreme way\n- for each n-bits sent, send n redundant bits\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

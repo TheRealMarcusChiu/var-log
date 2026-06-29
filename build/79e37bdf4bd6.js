@@ -1,0 +1,1 @@
+(function(){var b="79e37bdf4bd6",m="### Remove & Reinstall\n```bash\nsudo rm -rf /Library/Developer/CommandLineTools\nsudo xcode-select --install\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

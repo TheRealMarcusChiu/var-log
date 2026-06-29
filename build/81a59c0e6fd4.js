@@ -1,0 +1,1 @@
+(function(){var b="81a59c0e6fd4",m="````excerpt\nStrategy Pattern vs State Pattern\n- in [[State Pattern]], particular states are aware of each other\n- in [[Strategy Pattern]], strategies are almost never aware of each other\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

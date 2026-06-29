@@ -1,0 +1,1 @@
+(function(){var b="a349a13ca219",m="###### Node Package Manager (npm)\n````excerpt\n- is a type of [[JavaScript - Package Managers|JavaScript package manager]]\n- is the default package manager for [[Node.js]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

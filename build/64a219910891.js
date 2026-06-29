@@ -1,0 +1,1 @@
+(function(){var b="64a219910891",m="###### RDF Schema (RDFS)\n- is a type of [[Ontology Languages|ontology language]]\n- builds upon [[Resource Description Framework (RDF)|RDF]]\n\n# Subpages\n- [[RDF vs RDFS vs OWL]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="aefe6a5dae1b",m="###### Mundane\n````excerpt\n- lacking interest or excitement; dull\n- of this earthly world rather than a heavenly or spiritually one\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

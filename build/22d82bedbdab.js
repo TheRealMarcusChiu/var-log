@@ -1,0 +1,1 @@
+(function(){var b="22d82bedbdab",m="###### Beretta 92\n````excerpt\n- is a series of semi-automatic 9mm pistols\n- designed and manufactured by Beretta of Italy\n- first introduced in 1975\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

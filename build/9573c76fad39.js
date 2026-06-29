@@ -1,0 +1,1 @@
+(function(){var b="9573c76fad39",m="###### Hyprland\n````excerpt\n- is a tiling [[Window Managers (WM)|window manager]]\n- [https://hyprland.org/](https://hyprland.org/)\n````\n^excerpt\n\n# Introduction\n\n![](https://www.youtube.com/watch?v=2CP_9-jCV6A)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

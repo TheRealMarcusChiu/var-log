@@ -1,0 +1,1 @@
+(function(){var b="e68870d0ede0",m="###### AES-NI (Advanced Encryption Standard New Instructions)\n````excerpt\n- is a set of instructions that accelerates the processing of the [[Advanced Encryption Standard (AES)]] algorithm\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

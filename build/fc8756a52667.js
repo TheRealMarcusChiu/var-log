@@ -1,0 +1,1 @@
+(function(){var b="fc8756a52667",m="### Table of Nations - Genesis 10\n![[Christianity - Family Tree/shem-ham-japheth.jpg|700]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

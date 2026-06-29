@@ -1,0 +1,1 @@
+(function(){var b="f4dc25ea3094",m="###### MATE (Desktop Environment)\n````excerpt\n- is basically a love letter to [[GNOME Desktop (GNU Network Object Model Environment)|GNOME]] 2\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

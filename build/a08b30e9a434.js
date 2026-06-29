@@ -1,0 +1,1 @@
+(function(){var b="a08b30e9a434",m="###### Obsidian Flavored Markdown (OFM)\n````excerpt\n- is a type of [[Markdown Language - Flavors|markdown flavor]] for Obsidian Vault\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

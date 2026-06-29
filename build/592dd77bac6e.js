@@ -1,0 +1,1 @@
+(function(){var b="592dd77bac6e",m="<strong>bacterium</strong> - a member of a large group of unicellular microorganisms which have cell walls but lack organelles and an organized nucleus, including some which can cause disease";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

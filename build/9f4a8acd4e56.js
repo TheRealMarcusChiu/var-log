@@ -1,0 +1,1 @@
+(function(){var b="9f4a8acd4e56",m="The <strong>Digital Signature Algorithm</strong> is a Federal Information Processing Standard for digital signatures, based on the mathematical concept of modular exponentiation and the discrete logarithm problem";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

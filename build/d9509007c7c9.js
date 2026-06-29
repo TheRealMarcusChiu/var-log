@@ -1,0 +1,1 @@
+(function(){var b="d9509007c7c9",m="###### T-Type Flip-Flop (TFF)\n````excerpt\n- is a type of [[Flip-Flops - Latches|flip-flop]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

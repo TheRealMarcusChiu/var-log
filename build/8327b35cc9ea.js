@@ -1,0 +1,1 @@
+(function(){var b="8327b35cc9ea",m="![](https://www.youtube.com/watch?v=0EyaTqezSzs)\n\n![](https://www.youtube.com/watch?v=VxMATP5oRx4)\n\n[https://www.theoceancleanup.com/great-pacific-garbage-patch/](https://www.theoceancleanup.com/great-pacific-garbage-patch/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="8ad45fd69d86",m="###### Wisdom-Holman Integrator\n````excerpt\n- is a symplectic numerical algorithm used to simulate the long-term gravitational dynamics of planetary systems\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

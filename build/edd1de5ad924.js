@@ -1,0 +1,1 @@
+(function(){var b="edd1de5ad924",m="###### SketchyBar\n````excerpt\n- a highly customizable [[Macintosh OSs (Mac OS X) - macOS|macOS]] status bar replacement\n- [https://felixkratz.github.io/SketchyBar/](https://felixkratz.github.io/SketchyBar/)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

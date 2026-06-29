@@ -1,0 +1,1 @@
+(function(){var b="f8753848b916",m="###### sh (Bourne SHell)\n````excerpt\n- is a [[UNIX - Shell|shell]] for computer [[UNIX]] operating systems\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

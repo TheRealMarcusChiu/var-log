@@ -1,0 +1,1 @@
+(function(){var b="3938bd58703d",m="# Enable in BIOS\n\nUsually under power management.\n# Enable in OS\n\nsee: [[Wake on LAN (WoL) - Ubuntu Setup]]\n# Verify\n\nsee: [[wakeonlan (Terminal Command)|wakeonlan]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

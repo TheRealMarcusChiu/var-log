@@ -1,0 +1,1 @@
+(function(){var b="47cc409811d4",m="###### SFP-DD\n````excerpt\n- a double-density version of SFP, with 2 lanes in a form factor with the same width as the [[Small Form-factor Pluggable (SFP)|SFP]] is defined\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

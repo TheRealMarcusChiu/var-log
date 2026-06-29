@@ -1,0 +1,1 @@
+(function(){var b="178286baba85",m="###### Binary JSON (BSON)\n````excerpt\n- is a binary form for representing simple [[Data Structures|data structures]] (called objects or documents in [[MongoDB]])\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

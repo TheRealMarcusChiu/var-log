@@ -1,0 +1,1 @@
+(function(){var b="6223ee2c0eab",m="###### Mini-Mental State Examination (MMSE)\n````excerpt\n- TODO\n````\n^excerpt\n\n# MMSE - Test\n- [[MMSE.pdf]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

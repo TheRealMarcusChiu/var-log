@@ -1,0 +1,1 @@
+(function(){var b="3a71b2c82131",m="###### Equivalence Relations\n````excerpt\n- is a [[Binary Relation Over 1 Set (Ordered Binary Relation - Endorelation - Homogeneous Relation)|binary relation]] that is reflexive, symmetric, and transitive\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

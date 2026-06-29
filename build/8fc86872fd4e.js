@@ -1,0 +1,1 @@
+(function(){var b="8fc86872fd4e",m="###### Intel Xeon 6 Processors (Granite Rapids)\n````excerpt\n- is the 6th generation of [[Intel Xeon Processors|Xeon processors]]\n- launched on 24 September 2024\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

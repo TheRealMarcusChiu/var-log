@@ -1,0 +1,1 @@
+(function(){var b="704ac8c9ee88",m="# Resources\n- [https://spring.io/projects/spring-cloud-function](https://spring.io/projects/spring-cloud-function)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

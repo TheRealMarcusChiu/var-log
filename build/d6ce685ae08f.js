@@ -1,0 +1,1 @@
+(function(){var b="d6ce685ae08f",m="###### International Business Machines (IBM) Corporation\n````excerpt\n- nicknamed Big Blue\n- is an American multinational technology company\n- headquartered in Armonk, New York\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

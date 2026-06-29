@@ -1,0 +1,1 @@
+(function(){var b="48013f786ed6",m="# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n# Resources\n- [https://www.baeldung.com/java-reflection](https://www.baeldung.com/java-reflection)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

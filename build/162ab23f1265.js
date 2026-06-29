@@ -1,0 +1,1 @@
+(function(){var b="162ab23f1265",m="###### Windowing System Interface (WSI)\n````excerpt\n- is a [[Display Server - Windowing Systems - Window Systems|windowing system]] for Microsoft [[Windows]]?\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

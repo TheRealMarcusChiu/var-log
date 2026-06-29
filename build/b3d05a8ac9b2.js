@@ -1,0 +1,1 @@
+(function(){var b="b3d05a8ac9b2",m="###### Konqueror\n````excerpt\n- is KDE's [[Web (HTTP) Clients／Browsers|Web Browser]] and swiss-army-knife for any kind of file-management and file previewing\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

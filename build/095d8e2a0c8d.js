@@ -1,0 +1,1 @@
+(function(){var b="095d8e2a0c8d",m="###### Kubernetes IN Docker (KIND)\n````excerpt\n- local clusters for testing [[Kubernetes]]\n````\n^excerpt\n\n# Resources\n- [https://github.com/kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

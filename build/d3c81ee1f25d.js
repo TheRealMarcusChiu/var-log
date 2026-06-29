@@ -1,0 +1,1 @@
+(function(){var b="d3c81ee1f25d",m="###### PromQL\n- a [[Computer Languages - Database／CRUD／Query／Search Languages|query language]] for [[Prometheus]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

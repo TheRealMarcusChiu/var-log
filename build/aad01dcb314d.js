@@ -1,0 +1,1 @@
+(function(){var b="aad01dcb314d",m="###### GTK Toolkit\n````excerpt\n- is a free and open-source cross-platform [[Widget Toolkit Systems - Widget Library - GUI Toolkit - UI／UX Library|widget toolkit]] for creating graphical user interfaces\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

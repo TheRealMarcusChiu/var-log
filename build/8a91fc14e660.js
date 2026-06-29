@@ -1,0 +1,1 @@
+(function(){var b="8a91fc14e660",m="###### changedetection.io\n````excerpt\n- web page change detection watcher monitor notifier\n````\n^excerpt\n\n# Resources";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

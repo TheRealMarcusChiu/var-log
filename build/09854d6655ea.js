@@ -1,0 +1,1 @@
+(function(){var b="09854d6655ea",m="###### Image Models\n````excerpt\n- TODO\n````\n^excerpt\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

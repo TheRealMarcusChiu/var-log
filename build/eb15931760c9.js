@@ -1,0 +1,1 @@
+(function(){var b="eb15931760c9",m="###### Terse RDF Triple Language (TTL) pronounced 'turtle'\n- is a type of [[RDF - File Formats|RDF File Format]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

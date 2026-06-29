@@ -1,0 +1,1 @@
+(function(){var b="174b9f085f45",m="Posterior Predictive Check (PPC)\n\n![](https://www.youtube.com/watch?v=yDPJnV9vcHs&list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG&index=31)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

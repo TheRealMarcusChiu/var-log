@@ -1,0 +1,1 @@
+(function(){var b="5462491cf971",m="###### Apache Pulsar\n````excerpt\n- is an open-source distributed pub-sub messaging system\n- originally created at Yahoo and now part of the Apache Software Foundation\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

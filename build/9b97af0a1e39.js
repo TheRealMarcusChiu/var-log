@@ -1,0 +1,1 @@
+(function(){var b="9b97af0a1e39",m="# Law Cases\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n# Resources\n- [https://www.oyez.org/cases/2021](https://www.oyez.org/cases/2021)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

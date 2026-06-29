@@ -1,0 +1,1 @@
+(function(){var b="edbbdffaf4fd",m="````excerpt\n[[Factory Method Pattern]] vs [[Static Factory Method Pattern]]\n- Static Factory Method Pattern does not allow overriding\n- Factory Method Pattern allows overriding for flexibility before compile time\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

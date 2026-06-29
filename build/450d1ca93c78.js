@@ -1,0 +1,1 @@
+(function(){var b="450d1ca93c78",m="a clever deterministic algorithm for minimum cuts was discovered by Nagamochi and Ibaraki.\n\nTODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="249c7a97921b",m="###### Hewlett-Packard Unix (HP-UX)\n````excerpt\n- proprietary implementation of the Unix operating system, based on [[UNIX System V|Unix System V]] (initially System III)\n- first released in 1984\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

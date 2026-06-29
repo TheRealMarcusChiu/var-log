@@ -1,0 +1,1 @@
+(function(){var b="fcf11ff25a91",m="see: [[Mathematical Programming／Optimization - Solution Strategy／Strategies|Mathematical Programming/Optimization - Solution Strategy/Strategies]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="54e76f6c930b",m="###### AWS - CloudFormation\n````excerpt\n- is [[Infrastructure as Code (IaC) - Orchestration／Provisioning Tools|infrastructure as code]] for [[Amazon Web Services (AWS)|AWS]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

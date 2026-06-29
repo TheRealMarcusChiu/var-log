@@ -1,0 +1,1 @@
+(function(){var b="5bddcee4e24e",m="###### Nonlinear Systems Theory\n- studies how variation can shape the irreversible evolutionary paths of complex systems";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

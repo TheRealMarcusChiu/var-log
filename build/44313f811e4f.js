@@ -1,0 +1,1 @@
+(function(){var b="44313f811e4f",m="###### Switch/Switches\n````excerpt\n- is used to turn on or off a circuit\n````\n^excerpt\n\n# Implementations\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

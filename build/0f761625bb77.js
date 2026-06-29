@@ -1,0 +1,1 @@
+(function(){var b="0f761625bb77",m="###### Interior Design\n````excerpt\n- is the art and science of planning and shaping indoor spaces so they’re both functional and aesthetically pleasing\n````\n^excerpt\n\n# Resources\n\n![](https://www.youtube.com/watch?v=HEMlIn6MDD8)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

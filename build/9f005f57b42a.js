@@ -1,0 +1,1 @@
+(function(){var b="9f005f57b42a",m="###### RealtimeTTS (KoljaB)\n````excerpt\n- see other: [[RealtimeSTT (KoljaB)]]\n````\n^excerpt\n\n# Resources\n- [https://github.com/KoljaB/RealtimeTTS](https://github.com/KoljaB/RealtimeTTS)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

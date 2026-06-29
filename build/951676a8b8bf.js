@@ -1,0 +1,1 @@
+(function(){var b="951676a8b8bf",m="###### Fortran (Formula Translator)\n````excerpt\n- was the first high-level programming language\n- it was designed in the 1950s to perform complex mathematical calculations\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

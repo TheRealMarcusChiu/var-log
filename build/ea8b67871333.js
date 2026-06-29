@@ -1,0 +1,1 @@
+(function(){var b="ea8b67871333",m="###### Scale-Invariant Feature Transform (SIFT)\n````excerpt\n- is a [[Computer Vision (CV)|computer vision]] algorithm to detect, describe, and match local features in images\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

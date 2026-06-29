@@ -1,0 +1,1 @@
+(function(){var b="dc3fb878c2ee",m="###### Shazam\n````excerpt\n- identify the music playing around you\n````\n^excerpt\n\n# Subpages\n- [[Shazam Copy]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

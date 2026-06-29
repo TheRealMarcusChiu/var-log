@@ -1,0 +1,1 @@
+(function(){var b="3b347b9e1375",m="And if anyone gives even a cup of cold water to one of these little ones who is my disciple, truly I tell you, that person will certainly not lose their reward.\n\\~ Matthew 10:42";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

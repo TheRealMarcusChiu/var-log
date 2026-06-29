@@ -1,0 +1,1 @@
+(function(){var b="45ab9af9f23b",m="###### Accelerated Graphics Port (AGP)\n````excerpt\n- based on relatively old technology as compared to [[Peripheral Component Interconnect Express (PCIe - PCI-e) Specification／Interface|PCI Express]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

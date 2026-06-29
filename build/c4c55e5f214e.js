@@ -1,0 +1,1 @@
+(function(){var b="c4c55e5f214e",m="- when you speak 2 languages but start losing vocabulary in both";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

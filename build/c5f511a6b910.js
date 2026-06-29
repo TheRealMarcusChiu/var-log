@@ -1,0 +1,1 @@
+(function(){var b="c5f511a6b910",m="###### i3\n````excerpt\n- is a tiling [[Window Managers (WM)|window manager]]\n- [https://i3wm.org/](https://i3wm.org/)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

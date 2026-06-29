@@ -1,0 +1,1 @@
+(function(){var b="add8221c0781",m="###### Sway\n````excerpt\n- is a tiling Wayland compositor and a drop-in replacement for the [[i3|i3 window manager]] for [[(X - X11 - X Window System) Core Protocol|X11]]\n- [https://swaywm.org/](https://swaywm.org/)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

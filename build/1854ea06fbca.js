@@ -1,0 +1,1 @@
+(function(){var b="1854ea06fbca",m="- Dark - 2017\n- Altered Carbon - 2018\n- Hera Peri - 2000\n- Panchayat - 2020\n- Gullak - 2019\n- The Unyielding Master Lim - 1986";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

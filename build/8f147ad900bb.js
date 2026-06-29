@@ -1,0 +1,1 @@
+(function(){var b="8f147ad900bb",m="was a wide-area mobile data service which used bandwidth normally used by AMPS mobile phones between 800 and 900 MHz. Speeds up to 19.2 kbs";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

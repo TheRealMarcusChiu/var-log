@@ -1,0 +1,1 @@
+(function(){var b="dd87e0cf7f7a",m="###### XFree86\n````excerpt\n- is a largely defunct implementation of [[(X - X11 - X Window System) Core Protocol|X Window System protocol]]\n- is largely replaced by [[X.Org]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

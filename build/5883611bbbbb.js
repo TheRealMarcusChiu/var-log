@@ -1,0 +1,1 @@
+(function(){var b="5883611bbbbb",m="- [[Data／Variable Types (Statistics／Programming)|Data/Variable Types (Statistics/Programming)]]\n> [!list-indent-undo]\n> ```dataview\n> LIST\n> FROM \"\"\n> WHERE file.folder = this.file.folder + \"/\" + this.file.name\n> ```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

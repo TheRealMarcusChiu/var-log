@@ -1,0 +1,1 @@
+(function(){var b="9b1b24039810",m="###### Spacetime Algebra\n````excerpt\n- is a type of [[Geometric Algebra (GA) - Clifford Algebra|geometric algebra]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

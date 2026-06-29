@@ -1,0 +1,1 @@
+(function(){var b="7e4fd9e62245",m="###### Validation Data Set\n- is used to train for the ideal hyperparameters\n\n![[Validation Data Set/validation-data-hyperparameters.png|561x250]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

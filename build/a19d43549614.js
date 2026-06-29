@@ -1,0 +1,1 @@
+(function(){var b="a19d43549614",m="###### Min-Max Accuracy\n- considers the average between the minimum and the maximum prediction\n\n### Formula\n\nmean(min(actual, predicted)/max(actual, predicted))";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

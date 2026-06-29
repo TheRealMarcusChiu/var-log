@@ -1,0 +1,1 @@
+(function(){var b="59f7bf9e603d",m="###### Optical Memory/Storage\n````excerpt\n- is a non-volatile/persistent memory\n- uses optical\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

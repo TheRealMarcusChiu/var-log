@@ -1,0 +1,1 @@
+(function(){var b="04bbcfed8754",m="###### Direct Attached Storage (DAS)\n- is a type of storage that is attached directly to a computer without going through a [[Computer Networks|network]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

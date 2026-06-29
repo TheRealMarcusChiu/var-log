@@ -1,0 +1,1 @@
+(function(){var b="77d3a03826d4",m="###### Canny Edge Detector\n- takes the output of Sobel Algorithm as input\n\n![](https://www.youtube.com/watch?v=sRFM5IEqR2w)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="7ee2307d9f48",m="###### VxWorks\n- is a [[Real-Time Operating Systems (RTOS)|real-time operating system]] developed as proprietary software by Wind River Systems, a wholly owned subsidiary of TPG Capital, US";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

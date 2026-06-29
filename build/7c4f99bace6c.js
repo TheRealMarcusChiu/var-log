@@ -1,0 +1,1 @@
+(function(){var b="7c4f99bace6c",m="###### Boy Scout Rule\n````excerpt\n- leave the campground cleaner than you found it\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

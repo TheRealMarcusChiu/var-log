@@ -1,0 +1,1 @@
+(function(){var b="d438aa800a20",m="###### DNA to Protein\n\n![](https://www.youtube.com/watch?v=gG7uCskUOrA)\n###### Protein Folding\n\n![](https://www.youtube.com/watch?v=SaSntOkK-Vk)\n###### How Cells Drive Without Eyes\n\n![](https://www.youtube.com/watch?v=oZWEWbvlVdE)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

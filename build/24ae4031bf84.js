@@ -1,0 +1,1 @@
+(function(){var b="24ae4031bf84",m="<strong>Divisive Clustering</strong> is a type of [[Hierarchical Clustering|hierarchical clustering]] that takes the top-down approach";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

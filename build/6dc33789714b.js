@@ -1,0 +1,1 @@
+(function(){var b="6dc33789714b",m="- dynamic table - [https://www.ptable.com/](https://www.ptable.com/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

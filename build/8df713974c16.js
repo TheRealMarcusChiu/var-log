@@ -1,0 +1,1 @@
+(function(){var b="8df713974c16",m="###### Multi-View Stereo (MVS)\n````excerpt\n- is a technique used in [[Computer Vision (CV)|computer vision]] to reconstruct 3D models from multiple 2D images\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

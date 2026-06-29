@@ -1,0 +1,1 @@
+(function(){var b="360cd89ce67e",m="###### JSON Web Algorithms (JWA)\n````excerpt\n- are cryptographic algorithms and identifiers to be used with: [[JSON Web Tokens (JWT) (JWS - JWE - Unsecured JWT)|JWT]] & [[JSON Web Key (JWK) - JSON Web Key Set (JWKS)|JWK]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

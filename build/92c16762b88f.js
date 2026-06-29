@@ -1,0 +1,1 @@
+(function(){var b="92c16762b88f",m="- [tutorialspoint](https://www.tutorialspoint.com/lisp/index.htm)\n- [s-expressions & syntax](https://www.cs.unm.edu/~luger/ai-final2/LISP/CH%2011_S-expressions,%20The%20Syntax%20of%20Lisp.pdf)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="35e8fde63f59",m="Using the Newton-Raphson (N-R) Technique to solve LR\n\nTODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

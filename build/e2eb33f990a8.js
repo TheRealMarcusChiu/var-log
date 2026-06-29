@@ -1,0 +1,1 @@
+(function(){var b="e2eb33f990a8",m="###### Giscus\n````excerpt\n- is a popular, open-source commenting system for websites that uses GitHub Discussions as its backend\n- is an alternative to Disqus\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

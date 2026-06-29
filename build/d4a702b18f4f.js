@@ -1,0 +1,1 @@
+(function(){var b="d4a702b18f4f",m="###### Scatter Plots\n````excerpt\n- is a type of [[Variate Analysis - Data Visualization|data visualization]] technique\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

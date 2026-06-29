@@ -1,0 +1,1 @@
+(function(){var b="d1a947e013b8",m="###### Phone/Mobile Operating System OS\n````excerpt\n- is an [[Operating Systems (OS)|operating system]] for a mobile phone\n````\n^excerpt\n\n# Subpages\n- [[Apple iOS]]\n- [[Android]]\n- [[Sailfish OS]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="3348cc07058a",m="###### CPython\n````excerpt\n- the reference implementation of the [[Python]] programming language, written in the [[C]] programming language\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

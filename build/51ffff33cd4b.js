@@ -1,0 +1,1 @@
+(function(){var b="51ffff33cd4b",m="###### Linear-Bounded Automaton (LBA)\n- a [[Non-Deterministic Turing Machine (NTM)|nondeterministic Turing machine]] whose tape is bounded by a constant times the length of the input";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

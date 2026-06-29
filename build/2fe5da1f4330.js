@@ -1,0 +1,1 @@
+(function(){var b="2fe5da1f4330",m="###### Grafana\n````excerpt\n- is a multi-platform open source analytics and interactive visualization web application\n- it can produce charts, graphs, and alerts for the web when connected to supported data sources\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="ded8dae5786f",m="<strong>find path/here -type f -name \"\\*.gitignore\"</strong>\n- find all files with .gitignore extension inside path/here\n\n<strong>find path/here -type f -name \"\\*.gitignore\" -delete</strong>\n- ditto above + deletes them";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

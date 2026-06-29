@@ -1,0 +1,1 @@
+(function(){var b="7d4416a4238a",m="<strong>1. download and install rabbitmqadmin</strong>\n<span style=\"white-space: pre-wrap\"><code>  http://{hostname}:15672/cli/</code></span>";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

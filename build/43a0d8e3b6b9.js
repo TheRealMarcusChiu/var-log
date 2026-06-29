@@ -1,0 +1,1 @@
+(function(){var b="43a0d8e3b6b9",m="Converting [[Neo4j - GraphQL|GraphQL into Neo4j CQL queries]]\n# Resources\n- [https://github.com/neo4j/graphql](https://github.com/neo4j/graphql)\n- [https://neo4j.com/developer/graphql/](https://neo4j.com/developer/graphql/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

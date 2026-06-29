@@ -1,0 +1,1 @@
+(function(){var b="6e2957e51200",m="Used in [[Id Tech|Id Tech's Quake III Engine]]\n\n![](https://www.youtube.com/watch?v=p8u_k2LIZyo)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

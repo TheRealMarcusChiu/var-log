@@ -1,0 +1,1 @@
+(function(){var b="73d021ccb2bb",m="###### High Dynamic Range\n- refers to color depth.; how many colors the screen can display, and how bright the screen can get";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

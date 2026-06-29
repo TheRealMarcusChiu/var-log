@@ -1,0 +1,1 @@
+(function(){var b="cde06657a13d",m="###### Non-Negative Matrix Factorization (NMF)\n- decomposes a non-negative matrix to the product of two non-negative ones, which has been a promising tool in fields where only non-negative signals exist, such as astronomy";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

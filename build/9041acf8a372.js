@@ -1,0 +1,1 @@
+(function(){var b="9041acf8a372",m="# [[OpenVPN Server]] Setup in [[OPNsense|OPNSense]]\n\nTODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

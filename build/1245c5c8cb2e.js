@@ -1,0 +1,1 @@
+(function(){var b="1245c5c8cb2e",m="````excerpt\n[[Facade Pattern]] vs [[Flyweight Pattern]]\n- <em>Flyweight Pattern</em> shows how to make lots of little objects\n- <em>Facade Pattern</em> shows how to make a single object represent an entire subsystem\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="68fa8bb4259f",m="###### Wayland\n````excerpt\n- is the language (protocol) that applications can use to talk to a display server in order to make themselves visible and get input from the user\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

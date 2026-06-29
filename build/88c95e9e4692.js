@@ -1,0 +1,1 @@
+(function(){var b="88c95e9e4692",m="###### Ordinal Encoding\n````excerpt\n- a type of [[Word Embeddings／Embedding|word embedding]] that uses sequential numbers\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

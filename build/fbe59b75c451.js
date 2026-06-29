@@ -1,0 +1,1 @@
+(function(){var b="fbe59b75c451",m="# Problem\n\nCloned VM template has same IP as original\n# Solution\n\nIn guest machine, before cloning/templating:\n```\necho -n >/etc/machine-id\nrm /var/lib/dbus/machine-id\nln -s /etc/machine-id /var/lib/dbus/machine-id\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="75d806a07474",m="###### Intel Core Ultra Processors\n````excerpt\n- TODO\n````\n^excerpt\n\n# Resources\n- [https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel236800](https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel236800)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="481b2da67d1a",m="###### Alacritty\n````excerpt\n- is a cross-platform [[Terminal Application／Emulation／Emulator|terminal emulator]]\n- [https://alacritty.org/](https://alacritty.org/)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

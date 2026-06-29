@@ -1,0 +1,1 @@
+(function(){var b="b7787170986f",m="###### Covariance Matrix & Correlation Matrix\n- is a type of [[Positive Semi-Definite Matrix]]\n- based on: [[Covariation - Covariance|covariance]] and [[Correlation|correlation]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

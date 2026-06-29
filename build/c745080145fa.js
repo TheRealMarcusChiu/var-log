@@ -1,0 +1,1 @@
+(function(){var b="c745080145fa",m="### Resources\n- [https://bigthink.com/surprising-science/golden-blood?rebelltitem=1#rebelltitem1](https://bigthink.com/surprising-science/golden-blood?rebelltitem=1#rebelltitem1)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

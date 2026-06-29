@@ -1,0 +1,1 @@
+(function(){var b="b2635462d083",m="###### Descriptive/Declarative/Propositional Knowledge\n- a type of [[Knowledge|knowledge]] that is a [[Propositions|proposition]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

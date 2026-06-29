@@ -1,0 +1,1 @@
+(function(){var b="6117c49cc5bf",m="###### Direct Attach Copper (DAC)\n````excerpt\n- is a twinax copper cable used to connect ports to switches, routers, servers or data storage equipment for short transmission distance\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="38800e26024b",m="TODO - [https://phauer.com/2019/no-fat-jar-in-docker-image/](https://phauer.com/2019/no-fat-jar-in-docker-image/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="49186b9f6408",m="[https://medium.com/@paccattam/drooling-over-docker-2-understanding-union-file-systems-2e9bf204177c](https://medium.com/@paccattam/drooling-over-docker-2-understanding-union-file-systems-2e9bf204177c)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

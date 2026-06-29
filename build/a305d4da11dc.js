@@ -1,0 +1,1 @@
+(function(){var b="a305d4da11dc",m="- [[Machine Learning (ML) - Pattern Recognition|machine learning (ML)]] - primarily concerned with prediction\n- [[Statistics|statistics]] - primarily concerned with inference";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

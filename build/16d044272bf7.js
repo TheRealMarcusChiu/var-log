@@ -1,0 +1,1 @@
+(function(){var b="16d044272bf7",m="###### WebKit\n````excerpt\n- is a [[Web (HTTP) Browser Engines|browser engine]] primarily used in Apple's [[Safari (web browser)|Safari]] web browser, as well as all web browsers on iOS and iPadOS\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

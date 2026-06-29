@@ -1,0 +1,1 @@
+(function(){var b="425f95812e33",m="We remember because a combination of the following:\n- it stands out\n- it is easily integrated with existing knowledge-base\n- it is repeated";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

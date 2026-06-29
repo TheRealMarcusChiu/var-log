@@ -1,0 +1,1 @@
+(function(){var b="6a662c6c0d37",m="[http://confluence.marcuschiu.com](http://confluence.marcuschiu.com) is an instance of [[Confluence]]\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="02f03a8e1731",m="###### Apache Livy\n- a [[Representational State Transfer (REST) - RESTful|REST Service]] for [[Apache Spark]]\n- [http://livy.incubator.apache.org./](http://livy.incubator.apache.org./)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

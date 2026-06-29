@@ -1,0 +1,1 @@
+(function(){var b="4997643ae461",m="see: [https://docs.opnsense.org/manual/how-tos/wireguard-client.html](https://docs.opnsense.org/manual/how-tos/wireguard-client.html)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

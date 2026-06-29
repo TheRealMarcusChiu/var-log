@@ -1,0 +1,1 @@
+(function(){var b="6c5e3f4d5492",m="###### Euler Identity\n````excerpt\n- 𝑒<sup>𝑖</sup><sup>𝜋</sup> = −1\n- is the [[Euler's Equation／Formula|Euler's formula]] evaluated at 𝜋\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

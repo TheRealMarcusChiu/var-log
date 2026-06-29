@@ -1,0 +1,1 @@
+(function(){var b="df35fdca5f08",m="###### Graph Neural Networks (GNN)\n````excerpt\n- is a class of [[Artificial Neural Networks (ANN)|artificial neural networks]] for processing data that can be represented as graphs\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

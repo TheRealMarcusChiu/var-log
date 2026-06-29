@@ -1,0 +1,1 @@
+(function(){var b="a8c2a760aa40",m="Intuition for [[Euler's Equation／Formula|Euler's formula]] using the main ideas from [[Groups (Algebraic Structure) - Group Theory|group theory]]\n\n![](https://www.youtube.com/watch?v=mvmuCPvRoWQ)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

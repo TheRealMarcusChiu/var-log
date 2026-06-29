@@ -1,0 +1,1 @@
+(function(){var b="cf9fd598ef29",m="- [https://www.youtube.com/@PaintingSkies1](https://www.youtube.com/@PaintingSkies1)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

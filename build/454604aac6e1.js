@@ -1,0 +1,1 @@
+(function(){var b="454604aac6e1",m="- [https://facingissuesonit.com/2020/03/27/spring-boot-devtools-properties-and-default-value/](https://facingissuesonit.com/2020/03/27/spring-boot-devtools-properties-and-default-value/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

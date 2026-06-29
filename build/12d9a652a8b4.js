@@ -1,0 +1,1 @@
+(function(){var b="12d9a652a8b4",m="###### Auto-Scaling/Scaler\n````excerpt\ntypes:\n- reactive auto-scaling - scale up and down based on utilization\n- predictive/proactive auto-scaling - scale up and down based on expected utilization\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

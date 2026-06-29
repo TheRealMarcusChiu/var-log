@@ -1,0 +1,1 @@
+(function(){var b="ab6744a59d57",m="<strong>ElGamal Encryption System</strong> is an [[Asymmetric／Two／Public-Private Key Function|asymmetric key encryption algorithm]] based on the [[Diffie-Hellman (DH) Key Exchange|Diffie-Hellman key exchange]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

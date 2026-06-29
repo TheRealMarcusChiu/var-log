@@ -1,0 +1,1 @@
+(function(){var b="f62650eeabb9",m="````excerpt\n- a socially unconventional person, especially in the arts\n- a native or inhabitant of Bohemia (now the western part of Czech Republic)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

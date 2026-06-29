@@ -1,0 +1,1 @@
+(function(){var b="c278d2eb293d",m="````excerpt\n[[Abstract Factory Pattern]] vs [[Facade Pattern]]\n- <em>Abstract Factory</em> can be used as an alternative to <em>Facade</em> to hide platform-specific classes\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

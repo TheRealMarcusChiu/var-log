@@ -1,0 +1,1 @@
+(function(){var b="714cec09e99c",m="###### Netty\n- is <em>an asynchronous event-driven network application framework</em>\n  for rapid development of maintainable high performance protocol servers & clients\n- [https://netty.io/](https://netty.io/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

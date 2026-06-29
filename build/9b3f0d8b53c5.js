@@ -1,0 +1,1 @@
+(function(){var b="9b3f0d8b53c5",m="see: [https://www.mashed.com/478517/the-best-regional-fast-food-chains-in-every-state/](https://www.mashed.com/478517/the-best-regional-fast-food-chains-in-every-state/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

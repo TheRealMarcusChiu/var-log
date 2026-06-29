@@ -1,0 +1,1 @@
+(function(){var b="7bd689a65458",m="###### JK-Type Flip-Flop (JK-FF)\n````excerpt\n- is a type of [[Flip-Flops - Latches|flip-flop]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

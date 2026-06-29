@@ -1,0 +1,1 @@
+(function(){var b="6b901fe1f379",m="###### QWERTY Keyboards\n````excerpt\n- is a [[Computer Keyboards|keyboard]] layout for [[Latin Alphabet (Roman Alphabet)|Latin-script alphabets]]\n- was devised and created in the early 1870s by Christopher Latham Sholes\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

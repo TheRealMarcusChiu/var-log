@@ -1,0 +1,1 @@
+(function(){var b="df5f5f288345",m="```bash\nmvn [other options] -f \"/path/to/pom.xml\"\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

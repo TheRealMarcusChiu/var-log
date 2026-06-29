@@ -1,0 +1,1 @@
+(function(){var b="aa8f13b1b22b",m="###### SQL - User Defined Functions/Language (UDL - UDF)\n````excerpt\n- is a type of [[Structured Query Language (SQL)]] that allows developers to define their own functions\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

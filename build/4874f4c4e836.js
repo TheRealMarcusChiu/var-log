@@ -1,0 +1,1 @@
+(function(){var b="4874f4c4e836",m="###### Teradata\n````excerpt\n- suitable for building large scale data warehousing applications\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="0c4eec21d58f",m="###### Ratpack ([ratpack.io](https://ratpack.io/))\n- is one of many [[Java - Web (HTTP) Client／Server Frameworks|Java - Web (HTTP) Client/Server Frameworks]]\n- is a set of Java libraries for building scalable HTTP applications";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

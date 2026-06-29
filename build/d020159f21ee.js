@@ -1,0 +1,1 @@
+(function(){var b="d020159f21ee",m="###### Standard Basis Vectors\n````excerpt\n- is a [[Basis Vectors|basis]] whose [[Vectors|vectors]] are composed of all zeroes, except one that equals 1\n- is also a type of [[Orthogonal Basis Vectors|orthogonal basis]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

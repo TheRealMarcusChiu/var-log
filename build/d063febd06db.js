@@ -1,0 +1,1 @@
+(function(){var b="d063febd06db",m="[https://github.com/TheRealMarcusChiu/mac-auto-startup](https://github.com/TheRealMarcusChiu/mac-auto-startup)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

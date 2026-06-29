@@ -1,0 +1,1 @@
+(function(){var b="5fef37b6e7da",m="###### VIE Technologies\n````excerpt\n- World’s Only Autonomous and Non-Invasive Health Prediction Service for Transformers and Machines\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="15cf1ae2b27f",m="![](https://www.youtube.com/watch?v=aUF2QCEudPo&ab_channel=HusseinNasser)\n### SameSite Values\n- strict\n- lax\n- none";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

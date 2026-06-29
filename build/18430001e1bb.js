@@ -1,0 +1,1 @@
+(function(){var b="18430001e1bb",m="###### Region-based Convolutional Neural Network (R-CNN)\n````excerpt\n- is a type of [[ANN - Architectures|artificial neural network architecture]] used for object detection\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

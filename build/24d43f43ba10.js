@@ -1,0 +1,1 @@
+(function(){var b="24d43f43ba10",m="Reverting the top 3 commits\n```\ngit revert --no-commit HEAD~3..\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

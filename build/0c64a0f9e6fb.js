@@ -1,0 +1,1 @@
+(function(){var b="0c64a0f9e6fb",m="see: [[Kafka Connect]]\n# Resources\n- [https://neo4j.com/labs/kafka/4.0/kafka-connect/#_download_the_zip_from_the_confluent_hub](https://neo4j.com/labs/kafka/4.0/kafka-connect/#_download_the_zip_from_the_confluent_hub)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

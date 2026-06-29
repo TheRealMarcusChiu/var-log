@@ -1,0 +1,1 @@
+(function(){var b="091c716831f7",m="###### Virtual Reality (VR)\n````excerpt\n- is a simulated experience that employs 3D head-mounted displays and pose tracking to give the user an immersive feel of a virtual world\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

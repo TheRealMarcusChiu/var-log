@@ -1,0 +1,1 @@
+(function(){var b="85f21f547acf",m="###### 45Drives ([https://www.45drives.com](https://www.45drives.com))\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

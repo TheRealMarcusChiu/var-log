@@ -1,0 +1,1 @@
+(function(){var b="45c36178584f",m="###### Geopolitics\n- politics, especially international relations, as influenced by geographical factors\n\n# Courses\n- [Yale Courses: Geopolitics](https://www.youtube.com/playlist?list=PLf8IyEj_M0g4SMLXin0EBq3LLBm-7HP-0)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

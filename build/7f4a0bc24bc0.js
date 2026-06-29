@@ -1,0 +1,1 @@
+(function(){var b="7f4a0bc24bc0",m="###### WaferPro\n````excerpt\n- [https://waferpro.com/shop/](https://waferpro.com/shop/)\n- is world leading supplier of silicon wafers\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

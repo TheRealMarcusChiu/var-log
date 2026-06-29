@@ -1,0 +1,1 @@
+(function(){var b="c62f1ed3374c",m="###### Metal Shading/Shader Language (MSL)\n- a [[Shading／Shader Languages|shading language]] for [[Metal]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

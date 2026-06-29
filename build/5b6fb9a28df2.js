@@ -1,0 +1,1 @@
+(function(){var b="5b6fb9a28df2",m="###### Tristerix\n````excerpt\n- is a [[Parasites - Parasitic Relationships|parasitic]] plant\n````\n^excerpt\n\n# Resources\n- [https://www.youtube.com/shorts/O2q7RdQDz5o](https://www.youtube.com/shorts/O2q7RdQDz5o)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

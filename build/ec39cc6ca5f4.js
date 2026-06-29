@@ -1,0 +1,1 @@
+(function(){var b="ec39cc6ca5f4",m="###### Ubuntu\n````excerpt\n- means \"I am what I am because of who we all are\"\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

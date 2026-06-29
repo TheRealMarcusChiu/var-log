@@ -1,0 +1,1 @@
+(function(){var b="25acda77b0bc",m="###### Comparison Operators\n````excerpt\n- takes as input any 2 data types and outputs a boolean\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="e417eab9278c",m="###### \\$Volume\n- is a [[NTFS - System／Meta Files|NTFS System File]]\n- located at inode \\#3 of the \\$MFT\n- contains [[NTFS - File Attributes - $VOLUME_INFORMATION|VOLUME_INFORMATION attribute]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

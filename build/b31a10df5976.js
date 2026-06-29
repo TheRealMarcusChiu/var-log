@@ -1,0 +1,1 @@
+(function(){var b="b31a10df5976",m="# Installation\n- go to [https://www.wireshark.org/](https://www.wireshark.org/) to download and install";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

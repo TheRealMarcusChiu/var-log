@@ -1,0 +1,1 @@
+(function(){var b="1c0695512efa",m="###### Hitachi Global Storage Technologies (HGST) HDD Lineup\n````excerpt\n- HGST was acquired by Western Digital in 2012\n- so see [[Western Digital (WD) HDD Lineup|WD HDD lineup]] instead\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="296713a1a77b",m="- [https://mml-book.github.io/](https://mml-book.github.io/) - [[mml-book.pdf]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

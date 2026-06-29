@@ -1,0 +1,1 @@
+(function(){var b="5bc3598d597b",m="###### Associative Array - Map - Symbol Table - Dictionary\n- is an abstract data type composed of a collection of pairs, such that each possible key appears at most once in the collection";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

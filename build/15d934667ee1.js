@@ -1,0 +1,1 @@
+(function(){var b="15d934667ee1",m="- [[Design Matrix]] - where each example is a vector of the same size\n- set of vector elements of different size\n- [[KD Trees]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="321ac3872257",m="````excerpt\n- <em>𝜌</em>(𝑋,𝑌) = <em>𝜌</em>(𝑌,𝑋)\n- <em>𝜌</em>(𝑎𝑋 + 𝑏, 𝑐𝑌 + 𝑑) = <em>𝜌</em>(𝑋,𝑌)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

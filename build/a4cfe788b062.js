@@ -1,0 +1,1 @@
+(function(){var b="a4cfe788b062",m="###### Polar Coordinate System\n````excerpt\n- a type of [[Coordinate Systems|coordinate system]]\n````\n^excerpt\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

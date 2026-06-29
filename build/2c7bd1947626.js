@@ -1,0 +1,1 @@
+(function(){var b="2c7bd1947626",m="###### Network Time Protocol (NTP) Server\n````excerpt\n- is a computer that synchronizes the internal clocks of other computers over a network via the [[Network Time Protocol (NTP)]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

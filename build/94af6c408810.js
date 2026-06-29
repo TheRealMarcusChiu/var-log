@@ -1,0 +1,1 @@
+(function(){var b="94af6c408810",m="i loved playing guitar - but i gave it up for something better \\~ October 2018\n###### Below are some of my not so great plays\n\n![](http://youtube.com/watch?v=lxoykRCXwzQ)\n\n![](http://youtube.com/watch?v=1hC-GPJNeAs)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

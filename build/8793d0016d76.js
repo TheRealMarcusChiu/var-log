@@ -1,0 +1,1 @@
+(function(){var b="8793d0016d76",m="###### Zed\n````excerpt\n- is a minimal code editor crafted for speed and collaboration with humans and AI\n````\n^excerpt\n\n# Resources\n- [https://zed.dev/](https://zed.dev/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

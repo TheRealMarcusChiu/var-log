@@ -1,0 +1,1 @@
+(function(){var b="d3af7a6237f6",m="###### Smooth Manifolds\n````excerpt\n- are [[Differentiable／Differential Manifold|differentiable manifolds]] that are INFINITELY differentiable\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="969ac5883ea0",m="earthquake hits japan\n\n![](http://youtube.com/watch?v=9nTlgtf7TME)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

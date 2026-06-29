@@ -1,0 +1,1 @@
+(function(){var b="86c089e1acdb",m="###### Advance Host Controller Interface (AHCI)\n````excerpt\n- is a technical standard for an interface that enables software to communicate with [[Serial ATA (SATA) - Parallel ATA (PATA)|SATA]] devices\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

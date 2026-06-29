@@ -1,0 +1,1 @@
+(function(){var b="4de972d8c666",m="# Java Profilers/Profiling-Tools\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n# Resources\n- [https://www.baeldung.com/java-profilers](https://www.baeldung.com/java-profilers)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

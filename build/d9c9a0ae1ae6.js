@@ -1,0 +1,1 @@
+(function(){var b="d9c9a0ae1ae6",m="see [[Mathematical Spaces]] for more details\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

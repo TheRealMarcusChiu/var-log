@@ -1,0 +1,1 @@
+(function(){var b="1d513effe6e1",m="𝑛 outcomes from a source 𝑋 can be compressed into roughly 𝑛·𝐻(𝑋) bits\n\nwhere:\n- 𝐻(𝑋) - is entropy of 𝑋";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

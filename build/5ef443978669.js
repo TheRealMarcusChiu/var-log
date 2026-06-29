@@ -1,0 +1,1 @@
+(function(){var b="5ef443978669",m="# Others\n- TODO\n\n# Personal\n- [defunct blog](http://confluence.marcuschiu.com/pages/viewrecentblogposts.action?key=NOT) → [thoughts.marcuschiu.com →](http://thoughts.marcuschiu.com) [www.marcuschiu.com](http://www.marcuschiu.com)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

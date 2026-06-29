@@ -1,0 +1,1 @@
+(function(){var b="9769cd7d4f38",m="###### Joplin\n````excerpt\n- open-source note taking app\n````\n^excerpt\n\n# Resources\n- [https://joplinapp.org/](https://joplinapp.org/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

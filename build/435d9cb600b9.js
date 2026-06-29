@@ -1,0 +1,1 @@
+(function(){var b="435d9cb600b9",m="- <strong>naïve</strong> - showing lack of experience, wisdom, or judgement\n- <strong>gullible</strong> - easily persuaded to believe something; credulous";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

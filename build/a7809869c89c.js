@@ -1,0 +1,1 @@
+(function(){var b="a7809869c89c",m="### Theorems & Properties of Probability Distributions\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

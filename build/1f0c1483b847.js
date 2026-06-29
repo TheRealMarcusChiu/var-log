@@ -1,0 +1,1 @@
+(function(){var b="1f0c1483b847",m="<strong>Liquorix</strong> is a distro [[Kernel／Kernels (OS)|kernel]] replacement built using the best configuration and kernel sources for desktop, multimedia, and gaming workloads";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

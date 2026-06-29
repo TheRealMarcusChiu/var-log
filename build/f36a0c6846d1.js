@@ -1,0 +1,1 @@
+(function(){var b="f36a0c6846d1",m="###### Ghostty\n````excerpt\n- a [[Terminal Application／Emulation／Emulator|terminal application]] for [[Macintosh OSs (Mac OS X) - macOS|macOS]]\n````\n^excerpt\n\n# Resources\n- [https://ghostty.org/](https://ghostty.org/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="abde71198b52",m="###### Keep it Simple, Stupid (KISS)\n````excerpt\n- keep solutions as simple as possible\n- simple solutions are easier to comprehend, maintain, and debug, reducing further possibilities of errors and/or problems\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

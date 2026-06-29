@@ -1,0 +1,1 @@
+(function(){var b="10eff5abad5f",m="###### Base1 - Unary\n````excerpt\n- is a [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]] containing 1 distinct symbol\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

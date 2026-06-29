@@ -1,0 +1,1 @@
+(function(){var b="8adf9c2fff43",m="###### [[Search Engines (Index Servers - Search Servers)|search engine]] types\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```\n\n- local-machine search engines (e.g. macOS's Spotlight)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

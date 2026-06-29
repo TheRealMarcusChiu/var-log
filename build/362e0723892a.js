@@ -1,0 +1,1 @@
+(function(){var b="362e0723892a",m="### Password Setting Default Files\n- <strong>/etc/pam.d/common-password</strong> - controls the length, etc of passwords\n- <strong>/etc/login.defs</strong> - controls password expiration defaults";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

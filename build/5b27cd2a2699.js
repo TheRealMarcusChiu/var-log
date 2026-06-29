@@ -1,0 +1,1 @@
+(function(){var b="5b27cd2a2699",m="- [[Proxmox Virtual Environment (PVE)]]\n- [[Kasm]]\n\n# Setup\n\n![](https://www.youtube.com/watch?v=nXIBGs_WJcs)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

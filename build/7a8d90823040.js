@@ -1,0 +1,1 @@
+(function(){var b="7a8d90823040",m="###### Nvidia GeForce 256\n````excerpt\n- the first GPU released in 1999\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

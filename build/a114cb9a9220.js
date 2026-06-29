@@ -1,0 +1,1 @@
+(function(){var b="a114cb9a9220",m="```\necho | openssl s_client -servername *.marcuschiu.com -connect marcuschiu.com:443 2>/dev/null | openssl x509 -noout -dates\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

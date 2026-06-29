@@ -1,0 +1,1 @@
+(function(){var b="2ce2fa43ed67",m="###### OpenWRT\n- TODO\n\n# Installation\n- Installing OpenWRT on a WRT 1900ACS [http://davidforster.com/openwrt/installing-openwrt-linksys-wrt1900acs/](http://davidforster.com/openwrt/installing-openwrt-linksys-wrt1900acs/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

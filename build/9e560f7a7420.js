@@ -1,0 +1,1 @@
+(function(){var b="9e560f7a7420",m="###### ISO19115-1\n- defines the schema required for describing geographic information and services by means of metadata";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

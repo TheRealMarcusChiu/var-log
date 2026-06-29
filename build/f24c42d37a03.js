@@ -1,0 +1,1 @@
+(function(){var b="f24c42d37a03",m="###### Splashtop\n````excerpt\n- is a family of [[Remote Desktop|remote-desktop]] software and remote support software\n- developed by Splashtop Inc\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

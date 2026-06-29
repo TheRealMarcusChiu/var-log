@@ -1,0 +1,1 @@
+(function(){var b="00fca40e5fdc",m="![[Dravidian Language/dravidian_subgroups.png]]\n- tamil\n- malayalam\n- kodava\n- tulu\n- kannada\n- telugu\n- gadaba\n- kui\n- gondi\n- kolami\n- parji\n- brahui\n- kurukh\n- malto";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

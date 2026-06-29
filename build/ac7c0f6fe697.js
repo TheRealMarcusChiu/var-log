@@ -1,0 +1,1 @@
+(function(){var b="ac7c0f6fe697",m="![[Microservices Architecture - Amazon Flow Platform/Amazon Architect.png|700]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

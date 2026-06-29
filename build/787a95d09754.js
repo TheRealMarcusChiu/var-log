@@ -1,0 +1,1 @@
+(function(){var b="787a95d09754",m="# 1 - Resources\n- [https://www.testcontainers.org/](https://www.testcontainers.org/)\n- [https://www.baeldung.com/docker-test-containers](https://www.baeldung.com/docker-test-containers)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

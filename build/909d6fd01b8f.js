@@ -1,0 +1,1 @@
+(function(){var b="909d6fd01b8f",m="###### MurmurHash\n````excerpt\n- is a non-cryptographic [[Hash Function - Hashing|hash function]] suitable for general hash-based lookup\n- it was created by Austin Appleby in 2008\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

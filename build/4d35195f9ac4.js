@@ -1,0 +1,1 @@
+(function(){var b="4d35195f9ac4",m="###### Median Absolute Deviation\n````excerpt\n- is a type of [[Median Deviation|median deviation]] where distance is calculated as [[L1／Manhattan／Rectilinear Distance Metric|L1 distance]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

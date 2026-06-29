@@ -1,0 +1,1 @@
+(function(){var b="0120297b9857",m="###### Radius of Convergence\n- the radius of convergence of a [[Power Series／Expansion|power series]] is the radius of the largest disk at the center of the series in which the series converges";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

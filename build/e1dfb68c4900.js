@@ -1,0 +1,1 @@
+(function(){var b="e1dfb68c4900",m="𝐷<sub>𝑄</sub>(𝑃) = 𝐄<sub>𝑃</sub>\\[ 𝑙𝑔 \\[𝑃(𝑋)/𝑄(𝑋)\\] \\]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

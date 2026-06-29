@@ -1,0 +1,1 @@
+(function(){var b="84ad0b8a17e0",m="###### Cognitive-Behavioral Theory (CBT)\n- a theory that suggests our thoughts, emotions, body sensations, and behavior are all connected";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

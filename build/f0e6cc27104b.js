@@ -1,0 +1,1 @@
+(function(){var b="f0e6cc27104b",m="###### Lucid (HDL)\n````excerpt\n- made specifically for [[Field-Programmable Gate Arrays (FPGA)|FPGAs]]\n- overcomes some of the pitfalls of more archaic languages, such as [[Verilog]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

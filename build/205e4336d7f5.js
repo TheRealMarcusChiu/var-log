@@ -1,0 +1,1 @@
+(function(){var b="205e4336d7f5",m="<strong>Traveling Salesman Problem (TSP)</strong> is a [[NP Complete／Completeness Problems|NP-Complete]] problem\n\nTODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

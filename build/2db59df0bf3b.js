@@ -1,0 +1,1 @@
+(function(){var b="2db59df0bf3b",m="###### OpenGL ES Shading Language (ESSL)\n- [[OpenGL for Embedded Systems (OpenGL ES)|OpenGL ES]]'s variant of [[OpenGL Shading／Shader Language (GLSL)|OpenGL Shading/Shader Language (GLSL)]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

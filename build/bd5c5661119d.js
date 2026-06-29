@@ -1,0 +1,1 @@
+(function(){var b="bd5c5661119d",m="![[Twilight Imperium - Components/0-components-1.png]]![[Twilight Imperium - Components/0-components-2.png]]![[Twilight Imperium - Components/0-components-3.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

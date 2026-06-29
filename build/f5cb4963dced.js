@@ -1,0 +1,1 @@
+(function(){var b="f5cb4963dced",m="Interestingly, R actually allows for five assignment operators:\n```\n# leftward assignment\nx <- value\nx = value\nx <<- value \n\n# rightward assignment\nvalue -> x\nvalue ->> x\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

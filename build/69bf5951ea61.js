@@ -1,0 +1,1 @@
+(function(){var b="69bf5951ea61",m="###### SGD+Nesterov Momentum\n````excerpt\n- a type of [[Gradient Descent／Ascent Algorithms - The Method of Steepest Descent／Ascent Algorithms|gradient descent algorithm]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

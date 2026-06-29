@@ -1,0 +1,1 @@
+(function(){var b="fb13a3c6b697",m="### Installation\n- brew install inetutils\n\n### Commands\n- <strong>to connect to ftp server</strong>\n  \n  <span style=\"white-space: pre-wrap\"><code>ftp ftp-server-domain-name-or-ip-address</code></span>";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="db678c0ff3db",m="###### Push-Down/Pushdown Automata (PDA)\n- an [[Automata (Sequential Model of Computation)|automata]] used to model [[Formal Grammars - Chomsky Hierarchy|context-free grammars]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

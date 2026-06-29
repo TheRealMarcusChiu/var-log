@@ -1,0 +1,1 @@
+(function(){var b="41f6b7e70208",m="![[Hinduism - Books/1.jpg]]\n# Books\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

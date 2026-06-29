@@ -1,0 +1,1 @@
+(function(){var b="e2d855c780ce",m="###### Error Correction\n````excerpt\n- is the automatic correction of errors that arise from the incorrect transmission of digital data (requires more redundancy bits than [[Error Detection|error detection]])\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

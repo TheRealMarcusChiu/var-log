@@ -1,0 +1,1 @@
+(function(){var b="a2eb0c72db7b",m="is a general-purpose, multi-paradigm programming language based on the Scheme dialect of Lisp";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

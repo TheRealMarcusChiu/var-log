@@ -1,0 +1,1 @@
+(function(){var b="733ec7a93128",m="###### Brownian Motion\n- is a natural phenomenon of the random motion of particles suspended in a medium (a liquid or a gas)\n- the natural phenomenon can be modeled by [[Wiener Process]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

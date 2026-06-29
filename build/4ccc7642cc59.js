@@ -1,0 +1,1 @@
+(function(){var b="4ccc7642cc59",m="###### Retrocausality - Reverse/Backwards Causality/Causation\n- is a concept of cause and effect in which an effect precedes its cause in time and so a later event affects an earlier one";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

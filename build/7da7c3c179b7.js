@@ -1,0 +1,1 @@
+(function(){var b="7da7c3c179b7",m="###### Hessian Eigenmaps\n````excerpt\n- is a type of [[Non-Linear／Nonlinear Dimensionality Reduction (NLDR) - Manifold Learning|non-linear dimension reduction]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

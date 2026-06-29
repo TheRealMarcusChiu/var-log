@@ -1,0 +1,1 @@
+(function(){var b="b490f3229864",m="Ekman's six basic emotions, as expressed by the facial muscles:\n- happiness\n- surprise\n- fear\n- sadness\n- anger\n- disgust\n\n![[Ekman's Facial Emotions/emotion-ekman-faces.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

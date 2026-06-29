@@ -1,0 +1,1 @@
+(function(){var b="918a549da7ec",m="###### Mercurial ([https://www.mercurial-scm.org/](https://www.mercurial-scm.org/))\n````excerpt\n- is a distributed [[Version Control System (VCS) - Source Control Management (SCM)|version control system]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

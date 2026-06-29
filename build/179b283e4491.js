@@ -1,0 +1,1 @@
+(function(){var b="179b283e4491",m="![](https://www.youtube.com/watch?v=W9J294X4FbY)\n\n![](https://www.youtube.com/watch?v=quTdStK-k20)\n\n![](https://www.youtube.com/watch?v=jJ3aQaDCoHc)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

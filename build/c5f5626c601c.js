@@ -1,0 +1,1 @@
+(function(){var b="c5f5626c601c",m="###### Zabbix\n````excerpt\n- is an open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services\n- collects and displays basic metrics\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

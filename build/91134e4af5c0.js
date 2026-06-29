@@ -1,0 +1,1 @@
+(function(){var b="91134e4af5c0",m="###### Measuring Massive Multitask Language Understanding (MMLU)\n````excerpt\n- is a popular benchmark for evaluating the capabilities of [[Large Language Models (LLMs)|large language models]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

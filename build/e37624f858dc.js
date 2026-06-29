@@ -1,0 +1,1 @@
+(function(){var b="e37624f858dc",m="###### DB2\n````excerpt\n- is a family of database systems managed by IBM\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="d3a9308d6f75",m="<strong>synesthesia</strong> is the production of a sense impression relating to one sense or part of the body by stimulation of another sense or part of the body.\n\n![[Synesthesia/1.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

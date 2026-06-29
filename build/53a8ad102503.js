@@ -1,0 +1,1 @@
+(function(){var b="53a8ad102503",m="- [Understanding Deep Learning - Simon J.D. Prince](https://udlbook.github.io/udlbook/)\n- [[Understanding Deep Learning Nov 21 2024.pdf]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

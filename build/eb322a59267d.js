@@ -1,0 +1,1 @@
+(function(){var b="eb322a59267d",m="###### Remix\n````excerpt\n- was a full-stack framework built on top of [[React Router]]. However, as of React Router v7, Remix's features have been integrated into React Router, essentially merging the two\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

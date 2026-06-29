@@ -1,0 +1,1 @@
+(function(){var b="2f24844a262e",m="![[Gaussian Integral - Euler-Poisson Integral/gaussian-integral.png|301]]\n\n[https://en.wikipedia.org/wiki/Gaussian_integral#Computation](https://en.wikipedia.org/wiki/Gaussian_integral#Computation) TODO";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

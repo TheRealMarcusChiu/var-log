@@ -1,0 +1,1 @@
+(function(){var b="04e227727bb1",m="````excerpt\n[[Facade Pattern]] vs [[Singleton Design Pattern|Singleton Pattern]]\n- <em>Facade</em> objects are often <em>Singletons</em> because only one <em>Facade</em> object is required\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

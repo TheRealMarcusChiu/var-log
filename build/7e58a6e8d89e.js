@@ -1,0 +1,1 @@
+(function(){var b="7e58a6e8d89e",m="###### Hue\n- is an open source [[Structured Query Language (SQL)|SQL]] Assistant for Databases & Data Warehouses";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

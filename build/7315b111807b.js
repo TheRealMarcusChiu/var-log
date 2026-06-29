@@ -1,0 +1,1 @@
+(function(){var b="7315b111807b",m="###### Consciousness\n- the state of being awake and aware of one's surroundings";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

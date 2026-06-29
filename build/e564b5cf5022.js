@@ -1,0 +1,1 @@
+(function(){var b="e564b5cf5022",m="- [[Graph Query Language (GraphQL) - API]]\n- [[XML Schema Definition (XSD)]]\n- [[JSON Schema]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

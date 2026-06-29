@@ -1,0 +1,1 @@
+(function(){var b="3ce8d3077745",m="###### Kong Gateway\n````excerpt\n- is an [[API Gateways|API gateway]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

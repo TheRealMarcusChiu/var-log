@@ -1,0 +1,1 @@
+(function(){var b="c350b93e75c8",m="###### VMware GemFire\n- is a distributed, in-memory, [[Key-Value Database／Store|key-value store]] that performs read and write operations at blazingly fast speeds\n- replaced by [[Apache Geode]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

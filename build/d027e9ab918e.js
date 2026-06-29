@@ -1,0 +1,1 @@
+(function(){var b="d027e9ab918e",m="###### Linear Activation Function\n````excerpt\n- is an [[Activation Functions (AF)|activation function]]\n- 𝑓(𝑧) = 𝑐𝑧 <font style=\"color: rgb(122,134,154);\">\\# for some scalar 𝑐</font>\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

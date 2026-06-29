@@ -1,0 +1,1 @@
+(function(){var b="d49f9a75d739",m="###### Negative Definite Matrix\n````excerpt\n- is a matrix 𝐴 where:\n\t- 𝐴's [[Eigenvectors (Characteristic Vectors) - Eigenvalues (Spectrum)|eigenvalues]] \\< 0\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="9192e4d6ebee",m="###### Statistical Learning\n- is a branch of applied statistics emphasizing statistical methods and assessment of uncertainty";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="e85f98d5092a",m="###### himbo\n````excerpt\n- an attractive but unintelligent man\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

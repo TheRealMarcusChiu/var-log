@@ -1,0 +1,1 @@
+(function(){var b="16e6004376e3",m="###### Scalable Vector Graphics (SVG)\n````excerpt\n- is an [[Graphics／Image File Formats／Types|image format]] for [[Vector Graphics|vector graphics]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="4c94a5a23082",m="###### Asynchronous Module Definition (AMD)\n````excerpt\n- TODO\n````\n^excerpt\n\n# Resources\n- [https://jameshfisher.com/2020/10/03/what-are-amd-modules/](https://jameshfisher.com/2020/10/03/what-are-amd-modules/)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

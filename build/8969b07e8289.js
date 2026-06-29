@@ -1,0 +1,1 @@
+(function(){var b="8969b07e8289",m="###### Hinge Loss Function\n````excerpt\n- 𝑙(𝑧) = 𝑚𝑎𝑥(1 - 𝑥, 0)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

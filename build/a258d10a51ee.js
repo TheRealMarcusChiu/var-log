@@ -1,0 +1,1 @@
+(function(){var b="a258d10a51ee",m="- demodulates analog signals into digital signals\n- modulates digital signals into analog signals\n\n![[Modem/modem.png]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

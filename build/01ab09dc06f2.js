@@ -1,0 +1,1 @@
+(function(){var b="01ab09dc06f2",m="- very short range communication\n- consume less power\n- operate on 2.45 Ghz\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="99ca58bf902a",m="###### Biologically Sensitive Field-Effect Transistor (BioFET)\n- is a type of [[Field-Effect Transistor (FET)|Field-Effect Transistor]] using biology";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

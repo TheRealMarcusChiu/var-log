@@ -1,0 +1,1 @@
+(function(){var b="1e19f0760443",m="###### Capacitor Plugins\n````excerpt\n- a small piece of native code ([[SwiftUI|Swift]]/Obj-C, [[Kotlin]]/[[Java]]) + a [[JavaScript|JS]] interface\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

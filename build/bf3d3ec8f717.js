@@ -1,0 +1,1 @@
+(function(){var b="bf3d3ec8f717",m="###### Logback\n- a [[Java - Logging／Log Frameworks|java logging framework]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

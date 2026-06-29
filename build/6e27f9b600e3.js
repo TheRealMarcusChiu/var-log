@@ -1,0 +1,1 @@
+(function(){var b="6e27f9b600e3",m="###### Java Management Extensions (JMX)\n- is a Java technology that supplies tools for managing and monitoring applications, system objects, devices and service-oriented networks. Those resources are represented by objects called MBeans";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="0846a43535a1",m="- skull and roses\n- no thanks\n- can't stop\n- 6 nimmt\n- 7 Wonders\n- Marvel Champions: The Card Game\n> [!list-indent-undo]\n> ```dataview\n> LIST\n> FROM \"\"\n> WHERE file.folder = this.file.folder + \"/\" + this.file.name\n> ```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

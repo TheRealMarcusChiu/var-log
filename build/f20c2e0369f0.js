@@ -1,0 +1,1 @@
+(function(){var b="f20c2e0369f0",m="###### Java Util Logging (JUL/J.U.L.)\n- a [[Java - Logging／Log Frameworks|java logging framework]] that comes with Java";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

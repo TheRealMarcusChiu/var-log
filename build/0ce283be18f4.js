@@ -1,0 +1,1 @@
+(function(){var b="0ce283be18f4",m="###### Tangent Loss Function\n````excerpt\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

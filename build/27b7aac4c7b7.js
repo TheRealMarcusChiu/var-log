@@ -1,0 +1,1 @@
+(function(){var b="27b7aac4c7b7",m="###### Silicon Photonics (SiPh)\n````excerpt\n- is a material platform from which [[Photonic Integrated Circuits (PICs) - Integrated Optical Circuit|photonic integrated circuits (PICs)]] can be made\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

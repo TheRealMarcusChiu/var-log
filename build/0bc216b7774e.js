@@ -1,0 +1,1 @@
+(function(){var b="0bc216b7774e",m="###### Base4\n````excerpt\n- is a [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]] containing 4 distinct symbols\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

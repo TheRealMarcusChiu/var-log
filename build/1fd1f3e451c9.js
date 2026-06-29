@@ -1,0 +1,1 @@
+(function(){var b="1fd1f3e451c9",m="###### Typescript ([www.typescriptlang.org](https://www.typescriptlang.org/))\n- is a strongly typed [[Computer／Programming Languages|programming language]] which builds on [[JavaScript]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

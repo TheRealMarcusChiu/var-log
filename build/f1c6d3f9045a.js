@@ -1,0 +1,1 @@
+(function(){var b="f1c6d3f9045a",m="<strong>Loop Cutset</strong>\n- a type of [[Cutset|cutset]]\n- is defined as a subset of nodes in the graph that, once removed, the graph no longer contains cycles";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

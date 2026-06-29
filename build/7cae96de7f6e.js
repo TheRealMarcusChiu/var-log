@@ -1,0 +1,1 @@
+(function(){var b="7cae96de7f6e",m="###### Object Oriented Database (OODB)\n````excerpt\n- is a type of [[NoSQL (Non-Relational) Databases]] in which information is represented in the form of objects as used in object-oriented programming\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

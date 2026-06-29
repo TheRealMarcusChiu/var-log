@@ -1,0 +1,1 @@
+(function(){var b="e1349814fcf8",m="###### bspwm\n````excerpt\n- a tiling [[Window Managers (WM)|window manager]] based on binary space partitioning\n````\n^excerpt\n\n# Resources\n- [https://github.com/baskerville/bspwm](https://github.com/baskerville/bspwm)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

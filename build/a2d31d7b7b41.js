@@ -1,0 +1,1 @@
+(function(){var b="a2d31d7b7b41",m="### Line Hough Transforms\n\n![](https://www.youtube.com/watch?v=4zHbI-fFIlI)\n### Circle Hough Transforms\n\n![](https://www.youtube.com/watch?v=Ltqt24SQQoI)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="00e1a63055db",m="TODO [https://www.chipverify.com/verilog/verilog-block-statements](https://www.chipverify.com/verilog/verilog-block-statements)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

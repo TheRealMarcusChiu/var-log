@@ -1,0 +1,1 @@
+(function(){var b="9981915675e9",m="The crust of the earth is a vast museum; but the natural collections have been made only at intervals of time immensely remote - Charles Darwin, On the Origin of Species";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="e0c3a9967642",m="###### Base16 - Hexadecimal\n````excerpt\n- is a [[Numeral／Numerical／Number Systems／Representations／Notations|numeral system]] containing 16 distinct symbols\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

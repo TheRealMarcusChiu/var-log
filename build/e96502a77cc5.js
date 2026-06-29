@@ -1,0 +1,1 @@
+(function(){var b="e96502a77cc5",m="Route incoming packets from port 443 to port 8006\n```\n/sbin/iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 8006\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

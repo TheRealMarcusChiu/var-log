@@ -1,0 +1,1 @@
+(function(){var b="83daaf49c90d",m="###### Linear Span/Hull - Span/Spans - Spanning Set\n````excerpt\n- the span of a set 𝑆 of vectors is defined as the set of all [[Linear Combinations|linear combinations]] of vectors in 𝑆\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

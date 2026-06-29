@@ -1,0 +1,1 @@
+(function(){var b="b162a952baba",m="###### Create React App (CRA)\n````excerpt\n- is a [[Web Build Tools - Module Bundler|web build tool]] for bootstrapping [[React - React.js - ReactJS|React]] applications\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

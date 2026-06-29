@@ -1,0 +1,1 @@
+(function(){var b="5a361b9a2537",m="###### Outbox Pattern\n````excerpt\n- publishing event and updating database\n````\n^excerpt\n\n# Subpages\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

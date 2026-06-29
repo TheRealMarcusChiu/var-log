@@ -1,0 +1,1 @@
+(function(){var b="91087a5e1600",m="<strong>Liquibase</strong> is an open-source database-independent library for tracking, managing and applying database schema changes";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

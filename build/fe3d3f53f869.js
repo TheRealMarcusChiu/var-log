@@ -1,0 +1,1 @@
+(function(){var b="fe3d3f53f869",m="###### Apache Geode\n- is a mature, robust technology originally developed by GemStone Systems. Commercially available as [[VMware GemFire|GemFire]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

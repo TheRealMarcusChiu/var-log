@@ -1,0 +1,1 @@
+(function(){var b="f5db93b2cdb9",m="###### AOMedia Video 1 (AV1)\n````excerpt\n- designed to replace [[H.265 - High Efficiency Video Coding (HEVC)|H.265]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

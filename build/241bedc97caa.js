@@ -1,0 +1,1 @@
+(function(){var b="241bedc97caa",m="TODO - [https://www.textbook.ds100.org/ch/18/hyp_studentized.html#Comparing-Distributions-of-the-Statistic](https://www.textbook.ds100.org/ch/18/hyp_studentized.html#Comparing-Distributions-of-the-Statistic)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

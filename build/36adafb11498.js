@@ -1,0 +1,1 @@
+(function(){var b="36adafb11498",m="<strong>gene</strong> - is a section of DNA/RNA that codes a [[Proteins - Peptides|protein]]\n### Gene Schematic\n![[Genes/Genes-promoter-regions-production-introns-exons-gene.jpg|401]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

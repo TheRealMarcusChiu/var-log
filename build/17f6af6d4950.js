@@ -1,0 +1,1 @@
+(function(){var b="17f6af6d4950",m="![[Alphabet Tree/alphabet family tree.png|900]]\n\n![[Alphabet Tree/visualization-alphabet-evolution.png|900]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

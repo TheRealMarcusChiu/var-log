@@ -1,0 +1,1 @@
+(function(){var b="a5a3ed410d95",m="###### SystemVerilog\n- an extension of the [[Verilog]] language which is primarily intended for [[Field-Programmable Gate Arrays (FPGA)|FPGA]] verification";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

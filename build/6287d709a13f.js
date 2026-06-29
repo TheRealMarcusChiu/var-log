@@ -1,0 +1,1 @@
+(function(){var b="6287d709a13f",m="###### Krew\n````excerpt\n- find and install kubectl plugins\n````\n^excerpt\n\n# Resources\n- [https://github.com/kubernetes-sigs/krew?tab=readme-ov-file](https://github.com/kubernetes-sigs/krew?tab=readme-ov-file)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

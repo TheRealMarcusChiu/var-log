@@ -1,0 +1,1 @@
+(function(){var b="41ba1a6f2dc5",m="- based on: [[Git From the Inside Out]]\n- see: [https://github.com/TheRealMarcusChiu/git-java-implementation](https://github.com/TheRealMarcusChiu/git-java-implementation)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

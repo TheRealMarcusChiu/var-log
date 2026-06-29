@@ -1,0 +1,1 @@
+(function(){var b="74f22c74f65d",m="###### Theano\n- used to be one of the more popular [[Deep Learning|deep-learning]] libraries\n- was developed by the Universite de Montreal in 2007";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

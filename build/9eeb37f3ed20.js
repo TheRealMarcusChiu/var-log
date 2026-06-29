@@ -1,0 +1,1 @@
+(function(){var b="9eeb37f3ed20",m="###### Spherical Coordinate System\n- a type of [[Coordinate Systems|coordinate system]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

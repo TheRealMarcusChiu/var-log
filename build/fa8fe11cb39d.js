@@ -1,0 +1,1 @@
+(function(){var b="fa8fe11cb39d",m="###### Local Response Normalization/Norm (LRN)\n````excerpt\n- is a generalization of [[Group Normalization／Norm (GN)|group normalization]]\n- TODO\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

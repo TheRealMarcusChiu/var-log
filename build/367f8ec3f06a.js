@@ -1,0 +1,1 @@
+(function(){var b="367f8ec3f06a",m="- [[Twilight Imperium - Components]]\n\n# Context\n- [[Twilight Imperium - Game Currency]]\n\n# Game Phases\n- [[Twilight Imperium - Game Phases]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

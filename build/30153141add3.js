@@ -1,0 +1,1 @@
+(function(){var b="30153141add3",m="- Strict press 1x bodyweight\n- Bench press 2x body weight\n- Weighted pull-up 1x body weight\n- Deadlift bodyweight+250lb\n- Bicep curl 50lb";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

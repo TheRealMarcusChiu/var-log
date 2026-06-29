@@ -1,0 +1,1 @@
+(function(){var b="189ced9a1c1c",m="###### Silero VAD\n````excerpt\n- is a [[Voice Activity Detection (VAD)]]\n- designed for realtime streaming\n- tiny model (\\~2 MB)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

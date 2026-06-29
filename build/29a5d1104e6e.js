@@ -1,0 +1,1 @@
+(function(){var b="29a5d1104e6e",m="###### Polynomial Kernel Function\n````excerpt\n- is a type of [[Kernel Functions (Similarity Functions)|kernel function]]\n````\n^excerpt\n\n# Resources\n\n![](https://www.youtube.com/watch?v=Toet3EiSFcM)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="9157c2d137f8",m="<strong>jcmd</strong> utility is used to send diagnostic command requests to the JVM";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="a0c29cd0eac7",m="###### Political Economy\n````excerpt\n- is the study of how [[Government & Politics|politics]] affects the [[Economics／Economy|economy]] and how the economy in turn shapes politics\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

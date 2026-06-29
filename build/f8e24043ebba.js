@@ -1,0 +1,1 @@
+(function(){var b="f8e24043ebba",m="###### Coefficient of Skewness\n````excerpt\n- different than [[Skewness|skewness]]\n- 𝐄\\[((𝑋-𝜇)/𝜎)<sup>3</sup>\\] = 1/𝜎<sup>3</sup> (𝐄\\[𝑋<sup>3</sup>\\] - 3𝜇𝜎<sup>2</sup> - 𝜇<sup>3</sup>)\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="a89913073362",m="![[WiFi - Frame Format/1.png|869x150]]\n### Fields\n- 16-bit control\n- 16-bit duration\n- 48-bit address 1\n- 48-bit address 2\n- 48-bit address 3\n- 16-bit seq ctrl\n- 48-bit address 4\n- 0-2312 bytes data\n- 32-bit CRC";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="0e4abc18f9fb",m="<strong>Visual C++</strong> is a C/C++ compiler for [[Windows]] only";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

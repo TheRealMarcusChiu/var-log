@@ -1,0 +1,1 @@
+(function(){var b="893e476631ed",m="given password, the [[Cryptographic Hash Function - Message Digest Function|Hash]] of password is used as [[Symmetric／Single／Secret Key Function|secret key]] (e.g. [[Data Encryption Standard (DES)|DES]] encryption)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

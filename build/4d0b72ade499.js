@@ -1,0 +1,1 @@
+(function(){var b="4d0b72ade499",m="- <strong>Current Dollars</strong> - unadjusted for inflation\n- <strong>Constant/Real Dollars</strong> - adjusted for inflation";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

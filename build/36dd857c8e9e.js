@@ -1,0 +1,1 @@
+(function(){var b="36dd857c8e9e",m="## [[SysV]]\n\n![[SysV#^excerpt]]\n## [[Upstart]]\n\n![[Upstart#^excerpt]]\n## [[Systemd]]\n\n![[Systemd#^excerpt]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="580ed74c35cf",m="###### Mid Range\n- is a type of [[Central Tendency]]\n- is the average of the [[Maximum／Max - Minimum／Min|min and max]]\n\n# Mid Range - Formula\n- Mid Range = (max + min) / 2";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

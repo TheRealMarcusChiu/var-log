@@ -1,0 +1,1 @@
+(function(){var b="0df9931a2a41",m="###### GloVe (Global Vectors for Word Representation)\n- is an unsupervised learning algorithm for obtaining vector representations for words\n- a type of [[Word Embeddings／Embedding|Word Embeddings/Embedding]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

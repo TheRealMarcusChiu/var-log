@@ -1,0 +1,1 @@
+(function(){var b="e137e09e7017",m="###### Octrees\n````excerpt\n- is a tree data structure in which each internal node has exactly eight children\n- are most often used to partition a three-dimensional space\n- is a 3D analog of [[Quadtrees|quadtrees]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

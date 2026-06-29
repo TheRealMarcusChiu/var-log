@@ -1,0 +1,1 @@
+(function(){var b="211109a437b6",m="###### Github Flavored Markdown (GFM)\n````excerpt\n- a type of [[Markdown Language - Flavors|Markdown flavor]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

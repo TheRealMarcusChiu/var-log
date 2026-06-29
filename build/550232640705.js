@@ -1,0 +1,1 @@
+(function(){var b="550232640705",m="Is displayed at the bottom of the terminal window.\n# Example\n\nTmux actually have a left and right status bar. So just pick one (or both) to display some infos:\n```\necho \"set-option -g status-left \"shblah\" >> ~/.tmux.conf\ntmux\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

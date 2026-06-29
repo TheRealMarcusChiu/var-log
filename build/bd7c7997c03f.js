@@ -1,0 +1,1 @@
+(function(){var b="bd7c7997c03f",m="###### Datadog\n````excerpt\n- is [[Logs／Logging Monitoring Metrics Traces／Tracing Analytics Observability Telemetry - Service／Servers／Frameworks|cloud monitoring as a service]]\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

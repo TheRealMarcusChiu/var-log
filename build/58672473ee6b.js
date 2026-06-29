@@ -1,0 +1,1 @@
+(function(){var b="58672473ee6b",m="###### GitHub Copilot CLI\n````excerpt\n- brings the power of GitHub Copilot directly into your terminal\n````\n^excerpt\n\n# Resources\n- [https://github.com/github/copilot-cli](https://github.com/github/copilot-cli)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

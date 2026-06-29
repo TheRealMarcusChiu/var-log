@@ -1,0 +1,1 @@
+(function(){var b="48c98cab7866",m="### Solar Spectral Irradiance\n![[Sun/sun-em-spectrum.png]]\n### Views of the Sun at Various Frequencies Across the Electromagnetic Spectrum\n![](https://www.windows2universe.org/sun/spectrum/sun_multispectral_08feb2001_anim.gif)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

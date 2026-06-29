@@ -1,0 +1,1 @@
+(function(){var b="d988135cabd7",m="###### General Purpose Media Interface (GPMI)\n````excerpt\n- is a new cable standard developed in China\n- for high-bandwidth audio/video, data, and power transmission through a single cable\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

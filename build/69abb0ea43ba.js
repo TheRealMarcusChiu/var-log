@@ -1,0 +1,1 @@
+(function(){var b="69abb0ea43ba",m="Converting [[Graph Query Language (GraphQL) - API|GraphQL]] to [[Cypher Query Language (CQL)|CQL Queries]]\n- [[Java - Neo4j GraphQL]]\n- [[Node.js - Neo4j GraphQL]]";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

@@ -1,0 +1,1 @@
+(function(){var b="50c90ce9e380",m="###### Conjugate Gradient Method/Algorithm\n````excerpt\n- TODO\n````\n^excerpt\n\n# Resources\n- [https://en.wikipedia.org/wiki/Conjugate_gradient_method](https://en.wikipedia.org/wiki/Conjugate_gradient_method)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

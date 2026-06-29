@@ -1,0 +1,1 @@
+(function(){var b="7ea76d618818",m="an empty canvas has the most potential\n\n![[30\" by 40\" Canvas/1.jpg]]![[30\" by 40\" Canvas/girl.png]]\n\nUpdate Fall 2024: I think i butchered that canvas";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

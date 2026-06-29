@@ -1,0 +1,1 @@
+(function(){var b="7c422841b7e3",m="### List\n- [https://markmanson.net/best-articles](https://markmanson.net/best-articles)\n\n### Individual\n- none yet";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

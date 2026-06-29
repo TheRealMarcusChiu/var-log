@@ -1,0 +1,1 @@
+(function(){var b="a987d0ab0c93",m="###### Schema.org\n- is structured data mark-up on web-pages\n- its main objective is to standardize [[HyperText Markup Language (HTML)|HTML]] tags to be used by webmasters for creating rich results about a certain topic of interest";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

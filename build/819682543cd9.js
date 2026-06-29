@@ -1,0 +1,1 @@
+(function(){var b="819682543cd9",m="###### Mixed Integer/Discrete Non-Linear/Nonlinear Programming/Optimization (MINP/MINLP)\n````excerpt\n- is the area of optimization that addresses nonlinear problems with continuous and integer variables\n````\n^excerpt";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

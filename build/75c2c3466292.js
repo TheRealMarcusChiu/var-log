@@ -1,0 +1,1 @@
+(function(){var b="75c2c3466292",m="[https://www.gutenberg.org/files/15784/15784-h/15784-h.htm](https://www.gutenberg.org/files/15784/15784-h/15784-h.htm)";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();

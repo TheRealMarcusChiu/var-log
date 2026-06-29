@@ -1,0 +1,1 @@
+(function(){var b="dec66c5bf0f7",m="![](http://youtube.com/watch?v=0ZhOeA0RD9o)![](https://www.youtube.com/watch?v=TE4eplsFSms)\n```dataview\nLIST\nFROM \"\"\nWHERE file.folder = this.file.folder + \"/\" + this.file.name\n```";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();
