@@ -29,7 +29,7 @@ signature:
 # discussion section. To turn it on, set `enabled: true` and fill repo / repo_id
 # / category / category_id from giscus.
 giscus:
-  enabled: false
+  enabled: true
   repo: "therealmarcuschiu/var-log"
   repo_id: "R_kgDOSxZkzQ"
   category: "General"
