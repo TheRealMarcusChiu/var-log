@@ -32,4 +32,4 @@ screenshots/
 .thumbnail
 
 # Vault (source notes — built into garden-data.js / bodies)
-#vault/
+vault/
