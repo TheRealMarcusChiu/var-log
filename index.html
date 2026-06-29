@@ -117,7 +117,12 @@
 
     <div style="{{ searchWrapStyle }}">
       <span style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #5f574a; font-size: 17px; pointer-events: none;">⌕</span>
-      <input type="text" value="{{ query }}" onInput="{{ onSearchInput }}" onFocus="{{ onSearchFocus }}" onBlur="{{ onSearchBlur }}" onKeyDown="{{ onSearchKey }}" ref="{{ setSearchEl }}" placeholder="Search the garden…" style="box-sizing: border-box; width: 100%; height: {{ searchInputH }}; padding: {{ searchInputPad }}; border-radius: 7px; border: 1px solid #29221a; background: #14100b; color: #ece1cf; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.03em; outline: none; transition: all .2s;" style-focus="border-color: #d8a942;" style-hover="border-color: #d8a942; background: #1b150d; box-shadow: 0 0 0 1px rgba(216,169,66,0.25);">
+      <input type="text" value="{{ query }}" onInput="{{ onSearchInput }}" onFocus="{{ onSearchFocus }}" onBlur="{{ onSearchBlur }}" onKeyDown="{{ onSearchKey }}" ref="{{ setSearchEl }}" placeholder="{{ searchPlaceholderNative }}" style="box-sizing: border-box; width: 100%; height: {{ searchInputH }}; padding: {{ searchInputPad }}; border-radius: 7px; border: 1px solid #29221a; background: #14100b; color: #ece1cf; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.03em; outline: none; transition: all .2s;" style-focus="border-color: #d8a942;" style-hover="border-color: #d8a942; background: #1b150d; box-shadow: 0 0 0 1px rgba(216,169,66,0.25);">
+      <div id="kg-scoped-ph" style="position: absolute; left: 32px; right: 40px; top: 50%; transform: translateY(-50%); display: {{ scopedPhDisplay }}; align-items: center; pointer-events: none; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.03em; color: #5f574a; white-space: nowrap; overflow: hidden;">
+        <span style="flex: 0 0 auto;">Search under “</span>
+        <span id="kg-scoped-ph-clip" style="flex: 0 1 auto; min-width: 0; overflow: hidden; display: block;"><span id="kg-scoped-ph-title" style="display: inline-block; white-space: nowrap;">{{ scopedRootTitle }}</span></span>
+        <span style="flex: 0 0 auto;">”</span>
+      </div>
       <span style="position: absolute; right: 9px; top: 50%; transform: translateY(-50%); pointer-events: none; border: 1px solid #2a2218; border-radius: 4px; padding: 0 6px; font-size: 11px; line-height: 17px; color: #6c6354; background: #14100b; display: {{ slashDisplay }};" title="Press / to search">/</span>
       <button type="button" onMouseDown="{{ closeSearch }}" title="Close search" style="position: absolute; right: 7px; top: 50%; transform: translateY(-50%); display: {{ searchCloseDisplay }}; align-items: center; justify-content: center; width: 22px; height: 22px; border: 1px solid #2a2218; border-radius: 5px; background: #14100b; color: #8c8170; cursor: pointer; font-size: 12px; line-height: 1; padding: 0;" style-hover="border-color: #d8a942; color: #ece1cf;">✕</button>
       <sc-if value="{{ searchOpen }}" hint-placeholder-val="{{ false }}">
@@ -2609,6 +2614,7 @@ class Component extends DCLogic {
     this.updateLegendPos();
     this.measureTabCollapse();
     this.typesetMath();
+    this.syncScopedMarquee();
     this.syncGiscus();
     const el = this.sidebarScrollEl();
     // Restore the right pane's per-tab scroll on tab switch.
@@ -2882,6 +2888,37 @@ class Component extends DCLogic {
     else center();
   };
   onSearchInput = (e) => this.setState({ query: e.target.value, searchIdx: 0 });
+  // The node that scopes search (acting root, when it isn't the whole-garden root). Drives the
+  // custom "Search under “title”" placeholder overlay.
+  _searchScopedRoot() { return (this.actingRoot != null && this.actingRoot !== this.rootId && this.nodeById && this.nodeById[this.actingRoot]) ? this.nodeById[this.actingRoot] : null; }
+  // Marquee just the title portion of the scoped placeholder when it overflows, leaving the
+  // stationary "Search under “ … ”" frame in place. Driven by rAF so the graph loop can't freeze it.
+  _stopScopedMarquee() { if (this._scopedRAF) { cancelAnimationFrame(this._scopedRAF); this._scopedRAF = null; } }
+  syncScopedMarquee() {
+    const clip = document.getElementById('kg-scoped-ph-clip');
+    const title = document.getElementById('kg-scoped-ph-title');
+    if (!clip || !title || clip.offsetParent === null) { this._stopScopedMarquee(); this._scopedSig = null; if (clip) clip.scrollLeft = 0; return; }
+    const max = title.scrollWidth - clip.clientWidth;
+    const sig = title.textContent + '|' + Math.round(clip.clientWidth);
+    if (max <= 1) { this._stopScopedMarquee(); clip.scrollLeft = 0; this._scopedSig = sig; return; }
+    if (this._scopedRAF && this._scopedSig === sig) return;   // already marqueeing this exact text/width
+    this._stopScopedMarquee();
+    this._scopedSig = sig;
+    const dur = (max / 45) * 1000, pause = 850;
+    let start = null;
+    const step = (ts) => {
+      if (start == null) start = ts;
+      const t = (ts - start) % (2 * dur + 2 * pause);
+      let pos;
+      if (t < pause) pos = 0;
+      else if (t < pause + dur) pos = ((t - pause) / dur) * max;
+      else if (t < 2 * pause + dur) pos = max;
+      else pos = max - ((t - 2 * pause - dur) / dur) * max;
+      clip.scrollLeft = pos;
+      this._scopedRAF = requestAnimationFrame(step);
+    };
+    this._scopedRAF = requestAnimationFrame(step);
+  }
   onSearchFocus = () => { if (this.searchEl && this.searchEl.value) { const el = this.searchEl; setTimeout(() => { try { el.select(); } catch (e) {} }, 0); } this.setState((s) => ({ searchFocus: true, searchExpanded: ((s.winW || 1280) <= 760 || (s.winH || 800) <= 500) ? true : s.searchExpanded })); };
   onSearchBlur = () => setTimeout(() => this.setState({ searchFocus: false, searchExpanded: false }), 170);
   onSearchKey = (e) => {
@@ -3355,6 +3392,9 @@ class Component extends DCLogic {
       navBackStyle: this.navBtnStyle(this.navState(), false),
       navFwdStyle: this.navBtnStyle(this.navState(), true),
       query: this.state.query,
+      searchPlaceholderNative: this._searchScopedRoot() ? '' : 'Search the garden\u2026',
+      scopedRootTitle: this._searchScopedRoot() ? this._searchScopedRoot().title : '',
+      scopedPhDisplay: (this._searchScopedRoot() && !(this.state.query || '').length) ? 'flex' : 'none',
       onSearchInput: this.onSearchInput,
       recentOpen: !!this.state.recentOpen,
       toggleRecent: () => this.setState((s) => ({ recentOpen: !s.recentOpen, recentIdx: 0 })),
