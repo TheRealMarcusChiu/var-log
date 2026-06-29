@@ -1610,6 +1610,20 @@ class Component extends DCLogic {
     this.setState({ menuNodeId: null, tabs, tabNode, selectedKey: key }, () => { this._addingTab = false; });
     this.focusNodeGraph(id);
   };
+  // Open a node as a fresh tab in the RIGHT split section (mirrors openInNewTab).
+  openInNewTabR = (id) => {
+    if (!this.nodeById || !this.nodeById[id]) return;
+    const tabsR = (this.state.tabsR || []).slice();
+    const tabNode = Object.assign({}, this.state.tabNode);
+    const key = this.newTabKey(); tabNode[key] = id; tabsR.push(key);
+    this.navHistByKey = this.navHistByKey || {}; this.navHistByKey[key] = { hist: [id], idx: 0 };
+    this.ensureBody(id);
+    this._restoreTabScrollR = 'R:' + key;
+    this.setState({ menuNodeId: null, tabsR, tabNode, selectedKeyR: key, selectedIdR: id });
+    if (this.revealPath) this.revealPath(id);
+    if (this.graph) this.graph.graphData(this.getVisible());
+    const n = this.nodeById[id]; if (n) { this.focusNode(n, false); this.startGlow(id); }
+  };
   // Reveal + select + focus a node in the graph (no tab-array mutation).
   focusNodeGraph = (id) => {
     if (!this.nodeById || !this.nodeById[id]) return;
@@ -1832,12 +1846,20 @@ class Component extends DCLogic {
   };
   closeTabMenu = () => { if (this.state.tabMenu) this.setState({ tabMenu: null }); };
   // Right-click menu for any node link (meta-row lists, breadcrumbs, in-body wikilinks).
-  openLinkMenu = (id) => (e) => {
+  openLinkMenu = (id, side) => (e) => {
     if (!id || !this.nodeById || !this.nodeById[id]) return;
     e.preventDefault(); e.stopPropagation();
-    this.setState({ linkMenu: { id: id, x: e.clientX, y: e.clientY } });
+    this.setState({ linkMenu: { id: id, side: side || 'left', x: e.clientX, y: e.clientY } });
   };
-  onMdContext = (e) => {
+  _mdContextMenu(e, side) {
+    const a = e.target && e.target.closest ? e.target.closest('.wikilink') : null;
+    if (!a) return;
+    const id = a.getAttribute('data-wikilink');
+    if (id && this.nodeById && this.nodeById[id]) { e.preventDefault(); e.stopPropagation(); this.setState({ linkMenu: { id: id, side: side || 'left', x: e.clientX, y: e.clientY } }); }
+  }
+  onMdContext = (e) => this._mdContextMenu(e, 'left');
+  onMdContextR = (e) => this._mdContextMenu(e, 'right');
+  _onMdContextOld = (e) => {
     const a = e.target && e.target.closest ? e.target.closest('.wikilink') : null;
     if (!a) return;
     const id = a.getAttribute('data-wikilink');
@@ -2952,13 +2974,13 @@ class Component extends DCLogic {
 
     // Build the full per-pane value set (crumbs, meta lists, title, body) for ANY node, so the
     // right split pane mirrors the left exactly. `nav` repoints that pane; `pp` is the metaPop prefix.
-    const mkPopList2 = (ids, nav, pp) => { const seen = new Set(); const arr = (ids || []).map((id) => this.nodeById[id]).filter((nn) => nn && !seen.has(nn.id) && seen.add(nn.id)); arr.sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })); if (!arr.length) return [{ label: '\u2014 none \u2014', onClick: () => {}, onHover: () => {}, onLeave: () => {}, style: Object.assign({}, popItem, { color: '#5f574a', cursor: 'default' }) }]; return arr.map((nn) => ({ label: nn.title, onClick: () => { this.setState({ metaPopR: null }); nav(nn.id); }, onHover: () => {}, onLeave: () => {}, onContext: this.openLinkMenu(nn.id), style: popItem })); };
+    const mkPopList2 = (ids, nav, pp) => { const seen = new Set(); const arr = (ids || []).map((id) => this.nodeById[id]).filter((nn) => nn && !seen.has(nn.id) && seen.add(nn.id)); arr.sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })); if (!arr.length) return [{ label: '\u2014 none \u2014', onClick: () => {}, onHover: () => {}, onLeave: () => {}, style: Object.assign({}, popItem, { color: '#5f574a', cursor: 'default' }) }]; return arr.map((nn) => ({ label: nn.title, onClick: () => { this.setState({ metaPopR: null }); nav(nn.id); }, onHover: () => {}, onLeave: () => {}, onContext: this.openLinkMenu(nn.id, 'right'), style: popItem })); };
     const buildPane = (node, nav) => {
       if (!node) return { hasSel: false };
       const chain = []; let c = node;
       while (c) { chain.unshift(c); if (c.id === this.actingRoot) break; c = c.parent ? this.nodeById[c.parent] : null; }
       const crumbsR = chain.map((nn, i) => ({
-        name: nn.name, onClick: () => nav(nn.id), onContext: this.openLinkMenu(nn.id), onHover: () => {}, onLeave: () => {},
+        name: nn.name, onClick: () => nav(nn.id), onContext: this.openLinkMenu(nn.id, 'right'), onHover: () => {}, onLeave: () => {},
         sep: i < chain.length - 1 ? ' / ' : '', lead: i > 0 ? ' /\u00a0' : '', leadStyle: { color: '#433c30', fontSize: '11px', letterSpacing: '0.05em', whiteSpace: 'pre-wrap' }, sepStyle: { color: '#433c30', fontSize: '11px', whiteSpace: 'pre' },
         style: { display: 'inline', background: 'transparent', border: 'none', cursor: 'pointer', padding: 0, fontFamily: "'JetBrains Mono', monospace", fontSize: '11px', letterSpacing: '0.05em', color: i === chain.length - 1 ? '#7a7060' : '#d8a942', transition: 'color .2s', whiteSpace: 'normal', textAlign: 'left', wordBreak: 'break-word' },
       }));
@@ -2967,7 +2989,7 @@ class Component extends DCLogic {
       const body = node._bodyLoaded
         ? (this.state.rawMd
           ? React.createElement('pre', { className: 'md-raw', style: { whiteSpace: 'pre-wrap', wordBreak: 'break-word', fontFamily: "'JetBrains Mono', monospace", fontSize: '12px', lineHeight: '1.6', color: '#b3a48c', margin: 0 } }, this.genMarkdown(node))
-          : React.createElement('div', { className: this.mc('math') ? 'md-body' : 'md-body kg-no-math', onClick: (e) => this.onMdClickNav(e, nav), onContextMenu: this.onMdContext, dangerouslySetInnerHTML: { __html: this.mdHtml(this.genMarkdown(node)) } }))
+          : React.createElement('div', { className: this.mc('math') ? 'md-body' : 'md-body kg-no-math', onClick: (e) => this.onMdClickNav(e, nav), onContextMenu: this.onMdContextR, dangerouslySetInnerHTML: { __html: this.mdHtml(this.genMarkdown(node)) } }))
         : React.createElement('div', { className: 'md-body' }, React.createElement('div', { style: { color: '#6c6354', fontFamily: "'JetBrains Mono', monospace", fontSize: '12px', padding: '6px 0', opacity: 0.85 } }, 'loading note \u2026'));
       return {
         hasSel: true, crumbs: crumbsR, selName: node.name, dateLine: this.formatDates(node),
@@ -3370,10 +3392,10 @@ class Component extends DCLogic {
       hasParent: !!parentNode,
       parentClick: parentNode ? () => { this.hoverId = null; this.navigateTo(parentNode.id); } : () => {},
       parentContext: parentNode ? this.openLinkMenu(parentNode.id) : () => {},
-      rParentContext: (rNodeEarly && rPane.hasParent && rNodeEarly.parent != null) ? this.openLinkMenu(rNodeEarly.parent) : () => {},
+      rParentContext: (rNodeEarly && rPane.hasParent && rNodeEarly.parent != null) ? this.openLinkMenu(rNodeEarly.parent, 'right') : () => {},
       linkMenuShow: !!this.state.linkMenu,
       linkMenuStyle: this.state.linkMenu ? { position: 'fixed', top: Math.min(this.state.linkMenu.y, winH - 60) + 'px', left: Math.min(this.state.linkMenu.x, winW - 220) + 'px', zIndex: 70 } : { display: 'none' },
-      linkMenuOpen: this.state.linkMenu ? () => { const id = this.state.linkMenu.id; this.setState({ linkMenu: null, metaPop: null, metaPopR: null }); this.openInNewTab(id); } : () => {},
+      linkMenuOpen: this.state.linkMenu ? () => { const lm = this.state.linkMenu; this.setState({ linkMenu: null, metaPop: null, metaPopR: null }); if (lm.side === 'right') this.openInNewTabR(lm.id); else this.openInNewTab(lm.id); } : () => {},
       parentHover: parentNode ? () => { this.hoverId = parentNode.id; } : () => {},
       parentLeave: () => { this.hoverId = null; },
       dateLine: sel ? this.formatDates(sel) : '',
