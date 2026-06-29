@@ -456,7 +456,7 @@
     <div data-tabmenu="1" style="{{ tabMenuStyle }}">
       <div style="min-width: 196px; background: #16120c; border: 1px solid #2a2218; border-radius: 7px; padding: 5px; box-shadow: 0 14px 30px -14px rgba(0,0,0,0.8); font-family: 'JetBrains Mono', monospace;">
         <button type="button" onClick="{{ tabMenuDup }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⧉ duplicate tab</button>
-        <button type="button" onClick="{{ tabMenuSplit }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⊟ split and move right</button>
+        <button type="button" onClick="{{ tabMenuSplit }}" disabled="{{ tabMenuSplitDisabled }}" style="{{ tabMenuSplitStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">{{ tabMenuSplitLabel }}</button>
         <button type="button" onClick="{{ tabMenuCloseOthers }}" disabled="{{ tabMenuCloseOthersDisabled }}" style="{{ tabMenuCloseOthersStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">✕ close other tabs</button>
       </div>
     </div>
@@ -1909,6 +1909,28 @@ class Component extends DCLogic {
     }
     this.ensureBody(this.nodeOf(key));
   };
+  // Move a right-section tab back into the left section as its last tab (collapses the split if the
+  // right section empties).
+  moveTabLeft = (key) => {
+    let tabs = (this.state.tabs || []).slice();
+    let tabsR = (this.state.tabsR || []).slice();
+    const ri = tabsR.indexOf(key);
+    if (ri >= 0) tabsR.splice(ri, 1);
+    if (!tabs.includes(key)) tabs.push(key);            // append as the LAST tab of the left section
+    const patch = { tabMenu: null, tabs };
+    if (tabsR.length === 0) {
+      patch.tabsR = []; patch.selectedKeyR = null; patch.selectedIdR = null;
+    } else {
+      patch.tabsR = tabsR;
+      if (this.state.selectedKeyR === key) {
+        const nextKey = tabsR[Math.min(ri, tabsR.length - 1)];
+        patch.selectedKeyR = nextKey; patch.selectedIdR = this.nodeOf(nextKey);
+      }
+    }
+    this.ensureBody(this.nodeOf(key));
+    this.setState(patch);
+    this.openTab(key);                                   // activate it on the left + anchor in graph
+  };
   openTabR = (key) => {
     const id = this.nodeOf(key);
     if (id == null) return;
@@ -3186,7 +3208,10 @@ class Component extends DCLogic {
       rightName: rNode ? rNode.name : '',
       rightDate: rNode ? this.formatDates(rNode) : '',
       tabMenuShow, tabMenuStyle,
-      tabMenuSplit: tm ? () => this.splitMoveRight(tm.key) : () => {},
+      tabMenuSplit: tm ? (((this.state.tabsR || []).length > 0 && tm.side === 'right') ? () => this.moveTabLeft(tm.key) : () => this.splitMoveRight(tm.key)) : () => {},
+      tabMenuSplitLabel: !tm ? '' : (((this.state.tabsR || []).length > 0) ? (tm.side === 'right' ? '\u2190 move left' : '\u2192 move right') : '\u25EB split and move right'),
+      tabMenuSplitDisabled: tm ? (((this.state.tabsR || []).length === 0) && ((this.state.tabs || []).length <= 1)) : true,
+      tabMenuSplitStyle: Object.assign({}, menuBtn, (tm && ((this.state.tabsR || []).length > 0 || (this.state.tabs || []).length > 1)) ? null : { color: '#4a4337', cursor: 'default' }),
       tabMenuDup: tm ? () => this.duplicateTab(tm.key, tm.side) : () => {},
       tabMenuCloseOthers: tm ? () => this.closeOtherTabs(tm.key, tm.side) : () => {},
       tabMenuCloseOthersDisabled: tm ? ((tm.side === 'right' ? (this.state.tabsR || []).length : (this.state.tabs || []).length) <= 1) : true,
