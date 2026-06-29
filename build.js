@@ -460,7 +460,7 @@ function injectConfig() {
 
   // key -> replacement string for the region between markers
   const repl = {
-    title: { type: 'html', val: htmlEsc(cfg.title) },
+    title: { type: 'html', val: '<title>' + htmlEsc(cfg.title) + '</title>' },
     brand: { type: 'html', val: htmlEsc(cfg.brand) },
     subtitle: { type: 'html', val: htmlEsc(cfg.subtitle) },
     sig_text: { type: 'html', val: htmlEsc(sig.text) },
