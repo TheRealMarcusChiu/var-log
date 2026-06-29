@@ -2555,13 +2555,20 @@ class Component extends DCLogic {
     const host = document.getElementById(hostId);
     if (!host || !sel || !this.nodeById[sel]) return;
     const term = this.nodeById[sel].title;
-    if (this[cacheKey] === term) return;
-    this[cacheKey] = term;
     const frame = host.querySelector('iframe.giscus-frame');
+    // Cache hit AND the frame is still mounted in this host: just update the term in place.
+    if (this[cacheKey] === term && frame) {
+      if (frame.contentWindow) frame.contentWindow.postMessage({ giscus: { setConfig: { term: term } } }, 'https://giscus.app');
+      return;
+    }
+    // Term changed but the frame still exists → reconfigure it in place (no reload).
     if (frame && frame.contentWindow) {
+      this[cacheKey] = term;
       frame.contentWindow.postMessage({ giscus: { setConfig: { term: term } } }, 'https://giscus.app');
       return;
     }
+    // No frame here yet (first mount, or the host div was recreated when the layout changed): build one.
+    this[cacheKey] = term;
     host.innerHTML = '';
     // Build the giscus widget iframe directly for EVERY pane. We deliberately avoid the official
     // client.js loader: its resize handler does `document.querySelector('iframe.giscus-frame')` and
