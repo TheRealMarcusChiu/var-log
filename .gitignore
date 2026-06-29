@@ -20,7 +20,7 @@ Thumbs.db
 
 # Build / temp output
 dist/
-build/
+#build/
 .cache/
 tmp/
 *.tmp
@@ -32,4 +32,4 @@ screenshots/
 .thumbnail
 
 # Vault (source notes — built into garden-data.js / bodies)
-vault/
+#vault/

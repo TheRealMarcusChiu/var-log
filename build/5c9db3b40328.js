@@ -1,0 +1,1 @@
+(function(){var b="5c9db3b40328",m="# Companies & Communities\n\nNotes on Companies & Communities.";if(window.__kgBody){window.__kgBody(b,m);}else{(window.__kgBodyQ=window.__kgBodyQ||[]).push([b,m]);}})();
