@@ -61,8 +61,12 @@
   .md-body h3:not(:first-child) { margin-top: 19px; }
   .md-body h4:not(:first-child) { margin-top: 14px; }
   .md-body p { margin: 0 0 13px; }
-  .md-body :is(h1,h2,h3,h4,h5,h6) { cursor: pointer; }
   .md-body :is(h1,h2,h3,h4,h5,h6):hover::after { content: ' #'; color: #6c6354; font-weight: 400; font-style: normal; }
+  .kg-peek-body > :first-child { margin-top: 0 !important; }
+  .kg-peek-body :is(h1,h2,h3,h4,h5,h6) { font-size: 12px !important; margin: 8px 0 4px !important; }
+  .kg-peek-body :is(h1,h2,h3,h4,h5,h6):hover::after { content: '' !important; }
+  .kg-peek-body img { max-width: 100%; max-height: 90px; object-fit: contain; }
+  .kg-peek-body pre, .kg-peek-body table { font-size: 9.5px !important; }
   body.kg-light #kg-app-root { filter: invert(1) hue-rotate(180deg); }
   body.kg-light #kg-app-root img { filter: invert(1) hue-rotate(180deg); }
   .md-body strong { color: #ece1cf; font-weight: 600; }
@@ -122,9 +126,9 @@
   <div ref="{{ setTipEl }}" style="position: absolute; z-index: 65; pointer-events: none; opacity: 0; transition: opacity .12s ease; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; color: #f0c560; background: #16120c; border: 1px solid #2a2218; padding: 5px 9px; border-radius: 5px; white-space: nowrap; box-shadow: 0 8px 22px -10px rgba(0,0,0,0.85);"></div>
 
   <sc-if value="{{ linkPeekShow }}" hint-placeholder-val="{{ false }}">
-    <div style="{{ linkPeekStyle }}">
+    <div onMouseEnter="{{ onPeekEnter }}" onMouseLeave="{{ onPeekLeave }}" style="{{ linkPeekStyle }}">
       <div style="font-family: 'Newsreader', Georgia, serif; font-style: italic; font-weight: 500; font-size: 15px; color: #ece1cf; margin-bottom: 5px;">{{ linkPeekTitle }}</div>
-      <div style="font-family: 'JetBrains Mono', monospace; font-size: 10.5px; line-height: 1.55; color: #b3a48c;">{{ linkPeekBody }}</div>
+      {{ linkPeekBodyEl }}
     </div>
   </sc-if>
 
@@ -199,7 +203,7 @@
   </header>
 
   <div style="position: absolute; top: {{ floatTop }}; right: {{ floatRight }}; z-index: 61; display: {{ floatDisplay }}; align-items: center; gap: 10px;">
-    <span style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #8c8170; white-space: nowrap;">{{ statusShown }}<span onClick="{{ showAll }}" title="Show all notes" style="cursor: pointer; color: #b78f3a; border-bottom: 1px dotted #6e5a2e; transition: color .15s;" style-hover="color: #f4cf6a; border-bottom-color: #f4cf6a;">{{ showAllLabel }}</span><span> · </span><span onClick="{{ menuStats }}" title="Vault stats" style="cursor: pointer; color: #b78f3a; border-bottom: 1px dotted #6e5a2e; transition: color .15s;" style-hover="color: #f4cf6a; border-bottom-color: #f4cf6a;">stats</span></span>
+    <span style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #8c8170; white-space: nowrap;">{{ statusShown }}<span onClick="{{ showAll }}" title="Show all notes" style="cursor: pointer; color: #b78f3a; border-bottom: 1px dotted #6e5a2e; transition: color .15s;" style-hover="color: #f4cf6a; border-bottom-color: #f4cf6a;">{{ showAllLabel }}</span></span>
       <div data-controlsmenu="1" style="position: relative; flex-shrink: 0;">
         <button type="button" onClick="{{ toggleMenu }}" title="Controls" style="{{ gearBtnStyle }}" style-hover="color: #f4cf6a; transform: scale(1.18);"><span style="font-size: 17px; line-height: 1; display: block; transform: translateY(-1px);">⚙</span></button>
         <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
@@ -255,6 +259,7 @@
   <!-- legend (top-left) -->
   <sc-if value="{{ legendShow }}" hint-placeholder-val="{{ false }}">
     <div onContextMenu="{{ onLegendMenu }}" style="position: absolute; left: {{ legendLeft }}; top: {{ legendTop }}; z-index: 15; pointer-events: auto; display: flex; flex-direction: column; gap: 3px;">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: #b78f3a; margin-bottom: 4px; text-align: center;">Legend</div>
       <sc-for list="{{ legendGroups }}" as="g" hint-placeholder-count="3">
         <button type="button" onClick="{{ g.onClick }}" onMouseDown="{{ g.onDown }}" onMouseEnter="{{ g.onHover }}" onMouseLeave="{{ g.onLeave }}" title="{{ g.title }}" style="{{ g.style }}" style-hover="background: rgba(216,169,66,0.16); color: #ece1cf; box-shadow: inset 0 0 0 1px rgba(216,169,66,0.35);"><span style="{{ g.dot }}"></span><span data-tablabel="1" style="{{ g.labelStyle }}">{{ g.titleText }}</span><span style="{{ g.countStyle }}">· {{ g.count }}</span></button>
       </sc-for>
@@ -588,6 +593,14 @@
     <div data-linkmenu="1" style="{{ linkMenuStyle }}">
       <div style="min-width: 200px; background: #16120c; border: 1px solid #2a2218; border-radius: 7px; padding: 5px; box-shadow: 0 14px 30px -14px rgba(0,0,0,0.8); font-family: 'JetBrains Mono', monospace;">
         <button type="button" onClick="{{ linkMenuOpen }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⊞ open as new tab in side panel</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ headerMenuShow }}" hint-placeholder-val="{{ false }}">
+    <div data-headermenu="1" style="{{ headerMenuStyle }}">
+      <div style="min-width: 200px; background: #16120c; border: 1px solid #2a2218; border-radius: 7px; padding: 5px; box-shadow: 0 14px 30px -14px rgba(0,0,0,0.8); font-family: 'JetBrains Mono', monospace;">
+        <button type="button" onClick="{{ copyHeaderLink }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">🔗 copy link to header</button>
       </div>
     </div>
   </sc-if>
@@ -2429,10 +2442,27 @@ class Component extends DCLogic {
   };
   _mdContextMenu(e, side) {
     const a = e.target && e.target.closest ? e.target.closest('.wikilink') : null;
-    if (!a) return;
-    const id = a.getAttribute('data-wikilink');
-    if (id && this.nodeById && this.nodeById[id]) { e.preventDefault(); e.stopPropagation(); this.setState({ linkMenu: { id: id, side: side || 'left', x: e.clientX, y: e.clientY } }); }
+    if (a) {
+      const id = a.getAttribute('data-wikilink');
+      if (id && this.nodeById && this.nodeById[id]) { e.preventDefault(); e.stopPropagation(); this.setState({ linkMenu: { id: id, side: side || 'left', x: e.clientX, y: e.clientY } }); }
+      return;
+    }
+    const head = e.target && e.target.closest ? e.target.closest('.md-body h1, .md-body h2, .md-body h3, .md-body h4, .md-body h5, .md-body h6') : null;
+    const selId = (side === 'right') ? this.state.selectedIdR : this.selectedId;
+    if (head && selId != null && this.nodeById[selId]) {
+      e.preventDefault(); e.stopPropagation();
+      this.setState({ headerMenu: { side: side || 'left', slug: this._slug(head.textContent), text: head.textContent, x: e.clientX, y: e.clientY } });
+    }
   }
+  copyHeaderLink = () => {
+    const hm = this.state.headerMenu; if (!hm) return;
+    const selId = (hm.side === 'right') ? this.state.selectedIdR : this.selectedId;
+    const n = this.nodeById[selId]; if (!n) { this.setState({ headerMenu: null }); return; }
+    const base = window.location.origin + window.location.pathname;
+    const slug = encodeURIComponent(hm.slug);
+    this._copyText(selId === this.rootId ? (base + '#h=' + slug) : (base + '#node=' + encodeURIComponent(n.title) + '&h=' + slug));
+    this.setState({ headerMenu: null });
+  };
   onMdContext = (e) => this._mdContextMenu(e, 'left');
   onMdContextR = (e) => this._mdContextMenu(e, 'right');
   // Duplicate a tab: a fresh tab on the same node, copying its back/forward history.
@@ -3096,7 +3126,7 @@ class Component extends DCLogic {
   // Variant of onMdClick whose wikilinks route through `nav` (used by the right split pane).
   onMdClickNav = (e, nav) => {
     const a = e.target && e.target.closest ? e.target.closest('.wikilink') : null;
-    if (a) { e.preventDefault(); nav(a.getAttribute('data-wikilink')); return; }
+    if (a) { e.preventDefault(); this._dismissPeek(); nav(a.getAttribute('data-wikilink')); return; }
     const link = e.target && e.target.closest ? e.target.closest('a[href]') : null;
     if (link && !link.classList.contains('wikilink')) {
       const href = link.getAttribute('href');
@@ -3116,17 +3146,7 @@ class Component extends DCLogic {
       return;
     }
     const a = e.target && e.target.closest ? e.target.closest('.wikilink') : null;
-    if (a) { e.preventDefault(); const id = a.getAttribute('data-wikilink'); this.navigateTo(id); return; }
-    const head = e.target && e.target.closest ? e.target.closest('.md-body h1, .md-body h2, .md-body h3, .md-body h4, .md-body h5, .md-body h6') : null;
-    if (head && this.selectedId != null && this.nodeById[this.selectedId]) {
-      const selc = window.getSelection && window.getSelection();
-      if (selc && !selc.isCollapsed) return;   // don't hijack text selection
-      const n = this.nodeById[this.selectedId];
-      const base = window.location.origin + window.location.pathname;
-      const slug = encodeURIComponent(this._slug(head.textContent));
-      this._copyText(this.selectedId === this.rootId ? (base + '#h=' + slug) : (base + '#node=' + encodeURIComponent(n.title) + '&h=' + slug));
-      return;
-    }
+    if (a) { e.preventDefault(); this._dismissPeek(); const id = a.getAttribute('data-wikilink'); this.navigateTo(id); return; }
     const link = e.target && e.target.closest ? e.target.closest('a[href]') : null;
     if (link && !link.classList.contains('wikilink')) {
       const href = link.getAttribute('href');
@@ -3156,8 +3176,13 @@ class Component extends DCLogic {
     if (!a) return;
     if (this.hoverId != null) { this.hoverId = null; }
     clearTimeout(this._peekTimer);
-    if (this.state.linkPeek) this.setState({ linkPeek: null });
+    // Grace period: let the cursor travel onto the preview before it closes.
+    clearTimeout(this._peekCloseTimer);
+    this._peekCloseTimer = setTimeout(() => { if (!this._peekHover && this.state.linkPeek) this.setState({ linkPeek: null }); }, 220);
   };
+  _dismissPeek = () => { clearTimeout(this._peekTimer); clearTimeout(this._peekCloseTimer); this._peekHover = false; if (this.state.linkPeek) this.setState({ linkPeek: null }); };
+  onPeekEnter = () => { this._peekHover = true; clearTimeout(this._peekCloseTimer); };
+  onPeekLeave = () => { this._peekHover = false; clearTimeout(this._peekCloseTimer); this._peekCloseTimer = setTimeout(() => { if (!this._peekHover && this.state.linkPeek) this.setState({ linkPeek: null }); }, 160); };
 
   toggleFull = () => {
     // Minimizing from full page → center the anchored node, exactly like "locate in graph".
@@ -3329,6 +3354,7 @@ class Component extends DCLogic {
     if (this.state.miniMenu && !(el && el.closest && el.closest('[data-minimenu]'))) this.setState({ miniMenu: null });
     if (this.state.legendMenu && !(el && el.closest && el.closest('[data-legendmenu]'))) this.setState({ legendMenu: null });
     if (this.state.linkMenu && !(el && el.closest && el.closest('[data-linkmenu]'))) this.setState({ linkMenu: null });
+    if (this.state.headerMenu && !(el && el.closest && el.closest('[data-headermenu]'))) this.setState({ headerMenu: null });
     // Click anywhere outside the open node context menu closes it (right-click that opens a
     // new menu re-sets menuNodeId immediately afterwards, so this doesn't fight it).
     if (this.state.menuNodeId != null && !(el && el.closest && el.closest('[data-nodemenu]'))) { clearTimeout(this._menuHideT); this.setState({ menuNodeId: null }); }
@@ -4329,8 +4355,10 @@ class Component extends DCLogic {
       popStyle, linkedList, backList, childList,
       linkPeekShow: !!(this.state.linkPeek && this.nodeById && this.nodeById[this.state.linkPeek.id]),
       linkPeekTitle: (this.state.linkPeek && this.nodeById && this.nodeById[this.state.linkPeek.id]) ? this.nodeById[this.state.linkPeek.id].name : '',
-      linkPeekBody: (function(self){ const lp = self.state.linkPeek; const n = lp && self.nodeById ? self.nodeById[lp.id] : null; if (!n) return ''; if (!n._bodyLoaded) return 'loading \u2026'; const p = self._plain(n.body); return p ? (p.slice(0, 240) + (p.length > 240 ? '\u2026' : '')) : '(no preview)'; })(this),
-      linkPeekStyle: this.state.linkPeek ? { position: 'fixed', top: Math.min(this.state.linkPeek.y + 8, winH - 150) + 'px', left: Math.min(this.state.linkPeek.x, winW - 300) + 'px', width: '280px', maxHeight: '150px', overflow: 'hidden', background: '#16120c', border: '1px solid #2a2218', borderRadius: '8px', padding: '11px 13px', boxShadow: '0 18px 40px -16px rgba(0,0,0,0.85)', zIndex: 80, pointerEvents: 'none' } : { display: 'none' },
+      linkPeekBodyEl: (function(self){ const lp = self.state.linkPeek; const n = lp && self.nodeById ? self.nodeById[lp.id] : null; if (!n) return null; const base = { fontFamily: "'JetBrains Mono', monospace", fontSize: '10.5px', lineHeight: '1.55', color: '#b3a48c' }; if (!n._bodyLoaded) return React.createElement('div', { style: base }, 'loading \u2026'); let md = ''; try { md = self.genMarkdown(n) || ''; } catch (e) { md = ''; } if (!md.trim()) return React.createElement('div', { style: base }, '(no preview)'); if (md.length > 1100) md = md.slice(0, 1100); let html = ''; try { html = self.mdHtml(md); } catch (e) { html = ''; } return React.createElement('div', { className: 'md-body kg-no-math kg-peek-body', style: base, onClick: self.onMdClick, dangerouslySetInnerHTML: { __html: html } }); })(this),
+      linkPeekStyle: this.state.linkPeek ? { position: 'fixed', top: Math.min(this.state.linkPeek.y + 8, winH - 230) + 'px', left: Math.min(this.state.linkPeek.x, winW - 340) + 'px', width: '320px', maxHeight: '230px', overflowY: 'auto', background: '#16120c', border: '1px solid #2a2218', borderRadius: '8px', padding: '11px 13px', boxShadow: '0 18px 40px -16px rgba(0,0,0,0.85)', zIndex: 80 } : { display: 'none' },
+      onPeekEnter: this.onPeekEnter,
+      onPeekLeave: this.onPeekLeave,
       showLinkedPop: this.state.metaPop === 'linked',
       showBackPop: this.state.metaPop === 'backlinks',
       showChildPop: this.state.metaPop === 'children',
@@ -4345,6 +4373,9 @@ class Component extends DCLogic {
       parentContext: parentNode ? this.openLinkMenu(parentNode.id) : () => {},
       rParentContext: (rNodeEarly && rPane.hasParent && rNodeEarly.parent != null) ? this.openLinkMenu(rNodeEarly.parent, 'right') : () => {},
       linkMenuShow: !!this.state.linkMenu,
+      headerMenuShow: !!this.state.headerMenu,
+      headerMenuStyle: this.state.headerMenu ? { position: 'fixed', top: Math.min(this.state.headerMenu.y, winH - 60) + 'px', left: Math.min(this.state.headerMenu.x, winW - 220) + 'px', zIndex: 70 } : { display: 'none' },
+      copyHeaderLink: this.copyHeaderLink,
       linkMenuStyle: this.state.linkMenu ? { position: 'fixed', top: Math.min(this.state.linkMenu.y, winH - 60) + 'px', left: Math.min(this.state.linkMenu.x, winW - 220) + 'px', zIndex: 70 } : { display: 'none' },
       linkMenuOpen: this.state.linkMenu ? () => { const lm = this.state.linkMenu; this.setState({ linkMenu: null, metaPop: null, metaPopR: null }); if (lm.side === 'right') this.openInNewTabR(lm.id); else this.openInNewTab(lm.id); } : () => {},
       parentHover: parentNode ? () => { this.hoverId = parentNode.id; } : () => {},
