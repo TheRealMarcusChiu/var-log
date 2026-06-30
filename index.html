@@ -262,7 +262,7 @@
   <sc-if value="{{ legendShow }}" hint-placeholder-val="{{ false }}">
     <div onContextMenu="{{ onLegendMenu }}" style="position: absolute; left: {{ legendLeft }}; top: {{ legendTop }}; z-index: 15; pointer-events: auto; display: flex; flex-direction: column; background: rgba(16,13,9,0.85); border: 1px solid #2a2218; border-radius: 8px; padding: 8px 3px 6px 8px;">
       <div style="font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: #b78f3a; margin-bottom: 4px; text-align: center;">Legend</div>
-      <div class="gx-scroll" style="display: flex; flex-direction: column; gap: 0; max-height: {{ legendMaxH }}; overflow-y: auto; overflow-x: hidden; padding-right: 2px;">
+      <div id="kg-legend-scroll" class="gx-scroll" style="display: flex; flex-direction: column; gap: 0; max-height: {{ legendMaxH }}; overflow-y: auto; overflow-x: hidden; padding-right: 2px;">
         <sc-for list="{{ legendGroups }}" as="g" hint-placeholder-count="3">
           <button type="button" onClick="{{ g.onClick }}" onContextMenu="{{ g.onContext }}" onMouseDown="{{ g.onDown }}" onMouseEnter="{{ g.onHover }}" onMouseLeave="{{ g.onLeave }}" title="{{ g.title }}" style="{{ g.style }}" style-hover="background: rgba(216,169,66,0.16); color: #ece1cf; box-shadow: inset 0 0 0 1px rgba(216,169,66,0.35);"><span style="{{ g.dot }}"></span><span data-tablabel="1" style="{{ g.labelStyle }}">{{ g.titleText }}</span><span style="{{ g.countStyle }}">· {{ g.count }}</span></button>
         </sc-for>
@@ -288,6 +288,7 @@
         <button type="button" onClick="{{ menuNewTab }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⊞ open as new tab in side panel</button>
         <div style="height: 1px; background: #2a2218; margin: 3px 4px;"></div>
         <button type="button" onClick="{{ menuCenter }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⌖ center node</button>
+        <button type="button" onClick="{{ menuSolo }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">{{ menuSoloLabel }}</button>
         <button type="button" onClick="{{ menuExpand }}" disabled="{{ menuExpandDisabled }}" style="{{ menuExpandStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">{{ menuExpandLabel }}</button>
         <button type="button" onClick="{{ menuExpandAllDesc }}" disabled="{{ menuExpandAllDisabled }}" style="{{ menuExpandAllStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⬚ expand all descendants</button>
         <button type="button" onClick="{{ menuHide }}" disabled="{{ menuHideDisabled }}" style="{{ menuHideStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⦸ hide node</button>
@@ -3468,6 +3469,8 @@ class Component extends DCLogic {
     if (this.graph) this.graph.graphData(this.getVisible());
     this.setState({ menuNodeId: null });
     this.selectNode(id);
+    // New acting root repopulates the legend — reset its scroll to the top.
+    setTimeout(() => { const lg = document.getElementById('kg-legend-scroll'); if (lg) lg.scrollTop = 0; }, 0);
     setTimeout(() => this.fitView(), 90);
   };
   menuUnmake = () => { this.setState({ menuNodeId: null }); this.collapseAll(); };
@@ -4362,8 +4365,8 @@ class Component extends DCLogic {
           onClick: () => { self.navigateTo(c.id); },
           onContext: (e) => { if (e && e.preventDefault) e.preventDefault(); if (e && e.stopPropagation) e.stopPropagation(); self.setState({ menuNodeId: c.id, menuNodeAt: { x: e.clientX, y: e.clientY }, menuOpen: false, legendMenu: null }); },
           onDown: (e) => { if (e && e.preventDefault) e.preventDefault(); },
-          onHover: (e) => { self.startTabMarquee(e && e.currentTarget, 0); self._legendSolo = c.id; self._focusGroups = new Set([c.id]); self.setState((s) => ({ tick: (s.tick || 0) + 1 })); self._kickGraph && self._kickGraph(); },
-          onLeave: (e) => { self.stopTabMarquee(e && e.currentTarget); if (self._legendSolo === c.id) { self._legendSolo = null; self._focusGroups = null; } self.setState((s) => ({ tick: (s.tick || 0) + 1 })); self._kickGraph && self._kickGraph(); },
+          onHover: (e) => { self.startTabMarquee(e && e.currentTarget, 0); if (self._legendSolo == null) self._savedFocus = self._focusGroups || null; self._legendSolo = c.id; self._focusGroups = new Set([c.id]); self.setState((s) => ({ tick: (s.tick || 0) + 1 })); self._kickGraph && self._kickGraph(); },
+          onLeave: (e) => { self.stopTabMarquee(e && e.currentTarget); if (self._legendSolo === c.id) { self._legendSolo = null; self._focusGroups = self._savedFocus || null; self._savedFocus = null; } self.setState((s) => ({ tick: (s.tick || 0) + 1 })); self._kickGraph && self._kickGraph(); },
           style: { display: 'flex', flexShrink: 0, alignItems: 'center', gap: '7px', maxWidth: '220px', overflow: 'hidden', background: 'transparent', border: 'none', padding: '3px 6px', borderRadius: '5px', cursor: 'pointer', userSelect: 'none', WebkitUserSelect: 'none', fontFamily: "'JetBrains Mono', monospace", fontSize: '10px', letterSpacing: '0.04em', textAlign: 'left', color: dim ? '#5f574a' : (on ? '#ece1cf' : '#8c8170') },
           dot: { width: '8px', height: '8px', borderRadius: '50%', flex: '0 0 auto', background: col, opacity: dim ? 0.4 : 1, boxShadow: on ? ('0 0 5px ' + col) : 'none' },
           labelStyle: { flex: '1 1 0', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', display: 'block' },
@@ -4483,6 +4486,8 @@ class Component extends DCLogic {
       sideRootLabel: sideRootIsActing ? '\u21ba unmake acting root' : '\u2693 make as root',
       sideRoot: sel ? () => { this.setState({ sideMenu: false }); if (sideRootIsActing) this.menuUnmake(); else this.menuMakeRoot(sel.id); } : () => {},
       menuCenter: mNode ? () => { this.setState({ menuNodeId: null }); this.selectNode(mNode.id); this.focusNode(mNode, false); } : () => {},
+      menuSoloLabel: (mNode && this._focusGroups && this._focusGroups.size === 1 && this._focusGroups.has(mNode.id)) ? '\u25d0 show all nodes' : '\u25d0 dim all but this branch',
+      menuSolo: mNode ? () => { const fg = this._focusGroups; const soloed = fg && fg.size === 1 && fg.has(mNode.id); this._focusGroups = soloed ? null : new Set([mNode.id]); this._legendSolo = null; this.setState({ menuNodeId: null }); this.setState((s) => ({ tick: (s.tick || 0) + 1 })); this._kickGraph(); } : () => {},
       menuExpand: mNode ? () => this.menuToggle(mNode.id) : () => {},
       menuExpandAllDesc: mNode ? () => { this.setState({ menuNodeId: null }); this.menuExpandDescendants(mNode.id); } : () => {},
       menuExpandAllDisabled: !(mNode && mNode.children && mNode.children.length),
