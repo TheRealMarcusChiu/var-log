@@ -144,7 +144,7 @@
       </div>
       <span style="position: absolute; right: 9px; top: 50%; transform: translateY(-50%); pointer-events: none; border: 1px solid #2a2218; border-radius: 4px; padding: 0 6px; font-size: 11px; line-height: 17px; color: #6c6354; background: #14100b; display: {{ slashDisplay }};" title="Press / to search">/</span>
       <button type="button" onMouseDown="{{ closeSearch }}" title="Close search" style="position: absolute; right: 7px; top: 50%; transform: translateY(-50%); display: {{ searchCloseDisplay }}; align-items: center; justify-content: center; width: 22px; height: 22px; border: 1px solid #2a2218; border-radius: 5px; background: #14100b; color: #8c8170; cursor: pointer; font-size: 12px; line-height: 1; padding: 0;" style-hover="border-color: #d8a942; color: #ece1cf;">✕</button>
-      <sc-if value="{{ searchOpen }}" hint-placeholder-val="{{ false }}">
+      <sc-if value="{{ topSearchOpen }}" hint-placeholder-val="{{ false }}">
         <div id="kg-search-results" class="gx-scroll" style="position: absolute; top: calc(100% + 8px); left: 0; right: 0; background: #16120c; border: 1px solid #2a2218; border-radius: 8px; padding: 6px; box-shadow: 0 22px 46px -18px rgba(0,0,0,0.75); max-height: 320px; overflow-y: auto; scrollbar-gutter: stable; z-index: 60;">
           <sc-for list="{{ searchResults }}" as="r" hint-placeholder-count="6">
             <button type="button" onMouseDown="{{ r.onClick }}" onContextMenu="{{ r.onContext }}" onMouseEnter="{{ r.onHover }}" style="{{ r.style }}" style-hover="background: #1d1710;">
@@ -302,7 +302,7 @@
         <div style="{{ resizeBarStyle }}"></div>
       </div>
     </sc-if>
-    <div style="flex-shrink: 0; background: rgba(16,13,9,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid rgba(42,34,24,0.55); z-index: 20;">
+    <div ref="{{ setSideToolbarEl }}" style="flex-shrink: 0; background: rgba(16,13,9,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid rgba(42,34,24,0.55); z-index: 20;">
       <div onMouseDown="{{ onToolbarDown }}" onContextMenu="{{ openBarMenu }}" style="max-width: 100%; margin: 0 auto; width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 0; padding: 4px 0; cursor: {{ toolbarCursor }};">
         <div title="Drag to move / undock the panel" style="flex: 0 0 auto; width: 28px; height: 28px; display: {{ gripDisplay }}; align-items: center; justify-content: center; cursor: grab; color: #6c6354; transition: color .15s;" style-hover="color: #d8a942;">
           <svg width="11" height="16" viewBox="0 0 11 16" fill="currentColor" aria-hidden="true"><circle cx="2.5" cy="3" r="1.4"></circle><circle cx="8.5" cy="3" r="1.4"></circle><circle cx="2.5" cy="8" r="1.4"></circle><circle cx="8.5" cy="8" r="1.4"></circle><circle cx="2.5" cy="13" r="1.4"></circle><circle cx="8.5" cy="13" r="1.4"></circle></svg>
@@ -370,7 +370,7 @@
     </div>
     <div id="kg-splitarea" style="{{ splitAreaStyle }}">
     <div style="{{ leftPaneStyle }}">
-    <sc-if value="{{ primaryInPane }}" hint-placeholder-val="{{ false }}">
+<sc-if value="{{ primaryInPane }}" hint-placeholder-val="{{ false }}">
       <div onMouseLeave="{{ releaseTabLock }}" onContextMenu="{{ openBarMenu }}" style="flex-shrink: 0; display: flex; align-items: center; padding: 5px; border-bottom: 1px solid rgba(42,34,24,0.55); background: rgba(16,13,9,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
         <div data-tabstrip="left" class="gx-scroll" style="flex: 1 1 0; min-width: 0; display: flex; align-items: center; gap: 5px; overflow-x: auto; overflow-y: hidden;">
           <sc-for list="{{ tabItems }}" as="t" hint-placeholder-count="2">
@@ -385,17 +385,31 @@
         </div>
       </div>
     </sc-if>
-    <div id="kg-sidebar-scroll" class="gx-scroll" style="flex: 1; min-height: 0; overflow-y: auto; scrollbar-gutter: stable; padding: 0 17px 40px 26px; margin: {{ scrollMargin }};">
+    <div style="flex-shrink: 0; box-sizing: border-box; height: {{ sideSearchH }}; display: flex; align-items: center; gap: 7px; padding: 0 12px; background: rgba(34,28,19,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid rgba(42,34,24,0.55); position: relative; z-index: 19;">
+      <button type="button" onClick="{{ navBack }}" title="Back" style="{{ navBackStyle }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">‹</button>
+      <button type="button" onClick="{{ navForward }}" title="Forward" style="{{ navFwdStyle }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">›</button>
+      <button type="button" onClick="{{ locateInGraph }}" title="Locate in graph" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 24px; height: 24px; padding: 0; border: none; border-radius: 6px; background: transparent; color: #d8a942; cursor: pointer; font-size: 17px; transition: color .15s, transform .15s;" style-hover="color: #ffe9a8; transform: scale(1.22);">⌖</button>
+      <button type="button" onClick="{{ togglePinCur }}" title="{{ pinTitleCur }}" style="{{ pinStarStyleCur }}" style-hover="color: #ffe9a8; transform: scale(1.18);">{{ pinStarCur }}</button>
+      <div style="position: relative; flex: 1 1 auto; min-width: 0;">
+        <input type="text" value="{{ sideDisplayValue }}" onInput="{{ onSideSearchInput }}" onFocus="{{ onSideSearchFocus }}" onBlur="{{ onSearchBlur }}" onKeyDown="{{ onSearchKey }}" ref="{{ setSideSearchEl }}" placeholder="{{ sideSearchPlaceholder }}" style="box-sizing: border-box; width: 100%; height: 30px; padding: 0 32px 0 12px; border-radius: 7px; border: 1px solid #29221a; background: #14100b; color: #b9ac94; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.03em; outline: none; transition: all .2s;" style-focus="border-color: #d8a942;" style-hover="border-color: #d8a942; background: #1b150d; box-shadow: 0 0 0 1px rgba(216,169,66,0.25);">
+        <button type="button" onClick="{{ copyLink }}" title="{{ copyLinkTitle }}" style="position: absolute; right: 6px; top: 50%; transform: translateY(-50%); display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; padding: 0; border: none; border-radius: 5px; background: transparent; color: #b78f3a; cursor: pointer; transition: color .15s, transform .15s;" style-hover="color: #ffe9a8; transform: translateY(-50%) scale(1.18);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1.5-1.5"></path></svg></button>
+        <sc-if value="{{ sideSearchOpen }}" hint-placeholder-val="{{ false }}">
+          <div class="gx-scroll" style="position: absolute; top: calc(100% + 8px); left: 0; right: 0; background: #16120c; border: 1px solid #2a2218; border-radius: 8px; padding: 6px; box-shadow: 0 22px 46px -18px rgba(0,0,0,0.75); max-height: 320px; overflow-y: auto; scrollbar-gutter: stable; z-index: 60;">
+            <sc-for list="{{ searchResults }}" as="r" hint-placeholder-count="6">
+              <button type="button" onMouseDown="{{ r.onClick }}" onContextMenu="{{ r.onContext }}" onMouseEnter="{{ r.onHover }}" style="{{ r.style }}" style-hover="background: #1d1710;">
+                <span style="display: block; color: #ece1cf; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ r.title }}</span>
+                <span style="display: block; color: #7a7060; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">{{ r.path }}</span>
+                {{ r.snippet }}
+              </button>
+            </sc-for>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+        <div id="kg-sidebar-scroll" class="gx-scroll" style="flex: 1; min-height: 0; overflow-y: auto; scrollbar-gutter: stable; padding: 0 17px 40px 26px; margin: {{ scrollMargin }};">
       <div style="max-width: {{ contentMax }}; margin: 0 auto; width: 100%;">
       <sc-if value="{{ hasSel }}" hint-placeholder-val="{{ false }}">
         <div style="margin-top: 18px;">
-          <div style="display: flex; align-items: center; gap: 18px; font-size: 10.5px; letter-spacing: 0.08em; color: #7a7060; margin-top: -8px; margin-left: -8px; margin-bottom: 10px;">
-            <button type="button" onClick="{{ navBack }}" title="Back" style="{{ navBackStyle }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">‹</button>
-            <button type="button" onClick="{{ navForward }}" title="Forward" style="{{ navFwdStyle }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">›</button>
-            <button type="button" onClick="{{ locateInGraph }}" title="Locate in graph" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 24px; height: 24px; margin-left: -10px; margin-right: -4px; padding: 0; border: none; background: transparent; color: #d8a942; cursor: pointer; font-size: 17px; transition: color .15s, transform .15s;" style-hover="color: #ffe9a8; transform: scale(1.22);">⌖</button>
-            <button type="button" onClick="{{ copyLink }}" title="{{ copyLinkTitle }}" style="{{ copyLinkStyle }}" style-hover="color: #ffe9a8; transform: scale(1.18);"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1.5-1.5"></path></svg></button>
-            <button type="button" onClick="{{ togglePinCur }}" title="{{ pinTitleCur }}" style="{{ pinStarStyleCur }}" style-hover="color: #ffe9a8; transform: scale(1.18);">{{ pinStarCur }}</button>
-          </div>
           <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 18px; font-size: 10.5px; letter-spacing: 0.08em; color: #7a7060; margin-bottom: 16px;">
             <sc-if value="{{ hasParent }}" hint-placeholder-val="{{ false }}">
               <button type="button" onClick="{{ parentClick }}" onContextMenu="{{ parentContext }}" onMouseEnter="{{ parentHover }}" onMouseLeave="{{ parentLeave }}" title="Anchor to parent note" style="background: none; border: none; padding: 0; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; letter-spacing: 0.08em; color: #7a7060; cursor: pointer; text-decoration: underline dotted; text-underline-offset: 3px;" style-hover="color: #ece1cf;">↑ parent</button>
@@ -460,7 +474,7 @@
         <div style="{{ splitBarStyle }}"></div>
       </div>
       <div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; min-height: 0;">
-        <sc-if value="{{ secondaryInPane }}" hint-placeholder-val="{{ false }}">
+<sc-if value="{{ secondaryInPane }}" hint-placeholder-val="{{ false }}">
           <div onMouseLeave="{{ releaseTabLock }}" onContextMenu="{{ openBarMenu }}" style="flex-shrink: 0; display: flex; align-items: center; padding: 5px; border-bottom: 1px solid rgba(42,34,24,0.55); background: rgba(16,13,9,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
             <div data-tabstrip="right" class="gx-scroll" style="flex: 1 1 0; min-width: 0; display: flex; align-items: center; gap: 5px; overflow-x: auto; overflow-y: hidden;">
               <sc-for list="{{ tabItemsR }}" as="t" hint-placeholder-count="1">
@@ -475,16 +489,32 @@
             </div>
           </div>
         </sc-if>
-        <div id="kg-sidebar-scroll-r" class="gx-scroll" style="flex: 1; min-height: 0; overflow-y: auto; scrollbar-gutter: stable; padding: 0 17px 40px 26px; margin: 3px 3px 3px 0;">
+    <div style="flex-shrink: 0; box-sizing: border-box; height: {{ sideSearchH }}; display: flex; align-items: center; gap: 7px; padding: 0 12px; background: rgba(34,28,19,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid rgba(42,34,24,0.55); position: relative; z-index: 19;">
+      <button type="button" onClick="{{ navBackR }}" title="Back" style="{{ navBackStyleR }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">‹</button>
+      <button type="button" onClick="{{ navForwardR }}" title="Forward" style="{{ navFwdStyleR }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">›</button>
+      <button type="button" onClick="{{ locateInGraphR }}" title="Locate in graph" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 24px; height: 24px; padding: 0; border: none; border-radius: 6px; background: transparent; color: #d8a942; cursor: pointer; font-size: 17px; transition: color .15s, transform .15s;" style-hover="color: #ffe9a8; transform: scale(1.22);">⌖</button>
+      <button type="button" onClick="{{ togglePinR }}" title="{{ pinTitleR }}" style="{{ pinStarStyleR }}" style-hover="color: #ffe9a8; transform: scale(1.18);">{{ pinStarR }}</button>
+      <div style="position: relative; flex: 1 1 auto; min-width: 0;">
+        <input type="text" value="{{ sideDisplayValueR }}" onInput="{{ onSideSearchInputR }}" onFocus="{{ onSideSearchFocusR }}" onBlur="{{ onSearchBlur }}" onKeyDown="{{ onSearchKey }}" ref="{{ setSideSearchElR }}" placeholder="{{ sideSearchPlaceholder }}" style="box-sizing: border-box; width: 100%; height: 30px; padding: 0 32px 0 12px; border-radius: 7px; border: 1px solid #29221a; background: #14100b; color: #b9ac94; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.03em; outline: none; transition: all .2s;" style-focus="border-color: #d8a942;" style-hover="border-color: #d8a942; background: #1b150d; box-shadow: 0 0 0 1px rgba(216,169,66,0.25);">
+        <button type="button" onClick="{{ copyLinkR }}" title="{{ copyLinkTitle }}" style="position: absolute; right: 6px; top: 50%; transform: translateY(-50%); display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; padding: 0; border: none; border-radius: 5px; background: transparent; color: #b78f3a; cursor: pointer; transition: color .15s, transform .15s;" style-hover="color: #ffe9a8; transform: translateY(-50%) scale(1.18);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1.5-1.5"></path></svg></button>
+        <sc-if value="{{ sideSearchOpenR }}" hint-placeholder-val="{{ false }}">
+          <div class="gx-scroll" style="position: absolute; top: calc(100% + 8px); left: 0; right: 0; background: #16120c; border: 1px solid #2a2218; border-radius: 8px; padding: 6px; box-shadow: 0 22px 46px -18px rgba(0,0,0,0.75); max-height: 320px; overflow-y: auto; scrollbar-gutter: stable; z-index: 60;">
+            <sc-for list="{{ searchResults }}" as="r" hint-placeholder-count="6">
+              <button type="button" onMouseDown="{{ r.onClick }}" onContextMenu="{{ r.onContext }}" onMouseEnter="{{ r.onHover }}" style="{{ r.style }}" style-hover="background: #1d1710;">
+                <span style="display: block; color: #ece1cf; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ r.title }}</span>
+                <span style="display: block; color: #7a7060; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">{{ r.path }}</span>
+                {{ r.snippet }}
+              </button>
+            </sc-for>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+                <div id="kg-sidebar-scroll-r" class="gx-scroll" style="flex: 1; min-height: 0; overflow-y: auto; scrollbar-gutter: stable; padding: 0 17px 40px 26px; margin: 3px 3px 3px 0;">
           <div style="max-width: 100%; margin: 0 auto; width: 100%;">
           <sc-if value="{{ rHasSel }}" hint-placeholder-val="{{ false }}">
             <div style="margin-top: 18px;">
               <div style="display: flex; align-items: center; gap: 18px; font-size: 10.5px; letter-spacing: 0.08em; color: #7a7060; margin-bottom: 16px;">
-                <button type="button" onClick="{{ navBackR }}" title="Back" style="{{ navBackStyleR }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">‹</button>
-                <button type="button" onClick="{{ navForwardR }}" title="Forward" style="{{ navFwdStyleR }}" style-hover="color: #f4cf6a; background: rgba(216,169,66,0.18); transform: scale(1.12);">›</button>
-                <button type="button" onClick="{{ locateInGraphR }}" title="Locate in graph" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 24px; height: 24px; margin-left: -10px; margin-right: -4px; padding: 0; border: none; background: transparent; color: #d8a942; cursor: pointer; font-size: 17px; transition: color .15s, transform .15s;" style-hover="color: #ffe9a8; transform: scale(1.22);">⌖</button>
-                <button type="button" onClick="{{ copyLinkR }}" title="{{ copyLinkTitle }}" style="{{ copyLinkStyle }}" style-hover="color: #ffe9a8; transform: scale(1.18);"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1.5-1.5"></path></svg></button>
-                <button type="button" onClick="{{ togglePinR }}" title="{{ pinTitleR }}" style="{{ pinStarStyleR }}" style-hover="color: #ffe9a8; transform: scale(1.18);">{{ pinStarR }}</button>
                 <sc-if value="{{ rHasParent }}" hint-placeholder-val="{{ false }}">
                   <button type="button" onClick="{{ rParentClick }}" onContextMenu="{{ rParentContext }}" title="Open parent note" style="background: none; border: none; padding: 0; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; letter-spacing: 0.08em; color: #7a7060; cursor: pointer; text-decoration: underline dotted; text-underline-offset: 3px;" style-hover="color: #ece1cf;">↑ parent</button>
                 </sc-if>
@@ -1570,6 +1600,12 @@ class Component extends DCLogic {
     const done = () => { this.setState({ linkCopied: true }); clearTimeout(this._linkCopiedT); this._linkCopiedT = setTimeout(() => this.setState({ linkCopied: false }), 1500); };
     try { if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, () => this._fallbackCopy(url, done)); else this._fallbackCopy(url, done); } catch (e) { this._fallbackCopy(url, done); }
   };
+  // Permalink URL for a node — shown as the default text of the sidebar search bar.
+  _nodeUrl(id) {
+    const n = this.nodeById && this.nodeById[id]; if (!n) return '';
+    const base = window.location.origin + window.location.pathname;
+    return (id === this.rootId) ? base : (base + '#node=' + encodeURIComponent(n.title));
+  }
   copyPermalink = (id) => {
     if (id == null || !this.nodeById || !this.nodeById[id]) return;
     const n = this.nodeById[id];
@@ -1688,12 +1724,20 @@ class Component extends DCLogic {
       this.graph = G;
   }
 
+  // The query of whichever search bar is currently active (top header bar vs sidebar bars).
+  _activeQuery() { const w = this.state.searchWhich || 'top'; if (w === 'side') return this._sideQ(); if (w === 'sideR') return this._sideQR(); return (this.state.query || ''); }
+  // Sidebar bar (left pane): URL of the node under the active tab (its default, non-search display text).
+  _sideUrl() { return (this.state.selectedId != null && this.nodeById && this.nodeById[this.state.selectedId]) ? this._nodeUrl(this.state.selectedId) : ''; }
+  _sideUrlR() { return (this.state.selectedIdR != null && this.nodeById && this.nodeById[this.state.selectedIdR]) ? this._nodeUrl(this.state.selectedIdR) : ''; }
+  // Effective sidebar search text: empty unless the user is editing and has changed it from the URL.
+  _sideQ() { if (!this.state.sideEditing) return ''; const sq = this.state.sideQuery || ''; return (sq === this._sideUrl()) ? '' : sq; }
+  _sideQR() { if (!this.state.sideEditingR) return ''; const sq = this.state.sideQueryR || ''; return (sq === this._sideUrlR()) ? '' : sq; }
   // Active focus filter (search-as-you-type and/or legend group solo) → dim non-matching nodes.
-  _filterActive() { const q = (this.state.query || '').trim(); return (q.length >= 2 && this.state.searchFocus) || !!(this._focusGroups && this._focusGroups.size); }
+  _filterActive() { const q = (this._activeQuery() || '').trim(); return (q.length >= 2 && this.state.searchFocus) || !!(this._focusGroups && this._focusGroups.size); }
   _dimAlphaId(id) { const n = this.nodeById && this.nodeById[id]; return n ? this._dimAlpha(n) : 1; }
   _dimAlpha(n) {
     if (this.isAnchored(n.id)) return 1;
-    const q = (this.state.query || '').trim().toLowerCase();
+    const q = (this._activeQuery() || '').trim().toLowerCase();
     const searchOn = q.length >= 2 && this.state.searchFocus;
     const fg = this._focusGroups, groupsOn = !!(fg && fg.size);
     if (!searchOn && !groupsOn) return 1;
@@ -1939,9 +1983,9 @@ class Component extends DCLogic {
   isAnchored(id) { return id === this.selectedId || (!!(this.state.tabsR && this.state.tabsR.length) && id === this.state.selectedIdR); }
   navStateR() { return (this.navHistByKey || (this.navHistByKey = {}))[this.state.selectedKeyR] || { hist: [], idx: -1 }; }
   // Shared style for the ‹ back / › forward buttons in either pane; greys out when there's nowhere to go.
-  navBtnStyle(st, isFwd) {
+  navBtnStyle(st, isFwd, fontSize) {
     const enabled = isFwd ? (st.idx < st.hist.length - 1) : (st.idx > 0);
-    const s = { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', width: '24px', height: '24px', padding: '0', borderRadius: '7px', border: 'none', background: 'transparent', color: enabled ? '#8c8170' : '#433c30', cursor: enabled ? 'pointer' : 'default', fontSize: '17px', lineHeight: 1, transition: 'color .15s, background .15s, transform .15s' };
+    const s = { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', width: '24px', height: '24px', padding: '0', borderRadius: '7px', border: 'none', background: 'transparent', color: enabled ? '#8c8170' : '#433c30', cursor: enabled ? 'pointer' : 'default', fontSize: (fontSize || '17px'), lineHeight: 1, transition: 'color .15s, background .15s, transform .15s' };
     if (isFwd) s.marginLeft = '-10px';
     return s;
   }
@@ -3735,6 +3779,7 @@ class Component extends DCLogic {
     else center();
   };
   onSearchInput = (e) => { this._searchPrevIdx = 0; this.setState({ query: e.target.value, searchIdx: 0 }); this._kickGraph(); };
+  onSideSearchInput = (e) => { this._searchPrevIdx = 0; this.setState({ sideQuery: e.target.value, searchIdx: 0 }); this._kickGraph(); };
   // The node that scopes search (acting root, when it isn't the whole-garden root). Drives the
   // custom "Search under “title”" placeholder overlay.
   _searchScopedRoot() { return (this.actingRoot != null && this.actingRoot !== this.rootId && this.nodeById && this.nodeById[this.actingRoot]) ? this.nodeById[this.actingRoot] : null; }
@@ -3766,14 +3811,27 @@ class Component extends DCLogic {
     };
     this._scopedRAF = requestAnimationFrame(step);
   }
-  onSearchFocus = () => { if (this.searchEl && this.searchEl.value) { const el = this.searchEl; setTimeout(() => { try { el.select(); } catch (e) {} }, 0); } this.setState((s) => ({ searchFocus: true, searchExpanded: ((s.winW || 1280) <= 760 || (s.winH || 800) <= 500) ? true : s.searchExpanded })); };
-  onSearchBlur = () => setTimeout(() => { this.setState({ searchFocus: false, searchExpanded: false }); this._kickGraph(); }, 170);
+  onSearchFocus = () => { if (this.searchEl && this.searchEl.value) { const el = this.searchEl; setTimeout(() => { try { el.select(); } catch (e) {} }, 0); } this.setState((s) => ({ searchFocus: true, searchWhich: 'top', searchExpanded: ((s.winW || 1280) <= 760 || (s.winH || 800) <= 500) ? true : s.searchExpanded })); };
+  setSideSearchEl = (el) => { if (el) this.sideSearchEl = el; };
+  setSideSearchElR = (el) => { if (el) this.sideSearchElR = el; };
+  onSideSearchInputR = (e) => { this._searchPrevIdx = 0; this.setState({ sideQueryR: e.target.value, searchIdx: 0 }); this._kickGraph(); };
+  onSideSearchFocusR = () => { const url = this._sideUrlR(); this.setState({ searchFocus: true, searchWhich: 'sideR', sideEditingR: true, sideQueryR: url }); if (this.sideSearchElR) { const el = this.sideSearchElR; setTimeout(() => { try { el.focus(); el.select(); } catch (e) {} }, 0); } };
+  onSearchPickR = (id) => { this.setState({ sideQueryR: '', sideEditingR: false, searchFocus: false }); if (this.sideSearchElR) this.sideSearchElR.blur(); this.navRight(id); };
+  onSideSearchFocus = () => { const url = this._sideUrl(); this.setState({ searchFocus: true, searchWhich: 'side', sideEditing: true, sideQuery: url }); if (this.sideSearchEl) { const el = this.sideSearchEl; setTimeout(() => { try { el.focus(); el.select(); } catch (e) {} }, 0); } };
+  setSideToolbarEl = (el) => {
+    if (!el || el === this._sideToolbarEl) return;
+    this._sideToolbarEl = el;
+    const measure = () => { const hh = el.offsetHeight; if (hh && hh !== this.state.sideToolbarH) this.setState({ sideToolbarH: hh }); };
+    measure();
+    try { if (this._sideToolbarRO) this._sideToolbarRO.disconnect(); this._sideToolbarRO = new ResizeObserver(measure); this._sideToolbarRO.observe(el); } catch (e) {}
+  };
+  onSearchBlur = () => setTimeout(() => { this.setState({ searchFocus: false, searchExpanded: false, sideEditing: false, sideEditingR: false }); this._kickGraph(); }, 170);
   onSearchKey = (e) => {
     const res = this._results || [];
     if (e.key === 'ArrowDown') { e.preventDefault(); if (res.length) this.setState((s) => ({ searchIdx: Math.min((s.searchIdx || 0) + 1, res.length - 1) }), () => this.scrollSearchActive()); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); if (res.length) this.setState((s) => ({ searchIdx: Math.max((s.searchIdx || 0) - 1, 0) }), () => this.scrollSearchActive()); }
-    else if (e.key === 'Enter') { const n = res[this.state.searchIdx || 0] || res[0]; if (n) this.onSearchPick(n.id); }
-    else if (e.key === 'Escape') { this.setState({ query: '', searchFocus: false, searchExpanded: false }); if (this.searchEl) this.searchEl.blur(); }
+    else if (e.key === 'Enter') { const n = res[this.state.searchIdx || 0] || res[0]; if (n) { ((this.state.searchWhich === 'sideR') ? this.onSearchPickR : this.onSearchPick)(n.id); } }
+    else if (e.key === 'Escape') { this.setState({ query: '', sideQuery: '', sideQueryR: '', sideEditing: false, sideEditingR: false, searchFocus: false, searchExpanded: false }); if (this.searchEl) this.searchEl.blur(); if (this.sideSearchEl) this.sideSearchEl.blur(); if (this.sideSearchElR) this.sideSearchElR.blur(); }
   };
   onRecentKey = (e) => {
     if (!this.state.recentOpen) return;
@@ -3842,14 +3900,14 @@ class Component extends DCLogic {
   // After keyboard nav, the list scrolls under a stationary cursor and fires a spurious mouseenter
   // that would yank the highlight to wherever the mouse sits. Ignore hover briefly so keys win.
   _guardHover = () => { this._ignoreHover = true; clearTimeout(this._ignoreHoverT); this._ignoreHoverT = setTimeout(() => { this._ignoreHover = false; }, 320); };
-  onSearchPick = (id) => { this.setState({ query: '', searchFocus: false, searchExpanded: false }); if (this.searchEl) this.searchEl.blur(); this.navigateTo(id); };
+  onSearchPick = (id) => { this.setState({ query: '', sideQuery: '', searchFocus: false, searchExpanded: false }); if (this.searchEl) this.searchEl.blur(); if (this.sideSearchEl) this.sideSearchEl.blur(); this.navigateTo(id); };
 
   pathLabel(n) { let c = n, g = 0; while (c && c.depth > 1 && g < 40) { c = this.nodeById[c.parent]; g++; } return c ? c.title : ''; }
   inActingSubtree(n) { let x = n, g = 0; while (x && g < 80) { if (x.id === this.actingRoot) return true; x = x.parent ? this.nodeById[x.parent] : null; g++; } return false; }
   actingTotal() { const r = this.nodeById[this.actingRoot]; if (!r) return this.total || 0; let c = 0; const w = (n) => { c++; (n.children || []).forEach(w); }; w(r); return c; }
 
   computeResults() {
-    const q = (this.state.query || '').trim();
+    const q = (this._activeQuery() || '').trim();
     if (q.length < 2 || !this.nodeById) { this._firstResult = null; return []; }
     // Full-text via MiniSearch over the build-time corpus (title/headings/tags/body), with
     // prefix + fuzzy matching and field boosting. Falls back to title search until it's loaded.
@@ -3961,7 +4019,7 @@ class Component extends DCLogic {
       const body = node._bodyLoaded
         ? (this.state.rawMd
           ? React.createElement('pre', { className: 'md-raw', style: { whiteSpace: 'pre-wrap', wordBreak: 'break-word', fontFamily: "'JetBrains Mono', monospace", fontSize: '12px', lineHeight: '1.6', color: '#b3a48c', margin: 0 } }, this.genMarkdown(node))
-          : React.createElement('div', { className: this.mc('math') ? 'md-body' : 'md-body kg-no-math', onClick: (e) => this.onMdClickNav(e, nav), onContextMenu: this.onMdContextR, dangerouslySetInnerHTML: { __html: this.mdHtml(this.genMarkdown(node)) } }))
+          : React.createElement('div', { className: this.mc('math') ? 'md-body' : 'md-body kg-no-math', onClick: (e) => this.onMdClickNav(e, nav), onContextMenu: this.onMdContextR, onMouseOver: this.onMdOver, onMouseOut: this.onMdOut, dangerouslySetInnerHTML: { __html: this.mdHtml(this.genMarkdown(node)) } }))
         : React.createElement('div', { className: 'md-body' }, React.createElement('div', { style: { color: '#6c6354', fontFamily: "'JetBrains Mono', monospace", fontSize: '12px', padding: '6px 0', opacity: 0.85 } }, 'loading note \u2026'));
       return {
         hasSel: true, crumbs: crumbsR, selName: node.name, dateLine: this.formatDates(node),
@@ -3983,19 +4041,25 @@ class Component extends DCLogic {
     const activeIdx = Math.min(this.state.searchIdx || 0, Math.max(0, rawResults.length - 1));
     const searchResults = rawResults.map((n, i) => {
       const doc = this._searchDocById && this._searchDocById[n.id];
-      const terms = (this._lastHitTerms && this._lastHitTerms[n.id]) || (this.state.query || '').trim().split(/\s+/);
+      const terms = (this._lastHitTerms && this._lastHitTerms[n.id]) || (this._activeQuery() || '').trim().split(/\s+/);
       const snip = doc ? this.makeSnippet(doc.text, terms) : null;
       return {
         title: n.title,
         path: this.pathLabel(n),
         snippet: snip ? React.createElement('div', { style: { fontSize: '11px', lineHeight: '1.5', color: '#9a8f7c', marginTop: '3px', maxHeight: '32px', overflow: 'hidden', fontFamily: "'JetBrains Mono', monospace" }, dangerouslySetInnerHTML: { __html: snip } }) : null,
-        onClick: (e) => { if (e && e.button !== 0) { if (e.preventDefault) e.preventDefault(); return; } this.onSearchPick(n.id); },
+        onClick: (e) => { if (e && e.button !== 0) { if (e.preventDefault) e.preventDefault(); return; } ((this.state.searchWhich === 'sideR') ? this.onSearchPickR : this.onSearchPick)(n.id); },
         onContext: this.openLinkMenu(n.id),
         onHover: () => this.setState({ searchIdx: i }),
         style: Object.assign({}, resStyle, i === activeIdx ? { background: '#1d1710', boxShadow: 'inset 2px 0 0 #d8a942' } : null),
       };
     });
-    const searchOpen = this.state.searchFocus && (this.state.query || '').trim().length >= 2 && searchResults.length > 0;
+    const searchOpen = this.state.searchFocus && searchResults.length > 0;
+    const _which = this.state.searchWhich || 'top';
+    const topSearchOpen = searchOpen && _which !== 'side' && _which !== 'sideR' && (this.state.query || '').trim().length >= 2;
+    const sideSearchOpen = searchOpen && _which === 'side' && this._sideQ().trim().length >= 2;
+    const sideSearchOpenR = searchOpen && _which === 'sideR' && this._sideQR().trim().length >= 2;
+    const _scopedRoot = this._searchScopedRoot();
+    const sideSearchPlaceholder = _scopedRoot ? ('Search under \u201C' + _scopedRoot.title + '\u201D') : 'Search notes\u2026';
     const recentItemStyle = { display: 'block', minWidth: '100%', width: 'max-content', textAlign: 'left', background: 'transparent', border: 'none', cursor: 'pointer', padding: '7px 9px', borderRadius: '6px' };
     const recentAll = this.nodeById ? Object.values(this.nodeById).filter((n) => n.id !== this.rootId && n.modified && this.inActingSubtree(n)) : [];
     recentAll.sort((a, b) => (Date.parse(b.modified) || 0) - (Date.parse(a.modified) || 0));
@@ -4367,7 +4431,7 @@ class Component extends DCLogic {
         }; });
       })(this),      slashDisplay: (compact || this.state.searchFocus) ? 'none' : 'inline-block',
       searchCloseDisplay: (this.state.searchFocus || (compact && this.state.searchExpanded)) ? 'flex' : 'none',
-      closeSearch: (e) => { if (e && e.preventDefault) e.preventDefault(); this.setState({ query: '', searchFocus: false, searchExpanded: false }); if (this.searchEl) this.searchEl.blur(); },
+      closeSearch: (e) => { if (e && e.preventDefault) e.preventDefault(); this.setState({ query: '', sideQuery: '', searchFocus: false, searchExpanded: false }); if (this.searchEl) this.searchEl.blur(); if (this.sideSearchEl) this.sideSearchEl.blur(); },
       recentTextDisplay: compact ? 'none' : 'inline',
       recentIconChar: (compact && this.state.recentOpen) ? '✕' : '◷',
       recentDropStyle: (compact && portrait)
@@ -4422,10 +4486,10 @@ class Component extends DCLogic {
       copyLinkStyle: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', width: '24px', height: '24px', marginLeft: '-2px', marginRight: '-2px', padding: 0, border: 'none', background: 'transparent', cursor: 'pointer', color: this.state.linkCopied ? '#9fb87f' : '#d8a942', transition: 'color .15s, transform .15s' },
       navBack: this.navBack, navForward: this.navForward,
       navBackR: this.navBackR, navForwardR: this.navForwardR,
-      navBackStyleR: this.navBtnStyle(this.navStateR(), false),
-      navFwdStyleR: this.navBtnStyle(this.navStateR(), true),
-      navBackStyle: this.navBtnStyle(this.navState(), false),
-      navFwdStyle: this.navBtnStyle(this.navState(), true),
+      navBackStyleR: Object.assign(this.navBtnStyle(this.navStateR(), false, '25px'), { marginLeft: '-6px' }),
+      navFwdStyleR: this.navBtnStyle(this.navStateR(), true, '25px'),
+      navBackStyle: Object.assign(this.navBtnStyle(this.navState(), false, '25px'), { marginLeft: '-6px' }),
+      navFwdStyle: this.navBtnStyle(this.navState(), true, '25px'),
       query: this.state.query,
       searchPlaceholderNative: this._searchScopedRoot() ? '' : 'Search the garden\u2026',
       scopedRootTitle: this._searchScopedRoot() ? this._searchScopedRoot().title : '',
@@ -4447,10 +4511,10 @@ class Component extends DCLogic {
       togglePinR: () => this.togglePin(this.state.selectedIdR),
       pinStarCur: (this.pinned && this.selectedId != null && this.pinned.has(this.selectedId)) ? '★' : '☆',
       pinTitleCur: (this.pinned && this.selectedId != null && this.pinned.has(this.selectedId)) ? 'Unpin this note' : 'Pin this note',
-      pinStarStyleCur: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', width: '24px', height: '24px', marginLeft: '-2px', padding: 0, border: 'none', background: 'transparent', cursor: 'pointer', fontSize: '13px', lineHeight: 1, color: (this.pinned && this.selectedId != null && this.pinned.has(this.selectedId)) ? '#f4cf6a' : '#7a7060', transition: 'color .15s, transform .15s' },
+      pinStarStyleCur: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', width: '24px', height: '24px', marginLeft: '-2px', padding: 0, border: 'none', background: 'transparent', cursor: 'pointer', fontSize: '13px', lineHeight: 1, color: '#b78f3a', transition: 'color .15s, transform .15s' },
       pinStarR: (this.pinned && this.state.selectedIdR != null && this.pinned.has(this.state.selectedIdR)) ? '★' : '☆',
       pinTitleR: (this.pinned && this.state.selectedIdR != null && this.pinned.has(this.state.selectedIdR)) ? 'Unpin this note' : 'Pin this note',
-      pinStarStyleR: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', width: '24px', height: '24px', marginLeft: '-2px', padding: 0, border: 'none', background: 'transparent', cursor: 'pointer', fontSize: '13px', lineHeight: 1, color: (this.pinned && this.state.selectedIdR != null && this.pinned.has(this.state.selectedIdR)) ? '#f4cf6a' : '#7a7060', transition: 'color .15s, transform .15s' },
+      pinStarStyleR: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto', width: '24px', height: '24px', marginLeft: '-2px', padding: 0, border: 'none', background: 'transparent', cursor: 'pointer', fontSize: '13px', lineHeight: 1, color: '#b78f3a', transition: 'color .15s, transform .15s' },
       recentHasMore,
       onRecentScroll: (e) => { const el = e.target; if (recentHasMore && el && el.scrollTop + el.clientHeight >= el.scrollHeight - 60) this.setState((s) => ({ recentLimit: (s.recentLimit || 14) + 14 })); },
       onSearchFocus: this.onSearchFocus,
@@ -4458,6 +4522,22 @@ class Component extends DCLogic {
       onSearchKey: this.onSearchKey,
       searchResults,
       searchOpen,
+      topSearchOpen,
+      sideSearchOpen,
+      sideSearchOpenR,
+      sideSearchPlaceholder,
+      sideQuery: this.state.sideQuery || '',
+      sideDisplayValue: this.state.sideEditing ? (this.state.sideQuery || '') : this._sideUrl(),
+      sideDisplayValueR: this.state.sideEditingR ? (this.state.sideQueryR || '') : this._sideUrlR(),
+      onSideSearchInput: this.onSideSearchInput,
+      onSideSearchInputR: this.onSideSearchInputR,
+      setSideSearchEl: this.setSideSearchEl,
+      setSideSearchElR: this.setSideSearchElR,
+      setSideToolbarEl: this.setSideToolbarEl,
+      onSideSearchFocus: this.onSideSearchFocus,
+      onSideSearchFocusR: this.onSideSearchFocusR,
+      sideSearchH: ((this.state.sideToolbarH || 38)) + 'px',
+      sideSearchCloseDisplay: (this.state.searchFocus && (this.state.searchWhich || 'top') === 'side') ? 'flex' : 'none',
       menuShow, menuStyle, menuExpandLabel, menuExpandDisabled, menuExpandStyle,
       menuItemBtnStyle: menuBtn,
       sideMenuOpen: !!this.state.sideMenu,
