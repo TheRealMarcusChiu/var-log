@@ -32,6 +32,7 @@
   @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: .9; } }
   @keyframes eggRing { 0% { transform: translate(-50%,-50%) scale(0); opacity: .85; } 100% { transform: translate(-50%,-50%) scale(16); opacity: 0; } }
   @keyframes eggFade { 0% { opacity: 0; } 12% { opacity: 1; } 82% { opacity: 1; } 100% { opacity: 0; } }
+  @keyframes kgTipMarq { 0%, 12% { transform: translateX(0); } 88%, 100% { transform: translateX(var(--kgtm, 0)); } }
   .gx-scroll::-webkit-scrollbar { width: 5px; height: 5px; }
   .gx-scroll::-webkit-scrollbar-thumb { background: #2a2218; border-radius: 3px; }
   .gx-scroll::-webkit-scrollbar-thumb:hover { background: #3a2f1a; }
@@ -1042,13 +1043,7 @@ class Component extends DCLogic {
     const nodes = this.graph.graphData().nodes;
     let best = null, bestD = Infinity;
     for (let i = 0; i < nodes.length; i++) { const nd = nodes[i]; const d = Math.hypot(nd.x - pt.x, nd.y - pt.y); if (d < bestD) { bestD = d; best = nd; } }
-    if (best && bestD <= this.nodeRadius(best)) {
-      this.selectNode(best.id); this.focusNode(best, false);
-      return;
-    }
-    // Clicking an edge connected to the anchored node jumps to the node on its other end.
-    const other = this.edgeHitOther(pt);
-    if (other) { this._edgeOther = null; this.navigateTo(other.id); }
+    if (best && bestD <= this.nodeRadius(best)) { this.selectNode(best.id); this.focusNode(best, false); }
   }
   hoverZoneFor(n) {
     if (!n || !(n.children && n.children.length)) return 'node';
@@ -1077,11 +1072,39 @@ class Component extends DCLogic {
       u = Math.max(0, Math.min(1, u));
       const cx = ax + u * dx, cy = ay + u * dy;
       const d = Math.hypot(px - cx, py - cy);
-      // ignore the immediate node areas so node hover wins there
-      if (d < bestD && Math.hypot(px - bx, py - by) > this.nodeRadius(other) && Math.hypot(px - ax, py - ay) > this.nodeRadius(sel)) { bestD = d; bestOther = other; }
+      // Node hover/click is already resolved first, so the whole segment can be hittable here —
+      // don't exclude the node discs (that made short edges & edges to big hubs unclickable).
+      if (d < bestD) { bestD = d; bestOther = other; }
     }
-    const tol = 4 / (this.graph.zoom() || 1);
+    const tol = 6 / (this.graph.zoom() || 1);
     return bestD <= tol ? bestOther : null;
+  }
+  // Nearest visible edge to a point (ANY edge, not just anchor-connected). Returns the endpoint to
+  // open: the non-anchored end if one end is anchored, otherwise the end nearer the click.
+  edgeHitAny(mg) {
+    if (!this.graph) return null;
+    const links = this.graph.graphData().links;
+    const px = mg.x, py = mg.y;
+    let bestPick = null, bestD = Infinity;
+    for (let i = 0; i < links.length; i++) {
+      const l = links[i];
+      const s = (l.source && l.source.id != null) ? l.source : this.nodeById[l.source];
+      const t = (l.target && l.target.id != null) ? l.target : this.nodeById[l.target];
+      if (!s || !t || s.x == null || t.x == null) continue;
+      const ax = s.x, ay = s.y, bx = t.x, by = t.y;
+      const dx = bx - ax, dy = by - ay, len2 = dx * dx + dy * dy || 1;
+      let u = ((px - ax) * dx + (py - ay) * dy) / len2; u = Math.max(0, Math.min(1, u));
+      const cx = ax + u * dx, cy = ay + u * dy;
+      const d = Math.hypot(px - cx, py - cy);
+      if (d < bestD) {
+        bestD = d;
+        if (s.id === this.selectedId) bestPick = t;
+        else if (t.id === this.selectedId) bestPick = s;
+        else bestPick = (Math.hypot(px - ax, py - ay) <= Math.hypot(px - bx, py - by)) ? s : t;
+      }
+    }
+    const tol = 8 / (this.graph.zoom() || 1);
+    return bestD <= tol ? bestPick : null;
   }
   onMouseMove = (e) => {
     if (this._resizing || this._dragging) return;
@@ -1099,26 +1122,38 @@ class Component extends DCLogic {
       const newHover = best.id;
       if (newHover !== this.hoverId) { this.hoverId = newHover; this.setState({ hoverId: newHover }); }
       this.setGraphCursor('pointer');
-      if (best.id !== this.selectedId) this.showTip(this.nodeHintHtml(best), e.offsetX, e.offsetY); else this.showTip(this.nodeHintHtml(best, !!this.selectedId), e.offsetX, e.offsetY);
+      const skip = (best.id === this.selectedId);
+      const key = 'n:' + best.id + ':' + (skip ? '1' : '0');
+      if (this._tipKey !== key) { this._tipKey = key; this.showTip(this.nodeHintHtml(best, skip), e.offsetX, e.offsetY); this._setupTipMarquee(); }
+      else this.showTip(null, e.offsetX, e.offsetY);
       return;
     }
-    // Not over a node: check for an edge connected to the anchored node.
-    const edgeOther = this.edgeHitOther(mg);
-    this._edgeOther = edgeOther ? edgeOther.id : null;
-    const newHover = edgeOther ? edgeOther.id : null;
-    if (newHover !== this.hoverId) { this.hoverId = newHover; this.setState({ hoverId: newHover }); }
-    if (edgeOther) {
-      this.setGraphCursor('pointer');
-      this.showTip('<div style="display:flex;align-items:center;gap:7px;line-height:1.6;"><span style="color:#b78f3a;">\u2022</span><span>click to center connected node</span></div>', e.offsetX, e.offsetY);
-    } else {
-      this.setGraphCursor('grab');
-      this.hideTip();
-    }
+    // Not over a node: plain background (edges are not interactive).
+    this._edgeOther = null;
+    if (this.hoverId !== null) { this.hoverId = null; this.setState({ hoverId: null }); }
+    this._tipKey = null;
+    this.setGraphCursor('grab');
+    this.hideTip();
   };
+  // Title header for hover tooltips (matches the right-click menu style); marquees if it overflows.
+  _tipTitleHead(title) {
+    const safe = (title || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return '<div style="max-width:230px;overflow:hidden;margin-bottom:6px;padding-bottom:6px;border-bottom:1px solid #2a2218;"><span data-tipmarq="1" style="display:inline-block;white-space:nowrap;font-family:\'Newsreader\',Georgia,serif;font-style:italic;font-weight:500;font-size:14px;color:#ece1cf;">' + safe + '</span></div>';
+  }
+  _setupTipMarquee() {
+    const lab = this.tipEl && this.tipEl.querySelector('[data-tipmarq]'); if (!lab) return;
+    lab.style.animation = 'none';
+    const parent = lab.parentElement;
+    requestAnimationFrame(() => {
+      const over = lab.scrollWidth - (parent ? parent.clientWidth : lab.clientWidth);
+      if (over > 2) { lab.style.setProperty('--kgtm', (-over) + 'px'); lab.style.animation = 'kgTipMarq ' + Math.max(2.4, over / 36) + 's ease-in-out infinite alternate'; }
+    });
+  }
   setTipEl = (el) => { if (el) this.tipEl = el; };
   showTip(text, x, y) {
     const t = this.tipEl; if (!t) return;
-    t.innerHTML = text; t.style.opacity = '1';
+    if (text != null) { t.innerHTML = text; }
+    t.style.opacity = '1';
     const w = t.offsetWidth, h = t.offsetHeight, ww = window.innerWidth, wh = window.innerHeight;
     let lx = x + 16, ty = y + 18;
     if (lx + w + 8 > ww) lx = x - 16 - w;   // flip to the left of the cursor if it would overflow right
@@ -2099,7 +2134,8 @@ class Component extends DCLogic {
     const rows = skipOpen ? [] : ['click to open'];
     if (hasCh) rows.push(this.collapsed.has(n.id) ? 'double-click to expand children' : 'double-click to collapse children');
     rows.push('right-click for menu');
-    return rows.map((r) => '<div style="display:flex;align-items:center;gap:7px;line-height:1.6;"><span style="color:#b78f3a;">\u2022</span><span>' + r + '</span></div>').join('');
+    const head = this._tipTitleHead(n.name || n.title || '');
+    return head + rows.map((r) => '<div style="display:flex;align-items:center;gap:7px;line-height:1.6;"><span style="color:#b78f3a;">\u2022</span><span>' + r + '</span></div>').join('');
   }
   startGlow(id) {
     this.glowNodeId = id; this.glowStart = performance.now();
