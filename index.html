@@ -1098,7 +1098,17 @@ class Component extends DCLogic {
     }
   };
   setTipEl = (el) => { if (el) this.tipEl = el; };
-  showTip(text, x, y) { const t = this.tipEl; if (!t) return; t.innerHTML = text; t.style.left = (x + 16) + 'px'; t.style.top = (y + 18) + 'px'; t.style.opacity = '1'; }
+  showTip(text, x, y) {
+    const t = this.tipEl; if (!t) return;
+    t.innerHTML = text; t.style.opacity = '1';
+    const w = t.offsetWidth, h = t.offsetHeight, ww = window.innerWidth, wh = window.innerHeight;
+    let lx = x + 16, ty = y + 18;
+    if (lx + w + 8 > ww) lx = x - 16 - w;   // flip to the left of the cursor if it would overflow right
+    if (ty + h + 8 > wh) ty = y - 18 - h;    // flip above the cursor if it would overflow the bottom
+    lx = Math.max(8, Math.min(lx, ww - w - 8));
+    ty = Math.max(8, Math.min(ty, wh - h - 8));
+    t.style.left = lx + 'px'; t.style.top = ty + 'px';
+  }
   hideTip() { if (this.tipEl) this.tipEl.style.opacity = '0'; }
   evtGraphPt(e) {
     if (!this.graph || !this.graph.screen2GraphCoords) return null;
@@ -3898,7 +3908,7 @@ class Component extends DCLogic {
       menuExpandDisabled = !hasCh;
       menuExpandLabel = !hasCh ? 'no children' : (!this.collapsed.has(mNode.id) ? '\u2296 collapse children' : ('\u2295 expand ' + mNode.children.length + ' children'));
       menuExpandStyle = Object.assign({}, menuBtn, hasCh ? null : { color: '#4a4337', cursor: 'default' });
-      const MW = 232, MH = 372;   // approx node-menu footprint, used to keep it fully on-screen
+      const MW = 252, MH = 256;   // approx node-menu footprint, used to keep it fully on-screen
       if (this.state.menuNodeAt) {
         // Opened from the legend (or another off-graph affordance): anchor at the cursor.
         menuShow = true;
