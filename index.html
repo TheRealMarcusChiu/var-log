@@ -285,8 +285,9 @@
     <div data-nodemenu="1" onMouseEnter="{{ menuKeep }}" onMouseLeave="{{ menuLeave }}" style="{{ menuStyle }}">
       <div style="display: flex; flex-direction: column; gap: 2px; background: #16120c; border: 1px solid #2a2218; border-radius: 7px; padding: 5px; box-shadow: 0 14px 30px -14px rgba(0,0,0,0.8);">
         <div style="padding: 4px 9px 6px; margin-bottom: 1px; border-bottom: 1px solid #2a2218;"><span data-tablabel="1" onMouseEnter="{{ menuTitleHover }}" style="display: block; max-width: 222px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: 'Newsreader', Georgia, serif; font-style: italic; font-weight: 500; font-size: 14px; color: #ece1cf;">{{ menuNodeTitle }}</span></div>
-        <button type="button" onClick="{{ menuOpenHere }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">↳ open in current active tab</button>
-        <button type="button" onClick="{{ menuNewTab }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⊞ open as new tab in side panel</button>
+        <button type="button" onClick="{{ menuOpenHere }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">↳ open in tab</button>
+        <button type="button" onClick="{{ menuNewTab }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⊞ open in new tab</button>
+        <button type="button" onClick="{{ menuOpenParent }}" disabled="{{ menuOpenParentDisabled }}" style="{{ menuOpenParentStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">↖ open parent in tab</button>
         <div style="height: 1px; background: #2a2218; margin: 3px 4px;"></div>
         <button type="button" onClick="{{ menuCenter }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">⌖ center node</button>
         <button type="button" onClick="{{ menuSolo }}" style="{{ menuItemBtnStyle }}" style-hover="background: #2c2316; color: #f4cf6a; box-shadow: inset 2px 0 0 #d8a942;">{{ menuSoloLabel }}</button>
@@ -373,7 +374,8 @@
       </div>
     </div>
     <div id="kg-splitarea" style="{{ splitAreaStyle }}">
-    <div style="{{ leftPaneStyle }}">
+    <div onMouseDownCapture="{{ setPaneLeft }}" style="{{ leftPaneStyle }}">
+      <div style="{{ paneGlowL }}"></div>
 <sc-if value="{{ primaryInPane }}" hint-placeholder-val="{{ false }}">
       <div onMouseLeave="{{ releaseTabLock }}" onContextMenu="{{ openBarMenu }}" style="flex-shrink: 0; display: flex; align-items: center; padding: 5px; border-bottom: 1px solid rgba(42,34,24,0.55); background: rgba(16,13,9,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
         <div data-tabstrip="left" class="gx-scroll" style="flex: 1 1 0; min-width: 0; display: flex; align-items: center; gap: 5px; overflow-x: auto; overflow-y: hidden;">
@@ -486,7 +488,8 @@
         <div style="{{ splitHighlightStyleC }}"></div>
         <div style="{{ splitBarStyle }}"></div>
       </div>
-      <div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; min-height: 0;">
+      <div onMouseDownCapture="{{ setPaneRight }}" style="{{ rightPaneStyle }}">
+        <div style="{{ paneGlowR }}"></div>
 <sc-if value="{{ secondaryInPane }}" hint-placeholder-val="{{ false }}">
           <div onMouseLeave="{{ releaseTabLock }}" onContextMenu="{{ openBarMenu }}" style="flex-shrink: 0; display: flex; align-items: center; padding: 5px; border-bottom: 1px solid rgba(42,34,24,0.55); background: rgba(16,13,9,0.94); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
             <div data-tabstrip="right" class="gx-scroll" style="flex: 1 1 0; min-width: 0; display: flex; align-items: center; gap: 5px; overflow-x: auto; overflow-y: hidden;">
@@ -782,7 +785,7 @@
   &quot;edgeFlow&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot; }
 }">
 class Component extends DCLogic {
-  state = { mode: '2d', selectedId: null, ready: false, anim: false, tick: 0, fullPage: false, query: '', searchFocus: false, searchIdx: 0, menuNodeId: null, linkMenu: null, tabs: [], tabsR: [], selectedIdR: null, selectedKey: null, selectedKeyR: null, tabNode: {}, tabMenu: null, barMenu: null, metaPopR: null, splitRatio: 0.5, splitPos: (function(){ try { var p = sessionStorage.getItem('kg-split-pos'); return ['right','left','up','down'].indexOf(p) >= 0 ? p : 'right'; } catch(e){ return 'right'; } })(), splitSubOpen: false, legendHidden: (typeof window !== 'undefined' && window.innerWidth < 700), minimapForce: (typeof window !== 'undefined' && window.innerWidth < 700) ? false : undefined, splitHover: false, hoverTab: null, closeHover: null, tabsCollapsedL: false, tabsCollapsedR: false, lockTabWL: 0, lockTabWR: 0, winW: (typeof window !== 'undefined' ? window.innerWidth : 1280), winH: (typeof window !== 'undefined' ? window.innerHeight : 800), searchExpanded: false, headerH: 64, sidebarW: (function(){ try { var v = parseFloat(sessionStorage.getItem('kg-sidebar-w')); return (v && v >= 320) ? v : 452; } catch(e){ return 452; } })(), mdConfig: this.loadMdConfig(), mdConfigOpen: false, mdCfgExpanded: {}, showTree: true, showWiki: true, menuOpen: false, hoverId: null, dragging: false, dockPreview: null, undockLeft: null, undockTop: null, dock: (function(){ try { var d = sessionStorage.getItem('kg-dock'); return ['right','left','bottom','undock'].indexOf(d) >= 0 ? d : 'right'; } catch(e){ return 'right'; } })(), sidebarH: (function(){ try { var v = parseFloat(sessionStorage.getItem('kg-sidebar-h')); return (v && v >= 200) ? v : Math.round((typeof window !== 'undefined' ? window.innerHeight : 800) * 0.46); } catch(e){ return 360; } })(), bootMsg: 'fetching the garden \u2026', nodeSizeMul: (function(){ try { var v=parseFloat(sessionStorage.getItem('kg-node-size')); return (v>0)?v:1; } catch(e){ return 1; } })(), edgeWidthMul: (function(){ try { var v=parseFloat(sessionStorage.getItem('kg-edge-width')); return (v>0)?v:1; } catch(e){ return 1; } })(), nodeSizeByDegree: (function(){ try { return sessionStorage.getItem('kg-node-degree') !== '0'; } catch(e){ return true; } })(), nodeColorMode: (function(){ try { return sessionStorage.getItem('kg-node-color')||'category'; } catch(e){ return 'category'; } })(), treeEdgeColor: (function(){ try { return sessionStorage.getItem('kg-tree-color')||'#d8a942'; } catch(e){ return '#d8a942'; } })(), wikiEdgeColor: (function(){ try { return sessionStorage.getItem('kg-wiki-color')||'#8fd0db'; } catch(e){ return '#8fd0db'; } })() };
+  state = { mode: '2d', selectedId: null, ready: false, anim: false, tick: 0, fullPage: false, query: '', searchFocus: false, searchIdx: 0, menuNodeId: null, linkMenu: null, tabs: [], tabsR: [], activePane: 'left', selectedIdR: null, selectedKey: null, selectedKeyR: null, tabNode: {}, tabMenu: null, barMenu: null, metaPopR: null, splitRatio: 0.5, splitPos: (function(){ try { var p = sessionStorage.getItem('kg-split-pos'); return ['right','left','up','down'].indexOf(p) >= 0 ? p : 'right'; } catch(e){ return 'right'; } })(), splitSubOpen: false, legendHidden: (typeof window !== 'undefined' && window.innerWidth < 700), minimapForce: (typeof window !== 'undefined' && window.innerWidth < 700) ? false : undefined, splitHover: false, hoverTab: null, closeHover: null, tabsCollapsedL: false, tabsCollapsedR: false, lockTabWL: 0, lockTabWR: 0, winW: (typeof window !== 'undefined' ? window.innerWidth : 1280), winH: (typeof window !== 'undefined' ? window.innerHeight : 800), searchExpanded: false, headerH: 64, sidebarW: (function(){ try { var v = parseFloat(sessionStorage.getItem('kg-sidebar-w')); return (v && v >= 320) ? v : 452; } catch(e){ return 452; } })(), mdConfig: this.loadMdConfig(), mdConfigOpen: false, mdCfgExpanded: {}, showTree: true, showWiki: true, menuOpen: false, hoverId: null, dragging: false, dockPreview: null, undockLeft: null, undockTop: null, dock: (function(){ try { var d = sessionStorage.getItem('kg-dock'); return ['right','left','bottom','undock'].indexOf(d) >= 0 ? d : 'right'; } catch(e){ return 'right'; } })(), sidebarH: (function(){ try { var v = parseFloat(sessionStorage.getItem('kg-sidebar-h')); return (v && v >= 200) ? v : Math.round((typeof window !== 'undefined' ? window.innerHeight : 800) * 0.46); } catch(e){ return 360; } })(), bootMsg: 'fetching the garden \u2026', nodeSizeMul: (function(){ try { var v=parseFloat(sessionStorage.getItem('kg-node-size')); return (v>0)?v:1; } catch(e){ return 1; } })(), edgeWidthMul: (function(){ try { var v=parseFloat(sessionStorage.getItem('kg-edge-width')); return (v>0)?v:1; } catch(e){ return 1; } })(), nodeSizeByDegree: (function(){ try { return sessionStorage.getItem('kg-node-degree') !== '0'; } catch(e){ return true; } })(), nodeColorMode: (function(){ try { return sessionStorage.getItem('kg-node-color')||'category'; } catch(e){ return 'category'; } })(), treeEdgeColor: (function(){ try { return sessionStorage.getItem('kg-tree-color')||'#d8a942'; } catch(e){ return '#d8a942'; } })(), wikiEdgeColor: (function(){ try { return sessionStorage.getItem('kg-wiki-color')||'#8fd0db'; } catch(e){ return '#8fd0db'; } })() };
 
   MD_CONFIG = [
     { key: 'math', label: 'LaTeX math ($…$)', ex: 'Mass–energy: $E = mc^2$' },
@@ -1106,9 +1109,10 @@ class Component extends DCLogic {
   }
   // Distance from point to segment; used to pick edges connected to the anchored node.
   edgeHitOther(mg) {
-    if (!this.selectedId || !this.graph) return null;
+    const anchorId = this.activeAnchorId();
+    if (!anchorId || !this.graph) return null;
     const links = this.graph.graphData().links;
-    const sel = this.nodeById[this.selectedId];
+    const sel = this.nodeById[anchorId];
     if (!sel || sel.x == null) return null;
     let bestOther = null, bestD = Infinity;
     const px = mg.x, py = mg.y;
@@ -1117,8 +1121,8 @@ class Component extends DCLogic {
       const s = (l.source && l.source.id != null) ? l.source : this.nodeById[l.source];
       const t = (l.target && l.target.id != null) ? l.target : this.nodeById[l.target];
       if (!s || !t || s.x == null || t.x == null) continue;
-      if (s.id !== this.selectedId && t.id !== this.selectedId) continue;
-      const other = s.id === this.selectedId ? t : s;
+      if (s.id !== anchorId && t.id !== anchorId) continue;
+      const other = s.id === anchorId ? t : s;
       const ax = sel.x, ay = sel.y, bx = other.x, by = other.y;
       const dx = bx - ax, dy = by - ay, len2 = dx * dx + dy * dy || 1;
       let u = ((px - ax) * dx + (py - ay) * dy) / len2;
@@ -1184,7 +1188,8 @@ class Component extends DCLogic {
     // Not over a node: highlight an edge connected to the anchored node, if the cursor is near one.
     const edgeOther = this.edgeHitOther(mg);
     if (edgeOther) {
-      if (this.hoverId !== null) { this.hoverId = null; this.setState({ hoverId: null }); }
+      // Preview the far node of the edge in the active tab, just like hovering the node itself.
+      if (this.hoverId !== edgeOther.id) { this.hoverId = edgeOther.id; this.setState({ hoverId: edgeOther.id }); }
       if (this._edgeOther !== edgeOther.id) { this._edgeOther = edgeOther.id; this._kickGraph(); }
       this.setGraphCursor('pointer');
       const key = 'e:' + edgeOther.id;
@@ -1300,7 +1305,7 @@ class Component extends DCLogic {
     }
     this._lastClickId = node.id; this._lastClickT = now;
     clearTimeout(this._clickTimer);
-    this._clickTimer = setTimeout(() => { this._clickTimer = null; this.selectNode(node.id); this.focusNode(node, false); }, 300);
+    this._clickTimer = setTimeout(() => { this._clickTimer = null; if (this.paneIsRight()) { this.navRight(node.id); return; } this.selectNode(node.id); this.focusNode(node, false); }, 300);
   }
   runCollide() {
     if (!this.graph || this._egg) return;
@@ -1679,10 +1684,11 @@ class Component extends DCLogic {
 
   linkKey(l) { const s = (l.source && l.source.id) || l.source; const t = (l.target && l.target.id) || l.target; return s + '->' + t; }
   isEdgeHovered(l) {
-    if (!this._edgeOther || !this.selectedId) return false;
+    const anchorId = this.activeAnchorId();
+    if (!this._edgeOther || !anchorId) return false;
     const s = (l.source && l.source.id != null) ? l.source.id : l.source;
     const t = (l.target && l.target.id != null) ? l.target.id : l.target;
-    return (s === this.selectedId && t === this._edgeOther) || (t === this.selectedId && s === this._edgeOther);
+    return (s === anchorId && t === this._edgeOther) || (t === anchorId && s === this._edgeOther);
   }
   isHot(l) { return this.highlightLinkSet.has(this.linkKey(l)); }
   isPathHot(l) { return this.pathLinkSet ? this.pathLinkSet.has(this.linkKey(l)) : false; }
@@ -2003,6 +2009,12 @@ class Component extends DCLogic {
   }
   // A node is "anchored" in the graph if it's the left selection OR (in split view) the right pane's note.
   isAnchored(id) { return id === this.selectedId || (!!(this.state.tabsR && this.state.tabsR.length) && id === this.state.selectedIdR); }
+  // Which split pane is "active": clicking inside a pane (or its tab strip) marks it active.
+  // Graph interactions (node/edge clicks, open-in-current-tab, wikilink follows) target it.
+  setActivePane(side) { if ((this.state.activePane || 'left') !== side) this.setState({ activePane: side }); }
+  paneIsRight() { return !!(this.state.tabsR && this.state.tabsR.length) && this.state.activePane === 'right'; }
+  // The anchored node of the ACTIVE pane — what edge hover/click resolves against.
+  activeAnchorId() { return this.paneIsRight() ? this.state.selectedIdR : this.selectedId; }
   navStateR() { return (this.navHistByKey || (this.navHistByKey = {}))[this.state.selectedKeyR] || { hist: [], idx: -1 }; }
   // Shared style for the ‹ back / › forward buttons in either pane; greys out when there's nowhere to go.
   navBtnStyle(st, isFwd, fontSize) {
@@ -2210,6 +2222,7 @@ class Component extends DCLogic {
 
   navigateTo(id) {
     if (!this.nodeById[id]) return;
+    if (this.paneIsRight()) { this.navRight(id); return; }   // split view: route to the active (right) pane
     const changed = this.revealPath(id);
     this.selectNode(id);
     const n = this.nodeById[id];
@@ -2657,7 +2670,7 @@ class Component extends DCLogic {
     const savedR = (() => { try { const v = parseFloat(sessionStorage.getItem('kg-split-ratio')); return (v >= 0.2 && v <= 0.8) ? v : 0.5; } catch (e) { return 0.5; } })();
     const ratio = vert ? 0.5 : savedR;   // vertical (up/down) splits start at equal height
     try { sessionStorage.setItem('kg-split-pos', pos); } catch (e) {}
-    const patch = { tabMenu: null, splitSubOpen: false, tabsR, selectedKeyR: key, selectedIdR: this.nodeOf(key), splitRatio: ratio, splitPos: pos };
+    const patch = { tabMenu: null, splitSubOpen: false, tabsR, selectedKeyR: key, selectedIdR: this.nodeOf(key), splitRatio: ratio, splitPos: pos, activePane: 'right' };
     if (tabs.length === 0) {
       // Left group emptied → collapse the split back to a single group.
       patch.tabs = tabsR; patch.tabsR = []; patch.selectedKeyR = null; patch.selectedIdR = null;
@@ -3437,11 +3450,20 @@ class Component extends DCLogic {
     const hover = this.state.hoverId, sel = this.state.selectedId;
     const prevHover = this._prevHover, prevSel = this._prevSel;
     this._prevHover = hover; this._prevSel = sel;
+    // Hover previews follow the active pane — do the enter/leave scroll bookkeeping on that pane.
+    const rightActive = this.paneIsRight();
+    const rel2 = rightActive ? document.getElementById('kg-sidebar-scroll-r') : null;
+    if (rel2) {
+      if (hover && !prevHover) { this._anchorScrollR = rel2.scrollTop; rel2.scrollTop = 0; }
+      else if (!hover && prevHover) { if (this._anchorScrollR != null) rel2.scrollTop = this._anchorScrollR; }
+      else if (hover && prevHover && hover !== prevHover) { rel2.scrollTop = 0; }
+    }
     if (!el) return;
     if (sel !== prevSel) {
       // Anchored to a different node (clicked/navigated): start the new article at the top.
       this._anchorScroll = 0; el.scrollTop = 0; return;
     }
+    if (rightActive) return;   // hover preview is in the right pane; leave the left pane's scroll alone
     if (hover && !prevHover) {
       // Entering a hover preview: show it from the top (anchored scroll already saved on scroll).
       el.scrollTop = 0;
@@ -3972,7 +3994,7 @@ class Component extends DCLogic {
     const veryNarrow = winW <= 430;                      // drop the "knowledge garden" subtitle
     const compact = narrow || shortLandscape;            // collapse toolbar (text -> icons)
     const mobileSB = narrow || shortLandscape;           // mobile sidebar placement
-    const selId = this.state.selectedId ? ((this._resizing ? null : this.state.hoverId) || this.state.selectedId) : null;
+    const selId = this.state.selectedId ? (((this._resizing || this.paneIsRight()) ? null : this.state.hoverId) || this.state.selectedId) : null;
     const sel = selId && this.nodeById ? this.nodeById[selId] : null;
     if (sel) this.ensureBody(sel.id);
 
@@ -4055,7 +4077,11 @@ class Component extends DCLogic {
       };
     };
     const navR = (id) => this.navRight(id);
-    const rNodeEarly = ((this.state.tabsR || []).length && this.state.selectedIdR && this.nodeById) ? this.nodeById[this.state.selectedIdR] : null;
+    // Hover previews (graph nodes, legend, breadcrumbs) render in the ACTIVE pane: when the right
+    // pane is active, the hovered note temporarily replaces its content instead of the left pane's.
+    const rHoverId = (!this._resizing && this.paneIsRight() && this.state.hoverId && this.nodeById && this.nodeById[this.state.hoverId]) ? this.state.hoverId : null;
+    const rShowId = rHoverId || this.state.selectedIdR;
+    const rNodeEarly = ((this.state.tabsR || []).length && rShowId && this.nodeById) ? this.nodeById[rShowId] : null;
     if (rNodeEarly) this.ensureBody(rNodeEarly.id);
     const rPane = buildPane(rNodeEarly, navR);
 
@@ -4246,7 +4272,7 @@ class Component extends DCLogic {
         closeStyle: dotIsClose
           ? { position: 'static', flex: '0 0 auto', margin: '0 auto', width: '18px', height: '18px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '5px', border: 'none', background: closeHovered ? '#3a2218' : 'transparent', color: closeHovered ? '#f0b6a3' : (active ? '#ece1cf' : '#cdbfa6'), cursor: 'pointer', fontSize: '11px', lineHeight: 1, opacity: 1, pointerEvents: 'auto' }
           : { position: 'absolute', right: '4px', top: '50%', transform: 'translateY(-50%)', width: '17px', height: '17px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '5px', border: 'none', background: closeBg, color: closeHovered ? '#f0b6a3' : (active ? '#9a8f7c' : '#8c8170'), cursor: 'pointer', fontSize: '9px', lineHeight: 1, opacity: showCloseAbs ? 1 : 0, pointerEvents: showCloseAbs ? 'auto' : 'none' },
-        onDown: this.startTabDrag(key, side),
+        onDown: (e) => { this.setActivePane(side); const h = this.startTabDrag(key, side); if (typeof h === 'function') h(e); },
         onContext: this.openTabMenu(key, side),
         onClose: (e) => { if (e && e.stopPropagation) e.stopPropagation(); (side === 'left' ? this.closeTab(key) : this.closeTabR(key)); },
         onCloseEnter: () => { const k = side + ':' + key; if (this.state.closeHover !== k) this.setState({ closeHover: k }); },
@@ -4259,7 +4285,7 @@ class Component extends DCLogic {
     const tabItemsR = tabsRArr.map((k) => mkTab(k, 'right'));
 
     // Right split pane content (a focused reading view of its active tab).
-    const rNode = (splitOn && this.state.selectedIdR && this.nodeById) ? this.nodeById[this.state.selectedIdR] : null;
+    const rNode = (splitOn && rShowId && this.nodeById) ? this.nodeById[rShowId] : null;
     if (rNode) this.ensureBody(rNode.id);
     const rightBody = rNode ? (rNode._bodyLoaded
       ? React.createElement('div', { className: this.mc('math') ? 'md-body' : 'md-body kg-no-math', dangerouslySetInnerHTML: { __html: this.mdHtml(this.genMarkdown(rNode)) } })
@@ -4293,8 +4319,17 @@ class Component extends DCLogic {
     const tbSide = (vertSplit && spRev) ? 'right' : 'left';
     const tbAddTab = (vertSplit && spRev) ? (() => this.addRootTab('right')) : (() => this.addRootTab('left'));
 
+    const paneSide = (this.state.activePane === 'right') ? 'right' : 'left';
+    // In a vertical split the bottom pane hosts the tab strip (~39px: 5+28+5 padding + 1px border);
+    // the active-pane glow starts below it so the highlight wraps only the search bar + content.
+    const paneGlow = (on, top) => ({ position: 'absolute', top: (top || 0) + 'px', left: 0, right: 0, bottom: 0, zIndex: 45, pointerEvents: 'none', opacity: on ? 1 : 0, transition: 'opacity .22s', boxShadow: 'inset 0 0 0 1px rgba(216,169,66,0.55), inset 0 0 28px -18px rgba(216,169,66,0.35)' });
     return {
       tabItemsR, splitOn, rightBody,
+      setPaneLeft: () => this.setActivePane('left'),
+      setPaneRight: () => this.setActivePane('right'),
+      paneGlowL: paneGlow(splitOn && paneSide === 'left', primaryInPane ? 39 : 0),
+      paneGlowR: paneGlow(splitOn && paneSide === 'right', secondaryInPane ? 39 : 0),
+      rightPaneStyle: { flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', minHeight: 0, position: 'relative' },
       rightName: rNode ? rNode.name : '',
       rightDate: rNode ? this.formatDates(rNode) : '',
       tabMenuShow, tabMenuStyle,
@@ -4605,11 +4640,14 @@ class Component extends DCLogic {
       menuRoot: mNode ? () => ((mNode.id === this.actingRoot && mNode.id !== this.rootId) ? this.menuUnmake() : this.menuMakeRoot(mNode.id)) : () => {},
       menuNewTab: mNode ? () => this.openInNewTab(mNode.id) : () => {},
       menuOpenHere: mNode ? () => { this.setState({ menuNodeId: null }); this.navigateTo(mNode.id); } : () => {},
+      menuOpenParent: (mNode && mNode.parent != null && this.nodeById[mNode.parent]) ? () => { this.setState({ menuNodeId: null }); this.navigateTo(mNode.parent); } : () => {},
+      menuOpenParentDisabled: !(mNode && mNode.parent != null && this.nodeById[mNode.parent]),
+      menuOpenParentStyle: Object.assign({}, menuBtn, (mNode && mNode.parent != null && this.nodeById[mNode.parent]) ? null : { color: '#4a4337', cursor: 'default' }),
       menuNodeTitle: mNode ? (mNode.name || mNode.title) : '',
       menuTitleHover: (e) => { const span = e && e.currentTarget; if (span && span.parentElement) this.startTabMarquee(span.parentElement, 0); },
       showTabs, showToolbarTabs, splitToolbar, vertSplit, primaryInPane, secondaryInPane, tbTabItems, tbSide, tbAddTab, tabItems,
       leftTabsWrapStyle: (splitOn && !spVert) ? { flex: '0 0 calc(' + Math.round((spRev ? (1 - (this.state.splitRatio || 0.5)) : (this.state.splitRatio || 0.5)) * 100) + '% - ' + (spRev ? 37 : 28) + 'px)', minWidth: 0, display: 'flex', alignItems: 'center' } : { flex: '1 1 0', minWidth: 0, display: 'flex', alignItems: 'center' },
-      leftPaneStyle: splitOn ? { flex: '0 0 ' + Math.round((this.state.splitRatio || 0.5) * 100) + '%', minWidth: 0, display: 'flex', flexDirection: 'column', minHeight: 0 } : { flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', minHeight: 0 },
+      leftPaneStyle: splitOn ? { position: 'relative', flex: '0 0 ' + Math.round((this.state.splitRatio || 0.5) * 100) + '%', minWidth: 0, display: 'flex', flexDirection: 'column', minHeight: 0 } : { position: 'relative', flex: '1 1 0', minWidth: 0, display: 'flex', flexDirection: 'column', minHeight: 0 },
       startSplitResize: this.startSplitResize,
       splitHoverOn: () => { if (!this.state.splitHover) this.setState({ splitHover: true }); },
       splitHoverOff: () => { if (this.state.splitHover) this.setState({ splitHover: false }); },
