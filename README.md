@@ -1,3 +1,4 @@
+
 # /var/log — Knowledge Garden
 
 [![Knowledge Garden preview](docs/preview.png)](https://git.marcuschiu.com/var-log/)
