@@ -326,7 +326,16 @@ for (const dk of dirKeys) {
  * re-parent every top-level entry beneath it. Like other synthesized notes,
  * its body becomes a rendered list of its children (filled below).          */
 const topKeys = Object.keys(recs).filter((k) => recs[k].parentKey === null);
-if (topKeys.length > 1) {
+const multiVault = (function () {
+  try {
+    const cfgPath = path.join(__dirname, 'config.yml');
+    if (fs.existsSync(cfgPath)) { const c = parseYaml(fs.readFileSync(cfgPath, 'utf8')); return String((c.vaults || {}).multi) === 'true'; }
+  } catch (e) {}
+  return false;
+})();
+if (topKeys.length > 1 && multiVault) {
+  console.log(`Multiple vaults: ${topKeys.length} top-level entries kept as independent gardens (vaults.multi: true).`);
+} else if (topKeys.length > 1) {
   let rootTitle = 'vault';
   try {
     const cfgPath = path.join(__dirname, 'config.yml');
@@ -384,15 +393,29 @@ const hashTitle = (title) => crypto.createHash('sha1').update(String(title), 'ut
 const idByKey = {};
 const keyById = {};
 survivors.forEach((k) => {
-  const id = hashTitle(recs[k].title);
+  let id = hashTitle(recs[k].title);
   if (keyById[id] && keyById[id] !== k) {
-    console.warn(`⚠  Title-hash collision: "${recs[k].title}" (${k}) and "${recs[keyById[id]].title}" (${keyById[id]}) both hash to ${id}. The latter wins; rename one note to disambiguate.`);
+    // Same title elsewhere (common across vaults): fall back to hashing the full vault-relative
+    // key, which is unique by construction — both notes keep distinct, stable ids.
+    console.log(`ℹ  Duplicate title "${recs[k].title}" (${k} vs ${keyById[id]}) — id for ${k} derived from its path instead.`);
+    id = hashTitle(k);
   }
   idByKey[k] = id;
   keyById[id] = k;
 });
+// Title → candidate keys (a title may exist in several vaults/folders). Wikilink resolution
+// prefers a candidate in the SAME vault (top-level segment) as the linking note.
+const keysByTitle = {};
+survivors.forEach((k) => { (keysByTitle[recs[k].title] = keysByTitle[recs[k].title] || []).push(k); });
+const vaultOf = (k) => (k.indexOf('/') < 0 ? k : k.slice(0, k.indexOf('/')));
+const resolveTitle = (title, srcKey) => {
+  const cands = keysByTitle[title];
+  if (!cands || !cands.length) return null;
+  if (cands.length > 1 && srcKey) { const v = vaultOf(srcKey); const same = cands.find((c) => vaultOf(c) === v); if (same) return idByKey[same]; }
+  return idByKey[cands[0]];
+};
 const idByTitle = {};
-survivors.forEach((k) => { idByTitle[recs[k].title] = idByKey[k]; });
+survivors.forEach((k) => { if (idByTitle[recs[k].title] == null) idByTitle[recs[k].title] = idByKey[k]; });
 
 /* ---- write per-note body files and metadata-only nodes ---- */
 if (!fs.existsSync(BODY_DIR)) fs.mkdirSync(BODY_DIR, { recursive: true });
@@ -436,7 +459,7 @@ const nodes = survivors.map((k) => {
     title: r.title,
     group: r.fm.group || 'root',
     tags: (r.fm.tags || []).filter((t) => t !== 'private'),
-    links: r.links.map((t) => idByTitle[t]).filter((x) => x && x !== id),
+    links: r.links.map((t) => resolveTitle(t, k)).filter((x) => x && x !== id),
     bodyRef: ref,
     created: r.fm.created || '',
     modified: r.fm.modified || '',
@@ -444,7 +467,14 @@ const nodes = survivors.map((k) => {
 });
 
 const staticFlag = staticBanner();   // runs the layout FIRST so x/y are baked into the JSON below
-fs.writeFileSync(OUT, 'window.GARDEN_NODES = ' + JSON.stringify(nodes) + ';\n' + staticFlag);
+// Vault roots (post-private-filtering): every top-level note. The app shows a switcher when >1.
+const vaultRoots = survivors
+  .filter((k) => recs[k].parentKey === null)
+  .map((k) => ({ id: idByKey[k], name: recs[k].title }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+const vaultsLine = 'window.GARDEN_VAULTS = ' + JSON.stringify(vaultRoots) + ';\n';
+fs.writeFileSync(OUT, 'window.GARDEN_NODES = ' + JSON.stringify(nodes) + ';\n' + vaultsLine + staticFlag);
+if (vaultRoots.length > 1) console.log(`Wrote ${vaultRoots.length} vault roots (switcher enabled).`);
 
 /* ──── optional precomputed static layout (config.yml → layout.precompute) ────
  * Runs the same force simulation the browser would (charge −55, link distance
